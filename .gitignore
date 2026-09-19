@@ -1,0 +1,18 @@
+# environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# cached upstream payloads -- free sources rate-limit, so keep them locally
+.cache/
+
+# generated output
+data/
+out/
+
+# keep the hand-written references
+!references/

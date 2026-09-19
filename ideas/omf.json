@@ -1,0 +1,54 @@
+{
+  "ticker": "OMF",
+  "direction": "short",
+  "as_of": "2026-09-19",
+  "generated_by": "fig packet OMF (live 2026-09-19); structure via --catalyst-index 1 --credit-target 0.15",
+  "description": "Lends to borrowers banks turn down: personal loans, auto finance, credit cards.",
+  "reasons": [
+    "Net income fell 33% quarter over quarter while receivables still grew, so growth is being bought with looser credit.",
+    "Provisions rose 31% quarter over quarter and EPS fell year over year, 1.45 to 1.31, while estimates tilted lower at 6 up against 8 down over 30 days.",
+    "8.6x earnings only looks cheap if credit holds; provisions rising 31% a quarter would cut earnings and force a re-rating lower."
+  ],
+  "quants": {
+    "price": 60.81,
+    "market_cap": "7.0B",
+    "fwd_pe": 8.6,
+    "fwd_pe_basis": "current FY, Dec 2026 consensus",
+    "ps": 2.3,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted lower, with 6 up and 8 down over 30 days",
+    "extra": [
+      "Last reported quarter: net income -33% quarter over quarter, provisions +31%",
+      "Q2 EPS declined year over year, 1.45 -> 1.31",
+      "Counterpoint in the tape: management reports early-stage delinquencies improving, so the thesis needs the next two prints"
+    ]
+  },
+  "structuring": {
+    "thesis_target": "Targeting the late-January report allows two quarters for the credit story to play out.",
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Feb-27",
+        "strike": 57.5,
+        "qty": 12,
+        "underlying": 60.81,
+        "multiplier": 100,
+        "price": 3.48,
+        "total": 4176.0
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 57.5,
+        "qty": 8,
+        "underlying": 60.81,
+        "multiplier": 100,
+        "price": 0.77,
+        "total": -616.0
+      }
+    ],
+    "reflection": "Credit is 14.8% mid but exactly 10.0% if priced against me, so the floor only holds at eight shorts; the seven the ladder suggests first would be 8.8%."
+  }
+}

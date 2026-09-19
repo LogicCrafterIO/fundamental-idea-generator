@@ -1,0 +1,53 @@
+{
+  "ticker": "ORCL",
+  "direction": "long",
+  "as_of": "2026-09-19",
+  "generated_by": "fig packet ORCL --peers GOOG,SNOW (live 2026-09-19)",
+  "description": "Formerly databases and SaaS, now mostly AI infrastructure: data centers, cloud, and the database underneath.",
+  "reasons": [
+    "Estimates rose over the last 30 days while the stock fell more than 20% this year, so the market is pricing a decline the analysts do not see.",
+    "It trades at 13.4x next year's earnings against Google on 23.2x, so the AI backlog is not priced in.",
+    "Snowflake trades at 21x sales for software and data without the infrastructure; Oracle has all three at 6x sales.",
+    "The market is overpricing GPU depreciation and the debt behind the buildout, since both are already visible in guidance."
+  ],
+  "quants": {
+    "price": 147.61,
+    "market_cap": "446.33B",
+    "fwd_pe": 18.1,
+    "fwd_pe_basis": "current FY, May 2027 consensus",
+    "ps": 6.2,
+    "eps_trend": "slightly up over the last 7 days",
+    "eps_revisions": "all up, with 4 up and 0 down over 30 days",
+    "extra": [
+      "Last reported quarter: net income +11% quarter over quarter, EPS 1.47 -> 1.92 year over year"
+    ]
+  },
+  "structuring": {
+    "thesis_target": "Targeting the 10-Dec-26 report gives the backlog conversion one quarter to show up.",
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "18-Dec-26",
+        "strike": 155.0,
+        "qty": 3,
+        "underlying": 147.61,
+        "multiplier": 100,
+        "price": 13.88,
+        "total": 4164.0
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 155.0,
+        "qty": 2,
+        "underlying": 147.61,
+        "multiplier": 100,
+        "price": 4.83,
+        "total": -966.0
+      }
+    ],
+    "reflection": "Credit is 23.2% mid, 22.6% if priced against me, so halving it still clears the 10% floor. The short dies before the December report, so it decays without event risk."
+  }
+}
