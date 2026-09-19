@@ -1,7 +1,7 @@
 {
   "symbol": "OMF",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T21:53:18",
+  "generated_at": "2026-09-19T23:17:52",
   "profile": {
     "symbol": "OMF",
     "name": "OneMain Holdings, Inc.",
@@ -1016,50 +1016,98 @@
   },
   "forward_trends": {
     "queries": [
-      "US nonprime consumer lending market outlook 2026 2027",
-      "subprime auto finance delinquencies used car values forecast 2026",
-      "fintech BNPL competition personal installment loans 2026",
-      "lower-income US consumer wage growth debt burden 2026 2027"
+      "nonprime consumer loan demand 2026 outlook",
+      "subprime auto loan delinquencies 2026 forecast",
+      "lower income consumer spending debt trends 2026",
+      "fintech personal loans competition traditional lenders 2026"
     ],
-    "results_count": 20,
+    "results_count": 19,
+    "results_dated": 17,
     "trends": [
       {
-        "claim": "Weaker job market and inflation are expected to deteriorate consumer loan ABS collateral, especially subprime consumer loans.",
-        "why": "This could raise credit losses and delinquencies in OneMain's nonprime consumer loan portfolio.",
-        "quote": "we expect to see some deterioration in the performance of the collateral underlying consumer asset-backed securities (ABS), notably across subprime auto loans/leases and consumer loans.",
-        "url": "https://dbrs.morningstar.com/research/471274/2026-us-abs-outlook-the-consumer-remains-in-focus",
-        "publisher": "dbrs.morningstar.com"
+        "claim": "As of Q1 2026, consumer lenders' six-month business outlook remained positive on balance.",
+        "stance": "support",
+        "why": "Positive lender sentiment supports continued credit availability and loan demand into late 2026.",
+        "quote": "business outlook over the next six months remained positive on balance in the first quarter of 2026",
+        "url": "https://www.caseforcredit.com/wp-content/uploads/2026/05/AFSA-Consumer-Credit-Conditions-Index-2026-Q1.pdf",
+        "publisher": "caseforcredit.com",
+        "as_of": "2026-05-01",
+        "age_days": 141,
+        "undated": false
       },
       {
-        "claim": "Non-prime consumers face mounting debt pressures as the credit market splits along a K-shaped path.",
-        "why": "OneMain's core nonprime borrowers may struggle more with existing debt, increasing default risk.",
-        "quote": "non-prime consumers face mounting debt pressures",
-        "url": "https://newsroom.transunion.com/k-shaped-q1-2026-ciir/",
-        "publisher": "newsroom.transunion.com"
+        "claim": "In 2026, unsecured personal loan balances rose 9.6% year over year to $281 billion.",
+        "stance": "support",
+        "why": "Expanding market demand supports OneMain's loan growth opportunities.",
+        "quote": "Outstanding balances climbed 9.6% year over year to $281 billion, and originations rose 19.5%.",
+        "url": "https://eligen.io/2026/09/14/fintech-45-percent-personal-loan-originations-prescreen-timing/",
+        "publisher": "eligen.io",
+        "as_of": "2026-09-14",
+        "age_days": 5,
+        "undated": false
       },
       {
-        "claim": "Lower-income wage growth has reversed to outpace higher earners, rising 4.7% annually.",
-        "why": "Improving income for OneMain's lower-income borrowers could support repayment and reduce credit losses.",
-        "quote": "Lower-income wages rose 4.7% annually",
-        "url": "https://www.indexbox.io/blog/lower-income-wage-growth-outpaces-higher-earners-bank-of-america-says/",
-        "publisher": "indexbox.io"
+        "claim": "In 2026, more consumers are turning to personal loans to manage day-to-day financial stress.",
+        "stance": "support",
+        "why": "Rising demand for debt consolidation and expense coverage supports OneMain's loan volumes.",
+        "quote": "more consumers are turning to personal loans to manage day-to-day financial stress",
+        "url": "https://www.jdpower.com/sites/default/files/file/2026-05-18/2026041%20U.S.%20Consumer%20Lending%20Study.pdf",
+        "publisher": "jdpower.com",
+        "as_of": "2026-05-18",
+        "age_days": 124,
+        "undated": false
       },
       {
-        "claim": "Subprime auto loan delinquencies are at historic highs and used vehicle values are volatile.",
-        "why": "OneMain's auto-secured loans face higher borrower defaults and weaker collateral recovery values.",
-        "quote": "Subprime delinquency rates are at historic highs, while used vehicle values have experienced significant volatility.",
-        "url": "https://www.blackbook.com/wp-content/uploads/2026/03/2026-Auto-Lending-Risk-Brief.pdf",
-        "publisher": "blackbook.com"
+        "claim": "In 2026, fintechs took 45% of personal loan originations, up 5.2 points year over year.",
+        "stance": "pressure",
+        "why": "Fintech competition could pressure OneMain's market share and pricing in personal loans.",
+        "quote": "Fintechs originated 45%, up 5.2 points in a single year.",
+        "url": "https://eligen.io/2026/09/14/fintech-45-percent-personal-loan-originations-prescreen-timing/",
+        "publisher": "eligen.io",
+        "as_of": "2026-09-14",
+        "age_days": 5,
+        "undated": false
       },
       {
-        "claim": "Wholesale used-vehicle prices are softening year over year after elevated first-half levels.",
-        "why": "Falling used-vehicle values reduce collateral recovery on OneMain's auto-secured loans if borrowers default.",
-        "quote": "The Manheim index was down 0.4% compared to September 2025, softening from the elevated levels recorded in the first half of the year.",
-        "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
-        "publisher": "coxautoinc.com"
+        "claim": "As of September 2026, higher prices and new expenses, not income, are driving increased consumer spending.",
+        "stance": "pressure",
+        "why": "Borrowers' budgets are squeezed, raising default risk for OneMain's subprime loan book.",
+        "quote": "elevated prices and new expenses are the primary spend drivers, while only 14% cite higher income",
+        "url": "https://www.icsc.com/uploads/research/general/ICSC_Summer_2026_Consumer_Economy_Report_Executive_Brief_FINAL1.pdf",
+        "publisher": "icsc.com",
+        "as_of": "2026-09-01",
+        "age_days": 18,
+        "undated": false
       }
     ],
-    "dropped": []
+    "dropped": [
+      {
+        "claim": "In 2026, TransUnion forecasts unsecured personal loan originations will drive consumer credit growth.",
+        "stance": "support",
+        "why": "Rising origination volumes support OneMain's core personal loan business.",
+        "quote": "TransUnion forecasts that unsecured personal loan originations will drive consumer credit growth in 2026.",
+        "url": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
+        "publisher": "cnbc.com",
+        "as_of": "2026-02-20",
+        "age_days": 211,
+        "undated": false,
+        "drop_reason": "stale (211 days old)"
+      },
+      {
+        "claim": "In 2026, subprime borrowers are fueling a surge in personal loan demand.",
+        "stance": "support",
+        "why": "OneMain's core subprime borrower segment is driving loan growth.",
+        "quote": "Subprime borrowers fuel surge in personal loans",
+        "url": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
+        "publisher": "cnbc.com",
+        "as_of": "2026-02-20",
+        "age_days": 211,
+        "undated": false,
+        "drop_reason": "stale (211 days old)"
+      }
+    ],
+    "stale_dropped": 2,
+    "max_age_days": 180
   },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",

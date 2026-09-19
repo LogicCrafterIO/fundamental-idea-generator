@@ -2,7 +2,7 @@
   "ticker": "OMF",
   "direction": "short",
   "as_of": "2026-09-19",
-  "description": "Nonprime consumer loan lender with personal loans, auto finance, and credit cards.",
+  "description": "Nonprime consumer lender offering personal loans, auto finance, and credit cards.",
   "catalyst": {
     "date": "2026-10-30",
     "weekday": "Friday",
@@ -48,12 +48,12 @@
     "beat_streak": 4,
     "median_gap_days": 91,
     "facts_line": "2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88.",
-    "why": "The Q3 report must show credit losses and delinquencies rising enough to miss the $1.88 consensus, proving deterioration has reached reported numbers."
+    "why": "The October report must show provisions for auto and personal loan losses jumping enough to miss consensus earnings per share."
   },
   "reasons": [
-    "Subprime auto loan delinquencies hit 6.8% at the start of 2026, the worst in 32 years, and wholesale used-vehicle prices are softening year over year, so OneMain's auto-secured loans face higher defaults and lower collateral recovery.",
-    "Net income fell 32.7% quarter over quarter and operating profit fell 15.4%, yet consensus for Q3 is $1.88; nonprime borrowers face mounting debt pressures that will push credit losses higher.",
-    "OneMain's receivables grew 7% year over year as credit card and auto finance portfolios scaled, but that growth is into the weakest part of the consumer credit cycle, so losses will follow."
+    "Subprime auto loan delinquencies hit their worst rate in 32 years (6.8% at start of 2026), and severe delinquencies are rising even as new ones stay stable, meaning OneMain's auto finance losses will accelerate.",
+    "Fintechs originated 45% of U.S. personal loans, up 5.2 points in one year, squeezing OneMain's core unsecured lending on both volume and price.",
+    "Net income fell 32.7% quarter over quarter and earnings per share revisions are tilted lower (6 up, 8 down), yet the stock still trades at 7.08x next-FY consensus; the October report will force estimates down."
   ],
   "quants": {
     "price": 60.81,
@@ -97,7 +97,7 @@
       }
     ],
     "thesis_target": "Targets the 2026-10-30 report, with the long leg expiring 2026-11-20, which gives the deterioration time to show up.",
-    "reflection": "The conservative credit ratio is 7.9%, below the 10% floor; selling two more short puts clears it but adds early assignment risk if OMF drops hard before October 16. Net debit is $3,888."
+    "reflection": "The conservative credit ratio is 7.9%, below the 10% floor; selling two more short contracts clears it but adds upside risk if the stock rallies before October expiry. The net debit is $3,888, so the credit is thin relative to the downside needed."
   },
   "generation": {
     "model": "deepseek-v4-pro:0813",
@@ -109,6 +109,20 @@
         "errors": 0,
         "warnings": 2,
         "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
       }
     ],
     "grounding": {
@@ -116,6 +130,88 @@
       "unsupported": [],
       "grounded": true,
       "ratio": 1.0
-    }
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "delinquencies",
+          "fintech",
+          "fintechs",
+          "losses",
+          "onemain",
+          "originated",
+          "points",
+          "severe",
+          "share",
+          "stable",
+          "subprime",
+          "unsecured",
+          "worst"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 3,
+        "trends_available": 4,
+        "trends_used": [
+          "billion",
+          "delinquencies",
+          "future",
+          "lenders",
+          "loosened",
+          "onemain",
+          "record",
+          "secured",
+          "september",
+          "wrote"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "borrowers",
+          "budgets",
+          "default",
+          "driving",
+          "fintech",
+          "fintechs",
+          "onemain",
+          "originations",
+          "points",
+          "prices",
+          "pricing",
+          "share",
+          "squeezed",
+          "subprime"
+        ]
+      }
+    ]
   }
 }

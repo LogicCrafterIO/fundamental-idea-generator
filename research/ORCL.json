@@ -2,7 +2,7 @@
   "ticker": "ORCL",
   "direction": "long",
   "as_of": "2026-09-19",
-  "description": "Enterprise software and cloud infrastructure company; sells database, business planning, and AI cloud services.",
+  "description": "Enterprise software and cloud infrastructure provider; sells database, ERP [enterprise resource planning], and cloud services.",
   "catalyst": {
     "date": "2026-12-10",
     "weekday": "Thursday",
@@ -45,12 +45,12 @@
     "beat_streak": 4,
     "median_gap_days": 91,
     "facts_line": "2026-12-10 (Thursday), 82 days out -- from the earnings calendar, consensus EPS 1.89.",
-    "why": "Report must show cloud backlog converting to revenue and EPS beating 1.89, confirming AI demand is reaching the income statement."
+    "why": "The December report must show cloud revenue growth near 30% and backlog converting to revenue, proving cloud demand is durable."
   },
   "reasons": [
-    "Because Oracle's $300B OpenAI backlog converts to recognized revenue over coming quarters, EPS will rise, leading the market to re-rate the stock from 13.4x next-FY EPS.",
-    "Because analysts have raised EPS estimates four times in 30 days (from $8.05 to $8.14) after four consecutive beats, they are still catching up, so further upward revisions will push the stock higher.",
-    "Because 78% of enterprises plan to raise AI infrastructure spending by 25%+ in 2026, Oracle's cloud revenue growth will accelerate from 30% y/y toward the 49.5% AI spending growth, lifting future earnings."
+    "Because AI-enabled cloud ERP spending is forecast to jump from 14% in 2024 to 62% by 2027, Oracle's Fusion and NetSuite applications are positioned to capture that shift, lifting revenue.",
+    "Because Oracle's $300 billion OpenAI deal and massive cloud backlog mean future revenue is already contracted, converting that backlog to recognized revenue will close the gap between 13.4x forward earnings and 30% revenue growth.",
+    "Because analysts raised EPS estimates four times in 30 days with zero cuts and Oracle beat consensus in each of the last four quarters, most recently by 10.4%, the upward trend leads to higher stock price."
   ],
   "quants": {
     "price": 147.61,
@@ -94,7 +94,7 @@
       }
     ],
     "thesis_target": "Targets the 2026-12-10 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.",
-    "reflection": "Credit ratio 22.6% clears the 10% floor with room. The short October 155 calls cap upside before December earnings; if the stock runs early, the position gives back gains. Net debit $3,198 is modest relative to a $446B name."
+    "reflection": "The credit ratio clears the floor, but the short call at 155 expiring October 16 caps upside if the stock runs before December earnings. Net debit $3,198 is acceptable for a three-leg ratio; the main risk is early assignment on the short calls if ORCL spikes above 155."
   },
   "generation": {
     "model": "deepseek-v4-pro:0813",
@@ -109,13 +109,34 @@
       },
       {
         "round": 1,
+        "score": 59,
+        "errors": 2,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
         "score": 82,
         "errors": 1,
         "warnings": 0,
         "unsupported_figures": []
       },
       {
-        "round": 2,
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
         "score": 100,
         "errors": 0,
         "warnings": 0,
@@ -123,10 +144,72 @@
       }
     ],
     "grounding": {
-      "checked": 10,
+      "checked": 9,
       "unsupported": [],
       "grounded": true,
       "ratio": 1.0
-    }
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "no-evidence",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 1,
+      "mixed": 1,
+      "majority": "contradicts",
+      "agreement": 0.33
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 82,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "budget",
+          "buyers",
+          "capex",
+          "center",
+          "earlier",
+          "expect",
+          "hyperscaler",
+          "oracle",
+          "september",
+          "spring"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "no-evidence",
+        "supportive": 0,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "estimate",
+          "forecast"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "application",
+          "applications",
+          "forecast",
+          "oracle",
+          "shift"
+        ]
+      }
+    ]
   }
 }

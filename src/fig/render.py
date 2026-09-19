@@ -117,6 +117,27 @@ def render_writeup(writeup: dict, *, include_lint: bool = False) -> str:
         # Structuring is optional, but its absence is stated rather than hidden.
         out.append(f"[no option structure: {writeup['structure_error']}]")
 
+    # The sampled verdict belongs in the note, not only in the index JSON: a reader
+    # of the .md should be able to see that a thesis was contradicted by its own
+    # end-market evidence in 2 of 3 runs without opening a second file.
+    generation = writeup.get("generation") or {}
+    verdict = generation.get("verdict") or {}
+    if verdict.get("samples"):
+        out.append("")
+        out.append("Evidence")
+        confirmed = verdict.get("confirmed") or 0
+        contradicted = verdict.get("contradicted") or 0
+        mixed = verdict.get("mixed") or 0
+        parts = [f"{confirmed} of {verdict['samples']} sampled run(s) confirmed"]
+        if contradicted:
+            parts.append(f"{contradicted} contradicted")
+        if mixed:
+            parts.append(f"{mixed} mixed or no evidence")
+        out.append(
+            f"End-market research, sampled {verdict['samples']} times because the "
+            f"evidence is qualitative: " + ", ".join(parts) + "."
+        )
+
     text = "\n".join(out).rstrip() + "\n"
     if include_lint:
         result = lint_writeup(writeup)

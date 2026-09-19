@@ -197,6 +197,14 @@ def screen_symbol(symbol: str) -> dict:
     return out
 
 
+# Ideas are capped by share price. The reason is practical, not stylistic: the
+# reference structures size a position from a ~$4,500 capital unit against
+# 100-share contracts, and a high-priced underlying breaks that arithmetic -- AZO
+# at ~$2,855 had a single option contract costing $13,275, three times the unit.
+# A $150 ceiling keeps a normal position tradeable inside the unit.
+DEFAULT_MAX_PRICE = 150.0
+
+
 def _score(row: dict) -> tuple[str, float, dict]:
     """Additive, inspectable triage score with a direction hint.
 
@@ -308,6 +316,7 @@ def rank_candidates(
     min_score: float = 25.0,
     require_structure: bool = True,
     require_positive_pe: bool = True,
+    max_price: float | None = DEFAULT_MAX_PRICE,
 ) -> list[dict]:
     """Sort screened rows by score, after gating out names the format can't hold.
 
@@ -324,7 +333,8 @@ def rank_candidates(
     the next monthly expiry). Early on, gating on the latter mislabelled COST,
     CTAS, AZO and PAYX as having no options at all.
 
-    Both gates are on by default and can be relaxed for exploratory scans.
+    Three gates are on by default and can be relaxed for exploratory scans. The
+    price gate is described at :data:`DEFAULT_MAX_PRICE`.
     """
     usable = []
     for row in rows:
@@ -339,6 +349,9 @@ def rank_candidates(
                 continue
         if require_positive_pe and (row.get("fwd_pe") is None or row["fwd_pe"] <= 0):
             row["gated"] = "loss-making (fwd PE not meaningful)"
+            continue
+        if max_price is not None and (row.get("price") or 0) >= max_price:
+            row["gated"] = f"share price ${row.get('price')} is at or above the ${max_price:.0f} cap"
             continue
         if (row.get("score") or 0) < min_score:
             row["gated"] = "below score floor"

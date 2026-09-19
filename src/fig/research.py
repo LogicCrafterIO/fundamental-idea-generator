@@ -42,12 +42,18 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date, datetime
 from typing import Any
 
 from .sources import ollama
 
 MAX_QUERIES = 4
 MAX_CLAIMS = 5
+# A trend older than this is not "forward-looking" any more. Observed in practice:
+# a PAYX trend described the second half of 2025 and the writer presented it as a
+# current condition nine months later. Stale evidence is worse than no evidence,
+# because it reads exactly like fresh evidence.
+MAX_TREND_AGE_DAYS = 180
 # Snippets are long; this is what the synthesiser actually reads.
 SNIPPET_CHARS = 900
 
@@ -75,6 +81,9 @@ Rules:
 target the INDUSTRY or the CUSTOMER SEGMENT, so the results are not just \
 company press releases about itself.
 - No queries about the share price, valuation, or analyst ratings.
+- Prefer the CURRENT period: today is {today}. Add the current year where it helps
+  surface recent reporting, because evidence more than {max_age_days} days old is
+  discarded and evidence about last year is close to useless.
 
 Return ONLY JSON: {{"queries": ["...", "..."]}}"""
 
@@ -107,7 +116,13 @@ HARD RULES:
 - If the results do not support a trend, return fewer trends. Returning an empty
   list is better than inventing one.
 - If the results contain evidence pointing BOTH ways on the same issue, return both
-  as separate trends with opposite stances. Do not silently pick one side: a source
+  as separate trends with opposite stances.
+- STATE THE PERIOD the evidence covers, inside the claim ("in the first half of
+  2026", "as of June 2026"). Never present an older period as though it were
+  current: an item dated 2025 describing 2025 conditions is not forward-looking
+  for a report due later in 2026.
+- Strongly prefer the most recent evidence. If only older evidence is available for
+  a trend, say so in the claim rather than implying it is current. Do not silently pick one side: a source
   saying hiring is cooling and another saying it is accelerating are both findings,
   and the disagreement is itself informative.
 
@@ -115,6 +130,84 @@ Return ONLY JSON: {{"trends": [{{"claim": "...", "why": "...", "quote": "...", "
 
 SEARCH RESULTS:
 {results}"""
+
+
+# Explicit dates only. packet._date_from_text also matches yearless forms like
+# "Sept 18" and assumes the current year -- fine for ordering headlines, actively
+# harmful here, because it would make a stale article look current.
+_EXPLICIT_PATTERNS = (
+    re.compile(r"\b(20\d{2})-(\d{2})-(\d{2})\b"),
+    re.compile(
+        r"\b(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?,?\s+(20\d{2})\b",
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),?\s+(20\d{2})\b",
+        re.IGNORECASE,
+    ),
+    # Month-and-year only ("in December 2025", "as of March 2026"). This form is
+    # how stale evidence usually presents itself, so missing it was the bug.
+    re.compile(
+        r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(20\d{2})\b",
+        re.IGNORECASE,
+    ),
+)
+_URL_DATE_RE = re.compile(r"/(20\d{2})[/-](\d{1,2})(?:[/-](\d{1,2}))?[/-]")
+_MONTHS = {
+    m: i
+    for i, m in enumerate(
+        ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
+        start=1,
+    )
+}
+
+
+def _safe_date(year: int, month: int, day: int) -> date | None:
+    try:
+        parsed = date(year, month, day)
+    except ValueError:
+        return None
+    # A date in the future is a mention, not a publication date.
+    return parsed if parsed <= date.today() else None
+
+
+def source_date(text: str, url: str | None = None) -> date | None:
+    """Newest explicit publication date recoverable from a result, or None.
+
+    A URL path date (`/2026/09/18/`) is trusted first: it is machine-generated
+    and cannot be a stray mention in the body. Otherwise the newest explicit date
+    in the text is used, which for a dated news page is its publication date.
+    """
+    if url:
+        match = _URL_DATE_RE.search(str(url))
+        if match:
+            year, month = int(match.group(1)), int(match.group(2))
+            day = int(match.group(3)) if match.group(3) else 1
+            found = _safe_date(year, month, day)
+            if found:
+                return found
+
+    candidates: list[date] = []
+    for index, pattern in enumerate(_EXPLICIT_PATTERNS):
+        for match in pattern.finditer(text or ""):
+            if index == 0:
+                found = _safe_date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            elif index == 1:
+                month = _MONTHS.get(match.group(2)[:3].lower())
+                found = _safe_date(int(match.group(3)), month, int(match.group(1))) if month else None
+            elif index == 2:
+                month = _MONTHS.get(match.group(1)[:3].lower())
+                found = _safe_date(int(match.group(3)), month, int(match.group(2))) if month else None
+            else:
+                month = _MONTHS.get(match.group(1)[:3].lower())
+                found = _safe_date(int(match.group(2)), month, 1) if month else None
+            if found:
+                candidates.append(found)
+    return max(candidates) if candidates else None
+
+
+def _age_days(found: date | None) -> int | None:
+    return (date.today() - found).days if found else None
 
 
 def _normalise(text: str) -> str:
@@ -147,9 +240,9 @@ def plan_queries(
     """
     name = company_name or symbol
     fallback = [
-        f"{name} industry outlook demand trends",
-        f"{name} competitors disruption market share",
-        f"{name} customers spending hiring trends",
+        f"{name} industry outlook {date.today().year} demand trends",
+        f"{name} competitors disruption market share {date.today().year}",
+        f"{name} customers spending hiring trends latest",
     ]
     if not ollama.has_key():
         return fallback[:max_queries]
@@ -160,6 +253,8 @@ def plan_queries(
         description=(description or "not supplied")[:400],
         summary=(summary or "not supplied")[:1200],
         max_queries=max_queries,
+        today=date.today().isoformat(),
+        max_age_days=MAX_TREND_AGE_DAYS,
     )
     try:
         reply = ollama.chat(
@@ -185,12 +280,35 @@ def plan_queries(
 def _format_results(results: list[dict]) -> str:
     blocks = []
     for index, item in enumerate(results, start=1):
+        age = item.get("age_days")
+        if age is None:
+            stamp = "date unknown"
+        elif age <= 45:
+            stamp = f"published {item['source_date']} ({age} days old)"
+        else:
+            stamp = f"published {item['source_date']} ({age // 30} months old)"
         blocks.append(
             f"[{index}] {item.get('title')}\n"
             f"URL: {item.get('url')}\n"
+            f"DATE: {stamp}\n"
             f"{(item.get('content') or '')[:SNIPPET_CHARS]}"
         )
     return "\n\n".join(blocks)
+
+
+def _supporting_results(quote: str, results: list[dict]) -> list[dict]:
+    """Results whose text actually contains the quote."""
+    needle = _normalise(quote)
+    if not needle:
+        return []
+    words = needle.split()
+    head = " ".join(words[:12]) if len(words) > 12 else needle
+    supporting = []
+    for item in results:
+        haystack = _normalise(f"{item.get('content') or ''} {item.get('title') or ''}")
+        if needle in haystack or head in haystack:
+            supporting.append(item)
+    return supporting
 
 
 def _quote_is_supported(quote: str, results: list[dict]) -> bool:
@@ -254,6 +372,18 @@ def forward_trends(
             "skipped": "no search results",
         }
 
+    # Date every result, then hand the dates to the synthesiser so it can prefer
+    # recent sources rather than trusting whatever ranked highest.
+    dated = 0
+    for item in results:
+        found = source_date(
+            f"{item.get('title','')} {item.get('content','')}", item.get("url")
+        )
+        item["source_date"] = found.isoformat() if found else None
+        item["age_days"] = _age_days(found)
+        if found:
+            dated += 1
+
     prompt = SYNTH_PROMPT.format(
         symbol=symbol, name=name, results=_format_results(results)
     )
@@ -289,20 +419,42 @@ def forward_trends(
             "url": item.get("url"),
             "publisher": _publisher(item.get("url")),
         }
-        if _quote_is_supported(quote, results):
-            kept.append(record)
-        else:
+        supporting = _supporting_results(quote, results)
+        newest = None
+        for item in supporting:
+            found = item.get("source_date")
+            if found and (newest is None or found > newest):
+                newest = found
+        record["as_of"] = newest
+        record["age_days"] = _age_days(date.fromisoformat(newest)) if newest else None
+        record["undated"] = newest is None
+
+        if not _quote_is_supported(quote, results):
             # Unsupported: the claim may be fluent and plausible and still not be
             # in the evidence, which is precisely why it is dropped.
+            record["drop_reason"] = "quote_not_found_in_results"
             dropped.append(record)
+        elif record["age_days"] is not None and record["age_days"] > MAX_TREND_AGE_DAYS:
+            # Stale evidence reads exactly like fresh evidence, so it is worse than
+            # no evidence. Dropped rather than shown with a caveat the writer may
+            # ignore.
+            record["drop_reason"] = f"stale ({record['age_days']} days old)"
+            dropped.append(record)
+        else:
+            kept.append(record)
         if len(kept) >= MAX_CLAIMS:
             break
 
     return {
         "queries": planned,
         "results_count": len(results),
+        "results_dated": dated,
         "trends": kept,
         "dropped": dropped,
+        "stale_dropped": sum(
+            1 for d in dropped if str(d.get("drop_reason", "")).startswith("stale")
+        ),
+        "max_age_days": MAX_TREND_AGE_DAYS,
     }
 
 
@@ -316,12 +468,51 @@ def _publisher(url: Any) -> str | None:
     return host[4:] if host.startswith("www.") else host
 
 
+def evidence_verdict(trends: list[dict], direction: str) -> dict:
+    """Does the end-market evidence point with the idea or against it?
+
+    Deliberately mechanical, because the whole point of sampling is that the
+    qualitative evidence varies between runs. For a SHORT, end-market *pressures*
+    support the thesis and *supports* argue against it; for a LONG the reverse.
+    Running the research several times and counting these verdicts turns the
+    non-determinism into a confidence measure rather than a defect to be papered
+    over: "confirmed in 3 of 3 samples" carries information that one run cannot.
+    """
+    supportive = adverse = 0
+    for trend in trends or []:
+        stance = (trend.get("stance") or "unspecified").lower()
+        if stance == "unspecified":
+            continue
+        bearish = stance == "pressure"
+        with_idea = bearish if direction.lower() == "short" else not bearish
+        if with_idea:
+            supportive += 1
+        else:
+            adverse += 1
+
+    if not supportive and not adverse:
+        verdict = "no-evidence"
+    elif supportive > adverse:
+        verdict = "confirms"
+    elif adverse > supportive:
+        verdict = "contradicts"
+    else:
+        verdict = "mixed"
+    return {"verdict": verdict, "supportive": supportive, "adverse": adverse}
+
+
 def trends_for_prompt(research: dict) -> list[str]:
     """Compact lines for the evidence block."""
     lines = []
     for trend in research.get("trends") or []:
         stance = trend.get("stance")
         tag = f"[{stance}] " if stance and stance != "unspecified" else ""
+        when = trend.get("as_of")
+        if when:
+            age = trend.get("age_days") or 0
+            tag += f"[{when}{'' if age <= 45 else f', {age // 30}mo old'}] "
+        elif trend.get("undated"):
+            tag += "[date unknown] "
         line = f"  - {tag}{trend['claim']}"
         if trend.get("why"):
             line += f" (reaches the company because: {trend['why']})"

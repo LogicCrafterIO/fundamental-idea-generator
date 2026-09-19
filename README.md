@@ -159,6 +159,64 @@ the end market, that is an **error** and the writer has to try again. The check
 ignores words already in the company's own Description, so "payroll" for Paychex
 cannot count as evidence about its customers.
 
+### The share-price cap
+
+Ideas are capped at **$150 per share**, enforced in the screen and again before any
+research is done (`--max-price`, or `0` to disable). The reason is arithmetic
+rather than taste: the reference structures size a position from a ~$4,500 capital
+unit against 100-share contracts, so the cap is what makes a normal position fit.
+
+It is not a judgement on expensive companies. AZO at ~$2,855 needed $13,275 for a
+single option contract -- three times the unit -- and COST at $895 needed $3,785.
+Rejected names are listed in the index with the price that excluded them, so the
+policy's effect stays visible instead of silently shrinking the universe.
+
+### Ranking, and what it is not
+
+`fig rank` orders a folder by **conviction**, built from stated components: catalyst
+proximity (0.20), 7-day/30-day estimate-revision agreement (0.20), current lint
+score (0.10), grounding (0.10), and the sampled end-market verdict (0.40). See
+`src/fig/ranking.py` for the definitions and the two cautions worth more than the
+weights themselves:
+
+- **A high lint score is not evidence of a good thesis.** Lint measures form, and
+  the two highest-scoring notes this repo has produced were the two judged weakest
+  on reasoning. Form is cheap to satisfy.
+- **The evidence component is the only one carrying a view on the company**, and it
+  is a *sampled* view. A note confirmed in 1 of 3 runs is genuinely less settled
+  than one confirmed in 3 of 3, and the score says so rather than hiding it.
+
+### Sampling the verdict, on purpose
+
+The owner's instruction: search is *not* reproducible, and that is correct rather
+than a defect -- the reasons are qualitative, and the verdict should be assessed
+non-deterministically.
+
+So `--samples N` runs N fully independent generations per ticker. **Each sample
+re-runs the end-market research**, not just the writing, because otherwise the
+evidence would be fixed and the verdict could never disagree with itself, which is
+the entire reason for sampling. `research.evidence_verdict` then counts, mechanically,
+whether the end-market evidence points with the idea or against it -- pressures
+support a short, supports support a long -- and the batch reports it as
+"confirmed 2/3". Disagreement between samples is a finding, not noise to be averaged
+away.
+
+### Recency: stale research is dropped, not caveated
+
+Trends are dated from an explicit publication date in the URL path or the text, and
+anything older than **180 days is discarded**. This fixes a real bug: a PAYX trend
+described the second half of 2025 and the writer presented it as a current condition
+nine months later. Stale evidence is worse than no evidence, precisely because it
+reads exactly like fresh evidence.
+
+Only *explicit* dates are accepted. The yearless form the news reader uses ("Sept 18")
+assumes the current year, which would make an old article look new -- acceptable for
+ordering headlines, actively harmful for dating evidence.
+
+Filtering alone only sorts whatever the engine ranked, so the query planner is also
+told today's date and to prefer the current period, and the synthesiser must state
+the period the evidence covers and must not pass an older period off as current.
+
 ### Structuring is optional
 
 The legs are the most expensive part of a note to get right (listed chain, common

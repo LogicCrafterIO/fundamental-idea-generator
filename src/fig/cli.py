@@ -312,6 +312,19 @@ def cmd_generate(args) -> int:
         directions = ["long"]
     results = []
     failures = []
+    excluded = []
+
+    # The cap is on by default: ideas are capped so a position fits the capital
+    # unit. --max-price 0 means "no cap" for an exploratory scan.
+    from . import discover as _discover
+
+    raw_cap = getattr(args, "max_price", None)
+    if raw_cap is None:
+        max_price = _discover.DEFAULT_MAX_PRICE
+    elif raw_cap <= 0:
+        max_price = None
+    else:
+        max_price = raw_cap
 
     for index, symbol in enumerate(symbols):
         direction = directions[index] if index < len(directions) else directions[-1]
@@ -325,7 +338,14 @@ def cmd_generate(args) -> int:
                 catalyst_index=args.catalyst_index,
                 credit_target=args.credit_target,
                 repairs=args.repairs,
+                samples=getattr(args, "samples", 1),
+                max_price=max_price,
             )
+        except generate.PriceCapError as exc:
+            # A cap rejection is a policy decision, not a failure to research.
+            print(f"[{symbol}] SKIPPED: {exc}")
+            excluded.append((symbol, str(exc)))
+            continue
         except Exception as exc:
             print(f"[{symbol}] FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
             failures.append((symbol, str(exc)))
@@ -338,14 +358,49 @@ def cmd_generate(args) -> int:
             f"{'' if paths['ok'] else '  (still has lint errors)'}"
         )
 
-    if results:
-        generate.write_index(results, args.out)
+    if results or excluded:
+        generate.write_index(results, args.out, excluded=excluded, max_price=max_price)
         print(f"\nindex: {args.out}/README.md")
     if failures:
         print(f"\n{len(failures)} failed:", file=sys.stderr)
         for symbol, error in failures:
             print(f"  {symbol}: {error}", file=sys.stderr)
     return 1 if failures and not results else 0
+
+
+def cmd_rank(args) -> int:
+    """Print the ranking for a folder of notes, with counts."""
+    import json as _json
+
+    from . import generate, ranking
+
+    results = generate.rebuild_index(args.out)["results"]
+    entries = ranking.rank_ideas(results)
+    counts = ranking.summarise(entries)
+
+    print(
+        f"{counts['ideas']} idea(s): {counts['longs']} long, {counts['shorts']} short"
+        f"  |  mean conviction {counts['mean_conviction']}"
+    )
+    print(
+        f"{counts['well_evidenced']} confirmed by end-market evidence, "
+        f"{counts['evidence_against']} contradicted"
+    )
+    print()
+    print(f"{'#':>2}  {'ticker':7} {'side':5} {'conv':>5} {'evidence':16} {'catalyst':10} {'lint':>5}  description")
+    for entry in entries:
+        when = entry["catalyst_date"] or "-"
+        if entry["catalyst_days"] is not None:
+            when += f" {entry['catalyst_days']}d"
+        description = (entry["description"] or "")[:46]
+        print(
+            f"{entry['rank']:>2}  {entry['ticker']:7} {entry['direction']:5} "
+            f"{entry['conviction']:>5} {entry['evidence_label']:16} {when:10} "
+            f"{entry['score']:>5}  {description}"
+        )
+    print()
+    print("conviction is a reading order, not a prediction: src/fig/ranking.py")
+    return 0
 
 
 def cmd_index(args) -> int:
@@ -469,6 +524,20 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(func=cmd_search)
 
     p = sub.add_parser("generate", help="generate finished idea notes with the model")
+    p.add_argument(
+        "--samples",
+        type=int,
+        default=1,
+        help="independent runs per ticker; each re-runs the end-market research, so "
+        "the sampled verdict can disagree with itself (default 1)",
+    )
+    p.add_argument(
+        "--max-price",
+        type=float,
+        default=None,
+        help="reject tickers at or above this share price (default 150, the ideas "
+        "cap, so a position fits the ~$4,500 capital unit; 0 disables the cap)",
+    )
     p.add_argument("symbols", nargs="*", help="tickers to write up")
     p.add_argument("--watchlist", nargs="*", default=[])
     p.add_argument("--directions", default="long", help="comma-separated, aligned to tickers")
@@ -480,6 +549,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--credit-target", type=float, default=options.DEFAULT_CREDIT_TARGET)
     p.add_argument("--repairs", type=int, default=2, help="lint-driven revision rounds")
     p.set_defaults(func=cmd_generate)
+
+    p = sub.add_parser("rank", help="rank a folder of generated ideas")
+    p.add_argument("--out", default="research")
+    p.set_defaults(func=cmd_rank)
 
     p = sub.add_parser("index", help="rebuild the research index from the notes on disk")
     p.add_argument("--out", default="research")

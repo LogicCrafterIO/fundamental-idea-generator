@@ -1,7 +1,7 @@
 {
   "symbol": "PAYX",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T22:03:16",
+  "generated_at": "2026-09-19T23:22:51",
   "profile": {
     "symbol": "PAYX",
     "name": "Paychex, Inc.",
@@ -382,7 +382,7 @@
       "title": "Intuit's QuickBooks Free Push: Can This Lift Customer Growth?",
       "publisher": "Zacks",
       "created": "Sep 17, 2026",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "url": "/articles/intuits-quickbooks-free-push-can-lift-customer-growth",
       "primary_symbol": null,
       "related_symbols": [
@@ -399,7 +399,7 @@
       "title": "INTU Doubles Down on AI: Can Intelligence Drive the Next Growth Wave?",
       "publisher": "Zacks",
       "created": "Sep 18, 2026",
-      "ago": "20 hours ago",
+      "ago": "21 hours ago",
       "url": "/articles/intu-doubles-down-ai-can-intelligence-drive-next-growth-wave",
       "primary_symbol": null,
       "related_symbols": [
@@ -993,55 +993,73 @@
   },
   "forward_trends": {
     "queries": [
-      "small business hiring and employment growth forecast 2025 2026",
-      "AI payroll automation disruption payroll service providers",
-      "small business spending on HR payroll services trends 2025",
-      "human capital management software market outlook 2025 PEO industry"
+      "small business hiring plans 2026 survey employment outlook SMB workforce trends",
+      "SMB HR payroll software spending budget trends 2026",
+      "AI payroll automation disruption small business HR services 2026",
+      "Paychex PAYX small business customer hiring trends 2026"
     ],
     "results_count": 20,
+    "results_dated": 18,
     "trends": [
       {
-        "claim": "Small business profitability is weakening as 2025 ended, with mounting cost pressures.",
+        "claim": "In May 2026 Intuit launched QuickBooks Workforce, an AI-native HCM system expanding on payroll serving 18 million U.S. workers.",
         "stance": "pressure",
-        "why": "Paychex clients may cut hiring or discretionary HR spending, reducing payroll volume and service demand.",
-        "quote": "profits lost steam as the year closed",
-        "url": "https://institute.bankofamerica.com/content/dam/economic-insights/small-business-checkpoint-january-2026.pdf",
-        "publisher": "institute.bankofamerica.com"
+        "why": "It targets Paychex's small and mid-market clients with end-to-end workforce management, threatening retention and pricing.",
+        "quote": "All-in-One, AI-Native HCM System Expands on QuickBooks Payroll Services, Which Serves 18 Million U.S. Workers, to Deliver End-to-End Workforce Management",
+        "url": "https://investors.intuit.com/_assets/_940994c421caf4d8d251c405ed856b0d/intuit/news/2026-05-06_Intuit_Unveils_QuickBooks_Workforce_Radically_1310.pdf",
+        "publisher": "investors.intuit.com",
+        "as_of": "2026-05-01",
+        "age_days": 141,
+        "undated": false
       },
       {
-        "claim": "Small business hiring slowed through the second half of 2025.",
+        "claim": "In June 2026 Gusto launched Co-Founder, an AI agent that automates payroll and back-office tasks without requiring users to log in.",
         "stance": "pressure",
-        "why": "Paychex revenue scales with client employees; slower hiring pressures payroll and HR revenue growth.",
-        "quote": "After slowing throughout much of the second half of 2025",
-        "url": "https://institute.bankofamerica.com/content/dam/economic-insights/small-business-checkpoint-january-2026.pdf",
-        "publisher": "institute.bankofamerica.com"
+        "why": "Autonomous competitor AI could reduce demand for Paychex's service-based payroll and HR support among small businesses.",
+        "quote": "Gusto launches Co-Founder, an AI agent that automates payroll and back-office tasks via SMS and Slack without requiring users to log into the platform.",
+        "url": "https://www.tbpndigest.com/story/2026-06-02/gusto-launches-co-founder-ai-agent-that-texts-small-business-owners-and-autonomously-runs-payroll",
+        "publisher": "tbpndigest.com",
+        "as_of": "2026-06-02",
+        "age_days": 109,
+        "undated": false
       },
       {
-        "claim": "Small firms expect weaker future revenue and employment growth.",
+        "claim": "In September 2026 Berlin-based Integral raised \u20ac18 million to deliver AI-run accounting, tax and payroll services to SMEs.",
         "stance": "pressure",
-        "why": "Lower growth expectations may cause Paychex clients to delay hiring and HR/payroll investments.",
-        "quote": "expectations for future revenue and employment growth declined",
-        "url": "https://www.fedsmallbusiness.org/reports/survey/2026/2026-report-on-employer-firms",
-        "publisher": "fedsmallbusiness.org"
+        "why": "Well-funded AI-native entrants increase competition for SME payroll and accounting, potentially pressuring Paychex's client acquisition and pricing.",
+        "quote": "Berlin-based Integral raises \u20ac18 million to deliver AI-run accounting, tax and payroll services to SMEs",
+        "url": "https://www.eu-startups.com/2026/09/berlin-based-integral-raises-e18-million-to-deliver-ai-run-accounting-tax-and-payroll-services-to-smes/",
+        "publisher": "eu-startups.com",
+        "as_of": "2026-09-01",
+        "age_days": 18,
+        "undated": false
       },
       {
-        "claim": "AI-native HR platforms like Rippling and Gusto are emerging as competitors to incumbent payroll providers.",
-        "stance": "pressure",
-        "why": "Paychex could face client defections or pricing pressure as SMBs adopt modern AI-native alternatives.",
-        "quote": "Yet the emergence of AI-native HR platforms \u2014 Rippling, Gusto at scale,",
-        "url": "https://pitchgrade.com/research/adp-ai-margin-pressure",
-        "publisher": "pitchgrade.com"
+        "claim": "As of August 2026 Paychex's WISE AI agents were reducing payroll errors and improving service efficiency across more than 50,000 early adopters.",
+        "stance": "support",
+        "why": "Improved accuracy and efficiency can strengthen client retention and margins even as competitive AI tools emerge.",
+        "quote": "WISE agents proactively help prevent payroll errors, enable more consultative service, and increase efficiency across the Paychex enterprise \u2013 enhancing customer experiences",
+        "url": "https://business.times-online.com/times-online/article/gnwcq-2026-8-31-wise-at-work-early-results-show-paychex-ai-is-reducing-payroll-errors-and-improving-service-efficiency-at-scale",
+        "publisher": "business.times-online.com",
+        "as_of": "2026-08-31",
+        "age_days": 19,
+        "undated": false
       },
       {
-        "claim": "Startups are creating embeddable AI payroll infrastructure, lowering barriers for new payroll competitors.",
-        "stance": "pressure",
-        "why": "More competitors can enter Paychex's market, threatening its pricing and client retention.",
-        "quote": "AI-powered payroll infrastructure that other software companies can embed rather than build themselves",
-        "url": "https://www.crowdfundinsider.com/2026/09/309234-cloudpay-invests-in-intermezzo-as-startup-raises-funds-for-ai-payroll-infrastructure/",
-        "publisher": "crowdfundinsider.com"
+        "claim": "In May 2026 more than three-quarters of U.S. small businesses were confident about hiring, and small companies were driving U.S. hiring demand.",
+        "stance": "support",
+        "why": "Small business hiring confidence supports employee counts and payroll volumes for Paychex's core client base.",
+        "quote": "More than three-quarters of U.S. small businesses are confident about hiring, but nearly half struggle to find skilled talent",
+        "url": "https://www.prnewswire.com/news-releases/robert-half-survey-more-than-three-quarters-of-us-small-businesses-are-confident-about-hiring-but-nearly-half-struggle-to-find-skilled-talent-302770213.html",
+        "publisher": "prnewswire.com",
+        "as_of": "2026-05-13",
+        "age_days": 129,
+        "undated": false
       }
     ],
-    "dropped": []
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
   },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",

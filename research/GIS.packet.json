@@ -1,7 +1,7 @@
 {
   "symbol": "GIS",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T21:54:50",
+  "generated_at": "2026-09-19T23:28:08",
   "profile": {
     "symbol": "GIS",
     "name": "General Mills, Inc.",
@@ -997,50 +997,86 @@
   },
   "forward_trends": {
     "queries": [
-      "packaged food industry volume growth forecast 2026 2027 private label competition",
-      "GLP-1 obesity drug impact on snack and cereal consumption forecast",
-      "US pet food market premiumization trends 2026 2027 consumer spending",
-      "US foodservice traffic and consumer spending forecast 2026 2027"
+      "US packaged food volume sales trends 2026 2027 private label competition",
+      "cereal and snack category consumption decline 2026 GLP-1 impact",
+      "pet food market growth outlook 2026 2027 premiumization consumer spending",
+      "foodservice industry traffic trends 2026 2027 restaurant customer spending"
     ],
     "results_count": 20,
+    "results_dated": 20,
     "trends": [
       {
-        "claim": "GLP-1 users are eating less high-fat, sugary, and ultra-processed food.",
-        "why": "General Mills' snacks, cereal, and baking products skew toward these categories, so retail volumes may decline.",
-        "quote": "Users of the drugs may eat less overall and eat less of high fat and sugary foods, as well as ultra-processed foods.",
-        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
-        "publisher": "freedoniagroup.com"
+        "claim": "In the first half of 2026, private label reached a record 23.8% unit share of food and beverage.",
+        "stance": "pressure",
+        "why": "Retailers expanding private label and rationalizing SKUs reduces shelf space and volume for General Mills brands.",
+        "quote": "store brands set an all-time unit share record of 23.8% in the first half of 2026",
+        "url": "https://foodindustryexecutive.com/2026/09/24-of-food-and-beverage-dollars-now-go-to-private-label-which-of-your-skus-will-survive/",
+        "publisher": "foodindustryexecutive.com",
+        "as_of": "2026-09-17",
+        "age_days": 2,
+        "undated": false
       },
       {
-        "claim": "Higher food prices are continuing to benefit private label store brands.",
-        "why": "Private label share gains can pressure General Mills' branded packaged food sales and shelf space.",
-        "quote": "Increasing food prices will continue to benefit private label store brands.",
-        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
-        "publisher": "freedoniagroup.com"
+        "claim": "In the first half of 2026, national brands grew faster in dollar sales than private label despite losing unit share.",
+        "stance": "support",
+        "why": "Pricing or mix may be protecting General Mills' dollar sales for now, delaying volume pressure from reaching revenue.",
+        "quote": "US private-label brands continued to outperform national brands in unit sales in the first half of 2026, but national brands grew faster in dollar sales",
+        "url": "https://www.foodnavigator.com/Article/2026/07/09/private-label-widens-lead-over-national-brands-in-2026-grocery-unit-sales/",
+        "publisher": "foodnavigator.com",
+        "as_of": "2026-07-09",
+        "age_days": 72,
+        "undated": false
       },
       {
-        "claim": "GLP-1 use is forecast to roughly double over the next decade as prices fall and pills replace injections.",
-        "why": "A larger GLP-1 user base could further reduce demand for General Mills' indulgent snack and cereal categories.",
-        "quote": "Most forecasts suggest this penetration will roughly double over the next decade as prices fall, coverage expands, and pills replace injections.",
-        "url": "https://www.alixpartners.com/insights/102mndi/glp-1-and-the-snack-sector-disruptive-trend-not-existential-threat/",
-        "publisher": "alixpartners.com"
+        "claim": "In the first half of 2026, retail food and beverage dollar sales grew 2.2% but volume growth was flat.",
+        "stance": "pressure",
+        "why": "Flat volume means General Mills cannot rely on category unit growth; gains must come from share or price/mix.",
+        "quote": "Retail F&B grew 2.2% in the first half of 2026, but volume growth remains flat, reflecting tightening consumer behaviors.",
+        "url": "https://www.refrigeratedfrozenfood.com/articles/104564-circanas-2026-2027-global-food-and-beverage-outlook-predicts-slow-to-moderate-growth-as-market-enters-period-of-rationalization",
+        "publisher": "refrigeratedfrozenfood.com",
+        "as_of": "2026-07-13",
+        "age_days": 68,
+        "undated": false
       },
       {
-        "claim": "Rising costs are making pet spending more selective and slowing pet industry growth.",
-        "why": "General Mills' pet segment may face slower sales growth as consumers cut back on pet food and supplies.",
-        "quote": "After years of strong growth, rising costs are prompting more selective pet spending and slowing industry expansion.",
-        "url": "https://www.morganstanley.com/insights/articles/pet-industry-growth-outlook-2026",
-        "publisher": "morganstanley.com"
+        "claim": "As of August 2026, GLP-1 users may trade up and spend more on functional products, protecting grocery value.",
+        "stance": "support",
+        "why": "Could support General Mills if it shifts mix toward premium, functional, or health-positioned products.",
+        "quote": "GLP-1 users may buy less food overall, but trading up and greater spending on functional products can help protect grocery value",
+        "url": "https://www.foodnavigator.com/Article/2026/08/19/new-glp-1-consumer-data-challenges-food-industry-forecasts/",
+        "publisher": "foodnavigator.com",
+        "as_of": "2026-08-19",
+        "age_days": 31,
+        "undated": false
       },
       {
-        "claim": "Cat households grew 4.1% while dog households fell 4.2% from 2019 to 2025.",
-        "why": "General Mills' pet portfolio may need more cat-focused products to align with shifting pet ownership.",
-        "quote": "Over the 2019-2025 period, total growth in the number of cat households was 4.1%, compared with a 4.2% decline in the number of dog households.",
-        "url": "https://www.freedoniagroup.com/packaged-facts/us-pet-market-outlook",
-        "publisher": "freedoniagroup.com"
+        "claim": "Among current GLP-1 users, 42% say frozen and refrigerated foods help them control portions.",
+        "stance": "support",
+        "why": "Supports General Mills frozen and refrigerated products like Totino's or Pillsbury as GLP-1 use grows.",
+        "quote": "Among current GLP-1 users, 42% say these foods help them control portions",
+        "url": "https://www.refrigeratedfrozenfood.com/articles/104564-circanas-2026-2027-global-food-and-beverage-outlook-predicts-slow-to-moderate-growth-as-market-enters-period-of-rationalization",
+        "publisher": "refrigeratedfrozenfood.com",
+        "as_of": "2026-07-13",
+        "age_days": 68,
+        "undated": false
       }
     ],
-    "dropped": []
+    "dropped": [
+      {
+        "claim": "By 2030, GLP-1 households are projected to represent 35% of all U.S. food and beverage units sold.",
+        "stance": "pressure",
+        "why": "General Mills' snacks, sweets, and baked goods categories face shrinking demand as GLP-1 use grows.",
+        "quote": "GLP-1 households are projected to represent 35% of all U.S. food and beverage units sold by 2030",
+        "url": "https://foodindustryexecutive.com/2026/03/what-glp-1-adoption-actually-means-for-your-sku-rationalization-decisions-in-2026/",
+        "publisher": "foodindustryexecutive.com",
+        "as_of": "2026-03-01",
+        "age_days": 202,
+        "undated": false,
+        "drop_reason": "stale (202 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
   },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",

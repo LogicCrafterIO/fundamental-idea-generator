@@ -26,8 +26,18 @@ import re
 from datetime import date
 from pathlib import Path
 
-from . import catalyst as catalyst_mod, lint, options, packet as packet_mod, prompts, render
-from .sources import ollama
+from . import (
+    catalyst as catalyst_mod,
+    ranking as ranking_mod,
+    discover,
+    lint,
+    options,
+    packet as packet_mod,
+    prompts,
+    render,
+    research as research_mod,
+)
+from .sources import ollama, yahoo
 
 # Only these keys are taken from the model.
 MODEL_OWNED = ("description", "reasons", "reflection")
@@ -302,6 +312,10 @@ def _chat_json(symbol: str, messages: list[dict], *, model: str, say, attempts: 
     raise RuntimeError(f"model did not return parseable JSON after {attempts} attempts") from last_error
 
 
+class PriceCapError(ValueError):
+    """Raised when a ticker trades at or above the share-price cap."""
+
+
 def generate_idea(
     symbol: str,
     *,
@@ -312,6 +326,8 @@ def generate_idea(
     catalyst_index: int = 0,
     credit_target: float = options.DEFAULT_CREDIT_TARGET,
     repairs: int = 2,
+    samples: int = 1,
+    max_price: float | None = discover.DEFAULT_MAX_PRICE,
     verbose: bool = True,
 ) -> dict:
     """Generate one note. Returns ``{writeup, packet, lint, attempts, model}``.
@@ -324,6 +340,19 @@ def generate_idea(
     def say(message: str) -> None:
         if verbose:
             print(message, flush=True)
+
+    # The price cap is checked before any work is done, so a batch rejects an
+    # over-cap ticker immediately instead of after a minute of research.
+    if max_price is not None:
+        try:
+            price = yahoo.valuation(symbol).get("price")
+        except Exception:
+            price = None
+        if price is not None and price >= max_price:
+            raise PriceCapError(
+                f"{symbol} trades at ${price:,.2f}, at or above the ${max_price:,.0f} "
+                f"share-price cap. Raise it with --max-price to research this name."
+            )
 
     say(f"[{symbol}] building evidence packet (search={use_search and ollama.has_key()})")
     pack = packet_mod.build_packet(
@@ -350,72 +379,158 @@ def generate_idea(
             "error": f"{type(exc).__name__}: {exc}"
         }
 
-    messages = _messages_for(pack, direction)
-    attempts: list[dict] = []
-    model_output: dict = {}
-    writeup: dict = {}
-    result: dict = {}
+    samples = max(1, int(samples))
 
-    for round_index in range(repairs + 1):
-        model_output, reply = _chat_json(symbol, messages, model=model, say=say)
+    # Each sample is a full independent run: its own trend research, so the
+    # qualitative evidence differs, and its own writing. The verdict is then
+    # assessed across samples rather than asserted once -- which is the honest
+    # treatment of evidence that is genuinely run-dependent.
+    per_sample: list[dict] = []
+    best: dict | None = None
 
-        writeup = assemble_writeup(pack, model_output, direction)
-        result = lint.lint_writeup(writeup)
-        grounding = lint.check_grounding(writeup, packet_mod.to_prompt_context(pack))
-        result["grounding"] = grounding
+    for sample_index in range(samples):
+        if samples > 1:
+            say(f"[{symbol}] sample {sample_index + 1}/{samples}")
 
-        coverage = end_market_coverage(writeup, (pack.get("forward_trends") or {}).get("trends") or [])
-        result["end_market"] = coverage
-        if not coverage["ok"]:
-            # An error, not a warning: the writer was handed end-market evidence and
-            # wrote about trailing quarters instead, which is the gap this feature
-            # exists to close. The repair loop then has to use it.
-            result["errors"] += 1
-            result["issues"] = result["issues"] + [
-                f"[error] no reason uses the end-market research supplied "
-                f"({coverage['available']} trends): say what is happening to the "
-                f"customers, or why the pressure has not shown up yet (end_market_unused)"
-            ]
-        if grounding["unsupported"]:
-            result["issues"] = result["issues"] + [
-                f"[warn ] Reason prose: unsupported figure(s) {', '.join(grounding['unsupported'])} "
-                f"not found in the evidence (grounding)"
-            ]
-            result["warnings"] += 1
-
-        attempts.append(
-            {
-                "round": round_index,
-                "elapsed": reply["elapsed"],
-                "usage": reply.get("usage"),
-                "errors": result["errors"],
-                "warnings": result["warnings"],
-                "score": result["score"],
-                "issues": result["issues"],
-                "unsupported_figures": grounding["unsupported"],
-            }
-        )
-        say(
-            f"[{symbol}] round {round_index}: score {result['score']} "
-            f"({result['errors']} errors, {result['warnings']} warnings) in {reply['elapsed']}s"
-            + (
-                f" -- unsupported figures: {', '.join(grounding['unsupported'])}"
-                if grounding["unsupported"]
-                else f" -- {grounding['checked']} figures all grounded"
+        # Sample 0 reuses the packet's research; later samples re-run it. Without
+        # this, sampling would vary only the writing while the evidence stayed
+        # fixed, and the verdict could never disagree with itself -- which is the
+        # whole reason for sampling qualitative evidence.
+        if sample_index > 0 and use_search and ollama.has_key():
+            fresh = research_mod.forward_trends(
+                symbol,
+                ((pack.get("profile") or {}).get("name")),
+                None,
+                ((pack.get("profile") or {}).get("summary")),
             )
-        )
+            if fresh.get("trends"):
+                pack["forward_trends"] = fresh
+            else:
+                say(f"[{symbol}] sample {sample_index + 1}: no fresh trends found, reusing the first set")
 
-        if result["ok"]:
-            break
-        if round_index < repairs:
-            say(f"[{symbol}] repairing {result['errors']} error(s)")
-            messages = _repair_messages(messages, model_output, result["issues"])
+        trends = (pack.get("forward_trends") or {}).get("trends") or []
+        verdict = research_mod.evidence_verdict(trends, direction)
+
+        messages = _messages_for(pack, direction)
+        attempts: list[dict] = []
+        model_output: dict = {}
+        writeup: dict = {}
+        result: dict = {}
+
+        for round_index in range(repairs + 1):
+            model_output, reply = _chat_json(symbol, messages, model=model, say=say)
+
+            writeup = assemble_writeup(pack, model_output, direction)
+            result = lint.lint_writeup(writeup)
+            grounding = lint.check_grounding(writeup, packet_mod.to_prompt_context(pack))
+            result["grounding"] = grounding
+
+            coverage = end_market_coverage(writeup, trends)
+            result["end_market"] = coverage
+            if not coverage["ok"]:
+                # An error, not a warning: the writer was handed end-market evidence
+                # and wrote about trailing quarters instead, which is the gap this
+                # feature exists to close. The repair loop then has to use it.
+                result["errors"] += 1
+                result["issues"] = result["issues"] + [
+                    f"[error] no reason uses the end-market research supplied "
+                    f"({coverage['available']} trends): say what is happening to the "
+                    f"customers, or why the pressure has not shown up yet (end_market_unused)"
+                ]
+            if grounding["unsupported"]:
+                result["issues"] = result["issues"] + [
+                    f"[warn ] Reason prose: unsupported figure(s) {', '.join(grounding['unsupported'])} "
+                    f"not found in the evidence (grounding)"
+                ]
+                result["warnings"] += 1
+
+            attempts.append(
+                {
+                    "round": round_index,
+                    "elapsed": reply["elapsed"],
+                    "usage": reply.get("usage"),
+                    "errors": result["errors"],
+                    "warnings": result["warnings"],
+                    "score": result["score"],
+                    "issues": result["issues"],
+                    "unsupported_figures": grounding["unsupported"],
+                }
+            )
+            say(
+                f"[{symbol}] round {round_index}: score {result['score']} "
+                f"({result['errors']} errors, {result['warnings']} warnings) in {reply['elapsed']}s"
+                + (
+                    f" -- unsupported figures: {', '.join(grounding['unsupported'])}"
+                    if grounding["unsupported"]
+                    else f" -- {grounding['checked']} figures all grounded"
+                )
+            )
+
+            if result["ok"]:
+                break
+            if round_index < repairs:
+                say(f"[{symbol}] repairing {result['errors']} error(s)")
+                messages = _repair_messages(messages, model_output, result["issues"])
+
+        sample = {
+            "sample": sample_index,
+            "rounds": attempts,
+            "score": result["score"],
+            "errors": result["errors"],
+            "warnings": result["warnings"],
+            "ok": result["ok"],
+            "verdict": verdict["verdict"],
+            "supportive": verdict["supportive"],
+            "adverse": verdict["adverse"],
+            "trends_available": len(trends),
+            "trends_used": (result.get("end_market") or {}).get("used") or [],
+            "writeup": writeup,
+        }
+        per_sample.append(sample)
+
+        # Best = zero errors first, then score. A sample that failed lint should
+        # never be the one that gets saved.
+        if best is None or (
+            (sample["ok"], sample["score"]) > (best["ok"], best["score"])
+        ):
+            best = sample
+
+    assert best is not None
+
+    # The saved note is the best sample; its lint/grounding detail is re-derived
+    # from the note itself so what is stored is what the note actually scores now.
+    writeup = best["writeup"]
+    trends = (pack.get("forward_trends") or {}).get("trends") or []
+    result = lint.lint_writeup(writeup)
+    result["grounding"] = lint.check_grounding(writeup, packet_mod.to_prompt_context(pack))
+    result["end_market"] = end_market_coverage(writeup, trends)
+
+    verdicts = [s["verdict"] for s in per_sample]
+    tally = {
+        "samples": samples,
+        "verdicts": verdicts,
+        "confirmed": verdicts.count("confirms"),
+        "contradicted": verdicts.count("contradicts"),
+        "mixed": verdicts.count("mixed") + verdicts.count("no-evidence"),
+        "majority": max(set(verdicts), key=verdicts.count) if verdicts else "no-evidence",
+        "agreement": round(verdicts.count(max(set(verdicts), key=verdicts.count)) / len(verdicts), 2)
+        if verdicts
+        else 0.0,
+    }
+    if samples > 1:
+        say(
+            f"[{symbol}] verdict across {samples} samples: {tally['majority']} "
+            f"({tally['confirmed']} confirms, {tally['contradicted']} contradicts, "
+            f"{tally['mixed']} mixed)"
+        )
 
     return {
         "writeup": writeup,
         "packet": pack,
         "lint": result,
-        "attempts": attempts,
+        "attempts": [round_ for sample in per_sample for round_ in sample["rounds"]],
+        "samples": per_sample,
+        "verdict": tally,
         "model": model,
         "search_used": bool(use_search and ollama.has_key()),
     }
@@ -457,6 +572,21 @@ def save_idea(result: dict, out_dir: str | Path = "research") -> dict:
                 for a in (result.get("attempts") or [])
             ],
             "grounding": (result.get("lint") or {}).get("grounding"),
+            # The sampled verdict is persisted because it is the only input to the
+            # ranking that comes from a view on the company rather than on the note.
+            "verdict": result.get("verdict"),
+            "samples": [
+                {
+                    "sample": sample["sample"],
+                    "score": sample["score"],
+                    "verdict": sample["verdict"],
+                    "supportive": sample["supportive"],
+                    "adverse": sample["adverse"],
+                    "trends_available": sample["trends_available"],
+                    "trends_used": sample["trends_used"],
+                }
+                for sample in (result.get("samples") or [])
+            ],
         },
     }
     idea_path.write_text(json.dumps(persisted, indent=2) + "\n")
@@ -521,6 +651,17 @@ def rebuild_index(out_dir: str | Path = "research") -> dict:
         if grounding:
             result["grounding"] = grounding
 
+        # Rewrite the note from the stored writeup so layout and metadata blocks
+        # (the catalyst line, the sampled Evidence block) reflect the current
+        # renderer. The model's prose is stored verbatim, so this changes
+        # presentation only -- it never rewrites the reasoning.
+        try:
+            (out / f"{data['ticker']}.md").write_text(
+                render.render_writeup(data, include_lint=True)
+            )
+        except OSError:
+            pass
+
         results.append(
             {
                 "writeup": data,
@@ -528,6 +669,7 @@ def rebuild_index(out_dir: str | Path = "research") -> dict:
                 "model": generation.get("model"),
                 "search_used": generation.get("search_used"),
                 "attempts": generation.get("rounds") or [],
+                "generation": generation,
             }
         )
 
@@ -539,6 +681,7 @@ def rebuild_index(out_dir: str | Path = "research") -> dict:
         "mean_score": round(sum(r["lint"]["score"] for r in results) / len(results), 1)
         if results
         else 0,
+        "results": results,
     }
 
 
@@ -551,20 +694,81 @@ def _clip(text: str, width: int = 68) -> str:
     return f"{cut}..."
 
 
-def write_index(results: list[dict], out_dir: str | Path = "research") -> str:
+def write_index(
+    results: list[dict],
+    out_dir: str | Path = "research",
+    *,
+    excluded: list[tuple[str, str]] | None = None,
+    max_price: float | None = None,
+) -> str:
     """A scannable index of a batch, with provenance and lint scores."""
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
 
+    entries = ranking_mod.rank_ideas(results)
+    counts = ranking_mod.summarise(entries)
+
     lines = [
         "# Generated research",
         "",
-        f"{len(results)} note(s), mean lint score "
-        f"{round(sum(r['lint']['score'] for r in results) / len(results), 1) if results else 0}/100.",
+        f"**{counts['ideas']} idea(s): {counts['longs']} long, {counts['shorts']} short** "
+        f"(mean lint score "
+        f"{round(sum(r['lint']['score'] for r in results) / len(results), 1) if results else 0}/100, "
+        f"mean conviction {counts['mean_conviction']}).",
+        "",
+        f"{counts['well_evidenced']} of {counts['ideas']} are confirmed by their "
+        f"end-market evidence in a majority of {counts['samples']} sampled run(s); "
+        f"{counts['evidence_against']} are contradicted by it. "
+        "The verdict is sampled rather than asserted because the evidence is "
+        "qualitative and genuinely varies between runs.",
         "",
         "Regenerated by any `fig generate` batch, or rebuilt from the notes on disk "
         "with `fig index`. Every note is re-linted as it is indexed, so the scores "
         "here reflect the current linter rather than the state at generation time.",
+        "",
+        "## Ranking",
+        "",
+        "Ordered by conviction. **This is not a prediction and not a recommendation.** "
+        "It says where to start reading, using facts about each note rather than a "
+        "view on the company: catalyst proximity (0.20), estimate-revision agreement "
+        "across the 7- and 30-day windows (0.20), current lint score (0.10), whether "
+        "every figure is grounded (0.10), and the sampled end-market verdict (0.40). "
+        "A high lint score is NOT evidence of a good thesis -- it measures form, and "
+        "the two highest-scoring notes in this repo's history were the two judged "
+        "weakest on reasoning. See `src/fig/ranking.py`.",
+        "",
+        "| # | ticker | side | conviction | evidence | catalyst | rev agree | lint | fwd PE | description |",
+        "|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for entry in entries:
+        components = entry["components"]
+        when = entry["catalyst_date"] or "-"
+        if entry["catalyst_days"] is not None:
+            when += f" ({entry['catalyst_days']}d)"
+        lines.append(
+            f"| {entry['rank']} | **{entry['ticker']}** | {entry['direction'].upper()} | "
+            f"{entry['conviction']} | {entry['evidence_label']} | {when} | "
+            f"{components['revision_agreement']:.1f} | {entry['score']}/100 | "
+            f"{entry['fwd_pe']} | [{_clip(entry['description'], 60)}]({entry['ticker']}.md) |"
+        )
+
+    if excluded:
+        lines += [
+            "",
+            "## Excluded by the share-price cap",
+            "",
+            f"Ideas are capped at **${max_price:,.0f} per share** so a position fits the "
+            f"~$4,500 capital unit. These were researched by the screen and rejected on "
+            f"price alone -- the cap is a tradeability rule, not a judgement on them:",
+            "",
+        ]
+        for symbol, reason in excluded:
+            lines.append(f"- **{symbol}** -- {reason}")
+        lines.append("")
+
+    lines += [
+        "",
+        "## All notes",
         "",
         "| ticker | side | catalyst | score | fwd PE | mkt cap | description | files |",
         "|---|---|---|---|---|---|---|---|",

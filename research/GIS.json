@@ -2,7 +2,7 @@
   "ticker": "GIS",
   "direction": "short",
   "as_of": "2026-09-19",
-  "description": "Branded packaged food and pet food maker (Cheerios, Pillsbury, Blue Buffalo, H\u00e4agen-Dazs).",
+  "description": "Packaged food maker (Cheerios, Betty Crocker, Blue Buffalo, H\u00e4agen-Dazs) that recently exited yogurt and is selling Brazil and China H\u00e4agen-Dazs shops.",
   "catalyst": {
     "date": "2026-09-23",
     "weekday": "Wednesday",
@@ -48,12 +48,12 @@
     "beat_streak": 1,
     "median_gap_days": 91,
     "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.72.",
-    "why": "The 2026-09-23 report must show North America Retail volumes still falling and pet sales slowing, forcing a guidance cut."
+    "why": "Report must show private-label volume pressure reaching GIS revenue, with EPS below 0.72 and guidance cut."
   },
   "reasons": [
-    "GLP-1 [weight-loss drugs] use is forecast to roughly double over the next decade, and users eat less high-fat, sugary, ultra-processed food\u2014exactly GIS's snacks, cereal, and baking mix.",
-    "Private label store brands are gaining share as food prices stay high, pressuring GIS's branded packaged food sales and shelf space.",
-    "Cat households grew 4.1% while dog households fell 4.2% from 2019 to 2025, leaving GIS's dog-heavy Blue Buffalo portfolio misaligned with pet ownership."
+    "Because private label hit record 23.8% unit share and retailers are cutting SKUs [stock-keeping units], Cheerios loses shelf space; flat category volume means GIS cannot offset lost units with price forever.",
+    "Because analysts cut FY [fiscal year] EPS [earnings per share] for 30 days (3.07113 now vs 3.07807 30d ago) with 0 up / 2 down revisions, the stock's 11.8x forward earnings multiple has not repriced for falling estimates.",
+    "Because latest quarter's 562.5% net income jump came with cash down 42.2% and equity down 21.1%, profit surge isn't converting to balance-sheet strength; rising SG&A [selling, general and administrative expenses] (+9.3%) and funding costs will pressure future earnings."
   ],
   "quants": {
     "price": 36.32,
@@ -97,7 +97,7 @@
       }
     ],
     "thesis_target": "Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
-    "reflection": "The credit ratio clears the floor, but the short put expiring in four weeks carries gap risk around earnings. The 20:6 ratio means the long put position is the main exposure; if the stock spikes on a beat, the short puts lose but the long puts retain value. Size is moderate."
+    "reflection": "The 11.2% conservative credit clears the floor, but the short put expiring in four weeks leaves little time for the thesis to play out before the earnings catalyst. The net debit of $3,830 is modest relative to the 20-lot long put, so the main risk is a sharp rally on a beat."
   },
   "generation": {
     "model": "deepseek-v4-pro:0813",
@@ -109,13 +109,123 @@
         "errors": 0,
         "warnings": 3,
         "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 64,
+        "errors": 2,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
       }
     ],
     "grounding": {
-      "checked": 4,
+      "checked": 10,
       "unsupported": [],
       "grounded": true,
       "ratio": 1.0
-    }
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "brands",
+          "culling",
+          "general",
+          "mills",
+          "retailers",
+          "share",
+          "shelf",
+          "space",
+          "store",
+          "volume"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "beverage",
+          "categories",
+          "consumption",
+          "force",
+          "general",
+          "label",
+          "mills",
+          "private",
+          "quality",
+          "shifting",
+          "snack",
+          "snacks",
+          "structural",
+          "volume"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "cannot",
+          "category",
+          "general",
+          "label",
+          "means",
+          "private",
+          "record",
+          "retail",
+          "retailers",
+          "share",
+          "shelf",
+          "space",
+          "volume"
+        ]
+      }
+    ]
   }
 }

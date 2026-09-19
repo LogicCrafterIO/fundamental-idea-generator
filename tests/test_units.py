@@ -737,6 +737,194 @@ class TestTrendGrounding(unittest.TestCase):
         )
 
 
+class TestTrendRecency(unittest.TestCase):
+    """Stale evidence reads exactly like fresh evidence, so it is dropped."""
+
+    def test_explicit_dates_only(self):
+        from fig import research
+
+        # packet._date_from_text assumes the current year for yearless forms, which
+        # would make an old article look current. Not acceptable for dating.
+        self.assertIsNone(research.source_date("Sept 18 (Reuters) - hiring slowed"))
+        self.assertEqual(
+            research.source_date("Sept 18, 2026 | 8:03 AM"), __import__("datetime").date(2026, 9, 18)
+        )
+
+    def test_month_year_is_enough(self):
+        import datetime as dt
+
+        from fig import research
+
+        # The form stale evidence usually arrives in, and the one first missed.
+        self.assertEqual(research.source_date("In December 2025, hiring slowed"), dt.date(2025, 12, 1))
+        self.assertEqual(
+            research.source_date("as of March 2026 profitability weakened"), dt.date(2026, 3, 1)
+        )
+
+    def test_url_date_is_preferred(self):
+        import datetime as dt
+
+        from fig import research
+
+        self.assertEqual(
+            research.source_date("body mentions 2024-01-02", "https://x.com/2026/09/18/a"),
+            dt.date(2026, 9, 18),
+        )
+
+    def test_future_dates_are_not_publication_dates(self):
+        from fig import research
+
+        self.assertIsNone(research.source_date("guidance for 2028"))
+
+    def test_age_threshold_is_under_a_year(self):
+        from fig import research
+
+        self.assertLessEqual(research.MAX_TREND_AGE_DAYS, 180)
+
+
+class TestEvidenceVerdict(unittest.TestCase):
+    """The verdict is sampled because the qualitative evidence varies by run."""
+
+    def test_pressures_support_a_short(self):
+        from fig import research
+
+        trends = [{"stance": "pressure"}, {"stance": "pressure"}, {"stance": "support"}]
+        result = research.evidence_verdict(trends, "short")
+        self.assertEqual(result["verdict"], "confirms")
+        self.assertEqual((result["supportive"], result["adverse"]), (2, 1))
+
+    def test_the_same_evidence_contradicts_a_long(self):
+        from fig import research
+
+        trends = [{"stance": "pressure"}, {"stance": "pressure"}, {"stance": "support"}]
+        self.assertEqual(research.evidence_verdict(trends, "long")["verdict"], "contradicts")
+
+    def test_balanced_evidence_is_mixed(self):
+        from fig import research
+
+        trends = [{"stance": "pressure"}, {"stance": "support"}]
+        self.assertEqual(research.evidence_verdict(trends, "short")["verdict"], "mixed")
+
+    def test_no_stances_is_reported_not_guessed(self):
+        from fig import research
+
+        self.assertEqual(
+            research.evidence_verdict([{"claim": "x"}], "long")["verdict"], "no-evidence"
+        )
+
+
+class TestPriceCap(unittest.TestCase):
+    def test_default_cap_is_150(self):
+        from fig import discover
+
+        self.assertEqual(discover.DEFAULT_MAX_PRICE, 150.0)
+
+    def test_gate_rejects_at_or_above_the_cap(self):
+        from fig import discover
+
+        rows = [
+            {"symbol": "CHEAP", "price": 149.99, "score": 50, "has_options": True,
+             "structure_available": True, "fwd_pe": 10.0},
+            {"symbol": "EDGE", "price": 150.0, "score": 99, "has_options": True,
+             "structure_available": True, "fwd_pe": 10.0},
+            {"symbol": "PRICEY", "price": 2855.31, "score": 99, "has_options": True,
+             "structure_available": True, "fwd_pe": 10.0},
+        ]
+        kept = discover.rank_candidates(rows, min_score=0)
+        names = [row["symbol"] for row in kept]
+        self.assertIn("CHEAP", names)
+        self.assertNotIn("PRICEY", names)
+        # At the cap is out: the rule is "under 150". AZO's single contract cost
+        # $13,275 against a ~$4,500 unit, which is what the cap prevents.
+        self.assertNotIn("EDGE", names)
+
+    def test_cap_can_be_disabled(self):
+        from fig import discover
+
+        rows = [{"symbol": "PRICEY", "price": 2855.31, "score": 99, "has_options": True,
+                 "structure_available": True, "fwd_pe": 10.0}]
+        kept = discover.rank_candidates(rows, min_score=0, max_price=None)
+        self.assertEqual([row["symbol"] for row in kept], ["PRICEY"])
+
+
+class TestRanking(unittest.TestCase):
+    """Conviction orders reading; it is not a prediction."""
+
+    def _result(self, ticker, direction, score, days_out, quants, verdict):
+        return {
+            "writeup": {
+                "ticker": ticker,
+                "direction": direction,
+                "description": "d",
+                "catalyst": {"date": "2026-10-01", "days_out": days_out},
+                "quants": quants,
+                "generation": {"grounding": {"grounded": True}, "verdict": verdict},
+            },
+            "lint": {"score": score},
+        }
+
+    def test_ordering_is_by_conviction_descending(self):
+        from fig import ranking
+
+        agreed = {"eps_revisions_up_7d": 3, "eps_revisions_down_7d": 0,
+                  "eps_revisions_up_30d": 8, "eps_revisions_down_30d": 1}
+        split = {"eps_revisions_up_7d": 1, "eps_revisions_down_7d": 3,
+                 "eps_revisions_up_30d": 8, "eps_revisions_down_30d": 1}
+        strong = {"samples": 3, "confirmed": 3, "contradicted": 0}
+        weak = {"samples": 3, "confirmed": 0, "contradicted": 3}
+
+        entries = ranking.rank_ideas([
+            self._result("WEAK", "long", 90, 100, split, weak),
+            self._result("STRONG", "short", 90, 5, agreed, strong),
+        ])
+        self.assertEqual([e["ticker"] for e in entries], ["STRONG", "WEAK"])
+        self.assertEqual(entries[0]["rank"], 1)
+        self.assertGreater(entries[0]["conviction"], entries[1]["conviction"])
+
+    def test_a_distant_catalyst_scores_lower_than_a_near_one(self):
+        from fig import ranking
+
+        agreed = {"eps_revisions_up_7d": 3, "eps_revisions_down_7d": 0,
+                  "eps_revisions_up_30d": 8, "eps_revisions_down_30d": 1}
+        verdict = {"samples": 3, "confirmed": 3, "contradicted": 0}
+        near = ranking.rank_ideas([self._result("NEAR", "long", 90, 5, agreed, verdict)])[0]
+        far = ranking.rank_ideas([self._result("FAR", "long", 90, 300, agreed, verdict)])[0]
+        self.assertGreater(near["components"]["catalyst_proximity"],
+                           far["components"]["catalyst_proximity"])
+
+    def test_counts_split_long_and_short(self):
+        from fig import ranking
+
+        quants = {"eps_revisions_up_7d": 1, "eps_revisions_down_7d": 1,
+                  "eps_revisions_up_30d": 2, "eps_revisions_down_30d": 2}
+        verdict = {"samples": 2, "confirmed": 1, "contradicted": 0}
+        entries = ranking.rank_ideas([
+            self._result("A", "long", 90, 5, quants, verdict),
+            self._result("B", "long", 90, 5, quants, verdict),
+            self._result("C", "short", 90, 5, quants, verdict),
+        ])
+        counts = ranking.summarise(entries)
+        self.assertEqual((counts["ideas"], counts["longs"], counts["shorts"]), (3, 2, 1))
+
+    def test_evidence_component_uses_the_sample_share(self):
+        from fig import ranking
+
+        quants = {"eps_revisions_up_7d": 1, "eps_revisions_down_7d": 1,
+                  "eps_revisions_up_30d": 2, "eps_revisions_down_30d": 2}
+        entries = ranking.rank_ideas([
+            self._result("A", "long", 90, 5, quants, {"samples": 4, "confirmed": 3, "contradicted": 0}),
+            self._result("B", "long", 90, 5, quants, {"samples": 4, "confirmed": 0, "contradicted": 4}),
+        ])
+        by_ticker = {e["ticker"]: e for e in entries}
+        self.assertGreater(by_ticker["A"]["components"]["evidence"],
+                           by_ticker["B"]["components"]["evidence"])
+
+    def test_weights_sum_to_one(self):
+        from fig import ranking
+
+        self.assertAlmostEqual(sum(ranking.WEIGHTS.values()), 1.0)
+
+
 class TestReferencesPresent(unittest.TestCase):
     def test_reference_notes_exist_and_keep_key_figures(self):
         root = Path(__file__).resolve().parents[1] / "references"

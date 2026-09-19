@@ -1,7 +1,7 @@
 {
   "symbol": "JEF",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T21:37:39",
+  "generated_at": "2026-09-19T23:42:48",
   "profile": {
     "symbol": "JEF",
     "name": "Jefferies Financial Group Inc.",
@@ -275,11 +275,22 @@
       "summary": "# Is Jefferies Financial Group (JEF) A Bargain After Oppenheimer Backed Its Banking Outlook? - Simply Wall St News\n\nPublished: 2026-09-19T11:25:37.583000+00:00\nSource: simplywall.st (simplywall.st)\nLanguage: en\n\n## Story\n\nIs Jefferies Financial Group (JEF) A Bargain After Oppenheimer Backed Its Banking Outlook? - Simply Wall St News\n\n# Is Jefferies Financial Group (JEF) A Bargain After Oppenheimer Backed Its Banking Outlook?\n\n September 19, 2026\n\nSimply Wall St\n\nJefferies Financial Group (JEF) is back in focus after Oppenheimer highlighted rising demand for its advisory and underwriting work, ",
       "published": "2026-09-19",
       "source": "ollama_search",
-      "query": "Jefferies Financial Group Inc. (JEF) stock news earnings guidance",
+      "query": "Jefferies Financial Group Inc. (JEF) bull bear case risks",
       "relevance": 3,
       "themes": [
         "guidance"
       ]
+    },
+    {
+      "title": "Jefferies\u2019 next financial update is set for Sept. 28",
+      "publisher": "stocktitan.net",
+      "url": "https://www.stocktitan.net/news/JEF/jefferies-to-release-its-third-quarter-financial-results-on-p7g9zpki7ttf.html",
+      "summary": "# Jefferies\u2019 next financial update is set for Sept. 28\n\nPublished: 2026-09-14T20:30:00+00:00\nSource: stocktitan.net (stocktitan.net)\nLanguage: en\n\n## Story\n\nJefferies to Release its Third Quarter Financial Results on September 28, 2026\n\nJefferies Financial Group (JEF) will release its third quarter financial results on Monday, September 28, 2026, after the market close.\n\n--(BUSINESS WIRE)-- Jefferies Financial Group Inc. (NYSE: JEF) today announced it will release its third quarter financial results on Monday, September 28, 2026 after market close.\n\nJefferies (NYSE: JEF) is one of the world\u2019s ",
+      "published": "2026-09-28",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
     },
     {
       "title": "Do Options Traders Know Something About Jefferies Stock We Don't?",
@@ -956,50 +967,98 @@
   },
   "forward_trends": {
     "queries": [
-      "global investment banking fee pool outlook 2026 2027 M&A IPO underwriting pipeline trends",
-      "private equity dry powder deployment 2026 leveraged loan high yield issuance forecast",
-      "prime brokerage hedge fund leverage demand 2026 institutional equity trading volumes forecast",
-      "alternative asset management net inflows 2026 institutional allocation trends private credit hedge funds"
+      "global M&A and IPO pipeline outlook 2026 2027 investment banking activity",
+      "leveraged loan refinancing wall 2026 2027 high yield bond issuance forecast",
+      "private credit vs syndicated lending market share 2026 2027 investment banks",
+      "institutional investor allocations to alternative asset managers 2026 2027"
     ],
     "results_count": 20,
+    "results_dated": 16,
     "trends": [
       {
-        "claim": "Global investment banking fees are rising, led by ECM and M&A.",
-        "why": "Jefferies earns advisory and underwriting fees, so a larger fee pool supports its investment banking revenue.",
-        "quote": "global IB fee pool up 12% YoY to USD 28.1bn \u2014 led by ECM (+51%) and M&A (+17%)",
-        "url": "https://bcgexpand.com/q1-2026-investment-banking-trends/",
-        "publisher": "bcgexpand.com"
+        "claim": "In 1H26 global M&A volumes rose 48% YoY and mega M&A volumes +125% YoY, with cycle expected to have substantial room to run.",
+        "stance": "unspecified",
+        "why": "Sustained deal activity feeds Jefferies' advisory and underwriting fees over the next one to three years.",
+        "quote": "Global M&A volumes rose 48% YoY",
+        "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/global-ma-in-2h-2026",
+        "publisher": "goldmansachs.com",
+        "as_of": "2026-07-22",
+        "age_days": 59,
+        "undated": false
       },
       {
-        "claim": "Equity capital markets activity is rebounding sharply, especially for AI infrastructure, defense, and energy issuers.",
-        "why": "Jefferies' equity underwriting revenue should rise as IPO and follow-on activity accelerates in these sectors.",
-        "quote": "ECM rebounding sharply (+51% YoY) as follow-ons accelerated and IPO markets selectively reopened \u2014 led by AI infrastructure, defense, and energy issuers.",
-        "url": "https://bcgexpand.com/q1-2026-investment-banking-trends/",
-        "publisher": "bcgexpand.com"
+        "claim": "Refinancings were 70% of 2025 high-yield issuance, and BofA projects $250B of high-yield refinancing for 2026.",
+        "stance": "unspecified",
+        "why": "Refinancing wave supports Jefferies high-yield debt capital markets revenue into 2026.",
+        "quote": "refinancings at 70% of 2025 HY issuance",
+        "url": "https://ibinterviewquestions.com/guides/debt-capital-markets/refinancing-wave-and-maturity-walls-into-2026",
+        "publisher": "ibinterviewquestions.com",
+        "as_of": "2026-05-22",
+        "age_days": 120,
+        "undated": false
       },
       {
-        "claim": "Megadeal M&A activity is surging, with a record number of $10 billion-plus deals in Q1 2026.",
-        "why": "Larger M&A transactions generate higher advisory fees for Jefferies.",
-        "quote": "Q1 2026 megadeal surge, with 22 megadeals above $10 billion in a single quarter, the highest count on record",
-        "url": "https://coinlaw.io/investment-banking-industry-statistics/",
-        "publisher": "coinlaw.io"
+        "claim": "In 2026 banks see more opportunities to regain share as private credit strains emerge and regulation eases.",
+        "stance": "unspecified",
+        "why": "Jefferies can win leveraged finance mandates that private credit lenders had captured.",
+        "quote": "Banks see more opportunities to regain share as private credit strains emerge and regulation eases.",
+        "url": "https://www.cnbc.com/2026/03/27/wall-street-banks-private-credit-market-share-leveraged-loans.html",
+        "publisher": "cnbc.com",
+        "as_of": "2026-03-27",
+        "age_days": 176,
+        "undated": false
       },
       {
-        "claim": "US and EMEA leveraged finance markets are expected to rebound strongly in 2026.",
-        "why": "Jefferies' leveraged finance underwriting and syndication fees should benefit from rising M&A, LBO, and refinancing activity.",
-        "quote": "US and EMEA leveraged finance markets are set for a strong 2026 rebound, driven by rising M&A, LBO activity, and elevated refinancing.",
-        "url": "https://www.moodys.com/web/en/us/creditview/blog/leveraged-finance-and-clo-2026.html",
-        "publisher": "moodys.com"
+        "claim": "In 2026 redemptions from retail investors are eroding private credit's pricing advantage, creating an opening for banks to win refinancing business.",
+        "stance": "unspecified",
+        "why": "Syndicated loan refinancings shift to banks like Jefferies, boosting capital markets fees.",
+        "quote": "Redemptions from retail investors are contributing to the erosion of private credit's pricing advantage, creating an opening for banks to win refinancing business.",
+        "url": "https://ca.finance.yahoo.com/news/private-credit-loses-edge-battle-213250231.html",
+        "publisher": "ca.finance.yahoo.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
       },
       {
-        "claim": "Banks are preparing to sell more than $138 billion of buyout debt.",
-        "why": "Jefferies can earn fees from underwriting and syndicating buyout financings.",
-        "quote": "Banks Ready $138B+ of Buyout Debt Supply",
-        "url": "https://www.briefs.co/news/bankers-preparing-to-sell-more-than-138-billion-of-buyout-de/",
-        "publisher": "briefs.co"
+        "claim": "As of 2026, private credit and syndicated loans now each total $1.4 trillion, dominating U.S. nonfinancial corporate lending.",
+        "stance": "unspecified",
+        "why": "Private credit's scale in middle-market lending competes with Jefferies' leveraged finance and lending relationships.",
+        "quote": "Private credit and syndicated loans now each total $1.4 trillion, dominating U.S. nonfinancial corporate lending.",
+        "url": "https://www.ainvest.com/news/private-credit-replaced-bank-2608/",
+        "publisher": "ainvest.com",
+        "as_of": "2026-08-29",
+        "age_days": 21,
+        "undated": false
       }
     ],
-    "dropped": []
+    "dropped": [
+      {
+        "claim": "Sponsors face an urgent need to sell assets and deploy elevated dry powder, setting the stage for another active M&A year in 2026.",
+        "stance": "unspecified",
+        "why": "Sponsor-driven M&A is a core Jefferies mid-market advisory and financing revenue source.",
+        "quote": "Sponsors face an urgent need to sell assets and deploy elevated dry powder.",
+        "url": "https://www.morganstanley.com/insights/articles/mergers-and-acquisitions-outlook-2026-activity",
+        "publisher": "morganstanley.com",
+        "as_of": "2026-01-22",
+        "age_days": 240,
+        "undated": false,
+        "drop_reason": "stale (240 days old)"
+      },
+      {
+        "claim": "LBO and M&A dealmaking is expected to increase in 2026 on stable fundamentals and lower borrowing costs.",
+        "stance": "unspecified",
+        "why": "More leveraged buyouts and M&A financing directly lift Jefferies' leveraged finance and advisory fees.",
+        "quote": "LBO and M&A dealmaking is expected to increase in 2026 on stable fundamentals and lower borrowing costs.",
+        "url": "https://pitchbook.com/news/articles/2026-us-leveraged-loan-outlook-market-poised-for-modest-growth-more-m-a",
+        "publisher": "pitchbook.com",
+        "as_of": "2025-12-16",
+        "age_days": 277,
+        "undated": false,
+        "drop_reason": "stale (277 days old)"
+      }
+    ],
+    "stale_dropped": 2,
+    "max_age_days": 180
   },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",
