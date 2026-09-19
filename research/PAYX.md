@@ -3,16 +3,16 @@
 Ticker: PAYX
 
 Description
-Payroll and HR software and services for small and medium businesses.
+Payroll processing and HR services for small to medium-sized businesses.
 
 Catalyst
 2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 1.32.
-2026-09-23 report must show a miss or lowered guidance, confirming the negative estimate revisions.
+The report must show slowing revenue growth or a miss, proving small business weakness has reached Paychex's numbers.
 
 Reasons
-1) EPS revisions are all down: 0 up and 3 down over 30 days, with consensus FY EPS slipping from 5.981 to 5.960, so estimates are falling into the print.
-2) Revenue fell 11.2% quarter-over-quarter and net income fell 24.9%, yet the stock still trades at 19.5x forward earnings, a multiple that prices in growth.
-3) The last four beats were only 0.9% to 2.4% above consensus, so the bar is high and a miss will force a de-rating from 19.5x.
+1) Consensus EPS has been cut three times in 30 days with zero increases, yet the stock still trades at 19.5x forward earnings - the market is paying for growth that is already reversing.
+2) Small business hiring slowed through the second half of 2025, and Paychex revenue scales with client employees - slower hiring means fewer payroll transactions and lower HR revenue.
+3) AI-native platforms like Rippling and Gusto are winning SMB clients from incumbent payroll providers, threatening Paychex's pricing and retention.
 
 Quants
 Price: 116.14
@@ -29,8 +29,10 @@ Structuring
 Long	PUT	15-Jan-27	$ 110.00	7	$ 116.14	100	$ 5.65	$ -	$ -	$ -	$ 3,955.00
 Short	PUT	16-Oct-26	$ 110.00	3	$ 116.14	100	$ 2.17	$ -	$ -	$ -	$ (651.00)
 Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.
-The conservative credit ratio of 11.2% clears the 10% floor, but the stock has risen 30% in six months, so the short put leg may be tested if momentum continues. Net debit $3,304 is modest.
+The 11.2% credit ratio clears the 10% floor. The short October puts expire 27 days out - if the stock holds above 110 through earnings, the position becomes a naked long put needing a deeper fall. The credit is thin; the trade works only if the earnings miss lands.
 
 ---
-Lint: score 95/100, 0 error(s), 1 warning(s), description 11 words, catalyst 14 words, reasons [29, 24, 25]
+Lint: score 85/100, 0 error(s), 3 warning(s), description 10 words, catalyst 18 words, reasons [32, 27, 19]
+  [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
+  [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)

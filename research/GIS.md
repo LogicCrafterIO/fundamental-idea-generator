@@ -3,16 +3,16 @@
 Ticker: GIS
 
 Description
-Branded packaged food and pet food maker (Cheerios, Pillsbury, Blue Buffalo).
+Branded packaged food and pet food maker (Cheerios, Pillsbury, Blue Buffalo, Häagen-Dazs).
 
 Catalyst
 2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.72.
-It must show weak volumes or a guidance cut that breaks the recent beat streak and forces estimate cuts.
+The 2026-09-23 report must show North America Retail volumes still falling and pet sales slowing, forcing a guidance cut.
 
 Reasons
-1) Both EPS revisions in the last 30 days are downward, with consensus FY EPS slipping from 3.078 to 3.071, signaling analysts are cutting estimates into the print.
-2) Reported net income jumped 562.5% quarter-over-quarter, but cash fell 42.2% and equity fell 21.1%, suggesting the earnings quality is deteriorating even as headline profit rises.
-3) At 11.8x forward earnings, GIS trades on a multiple that assumes stability, yet the company just exited yogurt and Brazil/China Haagen-Dazs while buying premium pet food, adding execution risk to weak volumes.
+1) GLP-1 [weight-loss drugs] use is forecast to roughly double over the next decade, and users eat less high-fat, sugary, ultra-processed food—exactly GIS's snacks, cereal, and baking mix.
+2) Private label store brands are gaining share as food prices stay high, pressuring GIS's branded packaged food sales and shelf space.
+3) Cat households grew 4.1% while dog households fell 4.2% from 2019 to 2025, leaving GIS's dog-heavy Blue Buffalo portfolio misaligned with pet ownership.
 
 Quants
 Price: 36.32
@@ -29,10 +29,10 @@ Structuring
 Long	PUT	15-Jan-27	$ 35.00	20	$ 36.32	100	$ 2.20	$ -	$ -	$ -	$ 4,400.00
 Short	PUT	16-Oct-26	$ 35.00	6	$ 36.32	100	$ 0.95	$ -	$ -	$ -	$ (570.00)
 Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.
-The 11.2% conservative credit ratio clears the 10% floor, but the net debit is $3,830 and the short put expires in under a month, so the credit is thin relative to the downside window. Could sell more short puts if the stock holds above 35 into the print.
+The credit ratio clears the floor, but the short put expiring in four weeks carries gap risk around earnings. The 20:6 ratio means the long put position is the main exposure; if the stock spikes on a beat, the short puts lose but the long puts retain value. Size is moderate.
 
 ---
-Lint: score 85/100, 0 error(s), 3 warning(s), description 11 words, catalyst 19 words, reasons [27, 25, 33]
+Lint: score 85/100, 0 error(s), 3 warning(s), description 13 words, catalyst 19 words, reasons [28, 21, 23]
   [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)

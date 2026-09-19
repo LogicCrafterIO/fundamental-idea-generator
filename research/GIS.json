@@ -2,7 +2,7 @@
   "ticker": "GIS",
   "direction": "short",
   "as_of": "2026-09-19",
-  "description": "Branded packaged food and pet food maker (Cheerios, Pillsbury, Blue Buffalo).",
+  "description": "Branded packaged food and pet food maker (Cheerios, Pillsbury, Blue Buffalo, H\u00e4agen-Dazs).",
   "catalyst": {
     "date": "2026-09-23",
     "weekday": "Wednesday",
@@ -48,12 +48,12 @@
     "beat_streak": 1,
     "median_gap_days": 91,
     "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.72.",
-    "why": "It must show weak volumes or a guidance cut that breaks the recent beat streak and forces estimate cuts."
+    "why": "The 2026-09-23 report must show North America Retail volumes still falling and pet sales slowing, forcing a guidance cut."
   },
   "reasons": [
-    "Both EPS revisions in the last 30 days are downward, with consensus FY EPS slipping from 3.078 to 3.071, signaling analysts are cutting estimates into the print.",
-    "Reported net income jumped 562.5% quarter-over-quarter, but cash fell 42.2% and equity fell 21.1%, suggesting the earnings quality is deteriorating even as headline profit rises.",
-    "At 11.8x forward earnings, GIS trades on a multiple that assumes stability, yet the company just exited yogurt and Brazil/China Haagen-Dazs while buying premium pet food, adding execution risk to weak volumes."
+    "GLP-1 [weight-loss drugs] use is forecast to roughly double over the next decade, and users eat less high-fat, sugary, ultra-processed food\u2014exactly GIS's snacks, cereal, and baking mix.",
+    "Private label store brands are gaining share as food prices stay high, pressuring GIS's branded packaged food sales and shelf space.",
+    "Cat households grew 4.1% while dog households fell 4.2% from 2019 to 2025, leaving GIS's dog-heavy Blue Buffalo portfolio misaligned with pet ownership."
   ],
   "quants": {
     "price": 36.32,
@@ -97,7 +97,7 @@
       }
     ],
     "thesis_target": "Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
-    "reflection": "The 11.2% conservative credit ratio clears the 10% floor, but the net debit is $3,830 and the short put expires in under a month, so the credit is thin relative to the downside window. Could sell more short puts if the stock holds above 35 into the print."
+    "reflection": "The credit ratio clears the floor, but the short put expiring in four weeks carries gap risk around earnings. The 20:6 ratio means the long put position is the main exposure; if the stock spikes on a beat, the short puts lose but the long puts retain value. Size is moderate."
   },
   "generation": {
     "model": "deepseek-v4-pro:0813",
@@ -112,7 +112,7 @@
       }
     ],
     "grounding": {
-      "checked": 7,
+      "checked": 4,
       "unsupported": [],
       "grounded": true,
       "ratio": 1.0

@@ -22,6 +22,7 @@ of an adjective. Each round is recorded so the run can be audited.
 from __future__ import annotations
 
 import json
+import re
 from datetime import date
 from pathlib import Path
 
@@ -35,6 +36,65 @@ MODEL_OWNED = ("description", "reasons", "reflection")
 # --------------------------------------------------------------------------
 # assembling the note
 # --------------------------------------------------------------------------
+
+
+
+# Words too common to signal that a reason is actually about the end market.
+_TREND_STOPWORDS = {
+    "their", "there", "these", "those", "which", "while", "about", "would", "could",
+    "should", "being", "other", "after", "before", "still", "under", "across",
+    "increasing", "increased", "growing", "growth", "demand", "rising", "higher",
+    "lower", "small", "business", "businesses", "company", "companies", "market",
+    "markets", "sector", "industry", "spending", "customers", "clients", "plans",
+    "expected", "likely", "continue", "continues", "adding", "using", "more",
+    # generic financial vocabulary -- present in almost any reason, so it cannot
+    # signal that a reason is actually about the end market
+    "revenue", "revenues", "earnings", "income", "profit", "profits", "margin",
+    "margins", "cost", "costs", "sales", "value", "shares", "stock", "price",
+    "multiple", "quarter", "quarters", "year", "years", "annual", "results",
+    "performance", "operating", "expense", "expenses", "cash", "flow", "numbers",
+    "figures", "reported", "reporting", "reports", "pressures", "pressure",
+    "complexity", "compliance",
+}
+
+
+def _trend_keywords(trends: list[dict]) -> set[str]:
+    """Significant words from the trend claims, for checking they were used."""
+    words: set[str] = set()
+    for trend in trends or []:
+        text = f"{trend.get('claim','')} {trend.get('why','')}".lower()
+        for word in re.findall(r"[a-z][a-z\-]{4,}", text):
+            word = word.strip("-")
+            if word and word not in _TREND_STOPWORDS:
+                words.add(word)
+    return words
+
+
+def end_market_coverage(writeup: dict, trends: list[dict]) -> dict:
+    """Did any reason actually use the end-market research it was given?
+
+    Supplying end-market evidence is not the same as using it. A note can be handed
+    five grounded trends and still write three reasons about trailing quarters --
+    which is precisely what happened to the PAYX note the repo owner objected to:
+    the words "hiring" and "employment" appeared nowhere in it, so nothing explained
+    why weakness in its end markets had not reached its reported numbers.
+    """
+    if not trends:
+        return {"available": 0, "used": [], "ok": True}
+
+    # Words already in the company's own Description describe the company, not its
+    # end market, so they cannot count as evidence about customers.
+    own_business = set(
+        re.findall(r"[a-z][a-z\-]{4,}", (writeup.get("description") or "").lower())
+    )
+    keywords = _trend_keywords(trends) - {w.strip("-") for w in own_business}
+    prose = " ".join(
+        [writeup.get("description") or "", *[str(r) for r in (writeup.get("reasons") or [])]]
+    ).lower()
+    prose = prose.replace("-", " ")
+
+    hits = sorted(word for word in keywords if word in prose)
+    return {"available": len(trends), "used": hits, "ok": bool(hits)}
 
 
 def _extra_quants_lines(packet: dict, limit: int = 4) -> list[str]:
@@ -303,6 +363,19 @@ def generate_idea(
         result = lint.lint_writeup(writeup)
         grounding = lint.check_grounding(writeup, packet_mod.to_prompt_context(pack))
         result["grounding"] = grounding
+
+        coverage = end_market_coverage(writeup, (pack.get("forward_trends") or {}).get("trends") or [])
+        result["end_market"] = coverage
+        if not coverage["ok"]:
+            # An error, not a warning: the writer was handed end-market evidence and
+            # wrote about trailing quarters instead, which is the gap this feature
+            # exists to close. The repair loop then has to use it.
+            result["errors"] += 1
+            result["issues"] = result["issues"] + [
+                f"[error] no reason uses the end-market research supplied "
+                f"({coverage['available']} trends): say what is happening to the "
+                f"customers, or why the pressure has not shown up yet (end_market_unused)"
+            ]
         if grounding["unsupported"]:
             result["issues"] = result["issues"] + [
                 f"[warn ] Reason prose: unsupported figure(s) {', '.join(grounding['unsupported'])} "

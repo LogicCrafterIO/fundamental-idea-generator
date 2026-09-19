@@ -68,9 +68,13 @@ NOT_TICKERS = {
 }
 
 CAUSAL_MARKERS = [
-    "because", "since", "so ", "then ", "if ", "leads to", "drives", "results in",
-    "causes", "as a result", "which means", "therefore", "forces", "makes",
-    "given that", "due to", "means that", "would ", "will ", "when ",
+    # Strong, explicit causation only. Weak conjunctions ("so", "will", "would",
+    # "when", "makes") used to live here, which let "next-FY PE is 39.51, so the
+    # market is paying less for next year's earnings" count as having a mechanism
+    # and escape the valuation check entirely.
+    "because", "since", "leads to", "lead to", "drives", "results in", "causes",
+    "as a result", "which means", "therefore", "forces", "given that", "due to",
+    "if ", "then ", "force", "forcing", "enough to", "push", "compress", "erode",
 ]
 
 NUMBER_RE = re.compile(r"\d")
@@ -118,6 +122,95 @@ def _has_named_comparison(text: str) -> bool:
 def _has_mechanism(text: str) -> bool:
     lowered = (text or "").lower()
     return any(marker in lowered for marker in CAUSAL_MARKERS)
+
+
+# A multiple, a discount, or a cheapness word -- the vocabulary of a valuation-only
+# argument.
+VALUATION_MARKERS = (
+    "forward pe", "fwd pe", "fwdpe", "p/e", " pe ", "multiple", "trades at",
+    "trading at", "priced at", "prices in", "pricing in", "valuation",
+    " x forward", "x earnings", "x next-year", "p/s", "ps ratio", "cheap",
+    "expensive", "discount", "premium to", "below peers", "below its peers",
+    "underpriced", "overpriced",
+    # price-level discounts: the same fallacy with no multiple in it, e.g.
+    # "shares sit 18% below May peak -- growth has not slowed"
+    "% below", "below its peak", "below the peak", "off its high", "off the high",
+    "off its peak", "pullback", "pull back", "sell-off", "selloff", "sold off",
+    "below its high", "below the high",
+)
+
+# What turns a valuation observation into a thesis: a statement that the market
+# is wrong about something specific, or that something will change.
+MISPRICING_MARKERS = (
+    "market is missing", "market misses", "market has not", "market hasn't",
+    "not priced", "isn't priced", "is not priced", "mispric", "ignores",
+    "overpaying", "underappreciating", "underappreciated", "misread",
+    "will change", "would change", "must change", "changes when", "until",
+    "once ", "if ", "because", "leads to", "drives", "forces", "as a result",
+    "catalyst", "reflect", "catch up", "narrow", "close the gap",
+    "not sustainable", "cannot last", "can't last", "unsustainable",
+)
+
+
+# A forward-PE roll-forward ("next-FY 39.5 is below this year's 43.5") is
+# informationally empty: every company with any earnings growth has a lower
+# next-year multiple than current-year. It reads like a finding and distinguishes
+# nothing, so it is checked separately from the general rule above.
+_ROLLFORWARD_RE = re.compile(
+    r"(next[- ]?(fy|fiscal year|year)|forward).{0,60}?(below|lower than|under|cheaper than)"
+    r".{0,40}?(current|this year|current[- ]year)",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def is_pe_rollforward(text: str) -> bool:
+    """True for a next-FY vs current-FY PE comparison presented as evidence."""
+    lowered = (text or "").lower()
+    if not any(token in lowered for token in ("pe", "p/e", "multiple", "x ")):
+        return False
+    if not _ROLLFORWARD_RE.search(text or ""):
+        return False
+    # If the reason also says what the market is missing, the comparison is
+    # supporting detail rather than the whole argument.
+    return not any(marker in lowered for marker in MISPRICING_MARKERS)
+
+
+def is_valuation_only(text: str, direction: str | None = None) -> bool:
+    """True when a reason rests on a multiple with no mechanism behind it.
+
+    This encodes the most expensive reasoning error in this format: "it trades at
+    12x while peers are at 20x". A discount is an observation, not a thesis --
+    premium multiples usually exist for a good reason, so cheapness is not by
+    itself a case for an upward rerating. Cheap things are frequently cheap
+    because something is wrong.
+
+    The juxtaposition form counts as the error, which is a deliberate call: a
+    reason saying "net income rose 32% yet it trades at 16.9x" has *not* explained
+    why the market pays only 16.9x -- it has restated the screen signal as if it
+    were a conclusion. It passes only by adding what the market is missing or what
+    will change. That is exactly the distinction the owner asked for, and an
+    earlier version of this check that exempted any reason containing "yet" or
+    "rose" was too loose to catch anything.
+
+    Two deliberate limits:
+
+    * **Short theses are exempt.** A high multiple on a business whose numbers are
+      deteriorating is a standard short argument, not this fallacy.
+    * **A mechanism or a mispricing claim clears it.** So ORCL's own reference
+      reason 1 -- "it's not priced like Google, which is trading at a Forward PE
+      of 25 while Oracle is at a Forward PE of 17" -- passes on its "because". The
+      linter flags the bare form rather than rejecting the owner's own spec.
+    """
+    lowered = f" {(text or '').lower()} "
+    if not any(marker in lowered for marker in VALUATION_MARKERS):
+        return False
+    if _has_mechanism(text):
+        return False
+    if any(marker in lowered for marker in MISPRICING_MARKERS):
+        return False
+    if (direction or "").lower() == "short":
+        return False
+    return True
 
 
 def unglossed_acronyms(text: str) -> list[str]:
@@ -259,6 +352,26 @@ def lint_writeup(writeup: dict) -> dict:
                     "reason_no_mechanism",
                     f"Reason {index}",
                     "no causal link (if/because/leads to); reads as an assertion",
+                )
+            )
+        if is_valuation_only(reason, writeup.get("direction")):
+            issues.append(
+                Issue(
+                    "error",
+                    "reason_valuation_only",
+                    f"Reason {index}",
+                    "rests on a multiple with no mechanism -- a discount is not a "
+                    "thesis; say what the market is missing or what will change",
+                )
+            )
+        if is_pe_rollforward(reason):
+            issues.append(
+                Issue(
+                    "warn",
+                    "reason_pe_rollforward",
+                    f"Reason {index}",
+                    "next-year vs current-year PE is true of any grower and "
+                    "distinguishes nothing; say why the multiple is wrong",
                 )
             )
 

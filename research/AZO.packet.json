@@ -1,7 +1,7 @@
 {
   "symbol": "AZO",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T20:47:28",
+  "generated_at": "2026-09-19T21:56:15",
   "profile": {
     "symbol": "AZO",
     "name": "AutoZone, Inc.",
@@ -771,6 +771,53 @@
     "same_slot_last_year": true,
     "facts_line": "2026-09-22 (Tuesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 54.09."
   },
+  "forward_trends": {
+    "queries": [
+      "US automotive aftermarket parts demand outlook 2025 2026 vehicle age miles driven",
+      "electric vehicle adoption impact on replacement auto parts demand forecast",
+      "consumer spending on car repair and maintenance trends 2025 inflation",
+      "auto repair shop technician shortage labor rates 2025 2026 DIFM"
+    ],
+    "results_count": 20,
+    "trends": [
+      {
+        "claim": "The U.S. light-duty automotive aftermarket is projected to grow 5.2% in 2026 and surpass $500 billion by 2029.",
+        "why": "This supports continued demand for AutoZone's parts and services over the next one to three years.",
+        "quote": "US light-duty automotive aftermarket is projected to grow 5.2% year-over-year in 2026 and surpass $500 billion by 2029",
+        "url": "https://corporatefinance.kpmg.com/us/en/insights/2026/automotive-aftermarket-industry-update-q2-2026.html",
+        "publisher": "corporatefinance.kpmg.com"
+      },
+      {
+        "claim": "Motor oil pricing and availability may become a near-term pressure point because Middle East conflict has disrupted Group III base oil supply.",
+        "why": "AutoZone sells lubricants, so higher oil costs or shortages could squeeze margins or limit product availability.",
+        "quote": "motor oil pricing and availability could remain a near-term watchpoint for the US aftermarket",
+        "url": "https://corporatefinance.kpmg.com/us/en/insights/2026/automotive-aftermarket-industry-update-q2-2026.html",
+        "publisher": "corporatefinance.kpmg.com"
+      },
+      {
+        "claim": "Consumers are mixing DIY and deferral behaviors as cost concerns and low confidence shape auto maintenance decisions.",
+        "why": "This shifts demand between AutoZone's DIY and professional channels and may reduce non-critical repair purchases.",
+        "quote": "consumer engages in a mix of DIY and deferral behaviors",
+        "url": "https://www.circana.com/post/auto-maintenance-diy-and-deferrals-are-shaping-aftermarket-performance-in-2025-reports-circana",
+        "publisher": "circana.com"
+      },
+      {
+        "claim": "Repair prices are rising sharply, with the largest one-month jump on record in August 2025.",
+        "why": "Higher repair bills may cause vehicle owners to defer work or choose DIY, affecting AutoZone's sales mix.",
+        "quote": "The price of car repairs jumped 5% just from July to August",
+        "url": "https://www.cnn.com/2025/09/21/business/car-repair-prices-soaring",
+        "publisher": "cnn.com"
+      },
+      {
+        "claim": "The DIFM market is growing while the number of service bays is shrinking, concentrating demand in fewer locations.",
+        "why": "AutoZone's professional customers may buy more parts per bay, but fewer outlets could reduce its customer base.",
+        "quote": "The size of the do\u2011it\u2011for\u2011me (DIFM) market and the number of service bays across the country are moving in opposite directions",
+        "url": "https://www.autoserviceworld.com/difm-demand-outpaces-capacity-as-bay-counts-fall-as/",
+        "publisher": "autoserviceworld.com"
+      }
+    ],
+    "dropped": []
+  },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",
     "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
@@ -778,7 +825,8 @@
     "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
     "api.nasdaq.com company financials frequency=2 (quarterly statements)",
     "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
-    "ollama.com api/web_search (current reporting, when a key is configured)"
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
   ],
   "structures": {
     "long": {

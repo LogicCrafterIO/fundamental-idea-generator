@@ -3,16 +3,16 @@
 Ticker: DRI
 
 Description
-Full-service restaurant operator with Olive Garden, LongHorn Steakhouse, and other brands in the US and Canada.
+Full-service restaurant operator with Olive Garden, LongHorn Steakhouse, and other chains.
 
 Catalyst
 2026-09-24 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 2.05.
-Must show Olive Garden traffic and sales trends improving enough to support fiscal 2027 guidance reiteration.
+The report must show Olive Garden traffic gains and reaffirmed fiscal 2027 guidance, proving Darden is taking share despite weak industry traffic.
 
 Reasons
-1) Net income rose 32% and EPS rose from 2.98 to 3.66, yet the stock trades at 16.9x next-year earnings with all estimate revisions up.
-2) Unlike BJRI and CAKE, which have rallied 44% and 70% on traffic improvements, DRI has not repriced despite early signs of improving Olive Garden traffic.
-3) Darden's $1.5B buyback authorization and dividend increase shrink the share count and return cash, supporting EPS even if same-store sales stay flat.
+1) Net income rose 32% and revenue 11.2% last quarter while industry real sales grow only 1.3%, so Darden is taking share from independents.
+2) At 16.9x next-fiscal-year EPS, Darden trades below Cheesecake Factory and BJ's, which have rallied on similar traffic and margin gains, yet Darden adds a $1.5B buyback and 32% net income growth.
+3) Darden's value menus and scale let it hold traffic while consumers favor local restaurants, so its 11.2% revenue growth can continue even as industry traffic falls.
 
 Quants
 Price: 209.28
@@ -29,9 +29,10 @@ Structuring
 Long	CALL	15-Jan-27	$ 220.00	4	$ 209.28	100	$ 10.50	$ -	$ -	$ -	$ 4,200.00
 Short	CALL	16-Oct-26	$ 220.00	2	$ 209.28	100	$ 4.35	$ -	$ -	$ -	$ (870.00)
 Targets the 2026-12-24 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.
-The credit ratio clears the floor, but the net debit is $3,330 and the short October calls cap upside if the stock runs through 220 before January. The 15.2% conservative credit is enough to justify the risk, but I'd want to see the report before adding size.
+The 15.2% conservative credit ratio clears the floor, but the short October 220 calls cap upside into the catalyst. Net debit $3,330 is modest; the risk is a post-earnings pop through 220 that forces early assignment.
 
 ---
-Lint: score 90/100, 0 error(s), 2 warning(s), description 16 words, catalyst 16 words, reasons [24, 25, 22]
+Lint: score 85/100, 0 error(s), 3 warning(s), description 11 words, catalyst 22 words, reasons [23, 31, 26]
   [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
+  [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)

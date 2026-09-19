@@ -2,7 +2,7 @@
   "ticker": "SNX",
   "direction": "long",
   "as_of": "2026-09-19",
-  "description": "IT distributor and solutions aggregator for endpoint devices and data center infrastructure.",
+  "description": "Information technology distributor and solutions aggregator for PCs, data center, cloud, and artificial intelligence infrastructure.",
   "catalyst": {
     "date": "2026-09-24",
     "weekday": "Thursday",
@@ -48,12 +48,12 @@
     "beat_streak": 4,
     "median_gap_days": 91,
     "facts_line": "2026-09-24 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 4.68.",
-    "why": "2026-09-24 report must show adjusted earnings per share above 4.68 and gross billings growth, confirming artificial intelligence demand still lifts results."
+    "why": "It must show another EPS beat and raised guidance, confirming AI infrastructure demand is still accelerating and not yet priced."
   },
   "reasons": [
-    "Revenue rose 31% year over year to $19.6B and adjusted earnings per share rose 62.2% to $4.85, yet the stock trades at 12.31x next-FY consensus earnings.",
-    "All 11 analysts revised earnings estimates up over the last 30 days, with zero down, while the stock still trades at 0.3x sales.",
-    "Artificial intelligence infrastructure demand is driving data center growth: TD SYNNEX distributes ORCA software that converts stranded power into capacity for artificial intelligence workloads, a mechanism that lifts gross billings."
+    "European IT distribution revenue is forecast to grow 7.5% in 2026, the fastest since the pandemic, directly lifting SNX's top line while the market worries about cloud migration.",
+    "IT buyers now expect 2026 budgets to grow 5.8% year-over-year, up from 3.6% two quarters earlier, so SNX's distribution revenue has more runway than the 13.95x forward price-to-earnings implies.",
+    "AI/ML [artificial intelligence/machine learning] is the only category where more buyers plan to expand suppliers than consolidate, so SNX's vendor and customer base grows even as cloud migration pressures legacy hardware."
   ],
   "quants": {
     "price": 266.16,
@@ -98,7 +98,7 @@
       }
     ],
     "thesis_target": "Targets the 2026-12-24 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
-    "reflection": "The credit ratio clears the floor, but the short October call caps upside if the stock runs through 280 before expiry. The net debit is modest relative to the 21B market cap, so the trade is sized for a slow grind higher rather than a sharp breakout."
+    "reflection": "The 17.9% conservative credit ratio clears the 10% floor, but the short call caps upside if the stock runs through 280 before October. The credit is fat enough for one unit."
   },
   "generation": {
     "model": "deepseek-v4-pro:0813",
@@ -106,14 +106,14 @@
     "rounds": [
       {
         "round": 0,
-        "score": 85,
+        "score": 90,
         "errors": 0,
-        "warnings": 3,
+        "warnings": 2,
         "unsupported_figures": []
       }
     ],
     "grounding": {
-      "checked": 7,
+      "checked": 6,
       "unsupported": [],
       "grounded": true,
       "ratio": 1.0

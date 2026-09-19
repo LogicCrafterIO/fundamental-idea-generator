@@ -1,7 +1,7 @@
 {
   "symbol": "DRI",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T20:47:52",
+  "generated_at": "2026-09-19T21:35:59",
   "profile": {
     "symbol": "DRI",
     "name": "Darden Restaurants, Inc.",
@@ -902,6 +902,61 @@
     "same_slot_last_year": true,
     "facts_line": "2026-09-24 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 2.05."
   },
+  "forward_trends": {
+    "queries": [
+      "US full-service restaurant industry traffic forecast 2025 2026",
+      "casual dining consumer spending trends 2025 2026 lower income households",
+      "restaurant food labor cost inflation outlook 2025 2026",
+      "fast casual vs full-service restaurant competition market share 2025 2026"
+    ],
+    "results_count": 20,
+    "trends": [
+      {
+        "claim": "Restaurant sales are projected to grow moderately in 2026, with real gains of just 1.3%.",
+        "why": "Darden's revenue growth may be limited by weak industry-wide real sales growth.",
+        "quote": "Restaurant sales are projected to grow moderately in 2026, with real (inflation-adjusted) gains of 1.3%.",
+        "url": "https://go.restaurant.org/rs/078-ZLA-461/images/SOI-2026-ExecutiveSummary.pdf?version=1",
+        "publisher": "go.restaurant.org"
+      },
+      {
+        "claim": "A cooling labor market, persistent cost pressures, and cautious household spending will continue to challenge operator margins.",
+        "why": "Darden's restaurant margins face ongoing labor, cost, and demand pressure.",
+        "quote": "cooling labor market, persistent cost pressures, and cautious household spending will continue to challenge operator margins",
+        "url": "https://www.restaurant.org/research-and-media/media/press-releases/persistent-cost-increases-and-enduring-demand-will-shape-the-restaurant-industry-in-2026/",
+        "publisher": "restaurant.org"
+      },
+      {
+        "claim": "Overall dining traffic remains under pressure, with visits trailing last year's levels in most months of 2026.",
+        "why": "Darden's same-restaurant traffic may stay negative or weak.",
+        "quote": "Overall dining traffic remains under pressure, with visits trailing last year's levels in most months of 2026.",
+        "url": "https://5995051.fs1.hubspotusercontent-na1.net/hubfs/5995051/White%20Papers/Placer.ai%20Report%20_%20Dining%20In%202026_%20All%20Roads%20Lead%20To%20Value.pdf",
+        "publisher": "5995051.fs1.hubspotusercontent-na1.net"
+      },
+      {
+        "claim": "Consumers are favoring local restaurants over large chains.",
+        "why": "Darden's large national chains may lose traffic to local independents.",
+        "quote": "Consumers are favoring local restaurants over large chains, according to Bank of America card data.",
+        "url": "https://institute.bankofamerica.com/content/dam/economic-insights/restaurants-and-discretionary-spending.pdf",
+        "publisher": "institute.bankofamerica.com"
+      },
+      {
+        "claim": "Value has become a defining theme across the dining industry as sentiment hovers near historic lows and costs remain elevated.",
+        "why": "Darden must emphasize affordability or perceived value to protect traffic.",
+        "quote": "As consumer sentiment hovers near historic lows and the cost of goods remains elevated, value has become a defining theme across the dining industry.",
+        "url": "https://www.placer.ai/anchor/reports/dining-in-2026-all-roads-lead-to-value",
+        "publisher": "placer.ai"
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "Casual dining and pizza restaurants have seen multi-year share declines within overall restaurant spending.",
+        "why": "Darden's Olive Garden and LongHorn Steakhouse face share loss to better value, convenience, or novelty.",
+        "quote": "casual dining and pizza restaurants have seen multi-year share declines within overall restaurant spending",
+        "url": "https://institute.bankofamerica.com/content/dam/economic-insights/where-consumers-are-dining-out.pdf",
+        "publisher": "institute.bankofamerica.com"
+      }
+    ]
+  },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",
     "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
@@ -909,7 +964,8 @@
     "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
     "api.nasdaq.com company financials frequency=2 (quarterly statements)",
     "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
-    "ollama.com api/web_search (current reporting, when a key is configured)"
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
   ],
   "structures": {
     "long": {

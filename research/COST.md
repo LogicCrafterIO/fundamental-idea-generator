@@ -3,16 +3,16 @@
 Ticker: COST
 
 Description
-Membership warehouse club selling groceries and household goods in bulk at thin markups, with gas, pharmacy, and e-commerce.
+Membership warehouse club selling groceries, household goods, and gasoline in bulk at thin markups, with growing e-commerce and delivery.
 
 Catalyst
-2026-09-24 (Thursday, after the close), 5 days out -- from the earnings calendar, consensus EPS 6.55.
-2026-09-24 report must show e-commerce growth near 20.9% and stable renewal rates, proving the 18% pullback is overdone.
+2026-09-24 (Thursday, after the close), 5 days out -- from the earnings calendar, consensus EPS 6.53.
+The report must show e-commerce growth above 20% and a special dividend, confirming delivery expansion adds revenue without destroying margin.
 
 Reasons
-1) August net sales rose 9.9% to $23.70B and e-commerce grew 17.9% in August, yet shares sit 18% below May peak—growth has not slowed.
-2) EPS revisions are tilted higher (8 up, 4 down over 30 days), and next-FY consensus forward PE is 39.51, below the current 43.54, so the market is paying less for next year's earnings.
-3) Costco's membership model converts e-commerce growth into recurring fee income, so 20.9% fiscal e-commerce growth feeds renewal rates and margin expansion.
+1) E-commerce sales grew 20.9% in fiscal 2026 and 17.9% in August, yet consensus EPS is flat; delivery expansion via DoorDash and Uber Eats across 639 stores adds a new growth lever not in estimates.
+2) August net sales rose 9.9% y/y to $23.70B, showing value-seeking consumers are trading into Costco even as overall spending intentions fall; warehouse clubs are projected to lead mass merchandiser growth in 2026.
+3) Cash and equivalents rose 9.0% and EBIT rose 7.8% quarter-over-quarter, giving Costco room to announce a special dividend; the last four reports all beat consensus, so estimates are too low.
 
 Quants
 Price: 895.31
@@ -29,8 +29,10 @@ Structuring
 Long	CALL	15-Jan-27	$ 930.00	1	$ 895.31	100	$ 37.85	$ -	$ -	$ -	$ 3,785.00
 Short	CALL	16-Oct-26	$ 930.00	1	$ 895.31	100	$ 11.25	$ -	$ -	$ -	$ (1,125.00)
 Targets the 2026-12-18 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.
-The 24.4% conservative credit clears the floor, but the short October call caps upside into the catalyst. Net debit $2,660 is modest; if the report disappoints, the long-dated call still holds value.
+The credit ratio clears the floor, but the net debit is $2,660 per spread; the short call at 930 caps upside if the special dividend sparks a gap. Size it small because the stock is already expensive and a miss would be ugly.
 
 ---
-Lint: score 95/100, 0 error(s), 1 warning(s), description 18 words, catalyst 18 words, reasons [24, 33, 21]
+Lint: score 85/100, 0 error(s), 3 warning(s), description 19 words, catalyst 20 words, reasons [34, 33, 30]
   [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
+  [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
+  [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)

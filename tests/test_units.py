@@ -550,6 +550,193 @@ class TestCatalystLint(unittest.TestCase):
         self.assertTrue(result["ok"], result["issues"])
 
 
+class TestValuationBias(unittest.TestCase):
+    """A discount is not a thesis; premium multiples usually exist for a reason."""
+
+    def test_pure_discount_reason_is_flagged(self):
+        self.assertTrue(
+            lint.is_valuation_only("At 12.3x next-year earnings the stock prices in no growth.")
+        )
+        self.assertTrue(
+            lint.is_valuation_only("It trades at 11.8x forward earnings, a discount to peers.")
+        )
+
+    def test_multiple_with_a_stated_mispricing_passes(self):
+        # Names what the market is missing -> a thesis, not an observation.
+        self.assertFalse(
+            lint.is_valuation_only(
+                "At 12.3x the market is missing that revenue grew 31%, so the multiple is too low."
+            )
+        )
+
+    def test_multiple_with_a_mechanism_passes(self):
+        self.assertFalse(
+            lint.is_valuation_only(
+                "It trades at 19.5x because margins are high, which forces a de-rating when "
+                "costs rise."
+            )
+        )
+
+    def test_mechanism_reason_is_not_flagged(self):
+        self.assertFalse(
+            lint.is_valuation_only("Revenue fell 11.2% quarter over quarter as clients cut headcount.")
+        )
+
+    def test_cheap_plus_falling_estimates_is_not_a_long_bonus(self):
+        from fig import discover
+
+        base = {
+            "revisions_net_30d": -2, "price_change_30d": 4.0, "price_change_90d": None,
+            "news_specific": 0, "structure_available": False,
+        }
+        cheap = discover._score({**base, "fwd_pe": 6.0, "ps": 1.0})
+        pricey = discover._score({**base, "fwd_pe": 40.0, "ps": 1.0})
+        # Cheap-and-falling must not outrank expensive-and-falling on valuation alone.
+        self.assertNotIn("valuation", cheap[2])
+        self.assertLessEqual(cheap[2].get("valuation_fragility", 0), pricey[2].get("valuation_fragility", 0))
+
+    def test_rising_estimates_gets_no_valuation_bonus(self):
+        from fig import discover
+
+        scored = discover._score({
+            "revisions_net_30d": 3, "price_change_30d": -6.0, "price_change_90d": None,
+            "news_specific": 0, "structure_available": False, "fwd_pe": 5.0, "ps": 0.5,
+        })
+        self.assertNotIn("valuation_fragility", scored[2])
+
+
+class TestValuationRuleCalibration(unittest.TestCase):
+    """Calibrated against an independent audit of all nine generated notes."""
+
+    def test_juxtaposition_form_is_the_fallacy(self):
+        # "Fundamentals improved yet it trades at 16.9x" has not explained why the
+        # market pays only 16.9x -- it restates the screen signal as a conclusion.
+        self.assertTrue(
+            lint.is_valuation_only(
+                "Net income rose 32%, yet the stock trades at 16.9x next-year earnings.", "long"
+            )
+        )
+
+    def test_price_discount_is_covered_not_just_multiples(self):
+        self.assertTrue(
+            lint.is_valuation_only(
+                "Sales rose 9.9% and e-commerce grew 17.9%, yet shares sit 18% below May peak.",
+                "long",
+            )
+        )
+
+    def test_weak_conjunction_is_not_a_mechanism(self):
+        # "so" used to count as causation, which excused this exact reason.
+        self.assertTrue(
+            lint.is_valuation_only(
+                "next-FY consensus forward PE is 39.51, below the current 43.54, so the "
+                "market is paying less for next year's earnings.",
+                "long",
+            )
+        )
+
+    def test_causal_chain_survives_the_tightening(self):
+        # "force a rerate" is a consequence of a mechanism, not valuation vocabulary.
+        self.assertFalse(
+            lint.is_valuation_only(
+                "Charge-offs at 10% would cut earnings enough to force a rerate.", "long"
+            )
+        )
+
+    def test_short_theses_are_exempt(self):
+        self.assertFalse(
+            lint.is_valuation_only(
+                "Revenue fell 11.2% while it still trades at 19.5x forward earnings.", "short"
+            )
+        )
+
+    def test_reference_orcl_reason_1_passes(self):
+        # The owner's own spec must not be rejected by the linter.
+        self.assertFalse(
+            lint.is_valuation_only(
+                "It's unclear if the valuation is pricing in a declining enterprise Saas, "
+                "because it's not priced like Google, which is trading at a Forward PE of "
+                "25 while Oracle is at a Forward PE of 17.",
+                "long",
+            )
+        )
+
+    def test_pe_rollforward_is_caught_separately(self):
+        # True of any company with any growth, so it distinguishes nothing.
+        self.assertTrue(
+            lint.is_pe_rollforward(
+                "next-FY consensus forward PE is 39.51, below the current 43.54"
+            )
+        )
+        self.assertFalse(
+            lint.is_pe_rollforward("Revenue fell 11.2% quarter over quarter.")
+        )
+
+    def test_valuation_only_is_an_error_so_the_repair_loop_fixes_it(self):
+        note = {
+            "ticker": "TST",
+            "direction": "long",
+            "description": "Retailer of consumer goods",
+            "catalyst": {"date": "2026-10-30", "facts_line": "2026-10-30, 41 days out.",
+                         "why": "Margins must recover for this to work."},
+            "reasons": ["It trades at 12x, a discount to peers trading at 20x.",
+                        "It trades at 12x versus the group at 20x on every metric."],
+        }
+        result = lint.lint_writeup(note)
+        self.assertFalse(result["ok"])
+        self.assertIn("reason_valuation_only", " ".join(result["issues"]))
+
+
+class TestTrendGrounding(unittest.TestCase):
+    """A trend claim survives only if its quote is really in the retrieved text."""
+
+    RESULTS = [
+        {"title": "Subprime Auto Loans Hit Worst Delinquency in 32 Years",
+         "url": "https://example.com/a",
+         "content": "Key Points The subprime auto loan delinquency rate hit 6.8% at the "
+                    "start of 2026."},
+        {"title": "Small business hiring cools",
+         "url": "https://example.com/b",
+         "content": "Hiring cooled to its slowest pace of the streak as gains held "
+                    "across every region."},
+    ]
+
+    def test_supported_quote_is_kept(self):
+        from fig import research
+
+        self.assertTrue(
+            research._quote_is_supported("hiring cooled to its slowest pace of the streak", self.RESULTS)
+        )
+
+    def test_paraphrase_is_rejected(self):
+        from fig import research
+
+        self.assertFalse(
+            research._quote_is_supported(
+                "hiring accelerated sharply across all regions and company sizes", self.RESULTS
+            )
+        )
+
+    def test_smart_quotes_and_whitespace_are_normalised(self):
+        from fig import research
+
+        self.assertTrue(
+            research._quote_is_supported(
+                "delinquency rate hit 6.8%   at the start of 2026", self.RESULTS
+            )
+        )
+
+    def test_invented_claim_about_a_real_source_is_rejected(self):
+        from fig import research
+
+        self.assertFalse(
+            research._quote_is_supported(
+                "the delinquency rate fell to 2.1% as consumers repaired their balance sheets",
+                self.RESULTS,
+            )
+        )
+
+
 class TestReferencesPresent(unittest.TestCase):
     def test_reference_notes_exist_and_keep_key_figures(self):
         root = Path(__file__).resolve().parents[1] / "references"

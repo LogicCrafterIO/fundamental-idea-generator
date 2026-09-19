@@ -2,7 +2,7 @@
   "ticker": "OMF",
   "direction": "short",
   "as_of": "2026-09-19",
-  "description": "Nonprime consumer lender offering personal loans, auto finance, credit cards, and insurance.",
+  "description": "Nonprime consumer loan lender with personal loans, auto finance, and credit cards.",
   "catalyst": {
     "date": "2026-10-30",
     "weekday": "Friday",
@@ -48,12 +48,12 @@
     "beat_streak": 4,
     "median_gap_days": 91,
     "facts_line": "2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88.",
-    "why": "2026-10-30 report must show net charge-offs rising and EPS below 1.88 to confirm deterioration."
+    "why": "The Q3 report must show credit losses and delinquencies rising enough to miss the $1.88 consensus, proving deterioration has reached reported numbers."
   },
   "reasons": [
-    "EPS is falling: latest quarter EPS 1.31 vs 1.45 a year ago, and net income dropped 32.7% quarter-over-quarter, showing credit costs are eating profit.",
-    "The company lends to nonprime borrowers, and subprime auto delinquencies hit 6.8%, worst in 32 years; rising losses will force higher provisions and lower earnings.",
-    "Analyst estimates are already being cut: 8 downward revisions vs 6 upward in last 30 days, yet stock trades at 8.6x forward earnings, not cheap for deteriorating credit."
+    "Subprime auto loan delinquencies hit 6.8% at the start of 2026, the worst in 32 years, and wholesale used-vehicle prices are softening year over year, so OneMain's auto-secured loans face higher defaults and lower collateral recovery.",
+    "Net income fell 32.7% quarter over quarter and operating profit fell 15.4%, yet consensus for Q3 is $1.88; nonprime borrowers face mounting debt pressures that will push credit losses higher.",
+    "OneMain's receivables grew 7% year over year as credit card and auto finance portfolios scaled, but that growth is into the weakest part of the consumer credit cycle, so losses will follow."
   ],
   "quants": {
     "price": 60.81,
@@ -97,7 +97,7 @@
       }
     ],
     "thesis_target": "Targets the 2026-10-30 report, with the long leg expiring 2026-11-20, which gives the deterioration time to show up.",
-    "reflection": "The conservative credit ratio is 7.9%, below the 10% floor, so the structure needs about two more short puts sold to clear it. That adds short gamma risk if the stock bounces into earnings, but the net debit is modest at $3,888."
+    "reflection": "The conservative credit ratio is 7.9%, below the 10% floor; selling two more short puts clears it but adds early assignment risk if OMF drops hard before October 16. Net debit is $3,888."
   },
   "generation": {
     "model": "deepseek-v4-pro:0813",

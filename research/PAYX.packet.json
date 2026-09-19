@@ -1,7 +1,7 @@
 {
   "symbol": "PAYX",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T20:47:04",
+  "generated_at": "2026-09-19T22:03:16",
   "profile": {
     "symbol": "PAYX",
     "name": "Paychex, Inc.",
@@ -399,7 +399,7 @@
       "title": "INTU Doubles Down on AI: Can Intelligence Drive the Next Growth Wave?",
       "publisher": "Zacks",
       "created": "Sep 18, 2026",
-      "ago": "18 hours ago",
+      "ago": "20 hours ago",
       "url": "/articles/intu-doubles-down-ai-can-intelligence-drive-next-growth-wave",
       "primary_symbol": null,
       "related_symbols": [
@@ -991,6 +991,58 @@
     "same_slot_last_year": true,
     "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 1.32."
   },
+  "forward_trends": {
+    "queries": [
+      "small business hiring and employment growth forecast 2025 2026",
+      "AI payroll automation disruption payroll service providers",
+      "small business spending on HR payroll services trends 2025",
+      "human capital management software market outlook 2025 PEO industry"
+    ],
+    "results_count": 20,
+    "trends": [
+      {
+        "claim": "Small business profitability is weakening as 2025 ended, with mounting cost pressures.",
+        "stance": "pressure",
+        "why": "Paychex clients may cut hiring or discretionary HR spending, reducing payroll volume and service demand.",
+        "quote": "profits lost steam as the year closed",
+        "url": "https://institute.bankofamerica.com/content/dam/economic-insights/small-business-checkpoint-january-2026.pdf",
+        "publisher": "institute.bankofamerica.com"
+      },
+      {
+        "claim": "Small business hiring slowed through the second half of 2025.",
+        "stance": "pressure",
+        "why": "Paychex revenue scales with client employees; slower hiring pressures payroll and HR revenue growth.",
+        "quote": "After slowing throughout much of the second half of 2025",
+        "url": "https://institute.bankofamerica.com/content/dam/economic-insights/small-business-checkpoint-january-2026.pdf",
+        "publisher": "institute.bankofamerica.com"
+      },
+      {
+        "claim": "Small firms expect weaker future revenue and employment growth.",
+        "stance": "pressure",
+        "why": "Lower growth expectations may cause Paychex clients to delay hiring and HR/payroll investments.",
+        "quote": "expectations for future revenue and employment growth declined",
+        "url": "https://www.fedsmallbusiness.org/reports/survey/2026/2026-report-on-employer-firms",
+        "publisher": "fedsmallbusiness.org"
+      },
+      {
+        "claim": "AI-native HR platforms like Rippling and Gusto are emerging as competitors to incumbent payroll providers.",
+        "stance": "pressure",
+        "why": "Paychex could face client defections or pricing pressure as SMBs adopt modern AI-native alternatives.",
+        "quote": "Yet the emergence of AI-native HR platforms \u2014 Rippling, Gusto at scale,",
+        "url": "https://pitchgrade.com/research/adp-ai-margin-pressure",
+        "publisher": "pitchgrade.com"
+      },
+      {
+        "claim": "Startups are creating embeddable AI payroll infrastructure, lowering barriers for new payroll competitors.",
+        "stance": "pressure",
+        "why": "More competitors can enter Paychex's market, threatening its pricing and client retention.",
+        "quote": "AI-powered payroll infrastructure that other software companies can embed rather than build themselves",
+        "url": "https://www.crowdfundinsider.com/2026/09/309234-cloudpay-invests-in-intermezzo-as-startup-raises-funds-for-ai-payroll-infrastructure/",
+        "publisher": "crowdfundinsider.com"
+      }
+    ],
+    "dropped": []
+  },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",
     "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
@@ -998,7 +1050,8 @@
     "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
     "api.nasdaq.com company financials frequency=2 (quarterly statements)",
     "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
-    "ollama.com api/web_search (current reporting, when a key is configured)"
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
   ],
   "structures": {
     "long": {

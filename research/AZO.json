@@ -2,7 +2,7 @@
   "ticker": "AZO",
   "direction": "short",
   "as_of": "2026-09-19",
-  "description": "Auto parts retailer and distributor in the US, Mexico, and Brazil.",
+  "description": "Automotive replacement parts retailer in the US, Mexico, and Brazil.",
   "catalyst": {
     "date": "2026-09-22",
     "weekday": "Tuesday",
@@ -48,12 +48,12 @@
     "beat_streak": 2,
     "median_gap_days": 84,
     "facts_line": "2026-09-22 (Tuesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 54.09.",
-    "why": "The 2026-09-22 report must show a miss versus consensus or a guidance cut to confirm the short."
+    "why": "The report must show a miss or margin pressure from oil costs and deferred repairs, confirming estimates are too high."
   },
   "reasons": [
-    "Analysts have cut FY consensus EPS [earnings per share] from 150.99 to 150.68 in 30 days, with zero upward revisions, so estimates are rolling over.",
-    "At 18.95x forward earnings, AZO trades above the 16.34x implied by next-FY consensus, meaning the market is paying for growth that analysts are already trimming.",
-    "Cash fell 11.1% quarter-over-quarter while receivables rose 9.5%, a sign that reported profit is not converting into cash."
+    "All 2 EPS revisions in the last 30 days were cuts, with none upward, yet AZO still trades at 18.95x forward earnings; the estimate cuts are not priced in.",
+    "Group III base oil supply disruption from Middle East conflict raises AutoZone's lubricant costs, squeezing gross margin even as the company's last quarter showed 13.3% revenue growth.",
+    "Consumers are deferring non-critical repairs as repair prices jumped at a record monthly rate in August 2025, shifting AutoZone's sales mix away from high-margin hard parts."
   ],
   "quants": {
     "price": 2855.31,
@@ -97,7 +97,7 @@
       }
     ],
     "thesis_target": "Targets the 2026-12-15 report, with the long leg expiring 2026-12-18, which gives the deterioration time to show up.",
-    "reflection": "The credit ratio clears the floor, but the net debit is $6,635 per spread, so size it small. The short put expires before earnings, leaving the long put to capture any post-earnings slide; the main risk is a sharp rally that leaves the short put worthless but the long put losing time value."
+    "reflection": "The 39.0% conservative credit ratio clears the 10% floor. The net debit of $6,635 is meaningful relative to a 46.61B market cap, but the short put spread is a defined-risk bet on a miss."
   },
   "generation": {
     "model": "deepseek-v4-pro:0813",
@@ -105,14 +105,14 @@
     "rounds": [
       {
         "round": 0,
-        "score": 90,
+        "score": 85,
         "errors": 0,
-        "warnings": 2,
+        "warnings": 3,
         "unsupported_figures": []
       }
     ],
     "grounding": {
-      "checked": 7,
+      "checked": 4,
       "unsupported": [],
       "grounded": true,
       "ratio": 1.0

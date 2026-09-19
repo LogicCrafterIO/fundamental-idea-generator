@@ -3,16 +3,16 @@
 Ticker: AZO
 
 Description
-Auto parts retailer and distributor in the US, Mexico, and Brazil.
+Automotive replacement parts retailer in the US, Mexico, and Brazil.
 
 Catalyst
 2026-09-22 (Tuesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 54.09.
-The 2026-09-22 report must show a miss versus consensus or a guidance cut to confirm the short.
+The report must show a miss or margin pressure from oil costs and deferred repairs, confirming estimates are too high.
 
 Reasons
-1) Analysts have cut FY consensus EPS [earnings per share] from 150.99 to 150.68 in 30 days, with zero upward revisions, so estimates are rolling over.
-2) At 18.95x forward earnings, AZO trades above the 16.34x implied by next-FY consensus, meaning the market is paying for growth that analysts are already trimming.
-3) Cash fell 11.1% quarter-over-quarter while receivables rose 9.5%, a sign that reported profit is not converting into cash.
+1) All 2 EPS revisions in the last 30 days were cuts, with none upward, yet AZO still trades at 18.95x forward earnings; the estimate cuts are not priced in.
+2) Group III base oil supply disruption from Middle East conflict raises AutoZone's lubricant costs, squeezing gross margin even as the company's last quarter showed 13.3% revenue growth.
+3) Consumers are deferring non-critical repairs as repair prices jumped at a record monthly rate in August 2025, shifting AutoZone's sales mix away from high-margin hard parts.
 
 Quants
 Price: 2855.31
@@ -29,9 +29,10 @@ Structuring
 Long	PUT	18-Dec-26	$ 2,700.00	1	$ 2,855.31	100	$ 132.75	$ -	$ -	$ -	$ 13,275.00
 Short	PUT	16-Oct-26	$ 2,700.00	1	$ 2,855.31	100	$ 66.40	$ -	$ -	$ -	$ (6,640.00)
 Targets the 2026-12-15 report, with the long leg expiring 2026-12-18, which gives the deterioration time to show up.
-The credit ratio clears the floor, but the net debit is $6,635 per spread, so size it small. The short put expires before earnings, leaving the long put to capture any post-earnings slide; the main risk is a sharp rally that leaves the short put worthless but the long put losing time value.
+The 39.0% conservative credit ratio clears the 10% floor. The net debit of $6,635 is meaningful relative to a 46.61B market cap, but the short put spread is a defined-risk bet on a miss.
 
 ---
-Lint: score 90/100, 0 error(s), 2 warning(s), description 11 words, catalyst 17 words, reasons [25, 25, 18]
+Lint: score 85/100, 0 error(s), 3 warning(s), description 10 words, catalyst 20 words, reasons [29, 27, 26]
+  [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)

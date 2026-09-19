@@ -263,17 +263,34 @@ def _score(row: dict) -> tuple[str, float, dict]:
     # ---- valuation extremes ---------------------------------------------
     # Only meaningful for a profitable company; a negative or absurd multiple
     # (pre-revenue biotech P/S in the thousands) is noise, not a signal.
+    #
+    # A multiple only AMPLIFIES a signal that already exists; it never creates one.
+    # Cheapness is not a reason to be long -- a stock at 7x is usually at 7x
+    # because something is wrong -- and a premium is usually justified, so an
+    # expensive name is not automatically a short either. This component used to
+    # award a flat bonus for a low multiple, which biased the entire ranking toward
+    # discounted names looking for an upward rerating. The tilt is now conditional
+    # on which way estimates are already going:
+    #
+    #   falling + cheap  -> fragile; the discount is deserved, not a bargain
+    #   falling + pricey -> vulnerable to a de-rating
+    #   rising  + either -> no bonus; a cheap name that is rising needs a stated
+    #                       mechanism before it is worth writing up
+    #
+    # The ceiling is low so valuation can never outrank the divergence signal.
     valuation = 0.0
     fwd_pe = row.get("fwd_pe")
-    if fwd_pe and fwd_pe > 0:
-        if fwd_pe < 8:
-            valuation += 5.0  # cheap enough to be a value trap or a bargain
-        elif fwd_pe > 45:
-            valuation += 5.0  # expensive enough that any miss hurts
+    falling = (rev or 0) < 0
+    if fwd_pe and fwd_pe > 0 and falling:
+        if fwd_pe < 12:
+            valuation += 3.0
+        elif fwd_pe > 30:
+            valuation += 4.0
     ps = row.get("ps")
-    if ps and 0 < ps < 30 and ps > 15:
-        valuation += 3.0
-    components["valuation"] = round(valuation, 1)
+    if ps and 15 < ps < 30 and falling:
+        valuation += 2.0
+    if valuation:
+        components["valuation_fragility"] = round(valuation, 1)
 
     total = round(sum(components.values()), 1)
     return direction, total, components

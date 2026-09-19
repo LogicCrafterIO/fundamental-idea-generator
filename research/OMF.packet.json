@@ -1,7 +1,7 @@
 {
   "symbol": "OMF",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T20:46:15",
+  "generated_at": "2026-09-19T21:53:18",
   "profile": {
     "symbol": "OMF",
     "name": "OneMain Holdings, Inc.",
@@ -544,6 +544,19 @@
       ]
     },
     {
+      "title": "OneMain Q2 2026 slides: credit quality improves as growth accelerates By Investing.com",
+      "publisher": "ca.investing.com",
+      "url": "https://ca.investing.com/news/company-news/onemain-q2-2026-slides-credit-quality-improves-as-growth-accelerates-93CH-4760701",
+      "summary": "OneMain Q2 2026 slides: credit quality improves as growth accelerates By Investing.com\n\nAMD shares slide 8% after Musk flags plans to buy Nvidia chips for SpaceX\n\nSpaceX tumbles amid AI spending concerns; Musk outlines $1 trillion revenue target\n\nOil prices rebound after Houthis say they attacked Saudi tanker\n\nU.S. stock futures rise after record Wall St close; SpaceX, AMD dip post earnings\n\nAdvertisement\n\nAdvertisement\n\n# OneMain Q2 2026 slides: credit quality improves as growth accelerates\n\nPublished 2026-07-29, 10:26 a/m\n\nOneMain Q2 2026 slides: credit quality improves as growth accelerates",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
       "title": "Exhibit 99.1 Earnings Release (OMH Q2'26)",
       "publisher": "s203.q4cdn.com",
       "url": "https://s203.q4cdn.com/410697831/files/doc_financials/2026/q2/v2/2Q26-Earnings-Release-vFF.pdf",
@@ -555,19 +568,6 @@
       "themes": [
         "consumer_credit",
         "mna"
-      ]
-    },
-    {
-      "title": "OneMain Q2 2026 slides: credit quality improves as growth accelerates By Investing.com",
-      "publisher": "ca.investing.com",
-      "url": "https://ca.investing.com/news/company-news/onemain-q2-2026-slides-credit-quality-improves-as-growth-accelerates-93CH-4760701",
-      "summary": "OneMain Q2 2026 slides: credit quality improves as growth accelerates By Investing.com\n\nAMD shares slide 8% after Musk flags plans to buy Nvidia chips for SpaceX\n\nSpaceX tumbles amid AI spending concerns; Musk outlines $1 trillion revenue target\n\nOil prices rebound after Houthis say they attacked Saudi tanker\n\nU.S. stock futures rise after record Wall St close; SpaceX, AMD dip post earnings\n\nAdvertisement\n\nAdvertisement\n\n# OneMain Q2 2026 slides: credit quality improves as growth accelerates\n\nPublished 2026-07-29, 10:26 a/m\n\nOneMain Q2 2026 slides: credit quality improves as growth accelerates",
-      "published": "2026-07-29",
-      "source": "ollama_search",
-      "query": "OneMain Holdings, Inc. (OMF) stock news earnings guidance",
-      "relevance": 0,
-      "themes": [
-        "ai_capex"
       ]
     },
     {
@@ -1014,6 +1014,53 @@
     "same_slot_last_year": true,
     "facts_line": "2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88."
   },
+  "forward_trends": {
+    "queries": [
+      "US nonprime consumer lending market outlook 2026 2027",
+      "subprime auto finance delinquencies used car values forecast 2026",
+      "fintech BNPL competition personal installment loans 2026",
+      "lower-income US consumer wage growth debt burden 2026 2027"
+    ],
+    "results_count": 20,
+    "trends": [
+      {
+        "claim": "Weaker job market and inflation are expected to deteriorate consumer loan ABS collateral, especially subprime consumer loans.",
+        "why": "This could raise credit losses and delinquencies in OneMain's nonprime consumer loan portfolio.",
+        "quote": "we expect to see some deterioration in the performance of the collateral underlying consumer asset-backed securities (ABS), notably across subprime auto loans/leases and consumer loans.",
+        "url": "https://dbrs.morningstar.com/research/471274/2026-us-abs-outlook-the-consumer-remains-in-focus",
+        "publisher": "dbrs.morningstar.com"
+      },
+      {
+        "claim": "Non-prime consumers face mounting debt pressures as the credit market splits along a K-shaped path.",
+        "why": "OneMain's core nonprime borrowers may struggle more with existing debt, increasing default risk.",
+        "quote": "non-prime consumers face mounting debt pressures",
+        "url": "https://newsroom.transunion.com/k-shaped-q1-2026-ciir/",
+        "publisher": "newsroom.transunion.com"
+      },
+      {
+        "claim": "Lower-income wage growth has reversed to outpace higher earners, rising 4.7% annually.",
+        "why": "Improving income for OneMain's lower-income borrowers could support repayment and reduce credit losses.",
+        "quote": "Lower-income wages rose 4.7% annually",
+        "url": "https://www.indexbox.io/blog/lower-income-wage-growth-outpaces-higher-earners-bank-of-america-says/",
+        "publisher": "indexbox.io"
+      },
+      {
+        "claim": "Subprime auto loan delinquencies are at historic highs and used vehicle values are volatile.",
+        "why": "OneMain's auto-secured loans face higher borrower defaults and weaker collateral recovery values.",
+        "quote": "Subprime delinquency rates are at historic highs, while used vehicle values have experienced significant volatility.",
+        "url": "https://www.blackbook.com/wp-content/uploads/2026/03/2026-Auto-Lending-Risk-Brief.pdf",
+        "publisher": "blackbook.com"
+      },
+      {
+        "claim": "Wholesale used-vehicle prices are softening year over year after elevated first-half levels.",
+        "why": "Falling used-vehicle values reduce collateral recovery on OneMain's auto-secured loans if borrowers default.",
+        "quote": "The Manheim index was down 0.4% compared to September 2025, softening from the elevated levels recorded in the first half of the year.",
+        "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
+        "publisher": "coxautoinc.com"
+      }
+    ],
+    "dropped": []
+  },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",
     "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
@@ -1021,7 +1068,8 @@
     "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
     "api.nasdaq.com company financials frequency=2 (quarterly statements)",
     "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
-    "ollama.com api/web_search (current reporting, when a key is configured)"
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
   ],
   "structures": {
     "long": {

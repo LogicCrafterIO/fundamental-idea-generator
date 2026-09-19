@@ -106,6 +106,59 @@ the same slot last year, and its record against consensus. That last one is a re
 caution on a short: **OMF has beaten consensus in each of the last four reports**,
 so the bar is already high and a miss is what moves the stock.
 
+### A discount is not a thesis
+
+The single most expensive reasoning error in this format, and the one the ORCL
+reference itself risks: "it trades at 12x while peers are at 20x" is an
+observation, not an argument. Premium multiples usually exist for a good reason,
+so cheapness is not by itself a case for an upward rerating -- cheap things are
+frequently cheap because something is wrong.
+
+Three things now push against it:
+
+1. **The screen no longer rewards cheapness.** It used to add a flat bonus for a
+   low forward PE, which biased the whole ranking toward discounted names looking
+   to rerate. A multiple now only *amplifies* a signal that already exists, and
+   the tilt depends on which way estimates are going: falling-and-cheap is fragile
+   (the discount is deserved), falling-and-expensive is vulnerable. Rising
+   estimates earn no valuation bonus at all.
+2. **The prompt says so explicitly** (rule 4a): citing a multiple obliges you to
+   say what the market is *missing* or what will specifically *change*.
+3. **The linter enforces it.** `reason_valuation_only` is an **error**, so the
+   repair loop has to rewrite it. The juxtaposition form counts -- "net income
+   rose 32% yet it trades at 16.9x" has not explained why the market pays only
+   16.9x. Short theses are exempt (a high multiple on deteriorating numbers is a
+   standard short argument), and ORCL's own reference reason 1 passes on its
+   "because", so the rule flags the bare form rather than rejecting the spec.
+
+Calibration was verified against an independent audit of all nine notes: the rule
+and the audit agreed on exactly the same seven reasons. Fixing it required two
+corrections -- `"so"` had been counted as a causal mechanism (which excused "next-FY
+PE is 39.5, so the market is paying less for next year's earnings"), and price
+discounts were not covered at all, only multiples.
+
+### End-market research, and why a problem has not shown up yet
+
+Filings and consensus describe what already happened. They cannot answer the
+question a real idea turns on: **why hasn't the obvious problem shown up in the
+numbers yet?** Paychex sells payroll and HR to small businesses, both under
+visible pressure, and its estimates had not cracked.
+
+`fig.research` closes that gap in two stages: it plans search queries from the
+company's own Description (the useful questions are company-specific), runs them
+against the industry and customer segment rather than the company's own press
+releases, then extracts trend claims that are **kept only if a verbatim quote is
+found in the retrieved text**. Unsupported claims are dropped however plausible
+they read -- trend claims are exactly the kind of statement a model produces
+fluently from memory.
+
+Each trend is tagged `pressure` or `support`. Supports matter as much as
+pressures, because a support is usually the reason a problem has not appeared yet.
+A note is required to use them: if trends were supplied and no reason refers to
+the end market, that is an **error** and the writer has to try again. The check
+ignores words already in the company's own Description, so "payroll" for Paychex
+cannot count as evidence about its customers.
+
 ### Structuring is optional
 
 The legs are the most expensive part of a note to get right (listed chain, common

@@ -3,16 +3,16 @@
 Ticker: JEF
 
 Description
-Investment banking and capital markets firm with an asset management arm.
+Investment bank and capital markets firm earning advisory, underwriting, and trading fees, with an asset management arm.
 
 Catalyst
-2026-09-28 (Monday, after the close), 9 days out -- from the earnings calendar, consensus EPS 0.87.
-The report must show EPS above consensus and investment banking revenue growth continuing, not another asset-management drag.
+2026-09-28 (Monday, after the close), 9 days out -- from the earnings calendar, consensus EPS 1.
+Report must show investment banking revenue up and asset management losses contained, proving the fee pool is reaching the bottom line.
 
 Reasons
-1) Analyst EPS estimates rose over the last 30 days (3 up, 1 down) while the stock fell to $47.90, a positive divergence that often precedes a rebound.
-2) At 10.76x next-FY consensus EPS, JEF trades below its own current-year 13.16x, pricing in a decline that estimate trends contradict.
-3) Investment banking and capital markets revenue rose 35% quarter-over-quarter to $2.2 billion, while the last two EPS misses came from asset management, not the core franchise.
+1) Investment banking revenue rose 35% QoQ to $2.2B, but asset management losses masked it; because the fee pool is growing, that operating strength will show up in reported earnings.
+2) JEF trades at 10.76x next-FY consensus, below its 13.16x current-year multiple, because the market is missing that expanding ECM and M&A fee pools will lift revenue and close the gap.
+3) Oppenheimer raised Q3 EPS estimate to $1.06 from $0.67 because stronger equity underwriting and completed M&As are lifting revenue, so sell-side estimates are still catching up.
 
 Quants
 Price: 47.9
@@ -30,10 +30,7 @@ Structuring
 Long	CALL	15-Jan-27	$ 50.00	12	$ 47.90	100	$ 3.60	$ -	$ -	$ -	$ 4,320.00
 Short	CALL	16-Oct-26	$ 50.00	4	$ 47.90	100	$ 1.57	$ -	$ -	$ -	$ (628.00)
 Targets the 2026-12-29 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.
-The 10.9% credit ratio clears the floor but leaves little room for error; if the stock spikes above 50 before October expiry, the short call caps the upside. The net debit is modest at $3,692, so the main risk is lost upside rather than capital.
+The 10.9% credit ratio clears the 10% floor, but the net debit is $3,692 and the short call expires before the January long, so early exercise risk is real if JEF runs through 50. Size is modest; add more shorts if the credit holds.
 
 ---
-Lint: score 85/100, 0 error(s), 3 warning(s), description 11 words, catalyst 17 words, reasons [27, 20, 26]
-  [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
-  [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
-  [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
+Lint: score 100/100, 0 error(s), 0 warning(s), description 17 words, catalyst 21 words, reasons [29, 31, 27]

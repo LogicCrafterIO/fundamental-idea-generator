@@ -108,6 +108,39 @@ Every reason carries **a number, a named comparison, or a mechanism**. A reason
 that would apply to any company in the sector is deleted. Budget: ≤ 40 words,
 2–5 reasons (both enforced by `fig lint`).
 
+## 3a. A discount is not a thesis
+
+Enforced by `fig lint` as an **error**, and by the screener. The rule:
+
+> Premium multiples usually exist for a good reason. A stock trading at a discount
+> is not automatically a long, and an expensive stock is not automatically a
+> short. If a Reason cites a multiple, it must also say what the market is
+> **missing** or what will specifically **change**.
+
+The ORCL reference is the cautionary case, and the origin of this rule. Its
+reason 1 -- *"it's not priced like Google, which is trading at a Forward PE of 25
+while Oracle is at a Forward PE of 17"* -- is a discount observation, and §5 shows
+the comparison mixes bases and actually inverts like-for-like. Its reason 2 is the
+better shape: a mechanism with the multiple left out entirely.
+
+Three forms, worst to best:
+
+| form | example | verdict |
+|---|---|---|
+| bare level | "It trades at 12x, a discount to peers at 20x." | **error** |
+| juxtaposition | "Revenue rose 31% yet it trades at 12.3x." | **error** -- this has not explained why the market pays only 12.3x |
+| mechanism, multiple as consequence | "At 10.76x, below its 13.16x current-year, **because the market is missing** that expanding fee pools will lift revenue." | passes |
+
+A forward-PE roll-forward is a special case worth naming: "next-FY 39.5 is below
+this year's 43.5" is true of **every** company with any earnings growth, so it
+distinguishes nothing. It reads like a finding and is not one.
+
+Short theses are exempt. A high multiple on a business whose numbers are
+deteriorating is a standard short argument, not this fallacy -- see the GIS and
+OMF notes, where the multiple is evaluated *against* a named change.
+
+---
+
 ## 4. Jargon gets a bracket gloss
 
 Plain words first, or in brackets immediately after the term:

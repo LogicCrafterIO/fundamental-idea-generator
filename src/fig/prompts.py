@@ -134,6 +134,28 @@ HARD RULES
    or a causal mechanism (X leads to Y leads to Z). No generic virtues. If a reason
    would apply to any company in the sector, delete it.
 
+4a. A DISCOUNT IS NOT A THESIS. This is the easiest mistake to make and the most
+   expensive. "It trades at 12x while peers trade at 20x" is an observation, not a
+   reason -- premium multiples usually exist for a good reason, so a low multiple
+   is not by itself a case for the stock to rerate upward. Cheap things are often
+   cheap because something is wrong. If you cite a multiple, you must also say
+   what the market is MISSING or what will specifically CHANGE to close the gap.
+   The same applies in reverse: "expensive" is not a short thesis unless you say
+   what the market is overpaying for and why that assumption breaks.
+
+4c. NEVER CHANGE THE DIRECTION OF A TREND. The FORWARD TRENDS evidence states a
+   direction; keep it exactly. If it says hiring is cooling while still growing,
+   do not write "hiring accelerated". Upgrading a trend to fit your thesis is the
+   single easiest way to make a note wrong while sounding well-evidenced, because
+   the reader cannot tell the difference without opening the source.
+
+4b. THE QUALITATIVE HALF MATTERS. Numbers describe what already happened. A strong
+   reason often explains a GAP: why an obvious problem has not yet shown up in the
+   reported figures, or why the reported strength cannot last. The FORWARD TRENDS
+   evidence exists for exactly this -- prefer a grounded end-market trend over
+   another restatement of a trailing move. Say who the customers are and what is
+   happening to them.
+
 5. NO HEDGING STACKS. Not "could potentially", "might possibly", "it seems".
    State the claim. Uncertainty belongs only in the Structuring reflection, and
    only about the trade construction.

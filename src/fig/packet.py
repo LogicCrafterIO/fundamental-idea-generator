@@ -15,7 +15,7 @@ from __future__ import annotations
 import re
 from datetime import date, datetime
 
-from . import catalyst as catalyst_mod, options, quants, themes
+from . import catalyst as catalyst_mod, options, quants, research as research_mod, themes
 from .sources import nasdaq, yahoo
 from .util import human_money
 
@@ -294,6 +294,7 @@ def build_packet(
     catalyst_index: int = 0,
     capital: float = options.DEFAULT_CAPITAL,
     include_web: bool = True,
+    include_trends: bool = True,
 ) -> dict:
     """Assemble everything known about ``symbol`` for idea generation."""
     symbol = symbol.upper()
@@ -321,6 +322,16 @@ def build_packet(
         "peer_pairings": themes.theme_pairing([t["key"] for t in story["themes"]]),
         "next_earnings": panel.get("next_earnings"),
         "catalyst": catalyst_mod.build_catalyst(symbol),
+        "forward_trends": (
+            research_mod.forward_trends(
+                symbol,
+                profile.get("name"),
+                None,
+                profile.get("summary"),
+            )
+            if (include_web and include_trends)
+            else {"queries": [], "results_count": 0, "trends": [], "dropped": []}
+        ),
         "provenance": [
             "yfinance Ticker.info (price, market cap, multiples, business summary)",
             "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
@@ -329,6 +340,8 @@ def build_packet(
             "api.nasdaq.com company financials frequency=2 (quarterly statements)",
             "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
             "ollama.com api/web_search (current reporting, when a key is configured)",
+            "ollama.com api/web_search + v1/chat/completions (forward end-market trends, "
+            "each kept only if its supporting quote is found in the retrieved text)",
         ],
     }
 
@@ -426,6 +439,18 @@ def to_prompt_context(packet: dict, *, max_news: int = 12) -> str:
         lines.append(
             "  Write one sentence: what that report must show for this thesis to be "
             "right. Do not restate the date's facts."
+        )
+
+    trends = (packet.get("forward_trends") or {}).get("trends") or []
+    if trends:
+        lines.append(
+            "\nFORWARD TRENDS (end-market research, not the company's own filings; "
+            "each verified against its source)"
+        )
+        lines.extend(research_mod.trends_for_prompt(packet["forward_trends"]))
+        lines.append(
+            "  Use these to explain WHY the pressure has or has not yet reached the "
+            "reported numbers. This is the qualitative half of the argument."
         )
 
     deltas = packet.get("fundamental_deltas") or []

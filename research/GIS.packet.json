@@ -1,7 +1,7 @@
 {
   "symbol": "GIS",
   "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T20:52:32",
+  "generated_at": "2026-09-19T21:54:50",
   "profile": {
     "symbol": "GIS",
     "name": "General Mills, Inc.",
@@ -995,6 +995,53 @@
     "same_slot_last_year": true,
     "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.72."
   },
+  "forward_trends": {
+    "queries": [
+      "packaged food industry volume growth forecast 2026 2027 private label competition",
+      "GLP-1 obesity drug impact on snack and cereal consumption forecast",
+      "US pet food market premiumization trends 2026 2027 consumer spending",
+      "US foodservice traffic and consumer spending forecast 2026 2027"
+    ],
+    "results_count": 20,
+    "trends": [
+      {
+        "claim": "GLP-1 users are eating less high-fat, sugary, and ultra-processed food.",
+        "why": "General Mills' snacks, cereal, and baking products skew toward these categories, so retail volumes may decline.",
+        "quote": "Users of the drugs may eat less overall and eat less of high fat and sugary foods, as well as ultra-processed foods.",
+        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+        "publisher": "freedoniagroup.com"
+      },
+      {
+        "claim": "Higher food prices are continuing to benefit private label store brands.",
+        "why": "Private label share gains can pressure General Mills' branded packaged food sales and shelf space.",
+        "quote": "Increasing food prices will continue to benefit private label store brands.",
+        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+        "publisher": "freedoniagroup.com"
+      },
+      {
+        "claim": "GLP-1 use is forecast to roughly double over the next decade as prices fall and pills replace injections.",
+        "why": "A larger GLP-1 user base could further reduce demand for General Mills' indulgent snack and cereal categories.",
+        "quote": "Most forecasts suggest this penetration will roughly double over the next decade as prices fall, coverage expands, and pills replace injections.",
+        "url": "https://www.alixpartners.com/insights/102mndi/glp-1-and-the-snack-sector-disruptive-trend-not-existential-threat/",
+        "publisher": "alixpartners.com"
+      },
+      {
+        "claim": "Rising costs are making pet spending more selective and slowing pet industry growth.",
+        "why": "General Mills' pet segment may face slower sales growth as consumers cut back on pet food and supplies.",
+        "quote": "After years of strong growth, rising costs are prompting more selective pet spending and slowing industry expansion.",
+        "url": "https://www.morganstanley.com/insights/articles/pet-industry-growth-outlook-2026",
+        "publisher": "morganstanley.com"
+      },
+      {
+        "claim": "Cat households grew 4.1% while dog households fell 4.2% from 2019 to 2025.",
+        "why": "General Mills' pet portfolio may need more cat-focused products to align with shifting pet ownership.",
+        "quote": "Over the 2019-2025 period, total growth in the number of cat households was 4.1%, compared with a 4.2% decline in the number of dog households.",
+        "url": "https://www.freedoniagroup.com/packaged-facts/us-pet-market-outlook",
+        "publisher": "freedoniagroup.com"
+      }
+    ],
+    "dropped": []
+  },
   "provenance": [
     "yfinance Ticker.info (price, market cap, multiples, business summary)",
     "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
@@ -1002,7 +1049,8 @@
     "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
     "api.nasdaq.com company financials frequency=2 (quarterly statements)",
     "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
-    "ollama.com api/web_search (current reporting, when a key is configured)"
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
   ],
   "structures": {
     "long": {

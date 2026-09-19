@@ -3,16 +3,16 @@
 Ticker: ORCL
 
 Description
-Enterprise software and cloud infrastructure company now growing on AI [artificial intelligence] infrastructure demand.
+Enterprise software and cloud infrastructure company; sells database, business planning, and AI cloud services.
 
 Catalyst
 2026-12-10 (Thursday), 82 days out -- from the earnings calendar, consensus EPS 1.89.
-That report must show cloud revenue growth near 30% and backlog converting to recognized revenue, proving estimates still lag.
+Report must show cloud backlog converting to revenue and EPS beating 1.89, confirming AI demand is reaching the income statement.
 
 Reasons
-1) At 13.4x next-FY consensus EPS [earnings per share], Oracle trades below its 18.1x current-year multiple even as net income rose 10.8% quarter over quarter.
-2) All four EPS [earnings per share] revisions in the last 30 days were upward, with consensus FY EPS rising from 8.053 to 8.141, a signal estimates are still catching up.
-3) The $300 billion OpenAI deal and 30% year-over-year revenue growth show AI [artificial intelligence] demand is converting to recognized revenue, not just backlog.
+1) Because Oracle's $300B OpenAI backlog converts to recognized revenue over coming quarters, EPS will rise, leading the market to re-rate the stock from 13.4x next-FY EPS.
+2) Because analysts have raised EPS estimates four times in 30 days (from $8.05 to $8.14) after four consecutive beats, they are still catching up, so further upward revisions will push the stock higher.
+3) Because 78% of enterprises plan to raise AI infrastructure spending by 25%+ in 2026, Oracle's cloud revenue growth will accelerate from 30% y/y toward the 49.5% AI spending growth, lifting future earnings.
 
 Quants
 Price: 147.61
@@ -29,10 +29,7 @@ Structuring
 Long	CALL	18-Dec-26	$ 155.00	3	$ 147.61	100	$ 13.88	$ -	$ -	$ -	$ 4,164.00
 Short	CALL	16-Oct-26	$ 155.00	2	$ 147.61	100	$ 4.83	$ -	$ -	$ -	$ (966.00)
 Targets the 2026-12-10 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.
-Credit ratio 22.6% clears the 10% floor, but the short October call expires before the December report, so the thesis must survive a roll or early assignment. Net debit is $3,198, so the trade needs the stock above 155 by December to pay.
+Credit ratio 22.6% clears the 10% floor with room. The short October 155 calls cap upside before December earnings; if the stock runs early, the position gives back gains. Net debit $3,198 is modest relative to a $446B name.
 
 ---
-Lint: score 85/100, 0 error(s), 3 warning(s), description 14 words, catalyst 19 words, reasons [24, 30, 23]
-  [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
-  [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
-  [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
+Lint: score 100/100, 0 error(s), 0 warning(s), description 14 words, catalyst 20 words, reasons [26, 33, 33]

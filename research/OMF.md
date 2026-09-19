@@ -3,16 +3,16 @@
 Ticker: OMF
 
 Description
-Nonprime consumer lender offering personal loans, auto finance, credit cards, and insurance.
+Nonprime consumer loan lender with personal loans, auto finance, and credit cards.
 
 Catalyst
 2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88.
-2026-10-30 report must show net charge-offs rising and EPS below 1.88 to confirm deterioration.
+The Q3 report must show credit losses and delinquencies rising enough to miss the $1.88 consensus, proving deterioration has reached reported numbers.
 
 Reasons
-1) EPS is falling: latest quarter EPS 1.31 vs 1.45 a year ago, and net income dropped 32.7% quarter-over-quarter, showing credit costs are eating profit.
-2) The company lends to nonprime borrowers, and subprime auto delinquencies hit 6.8%, worst in 32 years; rising losses will force higher provisions and lower earnings.
-3) Analyst estimates are already being cut: 8 downward revisions vs 6 upward in last 30 days, yet stock trades at 8.6x forward earnings, not cheap for deteriorating credit.
+1) Subprime auto loan delinquencies hit 6.8% at the start of 2026, the worst in 32 years, and wholesale used-vehicle prices are softening year over year, so OneMain's auto-secured loans face higher defaults and lower collateral recovery.
+2) Net income fell 32.7% quarter over quarter and operating profit fell 15.4%, yet consensus for Q3 is $1.88; nonprime borrowers face mounting debt pressures that will push credit losses higher.
+3) OneMain's receivables grew 7% year over year as credit card and auto finance portfolios scaled, but that growth is into the weakest part of the consumer credit cycle, so losses will follow.
 
 Quants
 Price: 60.81
@@ -29,9 +29,9 @@ Structuring
 Long	PUT	20-Nov-26	$ 57.50	19	$ 60.81	100	$ 2.33	$ -	$ -	$ -	$ 4,427.00
 Short	PUT	16-Oct-26	$ 57.50	7	$ 60.81	100	$ 0.77	$ -	$ -	$ -	$ (539.00)
 Targets the 2026-10-30 report, with the long leg expiring 2026-11-20, which gives the deterioration time to show up.
-The conservative credit ratio is 7.9%, below the 10% floor, so the structure needs about two more short puts sold to clear it. That adds short gamma risk if the stock bounces into earnings, but the net debit is modest at $3,888.
+The conservative credit ratio is 7.9%, below the 10% floor; selling two more short puts clears it but adds early assignment risk if OMF drops hard before October 16. Net debit is $3,888.
 
 ---
-Lint: score 90/100, 0 error(s), 2 warning(s), description 12 words, catalyst 14 words, reasons [24, 25, 28]
+Lint: score 90/100, 0 error(s), 2 warning(s), description 12 words, catalyst 22 words, reasons [36, 30, 32]
   [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
