@@ -66,6 +66,17 @@ def render_writeup(writeup: dict, *, include_lint: bool = False) -> str:
     out.append((writeup.get("description") or "").strip())
     out.append("")
 
+    # The catalyst sits directly under the Description: it is the line that says
+    # when the idea gets settled, so it should be read before the reasons.
+    catalyst = writeup.get("catalyst") or {}
+    if catalyst.get("date") or catalyst.get("facts_line"):
+        out.append("Catalyst")
+        if catalyst.get("facts_line"):
+            out.append(str(catalyst["facts_line"]).strip())
+        if catalyst.get("why"):
+            out.append(str(catalyst["why"]).strip())
+        out.append("")
+
     out.append("Reasons")
     for index, reason in enumerate(writeup.get("reasons") or [], start=1):
         out.append(f"{index}) {str(reason).strip()}")
@@ -93,7 +104,7 @@ def render_writeup(writeup: dict, *, include_lint: bool = False) -> str:
     out.append("")
 
     structuring = writeup.get("structuring") or {}
-    if structuring:
+    if structuring and (structuring.get("rows") or structuring.get("reflection")):
         out.append("Structuring")
         rows = structuring.get("rows") or []
         if rows:
@@ -102,6 +113,9 @@ def render_writeup(writeup: dict, *, include_lint: bool = False) -> str:
             out.append(str(structuring["thesis_target"]))
         if structuring.get("reflection"):
             out.append(str(structuring["reflection"]).strip())
+    elif writeup.get("structure_error"):
+        # Structuring is optional, but its absence is stated rather than hidden.
+        out.append(f"[no option structure: {writeup['structure_error']}]")
 
     text = "\n".join(out).rstrip() + "\n"
     if include_lint:
@@ -116,8 +130,21 @@ def _render_lint(result: dict) -> str:
         f"Lint: score {result['score']}/100, {result['errors']} error(s), "
         f"{result['warnings']} warning(s), "
         f"description {result['stats']['description_words']} words, "
+        f"catalyst {result['stats'].get('catalyst_why_words', 0)} words, "
         f"reasons {result['stats']['reason_words']}",
     ]
+    grounding = result.get("grounding")
+    if grounding:
+        if grounding["unsupported"]:
+            lines.append(
+                f"Grounding: {len(grounding['unsupported'])} figure(s) in the prose were "
+                f"not found in the evidence -- check before trusting: "
+                f"{', '.join(grounding['unsupported'])}"
+            )
+        else:
+            lines.append(
+                f"Grounding: all {grounding['checked']} figures in the prose appear in the evidence."
+            )
     for issue in result["issues"]:
         lines.append(f"  {issue}")
     return "\n".join(lines)

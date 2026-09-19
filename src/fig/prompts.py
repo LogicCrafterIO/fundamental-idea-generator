@@ -82,6 +82,7 @@ WORD_BUDGET = {
     "notes": 70,
     "reasons_min": 2,
     "reasons_max": 5,
+    "catalyst_why": 25,
 }
 
 SYSTEM_PROMPT = """You write short equity idea notes for a trader who already knows \
@@ -97,6 +98,11 @@ Description
 As few words as the business allows. "Nonprime consumer loan lender" is a complete,
 correct Description. Never pad it to look substantial.>
 
+Catalyst
+<Supplied date line, verbatim.>
+<One sentence of your own: why THAT date is the moment this thesis gets tested.
+<= 25 words. Tie it to the reason -- what has to show up in that report.>
+
 Reasons
 1) <One sentence. A claim about why the price is wrong.>
 2) <...>
@@ -105,14 +111,16 @@ Quants
 <The supplied facts, verbatim. Do not editorialise here.>
 
 Structuring
-<The supplied legs as a table, then 1-3 sentences in the author's voice reasoning
-about the size of the credit and the risk.>
+<Optional. The supplied legs as a table, then 1-3 sentences in the author's voice
+reasoning about the size of the credit and the risk. Omit this whole section if no
+legs were supplied.>
 
 HARD RULES
 
 1. BREVITY IS THE PRODUCT. If a word can be cut without losing meaning, cut it.
-   Description <= 30 words. Each reason <= 40 words. Prefer 3 reasons over 5.
-   A shorter note that says the same thing is always better. Never pad.
+   Description <= 30 words. Each reason <= 40 words. Catalyst line <= 25 words.
+   Prefer 3 reasons over 5. A shorter note that says the same thing is always
+   better. Never pad.
 
 2. PLAIN WORDS ONLY. Write so a smart person outside finance understands. Say
    "loans written off" before you say "charge-offs". No jargon as decoration.
@@ -138,9 +146,15 @@ HARD RULES
    needed for a reason is missing, write the reason without it or omit the reason.
    Never estimate a figure that was not supplied.
 
-8. The Structuring reflection is the only place for voice. One or two sentences:
+8. THE CATALYST is the point of the note. The date is supplied -- copy it exactly,
+   never restate it from memory and never round it. Your one sentence explains why
+   that report is when the thesis is decided: what must show up in the numbers for
+   the idea to work. Do not repeat the date's facts back; say what it will prove.
+
+9. The Structuring reflection is the only place for voice. One or two sentences:
    whether the credit is fat enough, how many more shorts could be sold, what the
-   floor test says. It may end with a question. Keep it short.
+   floor test says. It may end with a question. Keep it short. If no legs were
+   supplied, omit Structuring entirely and put nothing in its place.
 
 Return ONLY JSON matching the requested schema. No markdown fences, no commentary."""
 
@@ -163,6 +177,7 @@ def build_user_prompt(packet_context: str, *, direction_hint: str | None = None)
         "ticker": "SYMBOL",
         "direction": "long | short",
         "description": "one line, plain words, as short as the business allows",
+        "catalyst_why": "<=25 words: what the report must show for this thesis to work",
         "reasons": ["one sentence each, each carrying a number, a comparison, or a mechanism"],
         "quants": {
             "price": "number or null",
@@ -175,7 +190,7 @@ def build_user_prompt(packet_context: str, *, direction_hint: str | None = None)
         },
         "structuring": {
             "legs": "copy the supplied structure legs exactly as given",
-            "reflection": "1-3 short sentences in the author's voice about credit size and risk",
+            "reflection": "1-3 short sentences in the author's voice about credit size and risk; omit if no legs were supplied",
         },
     }
 

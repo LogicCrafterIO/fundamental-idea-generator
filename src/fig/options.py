@@ -46,6 +46,7 @@ computed -- ``credit_ratio_mid`` for the writeup and
 from __future__ import annotations
 
 import calendar
+import math
 import statistics
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
@@ -438,18 +439,26 @@ def solve_short_qty(
     target_ratio: float,
     max_ratio_to_long: float = 1.0,
 ) -> int:
-    """Contracts to sell so that short/long premium lands near ``target_ratio``.
+    """Contracts to sell so that short/long premium reaches ``target_ratio``.
+
+    Uses **ceiling**, not rounding, and never returns 0 when a credit is wanted.
+    Rounding was producing a real defect: for a stock whose options are expensive
+    relative to the capital unit the position is a single contract, and the ideal
+    short quantity fell below 0.5, rounded to zero, and silently emitted a
+    structure with *no credit at all* -- contradicting the 10% floor the whole
+    rule exists to enforce. Ceiling also still reproduces the references exactly
+    (ORCL 3 longs at a 25% target -> 2 shorts).
 
     Capped at ``long_qty`` by default: both references short *fewer* contracts
-    than they are long, which keeps the structure net long the thesis rather
-    than turning it into a credit spread.
+    than they are long, which keeps the structure net long the thesis rather than
+    turning it into a credit spread.
     """
-    if not short_premium or not long_premium:
+    if not short_premium or not long_premium or long_qty < 1:
         return 0
+
     ideal = long_qty * target_ratio * long_premium / short_premium
-    qty = int(round(ideal))
-    qty = max(0, min(qty, int(long_qty * max_ratio_to_long)))
-    return qty
+    qty = max(1, math.ceil(ideal))
+    return max(0, min(qty, int(long_qty * max_ratio_to_long)))
 
 
 def build_structure(
@@ -511,6 +520,14 @@ def build_structure(
     # Long size from the capital budget.
     per_contract = long_leg["premium"] * CONTRACT
     long_qty = max(1, int(capital // per_contract)) if per_contract else 1
+    if per_contract > capital * 1.5:
+        # A high-priced underlying (AZO at ~$3,700) can have option premiums so
+        # large that the smallest possible position dwarfs the capital unit. That
+        # must be disclosed, not hidden behind a "$4,500 unit" assumption.
+        notes.append(
+            f"one contract costs ${per_contract:,.0f}, above the ${capital:,.0f} unit, "
+            f"so the smallest position is {per_contract / capital:.1f}x budget"
+        )
 
     short_qty = solve_short_qty(
         long_leg["premium"], short_leg["premium"], long_qty, target_ratio=credit_target

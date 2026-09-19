@@ -1,0 +1,121 @@
+{
+  "ticker": "OMF",
+  "direction": "short",
+  "as_of": "2026-09-19",
+  "description": "Nonprime consumer lender offering personal loans, auto finance, credit cards, and insurance.",
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "session": "before the open",
+    "days_out": 41,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.87559,
+      "eps_low": 1.73,
+      "eps_high": 2.07,
+      "revenue_avg": 1346903600
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 1.26,
+        "eps_actual": 1.31,
+        "surprise_pct": 3.92,
+        "beat": true
+      },
+      {
+        "date": "2026-05-01",
+        "eps_estimate": 1.86,
+        "eps_actual": 1.95,
+        "surprise_pct": 4.91,
+        "beat": true
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 1.54,
+        "eps_actual": 1.59,
+        "surprise_pct": 3.3,
+        "beat": true
+      },
+      {
+        "date": "2025-10-31",
+        "eps_estimate": 1.6,
+        "eps_actual": 1.9,
+        "surprise_pct": 18.54,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88.",
+    "why": "2026-10-30 report must show net charge-offs rising and EPS below 1.88 to confirm deterioration."
+  },
+  "reasons": [
+    "EPS is falling: latest quarter EPS 1.31 vs 1.45 a year ago, and net income dropped 32.7% quarter-over-quarter, showing credit costs are eating profit.",
+    "The company lends to nonprime borrowers, and subprime auto delinquencies hit 6.8%, worst in 32 years; rising losses will force higher provisions and lower earnings.",
+    "Analyst estimates are already being cut: 8 downward revisions vs 6 upward in last 30 days, yet stock trades at 8.6x forward earnings, not cheap for deteriorating credit."
+  ],
+  "quants": {
+    "price": 60.81,
+    "market_cap": "7.0B",
+    "fwd_pe": 8.6,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.3,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted lower, with 6 up and 8 down over last 30 days",
+    "extra": [
+      "Last quarter net income decreasing 33% quarter over quarter (6/30/2026)",
+      "Last quarter other operating items increasing 31% quarter over quarter (6/30/2026)",
+      "EPS declined year over year, 1.45 -> 1.31"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 57.5,
+        "qty": 19,
+        "underlying": 60.81,
+        "multiplier": 100,
+        "price": 2.33,
+        "total": 4427.0,
+        "open_interest": 160
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 57.5,
+        "qty": 7,
+        "underlying": 60.81,
+        "multiplier": 100,
+        "price": 0.77,
+        "total": -539.0,
+        "open_interest": 133
+      }
+    ],
+    "thesis_target": "Targets the 2026-10-30 report, with the long leg expiring 2026-11-20, which gives the deterioration time to show up.",
+    "reflection": "The conservative credit ratio is 7.9%, below the 10% floor, so the structure needs about two more short puts sold to clear it. That adds short gamma risk if the stock bounces into earnings, but the net debit is modest at $3,888."
+  },
+  "generation": {
+    "model": "deepseek-v4-pro:0813",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    }
+  }
+}

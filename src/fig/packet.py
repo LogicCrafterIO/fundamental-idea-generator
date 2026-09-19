@@ -15,7 +15,7 @@ from __future__ import annotations
 import re
 from datetime import date, datetime
 
-from . import options, quants, themes
+from . import catalyst as catalyst_mod, options, quants, themes
 from .sources import nasdaq, yahoo
 from .util import human_money
 
@@ -60,12 +60,23 @@ def _recency_key(item: dict) -> str:
     return ""
 
 
-def collect_news(symbol: str, *, yahoo_limit: int = 12, nasdaq_limit: int = 15) -> list[dict]:
+def collect_news(
+    symbol: str,
+    *,
+    yahoo_limit: int = 12,
+    nasdaq_limit: int = 15,
+    include_web: bool = False,
+    web_per_query: int = 5,
+) -> list[dict]:
     """Merge Yahoo's per-symbol feed with Nasdaq's topic feed.
 
     Yahoo gives genuine per-name coverage; Nasdaq adds market-wide context that
     merely touches the ticker. Both are kept and tagged with a ``relevance``
     score so the writer can tell a company-specific story from a sector ripple.
+
+    ``include_web`` adds Ollama web-search results. It is **off by default**
+    because screening calls this once per candidate, and three searches per name
+    across a universe is slow and wastes quota; packet building turns it on.
     """
     # The company's common name is needed to spot analyst-role mentions
     # (see :func:`_relevance`); failure here is not fatal.
@@ -79,6 +90,9 @@ def collect_news(symbol: str, *, yahoo_limit: int = 12, nasdaq_limit: int = 15) 
         items.append({**item, "relevance": _relevance(symbol, item, company_name)})
     for item in nasdaq.news_for_symbol(symbol, limit=nasdaq_limit):
         items.append({**item, "relevance": _relevance(symbol, item, company_name)})
+
+    if include_web:
+        items.extend(web_stories(symbol, company_name, per_query=web_per_query))
 
     merged = _dedupe_news(items)
     for item in merged:
@@ -133,6 +147,102 @@ def _relevance(symbol: str, item: dict, company_name: str | None = None) -> int:
     return 0
 
 
+def web_stories(
+    symbol: str, company_name: str | None, *, per_query: int = 5
+) -> list[dict]:
+    """Web-search evidence, normalised into the news shape.
+
+    Search snippets are long-form and often carry an explicit date in the body
+    ("Sept 18 (Reuters) - ..."), so a date is recovered from the text where
+    possible; otherwise the item sorts as undated rather than pretending to be
+    fresh.
+    """
+    from .sources import ollama
+
+    if not ollama.has_key():
+        return []
+
+    raw = ollama.search_stories(symbol, company_name, per_query=per_query)
+    out = []
+    for item in raw:
+        if item.get("error"):
+            continue
+        published = _date_from_text(f"{item.get('title','')} {item.get('content','')}")
+        out.append(
+            {
+                "title": item["title"],
+                "publisher": item.get("publisher"),
+                "url": item.get("url"),
+                "summary": (item.get("content") or "")[:600],
+                "published": published,
+                "source": "ollama_search",
+                "query": item.get("query"),
+                # Search is query-targeted, so a result naming the company is
+                # on-topic by construction; without the name it is only context.
+                "relevance": _relevance(symbol, item, company_name),
+                "themes": themes.tag_text(f"{item.get('title','')} {item.get('content','')[:400]}"),
+            }
+        )
+    return out
+
+
+# Matches "Sept 18", "19 September 2026", "2026-09-18", "Friday, 19 Sep 2026".
+_DATE_PATTERNS = (
+    re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b"),
+    re.compile(
+        r"\b(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{4})\b",
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})\b",
+        re.IGNORECASE,
+    ),
+    # Dateless form, very common in wire copy: "Sept 18 (Reuters) - ...". The year
+    # is assumed to be the current one, which is right for news search results and
+    # is only used for recency ordering, never quoted as a fact.
+    re.compile(
+        r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2})\b(?!\s*,?\s*\d{4})",
+        re.IGNORECASE,
+    ),
+)
+
+_MONTHS = {
+    m: i
+    for i, m in enumerate(
+        ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], start=1
+    )
+}
+
+
+def _date_from_text(text: str) -> str | None:
+    """Best-effort ISO date from a snippet, or ``None``."""
+    text = text or ""
+
+    match = _DATE_PATTERNS[0].search(text)
+    if match:
+        return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+
+    match = _DATE_PATTERNS[1].search(text)
+    if match:
+        month = _MONTHS.get(match.group(2)[:3].lower())
+        if month:
+            return f"{match.group(3)}-{month:02d}-{int(match.group(1)):02d}"
+
+    match = _DATE_PATTERNS[2].search(text)
+    if match:
+        month = _MONTHS.get(match.group(1)[:3].lower())
+        if month:
+            return f"{match.group(3)}-{month:02d}-{int(match.group(2)):02d}"
+
+    match = _DATE_PATTERNS[3].search(text)
+    if match:
+        month = _MONTHS.get(match.group(1)[:3].lower())
+        if month:
+            # Yearless: assume the current year (recency ordering only).
+            return f"{date.today().year}-{month:02d}-{int(match.group(2)):02d}"
+    return None
+
+
 # --------------------------------------------------------------------------
 # peers
 # --------------------------------------------------------------------------
@@ -183,6 +293,7 @@ def build_packet(
     directions: tuple[str, ...] = ("long", "short"),
     catalyst_index: int = 0,
     capital: float = options.DEFAULT_CAPITAL,
+    include_web: bool = True,
 ) -> dict:
     """Assemble everything known about ``symbol`` for idea generation."""
     symbol = symbol.upper()
@@ -193,7 +304,7 @@ def build_packet(
         profile = {"symbol": symbol}
 
     panel = quants.quants_panel(symbol)
-    news = collect_news(symbol)
+    news = collect_news(symbol, include_web=include_web)
     story = themes.score_stories(news)
 
     packet: dict = {
@@ -209,6 +320,7 @@ def build_packet(
         "story": story,
         "peer_pairings": themes.theme_pairing([t["key"] for t in story["themes"]]),
         "next_earnings": panel.get("next_earnings"),
+        "catalyst": catalyst_mod.build_catalyst(symbol),
         "provenance": [
             "yfinance Ticker.info (price, market cap, multiples, business summary)",
             "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
@@ -216,6 +328,7 @@ def build_packet(
             "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
             "api.nasdaq.com company financials frequency=2 (quarterly statements)",
             "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+            "ollama.com api/web_search (current reporting, when a key is configured)",
         ],
     }
 
@@ -291,6 +404,30 @@ def to_prompt_context(packet: dict, *, max_news: int = 12) -> str:
     if nxt.get("next_date"):
         lines.append(f"\nNEXT EARNINGS: {nxt['next_date']}  consensus EPS {nxt.get('eps_avg')}")
 
+    cat = packet.get("catalyst") or {}
+    if cat.get("date"):
+        lines.append("\nCATALYST (the date is measured -- copy it exactly, never round it)")
+        lines.append(f"  {cat['facts_line']}")
+        for fact in catalyst_mod.justification_facts(cat):
+            lines.append(f"  - {fact}")
+        if cat.get("recent_reports"):
+            lines.append("  Recent reports against consensus (newest first):")
+            for row in cat["recent_reports"]:
+                surprise = row.get("surprise_pct")
+                verdict = (
+                    f"beat by {surprise:.1f}%"
+                    if row.get("beat") and surprise is not None
+                    else (f"missed by {abs(surprise):.1f}%" if surprise is not None else "reported")
+                )
+                lines.append(
+                    f"    {row['date']}: estimate {row.get('eps_estimate')} vs actual "
+                    f"{row.get('eps_actual')} ({verdict})"
+                )
+        lines.append(
+            "  Write one sentence: what that report must show for this thesis to be "
+            "right. Do not restate the date's facts."
+        )
+
     deltas = packet.get("fundamental_deltas") or []
     if deltas:
         lines.append("\nSTATEMENT MOVES (latest quarter vs prior)")
@@ -327,12 +464,29 @@ def to_prompt_context(packet: dict, *, max_news: int = 12) -> str:
     news = packet.get("news") or []
     if news:
         lines.append("\nHEADLINES (relevance 3 = company-specific)")
-        for item in news[:max_news]:
+        # Web-search results carry the substance, so give them their snippet.
+        web = [n for n in news if n.get("source") == "ollama_search"]
+        feeds = [n for n in news if n.get("source") != "ollama_search"]
+        for item in feeds[:max_news]:
             published = str(item.get("published") or item.get("created") or "")[:16]
             lines.append(f"  [{item.get('relevance', 0)}] {published} {item.get('title')}")
             summary_text = (item.get("summary") or "").strip()
             if summary_text:
                 lines.append(f"       {summary_text[:220]}")
+
+        if web:
+            lines.append("\nWEB REPORTING (search results, best evidence first)")
+            for item in web[: max(4, max_news // 2)]:
+                stamp = str(item.get("published") or "")[:10]
+                lines.append(
+                    f"  [{item.get('relevance', 0)}] {stamp} {item.get('title')} "
+                    f"-- {item.get('publisher')}"
+                )
+                snippet = (item.get("summary") or "").strip()
+                if snippet:
+                    lines.append(f"       {snippet[:500]}")
+                if item.get("url"):
+                    lines.append(f"       {item['url']}")
 
     structures = packet.get("structures") or {}
     if structures:

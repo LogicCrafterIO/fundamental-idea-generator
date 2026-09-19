@@ -18,6 +18,9 @@ Ticker: <SYMBOL>
 Description
 <one line: what the business is now>
 
+Catalyst
+<the exact earnings date, where it came from, then one line on why that date decides the thesis>
+
 Reasons
 1) <one sentence: why the price is wrong>
 2) ...
@@ -26,10 +29,52 @@ Quants
 <the numbers, uneditorialised>
 
 Structuring
-<the option legs, then 1–3 sentences of reflection>
+<the option legs, then 1–3 sentences of reflection. OPTIONAL>
 ```
 
-Sections never reorder, and no section is ever dropped.
+The first four sections never reorder. **Structuring is optional**: in the two
+references the trade construction matters because it says how to express the idea,
+but the idea itself is the Description, the Catalyst and the Reasons. A note with
+no usable option chain is still a note; `fig generate` writes it and states the
+omission rather than failing.
+
+---
+
+## 1a. Catalyst
+
+The single most important line after the Description, because it says *when the
+idea gets settled*. The reference states it inside its Structuring block:
+
+> "A 40% downside is possible if we target earnings in late January, allowing two
+> quarters for the worsening consumer debt story to play out, resulting in a $36
+> price target."
+
+That sentence does three jobs: **the date**, **the mechanism** (credit needs two
+quarters to deteriorate), and **the payoff** ($36). Only the date is a fact; the
+other two are the writer's reasoning. So the section splits exactly that way:
+
+```
+Catalyst
+2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88.
+Credit costs must jump enough to push EPS below the 1.88 consensus, confirming the deterioration.
+```
+
+* **Line 1 is measured, never written by the model.** Date, weekday, session
+  (before the open / after the close), days remaining, whether the date is
+  *scheduled* (published in the earnings calendar) or *estimated* (projected from
+  the company's own reporting gap — and said so), and the consensus for that
+  report. `fig lint` errors if the stated date does not appear in that line,
+  because a restated or rounded earnings date is the most damaging error a note
+  can carry.
+* **Line 2 is the writer's.** What must show up in that report for the thesis to
+  be right. ≤ 25 words, and it must not simply restate the date's facts.
+
+Supporting facts are supplied to the writer, since they are what make a date
+credible: the company's cadence (median gap between reports), whether it reported
+in the same calendar slot a year ago, and its recent record against consensus —
+OMF, for instance, has **beaten consensus in each of the last four reports**, so
+"the bar is already high and a miss is what moves the stock" is a real caution on
+a short thesis, and it is stated.
 
 ---
 
@@ -162,6 +207,14 @@ Then 1–3 sentences of reflection **in the author's voice**, reasoning about th
 size of the credit. It may be informal and may ask a question:
 
 > "Fairly fat credit, even if I halved it, it would be 13%. I also find it a bit hard to find non-consensus longs, stuff is getting stupid expensive imo."
+
+**This whole section is optional.** It is the most expensive part of a note to get
+right — it needs a listed chain, a common strike, two standard monthly expiries
+straddling the catalyst, and a credit ratio over the 10% floor — and it is the
+least important part of the idea. When it cannot be built, `fig render` prints a
+single bracketed line naming the reason (for example
+`[no option structure: no usable catalyst for SNX]`) so the gap is visible and
+the note still stands on its Catalyst and Reasons.
 
 > "The credit received is very slightly above the 10% floor for credits, but I could sell 1 or 2 more to increase that. ... lmk if my thinking on this is wrong."
 

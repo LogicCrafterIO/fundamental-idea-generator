@@ -1,0 +1,121 @@
+{
+  "ticker": "GIS",
+  "direction": "short",
+  "as_of": "2026-09-19",
+  "description": "Branded packaged food and pet food maker (Cheerios, Pillsbury, Blue Buffalo).",
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 4,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.71775,
+      "eps_low": 0.68,
+      "eps_high": 0.76,
+      "revenue_avg": 4346502720
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-01",
+        "eps_estimate": 0.8,
+        "eps_actual": 0.95,
+        "surprise_pct": 19.21,
+        "beat": true
+      },
+      {
+        "date": "2026-03-18",
+        "eps_estimate": 0.73,
+        "eps_actual": 0.64,
+        "surprise_pct": -12.14,
+        "beat": false
+      },
+      {
+        "date": "2025-12-17",
+        "eps_estimate": 1.03,
+        "eps_actual": 1.1,
+        "surprise_pct": 7.09,
+        "beat": true
+      },
+      {
+        "date": "2025-09-17",
+        "eps_estimate": 0.82,
+        "eps_actual": 0.86,
+        "surprise_pct": 5.45,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.72.",
+    "why": "It must show weak volumes or a guidance cut that breaks the recent beat streak and forces estimate cuts."
+  },
+  "reasons": [
+    "Both EPS revisions in the last 30 days are downward, with consensus FY EPS slipping from 3.078 to 3.071, signaling analysts are cutting estimates into the print.",
+    "Reported net income jumped 562.5% quarter-over-quarter, but cash fell 42.2% and equity fell 21.1%, suggesting the earnings quality is deteriorating even as headline profit rises.",
+    "At 11.8x forward earnings, GIS trades on a multiple that assumes stability, yet the company just exited yogurt and Brazil/China Haagen-Dazs while buying premium pet food, adding execution risk to weak volumes."
+  ],
+  "quants": {
+    "price": 36.32,
+    "market_cap": "19.42B",
+    "fwd_pe": 11.8,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.1,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 2 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 562% quarter over quarter (5/31/2026)",
+      "Last quarter earnings before interest and tax increasing 449% quarter over quarter (5/31/2026)",
+      "EPS increased year over year, 0.74 -> 0.95"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 35.0,
+        "qty": 20,
+        "underlying": 36.32,
+        "multiplier": 100,
+        "price": 2.2,
+        "total": 4400.0,
+        "open_interest": 3095
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 35.0,
+        "qty": 6,
+        "underlying": 36.32,
+        "multiplier": 100,
+        "price": 0.95,
+        "total": -569.9999999999999,
+        "open_interest": 5190
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "The 11.2% conservative credit ratio clears the 10% floor, but the net debit is $3,830 and the short put expires in under a month, so the credit is thin relative to the downside window. Could sell more short puts if the stock holds above 35 into the print."
+  },
+  "generation": {
+    "model": "deepseek-v4-pro:0813",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    }
+  }
+}

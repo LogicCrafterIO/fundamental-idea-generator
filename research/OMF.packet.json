@@ -1,0 +1,1459 @@
+{
+  "symbol": "OMF",
+  "as_of": "2026-09-19",
+  "generated_at": "2026-09-19T20:46:15",
+  "profile": {
+    "symbol": "OMF",
+    "name": "OneMain Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services",
+    "summary": "OneMain Holdings, Inc., a financial service holding company, engages in the consumer finance and insurance businesses in the United States. The company provides origination, underwriting, and servicing of consumer loans, consisting of personal loans and auto finance. It also offers secured auto financing; credit cards; optional credit insurance products, including life, disability, and involuntary unemployment insurance; optional non-credit insurance; guaranteed asset protection coverage as a waiver product or insurance; and membership plans. The company provides personal loans through its branch network, central operations, digital affiliates, and its website. The company was formerly known as Springleaf Holdings, Inc. and changed its name to OneMain Holdings, Inc. in November 2015. OneMain Holdings, Inc. was incorporated in 2013 and is based in Evansville, Indiana.",
+    "employees": 9300,
+    "country": "United States",
+    "website": "https://www.onemainfinancial.com"
+  },
+  "quants": {
+    "symbol": "OMF",
+    "name": "OneMain Holdings, Inc.",
+    "price": 60.81,
+    "market_cap": 6995672064,
+    "market_cap_human": "7.0B",
+    "fwd_pe": 8.57,
+    "fwd_pe_1y": 7.08,
+    "fwd_pe_yahoo": 7.076032,
+    "trailing_pe": 9.171946,
+    "ps": 2.3164477,
+    "ev_ebitda": null,
+    "sector": "Financial Services",
+    "industry": "Credit Services",
+    "eps_fy_current": 7.09182,
+    "eps_fy_next": 8.5938,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": -0.51,
+      "current": 7.09182,
+      "7d_ago": 7.09182,
+      "30d_ago": 7.12825,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 1,
+      "up_30d": 6,
+      "down_30d": 8,
+      "net_30d": -2,
+      "text": "tilted lower, with 6 up and 8 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-30"
+      ],
+      "next_date": "2026-10-30",
+      "eps_avg": 1.87559,
+      "eps_low": 1.73,
+      "eps_high": 2.07,
+      "revenue_avg": 1346903600
+    },
+    "as_of": "2026-09-19"
+  },
+  "quants_lines": [
+    "Price: 60.81 USD",
+    "Market Cap: 7.0B",
+    "Fwd PE: 8.57",
+    "P/S: 2.3",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted lower, with 6 up and 8 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 152000.0,
+      "prior": 226000.0,
+      "change_pct": -32.7,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Other Operating Items",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 609000.0,
+      "prior": 465000.0,
+      "change_pct": 31.0,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 523000.0,
+      "prior": 618000.0,
+      "change_pct": -15.4,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2216000.0,
+      "prior": 2448000.0,
+      "change_pct": -9.5,
+      "direction": "decreasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-29T06:00:00-04:00",
+    "current": 1.31,
+    "year_ago": 1.45,
+    "year_ago_period": "2025-07-25T06:00:00-04:00",
+    "change": -0.14,
+    "direction": "declined"
+  },
+  "news": [
+    {
+      "title": "OMF Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/omf-stock-analysis/",
+      "summary": "OMF Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy OneMain Holdings, Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-09-04 \u00b7 6/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, OneMain Holdings, Inc. (OMF) scores a robust 7.5/10 on our 32-signal Quality of Company framework. At the current market price of $64.63 and a $7.4B market cap, our analysis maps this fundamental strength against 13 institutional-grade models to determine if a sufficient margin of safety exists.\n\nThe short answer: 2 of 6 CirclFi valuation models project upside ",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "OneMain Holdings (OMF) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/omf/forecast/",
+      "summary": "OneMain Holdings (OMF) Stock Forecast & Analyst Price Targets\n\n59.98 +1.20 (2.04%) Jul 24, 2026, 12:09 PM EDT - Market open\n\n# OneMain Holdings Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 16 analysts polled by S&P Global, OneMain Holdings stock has a consensus rating of \"Buy\" and an average price target of $68.21. The average 1-year stock price forecast is 13.72% higher than the current stock price, while the lowest is $55 (-8.30%) and the highest is $85 (+41.71%).\n\nPrice Target: $68.21 (+13.72%)\n\n## Price Target\n\n| Target | Low | Average | Median | High |\n| --- | --- | --- | --- | -",
+      "published": "2026-07-24",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "OMF Q2 Deep Dive: Product Innovation and Credit Quality Drive Growth",
+      "publisher": "StockStory",
+      "published": "2026-08-04T05:33:22Z",
+      "summary": "Consumer finance company OneMain Holdings (NYSE:OMF) reported revenue ahead of Wall Street\u2019s expectations in Q2 CY2026, with sales up 6.9% year on year to $1.29 billion. Its non-GAAP profit of $1.31 per share was 3.9% above analysts\u2019 consensus estimates.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/omf-q2-deep-dive-product-053322059.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is OneMain Holdings (OMF) Below Fair Value Following Its Q2 Revenue Beat?",
+      "publisher": "Simply Wall St.",
+      "published": "2026-08-06T16:10:27Z",
+      "summary": "OneMain Holdings (OMF) has drawn investor attention after reporting second quarter revenue ahead of Wall Street expectations, with management pointing to product changes, growth in auto finance and credit cards, and better delinquency trends. See our latest analysis for OneMain Holdings. The recent Q2 earnings, higher net charge offs and the reaffirmed dividend sit against a mixed price picture for OneMain Holdings, with a 9.10% 1 month share price return and an 85.86% 3 year total...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onemain-holdings-omf-below-fair-161027161.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "consumer_credit",
+        "mna"
+      ]
+    },
+    {
+      "title": "OneMain (OMF) Q2 2026 Earnings Call Transcript",
+      "publisher": "Motley Fool",
+      "published": "2026-08-08T01:12:35Z",
+      "summary": "Receivables grew 7% year over year as credit card and auto finance portfolios scaled.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/onemain-holdings-omf-q2-2026-earnings-call-transcript/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "OneMain Holdings (OMF) Completes $1.1b Note Offering, Is The Stock Still Trading At A Discount? - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-omf/onemain-holdings/news/onemain-holdings-omf-completes-11b-note-offering-is-the-stoc",
+      "summary": "OneMain Holdings (OMF) Completes $1.1b Note Offering, Is The Stock Still Trading At A Discount? - Simply Wall St News\n\n# OneMain Holdings (OMF) Completes $1.1b Note Offering, Is The Stock Still Trading At A Discount?\n\n August 17, 2026\n\nSimply Wall St\n\nOneMain Holdings (OMF) recently completed two senior unsecured fixed income offerings totaling US$1.1b in notes due 2034, including 7.125% notes, a funding move that reshapes its debt profile and long term interest obligations.\n\nSee our latest analysis for OneMain Holdings.\n\nAgainst this refinancing backdrop, OneMain Holdings\u2019 recent share price ",
+      "published": "2026-08-17",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "OneMain Stock: Well Positioned Given Tightened Credit Standards (Downgrade) (NYSE:OMF) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4940208-onemain-holdings-well-positioned-given-tightened-credit-standards-downgrade",
+      "summary": "OneMain Stock: Well Positioned Given Tightened Credit Standards (Downgrade) (NYSE:OMF) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n* Interest Rates\n# OneMain Holdings: Well Positioned Given Tightened Credit Standards (Downgrade)\nAug 26, 2026, 6:00 AM ETOneMain Holdings, Inc. (OMF) Stock2 Comments1 Like\n\nSeeking Profits\n5.72K Followers\nFollow\n## Summary\n* OneMain Holdin",
+      "published": "2026-08-26",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "positioning"
+      ]
+    },
+    {
+      "title": "OMF Stock Forecast 2026-2027 - OneMain Holdings, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/omf-forecast/",
+      "summary": "OMF Stock Forecast 2026-2027 - OneMain Holdings, Inc. Price Targets & Predictions\n\n# OMF Stock Forecast: OneMain Holdings, Inc. Price Predictions for 2026-2027\n\nLast close, 3 Sept 2026\n\n$65\n\n+2.28% on the day\n\nThe 16 Wall Street analysts covering OneMain Holdings, Inc. hold a median 12-month price target of $69 \u2014 +6.8% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 74 of 100 as at 2 Sept 2026 \u2014 in the upper half. Here, the model and the Street point the same way.\n\nMarket cap\n\n$7.0B\n\nTicker Nerd rank\n\n74 / 100\n\nMedian analyst target\n\n$69\n\nAnaly",
+      "published": "2026-09-03",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "3 Reasons to Avoid OMF and 1 Stock to Buy Instead",
+      "publisher": "StockStory",
+      "published": "2026-09-03T16:55:18Z",
+      "summary": "OneMain trades at $63.05 per share and has stayed right on track with the overall market, gaining 14.8% over the last six months. At the same time, the S&P 500 has returned 12%.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-omf-1-165518295.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Stretched Balance Sheet And Sliding EPS Might Change The Case For Investing In OneMain Holdings (OMF) - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-omf/onemain-holdings/news/stretched-balance-sheet-and-sliding-eps-might-change-the-cas",
+      "summary": "Stretched Balance Sheet And Sliding EPS Might Change The Case For Investing In OneMain Holdings (OMF) - Simply Wall St News\n\n# Stretched Balance Sheet And Sliding EPS Might Change The Case For Investing In OneMain Holdings (OMF)\n\n September 04, 2026\n\nSimply Wall St Reviewed by Sasha Jovanovic\n\n- Recent analysis of OneMain Holdings highlighted that, over the past five years, the company delivered modest long-term revenue growth while earnings per share declined and leverage remained high.\n- This combination of subdued revenue expansion, falling per-share profitability, and a very large net-debt",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "OneMain Holdings, Inc. (OMF) Earnings Call Transcript & Summary",
+      "publisher": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/onemain-holdings-inc_omf_earnings_call_transcript_2026-09-15",
+      "summary": "# OneMain Holdings, Inc. (OMF) Earnings Call Transcript & Summary\n\nSeptember 15, 2026\n\nNYSE US Financials Consumer Finance conference_presentation 38 min\n\n## Earnings Call Speaker Segments\n\n### Terry Ma\n\nanalyst\n\n#1\n\nAll right. We'll get started. So I'm very pleased to have OneMain Holdings on stage with me. And we have Jenny Osterhout, the Chief Financial Officer. So welcome, Jenny.\n\n### Jenny Osterhout\n\nexecutive\n\n#2\n\nThank you. Thank you for having me.\n\n### Terry Ma\n\nanalyst\n\n#3\n\nSo let's jump right into it. Maybe just beginning with consumer. There's been renewed concerns around household ",
+      "published": "2026-09-15",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Personal Loan Stocks Q2 Teardown: OneMain (NYSE:OMF) Vs The Rest",
+      "publisher": "StockStory",
+      "published": "2026-09-15T13:43:31Z",
+      "summary": "The end of the earnings season is always a good time to take a step back and see who shined (and who didn\u2019t). Let\u2019s take a look at how personal loan stocks fared in Q2, starting with OneMain (NYSE:OMF).",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/personal-loan-stocks-q2-teardown-134331668.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "OneMain\u2019s Yield Comes With a Catch",
+      "publisher": "MarketBeat",
+      "created": "Aug 30, 2026",
+      "ago": "Aug 30, 2026",
+      "url": "/articles/onemains-yield-comes-catch",
+      "primary_symbol": "OMF",
+      "related_symbols": [
+        "OMF",
+        "CACC",
+        "ALLY",
+        "SYF"
+      ],
+      "summary": "OneMain Holdings (NYSE: OMF) has built its business on lending to people that other banks turn away. It\u2019s profitable, and for income investors, the dividend yield is hard to resist. But the company also comes with an unsteady history. Up-and-down earnings, slipping loan quality",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "OneMain (OMF) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "publisher": "Zacks",
+      "created": "Jul 29, 2026",
+      "ago": "Jul 29, 2026",
+      "url": "/articles/onemain-omf-q2-earnings-taking-look-key-metrics-versus-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "OMF"
+      ],
+      "summary": "While the top- and bottom-line numbers for OneMain (OMF) give a sense of how the business performed in the quarter ended June 2026, it could be worth looking at how some of its key metrics compare to Wall Street estimates and year-ago values.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "OneMain Holdings (OMF) Q2 Earnings Meet Estimates",
+      "publisher": "Zacks",
+      "created": "Jul 29, 2026",
+      "ago": "Jul 29, 2026",
+      "url": "/articles/onemain-holdings-omf-q2-earnings-meet-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "OMF",
+        "ECPG"
+      ],
+      "summary": "OneMain (OMF) delivered earnings and revenue surprises of 0.00% and +2.17%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "OneMain Q2 Earnings Call Highlights",
+      "publisher": "MarketBeat",
+      "created": "Jul 30, 2026",
+      "ago": "Jul 30, 2026",
+      "url": "/articles/onemain-q2-earnings-call-highlights",
+      "primary_symbol": "OMF",
+      "related_symbols": [
+        "OMF"
+      ],
+      "summary": "Get Paid While You Wait - OneMain's Juicy DividendsOneMain (NYSE:OMF) reported second-quarter 2026 results marked by receivables and originations growth, improving early-stage delinquency trends and continued investment in its auto finance, credit card and technology initiatives.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "consumer_credit",
+        "mna"
+      ]
+    },
+    {
+      "title": "OneMain vs. Upstart: Which Consumer Loan Stock Is a Better Buy in 2026?",
+      "publisher": "The Motley Fool",
+      "created": "Jun 17, 2026",
+      "ago": "Jun 17, 2026",
+      "url": "/articles/onemain-vs-upstart-which-consumer-loan-stock-better-buy-2026",
+      "primary_symbol": "OMF",
+      "related_symbols": [
+        "OMF",
+        "UPST"
+      ],
+      "summary": "Key PointsOneMain maintains a robust physical presence with over 1,300 branches and consistent profitability in the nonprime lending market.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "consumer_credit"
+      ]
+    },
+    {
+      "title": "Is ECPG a Buy Now as Cheap Valuation Meets Rising Earnings Momentum?",
+      "publisher": "Zacks",
+      "created": "Aug 11, 2026",
+      "ago": "Aug 11, 2026",
+      "url": "/articles/ecpg-buy-now-cheap-valuation-meets-rising-earnings-momentum",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ECPG",
+        "PRAA",
+        "OMF"
+      ],
+      "summary": "Encore Capital???s discounted valuation and rising earnings estimates support the upside case, while debt, legal costs and U.S. concentration keep risks elevated.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Subprime Auto Loans Just Hit Their Worst Delinquency Rate in 32 Years. Here's What It Means for Lenders.",
+      "publisher": "The Motley Fool",
+      "created": "Jul 11, 2026",
+      "ago": "Jul 11, 2026",
+      "url": "/articles/subprime-auto-loans-just-hit-their-worst-delinquency-rate-32-years-heres-what-it-means",
+      "primary_symbol": "COF",
+      "related_symbols": [
+        "COF",
+        "CRMT",
+        "CACC",
+        "OMF"
+      ],
+      "summary": "Key PointsThe subprime auto loan delinquency rate hit 6.8% at the start of 2026.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "consumer_credit"
+      ]
+    },
+    {
+      "title": "ALLY Stock Slides 2.4% as Q2 Earnings Lag on Higher Provisions & Costs",
+      "publisher": "Zacks",
+      "created": "Jul 22, 2026",
+      "ago": "Jul 22, 2026",
+      "url": "/articles/ally-stock-slides-24-q2-earnings-lag-higher-provisions-costs",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ALLY",
+        "NAVI",
+        "OMF"
+      ],
+      "summary": "Ally Financial shares dip 2.4% after Q2 earnings missed estimates as higher provisions and expenses offset revenue growth and improved margins.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "consumer_credit",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Sallie Mae Q2 Earnings Miss Estimates, NII Dips, Expenses Rise Y/Y",
+      "publisher": "Zacks",
+      "created": "Jul 24, 2026",
+      "ago": "Jul 24, 2026",
+      "url": "/articles/sallie-mae-q2-earnings-miss-estimates-nii-dips-expenses-rise-y-y",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SLM",
+        "NAVI",
+        "OMF"
+      ],
+      "summary": "SLM misses Q2 earnings and revenue estimates as lower net interest income, higher expenses and margin pressure weigh on the results despite loan origination growth.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "OneMain Holdings Q2 Earnings in Line, Stock Gains as NII Rises Y/Y",
+      "publisher": "Zacks",
+      "created": "Jul 30, 2026",
+      "ago": "Jul 30, 2026",
+      "url": "/articles/onemain-holdings-q2-earnings-line-stock-gains-nii-rises-y-y",
+      "primary_symbol": null,
+      "related_symbols": [
+        "OMF",
+        "COF",
+        "ALLY"
+      ],
+      "summary": "OMF meets Q2 earnings estimates as higher net interest income and other revenues lift the results, even as rising credit costs weigh on profit.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Nu vs. OneMain: Should You Pick the Digital Disruptor or the Domestic Dividend Payer in 2026?",
+      "publisher": "The Motley Fool",
+      "created": "Jul 6, 2026",
+      "ago": "Jul 6, 2026",
+      "url": "/articles/nu-vs-onemain-should-you-pick-digital-disruptor-or-domestic-dividend-payer-2026",
+      "primary_symbol": "NU",
+      "related_symbols": [
+        "NU",
+        "OMF"
+      ],
+      "summary": "Key PointsNu continues its rapid expansion across Latin America, reaching 135 million customers by early 2026.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Enova's Small Business Lending Surge: What's Driving the Growth?",
+      "publisher": "Zacks",
+      "created": "Jun 4, 2026",
+      "ago": "Jun 4, 2026",
+      "url": "/articles/enovas-small-business-lending-surge-whats-driving-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ALLY",
+        "ENVA",
+        "OMF"
+      ],
+      "summary": "ENVA's SMB lending now makes up 70% of its portfolio as originations climb for a ninth straight quarter. Can growth keep boosting earnings?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "OneMain (OMF) Price Target & Estimates | Kaplio",
+      "publisher": "kaplio.com",
+      "url": "https://kaplio.com/ticker/OMF/estimates",
+      "summary": "# OMF\n\n\u2014 OneMain Holdings, Inc.\n\nNYSE\n\nFinancial - Credit Services\u00b7 US\u00b7\n\nPre-Market\u00b7 Opens in 4h 5m\n\n$60.57 -0.96 -1.56% +0.00 (+0.00%)\n\n### What today's price discounts\n\nAt $60.57, the stock trades at 8.5\u00d7 the earnings the consensus expects for 2026 \u00b7 7.0\u00d7 for 2027.\n\nWe store the consensus daily since 15 September 2026: the 30-day revision will appear here once there is enough history.\n\n### Consensus by fiscal year\n\nfigures in USD \u00b7 consensus as of Sep 16\n\n| Metric | 2024 | 2025 | 2026E | 2027E |\n| --- | --- | --- | --- | --- |\n| Revenue | $5.7B | $6.2B | $5.3B | $5.7B |\n| Net income | $509M ",
+      "published": "2026-09-15",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "valuation_dispersion",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "OneMain Q2 Earnings Call Highlights - American Market News",
+      "publisher": "americanbankingnews.com",
+      "url": "https://www.americanbankingnews.com/2026/07/30/onemain-q2-earnings-call-highlights.html",
+      "summary": "OneMain Q2 Earnings Call Highlights - American Market News\n\n# OneMain Q2 Earnings Call Highlights\n\nPosted by ABMN Staff on Jul 30th, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwits\n\nGet alerts:\n\nOneMain (NYSE:OMF) reported second-quarter 2026 results marked by receivables and originations growth, improving early-stage delinquency trends and continued investment in its auto finance, credit card and technology initiatives.\n\nChairman and Chief Executive Officer Doug Shulman said the company generated 10% year-over-year growth in originations, supporting managed rece",
+      "published": "2026-06-30",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "consumer_credit"
+      ]
+    },
+    {
+      "title": "ONEMAIN HOLDINGS, INC. REPORTS SECOND QUARTER 2026 RESULTS",
+      "publisher": "prnewswire.com",
+      "url": "https://www.prnewswire.com/news-releases/onemain-holdings-inc-reports-second-quarter-2026-results-302836921.html",
+      "summary": "ONEMAIN HOLDINGS, INC. REPORTS SECOND QUARTER 2026 RESULTS\n\nJul 29, 2026, 06:30 ET\n\n- 2Q 2026 Diluted EPS of $1.32\n- 2Q 2026 C&I adjusted diluted EPS of $1.31 \n- 2Q 2026 Managed receivables of $26.9 billion \n- Declared quarterly dividend of $1.05 per share\n\nNEW YORK, July 29, 2026 /PRNewswire/ -- OneMain Holdings, Inc. (NYSE: OMF), the leader in offering nonprime consumers responsible access to credit, today reported pretax income of $196 million and net income of $152 million for the second quarter of 2026, compared to $214 million and $167 million, respectively, in the prior year quarter. Ea",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "consumer_credit",
+        "mna"
+      ]
+    },
+    {
+      "title": "Exhibit 99.1 Earnings Release (OMH Q2'26)",
+      "publisher": "s203.q4cdn.com",
+      "url": "https://s203.q4cdn.com/410697831/files/doc_financials/2026/q2/v2/2Q26-Earnings-Release-vFF.pdf",
+      "summary": "ONEMAIN HOLDINGS, INC. REPORTS SECOND QUARTER 2026 RESULTS \u2013 2Q 2026 Diluted EPS of $1.32 \u2013 2Q 2026 C&I adjusted diluted EPS of $1.31 \u2013 2Q 2026 Managed receivables of $26.9 billion \u2013 Declared quarterly dividend of $1.05 per share New York, NY, July 29, 2026 - OneMain Holdings, Inc. (NYSE: OMF), the leader in offering nonprime consumers responsible access to credit, today reported pretax income of $196 million and net income of $152 million for the second quarter of 2026, compared to $214 million and $167 million, respectively, in the prior year quarter. Earnings per diluted share were $1.32 in",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "consumer_credit",
+        "mna"
+      ]
+    },
+    {
+      "title": "OneMain Q2 2026 slides: credit quality improves as growth accelerates By Investing.com",
+      "publisher": "ca.investing.com",
+      "url": "https://ca.investing.com/news/company-news/onemain-q2-2026-slides-credit-quality-improves-as-growth-accelerates-93CH-4760701",
+      "summary": "OneMain Q2 2026 slides: credit quality improves as growth accelerates By Investing.com\n\nAMD shares slide 8% after Musk flags plans to buy Nvidia chips for SpaceX\n\nSpaceX tumbles amid AI spending concerns; Musk outlines $1 trillion revenue target\n\nOil prices rebound after Houthis say they attacked Saudi tanker\n\nU.S. stock futures rise after record Wall St close; SpaceX, AMD dip post earnings\n\nAdvertisement\n\nAdvertisement\n\n# OneMain Q2 2026 slides: credit quality improves as growth accelerates\n\nPublished 2026-07-29, 10:26 a/m\n\nOneMain Q2 2026 slides: credit quality improves as growth accelerates",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "OneMain Holdings, Inc. (OMF) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Enova's SMB Growth Engine Gains Traction as Credit Demand Stays Firm",
+      "publisher": "Zacks",
+      "published": "2026-07-31T14:56:00Z",
+      "summary": "ENVA's SMB lending drive accelerates as originations and revenue climb, but rising marketing costs and mixed credit trends keep investors watching.",
+      "url": "https://finance.yahoo.com/small-business/articles/enovas-smb-growth-engine-gains-145600885.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "CACC Q2 Earnings Beat as Expenses & Provisions Decline, Revenues Rise",
+      "publisher": "Zacks",
+      "published": "2026-08-05T12:43:00Z",
+      "summary": "Credit Acceptance's Q2 earnings rise 20.6% as revenues edge higher and lower provisions and expenses offer support.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cacc-q2-earnings-beat-expenses-124300754.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "consumer_credit"
+      ]
+    },
+    {
+      "title": "OneMain Holdings Inc's Dividend Analysis",
+      "publisher": "GuruFocus.com",
+      "published": "2026-08-10T11:06:27Z",
+      "summary": "This article first appeared on GuruFocus.  OneMain Holdings Inc (NYSE:OMF) recently announced a total dividend of $1.05 per share, with the ex-dividend date set for 2026-08-10.  This upcoming payment includes a $1.05 per share cash dividend, payable on 2026-08-14.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onemain-holdings-incs-dividend-analysis-110627173.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "1 Unpopular Stock That Deserves Some Love and 2 We Avoid",
+      "publisher": "StockStory",
+      "published": "2026-08-12T04:21:22Z",
+      "summary": "Wall Street\u2019s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaining cordial corporate relationships often trumps delivering the hard truth.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-unpopular-stock-deserves-love-042122498.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "MarketBeat Week in Review \u2013 08/31 - 09/04",
+      "publisher": "MarketBeat",
+      "published": "2026-09-05T11:00:00Z",
+      "summary": "Stocks pulled back after a strong jobs report stoked rate-hike concerns. MarketBeat writers recap earnings-season themes, covering AI, cybersecurity, retail, energy, and dividend stocks.",
+      "url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-08-31-09-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "mna"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 11,
+        "share": 0.239,
+        "evidence": [
+          {
+            "title": "OneMain Holdings (OMF) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-07-24",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          },
+          {
+            "title": "OMF Q2 Deep Dive: Product Innovation and Credit Quality Drive Growth",
+            "publisher": "StockStory",
+            "published": "2026-08-04T05:33:22Z",
+            "matched": [
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "OMF Stock Forecast 2026-2027 - OneMain Holdings, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-03",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "OneMain (OMF) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+            "publisher": "Zacks",
+            "published": "Jul 29, 2026",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "consumer_credit",
+        "label": "Consumer credit deterioration",
+        "description": "Stress in household balance sheets showing up as loan losses.",
+        "count": 9,
+        "share": 0.196,
+        "evidence": [
+          {
+            "title": "Is OneMain Holdings (OMF) Below Fair Value Following Its Q2 Revenue Beat?",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-06T16:10:27Z",
+            "matched": [
+              "net charge off",
+              "charge off",
+              "delinquen"
+            ]
+          },
+          {
+            "title": "OneMain Q2 Earnings Call Highlights",
+            "publisher": "MarketBeat",
+            "published": "Jul 30, 2026",
+            "matched": [
+              "delinquen"
+            ]
+          },
+          {
+            "title": "OneMain vs. Upstart: Which Consumer Loan Stock Is a Better Buy in 2026?",
+            "publisher": "The Motley Fool",
+            "published": "Jun 17, 2026",
+            "matched": [
+              "nonprime"
+            ]
+          },
+          {
+            "title": "Subprime Auto Loans Just Hit Their Worst Delinquency Rate in 32 Years. Here's What It Means for Lenders.",
+            "publisher": "The Motley Fool",
+            "published": "Jul 11, 2026",
+            "matched": [
+              "delinquen",
+              "subprime"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 8,
+        "share": 0.174,
+        "evidence": [
+          {
+            "title": "Is OneMain Holdings (OMF) Below Fair Value Following Its Q2 Revenue Beat?",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-06T16:10:27Z",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "OneMain\u2019s Yield Comes With a Catch",
+            "publisher": "MarketBeat",
+            "published": "Aug 30, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "OneMain Q2 Earnings Call Highlights",
+            "publisher": "MarketBeat",
+            "published": "Jul 30, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Nu vs. OneMain: Should You Pick the Digital Disruptor or the Domestic Dividend Payer in 2026?",
+            "publisher": "The Motley Fool",
+            "published": "Jul 6, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 6,
+        "share": 0.13,
+        "evidence": [
+          {
+            "title": "OMF Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "institutional"
+            ]
+          },
+          {
+            "title": "OneMain Holdings (OMF) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-07-24",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "OneMain Stock: Well Positioned Given Tightened Credit Standards (Downgrade) (NYSE:OMF) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-08-26",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "OMF Stock Forecast 2026-2027 - OneMain Holdings, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-03",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 4,
+        "share": 0.087,
+        "evidence": [
+          {
+            "title": "OMF Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "OneMain Holdings (OMF) Completes $1.1b Note Offering, Is The Stock Still Trading At A Discount? - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2026-08-17",
+            "matched": [
+              "discount"
+            ]
+          },
+          {
+            "title": "Is ECPG a Buy Now as Cheap Valuation Meets Rising Earnings Momentum?",
+            "publisher": "Zacks",
+            "published": "Aug 11, 2026",
+            "matched": [
+              "valuation",
+              "cheap",
+              "discount"
+            ]
+          },
+          {
+            "title": "OneMain (OMF) Price Target & Estimates | Kaplio",
+            "publisher": "kaplio.com",
+            "published": "2026-09-15",
+            "matched": [
+              "discount"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 4,
+        "share": 0.087,
+        "evidence": [
+          {
+            "title": "OneMain Holdings (OMF) Completes $1.1b Note Offering, Is The Stock Still Trading At A Discount? - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2026-08-17",
+            "matched": [
+              "debt"
+            ]
+          },
+          {
+            "title": "OneMain Stock: Well Positioned Given Tightened Credit Standards (Downgrade) (NYSE:OMF) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-08-26",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "Stretched Balance Sheet And Sliding EPS Might Change The Case For Investing In OneMain Holdings (OMF) - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2026-09-04",
+            "matched": [
+              "debt",
+              "leverage"
+            ]
+          },
+          {
+            "title": "Is ECPG a Buy Now as Cheap Valuation Meets Rising Earnings Momentum?",
+            "publisher": "Zacks",
+            "published": "Aug 11, 2026",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 3,
+        "share": 0.065,
+        "evidence": [
+          {
+            "title": "OneMain Holdings (OMF) Completes $1.1b Note Offering, Is The Stock Still Trading At A Discount? - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2026-08-17",
+            "matched": [
+              "refinanc"
+            ]
+          },
+          {
+            "title": "OneMain Stock: Well Positioned Given Tightened Credit Standards (Downgrade) (NYSE:OMF) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-08-26",
+            "matched": [
+              "interest rate"
+            ]
+          },
+          {
+            "title": "OneMain\u2019s Yield Comes With a Catch",
+            "publisher": "MarketBeat",
+            "published": "Aug 30, 2026",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 1,
+        "share": 0.022,
+        "evidence": [
+          {
+            "title": "OneMain Q2 2026 slides: credit quality improves as growth accelerates By Investing.com",
+            "publisher": "ca.investing.com",
+            "published": "2026-07-29",
+            "matched": [
+              "nvidia"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI adoption is bullish capex, bearish labour income",
+      "long_side": "AI infrastructure and power",
+      "short_side": "consumer lenders exposed to job losses"
+    },
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-10-30"
+    ],
+    "next_date": "2026-10-30",
+    "eps_avg": 1.87559,
+    "eps_low": 1.73,
+    "eps_high": 2.07,
+    "revenue_avg": 1346903600
+  },
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "days_out": 41,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 1.87559,
+      "eps_low": 1.73,
+      "eps_high": 2.07,
+      "revenue_avg": 1346903600
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 1.26,
+        "eps_actual": 1.31,
+        "surprise_pct": 3.92,
+        "beat": true
+      },
+      {
+        "date": "2026-05-01",
+        "eps_estimate": 1.86,
+        "eps_actual": 1.95,
+        "surprise_pct": 4.91,
+        "beat": true
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 1.54,
+        "eps_actual": 1.59,
+        "surprise_pct": 3.3,
+        "beat": true
+      },
+      {
+        "date": "2025-10-31",
+        "eps_estimate": 1.6,
+        "eps_actual": 1.9,
+        "surprise_pct": 18.54,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88."
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "OMF",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 60.81,
+      "catalyst": "2026-10-30",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 62.5,
+        "premium": 2.23,
+        "bid": 2.0,
+        "ask": 2.45,
+        "mid": 2.23,
+        "last": 2.0,
+        "open_interest": 802,
+        "volume": 6.0,
+        "implied_vol": 0.3156806713867187,
+        "qty": 20
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 62.5,
+        "premium": 1.02,
+        "bid": 0.9,
+        "ask": 1.15,
+        "mid": 1.02,
+        "last": 1.01,
+        "open_interest": 16,
+        "volume": 3.0,
+        "implied_vol": 0.27539787109374997,
+        "qty": 6
+      },
+      "long_total": 4460.0,
+      "short_total": 612.0,
+      "net_debit": 3848.0,
+      "credit_ratio_mid": 0.1372,
+      "credit_ratio_conservative": 0.1102,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 62.5,
+          "qty": 20,
+          "underlying": 60.81,
+          "multiplier": 100,
+          "price": 2.23,
+          "total": 4460.0,
+          "open_interest": 802
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 62.5,
+          "qty": 6,
+          "underlying": 60.81,
+          "multiplier": 100,
+          "price": 1.02,
+          "total": -612.0,
+          "open_interest": 16
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-30 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 62.5, 65, 67.5, 70"
+      ],
+      "advice": "Credit ratio 11.0% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0229,
+          "credit_ratio_conservative": 0.0184,
+          "passes_floor": false,
+          "cash_collected": 102.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0457,
+          "credit_ratio_conservative": 0.0367,
+          "passes_floor": false,
+          "cash_collected": 204.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0686,
+          "credit_ratio_conservative": 0.0551,
+          "passes_floor": false,
+          "cash_collected": 306.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0915,
+          "credit_ratio_conservative": 0.0735,
+          "passes_floor": false,
+          "cash_collected": 408.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1143,
+          "credit_ratio_conservative": 0.0918,
+          "passes_floor": false,
+          "cash_collected": 510.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1372,
+          "credit_ratio_conservative": 0.1102,
+          "passes_floor": true,
+          "cash_collected": 612.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1601,
+          "credit_ratio_conservative": 0.1286,
+          "passes_floor": true,
+          "cash_collected": 714.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.183,
+          "credit_ratio_conservative": 0.1469,
+          "passes_floor": true,
+          "cash_collected": 816.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2058,
+          "credit_ratio_conservative": 0.1653,
+          "passes_floor": true,
+          "cash_collected": 918.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2287,
+          "credit_ratio_conservative": 0.1837,
+          "passes_floor": true,
+          "cash_collected": 1020.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2516,
+          "credit_ratio_conservative": 0.202,
+          "passes_floor": true,
+          "cash_collected": 1122.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.2744,
+          "credit_ratio_conservative": 0.2204,
+          "passes_floor": true,
+          "cash_collected": 1224.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.2973,
+          "credit_ratio_conservative": 0.2388,
+          "passes_floor": true,
+          "cash_collected": 1326.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3202,
+          "credit_ratio_conservative": 0.2571,
+          "passes_floor": true,
+          "cash_collected": 1428.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.343,
+          "credit_ratio_conservative": 0.2755,
+          "passes_floor": true,
+          "cash_collected": 1530.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.3659,
+          "credit_ratio_conservative": 0.2939,
+          "passes_floor": true,
+          "cash_collected": 1632.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.3888,
+          "credit_ratio_conservative": 0.3122,
+          "passes_floor": true,
+          "cash_collected": 1734.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.4117,
+          "credit_ratio_conservative": 0.3306,
+          "passes_floor": true,
+          "cash_collected": 1836.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.4345,
+          "credit_ratio_conservative": 0.349,
+          "passes_floor": true,
+          "cash_collected": 1938.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.4574,
+          "credit_ratio_conservative": 0.3673,
+          "passes_floor": true,
+          "cash_collected": 2040.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "OMF",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 60.81,
+      "catalyst": "2026-10-30",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 57.5,
+        "premium": 2.33,
+        "bid": 1.85,
+        "ask": 2.8,
+        "mid": 2.33,
+        "last": 2.0,
+        "open_interest": 160,
+        "volume": 10.0,
+        "implied_vol": 0.4343318286132813,
+        "qty": 19
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 57.5,
+        "premium": 0.77,
+        "bid": 0.6,
+        "ask": 0.95,
+        "mid": 0.77,
+        "last": 1.17,
+        "open_interest": 133,
+        "volume": 1,
+        "implied_vol": 0.3403386279296875,
+        "qty": 7
+      },
+      "long_total": 4427.0,
+      "short_total": 539.0,
+      "net_debit": 3888.0,
+      "credit_ratio_mid": 0.1218,
+      "credit_ratio_conservative": 0.0789,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 57.5,
+          "qty": 19,
+          "underlying": 60.81,
+          "multiplier": 100,
+          "price": 2.33,
+          "total": 4427.0,
+          "open_interest": 160
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 57.5,
+          "qty": 7,
+          "underlying": 60.81,
+          "multiplier": 100,
+          "price": 0.77,
+          "total": -539.0,
+          "open_interest": 133
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-30 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 57.5, 60, 55, 50"
+      ],
+      "advice": "Credit ratio 7.9% is below the 10% floor; sell ~2 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0174,
+          "credit_ratio_conservative": 0.0113,
+          "passes_floor": false,
+          "cash_collected": 77.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0348,
+          "credit_ratio_conservative": 0.0226,
+          "passes_floor": false,
+          "cash_collected": 154.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0522,
+          "credit_ratio_conservative": 0.0338,
+          "passes_floor": false,
+          "cash_collected": 231.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0696,
+          "credit_ratio_conservative": 0.0451,
+          "passes_floor": false,
+          "cash_collected": 308.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.087,
+          "credit_ratio_conservative": 0.0564,
+          "passes_floor": false,
+          "cash_collected": 385.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1044,
+          "credit_ratio_conservative": 0.0677,
+          "passes_floor": false,
+          "cash_collected": 462.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1218,
+          "credit_ratio_conservative": 0.0789,
+          "passes_floor": false,
+          "cash_collected": 539.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1391,
+          "credit_ratio_conservative": 0.0902,
+          "passes_floor": false,
+          "cash_collected": 616.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.1565,
+          "credit_ratio_conservative": 0.1015,
+          "passes_floor": true,
+          "cash_collected": 693.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.1739,
+          "credit_ratio_conservative": 0.1128,
+          "passes_floor": true,
+          "cash_collected": 770.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.1913,
+          "credit_ratio_conservative": 0.1241,
+          "passes_floor": true,
+          "cash_collected": 847.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.2087,
+          "credit_ratio_conservative": 0.1353,
+          "passes_floor": true,
+          "cash_collected": 924.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.2261,
+          "credit_ratio_conservative": 0.1466,
+          "passes_floor": true,
+          "cash_collected": 1001.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.2435,
+          "credit_ratio_conservative": 0.1579,
+          "passes_floor": true,
+          "cash_collected": 1078.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.2609,
+          "credit_ratio_conservative": 0.1692,
+          "passes_floor": true,
+          "cash_collected": 1155.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.2783,
+          "credit_ratio_conservative": 0.1805,
+          "passes_floor": true,
+          "cash_collected": 1232.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.2957,
+          "credit_ratio_conservative": 0.1917,
+          "passes_floor": true,
+          "cash_collected": 1309.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.3131,
+          "credit_ratio_conservative": 0.203,
+          "passes_floor": true,
+          "cash_collected": 1386.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.3305,
+          "credit_ratio_conservative": 0.2143,
+          "passes_floor": true,
+          "cash_collected": 1463.0
+        }
+      ]
+    }
+  }
+}

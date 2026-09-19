@@ -1,0 +1,1442 @@
+{
+  "symbol": "ORCL",
+  "as_of": "2026-09-19",
+  "generated_at": "2026-09-19T20:45:31",
+  "profile": {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
+    "employees": 141000,
+    "country": "United States",
+    "website": "https://www.oracle.com"
+  },
+  "quants": {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "price": 147.61,
+    "market_cap": 446333681664,
+    "market_cap_human": "446.33B",
+    "fwd_pe": 18.13,
+    "fwd_pe_1y": 13.43,
+    "fwd_pe_yahoo": 13.42252,
+    "trailing_pe": 23.579872,
+    "ps": 6.218425,
+    "ev_ebitda": 16.954,
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "eps_fy_current": 8.14116,
+    "eps_fy_next": 10.99386,
+    "eps_trend": {
+      "change_7d_pct": 0.97,
+      "change_30d_pct": 1.09,
+      "current": 8.14116,
+      "7d_ago": 8.06295,
+      "30d_ago": 8.05313,
+      "text": "slightly up over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 0,
+      "up_30d": 4,
+      "down_30d": 0,
+      "net_30d": 4,
+      "text": "all up, with 4 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-12-11"
+      ],
+      "next_date": "2026-12-11",
+      "eps_avg": 1.73834,
+      "eps_low": 1.81,
+      "eps_high": 2.04,
+      "revenue_avg": 19129103030
+    },
+    "as_of": "2026-09-19"
+  },
+  "quants_lines": [
+    "Price: 147.61 USD",
+    "Market Cap: 446.33B",
+    "Fwd PE: 18.13",
+    "P/S: 6.2",
+    "EPS trends: slightly up over the last 7 days",
+    "EPS revisions: all up, with 4 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Total Equity",
+      "table": "balanceSheet",
+      "period": "8/31/2026",
+      "prior_period": "5/31/2026",
+      "current": 66772000.0,
+      "prior": 42508000.0,
+      "change_pct": 57.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Other Operating Items",
+      "table": "incomeStatement",
+      "period": "8/31/2026",
+      "prior_period": "5/31/2026",
+      "current": 202000.0,
+      "prior": 432000.0,
+      "change_pct": -53.2,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "8/31/2026",
+      "prior_period": "5/31/2026",
+      "current": 36369000.0,
+      "prior": 31289000.0,
+      "change_pct": 16.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "8/31/2026",
+      "prior_period": "5/31/2026",
+      "current": 2187000.0,
+      "prior": 2512000.0,
+      "change_pct": -12.9,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income Applicable to Common Shareholders",
+      "table": "incomeStatement",
+      "period": "8/31/2026",
+      "prior_period": "5/31/2026",
+      "current": 4679000.0,
+      "prior": 4223000.0,
+      "change_pct": 10.8,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "8/31/2026",
+      "prior_period": "5/31/2026",
+      "current": 11394000.0,
+      "prior": 10385000.0,
+      "change_pct": 9.7,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-09-10T16:00:00-04:00",
+    "current": 1.92,
+    "year_ago": 1.47,
+    "year_ago_period": "2025-09-09T16:00:00-04:00",
+    "change": 0.45,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "ORCL Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "publisher": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/ORCL/analyst-ratings",
+      "summary": "# ORACLE CORP (ORCL) Forecast, Price Target & Analyst Ratings \n\nNYSE:ORCL\n\n## ORCL Stock Price Today\n\n 150.52 USD \n\n -5.7 (-3.65%) \n\n At close: Aug 14, 2026 \n\n 150.77 USD +0.25 (+0.17%) \n\n After Hours: Aug 14, 2026, 08:04:00 PM EDT \n\n## Analyst forecast overview\n\n View the latest analyst price targets, stock forecast, EPS estimates, revenue projections, revisions, full estimates, rating distribution and upgrades/downgrades for ORACLE CORP (ORCL). \n\n### Consensus Price Target\n\nPrice Target\n\n$256.48 + 70.40% Upside \n\n \u2192 Price target details \n\n### Next Earnings Forecast\n\nEarnings Estimate\n\nReleas",
+      "published": "2026-06-11",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story - Insider Monkey",
+      "publisher": "insidermonkey.com",
+      "url": "https://www.insidermonkey.com/blog/why-oracle-corporations-orcl-cloud-outlook-keeps-ai-infrastructure-at-the-center-of-its-estimate-story-1795145/",
+      "summary": "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story - Insider Monkey\n\n# Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story\n\n###### Published on July 3, 2026 at 5:52 pm by Habib Ur Rehman in News\n\nOracle Corporation (NYSE: ORCL) is one of the stocks with rising earnings estimates and fresh catalysts.\n\nThe stock has 22 upward EPS revisions and 14 downward revisions for the upcoming fiscal year over the last three months, while revenue estimates show 30 upward revisions and 5 downward revi",
+      "published": "2026-07-03",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "ORCL Stock Forecast 2026-2027 - Oracle Corp. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/orcl-forecast/",
+      "summary": "ORCL Stock Forecast 2026-2027 - Oracle Corp. Price Targets & Predictions\n\n# ORCL Stock Forecast: Oracle Corp. Price Predictions for 2026-2027\n\nLast close, 4 Sept 2026\n\n$159\n\n+3.08% on the day\n\nThe 44 Wall Street analysts covering Oracle Corp. hold a median 12-month price target of $240 \u2014 +51.2% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 34 of 100 as at 3 Sept 2026 \u2014 in the lower half. The Street sees upside; the factor read is a caution. That gap is the story on this page.\n\nMarket cap\n\n$443.7B\n\nTicker Nerd rank\n\n34 / 100\n\nMedian analyst ta",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Oracle (ORCL) Q1 2027 Earnings Call Transcript | The Motley Fool",
+      "publisher": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/11/oracle-orcl-q1-2027-earnings-call-transcript/",
+      "summary": "Oracle (ORCL) Q1 2027 Earnings Call Transcript | The Motley Fool\n\nImage source: The Motley Fool.\n\n## DATE\n\nThursday, Sept. 10, 2026 at 5:00 p.m. ET\n\n## CALL PARTICIPANTS\n\n- head of investor relations - Ken Bond\n- Chief Executive Officer - Mike Sicilia\n- Chief Executive Officer - Clayton Magouyrk\n- chief financial officer - Hilary Barbara Maxson\n\n## TAKEAWAYS\n\n- Total Revenue -- $19.3 billion, increasing 30% year over year driven by record growth in the cloud infrastructure and cloud applications businesses.\n- Cloud Infrastructure Revenue -- $7.4 billion, rising 121% due to strong execution in ",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Oracle (ORCL) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/orcl/forecast/",
+      "summary": "Oracle (ORCL) Stock Forecast & Analyst Price Targets\n\n152.14 -0.80 (-0.52%) Sep 11, 2026, 2:27 PM EDT - Market open\n\n# Oracle Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 44 analysts polled by S&P Global, Oracle stock has a consensus rating of \"Buy\" and an average price target of $239.47. The average 1-year stock price forecast is 57.40% higher than the current stock price, while the lowest is $110 (-27.70%) and the highest is $400 (+162.92%).\n\nPrice Target: $239.47 (+57.40%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Target | Low | Average | Median | High |\n| --- | --- | --- | --- |",
+      "published": "2026-09-11",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Oracle: Strong Q1, Bad Timing (NYSE:ORCL) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946876-oracle-stock-strong-q1-bad-timing",
+      "summary": "Oracle: Strong Q1, Bad Timing (NYSE:ORCL) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# Oracle: Strong Q1, Bad Timing (Rating Downgrade)\nSep 16, 2026, 7:30 AM ETOracle Corporation (ORCL) Stock, ORAC:CA Stock\n## Summary\n* Oracle delivered the right results at the wrong time; a hawkish CPI print, coupled with odds of a Fed hike, is not compelling for a stock with a 1.9 b",
+      "published": "2026-09-16",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why Oracle (ORCL) Stock Is Trading Lower Today",
+      "publisher": "StockStory",
+      "published": "2026-09-18T22:48:40Z",
+      "summary": "Shares of enterprise software giant Oracle (NYSE:ORCL) fell 3.4% in the afternoon session after Business Insider reported that co-CEO Clay Magouyrk stated during an internal town hall that the company previously struggled to make generative artificial intelligence useful for its own staff despite spending billions building out AI infrastructure for others.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-oracle-orcl-stock-trading-224840340.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why Oracle Stock Jumped 6% Today on OpenAI Funding Buzz",
+      "publisher": "The Motley Fool",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/why-oracle-stock-jumped-6-today-openai-funding-buzz",
+      "primary_symbol": "ORCL",
+      "related_symbols": [
+        "ORCL"
+      ],
+      "summary": "Key PointsOracle's $300 billion deal with OpenAI is transformative but contains risk.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Forget Oracle's Stock Price Swings. Its Backlog-to-Revenue Ratio Tells the Real Story.",
+      "publisher": "The Motley Fool",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/forget-oracles-stock-price-swings-its-backlog-revenue-ratio-tells-real-story",
+      "primary_symbol": "ORCL",
+      "related_symbols": [
+        "ORCL"
+      ],
+      "summary": "Key PointsOracle has been posting strong revenue growth and has a massive contract backlog.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation"
+      ]
+    },
+    {
+      "title": "Here's Why Oracle (ORCL) is a Strong Momentum Stock",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "22 hours ago",
+      "url": "/articles/heres-why-oracle-orcl-strong-momentum-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ORCL"
+      ],
+      "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Oracle (ORCL) Just Overtook the 20-Day Moving Average",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "22 hours ago",
+      "url": "/articles/oracle-orcl-just-overtook-20-day-moving-average",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ORCL"
+      ],
+      "summary": "Should investors be excited or worried when a stock crosses above the 20-day simple moving average?",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Snowflake's Product Revenue Accelerates: Can It Outpace DELL & ORCL?",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "23 hours ago",
+      "url": "/articles/snowflakes-product-revenue-accelerates-can-it-outpace-dell-orcl",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SNOW",
+        "DELL",
+        "ORCL"
+      ],
+      "summary": "SNOW's product revenues jump 37% in fiscal Q2 as AI adoption, core platform consumption, and enterprise expansion strengthen its competitive position.\n",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation"
+      ]
+    },
+    {
+      "title": "Is CoreWeave Worth Buying as AI Growth Meets Heavy Funding Risks?",
+      "publisher": "Zacks",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/coreweave-worth-buying-ai-growth-meets-heavy-funding-risks",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CRWV",
+        "MSFT",
+        "ORCL"
+      ],
+      "summary": "CoreWeave's $104.2B backlog and lower forward sales multiple support its growth case, but heavy funding needs and losses keep profitability in focus.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_monetisation",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "CoreWeave\u2019s Vera Rubin Lead Comes Down to Speed, Power, and Scale",
+      "publisher": "MarketBeat",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/coreweaves-vera-rubin-lead-comes-down-speed-power-and-scale",
+      "primary_symbol": "CRWV",
+      "related_symbols": [
+        "CRWV",
+        "NVDA",
+        "ORCL"
+      ],
+      "summary": "The physical bottleneck in artificial intelligence (AI) has shifted from chip design to deployment speed and power availability. CoreWeave (NASDAQ: CRWV) recently marked a turning point by bringing online a multi-rack cluster built on NVIDIA's (NASDAQ: NVDA) Vera Rubin NVL72 pla",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Warren Buffett Is Sounding Off on Market Risk and Investors Should Listen",
+      "publisher": "The Motley Fool",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/warren-buffett-sounding-market-risk-and-investors-should-listen",
+      "primary_symbol": "GOOGL",
+      "related_symbols": [
+        "GOOGL",
+        "ORCL",
+        "GOOG"
+      ],
+      "summary": "Key PointsWarren Buffett is cautious about current market valuations and speculative behavior.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "IBM Software Growth Slows: Will Recurring Revenue Support Recovery?",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "23 hours ago",
+      "url": "/articles/ibm-software-growth-slows-will-recurring-revenue-support-recovery",
+      "primary_symbol": null,
+      "related_symbols": [
+        "IBM",
+        "MSFT",
+        "ORCL"
+      ],
+      "summary": "IBM's Software growth slows in Q2, but recurring revenue, Red Hat and Data gains may help offset weakness in Transaction Processing.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Jim Cramer Said The Strength In Oracle (ORCL)\u2019s Shares Was A \u201cPositive Sign\u201d",
+      "publisher": "Insider Monkey",
+      "published": "2026-09-18T23:06:22Z",
+      "summary": "Oracle Corporation (NYSE:ORCL) is quite important when it comes to the AI buildout. The shares are down by more than 20% year-to-date. Cramer mentioned Oracle Corporation (NYSE:ORCL) in a tweet made close to midday on the 17th. The shares closed 5% higher that day: \u201cStrength in Oracle is a very positive sign\u2026\u201d What Cramer meant [\u2026]",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-strength-oracle-230622055.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 1,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Stocks Tumble as Fed Hikes Interest Rates and Signals More to Come",
+      "publisher": "Barchart",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stocks-tumble-fed-hikes-interest-rates-and-signals-more-come",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SAIA",
+        "ANET",
+        "CVX",
+        "HBAN",
+        "SLB",
+        "FDXF",
+        "LITE",
+        "ARCB",
+        "OXY",
+        "CRWV",
+        "KNX",
+        "FANG",
+        "NCLH",
+        "XPO",
+        "STX",
+        "WDC",
+        "FTAI",
+        "AMD",
+        "UPS",
+        "SPY",
+        "DIA",
+        "ON",
+        "COP",
+        "ORCL",
+        "QQQ",
+        "APA",
+        "HAL",
+        "CHRW",
+        "INTC",
+        "XOM",
+        "APLD",
+        "EAT",
+        "NBIS",
+        "MRTN",
+        "DVN",
+        "ODFL",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.45% on Wednesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -1.21%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.02%.  E-mini S&P futures (ESU26 ) fell -0.42%, and September E-mini Nasdaq...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Oracle vs. Broadcom: Which \"Picks and Shovels\" AI Stock Has the Bigger Growth Runway From Here?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/oracle-vs-broadcom-which-picks-and-shovels-ai-stock-has-bigger-growth-runway-here",
+      "primary_symbol": "AVGO",
+      "related_symbols": [
+        "AVGO",
+        "ORCL"
+      ],
+      "summary": "Key PointsOracle and Broadcom have been growing at a nice clip due to the critical role they play in AI data centers.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Stocks Waver as Bond Yields Climb",
+      "publisher": "Barchart",
+      "created": "Sep 18, 2026",
+      "ago": "12 hours ago",
+      "url": "/articles/stocks-waver-bond-yields-climb",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "SNDK",
+        "ADI",
+        "GLXY",
+        "TRI",
+        "COIN",
+        "STX",
+        "WDC",
+        "MTSI",
+        "SPY",
+        "MU",
+        "YETI",
+        "ORCL",
+        "QQQ",
+        "IREN",
+        "FTNT",
+        "NOW",
+        "ADBE",
+        "ZS",
+        "ARM",
+        "HOOD",
+        "CRM",
+        "AMAT",
+        "AVGO",
+        "INTU",
+        "DDOG",
+        "TXN",
+        "XENE",
+        "ASML",
+        "S",
+        "IBM",
+        "LRCX",
+        "DIA",
+        "PANW",
+        "NUE",
+        "KLAC",
+        "MARA",
+        "NFLX",
+        "CRWD",
+        "OKTA",
+        "WDAY",
+        "SOXX",
+        "RIOT",
+        "NET"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.11% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.39%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.09%.  December E-mini S&P futures (ESZ26 ) are down -0.15%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Mixed as Crude Oil Prices and Bond Yields Rise",
+      "publisher": "Barchart",
+      "created": "Sep 18, 2026",
+      "ago": "12 hours ago",
+      "url": "/articles/stocks-mixed-crude-oil-prices-and-bond-yields-rise",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "SNDK",
+        "ADI",
+        "GLXY",
+        "TRI",
+        "COIN",
+        "STX",
+        "WDC",
+        "MTSI",
+        "SPY",
+        "MU",
+        "YETI",
+        "ORCL",
+        "QQQ",
+        "IREN",
+        "FTNT",
+        "NOW",
+        "ADBE",
+        "ZS",
+        "HOOD",
+        "CRM",
+        "AMAT",
+        "AVGO",
+        "INTU",
+        "DDOG",
+        "TXN",
+        "XENE",
+        "S",
+        "IBM",
+        "LRCX",
+        "DIA",
+        "PLTR",
+        "PANW",
+        "NUE",
+        "KLAC",
+        "MARA",
+        "NFLX",
+        "CRWD",
+        "OKTA",
+        "WDAY",
+        "SOXX",
+        "RIOT",
+        "NET"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.03% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.20%.  December E-mini S&P futures (ESZ26 ) are down -0.05%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+      "publisher": "Barchart",
+      "created": "Sep 19, 2026",
+      "ago": "12 minutes ago",
+      "url": "/articles/stocks-finish-mostly-higher-crude-prices-fall",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "SNDK",
+        "ADI",
+        "GLXY",
+        "TRI",
+        "COIN",
+        "STX",
+        "WDC",
+        "AMD",
+        "MTSI",
+        "SPY",
+        "MU",
+        "YETI",
+        "ORCL",
+        "QQQ",
+        "IREN",
+        "FTNT",
+        "ADBE",
+        "MCHP",
+        "ARM",
+        "HOOD",
+        "STLD",
+        "AMAT",
+        "AVGO",
+        "TXN",
+        "XENE",
+        "ASML",
+        "S",
+        "IBM",
+        "LRCX",
+        "DIA",
+        "PANW",
+        "NUE",
+        "KLAC",
+        "MARA",
+        "NFLX",
+        "CRWD",
+        "OKTA",
+        "SOXX",
+        "RIOT",
+        "NET"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.67%.  December E-mini S&P futures (ESZ26 ) rose +0.20%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Oracle tops estimates as AI demand tempers cash-burn fears | Reuters",
+      "publisher": "reuters.com",
+      "url": "https://www.reuters.com/technology/oracles-quarterly-revenue-beats-estimates-ai-boom-drives-cloud-demand-2026-09-10/",
+      "summary": "Oracle tops estimates as AI demand tempers cash-burn fears | Reuters\n\n# Oracle tops estimates as AI demand tempers cash-burn fears\n\nBy Deborah Mary Sophia and Stephen Nellis\n\nSeptember 10, 2026 8:14 PM UTC Updated ago\n\nOracle logo is seen in this illustration created on September 9, 2025. REUTERS/Dado Ruvic/Illustration/File Photo Purchase Licensing Rights, opens new tab\n\n- Oracle books over $30 billion in AI cloud contracts, lifting backlog to $664 billion\n- Negative free cash flow totals $5.40 billion versus expectation $9.56 billion outflow\n- Oracle raises fiscal 2027 adjusted earnings fore",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_monetisation",
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues",
+      "publisher": "prnewswire.com",
+      "url": "https://www.prnewswire.com/news-releases/oracle-announces-q1-results-driven-by-triple-digit-growth-in-cloud-infrastructure-revenues-302875728.html",
+      "summary": "Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues\n\nSep 10, 2026, 16:10 ET\n\n- Q1 GAAP Earnings per Share up 55% in USD and up 54% in constant currency to $1.56, non-GAAP Earnings per Share up 30% in USD and constant currency to $1.92.\n- Record Q1 Total Revenues up 30% in USD and constant currency to $19.3 billion.\n- Record Q1 Total Cloud Revenues up 62% in USD & up 61% in constant currency to $11.6 billion. \n\n- Q1 Cloud Infra (IaaS) Revenue up 121% in USD & up 120% in constant currency to $7.4 billion.\n- Q1 Cloud Apps (SaaS) Revenue up 10% in USD and con",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_monetisation"
+      ]
+    },
+    {
+      "title": "Oracle Reports Q1 2027 Results: Full Earnings Call Transcript | Longbridge",
+      "publisher": "longbridge.com",
+      "url": "https://longbridge.com/en/news/298651335",
+      "summary": "Oracle Reports Q1 2027 Results: Full Earnings Call Transcript | Longbridge\n\n# Oracle Reports Q1 2027 Results: Full Earnings Call Transcript\n\nbenzinga_article\n\nSep 10, 2026 at 10:03 PM\n\nOracle reported record Q1 FY2027 revenue of $19.3 billion, up 30% year-over-year, driven by a 121% surge in cloud infrastructure to $7.4 billion. Non-GAAP operating income rose 31% to $8.2 billion. The company completed a $20 billion equity issuance and expects CapEx of $90-$95 billion for AI infrastructure expansion. Future guidance projects Q2 revenue growth of 30-34% and EPS of $1.85-$1.93.\n\nOn Thursday, Orac",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_capex",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock? | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/orcl/articles/615135/has-oracle-become-a-weaker-business-or-just-a-cheaper-stock/2026-09-11",
+      "summary": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock? | Trefis\n\n# Has Oracle Become A Weaker Business, Or Just A Cheaper Stock?\n\nSeptember 11th, 2026 \u00b7 by Trefis Team\n\nOracle (ORCL) made almost a quarter more operating profit in its last fiscal year. Yet when trading closed on September 10, the stock sat around 53% under the peak it reached a year before. Rising profit and a falling price point to one of two stories: trouble the results have not caught up with, or a sound company that has been repriced. The question is whether Oracle is turning into a weaker business, or has just becom",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Oracle Corporation",
+      "publisher": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/905368/stock/bvs/orcl/analysis",
+      "summary": "Now Live: Cboe Europe real-time data for all major European stocks.\n\nData add-ons\n\nUnited States\n\ncloses in 3h 13m\n\n- 0700 426.60 -1.57%\n- EUR/USD 1.15 0.12%\n- AAPL 336.79 1.32%\n- TSLA 365.86 2.17%\n- NESN 78.52 1.11%\n- 7203 3,038.00 0.73%\n- USD/JPY 155.98 -0.21%\n- XPT/USD 1,003.20 0.33%\n- ETH/USD 2,451.47 1.37%\n- 2330 2,425.00 1.89%\n- 005930 252,500.00 -0.39%\n- MC 412.30 0.33%\n- AZN 12,428.00 2.41%\n- ASML 1,418.00 1.56%\n\n##### Post-market\n\nSTOCKS is currently open for post-market.\nPost market session closes in 3 hours 13 minutes\n\n16:47\n\n00:00\n\n09:30\n\n16:00\n\n23:59\n\nTrading Hours (Monday - Frida",
+      "published": "2026-09-14",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Oracle bull vs. bear: $638B backlog against a negative free cash flow By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/oracle-bull-vs-bear-638b-backlog-against-a-negative-free-cash-flow-93CH-4899921",
+      "summary": "# Oracle bull vs. bear: $638B backlog against a negative free cash flow By Investing.com\n\nPublished: 2026-09-14T14:28:35+00:00\nSource: investing.com (investing.com)\nLanguage: en\n\n## Story\n\nOracle bull vs. bear: $638B backlog against a negative free cash flow By Investing.com\n\nOil prices top $109 on fresh Mideast fighting, Hormuz meeting delay\n\nNasdaq leads U.S. stocks lower at the open on AI development slowdown calls\n\nEuropean stocks fall on AI safety warnings, Fed rate hike bets weigh on sentiment\n\nAI stocks fall amid calls for AI development slowdown\n\nAdvertisement\n\nAdvertisement\n\n# Oracle ",
+      "published": "2026-09-14",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "ai_monetisation",
+        "rates",
+        "depreciation_debt",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Should You Buy Oracle Stock While It's Down 53% From Its Peak? The Answer Might Surprise You. | The Motley Fool",
+      "publisher": "fool.com",
+      "url": "https://www.fool.com/investing/2026/09/17/should-buy-oracle-stock-down-53-peak-answer-you/",
+      "summary": "Should You Buy Oracle Stock While It's Down 53% From Its Peak? The Answer Might Surprise You. | The Motley Fool\n\nOracle (ORCL +2.00%) stock is down 53% from last year's record high and is currently trading at a very attractive valuation, but that doesn't necessarily mean it's a buy. Even though the company operates some of the best data centers for processing artificial intelligence (AI) workloads, investors are worried about its significant debt, particularly because some of its biggest customers might not be able to meet their financial commitments over the next few years.\n\nOracle's latest o",
+      "published": "2026-09-17",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "ai_capex",
+        "depreciation_debt",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "The Oracle Stock Question Wall Street Will Be Asking for Years - 24/7 Wall St.",
+      "publisher": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/18/the-oracle-stock-question-wall-street-will-be-asking-for-years/",
+      "summary": "The Oracle Stock Question Wall Street Will Be Asking for Years - 24/7 Wall St.\n\nSkip to content\n\nAuthoritative Financial News \u00b7 Since 2006\n\nAI Investor Podcast \n\u275a\u275a\nAt close\nS&P 5007,646.70+0.00%\nDow Jones51,709.00\u22120.27%\nNasdaq 10029,562.10+0.32%\nRussell 20002,858.65\u22120.54%\nS&P 5007,646.70+0.00%\nDow Jones51,709.00\u22120.27%\nNasdaq 10029,562.10+0.32%\nRussell 20002,858.65\u22120.54%\nS&P 5007,646.70+0.00%\nDow Jones51,709.00\u22120.27%\nNasdaq 10029,562.10+0.32%\nRussell 20002,858.65\u22120.54%\nS&P 5007,646.70+0.00%\nDow Jones51,709.00\u22120.27%\nNasdaq 10029,562.10+0.32%\nRussell 20002,858.65\u22120.54%\nS&P 5007,646.70+0.00%\nDow J",
+      "published": "2026-09-18",
+      "source": "ollama_search",
+      "query": "Oracle Corporation (ORCL) bull bear case risks",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "3 Reasons to Hold Microsoft Stock After a 31.2% Surge in 3 Months",
+      "publisher": "Zacks",
+      "published": "2026-09-18T14:32:00Z",
+      "summary": "MSFT's cloud and AI momentum, broad enterprise adoption and durable growth outlook give investors reasons to hold despite its 31.2% surge.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-hold-microsoft-stock-143200324.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "What Happens To Snowflake Stock If AI Keeps Costing It Margin?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T16:14:24Z",
+      "summary": "Snowflake (SNOW) has returned about 53% over the past year, and its product revenue growth has accelerated for three straight quarters. In early September, the company cut its fiscal 2027 non-GAAP product gross margin guide by a point, to 74%, pointing to a heavier mix of fast-growing AI workloads that carry a lower contribution margin. So what happens to the stock if that mix keeps shifting.",
+      "url": "https://www.trefis.com/articles/615888/what-happens-to-snowflake-stock-if-ai-keeps-costing-it-margin/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Can Hewlett Packard Enterprise Stock Keep Running On Orders It Cannot Ship?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T16:22:33Z",
+      "summary": "Hewlett Packard Enterprise (HPE) has returned 156% over the trailing twelve months, and the stock now sits right at the top of its 52-week range. The next leg is the hard one. What could power it is already on the company's books: orders it has taken and cannot yet ship.",
+      "url": "https://www.trefis.com/articles/615862/can-hewlett-packard-enterprise-stock-keep-running-on-orders-it-cannot-ship/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "DTE Could Be One of the Quiet Winners of the Data Center Boom",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-18T17:30:28Z",
+      "summary": "DTE Energy has been quietly signing contracts with some of the biggest hyperscalers on the planet, and the numbers behind that pipeline suggest most investors are not yet pricing in what it could mean for earnings growth.",
+      "url": "https://247wallst.com/investing/2026/09/18/dte-could-be-one-of-the-quiet-winners-of-the-data-center-boom/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Credo Technology Group vs. Sandisk: Which Technology Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "published": "2026-09-18T18:05:01Z",
+      "summary": "One company is growing at a pace that is almost impossible to find in semiconductors. The other has reinvented itself as a contracted AI infrastructure play with billions in guaranteed revenue.",
+      "url": "https://www.fool.com/coverage/better-buy/2026/09/18/credo-technology-group-vs-sandisk-which-technology-stock-is-a-better-buy-in-2026/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-18T18:07:07Z",
+      "summary": "Oracle is sliding hard on a day when its cloud rivals are barely flinching, and the reason behind that split tells investors something important about where the real pressure on ORCL stock is coming from.",
+      "url": "https://247wallst.com/investing/2026/09/18/oracle-falls-3-while-cloud-rivals-hold-their-ground-microsoft-dips-amazon-nudges-higher/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Oracle Slides 3.4% as Buy Call Meets a Capital Burden",
+      "publisher": "GuruFocus.com",
+      "published": "2026-09-18T20:21:08Z",
+      "summary": "Barron's sees stabilization; Ellison's canceled sale removes insider supply without adding corporate cash.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-slides-3-4-buy-202108114.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "depreciation_debt",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Workday Or Autodesk: Is The Louder AI Story The Better Stock?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T22:19:45Z",
+      "summary": "If you own Workday (WDAY) or Autodesk (ADSK), you hold the same bet: the company that already keeps a customer's data gets paid as that customer adopts AI. Workday keeps HR and finance records, and Autodesk keeps design, manufacturing, and construction data.",
+      "url": "https://www.trefis.com/articles/615721/workday-or-autodesk-is-the-louder-ai-story-the-better-stock/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 9,
+        "share": 0.196,
+        "evidence": [
+          {
+            "title": "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story - Insider Monkey",
+            "publisher": "insidermonkey.com",
+            "published": "2026-07-03",
+            "matched": [
+              "ai infrastructure"
+            ]
+          },
+          {
+            "title": "Why Oracle (ORCL) Stock Is Trading Lower Today",
+            "publisher": "StockStory",
+            "published": "2026-09-18T22:48:40Z",
+            "matched": [
+              "ai infrastructure"
+            ]
+          },
+          {
+            "title": "CoreWeave\u2019s Vera Rubin Lead Comes Down to Speed, Power, and Scale",
+            "publisher": "MarketBeat",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "nvidia"
+            ]
+          },
+          {
+            "title": "Jim Cramer Said The Strength In Oracle (ORCL)\u2019s Shares Was A \u201cPositive Sign\u201d",
+            "publisher": "Insider Monkey",
+            "published": "2026-09-18T23:06:22Z",
+            "matched": [
+              "buildout"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 8,
+        "share": 0.174,
+        "evidence": [
+          {
+            "title": "ORCL Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-06-11",
+            "matched": [
+              "upgrade",
+              "downgrade",
+              "price target"
+            ]
+          },
+          {
+            "title": "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story - Insider Monkey",
+            "publisher": "insidermonkey.com",
+            "published": "2026-07-03",
+            "matched": [
+              "insider"
+            ]
+          },
+          {
+            "title": "ORCL Stock Forecast 2026-2027 - Oracle Corp. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Oracle (ORCL) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-09-11",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 7,
+        "share": 0.152,
+        "evidence": [
+          {
+            "title": "ORCL Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-06-11",
+            "matched": [
+              "forecast",
+              "revis",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story - Insider Monkey",
+            "publisher": "insidermonkey.com",
+            "published": "2026-07-03",
+            "matched": [
+              "outlook",
+              "revis",
+              "estimate"
+            ]
+          },
+          {
+            "title": "ORCL Stock Forecast 2026-2027 - Oracle Corp. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "Oracle (ORCL) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-09-11",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 7,
+        "share": 0.152,
+        "evidence": [
+          {
+            "title": "Forget Oracle's Stock Price Swings. Its Backlog-to-Revenue Ratio Tells the Real Story.",
+            "publisher": "The Motley Fool",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "backlog"
+            ]
+          },
+          {
+            "title": "Snowflake's Product Revenue Accelerates: Can It Outpace DELL & ORCL?",
+            "publisher": "Zacks",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "adoption"
+            ]
+          },
+          {
+            "title": "Is CoreWeave Worth Buying as AI Growth Meets Heavy Funding Risks?",
+            "publisher": "Zacks",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "backlog"
+            ]
+          },
+          {
+            "title": "Oracle tops estimates as AI demand tempers cash-burn fears | Reuters",
+            "publisher": "reuters.com",
+            "published": "2026-09-10",
+            "matched": [
+              "backlog"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 6,
+        "share": 0.13,
+        "evidence": [
+          {
+            "title": "ORCL Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-06-11",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "Oracle: Strong Q1, Bad Timing (NYSE:ORCL) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-16",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "Oracle tops estimates as AI demand tempers cash-burn fears | Reuters",
+            "publisher": "reuters.com",
+            "published": "2026-09-10",
+            "matched": [
+              "free cash flow"
+            ]
+          },
+          {
+            "title": "Oracle bull vs. bear: $638B backlog against a negative free cash flow By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-09-14",
+            "matched": [
+              "free cash flow"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 5,
+        "share": 0.109,
+        "evidence": [
+          {
+            "title": "Oracle: Strong Q1, Bad Timing (NYSE:ORCL) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-16",
+            "matched": [
+              "fed"
+            ]
+          },
+          {
+            "title": "Stocks Tumble as Fed Hikes Interest Rates and Signals More to Come",
+            "publisher": "Barchart",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "interest rate",
+              "fed"
+            ]
+          },
+          {
+            "title": "Stocks Waver as Bond Yields Climb",
+            "publisher": "Barchart",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Stocks Mixed as Crude Oil Prices and Bond Yields Rise",
+            "publisher": "Barchart",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 4,
+        "share": 0.087,
+        "evidence": [
+          {
+            "title": "Is CoreWeave Worth Buying as AI Growth Meets Heavy Funding Risks?",
+            "publisher": "Zacks",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "multiple"
+            ]
+          },
+          {
+            "title": "Warren Buffett Is Sounding Off on Market Risk and Investors Should Listen",
+            "publisher": "The Motley Fool",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock? | Trefis",
+            "publisher": "trefis.com",
+            "published": "2026-09-10",
+            "matched": [
+              "cheap"
+            ]
+          },
+          {
+            "title": "Should You Buy Oracle Stock While It's Down 53% From Its Peak? The Answer Might Surprise You. | The Motley Fool",
+            "publisher": "fool.com",
+            "published": "2026-09-17",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "ai_capex"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    },
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-12-11"
+    ],
+    "next_date": "2026-12-11",
+    "eps_avg": 1.73834,
+    "eps_low": 1.81,
+    "eps_high": 2.04,
+    "revenue_avg": 19129103030
+  },
+  "catalyst": {
+    "date": "2026-12-10",
+    "weekday": "Thursday",
+    "days_out": 82,
+    "basis": "scheduled",
+    "session": null,
+    "consensus": {
+      "eps_avg": 1.89
+    },
+    "recent_reports": [
+      {
+        "date": "2026-09-10",
+        "eps_estimate": 1.74,
+        "eps_actual": 1.92,
+        "surprise_pct": 10.45,
+        "beat": true
+      },
+      {
+        "date": "2026-06-10",
+        "eps_estimate": 1.96,
+        "eps_actual": 2.11,
+        "surprise_pct": 7.52,
+        "beat": true
+      },
+      {
+        "date": "2026-03-10",
+        "eps_estimate": 1.69,
+        "eps_actual": 1.79,
+        "surprise_pct": 5.69,
+        "beat": true
+      },
+      {
+        "date": "2025-12-10",
+        "eps_estimate": 1.64,
+        "eps_actual": 2.26,
+        "surprise_pct": 38.04,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-12-10 (Thursday), 82 days out -- from the earnings calendar, consensus EPS 1.89."
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "ORCL",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 147.61,
+      "catalyst": "2026-12-10",
+      "long_leg": {
+        "expiry": "2026-12-18",
+        "strike": 155.0,
+        "premium": 13.88,
+        "bid": 13.75,
+        "ask": 14.0,
+        "mid": 13.88,
+        "last": 14.01,
+        "open_interest": 2560,
+        "volume": 517,
+        "implied_vol": 0.5767254241943358,
+        "qty": 3
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 155.0,
+        "premium": 4.83,
+        "bid": 4.75,
+        "ask": 4.9,
+        "mid": 4.83,
+        "last": 4.9,
+        "open_interest": 6597,
+        "volume": 1094,
+        "implied_vol": 0.4826711889648438,
+        "qty": 2
+      },
+      "long_total": 4164.0,
+      "short_total": 966.0,
+      "net_debit": 3198.0,
+      "credit_ratio_mid": 0.232,
+      "credit_ratio_conservative": 0.2262,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "18-Dec-26",
+          "strike": 155.0,
+          "qty": 3,
+          "underlying": 147.61,
+          "multiplier": 100,
+          "price": 13.88,
+          "total": 4164.0,
+          "open_interest": 2560
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 155.0,
+          "qty": 2,
+          "underlying": 147.61,
+          "multiplier": 100,
+          "price": 4.83,
+          "total": -966.0,
+          "open_interest": 6597
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-10 catalyst; long expires 18-Dec-26, after it",
+        "alternative strikes: 155, 150, 160, 165"
+      ],
+      "advice": "Credit ratio 22.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.116,
+          "credit_ratio_conservative": 0.1131,
+          "passes_floor": true,
+          "cash_collected": 483.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.232,
+          "credit_ratio_conservative": 0.2262,
+          "passes_floor": true,
+          "cash_collected": 966.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.348,
+          "credit_ratio_conservative": 0.3393,
+          "passes_floor": true,
+          "cash_collected": 1449.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "ORCL",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 147.61,
+      "catalyst": "2026-12-10",
+      "long_leg": {
+        "expiry": "2026-12-18",
+        "strike": 140.0,
+        "premium": 11.85,
+        "bid": 11.7,
+        "ask": 12.0,
+        "mid": 11.85,
+        "last": 11.85,
+        "open_interest": 11123,
+        "volume": 225,
+        "implied_vol": 0.5378464184570313,
+        "qty": 3
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 140.0,
+        "premium": 4.28,
+        "bid": 4.2,
+        "ask": 4.35,
+        "mid": 4.28,
+        "last": 4.3,
+        "open_interest": 11164.0,
+        "volume": 845.0,
+        "implied_vol": 0.4758353198242187,
+        "qty": 1
+      },
+      "long_total": 3555.0,
+      "short_total": 428.0,
+      "net_debit": 3127.0,
+      "credit_ratio_mid": 0.1204,
+      "credit_ratio_conservative": 0.1167,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "18-Dec-26",
+          "strike": 140.0,
+          "qty": 3,
+          "underlying": 147.61,
+          "multiplier": 100,
+          "price": 11.85,
+          "total": 3554.9999999999995,
+          "open_interest": 11123
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 140.0,
+          "qty": 1,
+          "underlying": 147.61,
+          "multiplier": 100,
+          "price": 4.28,
+          "total": -428.0,
+          "open_interest": 11164.0
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-10 catalyst; long expires 18-Dec-26, after it",
+        "alternative strikes: 140, 145, 135, 130"
+      ],
+      "advice": "Credit ratio 11.7% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.1204,
+          "credit_ratio_conservative": 0.1167,
+          "passes_floor": true,
+          "cash_collected": 428.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.2408,
+          "credit_ratio_conservative": 0.2333,
+          "passes_floor": true,
+          "cash_collected": 856.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.3612,
+          "credit_ratio_conservative": 0.35,
+          "passes_floor": true,
+          "cash_collected": 1284.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1132 @@
+{
+  "symbol": "DRI",
+  "as_of": "2026-09-19",
+  "generated_at": "2026-09-19T20:47:52",
+  "profile": {
+    "symbol": "DRI",
+    "name": "Darden Restaurants, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "summary": "Darden Restaurants, Inc., together with its subsidiaries, owns and operates full-service restaurants in the United States and Canada. The company operates under Olive Garden, LongHorn Steakhouse, Cheddar's Scratch Kitchen, Chuy's, Yard House, Ruth's Chris Steak House, The Capital Grille, Seasons 52, Eddie V's Prime Seafood, Bahama Breeze, The Capital Burger, Darden and Darden Restaurants brand names. Darden Restaurants, Inc. was founded in 1938 and is based in Orlando, Florida.",
+    "employees": 209931,
+    "country": "United States",
+    "website": "https://www.darden.com"
+  },
+  "quants": {
+    "symbol": "DRI",
+    "name": "Darden Restaurants, Inc.",
+    "price": 209.28,
+    "market_cap": 23762020352,
+    "market_cap_human": "23.76B",
+    "fwd_pe": 18.55,
+    "fwd_pe_1y": 16.88,
+    "fwd_pe_yahoo": 16.881163,
+    "trailing_pe": 20.045979,
+    "ps": 1.7986677,
+    "ev_ebitda": 14.989,
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "eps_fy_current": 11.28061,
+    "eps_fy_next": 12.39725,
+    "eps_trend": {
+      "change_7d_pct": 0.06,
+      "change_30d_pct": 0.07,
+      "current": 11.28061,
+      "7d_ago": 11.27349,
+      "30d_ago": 11.27317,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 0,
+      "up_30d": 1,
+      "down_30d": 0,
+      "net_30d": 1,
+      "text": "all up, with 1 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "next_date": "2026-09-24",
+      "eps_avg": 2.05308,
+      "eps_low": 1.94,
+      "eps_high": 2.15,
+      "revenue_avg": 3206875640
+    },
+    "as_of": "2026-09-19"
+  },
+  "quants_lines": [
+    "Price: 209.28 USD",
+    "Market Cap: 23.76B",
+    "Fwd PE: 18.55",
+    "P/S: 1.8",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: all up, with 1 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 404900.0,
+      "prior": 306800.0,
+      "change_pct": 32.0,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 465600.0,
+      "prior": 356800.0,
+      "change_pct": 30.5,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 129900.0,
+      "prior": 107700.0,
+      "change_pct": 20.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 182200.0,
+      "prior": 160900.0,
+      "change_pct": 13.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 3718800.0,
+      "prior": 3345300.0,
+      "change_pct": 11.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 219500.0,
+      "prior": 240400.0,
+      "change_pct": -8.7,
+      "direction": "decreasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-06-25T07:00:00-04:00",
+    "current": 3.66,
+    "year_ago": 2.98,
+    "year_ago_period": "2025-06-20T07:00:00-04:00",
+    "change": 0.68,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "Darden Restaurants: Solid Q3, But Risks Are Building (NYSE:DRI) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4884180-darden-restaurants-solid-q3-but-risks-are-building",
+      "summary": "Darden Restaurants: Solid Q3, But Risks Are Building (NYSE:DRI) | Seeking Alpha\n\nSeeking Profits\n\n5.36K Followers\n\n5\n\nShare\n\nPlay( 10min)\n\n- Comment(1)\n\n## Summary\n\n- Darden Restaurants remains a 'Hold' as macro headwinds offset solid core brand performance and sales growth.\n- Q3 results showed resilient same-store sales and strategic brand consolidation, but margin pressure from commodity inflation persists, especially in beef-heavy chains.\n- Guidance was modestly raised, but the outlook is clouded by oil price shocks and consumer affordability concerns, warranting a cautious stance.\n- At ~$2",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Darden: Decent Valuation And Labor Savings, But Path To Growth Is Strained (Upgrade) (DRI) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4924688-darden-decent-valuation-and-labor-savings-but-path-to-growth-is-strained-upgrade",
+      "summary": "Darden: Decent Valuation And Labor Savings, But Path To Growth Is Strained (Upgrade) (DRI) | Seeking Alpha\n\n34.25K Followers\n\n5\n\nShare\n\nPlay(10min)\n\n## Summary\n\n- Darden Restaurants is reset to neutral, reflecting balanced upside and downside as sector rotation favors retail and restaurants through year-end.\n- DRI\u2019s diversified brand portfolio and strong cost management, especially with commodity inflation, support stable operating margins and modest earnings growth.\n- Competitive pressures and a capex-heavy growth model present risks, with margin impact possible if rivals intensify promotions",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "DRI Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/dri-stock-analysis/",
+      "summary": "DRI Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy Darden Restaurants, Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-09-04 \u00b7 11/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, Darden Restaurants, Inc. (DRI) is rated as a strong fundamental performer with a QOC score of 8.1/10. Trading at $216.88, our valuation engine evaluates whether the market price reflects the company's underlying earnings power.\n\nThe short answer: 2 of 11 CirclFi valuation models project upside for Darden Restaurants, Inc. (DRI) at $216.88 \u2014 the model consens",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Darden Restaurants (DRI) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/dri/forecast/",
+      "summary": "Darden Restaurants (DRI) Stock Forecast & Analyst Price Targets\n\nDarden Restaurants, Inc. (DRI) NYSE: DRI \u00b7 Real-Time Price \u00b7 USD\n\n206.98 +2.88 (1.41%) Jul 28, 2026, 4:00 PM EDT - Market closed\n\n# Darden Restaurants Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 28 analysts polled by S&P Global, Darden Restaurants stock has a consensus rating of \"Buy\" and an average price target of $228.33. The average 1-year stock price forecast is 10.32% higher than the current stock price, while the lowest is $156 (-24.63%) and the highest is $276 (+33.35%).\n\nPrice Target: $228.33 (+10.32%)\n\nAnalyst ",
+      "published": "2026-07-28",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Darden Restaurants (DRI) Stock Appears Close To Fair Value Today - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-dri/darden-restaurants/news/darden-restaurants-dri-stock-appears-close-to-fair-value-tod",
+      "summary": "# Darden Restaurants (DRI) Stock Appears Close To Fair Value Today - Simply Wall St News\n\nPublished: 2026-09-15T22:19:25.691000+00:00\nSource: simplywall.st (simplywall.st)\nLanguage: en\n\n## Story\n\nDarden Restaurants (DRI) Stock Appears Close To Fair Value Today - Simply Wall St News\n\n# Darden Restaurants (DRI) Stock Appears Close To Fair Value Today\n\n September 15, 2026\n\nSimply Wall St Reviewed by Bailey Pemberton\n\nDarden Restaurants has rewarded long term holders with a solid multi year gain, yet the recent pullback and mixed brand performance raise a fresh question about how well its current ",
+      "published": "2026-09-15",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Darden Restaurants (DRI) Just Gave Investors Something To Think About",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-17T13:11:25Z",
+      "summary": "Darden Restaurants (DRI) heads into its upcoming quarterly report with investors watching its plan to reiterate fiscal 2027 guidance and early signs of improving Olive Garden traffic and sales trends. Recent trading has been softer, with the share price slipping 7.73% over the past month even as the year-to-date share price return sits at 11.15%, while longer term total shareholder return of 53.49% over three years and 63.17% over five years shows Darden Restaurants has still rewarded patient...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/darden-restaurants-dri-just-gave-131125491.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Darden Restaurants (DRI) to Announce Earnings on Thursday - Defense World",
+      "publisher": "defenseworld.net",
+      "url": "https://www.defenseworld.net/2026/09/17/darden-restaurants-dri-to-announce-earnings-on-thursday.html",
+      "summary": "# Darden Restaurants (DRI) to Announce Earnings on Thursday - Defense World\n\nAuthor: Defense World Staff\nPublished: 2026-09-17T05:11:05+00:00\nSource: defenseworld.net (defenseworld.net)\nLanguage: en\n\n## Story\n\nDarden Restaurants (DRI) to Announce Earnings on Thursday - Defense World\n\n# Darden Restaurants (DRI) to Announce Earnings on Thursday\n\n Posted by Defense World Staff on Sep 17th, 2026 \n\nDarden Restaurants (NYSE:DRI \u2013 Get Free Report) is expected to issue its Q1 2027 results before the market opens on Thursday, September 24th. Analysts expect the company to post earnings of $2.05 per sha",
+      "published": "2026-09-24",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BJ's Restaurants Stock Gains 44% in 3 Months: Can Momentum Hold?",
+      "publisher": "Zacks",
+      "created": "Aug 27, 2026",
+      "ago": "Aug 27, 2026",
+      "url": "/articles/bjs-restaurants-stock-gains-44-3-months-can-momentum-hold",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BJRI",
+        "DRI",
+        "EAT",
+        "SHAK"
+      ],
+      "summary": "BJRI rallies 43.7% in three months as traffic, menu innovation and profitability improve, but its premium valuation raises the bar for further gains.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "CAKE Stock Soars 70% in the Past 3 Months: Can the Rally Continue?",
+      "publisher": "Zacks",
+      "created": "Aug 31, 2026",
+      "ago": "Aug 31, 2026",
+      "url": "/articles/cake-stock-soars-70-past-3-months-can-rally-continue",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CAKE",
+        "DRI",
+        "EAT"
+      ],
+      "summary": "The Cheesecake Factory's 70% rally is backed by stronger traffic, margins, digital engagement and menu innovation. Can the momentum continue?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Lovesac (LOVE) Reports Q2 Loss, Lags Revenue Estimates",
+      "publisher": "Zacks",
+      "created": "Sep 10, 2026",
+      "ago": "Sep 10, 2026",
+      "url": "/articles/lovesac-love-reports-q2-loss-lags-revenue-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "LOVE",
+        "DRI"
+      ],
+      "summary": "Lovesac (LOVE) delivered earnings and revenue surprises of +10.26% and -1.31%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "FPS Set to Report Q4 Earnings: What's in Store for the Stock?",
+      "publisher": "Zacks",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/fps-set-report-q4-earnings-whats-store-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FPS",
+        "ACN",
+        "THO",
+        "DRI"
+      ],
+      "summary": "Forgent Power Solutions' Q4 outlook benefits from strong data center demand, rising bookings and backlog, though ramp-up costs may pressure margins.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_capex",
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "EAT Revamps Kids Menu: Can Chili's Use Young Families to Aid Traffic?",
+      "publisher": "Zacks",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/eat-revamps-kids-menu-can-chilis-use-young-families-aid-traffic",
+      "primary_symbol": null,
+      "related_symbols": [
+        "EAT",
+        "DRI",
+        "BLMN"
+      ],
+      "summary": "EAT is revamping Chili's kids menu to attract young families, build repeat visits and extend its strong traffic momentum.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "CAKE Expands Restaurant Margins to a Decade High: More Upside Ahead?",
+      "publisher": "Zacks",
+      "created": "Sep 2, 2026",
+      "ago": "Sep 2, 2026",
+      "url": "/articles/cake-expands-restaurant-margins-decade-high-more-upside-ahead",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CAKE",
+        "DRI",
+        "EAT"
+      ],
+      "summary": "CAKE's restaurant margins hit a decade high as traffic, productivity and sales leverage fuel gains, with further upside possible.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "Casey's General Stores (CASY) Q1 Earnings and Revenues Beat Estimates",
+      "publisher": "Zacks",
+      "created": "Sep 8, 2026",
+      "ago": "Sep 8, 2026",
+      "url": "/articles/caseys-general-stores-casy-q1-earnings-and-revenues-beat-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CASY",
+        "DRI"
+      ],
+      "summary": "Casey's (CASY) delivered earnings and revenue surprises of +11.67% and +0.43%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Brinker Expands Margins Despite Inflation: Is More Upside Ahead?",
+      "publisher": "Zacks",
+      "created": "Sep 8, 2026",
+      "ago": "Sep 8, 2026",
+      "url": "/articles/brinker-expands-margins-despite-inflation-more-upside-ahead",
+      "primary_symbol": null,
+      "related_symbols": [
+        "EAT",
+        "DRI",
+        "TXRH"
+      ],
+      "summary": "EAT is expanding margins despite inflation, with strong Chili's sales momentum and room for further earnings growth in fiscal 2027.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "CAKE's Rewards App Attracts New Guests: Can Higher Frequency Follow?",
+      "publisher": "Zacks",
+      "created": "Sep 8, 2026",
+      "ago": "Sep 8, 2026",
+      "url": "/articles/cakes-rewards-app-attracts-new-guests-can-higher-frequency-follow",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CAKE",
+        "DRI",
+        "TXRH"
+      ],
+      "summary": "CAKE's Rewards app is drawing new guests and improving frequency, while rising estimates point to continued earnings momentum.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Darden Restaurants (DRI) Reports Next Week: Wall Street Expects Earnings Growth",
+      "publisher": "Zacks",
+      "published": "2026-09-17T14:00:02Z",
+      "summary": "Darden Restaurants (DRI) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/darden-restaurants-dri-reports-next-140002065.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Seaport Global Initiates Coverage of Darden Restaurants with Buy",
+      "publisher": "Fintel",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/seaport-global-initiates-coverage-darden-restaurants-buy",
+      "primary_symbol": "DRI",
+      "related_symbols": [
+        "DRI"
+      ],
+      "summary": "Fintel reports that on September 16, 2026, Seaport Global initiated coverage of Darden Restaurants (NYSE:DRI) with a Buy recommendation. Darden Restaurants, Inc., based in the United States, operates in the hospitality sector, primarily focusing on full-service restaurant managem",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Darden Restaurants Inc. - Darden Restaurants Reports Fiscal 2026 Fourth Quarter and Full Year Results; Increases Quarterly Dividend; Authorizes New $1.5 Billion Share Repurchase Program; and Provides Fiscal 2027 Outlook",
+      "publisher": "investor.darden.com",
+      "url": "https://investor.darden.com/news/news-details/2026/Darden-Restaurants-Reports-Fiscal-2026-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-5-Billion-Share-Repurchase-Program-and-Provides-Fiscal-2027-Outlook/default.aspx",
+      "summary": "Darden Restaurants Inc. - Darden Restaurants Reports Fiscal 2026 Fourth Quarter and Full Year Results; Increases Quarterly Dividend; Authorizes New $1.5 Billion Share Repurchase Program; and Provides Fiscal 2027 Outlook \n\n### Darden Restaurants Reports Fiscal 2026 Fourth Quarter and Full Year Results; Increases Quarterly Dividend; Authorizes New $1.5 Billion Share Repurchase Program; and Provides Fiscal 2027 Outlook \n\n June 25, 2026 \n\nORLANDO, Fla., June 25, 2026 /PRNewswire/ -- Darden Restaurants, Inc. (NYSE:DRI) today reported its financial results for the fourth quarter and fiscal year ende",
+      "published": "2026-06-25",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Document",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094426000016/exhibit991-q4fy26.htm",
+      "summary": "Authorizes New $1.5 Billion Share Repurchase Program;\n\nand Provides Fiscal 2027 Outlook\n\nORLANDO, Fla., June 25, 2026 /PRNewswire/ -- Darden Restaurants, Inc. (NYSE:DRI) today reported its financial results for the fourth quarter and fiscal year ended May 31, 2026, which included a 53rd week of operations compared to 52 weeks last year. \n\nFourth Quarter 2026 Financial Highlights\n\n\u2022 Total sales increased 13.7% to $3.72 billion driven by 7.6% in additional sales from an extra week of operations, a blended same-restaurant sales 1 increase of 4.6%, and sales from 43 net new restaurants\n\n\u2022 Same-res",
+      "published": "2026-06-25",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Darden\u2019s Buyback Deserves Respect, but Not a Premium Repricing - Equities Orbis",
+      "publisher": "equitiesorbis.com",
+      "url": "https://equitiesorbis.com/dardens-buyback-deserves-respect-but-not-a-premium-repricing/",
+      "summary": "Darden\u2019s Buyback Deserves Respect, but Not a Premium Repricing - Equities Orbis\n\n# Darden\u2019s Buyback Deserves Respect, but Not a Premium Repricing\n\n June 27, 2026 June 27, 2026 \n\n Written by Julia Rostova \n\nThe cleanest way to read Darden this week is not as a turnaround and not quite as a rerating story. It is a high-quality operator using a strong quarter, durable cash generation, and a fresh $1.5 billion repurchase authorization to remind the market that it still deserves a premium to much of casual dining. That message is fair. What is less clear is whether investors should pay materially m",
+      "published": "2026-06-27",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "Morgan Stanley Adjusts PT on Darden Restaurants to $255 From $236, Keeps Overweight Rating | MarketScreener",
+      "publisher": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-pt-on-darden-restaurants-to-255-from-236-keeps-overweight-rating-ce785bdcda80f723",
+      "summary": "# Morgan Stanley Adjusts PT on Darden Restaurants to $255 From $236, Keeps Overweight Rating | MarketScreener\n\nAuthor: MT Newswires\nPublished: 2026-09-14T06:56:18-04:00\nSource: marketscreener.com (marketscreener.com)\nLanguage: en\n\n## Story\n\nMorgan Stanley Adjusts PT on Darden Restaurants to $255 From $236, Keeps Overweight Rating | MarketScreener\n\nDARDEN RESTAURANTS, INC.\n\nAdd to my list\n\nAdd to a list PDF Report\n\n# Darden Restaurants, Inc.\n\n## Stocks\n\n## DRI\n\n## US2371941053\n\n## Restaurants & Bars\n\n| Market Closed - NYSE 04:03:19 2026-09-11 pm EDT | | 5-day change | 1st Jan Change |\n| --- | -",
+      "published": "2026-09-11",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Darden to Beat First Quarter Street Estimates Despite Olive Garden Drag, Morgan Stanley Says | MarketScreener",
+      "publisher": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/darden-to-beat-first-quarter-street-estimates-despite-olive-garden-drag-morgan-stanley-says-ce785bdcdf8ff624",
+      "summary": "# Darden to Beat First Quarter Street Estimates Despite Olive Garden Drag, Morgan Stanley Says | MarketScreener\n\nAuthor: MT Newswires\nPublished: 2026-09-14T11:33:35-04:00\nSource: marketscreener.com (marketscreener.com)\nLanguage: en\n\n## Story\n\nDarden to Beat First Quarter Street Estimates Despite Olive Garden Drag, Morgan Stanley Says | MarketScreener\n\nDARDEN RESTAURANTS, INC.\n\nAdd to my list\n\nAdd to a list PDF Report\n\n# Darden Restaurants, Inc.\n\n## Stocks\n\n## DRI\n\n## US2371941053\n\n## Restaurants & Bars\n\n| Real-time Estimate Cboe BZX 12:11:45 2026-09-14 pm EDT | | 5-day change | 1st Jan Change ",
+      "published": "2026-09-14",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Darden Restaurants Q1FY27 Results: Analysts raise targets ahead of Sept 24 report",
+      "publisher": "scanx.trade",
+      "url": "https://scanx.trade/stock-market-news/companies/darden-restaurants-q1fy27-results-analysts-raise-targets-ahead-sept/51195667",
+      "summary": "# Darden Restaurants Q1FY27 Results: Analysts raise targets ahead of Sept 24 report\n\nAuthor: Dhan\nPublished: 2026-09-17T13:01:16.377000+00:00\nSource: scanx.trade (scanx.trade)\nLanguage: en\n\n## Story\n\nDarden Restaurants Q1FY27 Results: Analysts raise targets ahead of Sept 24 report\n\n# Darden Restaurants Q1FY27 Results: Analysts raise targets ahead of Sept 24 report \n\n 1 min read | Published on 17 Sept 2026, 06:31 PM | Updated on 17 Sept 2026, 06:31 PM \n\nReviewed by\n\nAnirudha B ScanX News Team\n\nKey Highlights\n\n- Darden Restaurants reports Q1 earnings on Sept. 24\n- Analysts expect EPS of $2.05 vs",
+      "published": "2026-09-17",
+      "source": "ollama_search",
+      "query": "Darden Restaurants, Inc. (DRI) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "CAKE Stock Up 72% in 6 Months: Can Its Discount P/E Fuel More Gains?",
+      "publisher": "Zacks",
+      "published": "2026-09-17T13:29:00Z",
+      "summary": "CAKE stock has surged 72% in six months, but its below-industry P/E, strong Q2 results and rising earnings estimates could fuel further gains.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cake-stock-72-6-months-132900348.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Yum China Stock Slides 22% in 6 Months: Should Investors Buy the Dip?",
+      "publisher": "Zacks",
+      "published": "2026-09-17T13:52:00Z",
+      "summary": "YUMC stock has slumped, but store expansion, brand ownership and KFC innovation could shape whether the dip is worth buying.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/yum-china-stock-slides-22-135200963.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "3 Dividend Stocks to Buy Now With Yields Over 3%",
+      "publisher": "Motley Fool",
+      "published": "2026-09-17T16:12:00Z",
+      "summary": "Interest rates are rising, but so are these healthy payouts.",
+      "url": "https://www.fool.com/investing/2026/09/17/3-dividend-stocks-to-buy-now-with-yields-over-3/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Darden vs. McDonald\u2019s: Which Restaurant Dividend Belongs in a Retirement Portfolio",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-18T13:02:58Z",
+      "summary": "McDonald's shares are sitting at two-year lows while Darden just handed investors an 8% raise, and that shifting math forces a hard question about which restaurant dividend a retiree can actually count on when the bills come due.",
+      "url": "https://247wallst.com/investing/2026/09/18/darden-vs-mcdonalds-which-restaurant-dividend-belongs-in-a-retirement-portfolio/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Darden Prepares to Report Q1 Results: Key Things to Watch",
+      "publisher": "Zacks",
+      "published": "2026-09-18T13:59:00Z",
+      "summary": "DRI's fiscal Q1 results face inflation pressures as affordability, restaurant expansion and productivity efforts shape growth expectations.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/darden-prepares-report-q1-results-135900202.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Darden Restaurants, Costco In Earnings Spotlight, Along With This IT Distributor",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-09-18T16:07:33Z",
+      "summary": "Darden stock has held up better than other restaurant stocks as the Olive Garden parent gets ready to report quarterly results.",
+      "url": "https://www.investors.com/research/earnings-preview/darden-stock-costco-earnings-td-synnex-ai-infrastructure/?src=A00220&yptr=yahoo",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Earnings Calendar and Analysis for This Week (September 21-25)",
+      "publisher": "Kiplinger",
+      "published": "2026-09-18T16:29:46Z",
+      "summary": "Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports.",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Do You Want Gains With That?",
+      "publisher": "Barrons.com",
+      "published": "2026-09-18T23:43:00Z",
+      "summary": "Restaurants are struggling with higher prices for ingredients and labor, as well as the wellness trend the need for innovation:",
+      "url": "https://www.barrons.com/articles/do-you-want-gains-with-that-3954bc69?siteid=yhoof2&yptr=yahoo",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 11,
+        "share": 0.407,
+        "evidence": [
+          {
+            "title": "Darden Restaurants: Solid Q3, But Risks Are Building (NYSE:DRI) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "guidance",
+              "outlook"
+            ]
+          },
+          {
+            "title": "Darden Restaurants (DRI) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-07-28",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Darden Restaurants (DRI) Just Gave Investors Something To Think About",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-17T13:11:25Z",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "Lovesac (LOVE) Reports Q2 Loss, Lags Revenue Estimates",
+            "publisher": "Zacks",
+            "published": "Sep 10, 2026",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.185,
+        "evidence": [
+          {
+            "title": "Darden: Decent Valuation And Labor Savings, But Path To Growth Is Strained (Upgrade) (DRI) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "DRI Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "BJ's Restaurants Stock Gains 44% in 3 Months: Can Momentum Hold?",
+            "publisher": "Zacks",
+            "published": "Aug 27, 2026",
+            "matched": [
+              "valuation",
+              "premium"
+            ]
+          },
+          {
+            "title": "Darden\u2019s Buyback Deserves Respect, but Not a Premium Repricing - Equities Orbis",
+            "publisher": "equitiesorbis.com",
+            "published": "2026-06-27",
+            "matched": [
+              "premium",
+              "rerating"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 4,
+        "share": 0.148,
+        "evidence": [
+          {
+            "title": "Darden Restaurants Inc. - Darden Restaurants Reports Fiscal 2026 Fourth Quarter and Full Year Results; Increases Quarterly Dividend; Authorizes New $1.5 Billion Share Repurchase Program; and Provides Fiscal 2027 Outlook",
+            "publisher": "investor.darden.com",
+            "published": "2026-06-25",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Darden\u2019s Buyback Deserves Respect, but Not a Premium Repricing - Equities Orbis",
+            "publisher": "equitiesorbis.com",
+            "published": "2026-06-27",
+            "matched": [
+              "buyback"
+            ]
+          },
+          {
+            "title": "3 Dividend Stocks to Buy Now With Yields Over 3%",
+            "publisher": "Motley Fool",
+            "published": "2026-09-17T16:12:00Z",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Darden vs. McDonald\u2019s: Which Restaurant Dividend Belongs in a Retirement Portfolio",
+            "publisher": "24/7 Wall St.",
+            "published": "2026-09-18T13:02:58Z",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 2,
+        "share": 0.074,
+        "evidence": [
+          {
+            "title": "Darden: Decent Valuation And Labor Savings, But Path To Growth Is Strained (Upgrade) (DRI) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "capex"
+            ]
+          },
+          {
+            "title": "FPS Set to Report Q4 Earnings: What's in Store for the Stock?",
+            "publisher": "Zacks",
+            "published": "Sep 11, 2026",
+            "matched": [
+              "data center"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 2,
+        "share": 0.074,
+        "evidence": [
+          {
+            "title": "Darden: Decent Valuation And Labor Savings, But Path To Growth Is Strained (Upgrade) (DRI) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "upgrade"
+            ]
+          },
+          {
+            "title": "Darden Restaurants (DRI) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-07-28",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 1,
+        "share": 0.037,
+        "evidence": [
+          {
+            "title": "FPS Set to Report Q4 Earnings: What's in Store for the Stock?",
+            "publisher": "Zacks",
+            "published": "Sep 11, 2026",
+            "matched": [
+              "backlog",
+              "bookings"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.037,
+        "evidence": [
+          {
+            "title": "CAKE Expands Restaurant Margins to a Decade High: More Upside Ahead?",
+            "publisher": "Zacks",
+            "published": "Sep 2, 2026",
+            "matched": [
+              "leverage"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 1,
+        "share": 0.037,
+        "evidence": [
+          {
+            "title": "3 Dividend Stocks to Buy Now With Yields Over 3%",
+            "publisher": "Motley Fool",
+            "published": "2026-09-17T16:12:00Z",
+            "matched": [
+              "interest rate",
+              "yield"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    },
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-09-24"
+    ],
+    "next_date": "2026-09-24",
+    "eps_avg": 2.05308,
+    "eps_low": 1.94,
+    "eps_high": 2.15,
+    "revenue_avg": 3206875640
+  },
+  "catalyst": {
+    "date": "2026-09-24",
+    "weekday": "Thursday",
+    "days_out": 5,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 2.05308,
+      "eps_low": 1.94,
+      "eps_high": 2.15,
+      "revenue_avg": 3206875640
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-25",
+        "eps_estimate": 3.64,
+        "eps_actual": 3.66,
+        "surprise_pct": 0.64,
+        "beat": true
+      },
+      {
+        "date": "2026-03-19",
+        "eps_estimate": 2.94,
+        "eps_actual": 2.95,
+        "surprise_pct": 0.29,
+        "beat": true
+      },
+      {
+        "date": "2025-12-18",
+        "eps_estimate": 2.1,
+        "eps_actual": 2.08,
+        "surprise_pct": -0.82,
+        "beat": false
+      },
+      {
+        "date": "2025-09-18",
+        "eps_estimate": 2.01,
+        "eps_actual": 1.97,
+        "surprise_pct": -2.05,
+        "beat": false
+      }
+    ],
+    "beat_streak": 2,
+    "beat_rate": 0.5,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-24 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 2.05."
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "DRI",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 209.28,
+      "catalyst": "2026-12-24",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 220.0,
+        "premium": 10.5,
+        "bid": 9.5,
+        "ask": 11.5,
+        "mid": 10.5,
+        "last": 10.9,
+        "open_interest": 223,
+        "volume": 4.0,
+        "implied_vol": 0.3339300006103516,
+        "qty": 4
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 220.0,
+        "premium": 4.35,
+        "bid": 3.5,
+        "ask": 5.2,
+        "mid": 4.35,
+        "last": 3.9,
+        "open_interest": 520,
+        "volume": 133.0,
+        "implied_vol": 0.4061338684082031,
+        "qty": 2
+      },
+      "long_total": 4200.0,
+      "short_total": 870.0,
+      "net_debit": 3330.0,
+      "credit_ratio_mid": 0.2071,
+      "credit_ratio_conservative": 0.1522,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "15-Jan-27",
+          "strike": 220.0,
+          "qty": 4,
+          "underlying": 209.28,
+          "multiplier": 100,
+          "price": 10.5,
+          "total": 4200.0,
+          "open_interest": 223
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 220.0,
+          "qty": 2,
+          "underlying": 209.28,
+          "multiplier": 100,
+          "price": 4.35,
+          "total": -869.9999999999999,
+          "open_interest": 520
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-24 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-24); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 220, 210, 230, 240"
+      ],
+      "advice": "Credit ratio 15.2% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.1036,
+          "credit_ratio_conservative": 0.0761,
+          "passes_floor": false,
+          "cash_collected": 435.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.2071,
+          "credit_ratio_conservative": 0.1522,
+          "passes_floor": true,
+          "cash_collected": 870.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.3107,
+          "credit_ratio_conservative": 0.2283,
+          "passes_floor": true,
+          "cash_collected": 1305.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.4143,
+          "credit_ratio_conservative": 0.3043,
+          "passes_floor": true,
+          "cash_collected": 1740.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "DRI",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 209.28,
+      "catalyst": "2026-12-24",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 200.0,
+        "premium": 10.55,
+        "bid": 9.0,
+        "ask": 12.1,
+        "mid": 10.55,
+        "last": 9.7,
+        "open_interest": 78,
+        "volume": 1.0,
+        "implied_vol": 0.3508365698242187,
+        "qty": 4
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 200.0,
+        "premium": 4.2,
+        "bid": 3.2,
+        "ask": 5.2,
+        "mid": 4.2,
+        "last": 4.76,
+        "open_interest": 439,
+        "volume": 5.0,
+        "implied_vol": 0.40259386474609377,
+        "qty": 2
+      },
+      "long_total": 4220.0,
+      "short_total": 840.0,
+      "net_debit": 3380.0,
+      "credit_ratio_mid": 0.1991,
+      "credit_ratio_conservative": 0.1322,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "15-Jan-27",
+          "strike": 200.0,
+          "qty": 4,
+          "underlying": 209.28,
+          "multiplier": 100,
+          "price": 10.55,
+          "total": 4220.0,
+          "open_interest": 78
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 200.0,
+          "qty": 2,
+          "underlying": 209.28,
+          "multiplier": 100,
+          "price": 4.2,
+          "total": -840.0,
+          "open_interest": 439
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-24 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-24); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 200, 195, 190, 185"
+      ],
+      "advice": "Credit ratio 13.2% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0995,
+          "credit_ratio_conservative": 0.0661,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1991,
+          "credit_ratio_conservative": 0.1322,
+          "passes_floor": true,
+          "cash_collected": 840.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.2986,
+          "credit_ratio_conservative": 0.1983,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.3981,
+          "credit_ratio_conservative": 0.2645,
+          "passes_floor": true,
+          "cash_collected": 1680.0
+        }
+      ]
+    }
+  }
+}

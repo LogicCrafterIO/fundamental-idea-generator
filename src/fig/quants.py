@@ -259,7 +259,21 @@ def fundamental_deltas(
             )
 
     found.sort(key=lambda r: abs(r["change_pct"]), reverse=True)
-    return found[:top]
+
+    # The same figure is reported under several labels -- "Net Income" and "Net
+    # Income Applicable to Common Shareholders" are the same number, and Nasdaq
+    # repeats some rows across tables. Without this, a Quants block shows the
+    # identical move twice and wastes one of its few lines.
+    deduped: list[dict] = []
+    seen: set[tuple[str, int]] = set()
+    for item in found:
+        key = (item["period"], round(abs(item["change_pct"])))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+
+    return deduped[:top]
 
 
 def eps_yoy(symbol: str) -> dict | None:

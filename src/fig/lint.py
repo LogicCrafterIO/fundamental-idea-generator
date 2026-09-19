@@ -171,6 +171,61 @@ def lint_writeup(writeup: dict) -> dict:
             )
         )
 
+    # ---- catalyst --------------------------------------------------------
+    # The catalyst is the point of the note, so it is required, and its date must
+    # match the measured one exactly -- a restated or rounded earnings date is the
+    # most damaging error a note can carry.
+    catalyst = writeup.get("catalyst") or {}
+    why = (catalyst.get("why") or "").strip()
+    if not catalyst.get("date"):
+        issues.append(Issue("warn", "catalyst_missing", "Catalyst", "has no dated earnings catalyst"))
+    else:
+        if not why:
+            issues.append(
+                Issue("error", "catalyst_no_justification", "Catalyst",
+                      "states the date but not why it matters")
+            )
+        else:
+            count = word_count(why)
+            if count > WORD_BUDGET["catalyst_why"]:
+                issues.append(
+                    Issue(
+                        "error",
+                        "catalyst_why_too_long",
+                        "Catalyst",
+                        f"{count} words (budget {WORD_BUDGET['catalyst_why']}). "
+                        f"Say what the report must prove, not what the date is.",
+                    )
+                )
+        facts = str(catalyst.get("facts_line") or "")
+        if facts and str(catalyst["date"]) not in facts:
+            issues.append(
+                Issue("error", "catalyst_date_mismatch", "Catalyst",
+                      f"date {catalyst['date']} does not appear in the stated facts")
+            )
+        # The justification should say what the report must prove, not repeat the
+        # measured line. Referencing the date ("the 2026-09-23 report must show...")
+        # is fine; reproducing its detail is not. So this fires on the *measured
+        # particulars* -- the weekday, the session, or the days-remaining count --
+        # rather than on the date itself, which would punish good phrasing.
+        if why and catalyst.get("date"):
+            measured_detail = [
+                str(catalyst.get("weekday") or ""),
+                str(catalyst.get("session") or ""),
+                "days out" if catalyst.get("days_out") is not None else "",
+            ]
+            echoed = [d for d in measured_detail if d and d.lower() in why.lower()]
+            if echoed:
+                issues.append(
+                    Issue(
+                        "warn",
+                        "catalyst_why_restates_date",
+                        "Catalyst",
+                        f"justification repeats the measured line ({', '.join(echoed)}) "
+                        f"instead of saying what the report must prove",
+                    )
+                )
+
     for index, reason in enumerate(reasons, start=1):
         count = word_count(reason)
         if count > WORD_BUDGET["reason"]:
@@ -263,6 +318,8 @@ def lint_writeup(writeup: dict) -> dict:
             "reason_words": [word_count(r) for r in reasons],
             "reason_count": len(reasons),
             "notes_words": word_count(notes),
+            "catalyst_why_words": word_count((writeup.get("catalyst") or {}).get("why") or ""),
+            "has_structure": bool((writeup.get("structuring") or {}).get("rows")),
         },
     }
 
@@ -284,4 +341,99 @@ def lint_batch(writeups: list[dict]) -> dict:
         "passed": sum(1 for r in results if r["ok"]),
         "failed": sum(1 for r in results if not r["ok"]),
         "mean_score": round(sum(r["score"] for r in results) / len(results), 1) if results else 0,
+    }
+
+
+# --------------------------------------------------------------------------
+# grounding
+# --------------------------------------------------------------------------
+
+# Numbers small enough to be ordinary counting language ("two quarters", "3 of 5")
+# rather than a factual claim, so they are not worth checking.
+_SMALL_INT = 13
+
+_NUMBER_RE = re.compile(r"(?<![\w.])(\d{1,3}(?:,\d{3})*(?:\.\d+)?|\d*\.\d+)(\s*%)?")
+_DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b")
+
+
+def _evidence_numbers(evidence: str) -> set[str]:
+    """Every number appearing in the evidence, plus rounded variants.
+
+    Rounding matters: a note may legitimately write "43.5" where the packet says
+    43.54, and "39.5" for 39.51. Both must count as supported.
+    """
+    numbers: set[str] = set()
+    for match in _NUMBER_RE.finditer(evidence or ""):
+        raw = match.group(1).replace(",", "")
+        try:
+            value = abs(float(raw))
+        except ValueError:
+            continue
+        numbers.add(f"{value:g}")
+        numbers.add(f"{value:.1f}")
+        numbers.add(f"{value:.2f}")
+        numbers.add(f"{value:.0f}")
+        # Percentages are often stored as fractions.
+        numbers.add(f"{value * 100:g}")
+        numbers.add(f"{value * 100:.1f}")
+    return numbers
+
+
+def check_grounding(writeup: dict, evidence: str) -> dict:
+    """Verify that numbers in the *prose* appear in the evidence.
+
+    The generator already guarantees that the Quants block and the option legs
+    come from measured data -- the model cannot reach them. Reason prose is the
+    one place a model could introduce a figure from its own memory, so it is the
+    one place worth checking.
+
+    Deliberately a warning, not a failure. A note may legitimately state a
+    derived figure (a price target implied by a stated % move) or a claim from a
+    search snippet, so the job here is to surface anything unsupported for a human
+    to eyeball rather than to block the note.
+    """
+    evidence_numbers = _evidence_numbers(evidence)
+    evidence_dates = set(_DATE_RE.findall(evidence or ""))
+    evidence_blob = (evidence or "").lower()
+
+    checked: list[str] = []
+    unsupported: list[str] = []
+
+    prose = [writeup.get("description") or "", *[str(r) for r in (writeup.get("reasons") or [])]]
+
+    for text in prose:
+        for match in _NUMBER_RE.finditer(text):
+            raw = match.group(1).replace(",", "")
+            is_percent = bool(match.group(2))
+            try:
+                value = abs(float(raw))
+            except ValueError:
+                continue
+
+            # Bare small integers are counting language, not claims.
+            if not is_percent and value < _SMALL_INT and "." not in raw:
+                continue
+
+            checked.append(raw)
+            candidates = {f"{value:g}", f"{value:.1f}", f"{value:.2f}", f"{value:.0f}"}
+            if candidates & evidence_numbers:
+                continue
+
+            # A year mentioned in prose (2026, 2027) is context, not a claim.
+            if not is_percent and 2000 <= value <= 2100 and "." not in raw:
+                continue
+            # Dates: check the ISO form is present.
+            if any(part == raw for part in evidence_dates):
+                continue
+            # Last resort: does the literal string appear anywhere in evidence?
+            if raw in evidence_blob:
+                continue
+
+            unsupported.append(f'"{raw}{"%" if is_percent else ""}"')
+
+    return {
+        "checked": len(checked),
+        "unsupported": sorted(set(unsupported)),
+        "grounded": not unsupported,
+        "ratio": round(1 - len(set(unsupported)) / max(1, len(checked)), 3),
     }

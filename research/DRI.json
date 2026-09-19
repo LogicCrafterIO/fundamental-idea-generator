@@ -1,0 +1,121 @@
+{
+  "ticker": "DRI",
+  "direction": "long",
+  "as_of": "2026-09-19",
+  "description": "Full-service restaurant operator with Olive Garden, LongHorn Steakhouse, and other brands in the US and Canada.",
+  "catalyst": {
+    "date": "2026-09-24",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 5,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 2.05308,
+      "eps_low": 1.94,
+      "eps_high": 2.15,
+      "revenue_avg": 3206875640
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-25",
+        "eps_estimate": 3.64,
+        "eps_actual": 3.66,
+        "surprise_pct": 0.64,
+        "beat": true
+      },
+      {
+        "date": "2026-03-19",
+        "eps_estimate": 2.94,
+        "eps_actual": 2.95,
+        "surprise_pct": 0.29,
+        "beat": true
+      },
+      {
+        "date": "2025-12-18",
+        "eps_estimate": 2.1,
+        "eps_actual": 2.08,
+        "surprise_pct": -0.82,
+        "beat": false
+      },
+      {
+        "date": "2025-09-18",
+        "eps_estimate": 2.01,
+        "eps_actual": 1.97,
+        "surprise_pct": -2.05,
+        "beat": false
+      }
+    ],
+    "beat_streak": 2,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-24 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 2.05.",
+    "why": "Must show Olive Garden traffic and sales trends improving enough to support fiscal 2027 guidance reiteration."
+  },
+  "reasons": [
+    "Net income rose 32% and EPS rose from 2.98 to 3.66, yet the stock trades at 16.9x next-year earnings with all estimate revisions up.",
+    "Unlike BJRI and CAKE, which have rallied 44% and 70% on traffic improvements, DRI has not repriced despite early signs of improving Olive Garden traffic.",
+    "Darden's $1.5B buyback authorization and dividend increase shrink the share count and return cash, supporting EPS even if same-store sales stay flat."
+  ],
+  "quants": {
+    "price": 209.28,
+    "market_cap": "23.76B",
+    "fwd_pe": 18.6,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.8,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all up, with 1 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 32% quarter over quarter (5/31/2026)",
+      "Last quarter earnings before interest and tax increasing 30% quarter over quarter (5/31/2026)",
+      "EPS increased year over year, 2.98 -> 3.66"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "15-Jan-27",
+        "strike": 220.0,
+        "qty": 4,
+        "underlying": 209.28,
+        "multiplier": 100,
+        "price": 10.5,
+        "total": 4200.0,
+        "open_interest": 223
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 220.0,
+        "qty": 2,
+        "underlying": 209.28,
+        "multiplier": 100,
+        "price": 4.35,
+        "total": -869.9999999999999,
+        "open_interest": 520
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-24 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.",
+    "reflection": "The credit ratio clears the floor, but the net debit is $3,330 and the short October calls cap upside if the stock runs through 220 before January. The 15.2% conservative credit is enough to justify the risk, but I'd want to see the report before adding size."
+  },
+  "generation": {
+    "model": "deepseek-v4-pro:0813",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    }
+  }
+}

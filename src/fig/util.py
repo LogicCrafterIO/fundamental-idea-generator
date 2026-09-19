@@ -189,7 +189,12 @@ def parse_money(value: Any) -> float | None:
 
 
 def human_money(value: float | None, digits: int = 2) -> str:
-    """Format a large number the way the reference writeups do: ``455B``, ``7.07B``."""
+    """Format a large number the way the reference writeups do: ``455B``, ``7.07B``.
+
+    Values below 10 keep at least one decimal: 6.9957e9 renders as ``7.0B`` rather
+    than ``7B``, which would throw away the only significant digits it has. The
+    reference writes "Market Cap: 7.07B", so that precision is the house style.
+    """
     if value is None:
         return "n/a"
     sign = "-" if value < 0 else ""
@@ -198,8 +203,11 @@ def human_money(value: float | None, digits: int = 2) -> str:
         if magnitude >= cut:
             scaled = magnitude / cut
             text = f"{scaled:.{digits}f}".rstrip("0").rstrip(".")
+            if scaled < 10 and "." not in text:
+                text += ".0"
             return f"{sign}{text}{suffix}"
-    return f"{sign}{magnitude:,.{digits}f}".rstrip("0").rstrip(".")
+    text = f"{magnitude:,.{digits}f}".rstrip("0").rstrip(".")
+    return f"{sign}{text}"
 
 
 def pct(new: float | None, old: float | None) -> float | None:

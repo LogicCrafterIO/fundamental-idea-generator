@@ -7,6 +7,11 @@ __pycache__/
 build/
 dist/
 
+# secrets -- OLLAMA_API_KEY lives here. Never commit this file.
+.env
+.env.*
+!.env.example
+
 # cached upstream payloads -- free sources rate-limit, so keep them locally
 .cache/
 

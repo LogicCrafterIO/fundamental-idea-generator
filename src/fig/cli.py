@@ -268,6 +268,95 @@ def cmd_quants(args) -> int:
     return 0
 
 
+def cmd_search(args) -> int:
+    """Web search via the Ollama key -- usable on its own, not just internally."""
+    from .sources import ollama
+
+    if not ollama.has_key():
+        print("OLLAMA_API_KEY not set (env or .env).", file=sys.stderr)
+        return 1
+
+    if args.models:
+        for name in ollama.list_models():
+            print(name)
+        return 0
+
+    for result in ollama.web_search(args.query, max_results=args.limit):
+        print(f"- {result['title']}")
+        if result.get("publisher"):
+            print(f"  {result['publisher']}")
+        if result.get("url"):
+            print(f"  {result['url']}")
+        snippet = (result.get("content") or "").strip().replace("\n", " ")
+        if snippet and args.snippets:
+            print(f"  {snippet[:400]}")
+        print()
+    return 0
+
+
+def cmd_generate(args) -> int:
+    from . import generate
+
+    # args.symbols is already a list from nargs="*" -- it must NOT go through
+    # _split_symbols, which stringifies and would yield "['ORCL']".
+    symbols = [s.strip().upper() for s in (args.symbols or []) if s.strip()]
+    if not symbols:
+        symbols = [s.strip().upper() for s in (args.watchlist or []) if s.strip()]
+    if not symbols:
+        print("give one or more tickers", file=sys.stderr)
+        return 1
+
+    # --directions is a comma-separated string; directions are lowercase.
+    directions = [d.strip().lower() for d in (args.directions or "long").split(",") if d.strip()]
+    if not directions:
+        directions = ["long"]
+    results = []
+    failures = []
+
+    for index, symbol in enumerate(symbols):
+        direction = directions[index] if index < len(directions) else directions[-1]
+        try:
+            result = generate.generate_idea(
+                symbol,
+                direction=direction,
+                peers=_split_symbols(args.peers),
+                model=args.model,
+                use_search=not args.no_search,
+                catalyst_index=args.catalyst_index,
+                credit_target=args.credit_target,
+                repairs=args.repairs,
+            )
+        except Exception as exc:
+            print(f"[{symbol}] FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
+            failures.append((symbol, str(exc)))
+            continue
+
+        paths = generate.save_idea(result, args.out)
+        results.append(result)
+        print(
+            f"[{symbol}] {paths['note']}  score {paths['score']}/100"
+            f"{'' if paths['ok'] else '  (still has lint errors)'}"
+        )
+
+    if results:
+        generate.write_index(results, args.out)
+        print(f"\nindex: {args.out}/README.md")
+    if failures:
+        print(f"\n{len(failures)} failed:", file=sys.stderr)
+        for symbol, error in failures:
+            print(f"  {symbol}: {error}", file=sys.stderr)
+    return 1 if failures and not results else 0
+
+
+def cmd_index(args) -> int:
+    """Rebuild the research index from the notes on disk."""
+    from . import generate
+
+    summary = generate.rebuild_index(args.out)
+    print(f"{summary['notes']} note(s), mean score {summary['mean_score']} -> {summary['index']}")
+    return 0
+
+
 def cmd_demo(args) -> int:
     """Verify the engine still reproduces the two reference structures.
 
@@ -371,6 +460,30 @@ def build_parser() -> argparse.ArgumentParser:
     p = sub.add_parser("quants", help="quants panel for one name")
     p.add_argument("symbol")
     p.set_defaults(func=cmd_quants)
+
+    p = sub.add_parser("search", help="web search via the Ollama key")
+    p.add_argument("query")
+    p.add_argument("--limit", type=int, default=6)
+    p.add_argument("--no-snippets", dest="snippets", action="store_false", default=True)
+    p.add_argument("--models", action="store_true", help="list available models instead")
+    p.set_defaults(func=cmd_search)
+
+    p = sub.add_parser("generate", help="generate finished idea notes with the model")
+    p.add_argument("symbols", nargs="*", help="tickers to write up")
+    p.add_argument("--watchlist", nargs="*", default=[])
+    p.add_argument("--directions", default="long", help="comma-separated, aligned to tickers")
+    p.add_argument("--peers", default="")
+    p.add_argument("--model", default=None, help="model id, e.g. deepseek-v4-pro:0813")
+    p.add_argument("--out", default="research")
+    p.add_argument("--no-search", action="store_true", help="skip web-search evidence")
+    p.add_argument("--catalyst-index", type=int, default=0)
+    p.add_argument("--credit-target", type=float, default=options.DEFAULT_CREDIT_TARGET)
+    p.add_argument("--repairs", type=int, default=2, help="lint-driven revision rounds")
+    p.set_defaults(func=cmd_generate)
+
+    p = sub.add_parser("index", help="rebuild the research index from the notes on disk")
+    p.add_argument("--out", default="research")
+    p.set_defaults(func=cmd_index)
 
     p = sub.add_parser("demo", help="verify the engine reproduces the reference structures")
     p.set_defaults(func=cmd_demo)

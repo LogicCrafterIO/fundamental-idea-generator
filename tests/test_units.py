@@ -135,6 +135,15 @@ class TestCreditMath(unittest.TestCase):
         # ideal here is 3 * 0.9 * 5.0 / 0.5 = 27, capped to the 3 longs.
         self.assertEqual(options.solve_short_qty(5.0, 0.5, 3, target_ratio=0.9), 3)
 
+    def test_never_returns_zero_credit_when_one_lot_is_expensive(self):
+        # AZO-like: a single contract, and an ideal short qty of 0.4 which used to
+        # round to 0 and emit a structure with no credit at all.
+        self.assertEqual(options.solve_short_qty(132.75, 40.0, 1, target_ratio=0.12), 1)
+
+    def test_zero_when_no_short_premium_or_no_long(self):
+        self.assertEqual(options.solve_short_qty(10.0, 0.0, 3, target_ratio=0.12), 0)
+        self.assertEqual(options.solve_short_qty(10.0, 1.0, 0, target_ratio=0.12), 0)
+
 
 class TestMonthlies(unittest.TestCase):
     def test_reference_expiries_are_monthlies(self):
@@ -254,6 +263,291 @@ class TestNewsRelevance(unittest.TestCase):
 
     def test_subject_role_stays_high(self):
         self.assertEqual(self._rel("Jefferies posts Q3 profit jump on advisory fees"), 3)
+
+
+class TestOllamaParsing(unittest.TestCase):
+    """JSON mode makes valid JSON the common case, not the only case."""
+
+    def test_parse_json_object_variants(self):
+        from fig.sources.ollama import parse_json_object
+
+        self.assertEqual(parse_json_object('{"a": 1}'), {"a": 1})
+        self.assertEqual(parse_json_object('```json\n{"a": 2}\n```'), {"a": 2})
+        self.assertEqual(parse_json_object('Here you go:\n{"a": 3}\nDone.'), {"a": 3})
+
+    def test_parse_json_object_rejects_non_object(self):
+        from fig.sources.ollama import parse_json_object
+
+        with self.assertRaises(RuntimeError):
+            parse_json_object("I cannot help with that.")
+
+
+class TestDateRecovery(unittest.TestCase):
+    def test_date_from_snippet(self):
+        from fig.packet import _date_from_text
+
+        self.assertEqual(_date_from_text("Sept 18 (Reuters) - About $18 billion"), "2026-09-18")
+        self.assertEqual(_date_from_text("19 September 2026 | 8:03 AM"), "2026-09-19")
+        self.assertEqual(_date_from_text("filed 2026-09-18 by the company"), "2026-09-18")
+        self.assertIsNone(_date_from_text("no date here at all"))
+
+
+def _fake_packet() -> dict:
+    return {
+        "symbol": "TEST",
+        "as_of": "2026-09-19",
+        "quants": {
+            "price": 100.0,
+            "market_cap_human": "10B",
+            "fwd_pe": 12.34,
+            "ps": 2.567,
+            "eps_trend": {"text": "flat over the last 7 days"},
+            "eps_revisions": {"text": "tilted lower, with 6 up and 8 down over last 30 days",
+                              "up_7d": 3, "down_7d": 1, "up_30d": 6, "down_30d": 8},
+        },
+        "fundamental_deltas": [
+            {"label": "Other Operating Items", "change_pct": 31.0, "direction": "increasing",
+             "period": "6/30/2026", "is_credit": True},
+            {"label": "Net Income", "change_pct": -32.7, "direction": "decreasing",
+             "period": "6/30/2026", "is_credit": False},
+        ],
+        "eps_yoy": {"direction": "declined", "year_ago": 1.45, "current": 1.31},
+        "catalyst": {
+            "date": "2026-10-30",
+            "weekday": "Friday",
+            "session": "before the open",
+            "days_out": 41,
+            "basis": "scheduled",
+            "consensus": {"eps_avg": 1.88},
+            "recent_reports": [
+                {"date": "2026-07-29", "eps_estimate": 1.26, "eps_actual": 1.31,
+                 "surprise_pct": 3.92, "beat": True}
+            ],
+            "beat_streak": 4,
+            "median_gap_days": 91,
+            "facts_line": ("2026-10-30 (Friday, before the open), 41 days out "
+                           "-- from the earnings calendar, consensus EPS 1.88."),
+        },
+        "structures": {
+            "short": {
+                "rows": [
+                    {"side": "Long", "type": "PUT", "expiry": "19-Feb-27", "strike": 57.5, "qty": 12,
+                     "underlying": 60.81, "multiplier": 100, "price": 3.48, "total": 4176.0},
+                    {"side": "Short", "type": "PUT", "expiry": "16-Oct-26", "strike": 57.5, "qty": 8,
+                     "underlying": 60.81, "multiplier": 100, "price": 0.77, "total": -616.0},
+                ],
+                "catalyst": "2027-01-29",
+                "long_leg": {"expiry": "2027-02-19"},
+                "credit_ratio_mid": 0.1475,
+                "credit_ratio_conservative": 0.10,
+            }
+        },
+    }
+
+
+class TestAssembleWriteup(unittest.TestCase):
+    """The safety invariant: the model writes prose, the tool owns the numbers."""
+
+    def test_model_cannot_inject_numbers(self):
+        from fig.generate import assemble_writeup
+
+        # A model that hallucinates prices, multiples and option premiums.
+        model_output = {
+            "description": "Nonprime consumer loan lender",
+            "reasons": ["Provisions rose 31% quarter over quarter, so losses are accelerating."],
+            "reflection": "Credit clears the floor.",
+            "quants": {"price": 999.99, "fwd_pe": 99.9, "market_cap": "999B", "ps": 99.9},
+            "structuring": {"rows": [{"side": "Long", "strike": 1.0, "price": 9999.0}]},
+        }
+        writeup = assemble_writeup(_fake_packet(), model_output, "short")
+
+        # Prose is the model's.
+        self.assertEqual(writeup["description"], "Nonprime consumer loan lender")
+        # Numbers are the packet's, not the model's.
+        self.assertEqual(writeup["quants"]["price"], 100.0)
+        self.assertEqual(writeup["quants"]["fwd_pe"], 12.3)
+        self.assertEqual(writeup["quants"]["market_cap"], "10B")
+        self.assertEqual(writeup["quants"]["ps"], 2.6)
+        # Legs are the tool's, and the hallucinated row is gone.
+        self.assertEqual(len(writeup["structuring"]["rows"]), 2)
+        self.assertEqual(writeup["structuring"]["rows"][0]["price"], 3.48)
+
+    def test_credit_delta_is_preferred_first(self):
+        from fig.generate import _extra_quants_lines
+
+        lines = _extra_quants_lines(_fake_packet())
+        self.assertTrue(lines[0].startswith("Last quarter other operating items"), lines)
+        self.assertTrue(any("year over year" in line for line in lines))
+
+    def test_window_disagreement_is_flagged(self):
+        from fig.generate import _extra_quants_lines
+
+        lines = _extra_quants_lines(_fake_packet())
+        self.assertTrue(any("disagree by window" in line for line in lines), lines)
+
+    def test_missing_description_raises(self):
+        from fig.generate import assemble_writeup
+
+        with self.assertRaises(ValueError):
+            assemble_writeup(_fake_packet(), {"reasons": ["a 31% move"]}, "short")
+
+    def test_missing_structure_still_produces_a_note(self):
+        """Structuring is optional: the catalyst carries the idea, legs do not."""
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender", "reasons": ["Provisions rose 31% so losses accelerate."],
+             "catalyst_why": "Provisions must keep rising for the thesis to hold."},
+            "long",  # no long structure exists in the fake packet
+        )
+        self.assertNotIn("structuring", writeup)
+        # The omission is recorded, not silent.
+        self.assertIn("structure_error", writeup)
+        self.assertEqual(writeup["catalyst"]["date"], "2026-10-30")
+
+    def test_catalyst_why_falls_back_to_measured_justification(self):
+        """A note must never assert a catalyst without justifying it."""
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender", "reasons": ["Provisions rose 31% so losses accelerate."]},
+            "short",
+        )
+        self.assertTrue(writeup["catalyst"]["why"], "catalyst justification must not be empty")
+
+    def test_catalyst_is_copied_from_the_packet_not_the_model(self):
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender", "reasons": ["Provisions rose 31% so losses accelerate."],
+             "catalyst_why": "Credit must crack in the report.",
+             "catalyst": {"date": "2099-01-01", "facts_line": "2099-01-01 (made up)"}},
+            "short",
+        )
+        self.assertEqual(writeup["catalyst"]["date"], "2026-10-30")
+        self.assertIn("2026-10-30", writeup["catalyst"]["facts_line"])
+
+    def test_nested_reflection_is_accepted(self):
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender", "reasons": ["Provisions rose 31% so losses accelerate."],
+             "catalyst_why": "Provisions must keep rising for this to work.",
+             "structuring": {"reflection": "Credit is 10.0% against me."}},
+            "short",
+        )
+        self.assertEqual(writeup["structuring"]["reflection"], "Credit is 10.0% against me.")
+
+    def test_assembled_note_passes_lint(self):
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Nonprime consumer loan lender",
+             "reasons": ["Provisions rose 31% quarter over quarter, so losses are accelerating.",
+                         "If charge-offs reach 10% the stock rerates lower."],
+             "reflection": "Credit is 14.8% mid but 10.0% if priced against me.",
+             "catalyst_why": "Provisions must keep rising for the thesis to be right."},
+            "short",
+        )
+        result = lint.lint_writeup(writeup)
+        self.assertTrue(result["ok"], result["issues"])
+
+
+class TestGrounding(unittest.TestCase):
+    """Reason prose is the only place a model could smuggle in an invented figure."""
+
+    EVIDENCE = (
+        "QUANTS\n  Price: 60.81\n  Market Cap: 7.0B\n  EPS revisions: 6 up / 8 down (30d)\n"
+        "STATEMENT MOVES\n  Net Income: decreasing 32.7%\n  Other Operating Items: increasing 31.0%\n"
+        "NEXT EARNINGS: 2026-10-30  consensus EPS 1.87559\n"
+        "  Subprime auto loan delinquency rate hit 6.8% at the start of 2026\n"
+        "  fwdPE(current FY) 8.57  fwdPE(next FY) 7.08\n"
+    )
+
+    def _note(self, reasons):
+        return {"description": "Lender", "reasons": reasons}
+
+    def test_grounded_figures_pass(self):
+        note = self._note(["Net income fell 32.7% while provisions rose 31%, so credit is worsening."])
+        report = lint.check_grounding(note, self.EVIDENCE)
+        self.assertTrue(report["grounded"], report)
+        self.assertEqual(report["unsupported"], [])
+
+    def test_rounded_figure_counts_as_grounded(self):
+        # The note may write 8.6 where the packet says 8.57.
+        report = lint.check_grounding(self._note(["It trades at 8.6x earnings."]), self.EVIDENCE)
+        self.assertTrue(report["grounded"], report)
+
+    def test_search_sourced_figure_is_grounded(self):
+        report = lint.check_grounding(
+            self._note(["Delinquency hit 6.8%, the worst in decades."]), self.EVIDENCE
+        )
+        self.assertTrue(report["grounded"], report)
+
+    def test_invented_figure_is_flagged(self):
+        report = lint.check_grounding(
+            self._note(["Provisions rose 47.3% quarter over quarter."]), self.EVIDENCE
+        )
+        self.assertFalse(report["grounded"])
+        self.assertIn("47.3", " ".join(report["unsupported"]))
+
+    def test_small_counts_and_years_are_ignored(self):
+        report = lint.check_grounding(
+            self._note(["Two bad quarters in 2027 could cut the dividend 5 times."]), self.EVIDENCE
+        )
+        self.assertTrue(report["grounded"], report)
+
+
+class TestCatalystLint(unittest.TestCase):
+    def _note(self, **catalyst):
+        base = {
+            "date": "2026-10-30",
+            "facts_line": "2026-10-30 (Friday, before the open), 41 days out.",
+            "why": "Provisions must keep rising for the thesis to hold.",
+        }
+        base.update(catalyst)
+        return {
+            "ticker": "TST",
+            "description": "Nonprime consumer loan lender",
+            "catalyst": base,
+            "reasons": ["Provisions rose 31% quarter over quarter, so losses accelerate.",
+                        "Charge-offs at 10% would cut earnings enough to force a rerate."],
+        }
+
+    def test_valid_catalyst_passes(self):
+        result = lint.lint_writeup(self._note())
+        self.assertTrue(result["ok"], result["issues"])
+
+    def test_missing_justification_is_an_error(self):
+        result = lint.lint_writeup(self._note(why=""))
+        self.assertFalse(result["ok"])
+        self.assertIn("catalyst_no_justification", " ".join(result["issues"]))
+
+    def test_overlong_justification_is_an_error(self):
+        result = lint.lint_writeup(self._note(why=" ".join(["word"] * 40)))
+        self.assertIn("catalyst_why_too_long", " ".join(result["issues"]))
+
+    def test_date_must_appear_in_the_stated_facts(self):
+        result = lint.lint_writeup(
+            self._note(facts_line="late January, roughly 41 days out, before the open")
+        )
+        self.assertIn("catalyst_date_mismatch", " ".join(result["issues"]))
+
+    def test_missing_catalyst_is_a_warning_not_a_blocker(self):
+        result = lint.lint_writeup({
+            "ticker": "TST",
+            "description": "Nonprime consumer loan lender",
+            "reasons": ["Provisions rose 31% quarter over quarter, so losses accelerate.",
+                        "Charge-offs at 10% would cut earnings enough to force a rerate."],
+        })
+        self.assertIn("catalyst_missing", " ".join(result["issues"]))
+        # No legs is acceptable now, so the note can still be ok.
+        self.assertTrue(result["ok"], result["issues"])
 
 
 class TestReferencesPresent(unittest.TestCase):

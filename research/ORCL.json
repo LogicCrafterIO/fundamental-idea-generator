@@ -1,0 +1,118 @@
+{
+  "ticker": "ORCL",
+  "direction": "long",
+  "as_of": "2026-09-19",
+  "description": "Enterprise software and cloud infrastructure company now growing on AI [artificial intelligence] infrastructure demand.",
+  "catalyst": {
+    "date": "2026-12-10",
+    "weekday": "Thursday",
+    "session": null,
+    "days_out": 82,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.89
+    },
+    "recent_reports": [
+      {
+        "date": "2026-09-10",
+        "eps_estimate": 1.74,
+        "eps_actual": 1.92,
+        "surprise_pct": 10.45,
+        "beat": true
+      },
+      {
+        "date": "2026-06-10",
+        "eps_estimate": 1.96,
+        "eps_actual": 2.11,
+        "surprise_pct": 7.52,
+        "beat": true
+      },
+      {
+        "date": "2026-03-10",
+        "eps_estimate": 1.69,
+        "eps_actual": 1.79,
+        "surprise_pct": 5.69,
+        "beat": true
+      },
+      {
+        "date": "2025-12-10",
+        "eps_estimate": 1.64,
+        "eps_actual": 2.26,
+        "surprise_pct": 38.04,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-12-10 (Thursday), 82 days out -- from the earnings calendar, consensus EPS 1.89.",
+    "why": "That report must show cloud revenue growth near 30% and backlog converting to recognized revenue, proving estimates still lag."
+  },
+  "reasons": [
+    "At 13.4x next-FY consensus EPS [earnings per share], Oracle trades below its 18.1x current-year multiple even as net income rose 10.8% quarter over quarter.",
+    "All four EPS [earnings per share] revisions in the last 30 days were upward, with consensus FY EPS rising from 8.053 to 8.141, a signal estimates are still catching up.",
+    "The $300 billion OpenAI deal and 30% year-over-year revenue growth show AI [artificial intelligence] demand is converting to recognized revenue, not just backlog."
+  ],
+  "quants": {
+    "price": 147.61,
+    "market_cap": "446.33B",
+    "fwd_pe": 18.1,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 6.2,
+    "eps_trend": "slightly up over the last 7 days",
+    "eps_revisions": "all up, with 4 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter total equity increasing 57% quarter over quarter (8/31/2026)",
+      "Last quarter other operating items decreasing 53% quarter over quarter (8/31/2026)",
+      "EPS increased year over year, 1.47 -> 1.92"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "18-Dec-26",
+        "strike": 155.0,
+        "qty": 3,
+        "underlying": 147.61,
+        "multiplier": 100,
+        "price": 13.88,
+        "total": 4164.0,
+        "open_interest": 2560
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 155.0,
+        "qty": 2,
+        "underlying": 147.61,
+        "multiplier": 100,
+        "price": 4.83,
+        "total": -966.0,
+        "open_interest": 6597
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-10 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.",
+    "reflection": "Credit ratio 22.6% clears the 10% floor, but the short October call expires before the December report, so the thesis must survive a roll or early assignment. Net debit is $3,198, so the trade needs the stock above 155 by December to pay."
+  },
+  "generation": {
+    "model": "deepseek-v4-pro:0813",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 8,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    }
+  }
+}

@@ -1,0 +1,1326 @@
+{
+  "symbol": "JEF",
+  "as_of": "2026-09-19",
+  "generated_at": "2026-09-19T20:44:55",
+  "profile": {
+    "symbol": "JEF",
+    "name": "Jefferies Financial Group Inc.",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "summary": "Jefferies Financial Group Inc. operates as an investment banking and capital markets firm in the Americas, Europe, the Middle East, and the Asia-Pacific. It operates in two segments, Investment Banking and Capital Markets, and Asset Management. The company provides investment banking and advisory services for mergers or acquisitions, debt financing, restructurings, and private capital advisory transactions; underwriting and placement services related to corporate debt, municipal debt, mortgage-backed and asset-backed securities, equity and equity-linked securities, and loan syndication services; and corporate lending services. It also offers financing, securities lending, and other prime brokerage services; equities research, sales, and trading services; wealth management services; and online foreign exchange trading services. In addition, the company provides investment-grade distressed debt securities, U.S. and European government and agency securities, municipal bonds, leveraged loans, emerging markets debt, interest rates, and credit index derivative products; and manages and offers services to a diverse group of alternative asset management platforms across a spectrum of investment strategies and asset classes. It serves public companies, private companies, sponsors and owners, institutional investors, and government entities. The company was formerly known as Leucadia National Corporation and changed its name to Jefferies Financial Group Inc. in May 2018. Jefferies Financial Group Inc. was founded in 1962 and is headquartered in New York, New York.",
+    "employees": 7371,
+    "country": "United States",
+    "website": "https://www.jefferies.com"
+  },
+  "quants": {
+    "symbol": "JEF",
+    "name": "Jefferies Financial Group Inc.",
+    "price": 47.9,
+    "market_cap": 9742477312,
+    "market_cap_human": "9.74B",
+    "fwd_pe": 13.16,
+    "fwd_pe_1y": 10.76,
+    "fwd_pe_yahoo": 10.75561,
+    "trailing_pe": 13.379889,
+    "ps": 1.1681815,
+    "ev_ebitda": null,
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "eps_fy_current": 3.63986,
+    "eps_fy_next": 4.45349,
+    "eps_trend": {
+      "change_7d_pct": 2.33,
+      "change_30d_pct": 2.33,
+      "current": 3.63986,
+      "7d_ago": 3.55713,
+      "30d_ago": 3.55713,
+      "text": "up over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 3,
+      "up_30d": 3,
+      "down_30d": 1,
+      "net_30d": 2,
+      "text": "tilted higher, with 3 up and 1 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "next_date": "2026-09-29",
+      "eps_avg": 0.99995,
+      "eps_low": 0.88986,
+      "eps_high": 1.06,
+      "revenue_avg": 2196340050
+    },
+    "as_of": "2026-09-19"
+  },
+  "quants_lines": [
+    "Price: 47.90 USD",
+    "Market Cap: 9.74B",
+    "Fwd PE: 13.16",
+    "P/S: 1.2",
+    "EPS trends: up over the last 7 days",
+    "EPS revisions: tilted higher, with 3 up and 1 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 255418.0,
+      "prior": 175204.0,
+      "change_pct": 45.8,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income Applicable to Common Shareholders",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 226461.0,
+      "prior": 155700.0,
+      "change_pct": 45.4,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Other Operating Items",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 47328.0,
+      "prior": 56865.0,
+      "change_pct": -16.8,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 24857866.0,
+      "prior": 21499784.0,
+      "change_pct": 15.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 1227295.0,
+      "prior": 1066351.0,
+      "change_pct": 15.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 2206451.0,
+      "prior": 2017130.0,
+      "change_pct": 9.4,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-06-24T16:00:00-04:00",
+    "current": 1.02,
+    "year_ago": 0.4,
+    "year_ago_period": "2025-06-25T16:00:00-04:00",
+    "change": 0.62,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "Jefferies Financial Group Inc. (JEF) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "publisher": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/quote/JEF/analysis/",
+      "summary": "Jefferies Financial Group Inc. (JEF) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\nOops, something went wrong\n\nNYSE - Nasdaq Real Time Price USD\n\n# Jefferies Financial Group Inc. (JEF)\n\nJEF: Risk or rebound?\n\n54.24 +1.05 (+1.97%)\n\nAt close: June 2 at 4:00:02 p.m. EDT\n\n55.16 +0.92 (+1.70%)\n\nAfter hours: 8:00:00 p.m. EDT\n\nJEF: Risk or rebound?\n\nQ1 FY26\n\nRevenue 2.02B\n\nEarnings 155.7M\n\nQ2\n\nFY25\n\nQ3\n\nFY25\n\nQ4\n\nFY25\n\nQ1\n\nFY26\n\n0\n\n500M\n\n1B\n\n2B\n\n2B\n\nCurrency in USD\n\nCurrent Qtr. (May 2026)\n\nNext Qtr. (Aug 2026)\n\nCurrent Year (2026)\n\nNext Year (2027)\n\n| No. of Analysts | 4 | 3 | 6 | 6 |\n| --",
+      "published": "2025-05-31",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "JEF Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/jef-stock-analysis/",
+      "summary": "JEF Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy Jefferies Financial Group Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-08-27 \u00b7 6/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, Jefferies Financial Group Inc. (JEF) carries a solid Quality of Company rating of 7.0/10. Trading at $52.84, our multi-model framework evaluates whether the company's financial profile offers a favorable risk-reward setup.\n\nThe short answer: 2 of 6 CirclFi valuation models project upside for Jefferies Financial Group Inc. (JEF) at $52.84 \u2014 the model con",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Jefferies Financial Group Q2 Preview: Favorable Trading But Private Credit Risks Linger | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4916500-jefferies-financial-group-q2-preview-favorable-trading-but-private-credit-risks-linger",
+      "summary": "Jefferies Financial Group Q2 Preview: Favorable Trading But Private Credit Risks Linger | Seeking Alpha\n\n# Jefferies Financial Group Q2 Preview: Favorable Trading But Private Credit Risks Linger\n\nJun 21, 2026, 8:00 AM ET Jefferies Financial Group Inc. (JEF) Stock 2 Comments\n\n## Summary\n\n- Jefferies Financial Group is rated 'hold' due to persistent private credit legal overhangs and elevated leverage, despite strong recent share performance.\n- JEF faces ongoing lawsuits and investment losses tied to fraud in private credit, with legal resolutions likely extending into 2027 and continued investo",
+      "published": "2026-06-21",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "regulation"
+      ]
+    },
+    {
+      "title": "Jefferies quarterly profit misses estimates as asset management weighs | Reuters",
+      "publisher": "reuters.com",
+      "url": "https://www.reuters.com/legal/transactional/jefferies-quarterly-profit-more-than-doubles-dealmaking-equities-strength-2026-06-24/",
+      "summary": "Jefferies quarterly profit misses estimates as asset management weighs | Reuters\n\n# Jefferies quarterly profit misses estimates as asset management weighs\n\nBy Arasu Kannagi Basil and Pragyan Kalita\n\nJune 24, 2026 8:37 PM UTC Updated June 24, 2026\n\nThe company logo for Jefferies Financial Group Inc. is displayed on a screen on the floor of the New York Stock Exchange (NYSE) in New York, U.S., July 30, 2025. REUTERS/Jeenah Moon Purchase Licensing Rights, opens new tab\n\n- Record investment banking revenue, fueled by strong dealmaking and equity underwriting\n- Jefferies cited strong backlog and bo",
+      "published": "2026-06-24",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Jefferies: Good Operating Performance In Q2 Overshadowed By Asset Management Woes (JEF) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4918059-jefferies-good-operating-performance-in-q2-overshadowed-by-asset-management-woes",
+      "summary": "Jefferies: Good Operating Performance In Q2 Overshadowed By Asset Management Woes (JEF) | Seeking Alpha\n\n# Jefferies: Good Operating Performance In Q2 Overshadowed By Asset Management Woes\n\nJun 26, 2026, 11:09 AM ET Jefferies Financial Group Inc. (JEF) Stock SMFG, GS, MS 5 Comments\n\n## Summary\n\n- Jefferies Financial Group Inc. delivered strong Q2 2026 results in Investment Banking and Capital Markets, with revenues up 35% quarter-over-quarter to $2.2 billion.\n- JEF\u2019s asset management unit remains a weak spot, with revenues down 35% YoY due to lingering private credit losses and muted investor ",
+      "published": "2026-06-26",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "consumer_credit"
+      ]
+    },
+    {
+      "title": "Should you buy JEF? \u2014 Verdict & fair-value range | TrendMatrix",
+      "publisher": "trendmatrix.com",
+      "url": "https://trendmatrix.com/stocks/jef/buy-or-sell",
+      "summary": "Should you buy JEF? \u2014 Verdict & fair-value range | TrendMatrix\n\n# Should you buy Jefferies Financial Group (JEF)?\n\nUpdated 2026-09-08\n\nModel-generated analysis \u2014 not investment advice. Not a registered investment advisor. Past performance does not guarantee future results.\n\nShow full disclosure \u25be Hide full disclosure \u25b4\n\nAbout TrendMatrix. TrendMatrix is a publisher of general securities research and market commentary. We publish on a regular schedule. All content is the same for every subscriber in a tier \u2014 we do not provide personalized investment advice and we do not take into account any in",
+      "published": "2026-09-08",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Jefferies (JEF) Linked Fund Faces Nearly $500M in Reported Radiant Exposure. Is the Parent Protected?",
+      "publisher": "Insider Monkey",
+      "published": "2026-09-10T20:00:04Z",
+      "summary": "Jefferies Financial Group Inc. (NYSE:JEF) faces renewed scrutiny of its trade-finance business after Reuters, citing the Financial Times, reported on September 5 that LAM Trade Finance Group II had nearly $500 million of exposure to Radiant World, its founder, and another entity. The reported London freezing order covered up to $499 million. On September 7, [\u2026]",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-jef-linked-fund-faces-200004565.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Jefferies rises as Oppenheimer calls it attractively valued, raises Q3 profit estimate - JEF News | Rallies",
+      "publisher": "rallies.ai",
+      "url": "https://rallies.ai/news/jefferies-rises-as-oppenheimer-calls-it-attractively-valued-raises-q3-profit-estimate-75b072a94ae16841",
+      "summary": "# Jefferies rises as Oppenheimer calls it attractively valued, raises Q3 profit estimate\n\nJ JEF\u2022 2026-09-17\n\n### Oppenheimer raises estimates on Jefferies\n\n** Shares of investment bank Jefferies Financial Group JEF.N rise 2.4% to $48.50 in premarket trading\n\n** Oppenheimer calls JEF \"best positioned and most attractively valued investment bank\"; cites exposure to expected M&A revival\n\n** Raises Q3 EPS estimate to $1.06 from $0.67 on stronger equity underwriting, completed M&As\n\n** Lifts investment banking revenue estimate to $1.27 bln from $1.06 bln, largely reflecting higher equity and M&A re",
+      "published": "2026-09-17",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Oppenheimer Adjusts Jefferies Financial PT to $76 From $83, Maintains Outperform Rating | MarketScreener",
+      "publisher": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/oppenheimer-adjusts-jefferies-financial-pt-to-76-from-83-maintains-outperform-rating-ce785bd3dd80fe24",
+      "summary": "Oppenheimer Adjusts Jefferies Financial PT to $76 From $83, Maintains Outperform Rating | MarketScreener\n\n| Market Closed - NYSE 04:00:02 2026-09-17 pm EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 47.87 USD | +1.10% | | -11.24% | -22.75% |\n\n# Oppenheimer Adjusts Jefferies Financial PT to $76 From $83, Maintains Outperform Rating \n\nPublished on 09/17/2026 at 08:43 am EDT\n\n### Chart Jefferies Financial Group Inc. \n\nSector\n\n Investment Banking & Brokerage Services \n\nQuality\n\nThis composite rating is the result of an average of rankings based on the following ratings",
+      "published": "2026-09-17",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "JEF Stock Forecast 2026-2027 - Jefferies Financial Group, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/jef-forecast/",
+      "summary": "JEF Stock Forecast 2026-2027 - Jefferies Financial Group, Inc. Price Targets & Predictions\n\n# JEF Stock Forecast: Jefferies Financial Group, Inc. Price Predictions for 2026-2027\n\nLast close, 18 Sept 2026\n\n$48\n\n+0.06% on the day\n\nThe 6 Wall Street analysts covering Jefferies Financial Group, Inc. hold a median 12-month price target of $59 \u2014 +23.2% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 61 of 100 as at 17 Sept 2026 \u2014 in the upper half.\n\nMarket cap\n\n$9.6B\n\nTicker Nerd rank\n\n61 / 100\n\nMedian analyst target\n\n$59\n\nAnalysts covering\n\n6\n\nReven",
+      "published": "2026-09-18",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Is Investment Banking Growth Altering The Investment Case For Jefferies Stock? - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-jef/jefferies-financial-group/news/is-investment-banking-growth-altering-the-investment-case-fo",
+      "summary": "Is Investment Banking Growth Altering The Investment Case For Jefferies Stock? - Simply Wall St News\n\n# Is Investment Banking Growth Altering The Investment Case For Jefferies Stock?\n\n September 18, 2026\n\nSimply Wall St Reviewed by Sasha Jovanovic\n\n- Jefferies Financial Group recently announced several fixed income offerings, including new fixed and floating rate notes across 2028 to 2051 maturities, with features such as callable structures, senior unsecured status, and pricing at 100% of principal.\n- The mix of long dated and intermediate maturity bonds, alongside both fixed and variable cou",
+      "published": "2026-09-18",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Jefferies\u2019 next financial update is set for Sept. 28",
+      "publisher": "stocktitan.net",
+      "url": "https://www.stocktitan.net/news/JEF/jefferies-to-release-its-third-quarter-financial-results-on-p7g9zpki7ttf.html",
+      "summary": "# Jefferies\u2019 next financial update is set for Sept. 28\n\nPublished: 2026-09-14T20:30:00+00:00\nSource: stocktitan.net (stocktitan.net)\nLanguage: en\n\n## Story\n\nJefferies to Release its Third Quarter Financial Results on September 28, 2026\n\nJefferies Financial Group (JEF) will release its third quarter financial results on Monday, September 28, 2026, after the market close.\n\n--(BUSINESS WIRE)-- Jefferies Financial Group Inc. (NYSE: JEF) today announced it will release its third quarter financial results on Monday, September 28, 2026 after market close.\n\nJefferies (NYSE: JEF) is one of the world\u2019s ",
+      "published": "2026-09-28",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Do Options Traders Know Something About Jefferies Stock We Don't?",
+      "publisher": "Zacks",
+      "created": "Aug 17, 2026",
+      "ago": "Aug 17, 2026",
+      "url": "/articles/do-options-traders-know-something-about-jefferies-stock-we-dont",
+      "primary_symbol": null,
+      "related_symbols": [
+        "JEF"
+      ],
+      "summary": "Investors need to pay close attention to JEF stock based on the movements in the options market lately.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why Is Jefferies (JEF) Up 5.6% Since Last Earnings Report?",
+      "publisher": "Zacks",
+      "created": "Jul 24, 2026",
+      "ago": "Jul 24, 2026",
+      "url": "/articles/why-jefferies-jef-56-last-earnings-report",
+      "primary_symbol": null,
+      "related_symbols": [
+        "JEF"
+      ],
+      "summary": "Jefferies (JEF) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Jefferies Group (JEF) Shares Cross Above 200 DMA",
+      "publisher": "BNK Invest",
+      "created": "Sep 3, 2026",
+      "ago": "Sep 3, 2026",
+      "url": "/articles/jefferies-group-jef-shares-cross-above-200-dma",
+      "primary_symbol": "JEF",
+      "related_symbols": [
+        "JEF"
+      ],
+      "summary": "In trading on Thursday, shares of Jefferies Group Inc. (Symbol: JEF) crossed above their 200 day moving average of $53.51, changing hands as high as $54.72 per share.  Jefferies Group Inc. shares are currently trading up about 1.4% on the day.  The chart below shows the one year",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Jefferies Credit Partners Launches $4 Bln European Direct Lending Strategy",
+      "publisher": "RTTNews",
+      "created": "Sep 9, 2026",
+      "ago": "Sep 9, 2026",
+      "url": "/articles/jefferies-credit-partners-launches-4-bln-european-direct-lending-strategy",
+      "primary_symbol": "JEF",
+      "related_symbols": [
+        "JEF"
+      ],
+      "summary": "(RTTNews) - Jefferies Credit Partners, the asset management arm of Jefferies Finance LLC, announced on Wednesday that it has secured about $4 billion in lending capacity for its European direct lending strategy, anchored by the first close of its inaugural European fund backed by",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Why Wendy's Stock Wilted on Monday",
+      "publisher": "The Motley Fool",
+      "created": "Aug 10, 2026",
+      "ago": "Aug 10, 2026",
+      "url": "/articles/why-wendys-stock-wilted-monday",
+      "primary_symbol": "WEN",
+      "related_symbols": [
+        "WEN",
+        "MS",
+        "JEF"
+      ],
+      "summary": "Key PointsThese only exacerbated the gloom following the company's dividend cut.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "XPeng\u2019s Top Secret AI Robotics Program Outshines EV Woes",
+      "publisher": "MarketBeat",
+      "created": "Aug 25, 2026",
+      "ago": "Aug 25, 2026",
+      "url": "/articles/xpengs-top-secret-ai-robotics-program-outshines-ev-woes",
+      "primary_symbol": "XPEV",
+      "related_symbols": [
+        "XPEV",
+        "BABA",
+        "BAC",
+        "JEF"
+      ],
+      "summary": "When earnings miss the mark, the market often reacts with ruthless efficiency\u2014selling first and parsing the details later. That is seemingly the setup currently unfolding with XPeng Inc. (NYSE: XPEV).\n\nThe market recently punished the company following a top-line miss in the aut",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Why Salesforce Stock Is Soaring This Week",
+      "publisher": "The Motley Fool",
+      "created": "Aug 27, 2026",
+      "ago": "Aug 27, 2026",
+      "url": "/articles/why-salesforce-stock-soaring-week",
+      "primary_symbol": "CRM",
+      "related_symbols": [
+        "CRM",
+        "RJF",
+        "JEF"
+      ],
+      "summary": "Key PointsSalesforce reported second-quarter 2027 financial results yesterday.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "2 Premier Artificial Intelligence (AI) Stocks That Can Plunge Up to 63%, According to Select Wall Street Analysts",
+      "publisher": "The Motley Fool",
+      "created": "Aug 28, 2026",
+      "ago": "Aug 28, 2026",
+      "url": "/articles/2-premier-artificial-intelligence-ai-stocks-can-plunge-63-according-select-wall-street",
+      "primary_symbol": "PLTR",
+      "related_symbols": [
+        "PLTR",
+        "TSLA",
+        "WFC",
+        "JEF"
+      ],
+      "summary": "Key PointsAlthough the AI revolution has powered the benchmark S&P 500 to all-time highs, optimism isn't universal among Wall Street analysts.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Lazard Stock Plunges 14% in 6 Months: Buy the Dip or Cut Your Losses?",
+      "publisher": "Zacks",
+      "created": "Aug 31, 2026",
+      "ago": "Aug 31, 2026",
+      "url": "/articles/lazard-stock-plunges-14-6-months-buy-dip-or-cut-your-losses",
+      "primary_symbol": null,
+      "related_symbols": [
+        "LAZ",
+        "JEF",
+        "VIRT"
+      ],
+      "summary": "LAZ's weak earnings and elevated costs cloud its near-term outlook, while rising AUM offers long-term potential. Is LAZ a buy or a sell?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "JPM Q2 Earnings Beat on Trading & IB, Higher Cost Outlook Drags Stock",
+      "publisher": "Zacks",
+      "created": "Jul 14, 2026",
+      "ago": "Jul 14, 2026",
+      "url": "/articles/jpm-q2-earnings-beat-trading-ib-higher-cost-outlook-drags-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "JPM",
+        "MS",
+        "JEF"
+      ],
+      "summary": "JPMorgan's Q2 earnings beat estimates as Markets and IB surged, while shares dipped on a higher 2026 expense outlook despite a raised NII target.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Raymond James Q3 Earnings Beat on Higher Revenues, Provision Benefit",
+      "publisher": "Zacks",
+      "created": "Jul 23, 2026",
+      "ago": "Jul 23, 2026",
+      "url": "/articles/raymond-james-q3-earnings-beat-higher-revenues-provision-benefit",
+      "primary_symbol": null,
+      "related_symbols": [
+        "RJF",
+        "SCHW",
+        "JEF"
+      ],
+      "summary": "RJF's fiscal Q3 profit beat estimates as record revenues and a $26 million credit-loss benefit offset higher expenses.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "consumer_credit",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Eli Lilly Is Acquiring AtaiBeckley for $2.8 Billion. Cathie Wood Thinks Another Psychedelic Drug Stock Is an Even Better Bet.",
+      "publisher": "The Motley Fool",
+      "created": "Jul 29, 2026",
+      "ago": "Jul 29, 2026",
+      "url": "/articles/eli-lilly-acquiring-ataibeckley-28-billion-cathie-wood-thinks-another-psychedelic-drug",
+      "primary_symbol": "CMPS",
+      "related_symbols": [
+        "CMPS",
+        "LLY",
+        "JEF",
+        "ARKG"
+      ],
+      "summary": "Key PointsOne of Cathie Wood's funds just sold some AtaiBeckley shares.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Moelis & Company Q2 Earnings Beat Estimates on Higher Revenues",
+      "publisher": "Zacks",
+      "created": "Jul 30, 2026",
+      "ago": "Jul 30, 2026",
+      "url": "/articles/moelis-company-q2-earnings-beat-estimates-higher-revenues",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MC",
+        "JEF",
+        "LAZ"
+      ],
+      "summary": "MC's Q2 earnings beat estimates as revenues rise 12% on higher average fees per completed transaction despite higher expenses.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Why GE Vernova Stock Bumped Higher Today",
+      "publisher": "The Motley Fool",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/why-ge-vernova-stock-bumped-higher-today",
+      "primary_symbol": "GEV",
+      "related_symbols": [
+        "GEV",
+        "JEF"
+      ],
+      "summary": "GE Vernova (NYSE: GEV), the engineering company that's a legacy business of storied General Electric, saw its share price rise modestly on the second-to-last trading day of the week. Investors were comforted by their company's announcement of a legal victory, and the positive sen",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Why TJX Companies Stock Got Thrashed in August",
+      "publisher": "The Motley Fool",
+      "created": "Sep 4, 2026",
+      "ago": "Sep 4, 2026",
+      "url": "/articles/why-tjx-companies-stock-got-thrashed-august",
+      "primary_symbol": "TJX",
+      "related_symbols": [
+        "TJX",
+        "JEF"
+      ],
+      "summary": "Key PointsThe company's second-quarter results weren't bad, overall.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Adobe Q3 \u2018Uneventful\u2019 Even As AI ARR Tops $650M, Jefferies Says \u2014 Citi Flags Slowing Growth",
+      "publisher": "Stocktwits",
+      "published": "2026-09-11T10:56:17Z",
+      "summary": "Adobe raised full-year revenue and earnings targets after record third-quarter revenue. Jefferies and Citi cut price targets, according to TheFly.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/adobe-q3-uneventful-even-as-ai-arr-tops-650-m-jefferies-says-citi-flags-slowing-growth/cZtXhW6RBGk",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 1,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Jefferies favors senior housing in healthcare REIT coverage launch",
+      "publisher": "Investing.com",
+      "published": "2026-09-15T14:41:00Z",
+      "summary": "Investing.com -- On Tuesday, Jefferies launched coverage of large-cap U.S. healthcare real estate investment trusts, favoring senior housing as its preferred way to play the sector.",
+      "url": "https://finance.yahoo.com/healthcare/articles/jefferies-favors-senior-housing-healthcare-144100852.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "McDonald's target falls to $325, but Jefferies keeps faith in recovery",
+      "publisher": "Proactive",
+      "published": "2026-09-15T19:17:00Z",
+      "summary": "McDonald's Corp (NYSE:MCD, XETRA:MDO) retained Jefferies' backing despite a price target cut to $325 from $350, with management still needing to convince investors that a sales recovery is achievable. Shares traded down 1% to $253.67 on September 15, as the broker maintained its...",
+      "url": "https://www.proactiveinvestors.com/companies/news/1098590/mcdonald-s-target-falls-to-325-but-jefferies-keeps-faith-in-recovery-1098590.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 1,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why Jefferies Is Bullish on Formula One Stock Now",
+      "publisher": "Barchart",
+      "published": "2026-09-15T19:26:04Z",
+      "summary": "Jefferies\u2019 bullish $115 target puts FWONK stock in the spotlight as the company's global popularity and premium sports assets create a compelling path for growth.",
+      "url": "https://www.barchart.com/story/news/4619736/why-jefferies-is-bullish-on-formula-one-stock-now",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 1,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Jefferies could get Q3 boost from dealmaking pickup, Oppenheimer says \u2014 Daily Digest Invest",
+      "publisher": "dailydigestinvest.com",
+      "url": "https://dailydigestinvest.com/jefferies-could-get-q3-boost-from-dealmaking-pickup-oppenheimer-says",
+      "summary": "Jefferies could get Q3 boost from dealmaking pickup, Oppenheimer says \u2014 Daily Digest Invest\n\n# Jefferies could get Q3 boost from dealmaking pickup, Oppenheimer says\n\nStocks \u00b7 2026\n\nPhoto \u00b7 Eleanor Whitfield for Daily Digest Invest\n\nBy Eleanor Whitfield Markets Editor-in-Chief Sep 17, 2026 4 min read\n\n- Oppenheimer lifted its third-quarter investment banking outlook for Jefferies to $1.274 billion, citing firmer M&A and equity underwriting.\n- The firm also raised its earnings per share estimate to $1.06 from $0.67 ahead of Jefferies' Sept.\n\nJefferies Financial Group could see a stronger-than-ex",
+      "published": "2026-09-17",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) stock news earnings guidance",
+      "relevance": 1,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Jefferies to Benefit From Increased Investment Banking Momentum, Oppenheimer Says",
+      "publisher": "MT Newswires",
+      "published": "2026-09-17T21:16:29Z",
+      "summary": "Jefferies Financial (JEF) is poised to benefit from increased investment banking momentum in the thi",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-benefit-increased-investment-banking-211629164.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Document",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/96223/000009622326000021/jfgpressrelease5312026.htm",
+      "summary": "| | FOR MORE INFORMATION Jonathan Freedman 212.778.8913 |\n| --- | --- |\n\nNEW YORK \u2014 Jefferies Financial Group Inc. (NYSE: JEF)\n\nJune 24, 2026\n\nQ2 Financial Highlights \n\n| $ in thousands, except per share amounts | Quarter End | | | | | | Year-to-Date | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 2Q26 | | | 2Q25 | | | 2026 | | | 2025 | | |\n| Net earnings attributable to common shareholders | $ | 226,234 | | $ | 88,017 | | $ | 382,161 | | $ | 215,955 | |\n| Diluted earnings per voting common share | $ | 1.02 | | $ | 0.40 | | $ | 1.70 | | $ | 0.97 ",
+      "published": "2026-06-24",
+      "source": "ollama_search",
+      "query": "Jefferies Financial Group Inc. (JEF) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "August US Overall Consumer Prices Expected to Rise by 0.4%, Core Prices Up 0.2%",
+      "publisher": "MT Newswires",
+      "published": "2026-09-10T18:30:37Z",
+      "summary": "The US Consumer Price Index is expected to increase by 0.4% in August after a 0.1% gain in July, acc",
+      "url": "https://finance.yahoo.com/economy/articles/august-us-overall-consumer-prices-183037918.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Sector Update: Financial Stocks Higher Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-09-11T20:00:51Z",
+      "summary": "Financial stocks were advancing in late Friday afternoon trading, with the NYSE Financial Index risi",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-afternoon-200051514.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Sector Update: Financial Stocks Rise Thursday Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-09-17T17:57:53Z",
+      "summary": "Financial stocks were advancing in Thursday afternoon trading, with the NYSE Financial Index rising",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-rise-thursday-175753865.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Five Below (FIVE) Stock Sees Fair Value Lift After Q2 Results And Higher Guidance",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-18T19:12:01Z",
+      "summary": "Five Below is back in focus after a fresh update to its fair value estimate, which has shifted from US$264.45 to US$310.95 in the latest model. This change lines up with a more constructive tone from much of Wall Street, where bullish analysts point to recent Q2 results, higher guidance and a fuller earnings framework, while more cautious voices flag valuation and the risk that current momentum may not fully carry into future profits. As you read on, you will see how to track these moving...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/five-below-five-stock-sees-191201441.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 11,
+        "share": 0.458,
+        "evidence": [
+          {
+            "title": "Jefferies Financial Group Inc. (JEF) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+            "publisher": "ca.finance.yahoo.com",
+            "published": "2025-05-31",
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "Jefferies quarterly profit misses estimates as asset management weighs | Reuters",
+            "publisher": "reuters.com",
+            "published": "2026-06-24",
+            "matched": [
+              "estimate",
+              "misses"
+            ]
+          },
+          {
+            "title": "Jefferies rises as Oppenheimer calls it attractively valued, raises Q3 profit estimate - JEF News | Rallies",
+            "publisher": "rallies.ai",
+            "published": "2026-09-17",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "JEF Stock Forecast 2026-2027 - Jefferies Financial Group, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-18",
+            "matched": [
+              "forecast"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.167,
+        "evidence": [
+          {
+            "title": "JEF Stock Forecast 2026-2027 - Jefferies Financial Group, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-18",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Do Options Traders Know Something About Jefferies Stock We Don't?",
+            "publisher": "Zacks",
+            "published": "Aug 17, 2026",
+            "matched": [
+              "options"
+            ]
+          },
+          {
+            "title": "Adobe Q3 \u2018Uneventful\u2019 Even As AI ARR Tops $650M, Jefferies Says \u2014 Citi Flags Slowing Growth",
+            "publisher": "Stocktwits",
+            "published": "2026-09-11T10:56:17Z",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "McDonald's target falls to $325, but Jefferies keeps faith in recovery",
+            "publisher": "Proactive",
+            "published": "2026-09-15T19:17:00Z",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 3,
+        "share": 0.125,
+        "evidence": [
+          {
+            "title": "JEF Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Why Jefferies Is Bullish on Formula One Stock Now",
+            "publisher": "Barchart",
+            "published": "2026-09-15T19:26:04Z",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "Five Below (FIVE) Stock Sees Fair Value Lift After Q2 Results And Higher Guidance",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-18T19:12:01Z",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "consumer_credit",
+        "label": "Consumer credit deterioration",
+        "description": "Stress in household balance sheets showing up as loan losses.",
+        "count": 2,
+        "share": 0.083,
+        "evidence": [
+          {
+            "title": "Jefferies: Good Operating Performance In Q2 Overshadowed By Asset Management Woes (JEF) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-26",
+            "matched": [
+              "credit loss"
+            ]
+          },
+          {
+            "title": "Raymond James Q3 Earnings Beat on Higher Revenues, Provision Benefit",
+            "publisher": "Zacks",
+            "published": "Jul 23, 2026",
+            "matched": [
+              "provision"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.042,
+        "evidence": [
+          {
+            "title": "Jefferies Financial Group Q2 Preview: Favorable Trading But Private Credit Risks Linger | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-21",
+            "matched": [
+              "leverage"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.042,
+        "evidence": [
+          {
+            "title": "Jefferies Financial Group Q2 Preview: Favorable Trading But Private Credit Risks Linger | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-21",
+            "matched": [
+              "lawsuit"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 1,
+        "share": 0.042,
+        "evidence": [
+          {
+            "title": "Jefferies quarterly profit misses estimates as asset management weighs | Reuters",
+            "publisher": "reuters.com",
+            "published": "2026-06-24",
+            "matched": [
+              "backlog"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 1,
+        "share": 0.042,
+        "evidence": [
+          {
+            "title": "Why Wendy's Stock Wilted on Monday",
+            "publisher": "The Motley Fool",
+            "published": "Aug 10, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-09-29"
+    ],
+    "next_date": "2026-09-29",
+    "eps_avg": 0.99995,
+    "eps_low": 0.88986,
+    "eps_high": 1.06,
+    "revenue_avg": 2196340050
+  },
+  "catalyst": {
+    "date": "2026-09-28",
+    "weekday": "Monday",
+    "days_out": 9,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 0.87
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-24",
+        "eps_estimate": 1.24,
+        "eps_actual": 1.02,
+        "surprise_pct": -18.05,
+        "beat": false
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 0.89,
+        "eps_actual": 0.7,
+        "surprise_pct": -21.35,
+        "beat": false
+      },
+      {
+        "date": "2026-01-07",
+        "eps_estimate": 0.8,
+        "eps_actual": 0.96,
+        "surprise_pct": 20.0,
+        "beat": true
+      },
+      {
+        "date": "2025-09-29",
+        "eps_estimate": 0.8,
+        "eps_actual": 1.01,
+        "surprise_pct": 26.25,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "beat_rate": 0.5,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-28 (Monday, after the close), 9 days out -- from the earnings calendar, consensus EPS 0.87."
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "JEF",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 47.9,
+      "catalyst": "2026-12-29",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 50.0,
+        "premium": 3.6,
+        "bid": 2.9,
+        "ask": 4.3,
+        "mid": 3.6,
+        "last": 3.8,
+        "open_interest": 112,
+        "volume": 3.0,
+        "implied_vol": 0.4753470434570312,
+        "qty": 12
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 50.0,
+        "premium": 1.57,
+        "bid": 1.4,
+        "ask": 1.75,
+        "mid": 1.57,
+        "last": 1.3,
+        "open_interest": 38,
+        "volume": 35.0,
+        "implied_vol": 0.49414568359375005,
+        "qty": 4
+      },
+      "long_total": 4320.0,
+      "short_total": 628.0,
+      "net_debit": 3692.0,
+      "credit_ratio_mid": 0.1454,
+      "credit_ratio_conservative": 0.1085,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "15-Jan-27",
+          "strike": 50.0,
+          "qty": 12,
+          "underlying": 47.9,
+          "multiplier": 100,
+          "price": 3.6,
+          "total": 4320.0,
+          "open_interest": 112
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 50.0,
+          "qty": 4,
+          "underlying": 47.9,
+          "multiplier": 100,
+          "price": 1.57,
+          "total": -628.0,
+          "open_interest": 38
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-29 catalyst; long expires 15-Jan-27, after it",
+        "targets report #3 (2026-12-29); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 50, 52.5, 55, 57.5"
+      ],
+      "advice": "Credit ratio 10.9% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0363,
+          "credit_ratio_conservative": 0.0271,
+          "passes_floor": false,
+          "cash_collected": 157.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0727,
+          "credit_ratio_conservative": 0.0543,
+          "passes_floor": false,
+          "cash_collected": 314.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.109,
+          "credit_ratio_conservative": 0.0814,
+          "passes_floor": false,
+          "cash_collected": 471.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1454,
+          "credit_ratio_conservative": 0.1085,
+          "passes_floor": true,
+          "cash_collected": 628.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1817,
+          "credit_ratio_conservative": 0.1357,
+          "passes_floor": true,
+          "cash_collected": 785.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2181,
+          "credit_ratio_conservative": 0.1628,
+          "passes_floor": true,
+          "cash_collected": 942.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2544,
+          "credit_ratio_conservative": 0.1899,
+          "passes_floor": true,
+          "cash_collected": 1099.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2907,
+          "credit_ratio_conservative": 0.2171,
+          "passes_floor": true,
+          "cash_collected": 1256.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3271,
+          "credit_ratio_conservative": 0.2442,
+          "passes_floor": true,
+          "cash_collected": 1413.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.3634,
+          "credit_ratio_conservative": 0.2713,
+          "passes_floor": true,
+          "cash_collected": 1570.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.3998,
+          "credit_ratio_conservative": 0.2984,
+          "passes_floor": true,
+          "cash_collected": 1727.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.4361,
+          "credit_ratio_conservative": 0.3256,
+          "passes_floor": true,
+          "cash_collected": 1884.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "JEF",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 47.9,
+      "catalyst": "2026-12-29",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 45.0,
+        "premium": 2.98,
+        "bid": 2.45,
+        "ask": 3.5,
+        "mid": 2.98,
+        "last": 3.2,
+        "open_interest": 365,
+        "volume": 1,
+        "implied_vol": 0.4563042651367188,
+        "qty": 15
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 45.0,
+        "premium": 1.23,
+        "bid": 1.15,
+        "ask": 1.3,
+        "mid": 1.23,
+        "last": 1.25,
+        "open_interest": 64,
+        "volume": 117.0,
+        "implied_vol": 0.4848684326171875,
+        "qty": 5
+      },
+      "long_total": 4470.0,
+      "short_total": 615.0,
+      "net_debit": 3855.0,
+      "credit_ratio_mid": 0.1376,
+      "credit_ratio_conservative": 0.1095,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "15-Jan-27",
+          "strike": 45.0,
+          "qty": 15,
+          "underlying": 47.9,
+          "multiplier": 100,
+          "price": 2.98,
+          "total": 4470.0,
+          "open_interest": 365
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 45.0,
+          "qty": 5,
+          "underlying": 47.9,
+          "multiplier": 100,
+          "price": 1.23,
+          "total": -615.0,
+          "open_interest": 64
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-29 catalyst; long expires 15-Jan-27, after it",
+        "targets report #3 (2026-12-29); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 45, 47.5, 42.5, 40"
+      ],
+      "advice": "Credit ratio 11.0% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0275,
+          "credit_ratio_conservative": 0.0219,
+          "passes_floor": false,
+          "cash_collected": 123.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.055,
+          "credit_ratio_conservative": 0.0438,
+          "passes_floor": false,
+          "cash_collected": 246.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0826,
+          "credit_ratio_conservative": 0.0657,
+          "passes_floor": false,
+          "cash_collected": 369.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1101,
+          "credit_ratio_conservative": 0.0876,
+          "passes_floor": false,
+          "cash_collected": 492.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1376,
+          "credit_ratio_conservative": 0.1095,
+          "passes_floor": true,
+          "cash_collected": 615.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1651,
+          "credit_ratio_conservative": 0.1314,
+          "passes_floor": true,
+          "cash_collected": 738.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1926,
+          "credit_ratio_conservative": 0.1533,
+          "passes_floor": true,
+          "cash_collected": 861.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2201,
+          "credit_ratio_conservative": 0.1752,
+          "passes_floor": true,
+          "cash_collected": 984.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2477,
+          "credit_ratio_conservative": 0.1971,
+          "passes_floor": true,
+          "cash_collected": 1107.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2752,
+          "credit_ratio_conservative": 0.219,
+          "passes_floor": true,
+          "cash_collected": 1230.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.3027,
+          "credit_ratio_conservative": 0.241,
+          "passes_floor": true,
+          "cash_collected": 1353.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.3302,
+          "credit_ratio_conservative": 0.2629,
+          "passes_floor": true,
+          "cash_collected": 1476.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.3577,
+          "credit_ratio_conservative": 0.2848,
+          "passes_floor": true,
+          "cash_collected": 1599.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3852,
+          "credit_ratio_conservative": 0.3067,
+          "passes_floor": true,
+          "cash_collected": 1722.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.4128,
+          "credit_ratio_conservative": 0.3286,
+          "passes_floor": true,
+          "cash_collected": 1845.0
+        }
+      ]
+    }
+  }
+}

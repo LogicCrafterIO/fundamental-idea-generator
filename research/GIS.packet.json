@@ -1,0 +1,1449 @@
+{
+  "symbol": "GIS",
+  "as_of": "2026-09-19",
+  "generated_at": "2026-09-19T20:52:32",
+  "profile": {
+    "symbol": "GIS",
+    "name": "General Mills, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods",
+    "summary": "General Mills, Inc. manufactures and markets branded consumer food in the United States and internationally. The company operates through four segments: North America Retail; International; North America Pet; and North America Foodservice. It offers snacks, including grain, fruit and savory snacks, nutrition bars, and frozen hot snacks; ready-to-eat cereal; convenient meals comprising meal kits, ethnic meals, pizza, soup, side dish mixes, frozen breakfast, and frozen entrees; wholesome natural pet food; refrigerated and frozen dough; baking mixes and ingredients; and ice cream products. The company also offers dog and cat food, such as dry food, wet food, fresh food, and treats. In addition, it operates 232 and franchises 376 ice cream parlors. The company markets its products under the Annie's, Betty Crocker, Bisquick, Blue Buffalo, Bugles, Cascadian Farm, Cheerios, Chex, Cinnamon Toast Crunch, Cocoa Puffs, Cookie Crisp, Dunkaroos, Edgard & Cooper, Fiber One, Fruit by the Foot, Fruit Gushers, Fruit Roll-Ups, Gardetto's, Gold Medal, Golden Grahams, H\u00e4agen-Dazs, Kitano, Kix, L\u00e4rabar, Latina, Lucky Charms, Nature Valley, Nudges, Oatmeal Crisp, Old El Paso, Pillsbury, Progresso, Tastefuls, Tiki Pets, Total, Totino's, Trix, True Solutions, Wanchai Ferry, Wheaties, Wilderness, and Yoki brands. It sells its products to grocery stores, mass merchandisers, membership stores, natural food chains, drug, dollar and discount chains, e-commerce retailers, commercial and noncommercial foodservice distributors and operators, restaurants, convenience stores, and pet specialty stores. The company was founded in 1866 and is headquartered in Minneapolis, Minnesota.",
+    "employees": 30000,
+    "country": "United States",
+    "website": "https://www.generalmills.com"
+  },
+  "quants": {
+    "symbol": "GIS",
+    "name": "General Mills, Inc.",
+    "price": 36.32,
+    "market_cap": 19417741312,
+    "market_cap_human": "19.42B",
+    "fwd_pe": 11.83,
+    "fwd_pe_1y": 11.39,
+    "fwd_pe_yahoo": 11.393331,
+    "trailing_pe": null,
+    "ps": 1.053903,
+    "ev_ebitda": 9.532,
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods",
+    "eps_fy_current": 3.07113,
+    "eps_fy_next": 3.18783,
+    "eps_trend": {
+      "change_7d_pct": -0.19,
+      "change_30d_pct": -0.23,
+      "current": 3.07113,
+      "7d_ago": 3.07701,
+      "30d_ago": 3.07807,
+      "text": "slightly down over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 0,
+      "down_7d": 1,
+      "up_30d": 0,
+      "down_30d": 2,
+      "net_30d": -2,
+      "text": "all down, with 0 up and 2 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-23"
+      ],
+      "next_date": "2026-09-23",
+      "eps_avg": 0.71775,
+      "eps_low": 0.68,
+      "eps_high": 0.76,
+      "revenue_avg": 4346502720
+    },
+    "as_of": "2026-09-19"
+  },
+  "quants_lines": [
+    "Price: 36.32 USD",
+    "Market Cap: 19.42B",
+    "Fwd PE: 11.83",
+    "P/S: 1.1",
+    "EPS trends: slightly down over the last 7 days",
+    "EPS revisions: all down, with 0 up and 2 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 2007900.0,
+      "prior": 303100.0,
+      "change_pct": 562.5,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 2231900.0,
+      "prior": 406500.0,
+      "change_pct": 449.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 453800.0,
+      "prior": 785500.0,
+      "change_pct": -42.2,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Equity",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 7368400.0,
+      "prior": 9343300.0,
+      "change_pct": -21.1,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 1646800.0,
+      "prior": 1857100.0,
+      "change_pct": -11.3,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/22/2026",
+      "current": 888100.0,
+      "prior": 812900.0,
+      "change_pct": 9.3,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-01T07:00:00-04:00",
+    "current": 0.95,
+    "year_ago": 0.74,
+    "year_ago_period": "2025-06-25T07:00:00-04:00",
+    "change": 0.21,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "GIS Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/gis-stock-analysis/",
+      "summary": "GIS Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy General Mills, Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-08-27 \u00b7 10/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, General Mills, Inc. (GIS) carries a solid Quality of Company rating of 6.2/10. Trading at $40.44, our multi-model framework evaluates whether the company's financial profile offers a favorable risk-reward setup.\n\nThe short answer: 7 of 10 CirclFi valuation models project upside for General Mills, Inc. (GIS) at $40.44 \u2014 the model consensus leans bullish, with a Qu",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4916649-general-mills-heading-into-fy27-the-setup-worries-me-earnings-preview",
+      "summary": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# General Mills: Heading Into FY27, The Setup Worries Me (Rating Downgrade)\nJun 23, 2026, 8:00 AM ETGeneral Mills, Inc. (GIS) Stock40 Comments\n\nLuca Socci\nInvesting Group\nFollow\n## Summary\n* General Mills faces ongoing volume softness and portfolio reshaping and is down 31% since December 2025.\n* Despite a 7.3% yield, GIS is",
+      "published": "2026-06-23",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "positioning"
+      ]
+    },
+    {
+      "title": "General Mills, Inc. (GIS) Stock Research Report | Flash",
+      "publisher": "flash.stocksentinel.ai",
+      "url": "https://flash.stocksentinel.ai/research/GIS",
+      "summary": "General Mills, Inc. (GIS) Stock Research Report | Flash\n\n# General Mills, Inc. (GIS) Stock Research Report \n\nGeneral Mills offers a defensive, high-yield turnaround opportunity where brand durability and cost savings must overcome weak volumes, inflation, leverage, and private-label pressure.\n\n## Executive Summary\n\nGeneral Mills is a diversified global branded food and premium pet food company anchored by North America Retail, which generates 63% of sales. Its portfolio includes Cheerios, Nature Valley, Pillsbury, Betty Crocker, Totino\u2019s, Blue Buffalo, Tiki Cat, and Tastefuls. The company bene",
+      "published": "2026-07-01",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "GIS Stock Forecast 2026-2027 - General Mills, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/gis-forecast/",
+      "summary": "GIS Stock Forecast 2026-2027 - General Mills, Inc. Price Targets & Predictions\n\n# GIS Stock Forecast: General Mills, Inc. Price Predictions for 2026-2027\n\nLast close, 4 Sept 2026\n\n$38\n\n\u22122.47% on the day\n\nThe 20 Wall Street analysts covering General Mills, Inc. hold a median 12-month price target of $37 \u2014 -3.4% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 56 of 100 as at 5 Sept 2026 \u2014 in the upper half.\n\nMarket cap\n\n$20.5B\n\nTicker Nerd rank\n\n56 / 100\n\nMedian analyst target\n\n$37\n\nAnalysts covering\n\n20\n\nRevenue$4.6B\n\nOperating income$715.4M\n\nNe",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "General Mills (NYSE:GIS) Issues FY 2027 Earnings Guidance",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/guidance-general-mills-nyse-gis-issues-fy-2027-earnings-guidance-2026-09-08/",
+      "summary": "Skip to main content\n\n\u2192 The trade I\u2019ve been waiting for since 2011 (From Traders Agency) (Ad)\n\n# General Mills (NYSE:GIS) Issues FY 2027 Earnings Guidance\n\nWritten by MarketBeat\n\nSeptember 8, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- General Mills issued FY 2027 EPS guidance of $3.00\u2013$ 3.20, broadly in line with analysts\u2019 consensus estimate of $3.07. The company did not provide a revenue outlook in the update.\n- Shares fell 4.6% to $36.54, while analysts maintained a consensus \u201cReduce\u201d ",
+      "published": "2026-09-08",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "General Mills, Inc. (GIS) Presents at Barclays 19th Annual Global Consumer Staples Conference Transcript | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4944051-general-mills-inc-gis-presents-at-barclays-19th-annual-global-consumer-staples-conference",
+      "summary": "# General Mills, Inc. (GIS) Presents at Barclays 19th Annual Global Consumer Staples Conference Transcript | Seeking Alpha\n\nPublished: 2026-09-08T21:05:31+00:00\nSource: seekingalpha.com (seekingalpha.com)\nLanguage: en\n\n## Story\n\nGeneral Mills, Inc. (GIS) Presents at Barclays 19th Annual Global Consumer Staples Conference Transcript | Seeking Alpha\n\n162.12K Followers\n\nGeneral Mills, Inc. (GIS) Barclays 19th Annual Global Consumer Staples Conference September 8, 2026 3:00 PM EDT\n\nCompany Participants\n\nJeffrey Harmening - Chairman & CEODana McNabb - COO & Director\n\nConference Call Participants\n\nA",
+      "published": "2026-09-08",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "General Mills Reaffirms 2027 Guidance, $3-$3.20 EPS | GIS Stock News",
+      "publisher": "stocktitan.net",
+      "url": "https://www.stocktitan.net/news/GIS/general-mills-reaffirms-annual-guidance-and-provides-business-update-dhnbrovwss1u.html",
+      "summary": "General Mills Reaffirms 2027 Guidance, $3-$3.20 EPS | GIS Stock News\n\n# General Mills Reaffirms Annual Guidance and Provides Business Update at 2026 Barclays Global Consumer Staples Conference \n\nGeneral Mills keeps its fiscal 2027 outlook unchanged, with modest sales expectations and lower adjusted profit versus the prior year.\n\n 09/08/2026 - 08:00 AM \n\nMINNEAPOLIS\n\n--(BUSINESS WIRE)-- In conjunction with its participation at the 2026 Barclays Global Consumer Staples Conference, General Mills (NYSE: GIS) provided a business update and reaffirmed its full-year financial outlook for fiscal 2027.",
+      "published": "2026-09-08",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "In Q1, General Mills Needs To Start Regaining Trust (NYSE:GIS) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4945207-in-q1-general-mills-needs-to-start-regaining-trust",
+      "summary": "In Q1, General Mills Needs To Start Regaining Trust (NYSE:GIS) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# In Q1, General Mills Needs To Start Regaining Trust\nSep 10, 2026, 3:23 PM ETGeneral Mills, Inc. (GIS) StockKHC, SJM, HRL, CAG, CPB\n\nVince Martin\n7.9K Followers\nFollow\n## Summary\n* General Mills trades at multi-year lows, reflecting market skepticism about secular brand value erosion despite historically cheap valuations.\n* Recent e",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "3 Reasons GIS is Risky and 1 Stock to Buy Instead",
+      "publisher": "StockStory",
+      "published": "2026-09-16T14:44:52Z",
+      "summary": "Over the past six months, General Mills\u2019s stock price fell to $36.58. Shareholders have lost 6.2% of their capital, which is disappointing considering the S&P 500 has climbed by 13.7%. This may have investors wondering how to approach the situation.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-gis-risky-1-144452689.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "General Mills (GIS) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+      "publisher": "Zacks",
+      "published": "2026-09-18T13:15:04Z",
+      "summary": "Beyond analysts' top-and-bottom-line estimates for General Mills (GIS), evaluate projections for some of its key metrics to gain a better insight into how the business might have performed for the quarter ended August 2026.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-gis-q1-earnings-131504664.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "General Mills (GIS) Looks Fully Valued After Its Portfolio Shake Up",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-18T14:13:32Z",
+      "summary": "General Mills (GIS) just reshaped its portfolio by exiting yogurt operations in the U.S. and Canada, moving to sell its Brazil unit and mainland China Haagen Dazs shops, and buying into premium pet food. Recent moves have landed in a mixed market backdrop for General Mills. The share price is down 19.82% year to date and the 1-year total shareholder return has declined 21.88%. At the same time, a 9.69% 90-day share price gain hints at improving short-term momentum as the portfolio reshuffle...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-gis-looks-fully-141332430.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "General Mills (GIS) Stock Looks About Right Despite Sugar Pricing Lawsuit",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-19T04:18:14Z",
+      "summary": "General Mills has seen its share price slide over the past few years, even as the business remains a staple supplier across packaged food aisles. That drop puts fresh attention on a basic question for investors: whether the current valuation is still supported by the company\u2019s sales. Over the past 3 years, General Mills stock has fallen 35.7%, which puts a lot of weight on whether its revenue base can still justify where the shares trade today. The recent lawsuit accusing sugar producers of...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-gis-stock-looks-041814097.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "regulation"
+      ]
+    },
+    {
+      "title": "Bullish Two Hundred Day Moving Average Cross - GIS",
+      "publisher": "BNK Invest",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/bullish-two-hundred-day-moving-average-cross-gis",
+      "primary_symbol": "GIS",
+      "related_symbols": [
+        "GIS"
+      ],
+      "summary": "In trading on Monday, shares of General Mills Inc (Symbol: GIS) crossed above their 200 day moving average of $40.22, changing hands as high as $40.94 per share.  General Mills Inc shares are currently trading up about 2.1% on the day.  The chart below shows the one year perform",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "General Mills (GIS) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/general-mills-gis-expected-beat-earnings-estimates-can-stock-move-higher",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GIS"
+      ],
+      "summary": "General Mills (GIS) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "General Mills Backs Annual Guidance",
+      "publisher": "RTTNews",
+      "created": "Sep 8, 2026",
+      "ago": "Sep 8, 2026",
+      "url": "/articles/general-mills-backs-annual-guidance",
+      "primary_symbol": "GIS",
+      "related_symbols": [
+        "GIS"
+      ],
+      "summary": "(RTTNews) - General Mills, Inc. (GIS), a maker and marketer of branded consumer foods, on Tuesday reaffirmed its annual outlook.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "MDLZ Q2 Sales Beat and Higher 2026 Growth View Put Margins in Focus",
+      "publisher": "Zacks",
+      "created": "Aug 19, 2026",
+      "ago": "Aug 19, 2026",
+      "url": "/articles/mdlz-q2-sales-beat-and-higher-2026-growth-view-put-margins-focus",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MDLZ",
+        "HSY",
+        "GIS"
+      ],
+      "summary": "Mondelez beat Q2 sales and earnings estimates and raised its 2026 organic growth outlook, but margin pressure keeps earnings conversion in focus.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is MDLZ Worth Buying as Growth Improves but Valuation Stays Rich?",
+      "publisher": "Zacks",
+      "created": "Aug 19, 2026",
+      "ago": "Aug 19, 2026",
+      "url": "/articles/mdlz-worth-buying-growth-improves-valuation-stays-rich",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MDLZ",
+        "HSY",
+        "GIS"
+      ],
+      "summary": "Mondelez's growth is broadening as North America rebounds and Emerging Markets stay firm, but Europe, chocolate weakness and rich valuation cloud the case.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Post Holdings Stock Plunges 11.8% in 1 Month: Is It a Buy Now?",
+      "publisher": "Zacks",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/post-holdings-stock-plunges-118-1-month-it-buy-now",
+      "primary_symbol": null,
+      "related_symbols": [
+        "POST",
+        "GIS",
+        "SJM"
+      ],
+      "summary": "POST's 11.8% monthly dip reflects weak retail volumes and rising costs, while Foodservice growth and valuation offer some support.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Can General Mills' Pet Strategy Put Blue Buffalo Back on Growth Track?",
+      "publisher": "Zacks",
+      "created": "Aug 25, 2026",
+      "ago": "Aug 25, 2026",
+      "url": "/articles/can-general-mills-pet-strategy-put-blue-buffalo-back-growth-track",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GIS",
+        "COCO",
+        "DAR",
+        "CHEF"
+      ],
+      "summary": "General Mills revamps Blue Buffalo with innovation, fresh-food expansion and e-commerce moves as North America Pet sales remain under pressure.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "General Mills Targets Cleaner Labels: Can Innovation Drive Growth?",
+      "publisher": "Zacks",
+      "created": "Aug 27, 2026",
+      "ago": "Aug 27, 2026",
+      "url": "/articles/general-mills-targets-cleaner-labels-can-innovation-drive-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GIS",
+        "COCO",
+        "DAR",
+        "CHEF"
+      ],
+      "summary": "General Mills removes certified colors from U.S. cereals while expanding protein, fiber and clean-label innovation to support future growth.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Hain Celestial (HAIN) Reports Q4 Loss, Tops Revenue Estimates",
+      "publisher": "Zacks",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/hain-celestial-hain-reports-q4-loss-tops-revenue-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "HAIN",
+        "GIS"
+      ],
+      "summary": "Hain Celestial (HAIN) delivered earnings and revenue surprises of -66.67% and +2.56%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Ispire Technology Inc. (ISPR) Reports Q4 Loss, Tops Revenue Estimates",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/ispire-technology-inc-ispr-reports-q4-loss-tops-revenue-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ISPR",
+        "GIS"
+      ],
+      "summary": "Ispire Technology Inc. (ISPR) delivered earnings and revenue surprises of -1,100.00% and +5.46%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Why Investors Need to Take Advantage of These 2 Consumer Staples Stocks Now",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/why-investors-need-take-advantage-these-2-consumer-staples-stocks-now-4",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GIS",
+        "ELF"
+      ],
+      "summary": "Why investors should use the Zacks Earnings ESP tool to help find stocks that are poised to top quarterly earnings estimates.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Can General Mills' Brazil Exit Sharpen Its Portfolio Strategy?",
+      "publisher": "Zacks",
+      "created": "Sep 4, 2026",
+      "ago": "Sep 4, 2026",
+      "url": "/articles/can-general-mills-brazil-exit-sharpen-its-portfolio-strategy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GIS",
+        "COCO",
+        "DAR",
+        "CHEF"
+      ],
+      "summary": "GIS' Brazil sale advances portfolio simplification, sharpening its focus on higher-growth businesses while supporting debt reduction.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "Beat the Market the Zacks Way: Accelerant, Insight, General Mills in Focus",
+      "publisher": "Zacks",
+      "created": "Aug 31, 2026",
+      "ago": "Aug 31, 2026",
+      "url": "/articles/beat-market-zacks-way-accelerant-insight-general-mills-focus",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BR",
+        "MMM",
+        "GIS",
+        "SJM",
+        "MKC",
+        "CRS",
+        "COR",
+        "ARX",
+        "NSIT",
+        "SHOP",
+        "NOBL",
+        "ZIM"
+      ],
+      "summary": "Accelerant, Shopify and Carpenter Technology delivered strong gains, while Zacks upgrades and model portfolios spotlight key performers.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Zacks Research Forecasts Reduced Earnings for General Mills - Markets Daily",
+      "publisher": "themarketsdaily.com",
+      "url": "https://www.themarketsdaily.com/2026/07/16/zacks-research-forecasts-reduced-earnings-for-general-mills.html",
+      "summary": "Zacks Research Forecasts Reduced Earnings for General Mills - Markets Daily\n\n# Zacks Research Forecasts Reduced Earnings for General Mills\n\n Posted by Sarita Garza on Jul 16th, 2026 \n\nGeneral Mills, Inc. (NYSE:GIS \u2013 Free Report) \u2013 Zacks Research decreased their Q1 2027 earnings per share (EPS) estimates for General Mills in a report released on Wednesday, July 15th. Zacks Research analyst Team now anticipates that the company will earn $0.73 per share for the quarter, down from their previous forecast of $0.82. The consensus estimate for General Mills\u2019 current full-year earnings is $3.07 per s",
+      "published": null,
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Document",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046337/a20260701ex99.htm",
+      "summary": "FOR IMMEDIATE RELEASE \n\nJuly 1, 2026 \n\nGeneral Mills Reports Fiscal 2026 Fourth-quarter Adjusted Results in Line with Company Expectations\n\nFourth Quarter Highlights\n\n\u2022 Net sales of $4.6 billion were up 1 percent; organic net sales\u00b9 were in line with last year \n\n\u2022 Operating loss totaled $2.1 billion, driven by certain non-cash goodwill and brand intangible asset charges and a non-cash valuation loss related to the planned divestiture of the Brazil business; adjusted operating profit of $705 million was up 13 percent in constant currency \n\n\u2022 Diluted loss per share totaled $3.74 compared to earn",
+      "published": "2026-07-01",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "General Mills Reaffirms Fiscal 2027 Guidance | MarketScreener Canada",
+      "publisher": "ca.marketscreener.com",
+      "url": "https://ca.marketscreener.com/news/general-mills-reaffirms-fiscal-2027-guidance-ce785bd8dc8ff525",
+      "summary": "# General Mills Reaffirms Fiscal 2027 Guidance | MarketScreener Canada\n\nAuthor: MT Newswires\nPublished: 2026-09-08T08:38:12-04:00\nSource: ca.marketscreener.com (ca.marketscreener.com)\nLanguage: en\n\n## Story\n\nGeneral Mills Reaffirms Fiscal 2027 Guidance | MarketScreener Canada\n\nX\n\nGENERAL MILLS, INC.\n\nAdd to my list\n\nAdd to a list PDF Report\n\n# General Mills, Inc.\n\n## Stocks\n\n## GIS\n\n## US3703341046\n\n## Food Processing\n\n| Market Closed - NYSE 16:00:02 2026-09-04 EDT | | | Pre-market 08:29:12 | |\n| --- | --- | --- | --- | --- |\n| 38.29 USD | -2.47% | | 38.48 | +0.48% |\n\n| 9 min | General Mills R",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "General Mills Gears Up For Q1 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "publisher": "longbridge.com",
+      "url": "https://longbridge.com/en/news/299167799.md",
+      "summary": "# General Mills Gears Up For Q1 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts\n\nGeneral Mills, Inc. (NYSE:GIS) will release earnings for its first quarter before the opening bell on Wednesday, Sept. 23.\n\nAnalysts expect the Minneapolis, Minnesota-based company to report quarterly earnings of 72 cents per share, down from 86 cents per share in the year-ago period. The consensus estimate for General Mills\u2019 quarterly revenue is $4.34 billion. It reported $4.52 billion last year, according to Benzinga Pro.\n\nOn Sept. 8, General Mills affirmed its FY2027 adjust",
+      "published": "2026-09-14",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "General Mills' Bigger, Trend-Driven Bet: A Cheap Turnaround or a Value Trap With a 6.7% Yield?",
+      "publisher": "ainvest.com",
+      "url": "https://www.ainvest.com/news/general-mills-bigger-trend-driven-bet-cheap-turnaround-trap-6-7-yield-2609/",
+      "summary": "# General Mills' Bigger, Trend-Driven Bet: A Cheap Turnaround or a Value Trap With a 6.7% Yield?\n\nAuthor: AInvest\nPublished: 2026-09-15T05:20:47-04:00\nSource: ainvest.com (ainvest.com)\nLanguage: en\n\n## Story\n\nGeneral Mills' Bigger, Trend-Driven Bet: A Cheap Turnaround or a Value Trap With a 6.7% Yield?\n\n# General Mills' Bigger, Trend-Driven Bet: A Cheap Turnaround or a Value Trap With a 6.7% Yield?\n\nGenerated by Tessa Rowan Reviewed by The Newsroom Tuesday, Sep 15, 2026 5:20 am ET 5min read\n\n- General Mills' stock trades at $36.47, offering a 6.7% yield amid a 20% decline this year and $13.1B ",
+      "published": "2026-09-15",
+      "source": "ollama_search",
+      "query": "General Mills, Inc. (GIS) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Is PepsiCo Stock Cheap Enough To Live With Slow Growth?",
+      "publisher": "Trefis",
+      "published": "2026-09-16T15:25:19Z",
+      "summary": "PepsiCo (PEP) has gone nowhere for a year, down 1.8% over the past twelve months while the S&P 500 returned 16.6%. At about $135 a share it trades at 17.7 times earnings, against an S&P 500 median of 22.5. A big cash generator priced below the market is what value buyers hunt for, so is this discount impatience or a verdict.",
+      "url": "https://www.trefis.com/articles/615532/is-pepsico-stock-cheap-enough-to-live-with-slow-growth/2026-09-16",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "General Mills' Return to Growth Remains 'Unlikely,' UBS Securities Says",
+      "publisher": "MT Newswires",
+      "published": "2026-09-16T16:07:02Z",
+      "summary": "General Mills' (GIS) return to growth \"still seems unlikely\" as consumption trends remain soft while",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-apos-return-growth-160702385.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Two Beaten-Down Food Stocks Pay 6.5% Yields. Which Dividend Is Safer?",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-16T17:03:14Z",
+      "summary": "Both General Mills and Kraft Heinz offer nearly identical 6.5% yields at beaten-down valuations, but one of them already cut its dividend once and just wrote down billions in brand value for the second year running. Picking the wrong one could leave your retirement income short.",
+      "url": "https://247wallst.com/investing/2026/09/16/two-beaten-down-food-stocks-pay-6-5-yields-which-dividend-is-safer/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "Can General Mills' Portfolio Shift Create a Stronger Growth Profile?",
+      "publisher": "Zacks",
+      "published": "2026-09-17T13:40:00Z",
+      "summary": "General Mills prunes businesses and invests in premium pet food and emerging brands after fiscal 2026 organic sales fall 2%.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-portfolio-shift-create-134000711.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Market Chatter: Use of GLP-1 Pills Seen to Ease Impact on Sales of Food Companies",
+      "publisher": "MT Newswires",
+      "published": "2026-09-17T16:04:17Z",
+      "summary": "Mondelez International (MDLZ), Hershey (HSY), Kraft Heinz (KHC), General Mills (GIS) and other food",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-glp-1-pills-160417268.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Sector Update: Consumer Stocks Advance Late Afternoon",
+      "publisher": "MT Newswires",
+      "published": "2026-09-17T19:40:04Z",
+      "summary": "Consumer stocks were higher late Thursday afternoon, with the State Street Consumer Staples Select S",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-afternoon-194004479.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 14,
+        "share": 0.35,
+        "evidence": [
+          {
+            "title": "GIS Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "GIS Stock Forecast 2026-2027 - General Mills, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "General Mills (NYSE:GIS) Issues FY 2027 Earnings Guidance",
+            "publisher": "marketbeat.com",
+            "published": "2026-09-08",
+            "matched": [
+              "guidance",
+              "outlook",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "General Mills Reaffirms 2027 Guidance, $3-$3.20 EPS | GIS Stock News",
+            "publisher": "stocktitan.net",
+            "published": "2026-09-08",
+            "matched": [
+              "guidance",
+              "outlook"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 12,
+        "share": 0.3,
+        "evidence": [
+          {
+            "title": "GIS Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "General Mills, Inc. (GIS) Stock Research Report | Flash",
+            "publisher": "flash.stocksentinel.ai",
+            "published": "2026-07-01",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "In Q1, General Mills Needs To Start Regaining Trust (NYSE:GIS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-10",
+            "matched": [
+              "valuation",
+              "cheap"
+            ]
+          },
+          {
+            "title": "General Mills (GIS) Looks Fully Valued After Its Portfolio Shake Up",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-18T14:13:32Z",
+            "matched": [
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 4,
+        "share": 0.1,
+        "evidence": [
+          {
+            "title": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-23",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "General Mills, Inc. (GIS) Stock Research Report | Flash",
+            "publisher": "flash.stocksentinel.ai",
+            "published": "2026-07-01",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "General Mills' Bigger, Trend-Driven Bet: A Cheap Turnaround or a Value Trap With a 6.7% Yield?",
+            "publisher": "ainvest.com",
+            "published": "2026-09-15",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Two Beaten-Down Food Stocks Pay 6.5% Yields. Which Dividend Is Safer?",
+            "publisher": "24/7 Wall St.",
+            "published": "2026-09-16T17:03:14Z",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 4,
+        "share": 0.1,
+        "evidence": [
+          {
+            "title": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-23",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "General Mills, Inc. (GIS) Stock Research Report | Flash",
+            "publisher": "flash.stocksentinel.ai",
+            "published": "2026-07-01",
+            "matched": [
+              "leverage"
+            ]
+          },
+          {
+            "title": "Can General Mills' Brazil Exit Sharpen Its Portfolio Strategy?",
+            "publisher": "Zacks",
+            "published": "Sep 4, 2026",
+            "matched": [
+              "debt"
+            ]
+          },
+          {
+            "title": "Document",
+            "publisher": "sec.gov",
+            "published": "2026-07-01",
+            "matched": [
+              "goodwill"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 3,
+        "share": 0.075,
+        "evidence": [
+          {
+            "title": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-23",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "GIS Stock Forecast 2026-2027 - General Mills, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Beat the Market the Zacks Way: Accelerant, Insight, General Mills in Focus",
+            "publisher": "Zacks",
+            "published": "Aug 31, 2026",
+            "matched": [
+              "upgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 2,
+        "share": 0.05,
+        "evidence": [
+          {
+            "title": "Document",
+            "publisher": "sec.gov",
+            "published": "2026-07-01",
+            "matched": [
+              "divest"
+            ]
+          },
+          {
+            "title": "Two Beaten-Down Food Stocks Pay 6.5% Yields. Which Dividend Is Safer?",
+            "publisher": "24/7 Wall St.",
+            "published": "2026-09-16T17:03:14Z",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.025,
+        "evidence": [
+          {
+            "title": "General Mills (GIS) Stock Looks About Right Despite Sugar Pricing Lawsuit",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-19T04:18:14Z",
+            "matched": [
+              "lawsuit"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-09-23"
+    ],
+    "next_date": "2026-09-23",
+    "eps_avg": 0.71775,
+    "eps_low": 0.68,
+    "eps_high": 0.76,
+    "revenue_avg": 4346502720
+  },
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "days_out": 4,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 0.71775,
+      "eps_low": 0.68,
+      "eps_high": 0.76,
+      "revenue_avg": 4346502720
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-01",
+        "eps_estimate": 0.8,
+        "eps_actual": 0.95,
+        "surprise_pct": 19.21,
+        "beat": true
+      },
+      {
+        "date": "2026-03-18",
+        "eps_estimate": 0.73,
+        "eps_actual": 0.64,
+        "surprise_pct": -12.14,
+        "beat": false
+      },
+      {
+        "date": "2025-12-17",
+        "eps_estimate": 1.03,
+        "eps_actual": 1.1,
+        "surprise_pct": 7.09,
+        "beat": true
+      },
+      {
+        "date": "2025-09-17",
+        "eps_estimate": 0.82,
+        "eps_actual": 0.86,
+        "surprise_pct": 5.45,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "beat_rate": 0.75,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.72."
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "GIS",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 36.32,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 37.5,
+        "premium": 2.25,
+        "bid": 2.1,
+        "ask": 2.4,
+        "mid": 2.25,
+        "last": 2.18,
+        "open_interest": 2774,
+        "volume": 118,
+        "implied_vol": 0.3518131225585937,
+        "qty": 20
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 37.5,
+        "premium": 0.9,
+        "bid": 0.85,
+        "ask": 0.95,
+        "mid": 0.9,
+        "last": 0.9,
+        "open_interest": 9725,
+        "volume": 1207.0,
+        "implied_vol": 0.35938140625,
+        "qty": 6
+      },
+      "long_total": 4500.0,
+      "short_total": 540.0,
+      "net_debit": 3960.0,
+      "credit_ratio_mid": 0.12,
+      "credit_ratio_conservative": 0.1062,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "15-Jan-27",
+          "strike": 37.5,
+          "qty": 20,
+          "underlying": 36.32,
+          "multiplier": 100,
+          "price": 2.25,
+          "total": 4500.0,
+          "open_interest": 2774
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 37.5,
+          "qty": 6,
+          "underlying": 36.32,
+          "multiplier": 100,
+          "price": 0.9,
+          "total": -540.0,
+          "open_interest": 9725
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 37.5, 40, 42.5, 45"
+      ],
+      "advice": "Credit ratio 10.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.02,
+          "credit_ratio_conservative": 0.0177,
+          "passes_floor": false,
+          "cash_collected": 90.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.04,
+          "credit_ratio_conservative": 0.0354,
+          "passes_floor": false,
+          "cash_collected": 180.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.06,
+          "credit_ratio_conservative": 0.0531,
+          "passes_floor": false,
+          "cash_collected": 270.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.08,
+          "credit_ratio_conservative": 0.0708,
+          "passes_floor": false,
+          "cash_collected": 360.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1,
+          "credit_ratio_conservative": 0.0885,
+          "passes_floor": false,
+          "cash_collected": 450.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.12,
+          "credit_ratio_conservative": 0.1062,
+          "passes_floor": true,
+          "cash_collected": 540.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.14,
+          "credit_ratio_conservative": 0.124,
+          "passes_floor": true,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.16,
+          "credit_ratio_conservative": 0.1417,
+          "passes_floor": true,
+          "cash_collected": 720.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.18,
+          "credit_ratio_conservative": 0.1594,
+          "passes_floor": true,
+          "cash_collected": 810.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2,
+          "credit_ratio_conservative": 0.1771,
+          "passes_floor": true,
+          "cash_collected": 900.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.22,
+          "credit_ratio_conservative": 0.1948,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.24,
+          "credit_ratio_conservative": 0.2125,
+          "passes_floor": true,
+          "cash_collected": 1080.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.26,
+          "credit_ratio_conservative": 0.2302,
+          "passes_floor": true,
+          "cash_collected": 1170.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.28,
+          "credit_ratio_conservative": 0.2479,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.3,
+          "credit_ratio_conservative": 0.2656,
+          "passes_floor": true,
+          "cash_collected": 1350.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.32,
+          "credit_ratio_conservative": 0.2833,
+          "passes_floor": true,
+          "cash_collected": 1440.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.34,
+          "credit_ratio_conservative": 0.301,
+          "passes_floor": true,
+          "cash_collected": 1530.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.36,
+          "credit_ratio_conservative": 0.3187,
+          "passes_floor": true,
+          "cash_collected": 1620.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.38,
+          "credit_ratio_conservative": 0.3365,
+          "passes_floor": true,
+          "cash_collected": 1710.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.4,
+          "credit_ratio_conservative": 0.3542,
+          "passes_floor": true,
+          "cash_collected": 1800.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "GIS",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 36.32,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 35.0,
+        "premium": 2.2,
+        "bid": 2.0,
+        "ask": 2.4,
+        "mid": 2.2,
+        "last": 2.05,
+        "open_interest": 3095,
+        "volume": 10.0,
+        "implied_vol": 0.37183245361328127,
+        "qty": 20
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 35.0,
+        "premium": 0.95,
+        "bid": 0.9,
+        "ask": 1.0,
+        "mid": 0.95,
+        "last": 0.95,
+        "open_interest": 5190,
+        "volume": 258,
+        "implied_vol": 0.39942006835937505,
+        "qty": 6
+      },
+      "long_total": 4400.0,
+      "short_total": 570.0,
+      "net_debit": 3830.0,
+      "credit_ratio_mid": 0.1295,
+      "credit_ratio_conservative": 0.1125,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "15-Jan-27",
+          "strike": 35.0,
+          "qty": 20,
+          "underlying": 36.32,
+          "multiplier": 100,
+          "price": 2.2,
+          "total": 4400.0,
+          "open_interest": 3095
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 35.0,
+          "qty": 6,
+          "underlying": 36.32,
+          "multiplier": 100,
+          "price": 0.95,
+          "total": -569.9999999999999,
+          "open_interest": 5190
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 35, 32.5, 30, 27.5"
+      ],
+      "advice": "Credit ratio 11.2% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0216,
+          "credit_ratio_conservative": 0.0187,
+          "passes_floor": false,
+          "cash_collected": 95.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0432,
+          "credit_ratio_conservative": 0.0375,
+          "passes_floor": false,
+          "cash_collected": 190.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0648,
+          "credit_ratio_conservative": 0.0563,
+          "passes_floor": false,
+          "cash_collected": 285.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0864,
+          "credit_ratio_conservative": 0.075,
+          "passes_floor": false,
+          "cash_collected": 380.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.108,
+          "credit_ratio_conservative": 0.0938,
+          "passes_floor": false,
+          "cash_collected": 475.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1295,
+          "credit_ratio_conservative": 0.1125,
+          "passes_floor": true,
+          "cash_collected": 570.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1511,
+          "credit_ratio_conservative": 0.1313,
+          "passes_floor": true,
+          "cash_collected": 665.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1727,
+          "credit_ratio_conservative": 0.15,
+          "passes_floor": true,
+          "cash_collected": 760.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.1943,
+          "credit_ratio_conservative": 0.1688,
+          "passes_floor": true,
+          "cash_collected": 855.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2159,
+          "credit_ratio_conservative": 0.1875,
+          "passes_floor": true,
+          "cash_collected": 950.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2375,
+          "credit_ratio_conservative": 0.2062,
+          "passes_floor": true,
+          "cash_collected": 1045.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.2591,
+          "credit_ratio_conservative": 0.225,
+          "passes_floor": true,
+          "cash_collected": 1140.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.2807,
+          "credit_ratio_conservative": 0.2437,
+          "passes_floor": true,
+          "cash_collected": 1235.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3023,
+          "credit_ratio_conservative": 0.2625,
+          "passes_floor": true,
+          "cash_collected": 1330.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.3239,
+          "credit_ratio_conservative": 0.2812,
+          "passes_floor": true,
+          "cash_collected": 1425.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.3455,
+          "credit_ratio_conservative": 0.3,
+          "passes_floor": true,
+          "cash_collected": 1520.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.367,
+          "credit_ratio_conservative": 0.3187,
+          "passes_floor": true,
+          "cash_collected": 1615.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.3886,
+          "credit_ratio_conservative": 0.3375,
+          "passes_floor": true,
+          "cash_collected": 1710.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.4102,
+          "credit_ratio_conservative": 0.3563,
+          "passes_floor": true,
+          "cash_collected": 1805.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.4318,
+          "credit_ratio_conservative": 0.375,
+          "passes_floor": true,
+          "cash_collected": 1900.0
+        }
+      ]
+    }
+  }
+}
