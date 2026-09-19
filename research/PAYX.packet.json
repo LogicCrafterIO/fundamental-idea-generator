@@ -1,7 +1,7 @@
 {
   "symbol": "PAYX",
-  "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T23:22:51",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T00:29:51",
   "profile": {
     "symbol": "PAYX",
     "name": "Paychex, Inc.",
@@ -54,7 +54,7 @@
       "eps_high": 1.34,
       "revenue_avg": 1626363210
     },
-    "as_of": "2026-09-19"
+    "as_of": "2026-09-20"
   },
   "quants_lines": [
     "Price: 116.14 USD",
@@ -399,7 +399,7 @@
       "title": "INTU Doubles Down on AI: Can Intelligence Drive the Next Growth Wave?",
       "publisher": "Zacks",
       "created": "Sep 18, 2026",
-      "ago": "21 hours ago",
+      "ago": "22 hours ago",
       "url": "/articles/intu-doubles-down-ai-can-intelligence-drive-next-growth-wave",
       "primary_symbol": null,
       "related_symbols": [
@@ -427,6 +427,24 @@
         "PAYX"
       ],
       "summary": "Planet Labs PBC (PL) delivered earnings and revenue surprises of +200.00% and +10.67%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "ServiceTitan Inc. (TTAN) Q2 Earnings and Revenues Surpass Estimates",
+      "publisher": "Zacks",
+      "created": "Sep 8, 2026",
+      "ago": "Sep 8, 2026",
+      "url": "/articles/servicetitan-inc-ttan-q2-earnings-and-revenues-surpass-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TTAN",
+        "PAYX"
+      ],
+      "summary": "ServiceTitan Inc. (TTAN) delivered earnings and revenue surprises of +11.11% and +2.67%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
       "source": "nasdaq",
       "relevance": 2,
       "themes": [
@@ -497,32 +515,6 @@
       "relevance": 0,
       "themes": [
         "regulation"
-      ]
-    },
-    {
-      "title": "1 Growth Stock to Add to Your Roster and 2 We Turn Down",
-      "publisher": "StockStory",
-      "published": "2026-09-08T16:15:18Z",
-      "summary": "Growth is oxygen. But when it evaporates, the consequences can be severe - ask anyone who bought Cisco in the Dot-Com Bubble or newer investors who lived through the 2020 to 2022 COVID cycle.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-add-roster-161518441.html",
-      "type": "STORY",
-      "source": "yahoo",
-      "relevance": 0,
-      "themes": [
-        "valuation_dispersion"
-      ]
-    },
-    {
-      "title": "ServiceTitan Inc. (TTAN) Q2 Earnings and Revenues Surpass Estimates",
-      "publisher": "Zacks",
-      "published": "2026-09-08T21:30:02Z",
-      "summary": "ServiceTitan Inc. (TTAN) delivered earnings and revenue surprises of +11.11% and +2.67%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/servicetitan-inc-ttan-q2-earnings-213002813.html",
-      "type": "STORY",
-      "source": "yahoo",
-      "relevance": 0,
-      "themes": [
-        "guidance"
       ]
     },
     {
@@ -635,7 +627,7 @@
         "label": "Guidance and estimate revisions",
         "description": "Changes to what the company and analysts expect next.",
         "count": 12,
-        "share": 0.308,
+        "share": 0.316,
         "evidence": [
           {
             "title": "Paychex: Moderate Growth, Better Price, Still A Buy (NASDAQ:PAYX) | Seeking Alpha",
@@ -675,52 +667,11 @@
         ]
       },
       {
-        "key": "valuation_dispersion",
-        "label": "Valuation dispersion",
-        "description": "Similar businesses priced very differently.",
-        "count": 6,
-        "share": 0.154,
-        "evidence": [
-          {
-            "title": "Paychex: Moderate Growth, Better Price, Still A Buy (NASDAQ:PAYX) | Seeking Alpha",
-            "publisher": "seekingalpha.com",
-            "published": null,
-            "matched": [
-              "discount"
-            ]
-          },
-          {
-            "title": "PAYX Stock: Buy or Avoid in 2026? | CirclFi",
-            "publisher": "circlfi.com",
-            "published": "2026-06-03",
-            "matched": [
-              "valuation"
-            ]
-          },
-          {
-            "title": "Nasdaq-100\u00ae Inside the Index: Paychex Inc. (PAYX)",
-            "publisher": "Nasdaq Index Insights Team",
-            "published": "Sep 10, 2026",
-            "matched": [
-              "valuation"
-            ]
-          },
-          {
-            "title": "Why Paychex (PAYX) is a Top Growth Stock for the Long-Term",
-            "publisher": "Zacks",
-            "published": "Sep 3, 2026",
-            "matched": [
-              "premium"
-            ]
-          }
-        ]
-      },
-      {
         "key": "positioning",
         "label": "Positioning and flows",
         "description": "Who owns it and how it is being traded.",
         "count": 6,
-        "share": 0.154,
+        "share": 0.158,
         "evidence": [
           {
             "title": "PAYX Stock: Buy or Avoid in 2026? | CirclFi",
@@ -759,11 +710,52 @@
         ]
       },
       {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.132,
+        "evidence": [
+          {
+            "title": "Paychex: Moderate Growth, Better Price, Still A Buy (NASDAQ:PAYX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "discount"
+            ]
+          },
+          {
+            "title": "PAYX Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Nasdaq-100\u00ae Inside the Index: Paychex Inc. (PAYX)",
+            "publisher": "Nasdaq Index Insights Team",
+            "published": "Sep 10, 2026",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Why Paychex (PAYX) is a Top Growth Stock for the Long-Term",
+            "publisher": "Zacks",
+            "published": "Sep 3, 2026",
+            "matched": [
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
         "key": "ai_monetisation",
         "label": "AI revenue and monetisation",
         "description": "Whether AI spending is converting into recognised revenue.",
         "count": 4,
-        "share": 0.103,
+        "share": 0.105,
         "evidence": [
           {
             "title": "The Paychex (PAYX) Bear Case - Incremental Returns",
@@ -804,7 +796,7 @@
         "label": "M&A and capital returns",
         "description": "Corporate action changing the share count or asset base.",
         "count": 4,
-        "share": 0.103,
+        "share": 0.105,
         "evidence": [
           {
             "title": "PAYX Stock Forecast & Price Target 2026 | Is PAYX a Good Stock to Buy? | RockFlow",
@@ -845,7 +837,7 @@
         "label": "Depreciation and balance-sheet strain",
         "description": "Accounting for ageing assets and the cost of the debt behind them.",
         "count": 3,
-        "share": 0.077,
+        "share": 0.079,
         "evidence": [
           {
             "title": "PAYX Forecast, Price Target & Analyst Ratings | ChartMill.com",
@@ -878,7 +870,7 @@
         "label": "Rates and funding costs",
         "description": "The cost of money, and who pays more for it.",
         "count": 2,
-        "share": 0.051,
+        "share": 0.053,
         "evidence": [
           {
             "title": "Paychex: Moderate Growth, Better Price, Still A Buy (NASDAQ:PAYX) | Seeking Alpha",
@@ -903,7 +895,7 @@
         "label": "Regulation and legal",
         "description": "Legal and regulatory constraints that change the economics.",
         "count": 2,
-        "share": 0.051,
+        "share": 0.053,
         "evidence": [
           {
             "title": "PAYX Stock Forecast & Price Target 2026 | Is PAYX a Good Stock to Buy? | RockFlow",
@@ -946,7 +938,7 @@
   "catalyst": {
     "date": "2026-09-23",
     "weekday": "Wednesday",
-    "days_out": 4,
+    "days_out": 3,
     "basis": "scheduled",
     "session": "before the open",
     "consensus": {
@@ -989,71 +981,71 @@
     "beat_rate": 1.0,
     "median_gap_days": 91,
     "same_slot_last_year": true,
-    "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 1.32."
+    "facts_line": "2026-09-23 (Wednesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 1.32."
   },
   "forward_trends": {
     "queries": [
-      "small business hiring plans 2026 survey employment outlook SMB workforce trends",
-      "SMB HR payroll software spending budget trends 2026",
-      "AI payroll automation disruption small business HR services 2026",
-      "Paychex PAYX small business customer hiring trends 2026"
+      "small business hiring plans and labor cost outlook 2026 2027 NFIB survey",
+      "SMB payroll HR benefits software spending forecast 2026 2027",
+      "AI embedded payroll fintech competitors 2026 small business HCM disruption",
+      "Paychex PAYX small business payroll tax regulatory compliance changes 2026 2027"
     ],
     "results_count": 20,
-    "results_dated": 18,
+    "results_dated": 16,
     "trends": [
       {
-        "claim": "In May 2026 Intuit launched QuickBooks Workforce, an AI-native HCM system expanding on payroll serving 18 million U.S. workers.",
-        "stance": "pressure",
-        "why": "It targets Paychex's small and mid-market clients with end-to-end workforce management, threatening retention and pricing.",
-        "quote": "All-in-One, AI-Native HCM System Expands on QuickBooks Payroll Services, Which Serves 18 Million U.S. Workers, to Deliver End-to-End Workforce Management",
-        "url": "https://investors.intuit.com/_assets/_940994c421caf4d8d251c405ed856b0d/intuit/news/2026-05-06_Intuit_Unveils_QuickBooks_Workforce_Radically_1310.pdf",
-        "publisher": "investors.intuit.com",
-        "as_of": "2026-05-01",
-        "age_days": 141,
+        "claim": "In July 2026, small-business employment plans rose to a net 20%, up 9 points.",
+        "stance": "unspecified",
+        "why": "Accelerating hiring plans signal higher payroll headcount and service demand for Paychex.",
+        "quote": "Plans to Increase Employment (net) 20% 9 *",
+        "url": "https://fedprimerate.com/docs/NFIB/Fed-Prime-Rate--NFIB--Small-Business-Optimism-Index---JULY---2026.pdf",
+        "publisher": "fedprimerate.com",
+        "as_of": "2026-07-01",
+        "age_days": 81,
         "undated": false
       },
       {
-        "claim": "In June 2026 Gusto launched Co-Founder, an AI agent that automates payroll and back-office tasks without requiring users to log in.",
-        "stance": "pressure",
-        "why": "Autonomous competitor AI could reduce demand for Paychex's service-based payroll and HR support among small businesses.",
-        "quote": "Gusto launches Co-Founder, an AI agent that automates payroll and back-office tasks via SMS and Slack without requiring users to log into the platform.",
-        "url": "https://www.tbpndigest.com/story/2026-06-02/gusto-launches-co-founder-ai-agent-that-texts-small-business-owners-and-autonomously-runs-payroll",
-        "publisher": "tbpndigest.com",
-        "as_of": "2026-06-02",
-        "age_days": 109,
+        "claim": "In May 2026, small-business job openings fell to 29%, the lowest since May 2020.",
+        "stance": "unspecified",
+        "why": "Fewer job openings mean slower payroll headcount growth, weighing on Paychex revenue.",
+        "quote": "Job openings fell 5 points in May to 29%, marking the lowest level since May 2020.",
+        "url": "https://www.nfib.com/wp-content/uploads/2026/06/NFIB-May-2026-Jobs-Report.pdf",
+        "publisher": "nfib.com",
+        "as_of": "2026-06-01",
+        "age_days": 111,
         "undated": false
       },
       {
-        "claim": "In September 2026 Berlin-based Integral raised \u20ac18 million to deliver AI-run accounting, tax and payroll services to SMEs.",
-        "stance": "pressure",
-        "why": "Well-funded AI-native entrants increase competition for SME payroll and accounting, potentially pressuring Paychex's client acquisition and pricing.",
-        "quote": "Berlin-based Integral raises \u20ac18 million to deliver AI-run accounting, tax and payroll services to SMEs",
-        "url": "https://www.eu-startups.com/2026/09/berlin-based-integral-raises-e18-million-to-deliver-ai-run-accounting-tax-and-payroll-services-to-smes/",
-        "publisher": "eu-startups.com",
-        "as_of": "2026-09-01",
-        "age_days": 18,
+        "claim": "In June 2026, 51% of small businesses reported few or no qualified workers, highest since September 2024.",
+        "stance": "unspecified",
+        "why": "Hiring difficulty can limit headcount growth, slowing payroll volume for Paychex.",
+        "quote": "Reports of few or no qualified workers reached their highest level since September 2024 at 51%.",
+        "url": "https://www.nfib.com/wp-content/uploads/2026/07/NFIB-June-2026-Jobs-Report-Final.pdf",
+        "publisher": "nfib.com",
+        "as_of": "2026-07-01",
+        "age_days": 81,
         "undated": false
       },
       {
-        "claim": "As of August 2026 Paychex's WISE AI agents were reducing payroll errors and improving service efficiency across more than 50,000 early adopters.",
-        "stance": "support",
-        "why": "Improved accuracy and efficiency can strengthen client retention and margins even as competitive AI tools emerge.",
-        "quote": "WISE agents proactively help prevent payroll errors, enable more consultative service, and increase efficiency across the Paychex enterprise \u2013 enhancing customer experiences",
-        "url": "https://business.times-online.com/times-online/article/gnwcq-2026-8-31-wise-at-work-early-results-show-paychex-ai-is-reducing-payroll-errors-and-improving-service-efficiency-at-scale",
-        "publisher": "business.times-online.com",
-        "as_of": "2026-08-31",
-        "age_days": 19,
+        "claim": "In June 2026, labor costs as top problem fell to 8% from May's historical high.",
+        "stance": "unspecified",
+        "why": "Easing labor costs improve SMB margins, supporting client retention for Paychex.",
+        "quote": "Reports of labor costs as the single most important problem fell 6 points from May\u2019s historical high to 8%.",
+        "url": "https://www.nfib.com/wp-content/uploads/2026/07/NFIB-June-2026-Jobs-Report-Final.pdf",
+        "publisher": "nfib.com",
+        "as_of": "2026-07-01",
+        "age_days": 81,
         "undated": false
       },
       {
-        "claim": "In May 2026 more than three-quarters of U.S. small businesses were confident about hiring, and small companies were driving U.S. hiring demand.",
-        "stance": "support",
-        "why": "Small business hiring confidence supports employee counts and payroll volumes for Paychex's core client base.",
-        "quote": "More than three-quarters of U.S. small businesses are confident about hiring, but nearly half struggle to find skilled talent",
-        "url": "https://www.prnewswire.com/news-releases/robert-half-survey-more-than-three-quarters-of-us-small-businesses-are-confident-about-hiring-but-nearly-half-struggle-to-find-skilled-talent-302770213.html",
-        "publisher": "prnewswire.com",
-        "as_of": "2026-05-13",
-        "age_days": 129,
+        "claim": "In May 2026, labor costs hit the highest reading in survey history as a business challenge.",
+        "stance": "unspecified",
+        "why": "Squeezed SMB margins can reduce spending on Paychex services and slow hiring.",
+        "quote": "Labor costs increased to the highest reading in history for the survey\u2019s question about business challenges.",
+        "url": "https://www.nfib.com/wp-content/uploads/2026/06/NFIB-May-2026-Jobs-Report.pdf",
+        "publisher": "nfib.com",
+        "as_of": "2026-06-01",
+        "age_days": 111,
         "undated": false
       }
     ],

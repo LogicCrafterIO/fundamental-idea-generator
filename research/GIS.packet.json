@@ -1,7 +1,7 @@
 {
   "symbol": "GIS",
-  "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T23:28:08",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T00:29:51",
   "profile": {
     "symbol": "GIS",
     "name": "General Mills, Inc.",
@@ -54,7 +54,7 @@
       "eps_high": 0.76,
       "revenue_avg": 4346502720
     },
-    "as_of": "2026-09-19"
+    "as_of": "2026-09-20"
   },
   "quants_lines": [
     "Price: 36.32 USD",
@@ -248,17 +248,6 @@
       "themes": [
         "valuation_dispersion"
       ]
-    },
-    {
-      "title": "3 Reasons GIS is Risky and 1 Stock to Buy Instead",
-      "publisher": "StockStory",
-      "published": "2026-09-16T14:44:52Z",
-      "summary": "Over the past six months, General Mills\u2019s stock price fell to $36.58. Shareholders have lost 6.2% of their capital, which is disappointing considering the S&P 500 has climbed by 13.7%. This may have investors wondering how to approach the situation.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-gis-risky-1-144452689.html",
-      "type": "STORY",
-      "source": "yahoo",
-      "relevance": 3,
-      "themes": []
     },
     {
       "title": "General Mills (GIS) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
@@ -613,19 +602,6 @@
       ]
     },
     {
-      "title": "Is PepsiCo Stock Cheap Enough To Live With Slow Growth?",
-      "publisher": "Trefis",
-      "published": "2026-09-16T15:25:19Z",
-      "summary": "PepsiCo (PEP) has gone nowhere for a year, down 1.8% over the past twelve months while the S&P 500 returned 16.6%. At about $135 a share it trades at 17.7 times earnings, against an S&P 500 median of 22.5. A big cash generator priced below the market is what value buyers hunt for, so is this discount impatience or a verdict.",
-      "url": "https://www.trefis.com/articles/615532/is-pepsico-stock-cheap-enough-to-live-with-slow-growth/2026-09-16",
-      "type": "STORY",
-      "source": "yahoo",
-      "relevance": 0,
-      "themes": [
-        "valuation_dispersion"
-      ]
-    },
-    {
       "title": "General Mills' Return to Growth Remains 'Unlikely,' UBS Securities Says",
       "publisher": "MT Newswires",
       "published": "2026-09-16T16:07:02Z",
@@ -694,7 +670,7 @@
         "label": "Guidance and estimate revisions",
         "description": "Changes to what the company and analysts expect next.",
         "count": 14,
-        "share": 0.35,
+        "share": 0.359,
         "evidence": [
           {
             "title": "GIS Stock: Buy or Avoid in 2026? | CirclFi",
@@ -738,8 +714,8 @@
         "key": "valuation_dispersion",
         "label": "Valuation dispersion",
         "description": "Similar businesses priced very differently.",
-        "count": 12,
-        "share": 0.3,
+        "count": 11,
+        "share": 0.282,
         "evidence": [
           {
             "title": "GIS Stock: Buy or Avoid in 2026? | CirclFi",
@@ -781,7 +757,7 @@
         "label": "Rates and funding costs",
         "description": "The cost of money, and who pays more for it.",
         "count": 4,
-        "share": 0.1,
+        "share": 0.103,
         "evidence": [
           {
             "title": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
@@ -822,7 +798,7 @@
         "label": "Depreciation and balance-sheet strain",
         "description": "Accounting for ageing assets and the cost of the debt behind them.",
         "count": 4,
-        "share": 0.1,
+        "share": 0.103,
         "evidence": [
           {
             "title": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
@@ -863,7 +839,7 @@
         "label": "Positioning and flows",
         "description": "Who owns it and how it is being traded.",
         "count": 3,
-        "share": 0.075,
+        "share": 0.077,
         "evidence": [
           {
             "title": "General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
@@ -896,7 +872,7 @@
         "label": "M&A and capital returns",
         "description": "Corporate action changing the share count or asset base.",
         "count": 2,
-        "share": 0.05,
+        "share": 0.051,
         "evidence": [
           {
             "title": "Document",
@@ -921,7 +897,7 @@
         "label": "Regulation and legal",
         "description": "Legal and regulatory constraints that change the economics.",
         "count": 1,
-        "share": 0.025,
+        "share": 0.026,
         "evidence": [
           {
             "title": "General Mills (GIS) Stock Looks About Right Despite Sugar Pricing Lawsuit",
@@ -950,7 +926,7 @@
   "catalyst": {
     "date": "2026-09-23",
     "weekday": "Wednesday",
-    "days_out": 4,
+    "days_out": 3,
     "basis": "scheduled",
     "session": "before the open",
     "consensus": {
@@ -993,89 +969,76 @@
     "beat_rate": 0.75,
     "median_gap_days": 91,
     "same_slot_last_year": true,
-    "facts_line": "2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.72."
+    "facts_line": "2026-09-23 (Wednesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 0.72."
   },
   "forward_trends": {
     "queries": [
-      "US packaged food volume sales trends 2026 2027 private label competition",
-      "cereal and snack category consumption decline 2026 GLP-1 impact",
-      "pet food market growth outlook 2026 2027 premiumization consumer spending",
-      "foodservice industry traffic trends 2026 2027 restaurant customer spending"
+      "General Mills GIS 2026 packaged food demand trends GLP-1 private label competition",
+      "2026 2027 US cereal and snack food market trends private label health conscious consumers",
+      "2026 2027 US pet food industry trends premiumization fresh pet food e-commerce competition",
+      "2026 2027 US foodservice restaurant traffic consumer spending grocery inflation low income"
     ],
     "results_count": 20,
-    "results_dated": 20,
+    "results_dated": 16,
     "trends": [
       {
-        "claim": "In the first half of 2026, private label reached a record 23.8% unit share of food and beverage.",
+        "claim": "In the 2026 food market outlook, GLP-1 users may eat less overall and less high-fat, sugary, and ultra-processed foods.",
         "stance": "pressure",
-        "why": "Retailers expanding private label and rationalizing SKUs reduces shelf space and volume for General Mills brands.",
-        "quote": "store brands set an all-time unit share record of 23.8% in the first half of 2026",
-        "url": "https://foodindustryexecutive.com/2026/09/24-of-food-and-beverage-dollars-now-go-to-private-label-which-of-your-skus-will-survive/",
-        "publisher": "foodindustryexecutive.com",
-        "as_of": "2026-09-17",
-        "age_days": 2,
-        "undated": false
+        "why": "This pressures GIS's packaged meals and snacks if consumers eat less of those products.",
+        "quote": "Users of the drugs may eat less overall and eat less of high fat and sugary foods, as well as ultra-processed foods.",
+        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+        "publisher": "freedoniagroup.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
       },
       {
-        "claim": "In the first half of 2026, national brands grew faster in dollar sales than private label despite losing unit share.",
-        "stance": "support",
-        "why": "Pricing or mix may be protecting General Mills' dollar sales for now, delaying volume pressure from reaching revenue.",
-        "quote": "US private-label brands continued to outperform national brands in unit sales in the first half of 2026, but national brands grew faster in dollar sales",
-        "url": "https://www.foodnavigator.com/Article/2026/07/09/private-label-widens-lead-over-national-brands-in-2026-grocery-unit-sales/",
-        "publisher": "foodnavigator.com",
-        "as_of": "2026-07-09",
-        "age_days": 72,
-        "undated": false
-      },
-      {
-        "claim": "In the first half of 2026, retail food and beverage dollar sales grew 2.2% but volume growth was flat.",
+        "claim": "In the 2026 food market outlook, increasing food prices will continue to benefit private label store brands.",
         "stance": "pressure",
-        "why": "Flat volume means General Mills cannot rely on category unit growth; gains must come from share or price/mix.",
-        "quote": "Retail F&B grew 2.2% in the first half of 2026, but volume growth remains flat, reflecting tightening consumer behaviors.",
-        "url": "https://www.refrigeratedfrozenfood.com/articles/104564-circanas-2026-2027-global-food-and-beverage-outlook-predicts-slow-to-moderate-growth-as-market-enters-period-of-rationalization",
-        "publisher": "refrigeratedfrozenfood.com",
-        "as_of": "2026-07-13",
-        "age_days": 68,
+        "why": "This pressures GIS's branded volumes and pricing power as shoppers trade down.",
+        "quote": "Increasing food prices will continue to benefit private label store brands.",
+        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+        "publisher": "freedoniagroup.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "As of May 2026, snack demand is shifting toward function, value, and restraint.",
+        "stance": "pressure",
+        "why": "This pressures GIS snack brands to reformulate and price competitively to keep volume.",
+        "quote": "Snack demand shifts towards function, value, and restraint",
+        "url": "https://nielseniq.com/wp-content/uploads/sites/4/2026/05/NA-US-NIQ-Perspective-Snacking-Trends-May-2026.pdf",
+        "publisher": "nielseniq.com",
+        "as_of": "2026-05-01",
+        "age_days": 142,
         "undated": false
       },
       {
-        "claim": "As of August 2026, GLP-1 users may trade up and spend more on functional products, protecting grocery value.",
+        "claim": "In the 2026 cereal market report, consumers are highly influenced by high fiber, high protein, and added vitamins/minerals.",
         "stance": "support",
-        "why": "Could support General Mills if it shifts mix toward premium, functional, or health-positioned products.",
-        "quote": "GLP-1 users may buy less food overall, but trading up and greater spending on functional products can help protect grocery value",
-        "url": "https://www.foodnavigator.com/Article/2026/08/19/new-glp-1-consumer-data-challenges-food-industry-forecasts/",
-        "publisher": "foodnavigator.com",
-        "as_of": "2026-08-19",
-        "age_days": 31,
-        "undated": false
+        "why": "This supports GIS cereal brands that reformulate toward functional health benefits.",
+        "quote": "When choosing a cereal, positive nutritional attributes like high fiber, high protein, and added vitamins or minerals are highly influential.",
+        "url": "https://store.mintel.com/report/us-hot-and-cold-cereal-market-report",
+        "publisher": "store.mintel.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
       },
       {
-        "claim": "Among current GLP-1 users, 42% say frozen and refrigerated foods help them control portions.",
-        "stance": "support",
-        "why": "Supports General Mills frozen and refrigerated products like Totino's or Pillsbury as GLP-1 use grows.",
-        "quote": "Among current GLP-1 users, 42% say these foods help them control portions",
-        "url": "https://www.refrigeratedfrozenfood.com/articles/104564-circanas-2026-2027-global-food-and-beverage-outlook-predicts-slow-to-moderate-growth-as-market-enters-period-of-rationalization",
-        "publisher": "refrigeratedfrozenfood.com",
-        "as_of": "2026-07-13",
-        "age_days": 68,
-        "undated": false
+        "claim": "In the 2026 cereal market report, brands must balance sweetness with less sugar to retain relevance.",
+        "stance": "pressure",
+        "why": "This pressures GIS's sweet cereal portfolio to reformulate or lose shelf space.",
+        "quote": "Balance sweetness with less sugar and less sweet flavors to retain relevance",
+        "url": "https://store.mintel.com/report/us-hot-and-cold-cereal-market-report",
+        "publisher": "store.mintel.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
       }
     ],
-    "dropped": [
-      {
-        "claim": "By 2030, GLP-1 households are projected to represent 35% of all U.S. food and beverage units sold.",
-        "stance": "pressure",
-        "why": "General Mills' snacks, sweets, and baked goods categories face shrinking demand as GLP-1 use grows.",
-        "quote": "GLP-1 households are projected to represent 35% of all U.S. food and beverage units sold by 2030",
-        "url": "https://foodindustryexecutive.com/2026/03/what-glp-1-adoption-actually-means-for-your-sku-rationalization-decisions-in-2026/",
-        "publisher": "foodindustryexecutive.com",
-        "as_of": "2026-03-01",
-        "age_days": 202,
-        "undated": false,
-        "drop_reason": "stale (202 days old)"
-      }
-    ],
-    "stale_dropped": 1,
+    "dropped": [],
+    "stale_dropped": 0,
     "max_age_days": 180
   },
   "provenance": [

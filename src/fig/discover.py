@@ -371,6 +371,7 @@ def scan(
     include_screener: bool = True,
     require_structure: bool = True,
     require_positive_pe: bool = True,
+    max_price: float | None = DEFAULT_MAX_PRICE,
 ) -> dict:
     """End-to-end triage: build a universe, screen it, rank it.
 
@@ -396,6 +397,7 @@ def scan(
         top=top,
         require_structure=require_structure,
         require_positive_pe=require_positive_pe,
+        max_price=max_price,
     )
     gated = [r for r in rows if r.get("gated")]
     return {

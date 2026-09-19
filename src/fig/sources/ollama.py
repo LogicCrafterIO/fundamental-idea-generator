@@ -38,7 +38,11 @@ CHAT_URL = f"{API_BASE}/v1/chat/completions"
 SEARCH_URL = f"{API_BASE}/api/web_search"
 MODELS_URL = f"{API_BASE}/v1/models"
 
-DEFAULT_MODEL = os.environ.get("FIG_MODEL", "deepseek-v4-pro:0813")
+# The qualitative work -- planning end-market queries, synthesising trends, and
+# writing the note -- is latency-bound and benefits far more from speed than from
+# the largest available model. Overridable per call with --model or globally with
+# FIG_MODEL.
+DEFAULT_MODEL = os.environ.get("FIG_MODEL", "deepseek-v4.1-flash")
 
 _env_cache: dict[str, str] | None = None
 

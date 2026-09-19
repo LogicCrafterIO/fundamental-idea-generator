@@ -1,13 +1,13 @@
 {
   "ticker": "ORCL",
   "direction": "long",
-  "as_of": "2026-09-19",
-  "description": "Enterprise software and cloud infrastructure provider; sells database, ERP [enterprise resource planning], and cloud services.",
+  "as_of": "2026-09-20",
+  "description": "Database and enterprise applications vendor that now mostly sells AI data-center capacity and cloud software.",
   "catalyst": {
     "date": "2026-12-10",
     "weekday": "Thursday",
     "session": null,
-    "days_out": 82,
+    "days_out": 81,
     "basis": "scheduled",
     "consensus": {
       "eps_avg": 1.89
@@ -44,13 +44,13 @@
     ],
     "beat_streak": 4,
     "median_gap_days": 91,
-    "facts_line": "2026-12-10 (Thursday), 82 days out -- from the earnings calendar, consensus EPS 1.89.",
-    "why": "The December report must show cloud revenue growth near 30% and backlog converting to revenue, proving cloud demand is durable."
+    "facts_line": "2026-12-10 (Thursday), 81 days out -- from the earnings calendar, consensus EPS 1.89.",
+    "why": "Cloud revenue must convert the $664B backlog fast enough to outrun data-center build costs."
   },
   "reasons": [
-    "Because AI-enabled cloud ERP spending is forecast to jump from 14% in 2024 to 62% by 2027, Oracle's Fusion and NetSuite applications are positioned to capture that shift, lifting revenue.",
-    "Because Oracle's $300 billion OpenAI deal and massive cloud backlog mean future revenue is already contracted, converting that backlog to recognized revenue will close the gap between 13.4x forward earnings and 30% revenue growth.",
-    "Because analysts raised EPS estimates four times in 30 days with zero cuts and Oracle beat consensus in each of the last four quarters, most recently by 10.4%, the upward trend leads to higher stock price."
+    "Because RPO [remaining performance obligations, contracted work not yet billed] rose $209B year over year to $664B, revenue is already signed, so the 20% year-to-date fall prices a conversion failure the backlog does not show.",
+    "Because IT buyers expect 2026 budgets to grow 5.8%, up from 3.6%, demand is not the problem; GPU supply runs short and Oracle's server farms are nearly full, which delays revenue rather than cancelling it.",
+    "Because analysts lifted FY EPS to 8.14 from 8.05 in 30 days, 4 up and 0 down, estimates and price are moving opposite ways, so the December print is where that gap closes."
   ],
   "quants": {
     "price": 147.61,
@@ -94,38 +94,31 @@
       }
     ],
     "thesis_target": "Targets the 2026-12-10 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.",
-    "reflection": "The credit ratio clears the floor, but the short call at 155 expiring October 16 caps upside if the stock runs before December earnings. Net debit $3,198 is acceptable for a three-leg ratio; the main risk is early assignment on the short calls if ORCL spikes above 155."
+    "reflection": "The 22.6% credit ratio is fat enough that the October shorts fund a third of the December longs, but they cap the position at 155 until 16 October, so the trade needs the stock to hold that strike through October and then move after. The floor test leaves room; the real risk is a December beat that lifts EPS without lifting the share price."
   },
   "generation": {
-    "model": "deepseek-v4-pro:0813",
+    "model": "deepseek-v4.1-flash",
     "search_used": true,
     "rounds": [
       {
         "round": 0,
+        "score": 39,
+        "errors": 2,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
         "score": 67,
         "errors": 1,
         "warnings": 3,
         "unsupported_figures": []
       },
       {
-        "round": 1,
-        "score": 59,
-        "errors": 2,
-        "warnings": 1,
-        "unsupported_figures": []
-      },
-      {
         "round": 2,
-        "score": 82,
-        "errors": 1,
-        "warnings": 0,
-        "unsupported_figures": []
-      },
-      {
-        "round": 0,
-        "score": 90,
+        "score": 100,
         "errors": 0,
-        "warnings": 2,
+        "warnings": 0,
         "unsupported_figures": []
       },
       {
@@ -137,77 +130,110 @@
       },
       {
         "round": 1,
-        "score": 100,
+        "score": 85,
         "errors": 0,
-        "warnings": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 44,
+        "errors": 2,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
         "unsupported_figures": []
       }
     ],
     "grounding": {
       "checked": 9,
-      "unsupported": [],
-      "grounded": true,
-      "ratio": 1.0
+      "unsupported": [
+        "\"209\"",
+        "\"664\""
+      ],
+      "grounded": false,
+      "ratio": 0.778
     },
     "verdict": {
       "samples": 3,
       "verdicts": [
-        "confirms",
-        "no-evidence",
+        "contradicts",
+        "contradicts",
         "contradicts"
       ],
-      "confirmed": 1,
-      "contradicted": 1,
-      "mixed": 1,
+      "confirmed": 0,
+      "contradicted": 3,
+      "mixed": 0,
       "majority": "contradicts",
-      "agreement": 0.33
+      "agreement": 1.0
     },
     "samples": [
       {
         "sample": 0,
-        "score": 82,
-        "verdict": "confirms",
-        "supportive": 4,
-        "adverse": 1,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
         "trends_available": 5,
         "trends_used": [
-          "budget",
+          "backlog",
+          "budgets",
           "buyers",
-          "capex",
           "center",
-          "earlier",
+          "contract",
+          "delay",
           "expect",
-          "hyperscaler",
+          "farms",
+          "nearly",
+          "obligations",
           "oracle",
-          "september",
-          "spring"
+          "remaining",
+          "server",
+          "short",
+          "supply"
         ]
       },
       {
         "sample": 1,
-        "score": 90,
-        "verdict": "no-evidence",
-        "supportive": 0,
-        "adverse": 0,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
         "trends_available": 5,
         "trends_used": [
-          "estimate",
-          "forecast"
+          "backlog",
+          "capex",
+          "delivered",
+          "dilutes",
+          "equity",
+          "oracle",
+          "raise"
         ]
       },
       {
         "sample": 2,
-        "score": 100,
+        "score": 95,
         "verdict": "contradicts",
         "supportive": 1,
         "adverse": 4,
         "trends_available": 5,
         "trends_used": [
+          "agentic",
           "application",
-          "applications",
-          "forecast",
+          "human",
+          "launched",
+          "march",
+          "model",
           "oracle",
-          "shift"
+          "rather",
+          "seats",
+          "shift",
+          "shifts"
         ]
       }
     ]

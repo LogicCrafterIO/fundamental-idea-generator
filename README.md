@@ -159,6 +159,25 @@ the end market, that is an **error** and the writer has to try again. The check
 ignores words already in the company's own Description, so "payroll" for Paychex
 cannot count as evidence about its customers.
 
+### Model and speed
+
+The default model is **`deepseek-v4.1-flash`** (`FIG_MODEL`, or `--model` per call).
+The qualitative work here -- planning end-market queries, synthesising trends,
+writing the note -- is latency-bound, and flash writes a round in ~19s against the
+pro model's 26-38s, with no observed loss in note quality.
+
+Two other levers matter more than the model:
+
+- **`--jobs N` generates N tickers concurrently.** Generation is almost entirely
+  network wait, so this is close to linear: 4 tickers take ~2 minutes in parallel
+  versus ~6.5 serially.
+- **`tools/funnel.py`** shows where names are lost before any model call happens,
+  which is usually the real answer to "why so few ideas?".
+
+Screening is cheap and model-free by design: `screen_symbol` pulls only light facts
+(no option chains), so dozens of names can be triaged before paying for a full
+packet on the survivors.
+
 ### The share-price cap
 
 Ideas are capped at **$150 per share**, enforced in the screen and again before any

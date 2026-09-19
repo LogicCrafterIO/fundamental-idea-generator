@@ -1,7 +1,7 @@
 {
   "symbol": "ORCL",
-  "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T23:10:18",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T00:29:56",
   "profile": {
     "symbol": "ORCL",
     "name": "Oracle Corporation",
@@ -19,20 +19,20 @@
     "market_cap": 446333681664,
     "market_cap_human": "446.33B",
     "fwd_pe": 18.13,
-    "fwd_pe_1y": 13.43,
+    "fwd_pe_1y": 13.42,
     "fwd_pe_yahoo": 13.42252,
     "trailing_pe": 23.136364,
     "ps": 6.218425,
     "ev_ebitda": 16.954,
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "eps_fy_current": 8.14116,
-    "eps_fy_next": 10.99386,
+    "eps_fy_current": 8.1414,
+    "eps_fy_next": 10.99719,
     "eps_trend": {
-      "change_7d_pct": 0.97,
-      "change_30d_pct": 1.09,
-      "current": 8.14116,
-      "7d_ago": 8.06295,
+      "change_7d_pct": 0.98,
+      "change_30d_pct": 1.1,
+      "current": 8.1414,
+      "7d_ago": 8.06236,
       "30d_ago": 8.05313,
       "text": "slightly up over the last 7 days"
     },
@@ -54,7 +54,7 @@
       "eps_high": 2.04,
       "revenue_avg": 19129103030
     },
-    "as_of": "2026-09-19"
+    "as_of": "2026-09-20"
   },
   "quants_lines": [
     "Price: 147.61 USD",
@@ -258,7 +258,7 @@
       "title": "Forget Oracle's Stock Price Swings. Its Backlog-to-Revenue Ratio Tells the Real Story.",
       "publisher": "The Motley Fool",
       "created": "Sep 17, 2026",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "url": "/articles/forget-oracles-stock-price-swings-its-backlog-revenue-ratio-tells-real-story",
       "primary_symbol": "ORCL",
       "related_symbols": [
@@ -324,7 +324,7 @@
       "title": "Is CoreWeave Worth Buying as AI Growth Meets Heavy Funding Risks?",
       "publisher": "Zacks",
       "created": "Sep 17, 2026",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "url": "/articles/coreweave-worth-buying-ai-growth-meets-heavy-funding-risks",
       "primary_symbol": null,
       "related_symbols": [
@@ -504,7 +504,7 @@
       "title": "Stocks Waver as Bond Yields Climb",
       "publisher": "Barchart",
       "created": "Sep 18, 2026",
-      "ago": "15 hours ago",
+      "ago": "17 hours ago",
       "url": "/articles/stocks-waver-bond-yields-climb",
       "primary_symbol": null,
       "related_symbols": [
@@ -564,7 +564,7 @@
       "title": "Stocks Mixed as Crude Oil Prices and Bond Yields Rise",
       "publisher": "Barchart",
       "created": "Sep 18, 2026",
-      "ago": "15 hours ago",
+      "ago": "17 hours ago",
       "url": "/articles/stocks-mixed-crude-oil-prices-and-bond-yields-rise",
       "primary_symbol": null,
       "related_symbols": [
@@ -623,7 +623,7 @@
       "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
       "publisher": "Barchart",
       "created": "Sep 19, 2026",
-      "ago": "40 minutes ago",
+      "ago": "12 minutes ago",
       "url": "/articles/stocks-finish-mostly-higher-crude-prices-fall",
       "primary_symbol": null,
       "related_symbols": [
@@ -1226,7 +1226,7 @@
   "catalyst": {
     "date": "2026-12-10",
     "weekday": "Thursday",
-    "days_out": 82,
+    "days_out": 81,
     "basis": "scheduled",
     "session": null,
     "consensus": {
@@ -1266,101 +1266,76 @@
     "beat_rate": 1.0,
     "median_gap_days": 91,
     "same_slot_last_year": true,
-    "facts_line": "2026-12-10 (Thursday), 82 days out -- from the earnings calendar, consensus EPS 1.89."
+    "facts_line": "2026-12-10 (Thursday), 81 days out -- from the earnings calendar, consensus EPS 1.89."
   },
   "forward_trends": {
     "queries": [
-      "enterprise cloud software spending forecast 2026 2027 ERP HCM SCM budgets",
-      "PostgreSQL vs Oracle database adoption enterprise 2026 migration trends",
-      "cloud infrastructure AI spending enterprise 2026 hyperscaler competition pricing",
-      "healthcare IT spending forecast 2026 2027 hospital EHR budget trends"
+      "Oracle ORCL enterprise applications customer spending outlook 2026 2027",
+      "AI agents enterprise software SaaS disruption 2026 2027 ERP HCM SCM",
+      "healthcare IT spending outlook 2026 2027 hospital EHR budgets",
+      "cloud infrastructure database market 2026 2027 AI workloads open source PostgreSQL competition"
     ],
     "results_count": 20,
     "results_dated": 18,
     "trends": [
       {
-        "claim": "By 2027, AI-enabled solutions are forecast to reach 62% of cloud ERP spending, up from 14% in 2024.",
-        "stance": "support",
-        "why": "Oracle sells cloud ERP applications; rising AI-enabled spending can lift its application revenue if it captures that shift.",
-        "quote": "Gartner forecasts that AI enabled solutions will represent 62% of cloud ERP spending by 2027, up from 14% in 2024.",
-        "url": "https://sdlccorp.com/post/erp-statistics/",
-        "publisher": "sdlccorp.com",
-        "as_of": "2026-07-30",
-        "age_days": 51,
-        "undated": false
-      },
-      {
-        "claim": "By 2027, over 70% of ERP initiatives may fail to meet business case goals, raising implementation risk.",
+        "claim": "Agentic AI threatens up to $234B of enterprise application spending by 2030, pressuring SaaS models.",
         "stance": "pressure",
-        "why": "Failed or disappointing ERP projects can reduce follow-on spending and renewals for Oracle's enterprise application business.",
-        "quote": "over 70% of ERP initiatives may fail to meet their business case goals by 2027.",
-        "url": "https://sdlccorp.com/post/erp-statistics/",
-        "publisher": "sdlccorp.com",
-        "as_of": "2026-07-30",
-        "age_days": 51,
-        "undated": false
-      },
-      {
-        "claim": "As of September 2026, PostgreSQL adoption is prompting longtime Oracle users to evaluate where each platform fits.",
-        "stance": "pressure",
-        "why": "If evaluations lead to migrations, Oracle's database license and support revenue could erode over the next few years.",
-        "quote": "prompting organizations that have relied on Oracle for years to evaluate where each platform is the best fit.",
-        "url": "https://www.postgresql.fastware.com/blog/postgresql-vs-oracle-an-enterprise-evaluation",
-        "publisher": "postgresql.fastware.com",
-        "as_of": "2026-09-10",
-        "age_days": 9,
-        "undated": false
-      },
-      {
-        "claim": "As of September 2026, enterprises see Oracle migration savings large enough to fund several engineering teams.",
-        "stance": "pressure",
-        "why": "Persistent licensing-cost pressure can push customers to PostgreSQL, reducing Oracle database revenue over time.",
-        "quote": "someone runs the numbers on what they could save by migrating off Oracle, the number is large enough to fund several engineering teams",
-        "url": "https://cloudrps.com/blog/oracle-to-postgresql-migration-enterprise-guide/",
-        "publisher": "cloudrps.com",
-        "as_of": "2026-09-06",
-        "age_days": 13,
-        "undated": false
-      },
-      {
-        "claim": "For 2026\u20132027, health system executives expect declining capital investments to hit health IT purchasing.",
-        "stance": "pressure",
-        "why": "Tighter capital budgets can delay or reduce Oracle Health deals even as operating tech spending continues.",
-        "quote": "executives are anticipating declines in capital investments that will impact the health IT purchasing process",
-        "url": "https://sage-growth.com/news/health-it-spending-forecast-2026-2027/",
-        "publisher": "sage-growth.com",
-        "as_of": "2026-03-24",
-        "age_days": 179,
-        "undated": false
-      }
-    ],
-    "dropped": [
-      {
-        "claim": "In 2026, worldwide IT spending is expected to grow 10.8% to $6.15 trillion, supporting software demand.",
-        "stance": "support",
-        "why": "Broader IT budget growth can support Oracle's software and cloud sales even if some segments slow.",
-        "quote": "Worldwide IT spending is expected to reach $6.15 trillion in 2026, up 10.8% from 2025",
-        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-02-03-gartner-forecasts-worldwide-it-spending-to-grow-10-point-8-percent-in-2026-totaling-6-point-15-trillion-dollars",
+        "why": "Oracle's cloud apps revenue could face pricing and demand pressure as agents reduce human seats.",
+        "quote": "up to $234 billion of enterprise application spending exposed to agentic arbitrage between now and 2030",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
         "publisher": "gartner.com",
-        "as_of": "2026-02-03",
-        "age_days": 228,
-        "undated": false,
-        "drop_reason": "stale (228 days old)"
+        "as_of": "2026-07-01",
+        "age_days": 81,
+        "undated": false
       },
       {
-        "claim": "In 2026, US healthcare provider technology budgets are forecast to grow 7.6% to $69 billion.",
+        "claim": "By 2030, agentic arbitrage will account for roughly 20% of enterprise application SaaS spending.",
+        "stance": "pressure",
+        "why": "Threatens Oracle's SaaS revenue model as agents reduce seat-based usage.",
+        "quote": "By 2030, this will account for roughly 20% of enterprise application software-as-a-service (SaaS) spending.",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
+        "publisher": "gartner.com",
+        "as_of": "2026-07-01",
+        "age_days": 81,
+        "undated": false
+      },
+      {
+        "claim": "As autonomous systems become primary users, SaaS vendors face pressure to shift from seat-based pricing.",
+        "stance": "pressure",
+        "why": "Oracle's cloud apps may need new pricing models as AI agents bypass human users.",
+        "quote": "As autonomous systems become primary users of business applications, traditional SaaS vendors may face pressure to shift from seat-based pricing and UX-led differentiation.",
+        "url": "https://www.cio.com/article/4192242/agentic-ai-puts-234b-in-enterprise-saas-spending-at-risk-gartner-says.html",
+        "publisher": "cio.com",
+        "as_of": "2026-07-02",
+        "age_days": 80,
+        "undated": false
+      },
+      {
+        "claim": "As of July 2026, buyers increasingly purchase software for AI agents rather than people.",
+        "stance": "pressure",
+        "why": "Shifts value from seat-based SaaS to agent-driven platforms, pressuring Oracle's apps.",
+        "quote": "You are no longer buying software primarily for people; you are increasingly buying it for agents",
+        "url": "https://www.cio.com/article/4192242/agentic-ai-puts-234b-in-enterprise-saas-spending-at-risk-gartner-says.html",
+        "publisher": "cio.com",
+        "as_of": "2026-07-02",
+        "age_days": 80,
+        "undated": false
+      },
+      {
+        "claim": "Oracle launched Fusion Agentic Applications in March 2026 to embed AI agents into Fusion Cloud Apps.",
         "stance": "support",
-        "why": "Oracle Health/Cerner sells into provider IT; rising budgets can support that vertical's revenue.",
-        "quote": "US healthcare providers\u2019 technology budgets, including staff costs, to reach $69 billion in 2026, up from $64 billion in 2025",
-        "url": "https://www.forrester.com/report/us-tech-forecast-2026-what-it-means-for-healthcare-providers/RES191592",
-        "publisher": "forrester.com",
-        "as_of": "2026-02-10",
-        "age_days": 221,
-        "undated": false,
-        "drop_reason": "stale (221 days old)"
+        "why": "Could defend SaaS revenue by shifting to outcome-driven agentic applications.",
+        "quote": "Oracle today announced Fusion Agentic Applications, a new class of enterprise applications powered by coordinated teams of specialized AI agents",
+        "url": "https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-2026-03-24/",
+        "publisher": "oracle.com",
+        "as_of": "2026-03-24",
+        "age_days": 180,
+        "undated": false
       }
     ],
-    "stale_dropped": 2,
+    "dropped": [],
+    "stale_dropped": 0,
     "max_age_days": 180
   },
   "provenance": [

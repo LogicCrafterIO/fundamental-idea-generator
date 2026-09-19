@@ -1,0 +1,87 @@
+==============================================================================
+STAGE 0: build the candidate pool (three free entry points)
+==============================================================================
+  pool: 144 names
+    screener    120
+    earnings     25
+
+  screening 40 of 144 (watchlist first, then earnings, then screener)
+
+==============================================================================
+STAGE 1: screen each name (light facts only -- no option chains yet)
+==============================================================================
+  [  1/40] COST   $   895.31  rev30 4  px30 -6.45
+  [  2/40] CTAS   $   197.64  rev30 1  px30 -2.68
+  [  3/40] AZO    $ 2,855.31  rev30 -2  px30 -7.2
+  [  4/40] PAYX   $   116.14  rev30 -3  px30 -5.19
+  [  5/40] CCL    $    21.84  rev30 -1  px30 -18.17
+  [  6/40] DRI    $   209.28  rev30 1  px30 -5.68
+  [  7/40] SNX    $   266.16  rev30 11  px30 5.71
+  [  8/40] GIS    $    36.32  rev30 -2  px30 -9.18
+  [  9/40] JEF    $    47.90  rev30 2  px30 -10.55
+  [ 10/40] ABVX   $   105.04  rev30 6  px30 -12.87
+  [ 11/40] KMX    $    57.21  rev30 2  px30 -2.95
+  [ 12/40] VFS    $     3.23  rev30 1  px30 2.87
+  [ 13/40] GRFS   $     7.31  rev30 -1  px30 -11.39  no usable expiry pair
+  [ 14/40] UEC    $     9.81  rev30 -2  px30 -15.65
+  [ 15/40] MTN    $   139.80  rev30 -4  px30 -8.66
+  [ 16/40] BB     $     7.99  rev30 5  px30 -4.2
+  [ 17/40] AIR    $   112.77  rev30 2  px30 -18.97
+  [ 18/40] THO    $    67.77  rev30 -1  px30 -15.36
+  [ 19/40] MANU   $    19.69  rev30 -1  px30 -17.72
+  [ 20/40] SA     $    30.95  rev30 0  px30 -7.75
+  [ 21/40] KBH    $    47.12  rev30 2  px30 -16.45
+  [ 22/40] WOR    $    57.38  rev30 -4  px30 0.09
+  [ 23/40] CHRN   $    20.42  rev30 None  px30 -13.84  no options
+  [ 24/40] FUL    $    49.41  rev30 7  px30 -18.8
+  [ 25/40] HUBG   $    32.72  rev30 0  px30 -18.2
+  [ 26/40] NVDA   $   222.27  rev30 38  px30 2.16
+  [ 27/40] AAPL   $   336.13  rev30 3  px30 6.09
+  [ 28/40] GOOGL  $   349.54  rev30 2  px30 1.4
+  [ 29/40] GOOG   $   344.41  rev30 3  px30 0.79
+  [ 30/40] MSFT   $   493.78  rev30 13  px30 1.96
+  [ 31/40] AMZN   $   253.71  rev30 6  px30 -4.56
+  [ 32/40] SPCX   $   152.71  rev30 4  px30 9.35
+  [ 33/40] AVGO   $   357.61  rev30 8  px30 -1.34
+  [ 34/40] META   $   665.75  rev30 -41  px30 21.93
+  [ 35/40] TSLA   $   364.27  rev30 -2  px30 3.75
+  [ 36/40] SKHY   $   187.50  rev30 0  px30 20.07
+  [ 37/40] MU     $ 1,015.80  rev30 0  px30 8.4
+  [ 38/40] AMD    $   559.82  rev30 19  px30 20.02
+  [ 39/40] WMT    $   106.73  rev30 -10  px30 -6.62
+  [ 40/40] ASML   $ 1,679.92  rev30 28  px30 -4.1
+
+==============================================================================
+STAGE 2: gates, in the order they are applied
+==============================================================================
+    19  share price at or above the $150 cap
+     5  loss-making (fwd PE not meaningful)
+     1  has options but no usable expiry pair
+     1  no listed options
+    14  PASSED ALL GATES
+
+==============================================================================
+STAGE 3: score the survivors (additive, inspectable)
+==============================================================================
+  BB     long  score  82.2   divergence 45.0  catalyst 10.2  salience 15.0  tradeable 12.0
+  FUL    long  score  82.0   divergence 45.0  catalyst 10.0  salience 15.0  tradeable 12.0
+  WOR    short score  69.3   divergence 32.1  catalyst 10.2  salience 15.0  tradeable 12.0
+  KBH    long  score  69.1   divergence 31.9  catalyst 10.2  salience 15.0  tradeable 12.0
+  AIR    long  score  67.4   divergence 33.4  catalyst 10.0  salience 12.0  tradeable 12.0
+  JEF    long  score  56.3   divergence 28.3  catalyst 10.0  salience 6.0  tradeable 12.0
+  KMX    long  score  51.8   divergence 17.8  catalyst 10.0  salience 12.0  tradeable 12.0
+  GIS    short score  47.6   divergence 7.4  catalyst 10.2  salience 15.0  tradeable 12.0  valuation_fragility 3.0
+  WMT    short score  43.0   divergence 1.0  catalyst 17.0  salience 9.0  tradeable 12.0  valuation_fragility 4.0
+  CCL    short score  42.7   divergence 2.7  catalyst 10.0  salience 15.0  tradeable 12.0  valuation_fragility 3.0
+  MTN    short score  42.3   divergence 1.3  catalyst 10.0  salience 15.0  tradeable 12.0  valuation_fragility 4.0
+  THO    short score  39.7   divergence 2.3  catalyst 10.4  salience 15.0  tradeable 12.0
+  HUBG   long  score  39.7   divergence 2.7  catalyst 10.0  salience 15.0  tradeable 12.0
+  PAYX   short score  35.0   divergence 6.8  catalyst 10.2  salience 6.0  tradeable 12.0
+
+==============================================================================
+SUMMARY
+==============================================================================
+  universe            144
+  screened            40
+  passed all gates    14
+  elapsed             4s

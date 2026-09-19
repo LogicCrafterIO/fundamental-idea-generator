@@ -1,16 +1,16 @@
 Ticker: ORCL
 
 Description
-Enterprise software and cloud infrastructure provider; sells database, ERP [enterprise resource planning], and cloud services.
+Database and enterprise applications vendor that now mostly sells AI data-center capacity and cloud software.
 
 Catalyst
-2026-12-10 (Thursday), 82 days out -- from the earnings calendar, consensus EPS 1.89.
-The December report must show cloud revenue growth near 30% and backlog converting to revenue, proving cloud demand is durable.
+2026-12-10 (Thursday), 81 days out -- from the earnings calendar, consensus EPS 1.89.
+Cloud revenue must convert the $664B backlog fast enough to outrun data-center build costs.
 
 Reasons
-1) Because AI-enabled cloud ERP spending is forecast to jump from 14% in 2024 to 62% by 2027, Oracle's Fusion and NetSuite applications are positioned to capture that shift, lifting revenue.
-2) Because Oracle's $300 billion OpenAI deal and massive cloud backlog mean future revenue is already contracted, converting that backlog to recognized revenue will close the gap between 13.4x forward earnings and 30% revenue growth.
-3) Because analysts raised EPS estimates four times in 30 days with zero cuts and Oracle beat consensus in each of the last four quarters, most recently by 10.4%, the upward trend leads to higher stock price.
+1) Because RPO [remaining performance obligations, contracted work not yet billed] rose $209B year over year to $664B, revenue is already signed, so the 20% year-to-date fall prices a conversion failure the backlog does not show.
+2) Because IT buyers expect 2026 budgets to grow 5.8%, up from 3.6%, demand is not the problem; GPU supply runs short and Oracle's server farms are nearly full, which delays revenue rather than cancelling it.
+3) Because analysts lifted FY EPS to 8.14 from 8.05 in 30 days, 4 up and 0 down, estimates and price are moving opposite ways, so the December print is where that gap closes.
 
 Quants
 Price: 147.61
@@ -27,10 +27,10 @@ Structuring
 Long	CALL	18-Dec-26	$ 155.00	3	$ 147.61	100	$ 13.88	$ -	$ -	$ -	$ 4,164.00
 Short	CALL	16-Oct-26	$ 155.00	2	$ 147.61	100	$ 4.83	$ -	$ -	$ -	$ (966.00)
 Targets the 2026-12-10 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.
-The credit ratio clears the floor, but the short call at 155 expiring October 16 caps upside if the stock runs before December earnings. Net debit $3,198 is acceptable for a three-leg ratio; the main risk is early assignment on the short calls if ORCL spikes above 155.
+The 22.6% credit ratio is fat enough that the October shorts fund a third of the December longs, but they cap the position at 155 until 16 October, so the trade needs the stock to hold that strike through October and then move after. The floor test leaves room; the real risk is a December beat that lifts EPS without lifting the share price.
 
 Evidence
-End-market research, sampled 3 times because the evidence is qualitative: 1 of 3 sampled run(s) confirmed, 1 contradicted, 1 mixed or no evidence.
+End-market research, sampled 3 times because the evidence is qualitative: 0 of 3 sampled run(s) confirmed, 3 contradicted.
 
 ---
-Lint: score 100/100, 0 error(s), 0 warning(s), description 15 words, catalyst 20 words, reasons [30, 34, 36]
+Lint: score 100/100, 0 error(s), 0 warning(s), description 15 words, catalyst 14 words, reasons [35, 35, 33]

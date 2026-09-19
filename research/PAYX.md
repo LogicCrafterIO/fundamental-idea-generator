@@ -1,16 +1,16 @@
 Ticker: PAYX
 
 Description
-Payroll, HR, benefits, and retirement services for small and medium-sized businesses.
+Payroll and HR software for small and medium-sized businesses, now integrating Paycor.
 
 Catalyst
-2026-09-23 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 1.32.
-The report must show client employee counts or payroll volume falling, or guidance cut, confirming the hiring collapse is hitting revenue.
+2026-09-23 (Wednesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 1.32.
+The report must show whether the May quarter's sequential decline was seasonal or the start of a trend, and whether float income is holding up.
 
 Reasons
-1) Paychex earns per employee per month; with 77% of small businesses delaying hires and 57% already laying off, payroll volume is set to shrink, but consensus still models growth.
-2) Venture funding is backing AI [artificial intelligence]-native payroll platforms like Intermezzo, which can undercut Paychex's per-employee fees and win small-business clients, compressing its 6.3x sales multiple.
-3) Revenue fell 11.2% and net income 24.9% quarter-over-quarter, while the stock still trades at 19.5x forward earnings; the market is paying for growth that has already reversed.
+1) Small-business job openings fell to 29% in May 2026, the lowest since May 2020, and 51% of small businesses report few or no qualified workers — both cap payroll headcount growth, which drives Paychex revenue.
+2) The May quarter showed revenue down 11.2% and net income down 24.9% sequentially, while the stock trades at 19.5x forward earnings — the market is pricing a recovery the latest numbers do not show.
+3) Analysts cut FY [fiscal year] EPS estimates three times in 30 days with zero increases, from 5.98121 to 5.95956, yet the stock is up 30% in six months on Paycor and AI [artificial intelligence] narrative.
 
 Quants
 Price: 116.14
@@ -27,12 +27,12 @@ Structuring
 Long	PUT	15-Jan-27	$ 110.00	7	$ 116.14	100	$ 5.65	$ -	$ -	$ -	$ 3,955.00
 Short	PUT	16-Oct-26	$ 110.00	3	$ 116.14	100	$ 2.17	$ -	$ -	$ -	$ (651.00)
 Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.
-The 11.2% conservative credit clears the floor, but the net debit is $3,304. The short put expires in four weeks, so a post-earnings gap below 110 would hurt; the long put cushions but the ratio is only 3:7.
+The credit ratio clears the 10% floor at 11.2% conservative, but the net debit of $3,304 means the trade needs a move below 110 to pay. The short put at 110 expiring in October caps the credit; if PAYX holds 110 into that expiry, the long put's value decays.
 
 Evidence
-End-market research, sampled 3 times because the evidence is qualitative: 2 of 3 sampled run(s) confirmed, 1 mixed or no evidence.
+End-market research, sampled 3 times because the evidence is qualitative: 1 of 3 sampled run(s) confirmed, 1 contradicted, 1 mixed or no evidence.
 
 ---
-Lint: score 90/100, 0 error(s), 2 warning(s), description 11 words, catalyst 21 words, reasons [29, 27, 27]
-  [warn ] Reason 1: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
+Lint: score 90/100, 0 error(s), 2 warning(s), description 12 words, catalyst 25 words, reasons [34, 33, 35]
+  [warn ] Reason 2: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)
   [warn ] Reason 3: no causal link (if/because/leads to); reads as an assertion (reason_no_mechanism)

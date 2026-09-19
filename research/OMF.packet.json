@@ -1,7 +1,7 @@
 {
   "symbol": "OMF",
-  "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T23:17:52",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T00:29:52",
   "profile": {
     "symbol": "OMF",
     "name": "OneMain Holdings, Inc.",
@@ -54,7 +54,7 @@
       "eps_high": 2.07,
       "revenue_avg": 1346903600
     },
-    "as_of": "2026-09-19"
+    "as_of": "2026-09-20"
   },
   "quants_lines": [
     "Price: 60.81 USD",
@@ -969,7 +969,7 @@
   "catalyst": {
     "date": "2026-10-30",
     "weekday": "Friday",
-    "days_out": 41,
+    "days_out": 40,
     "basis": "scheduled",
     "session": "before the open",
     "consensus": {
@@ -1012,101 +1012,113 @@
     "beat_rate": 1.0,
     "median_gap_days": 91,
     "same_slot_last_year": true,
-    "facts_line": "2026-10-30 (Friday, before the open), 41 days out -- from the earnings calendar, consensus EPS 1.88."
+    "facts_line": "2026-10-30 (Friday, before the open), 40 days out -- from the earnings calendar, consensus EPS 1.88."
   },
   "forward_trends": {
     "queries": [
-      "nonprime consumer loan demand 2026 outlook",
-      "subprime auto loan delinquencies 2026 forecast",
-      "lower income consumer spending debt trends 2026",
-      "fintech personal loans competition traditional lenders 2026"
+      "US nonprime consumer credit conditions 2026 2027 personal loan demand outlook",
+      "US subprime auto loan delinquencies 2026 2027 forecast",
+      "fintech personal loan competition 2026 2027 buy now pay later impact on installment lending",
+      "OneMain Holdings OMF nonprime borrower employment income spending trends 2026 2027"
     ],
-    "results_count": 19,
-    "results_dated": 17,
+    "results_count": 20,
+    "results_dated": 19,
     "trends": [
       {
-        "claim": "As of Q1 2026, consumer lenders' six-month business outlook remained positive on balance.",
+        "claim": "In Q2 2026, credit access kept expanding, with just under 262 million consumers carrying balances.",
         "stance": "support",
-        "why": "Positive lender sentiment supports continued credit availability and loan demand into late 2026.",
-        "quote": "business outlook over the next six months remained positive on balance in the first quarter of 2026",
+        "why": "Broader credit participation supports loan demand and originations for nonprime lenders like OneMain.",
+        "quote": "Consumer access to credit continued to expand in Q2 2026, with just under 262 million consumers carrying a credit balance.",
+        "url": "https://newsroom.transunion.com/Q2-2026-CIIR/",
+        "publisher": "newsroom.transunion.com",
+        "as_of": "2026-08-06",
+        "age_days": 45,
+        "undated": false
+      },
+      {
+        "claim": "In Q1 2026, consumer lenders' six-month business outlook remained positive on balance.",
+        "stance": "support",
+        "why": "Positive lender sentiment can sustain credit supply and originations for nonprime borrowers.",
+        "quote": "Consumer lenders\u2019 assessment of the business outlook over the next six months remained positive on balance in the first quarter of 2026",
         "url": "https://www.caseforcredit.com/wp-content/uploads/2026/05/AFSA-Consumer-Credit-Conditions-Index-2026-Q1.pdf",
         "publisher": "caseforcredit.com",
         "as_of": "2026-05-01",
-        "age_days": 141,
+        "age_days": 142,
         "undated": false
       },
       {
-        "claim": "In 2026, unsecured personal loan balances rose 9.6% year over year to $281 billion.",
-        "stance": "support",
-        "why": "Expanding market demand supports OneMain's loan growth opportunities.",
-        "quote": "Outstanding balances climbed 9.6% year over year to $281 billion, and originations rose 19.5%.",
-        "url": "https://eligen.io/2026/09/14/fintech-45-percent-personal-loan-originations-prescreen-timing/",
-        "publisher": "eligen.io",
-        "as_of": "2026-09-14",
-        "age_days": 5,
-        "undated": false
-      },
-      {
-        "claim": "In 2026, more consumers are turning to personal loans to manage day-to-day financial stress.",
-        "stance": "support",
-        "why": "Rising demand for debt consolidation and expense coverage supports OneMain's loan volumes.",
-        "quote": "more consumers are turning to personal loans to manage day-to-day financial stress",
-        "url": "https://www.jdpower.com/sites/default/files/file/2026-05-18/2026041%20U.S.%20Consumer%20Lending%20Study.pdf",
-        "publisher": "jdpower.com",
-        "as_of": "2026-05-18",
-        "age_days": 124,
-        "undated": false
-      },
-      {
-        "claim": "In 2026, fintechs took 45% of personal loan originations, up 5.2 points year over year.",
+        "claim": "In Q1 2026, current consumer-lending conditions worsened even as lenders stayed upbeat.",
         "stance": "pressure",
-        "why": "Fintech competition could pressure OneMain's market share and pricing in personal loans.",
-        "quote": "Fintechs originated 45%, up 5.2 points in a single year.",
-        "url": "https://eligen.io/2026/09/14/fintech-45-percent-personal-loan-originations-prescreen-timing/",
-        "publisher": "eligen.io",
-        "as_of": "2026-09-14",
-        "age_days": 5,
+        "why": "Worsening conditions can pressure credit performance and loan demand before losses appear.",
+        "quote": "even as current conditions worsened",
+        "url": "https://www.caseforcredit.com/wp-content/uploads/2026/05/AFSA-Consumer-Credit-Conditions-Index-2026-Q1.pdf",
+        "publisher": "caseforcredit.com",
+        "as_of": "2026-05-01",
+        "age_days": 142,
         "undated": false
       },
       {
-        "claim": "As of September 2026, higher prices and new expenses, not income, are driving increased consumer spending.",
+        "claim": "In Q1 2026, non-prime consumers faced mounting debt pressures as the market split K-shaped.",
         "stance": "pressure",
-        "why": "Borrowers' budgets are squeezed, raising default risk for OneMain's subprime loan book.",
-        "quote": "elevated prices and new expenses are the primary spend drivers, while only 14% cite higher income",
-        "url": "https://www.icsc.com/uploads/research/general/ICSC_Summer_2026_Consumer_Economy_Report_Executive_Brief_FINAL1.pdf",
-        "publisher": "icsc.com",
-        "as_of": "2026-09-01",
-        "age_days": 18,
+        "why": "Rising nonprime debt stress can increase delinquencies and credit losses at OneMain.",
+        "quote": "As super prime ranks grow, non-prime consumers face mounting debt pressures",
+        "url": "https://newsroom.transunion.com/k-shaped-q1-2026-ciir/",
+        "publisher": "newsroom.transunion.com",
+        "as_of": "2026-04-01",
+        "age_days": 172,
+        "undated": false
+      },
+      {
+        "claim": "In Q1 2026, overall credit conditions stayed stable and improved for many consumers.",
+        "stance": "support",
+        "why": "Stable broad credit conditions can keep OneMain's loss rates from deteriorating sharply.",
+        "quote": "credit conditions have remained stable overall, and improved for a large segment of consumers",
+        "url": "https://newsroom.transunion.com/k-shaped-q1-2026-ciir/",
+        "publisher": "newsroom.transunion.com",
+        "as_of": "2026-04-01",
+        "age_days": 172,
         "undated": false
       }
     ],
     "dropped": [
       {
-        "claim": "In 2026, TransUnion forecasts unsecured personal loan originations will drive consumer credit growth.",
+        "claim": "TransUnion's 2026 forecast projects unsecured personal loans as a primary driver of origination expansion.",
         "stance": "support",
-        "why": "Rising origination volumes support OneMain's core personal loan business.",
+        "why": "Growing personal-loan originations can lift OneMain's receivables and revenue if it holds share.",
+        "quote": "The 2026 originations forecast points to mortgage and unsecured personal loans as the primary drivers of projected expansion.",
+        "url": "https://newsroom.transunion.com/q4-2025-ciir/",
+        "publisher": "newsroom.transunion.com",
+        "as_of": "2026-02-01",
+        "age_days": 231,
+        "undated": false,
+        "drop_reason": "stale (231 days old)"
+      },
+      {
+        "claim": "As of Feb 2026, TransUnion forecast unsecured personal loan originations to drive 2026 consumer credit growth.",
+        "stance": "support",
+        "why": "Strong personal-loan demand supports OneMain's core origination volume and receivables growth.",
         "quote": "TransUnion forecasts that unsecured personal loan originations will drive consumer credit growth in 2026.",
         "url": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
         "publisher": "cnbc.com",
         "as_of": "2026-02-20",
-        "age_days": 211,
+        "age_days": 212,
         "undated": false,
-        "drop_reason": "stale (211 days old)"
+        "drop_reason": "stale (212 days old)"
       },
       {
-        "claim": "In 2026, subprime borrowers are fueling a surge in personal loan demand.",
-        "stance": "support",
-        "why": "OneMain's core subprime borrower segment is driving loan growth.",
-        "quote": "Subprime borrowers fuel surge in personal loans",
+        "claim": "In Feb 2026, many Americans borrowed to cover rising basic-necessity costs.",
+        "stance": "pressure",
+        "why": "Strained household budgets can eventually raise credit risk for nonprime lenders.",
+        "quote": "Many Americans are borrowing and incurring debt to keep up with rising costs for basic necessities",
         "url": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
         "publisher": "cnbc.com",
         "as_of": "2026-02-20",
-        "age_days": 211,
+        "age_days": 212,
         "undated": false,
-        "drop_reason": "stale (211 days old)"
+        "drop_reason": "stale (212 days old)"
       }
     ],
-    "stale_dropped": 2,
+    "stale_dropped": 3,
     "max_age_days": 180
   },
   "provenance": [

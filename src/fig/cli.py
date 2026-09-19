@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from . import discover, lint, options, packet, quants, render, themes
@@ -326,10 +327,16 @@ def cmd_generate(args) -> int:
     else:
         max_price = raw_cap
 
-    for index, symbol in enumerate(symbols):
+    # Tickers are independent, and generation is almost entirely network wait, so
+    # a batch runs concurrently. This is the single biggest speed win available:
+    # 9 tickers at ~1.5 min each is 13 min serially and ~2 min at 8 jobs.
+    jobs = max(1, min(int(getattr(args, "jobs", 1) or 1), len(symbols)))
+
+    def work(item: tuple[int, str]) -> tuple[str, object]:
+        index, symbol = item
         direction = directions[index] if index < len(directions) else directions[-1]
         try:
-            result = generate.generate_idea(
+            return symbol, generate.generate_idea(
                 symbol,
                 direction=direction,
                 peers=_split_symbols(args.peers),
@@ -340,19 +347,35 @@ def cmd_generate(args) -> int:
                 repairs=args.repairs,
                 samples=getattr(args, "samples", 1),
                 max_price=max_price,
+                verbose=jobs == 1,
             )
         except generate.PriceCapError as exc:
-            # A cap rejection is a policy decision, not a failure to research.
-            print(f"[{symbol}] SKIPPED: {exc}")
-            excluded.append((symbol, str(exc)))
-            continue
-        except Exception as exc:
-            print(f"[{symbol}] FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
-            failures.append((symbol, str(exc)))
-            continue
+            return symbol, exc
+        except Exception as exc:  # noqa: BLE001 - reported per symbol, batch continues
+            return symbol, exc
 
-        paths = generate.save_idea(result, args.out)
-        results.append(result)
+    indexed = list(enumerate(symbols))
+    if jobs == 1:
+        outcomes = [work(item) for item in indexed]
+    else:
+        print(f"generating {len(symbols)} ticker(s) with {jobs} parallel jobs")
+        with ThreadPoolExecutor(max_workers=jobs) as pool:
+            outcomes = [
+                outcome
+                for outcome in pool.map(work, indexed)
+            ]
+
+    for symbol, outcome in outcomes:
+        if isinstance(outcome, generate.PriceCapError):
+            print(f"[{symbol}] SKIPPED: {outcome}")
+            excluded.append((symbol, str(outcome)))
+            continue
+        if isinstance(outcome, Exception):
+            print(f"[{symbol}] FAILED: {type(outcome).__name__}: {outcome}", file=sys.stderr)
+            failures.append((symbol, str(outcome)))
+            continue
+        paths = generate.save_idea(outcome, args.out)
+        results.append(outcome)
         print(
             f"[{symbol}] {paths['note']}  score {paths['score']}/100"
             f"{'' if paths['ok'] else '  (still has lint errors)'}"
@@ -524,6 +547,13 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(func=cmd_search)
 
     p = sub.add_parser("generate", help="generate finished idea notes with the model")
+    p.add_argument(
+        "--jobs",
+        type=int,
+        default=1,
+        help="generate this many tickers in parallel (default 1; generation is "
+        "network-bound, so 4-8 is a large speed-up on a batch)",
+    )
     p.add_argument(
         "--samples",
         type=int,

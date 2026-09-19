@@ -1,13 +1,13 @@
 {
   "ticker": "JEF",
   "direction": "long",
-  "as_of": "2026-09-19",
-  "description": "Investment bank and capital markets firm with an asset management arm.",
+  "as_of": "2026-09-20",
+  "description": "Investment bank and capital markets firm: merger advice, underwriting, trading, plus asset management.",
   "catalyst": {
     "date": "2026-09-28",
     "weekday": "Monday",
     "session": "after the close",
-    "days_out": 9,
+    "days_out": 8,
     "basis": "scheduled",
     "consensus": {
       "eps_avg": 1.0
@@ -44,13 +44,13 @@
     ],
     "beat_streak": 0,
     "median_gap_days": 91,
-    "facts_line": "2026-09-28 (Monday, after the close), 9 days out -- from the earnings calendar, consensus EPS 1.",
-    "why": "The report must show core investment banking and capital markets revenue growth continuing while asset management losses stay contained."
+    "facts_line": "2026-09-28 (Monday, after the close), 8 days out -- from the earnings calendar, consensus EPS 1.",
+    "why": "Investment banking fees must land near $1.274B and asset management must stop losing money, or the miss pattern repeats."
   },
   "reasons": [
-    "Core investment banking and capital markets revenue rose 35% quarter-over-quarter to $2.2B, yet the stock trades at 10.8x next-FY consensus because asset management losses mask the franchise.",
-    "Global M&A volumes still have substantial room to run in 2H 2026, and Jefferies' advisory fees follow announced and completed deals with a lag, so the pipeline is not yet in reported numbers.",
-    "Investment-grade bond issuance rose 42% year over year in Q2 and is likely to persist into H2, directly lifting Jefferies' underwriting fees."
+    "Investment banking and capital markets revenue rose 35% quarter-over-quarter to $2.2B in Q2, so the fee engine is already running; the stock fell only because asset management lost money.",
+    "Oppenheimer raised its Q3 EPS estimate to $1.06 from $0.67 because equity underwriting and completed M&A strengthened, so a quarter near that number forces consensus up from $1.00.",
+    "Jefferies Credit Partners raised about $4B for European direct lending, so as private credit's edge fades, Jefferies wins leveraged finance mandates it had been losing to direct lenders."
   ],
   "quants": {
     "price": 47.9,
@@ -95,24 +95,52 @@
       }
     ],
     "thesis_target": "Targets the 2026-12-29 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.",
-    "reflection": "The 10.9% credit ratio clears the 10% floor, but the short call at 50 expiring October leaves only 9 days to collect premium; the long-dated call gives time for the M&A pipeline to show up. Net debit $3,692 is modest against a $9.74B name."
+    "reflection": "The 10.9% credit ratio clears the floor and the net debit is only $3,692, but the short 50 call expiring 16 October caps the payoff 18 days after the print -- you have sold part of the move you are paying to own. Twelve longs against four shorts leaves room to add if the report confirms the fee run-rate."
   },
   "generation": {
-    "model": "deepseek-v4-pro:0813",
+    "model": "deepseek-v4.1-flash",
     "search_used": true,
     "rounds": [
       {
         "round": 0,
-        "score": 90,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 95,
         "errors": 0,
-        "warnings": 2,
+        "warnings": 1,
         "unsupported_figures": []
       },
       {
         "round": 0,
-        "score": 85,
-        "errors": 0,
+        "score": 49,
+        "errors": 2,
         "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 64,
+        "errors": 2,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
         "unsupported_figures": []
       },
       {
@@ -125,85 +153,77 @@
     ],
     "grounding": {
       "checked": 5,
-      "unsupported": [
-        "\"42%\""
-      ],
-      "grounded": false,
-      "ratio": 0.8
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
     },
     "verdict": {
       "samples": 3,
       "verdicts": [
         "confirms",
-        "no-evidence",
-        "no-evidence"
+        "confirms",
+        "confirms"
       ],
-      "confirmed": 1,
+      "confirmed": 3,
       "contradicted": 0,
-      "mixed": 2,
-      "majority": "no-evidence",
-      "agreement": 0.67
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
     },
     "samples": [
       {
         "sample": 0,
-        "score": 90,
+        "score": 95,
         "verdict": "confirms",
-        "supportive": 3,
-        "adverse": 2,
+        "supportive": 4,
+        "adverse": 1,
         "trends_available": 5,
         "trends_used": [
-          "advisory",
-          "announced",
           "banking",
-          "completed",
-          "follow",
-          "global",
-          "issuance",
+          "credit",
+          "direct",
+          "equity",
+          "finance",
           "jefferies",
-          "persist",
-          "substantial",
-          "underwriting",
-          "volumes"
+          "lenders",
+          "leveraged",
+          "mandates",
+          "oppenheimer",
+          "private",
+          "raised"
         ]
       },
       {
         "sample": 1,
-        "score": 85,
-        "verdict": "no-evidence",
-        "supportive": 0,
+        "score": 95,
+        "verdict": "confirms",
+        "supportive": 5,
         "adverse": 0,
         "trends_available": 5,
         "trends_used": [
           "advisory",
           "global",
-          "jefferies",
-          "share",
-          "three",
-          "underwriting",
+          "historic",
+          "issuance",
+          "volume",
           "volumes"
         ]
       },
       {
         "sample": 2,
         "score": 85,
-        "verdict": "no-evidence",
-        "supportive": 0,
+        "verdict": "confirms",
+        "supportive": 5,
         "adverse": 0,
         "trends_available": 5,
         "trends_used": [
-          "advisory",
-          "banks",
-          "boosting",
-          "credit",
-          "emerge",
-          "global",
+          "banking",
+          "dealmakers",
+          "equity",
+          "expect",
           "jefferies",
-          "private",
-          "refinancing",
-          "shift",
-          "strains",
-          "underwriting",
+          "oppenheimer",
+          "pipelines",
           "volumes"
         ]
       }

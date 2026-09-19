@@ -1,7 +1,7 @@
 {
   "symbol": "JEF",
-  "as_of": "2026-09-19",
-  "generated_at": "2026-09-19T23:42:48",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T00:29:51",
   "profile": {
     "symbol": "JEF",
     "name": "Jefferies Financial Group Inc.",
@@ -54,7 +54,7 @@
       "eps_high": 1.06,
       "revenue_avg": 2196340050
     },
-    "as_of": "2026-09-19"
+    "as_of": "2026-09-20"
   },
   "quants_lines": [
     "Price: 47.90 USD",
@@ -207,17 +207,6 @@
       "themes": [
         "consumer_credit"
       ]
-    },
-    {
-      "title": "Jefferies (JEF) Linked Fund Faces Nearly $500M in Reported Radiant Exposure. Is the Parent Protected?",
-      "publisher": "Insider Monkey",
-      "published": "2026-09-10T20:00:04Z",
-      "summary": "Jefferies Financial Group Inc. (NYSE:JEF) faces renewed scrutiny of its trade-finance business after Reuters, citing the Financial Times, reported on September 5 that LAM Trade Finance Group II had nearly $500 million of exposure to Radiant World, its founder, and another entity. The reported London freezing order covered up to $499 million. On September 7, [\u2026]",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-jef-linked-fund-faces-200004565.html",
-      "type": "STORY",
-      "source": "yahoo",
-      "relevance": 3,
-      "themes": []
     },
     {
       "title": "Jefferies rises as Oppenheimer calls it attractively valued, raises Q3 profit estimate - JEF News | Rallies",
@@ -641,17 +630,6 @@
       "themes": []
     },
     {
-      "title": "August US Overall Consumer Prices Expected to Rise by 0.4%, Core Prices Up 0.2%",
-      "publisher": "MT Newswires",
-      "published": "2026-09-10T18:30:37Z",
-      "summary": "The US Consumer Price Index is expected to increase by 0.4% in August after a 0.1% gain in July, acc",
-      "url": "https://finance.yahoo.com/economy/articles/august-us-overall-consumer-prices-183037918.html",
-      "type": "STORY",
-      "source": "yahoo",
-      "relevance": 0,
-      "themes": []
-    },
-    {
       "title": "Sector Update: Financial Stocks Higher Late Afternoon",
       "publisher": "MT Newswires",
       "published": "2026-09-11T20:00:51Z",
@@ -923,7 +901,7 @@
   "catalyst": {
     "date": "2026-09-28",
     "weekday": "Monday",
-    "days_out": 9,
+    "days_out": 8,
     "basis": "scheduled",
     "session": "after the close",
     "consensus": {
@@ -963,101 +941,76 @@
     "beat_rate": 0.5,
     "median_gap_days": 91,
     "same_slot_last_year": true,
-    "facts_line": "2026-09-28 (Monday, after the close), 9 days out -- from the earnings calendar, consensus EPS 1."
+    "facts_line": "2026-09-28 (Monday, after the close), 8 days out -- from the earnings calendar, consensus EPS 1."
   },
   "forward_trends": {
     "queries": [
-      "global M&A and IPO pipeline outlook 2026 2027 investment banking activity",
-      "leveraged loan refinancing wall 2026 2027 high yield bond issuance forecast",
-      "private credit vs syndicated lending market share 2026 2027 investment banks",
-      "institutional investor allocations to alternative asset managers 2026 2027"
+      "Jefferies JEF investment banking capital markets M&A IPO leveraged finance outlook 2026 2027",
+      "corporate dealmaking budgets private equity dry powder M&A IPO spending 2026 2027",
+      "private credit direct lending substitution leveraged finance bank lending restructuring defaults 2026 2027",
+      "AI automation fintech competition investment banking trading prime brokerage market share 2026 2027"
     ],
     "results_count": 20,
-    "results_dated": 16,
+    "results_dated": 15,
     "trends": [
       {
-        "claim": "In 1H26 global M&A volumes rose 48% YoY and mega M&A volumes +125% YoY, with cycle expected to have substantial room to run.",
-        "stance": "unspecified",
-        "why": "Sustained deal activity feeds Jefferies' advisory and underwriting fees over the next one to three years.",
-        "quote": "Global M&A volumes rose 48% YoY",
+        "claim": "As of July 2026, Goldman Sachs expects the M&A cycle to have substantial room to run after H1 2026 volumes rose 48%.",
+        "stance": "support",
+        "why": "Continued M&A activity would support Jefferies' advisory and underwriting revenues.",
+        "quote": "We expect we are only in year four of the current M&A cycle with substantial room to run",
         "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/global-ma-in-2h-2026",
         "publisher": "goldmansachs.com",
         "as_of": "2026-07-22",
-        "age_days": 59,
+        "age_days": 60,
         "undated": false
       },
       {
-        "claim": "Refinancings were 70% of 2025 high-yield issuance, and BofA projects $250B of high-yield refinancing for 2026.",
-        "stance": "unspecified",
-        "why": "Refinancing wave supports Jefferies high-yield debt capital markets revenue into 2026.",
-        "quote": "refinancings at 70% of 2025 HY issuance",
-        "url": "https://ibinterviewquestions.com/guides/debt-capital-markets/refinancing-wave-and-maturity-walls-into-2026",
-        "publisher": "ibinterviewquestions.com",
-        "as_of": "2026-05-22",
-        "age_days": 120,
-        "undated": false
-      },
-      {
-        "claim": "In 2026 banks see more opportunities to regain share as private credit strains emerge and regulation eases.",
-        "stance": "unspecified",
-        "why": "Jefferies can win leveraged finance mandates that private credit lenders had captured.",
-        "quote": "Banks see more opportunities to regain share as private credit strains emerge and regulation eases.",
-        "url": "https://www.cnbc.com/2026/03/27/wall-street-banks-private-credit-market-share-leveraged-loans.html",
-        "publisher": "cnbc.com",
-        "as_of": "2026-03-27",
-        "age_days": 176,
-        "undated": false
-      },
-      {
-        "claim": "In 2026 redemptions from retail investors are eroding private credit's pricing advantage, creating an opening for banks to win refinancing business.",
-        "stance": "unspecified",
-        "why": "Syndicated loan refinancings shift to banks like Jefferies, boosting capital markets fees.",
-        "quote": "Redemptions from retail investors are contributing to the erosion of private credit's pricing advantage, creating an opening for banks to win refinancing business.",
-        "url": "https://ca.finance.yahoo.com/news/private-credit-loses-edge-battle-213250231.html",
-        "publisher": "ca.finance.yahoo.com",
+        "claim": "In KPMG's 2026 outlook, 56% of dealmakers expect higher M&A pipelines in 2026 versus 2025.",
+        "stance": "support",
+        "why": "More deal flow would support Jefferies' advisory and underwriting fees.",
+        "quote": "56% Expect their M&A pipeline to be higher in 2026 vs. 2025.",
+        "url": "https://kpmg.com/us/en/articles/2026/kpmg-2026-global-ma-outlook.html",
+        "publisher": "kpmg.com",
         "as_of": null,
         "age_days": null,
         "undated": true
       },
       {
-        "claim": "As of 2026, private credit and syndicated loans now each total $1.4 trillion, dominating U.S. nonfinancial corporate lending.",
-        "stance": "unspecified",
-        "why": "Private credit's scale in middle-market lending competes with Jefferies' leveraged finance and lending relationships.",
-        "quote": "Private credit and syndicated loans now each total $1.4 trillion, dominating U.S. nonfinancial corporate lending.",
-        "url": "https://www.ainvest.com/news/private-credit-replaced-bank-2608/",
-        "publisher": "ainvest.com",
-        "as_of": "2026-08-29",
-        "age_days": 21,
+        "claim": "As of September 2026, private credit redemptions are creating an opening for banks and broadly syndicated loans.",
+        "stance": "support",
+        "why": "Jefferies could win more leveraged finance and capital markets mandates as direct lenders retreat.",
+        "quote": "A steady stream of retail redemptions is hamstringing large direct lenders, creating an opening for banks and the broadly syndicated market.",
+        "url": "https://pitchbook.com/news/articles/private-credit-loses-its-edge-in-the-battle-for-pe-borrowers",
+        "publisher": "pitchbook.com",
+        "as_of": "2026-09-10",
+        "age_days": 10,
         "undated": false
-      }
-    ],
-    "dropped": [
-      {
-        "claim": "Sponsors face an urgent need to sell assets and deploy elevated dry powder, setting the stage for another active M&A year in 2026.",
-        "stance": "unspecified",
-        "why": "Sponsor-driven M&A is a core Jefferies mid-market advisory and financing revenue source.",
-        "quote": "Sponsors face an urgent need to sell assets and deploy elevated dry powder.",
-        "url": "https://www.morganstanley.com/insights/articles/mergers-and-acquisitions-outlook-2026-activity",
-        "publisher": "morganstanley.com",
-        "as_of": "2026-01-22",
-        "age_days": 240,
-        "undated": false,
-        "drop_reason": "stale (240 days old)"
       },
       {
-        "claim": "LBO and M&A dealmaking is expected to increase in 2026 on stable fundamentals and lower borrowing costs.",
-        "stance": "unspecified",
-        "why": "More leveraged buyouts and M&A financing directly lift Jefferies' leveraged finance and advisory fees.",
-        "quote": "LBO and M&A dealmaking is expected to increase in 2026 on stable fundamentals and lower borrowing costs.",
-        "url": "https://pitchbook.com/news/articles/2026-us-leveraged-loan-outlook-market-poised-for-modest-growth-more-m-a",
-        "publisher": "pitchbook.com",
-        "as_of": "2025-12-16",
-        "age_days": 277,
-        "undated": false,
-        "drop_reason": "stale (277 days old)"
+        "claim": "As of July 2026, Wall Street banks are enjoying record prime brokerage windfalls.",
+        "stance": "support",
+        "why": "Stronger prime balances and financing revenue could lift Jefferies' equities and capital markets results.",
+        "quote": "Wall Street banks enjoy record windfalls from prime brokerage business",
+        "url": "https://www.reuters.com/legal/transactional/wall-street-banks-enjoy-record-windfalls-prime-brokerage-business-2026-07-15/",
+        "publisher": "reuters.com",
+        "as_of": "2026-07-15",
+        "age_days": 67,
+        "undated": false
+      },
+      {
+        "claim": "As of September 2026, Oppenheimer sees improving deal-making lifting Jefferies' Q3 2026 investment banking revenue.",
+        "stance": "support",
+        "why": "Higher M&A and equity underwriting fees would boost investment banking net revenues.",
+        "quote": "Oppenheimer thinks Jefferies Financial Group could get a third-quarter lift from improving deal-making",
+        "url": "https://finimize.com/content/jefferies-could-ride-a-deal-making-pickup-oppenheimer-says",
+        "publisher": "finimize.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
       }
     ],
-    "stale_dropped": 2,
+    "dropped": [],
+    "stale_dropped": 0,
     "max_age_days": 180
   },
   "provenance": [
