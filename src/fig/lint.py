@@ -222,7 +222,6 @@ def lint_writeup(writeup: dict) -> dict:
 
     # ---- language --------------------------------------------------------
     all_text = " ".join([description, *[str(r) for r in reasons], str(notes)])
-    lowered = all_text.lower()
 
     for phrase in HEDGES:
         if _phrase_re(phrase).search(all_text):

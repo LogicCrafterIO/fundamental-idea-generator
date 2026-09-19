@@ -175,7 +175,6 @@ THEMES: tuple[Theme, ...] = (
 )
 
 _BY_KEY = {t.key: t for t in THEMES}
-_WORD_RE = re.compile(r"[a-z0-9][a-z0-9\-\s]{1,40}")
 
 # Keyword matching is anchored at a **word start** and allows any suffix, which
 # is what lets deliberate stems ("revis" -> revision/revisions, "regulat" ->
