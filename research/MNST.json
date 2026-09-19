@@ -1,0 +1,229 @@
+{
+  "ticker": "MNST",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Energy drink maker; growth now driven by international markets rather than US convenience stores.",
+  "catalyst": {
+    "date": "2026-11-05",
+    "weekday": "Thursday",
+    "session": null,
+    "days_out": 46,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.3
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 0.29,
+        "eps_actual": 0.3,
+        "surprise_pct": 1.84,
+        "beat": true
+      },
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 0.26,
+        "eps_actual": 0.29,
+        "surprise_pct": 10.16,
+        "beat": true
+      },
+      {
+        "date": "2026-02-26",
+        "eps_estimate": 0.24,
+        "eps_actual": 0.23,
+        "surprise_pct": -4.5,
+        "beat": false
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 0.24,
+        "eps_actual": 0.27,
+        "surprise_pct": 9.22,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "median_gap_days": 91,
+    "facts_line": "2026-11-05 (Thursday), 46 days out -- from the earnings calendar, consensus EPS 0.3.",
+    "why": "Q3 must show international volume still growing fast enough to absorb Celsius and KDP share gains in the US."
+  },
+  "reasons": [
+    "International sales rose 35% in Q2 because China, India and Brazil are broadening the base, so growth now comes from outside the US, where Celsius sells one in five energy drinks.",
+    "Revenue still rose 7.8% quarter over quarter because KDP's 9% US share and Celsius's move into Europe have not yet taken shelf space from Monster.",
+    "Eight analysts raised EPS and one cut in 30 days because international growth is offsetting US share loss, so consensus keeps rising and the 34.15x next-year multiple falls without the price moving."
+  ],
+  "quants": {
+    "price": 44.71,
+    "market_cap": "87.59B",
+    "fwd_pe": 38.9,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 9.5,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 8 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter total revenue increasing 8% quarter over quarter (6/30/2026)",
+      "Last quarter total equity increasing 7% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.25 -> 0.3"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "18-Dec-26",
+        "strike": 45.0,
+        "qty": 17,
+        "underlying": 44.71,
+        "multiplier": 100,
+        "price": 2.58,
+        "total": 4386.0,
+        "open_interest": 793.0
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 45.0,
+        "qty": 5,
+        "underlying": 44.71,
+        "multiplier": 100,
+        "price": 1.18,
+        "total": -590.0,
+        "open_interest": 603
+      }
+    ],
+    "thesis_target": "Targets the 2026-11-05 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.",
+    "reflection": "The 10.6% credit clears the floor, but the short call dies on 2026-10-16, three weeks before the print, so this is a naked long call into the catalyst with $3,796 at risk. The 17x5 ratio caps only a fraction of the upside -- fine if you just want the debit back, wrong if you expect a gap."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 5,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 0,
+      "contradicted": 3,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "affordability",
+          "brands",
+          "category",
+          "convenience",
+          "drinkers",
+          "gains",
+          "inside",
+          "month",
+          "nearly",
+          "recruiting",
+          "store",
+          "transactions",
+          "twice",
+          "volume"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "celsius",
+          "drinks",
+          "europe",
+          "monster",
+          "offset",
+          "setting",
+          "share",
+          "shelf",
+          "space"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 2,
+        "trends_available": 3,
+        "trends_used": [
+          "alani",
+          "celsius",
+          "consolidated",
+          "convenience",
+          "inside",
+          "monster",
+          "portfolio",
+          "retail",
+          "retailers",
+          "rockstar",
+          "september",
+          "shelf",
+          "store",
+          "traffic",
+          "transactions"
+        ]
+      }
+    ]
+  }
+}

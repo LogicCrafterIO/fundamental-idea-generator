@@ -1,0 +1,27 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGM"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGM"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGN"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGN"}}}
+HTTP Error 404: {"finance":{"result":null,"error":{"code":"Not Found","description":"HTTP 404 Not Found"}}}
+HTTP Error 404: {"finance":{"result":null,"error":{"code":"Not Found","description":"HTTP 404 Not Found"}}}
+screener: 144 in pool, 144 screened, 8 passed -> 8 to generate
+  MNST   long  score  91.8
+  DIS    long  score  90.4
+  SHOP   long  score  86.8
+  CSX    long  score  84.4
+  MRK    long  score  82.8
+  BB     long  score  82.2
+  FUL    long  score  82.0
+  C      long  score  82.0
+generating 8 ticker(s) with 8 parallel jobs
+[MNST] research/MNST.md  score 100/100
+[DIS] research/DIS.md  score 100/100
+[SHOP] research/SHOP.md  score 100/100
+[CSX] research/CSX.md  score 90/100
+[MRK] research/MRK.md  score 100/100
+[BB] research/BB.md  score 100/100
+[FUL] research/FUL.md  score 100/100
+[C] research/C.md  score 100/100
+
+index: research/README.md
+EXIT=0

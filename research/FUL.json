@@ -1,0 +1,239 @@
+{
+  "ticker": "FUL",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Adhesives and sealants maker for packaging, hygiene, engineering and construction.",
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "session": "after the close",
+    "days_out": 3,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.46
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-24",
+        "eps_estimate": 1.38,
+        "eps_actual": 1.41,
+        "surprise_pct": 2.45,
+        "beat": true
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 0.55,
+        "eps_actual": 0.57,
+        "surprise_pct": 2.72,
+        "beat": true
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 1.21,
+        "eps_actual": 1.28,
+        "surprise_pct": 5.72,
+        "beat": true
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": 1.24,
+        "eps_actual": 1.26,
+        "surprise_pct": 1.87,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-23 (Wednesday, after the close), 3 days out -- from the earnings calendar, consensus EPS 1.46.",
+    "why": "Must prove pricing holds margins against soft packaging and auto volumes."
+  },
+  "reasons": [
+    "Because the board rejected Ancora's $1.2B bid for Building Adhesives as too low, the $2.66B market cap values the other two segments at about $1.5B, so the market is missing that the bid sets a floor.",
+    "Pricing gains across the portfolio plus the medical adhesives push lifted Q2 adjusted EPS [earnings per share] 19% and adjusted EBITDA [earnings before interest, tax, depreciation and amortisation] 9% year-on-year, even as packaging and auto volumes stayed soft.",
+    "Because 300mm fab equipment spending is forecast to grow 18% in 2026 and 14% in 2027, demand for FUL's electronic adhesives rises, an end market not yet visible in reported volumes."
+  ],
+  "quants": {
+    "price": 49.41,
+    "market_cap": "2.66B",
+    "fwd_pe": 10.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.8,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "all up, with 7 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 222% quarter over quarter (5/30/2026)",
+      "Last quarter earnings before interest and tax increasing 107% quarter over quarter (5/30/2026)",
+      "EPS increased year over year, 1.18 -> 1.41"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Feb-27",
+        "strike": 55.0,
+        "qty": 10,
+        "underlying": 49.41,
+        "multiplier": 100,
+        "price": 4.25,
+        "total": 4250.0,
+        "open_interest": 0
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 55.0,
+        "qty": 10,
+        "underlying": 49.41,
+        "multiplier": 100,
+        "price": 0.42,
+        "total": -420.0,
+        "open_interest": 3
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-24 report, with the long leg expiring 2027-02-19, which gives the thesis time to show up.",
+    "reflection": "The short leg sits 11% above spot with three weeks to run and pays almost nothing, so the credit ratio is 1.5% against a 10% floor. Selling ~55 more shorts clears the floor but caps the whole position at 55 just as the rejected bid is being repriced. Is the floor worth that ceiling?"
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 72,
+        "errors": 1,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 49,
+        "errors": 2,
+        "warnings": 4,
+        "unsupported_figures": [
+          "\"750000\""
+        ]
+      },
+      {
+        "round": 1,
+        "score": 49,
+        "errors": 2,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 10,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "adhesive",
+          "electronic",
+          "equipment",
+          "forecast",
+          "gains",
+          "medical",
+          "portfolio",
+          "pricing",
+          "volume",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "adhesive",
+          "build",
+          "electronic",
+          "nonwoven",
+          "rates",
+          "structural",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "adhesive",
+          "adjusted",
+          "ebitda",
+          "forecast",
+          "health",
+          "management",
+          "material",
+          "midpoint",
+          "nonwoven",
+          "output",
+          "packaging",
+          "pricing",
+          "raise",
+          "through",
+          "volumes"
+        ]
+      }
+    ]
+  }
+}

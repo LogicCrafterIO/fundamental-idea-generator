@@ -846,6 +846,55 @@ class TestPriceCap(unittest.TestCase):
         kept = discover.rank_candidates(rows, min_score=0, max_price=None)
         self.assertEqual([row["symbol"] for row in kept], ["PRICEY"])
 
+    def test_loss_making_is_no_longer_filtered(self):
+        """The owner's instruction: keep loss-making names.
+
+        A negative forward PE means "Fwd PE" is not a valuation signal. It does not
+        mean the idea is meaningless, and gating on it deleted real candidates.
+        """
+        from fig import discover
+
+        rows = [{"symbol": "LOSER", "price": 20.0, "score": 60, "has_options": True,
+                 "structure_available": True, "fwd_pe": -4.0}]
+        kept = discover.rank_candidates(rows, min_score=0)
+        self.assertEqual([row["symbol"] for row in kept], ["LOSER"])
+        # Still recorded, so the note can state it.
+        self.assertIn("loss-making (fwd PE not meaningful)", kept[0]["caveats"])
+
+    def test_missing_option_chain_is_no_longer_filtered(self):
+        """These facts come from free endpoints, and a bad response is
+        indistinguishable from a genuine absence."""
+        from fig import discover
+
+        rows = [
+            {"symbol": "NOCHAIN", "price": 20.0, "score": 60, "has_options": False,
+             "structure_available": False, "fwd_pe": 12.0},
+            {"symbol": "NOPAIR", "price": 20.0, "score": 60, "has_options": True,
+             "structure_available": False, "fwd_pe": 12.0},
+        ]
+        kept = discover.rank_candidates(rows, min_score=0)
+        self.assertEqual({row["symbol"] for row in kept}, {"NOCHAIN", "NOPAIR"})
+        self.assertEqual(kept[0]["caveats"], ["no listed options reported"])
+        self.assertEqual(kept[1]["caveats"], ["no usable expiry pair for the next 3 catalysts"])
+
+    def test_strict_mode_still_available(self):
+        from fig import discover
+
+        rows = [{"symbol": "LOSER", "price": 20.0, "score": 60, "has_options": True,
+                 "structure_available": True, "fwd_pe": -4.0}]
+        kept = discover.rank_candidates(rows, min_score=0, require_positive_pe=True)
+        self.assertEqual(kept, [])
+
+    def test_only_the_price_cap_gates_by_default(self):
+        import inspect
+
+        from fig import discover
+
+        defaults = inspect.signature(discover.rank_candidates).parameters
+        self.assertFalse(defaults["require_structure"].default)
+        self.assertFalse(defaults["require_positive_pe"].default)
+        self.assertEqual(defaults["max_price"].default, discover.DEFAULT_MAX_PRICE)
+
 
 class TestRanking(unittest.TestCase):
     """Conviction orders reading; it is not a prediction."""

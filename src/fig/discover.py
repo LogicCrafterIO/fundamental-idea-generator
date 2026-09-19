@@ -314,8 +314,8 @@ def rank_candidates(
     *,
     top: int = 15,
     min_score: float = 25.0,
-    require_structure: bool = True,
-    require_positive_pe: bool = True,
+    require_structure: bool = False,
+    require_positive_pe: bool = False,
     max_price: float | None = DEFAULT_MAX_PRICE,
 ) -> list[dict]:
     """Sort screened rows by score, after gating out names the format can't hold.
@@ -333,8 +333,24 @@ def rank_candidates(
     the next monthly expiry). Early on, gating on the latter mislabelled COST,
     CTAS, AZO and PAYX as having no options at all.
 
-    Three gates are on by default and can be relaxed for exploratory scans. The
-    price gate is described at :data:`DEFAULT_MAX_PRICE`.
+    The option and profitability gates are OFF by default, deliberately, on the
+    owner's instruction. Both rest on data that can simply be wrong:
+
+    1. **A missing chain may be a missing response.** These facts come from free
+       endpoints, and a name that fails on a bad response is indistinguishable
+       from one that genuinely has no chain. Filtering on possibly-corrupt data
+       silently deletes real ideas, and the deletion is invisible in the output.
+    2. **A missing option chain is not a missing idea.** Structuring is optional
+       downstream: the note is written from the catalyst and the reasons, with the
+       absent legs stated explicitly. A loss-making company can still have a dated
+       catalyst and a clear reason to be short, and a negative forward PE only
+       means "Fwd PE" is not a valuation signal -- it does not make the idea
+       meaningless, as an earlier version of this docstring claimed.
+
+    Both remain available as opt-in filters for a stricter scan, and both are
+    recorded per row under ``caveats`` so a caller can still see which names carry
+    them. The price cap is the one gate left on by default, because it is a
+    tradeability rule rather than a judgement about the data.
     """
     usable = []
     for row in rows:
@@ -353,6 +369,20 @@ def rank_candidates(
         if max_price is not None and (row.get("price") or 0) >= max_price:
             row["gated"] = f"share price ${row.get('price')} is at or above the ${max_price:.0f} cap"
             continue
+
+        # Not filtered any more, but recorded: these are the facts an earlier
+        # version treated as disqualifying. Keeping them visible is the point --
+        # the notes must state when a name has no usable chain or no meaningful
+        # forward PE rather than quietly pretending the fact is not there.
+        caveats = []
+        if not row.get("has_options"):
+            caveats.append("no listed options reported")
+        elif not row.get("structure_available"):
+            caveats.append("no usable expiry pair for the next 3 catalysts")
+        if row.get("fwd_pe") is None or (row.get("fwd_pe") or 0) <= 0:
+            caveats.append("loss-making (fwd PE not meaningful)")
+        if caveats:
+            row["caveats"] = caveats
         if (row.get("score") or 0) < min_score:
             row["gated"] = "below score floor"
             continue
@@ -369,8 +399,8 @@ def scan(
     top: int = 12,
     earnings_days: int = 10,
     include_screener: bool = True,
-    require_structure: bool = True,
-    require_positive_pe: bool = True,
+    require_structure: bool = False,
+    require_positive_pe: bool = False,
     max_price: float | None = DEFAULT_MAX_PRICE,
 ) -> dict:
     """End-to-end triage: build a universe, screen it, rank it.

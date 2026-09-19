@@ -1,0 +1,1285 @@
+{
+  "symbol": "FUL",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T01:03:42",
+  "profile": {
+    "symbol": "FUL",
+    "name": "H.B. Fuller Company",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "summary": "H.B. Fuller Company, together with its subsidiaries, formulates, manufactures, and markets adhesives, sealants, coatings, polymers, tapes, encapsulants, additives, and other specialty chemical products. It operates through three segments: Hygiene, Health and Consumable Adhesives; Engineering Adhesives; and Building Adhesive Solutions. The Hygiene, Health and Consumable Adhesives segment produces and supplies specialty industrial adhesives, such as thermoplastic, thermoset, reactive, water-based, and solvent-based products for applications in various markets, including packaging, converting, nonwoven and hygiene, and medical and beauty. The Engineering Adhesives segment produces and supplies high performance industrial adhesives comprising reactive, light cure, two-part liquids, polyurethane, silicone, film, and fast cure products to the durable assembly, performance wood and textile, transportation, electronics, clean energy, aerospace and defense, appliance, heavy machinery, and insulating glass markets. The Construction Adhesives segment provides products used for commercial roofing, heating, ventilation, and air conditioning and insulation applications, as well as caulks and sealants for the consumer market and professional trade. The company sells its products directly to customers, as well as through distributors and retailers in North America, Latin America, Europe, India, the Middle East, Africa, and the Asia Pacific. H.B. Fuller Company was founded in 1887 and is headquartered in Saint Paul, Minnesota.",
+    "employees": 7100,
+    "country": "United States",
+    "website": "https://www.hbfuller.com"
+  },
+  "quants": {
+    "symbol": "FUL",
+    "name": "H.B. Fuller Company",
+    "price": 49.41,
+    "market_cap": 2657636096,
+    "market_cap_human": "2.66B",
+    "fwd_pe": 10.18,
+    "fwd_pe_1y": 9.29,
+    "fwd_pe_yahoo": 9.292328,
+    "trailing_pe": 14.661721,
+    "ps": 0.7576046,
+    "ev_ebitda": 7.85,
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "eps_fy_current": 4.85183,
+    "eps_fy_next": 5.31729,
+    "eps_trend": {
+      "change_7d_pct": -0.35,
+      "change_30d_pct": -0.35,
+      "current": 4.85183,
+      "7d_ago": 4.86898,
+      "30d_ago": 4.86898,
+      "text": "slightly down over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 6,
+      "down_7d": 0,
+      "up_30d": 7,
+      "down_30d": 0,
+      "net_30d": 7,
+      "text": "all up, with 7 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "next_date": "2026-09-24",
+      "eps_avg": 1.46495,
+      "eps_low": 1.4,
+      "eps_high": 1.5736,
+      "revenue_avg": 945532040
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 49.41 USD",
+    "Market Cap: 2.66B",
+    "Fwd PE: 10.18",
+    "P/S: 0.8",
+    "EPS trends: slightly down over the last 7 days",
+    "EPS revisions: all up, with 7 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/30/2026",
+      "prior_period": "2/28/2026",
+      "current": 67805.0,
+      "prior": 21045.0,
+      "change_pct": 222.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "5/30/2026",
+      "prior_period": "2/28/2026",
+      "current": 124877.0,
+      "prior": 60420.0,
+      "change_pct": 106.7,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "5/30/2026",
+      "prior_period": "2/28/2026",
+      "current": 950271.0,
+      "prior": 770844.0,
+      "change_pct": 23.3,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "5/30/2026",
+      "prior_period": "2/28/2026",
+      "current": 622745.0,
+      "prior": 532180.0,
+      "change_pct": 17.0,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "5/30/2026",
+      "prior_period": "2/28/2026",
+      "current": 202366.0,
+      "prior": 184450.0,
+      "change_pct": 9.7,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "5/30/2026",
+      "prior_period": "2/28/2026",
+      "current": 114102.0,
+      "prior": 107877.0,
+      "change_pct": 5.8,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-06-24T16:00:00-04:00",
+    "current": 1.41,
+    "year_ago": 1.18,
+    "year_ago_period": "2025-06-25T16:00:00-04:00",
+    "change": 0.23,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "H.B. Fuller Reports Second Quarter 2026 Results | H.B. Fuller",
+      "publisher": "newsroom.hbfuller.com",
+      "url": "https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx",
+      "summary": "H.B. Fuller Reports Second Quarter 2026 Results | H.B. Fuller \n\n### H.B. Fuller Reports Second Quarter 2026 Results \n\n 06/24/2026 \n\n Reported EPS (diluted) of $1.23; Adjusted EPS (diluted) of $1.41, up 19% year-on-year \n\n Net income of $68 million; Adjusted EBITDA of $181 million, up 9% year-on-year \n\n Record second quarter operating cash flow; Repurchased 750 thousand shares in the quarter \n\n Increases midpoint of full-year adjusted EBITDA and adjusted EPS guidance \n\nST. PAUL, Minn.--(BUSINESS WIRE)-- H.B. Fuller Company (NYSE: FUL) today reported financial results for its second quarter that",
+      "published": "2026-05-30",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "FUL Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/ful-stock-analysis/",
+      "summary": "FUL Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy H.B. Fuller Company Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-08-27 \u00b7 10/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, H.B. Fuller Company (FUL) carries a solid Quality of Company rating of 7.4/10. Trading at $57.00, our multi-model framework evaluates whether the company's financial profile offers a favorable risk-reward setup.\n\nThe short answer: 3 of 10 CirclFi valuation models project upside for H.B. Fuller Company (FUL) at $57.00 \u2014 the model consensus leans bearish, with a Qu",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "H.B. Fuller (FUL) Q2 2026 Preview: EPS Est. $1.38, Reports June 25 - Alphastreet",
+      "publisher": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/h-b-fuller-ful-q2-2026-preview-eps-est-1-38-reports-june-25/",
+      "summary": "H.B. Fuller (FUL) Q2 2026 Preview: EPS Est. $1.38, Reports June 25 - Alphastreet\n\n# H.B. Fuller (FUL) Q2 2026 Preview: EPS Est. $1.38, Reports June 25\n\nWall Street's Second Quarter Targets. H.B. Fuller Company (NYSE:FUL) reports second quarter fiscal 2026 results on June 25 during market hours, with analyst...\n\n June 22, 2026 4 min read \n\n> Wall Street's Second Quarter Targets. H.B. Fuller Company (NYSE:FUL) reports second quarter fiscal 2026 results on June 25 during market hours, with analyst...\n\nAlphaStreet Newsdesk powered by AlphaStreet Intelligence\n\nFUL| EPS Est $1.38 (6 analysts)| Rev E",
+      "published": "2026-06-25",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "H.B. Fuller: Overreaction, Or Proof Of Slowdown (NYSE:FUL) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4917999-hb-fuller-overreaction-or-proof-of-slowdown",
+      "summary": "H.B. Fuller: Overreaction, Or Proof Of Slowdown (NYSE:FUL) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# H.B. Fuller: Overreaction, Or Proof Of Slowdown\nJun 26, 2026, 9:15 AM ETH.B. Fuller Company (FUL) Stock\n\nWolf Report\nInvesting Group Leader\nFollow\n## Summary\n* H.B. Fuller is rated a \"buy\" with a conservative $80/share price target, reflecting improved fundamentals and recent M&A.\n* FUL\u2019s recent results validate earnings recovery: near",
+      "published": "2026-06-26",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "H.B. Fuller Company's Complexity Offers Potential (NYSE:FUL) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4936462-hb-fuller-companys-complexity-offers-potential",
+      "summary": "H.B. Fuller Company's Complexity Offers Potential (NYSE:FUL) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# H.B. Fuller Company's Complexity Offers Potential\nAug 13, 2026, 7:14 PM ETH.B. Fuller Company (FUL) Stock\n\nDaniel Jones\nInvesting Group Leader\nFollow\n## Summary\n* H.B. Fuller Company remains a Buy candidate, with recent improvements in revenue and profitability despite prior underperformance and share price decline.\n* FUL\u2019s acquisiti",
+      "published": "2026-08-13",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "H.B. Fuller (FUL) Weighs Offer For Building Adhesives Unit After Unsolicited Approach",
+      "publisher": "Simply Wall St.",
+      "published": "2026-08-14T15:11:10Z",
+      "summary": "H.B. Fuller (NYSE:FUL) has received an unsolicited proposal from Ancora Holdings to acquire its Building Adhesive Solutions segment. The company\u2019s board is currently reviewing the offer and has not announced any decision. A sale of the Building Adhesive Solutions segment could shift H.B. Fuller\u2019s focus toward other recently acquired businesses. Corporate reshaping like this can point to wider opportunities in underappreciated quality stocks. This makes it worth looking at 51 high quality...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-ful-weighs-151110754.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "H.B. Fuller Shares Flat After Board Rejects Ancora\u2019s $1.2 Billion Adhesives Bid",
+      "publisher": "InvestorsHub",
+      "published": "2026-08-24T12:50:45Z",
+      "summary": "H. B. Fuller Co. (NYSE:FUL) shares were unchanged in Monday\u2019s pre-market trading after the company\u2019s board rejected an unsolicited offer from Ancora Holdings Group worth up to $1.",
+      "url": "https://investorshub.advfn.com/market-news/article/34915/h-b-fuller-shares-flat-after-board-rejects-ancoras-1-2-billion-adhesives-bid",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "FUL or NVZMY: Which Is the Better Value Stock Right Now?",
+      "publisher": "Zacks",
+      "published": "2026-08-24T15:40:03Z",
+      "summary": "FUL vs. NVZMY: Which Stock Is the Better Value Option?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ful-nvzmy-better-value-stock-154003706.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "H.B. Fuller Rejects Ancora's $1.2 Billion Offer for Building Adhesives Business",
+      "publisher": "MT Newswires",
+      "published": "2026-08-24T17:47:30Z",
+      "summary": "H.B. Fuller (FUL) has rejected Ancora's unsolicited offer to acquire the company's building adhesive",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-rejects-ancora-174730890.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Should Value Investors Buy H. B. Fuller (FUL) Stock?",
+      "publisher": "Zacks",
+      "published": "2026-08-28T13:40:03Z",
+      "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-h-b-134003638.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "H.B. Fuller (FUL) Tells Ancora its $1.2 Billion Offer isn\u2019t Enough",
+      "publisher": "Insider Monkey",
+      "published": "2026-09-06T20:46:40Z",
+      "summary": "Reuters reported that H.B. Fuller Company (NYSE:FUL) said its board unanimously rejected activist investor Ancora Holdings Group\u2019s unsolicited proposal to acquire its Building Adhesives Solutions (BAS) business for between $1.1 billion and $1.2 billion. The board said the offer \u201csignificantly undervalues\u201d BAS, is \u201csubstantially below precedent transactions,\u201d and ignores the unit\u2019s growth prospects, according to [\u2026]",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-ful-tells-204640998.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Should you buy FUL? \u2014 Verdict & fair-value range | TrendMatrix",
+      "publisher": "trendmatrix.com",
+      "url": "https://trendmatrix.com/stocks/ful/buy-or-sell",
+      "summary": "Should you buy FUL? \u2014 Verdict & fair-value range | TrendMatrix\n\n# Should you buy H. B. Fuller (FUL)?\n\nUpdated 2026-09-08\n\nModel-generated analysis \u2014 not investment advice. Not a registered investment advisor. Past performance does not guarantee future results.\n\nShow full disclosure \u25be Hide full disclosure \u25b4\n\nAbout TrendMatrix. TrendMatrix is a publisher of general securities research and market commentary. We publish on a regular schedule. All content is the same for every subscriber in a tier \u2014 we do not provide personalized investment advice and we do not take into account any individual subs",
+      "published": "2026-09-08",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "H.B. Fuller Q3FY26 Results: Analysts forecast $1.47 EPS, revenue up to $948m",
+      "publisher": "scanx.trade",
+      "url": "https://scanx.trade/stock-market-news/companies/h-b-fuller-report-q3fy26-results-sept-23/50536843",
+      "summary": "# H.B. Fuller Q3FY26 Results: Analysts forecast $1.47 EPS, revenue up to $948m\n\nAuthor: Dhan\nPublished: 2026-09-16T12:03:01.920000+00:00\nSource: scanx.trade (scanx.trade)\nLanguage: en\n\n## Story\n\nH.B. Fuller Q3FY26 Results: Analysts forecast $1.47 EPS, revenue up to $948m\n\n# H.B. Fuller Q3FY26 Results: Analysts forecast $1.47 EPS, revenue up to $948m \n\n 1 min read | Published on 10 Sept 2026, 03:30 AM | Updated on 16 Sept 2026, 05:33 PM \n\nReviewed by\n\nAnirudha B ScanX News Team\n\nKey Highlights\n\n- H.B. Fuller reports Q3FY26 results on Sept 23; analysts expect $1.47 EPS vs $1.26 last year\n- Reven",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "H. B. Fuller (FUL) Projected to Post Quarterly Earnings on Wednesday",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-h-b-fuller-ful-projected-to-post-quarterly-earnings-on-wednesday-2026-09-16/",
+      "summary": "# H. B. Fuller (FUL) Projected to Post Quarterly Earnings on Wednesday\n\nPublished: 2026-09-16T05:11:26.410000+00:00\nSource: marketbeat.com (marketbeat.com)\nLanguage: en\n\n## Story\n\nSkip to main content\n\n\u2192 What Is A Roth Conversion, And How Do I Set One Up? (From SmartAsset) (Ad)\n\n# H. B. Fuller (FUL) Projected to Post Quarterly Earnings on Wednesday\n\nWritten by MarketBeat\n\nSeptember 16, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- H. B. Fuller is expected to report Q3 2026 results after the",
+      "published": "2026-09-16",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "H.B. Fuller Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of E - Benzinga",
+      "publisher": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61811762/h-b-fuller-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "summary": "# H.B. Fuller Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of E - Benzinga\n\nAuthor: Avi Kapoor\nPublished: 2026-09-16T07:55:05-04:00\nSource: benzinga.com (benzinga.com)\nLanguage: en\n\n## Story\n\nH.B. Fuller Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of E - Benzinga\n\n September 16, 2026 7:55 AM 2 min read \n\n# H.B. Fuller Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call\n\nH.B. Fuller Company (NYSE: FUL) will release earnings for its third quarter after th",
+      "published": "2026-09-16",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Stay Ahead of the Game With H. B. Fuller (FUL) Q3 Earnings: Wall Street's Insights on Key Metrics",
+      "publisher": "Zacks",
+      "published": "2026-09-18T13:15:05Z",
+      "summary": "Get a deeper insight into the potential performance of H. B. Fuller (FUL) for the quarter ended August 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stay-ahead-game-h-b-131505226.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Estimates for H.B. Fuller (FUL)",
+      "publisher": "tickerleague.com",
+      "url": "https://tickerleague.com/companies/FUL/estimates",
+      "summary": "# Estimates for H.B. Fuller (FUL)\n\nAnalyst consensus revenue & EPS estimates for H.B. Fuller (FUL) \u2014 Q3 2026. Compare the numbers and make your own prediction.\n\nConsensus EPS \u00b7 Q3 2026\n\nMore info about Consensus EPS \u00b7 Q3 2026\n\n$1.47\n\nConsensus revenue \u00b7 Q3 2026\n\nMore info about Consensus revenue \u00b7 Q3 2026\n\n$948.2M\n\nAnalysts\n\nMore info about Analysts\n\n5\n\nExpected report\n\nMore info about Expected report\n\nSep 23, 2026\n\nAfter close\n\nUpcoming earnings\n\nLocks in 46 days 18 hours \u00b7 AMC: Locks at 4:00 PM ET on report day\n\nRevenue$948.2M$931.6M \u2013 $986.2M EPS$1.47$1.42 \u2013 $1.57\n\nWhat to watch\n\n- Analyst ",
+      "published": "2026-09-23",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "H. B. Fuller Q3 2026 Earnings Report",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-9-23-hb-fuller-stock/",
+      "summary": "Skip to main content\n\n\u2192 The national debt just passed $39 trillion (From US Gold Bureau) (Ad)\n\nNYSE:FUL\n\n# H. B. Fuller Q3 2026 Earnings Report\n\n$50.91 -0.06 (-0.12%)\n\nClosing price 09/15/2026 03:59 PM Eastern\n\nExtended Trading\n\n$50.97 +0.06 (+0.12%)\n\nAs of 09/15/2026 07:30 PM Eastern\n\nExtended trading is trading that happens on electronic markets outside of regular trading hours. This is a fair market value extended hours price provided by Massive. Learn more.\n\nProfile Earnings History Forecast\n\n## H. B. Fuller EPS Results\n\nActual EPS\n\nN/A\n\nConsensus EPS\n\n$1.47\n\nBeat/Miss\n\nN/A\n\nOne Year Ago E",
+      "published": "2026-09-24",
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Are Investors Undervaluing H. B. Fuller (FUL) Right Now?",
+      "publisher": "Zacks",
+      "created": "Aug 12, 2026",
+      "ago": "Aug 12, 2026",
+      "url": "/articles/are-investors-undervaluing-h-b-fuller-ful-right-now-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FUL"
+      ],
+      "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Here's Why H. B. Fuller (FUL) is a Strong Value Stock",
+      "publisher": "Zacks",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/heres-why-h-b-fuller-ful-strong-value-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FUL"
+      ],
+      "summary": "Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "H.B. Fuller Rejects Proposal From Ancora For Building Adhesives Solutions Business",
+      "publisher": "RTTNews",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/hb-fuller-rejects-proposal-ancora-building-adhesives-solutions-business",
+      "primary_symbol": "FUL",
+      "related_symbols": [
+        "FUL"
+      ],
+      "summary": "(RTTNews) - H.B. Fuller Company (FUL), an adhesives company, said on Monday that it has rejected Ancora's unsolicited, non-binding proposal to acquire its Building Adhesives Solutions business.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Daily Dividend Report: SON,KO,FUL,PPG,CNP,OKE",
+      "publisher": "BNK Invest",
+      "created": "Jul 16, 2026",
+      "ago": "Jul 16, 2026",
+      "url": "/articles/daily-dividend-report-sonkofulppgcnpoke",
+      "primary_symbol": "SON",
+      "related_symbols": [
+        "SON",
+        "KO",
+        "FUL",
+        "PPG",
+        "CNP",
+        "OKE"
+      ],
+      "summary": "The Board of Directors of Sonoco, a mid-cap value global packaging company, has declared a $0.54 per share quarterly common stock dividend. This dividend is payable on September 10, 2026, to shareholders of record as of August 10, 2026.  According to Howard Coker, president and",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Why H. B. Fuller (FUL) is a Top Value Stock for the Long-Term",
+      "publisher": "Zacks",
+      "created": "Jul 20, 2026",
+      "ago": "Jul 20, 2026",
+      "url": "/articles/why-h-b-fuller-ful-top-value-stock-long-term",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FUL"
+      ],
+      "summary": "Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Why Is H. B. Fuller (FUL) Down 11% Since Last Earnings Report?",
+      "publisher": "Zacks",
+      "created": "Jul 24, 2026",
+      "ago": "Jul 24, 2026",
+      "url": "/articles/why-h-b-fuller-ful-down-11-last-earnings-report",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FUL"
+      ],
+      "summary": "H. B. Fuller (FUL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is H. B. Fuller (FUL) Stock Undervalued Right Now?",
+      "publisher": "Zacks",
+      "created": "Jul 27, 2026",
+      "ago": "Jul 27, 2026",
+      "url": "/articles/h-b-fuller-ful-stock-undervalued-right-now-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FUL"
+      ],
+      "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "FUL Ex-Dividend Reminder - 7/30/26",
+      "publisher": "BNK Invest",
+      "created": "Jul 28, 2026",
+      "ago": "Jul 28, 2026",
+      "url": "/articles/ful-ex-dividend-reminder-7-30-26",
+      "primary_symbol": "FUL",
+      "related_symbols": [
+        "FUL",
+        "PSCM"
+      ],
+      "summary": "Looking at the universe of stocks we cover at Dividend Channel, on 7/30/26, Fuller Company (Symbol: FUL) will trade ex-dividend, for its quarterly dividend of $0.245, payable on 8/13/26.  As a percentage of FUL's recent stock price of $57.82, this dividend works out to approxima",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Zacks Industry Outlook Highlights Element Solutions, H.B. Fuller Company, Quaker Chemical and Minerals Technologies",
+      "publisher": "Zacks",
+      "created": "Jul 29, 2026",
+      "ago": "Jul 29, 2026",
+      "url": "/articles/zacks-industry-outlook-highlights-element-solutions-hb-fuller-company-quaker-chemical-and",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ESI",
+        "KWR",
+        "FUL",
+        "MTX"
+      ],
+      "summary": "Element Solutions leads specialty chemical stocks positioned to benefit from improving end-market demand, strategic cost actions and growth in electronics.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "5 Value Stocks With Impressive EV-to-EBITDA Ratios to Own Now",
+      "publisher": "Zacks",
+      "created": "Jul 21, 2026",
+      "ago": "Jul 21, 2026",
+      "url": "/articles/5-value-stocks-impressive-ev-ebitda-ratios-own-now-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CLDT",
+        "FUL",
+        "ARCO",
+        "CAL",
+        "PARR"
+      ],
+      "summary": "CLDT, PARR, ARCO, CAL and FUL stand out with attractive EV-to-EBITDA ratios and strong earnings outlook.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "4 Chemical Specialty Stocks to Gain From Demand Rebound",
+      "publisher": "Zacks",
+      "created": "Jul 28, 2026",
+      "ago": "Jul 28, 2026",
+      "url": "/articles/4-chemical-specialty-stocks-gain-demand-rebound",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ESI",
+        "KWR",
+        "FUL",
+        "MTX"
+      ],
+      "summary": "Improving demand in major end markets augurs well for The Zacks Chemicals Specialty industry. ESI, FUL, KWR and MTX lean on cost cuts and efficiency moves to offset persistent inflation pressures.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "H.B. Fuller (FUL) Stock Sees Margin Improvement That Tests Bearish Leverage Narrative - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/materials/nyse-ful/hb-fuller/news/hb-fuller-ful-stock-sees-margin-improvement-that-tests-beari",
+      "summary": "H.B. Fuller (FUL) Stock Sees Margin Improvement That Tests Bearish Leverage Narrative - Simply Wall St News\n\nSimply Wall St Homepage\n\nAdvertisement\n\nH.B. Fuller (FUL) has just posted Q2 2026 results with revenue of US$950.3 million, Basic EPS of US$1.25 and net income excluding extra items of US$67.8 million, giving investors a clear look at how the business is performing at mid year. The company has seen quarterly revenue move from US$898.1 million in Q2 2025 to US$950.3 million in Q2 2026, while Basic EPS shifted from US$0.77 to US$1.25 over the same period. This sets the stage for investors",
+      "published": null,
+      "source": "ollama_search",
+      "query": "H.B. Fuller Company (FUL) bull bear case risks",
+      "relevance": 1,
+      "themes": [
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "Top Midday Stories: Treasury Reportedly Could Use General Account to Fund Buybacks; Trump Raises Tariffs on Canadian Cars and Steel to 50% on Jan. 1",
+      "publisher": "MT Newswires",
+      "published": "2026-08-24T16:14:09Z",
+      "summary": "Stocks were mixed in late-morning trading Monday, with the Dow Jones Industrial Average up and the S",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-treasury-reportedly-161409788.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "regulation",
+        "mna"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 13,
+        "share": 0.464,
+        "evidence": [
+          {
+            "title": "H.B. Fuller Reports Second Quarter 2026 Results | H.B. Fuller",
+            "publisher": "newsroom.hbfuller.com",
+            "published": "2026-05-30",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "FUL Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "Should Value Investors Buy H. B. Fuller (FUL) Stock?",
+            "publisher": "Zacks",
+            "published": "2026-08-28T13:40:03Z",
+            "matched": [
+              "revis",
+              "estimate"
+            ]
+          },
+          {
+            "title": "H.B. Fuller Q3FY26 Results: Analysts forecast $1.47 EPS, revenue up to $948m",
+            "publisher": "scanx.trade",
+            "published": "2026-09-10",
+            "matched": [
+              "forecast"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 7,
+        "share": 0.25,
+        "evidence": [
+          {
+            "title": "H.B. Fuller (FUL) Weighs Offer For Building Adhesives Unit After Unsolicited Approach",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-14T15:11:10Z",
+            "matched": [
+              "acquire"
+            ]
+          },
+          {
+            "title": "H.B. Fuller Rejects Ancora's $1.2 Billion Offer for Building Adhesives Business",
+            "publisher": "MT Newswires",
+            "published": "2026-08-24T17:47:30Z",
+            "matched": [
+              "acquire"
+            ]
+          },
+          {
+            "title": "H.B. Fuller (FUL) Tells Ancora its $1.2 Billion Offer isn\u2019t Enough",
+            "publisher": "Insider Monkey",
+            "published": "2026-09-06T20:46:40Z",
+            "matched": [
+              "acquire"
+            ]
+          },
+          {
+            "title": "H.B. Fuller Rejects Proposal From Ancora For Building Adhesives Solutions Business",
+            "publisher": "RTTNews",
+            "published": "Aug 24, 2026",
+            "matched": [
+              "acquire"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 3,
+        "share": 0.107,
+        "evidence": [
+          {
+            "title": "FUL Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Why H. B. Fuller (FUL) is a Top Value Stock for the Long-Term",
+            "publisher": "Zacks",
+            "published": "Jul 20, 2026",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "Is H. B. Fuller (FUL) Stock Undervalued Right Now?",
+            "publisher": "Zacks",
+            "published": "Jul 27, 2026",
+            "matched": [
+              "undervalued"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 2,
+        "share": 0.071,
+        "evidence": [
+          {
+            "title": "H. B. Fuller Q3 2026 Earnings Report",
+            "publisher": "marketbeat.com",
+            "published": "2026-09-24",
+            "matched": [
+              "debt"
+            ]
+          },
+          {
+            "title": "H.B. Fuller (FUL) Stock Sees Margin Improvement That Tests Bearish Leverage Narrative - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": null,
+            "matched": [
+              "leverage"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "H.B. Fuller: Overreaction, Or Proof Of Slowdown (NYSE:FUL) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-26",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "Top Midday Stories: Treasury Reportedly Could Use General Account to Fund Buybacks; Trump Raises Tariffs on Canadian Cars and Steel to 50% on Jan. 1",
+            "publisher": "MT Newswires",
+            "published": "2026-08-24T16:14:09Z",
+            "matched": [
+              "treasury"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "Top Midday Stories: Treasury Reportedly Could Use General Account to Fund Buybacks; Trump Raises Tariffs on Canadian Cars and Steel to 50% on Jan. 1",
+            "publisher": "MT Newswires",
+            "published": "2026-08-24T16:14:09Z",
+            "matched": [
+              "tariff"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-09-24"
+    ],
+    "next_date": "2026-09-24",
+    "eps_avg": 1.46495,
+    "eps_low": 1.4,
+    "eps_high": 1.5736,
+    "revenue_avg": 945532040
+  },
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "days_out": 3,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 1.46
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-24",
+        "eps_estimate": 1.38,
+        "eps_actual": 1.41,
+        "surprise_pct": 2.45,
+        "beat": true
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 0.55,
+        "eps_actual": 0.57,
+        "surprise_pct": 2.72,
+        "beat": true
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 1.21,
+        "eps_actual": 1.28,
+        "surprise_pct": 5.72,
+        "beat": true
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": 1.24,
+        "eps_actual": 1.26,
+        "surprise_pct": 1.87,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-23 (Wednesday, after the close), 3 days out -- from the earnings calendar, consensus EPS 1.46."
+  },
+  "forward_trends": {
+    "queries": [
+      "H.B. Fuller FUL 2026 end market demand outlook packaging hygiene construction engineering adhesives",
+      "2026 packaging converting hygiene nonwovens medical beauty market outlook demand pressures",
+      "2026 2027 commercial construction roofing HVAC insulation spending forecast interest rates",
+      "2026 transportation electronics clean energy aerospace defense manufacturing outlook adhesive substitution"
+    ],
+    "results_count": 20,
+    "results_dated": 17,
+    "trends": [
+      {
+        "claim": "As of Q2 2026, FUL says pricing is gaining traction and medical adhesives are its next portfolio shift.",
+        "stance": "support",
+        "why": "Sustained pricing and medical expansion could lift margins and revenue beyond current reported results.",
+        "quote": "pricing is gaining traction across the portfolio, and management sees medical adhesives as the next major leg of its portfolio shift.",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/FUL/pressreleases/3048055/hb-fuller-q2-earnings-call-flags-pricing-ams-ambitions/",
+        "publisher": "theglobeandmail.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In Q2 2026, FUL executives defended the durability of pricing and raw material assumptions.",
+        "stance": "pressure",
+        "why": "If raw material costs rise or pricing fades, FUL's margin gains could reverse.",
+        "quote": "Executives spent as much time defending the durability of pricing and raw material assumptions as they did explaining the proposed Advanced Medical Solutions deal.",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/FUL/pressreleases/3048055/hb-fuller-q2-earnings-call-flags-pricing-ams-ambitions/",
+        "publisher": "theglobeandmail.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "FUL increased its full-year adjusted EBITDA and adjusted EPS guidance midpoint in Q2 2026.",
+        "stance": "support",
+        "why": "The raise signals management expects pricing and restructuring benefits to continue.",
+        "quote": "Increases midpoint of full-year adjusted EBITDA and adjusted EPS guidance",
+        "url": "https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx",
+        "publisher": "newsroom.hbfuller.com",
+        "as_of": "2026-07-01",
+        "age_days": 81,
+        "undated": false
+      },
+      {
+        "claim": "Nonwoven fabric sales are forecast to grow at 3.9% CAGR through 2036, with hygiene leading in 2026.",
+        "stance": "support",
+        "why": "Higher nonwoven output lifts demand for FUL's hygiene adhesives used in diapers and sanitary products.",
+        "quote": "Sales are expected to reach USD 46.75 billion in 2026 and USD 68.55 billion by 2036 at a 3.9% CAGR.",
+        "url": "https://www.factmr.com/report/nonwoven-fabric-market",
+        "publisher": "factmr.com",
+        "as_of": "2026-03-25",
+        "age_days": 179,
+        "undated": false
+      },
+      {
+        "claim": "Health and hygiene packaging is forecast to grow at a 6.4% CAGR from 2026 to 2035.",
+        "stance": "support",
+        "why": "Expanding hygiene packaging volumes support adhesive demand in FUL's hygiene and packaging end markets.",
+        "quote": "expected to register a revenue CAGR of 6.4% during the forecast period",
+        "url": "https://www.emergenresearch.com/industry-report/health-and-hygiene-packaging-market",
+        "publisher": "emergenresearch.com",
+        "as_of": "2026-08-04",
+        "age_days": 47,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "FUL",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 49.41,
+      "catalyst": "2026-12-24",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 55.0,
+        "premium": 4.25,
+        "bid": 2.0,
+        "ask": 6.5,
+        "mid": 4.25,
+        "last": 7.2,
+        "open_interest": 0,
+        "volume": 1.0,
+        "implied_vol": 0.6727327648925783,
+        "qty": 10
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 55.0,
+        "premium": 0.42,
+        "bid": 0.1,
+        "ask": 0.75,
+        "mid": 0.42,
+        "last": 0.5,
+        "open_interest": 3,
+        "volume": 1.0,
+        "implied_vol": 0.4624077197265626,
+        "qty": 10
+      },
+      "long_total": 4250.0,
+      "short_total": 420.0,
+      "net_debit": 3830.0,
+      "credit_ratio_mid": 0.0988,
+      "credit_ratio_conservative": 0.0154,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Feb-27",
+          "strike": 55.0,
+          "qty": 10,
+          "underlying": 49.41,
+          "multiplier": 100,
+          "price": 4.25,
+          "total": 4250.0,
+          "open_interest": 0
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 55.0,
+          "qty": 10,
+          "underlying": 49.41,
+          "multiplier": 100,
+          "price": 0.42,
+          "total": -420.0,
+          "open_interest": 3
+        }
+      ],
+      "notes": [
+        "thin long leg: 0 open interest",
+        "thin short leg: 3 open interest",
+        "short expires 16-Oct-26, before the 2026-12-24 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2026-12-24); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 55"
+      ],
+      "advice": "Credit ratio 1.5% is below the 10% floor; sell ~55 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0099,
+          "credit_ratio_conservative": 0.0015,
+          "passes_floor": false,
+          "cash_collected": 42.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0198,
+          "credit_ratio_conservative": 0.0031,
+          "passes_floor": false,
+          "cash_collected": 84.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0296,
+          "credit_ratio_conservative": 0.0046,
+          "passes_floor": false,
+          "cash_collected": 126.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0395,
+          "credit_ratio_conservative": 0.0062,
+          "passes_floor": false,
+          "cash_collected": 168.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0494,
+          "credit_ratio_conservative": 0.0077,
+          "passes_floor": false,
+          "cash_collected": 210.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0593,
+          "credit_ratio_conservative": 0.0092,
+          "passes_floor": false,
+          "cash_collected": 252.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.0692,
+          "credit_ratio_conservative": 0.0108,
+          "passes_floor": false,
+          "cash_collected": 294.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0791,
+          "credit_ratio_conservative": 0.0123,
+          "passes_floor": false,
+          "cash_collected": 336.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.0889,
+          "credit_ratio_conservative": 0.0138,
+          "passes_floor": false,
+          "cash_collected": 378.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.0988,
+          "credit_ratio_conservative": 0.0154,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "FUL",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 49.41,
+      "catalyst": "2026-12-24",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 45.0,
+        "premium": 2.52,
+        "bid": 0.05,
+        "ask": 5.0,
+        "mid": 2.52,
+        "last": 2.81,
+        "open_interest": 3,
+        "volume": 2.0,
+        "implied_vol": 0.5748333532714844,
+        "qty": 17
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 45.0,
+        "premium": 0.42,
+        "bid": 0.35,
+        "ask": 0.5,
+        "mid": 0.42,
+        "last": 0.52,
+        "open_interest": 7,
+        "volume": 11.0,
+        "implied_vol": 0.37744763183593744,
+        "qty": 13
+      },
+      "long_total": 4284.0,
+      "short_total": 546.0,
+      "net_debit": 3738.0,
+      "credit_ratio_mid": 0.1275,
+      "credit_ratio_conservative": 0.0535,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Feb-27",
+          "strike": 45.0,
+          "qty": 17,
+          "underlying": 49.41,
+          "multiplier": 100,
+          "price": 2.52,
+          "total": 4284.0,
+          "open_interest": 3
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 45.0,
+          "qty": 13,
+          "underlying": 49.41,
+          "multiplier": 100,
+          "price": 0.42,
+          "total": -546.0,
+          "open_interest": 7
+        }
+      ],
+      "notes": [
+        "thin long leg: 3 open interest",
+        "thin short leg: 7 open interest",
+        "short expires 16-Oct-26, before the 2026-12-24 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2026-12-24); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 45, 40"
+      ],
+      "advice": "Credit ratio 5.4% is below the 10% floor; sell ~12 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0098,
+          "credit_ratio_conservative": 0.0041,
+          "passes_floor": false,
+          "cash_collected": 42.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0196,
+          "credit_ratio_conservative": 0.0082,
+          "passes_floor": false,
+          "cash_collected": 84.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0294,
+          "credit_ratio_conservative": 0.0124,
+          "passes_floor": false,
+          "cash_collected": 126.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0392,
+          "credit_ratio_conservative": 0.0165,
+          "passes_floor": false,
+          "cash_collected": 168.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.049,
+          "credit_ratio_conservative": 0.0206,
+          "passes_floor": false,
+          "cash_collected": 210.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0588,
+          "credit_ratio_conservative": 0.0247,
+          "passes_floor": false,
+          "cash_collected": 252.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.0686,
+          "credit_ratio_conservative": 0.0288,
+          "passes_floor": false,
+          "cash_collected": 294.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0784,
+          "credit_ratio_conservative": 0.0329,
+          "passes_floor": false,
+          "cash_collected": 336.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.0882,
+          "credit_ratio_conservative": 0.0371,
+          "passes_floor": false,
+          "cash_collected": 378.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.098,
+          "credit_ratio_conservative": 0.0412,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.1078,
+          "credit_ratio_conservative": 0.0453,
+          "passes_floor": false,
+          "cash_collected": 462.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.1176,
+          "credit_ratio_conservative": 0.0494,
+          "passes_floor": false,
+          "cash_collected": 504.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.1275,
+          "credit_ratio_conservative": 0.0535,
+          "passes_floor": false,
+          "cash_collected": 546.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.1373,
+          "credit_ratio_conservative": 0.0576,
+          "passes_floor": false,
+          "cash_collected": 588.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.1471,
+          "credit_ratio_conservative": 0.0618,
+          "passes_floor": false,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.1569,
+          "credit_ratio_conservative": 0.0659,
+          "passes_floor": false,
+          "cash_collected": 672.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.1667,
+          "credit_ratio_conservative": 0.07,
+          "passes_floor": false,
+          "cash_collected": 714.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1233 @@
+{
+  "symbol": "DIS",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T01:03:39",
+  "profile": {
+    "symbol": "DIS",
+    "name": "The Walt Disney Company",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "summary": "The Walt Disney Company operates as an entertainment company in Americas, Europe, and the Asia Pacific. It operates in three segments: Entertainment, Sports, and Experiences. The company produces and distributes film and television content under the ABC Television Network, Disney, Freeform, FX, Fox, National Geographic, and Star brand television channels, as well as ABC television stations and A+E television networks; and produces original content under the Disney Branded Television, FX Productions, Lucasfilm, Marvel, National Geographic Studios, Pixar, Searchlight Pictures, Twentieth Century Studios, 20th Television, and Walt Disney Pictures banners. It also provides direct-to-consumer streaming services through Disney+, Disney+ Hotstar, and Hulu; sports-related video streaming content through ESPN, ESPN on ABC, ESPN+ DTC, and Star; sale/licensing of film and episodic content to television and video-on-demand services; theatrical, home entertainment, and music distribution services; DVD and Blu-ray discs, electronic home video licenses, and VOD rental services; staging and licensing of live entertainment events; and post-production services. In addition, the company operates theme parks and resorts, such as Walt Disney World Resort, Disneyland Resort, Disneyland Paris, Hong Kong Disneyland Resort, Shanghai Disney Resort, Disney Cruise Line, Disney Vacation Club, National Geographic Expeditions, and Adventures by Disney, as well as Aulani, a Disney resort and spa in Hawaii. Further, it licenses its intellectual property (IP) to a third party that owns and operates Tokyo Disney Resort; licenses trade names, characters, visual, literary, and other IP for use on merchandise, published materials, and games; operates a direct-to-home satellite distribution platform; sells branded merchandise through retail, online, and wholesale businesses; and develops and publishes books, comic books, and magazines. The company was founded in 1923 and is based in Burbank, California.",
+    "employees": 175560,
+    "country": "United States",
+    "website": "https://thewaltdisneycompany.com"
+  },
+  "quants": {
+    "symbol": "DIS",
+    "name": "The Walt Disney Company",
+    "price": 102.67,
+    "market_cap": 177278943232,
+    "market_cap_human": "177.28B",
+    "fwd_pe": 14.84,
+    "fwd_pe_1y": 13.73,
+    "fwd_pe_yahoo": 13.729625,
+    "trailing_pe": 21.169073,
+    "ps": 1.7932142,
+    "ev_ebitda": 10.731,
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "eps_fy_current": 6.92026,
+    "eps_fy_next": 7.47799,
+    "eps_trend": {
+      "change_7d_pct": 0.17,
+      "change_30d_pct": 0.68,
+      "current": 6.92026,
+      "7d_ago": 6.90849,
+      "30d_ago": 6.87337,
+      "text": "slightly up over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 2,
+      "down_7d": 0,
+      "up_30d": 21,
+      "down_30d": 3,
+      "net_30d": 18,
+      "text": "tilted higher, with 21 up and 3 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-11-12"
+      ],
+      "next_date": "2026-11-12",
+      "eps_avg": 1.68306,
+      "eps_low": 1.42169,
+      "eps_high": 1.93,
+      "revenue_avg": 25106654150
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 102.67 USD",
+    "Market Cap: 177.28B",
+    "Fwd PE: 14.84",
+    "P/S: 1.8",
+    "EPS trends: slightly up over the last 7 days",
+    "EPS revisions: tilted higher, with 21 up and 3 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/27/2026",
+      "prior_period": "3/28/2026",
+      "current": 2638000.0,
+      "prior": 2247000.0,
+      "change_pct": 17.4,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/27/2026",
+      "prior_period": "3/28/2026",
+      "current": 3943000.0,
+      "prior": 3607000.0,
+      "change_pct": 9.3,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-08-05T06:00:00-04:00",
+    "current": 2.06,
+    "year_ago": 1.61,
+    "year_ago_period": "2025-08-06T06:00:00-04:00",
+    "change": 0.45,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "FY2027 EPS Estimates for Walt Disney Increased by Analyst - Watch List News",
+      "publisher": "watchlistnews.com",
+      "url": "https://www.watchlistnews.com/fy2027-eps-estimates-for-walt-disney-increased-by-analyst/11222054.html",
+      "summary": "# FY2027 EPS Estimates for Walt Disney Increased by Analyst - Watch List News\n\nAuthor: Hanz Christensen\nPublished: 2026-09-11T10:42:48+00:00\nSource: watchlistnews.com (watchlistnews.com)\nLanguage: en\n\n## Story\n\nFY2027 EPS Estimates for Walt Disney Increased by Analyst - Watch List News\n\n# FY2027 EPS Estimates for Walt Disney Increased by Analyst\n\n Posted by Hanz Christensen on Sep 11th, 2026 \n\nThe Walt Disney Company (NYSE:DIS \u2013 Free Report) \u2013 Equities researchers at Erste Group Bank boosted their FY2027 earnings per share estimates for Walt Disney in a research report issued on Tuesday, Septe",
+      "published": null,
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is Disney Stock A Bargain Or Just A Slower Grower? | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/dis/articles/615832/is-disney-stock-a-bargain-or-just-a-slower-grower/2026-09-18",
+      "summary": "Is Disney Stock A Bargain Or Just A Slower Grower? | Trefis\n\n# Is Disney Stock A Bargain Or Just A Slower Grower?\n\nSeptember 18th, 2026 \u00b7 by Trefis Team\n\nWalt Disney (DIS) has lost about 7% over the past twelve months while the S&P 500 gained 17%. Disney trades at 21.3 times earnings, just under an S&P 500 median of 22.5. The question is whether that is a good business on sale, or a fair price for a slow grower.\n\nImage from Pixabay\n\nWhat Is Disney Doing Better Than Its Stock Suggests?\n\nDisney sells days at Walt Disney World, cabins on Disney Cruise Line, subscriptions to Disney+ and ESPN, and ",
+      "published": null,
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Earnings Growth & Price Strength Make Walt Disney (DIS) a Stock to Watch \u2014 Latest News | MetaTrader",
+      "publisher": "metatrader.com",
+      "url": "https://www.metatrader.com/en/news/zacks/3821636-earnings-growth-price-strength-make-walt-disney-dis-a",
+      "summary": "Earnings Growth & Price Strength Make Walt Disney (DIS) a Stock to Watch \u2014 Latest News | MetaTrader\n\n# Earnings Growth & Price Strength Make Walt Disney (DIS) a Stock to Watch\n\n2026.08.18 13:30 (GMT+0)\n\nHere at Zacks, we offer our members many different opportunities to take full advantage of the stock market, as well as how to invest in ways that lead to long-term success.\n\nThe Zacks Premium service makes this easier. It features daily updates of the Zacks Rank and Zacks Industry Rank; full access to the Zacks #1 Rank List; Equity Research reports; and Premium stock screens like the Earnings ",
+      "published": "1996-02-01",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here\u2019s What Investors Need to Know. | The Motley Fool",
+      "publisher": "fool.com",
+      "url": "https://www.fool.com/investing/2026/08/05/disney-reaffirms-double-digit-earnings-growth-targets-9-billion-in-buybacks-heres-what-investors-need-to-know/",
+      "summary": "Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here\u2019s What Investors Need to Know. | The Motley Fool\n\nWalt Disney (DIS +0.52%) delivered the goods on Wednesday morning. The king of the entertainment industry broadcast its fiscal third-quarter results, and investors clearly found much to like about the company\u2019s recent performance and its future potential. \n\nTwo items that were particularly appealing were management\u2019s stated goal of \u2014again \u2014 increasing its share repurchase target, and its adherence to the existing double-digit growth guidance. Let\u2019s tune in to th",
+      "published": "2026-03-32",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "The Walt Disney (DIS) Stock Analysis September 2026",
+      "publisher": "alcapitaladvisory.com",
+      "url": "https://alcapitaladvisory.com/research/equities/dis.html",
+      "summary": "The Walt Disney (DIS) Stock Analysis September 2026\n\n# The Walt Disney Company (DIS) Stock Analysis - DCF Valuation & AI Disruption Risk\n\n By Anton Ladnyi, CFA \u00b7 ex-Goldman Sachs \u00b7 ex-J.P. Morgan Published 2026-04-04 Updated 2026-09-12 \n\nDIS \u2014 fiscal Q3 2026 (reported Aug 5) beat across every segment: revenue $25.25B (+7% YoY, slightly below the analyst forecast on the top line but not the bottom line), adjusted EPS $2.06 (vs. $1.86 consensus and $1.61 a year earlier); Disney+/Hulu combined streaming profit more than doubled to $712M, ESPN/Sports revenue grew 4% to $4.50B on record NBA/NHL pla",
+      "published": "2026-04-04",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Disney Q3 results and $9B share buyback plan | DIS 8-K Filing",
+      "publisher": "stocktitan.net",
+      "url": "https://www.stocktitan.net/sec-filings/DIS/8-k-walt-disney-co-reports-material-event-0514d2aa3dbc.html",
+      "summary": "Disney Q3 results and $9B share buyback plan | DIS 8-K Filing\n\n# Disney Q3 results and $9B share buyback plan \n\nThe Walt Disney Company reported fiscal Q3 2026 results showing solid revenue and operating income growth but lower GAAP EPS.\n\n(High)\n\nFiling Sentiment\n\n## Rhea-AI Filing Summary\n\nThe Walt Disney Company reported fiscal Q3 2026 results showing solid revenue and operating income growth but lower GAAP EPS. Revenue rose 7% to $25.2 billion and total segment operating income increased 21% to $5.6 billion. Income before income taxes grew 14% to $3.6 billion.\n\nDiluted EPS declined to $1.51",
+      "published": "2026-06-27",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "mna",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Disney (DIS) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "publisher": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/disney-dis-q3-2026-earnings-call-transcript/",
+      "summary": "Disney (DIS) Q3 2026 Earnings Call Transcript | The Motley Fool\n\nImage source: The Motley Fool.\n\n## DATE\n\nAug. 5, 2026 at 8:30 a.m. ET\n\n## CALL PARTICIPANTS\n\n- Executive Vice President of Investor Relations and Corporate Strategy - Benjamin Daniel Swinburne\n- Chief Executive Officer - Josh D'Amaro\n- Chief Financial Officer - Hugh Johnston\n\n## TAKEAWAYS\n\n- Revenue -- $25.2 billion, representing 7% growth driven by strength in Experiences and Entertainment subscription services.\n- Adjusted EPS -- $2.06, a 28% increase from $1.61 in the prior year quarter.\n- Total Segment Operating Income -- $5.6",
+      "published": "2026-08-05",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Disney Streaming Q3 2026 Earnings, Consumer Products Shifts to Studios",
+      "publisher": "variety.com",
+      "url": "https://variety.com/2026/tv/news/disney-streaming-earnings-q3-2026-consumer-products-shift-1236827893/",
+      "summary": "Disney Streaming Q3 2026 Earnings, Consumer Products Shifts to Studios\n\n Aug 5, 2026 3:36am PT \n\n# Disney Streaming Profit Doubles in June Quarter, Company Shifting Consumer Products to Studios Division \n\n CEO Josh D'Amaro also outlines use of new AI tool for Disney's parks team\n\n By Jennifer Maas \n\n \n\n \u00a9Walt Disney Co./Courtesy Everett Collection \n\n Disney posted mixed results for the June 2026 quarter, as Disney+ and Hulu continued to boost profits and the theme parks division turning in solid performance. And Disney CEO Josh D\u2019Amaro revealed his latest move to restructure the media conglome",
+      "published": "2026-08-05",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Walt Disney Co (DIS) 10-Q Quarterly Report August 2026",
+      "publisher": "last10k.com",
+      "url": "https://last10k.com/sec-filings/dis/0001744489-26-000057.htm",
+      "summary": "Walt Disney Co (DIS) 10-Q Quarterly Report August 2026\n\n### DIS Annual Reports\n\n 10-K Annual Report November 2025 \n\n 10-K Annual Report November 2024 \n\n 10-K Annual Report November 2023 \n\n 10-K Annual Report November 2022 \n\n 10-K Annual Report November 2021 \n\n 10-K Annual Report November 2020 \n\nTo Our Shareholders and the Broader Investment Community,\n\nOur strong fiscal Q3 results and reiterated full-year outlook reinforce our confidence that we are uniquely well positioned. Decades of IP investment have built deep fan connections that translate into strong financial results. Our accelerating ",
+      "published": "2026-08-05",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Walt Disney Company (The) (DIS) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/DIS/analysis/",
+      "summary": "Walt Disney Company (The) (DIS) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\n107.52 -0.24% \n\nNYSE - Nasdaq Real Time Price \u2022 USD \n\n# Walt Disney Company (The) (DIS)\n\n 107.78 +0.46 (+0.43%) \n\n At close: August 21 at 4:03:38 PM EDT \n\n 107.52 -0.26 (-0.24%) \n\nAfter hours: August 21 at 7:59:30 PM EDT \n\n## Trading disclosure \n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are ",
+      "published": "2026-08-21",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Walt Disney (DIS) - Fundamental Analysis Report 2026 (Updated)",
+      "publisher": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/walt-disney-dis-fundamental-analysis-report",
+      "summary": "Walt Disney (DIS) - Fundamental Analysis Report 2026 (Updated)\n\n# Walt Disney (DIS) - Fundamental Analysis Report 2026 (Updated)\n\nDeep Research Global\n\nAug 30, 2026 \u2219 Paid\n\nIn case you missed it, here are the latest \u201cfundamental analysis\u201d reports:\n\n- Accenture (ACN)\n- Intuitive Surgical (ISRG)\n- AT&T (T)\n\nList of All Reports - Check It Out\n\nExecutive TL;DR\n\n- Disney (DIS) just closed out fiscal Q3 2026 with 7% revenue growth, a 28% jump in adjusted EPS to $2.06, and record theme park results, all under new CEO Josh D\u2019Amaro, who took over from Bob Iger in March 2026.\n- The streaming business ha",
+      "published": "2026-08-30",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "DIS | Walt Disney Co. Analyst Estimates | MarketWatch",
+      "publisher": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/dis/analystestimates",
+      "summary": "DIS | Walt Disney Co. Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDJIA F\n-0.72%\n\nS&P F\n-0.22%\n\nNASDAQ F\n0.04%\n\nGold\n-0.85%\n\nSilver\n-0.29%\n\nCrude Oil\n2.78%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|DJIA F|53,054|-386|-0.72%|\n|**|S&P F|7,704.75|-17.25|-0.22%|\n|**|NASDAQ F|29,578.50|13.25|0.04%|\n|**|Gold|4,438.40|-38.20|-0.85%|\n|**|Silver|66.555|-0.193|-0.29%|\n|**|Crude Oil|94.02|2.54|2.78%|\nCreated with Highstock 2.1.86pm12am6am12pm$52,750$53,000$53,250$53,500\nS&P 500 Movers\n* SNDK\n11.9\n\n* KLAC\n7.3\n\n* MR",
+      "published": "2026-09-08",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Disney: IP-Rich Entertainment Conglomerate With Value Trap Risks - Contrarian Buy | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4944673-disney-ip-rich-entertainment-conglomerate-with-value-trap-risks-contrarian-buy",
+      "summary": "Disney: IP-Rich Entertainment Conglomerate With Value Trap Risks - Contrarian Buy | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# Disney: IP-Rich Entertainment Conglomerate With Value Trap Risks - Contrarian Buy\nSep 10, 2026, 9:00 AM ETThe Walt Disney Company (DIS) Stock\n\nJuxtaposed Ideas\n16.19K Followers\nFollow\n## Summary\n* Disney's rich IP ecosystem and the new CEO's f",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "DIS Stock Forecast 2026-2027 - The Walt Disney Co. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/dis-forecast/",
+      "summary": "DIS Stock Forecast 2026-2027 - The Walt Disney Co. Price Targets & Predictions\n\n# DIS Stock Forecast: The Walt Disney Co. Price Predictions for 2026-2027\n\nLast close, 18 Sept 2026\n\n$103\n\n\u22122.54% on the day\n\nThe 32 Wall Street analysts covering The Walt Disney Co. hold a median 12-month price target of $129 \u2014 +25.6% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 49 of 100 as at 18 Sept 2026 \u2014 in the lower half.\n\nMarket cap\n\n$184.7B\n\nTicker Nerd rank\n\n49 / 100\n\nMedian analyst target\n\n$129\n\nAnalysts covering\n\n32\n\nRevenue$25.2B+6.8% y/y\n\nOperating ",
+      "published": "2026-09-18",
+      "source": "ollama_search",
+      "query": "The Walt Disney Company (DIS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Netflix Stock Falls After Downgrade. Why It\u2019s Losing the Streaming Wars to Disney.",
+      "publisher": "Barrons.com",
+      "published": "2026-09-18T16:56:00Z",
+      "summary": "The streamer desperately needs to find the next Squid Game. Weak engagement numbers are dire news for its shares, down 20% this year.",
+      "url": "https://www.barrons.com/articles/netflix-stock-downgrade-streaming-disney-78fe3ca9?siteid=yhoof2&yptr=yahoo",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Disney names first-ever chief technology officer, a day after tapping ex-YouTube executive to run streaming",
+      "publisher": "LA Times",
+      "published": "2026-09-18T17:00:00Z",
+      "summary": "Disney named former Character.AI CEO Karandeep Anand its first-ever chief technology officer, a day after putting former YouTube executive Adam Smith in charge of streaming.",
+      "url": "https://finance.yahoo.com/technology/articles/disney-names-first-ever-chief-170000071.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Disney names Karandeep Anand as first-ever CTO",
+      "publisher": "Quartz",
+      "published": "2026-09-18T17:31:20Z",
+      "summary": "Karandeep Anand, who previously led AI chatbot startup Character.AI, will join Disney on Oct. 2 in the newly created role",
+      "url": "https://qz.com/disney-first-cto-karandeep-anand-character-ai-091826",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Disney\u2019s first CTO led an AI startup it once accused of copying its characters",
+      "publisher": "TechCrunch",
+      "published": "2026-09-18T17:59:53Z",
+      "summary": "The former CEO of Character.AI, which Disney previously sent a cease-and-desist letter to, will serve as the company's first-ever chief technology officer.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/disney-first-cto-led-ai-175953724.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Walt Disney (DIS) Stock Dips While Market Gains: Key Facts",
+      "publisher": "Zacks",
+      "published": "2026-09-18T21:45:02Z",
+      "summary": "Walt Disney (DIS) closed the most recent trading day at $102.42, moving 2.78% from the previous trading session.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-stock-dips-214502762.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Disney (DIS) Stock May Trade Near Fair Value On CTO Appointment",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-19T03:17:10Z",
+      "summary": "Walt Disney has been reshaping its streaming and technology footprint, while the share price has lagged over several time frames. This puts the focus squarely on what the current valuation implies about its cash flows. With a Discounted Cash Flow (DCF) view available, the question now is whether the cash the business can generate over time lines up with where the stock trades today. Over the past 5 years, Walt Disney's share price has declined 39.8%, which puts pressure on the case that its...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-may-trade-031710686.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Is Walt Disney Stock a Buy, Sell, or Hold 47% Below Its All-Time High?",
+      "publisher": "Motley Fool",
+      "published": "2026-09-19T12:05:00Z",
+      "summary": "While it's challenging to be bullish, this industry-leading business has positive traits investors can appreciate.",
+      "url": "https://www.fool.com/investing/2026/09/19/walt-disney-stock-buy-sell-hold-all-time-high/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Notable ETF Outflow Detected - VOX, VZ, DIS, CMCSA",
+      "publisher": "BNK Invest",
+      "created": "Sep 10, 2026",
+      "ago": "Sep 10, 2026",
+      "url": "/articles/notable-etf-outflow-detected-vox-vz-dis-cmcsa",
+      "primary_symbol": "VOX",
+      "related_symbols": [
+        "VOX",
+        "VZ",
+        "DIS",
+        "CMCSA"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Vanguard Communication Services ETF (Symbol: VOX) where we have detected an approximate $145.3 million dollar outflow -- that's a 2.5% decrease week",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Walt Disney (DIS) Boasts Earnings & Price Momentum: Should You Buy?",
+      "publisher": "Zacks",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/walt-disney-dis-boasts-earnings-price-momentum-should-you-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "DIS"
+      ],
+      "summary": "Finding strong, market-beating stocks with a positive earnings outlook becomes easier with the Focus List, a top feature of the Zacks Premium portfolio service.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "The Walt Disney Company (DIS) is Attracting Investor Attention: Here is What You Should Know",
+      "publisher": "Zacks",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/walt-disney-company-dis-attracting-investor-attention-here-what-you-should-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "DIS"
+      ],
+      "summary": "Recently, Zacks.com users have been paying close attention to Disney (DIS). This makes it worthwhile to examine what the stock has in store.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Disney's Free Cash Flow Faces Pressure: Can Higher Investment Pay Off?",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/disneys-free-cash-flow-faces-pressure-can-higher-investment-pay",
+      "primary_symbol": null,
+      "related_symbols": [
+        "DIS",
+        "NFLX",
+        "WBD"
+      ],
+      "summary": "DIS' free cash flow falls 24% in the first nine months of fiscal 2026 as investment rises, but quarterly cash flow and Experiences growth improve.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "Netflix vs. Disney: Which Streaming Stock Has an Edge Right Now?",
+      "publisher": "Zacks",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/netflix-vs-disney-which-streaming-stock-has-edge-right-now",
+      "primary_symbol": null,
+      "related_symbols": [
+        "NFLX",
+        "DIS"
+      ],
+      "summary": "DIS' diversified growth, streaming profitability and rich content slate give it an edge over NFLX as investors weigh valuations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Walt Disney Appoints Karandeep Anand As Chief Technology Officer",
+      "publisher": "RTTNews",
+      "created": "Sep 18, 2026",
+      "ago": "23 hours ago",
+      "url": "/articles/walt-disney-appoints-karandeep-anand-chief-technology-officer",
+      "primary_symbol": "DIS",
+      "related_symbols": [
+        "DIS"
+      ],
+      "summary": "(RTTNews) - On Friday, Entertainment Giant The Walt Disney Company (DIS) announced the appointment of Karandeep Anand as Senior Executive Vice President and Chief Technology Officer, a newly created position, effective October 2.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Comcast vs. Walt Disney: Which Media Stock Is a Better Buy in 2026?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/comcast-vs-walt-disney-which-media-stock-better-buy-2026",
+      "primary_symbol": "CMCSA",
+      "related_symbols": [
+        "CMCSA",
+        "DIS"
+      ],
+      "summary": "Key PointsComcast remains a cash-flow powerhouse with a strong foundation in residential broadband and connectivity services.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "XLC, VZ, DIS, TMUS: Large Outflows Detected at ETF",
+      "publisher": "BNK Invest",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/xlc-vz-dis-tmus-large-outflows-detected-etf",
+      "primary_symbol": "XLC",
+      "related_symbols": [
+        "XLC",
+        "VZ",
+        "DIS",
+        "TMUS"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Communication Services Select Sector SPDR ETF (Symbol: XLC) where we have detected an approximate $185.4 million dollar outflow -- that",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "2 Dividend Stocks to Buy Now With Higher Yields Than the 30-Year U.S. Treasury Bond",
+      "publisher": "The Motley Fool",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/2-dividend-stocks-buy-now-higher-yields-30-year-us-treasury-bond",
+      "primary_symbol": "KHC",
+      "related_symbols": [
+        "KHC",
+        "MO",
+        "DIS",
+        "PM"
+      ],
+      "summary": "Key PointsAltria found a new profit source by using tobacco exports to unlock tax savings.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Apple TV's Emmy Sweep Adds Momentum to AAPL's Services Business",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/apple-tvs-emmy-sweep-adds-momentum-aapls-services-business",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AAPL",
+        "NFLX",
+        "DIS"
+      ],
+      "summary": "Apple TV's 29 Emmy wins, record viewership and strong video revenue growth add momentum to Apple's expanding Services business.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Dow Movers: IBM, HONIV",
+      "publisher": "BNK Invest",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/dow-movers-ibm-honiv-2",
+      "primary_symbol": "IBM",
+      "related_symbols": [
+        "IBM",
+        "DIS",
+        "GOOGL"
+      ],
+      "summary": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing Dow Jones Industrial Average components, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Dow component thus far on",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target",
+      "publisher": "Motley Fool",
+      "published": "2026-09-18T21:14:58Z",
+      "summary": "Today, Sept. 18, 2026, Wells Fargo cut its rating and price target, citing weaker engagement and content concerns, prompting investors to watch margin trends.",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/18/stock-market-today-sept-18-netflix-falls-on-analyst-downgrade-and-slashed-price-target/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "depreciation_debt",
+        "positioning"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 8,
+        "share": 0.32,
+        "evidence": [
+          {
+            "title": "FY2027 EPS Estimates for Walt Disney Increased by Analyst - Watch List News",
+            "publisher": "watchlistnews.com",
+            "published": null,
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here\u2019s What Investors Need to Know. | The Motley Fool",
+            "publisher": "fool.com",
+            "published": "2026-03-32",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "The Walt Disney (DIS) Stock Analysis September 2026",
+            "publisher": "alcapitaladvisory.com",
+            "published": "2026-04-04",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Walt Disney Co (DIS) 10-Q Quarterly Report August 2026",
+            "publisher": "last10k.com",
+            "published": "2026-08-05",
+            "matched": [
+              "outlook"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "Earnings Growth & Price Strength Make Walt Disney (DIS) a Stock to Watch \u2014 Latest News | MetaTrader",
+            "publisher": "metatrader.com",
+            "published": "1996-02-01",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "The Walt Disney (DIS) Stock Analysis September 2026",
+            "publisher": "alcapitaladvisory.com",
+            "published": "2026-04-04",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Disney (DIS) Stock May Trade Near Fair Value On CTO Appointment",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-19T03:17:10Z",
+            "matched": [
+              "valuation",
+              "discount"
+            ]
+          },
+          {
+            "title": "Walt Disney (DIS) Boasts Earnings & Price Momentum: Should You Buy?",
+            "publisher": "Zacks",
+            "published": "Sep 11, 2026",
+            "matched": [
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 5,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "Disney Q3 results and $9B share buyback plan | DIS 8-K Filing",
+            "publisher": "stocktitan.net",
+            "published": "2026-06-27",
+            "matched": [
+              "sentiment"
+            ]
+          },
+          {
+            "title": "DIS Stock Forecast 2026-2027 - The Walt Disney Co. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-18",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Netflix Stock Falls After Downgrade. Why It\u2019s Losing the Streaming Wars to Disney.",
+            "publisher": "Barrons.com",
+            "published": "2026-09-18T16:56:00Z",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "Disney (DIS) Stock May Trade Near Fair Value On CTO Appointment",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-19T03:17:10Z",
+            "matched": [
+              "flows"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 3,
+        "share": 0.12,
+        "evidence": [
+          {
+            "title": "Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here\u2019s What Investors Need to Know. | The Motley Fool",
+            "publisher": "fool.com",
+            "published": "2026-03-32",
+            "matched": [
+              "buyback"
+            ]
+          },
+          {
+            "title": "Disney Q3 results and $9B share buyback plan | DIS 8-K Filing",
+            "publisher": "stocktitan.net",
+            "published": "2026-06-27",
+            "matched": [
+              "buyback"
+            ]
+          },
+          {
+            "title": "2 Dividend Stocks to Buy Now With Higher Yields Than the 30-Year U.S. Treasury Bond",
+            "publisher": "The Motley Fool",
+            "published": "Sep 11, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 3,
+        "share": 0.12,
+        "evidence": [
+          {
+            "title": "Netflix Stock Falls After Downgrade. Why It\u2019s Losing the Streaming Wars to Disney.",
+            "publisher": "Barrons.com",
+            "published": "2026-09-18T16:56:00Z",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "Disney's Free Cash Flow Faces Pressure: Can Higher Investment Pay Off?",
+            "publisher": "Zacks",
+            "published": "Sep 16, 2026",
+            "matched": [
+              "free cash flow"
+            ]
+          },
+          {
+            "title": "Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target",
+            "publisher": "Motley Fool",
+            "published": "2026-09-18T21:14:58Z",
+            "matched": [
+              "downgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 1,
+        "share": 0.04,
+        "evidence": [
+          {
+            "title": "2 Dividend Stocks to Buy Now With Higher Yields Than the 30-Year U.S. Treasury Bond",
+            "publisher": "The Motley Fool",
+            "published": "Sep 11, 2026",
+            "matched": [
+              "yield",
+              "treasury"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-11-12"
+    ],
+    "next_date": "2026-11-12",
+    "eps_avg": 1.68306,
+    "eps_low": 1.42169,
+    "eps_high": 1.93,
+    "revenue_avg": 25106654150
+  },
+  "catalyst": {
+    "date": "2026-11-12",
+    "weekday": "Thursday",
+    "days_out": 53,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 1.68306,
+      "eps_low": 1.42169,
+      "eps_high": 1.93,
+      "revenue_avg": 25106654150
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 1.85,
+        "eps_actual": 2.06,
+        "surprise_pct": 11.09,
+        "beat": true
+      },
+      {
+        "date": "2026-05-06",
+        "eps_estimate": 1.5,
+        "eps_actual": 1.57,
+        "surprise_pct": 4.98,
+        "beat": true
+      },
+      {
+        "date": "2026-02-02",
+        "eps_estimate": 1.58,
+        "eps_actual": 1.63,
+        "surprise_pct": 3.44,
+        "beat": true
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 1.02,
+        "eps_actual": 1.11,
+        "surprise_pct": 8.42,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-11-12 (Thursday, before the open), 53 days out -- from the earnings calendar, consensus EPS 1.68."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 2027 streaming and linear TV outlook cord cutting subscriber growth advertising",
+      "2026 2027 global box office forecast theatrical moviegoing attendance trends",
+      "Disney DIS 2026 2027 theme park attendance consumer travel spending outlook",
+      "2026 2027 live sports media rights costs streaming viewership advertising trends"
+    ],
+    "results_count": 20,
+    "results_dated": 17,
+    "trends": [
+      {
+        "claim": "In the 2026-27 upfront, streaming ad spending rose nearly 30% and surpassed linear TV for the first time.",
+        "stance": "support",
+        "why": "This supports Disney's streaming ad revenue as budgets shift to Disney+ and Hulu.",
+        "quote": "streaming captured more primetime upfront ad dollars than linear TV",
+        "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-7Ls.pdf",
+        "publisher": "mediadynamicsinc.com",
+        "as_of": "2026-08-11",
+        "age_days": 40,
+        "undated": false
+      },
+      {
+        "claim": "In the 2026-27 upfront, cable TV ad dollars fell 7.7%, pressuring Disney's linear networks.",
+        "stance": "pressure",
+        "why": "Lower linear ad revenue reduces cash flow before streaming fully offsets the decline.",
+        "quote": "cable once again took the biggest hit, down 7.7%",
+        "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-7Ls.pdf",
+        "publisher": "mediadynamicsinc.com",
+        "as_of": "2026-08-11",
+        "age_days": 40,
+        "undated": false
+      },
+      {
+        "claim": "As of April 2026, pay TV remains in free fall, pressuring Disney's linear affiliate fee revenue.",
+        "stance": "pressure",
+        "why": "Fewer pay TV subscribers reduce affiliate fees at Disney's cable networks.",
+        "quote": "Pay TV remains in a free fall, despite the modest success of digital pay TV",
+        "url": "https://www.emarketer.com/content/us-ott-and-pay-tv-viewers-forecast-2026",
+        "publisher": "emarketer.com",
+        "as_of": "2026-04-01",
+        "age_days": 172,
+        "undated": false
+      },
+      {
+        "claim": "As of April 2026, YouTube is flourishing on connected TV, intensifying competition for Disney's streaming ad dollars.",
+        "stance": "pressure",
+        "why": "This could divert viewer time and ad budgets away from Disney+ and Hulu.",
+        "quote": "YouTube is flourishing on CTV",
+        "url": "https://www.emarketer.com/content/us-ott-and-pay-tv-viewers-forecast-2026",
+        "publisher": "emarketer.com",
+        "as_of": "2026-04-01",
+        "age_days": 172,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, over 240 million people will watch subscription OTT video, and most will see ads.",
+        "stance": "support",
+        "why": "This expands the ad market for Disney+ and Hulu's ad-supported tiers.",
+        "quote": "Over 240 million people will watch sub OTT video this year, and most will see ads",
+        "url": "https://www.emarketer.com/content/us-ott-and-pay-tv-viewers-forecast-2026",
+        "publisher": "emarketer.com",
+        "as_of": "2026-04-01",
+        "age_days": 172,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "DIS",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 102.67,
+      "catalyst": "2026-11-12",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 105.0,
+        "premium": 4.33,
+        "bid": 4.15,
+        "ask": 4.5,
+        "mid": 4.33,
+        "last": 4.35,
+        "open_interest": 2485,
+        "volume": 141.0,
+        "implied_vol": 0.3249579223632812,
+        "qty": 10
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 105.0,
+        "premium": 1.79,
+        "bid": 1.7,
+        "ask": 1.87,
+        "mid": 1.79,
+        "last": 1.78,
+        "open_interest": 2029,
+        "volume": 976,
+        "implied_vol": 0.25171646728515623,
+        "qty": 3
+      },
+      "long_total": 4330.0,
+      "short_total": 537.0,
+      "net_debit": 3793.0,
+      "credit_ratio_mid": 0.124,
+      "credit_ratio_conservative": 0.1133,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 105.0,
+          "qty": 10,
+          "underlying": 102.67,
+          "multiplier": 100,
+          "price": 4.33,
+          "total": 4330.0,
+          "open_interest": 2485
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 105.0,
+          "qty": 3,
+          "underlying": 102.67,
+          "multiplier": 100,
+          "price": 1.79,
+          "total": -537.0,
+          "open_interest": 2029
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-11-12 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 105, 110, 115, 120"
+      ],
+      "advice": "Credit ratio 11.3% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0413,
+          "credit_ratio_conservative": 0.0378,
+          "passes_floor": false,
+          "cash_collected": 179.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0827,
+          "credit_ratio_conservative": 0.0756,
+          "passes_floor": false,
+          "cash_collected": 358.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.124,
+          "credit_ratio_conservative": 0.1133,
+          "passes_floor": true,
+          "cash_collected": 537.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1654,
+          "credit_ratio_conservative": 0.1511,
+          "passes_floor": true,
+          "cash_collected": 716.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2067,
+          "credit_ratio_conservative": 0.1889,
+          "passes_floor": true,
+          "cash_collected": 895.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.248,
+          "credit_ratio_conservative": 0.2267,
+          "passes_floor": true,
+          "cash_collected": 1074.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2894,
+          "credit_ratio_conservative": 0.2644,
+          "passes_floor": true,
+          "cash_collected": 1253.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.3307,
+          "credit_ratio_conservative": 0.3022,
+          "passes_floor": true,
+          "cash_collected": 1432.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3721,
+          "credit_ratio_conservative": 0.34,
+          "passes_floor": true,
+          "cash_collected": 1611.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.4134,
+          "credit_ratio_conservative": 0.3778,
+          "passes_floor": true,
+          "cash_collected": 1790.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "DIS",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 102.67,
+      "catalyst": "2026-11-12",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 100.0,
+        "premium": 3.5,
+        "bid": 3.4,
+        "ask": 3.6,
+        "mid": 3.5,
+        "last": 3.5,
+        "open_interest": 3882,
+        "volume": 341.0,
+        "implied_vol": 0.28711650390624993,
+        "qty": 12
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 100.0,
+        "premium": 1.45,
+        "bid": 1.4,
+        "ask": 1.5,
+        "mid": 1.45,
+        "last": 1.51,
+        "open_interest": 15554,
+        "volume": 12203.0,
+        "implied_vol": 0.23413851806640623,
+        "qty": 4
+      },
+      "long_total": 4200.0,
+      "short_total": 580.0,
+      "net_debit": 3620.0,
+      "credit_ratio_mid": 0.1381,
+      "credit_ratio_conservative": 0.1296,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 100.0,
+          "qty": 12,
+          "underlying": 102.67,
+          "multiplier": 100,
+          "price": 3.5,
+          "total": 4200.0,
+          "open_interest": 3882
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 100.0,
+          "qty": 4,
+          "underlying": 102.67,
+          "multiplier": 100,
+          "price": 1.45,
+          "total": -580.0,
+          "open_interest": 15554
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-11-12 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 100, 95, 90, 85"
+      ],
+      "advice": "Credit ratio 13.0% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0345,
+          "credit_ratio_conservative": 0.0324,
+          "passes_floor": false,
+          "cash_collected": 145.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.069,
+          "credit_ratio_conservative": 0.0648,
+          "passes_floor": false,
+          "cash_collected": 290.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1036,
+          "credit_ratio_conservative": 0.0972,
+          "passes_floor": false,
+          "cash_collected": 435.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1381,
+          "credit_ratio_conservative": 0.1296,
+          "passes_floor": true,
+          "cash_collected": 580.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1726,
+          "credit_ratio_conservative": 0.162,
+          "passes_floor": true,
+          "cash_collected": 725.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2071,
+          "credit_ratio_conservative": 0.1944,
+          "passes_floor": true,
+          "cash_collected": 870.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2417,
+          "credit_ratio_conservative": 0.2269,
+          "passes_floor": true,
+          "cash_collected": 1015.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2762,
+          "credit_ratio_conservative": 0.2593,
+          "passes_floor": true,
+          "cash_collected": 1160.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3107,
+          "credit_ratio_conservative": 0.2917,
+          "passes_floor": true,
+          "cash_collected": 1305.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.3452,
+          "credit_ratio_conservative": 0.3241,
+          "passes_floor": true,
+          "cash_collected": 1450.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.3798,
+          "credit_ratio_conservative": 0.3565,
+          "passes_floor": true,
+          "cash_collected": 1595.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.4143,
+          "credit_ratio_conservative": 0.3889,
+          "passes_floor": true,
+          "cash_collected": 1740.0
+        }
+      ]
+    }
+  }
+}

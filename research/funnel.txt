@@ -5,83 +5,232 @@ STAGE 0: build the candidate pool (three free entry points)
     screener    120
     earnings     25
 
-  screening 40 of 144 (watchlist first, then earnings, then screener)
+  screening 144 of 144 (watchlist first, then earnings, then screener)
 
 ==============================================================================
 STAGE 1: screen each name (light facts only -- no option chains yet)
 ==============================================================================
-  [  1/40] COST   $   895.31  rev30 4  px30 -6.45
-  [  2/40] CTAS   $   197.64  rev30 1  px30 -2.68
-  [  3/40] AZO    $ 2,855.31  rev30 -2  px30 -7.2
-  [  4/40] PAYX   $   116.14  rev30 -3  px30 -5.19
-  [  5/40] CCL    $    21.84  rev30 -1  px30 -18.17
-  [  6/40] DRI    $   209.28  rev30 1  px30 -5.68
-  [  7/40] SNX    $   266.16  rev30 11  px30 5.71
-  [  8/40] GIS    $    36.32  rev30 -2  px30 -9.18
-  [  9/40] JEF    $    47.90  rev30 2  px30 -10.55
-  [ 10/40] ABVX   $   105.04  rev30 6  px30 -12.87
-  [ 11/40] KMX    $    57.21  rev30 2  px30 -2.95
-  [ 12/40] VFS    $     3.23  rev30 1  px30 2.87
-  [ 13/40] GRFS   $     7.31  rev30 -1  px30 -11.39  no usable expiry pair
-  [ 14/40] UEC    $     9.81  rev30 -2  px30 -15.65
-  [ 15/40] MTN    $   139.80  rev30 -4  px30 -8.66
-  [ 16/40] BB     $     7.99  rev30 5  px30 -4.2
-  [ 17/40] AIR    $   112.77  rev30 2  px30 -18.97
-  [ 18/40] THO    $    67.77  rev30 -1  px30 -15.36
-  [ 19/40] MANU   $    19.69  rev30 -1  px30 -17.72
-  [ 20/40] SA     $    30.95  rev30 0  px30 -7.75
-  [ 21/40] KBH    $    47.12  rev30 2  px30 -16.45
-  [ 22/40] WOR    $    57.38  rev30 -4  px30 0.09
-  [ 23/40] CHRN   $    20.42  rev30 None  px30 -13.84  no options
-  [ 24/40] FUL    $    49.41  rev30 7  px30 -18.8
-  [ 25/40] HUBG   $    32.72  rev30 0  px30 -18.2
-  [ 26/40] NVDA   $   222.27  rev30 38  px30 2.16
-  [ 27/40] AAPL   $   336.13  rev30 3  px30 6.09
-  [ 28/40] GOOGL  $   349.54  rev30 2  px30 1.4
-  [ 29/40] GOOG   $   344.41  rev30 3  px30 0.79
-  [ 30/40] MSFT   $   493.78  rev30 13  px30 1.96
-  [ 31/40] AMZN   $   253.71  rev30 6  px30 -4.56
-  [ 32/40] SPCX   $   152.71  rev30 4  px30 9.35
-  [ 33/40] AVGO   $   357.61  rev30 8  px30 -1.34
-  [ 34/40] META   $   665.75  rev30 -41  px30 21.93
-  [ 35/40] TSLA   $   364.27  rev30 -2  px30 3.75
-  [ 36/40] SKHY   $   187.50  rev30 0  px30 20.07
-  [ 37/40] MU     $ 1,015.80  rev30 0  px30 8.4
-  [ 38/40] AMD    $   559.82  rev30 19  px30 20.02
-  [ 39/40] WMT    $   106.73  rev30 -10  px30 -6.62
-  [ 40/40] ASML   $ 1,679.92  rev30 28  px30 -4.1
+  [  1/144] COST   $   895.31  rev30 4  px30 -6.45
+  [  2/144] CTAS   $   197.64  rev30 1  px30 -2.68
+  [  3/144] AZO    $ 2,855.31  rev30 -2  px30 -7.2
+  [  4/144] PAYX   $   116.14  rev30 -3  px30 -5.19
+  [  5/144] CCL    $    21.84  rev30 -1  px30 -18.17
+  [  6/144] DRI    $   209.28  rev30 1  px30 -5.68
+  [  7/144] SNX    $   266.16  rev30 11  px30 5.71
+  [  8/144] GIS    $    36.32  rev30 -2  px30 -9.18
+  [  9/144] JEF    $    47.90  rev30 2  px30 -10.55
+  [ 10/144] ABVX   $   105.04  rev30 6  px30 -12.87
+  [ 11/144] KMX    $    57.21  rev30 2  px30 -2.95
+  [ 12/144] VFS    $     3.23  rev30 1  px30 2.87
+  [ 13/144] GRFS   $     7.31  rev30 -1  px30 -11.39  no usable expiry pair
+  [ 14/144] UEC    $     9.81  rev30 -2  px30 -15.65
+  [ 15/144] MTN    $   139.80  rev30 -4  px30 -8.66
+  [ 16/144] BB     $     7.99  rev30 5  px30 -4.2
+  [ 17/144] AIR    $   112.77  rev30 2  px30 -18.97
+  [ 18/144] THO    $    67.77  rev30 -1  px30 -15.36
+  [ 19/144] MANU   $    19.69  rev30 -1  px30 -17.72
+  [ 20/144] SA     $    30.95  rev30 0  px30 -7.75
+  [ 21/144] KBH    $    47.12  rev30 2  px30 -16.45
+  [ 22/144] WOR    $    57.38  rev30 -4  px30 0.09
+  [ 23/144] CHRN   $    20.42  rev30 None  px30 -13.84  no options
+  [ 24/144] FUL    $    49.41  rev30 7  px30 -18.8
+  [ 25/144] HUBG   $    32.72  rev30 0  px30 -18.2
+  [ 26/144] NVDA   $   222.27  rev30 38  px30 2.16
+  [ 27/144] AAPL   $   336.13  rev30 3  px30 6.09
+  [ 28/144] GOOGL  $   349.54  rev30 2  px30 1.4
+  [ 29/144] GOOG   $   344.41  rev30 3  px30 0.79
+  [ 30/144] MSFT   $   493.78  rev30 13  px30 1.96
+  [ 31/144] AMZN   $   253.71  rev30 6  px30 -4.56
+  [ 32/144] SPCX   $   152.71  rev30 4  px30 9.35
+  [ 33/144] AVGO   $   357.61  rev30 8  px30 -1.34
+  [ 34/144] META   $   665.75  rev30 -41  px30 21.93
+  [ 35/144] TSLA   $   364.27  rev30 -2  px30 3.75
+  [ 36/144] SKHY   $   187.50  rev30 0  px30 20.07
+  [ 37/144] MU     $ 1,015.80  rev30 0  px30 8.4
+  [ 38/144] AMD    $   559.82  rev30 19  px30 20.02
+  [ 39/144] WMT    $   106.73  rev30 -10  px30 -6.62
+  [ 40/144] ASML   $ 1,679.92  rev30 28  px30 -4.1
+  [ 41/144] GOOGM  $    49.28  rev30 None  px30 0.65  no options
+  [ 42/144] GOOGN  $    48.90  rev30 None  px30 0.45  no options
+  [ 43/144] INTC   $   108.60  rev30 -1  px30 17.03
+  [ 44/144] CSCO   $   109.51  rev30 22  px30 -0.94
+  [ 45/144] PLTR   $   177.64  rev30 25  px30 1.4
+  [ 46/144] LRCX   $   288.11  rev30 2  px30 -6.21
+  [ 47/144] AMAT   $   444.57  rev30 28  px30 -10.4
+  [ 48/144] NFLX   $    71.79  rev30 2  px30 -10.51
+  [ 49/144] PANW   $   363.58  rev30 26  px30 1.06
+  [ 50/144] ARM    $   275.61  rev30 23  px30 10.54
+  [ 51/144] SNDK   $ 1,791.82  rev30 5  px30 14.21
+  [ 52/144] TXN    $   266.64  rev30 25  px30 -0.3
+  [ 53/144] CRWD   $   237.65  rev30 46  px30 17.86
+  [ 54/144] KLAC   $   176.99  rev30 1  px30 -5.49
+  [ 55/144] MRVL   $   244.25  rev30 31  px30 2.94
+  [ 56/144] LIN    $   460.40  rev30 -1  px30 -4.31
+  [ 57/144] AMGN   $   385.65  rev30 30  px30 -12.82
+  [ 58/144] STX    $   858.79  rev30 20  px30 3.15
+  [ 59/144] QCOM   $   177.72  rev30 -26  px30 9.76
+  [ 60/144] GILD   $   150.11  rev30 22  px30 1.7
+  [ 61/144] ADI    $   375.72  rev30 22  px30 0.66
+  [ 62/144] TMUS   $   168.18  rev30 15  px30 -7.78
+  [ 63/144] PEP    $   129.75  rev30 -17  px30 -9.0
+  [ 64/144] SHOP   $   128.50  rev30 23  px30 -12.33
+  [ 65/144] WDC    $   441.36  rev30 16  px30 -4.49
+  [ 66/144] ISRG   $   393.33  rev30 1  px30 -1.1
+  [ 67/144] MNST   $    44.71  rev30 7  px30 -5.73
+  [ 68/144] VRTX   $   508.34  rev30 -2  px30 -7.92
+  [ 69/144] BKNG   $   167.90  rev30 0  px30 -21.17
+  [ 70/144] FTNT   $   169.84  rev30 0  px30 11.12
+  [ 71/144] PDD    $    78.90  rev30 2  px30 -12.53
+  [ 72/144] SBUX   $    95.83  rev30 28  px30 -8.72
+  [ 73/144] ADP    $   271.22  rev30 9  px30 -2.16
+  [ 74/144] HOOD   $   119.82  rev30 2  px30 25.11
+  [ 75/144] SNY    $    42.48  rev30 2  px30 -7.31
+  [ 76/144] APP    $   308.06  rev30 -8  px30 -0.88
+  [ 77/144] EQIX   $ 1,021.34  rev30 1  px30 -5.18
+  [ 78/144] ABNB   $   166.22  rev30 26  px30 -10.82
+  [ 79/144] CME    $   276.01  rev30 0  px30 3.4
+  [ 80/144] ADBE   $   248.92  rev30 0  px30 -8.64
+  [ 81/144] MELI   $ 1,787.39  rev30 -10  px30 -6.35
+  [ 82/144] CEG    $   254.71  rev30 12  px30 -7.1
+  [ 83/144] MAR    $   338.92  rev30 8  px30 -5.84
+  [ 84/144] CSX    $    47.10  rev30 23  px30 -7.06
+  [ 85/144] TSM    $   434.67  rev30 9  px30 5.48
+HTTP Error 404: {"finance":{"result":null,"error":{"code":"Not Found","description":"HTTP 404 Not Found"}}}
+  [ 86/144] BRK/B  $     0.00  rev30 None  px30 None  ERROR YFException: Failed to parse json respon
+HTTP Error 404: {"finance":{"result":null,"error":{"code":"Not Found","description":"HTTP 404 Not Found"}}}
+  [ 87/144] BRK/A  $     0.00  rev30 None  px30 None  ERROR YFException: Failed to parse json respon
+  [ 88/144] LLY    $ 1,152.93  rev30 3  px30 -9.95
+  [ 89/144] JPM    $   349.67  rev30 9  px30 -2.12
+  [ 90/144] XOM    $   163.54  rev30 4  px30 -0.75
+  [ 91/144] V      $   368.29  rev30 24  px30 0.75
+  [ 92/144] JNJ    $   269.99  rev30 0  px30 -1.25
+  [ 93/144] MA     $   565.24  rev30 32  px30 -1.48
+  [ 94/144] ABBV   $   263.96  rev30 -19  px30 -0.76
+  [ 95/144] ORCL   $   147.61  rev30 4  px30 2.64
+  [ 96/144] CVX    $   209.51  rev30 2  px30 1.82
+  [ 97/144] BAC    $    57.73  rev30 -1  px30 -8.61
+  [ 98/144] KO     $    88.25  rev30 21  px30 -2.32
+  [ 99/144] CAT    $   808.99  rev30 24  px30 -0.88
+  [100/144] MRK    $   146.87  rev30 7  px30 -3.5
+  [101/144] DELL   $   568.06  rev30 22  px30 29.83
+  [102/144] HSBC   $   101.83  rev30 -1  px30 -0.46
+  [103/144] PG     $   146.39  rev30 -6  px30 1.39
+  [104/144] UNH    $   376.90  rev30 4  px30 -3.01
+  [105/144] GE     $   314.27  rev30 21  px30 -11.78
+  [106/144] MS     $   202.58  rev30 19  px30 -5.44
+  [107/144] HD     $   299.98  rev30 14  px30 -12.87
+  [108/144] PM     $   188.62  rev30 -7  px30 -0.69
+  [109/144] RY     $   203.30  rev30 12  px30 -2.08
+  [110/144] MUFG   $    23.13  rev30 2  px30 7.28
+  [111/144] BABA   $   113.24  rev30 -6  px30 -12.15
+  [112/144] GS     $   942.00  rev30 21  px30 -7.8
+  [113/144] NVS    $   140.37  rev30 -1  px30 -12.44
+  [114/144] SHEL   $    94.54  rev30 2  px30 1.91
+  [115/144] RTX    $   194.00  rev30 23  px30 -11.96
+  [116/144] WFC    $    86.12  rev30 4  px30 0.21
+  [117/144] AZN    $   166.08  rev30 0  px30 0.69
+  [118/144] SAP    $   209.45  rev30 3  px30 -2.85
+  [119/144] ANET   $   199.39  rev30 26  px30 6.94
+  [120/144] GEV    $   940.33  rev30 -1  px30 -4.77
+  [121/144] TM     $   191.53  rev30 -1  px30 1.46
+  [122/144] TMO    $   651.45  rev30 24  px30 6.18
+  [123/144] CCZ    $    64.67  rev30 None  px30 -2.68  no options
+  [124/144] C      $   131.77  rev30 6  px30 -0.84
+  [125/144] BHP    $    86.27  rev30 -1.0  px30 -6.52
+  [126/144] IBM    $   229.55  rev30 10  px30 -3.21
+  [127/144] AXP    $   311.56  rev30 -7  px30 -8.34
+  [128/144] SAN    $    14.31  rev30 0  px30 0.99
+  [129/144] TD     $   122.33  rev30 12  px30 3.36
+  [130/144] VZ     $    48.09  rev30 -1  px30 -2.57
+  [131/144] TTE    $    90.82  rev30 1  px30 0.83
+  [132/144] CRM    $   237.92  rev30 45  px30 15.44
+  [133/144] NVO    $    43.24  rev30 1  px30 -6.97
+  [134/144] APH    $    77.55  rev30 0  px30 -0.6
+  [135/144] DE     $   683.99  rev30 3  px30 17.8
+  [136/144] SCHW   $   105.25  rev30 -1  px30 -5.08
+  [137/144] ABT    $   102.61  rev30 4  px30 -10.33
+  [138/144] DIS    $   102.67  rev30 18  px30 -3.98
+  [139/144] MCD    $   248.24  rev30 3  px30 -7.18
+  [140/144] T      $    25.40  rev30 12  px30 1.11
+  [141/144] NEE    $    80.47  rev30 0  px30 -6.33
+  [142/144] UNP    $   279.37  rev30 23  px30 -7.43
+  [143/144] BLK    $ 1,069.78  rev30 3  px30 -7.69
+  [144/144] ETN    $   424.77  rev30 20  px30 0.02
 
 ==============================================================================
-STAGE 2: gates, in the order they are applied
+STAGE 2: the only gate left is the price cap
 ==============================================================================
-    19  share price at or above the $150 cap
-     5  loss-making (fwd PE not meaningful)
-     1  has options but no usable expiry pair
-     1  no listed options
-    14  PASSED ALL GATES
+    83  FILTERED: share price at or above the $150 cap
+     6  FILTERED: score below the triage floor (25)
+     2  FILTERED: failed to screen (network/data)
+    53  PASSED
+
+  recorded as caveats, NOT filtered (the data can be wrong):
+     9  loss-making (fwd PE not meaningful)
+     4  no listed options reported
+     1  no usable expiry pair for the next 3 catalysts
 
 ==============================================================================
 STAGE 3: score the survivors (additive, inspectable)
 ==============================================================================
+  MNST   long  score  91.8   divergence 45.0  catalyst 19.8  salience 15.0  tradeable 12.0
+  DIS    long  score  90.4   divergence 45.0  catalyst 18.4  salience 15.0  tradeable 12.0
+  SHOP   long  score  86.8   divergence 40.0  catalyst 19.8  salience 15.0  tradeable 12.0
+  CSX    long  score  84.4   divergence 40.0  catalyst 17.4  salience 15.0  tradeable 12.0
+  MRK    long  score  82.8   divergence 40.0  catalyst 18.8  salience 12.0  tradeable 12.0
   BB     long  score  82.2   divergence 45.0  catalyst 10.2  salience 15.0  tradeable 12.0
   FUL    long  score  82.0   divergence 45.0  catalyst 10.0  salience 15.0  tradeable 12.0
+  C      long  score  82.0   divergence 45.0  catalyst 10.0  salience 15.0  tradeable 12.0
+  SBUX   long  score  81.6   divergence 45.0  catalyst 18.6  salience 6.0  tradeable 12.0
+  CSCO   long  score  78.4   divergence 45.0  catalyst 18.4  salience 3.0  tradeable 12.0
+  KO     long  score  78.0   divergence 40.0  catalyst 17.0  salience 9.0  tradeable 12.0
+  ABVX   long  score  77.0   divergence 40.0  catalyst 10.0  salience 15.0  tradeable 12.0
+  PG     short score  75.4   divergence 40.0  catalyst 17.4  salience 6.0  tradeable 12.0
+  ABT    long  score  75.2   divergence 38.2  catalyst 10.0  salience 15.0  tradeable 12.0
+  PDD    long  score  73.7   divergence 29.5  catalyst 17.2  salience 15.0  tradeable 12.0
   WOR    short score  69.3   divergence 32.1  catalyst 10.2  salience 15.0  tradeable 12.0
+  NFLX   long  score  69.3   divergence 28.3  catalyst 17.0  salience 12.0  tradeable 12.0
   KBH    long  score  69.1   divergence 31.9  catalyst 10.2  salience 15.0  tradeable 12.0
   AIR    long  score  67.4   divergence 33.4  catalyst 10.0  salience 12.0  tradeable 12.0
+  INTC   short score  63.6   divergence 18.2  catalyst 17.4  salience 12.0  tradeable 12.0  valuation_fragility 4.0
   JEF    long  score  56.3   divergence 28.3  catalyst 10.0  salience 6.0  tradeable 12.0
+  HSBC   short score  54.5   divergence 6.1  catalyst 18.4  salience 15.0  tradeable 12.0  valuation_fragility 3.0
+  BABA   short score  53.8   divergence 7.8  catalyst 16.0  salience 15.0  tradeable 12.0  valuation_fragility 3.0
+  VZ     short score  53.4   divergence 6.4  catalyst 17.0  salience 15.0  tradeable 12.0  valuation_fragility 3.0
   KMX    long  score  51.8   divergence 17.8  catalyst 10.0  salience 12.0  tradeable 12.0
+  SNY    long  score  51.4   divergence 20.4  catalyst 19.0  tradeable 12.0
+  HOOD   long  score  50.8   divergence 3.8  catalyst 20.0  salience 15.0  tradeable 12.0
   GIS    short score  47.6   divergence 7.4  catalyst 10.2  salience 15.0  tradeable 12.0  valuation_fragility 3.0
+  SA     long  score  46.8   divergence 1.2  catalyst 18.6  salience 15.0  tradeable 12.0
+  NEE    long  score  46.3   divergence 0.9  catalyst 18.4  salience 15.0  tradeable 12.0
+  SHEL   long  score  46.1   divergence 0.3  catalyst 18.8  salience 15.0  tradeable 12.0
+  TTE    long  score  45.9   divergence 0.1  catalyst 18.8  salience 15.0  tradeable 12.0
+  SAN    long  score  45.7   divergence 0.1  catalyst 18.6  salience 15.0  tradeable 12.0
+  T      long  score  44.4   divergence 0.2  catalyst 17.2  salience 15.0  tradeable 12.0
+  NVO    long  score  44.2   divergence 12.2  catalyst 20.0  tradeable 12.0
+  SCHW   short score  43.8   divergence 6.8  catalyst 10.0  salience 15.0  tradeable 12.0
+  ORCL   long  score  43.2   divergence 6.4  catalyst 12.8  salience 12.0  tradeable 12.0
   WMT    short score  43.0   divergence 1.0  catalyst 17.0  salience 9.0  tradeable 12.0  valuation_fragility 4.0
   CCL    short score  42.7   divergence 2.7  catalyst 10.0  salience 15.0  tradeable 12.0  valuation_fragility 3.0
+  APH    long  score  42.7   divergence 0.1  catalyst 18.6  salience 12.0  tradeable 12.0
   MTN    short score  42.3   divergence 1.3  catalyst 10.0  salience 15.0  tradeable 12.0  valuation_fragility 4.0
+  TD     long  score  41.7   divergence 0.5  catalyst 14.2  salience 15.0  tradeable 12.0
+  MANU   short score  39.9   divergence 2.7  catalyst 10.2  salience 15.0  tradeable 12.0
   THO    short score  39.7   divergence 2.3  catalyst 10.4  salience 15.0  tradeable 12.0
   HUBG   long  score  39.7   divergence 2.7  catalyst 10.0  salience 15.0  tradeable 12.0
+  VFS    long  score  39.4   divergence 0.4  catalyst 12.0  salience 15.0  tradeable 12.0
+  PEP    short score  38.3   divergence 1.3  catalyst 10.0  salience 15.0  tradeable 12.0
+  BAC    short score  38.3   divergence 7.3  catalyst 10.0  salience 9.0  tradeable 12.0
+  NVS    short score  38.3   divergence 1.9  catalyst 18.4  salience 6.0  tradeable 12.0
+  MUFG   long  score  37.5   divergence 1.1  catalyst 18.4  salience 6.0  tradeable 12.0
+  UEC    short score  36.3   divergence 2.3  catalyst 10.0  salience 12.0  tradeable 12.0
   PAYX   short score  35.0   divergence 6.8  catalyst 10.2  salience 6.0  tradeable 12.0
+  WFC    long  score  28.0   catalyst 10.0  salience 6.0  tradeable 12.0
 
 ==============================================================================
 SUMMARY
 ==============================================================================
   universe            144
-  screened            40
-  passed all gates    14
-  elapsed             4s
+  screened            144
+  passed all gates    53
+  elapsed             728s

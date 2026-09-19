@@ -1,0 +1,1268 @@
+{
+  "symbol": "C",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T01:03:43",
+  "profile": {
+    "symbol": "C",
+    "name": "Citigroup Inc.",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "summary": "Citigroup Inc., a diversified financial service holding company, provides various financial products and services to consumers, corporations, governments, and institutions. It operates through five segments: Services, Markets, Banking, U.S. Personal Banking, and Wealth. The Services segment includes treasury and trade solutions, which provides cash management, trade, and working capital solutions to multinational corporations, financial institutions, and public sector organizations; and securities services, such as cross-border support for clients, local market expertise, post-trade technologies, data solutions, and various securities services solutions. The Markets segment offers sales and trading services for equities, foreign exchange, rates, spread products, and commodities to corporate, institutional, and public sector clients; and market-making services, including asset classes, risk management solutions, financing, and prime brokerage. The Banking segment includes investment banking services comprising equity and debt capital markets-related strategic financing solutions; advisory services related to mergers and acquisitions, divestitures, restructurings, and corporate defense activities; and corporate lending consists of corporate and commercial banking. The U.S. Personal Banking segment provides proprietary and co-branded card portfolios; and traditional banking services to retail and small business customers. The Wealth segment offers financial services to high-net-worth clients through banking, lending, mortgages, investment, custody, and trust product offerings; professional industries, including law firms, consulting groups, accounting, and asset management; and affluent and high net worth clients. The company operates in North America, the United Kingdom, Japan, North and South Asia, Australia, Europe, the Middle East, and Africa. Citigroup Inc. was founded in 1812 and is headquartered in New York, New York.",
+    "employees": 219000,
+    "country": "United States",
+    "website": "https://www.citigroup.com"
+  },
+  "quants": {
+    "symbol": "C",
+    "name": "Citigroup Inc.",
+    "price": 131.77,
+    "market_cap": 221035855872,
+    "market_cap_human": "221.04B",
+    "fwd_pe": 11.81,
+    "fwd_pe_1y": 10.23,
+    "fwd_pe_yahoo": 10.227978,
+    "trailing_pe": 14.199354,
+    "ps": 2.70506,
+    "ev_ebitda": null,
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "eps_fy_current": 11.15454,
+    "eps_fy_next": 12.88329,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": 0.0,
+      "current": 11.15454,
+      "7d_ago": 11.15454,
+      "30d_ago": 11.15454,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 2,
+      "down_7d": 1,
+      "up_30d": 6,
+      "down_30d": 0,
+      "net_30d": 6,
+      "text": "all up, with 6 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-13"
+      ],
+      "next_date": "2026-10-13",
+      "eps_avg": 2.61949,
+      "eps_low": 2.39,
+      "eps_high": 2.73,
+      "revenue_avg": 23730913950
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 131.77 USD",
+    "Market Cap: 221.04B",
+    "Fwd PE: 11.81",
+    "P/S: 2.7",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: all up, with 6 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Other Operating Items",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2505000.0,
+      "prior": 2792000.0,
+      "change_pct": -10.3,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 83322000.0,
+      "prior": 91720000.0,
+      "change_pct": -9.2,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Long-Term Investments",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1870974000.0,
+      "prior": 1779617000.0,
+      "change_pct": 5.1,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-14T08:00:00-04:00",
+    "current": 3.14,
+    "year_ago": 2.04,
+    "year_ago_period": "2025-07-15T08:00:00-04:00",
+    "change": 1.1,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "C Stock Analysis 2026: Is Citigroup a Buy? Moat, Valuation & Forecast | Clearthesis",
+      "publisher": "clearthesis.ai",
+      "url": "https://www.clearthesis.ai/thesis/C",
+      "summary": "# Citigroup C\n\n$145.05-0.4%\n\nUpdated Jun 23, 2026\n\nQuality Score\n\nOn this page\n\nThesis Numbers at a glance Scorecard Business Financials Moat & Competition Management Market view Outlook Valuation Verdict\n\nMoat Narrow\n\nProfitability Average\n\nManagement Strong\n\nRevenue growth Declining\n\nValuation Attractive\n\n## Our thesis\n\nCitigroup is a global bank that provides financial services to large corporations, institutional investors, and millions of retail customers. It generated $168.3 billion in revenue in 2025 and currently holds over $670 billion in total loans. After years of trailing its peers",
+      "published": "2026-06-23",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "SECOND QUARTER 2026 RESULTS AND KEY METRICS",
+      "publisher": "citigroup.com",
+      "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf",
+      "summary": "Citi Chair and CEO Jane Fraser said, \u201cWith net income up 45%, this was Citi\u2019s best quarterly revenue in a decade with double-digit revenue growth for the firm and in four out of our five businesses. Services delivered its highest ever quarterly revenue and a return of over 30%. In Markets, strong results in FX and spread products also show how much clients rely on our global network while Equities showed continued momentum with revenues up 45%. Banking revenues climbed 34% and we played a role in the majority of the top equity and debt issuances. Wealth revenues increased for the 9 th straight",
+      "published": "2026-07-14",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "Citi (C) Q2 2026 Earnings Call Transcript | The Motley Fool",
+      "publisher": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/21/citi-c-q2-2026-earnings-call-transcript/",
+      "summary": "Citi (C) Q2 2026 Earnings Call Transcript | The Motley Fool\n\nImage source: The Motley Fool.\n\n## DATE\n\nTuesday, July 14, 2026 at 11:00 a.m. ET\n\n## CALL PARTICIPANTS\n\n- Head of Citi Investor Relations - Jennifer Landis\n- Chair and Chief Executive Officer - Jane Nind Fraser\n- Chief Financial Officer - Gonzalo Lucchetti\n\n## TAKEAWAYS\n\n- Revenue -- $24.8 billion, representing a 14% increase year over year and the firm's highest quarterly performance in a decade.\n- Net Income -- $5.8 billion, rising 45% from $4.0 billion in the second quarter 2025.\n- Non-GAAP EPS -- $3.15, an increase from $1.96 in ",
+      "published": "2026-07-14",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Citigroup estimates revised after bank flags higher expenses, stock tanks | Reuters",
+      "publisher": "reuters.com",
+      "url": "https://www.reuters.com/business/finance/citigroup-estimates-revised-after-bank-flags-higher-expenses-stock-tanks-2026-07-15/",
+      "summary": "Citigroup estimates revised after bank flags higher expenses, stock tanks | Reuters\nSkip to main content\nExclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv\n\nSubscribe\n# Citigroup estimates revised after bank flags higher expenses, stock tanks\nBy Tatiana Bautzer\nJuly 15, 20265:01 PM UTCUpdated July 15, 2026\nText\n*\nSmall Text\n*\nMedium Text\n*\nLarge Text\n*\nX\n*\nFacebook\n*\nLinkedin\n*\nEmail\n*\nLink\nIllustration shows Citi Bank logo\nCiti Bank logo appears in this illustration taken December 1, 2025. REUTERS/Dado Ruvic/Illustration/File Photo Purchase Licensin",
+      "published": "2026-07-15",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Citigroup Has Improved, But Upside Is Limited (NYSE:C) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4939986-citigroup-has-improved-but-upside-is-limited",
+      "summary": "Citigroup Has Improved, But Upside Is Limited (NYSE:C) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\nJoin the community built by investors, for investors. Create your free account \u00bb\nCreate Free Account\n\n# Citigroup Has Improved, But Upside Is Limited\nAug 25, 2026, 10:52 AM ETCitigroup Inc. (C) Stock, CITI:CA Stock\n\nMotti Sapir\n1.48K Followers\nFollow\n## Summary\n* Citigroup delivered strong operating leverage, improve",
+      "published": "2026-08-10",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "C Stock Forecast 2026-2027 - Citigroup, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/c-forecast/",
+      "summary": "C Stock Forecast 2026-2027 - Citigroup, Inc. Price Targets & Predictions\n\n# C Stock Forecast: Citigroup, Inc. Price Predictions for 2026-2027\n\nLast close, 4 Sept 2026\n\n$138\n\n\u22120.30% on the day\n\nThe 21 Wall Street analysts covering Citigroup, Inc. hold a median 12-month price target of $158 \u2014 +14.4% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 83 of 100 as at 5 Sept 2026 \u2014 inside the top quartile. Here, the model and the Street point the same way.\n\nMarket cap\n\n$231.0B\n\nTicker Nerd rank\n\n83 / 100\n\nMedian analyst target\n\n$158\n\nAnalysts covering\n",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Is It Worth Investing in Citigroup (C) Based on Wall Street's Bullish Views?",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-citigroup-c-based-133003052.html",
+      "summary": "# Is It Worth Investing in Citigroup (C) Based on Wall Street's Bullish Views?\n\nAuthor: Zacks Equity Research      Wed, September 9, 2026 at 6:30 AM PDT   4 min read\nPublished: 2026-09-09T13:30:03+00:00\nSource: finance.yahoo.com (finance.yahoo.com)\nLanguage: en\n\n## Story\n\nIs It Worth Investing in Citigroup (C) Based on Wall Street's Bullish Views?\n\nOops, something went wrong\n\nAPPLE EVENT It's the first John Ternus-led annual event. Follow along here.\n\n# Is It Worth Investing in Citigroup (C) Based on Wall Street's Bullish Views?\n\nWhen deciding whether to buy, sell, or hold a stock, investors o",
+      "published": "2026-09-09",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Citigroup's Restructuring Is Working, And Valuation Has Not Caught Up (NYSE:C) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4944216-citigroups-restructuring-is-working-and-valuation-has-not-caught-up",
+      "summary": "Citigroup's Restructuring Is Working, And Valuation Has Not Caught Up (NYSE:C) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# Citigroup's Restructuring Is Working, And Valuation Has Not Caught Up\nSep 09, 2026, 5:19 AM ETCitigroup Inc. (C) Stock, CITI:CA Stock1 Comment\n\nThe Curious Analyst\n5.35K Followers\nFollow\n## Summary\n* I'm rating Citigroup a Strong Buy with a $186 ",
+      "published": "2026-09-09",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Citigroup Stock Analysis: Is C a Buy?",
+      "publisher": "strategicinvestor.com",
+      "url": "https://www.strategicinvestor.com/citigroup-stock/",
+      "summary": "Citigroup Stock Analysis: Is C a Buy?\n\n# Citigroup (C) Stock Analysis: Global Banking\n\n September 10, 2026 by Erik Bobbink, CFA \n\n## Citigroup (C) Stock Analysis: Is the Global Banking Giant a Buy?\n\nCitigroup Inc. (NYSE: C) stands as one of the most globally diversified financial institutions in the world, with operations spanning nearly 160 countries and jurisdictions. As one of the \u201cBig Four\u201d U.S. banking institutions, Citigroup occupies a unique position in the financial services landscape, combining a sprawling international consumer banking footprint with a robust institutional services a",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Citigroup stock: Revenue surges, valuation catches up | SageNoodle",
+      "publisher": "sagenoodle.com",
+      "url": "https://sagenoodle.com/research/citigroup-decade-high-revenue-valuation-catches-up",
+      "summary": "Citigroup stock: Revenue surges, valuation catches up | SageNoodle\n\n# Citigroup\u2019s Revenue Hit a Decade High. The Stock Already Knows\n\nRevenue rose 14% and RoTCE reached 13%, strengthening the turnaround case. At $138.50, however, Citigroup already trades close to our $145 base value.\n\nSageNoodle Research Editorial 10 Sept 2026 6 min read Bookmark this report Follow C\n\nEditorial method. SageNoodle uses automated data processing and AI-assisted research and drafting. Published conclusions are grounded in the cited filings and source documents; review the originals before making an investment dec",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Citigroup (C) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/c/forecast/",
+      "summary": "Citigroup (C) Stock Forecast & Analyst Price Targets\n\n138.82 +0.32 (0.23%) At close: Sep 11, 2026, 4:00 PM EDT\n\n138.70 -0.12 (-0.09%) After-hours: Sep 11, 2026, 7:59 PM EDT\n\n# Citigroup Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 21 analysts polled by S&P Global, Citigroup stock has a consensus rating of \"Buy\" and an average price target of $155.2. The average 1-year stock price forecast is 11.80% higher than the current stock price, while the lowest is $129 (-7.07%) and the highest is $176 (+26.78%).\n\nPrice Target: $155.2 (+11.80%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Target ",
+      "published": "2026-09-11",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Will Higher Costs and Softer FICC Weigh on Goldman Q3 Momentum?",
+      "publisher": "Zacks",
+      "published": "2026-09-17T14:42:00Z",
+      "summary": "GS's softer Q3 FICC trends and rising expenses could temper the earnings benefit from its still-healthy IB pipeline.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/higher-costs-softer-ficc-weigh-144200214.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Can JPM's Strong Q3 Capital Markets Outlook Help Sustain Fee Growth?",
+      "publisher": "Zacks",
+      "published": "2026-09-17T14:46:00Z",
+      "summary": "JPMorgan's third-quarter 2026 outlook signals mid-to-high teens growth in IB fees and Markets revenues, supporting fee growth.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpms-strong-q3-capital-markets-144600245.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Wall Street May Have Overpriced the Fed Rate Hike\u2019s Impact on Citigroup Stock Spreads",
+      "publisher": "Barchart",
+      "published": "2026-09-17T15:06:57Z",
+      "summary": "While it\u2019s understandable that the surprising news has caused a sizable selloff in Citi stock, the pessimism could be an overreaction.",
+      "url": "https://www.barchart.com/story/news/4661125/wall-street-may-have-overpriced-the-fed-rate-hikes-impact-on-citigroup-stock-spreads",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Citigroup (C) Could Be a Great Choice",
+      "publisher": "Zacks",
+      "published": "2026-09-17T15:45:01Z",
+      "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Citigroup (C) have what it takes? Let's find out.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-c-could-great-choice-154501462.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Jefferies to Benefit From Increased Investment Banking Momentum, Oppenheimer Says",
+      "publisher": "MT Newswires",
+      "published": "2026-09-17T21:16:29Z",
+      "summary": "Jefferies Financial (JEF) is poised to benefit from increased investment banking momentum in the thi",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-benefit-increased-investment-banking-211629164.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Jamie Dimon was fired from Citigroup at 42 \u2014 he turned a $20 billion bank into America's most profitable",
+      "publisher": "Moneywise",
+      "published": "2026-09-18T11:05:00Z",
+      "summary": "The JPMorgan Chase CEO\u2019s career comeback is one for the books.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jamie-dimon-fired-citigroup-42-110500399.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Health Catalyst (HCAT) Stock Fair Value Falls As Analysts Cut Targets On Growth Risks",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-19T10:10:48Z",
+      "summary": "Health Catalyst is back in focus after analysts revised fair value from about US$2.10 to roughly US$1.83 per share, which points to a more cautious stance on the stock. Recent research has shifted from earlier optimism with price targets in the US$2 to US$3 range to current levels closer to US$1.80, as analysts weigh execution risks around churn, divestitures and the durability of growth in its health technology offerings. In this article, you will see how these changing targets fit into the...",
+      "url": "https://finance.yahoo.com/healthcare/articles/health-catalyst-hcat-stock-fair-101048877.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "mna",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Citi Forecasts Widening Memory Chip Shortages Through 2031 as AI Demand Expands",
+      "publisher": "InvestorsHub",
+      "published": "2026-09-19T14:54:45Z",
+      "summary": "Citi expects shortages across the global memory semiconductor market to deepen through 2031, driven by increasing demand for high-bandwidth memory (HBM), DRAM and NAND as artificial intelligence systems adopt continual learning. In a research note published Monday, the investment bank identified continual learning as a potential central theme in AI development over the next five years.",
+      "url": "https://investorshub.advfn.com/market-news/article/36526/citi-forecasts-widening-memory-chip-shortages-through-2031-as-ai-demand-expands",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "C Q3 2026 earnings estimate \u2014 revenue & EPS",
+      "publisher": "tickerleague.com",
+      "url": "https://tickerleague.com/companies/C/estimates",
+      "summary": "C Q3 2026 earnings estimate \u2014 revenue & EPS\n\n# Estimates for Citigroup (C)\n\nAnalyst consensus revenue & EPS estimates for Citigroup (C) \u2014 Q3 2026. Compare the numbers and make your own prediction.\n\nConsensus EPS \u00b7 Q3 2026\n\nMore info about Consensus EPS \u00b7 Q3 2026\n\n$2.59\n\nConsensus revenue \u00b7 Q3 2026\n\nMore info about Consensus revenue \u00b7 Q3 2026\n\n$23.7B\n\nAnalysts\n\nMore info about Analysts\n\n7\n\nExpected report\n\nMore info about Expected report\n\nOct 13, 2026\n\nBefore open\n\nLocks in 76 days 11 hours \u00b7 BMO: Locks 8:00 PM ET previous day\n\nRevenue$23.7B$23B \u2013 $23.9B EPS$2.59$2.30 \u2013 $2.73\n\nWhat to watch\n\n- ",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "Citigroup Inc. (C) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Why SLB Stock Slumped Today",
+      "publisher": "The Motley Fool",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/why-slb-stock-slumped-today",
+      "primary_symbol": "SLB",
+      "related_symbols": [
+        "SLB",
+        "C",
+        "HAL",
+        "BKR"
+      ],
+      "summary": "Key PointsA major oil pipeline in the Middle East remained closed.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Citigroup (C) Suffers a Larger Drop Than the General Market: Key Insights",
+      "publisher": "Zacks",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/citigroup-c-suffers-larger-drop-general-market-key-insights",
+      "primary_symbol": null,
+      "related_symbols": [
+        "C"
+      ],
+      "summary": "Citigroup (C) closed at $136.18 in the latest trading session, marking a -1.9% move from the prior day.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Should You Buy Citigroup Stock as It Jumps 29.3% in 6 Months?",
+      "publisher": "Zacks",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/should-you-buy-citigroup-stock-it-jumps-293-6-months",
+      "primary_symbol": null,
+      "related_symbols": [
+        "C",
+        "BAC",
+        "WFC"
+      ],
+      "summary": "Can C's transformation, cost cuts and capital returns drive further upside despite its 29.3% six-month rally? Let us find out.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Stocks Settle Lower as AI Slowdown Fears Weigh on Chipmakers",
+      "publisher": "Barchart",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/stocks-settle-lower-ai-slowdown-fears-weigh-chipmakers",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TER",
+        "SNDK",
+        "ADI",
+        "TRI",
+        "BNY",
+        "GLW",
+        "AMD",
+        "DFTX",
+        "SPY",
+        "ADSK",
+        "QQQ",
+        "FTNT",
+        "NOW",
+        "ADBE",
+        "ZS",
+        "MCHP",
+        "ARM",
+        "HPE",
+        "MRVL",
+        "CRM",
+        "AMAT",
+        "AVGO",
+        "C",
+        "INTU",
+        "JPM",
+        "DDOG",
+        "ASML",
+        "S",
+        "WFC",
+        "LRCX",
+        "DIA",
+        "PANW",
+        "KLAC",
+        "NVDA",
+        "CRWD",
+        "BAC",
+        "NXPI",
+        "OKTA",
+        "WDAY",
+        "INTC",
+        "SOXX",
+        "TEAM",
+        "NET"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.48% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down by -0.82%.  E-mini S&P futures (ESU26 ) fell -0.46%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Did Greg Abel Already Make His First Big Mistake as Berkshire Hathaway CEO?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/did-greg-abel-already-make-his-first-big-mistake-berkshire-hathaway-ceo",
+      "primary_symbol": "AXP",
+      "related_symbols": [
+        "AXP",
+        "AAPL",
+        "KO",
+        "MA",
+        "V",
+        "AMZN",
+        "C",
+        "BAC",
+        "MCO"
+      ],
+      "summary": "Key PointsAmerican Express\u2019s closed-loop system makes it noticeably different from open-loop systems operated by Visa and Mastercard.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Citigroup Lifts 2026 ROTCE Outlook Above 11%: What's Driving the Gain?",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/citigroup-lifts-2026-rotce-outlook-above-11-whats-driving-gain",
+      "primary_symbol": null,
+      "related_symbols": [
+        "C",
+        "KEY",
+        "CFG"
+      ],
+      "summary": "C expects 2026 ROTCE to exceed 11% as stronger client activity, cost savings and capital productivity support returns.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BAC Warns of Q3 Capital Markets Weakness: Will Fee Income Take a Hit?",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/bac-warns-q3-capital-markets-weakness-will-fee-income-take-hit",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BAC",
+        "C",
+        "KEY"
+      ],
+      "summary": "Bank of America expects Q3 investment banking fees to slide while trading stalls, but rising wealth fees may cushion the impact on fee income.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Wells Fargo Highlights Stronger Growth Momentum at Barclays Conference",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/wells-fargo-highlights-stronger-growth-momentum-barclays-conference",
+      "primary_symbol": null,
+      "related_symbols": [
+        "WFC",
+        "C",
+        "PNC"
+      ],
+      "summary": "WFC sees stronger 2026 loan growth as resilient consumers, improving margins and business momentum support its broader growth strategy.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "C's Banamex Exit Nears Deconsolidation: Is $9B Charge Concerning?",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/cs-banamex-exit-nears-deconsolidation-9b-charge-concerning",
+      "primary_symbol": null,
+      "related_symbols": [
+        "C",
+        "DB",
+        "NTRS"
+      ],
+      "summary": "Citigroup's Banamex exit nears deconsolidation, with a $9B CTA loss expected to hit earnings while leaving regulatory capital largely unaffected.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Why Wall Street Is Becoming Even More Bullish About This Dividend King",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/why-wall-street-becoming-even-more-bullish-about-dividend-king",
+      "primary_symbol": "ABT",
+      "related_symbols": [
+        "ABT",
+        "C"
+      ],
+      "summary": "Key PointsWall Street analysts have raised price targets on Abbott, citing accelerating growth in its Medical Devices segment.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Anthropic Is Expected to Go Public in October. The Brokerages Get Paid Either Way.",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/anthropic-expected-go-public-october-brokerages-get-paid-either-way",
+      "primary_symbol": "GS",
+      "related_symbols": [
+        "GS",
+        "MS",
+        "C",
+        "BAC",
+        "JPM",
+        "BCS"
+      ],
+      "summary": "Key PointsGoldman Sachs and Morgan Stanley each generated $100 million in fees from the SpaceX IPO, according to reports.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Citigroup Sees ROTCE Beating Guidance as Markets, Cards and Services Gain",
+      "publisher": "MarketBeat",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/citigroup-sees-rotce-beating-guidance-markets-cards-and-services-gain",
+      "primary_symbol": "C",
+      "related_symbols": [
+        "C"
+      ],
+      "summary": "Blue-Chip Stocks Are Looking Anything But Boring With Dividends and Big 2026 GainsCitigroup (NYSE:C) Chief Financial Officer Gonzalo Luchetti said the bank expects full-year return on tangible common equity, or ROTCE, to finish slightly above the high end of its previously stated",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 11,
+        "share": 0.379,
+        "evidence": [
+          {
+            "title": "C Stock Analysis 2026: Is Citigroup a Buy? Moat, Valuation & Forecast | Clearthesis",
+            "publisher": "clearthesis.ai",
+            "published": "2026-06-23",
+            "matched": [
+              "outlook",
+              "forecast"
+            ]
+          },
+          {
+            "title": "Citigroup estimates revised after bank flags higher expenses, stock tanks | Reuters",
+            "publisher": "reuters.com",
+            "published": "2026-07-15",
+            "matched": [
+              "revis",
+              "estimate"
+            ]
+          },
+          {
+            "title": "C Stock Forecast 2026-2027 - Citigroup, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "Citigroup (C) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-09-11",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 6,
+        "share": 0.207,
+        "evidence": [
+          {
+            "title": "C Stock Analysis 2026: Is Citigroup a Buy? Moat, Valuation & Forecast | Clearthesis",
+            "publisher": "clearthesis.ai",
+            "published": "2026-06-23",
+            "matched": [
+              "institutional"
+            ]
+          },
+          {
+            "title": "C Stock Forecast 2026-2027 - Citigroup, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Citigroup Stock Analysis: Is C a Buy?",
+            "publisher": "strategicinvestor.com",
+            "published": "2026-09-10",
+            "matched": [
+              "institutional"
+            ]
+          },
+          {
+            "title": "Citigroup (C) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-09-11",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 4,
+        "share": 0.138,
+        "evidence": [
+          {
+            "title": "Citigroup (C) Could Be a Great Choice",
+            "publisher": "Zacks",
+            "published": "2026-09-17T15:45:01Z",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Health Catalyst (HCAT) Stock Fair Value Falls As Analysts Cut Targets On Growth Risks",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-19T10:10:48Z",
+            "matched": [
+              "divest"
+            ]
+          },
+          {
+            "title": "Why Wall Street Is Becoming Even More Bullish About This Dividend King",
+            "publisher": "The Motley Fool",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Citigroup Sees ROTCE Beating Guidance as Markets, Cards and Services Gain",
+            "publisher": "MarketBeat",
+            "published": "Sep 14, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 3,
+        "share": 0.103,
+        "evidence": [
+          {
+            "title": "C Stock Analysis 2026: Is Citigroup a Buy? Moat, Valuation & Forecast | Clearthesis",
+            "publisher": "clearthesis.ai",
+            "published": "2026-06-23",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Citigroup's Restructuring Is Working, And Valuation Has Not Caught Up (NYSE:C) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-09",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Citigroup stock: Revenue surges, valuation catches up | SageNoodle",
+            "publisher": "sagenoodle.com",
+            "published": "2026-09-10",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 2,
+        "share": 0.069,
+        "evidence": [
+          {
+            "title": "SECOND QUARTER 2026 RESULTS AND KEY METRICS",
+            "publisher": "citigroup.com",
+            "published": "2026-07-14",
+            "matched": [
+              "spread"
+            ]
+          },
+          {
+            "title": "Wall Street May Have Overpriced the Fed Rate Hike\u2019s Impact on Citigroup Stock Spreads",
+            "publisher": "Barchart",
+            "published": "2026-09-17T15:06:57Z",
+            "matched": [
+              "fed",
+              "rate hike",
+              "spread"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 2,
+        "share": 0.069,
+        "evidence": [
+          {
+            "title": "SECOND QUARTER 2026 RESULTS AND KEY METRICS",
+            "publisher": "citigroup.com",
+            "published": "2026-07-14",
+            "matched": [
+              "debt"
+            ]
+          },
+          {
+            "title": "Citigroup Has Improved, But Upside Is Limited (NYSE:C) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-08-10",
+            "matched": [
+              "leverage"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.034,
+        "evidence": [
+          {
+            "title": "C's Banamex Exit Nears Deconsolidation: Is $9B Charge Concerning?",
+            "publisher": "Zacks",
+            "published": "Sep 16, 2026",
+            "matched": [
+              "regulat"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-13"
+    ],
+    "next_date": "2026-10-13",
+    "eps_avg": 2.61949,
+    "eps_low": 2.39,
+    "eps_high": 2.73,
+    "revenue_avg": 23730913950
+  },
+  "catalyst": {
+    "date": "2026-10-13",
+    "weekday": "Tuesday",
+    "days_out": 23,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 2.61949,
+      "eps_low": 2.39,
+      "eps_high": 2.73,
+      "revenue_avg": 23730913950
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-14",
+        "eps_estimate": 2.71,
+        "eps_actual": 3.14,
+        "surprise_pct": 15.62,
+        "beat": true
+      },
+      {
+        "date": "2026-04-14",
+        "eps_estimate": 2.6,
+        "eps_actual": 3.06,
+        "surprise_pct": 17.91,
+        "beat": true
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 1.62,
+        "eps_actual": 1.24,
+        "surprise_pct": -23.43,
+        "beat": false
+      },
+      {
+        "date": "2025-10-14",
+        "eps_estimate": 1.93,
+        "eps_actual": 2.26,
+        "surprise_pct": 17.44,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "beat_rate": 0.75,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-13 (Tuesday, before the open), 23 days out -- from the earnings calendar, consensus EPS 2.62."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 global trade flows tariffs cross-border payments stablecoin digital assets treasury services outlook",
+      "2026 investment banking M&A IPO debt capital markets private credit competition outlook",
+      "2026 institutional trading volumes FX rates commodities volatility outlook",
+      "2026 US consumer credit household spending wealth management HNWI outlook"
+    ],
+    "results_count": 20,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "As of September 2026, Citi\u2019s Global Supply Chain Pressure Index is at its highest sustained level since 2021\u201322.",
+        "stance": "pressure",
+        "why": "High supply chain pressure can disrupt trade flows and demand for Citi\u2019s trade finance.",
+        "quote": "kept Citi\u2019s Global Supply Chain Pressure Index at its highest sustained level since 2021\u201322",
+        "url": "https://www.citigroup.com/global/insights/the-world-rewired",
+        "publisher": "citigroup.com",
+        "as_of": "2026-09-15",
+        "age_days": 5,
+        "undated": false
+      },
+      {
+        "claim": "As of July 2026, digital acceleration could add $2.8 trillion to international trade annually by 2031.",
+        "stance": "support",
+        "why": "Supports demand for Citi\u2019s digital trade and treasury services.",
+        "quote": "By 2031, digital acceleration could add USD2.8 trillion to international trade each year.",
+        "url": "https://www.sc.com/en/corporate-investment-banking/future-of-trade/",
+        "publisher": "sc.com",
+        "as_of": "2026-07-01",
+        "age_days": 81,
+        "undated": false
+      },
+      {
+        "claim": "As of July 2026, over 90% of corporates expect to adjust supply chains over the next three to five years.",
+        "stance": "support",
+        "why": "Supply chain reconfiguration can drive trade finance, FX, and working capital needs for Citi.",
+        "quote": "more than nine in ten corporates expect to adjust their supply chain activities over the next three to five years",
+        "url": "https://www.sc.com/en/corporate-investment-banking/future-of-trade/",
+        "publisher": "sc.com",
+        "as_of": "2026-07-01",
+        "age_days": 81,
+        "undated": false
+      },
+      {
+        "claim": "In 1H 2026, M&A transactions became more complex but activity still built beyond headlines.",
+        "stance": "support",
+        "why": "Supports Citi\u2019s investment banking advisory and financing fees.",
+        "quote": "Transactions became materially more complex to execute, yet activity continued to build beyond what the headlines",
+        "url": "https://www.jpmorgan.com/content/dam/jpmorgan/documents/cib/banking/jpmorgan-2026-global-m-and-a-mid-year-outlook-v3.pdf",
+        "publisher": "jpmorgan.com",
+        "as_of": "2026-06-01",
+        "age_days": 111,
+        "undated": false
+      },
+      {
+        "claim": "In 1H 2026, M&A faced a tighter financing tone and stickier inflation concerns.",
+        "stance": "pressure",
+        "why": "Tighter financing can delay deals and pressure Citi\u2019s leveraged finance and advisory revenue.",
+        "quote": "higher commodity prices, stickier inflation concerns and a tighter financing tone",
+        "url": "https://www.jpmorgan.com/content/dam/jpmorgan/documents/cib/banking/jpmorgan-2026-global-m-and-a-mid-year-outlook-v3.pdf",
+        "publisher": "jpmorgan.com",
+        "as_of": "2026-06-01",
+        "age_days": 111,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "As of March 2026, CIB industry growth momentum is starting to level off.",
+        "stance": "pressure",
+        "why": "Slower CIB growth pressures Citi\u2019s banking and markets revenue trajectory.",
+        "quote": "the momentum we\u2019ve seen in recent years is starting to level off",
+        "url": "https://www.capgemini.com/gb-en/wp-content/uploads/sites/5/2026/03/WCIBR_2026.pdf",
+        "publisher": "capgemini.com",
+        "as_of": "2026-03-01",
+        "age_days": 203,
+        "undated": false,
+        "drop_reason": "stale (203 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "C",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 131.77,
+      "catalyst": "2027-01-12",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 135.0,
+        "premium": 8.12,
+        "bid": 8.0,
+        "ask": 8.25,
+        "mid": 8.12,
+        "last": 8.2,
+        "open_interest": 1565,
+        "volume": 103,
+        "implied_vol": 0.32227240234374993,
+        "qty": 5
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 135.0,
+        "premium": 3.4,
+        "bid": 3.25,
+        "ask": 3.55,
+        "mid": 3.4,
+        "last": 3.46,
+        "open_interest": 3788,
+        "volume": 713,
+        "implied_vol": 0.3393620751953125,
+        "qty": 2
+      },
+      "long_total": 4060.0,
+      "short_total": 680.0,
+      "net_debit": 3380.0,
+      "credit_ratio_mid": 0.1675,
+      "credit_ratio_conservative": 0.1576,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "15-Jan-27",
+          "strike": 135.0,
+          "qty": 5,
+          "underlying": 131.77,
+          "multiplier": 100,
+          "price": 8.12,
+          "total": 4059.9999999999995,
+          "open_interest": 1565
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 135.0,
+          "qty": 2,
+          "underlying": 131.77,
+          "multiplier": 100,
+          "price": 3.4,
+          "total": -680.0,
+          "open_interest": 3788
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2027-01-12 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2027-01-12); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 135, 140, 145, 150"
+      ],
+      "advice": "Credit ratio 15.8% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0837,
+          "credit_ratio_conservative": 0.0788,
+          "passes_floor": false,
+          "cash_collected": 340.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1675,
+          "credit_ratio_conservative": 0.1576,
+          "passes_floor": true,
+          "cash_collected": 680.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.2512,
+          "credit_ratio_conservative": 0.2364,
+          "passes_floor": true,
+          "cash_collected": 1020.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.335,
+          "credit_ratio_conservative": 0.3152,
+          "passes_floor": true,
+          "cash_collected": 1360.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.4187,
+          "credit_ratio_conservative": 0.3939,
+          "passes_floor": true,
+          "cash_collected": 1700.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "C",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 131.77,
+      "catalyst": "2027-01-12",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 125.0,
+        "premium": 5.53,
+        "bid": 5.35,
+        "ask": 5.7,
+        "mid": 5.53,
+        "last": 5.6,
+        "open_interest": 7353,
+        "volume": 34,
+        "implied_vol": 0.29688203124999996,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 125.0,
+        "premium": 1.89,
+        "bid": 1.82,
+        "ask": 1.96,
+        "mid": 1.89,
+        "last": 1.8,
+        "open_interest": 13590,
+        "volume": 620,
+        "implied_vol": 0.32227240234374993,
+        "qty": 3
+      },
+      "long_total": 4424.0,
+      "short_total": 567.0,
+      "net_debit": 3857.0,
+      "credit_ratio_mid": 0.1282,
+      "credit_ratio_conservative": 0.1197,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "15-Jan-27",
+          "strike": 125.0,
+          "qty": 8,
+          "underlying": 131.77,
+          "multiplier": 100,
+          "price": 5.53,
+          "total": 4424.0,
+          "open_interest": 7353
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 125.0,
+          "qty": 3,
+          "underlying": 131.77,
+          "multiplier": 100,
+          "price": 1.89,
+          "total": -567.0,
+          "open_interest": 13590
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2027-01-12 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2027-01-12); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 125, 130, 120, 115"
+      ],
+      "advice": "Credit ratio 12.0% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0427,
+          "credit_ratio_conservative": 0.0399,
+          "passes_floor": false,
+          "cash_collected": 189.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0854,
+          "credit_ratio_conservative": 0.0798,
+          "passes_floor": false,
+          "cash_collected": 378.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1282,
+          "credit_ratio_conservative": 0.1197,
+          "passes_floor": true,
+          "cash_collected": 567.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1709,
+          "credit_ratio_conservative": 0.1596,
+          "passes_floor": true,
+          "cash_collected": 756.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2136,
+          "credit_ratio_conservative": 0.1996,
+          "passes_floor": true,
+          "cash_collected": 945.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2563,
+          "credit_ratio_conservative": 0.2395,
+          "passes_floor": true,
+          "cash_collected": 1134.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2991,
+          "credit_ratio_conservative": 0.2794,
+          "passes_floor": true,
+          "cash_collected": 1323.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.3418,
+          "credit_ratio_conservative": 0.3193,
+          "passes_floor": true,
+          "cash_collected": 1512.0
+        }
+      ]
+    }
+  }
+}

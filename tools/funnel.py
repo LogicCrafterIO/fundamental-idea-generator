@@ -28,6 +28,12 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=30, help="how many names to screen")
     parser.add_argument("--top", type=int, default=12)
     parser.add_argument("--max-price", type=float, default=discover.DEFAULT_MAX_PRICE)
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="also filter on missing option chains and loss-making, as an earlier "
+        "version did (off by default: that data can be wrong)",
+    )
     parser.add_argument("--watchlist", nargs="*", default=[])
     args = parser.parse_args()
 
@@ -77,23 +83,34 @@ def main() -> int:
 
     print()
     print("=" * 78)
-    print("STAGE 2: gates, in the order they are applied")
+    print("STAGE 2: the only gate left is the price cap")
     print("=" * 78)
     tally = collections.Counter()
+    caveats = collections.Counter()
     survivors = []
     for row in rows:
         if row.get("error"):
             tally["failed to screen (network/data)"] += 1
             continue
+
+        # Recorded, not filtered. These come from free endpoints and a bad response
+        # looks identical to a genuine absence, so deleting names on them would
+        # silently remove real ideas.
         if not row.get("has_options"):
-            tally["no listed options"] += 1
-            continue
-        if not row.get("structure_available"):
-            tally["has options but no usable expiry pair"] += 1
-            continue
-        if row.get("fwd_pe") is None or row["fwd_pe"] <= 0:
-            tally["loss-making (fwd PE not meaningful)"] += 1
-            continue
+            caveats["no listed options reported"] += 1
+        elif not row.get("structure_available"):
+            caveats["no usable expiry pair for the next 3 catalysts"] += 1
+        if row.get("fwd_pe") is None or (row.get("fwd_pe") or 0) <= 0:
+            caveats["loss-making (fwd PE not meaningful)"] += 1
+
+        if args.strict:
+            if not row.get("has_options") or not row.get("structure_available"):
+                tally["[strict] no usable option structure"] += 1
+                continue
+            if row.get("fwd_pe") is None or row["fwd_pe"] <= 0:
+                tally["[strict] loss-making"] += 1
+                continue
+
         price = row.get("price") or 0
         if cap is not None and price >= cap:
             tally[f"share price at or above the ${cap:,.0f} cap"] += 1
@@ -101,13 +118,18 @@ def main() -> int:
         direction, score, components = discover._score(row)
         row["score"], row["direction_hint"] = score, direction
         if score < 25:
-            tally["score below the triage floor"] += 1
+            tally["score below the triage floor (25)"] += 1
             continue
         survivors.append(row)
 
     for reason, count in tally.most_common():
+        print(f"  {count:4}  FILTERED: {reason}")
+    print(f"  {len(survivors):4}  PASSED")
+
+    print()
+    print("  recorded as caveats, NOT filtered (the data can be wrong):")
+    for reason, count in caveats.most_common():
         print(f"  {count:4}  {reason}")
-    print(f"  {len(survivors):4}  PASSED ALL GATES")
 
     print()
     print("=" * 78)

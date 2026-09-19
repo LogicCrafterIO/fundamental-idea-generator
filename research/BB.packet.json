@@ -1,0 +1,1757 @@
+{
+  "symbol": "BB",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T01:03:41",
+  "profile": {
+    "symbol": "BB",
+    "name": "BlackBerry Limited",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "summary": "BlackBerry Limited provides intelligent software and services to enterprises and governments worldwide. The company operates through three segments: Secure Communications, QNX, and Licensing. The company offers BlackBerry Dynamics, a development platform and secure container for mobile applications; BlackBerry Workspaces a secure Enterprise File Sync and Share (EFSS) solution; BlackBerry Messenger (BBM) Enterprise, an enterprise-grade secure instant messaging solution for messaging, voice, and video; BlackBerry SecuSUITE, a multi-OS voice and text messaging solution; BlackBerry AtHoc, a secure networked critical event management solution; and BlackBerry unified endpoint management (UEM) solutions. It also provides BlackBerry Certicom, a patented elliptic curve cryptography, which provides device security, anti-counterfeiting, and product authentication solutions; BlackBerry Radar offers asset monitoring and telematics solutions for transportation and logistics; and BlackBerry Development Platform, an enterprise-grade toolset. In addition, the company offers enterprise consulting and engineering consulting services. Further, it is involved in patent licensing. The company was formerly known as Research In Motion Limited and changed its name to BlackBerry Limited in July 2013. BlackBerry Limited was incorporated in 1984 and is headquartered in Waterloo, Canada.",
+    "employees": 1749,
+    "country": "Canada",
+    "website": "https://www.blackberry.com"
+  },
+  "quants": {
+    "symbol": "BB",
+    "name": "BlackBerry Limited",
+    "price": 7.99,
+    "market_cap": 4682941952,
+    "market_cap_human": "4.68B",
+    "fwd_pe": 42.37,
+    "fwd_pe_1y": 34.96,
+    "fwd_pe_yahoo": 34.956467,
+    "trailing_pe": 79.899994,
+    "ps": 8.069863,
+    "ev_ebitda": 48.959,
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "eps_fy_current": 0.18857,
+    "eps_fy_next": 0.22857,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": 0.0,
+      "current": 0.18857,
+      "7d_ago": 0.18857,
+      "30d_ago": 0.18857,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 5,
+      "down_7d": 0,
+      "up_30d": 5,
+      "down_30d": 0,
+      "net_30d": 5,
+      "text": "all up, with 5 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "next_date": "2026-09-24",
+      "eps_avg": 0.04,
+      "eps_low": 0.03,
+      "eps_high": 0.05,
+      "revenue_avg": 145534000
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 7.99 USD",
+    "Market Cap: 4.68B",
+    "Fwd PE: 42.37",
+    "P/S: 8.1",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: all up, with 5 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 8500.0,
+      "prior": 24300.0,
+      "change_pct": -65.0,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 16400.0,
+      "prior": 25900.0,
+      "change_pct": -36.7,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Other Operating Items",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 2500.0,
+      "prior": 1900.0,
+      "change_pct": 31.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 68800.0,
+      "prior": 62300.0,
+      "change_pct": 10.4,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 256800.0,
+      "prior": 274700.0,
+      "change_pct": -6.5,
+      "direction": "decreasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-06-25T06:00:00-04:00",
+    "current": 0.04,
+    "year_ago": 0.02,
+    "year_ago_period": "2025-06-24T17:00:00-04:00",
+    "change": 0.02,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "BlackBerry: Q1 Was Never Going To Have The Answers (NYSE:BB) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4923705-blackberry-stock-qnx-alloy-kore-support-speculative-buy",
+      "summary": "BlackBerry: Q1 Was Never Going To Have The Answers (NYSE:BB) | Seeking Alpha\n\nThe Alpha Analyst\n\n4.74K Followers\n\n5\n\nShare\n\nPlay(14min)\n\n- Comments(4)\n\n## Summary\n\n- BlackBerry is rated a speculative Buy, with asymmetric upside potential driven by QNX and the Alloy Kore middleware opportunity.\n- QNX\u2019s ~$950m royalty backlog and record development license revenue signal robust forward growth, though much of it is long-dated.\n- Valuation sensitivity centers on QNX; Alloy Kore could multiply revenue from existing customers and expand into non-automotive markets.\n- Risks include delayed Alloy Kore",
+      "published": null,
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation",
+        "valuation_dispersion",
+        "regulation"
+      ]
+    },
+    {
+      "title": "BlackBerry: Great Story, But Getting Ahead Of Itself (NYSE:BB) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4924414-blackberry-great-story-but-getting-ahead-of-itself",
+      "summary": "BlackBerry: Great Story, But Getting Ahead Of Itself (NYSE:BB) | Seeking Alpha\n\n2.19K Followers\n\n5\n\nShare\n\nPlay(13min)\n\n## Summary\n\n- BlackBerry has executed a significant business turnaround, transitioning from smartphones to a leading physical AI and cybersecurity player.\n- BB operates in high-growth markets, including cybersecurity and physical AI, benefiting from strong secular tailwinds if execution meets expectations.\n- With a 120% share price appreciation in six months, BB trades at premium levels, with fundamentals needing to catch up to valuation.\n- I initiate coverage with a Hold rat",
+      "published": null,
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "BlackBerry (BB) Q2 2026 Earnings: Results, Market Reaction & History | 24/7 Wall St.",
+      "publisher": "247wallst.com",
+      "url": "https://247wallst.com/companies/bb/earnings/2026/Q2/",
+      "summary": "BlackBerry (BB) Q2 2026 Earnings: Results, Market Reaction & History | 24/7 Wall St.\nSkip to content\n\nAuthoritative Financial News \u00b7 Since 2006\n\nAI Investor Podcast \n\u275a\u275a\nAt close\nS&P 5007,617.50+0.13%\nDow Jones52,111.00\u22120.16%\nNasdaq 10029,134.20+0.41%\nRussell 20002,882.63+0.22%\nS&P 5007,617.50+0.13%\nDow Jones52,111.00\u22120.16%\nNasdaq 10029,134.20+0.41%\nRussell 20002,882.63+0.22%\nS&P 5007,617.50+0.13%\nDow Jones52,111.00\u22120.16%\nNasdaq 10029,134.20+0.41%\nRussell 20002,882.63+0.22%\nS&P 5007,617.50+0.13%\nDow Jones52,111.00\u22120.16%\nNasdaq 10029,134.20+0.41%\nRussell 20002,882.63+0.22%\nS&P 5007,617.50+0.13%\n",
+      "published": "2025-09-25",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Earnings Estimates Moving Higher for BlackBerry (BB): Time to Buy?",
+      "publisher": "finviz.com",
+      "url": "https://finviz.com/news/181253/earnings-estimates-moving-higher-for-blackberry-bb-time-to-buy",
+      "summary": "Earnings Estimates Moving Higher for BlackBerry (BB): Time to Buy?\n\n# Earnings Estimates Moving Higher for BlackBerry (BB): Time to Buy?\n\n By Zacks Equity Research | October 01, 2025, 12:20 PM \n\nBlackBerry (BB) appears an attractive pick given a noticeable improvement in the company's earnings outlook. The stock has been a strong performer lately, and the momentum might continue with analysts still raising their earnings estimates for the company.\n\nThe rising trend in estimate revisions, which is a result of growing analyst optimism on the earnings prospects of this cybersecurity software and ",
+      "published": "2025-10-01",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BB Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "publisher": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/BB/analyst-ratings",
+      "summary": "BB Forecast, Price Target & Analyst Ratings | ChartMill.com\n\nView the latest analyst price targets, stock forecast, EPS estimates, revenue projections, revisions, full estimates, rating distribution and upgrades/downgrades for BLACKBERRY LTD (BB).\n\n$3.36\n\n-61.97% Downside\n\n\u2192 Price target details\n\nRelease Date Jun 25, 2026\n\nPeriodQ1 / 2027\n\nEPS Estimate$0.03\n\nRevenue Estimate141.8M\n\n\u2192 Full earnings forecast details\n\n75.71%\n\nWeighted Analyst Rating Score\n\n\u2192 Analyst Ratings details\n\n## Price Target Details & History\n\n### Consensus Price Target and Range\n\nMean target\n\n$3.36\n\nUpside\n\n-61.97%\n\nFrom ",
+      "published": "2026-04-10",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "BB Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/bb-stock-analysis/",
+      "summary": "BB Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy BlackBerry Limited Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-09-08 \u00b7 9/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, BlackBerry Limited (BB) scores a robust 8.3/10 on our 32-signal Quality of Company framework. At the current market price of $7.87 and a $4.6B market cap, our analysis maps this fundamental strength against 13 institutional-grade models to determine if a sufficient margin of safety exists.\n\nThe short answer: 0 of 9 CirclFi valuation models project upside for BlackBe",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "BlackBerry Stock (BB) Set For Near 14% Move After Q2 Earnings Next Week - TipRanks.com",
+      "publisher": "tipranks.com",
+      "url": "https://www.tipranks.com/news/blackberry-stock-bb-set-for-near-14-move-after-q2-earnings-next-week",
+      "summary": "# BlackBerry Stock (BB) Set For Near 14% Move After Q2 Earnings Next Week - TipRanks.com\n\nAuthor: David Craik\nPublished: 2026-09-15T12:48:31+00:00\nSource: tipranks.com (tipranks.com)\nLanguage: en\n\n## Story\n\nBlackBerry Stock (BB) Set For Near 14% Move After Q2 Earnings Next Week - TipRanks.com\n\n# BlackBerry Stock (BB) Set For Near 14% Move After Q2 Earnings Next Week\n\nDavid Craik\n\nStory Highlights\n\n\u2013 BlackBerry stock is set for a near 14% move after Q2 Earnings next week. \u2013 The company\u2019s share price is up over 100% this year helped by new AI software. \u2013 Wall Street has a Moderate Buy consensus ",
+      "published": "2026-06-25",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BlackBerry (BB) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/bb/forecast/",
+      "summary": "BlackBerry (BB) Stock Forecast & Analyst Price Targets\n\n8.14 -0.20 (-2.40%) At close: Aug 20, 2026, 4:00 PM EDT\n\n8.16 +0.02 (0.25%) After-hours: Aug 20, 2026, 7:52 PM EDT\n\n# BlackBerry Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 8 analysts polled by S&P Global, BlackBerry stock has a consensus rating of \"Hold\" and an average price target of $9.71. The average 1-year stock price forecast is 19.29% higher than the current stock price, while the lowest is $5.20 (-36.12%) and the highest is $13 (+59.71%).\n\nPrice Target: $9.71 (+19.29%)\n\nAnalyst Consensus: Hold\n\n## Price Target\n\n| Target ",
+      "published": "2026-08-20",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "BlackBerry: Healthier Than Ever, Priced Like It (NYSE:BB) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4939064-blackberry-healthier-than-ever-priced-like-it",
+      "summary": "BlackBerry: Healthier Than Ever, Priced Like It (NYSE:BB) | Seeking Alpha\n\n# BlackBerry: Healthier Than Ever, Priced Like It\n\nAug 21, 2026, 6:27 AM ET BlackBerry Limited (BB) Stock, BB:CA Stock\n\nValue Vest\n\n## Summary\n\n- BlackBerry has transitioned into a healthier, focused software company, with profitability, real cash flow, and a net cash balance sheet.\n- QNX is BB's high-margin growth engine, boasting a ~$950m royalty backlog and strong pipeline, but much of its value is years out.\n- At ~$8/share, the market prices in multi-year perfect execution, leaving a narrow safety margin and justify",
+      "published": "2026-08-21",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation"
+      ]
+    },
+    {
+      "title": "BlackBerry: Business Transformation Is Working, But Valuation Remains A Concern (NYSE:BB) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4939625-blackberry-business-transformation-is-working-but-valuation-remains-a-concern",
+      "summary": "BlackBerry: Business Transformation Is Working, But Valuation Remains A Concern (NYSE:BB) | Seeking Alpha\n\n# BlackBerry: Business Transformation Is Working, But Valuation Remains A Concern\n\nAug 24, 2026, 10:28 AM ET BlackBerry Limited (BB) Stock, BB:CA Stock\n\nMarket Edge Researcher\n\n## Summary\n\n- BlackBerry Limited has successfully shifted focus to software, with QNX and Secure Communications driving growth and improved financials.\n- QNX's robust revenue beat and $950 million royalty backlog highlight its role as BB's primary long-term growth engine, especially in automotive software.\n- Profit",
+      "published": "2026-08-24",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Here is What to Know Beyond Why BlackBerry Limited (BB) is a Trending Stock",
+      "publisher": "Zacks",
+      "published": "2026-09-10T13:00:02Z",
+      "summary": "BlackBerry (BB) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-blackberry-limited-130002160.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BB Radar Expands Asset Intelligence: New Growth Engine in the Making?",
+      "publisher": "Zacks",
+      "published": "2026-09-14T14:00:00Z",
+      "summary": "BlackBerry is positioning Radar as an Asset Intelligence Platform, with DCLI's 100,000-chassis deployment showcasing its potential beyond GPS tracking.",
+      "url": "https://finance.yahoo.com/technology/articles/bb-radar-expands-asset-intelligence-140000914.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BlackBerry (BB) Increases Despite Market Slip: Here's What You Need to Know",
+      "publisher": "Zacks",
+      "published": "2026-09-14T21:50:05Z",
+      "summary": "BlackBerry (BB) closed the most recent trading day at $7.75, moving +1.04% from the previous trading session.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackberry-bb-increases-despite-market-215005027.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BB Stock Heads For Weekly Gain: Retail Turns Bullish On BlackBerry Ahead Of Earnings As QNX Helps Drive Physical AI",
+      "publisher": "Stocktwits",
+      "published": "2026-09-18T06:31:39Z",
+      "summary": "BlackBerry\u2019s QNX gains traction in Physical AI, robotics and embedded-system applications.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/bb-stock-heads-for-weekly-gain-retail-turns-bullish-on-black-berry-ahead-of-earnings-as-qnx-helps-drive-physical-ai/cZtuNg2RB3a",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BlackBerry (BB) to Release Quarterly Earnings on Thursday - Defense World",
+      "publisher": "defenseworld.net",
+      "url": "https://www.defenseworld.net/2026/09/17/blackberry-bb-to-release-quarterly-earnings-on-thursday.html",
+      "summary": "# BlackBerry (BB) to Release Quarterly Earnings on Thursday - Defense World\n\nAuthor: Defense World Staff\nPublished: 2026-09-17T05:11:08+00:00\nSource: defenseworld.net (defenseworld.net)\nLanguage: en\n\n## Story\n\nBlackBerry (BB) to Release Quarterly Earnings on Thursday - Defense World\n\n# BlackBerry (BB) to Release Quarterly Earnings on Thursday\n\n Posted by Defense World Staff on Sep 17th, 2026 \n\nBlackBerry (NYSE:BB \u2013 Get Free Report) is projected to issue its Q2 2027 results before the market opens on Thursday, September 24th. Analysts expect the company to announce earnings of $0.04 per share a",
+      "published": "2026-09-24",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BlackBerry sets Sept. 24 date for fiscal Q2 earnings | BB Stock News",
+      "publisher": "stocktitan.net",
+      "url": "https://www.stocktitan.net/news/BB/black-berry-to-announce-fiscal-second-quarter-2027-results-on-i92ceckdlfjk.html",
+      "summary": "# BlackBerry sets Sept. 24 date for fiscal Q2 earnings | BB Stock News\n\nAuthor: Stock Titan\nPublished: 2026-09-10T10:58:00+00:00\nSource: stocktitan.net (stocktitan.net)\nLanguage: en\n\n## Story\n\nBlackBerry sets Sept. 24 date for fiscal Q2 earnings | BB Stock News\n\n# BlackBerry to Announce Fiscal Second Quarter 2027 Results on September 24, 2026 \n\nBlackBerry sets the date and access details for its Q2 2027 earnings release and outlines tentative earnings dates for the rest of fiscal 2027.\n\n(Neutral)\n\n## Rhea-AI Summary\n\nBlackBerry (BB) will release its fiscal second quarter 2027 results, for the ",
+      "published": "2026-09-24",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BlackBerry (BB) Advances While Market Declines: Some Information for Investors",
+      "publisher": "Zacks",
+      "created": "Aug 11, 2026",
+      "ago": "Aug 11, 2026",
+      "url": "/articles/blackberry-bb-advances-while-market-declines-some-information-investors",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BB"
+      ],
+      "summary": "BlackBerry (BB) closed the most recent trading day at $8.98, moving +1.7% from the previous trading session.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Could QNX, Momenta & XHEART Create a New Growth Catalyst for BB?",
+      "publisher": "Zacks",
+      "created": "Aug 19, 2026",
+      "ago": "Aug 19, 2026",
+      "url": "/articles/could-qnx-momenta-xheart-create-new-growth-catalyst-bb",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BB",
+        "QCOM",
+        "NVDA"
+      ],
+      "summary": "BlackBerry's QNX gains momentum as Momenta and XHEART target production-ready autonomous driving with its safety-certified OS.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BlackBerry (BB) Falls More Steeply Than Broader Market: What Investors Need to Know",
+      "publisher": "Zacks",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/blackberry-bb-falls-more-steeply-broader-market-what-investors-need-know-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BB"
+      ],
+      "summary": "In the most recent trading session, BlackBerry (BB) closed at $7.65, indicating a -4.85% shift from the previous trading day.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Cloudflare Surges 65% in 3 Months: Should You Still Buy the Stock?",
+      "publisher": "Zacks",
+      "created": "Aug 11, 2026",
+      "ago": "Aug 11, 2026",
+      "url": "/articles/cloudflare-surges-65-3-months-should-you-still-buy-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "NET",
+        "FFIV",
+        "ALLT",
+        "BB"
+      ],
+      "summary": "NET's AI security demand and large-customer growth are fueling gains, while its premium valuation reflects high expectations for future growth.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Can BlackBerry's Stronger Cash Generation Unlock More Buybacks?",
+      "publisher": "Zacks",
+      "created": "Aug 17, 2026",
+      "ago": "Aug 17, 2026",
+      "url": "/articles/can-blackberrys-stronger-cash-generation-unlock-more-buybacks",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BB",
+        "APTV",
+        "CRWD"
+      ],
+      "summary": "BB's stronger cash flow, $422.9M in cash and investments, and expanded buyback authorization raise the prospect of more shareholder returns.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Will BlackBerry's Higher Margins Boost Its Earnings Growth Outlook?",
+      "publisher": "Zacks",
+      "created": "Aug 18, 2026",
+      "ago": "Aug 18, 2026",
+      "url": "/articles/will-blackberrys-higher-margins-boost-its-earnings-growth-outlook",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BB",
+        "APTV",
+        "CRWD"
+      ],
+      "summary": "BB's fiscal 2027 starts strong as QNX royalties lift margins, EBITDA more than doubles and management raises its full-year outlook.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BlackBerry vs. Aptiv: Which Auto Tech Stock Is the Better Buy?",
+      "publisher": "Zacks",
+      "created": "Aug 20, 2026",
+      "ago": "Aug 20, 2026",
+      "url": "/articles/blackberry-vs-aptiv-which-auto-tech-stock-better-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BB",
+        "APTV"
+      ],
+      "summary": "BB's QNX growth, margin gains and raised outlook strengthen its case as APTV faces guidance cuts, launch delays and China auto-market pressure.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BlackBerry Gains 125% YTD: Has the Buying Opportunity Passed?",
+      "publisher": "Zacks",
+      "created": "Aug 4, 2026",
+      "ago": "Aug 4, 2026",
+      "url": "/articles/blackberry-gains-125-ytd-has-buying-opportunity-passed",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BB",
+        "PANW",
+        "GOOGL",
+        "CRWD"
+      ],
+      "summary": "BB's 125% 2026 rally is backed by QNX and Secure comms momentum and a raised outlook, but premium valuation and execution risks somewhat cloud the upside.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Dolby's Q3 Earnings Beat Estimates on Lower Operating Expenses",
+      "publisher": "Zacks",
+      "created": "Jul 31, 2026",
+      "ago": "Jul 31, 2026",
+      "url": "/articles/dolbys-q3-earnings-beat-estimates-lower-operating-expenses",
+      "primary_symbol": null,
+      "related_symbols": [
+        "DLB",
+        "AMX",
+        "SONO",
+        "BB"
+      ],
+      "summary": "DLB beat Q3 earnings estimates despite lower revenue, then forecast strong Q4 growth backed by video licensing, autos and new device categories.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Document",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1070235/000107023526000071/q1fy27ex-991.htm",
+      "summary": "June 25, 2026 \n\nBlackBerry Reports First Quarter Fiscal Year 2027 Results\n\n\u2022 Revenue increased 26% year-over-year to approximately $153 million \n\n\u2022 Adjusted EBITDA grew 144% year-over-year; GAAP operating income increased year-over-year to approximately $15 million\n\n\u2022 Both QNX and Secure Communications achieved Rule of 40 1 performance, contributing to BlackBerry\u2019s fifth consecutive quarter of positive GAAP net income; Adjusted EPS exceeded expectations\n\n\u2022 First fiscal quarter of positive operating cash flow in nine years, excluding the patent sale in FY24\n\nWaterloo, Ontario - BlackBerry Limit",
+      "published": "2026-06-25",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "SailPoint, Inc.  (SAIL) Q2 Earnings Surpass Estimates",
+      "publisher": "Zacks",
+      "published": "2026-09-09T12:15:02Z",
+      "summary": "SailPoint, Inc. (SAIL) delivered earnings and revenue surprises of +12.50% and -0.51%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sailpoint-inc-sail-q2-earnings-121502042.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "The Special Forces Ethos Driving Goruck\u2019s Co-Founders",
+      "publisher": "The Wall Street Journal",
+      "published": "2026-09-11T09:55:00Z",
+      "summary": "Hundreds of people this weekend in New York City and across the country will remember Sept. 11, 2001, by throwing on rucksacks filled with weights and supplies and marching for hours.  The events are a critical part of the mission and business of Goruck (pronounced Go Ruck).  While it holds hundreds of events each year, Goruck\u2019s Sept. 11 challenges are generally its biggest.",
+      "url": "https://www.wsj.com/cio-journal/the-special-forces-ethos-driving-gorucks-co-founders-3bad85eb?siteid=yhoof2&yptr=yahoo",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "BlackBerry Climbs 6%, Mobileye Rises 5%: Is the Software-Defined Vehicle Trade Waking Up?",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-17T17:03:01Z",
+      "summary": "BlackBerry and Mobileye are surging together while their closest hardware peer sits frozen, and that split tells you something important about who is actually buying and why.",
+      "url": "https://247wallst.com/investing/2026/09/17/blackberry-climbs-6-mobileye-rises-5-is-the-software-defined-vehicle-trade-waking-up/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "BlackBerry Q2 earnings preview: revenue forecast rises to $145.53 million",
+      "publisher": "scanx.trade",
+      "url": "https://scanx.trade/stock-market-news/companies/blackberry-q2-earnings-preview-revenue-forecast-rises-145-53-million/51260366",
+      "summary": "BlackBerry Q2 earnings preview: revenue forecast rises to $145.53 million\n\n# BlackBerry Q2 earnings preview: revenue forecast rises to $145.53 million \n\n 1 min read | Published on 18 Sept 2026, 12:29 PM | Updated on 18 Sept 2026, 12:29 PM \n\nReviewed by\n\nAshish T ScanX News Team\n\nKey Highlights\n\n- BlackBerry Limited reports Q2 earnings on Sept. 24; EPS expected at 4 cents, flat YoY\n- Revenue consensus stands at $145.53 million, up from $129.6 million in the year-ago period\n- CIBC raised its price target to $13, while RBC Capital lifted its target to $9\n- Sift partners with BlackBerry\u2019s QNX divi",
+      "published": "2026-09-18",
+      "source": "ollama_search",
+      "query": "BlackBerry Limited (BB) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Ottawa's 'mega deduction' tax write-off could boost these TSX stocks, analysts say",
+      "publisher": "Financial Post",
+      "published": "2026-09-18T22:07:45Z",
+      "summary": "The Week in Stocks: How David Rosenberg is reducing stock market risk, which sector's shares could take a hit from rate hikes and more",
+      "url": "https://financialpost.com/investing/tax-write-off-boost-tsx-stocks",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "consumer_credit",
+        "rates"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 10,
+        "share": 0.357,
+        "evidence": [
+          {
+            "title": "Earnings Estimates Moving Higher for BlackBerry (BB): Time to Buy?",
+            "publisher": "finviz.com",
+            "published": "2025-10-01",
+            "matched": [
+              "outlook",
+              "revis",
+              "estimate"
+            ]
+          },
+          {
+            "title": "BB Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-04-10",
+            "matched": [
+              "forecast",
+              "revis",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "BlackBerry Stock (BB) Set For Near 14% Move After Q2 Earnings Next Week - TipRanks.com",
+            "publisher": "tipranks.com",
+            "published": "2026-06-25",
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "BlackBerry (BB) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-08-20",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 6,
+        "share": 0.214,
+        "evidence": [
+          {
+            "title": "BlackBerry: Q1 Was Never Going To Have The Answers (NYSE:BB) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "BlackBerry: Great Story, But Getting Ahead Of Itself (NYSE:BB) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "valuation",
+              "premium"
+            ]
+          },
+          {
+            "title": "BB Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "BlackBerry: Business Transformation Is Working, But Valuation Remains A Concern (NYSE:BB) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-08-24",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.143,
+        "evidence": [
+          {
+            "title": "BB Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-04-10",
+            "matched": [
+              "upgrade",
+              "downgrade",
+              "price target"
+            ]
+          },
+          {
+            "title": "BB Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "institutional"
+            ]
+          },
+          {
+            "title": "BlackBerry (BB) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-08-20",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "BlackBerry Q2 earnings preview: revenue forecast rises to $145.53 million",
+            "publisher": "scanx.trade",
+            "published": "2026-09-18",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 3,
+        "share": 0.107,
+        "evidence": [
+          {
+            "title": "BlackBerry: Q1 Was Never Going To Have The Answers (NYSE:BB) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "backlog"
+            ]
+          },
+          {
+            "title": "BlackBerry: Healthier Than Ever, Priced Like It (NYSE:BB) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-08-21",
+            "matched": [
+              "backlog"
+            ]
+          },
+          {
+            "title": "BlackBerry: Business Transformation Is Working, But Valuation Remains A Concern (NYSE:BB) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-08-24",
+            "matched": [
+              "backlog"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "BlackBerry: Q1 Was Never Going To Have The Answers (NYSE:BB) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "license"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "BB Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-04-10",
+            "matched": [
+              "downgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "Can BlackBerry's Stronger Cash Generation Unlock More Buybacks?",
+            "publisher": "Zacks",
+            "published": "Aug 17, 2026",
+            "matched": [
+              "buyback"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "consumer_credit",
+        "label": "Consumer credit deterioration",
+        "description": "Stress in household balance sheets showing up as loan losses.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "Ottawa's 'mega deduction' tax write-off could boost these TSX stocks, analysts say",
+            "publisher": "Financial Post",
+            "published": "2026-09-18T22:07:45Z",
+            "matched": [
+              "write-off"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "Ottawa's 'mega deduction' tax write-off could boost these TSX stocks, analysts say",
+            "publisher": "Financial Post",
+            "published": "2026-09-18T22:07:45Z",
+            "matched": [
+              "rate hike"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-09-24"
+    ],
+    "next_date": "2026-09-24",
+    "eps_avg": 0.04,
+    "eps_low": 0.03,
+    "eps_high": 0.05,
+    "revenue_avg": 145534000
+  },
+  "catalyst": {
+    "date": "2026-09-24",
+    "weekday": "Thursday",
+    "days_out": 4,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 0.04,
+      "eps_low": 0.03,
+      "eps_high": 0.05,
+      "revenue_avg": 145534000
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-25",
+        "eps_estimate": 0.03,
+        "eps_actual": 0.04,
+        "surprise_pct": 49.98,
+        "beat": true
+      },
+      {
+        "date": "2026-04-09",
+        "eps_estimate": 0.04,
+        "eps_actual": 0.06,
+        "surprise_pct": 38.47,
+        "beat": true
+      },
+      {
+        "date": "2025-12-18",
+        "eps_estimate": 0.04,
+        "eps_actual": 0.05,
+        "surprise_pct": 36.35,
+        "beat": true
+      },
+      {
+        "date": "2025-09-25",
+        "eps_estimate": 0.01,
+        "eps_actual": 0.04,
+        "surprise_pct": 185.71,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 90,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-24 (Thursday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.04."
+  },
+  "forward_trends": {
+    "queries": [
+      "automotive embedded OS market 2026 2027 software-defined vehicle Linux Android Automotive competitors",
+      "enterprise cybersecurity budgets 2026 2027 UEM endpoint management spending trends government hiring",
+      "secure communications critical event management market 2026 2027 government defense spending forecast",
+      "BlackBerry BB QNX automotive software design wins 2026 2027 vehicle production outlook"
+    ],
+    "results_count": 20,
+    "results_dated": 15,
+    "trends": [
+      {
+        "claim": "In 2026-2031, the automotive OS market is forecast to reach $40.62B at 9.68% CAGR.",
+        "stance": "support",
+        "why": "Growing OS market supports QNX licensing and royalty revenue.",
+        "quote": "forecast to reach USD 40.62 billion by 2031 at 9.68% CAGR over 2026-2031",
+        "url": "https://www.researchandmarkets.com/reports/5938139/automotive-operating-systems-market-share",
+        "publisher": "researchandmarkets.com",
+        "as_of": "2026-08-01",
+        "age_days": 50,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, electric vehicle platforms are accelerating adoption of real-time operating systems.",
+        "stance": "support",
+        "why": "More EV platforms using RTOS increases QNX design wins and royalties.",
+        "quote": "Electric vehicle platforms are accelerating adoption of real-time operating systems.",
+        "url": "https://markwideresearch.com/automotive-operating-systems-market",
+        "publisher": "markwideresearch.com",
+        "as_of": "2026-05-01",
+        "age_days": 142,
+        "undated": false
+      },
+      {
+        "claim": "As of May 2026, the EU Cyber Resilience Act mandates standardized security protocols for connected vehicle software.",
+        "stance": "support",
+        "why": "Compliance demand favors certified OS like QNX, lifting automotive design wins.",
+        "quote": "The EU's Cyber Resilience Act mandates standardized security protocols for connected vehicle software.",
+        "url": "https://markwideresearch.com/automotive-operating-systems-market",
+        "publisher": "markwideresearch.com",
+        "as_of": "2026-05-01",
+        "age_days": 142,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, AI is becoming the biggest destination for new security dollars.",
+        "stance": "support",
+        "why": "AI security demand can support BlackBerry Secure Communications if it offers AI-enabled tools.",
+        "quote": "AI is becoming the biggest destination for new security dollars",
+        "url": "https://www.csoonline.com/article/4223455/security-spending-is-growing-except-for-the-typical-ciso.html",
+        "publisher": "csoonline.com",
+        "as_of": "2026-09-17",
+        "age_days": 3,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, median security budget growth remained at 0%.",
+        "stance": "pressure",
+        "why": "Flat median budgets can limit new Secure Communications deals.",
+        "quote": "median budget growth remained at 0%",
+        "url": "https://www.csoonline.com/article/4223455/security-spending-is-growing-except-for-the-typical-ciso.html",
+        "publisher": "csoonline.com",
+        "as_of": "2026-09-17",
+        "age_days": 3,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In 2026, RTOS is expected to lead automotive OS type with 42.0% share.",
+        "stance": "support",
+        "why": "QNX's RTOS position benefits as RTOS remains the leading automotive OS category.",
+        "quote": "Real-Time Operating Systems (RTOS) is poised to lead by OS Type with 42.0% share in 2026",
+        "url": "https://www.factmr.com/report/automotive-operating-system-market",
+        "publisher": "factmr.com",
+        "as_of": "2026-03-23",
+        "age_days": 181,
+        "undated": false,
+        "drop_reason": "stale (181 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "BB",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 7.99,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 8.0,
+        "premium": 1.34,
+        "bid": 1.21,
+        "ask": 1.47,
+        "mid": 1.34,
+        "last": 1.36,
+        "open_interest": 3869,
+        "volume": 192,
+        "implied_vol": 0.74414318359375,
+        "qty": 33
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 8.0,
+        "premium": 0.71,
+        "bid": 0.63,
+        "ask": 0.79,
+        "mid": 0.71,
+        "last": 0.7,
+        "open_interest": 4166,
+        "volume": 481,
+        "implied_vol": 0.8105487695312499,
+        "qty": 8
+      },
+      "long_total": 4422.0,
+      "short_total": 568.0,
+      "net_debit": 3854.0,
+      "credit_ratio_mid": 0.1284,
+      "credit_ratio_conservative": 0.1039,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "15-Jan-27",
+          "strike": 8.0,
+          "qty": 33,
+          "underlying": 7.99,
+          "multiplier": 100,
+          "price": 1.34,
+          "total": 4422.000000000001,
+          "open_interest": 3869
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 8.0,
+          "qty": 8,
+          "underlying": 7.99,
+          "multiplier": 100,
+          "price": 0.71,
+          "total": -568.0,
+          "open_interest": 4166
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 8, 9, 10, 11"
+      ],
+      "advice": "Credit ratio 10.4% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0161,
+          "credit_ratio_conservative": 0.013,
+          "passes_floor": false,
+          "cash_collected": 71.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0321,
+          "credit_ratio_conservative": 0.026,
+          "passes_floor": false,
+          "cash_collected": 142.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0482,
+          "credit_ratio_conservative": 0.039,
+          "passes_floor": false,
+          "cash_collected": 213.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0642,
+          "credit_ratio_conservative": 0.0519,
+          "passes_floor": false,
+          "cash_collected": 284.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0803,
+          "credit_ratio_conservative": 0.0649,
+          "passes_floor": false,
+          "cash_collected": 355.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0963,
+          "credit_ratio_conservative": 0.0779,
+          "passes_floor": false,
+          "cash_collected": 426.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1124,
+          "credit_ratio_conservative": 0.0909,
+          "passes_floor": false,
+          "cash_collected": 497.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1284,
+          "credit_ratio_conservative": 0.1039,
+          "passes_floor": true,
+          "cash_collected": 568.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.1445,
+          "credit_ratio_conservative": 0.1169,
+          "passes_floor": true,
+          "cash_collected": 639.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.1606,
+          "credit_ratio_conservative": 0.1299,
+          "passes_floor": true,
+          "cash_collected": 710.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.1766,
+          "credit_ratio_conservative": 0.1429,
+          "passes_floor": true,
+          "cash_collected": 781.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.1927,
+          "credit_ratio_conservative": 0.1558,
+          "passes_floor": true,
+          "cash_collected": 852.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.2087,
+          "credit_ratio_conservative": 0.1688,
+          "passes_floor": true,
+          "cash_collected": 923.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.2248,
+          "credit_ratio_conservative": 0.1818,
+          "passes_floor": true,
+          "cash_collected": 994.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.2408,
+          "credit_ratio_conservative": 0.1948,
+          "passes_floor": true,
+          "cash_collected": 1065.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.2569,
+          "credit_ratio_conservative": 0.2078,
+          "passes_floor": true,
+          "cash_collected": 1136.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.273,
+          "credit_ratio_conservative": 0.2208,
+          "passes_floor": true,
+          "cash_collected": 1207.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.289,
+          "credit_ratio_conservative": 0.2338,
+          "passes_floor": true,
+          "cash_collected": 1278.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.3051,
+          "credit_ratio_conservative": 0.2468,
+          "passes_floor": true,
+          "cash_collected": 1349.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.3211,
+          "credit_ratio_conservative": 0.2597,
+          "passes_floor": true,
+          "cash_collected": 1420.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.3372,
+          "credit_ratio_conservative": 0.2727,
+          "passes_floor": true,
+          "cash_collected": 1491.0
+        },
+        {
+          "short_qty": 22,
+          "credit_ratio_mid": 0.3532,
+          "credit_ratio_conservative": 0.2857,
+          "passes_floor": true,
+          "cash_collected": 1562.0
+        },
+        {
+          "short_qty": 23,
+          "credit_ratio_mid": 0.3693,
+          "credit_ratio_conservative": 0.2987,
+          "passes_floor": true,
+          "cash_collected": 1633.0
+        },
+        {
+          "short_qty": 24,
+          "credit_ratio_mid": 0.3853,
+          "credit_ratio_conservative": 0.3117,
+          "passes_floor": true,
+          "cash_collected": 1704.0
+        },
+        {
+          "short_qty": 25,
+          "credit_ratio_mid": 0.4014,
+          "credit_ratio_conservative": 0.3247,
+          "passes_floor": true,
+          "cash_collected": 1775.0
+        },
+        {
+          "short_qty": 26,
+          "credit_ratio_mid": 0.4175,
+          "credit_ratio_conservative": 0.3377,
+          "passes_floor": true,
+          "cash_collected": 1846.0
+        },
+        {
+          "short_qty": 27,
+          "credit_ratio_mid": 0.4335,
+          "credit_ratio_conservative": 0.3506,
+          "passes_floor": true,
+          "cash_collected": 1917.0
+        },
+        {
+          "short_qty": 28,
+          "credit_ratio_mid": 0.4496,
+          "credit_ratio_conservative": 0.3636,
+          "passes_floor": true,
+          "cash_collected": 1988.0
+        },
+        {
+          "short_qty": 29,
+          "credit_ratio_mid": 0.4656,
+          "credit_ratio_conservative": 0.3766,
+          "passes_floor": true,
+          "cash_collected": 2059.0
+        },
+        {
+          "short_qty": 30,
+          "credit_ratio_mid": 0.4817,
+          "credit_ratio_conservative": 0.3896,
+          "passes_floor": true,
+          "cash_collected": 2130.0
+        },
+        {
+          "short_qty": 31,
+          "credit_ratio_mid": 0.4977,
+          "credit_ratio_conservative": 0.4026,
+          "passes_floor": true,
+          "cash_collected": 2201.0
+        },
+        {
+          "short_qty": 32,
+          "credit_ratio_mid": 0.5138,
+          "credit_ratio_conservative": 0.4156,
+          "passes_floor": true,
+          "cash_collected": 2272.0
+        },
+        {
+          "short_qty": 33,
+          "credit_ratio_mid": 0.5299,
+          "credit_ratio_conservative": 0.4286,
+          "passes_floor": true,
+          "cash_collected": 2343.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "BB",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 7.99,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 7.0,
+        "premium": 0.83,
+        "bid": 0.62,
+        "ask": 1.05,
+        "mid": 0.83,
+        "last": 0.73,
+        "open_interest": 1770,
+        "volume": 51.0,
+        "implied_vol": 0.7500025,
+        "qty": 54
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 7.0,
+        "premium": 0.23,
+        "bid": 0.2,
+        "ask": 0.25,
+        "mid": 0.23,
+        "last": 0.22,
+        "open_interest": 1856,
+        "volume": 661.0,
+        "implied_vol": 0.7187528125,
+        "qty": 24
+      },
+      "long_total": 4482.0,
+      "short_total": 552.0,
+      "net_debit": 3930.0,
+      "credit_ratio_mid": 0.1232,
+      "credit_ratio_conservative": 0.0847,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "15-Jan-27",
+          "strike": 7.0,
+          "qty": 54,
+          "underlying": 7.99,
+          "multiplier": 100,
+          "price": 0.83,
+          "total": 4482.0,
+          "open_interest": 1770
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 7.0,
+          "qty": 24,
+          "underlying": 7.99,
+          "multiplier": 100,
+          "price": 0.23,
+          "total": -552.0,
+          "open_interest": 1856
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 7, 6, 5, 3"
+      ],
+      "advice": "Credit ratio 8.5% is below the 10% floor; sell ~5 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0051,
+          "credit_ratio_conservative": 0.0035,
+          "passes_floor": false,
+          "cash_collected": 23.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0103,
+          "credit_ratio_conservative": 0.0071,
+          "passes_floor": false,
+          "cash_collected": 46.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0154,
+          "credit_ratio_conservative": 0.0106,
+          "passes_floor": false,
+          "cash_collected": 69.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0205,
+          "credit_ratio_conservative": 0.0141,
+          "passes_floor": false,
+          "cash_collected": 92.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0257,
+          "credit_ratio_conservative": 0.0176,
+          "passes_floor": false,
+          "cash_collected": 115.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0308,
+          "credit_ratio_conservative": 0.0212,
+          "passes_floor": false,
+          "cash_collected": 138.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.0359,
+          "credit_ratio_conservative": 0.0247,
+          "passes_floor": false,
+          "cash_collected": 161.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0411,
+          "credit_ratio_conservative": 0.0282,
+          "passes_floor": false,
+          "cash_collected": 184.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.0462,
+          "credit_ratio_conservative": 0.0317,
+          "passes_floor": false,
+          "cash_collected": 207.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.0513,
+          "credit_ratio_conservative": 0.0353,
+          "passes_floor": false,
+          "cash_collected": 230.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.0564,
+          "credit_ratio_conservative": 0.0388,
+          "passes_floor": false,
+          "cash_collected": 253.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.0616,
+          "credit_ratio_conservative": 0.0423,
+          "passes_floor": false,
+          "cash_collected": 276.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.0667,
+          "credit_ratio_conservative": 0.0459,
+          "passes_floor": false,
+          "cash_collected": 299.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.0718,
+          "credit_ratio_conservative": 0.0494,
+          "passes_floor": false,
+          "cash_collected": 322.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.077,
+          "credit_ratio_conservative": 0.0529,
+          "passes_floor": false,
+          "cash_collected": 345.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.0821,
+          "credit_ratio_conservative": 0.0564,
+          "passes_floor": false,
+          "cash_collected": 368.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.0872,
+          "credit_ratio_conservative": 0.06,
+          "passes_floor": false,
+          "cash_collected": 391.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.0924,
+          "credit_ratio_conservative": 0.0635,
+          "passes_floor": false,
+          "cash_collected": 414.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.0975,
+          "credit_ratio_conservative": 0.067,
+          "passes_floor": false,
+          "cash_collected": 437.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.1026,
+          "credit_ratio_conservative": 0.0705,
+          "passes_floor": false,
+          "cash_collected": 460.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.1078,
+          "credit_ratio_conservative": 0.0741,
+          "passes_floor": false,
+          "cash_collected": 483.0
+        },
+        {
+          "short_qty": 22,
+          "credit_ratio_mid": 0.1129,
+          "credit_ratio_conservative": 0.0776,
+          "passes_floor": false,
+          "cash_collected": 506.0
+        },
+        {
+          "short_qty": 23,
+          "credit_ratio_mid": 0.118,
+          "credit_ratio_conservative": 0.0811,
+          "passes_floor": false,
+          "cash_collected": 529.0
+        },
+        {
+          "short_qty": 24,
+          "credit_ratio_mid": 0.1232,
+          "credit_ratio_conservative": 0.0847,
+          "passes_floor": false,
+          "cash_collected": 552.0
+        },
+        {
+          "short_qty": 25,
+          "credit_ratio_mid": 0.1283,
+          "credit_ratio_conservative": 0.0882,
+          "passes_floor": false,
+          "cash_collected": 575.0
+        },
+        {
+          "short_qty": 26,
+          "credit_ratio_mid": 0.1334,
+          "credit_ratio_conservative": 0.0917,
+          "passes_floor": false,
+          "cash_collected": 598.0
+        },
+        {
+          "short_qty": 27,
+          "credit_ratio_mid": 0.1386,
+          "credit_ratio_conservative": 0.0952,
+          "passes_floor": false,
+          "cash_collected": 621.0
+        },
+        {
+          "short_qty": 28,
+          "credit_ratio_mid": 0.1437,
+          "credit_ratio_conservative": 0.0988,
+          "passes_floor": false,
+          "cash_collected": 644.0
+        },
+        {
+          "short_qty": 29,
+          "credit_ratio_mid": 0.1488,
+          "credit_ratio_conservative": 0.1023,
+          "passes_floor": true,
+          "cash_collected": 667.0
+        },
+        {
+          "short_qty": 30,
+          "credit_ratio_mid": 0.1539,
+          "credit_ratio_conservative": 0.1058,
+          "passes_floor": true,
+          "cash_collected": 690.0
+        },
+        {
+          "short_qty": 31,
+          "credit_ratio_mid": 0.1591,
+          "credit_ratio_conservative": 0.1093,
+          "passes_floor": true,
+          "cash_collected": 713.0
+        },
+        {
+          "short_qty": 32,
+          "credit_ratio_mid": 0.1642,
+          "credit_ratio_conservative": 0.1129,
+          "passes_floor": true,
+          "cash_collected": 736.0
+        },
+        {
+          "short_qty": 33,
+          "credit_ratio_mid": 0.1693,
+          "credit_ratio_conservative": 0.1164,
+          "passes_floor": true,
+          "cash_collected": 759.0
+        },
+        {
+          "short_qty": 34,
+          "credit_ratio_mid": 0.1745,
+          "credit_ratio_conservative": 0.1199,
+          "passes_floor": true,
+          "cash_collected": 782.0
+        },
+        {
+          "short_qty": 35,
+          "credit_ratio_mid": 0.1796,
+          "credit_ratio_conservative": 0.1235,
+          "passes_floor": true,
+          "cash_collected": 805.0
+        },
+        {
+          "short_qty": 36,
+          "credit_ratio_mid": 0.1847,
+          "credit_ratio_conservative": 0.127,
+          "passes_floor": true,
+          "cash_collected": 828.0
+        },
+        {
+          "short_qty": 37,
+          "credit_ratio_mid": 0.1899,
+          "credit_ratio_conservative": 0.1305,
+          "passes_floor": true,
+          "cash_collected": 851.0
+        },
+        {
+          "short_qty": 38,
+          "credit_ratio_mid": 0.195,
+          "credit_ratio_conservative": 0.134,
+          "passes_floor": true,
+          "cash_collected": 874.0
+        },
+        {
+          "short_qty": 39,
+          "credit_ratio_mid": 0.2001,
+          "credit_ratio_conservative": 0.1376,
+          "passes_floor": true,
+          "cash_collected": 897.0
+        },
+        {
+          "short_qty": 40,
+          "credit_ratio_mid": 0.2053,
+          "credit_ratio_conservative": 0.1411,
+          "passes_floor": true,
+          "cash_collected": 920.0
+        },
+        {
+          "short_qty": 41,
+          "credit_ratio_mid": 0.2104,
+          "credit_ratio_conservative": 0.1446,
+          "passes_floor": true,
+          "cash_collected": 943.0
+        },
+        {
+          "short_qty": 42,
+          "credit_ratio_mid": 0.2155,
+          "credit_ratio_conservative": 0.1481,
+          "passes_floor": true,
+          "cash_collected": 966.0
+        },
+        {
+          "short_qty": 43,
+          "credit_ratio_mid": 0.2207,
+          "credit_ratio_conservative": 0.1517,
+          "passes_floor": true,
+          "cash_collected": 989.0
+        },
+        {
+          "short_qty": 44,
+          "credit_ratio_mid": 0.2258,
+          "credit_ratio_conservative": 0.1552,
+          "passes_floor": true,
+          "cash_collected": 1012.0
+        },
+        {
+          "short_qty": 45,
+          "credit_ratio_mid": 0.2309,
+          "credit_ratio_conservative": 0.1587,
+          "passes_floor": true,
+          "cash_collected": 1035.0
+        },
+        {
+          "short_qty": 46,
+          "credit_ratio_mid": 0.2361,
+          "credit_ratio_conservative": 0.1623,
+          "passes_floor": true,
+          "cash_collected": 1058.0
+        },
+        {
+          "short_qty": 47,
+          "credit_ratio_mid": 0.2412,
+          "credit_ratio_conservative": 0.1658,
+          "passes_floor": true,
+          "cash_collected": 1081.0
+        },
+        {
+          "short_qty": 48,
+          "credit_ratio_mid": 0.2463,
+          "credit_ratio_conservative": 0.1693,
+          "passes_floor": true,
+          "cash_collected": 1104.0
+        },
+        {
+          "short_qty": 49,
+          "credit_ratio_mid": 0.2515,
+          "credit_ratio_conservative": 0.1728,
+          "passes_floor": true,
+          "cash_collected": 1127.0
+        },
+        {
+          "short_qty": 50,
+          "credit_ratio_mid": 0.2566,
+          "credit_ratio_conservative": 0.1764,
+          "passes_floor": true,
+          "cash_collected": 1150.0
+        },
+        {
+          "short_qty": 51,
+          "credit_ratio_mid": 0.2617,
+          "credit_ratio_conservative": 0.1799,
+          "passes_floor": true,
+          "cash_collected": 1173.0
+        },
+        {
+          "short_qty": 52,
+          "credit_ratio_mid": 0.2668,
+          "credit_ratio_conservative": 0.1834,
+          "passes_floor": true,
+          "cash_collected": 1196.0
+        },
+        {
+          "short_qty": 53,
+          "credit_ratio_mid": 0.272,
+          "credit_ratio_conservative": 0.1869,
+          "passes_floor": true,
+          "cash_collected": 1219.0
+        },
+        {
+          "short_qty": 54,
+          "credit_ratio_mid": 0.2771,
+          "credit_ratio_conservative": 0.1905,
+          "passes_floor": true,
+          "cash_collected": 1242.0
+        }
+      ]
+    }
+  }
+}

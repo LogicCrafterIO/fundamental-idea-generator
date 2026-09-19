@@ -1,0 +1,1387 @@
+{
+  "symbol": "MRK",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T01:03:42",
+  "profile": {
+    "symbol": "MRK",
+    "name": "Merck & Co., Inc.",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "summary": "Merck & Co., Inc. operates as a healthcare company worldwide. It offers human health pharmaceutical for various areas under the Keytruda, Keytruda Qlex, Welireg, Gardasil, ProQuad, M-M-R II, Varivax, Vaxneuvance, Capvaxive, RotaTeq, Pneumovax 23, Bridion, Prevymis, Dificid, Zerbaxa, Winrevair, Adempas/ Verquvo, Ohtuvayre, Lagevrio, Isentress/Isentress HD, Delstrigo, Pifeltro, Belsomra, Januvia, and Janumet brands. The company also provides veterinary pharmaceuticals, vaccines and health management solutions and services, such as livestock products under the Nuflor, Bovilis/Vista, Bovilis Cryptium, Banamine, Estrumate, Matrix, Resflor, Zuprevo, Revalor, Safe-Guard, M+Pac, Porcilis, Circumvent, Nobilis/Innovax, Paracox and Coccivac, Exzolt, Slice, Imvixa, Clynav, Aquavac/Norvax, Aquaflor, Flexolt brands; Allflex Livestock Intelligence solutions; and companion animal products under the Bravecto One-Month, Bravecto Injectable/Quantum, Bravecto TriUNO, Bravecto Plus, Sentinel Spectrum, Sentinel Flavor Tabs, Numelvi, Optimmune, Nobivac NXT, GilvetMab, Otomax, Mometamax, Mometamax Ultra, Posatex, Caninsulin/Vetsulin, Panacur, Safeguard, Regumate, Prestige, Scalibor/Exspot, Sure Petcare, and Home Again brands. It has development and commercialization agreement for three of Daiichi Sankyo's deruxtecan ADC candidates; AstraZeneca PLC to co-development and co-commercialize AstraZeneca's Lynparza products for multiple cancer types; licensed to develop, manufacture and commercialize LM-299, a novel investigational PD-1/VEGF bispecific antibody from LaNova; and collaboration agreement with Eisai Co., Ltd., Bayer AG, and Ridgeback Biotherapeutics LP, as well Moderna, Inc. Merck & Co., Inc. has strategic collaboration with Infinimmune, Inc. to discover and develop antibodies against multiple therapeutic targets. The company was founded in 1891 and is headquartered in Rahway, New Jersey.",
+    "employees": 73000,
+    "country": "United States",
+    "website": "https://www.merck.com"
+  },
+  "quants": {
+    "symbol": "MRK",
+    "name": "Merck & Co., Inc.",
+    "price": 146.87,
+    "market_cap": 362353491968,
+    "market_cap_human": "362.35B",
+    "fwd_pe": 53.5,
+    "fwd_pe_1y": 15.38,
+    "fwd_pe_yahoo": 15.378187,
+    "trailing_pe": 117.495995,
+    "ps": 5.443277,
+    "ev_ebitda": 14.173,
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "eps_fy_current": 2.74515,
+    "eps_fy_next": 9.55054,
+    "eps_trend": {
+      "change_7d_pct": -0.1,
+      "change_30d_pct": -0.13,
+      "current": 2.74515,
+      "7d_ago": 2.7478,
+      "30d_ago": 2.7486,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 1,
+      "up_30d": 11,
+      "down_30d": 4,
+      "net_30d": 7,
+      "text": "tilted higher, with 11 up and 4 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-29"
+      ],
+      "next_date": "2026-10-29",
+      "eps_avg": 2.21073,
+      "eps_low": 2.01,
+      "eps_high": 2.41,
+      "revenue_avg": 17354898980
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 146.87 USD",
+    "Market Cap: 362.35B",
+    "Fwd PE: 53.5",
+    "P/S: 5.4",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted higher, with 11 up and 4 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 683000.0,
+      "prior": 3534000.0,
+      "change_pct": -80.7,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1335000.0,
+      "prior": 4240000.0,
+      "change_pct": -68.5,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 6849000.0,
+      "prior": 5327000.0,
+      "change_pct": 28.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Long-Term Investments",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1222000.0,
+      "prior": 1105000.0,
+      "change_pct": 10.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Equity",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 41933000.0,
+      "prior": 45878000.0,
+      "change_pct": -8.6,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2904000.0,
+      "prior": 2700000.0,
+      "change_pct": 7.6,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-08-04T06:00:00-04:00",
+    "current": -0.13,
+    "year_ago": 2.13,
+    "year_ago_period": "2025-07-29T06:00:00-04:00",
+    "change": -2.26,
+    "direction": "declined"
+  },
+  "news": [
+    {
+      "title": "Erste Group Bank Has Positive Outlook of MRK FY2026 Earnings - American Market News",
+      "publisher": "americanbankingnews.com",
+      "url": "https://www.americanbankingnews.com/2026/08/14/erste-group-bank-has-positive-outlook-of-mrk-fy2026-earnings.html",
+      "summary": "Erste Group Bank Has Positive Outlook of MRK FY2026 Earnings - American Market News\n\n# Erste Group Bank Has Positive Outlook of MRK FY2026 Earnings\n\n Posted by ABMN Staff on Aug 14th, 2026 \n\nMerck & Co., Inc. (NYSE:MRK \u2013 Free Report) \u2013 Investment analysts at Erste Group Bank raised their FY2026 earnings per share estimates for shares of Merck & Co., Inc. in a research report issued to clients and investors on Wednesday, August 5th. Erste Group Bank analyst H. Engel now forecasts that the company will post earnings per share of $2.75 for the year, up from their prior forecast of $2.70. The cons",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "The Open Questions On MRK Stock | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/mrk/articles/611963/the-open-questions-on-mrk-stock/2026-08-19",
+      "summary": "The Open Questions On MRK Stock | Trefis\n\n# The Open Questions On MRK Stock\n\nAugust 19th, 2026 \u00b7 by Trefis Team\n\nMerck has a strong story about life after its biggest drug, but when analysts last pressed management, the questions revealed where the real execution risks lie.\n\nAfter a stunning run that saw its stock gain +59% in a year, Merck (MRK) trades near its all-time high on the promise of what comes next. Management has laid out a vision for a greater than $70 billion commercial opportunity from a new wave of products designed to carry the company past the eventual patent expiration of it",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Merck & Co. (MRK) Stock Analysis August 2026 - DCF Valuation",
+      "publisher": "alcapitaladvisory.com",
+      "url": "https://alcapitaladvisory.com/research/equities/mrk.html",
+      "summary": "Merck & Co. (MRK) Stock Analysis August 2026 - DCF Valuation\n\n# Merck & Co. Inc. (MRK) Stock Analysis - DCF Valuation & AI Disruption Risk\n\n By Anton Ladnyi, CFA \u00b7 ex-Goldman Sachs \u00b7 ex-J.P. Morgan Published 2026-05-04 Updated 2026-08-08 \n\nMRK \u2014 Q2 2026 (reported Aug 4) beat on both lines: revenue $16.61B (+5% YoY, beat $16.36B est.) with Keytruda up 5% to $8.37B (including $463M from the new subcutaneous QLEX formulation, itself beating estimates); but GAAP EPS was a loss of $0.13 including a $2.31/share charge tied to the newly-closed $6.7B Terns Pharmaceuticals acquisition, and full-year ad",
+      "published": "2026-05-04",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Merck (MRK) - Fundamental Analysis Report 2026 (Updated)",
+      "publisher": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/merck-mrk-fundamental-analysis-report",
+      "summary": "Merck (MRK) - Fundamental Analysis Report 2026 (Updated)\n\n# Merck (MRK) - Fundamental Analysis Report 2026 (Updated)\n\nDeep Research Global\n\nJun 26, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nExecutive TL;DR\n\n- Merck (MRK) delivered Q1 2026 worldwide sales of $16.3 billion, up 5% nominally, with KEYTRUDA family sales hitting $8.0 billion (12% growth), even as the company absorbed a $9.0 billion R&D charge tied to the Cidara Therapeutics acquisition.\n- Management raised the lower end of 2026 full-year revenue guidance to a $65.8 to $67.0 billion range and narrowed non-GAAP EPS",
+      "published": "2026-06-26",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Merck (MRK) stock: bull, base, and bear case from 6 months to 5 years | Market Supply Chain",
+      "publisher": "marketsupplychain.com",
+      "url": "https://marketsupplychain.com/posts/mrk/",
+      "summary": "Merck (MRK) stock: bull, base, and bear case from 6 months to 5 years | Market Supply Chain\n\n July 2, 2026\u00b7 48 min read \n\n# Merck (MRK) stock: bull, base, and bear case from 6 months to 5 years\n\nMerck (MRK) forecast: bull, base, bear scenarios across 6 months to 5 years. Keytruda's 2028 patent cliff and IRA pricing vs. the pipeline; Hold rating, Undervalued.\n\nMRK NYSE\n\n$127.95\n\nMarket cap$316.04B\n\nas of 2026-07-02\n\nResearch date: July 2, 2026 | OSINT market research on Merck & Co., Inc. (NYSE: MRK): how one drug came to fund half the company, what happens when its patent runs out in 2028, and ",
+      "published": "2026-07-02",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Merck (MRK) earnings Q2 2026",
+      "publisher": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/08/04/merck-mrk-earnings-q2-2026.html",
+      "summary": "Merck (MRK) earnings Q2 2026\n\n# Merck hikes revenue outlook as new drug sales grow, but cuts profit guidance due to deal charges\n\nPublished Tue, Aug 4 2026 6:34 AM EDT Updated Tue, Aug 4 2026 8:43 AM EDT\n\nAnnika Kim Constantino@annikakimc\n\nKey Points\n\n- Merck beat second-quarter estimates and hiked its revenue outlook, as a slate of new products showed strong growth. \n- But the pharmaceutical giant cut its profit guidance due to a charge tied to its acquisition of biotech company Terns Pharmaceuticals. \n- Merck has been on a buying spree as it races to offset generic competition for a few drug",
+      "published": "2026-08-04",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Merck & Co. (MRK) Q2 2026 Earnings Call Transcript & Audio",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/mrk/transcripts/553138-q2-2026/",
+      "summary": "Merck & Co. (MRK) Q2 2026 Earnings Call Transcript & Audio\n\n# Earnings Call: Q2 2026\n\nAug 4, 2026\n\n Summary\n\nQ2 revenue rose 5% to $16.6B, led by oncology and new launches, with strong progress in pipeline de-risking and regulatory milestones. Guidance for 2026 was raised, with EPS expected at $2.66\u2013$2.76, including a major one-time charge. Confidence in long-term growth remains high.\n\nOperator\n\n Thank you for standing by. Welcome to Merck & Company, Inc., Rahway, New Jersey, U.S., second quarter sales and earnings conference call. At this time, all participants are in a listen-only mode until",
+      "published": "2026-08-04",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "regulation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Merck & Co., Inc. (MRK) Analyst Estimates - Revenue & EPS",
+      "publisher": "businessquant.com",
+      "url": "https://businessquant.com/stocks/mrk/estimates/",
+      "summary": "Merck & Co., Inc. (MRK) Analyst Estimates - Revenue & EPS\n\n# Merck MRK Estimates \n\n NYSE MRK \n\n $135.11 \u25bc -0.86 (-0.63%) At close: Aug 18, 2026 \u00b7 3:59 PM UTC\n\nDetailed analyst consensus, revenue, and earnings forecasts vs reported data.\n\n## Revenue Estimates\n\n| Metric | Q3 24 | Q4 24 | Q1 25 | Q2 25 | Q3 25 | Q4 25 | Q1 26 | Q2 26 | Q3 26 | Q4 26 | Q1 27 | Q2 27 | Q3 27 | Q4 27 | Q1 28 | Q2 28 | Q3 28 | Q4 28 | Q1 29 | Q2 29 | Q3 29 | Q4 29 | Q1 30 | Q2 30 | Q3 30 | Q4 30 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "published": "2026-08-18",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "MRK Stock Forecast 2026-2027 - Merck & Co., Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/mrk-forecast/",
+      "summary": "MRK Stock Forecast 2026-2027 - Merck & Co., Inc. Price Targets & Predictions\n\n# MRK Stock Forecast: Merck & Co., Inc. Price Predictions for 2026-2027\n\nLast close, 1 Sept 2026\n\n$150\n\n+1.42% on the day\n\nThe 28 Wall Street analysts covering Merck & Co., Inc. hold a median 12-month price target of $150 \u2014 +0.1% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 82 of 100 as at 31 Aug 2026 \u2014 inside the top quartile. Here, the model and the Street point the same way.\n\nMarket cap\n\n$364.5B\n\nTicker Nerd rank\n\n82 / 100\n\nMedian analyst target\n\n$150\n\nAnalysts ",
+      "published": "2026-09-01",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Merck & Co. (MRK) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/mrk/forecast/",
+      "summary": "Merck & Co. (MRK) Stock Forecast & Analyst Price Targets\n\n147.53 -0.93 (-0.63%) At close: Sep 9, 2026, 4:00 PM EDT\n\n148.25 +0.72 (0.49%) Pre-market: Sep 10, 2026, 5:24 AM EDT\n\n# Merck & Co. Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 28 analysts polled by S&P Global, Merck & Co. stock has a consensus rating of \"Buy\" and an average price target of $150.42. The average 1-year stock price forecast is 1.96% higher than the current stock price, while the lowest is $105 (-28.83%) and the highest is $186 (+26.08%).\n\nPrice Target: $150.42 (+1.96%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| ",
+      "published": "2026-09-09",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "What Does Merck (MRK) Mean For EU Bladder Cancer Treatment After CHMP Support?",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-18T23:12:04Z",
+      "summary": "Merck (NYSE:MRK) received a positive opinion from the EMA\u2019s CHMP for KEYTRUDA plus Padcev in muscle-invasive bladder cancer. The CHMP backed the combination as perioperative therapy for adults with resectable muscle-invasive bladder cancer in the European Union. If endorsed by the European Commission, the regimen would be the first PD-1 inhibitor plus antibody-drug conjugate option for this setting in Europe. The CHMP verdict on KEYTRUDA plus Padcev is only one piece of the wider Merck story...",
+      "url": "https://finance.yahoo.com/healthcare/articles/does-merck-mrk-mean-eu-231204521.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Merck & Co., Inc. (MRK) Estimates & Forecasts \u2014 EPS, Revenue & Price Targets (2026) | VCP Scanner",
+      "publisher": "vcpscanner.com",
+      "url": "https://vcpscanner.com/valuation/mrk/estimates",
+      "summary": "Merck & Co., Inc. (MRK) Estimates & Forecasts \u2014 EPS, Revenue & Price Targets (2026) | VCP Scanner\n\n# Merck & Co., Inc. (MRK)\n\nEstimates & Forecasts\u2022 Proprietary EPS, revenue & margin forecasts \u2014 FY+1 to FY+4\n\nIndustrial / operating company Confidence 55/100 Updated Sep 19, 2026\n\n## Merck & Co., Inc. (MRK)\n\nProprietary model projects FY+1 EPS of $2.94 with +2.9% revenue growth at 55/100 confidence. Above consensus estimate using the industrial / operating company framework.\n\nCurrent Price 146.76 FY+1 EPS$2.94 FY+1 Rev Growth+2.9% Market Cap$362.5B\n\nHealthcare \u00b7 Large Pharma vs Consensus: Above ",
+      "published": "2026-09-19",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "MRK Banks on Growing Pipeline & New Drugs to Offset Keytruda LOE",
+      "publisher": "Zacks",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/mrk-banks-growing-pipeline-new-drugs-offset-keytruda-loe",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MRK",
+        "AZN",
+        "BMY"
+      ],
+      "summary": "Merck is expanding its pipeline and newer drug portfolio to offset Keytruda's 2028 LOE and drive long-term growth.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Merck (MRK) Outperforms Broader Market: What You Need to Know",
+      "publisher": "Zacks",
+      "created": "Sep 17, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/merck-mrk-outperforms-broader-market-what-you-need-know-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MRK"
+      ],
+      "summary": "Merck (MRK) closed at $147.17 in the latest trading session, marking a +1.56% move from the prior day.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "SSO, INTC, MRK, KO: Large Outflows Detected at ETF",
+      "publisher": "BNK Invest",
+      "created": "Sep 17, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/sso-intc-mrk-ko-large-outflows-detected-etf",
+      "primary_symbol": "SSO",
+      "related_symbols": [
+        "SSO",
+        "INTC",
+        "MRK",
+        "KO"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the ProShares Ultra S&P500 (Symbol: SSO) where we have detected an approximate $98.3 million dollar outflow -- that's a 1.1% decrease week over week",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Merck Gets Positive EU CHMP Opinion For KEYTRUDA Plus Padcev To Treat Resectable MIBC",
+      "publisher": "RTTNews",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/merck-gets-positive-eu-chmp-opinion-keytruda-plus-padcev-treat-resectable-mibc",
+      "primary_symbol": "MRK",
+      "related_symbols": [
+        "MRK"
+      ],
+      "summary": "(RTTNews) - Drug major Merck & Co., Inc. (MRK) announced Friday that the European Medicines Agency's Committee for Medicinal Products for Human Use or CHMP has adopted a positive opinion recommending approval of KEYTRUDA (pembrolizumab) plus Padcev (enfortumab vedotin-ejfv) as pe",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "2 Outstanding Dividend Stocks to Buy and Hold for 10 Years",
+      "publisher": "The Motley Fool",
+      "created": "Sep 12, 2026",
+      "ago": "Sep 12, 2026",
+      "url": "/articles/2-outstanding-dividend-stocks-buy-and-hold-10-years",
+      "primary_symbol": "JNJ",
+      "related_symbols": [
+        "JNJ",
+        "MRK"
+      ],
+      "summary": "Key PointsJohnson & Johnson has a rare and impressive streak of consecutive annual dividend increases.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Moderna's COVID Vaccine Was a Historic Success. Could Its Cancer Vaccine Be Even Bigger?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/modernas-covid-vaccine-was-historic-success-could-its-cancer-vaccine-be-even-bigger",
+      "primary_symbol": "MRNA",
+      "related_symbols": [
+        "MRNA",
+        "MRK"
+      ],
+      "summary": "Key PointsModerna's recent success in a phase 3 clinical trial for its personalized cancer vaccine was a breakthrough.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Precigen Gains 43% in 3 Months: Is It an Indication to Buy the Stock?",
+      "publisher": "Zacks",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/precigen-gains-43-3-months-it-indication-buy-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "PGEN",
+        "MRK",
+        "INO"
+      ],
+      "summary": "PGEN's Papzimeos is driving strong early sales, while European expansion and pipeline progress could shape the stock's growth outlook.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Can Pfizer Overcome Its COVID and Patent Cliff Headwinds?",
+      "publisher": "Zacks",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/can-pfizer-overcome-its-covid-and-patent-cliff-headwinds",
+      "primary_symbol": null,
+      "related_symbols": [
+        "PFE",
+        "AZN",
+        "JNJ",
+        "MRK"
+      ],
+      "summary": "PFE faces COVID revenue declines and a patent cliff, but new products, acquisitions and a strong pipeline could fuel growth from 2029.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Blue-Chip Stocks Are Looking Anything But Boring With Dividends and Big 2026 Gains",
+      "publisher": "MarketBeat",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/blue-chip-stocks-are-looking-anything-boring-dividends-and-big-2026-gains",
+      "primary_symbol": "KO",
+      "related_symbols": [
+        "KO",
+        "CVX",
+        "MRK"
+      ],
+      "summary": "Investors who believe that\u00a0blue-chip stocks mean boring\u00a0haven\u2019t\u00a0been paying close attention in\u00a02026. This year, several stocks that\u00a0have often lagged the S&P 500 are having stellar years, rewarding buy-and-hold investors.\nTo be fair,\u00a0growth-hungry investors often overlook blue-c",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Is Cancer the Turnaround Moderna Has Been Looking for Post-COVID?",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/cancer-turnaround-moderna-has-been-looking-post-covid",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MRNA",
+        "PFE",
+        "MRK",
+        "NVAX"
+      ],
+      "summary": "Cancer progress, a broader pipeline and vaccine expansion help MRNA rebuild beyond COVID-19, but can oncology drive its next growth phase?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Immunocore Hits Enrollment Target in Kimmtrak Label Expansion Study",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/immunocore-hits-enrollment-target-kimmtrak-label-expansion-study",
+      "primary_symbol": null,
+      "related_symbols": [
+        "IMCR",
+        "MRK",
+        "ANIK",
+        "PGEN"
+      ],
+      "summary": "IMCR achieves target enrollment in the phase III TEBE-AM study investigating Kimmtrak in previously treated patients with advanced melanoma.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "SCHD, NBIZ: Big ETF Inflows",
+      "publisher": "BNK Invest",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/schd-nbiz-big-etf-inflows",
+      "primary_symbol": "SCHD",
+      "related_symbols": [
+        "SCHD",
+        "NBIZ",
+        "MRK",
+        "AMGN"
+      ],
+      "summary": "Comparing units outstanding versus one week ago at the coverage universe of ETFs at ETF Channel, the biggest inflow was seen in the Schwab US Dividend Equity ETF, which added 24,950,000 units, or a 0.8% increase week over week.  Among the largest underlying components of SCHD, i",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "BioNTech Threw in the Towel on Its Colorectal Cancer Vaccine Trial. Should Investors Be Worried?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/biontech-threw-towel-its-colorectal-cancer-vaccine-trial-should-investors-be-worried",
+      "primary_symbol": "BNTX",
+      "related_symbols": [
+        "BNTX",
+        "MRK",
+        "MRNA"
+      ],
+      "summary": "Key PointsBioNTech terminated a Phase 2 study of autogene cevumeran in treating colorectal cancer.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Merck CEO Sees Pipeline Upside as Launches, Animal Health Drive Transformation",
+      "publisher": "MarketBeat",
+      "created": "Sep 14, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/merck-ceo-sees-pipeline-upside-launches-animal-health-drive-transformation",
+      "primary_symbol": "MRK",
+      "related_symbols": [
+        "MRK"
+      ],
+      "summary": "Blue-Chip Stocks Are Looking Anything But Boring With Dividends and Big 2026 GainsMerck & Co., Inc. (NYSE:MRK) Chairman and CEO Rob Davis said the company\u2019s \u201ctransformation is underway,\u201d citing progress across product launches, clinical data readouts, business development and its",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "JEPI and JEPQ Yield Way More Than SCHD, but SCHD Could Produce More Passive Income Over the Long Term. Here's Why.",
+      "publisher": "The Motley Fool",
+      "created": "Sep 17, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/jepi-and-jepq-yield-way-more-schd-schd-could-produce-more-passive-income-over-long-term",
+      "primary_symbol": "JEPI",
+      "related_symbols": [
+        "JEPI",
+        "MRK",
+        "SCHD",
+        "KO",
+        "CVX",
+        "COP",
+        "SCHW",
+        "ABT",
+        "JEPQ"
+      ],
+      "summary": "Key PointsCovered call ETFs limit the upside potential from stocks in exchange for monthly dividend income from options premiums.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates",
+        "valuation_dispersion",
+        "mna",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Merck Stock: Is The $70 Billion Pipeline Worth the Premium? | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/mrk/articles/615340/merck-stock-is-the-70-billion-pipeline-worth-the-premium/2026-09-15",
+      "summary": "# Merck Stock: Is The $70 Billion Pipeline Worth the Premium? | Trefis\n\nPublished: 2026-09-15T20:43:55-04:00\nSource: trefis.com (trefis.com)\nLanguage: en\n\n## Story\n\nMerck Stock: Is The $70 Billion Pipeline Worth the Premium? | Trefis\n\n# Merck Stock: Is The $70 Billion Pipeline Worth the Premium?\n\nSeptember 15th, 2026 \u00b7 by Trefis Team\n\nA powerful drug pipeline is fueling a stock trend that ranks in the top 6% of US stocks worth more than $1 billion, but the ticket price for investors is steep and the clock is ticking on its biggest star.\n\nMerck\u2019s (MRK) stock has shown formidable long-term stren",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Merck & Co., Inc., Rahway, N.J., USA Announces Second-Quarter 2026 Financial Results; Highlights Key Regulatory and Clinical Milestones Across Broad, Diverse Pipeline - Merck.com",
+      "publisher": "merck.com",
+      "url": "https://www.merck.com/news/merck-highlights-key-regulatory-and-clinical-milestones-across-broad-diverse-pipeline/",
+      "summary": "Merck & Co., Inc., Rahway, N.J., USA Announces Second-Quarter 2026 Financial Results; Highlights Key Regulatory and Clinical Milestones Across Broad, Diverse Pipeline - Merck.com\n\n# Merck & Co., Inc., Rahway, N.J., USA Announces Second-Quarter 2026 Financial Results; Highlights Key Regulatory and Clinical Milestones Across Broad, Diverse Pipeline \n\n August 4, 2026 6:30 am EDT \n\nSales Growth Reflects Continued Strength in Oncology, Including Initial Uptake of KEYTRUDA QLEX, and Animal Health, Plus Contributions From Launches Such as WINREVAIR\n\nFinancial Highlights\n\n- Total Worldwide Sales Were ",
+      "published": "2026-08-04",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Q2 2026 Merck & Co Inc Earnings Call on August 04, 2026 / 1:00PM",
+      "publisher": "merck.com",
+      "url": "https://www.merck.com/wp-content/uploads/sites/124/2026/08/MRK-USQ_Transcript_2026-08-04.pdf",
+      "summary": "## LSEG STREETEVENTS\n\n## EDITED TRANSCRIPT MRK.N - Q2 2026 Merck & Co Inc Earnings Call\n\n## EVENT DATE/TIME: AUGUST 04, 2026 / 1:00PM GMT\n\n### OVERVIEW: Company Summary\n\n\u00a92026 LSEG. All rights reserved. Republication or redistribution of LSEG content, including by framing or similar means, is prohibited without the prior written consent of LSEG. 'LSEG' and the LSEG logo are registered trademarks of LSEG and its affiliated companies.\n\n#### CORPORATE PARTICIPANTS\n\nPeter Dannenbaum Merck & Co Inc - Vice President of Investor Relations Robert Davis Merck & Co Inc - Chairman of the Board, President",
+      "published": "2026-08-04",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "News Release",
+      "publisher": "merck.com",
+      "url": "https://www.merck.com/wp-content/uploads/sites/124/2026/08/Merck-News-Release-08-04-26-Merck-Co.-Inc.-Rahway-N.J.-USA-Announces-Second-Quarter-2026-Financial-Results.pdf",
+      "summary": "- 1 -\n\nNews Release ____________________________________________________________________________\n\nMerck & Co., Inc., Rahway, N.J., USA Announces Second-Quarter 2026 Financial Results; Highlights Key Regulatory and Clinical Milestones Across Broad, Diverse Pipeline Sales Growth Reflects Continued Strength in Oncology, Including Initial Uptake of KEYTRUDA QLEX, and Animal Health, Plus Contributions From Launches Such as WINREVAIR\n\nFinancial Highlights \n- Total Worldwide Sales Were $16.6 Billion (5% Growth; 4% Growth ex-FX) \no KEYTRUDA/KEYTRUDA QLEX 1 Sales Were $8.4 Billion (5% Growth; 4% \nGrowt",
+      "published": "2026-08-04",
+      "source": "ollama_search",
+      "query": "Merck & Co., Inc. (MRK) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Pfizer\u2019s Dividend Yield Is Enormous. But Is the Payout Still Growing?",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-18T15:06:44Z",
+      "summary": "Pfizer has raised its dividend every year for over a decade, then something changed. Before you count on that 6% yield, find out what the payout's own behavior is quietly signaling about the company's financial confidence.",
+      "url": "https://247wallst.com/investing/2026/09/18/pfizers-dividend-yield-is-enormous-but-is-the-payout-still-growing/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "\u2018The Age of Cures\u2019 Review: What the Pharmacist Ordered",
+      "publisher": "The Wall Street Journal",
+      "published": "2026-09-18T15:32:00Z",
+      "summary": "The 20th-century advance in American pharmaceutical science was driven by a cohort of devoted researchers working with ambitious drug companies.",
+      "url": "https://www.wsj.com/arts-culture/books/the-age-of-cures-review-what-the-chemist-ordered-9bfa5e41?siteid=yhoof2&yptr=yahoo",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Merck Stock Nearly Doubled Without A Change In Its Revenue Growth",
+      "publisher": "Trefis",
+      "published": "2026-09-18T18:09:09Z",
+      "summary": "Merck (MRK) stock returned about 87% over the past twelve months, climbing from roughly $79 to about $147. Nothing in the year's results looks like that. The medicines Merck sells today grew at their usual pace. Investors spent the year repricing what comes next.",
+      "url": "https://www.trefis.com/articles/615855/merck-stock-nearly-doubled-without-a-change-in-its-revenue-growth/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Is Johnson & Johnson Stock Expensive, Or Is STELARA Hiding The Real Price?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T20:14:43Z",
+      "summary": "Johnson & Johnson (JNJ) stock has returned about 57% over the past year, against about 17% for the S&P 500. On the earnings it has already banked, that price looks expensive. But those earnings carry STELARA, which is losing share to biosimilar competition. What looks dear on earnings already reported comes down sharply on the earnings analysts expect.",
+      "url": "https://www.trefis.com/articles/615892/is-johnson-johnson-stock-expensive-or-is-stelara-hiding-the-real-price/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "What Would It Take For Eli Lilly Stock To Keep Climbing?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T21:23:44Z",
+      "summary": "Eli Lilly (LLY) trades near $1,150, up about 52% over the past year, and is now worth more than a trillion dollars. At that size the easy read is that the big money has been made. But Lilly has barely started selling Foundayo, its oral obesity medicine, outside the United States. So how much is left? The scenario below starts from Lilly's own trailing numbers, but the growth, margin, and multiple it assumes are ours. It is not a forecast and not a price target.",
+      "url": "https://www.trefis.com/articles/615857/what-would-it-take-for-eli-lilly-stock-to-keep-climbing/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
+      "publisher": "Motley Fool",
+      "published": "2026-09-19T09:00:00Z",
+      "summary": "Investors need something that evolves with a changing economy.",
+      "url": "https://www.fool.com/investing/2026/09/19/sp-500-returned-annually-etf-trust-30-years-vti/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Amgen or Merck: Which Drugmaker Has the Stronger Dividend Growth Story?",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-19T12:55:38Z",
+      "summary": "Both Amgen and Merck write quarterly checks and raise them every year, but only one has the portfolio depth to keep growing that payout through the next brutal round of patent expirations. The answer may surprise investors who have been watching Merck's blockbuster momentum.",
+      "url": "https://247wallst.com/investing/2026/09/19/amgen-or-merck-which-drugmaker-has-the-stronger-dividend-growth-story/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "mna"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 12,
+        "share": 0.308,
+        "evidence": [
+          {
+            "title": "Erste Group Bank Has Positive Outlook of MRK FY2026 Earnings - American Market News",
+            "publisher": "americanbankingnews.com",
+            "published": null,
+            "matched": [
+              "outlook",
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "Merck & Co. (MRK) Stock Analysis August 2026 - DCF Valuation",
+            "publisher": "alcapitaladvisory.com",
+            "published": "2026-05-04",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "Merck (MRK) - Fundamental Analysis Report 2026 (Updated)",
+            "publisher": "deepresearchglobal.com",
+            "published": "2026-06-26",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "Merck (MRK) stock: bull, base, and bear case from 6 months to 5 years | Market Supply Chain",
+            "publisher": "marketsupplychain.com",
+            "published": "2026-07-02",
+            "matched": [
+              "forecast"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 11,
+        "share": 0.282,
+        "evidence": [
+          {
+            "title": "Merck & Co. (MRK) Stock Analysis August 2026 - DCF Valuation",
+            "publisher": "alcapitaladvisory.com",
+            "published": "2026-05-04",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "Merck (MRK) - Fundamental Analysis Report 2026 (Updated)",
+            "publisher": "deepresearchglobal.com",
+            "published": "2026-06-26",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "Merck (MRK) earnings Q2 2026",
+            "publisher": "cnbc.com",
+            "published": "2026-08-04",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "2 Outstanding Dividend Stocks to Buy and Hold for 10 Years",
+            "publisher": "The Motley Fool",
+            "published": "Sep 12, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 6,
+        "share": 0.154,
+        "evidence": [
+          {
+            "title": "Merck & Co. (MRK) Stock Analysis August 2026 - DCF Valuation",
+            "publisher": "alcapitaladvisory.com",
+            "published": "2026-05-04",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Merck (MRK) stock: bull, base, and bear case from 6 months to 5 years | Market Supply Chain",
+            "publisher": "marketsupplychain.com",
+            "published": "2026-07-02",
+            "matched": [
+              "undervalued"
+            ]
+          },
+          {
+            "title": "JEPI and JEPQ Yield Way More Than SCHD, but SCHD Could Produce More Passive Income Over the Long Term. Here's Why.",
+            "publisher": "The Motley Fool",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "Merck Stock: Is The $70 Billion Pipeline Worth the Premium? | Trefis",
+            "publisher": "trefis.com",
+            "published": null,
+            "matched": [
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 5,
+        "share": 0.128,
+        "evidence": [
+          {
+            "title": "MRK Stock Forecast 2026-2027 - Merck & Co., Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-01",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Merck & Co. (MRK) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-09-09",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Merck & Co., Inc. (MRK) Estimates & Forecasts \u2014 EPS, Revenue & Price Targets (2026) | VCP Scanner",
+            "publisher": "vcpscanner.com",
+            "published": "2026-09-19",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "JEPI and JEPQ Yield Way More Than SCHD, but SCHD Could Produce More Passive Income Over the Long Term. Here's Why.",
+            "publisher": "The Motley Fool",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "options"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 3,
+        "share": 0.077,
+        "evidence": [
+          {
+            "title": "Merck & Co. (MRK) Q2 2026 Earnings Call Transcript & Audio",
+            "publisher": "stockanalysis.com",
+            "published": "2026-08-04",
+            "matched": [
+              "regulat"
+            ]
+          },
+          {
+            "title": "Merck & Co., Inc., Rahway, N.J., USA Announces Second-Quarter 2026 Financial Results; Highlights Key Regulatory and Clinical Milestones Across Broad, Diverse Pipeline - Merck.com",
+            "publisher": "merck.com",
+            "published": "2026-08-04",
+            "matched": [
+              "regulat"
+            ]
+          },
+          {
+            "title": "News Release",
+            "publisher": "merck.com",
+            "published": "2026-08-04",
+            "matched": [
+              "regulat"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 2,
+        "share": 0.051,
+        "evidence": [
+          {
+            "title": "JEPI and JEPQ Yield Way More Than SCHD, but SCHD Could Produce More Passive Income Over the Long Term. Here's Why.",
+            "publisher": "The Motley Fool",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Pfizer\u2019s Dividend Yield Is Enormous. But Is the Payout Still Growing?",
+            "publisher": "24/7 Wall St.",
+            "published": "2026-09-18T15:06:44Z",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-29"
+    ],
+    "next_date": "2026-10-29",
+    "eps_avg": 2.21073,
+    "eps_low": 2.01,
+    "eps_high": 2.41,
+    "revenue_avg": 17354898980
+  },
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "days_out": 39,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 2.21073,
+      "eps_low": 2.01,
+      "eps_high": 2.41,
+      "revenue_avg": 17354898980
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": -0.26,
+        "eps_actual": -0.13,
+        "surprise_pct": 49.43,
+        "beat": true
+      },
+      {
+        "date": "2026-04-30",
+        "eps_estimate": -1.47,
+        "eps_actual": -1.28,
+        "surprise_pct": 13.15,
+        "beat": true
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 2.01,
+        "eps_actual": 2.04,
+        "surprise_pct": 1.47,
+        "beat": true
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 2.35,
+        "eps_actual": 2.58,
+        "surprise_pct": 9.85,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 93,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-29 (Thursday, before the open), 39 days out -- from the earnings calendar, consensus EPS 2.21."
+  },
+  "forward_trends": {
+    "queries": [
+      "Merck MRK 2026 2027 Medicare drug price negotiation vaccine policy impact",
+      "2026 2027 hospital oncology drug spending PD-1 competition GLP-1 substitution budgets",
+      "2026 2027 adult immunization rates vaccine hesitancy government vaccine procurement budgets",
+      "2026 2027 veterinary services market pet spending livestock producer economics animal health demand"
+    ],
+    "results_count": 19,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "CMS issued final Medicare drug price negotiation guidance for 2027 and maximum fair price effectuation in 2026-2027.",
+        "stance": "pressure",
+        "why": "Negotiated prices and MFP implementation will reduce revenue for selected drugs.",
+        "quote": "guidance for initial price applicability year 2027 and manufacturer effectuation of the maximum fair price (MFP) in 2026 and 2027.",
+        "url": "https://www.cms.gov/files/document/medicare-drug-price-negotiation-final-guidance-ipay-2027-and-manufacturer-effectuation-mfp-2026-2027.pdf",
+        "publisher": "cms.gov",
+        "as_of": "2026-09-01",
+        "age_days": 19,
+        "undated": false
+      },
+      {
+        "claim": "Court dismissed Merck's Medicare negotiation challenge in August 2026, leaving excise-tax risk.",
+        "stance": "pressure",
+        "why": "Non-compliance with negotiated prices could trigger excise taxes that hit drug sales.",
+        "quote": "affirming the program\u2019s authority to impose steep excise taxes on non\u2011compliant drugs.",
+        "url": "https://everyticker.com/quote/MRK/news/court-dismisses-mercks-challenge-to-medicare-drug-price-negotiation-program",
+        "publisher": "everyticker.com",
+        "as_of": "2026-08-24",
+        "age_days": 27,
+        "undated": false
+      },
+      {
+        "claim": "Merck expects generic competition on JANUVIA and Adempas to create headwinds into 2027.",
+        "stance": "pressure",
+        "why": "Generic erosion lowers sales of those key products, weighing on revenue growth.",
+        "quote": "despite anticipated headwinds from generic competition on key products like JANUVIA and Adempas.",
+        "url": "https://earningscalls.dev/transcripts/merck-and-co-inc_mrk_earnings_call_transcript_2026-09-09",
+        "publisher": "earningscalls.dev",
+        "as_of": "2026-09-14",
+        "age_days": 6,
+        "undated": false
+      },
+      {
+        "claim": "Merck projects modest 2027 revenue growth and continued pipeline/new product investment as of September 2026.",
+        "stance": "support",
+        "why": "New launches and pipeline could offset generic losses and support future revenue.",
+        "quote": "projecting modest revenue growth for 2027 while emphasizing continued investment in their extensive pipeline and new product launches",
+        "url": "https://earningscalls.dev/transcripts/merck-and-co-inc_mrk_earnings_call_transcript_2026-09-09",
+        "publisher": "earningscalls.dev",
+        "as_of": "2026-09-14",
+        "age_days": 6,
+        "undated": false
+      },
+      {
+        "claim": "U.S. drug spending is projected to grow in 2026, supporting pharmaceutical demand.",
+        "stance": "support",
+        "why": "Higher overall spending can lift sales for Merck's medicines and vaccines.",
+        "quote": "predict growth in drug spending in 2026 in the United States",
+        "url": "https://doi.org/10.1093/ajhp/zxag115",
+        "publisher": "doi.org",
+        "as_of": "2026-04-15",
+        "age_days": 158,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "MRK",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 146.87,
+      "catalyst": "2026-10-29",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 155.0,
+        "premium": 4.5,
+        "bid": 4.15,
+        "ask": 4.85,
+        "mid": 4.5,
+        "last": 4.75,
+        "open_interest": 1056,
+        "volume": 12,
+        "implied_vol": 0.33161068786621095,
+        "qty": 10
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 155.0,
+        "premium": 1.43,
+        "bid": 1.28,
+        "ask": 1.58,
+        "mid": 1.43,
+        "last": 1.44,
+        "open_interest": 3891,
+        "volume": 922.0,
+        "implied_vol": 0.2718578674316406,
+        "qty": 4
+      },
+      "long_total": 4500.0,
+      "short_total": 572.0,
+      "net_debit": 3928.0,
+      "credit_ratio_mid": 0.1271,
+      "credit_ratio_conservative": 0.1056,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 155.0,
+          "qty": 10,
+          "underlying": 146.87,
+          "multiplier": 100,
+          "price": 4.5,
+          "total": 4500.0,
+          "open_interest": 1056
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 155.0,
+          "qty": 4,
+          "underlying": 146.87,
+          "multiplier": 100,
+          "price": 1.43,
+          "total": -572.0,
+          "open_interest": 3891
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-29 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 155, 150, 160, 165"
+      ],
+      "advice": "Credit ratio 10.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0318,
+          "credit_ratio_conservative": 0.0264,
+          "passes_floor": false,
+          "cash_collected": 143.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0636,
+          "credit_ratio_conservative": 0.0528,
+          "passes_floor": false,
+          "cash_collected": 286.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0953,
+          "credit_ratio_conservative": 0.0792,
+          "passes_floor": false,
+          "cash_collected": 429.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1271,
+          "credit_ratio_conservative": 0.1056,
+          "passes_floor": true,
+          "cash_collected": 572.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1589,
+          "credit_ratio_conservative": 0.132,
+          "passes_floor": true,
+          "cash_collected": 715.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1907,
+          "credit_ratio_conservative": 0.1584,
+          "passes_floor": true,
+          "cash_collected": 858.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2224,
+          "credit_ratio_conservative": 0.1847,
+          "passes_floor": true,
+          "cash_collected": 1001.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2542,
+          "credit_ratio_conservative": 0.2111,
+          "passes_floor": true,
+          "cash_collected": 1144.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.286,
+          "credit_ratio_conservative": 0.2375,
+          "passes_floor": true,
+          "cash_collected": 1287.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.3178,
+          "credit_ratio_conservative": 0.2639,
+          "passes_floor": true,
+          "cash_collected": 1430.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "MRK",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 146.87,
+      "catalyst": "2026-10-29",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 140.0,
+        "premium": 4.33,
+        "bid": 4.0,
+        "ask": 4.65,
+        "mid": 4.33,
+        "last": 4.55,
+        "open_interest": 2236,
+        "volume": 4.0,
+        "implied_vol": 0.3198310205078124,
+        "qty": 10
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 140.0,
+        "premium": 1.55,
+        "bid": 1.44,
+        "ask": 1.67,
+        "mid": 1.55,
+        "last": 1.67,
+        "open_interest": 1508,
+        "volume": 88,
+        "implied_vol": 0.2683178637695312,
+        "qty": 4
+      },
+      "long_total": 4330.0,
+      "short_total": 620.0,
+      "net_debit": 3710.0,
+      "credit_ratio_mid": 0.1432,
+      "credit_ratio_conservative": 0.1239,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 140.0,
+          "qty": 10,
+          "underlying": 146.87,
+          "multiplier": 100,
+          "price": 4.33,
+          "total": 4330.0,
+          "open_interest": 2236
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 140.0,
+          "qty": 4,
+          "underlying": 146.87,
+          "multiplier": 100,
+          "price": 1.55,
+          "total": -620.0,
+          "open_interest": 1508
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-29 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 140, 145, 135, 130"
+      ],
+      "advice": "Credit ratio 12.4% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0358,
+          "credit_ratio_conservative": 0.031,
+          "passes_floor": false,
+          "cash_collected": 155.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0716,
+          "credit_ratio_conservative": 0.0619,
+          "passes_floor": false,
+          "cash_collected": 310.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1074,
+          "credit_ratio_conservative": 0.0929,
+          "passes_floor": false,
+          "cash_collected": 465.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1432,
+          "credit_ratio_conservative": 0.1239,
+          "passes_floor": true,
+          "cash_collected": 620.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.179,
+          "credit_ratio_conservative": 0.1548,
+          "passes_floor": true,
+          "cash_collected": 775.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2148,
+          "credit_ratio_conservative": 0.1858,
+          "passes_floor": true,
+          "cash_collected": 930.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2506,
+          "credit_ratio_conservative": 0.2168,
+          "passes_floor": true,
+          "cash_collected": 1085.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2864,
+          "credit_ratio_conservative": 0.2477,
+          "passes_floor": true,
+          "cash_collected": 1240.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3222,
+          "credit_ratio_conservative": 0.2787,
+          "passes_floor": true,
+          "cash_collected": 1395.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.358,
+          "credit_ratio_conservative": 0.3097,
+          "passes_floor": true,
+          "cash_collected": 1550.0
+        }
+      ]
+    }
+  }
+}

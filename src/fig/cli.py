@@ -300,32 +300,71 @@ def cmd_generate(args) -> int:
 
     # args.symbols is already a list from nargs="*" -- it must NOT go through
     # _split_symbols, which stringifies and would yield "['ORCL']".
+    from . import discover
+
     symbols = [s.strip().upper() for s in (args.symbols or []) if s.strip()]
     if not symbols:
         symbols = [s.strip().upper() for s in (args.watchlist or []) if s.strip()]
-    if not symbols:
-        print("give one or more tickers", file=sys.stderr)
-        return 1
-
-    # --directions is a comma-separated string; directions are lowercase.
-    directions = [d.strip().lower() for d in (args.directions or "long").split(",") if d.strip()]
-    if not directions:
-        directions = ["long"]
-    results = []
-    failures = []
-    excluded = []
 
     # The cap is on by default: ideas are capped so a position fits the capital
     # unit. --max-price 0 means "no cap" for an exploratory scan.
-    from . import discover as _discover
-
     raw_cap = getattr(args, "max_price", None)
     if raw_cap is None:
-        max_price = _discover.DEFAULT_MAX_PRICE
+        max_price = discover.DEFAULT_MAX_PRICE
     elif raw_cap <= 0:
         max_price = None
     else:
         max_price = raw_cap
+
+    # --screen N closes a loop that was left open: the screener produced ranked
+    # candidates that nothing ever generated from, so its survivors sat un-written
+    # unless someone retyped the tickers by hand.
+    hint: dict[str, str] = {}
+    screen_n = int(getattr(args, "screen", 0) or 0)
+    if screen_n:
+        outcome = discover.scan(
+            top=screen_n,
+            limit=int(getattr(args, "screen_limit", 60) or 60),
+            max_price=max_price,
+            require_structure=bool(getattr(args, "strict", False)),
+            require_positive_pe=bool(getattr(args, "strict", False)),
+        )
+        for row in outcome["ranked"]:
+            hint[row["symbol"]] = row.get("direction_hint") or "long"
+        for row in outcome["ranked"]:
+            if row["symbol"] not in symbols:
+                symbols.append(row["symbol"])
+        print(
+            f"screener: {outcome['pool_size']} in pool, {outcome['screened']} screened, "
+            f"{len(outcome['ranked'])} passed -> {len(hint)} to generate"
+        )
+        for row in outcome["ranked"]:
+            print(
+                f"  {row['symbol']:6} {row.get('direction_hint','?'):5} "
+                f"score {row['score']:5.1f}"
+                + (f"  caveats: {'; '.join(row['caveats'])}" if row.get("caveats") else "")
+            )
+
+    if not symbols:
+        print("give one or more tickers, or --screen N", file=sys.stderr)
+        return 1
+
+    # --directions is a comma-separated string; directions are lowercase. With
+    # --screen and no explicit flag, the screener's own hint is the better default:
+    # it is derived from the revision-versus-price divergence that put the name on
+    # the list in the first place.
+    if getattr(args, "directions", None):
+        directions = [d.strip().lower() for d in args.directions.split(",") if d.strip()]
+    elif hint:
+        directions = [hint.get(symbol, "long") for symbol in symbols]
+    else:
+        directions = ["long"]
+    if not directions:
+        directions = ["long"]
+
+    results = []
+    failures = []
+    excluded = []
 
     # Tickers are independent, and generation is almost entirely network wait, so
     # a batch runs concurrently. This is the single biggest speed win available:
@@ -548,6 +587,25 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("generate", help="generate finished idea notes with the model")
     p.add_argument(
+        "--screen",
+        type=int,
+        default=0,
+        metavar="N",
+        help="generate from the screener's top N survivors instead of a typed list",
+    )
+    p.add_argument(
+        "--screen-limit",
+        type=int,
+        default=60,
+        help="how many names the screener screens before ranking (default 60)",
+    )
+    p.add_argument(
+        "--strict",
+        action="store_true",
+        help="also filter on missing option chains and loss-making (off by default: "
+        "that data can be wrong)",
+    )
+    p.add_argument(
         "--jobs",
         type=int,
         default=1,
@@ -570,7 +628,14 @@ def build_parser() -> argparse.ArgumentParser:
     )
     p.add_argument("symbols", nargs="*", help="tickers to write up")
     p.add_argument("--watchlist", nargs="*", default=[])
-    p.add_argument("--directions", default="long", help="comma-separated, aligned to tickers")
+    # default=None, not "long": a truthy default would always win the check in
+    # cmd_generate and silently override the screener's own direction hints.
+    p.add_argument(
+        "--directions",
+        default=None,
+        help="comma-separated, aligned to tickers (default: the screener's hint "
+        "with --screen, otherwise long)",
+    )
     p.add_argument("--peers", default="")
     p.add_argument("--model", default=None, help="model id, e.g. deepseek-v4-pro:0813")
     p.add_argument("--out", default="research")
