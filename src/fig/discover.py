@@ -40,6 +40,27 @@ from .sources import nasdaq, yahoo
 
 
 # --------------------------------------------------------------------------
+# the two sizing rules that shape the pool
+# --------------------------------------------------------------------------
+
+# Ideas are capped by share price. The reason is practical, not stylistic: the
+# reference structures size a position from a ~$4,500 capital unit against
+# 100-share contracts, and a high-priced underlying breaks that arithmetic -- AZO
+# at ~$2,855 had a single option contract costing $13,275, three times the unit.
+# A $150 ceiling keeps a normal position tradeable inside the unit.
+#
+# This is the ONE gate on by default in :func:`rank_candidates`, because it is a
+# tradeability rule rather than a judgement about the data.
+DEFAULT_MAX_PRICE = 150.0
+
+# The pool's market-cap floor. It is not a quality filter: it keeps the option
+# requirement satisfiable, because microcaps rarely have listed strikes worth
+# trading. `fig screen --min-market-cap` and `fig generate --min-market-cap` move
+# it; the owner's tighter scans use $1B.
+DEFAULT_MIN_MARKET_CAP = 2e9
+
+
+# --------------------------------------------------------------------------
 # universe
 # --------------------------------------------------------------------------
 
@@ -49,7 +70,7 @@ def universe(
     watchlist: list[str] | None = None,
     earnings_days: int = 10,
     screener_limit: int = 60,
-    min_market_cap: float = 2e9,
+    min_market_cap: float = DEFAULT_MIN_MARKET_CAP,
     include_screener: bool = True,
 ) -> list[dict]:
     """Assemble the raw candidate pool with the reason each name surfaced.
@@ -195,14 +216,6 @@ def screen_symbol(symbol: str) -> dict:
 
     out["direction_hint"], out["score"], out["score_components"] = _score(out)
     return out
-
-
-# Ideas are capped by share price. The reason is practical, not stylistic: the
-# reference structures size a position from a ~$4,500 capital unit against
-# 100-share contracts, and a high-priced underlying breaks that arithmetic -- AZO
-# at ~$2,855 had a single option contract costing $13,275, three times the unit.
-# A $150 ceiling keeps a normal position tradeable inside the unit.
-DEFAULT_MAX_PRICE = 150.0
 
 
 def _score(row: dict) -> tuple[str, float, dict]:
@@ -402,14 +415,23 @@ def scan(
     require_structure: bool = False,
     require_positive_pe: bool = False,
     max_price: float | None = DEFAULT_MAX_PRICE,
+    min_market_cap: float = DEFAULT_MIN_MARKET_CAP,
 ) -> dict:
     """End-to-end triage: build a universe, screen it, rank it.
 
     ``limit`` caps how many names get screened, since each screen costs several
     network calls. Names from an explicit watchlist are always screened first.
+
+    ``min_market_cap`` is applied twice and for the same reason both times: to the
+    earnings calendar when the pool is built (microcaps rarely carry tradeable
+    options) and to the screener rows. It is a *pool* filter, not a ranking input --
+    a name below the floor is never added, so it cannot appear as "gated" either.
     """
     pool = universe(
-        watchlist=watchlist, earnings_days=earnings_days, include_screener=include_screener
+        watchlist=watchlist,
+        earnings_days=earnings_days,
+        include_screener=include_screener,
+        min_market_cap=min_market_cap,
     )
 
     priority = {"watchlist": 0, "earnings": 1, "screener": 2}
@@ -437,4 +459,16 @@ def scan(
         "all_rows": rows,
         "gated": gated,
         "failures": [r for r in rows if r.get("error")],
+        # The rules the pool was built under, so a run's coverage is auditable
+        # rather than inferred from the numbers it happened to produce.
+        "settings": {
+            "max_price": max_price,
+            "min_market_cap": min_market_cap,
+            "earnings_days": earnings_days,
+            "include_screener": include_screener,
+            "require_structure": require_structure,
+            "require_positive_pe": require_positive_pe,
+            "limit": limit,
+            "top": top,
+        },
     }

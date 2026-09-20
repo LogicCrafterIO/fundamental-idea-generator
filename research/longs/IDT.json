@@ -1,0 +1,666 @@
+{
+  "ticker": "IDT",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Point-of-sale terminals and payment processing for independent US convenience stores, plus money transfer and cloud phone services.",
+  "catalyst": {
+    "date": "2026-09-28",
+    "weekday": "Monday",
+    "session": "after the close",
+    "days_out": 8,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.98
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-03",
+        "eps_estimate": 0.89,
+        "eps_actual": 0.94,
+        "surprise_pct": 5.62,
+        "beat": true
+      },
+      {
+        "date": "2026-03-10",
+        "eps_estimate": 0.9,
+        "eps_actual": 1.0,
+        "surprise_pct": 11.11,
+        "beat": true
+      },
+      {
+        "date": "2025-12-04",
+        "eps_estimate": 0.88,
+        "eps_actual": 0.94,
+        "surprise_pct": 6.82,
+        "beat": true
+      },
+      {
+        "date": "2025-09-29",
+        "eps_estimate": 0.91,
+        "eps_actual": 0.67,
+        "surprise_pct": -26.37,
+        "beat": false
+      }
+    ],
+    "beat_streak": 3,
+    "median_gap_days": 90,
+    "facts_line": "2026-09-28 (Monday, after the close), 8 days out -- from the earnings calendar, consensus EPS 0.98.",
+    "why": "Q4 must show NRS revenue and margin still compounding while legacy communications gross profit shrinks, or the mix story stalls."
+  },
+  "reasons": [
+    "NRS [National Retail Solutions, the point-of-sale terminal network] passed 39,000 active terminals and 29,000 payment accounts, and because each terminal adds recurring payment revenue, its operating income rose 33%.",
+    "EMV [chip-card payment] mandates and convenience-store consolidation force terminal replacements, so NRS sells into a market compounding at 8.7% a year through 2035.",
+    "Because higher-margin NRS, Fintech and net2phone revenue replaces low-margin legacy minutes, profit outgrows sales: revenue rose 5% to $315.7M while adjusted EBITDA [earnings before interest, tax, depreciation and amortisation] rose 13% to $37.5M."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S5",
+        "kind": "yahoo",
+        "ref": "news:0",
+        "label": "Motley Fool: IDT (IDT) Q3 2026 Earnings Call Transcript",
+        "provider": "fool.com",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/06/04/idt-idt-q3-2026-earnings-call-transcript/",
+        "date": "2026-06-04"
+      },
+      {
+        "id": "S27",
+        "kind": "ollama_search",
+        "ref": "web:3",
+        "label": "idt.net: IDT Corporation Reports Third Quarter Fiscal Year 2026 Results - IDT Corp",
+        "provider": "idt.net",
+        "url": "https://www.idt.net/idt-corporation-reports-third-quarter-fiscal-year-2026-results/",
+        "date": "2026-06-03"
+      }
+    ],
+    [
+      {
+        "id": "S37",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "markwideresearch.com: As of May 2026, the fuel and c-store POS market is projected to grow at an 8.70% CAGR through 2035.",
+        "provider": "markwideresearch.com",
+        "url": "https://markwideresearch.com/fuel-and-convenience-store-pos-market",
+        "date": "2026-05-01"
+      },
+      {
+        "id": "S38",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "markwideresearch.com: In 2026, EMV compliance mandates in North America are forcing c-store POS hardware refreshes.",
+        "provider": "markwideresearch.com",
+        "url": "https://markwideresearch.com/fuel-and-convenience-store-pos-market",
+        "date": "2026-05-01"
+      },
+      {
+        "id": "S39",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "markwideresearch.com: As of May 2026, US c-store consolidation is accelerating POS replacement cycles.",
+        "provider": "markwideresearch.com",
+        "url": "https://markwideresearch.com/fuel-and-convenience-store-pos-market",
+        "date": "2026-05-01"
+      }
+    ],
+    [
+      {
+        "id": "S36",
+        "kind": "ollama_search",
+        "ref": "web:12",
+        "label": "drillr.ai: [IDT] IDT: Q4 Fiscal 2026 Earnings Preview as Legacy Cash Funds NRS and BOSS Money | drillr",
+        "provider": "drillr.ai",
+        "url": "https://drillr.ai/article/idt-q4-fiscal-2026-earnings-preview-nrs-boss-money",
+        "date": "2026-09-28"
+      },
+      {
+        "id": "S27",
+        "kind": "ollama_search",
+        "ref": "web:3",
+        "label": "idt.net: IDT Corporation Reports Third Quarter Fiscal Year 2026 Results - IDT Corp",
+        "provider": "idt.net",
+        "url": "https://www.idt.net/idt-corporation-reports-third-quarter-fiscal-year-2026-results/",
+        "date": "2026-06-03"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for IDT",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/IDT/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for IDT",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/IDT/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "IDT quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/idt/financials",
+      "date": "4/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "IDT earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/idt/earnings",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Motley Fool: IDT (IDT) Q3 2026 Earnings Call Transcript",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/06/04/idt-idt-q3-2026-earnings-call-transcript/",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Moby: IDT Corporation Q3 2026 Earnings Call Summary",
+      "provider": "app.moby.co",
+      "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-idt-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "GuruFocus.com: IDT Corp (IDT) Q3 2026 Earnings Call Highlights: Strong Revenue Growth and Strategic Expansion",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/idt-corp-idt-q3-2026-010140197.html",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Simply Wall St.: Assessing IDT (IDT) Valuation After Mixed Share Performance And Apparent Discount To Fair Value",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-idt-idt-valuation-mixed-100712902.html",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "ref": "news:4",
+      "label": "Zacks: IDT Stock Gains Post Q3 Earnings as Growth Segments Boost Profit",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/idt-stock-gains-post-q3-171400944.html",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "ref": "news:5",
+      "label": "Zacks: The Zacks Analyst Blog Highlights Costco, Chevron, Home Depot, IDT and Waterstone Financial",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-costco-145500969.html",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "ref": "news:6",
+      "label": "MarketBeat: IDT Highlights Growth Engines, Delays net2phone Spin-Off Until Markets Improve",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/event-idt-highlights-growth-engines-delays-net2phone-spin-off-until-markets-improve-2026-08-29/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "S12",
+      "kind": "yahoo",
+      "ref": "news:7",
+      "label": "Simply Wall St.: IDT (IDT) eSIM Launch Leaves Its Valuation Story Open",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/idt-idt-esim-launch-leaves-061213274.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: IDT Executive Trims Stake With Shares Up 10%. Here's What Investors Should Know",
+      "provider": null,
+      "url": "/articles/idt-executive-trims-stake-shares-10-heres-what-investors-should-know",
+      "date": "Apr 21, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "MarketBeat: IDT Q3 Earnings Call Highlights",
+      "provider": null,
+      "url": "/articles/idt-q3-earnings-call-highlights",
+      "date": "Jun 3, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "RTTNews: IDT Corp. Q3 Sales Increase",
+      "provider": null,
+      "url": "/articles/idt-corp-q3-sales-increase",
+      "date": "Jun 3, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: The Zacks Analyst Blog Highlights Broadcom, Cisco, Alibaba, IDT and Hamilton Beach",
+      "provider": null,
+      "url": "/articles/zacks-analyst-blog-highlights-broadcom-cisco-alibaba-idt-and-hamilton-beach",
+      "date": "Jun 4, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "RTTNews: IDT Corp. Bottom Line Advances In Q2",
+      "provider": null,
+      "url": "/articles/idt-corp-bottom-line-advances-q2",
+      "date": "Mar 10, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: IDT Stock Slips Post Q2 Earnings Despite Revenue and EPS Growth",
+      "provider": null,
+      "url": "/articles/idt-stock-slips-post-q2-earnings-despite-revenue-and-eps-growth",
+      "date": "Mar 13, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "BNK Invest: Ex-Div Reminder for IDT",
+      "provider": null,
+      "url": "/articles/ex-div-reminder-idt",
+      "date": "Mar 18, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Zacks: Top Stock Reports for Broadcom, Cisco & Alibaba",
+      "provider": null,
+      "url": "/articles/top-stock-reports-broadcom-cisco-alibaba",
+      "date": "Jun 3, 202"
+    },
+    {
+      "id": "S21",
+      "kind": "nasdaq",
+      "ref": "news:16",
+      "label": "Zacks: 2 Small Caps with Recurring Revenue and Strong Balance Sheets",
+      "provider": null,
+      "url": "/articles/2-small-caps-recurring-revenue-and-strong-balance-sheets",
+      "date": "Jun 4, 202"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Zacks: Top Analyst Reports for Costco, Chevron & Home Depot",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-costco-chevron-202100592.html",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Zacks: 2 Micro-caps with Conglomerate-like Properties",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-micro-caps-conglomerate-properties-091400511.html",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: IDT Corporation: A Sum-Of-The-Parts Story With Real Upside And Real Uncertainty (NYSE:IDT) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4922258-idt-corporation-a-sum-of-the-parts-story-with-real-upside-and-real-uncertainty",
+      "date": null
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "seekingalpha.com: IDT Corporation: A Better Mix With Good Long-Term Potential (NYSE:IDT) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4912621-idt-corporation-a-better-mix-with-good-long-term-potential",
+      "date": null
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "simplywall.st: IDT (NYSE:IDT) - Stock Analysis - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/telecom/nyse-idt/idt",
+      "date": "2024-03-18"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "idt.net: IDT Corporation Reports Third Quarter Fiscal Year 2026 Results - IDT Corp",
+      "provider": "idt.net",
+      "url": "https://www.idt.net/idt-corporation-reports-third-quarter-fiscal-year-2026-results/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "circlfi.com: IDT Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/idt-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "finance.yahoo.com: IDT Corporation (IDT) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/IDT/analysis/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "compcap.substack.com: IDT Q3 FY26: Incremental Profits from Higher-Quality Businesses Take Higher Share",
+      "provider": "compcap.substack.com",
+      "url": "https://compcap.substack.com/p/idt-q3-fy26-incremental-profits-from",
+      "date": "2026-06-14"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "magicdiligence.com: IDT Corp (IDT): Three High-Margin Growth Engines Hidden Inside a Legacy Telecom \u2014 MagicDiligence",
+      "provider": "magicdiligence.com",
+      "url": "https://magicdiligence.com/articles/idt-corp-idt-three-high-margin-growth-engines-hidden-inside-a-legacy-telecom",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "tickernerd.com: IDT Stock Forecast 2026-2027 - IDT Corp. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/idt-forecast/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "marketwatch.com: IDT | IDT Corp. Cl B Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/idt/analystestimates",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "globenewswire.com: IDT Corporation to Report Fourth Quarter and Fiscal Year",
+      "provider": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/09/14/3361077/33173/en/idt-corporation-to-report-fourth-quarter-and-fiscal-year-2026-results.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "wallstreetnumbers.com: IDT Corporation (IDT) Stock Financials, Chart, Sentiment & Profile",
+      "provider": "wallstreetnumbers.com",
+      "url": "https://wallstreetnumbers.com/stocks/idt",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "drillr.ai: [IDT] IDT: Q4 Fiscal 2026 Earnings Preview as Legacy Cash Funds NRS and BOSS Money | drillr",
+      "provider": "drillr.ai",
+      "url": "https://drillr.ai/article/idt-q4-fiscal-2026-earnings-preview-nrs-boss-money",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "markwideresearch.com: As of May 2026, the fuel and c-store POS market is projected to grow at an 8.70% CAGR through 2035.",
+      "provider": "markwideresearch.com",
+      "url": "https://markwideresearch.com/fuel-and-convenience-store-pos-market",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "markwideresearch.com: In 2026, EMV compliance mandates in North America are forcing c-store POS hardware refreshes.",
+      "provider": "markwideresearch.com",
+      "url": "https://markwideresearch.com/fuel-and-convenience-store-pos-market",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "markwideresearch.com: As of May 2026, US c-store consolidation is accelerating POS replacement cycles.",
+      "provider": "markwideresearch.com",
+      "url": "https://markwideresearch.com/fuel-and-convenience-store-pos-market",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "markwideresearch.com: As of May 2026, independent fuel retailers are upgrading legacy systems to cloud-connected terminals.",
+      "provider": "markwideresearch.com",
+      "url": "https://markwideresearch.com/fuel-and-convenience-store-pos-market",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "paymentnerds.com: In 2026, c-store POS buyers demand integration across fuel, inventory, age verification, fleet cards, and loyalty.",
+      "provider": "paymentnerds.com",
+      "url": "https://paymentnerds.com/blog/convenience-store-and-gas-station-merchant-account-best-pos-and-payment-solutions-for-c-stores/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S42",
+      "kind": "options",
+      "ref": "options",
+      "label": "IDT listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/IDT/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 69.84,
+    "market_cap": "1.74B",
+    "fwd_pe": 18.1,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.4,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all up, with 1 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter long-term investments increasing 14% quarter over quarter (4/30/2026)",
+      "Last quarter earnings before interest and tax increasing 11% quarter over quarter (4/30/2026)"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Mar-27",
+        "strike": 70.0,
+        "qty": 6,
+        "underlying": 69.84,
+        "multiplier": 100,
+        "price": 6.55,
+        "total": 3929.9999999999995,
+        "open_interest": 1
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 70.0,
+        "qty": 2,
+        "underlying": 69.84,
+        "multiplier": 100,
+        "price": 3.17,
+        "total": -634.0,
+        "open_interest": 2
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-28 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
+    "reflection": "At 7.1% the credit is under the floor, so one more short contract is needed before the carry justifies the risk. The short 70 call expires 2026-10-16, three weeks after the print, so the earnings reaction is the whole trade \u2014 a miss leaves the short exposed to a rally."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 72,
+        "errors": 1,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 64,
+        "errors": 2,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 8,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 8,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "convenience",
+          "mandates",
+          "operators"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "consolidation",
+          "legacy",
+          "mandates",
+          "replacement",
+          "terminal",
+          "through"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "contact",
+          "digital",
+          "forcing",
+          "forecast",
+          "mandates",
+          "migrant",
+          "retailers",
+          "store",
+          "terminal",
+          "through"
+        ]
+      }
+    ]
+  }
+}

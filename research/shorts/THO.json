@@ -1,0 +1,604 @@
+{
+  "ticker": "THO",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Recreational vehicle maker: travel trailers, fifth wheels and motorhomes sold through independent dealers in North America and Europe.",
+  "catalyst": {
+    "date": "2026-09-22",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 2,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.92868,
+      "eps_low": 0.7,
+      "eps_high": 1.4,
+      "revenue_avg": 2169741930
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-03",
+        "eps_estimate": 1.93,
+        "eps_actual": 1.86,
+        "surprise_pct": -3.73,
+        "beat": false
+      },
+      {
+        "date": "2026-03-03",
+        "eps_estimate": 0.04,
+        "eps_actual": 0.34,
+        "surprise_pct": 860.18,
+        "beat": true
+      },
+      {
+        "date": "2025-12-03",
+        "eps_estimate": -0.07,
+        "eps_actual": 0.41,
+        "surprise_pct": 707.41,
+        "beat": true
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": 1.23,
+        "eps_actual": 2.36,
+        "surprise_pct": 91.12,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-22 (Tuesday, before the open), 2 days out -- from the earnings calendar, consensus EPS 0.93.",
+    "why": "The print must show towable shipments and backlog still falling, and Q4 guidance at or below the $0.93 consensus."
+  },
+  "reasons": [
+    "North American towable RV sales fell 24.6% and backlog fell 39.1% in fiscal Q3 2026; backlog is next quarter's revenue, so the decline is already locked in.",
+    "Citi cut its 2027-2028 RV estimates on 16 September and sees weak demand through 2026, so the sell-side numbers are still being marked down, not up.",
+    "Consensus Q4 EPS of $0.93 is 61% below the $2.36 reported a year ago, and June's print missed (1.93 estimate vs 1.86 actual) \u2014 the beat streak is over."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S35",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "gainbrief.com: In fiscal Q3 2026, North American towable RV sales fell 24.6% and backlog fell 39.1%, showing dealer caution.",
+        "provider": "gainbrief.com",
+        "url": "https://gainbrief.com/post/861b258e-2f9a-4833-82bc-f1e8fa9bcaa3",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "investing.com: As of September 2026, Citi sees weak RV demand continuing through 2026 and cuts 2027-2028 estimates.",
+        "provider": "investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/citi-cuts-rv-sector-estimates-as-industry-faces-ongoing-weakness-93CH-4903205",
+        "date": "2026-09-16"
+      }
+    ],
+    [
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "THO earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/tho/earnings",
+        "date": "2026-09-22"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for THO",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/THO/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for THO",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/THO/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "THO quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tho/financials",
+      "date": "4/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "THO earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tho/earnings",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Zacks: Here Is Why Bargain Hunters Would Love Fast-paced Mover Thor Industries (THO)",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-bargain-hunters-love-fast-125502273.html",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Zacks: Should Value Investors Buy Thor Industries (THO) Stock?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-thor-industries-134001948.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "StockStory: THOR Industries (THO): Buy, Sell, or Hold Post Q1 Earnings?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/thor-industries-tho-buy-sell-144104844.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Simply Wall St.: Is THOR Industries (THO) Centralizing RV Leadership To Unlock Synergies Or Risk Brand Flexibility?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/thor-industries-tho-centralizing-rv-151042775.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "ref": "news:4",
+      "label": "Benzinga: How To Earn $500 A Month From Thor Industries Stock Ahead Of Q4 Earnings",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-thor-industries-013007888.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "ref": "news:5",
+      "label": "Zacks: Thor Industries (THO) Expected to Beat Earnings Estimates: What to Know Ahead of Q4 Release",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/thor-industries-tho-expected-beat-140006828.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "ref": "news:6",
+      "label": "Zacks: What Analyst Projections for Key Metrics Reveal About Thor Industries (THO) Q4 Earnings",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131503110.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: EMCOR and Thor Industries have been highlighted as Zacks Bull and Bear of the Day",
+      "provider": null,
+      "url": "/articles/emcor-and-thor-industries-have-been-highlighted-zacks-bull-and-bear-day",
+      "date": "Aug 17, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Bear of the Day: Thor Industries (THO)",
+      "provider": null,
+      "url": "/articles/bear-day-thor-industries-tho-0",
+      "date": "Aug 17, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Why Is Thor Industries (THO) Up 2.2% Since Last Earnings Report?",
+      "provider": null,
+      "url": "/articles/why-thor-industries-tho-22-last-earnings-report",
+      "date": "Jul 3, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "BNK Invest: Daily Dividend Report: MA,DELL,STWD,USB,THO",
+      "provider": null,
+      "url": "/articles/daily-dividend-report-madellstwdusbtho",
+      "date": "Jun 17, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "BNK Invest: Friday Sector Leaders: Vehicle Manufacturers, Packaging & Containers",
+      "provider": null,
+      "url": "/articles/friday-sector-leaders-vehicle-manufacturers-packaging-containers",
+      "date": "Jul 24, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Winnebago Misses Q3 Earnings & Revenue Estimates, Cuts Guidance",
+      "provider": null,
+      "url": "/articles/winnebago-misses-q3-earnings-revenue-estimates-cuts-guidance",
+      "date": "Jun 26, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: WGO Stock Outlook Hinges on Motorhome RV Strength in 2026",
+      "provider": null,
+      "url": "/articles/wgo-stock-outlook-hinges-motorhome-rv-strength-2026",
+      "date": "Jun 26, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: Is Winnebago Stock a Value Trap or a Contrarian Buy in 2026?",
+      "provider": null,
+      "url": "/articles/winnebago-stock-value-trap-or-contrarian-buy-2026",
+      "date": "Jun 26, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "Zacks: Argan (AGX) Q2 Earnings and Revenues Beat Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/argan-agx-q2-earnings-revenues-212502594.html",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "Zacks: FPS Set to Report Q4 Earnings: What's in Store for the Stock?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fps-set-report-q4-earnings-132600337.html",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Kiplinger: Earnings Calendar and Analysis for This Week (September 21-25)",
+      "provider": "kiplinger.com",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: THOR Industries: Technicals And Valuations In Sync, But Market Risks May Offset Them (THO) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4883916-thor-industries-stock-technicals-valuation-sync-but-market-risks-may-offset-maintain-hold",
+      "date": null
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "ir.thorindustries.com: Thor Industries, Inc. - THOR INDUSTRIES ANNOUNCES FISCAL 2026 SECOND QUARTER RESULTS",
+      "provider": "ir.thorindustries.com",
+      "url": "https://ir.thorindustries.com/investor-resources/press-releases/press-release-details/2026/THOR-INDUSTRIES-ANNOUNCES-FISCAL-2026-SECOND-QUARTER-RESULTS/default.aspx",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "circlfi.com: THO Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/tho-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "simplywall.st: Does Macro Shock Pressure On RV Demand Change The Bull Case For THOR Industries (THO)? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/automobiles/nyse-tho/thor-industries/news/does-macro-shock-pressure-on-rv-demand-change-the-bull-case",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "webull.ca: Thor Industries Gears Up For Q4 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "provider": "webull.ca",
+      "url": "https://www.webull.ca/news-detail/15581678206387200",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "stockanalysis.com: THOR Industries (THO) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/tho/forecast/",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "simplywall.st: How Prolonged Margin Pressure And Weaker Returns On Capital At THOR Industries (THO) Has Changed Its Investment Story - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/automobiles/nyse-tho/thor-industries/news/how-prolonged-margin-pressure-and-weaker-returns-on-capital",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "tickernerd.com: THO Stock Forecast 2026-2027 - Thor Industries, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/tho-forecast/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: Thor Industries: Limited Upside, Negative Operating Leverage (Rating Downgrade) (NYSE:THO) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4938749-thor-industries-stock-limited-upside-negative-operating-leverage-rating-downgrade",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "marketbeat.com: Thor Industries (THO) to Post Quarterly Earnings on Tuesday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-thor-industries-tho-to-post-quarterly-earnings-on-tuesday-2026-09-15/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "stocktitan.net: THOR Industries Sets Fiscal 2026 Q4 Earnings Date | THO Stock News",
+      "provider": "stocktitan.net",
+      "url": "https://www.stocktitan.net/news/THO/thor-industries-announces-date-for-its-fiscal-2026-fourth-quarter-hxvngz2p5udg.html",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "investing.com: As of September 2026, Citi sees weak RV demand continuing through 2026 and cuts 2027-2028 estimates.",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/citi-cuts-rv-sector-estimates-as-industry-faces-ongoing-weakness-93CH-4903205",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "gainbrief.com: In fiscal Q3 2026, North American towable RV sales fell 24.6% and backlog fell 39.1%, showing dealer caution.",
+      "provider": "gainbrief.com",
+      "url": "https://gainbrief.com/post/861b258e-2f9a-4833-82bc-f1e8fa9bcaa3",
+      "date": null
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "gainbrief.com: In fiscal Q3 2026, motorized RV demand held up better than towables, supporting THOR's mix.",
+      "provider": "gainbrief.com",
+      "url": "https://gainbrief.com/post/861b258e-2f9a-4833-82bc-f1e8fa9bcaa3",
+      "date": null
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "linkedin.com: As of April 2026, RV financing is being reshaped by high-value inventory and shifting consumer expectations.",
+      "provider": "linkedin.com",
+      "url": "https://www.linkedin.com/posts/dllgroup_cf-rv-benefits-blog-social-carousel-2pdf-activity-7439603479519600640-eqrq",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "stacker.com: As of early 2026, electric RVs remain unavailable at dealerships despite prototypes.",
+      "provider": "stacker.com",
+      "url": "https://stacker.com/stories/electric-vehicles/electric-rvs-2026-whats-real-and-whats-not",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "THO listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/THO/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 67.77,
+    "market_cap": "3.53B",
+    "fwd_pe": 19.4,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.4,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 446% quarter over quarter (4/30/2026)",
+      "Last quarter earnings before interest and tax increasing 371% quarter over quarter (4/30/2026)",
+      "EPS declined year over year, 2.53 -> 1.86"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 65.0,
+        "qty": 8,
+        "underlying": 67.77,
+        "multiplier": 100,
+        "price": 5.45,
+        "total": 4360.0,
+        "open_interest": 15
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 65.0,
+        "qty": 3,
+        "underlying": 67.77,
+        "multiplier": 100,
+        "price": 2.38,
+        "total": -714.0,
+        "open_interest": 336
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-22 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "A 14.5% conservative credit is fat for a two-day event, and selling the October put at the same 65 strike means the position pays for itself if the stock merely fails to rally. The risk is a repeat of September 2025's 91% beat, which is what the January long put buys time against."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 8,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 7,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "dealer",
+          "interest",
+          "inventory",
+          "motor",
+          "prices",
+          "product",
+          "rates",
+          "units"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "dealer",
+          "estimates",
+          "excess",
+          "forecast",
+          "inventory",
+          "motor",
+          "motorhome",
+          "order",
+          "orders",
+          "overproduction",
+          "production",
+          "september",
+          "shipments",
+          "units",
+          "wholesale"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "american",
+          "backlog",
+          "dealer",
+          "estimates",
+          "fiscal",
+          "september",
+          "towable"
+        ]
+      }
+    ]
+  }
+}

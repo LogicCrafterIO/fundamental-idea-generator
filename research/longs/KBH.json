@@ -1,0 +1,634 @@
+{
+  "ticker": "KBH",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Homebuilder selling entry-level and move-up homes in nine US states, plus mortgage, title and insurance services to its buyers.",
+  "catalyst": {
+    "date": "2026-09-22",
+    "weekday": "Tuesday",
+    "session": "after the close",
+    "days_out": 2,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.9
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-23",
+        "eps_estimate": 0.46,
+        "eps_actual": 0.43,
+        "surprise_pct": -5.98,
+        "beat": false
+      },
+      {
+        "date": "2026-03-24",
+        "eps_estimate": 0.54,
+        "eps_actual": 0.52,
+        "surprise_pct": -4.57,
+        "beat": false
+      },
+      {
+        "date": "2025-12-18",
+        "eps_estimate": 1.79,
+        "eps_actual": 1.55,
+        "surprise_pct": -13.55,
+        "beat": false
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": 1.51,
+        "eps_actual": 1.61,
+        "surprise_pct": 6.91,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-22 (Tuesday, after the close), 2 days out -- from the earnings calendar, consensus EPS 0.9.",
+    "why": "Gross margin and net orders must hold near Q2 levels, because buy-downs on 80-90% of sales would otherwise eat the guided West Coast mix benefit."
+  },
+  "reasons": [
+    "Because built-to-order [homes started only after a buyer signs] is 73% of orders and finished unsold homes are 11% of production, KBH enters a weak market with little spec inventory, so it avoids the discounting that hits peers.",
+    "The last four reported quarters total 4.11 in EPS against a current-year consensus of 3.32, so the estimate already assumes a step down from the run-rate.",
+    "Management guided to higher second-half deliveries, revenue and margins on a favorable West Coast mix, so if that mix shows up, the 0.90 consensus -- 44% below last year's 1.61 -- is too low."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S25",
+        "kind": "ollama_search",
+        "ref": "web:0",
+        "label": "seekingalpha.com: KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4923410-kb-home-bto-is-working-but-demand-is-still-a-problem-rating-upgrade",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for KBH",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/KBH/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "KBH earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/kbh/earnings",
+        "date": "2026-09-22"
+      }
+    ],
+    [
+      {
+        "id": "S28",
+        "kind": "ollama_search",
+        "ref": "web:3",
+        "label": "stockanalysis.com: KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio",
+        "provider": "stockanalysis.com",
+        "url": "https://stockanalysis.com/stocks/kbh/transcripts/614663-q2-2026/",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "S34",
+        "kind": "ollama_search",
+        "ref": "web:9",
+        "label": "news.alphastreet.com: KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet",
+        "provider": "news.alphastreet.com",
+        "url": "https://news.alphastreet.com/kb-home-kbh-q3-2026-preview-eps-est-0-90-reports-september-22/amp/",
+        "date": "2026-09-22"
+      },
+      {
+        "id": "S22",
+        "kind": "yahoo",
+        "ref": "news:17",
+        "label": "Benzinga: How To Earn $500 A Month From KB Home Stock Ahead Of Q3 Earnings",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-kb-home-023021697.html",
+        "date": "2026-09-18"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for KBH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KBH/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for KBH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KBH/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "KBH quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/kbh/financials",
+      "date": "5/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "KBH earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/kbh/earnings",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Zacks: Earnings Preview: KB Home (KBH) Q3 Earnings Expected to Decline",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-kb-home-kbh-140003449.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Zacks: KB Home (KBH) Suffers a Larger Drop Than the General Market: Key Insights",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kb-home-kbh-suffers-larger-215004035.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Zacks: Curious about KB Home (KBH) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/curious-kb-home-kbh-q3-131502043.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Simply Wall St.: KB Home (KBH) Stock May Be Undervalued Following Housing Affordability Pressure",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/real-estate/articles/kb-home-kbh-stock-may-131325655.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: KB Home (KBH) Outperforms Broader Market: What You Need to Know",
+      "provider": null,
+      "url": "/articles/kb-home-kbh-outperforms-broader-market-what-you-need-know",
+      "date": "Aug 25, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Here is What to Know Beyond Why KB Home (KBH) is a Trending Stock",
+      "provider": null,
+      "url": "/articles/here-what-know-beyond-why-kb-home-kbh-trending-stock",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Barchart: Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
+      "provider": null,
+      "url": "/articles/stocks-finish-lower-soaring-crude-prices-spur-inflation-fears",
+      "date": "Aug 11, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Barchart: Rout in Chipmakers Weighs on Broader Market",
+      "provider": null,
+      "url": "/articles/rout-chipmakers-weighs-broader-market",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Barchart: Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
+      "provider": null,
+      "url": "/articles/stocks-pressured-weakness-chipmakers-and-ai-infrastructure-stocks",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Barchart: Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
+      "provider": null,
+      "url": "/articles/stocks-fall-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
+      "date": "Aug 31, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Barchart: Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
+      "provider": null,
+      "url": "/articles/stocks-finish-mostly-lower-rising-crude-boosts-bond-yields",
+      "date": "Sep 1, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Stocks Retreat as 10-year T-note Yield Reaches New 2.75-year High",
+      "provider": null,
+      "url": "/articles/stocks-retreat-10-year-t-note-yield-reaches-new-275-year-high",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Settle Lower as Surging Crude Prices Boost Fed Rate Hike Chances",
+      "provider": null,
+      "url": "/articles/stocks-settle-lower-surging-crude-prices-boost-fed-rate-hike-chances",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Settle Lower as Bond Yields Surge",
+      "provider": null,
+      "url": "/articles/stocks-settle-lower-bond-yields-surge",
+      "date": "Sep 2, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "yahoo",
+      "ref": "news:14",
+      "label": "MT Newswires: Meritage Homes Likely to Increase Homebuyer Incentives Amid High Mortgage Rates, Truist Says",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/real-estate/articles/meritage-homes-likely-increase-homebuyer-130347263.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "Zacks: Lennar (LEN) Lags Q3 Earnings and Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lennar-len-lags-q3-earnings-214001622.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "MT Newswires: Lennar's Quarterly Results Trail Views as Affordability Challenges Weigh on Home Buying",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/real-estate/articles/lennar-apos-quarterly-results-trail-103615167.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Benzinga: How To Earn $500 A Month From KB Home Stock Ahead Of Q3 Earnings",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-kb-home-023021697.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Zacks: KB Home to Report Q3 Earnings: Here's What Investors Must Know",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kb-home-report-q3-earnings-145600761.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Kiplinger: Earnings Calendar and Analysis for This Week (September 21-25)",
+      "provider": "kiplinger.com",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4923410-kb-home-bto-is-working-but-demand-is-still-a-problem-rating-upgrade",
+      "date": null
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "nasdaq.com: KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release | Nasdaq",
+      "provider": "nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/kb-home-kbh-expected-beat-earnings-estimates-what-know-ahead-q3-release",
+      "date": "2025-09-17"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "circlfi.com: KBH Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/kbh-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "stockanalysis.com: KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/kbh/transcripts/614663-q2-2026/",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "intickers.com: KB Home (KBH) Stock Analysis | InTickers",
+      "provider": "intickers.com",
+      "url": "https://intickers.com/reports/kbh/",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "marketwatch.com: KBH | KB Home Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/kbh/analystestimates",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "kabrios.com: Is KB HOME overvalued? KBH stock analysis | Kabrios",
+      "provider": "kabrios.com",
+      "url": "https://kabrios.com/KBH.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "marketbeat.com: KB Home (KBH) to Release Earnings on Tuesday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-kb-home-kbh-to-release-earnings-on-tuesday-2026-09-15/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: KB Home: What To Expect From The Upcoming Q3 Earnings (NYSE:KBH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4947206-kb-home-what-to-expect-from-the-upcoming-q3-earnings",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "news.alphastreet.com: KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet",
+      "provider": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/kb-home-kbh-q3-2026-preview-eps-est-0-90-reports-september-22/amp/",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investor.kbhome.com: KB Home - KB HOME REPORTS 2026 SECOND QUARTER RESULTS",
+      "provider": "investor.kbhome.com",
+      "url": "https://investor.kbhome.com/company-news/news-releases/press-release-details/2026/KB-HOME-REPORTS-2026-SECOND-QUARTER-RESULTS/default.aspx",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "finance-commerce.com: Mortgage rates are forecast to stay above 6.5% through 2027, keeping borrowing costs high for KBH buyers.",
+      "provider": "finance-commerce.com",
+      "url": "https://finance-commerce.com/2026/09/us-mortgage-rates-housing-market-2027/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "jpmorgan.com: Home prices are expected to remain flat in 2026 and rise 3% in 2027, weighing on sales.",
+      "provider": "jpmorgan.com",
+      "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "housingwire.com: Housing starts outlook is negative through 2027 as construction costs rise.",
+      "provider": "housingwire.com",
+      "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "housingwire.com: As of September 2026, buy-downs support 80-90% of new-home sales as margins tighten.",
+      "provider": "housingwire.com",
+      "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "dbrs.morningstar.com: New U.S. tariffs on Canadian goods, including cement, add cost uncertainty for homebuilders in 2026.",
+      "provider": "dbrs.morningstar.com",
+      "url": "https://dbrs.morningstar.com/research/486907/north-american-homebuilders-2026-midyear-outlook-affordability-challenges-persist-amid-rising-cost-pressures",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S41",
+      "kind": "options",
+      "ref": "options",
+      "label": "KBH listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KBH/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 47.12,
+    "market_cap": "2.89B",
+    "fwd_pe": 14.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.5,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 7 up and 5 down over last 30 days",
+    "extra": [
+      "Last quarter net income decreasing 18% quarter over quarter (5/31/2026)",
+      "Last quarter earnings before interest and tax decreasing 8% quarter over quarter (5/31/2026)",
+      "EPS declined year over year, 1.5 -> 0.43"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "15-Jan-27",
+        "strike": 50.0,
+        "qty": 16,
+        "underlying": 47.12,
+        "multiplier": 100,
+        "price": 2.77,
+        "total": 4432.0,
+        "open_interest": 256
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 50.0,
+        "qty": 6,
+        "underlying": 47.12,
+        "multiplier": 100,
+        "price": 1.05,
+        "total": -630.0000000000001,
+        "open_interest": 268
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.",
+    "reflection": "Conservative credit of 8.8% sits under the 10% floor, so sell one more October 50 call and the calendar is close to free. The risk is the shared strike: a post-print gap above 50 pins the short leg while the long call only pays above the debit."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 8,
+        "errors": 4,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 7,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 0,
+      "contradicted": 3,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "buyer",
+          "incentives"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "expects",
+          "incentives",
+          "morgan",
+          "order",
+          "prices",
+          "volume"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 95,
+        "verdict": "contradicts",
+        "supportive": 0,
+        "adverse": 5,
+        "trends_available": 5,
+        "trends_used": [
+          "buyer",
+          "deliveries",
+          "orders"
+        ]
+      }
+    ]
+  }
+}

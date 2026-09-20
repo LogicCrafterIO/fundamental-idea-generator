@@ -276,6 +276,295 @@ def fundamental_deltas(
     return deduped[:top]
 
 
+# Lines where a sequential move must be read against the year-earlier quarter. A
+# quarter can fall 11% from the one before it and still grow 12% year over year --
+# which is exactly what Paychex's May quarter did, and what a note reported as
+# "revenue down 11.2% sequentially" without the other half.
+_YOY_WATCH = (
+    "Total Revenue",
+    "Net Income",
+    "Net Income Common Stockholders",
+    "EBIT",
+    "EBITDA",
+    "Operating Income",
+    "Gross Profit",
+    "Interest Expense",
+    "Interest Income",
+    "Net Interest Income",
+    "Selling General And Administration",
+    "Provision for Loan Losses",
+    "Provision for Credit Losses",
+)
+
+# The two sources name the same line differently, and the conflict check compares a
+# Nasdaq delta against a yfinance series. Without this the check silently misses the
+# lines whose names differ -- including EBIT, which is where a leveraged acquisition
+# shows up.
+_LABEL_ALIASES = {
+    "Earnings Before Interest and Tax": "EBIT",
+    "Net Income Applicable to Common Shareholders": "Net Income",
+    "Net Income-Cont. Operations": "Net Income",
+    "Sales, General and Admin.": "Selling General And Administration",
+    "Common Stocks": "Common Stock",
+}
+
+
+def canonical_label(label: str) -> str:
+    """The name a line has in whichever statement source uses the other convention."""
+    return _LABEL_ALIASES.get(label, label)
+
+# Balance-sheet lines that step up when a deal closes. Goodwill is excluded from the
+# Quants panel as noise, and it is the one line that cannot move for any other reason:
+# goodwill is created by purchase accounting alone, so a step in it proves an
+# acquisition. Intangibles can also grow from capitalised contracts or a
+# reclassification, so a step there is only suggestive and is reported as such.
+_CONFIRMED_DEAL_LINES = ("Goodwill", "Goodwill And Intangible Assets")
+_SUSPECTED_DEAL_LINES = ("Other Intangible Assets", "Intangible Assets")
+_DEAL_LINES = _CONFIRMED_DEAL_LINES + _SUSPECTED_DEAL_LINES
+_DEAL_STEP_PCT = 25.0
+
+# Both legs of a sequential/annual disagreement have to be material before it counts
+# as one: interest expense down 5% on the quarter and up 1.6% on the year is a wiggle,
+# and flagging it beside a genuine 11% versus 12% reversal is how a warning becomes
+# noise a reader learns to skip.
+_CONFLICT_MIN_PCT = 2.0
+
+
+def _month_day(period: str) -> tuple[int, int] | None:
+    try:
+        _, month, day = str(period)[:10].split("-")
+        return int(month), int(day)
+    except (ValueError, AttributeError):
+        return None
+
+
+def _year_ago_index(periods: list[str]) -> int | None:
+    """The column that is the same quarter a year earlier, if the series has it.
+
+    Matched on a 330-400 day gap rather than a fixed offset of four columns, because
+    fiscal calendars drift and a column can be missing.
+    """
+    if len(periods) < 2:
+        return None
+    from datetime import date as _d
+
+    try:
+        newest = _d.fromisoformat(periods[0][:10])
+    except ValueError:
+        return None
+    for index, period in enumerate(periods[1:], start=1):
+        try:
+            gap = (newest - _d.fromisoformat(str(period)[:10])).days
+        except ValueError:
+            continue
+        if 330 <= gap <= 400:
+            return index
+    return None
+
+
+def _change(current: float | None, prior: float | None) -> float | None:
+    if current is None or prior in (None, 0):
+        return None
+    return round((current - prior) / abs(prior) * 100.0, 1)
+
+
+def yoy_deltas(symbol: str, *, top: int = 8) -> list[dict]:
+    """Each line's quarter-over-quarter move *and* its year-over-year move.
+
+    One row per line, so the two comparisons cannot be separated: the packet shows
+    them side by side and the linter can require a reason that quotes one to quote
+    the other. Rows: ``{label, period, prior_period, current, prior, qoq_pct,
+    year_ago_period, year_ago, yoy_pct, conflict}`` where ``conflict`` is true when
+    the two comparisons point in opposite directions.
+    """
+    try:
+        data = yahoo.statements(symbol, quarterly=True)
+    except Exception:
+        return []
+
+    periods = data.get("income_periods") or []
+    income = data.get("income") or {}
+    if len(periods) < 2:
+        return []
+    yago = _year_ago_index(periods)
+
+    rows: list[dict] = []
+    seen: set[tuple] = set()
+    for label in _YOY_WATCH:
+        values = income.get(label)
+        if not values or not values[0]:
+            continue
+        qoq = _change(values[0], values[1] if len(values) > 1 else None)
+        yoy = _change(values[0], values[yago] if yago is not None and yago < len(values) else None)
+        if qoq is None and yoy is None:
+            continue
+        # Two labels can carry one line ("Net Income" and "Net Income Common
+        # Stockholders"); printing both wastes the writer's attention on a duplicate.
+        fingerprint = (values[0], qoq, yoy)
+        if fingerprint in seen:
+            continue
+        seen.add(fingerprint)
+        rows.append(
+            {
+                "label": label,
+                "period": periods[0],
+                "prior_period": periods[1],
+                "current": values[0],
+                "prior": values[1] if len(values) > 1 else None,
+                "qoq_pct": qoq,
+                "year_ago_period": periods[yago] if yago is not None else None,
+                "year_ago": values[yago] if yago is not None and yago < len(values) else None,
+                "yoy_pct": yoy,
+                # The failure this exists for: a sequential fall reported as if it
+                # were the trend, when the year-earlier comparison rose.
+                "conflict": bool(
+                    qoq is not None
+                    and yoy is not None
+                    and (qoq < 0) != (yoy < 0)
+                    and abs(qoq) >= _CONFLICT_MIN_PCT
+                    and abs(yoy) >= _CONFLICT_MIN_PCT
+                ),
+            }
+        )
+    return rows[:top]
+
+
+def annual_deltas(symbol: str, *, min_pct: float = 5.0, top: int = 6) -> list[dict]:
+    """Fiscal-year-over-fiscal-year moves, the slower-moving comparison.
+
+    A quarterly column can be distorted by a deal, a rate move or a calendar; the
+    annual series is what says whether the business is growing at all. Paychex's
+    FY26 revenue grew 16.9% on this comparison while its May quarter fell 11.2% on
+    the sequential one.
+    """
+    try:
+        data = yahoo.statements(symbol, quarterly=False)
+    except Exception:
+        return []
+
+    periods = data.get("income_periods") or []
+    income = data.get("income") or {}
+    if len(periods) < 2:
+        return []
+
+    rows: list[dict] = []
+    for label in _YOY_WATCH:
+        values = income.get(label)
+        if not values or len(values) < 2:
+            continue
+        change = _change(values[0], values[1])
+        if change is None:
+            continue
+        rows.append(
+            {
+                "label": label,
+                "period": periods[0],
+                "prior_period": periods[1],
+                "current": values[0],
+                "prior": values[1],
+                "change_pct": change,
+                "direction": "increasing" if change > 0 else "decreasing",
+            }
+        )
+
+    # Revenue and net income are kept even when a rate or deal line moved further:
+    # "is the business growing" is the question the annual comparison is asked for,
+    # and a top-6-by-magnitude cut can drop both of them.
+    must = ("Total Revenue", "Net Income", "Net Income Applicable to Common Shareholders")
+    kept = [r for r in rows if r["label"] in must][:2]
+    rest = sorted(
+        (r for r in rows if r not in kept and abs(r["change_pct"]) >= min_pct),
+        key=lambda r: abs(r["change_pct"]),
+        reverse=True,
+    )
+    return (kept + rest)[:top]
+
+
+def deal_activity(symbol: str) -> list[dict]:
+    """Step changes in goodwill or intangibles: the footprint of an acquisition.
+
+    Reported growth in a period that contains a deal is not organic growth, and a
+    thesis that treats it as organic is wrong in a way no amount of prose discipline
+    fixes -- the note on Paychex argued from a sequential revenue fall without
+    knowing that Paycor had added most of the year's growth. This finds the deal on
+    the balance sheet, which is available for every filer, rather than relying on the
+    writer to remember it.
+
+    Each row carries ``confidence``: ``confirmed`` when **goodwill** stepped, which
+    only purchase accounting does, and ``suspected`` when only intangibles moved --
+    those can also grow from capitalised contracts. The linter treats the two
+    differently, so a suspected deal cannot force a writer to name an acquisition
+    that may not exist.
+    """
+    steps: dict[str, list[dict]] = {}
+    for quarterly in (False, True):
+        try:
+            data = yahoo.statements(symbol, quarterly=quarterly)
+        except Exception:
+            continue
+        periods = data.get("balance_periods") or []
+        balance = data.get("balance") or {}
+        basis = "quarter" if quarterly else "fiscal year"
+        # Only the newest steps in each series count: a deal three years ago is not
+        # today's growth story, and raising it would be noise on most balance sheets.
+        reach = 4 if quarterly else 2
+        for label in _DEAL_LINES:
+            values = balance.get(label)
+            if not values or len(values) < 2:
+                continue
+            for index in range(min(reach, len(values) - 1)):
+                current, prior = values[index], values[index + 1]
+                if current is None or prior in (None, 0):
+                    continue
+                change = _change(current, prior)
+                if change is None or change < _DEAL_STEP_PCT:
+                    continue
+                key = f"{basis}:{periods[index] if index < len(periods) else index}"
+                steps.setdefault(key, []).append(
+                    {
+                        "label": label,
+                        "basis": basis,
+                        "period": periods[index] if index < len(periods) else None,
+                        "prior_period": periods[index + 1] if index + 1 < len(periods) else None,
+                        "current": current,
+                        "prior": prior,
+                        "change_pct": change,
+                        "confirmed": label in _CONFIRMED_DEAL_LINES,
+                    }
+                )
+
+    out: list[dict] = []
+    for key, rows in steps.items():
+        # Goodwill leads when both lines moved: it is the fact, and intangibles is
+        # the corroboration.
+        primary = next((r for r in rows if r["confirmed"]), max(rows, key=lambda r: r["change_pct"]))
+        others = [r for r in rows if r is not primary]
+        out.append({**primary, "also": others[:2]})
+    out.sort(key=lambda r: (not r["confirmed"], str(r.get("period") or "")))
+    return out[:2]
+
+
+def consensus_bar(panel: dict) -> dict | None:
+    """The number the next print has to beat, and the last one that did or did not.
+
+    A note that says only "estimates were cut" leaves out the bar, which is what the
+    reaction is actually measured against.
+    """
+    nxt = panel.get("next_earnings") or {}
+    if not nxt:
+        return None
+    bar = {
+        "date": nxt.get("next_date") or (nxt.get("dates") or [None])[0],
+        "eps_avg": nxt.get("eps_avg"),
+        "eps_low": nxt.get("eps_low"),
+        "eps_high": nxt.get("eps_high"),
+        "revenue_avg": nxt.get("revenue_avg"),
+    }
+    if bar["eps_avg"] is None and bar["revenue_avg"] is None:
+        return None
+    return bar
+
+
 def eps_yoy(symbol: str) -> dict | None:
     """Reported EPS this quarter vs the same quarter a year ago.
 

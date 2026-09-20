@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+# qs -- run the qualitative theme screener from anywhere in the repo.
+#
+# The screener is not installed as a console script (it lives in its own folder
+# rather than in src/), so this shim sets PYTHONPATH and uses the repo's venv.
+#
+#   qualitative/qs screen --limit 20
+#   qualitative/qs research --limit 20
+#   qualitative/qs themes
+#
+# Equivalent to: PYTHONPATH=qualitative .venv/bin/python -m qts <args>
+set -e
+here=$(cd "$(dirname "$0")" && pwd)
+root=$(cd "$here/.." && pwd)
+PYTHONPATH="$here${PYTHONPATH:+:$PYTHONPATH}" exec "$root/.venv/bin/python" -m qts "$@"

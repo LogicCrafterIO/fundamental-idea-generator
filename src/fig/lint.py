@@ -80,6 +80,7 @@ CAUSAL_MARKERS = [
 NUMBER_RE = re.compile(r"\d")
 TICKER_RE = re.compile(r"\b[A-Z]{2,5}\b")
 WORD_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9''\-\.%$]*")
+URL_RE = re.compile(r"https?://\S+|www\.[^\s)]+", re.IGNORECASE)
 
 
 @dataclass
@@ -97,6 +98,14 @@ class Issue:
 
     def as_dict(self) -> dict:
         return {"level": self.level, "code": self.code, "where": self.where, "message": self.message}
+
+
+# The Watch block is required only when a dated print is close: that is the moment a
+# reader can act on "what would prove this wrong", and a note with no near catalyst
+# has no such test to state.
+WATCH_REQUIRED_WITHIN_DAYS = 21
+WATCH_MAX_LINES = 4
+WATCH_WORD_BUDGET = 25
 
 
 def word_count(text: str) -> int:
@@ -226,6 +235,61 @@ def unglossed_acronyms(text: str) -> list[str]:
     return missing
 
 
+# --------------------------------------------------------------------------
+# the counts-versus-level fallacy
+# --------------------------------------------------------------------------
+
+# Ways of saying the consensus number is wrong in time rather than in value.
+_STALE_WORDS = (
+    "stale", "out of date", "outdated", "out-of-date", "too low", "understated",
+    "has not caught up", "hasn't caught up", "not caught up", "lags the",
+    "behind the curve", "not yet reflected", "not reflected in the consensus",
+    "is out of step",
+)
+
+# Evidence that is a COUNT of analysts moving rather than a move in the level.
+_COUNT_EVIDENCE_RE = re.compile(
+    r"\b(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+"
+    r"(?:of\s+\d+\s+)?(?:analysts?|brokers?|estimates?)\b"
+    r"|\b\d+\s+up\b|\bnone\s+(?:cutting|cut|lowering)\b|\bno\s+cuts?\b",
+    re.IGNORECASE,
+)
+
+# The level moved DOWN, which is the one case where "stale" is not contradicted.
+_LEVEL_FELL_RE = re.compile(r"\b(down|lower|cut|cutting|declin\w*|fell|falling|reduced)\b", re.I)
+
+
+def is_stale_consensus_on_counts(reason: str, quants: dict | None) -> bool:
+    """True when a reason calls the consensus stale on revision-count evidence.
+
+    The observed error, from the BB note: *"five analysts raised estimates in 30
+    days with none cutting, the 0.19 FY number is stale"*. The premise and the
+    conclusion are the same fact read twice -- if five analysts raised, then 0.19
+    is the number they raised *to*, which makes it the freshest number available
+    rather than a stale one. The packet's own trend line agreed: the FY level was
+    0.18857 thirty days earlier and 0.18857 on the day, so the raises were smaller
+    than the rounding of the level and nothing had moved at all.
+
+    It fires only on the conjunction -- a staleness claim AND count evidence AND a
+    level that did not fall -- because each half alone is legitimate: "the
+    consensus is too low" is an ordinary long argument, and "5 up and 0 down" is
+    an ordinary fact.
+    """
+    text = reason or ""
+    lowered = text.lower()
+    if not any(word in lowered for word in _STALE_WORDS):
+        return False
+    if not _COUNT_EVIDENCE_RE.search(text):
+        return False
+
+    trend_text = str((quants or {}).get("eps_trend") or "")
+    if _LEVEL_FELL_RE.search(trend_text):
+        # Estimates were actually cut, so the level did move away from the number
+        # on the page and calling it stale is at least arguable.
+        return False
+    return True
+
+
 def lint_writeup(writeup: dict) -> dict:
     """Check one writeup dict. Returns ``{issues, errors, warnings, score, ok}``."""
     issues: list[Issue] = []
@@ -233,6 +297,60 @@ def lint_writeup(writeup: dict) -> dict:
     description = (writeup.get("description") or "").strip()
     reasons = [r for r in (writeup.get("reasons") or []) if str(r).strip()]
     notes = (writeup.get("structuring") or {}).get("reflection") or writeup.get("notes") or ""
+
+    # ---- sources ---------------------------------------------------------
+    # A note is only as believable as its citations, so a reason that names no
+    # source is an ERROR whenever the packet registered any -- which it always
+    # does in a real run. The `sources_catalogue` presence test is what keeps this
+    # honest: if the tool supplied no sources, it has no standing to demand them,
+    # which is why the offline fixtures and the reference notes are unaffected.
+    catalogue = writeup.get("sources_catalogue") or []
+    reason_sources = writeup.get("reason_sources") or []
+    if catalogue:
+        for index in range(len(reasons)):
+            cited = reason_sources[index] if index < len(reason_sources) else None
+            if not cited:
+                issues.append(
+                    Issue(
+                        "error",
+                        "reason_no_source",
+                        f"Reason {index + 1}",
+                        "cites no source; add the evidence ids this reason rests on "
+                        "(reason_sources), or drop the reason",
+                    )
+                )
+        for index, reason in enumerate(reasons, start=1):
+            if URL_RE.search(str(reason)):
+                issues.append(
+                    Issue(
+                        "error",
+                        "reason_contains_url",
+                        f"Reason {index}",
+                        "has a URL in the prose; name the source by its id in "
+                        "reason_sources instead of spending words on the link",
+                    )
+                )
+    if writeup.get("sources_unverified"):
+        issues.append(
+            Issue(
+                "error",
+                "reason_source_unknown",
+                "Reasons",
+                f"cited source(s) {', '.join(str(s) for s in writeup['sources_unverified'])} "
+                f"are not in the evidence ({len(catalogue)} sources supplied); cite only "
+                f"ids from the SOURCES list",
+            )
+        )
+    if writeup.get("urls_redacted"):
+        issues.append(
+            Issue(
+                "error",
+                "reason_url_redacted",
+                "Reasons",
+                f"{len(writeup['urls_redacted'])} URL(s) written into a reason were removed "
+                f"because the evidence does not contain them; use reason_sources",
+            )
+        )
 
     # ---- budget ----------------------------------------------------------
     if not description:
@@ -374,6 +492,87 @@ def lint_writeup(writeup: dict) -> dict:
                     "distinguishes nothing; say why the multiple is wrong",
                 )
             )
+        # ---- the comparisons that make a true fact not misleading -----------
+        hints = writeup.get("evidence_hints") or {}
+        sequential = sequential_without_year(reason, hints)
+        if sequential and sequential.get("conflict"):
+            issues.append(
+                Issue(
+                    "error",
+                    "reason_sequential_without_year",
+                    f"Reason {index}",
+                    f"quotes a sequential move in {sequential.get('label')} "
+                    f"({sequential.get('qoq_pct'):+.1f}% QoQ to {sequential.get('period')}) "
+                    f"without the year-over-year move, which is "
+                    f"{sequential.get('yoy_pct'):+.1f}% -- state both, because the "
+                    f"quarter is growing, not deteriorating",
+                )
+            )
+        elif sequential:
+            issues.append(
+                Issue(
+                    "warn",
+                    "reason_sequential_unpaired",
+                    f"Reason {index}",
+                    "gives a sequential move with no year-over-year comparison; the "
+                    "packet supplies both and the pair is the fact",
+                )
+            )
+
+        speculative = speculative_reason(reason)
+        if speculative and speculative[0] == "horizon":
+            issues.append(
+                Issue(
+                    "warn",
+                    "reason_long_horizon",
+                    f"Reason {index}",
+                    f'leans on "{speculative[1]}", a payoff the dated catalyst cannot '
+                    f"settle; tie it to something the report will actually show",
+                )
+            )
+        elif speculative:
+            issues.append(
+                Issue(
+                    "warn",
+                    "reason_chain_too_long",
+                    f"Reason {index}",
+                    f"chains several steps ({speculative[1]}); each extra link is "
+                    f"unchecked, so cut it to the one the evidence supports",
+                )
+            )
+
+        if is_stale_consensus_on_counts(reason, writeup.get("quants")):
+            issues.append(
+                Issue(
+                    "error",
+                    "reason_stale_consensus_on_counts",
+                    f"Reason {index}",
+                    "calls the consensus stale on a count of analysts who revised: the "
+                    "raises are how the number got to where it is, and the packet's own "
+                    "EPS trend says the level did not move -- say what the number should "
+                    "be and why, not that it is old",
+                )
+            )
+
+    deal = ignores_deal(reasons, writeup.get("evidence_hints"))
+    if deal:
+        confirmed = bool(deal.get("confirmed"))
+        issues.append(
+            Issue(
+                "error" if confirmed else "warn",
+                "reason_ignores_deal" if confirmed else "reason_deal_unattributed",
+                "Reasons",
+                f"{'goodwill' if confirmed else 'intangibles'} stepped "
+                f"{deal.get('change_pct'):+.0f}% in {deal.get('period')}, which "
+                f"{'means a deal closed' if confirmed else 'usually means a deal closed'}"
+                f" in that period, so reported growth there is bought rather than organic "
+                f"-- name the acquisition and what it contributes, or argue from a line it "
+                f"cannot flatter",
+            )
+        )
+
+    for severity, code, detail in watch_problems(writeup.get("watch"), writeup.get("evidence_hints")):
+        issues.append(Issue(severity, code, "Watch", detail))
 
     if notes and word_count(notes) > WORD_BUDGET["notes"]:
         issues.append(
@@ -468,15 +667,63 @@ _SMALL_INT = 13
 _NUMBER_RE = re.compile(r"(?<![\w.])(\d{1,3}(?:,\d{3})*(?:\.\d+)?|\d*\.\d+)(\s*%)?")
 _DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b")
 
+# URLs are full of digit runs, and a bare "25" inside a link is not evidence that a
+# note's "25.38" is supported. Dates are the same problem in a different shape:
+# "Jun 25, 2026" harvests a "25" that can vouch for a figure that has no support.
+# All three are ignored when harvesting the numbers an evidence source can vouch for.
+_URL_RE = re.compile(r"\S*://\S*|\S*www\.\S*", re.IGNORECASE)
+_MONTHS = r"Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+_TEXT_DATE_RES = (
+    re.compile(rf"\b(?:{_MONTHS})[a-z]*\.?\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+\d{{2,4}}", re.I),
+    re.compile(rf"\b\d{{1,2}}(?:st|nd|rd|th)?\s+(?:{_MONTHS})[a-z]*\.?,?\s+\d{{2,4}}", re.I),
+    re.compile(r"\b\d{1,2}/\d{1,2}/\d{2,4}\b"),
+)
+
+
+def _number_is_a_fragment(text: str, match: re.Match[str]) -> bool:
+    """True when the match is the head of a longer number, e.g. ``202`` in ``2026``.
+
+    ``_NUMBER_RE`` caps its integer branch at three digits so that thousands
+    separators and dates parse, which means a four-digit year matches as its first
+    three. Treating "202" as a figure the evidence does or does not contain is noise
+    in both directions -- it was matching prose years against unrelated evidence, and
+    it invented source mismatches for figures that were cited correctly.
+    """
+    end = match.end(1)
+    return end < len(text) and text[end].isdigit()
+
+
+def _ignored_spans(text: str) -> list[tuple[int, int]]:
+    """Character spans whose digits are context, not evidence: dates and URLs."""
+    return [
+        match.span()
+        for pattern in (_DATE_RE, _URL_RE, *_TEXT_DATE_RES)
+        for match in pattern.finditer(text or "")
+    ]
+
 
 def _evidence_numbers(evidence: str) -> set[str]:
     """Every number appearing in the evidence, plus rounded variants.
 
     Rounding matters: a note may legitimately write "43.5" where the packet says
     43.54, and "39.5" for 39.51. Both must count as supported.
+
+    What must NOT count is a number that only appears as part of something else. A
+    date contributes "2025-09-25" and a link contributes its path digits, and either
+    can hand a prose figure a match it has not earned -- the BB note's invented
+    "25.38% UEM growth" was passing the grounding check on a bare "25" harvested from
+    a URL. Numbers inside dates and URLs are therefore skipped, as are the heads of
+    longer digit runs.
     """
+    text = evidence or ""
+    ignored = _ignored_spans(text)
     numbers: set[str] = set()
-    for match in _NUMBER_RE.finditer(evidence or ""):
+    for match in _NUMBER_RE.finditer(text):
+        if _number_is_a_fragment(text, match):
+            continue
+        start, end = match.span(1)
+        if any(lo <= start and end <= hi for lo, hi in ignored):
+            continue
         raw = match.group(1).replace(",", "")
         try:
             value = abs(float(raw))
@@ -490,6 +737,269 @@ def _evidence_numbers(evidence: str) -> set[str]:
         numbers.add(f"{value * 100:g}")
         numbers.add(f"{value * 100:.1f}")
     return numbers
+
+
+def _figure_candidates(raw: str, value: float) -> set[str]:
+    """The forms a prose figure may legitimately take in the evidence.
+
+    Rounding is allowed, but only downwards from the writer's precision: a note that
+    writes "43" for 43.2 has chosen to round, while a note that writes "6.8" has not,
+    and rounding *that* to "7" let an unrelated 7.0 market cap vouch for it. The
+    asymmetry is the point -- one direction is a writer's choice, the other is the
+    checker inventing a match.
+    """
+    candidates = {f"{value:g}", f"{value:.1f}", f"{value:.2f}"}
+    if "." not in raw:
+        candidates.add(f"{value:.0f}")
+    return candidates
+
+
+# --------------------------------------------------------------------------
+# evidence-shape checks
+# --------------------------------------------------------------------------
+# Each of these exists because a note passed every other check while being wrong in
+# a way a reader could not see without opening the sources. They read the same shape
+# of evidence the writer was given (``writeup["evidence_hints"]``), so they can only
+# fire when the packet actually supplied the comparison that is missing.
+
+_SEQUENTIAL_MARKERS = (
+    "sequential",
+    "sequentially",
+    "quarter over quarter",
+    "quarter-over-quarter",
+    "qoq",
+    "prior quarter",
+    "previous quarter",
+    "last quarter",
+)
+_ANNUAL_MARKERS = (
+    "year over year",
+    "year-over-year",
+    "yoy",
+    "a year ago",
+    "a year earlier",
+    "year earlier",
+    "year ago",
+    "same quarter last year",
+    "prior year",
+    "last year",
+)
+
+# How a reason names a statement line in prose. Keyed by the canonical label the
+# packet uses, because a writer says "revenue" and never "Total Revenue".
+_LINE_WORDS = {
+    "Total Revenue": ("revenue", "sales", "top line"),
+    "Net Income": ("net income", "net profit", "profit", "earnings"),
+    "EBIT": ("ebit", "operating income", "operating profit"),
+    "Operating Income": ("operating income", "operating profit"),
+    "EBITDA": ("ebitda",),
+    "Gross Profit": ("gross profit", "gross margin"),
+    "Interest Income": ("interest income", "float", "client funds", "interest on"),
+    "Net Interest Income": ("net interest income",),
+    "Interest Expense": ("interest expense",),
+}
+
+_DEAL_WORDS = (
+    "acqui",  # acquisition, acquired, acquires
+    "merger",
+    "merged",
+    "bought",
+    "purchase",
+    "takeover",
+    "synerg",
+    "integrat",
+    "consolidat",
+    "the deal",
+    "deal closed",
+)
+
+# A payoff that arrives years from now cannot be decided by a dated report, and a
+# chain that long cannot be checked against any single source.
+_LONG_HORIZON = (
+    "over time",
+    "eventually",
+    "in the long run",
+    "in the coming years",
+    "over the coming years",
+    "for years to come",
+    "over the next decade",
+    "in a few years",
+    "will ultimately",
+    "structurally lower",
+    "structurally higher",
+    "secular",
+)
+# A Watch line can settle a variable without a figure: "flat or falling client counts
+# confirm, rising breaks it" is a complete test. So the check accepts an explicit pair
+# of readings, not only a number.
+_TEST_PAIRS = (
+    ("confirm", "break"),
+    ("confirms", "breaks"),
+    ("above", "below"),
+    ("beat", "miss"),
+    ("rising", "falling"),
+    ("higher", "lower"),
+    ("raise", "cut"),
+    ("faster", "slower"),
+    ("more than", "less than"),
+    ("holds", "falls"),
+    ("up", "down"),
+)
+
+_MULTI_HOP = (
+    "which leads to",
+    "which means",
+    "which will",
+    "which would",
+    "leading to",
+    "resulting in",
+    "in turn",
+    "and that leads",
+)
+
+
+def _mentioned_lines(text: str) -> list[str]:
+    """Which statement lines a reason's wording refers to, if any."""
+    low = text.lower()
+    return [
+        label
+        for label, words in _LINE_WORDS.items()
+        if any(word in low for word in words)
+    ]
+
+
+def sequential_without_year(reason: str, hints: dict | None) -> dict | None:
+    """A sequential move quoted on its own, when the annual move says otherwise.
+
+    The failure this exists for: a note reported "revenue down 11.2% and net income
+    down 24.9% sequentially" as evidence the numbers were deteriorating. Both figures
+    were right, both were sourced, and the same quarter grew 12.5% in revenue and
+    41.5% in net income year over year. Sequential moves for a business with a
+    seasonal calendar and a mid-year acquisition are close to meaningless, so the rule
+    is not "never quote one" -- it is "never quote one without the other".
+    """
+    low = str(reason).lower()
+    if not any(marker in low for marker in _SEQUENTIAL_MARKERS):
+        return None
+    if any(marker in low for marker in _ANNUAL_MARKERS):
+        return None
+    rows = (hints or {}).get("yoy") or []
+    if not rows:
+        return None
+
+    mentioned = _mentioned_lines(reason)
+    conflicts = [
+        row
+        for row in rows
+        if row.get("conflict") and (not mentioned or row.get("label") in mentioned)
+    ]
+    if conflicts:
+        row = conflicts[0]
+        return {
+            "label": row.get("label"),
+            "qoq_pct": row.get("qoq_pct"),
+            "yoy_pct": row.get("yoy_pct"),
+            "period": row.get("period"),
+            "conflict": True,
+        }
+    row = next((r for r in rows if r.get("label") in mentioned), rows[0])
+    return {"label": row.get("label"), "conflict": False, "period": row.get("period")}
+
+
+def ignores_deal(reasons: list[str], hints: dict | None) -> dict | None:
+    """Growth argued from a period an acquisition landed in, with no mention of it.
+
+    The balance sheet says a deal closed; that revenue is bought, not won. A thesis
+    built on the growth rate without saying so is measuring the wrong thing.
+
+    The returned row carries ``confirmed``: true when goodwill stepped, which only
+    purchase accounting does, and false when only intangibles moved. The caller makes
+    the confirmed case an error and the suspected case a warning, because a writer
+    cannot be required to name an acquisition that may not have happened.
+    """
+    deals = (hints or {}).get("deal") or []
+    if not deals:
+        return None
+    blob = " ".join(str(r).lower() for r in reasons)
+    if any(word in blob for word in _DEAL_WORDS):
+        return None
+    return deals[0]
+
+
+def speculative_reason(reason: str) -> tuple[str, str] | None:
+    """A long-horizon payoff or an over-long causal chain. Returns (kind, detail)."""
+    low = str(reason).lower()
+    for phrase in _LONG_HORIZON:
+        if _phrase_re(phrase).search(low):
+            return ("horizon", phrase.strip())
+    hops = [phrase for phrase in _MULTI_HOP if phrase in low]
+    if len(hops) >= 2:
+        return ("chain", ", ".join(hops))
+    return None
+
+
+def _states_both_readings(line: str) -> bool:
+    """True when a Watch line gives both directions rather than one assertion."""
+    low = str(line).lower()
+    if any(a in low and b in low for a, b in _TEST_PAIRS):
+        return True
+    # "flat or falling ... rising breaks it" -- an explicit break clause also counts.
+    return ("break" in low or "invalidat" in low) and (
+        "confirm" in low or "flat" in low or "falling" in low or "rising" in low
+    )
+
+
+def watch_problems(watch: list, hints: dict | None) -> list[tuple[str, str, str]]:
+    """Checks for the Watch block: ``(severity, code, detail)`` per problem.
+
+    The block is required when the print is close, because that is when the reader
+    most needs to know which number decides the idea. Each line has to name a
+    variable and the reading that would break the thesis -- a line that only restates
+    a reason is not a test.
+    """
+    lines = [str(w).strip() for w in (watch or []) if str(w).strip()]
+    days = (hints or {}).get("catalyst_days")
+    required = days is not None and days <= WATCH_REQUIRED_WITHIN_DAYS
+
+    if not lines:
+        if required:
+            return [
+                (
+                    "error",
+                    "watch_missing",
+                    f"the catalyst is {days} days out and the note has no Watch block: "
+                    f"name the 2-4 variables that decide it at that report, with the "
+                    f"reading that confirms and the reading that breaks the thesis",
+                )
+            ]
+        return []
+
+    problems: list[tuple[str, str, str]] = []
+    if required and not 2 <= len(lines) <= WATCH_MAX_LINES:
+        problems.append(
+            ("warn", "watch_count", f"{len(lines)} line(s); 2-4 is the useful range")
+        )
+    elif len(lines) > WATCH_MAX_LINES:
+        problems.append(("warn", "watch_count", f"{len(lines)} lines; cut to {WATCH_MAX_LINES}"))
+    for index, line in enumerate(lines, start=1):
+        if word_count(line) > WATCH_WORD_BUDGET:
+            problems.append(
+                (
+                    "warn",
+                    "watch_too_long",
+                    f"line {index} is {word_count(line)} words (budget {WATCH_WORD_BUDGET})",
+                )
+            )
+        if not (_has_number(line) or _has_named_comparison(line) or _states_both_readings(line)):
+            problems.append(
+                (
+                    "warn",
+                    "watch_no_test",
+                    f"line {index} names no reading that would settle it; give the "
+                    f"number or direction that confirms and the one that breaks it",
+                )
+            )
+    return problems
 
 
 def check_grounding(writeup: dict, evidence: str) -> dict:
@@ -506,13 +1016,17 @@ def check_grounding(writeup: dict, evidence: str) -> dict:
     to eyeball rather than to block the note.
     """
     evidence_numbers = _evidence_numbers(evidence)
-    evidence_dates = set(_DATE_RE.findall(evidence or ""))
+    evidence_dates = [m.group(0) for m in _DATE_RE.finditer(evidence or "")]
     evidence_blob = (evidence or "").lower()
 
     checked: list[str] = []
     unsupported: list[str] = []
 
-    prose = [writeup.get("description") or "", *[str(r) for r in (writeup.get("reasons") or [])]]
+    prose = [
+        writeup.get("description") or "",
+        *[str(r) for r in (writeup.get("reasons") or [])],
+        *[str(w) for w in (writeup.get("watch") or [])],
+    ]
 
     for text in prose:
         for match in _NUMBER_RE.finditer(text):
@@ -523,20 +1037,22 @@ def check_grounding(writeup: dict, evidence: str) -> dict:
             except ValueError:
                 continue
 
+            # The head of a longer number is not a figure. See _number_is_a_fragment.
+            if _number_is_a_fragment(text, match):
+                continue
             # Bare small integers are counting language, not claims.
             if not is_percent and value < _SMALL_INT and "." not in raw:
                 continue
 
             checked.append(raw)
-            candidates = {f"{value:g}", f"{value:.1f}", f"{value:.2f}", f"{value:.0f}"}
-            if candidates & evidence_numbers:
+            if _figure_candidates(raw, value) & evidence_numbers:
                 continue
 
             # A year mentioned in prose (2026, 2027) is context, not a claim.
             if not is_percent and 2000 <= value <= 2100 and "." not in raw:
                 continue
-            # Dates: check the ISO form is present.
-            if any(part == raw for part in evidence_dates):
+            # Any part of a date that appears in the evidence is that date.
+            if any(raw in part for part in evidence_dates):
                 continue
             # Last resort: does the literal string appear anywhere in evidence?
             if raw in evidence_blob:
@@ -549,4 +1065,284 @@ def check_grounding(writeup: dict, evidence: str) -> dict:
         "unsupported": sorted(set(unsupported)),
         "grounded": not unsupported,
         "ratio": round(1 - len(set(unsupported)) / max(1, len(checked)), 3),
+    }
+
+
+# A bare integer this size or smaller is counting language ("30 days", "four
+# quarters"), not a claim, so it is not worth matching to a source. Decimals and
+# percentages are always checked whatever their size, because that is the shape a
+# real figure takes here.
+_SOURCE_SMALL_INT = 100
+
+
+def _number_is_a_fragment(text: str, match: re.Match[str]) -> bool:
+    """True when the match is the head of a longer number, e.g. ``202`` in ``2026``.
+
+    ``_NUMBER_RE`` caps its integer branch at three digits, so a four-digit year
+    matches as its first three -- and "202 not in S19" is noise, not a finding. The
+    pattern is deliberate for money ("1,234") and dates, so the fix belongs here
+    rather than in the regex.
+    """
+    end = match.end(1)
+    return end < len(text) and text[end].isdigit()
+
+
+# Direction words a survey or series reading uses. Coarse on purpose: the question is
+# only whether two readings of the same driver point the same way, and a false
+# "check this" costs a reader a minute while a missed reversal costs the idea.
+_DIRECTION_UP = (
+    "rose",
+    "rises",
+    "rising",
+    " up ",
+    "higher",
+    "highest",
+    "increased",
+    "increasing",
+    "accelerat",
+    "grew",
+    "growing",
+    "improved",
+    "stronger",
+    "rebounded",
+)
+_DIRECTION_DOWN = (
+    "fell",
+    "falls",
+    "falling",
+    " down ",
+    "lower",
+    "lowest",
+    "decreased",
+    "decreasing",
+    "declin",
+    "slowed",
+    "slowing",
+    "weaken",
+    "eased",
+    "easing",
+    "softened",
+)
+
+
+# Entries that are not dated readings of an external driver: a statement column, a
+# consensus snapshot or an option chain has a date but no "latest reading" to prefer.
+_NOT_A_READING = ("statements", "consensus", "fundamentals", "options", "catalyst")
+
+# Words that carry no subject: they appear in almost every reading of every series,
+# so overlap on them would pair unrelated drivers.
+_SUBJECT_STOP = {
+    "about",
+    "after",
+    "their",
+    "there",
+    "these",
+    "those",
+    "which",
+    "would",
+    "could",
+    "should",
+    "since",
+    "level",
+    "levels",
+    "points",
+    "reports",
+    "report",
+    "reported",
+    "remains",
+    "remain",
+    "still",
+    "highest",
+    "lowest",
+    "increase",
+    "increased",
+    "decrease",
+    "decreased",
+    "according",
+    "company",
+    "companies",
+}
+
+
+def _reading_text(entry: dict) -> str:
+    """The entry's own wording, for judging subject overlap."""
+    return f"{entry.get('label') or ''} {entry.get('text') or ''}"
+
+
+def _reading_claim(entry: dict) -> str:
+    """Just the reading, without the note-style gloss that follows it.
+
+    The direction has to come from the claim itself. Trend entries carry a second
+    sentence explaining what the reading means for the company ("slowing payroll
+    volume", "weighing on revenue"), and that gloss is written in the direction of
+    the thesis, not of the survey -- counting it turns "highest since 2024" into a
+    tie and loses the reversal.
+    """
+    text = str(entry.get("text") or entry.get("label") or "")
+    head = text.split(". ")[0]
+    return head[:240]
+
+
+def _content_words(text: str) -> set[str]:
+    return {w for w in re.findall(r"[a-z]{5,}", str(text).lower()) if w not in _SUBJECT_STOP}
+
+
+def _shared_subject(left: set[str], right: set[str]) -> bool:
+    """True when two readings are about enough of the same thing to be one series."""
+    if not left or not right:
+        return False
+    return len(left & right) / max(1, min(len(left), len(right))) >= 0.25
+
+
+def reading_direction(text: str) -> int:
+    """``+1`` rising, ``-1`` falling, ``0`` no clear direction."""
+    low = str(text).lower()
+    up = sum(1 for word in _DIRECTION_UP if word in low)
+    down = sum(1 for word in _DIRECTION_DOWN if word in low)
+    if up > down:
+        return 1
+    if down > up:
+        return -1
+    return 0
+
+
+def superseded_readings(writeup: dict, catalogue: list[dict]) -> list[str]:
+    """Reasons resting on an older reading of a driver that the packet says reversed.
+
+    The failure this exists for: a note's lead reason said small-business job openings
+    "fell to 29%, the lowest since May 2020" -- sourced, accurate, and the newest
+    reading in the packet was the opposite, with employment plans up 9 points and a
+    June report showing hiring difficulty at its highest since 2024. Nothing in the
+    note was false; the note simply used the reading that fitted. Picking the latest
+    observation of a series is not a style preference, it is the difference between
+    describing a trend and selecting one.
+    """
+    by_id = {str(e.get("id") or "").upper(): e for e in catalogue}
+    reason_sources = writeup.get("reason_sources") or []
+    reasons = [str(r) for r in (writeup.get("reasons") or [])]
+    findings: list[str] = []
+
+    for index, reason in enumerate(reasons):
+        cited = reason_sources[index] if index < len(reason_sources) else []
+        for entry in cited:
+            entry = entry if isinstance(entry, dict) else by_id.get(str(entry).upper())
+            if not entry or entry.get("kind") in _NOT_A_READING:
+                continue
+            direction = reading_direction(_reading_claim(entry))
+            date = str(entry.get("date") or "")[:10]
+            provider = str(entry.get("provider") or "")
+            if direction == 0 or not date or not provider:
+                continue
+            words = _content_words(_reading_text(entry))
+            newer = [
+                other
+                for other in catalogue
+                if other is not entry
+                and str(other.get("provider") or "") == provider
+                and str(other.get("date") or "")[:10] > date
+                and reading_direction(_reading_claim(other)) == -direction
+                # Same provider is not enough: two articles on one site are not one
+                # series. The pair must be about the same subject, which is what the
+                # wording overlap tests.
+                and _shared_subject(words, _content_words(_reading_text(other)))
+            ]
+            if not newer:
+                continue
+            latest = max(newer, key=lambda e: str(e.get("date") or ""))
+            findings.append(
+                f'Reason {index + 1}: cites {entry.get("id")} '
+                f'({date}, {provider}, reading '
+                f'{"up" if direction > 0 else "down"}) but {latest.get("id")} '
+                f'({str(latest.get("date"))[:10]}, same provider) reads the other way '
+                f'-- use the latest reading and say what changed'
+            )
+    return findings
+
+
+def check_source_grounding(writeup: dict, catalogue: list[dict] | None = None) -> dict:
+    """Find figures cited to a source that does not contain them.
+
+    ``check_grounding`` answers "is this figure in the packet somewhere?". That is
+    weaker than it sounds once a reason names its evidence, and this check is the
+    stronger question: the reader sent to ``S7`` has to find the figure in ``S7``.
+
+    It reports only figures that are **in the packet but in a different source**, and
+    names that source. That restriction is what makes the output trustworthy rather
+    than noisy: if a figure appears in no catalogue entry at all, it is either
+    derived (a target implied by a stated move) or absent from that entry's stored
+    summary, and neither is evidence of a miscitation -- ``check_grounding`` already
+    covers "nowhere in the packet". A figure that is in exactly one other source,
+    though, has an obvious right answer and was cited to the wrong place.
+
+    A warning rather than an error. A reason may legitimately rest on a source for
+    its claim and quote a figure introduced by the reason above it.
+    """
+    catalogue = catalogue if catalogue is not None else (writeup.get("sources_catalogue") or [])
+    by_id = {str(e.get("id") or "").upper(): e for e in catalogue}
+    reason_sources = writeup.get("reason_sources") or []
+    reasons = [str(r) for r in (writeup.get("reasons") or [])]
+
+    # Built once: the numbers each source can vouch for.
+    source_numbers = {
+        str(e.get("id") or "").upper(): _evidence_numbers(str(e.get("text") or ""))
+        for e in catalogue
+    }
+
+    mismatches: list[str] = []
+    checked = 0
+
+    for index, reason in enumerate(reasons):
+        cited = reason_sources[index] if index < len(reason_sources) else []
+        if not cited:
+            continue
+        cited_ids = [str(e.get("id") or "").upper() for e in cited]
+        cited_numbers: set[str] = set()
+        for source_id in cited_ids:
+            cited_numbers |= source_numbers.get(source_id, set())
+            # A citation may resolve to an entry the catalogue passed in does not
+            # carry, in which case the note's own stored copy is still checkable.
+            if source_id not in source_numbers:
+                entry = by_id.get(source_id) or {}
+                cited_numbers |= _evidence_numbers(str(entry.get("text") or ""))
+
+        elsewhere = [
+            (source_id, numbers)
+            for source_id, numbers in source_numbers.items()
+            if source_id not in cited_ids
+        ]
+
+        for match in _NUMBER_RE.finditer(reason):
+            raw = match.group(1).replace(",", "")
+            is_percent = bool(match.group(2))
+            try:
+                value = abs(float(raw))
+            except ValueError:
+                continue
+            if _number_is_a_fragment(reason, match):
+                continue
+            if not is_percent and "." not in raw:
+                if value < _SOURCE_SMALL_INT or 2000 <= value <= 2100:
+                    continue
+
+            checked += 1
+            candidates = _figure_candidates(raw, value)
+            if candidates & cited_numbers:
+                continue
+
+            homes = [source_id for source_id, numbers in elsewhere if candidates & numbers]
+            if not homes:
+                continue
+            mismatches.append(
+                f'Reason {index + 1}: "{raw}{"%" if is_percent else ""}" is cited to '
+                f'{", ".join(cited_ids)} but appears in {", ".join(homes)}'
+            )
+
+    superseded = superseded_readings(writeup, catalogue) if catalogue else []
+
+    return {
+        "checked": checked,
+        "mismatches": mismatches,
+        "superseded": superseded,
+        "ok": not mismatches and not superseded,
+        "ratio": round(1 - (len(mismatches) + len(superseded)) / max(1, checked), 3),
     }

@@ -1,0 +1,494 @@
+{
+  "ticker": "C",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Global bank: corporate cash management and securities services, trading, investment banking, US cards and wealth.",
+  "catalyst": {
+    "date": "2026-10-13",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 23,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 2.61949,
+      "eps_low": 2.39,
+      "eps_high": 2.73,
+      "revenue_avg": 23730913950
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-14",
+        "eps_estimate": 2.71,
+        "eps_actual": 3.14,
+        "surprise_pct": 15.62,
+        "beat": true
+      },
+      {
+        "date": "2026-04-14",
+        "eps_estimate": 2.6,
+        "eps_actual": 3.06,
+        "surprise_pct": 17.91,
+        "beat": true
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 1.62,
+        "eps_actual": 1.24,
+        "surprise_pct": -23.43,
+        "beat": false
+      },
+      {
+        "date": "2025-10-14",
+        "eps_estimate": 1.93,
+        "eps_actual": 2.26,
+        "surprise_pct": 17.44,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-13 (Tuesday, before the open), 23 days out -- from the earnings calendar, consensus EPS 2.62.",
+    "why": "Services revenue must grow again and July's expense warning must not repeat."
+  },
+  "reasons": [
+    "Q2 revenue rose 14% to $24.8B, the best quarter in a decade, because Services and Markets clients kept using the global network -- so July's expense warning, not weak revenue, is what sold the stock.",
+    "Six analysts raised FY EPS and none cut in 30 days because the July expense scare never showed up in the numbers -- if that holds into October, the 11.8x forward multiple can re-rate.",
+    "Cross-border pressure -- 127 banks exited emerging-market correspondent relationships in 2025 -- has not reached reported fees because Citi is defending the network with always-on tokenised deposit settlement, launched with DBS in September 2026."
+  ],
+  "quants": {
+    "price": 131.77,
+    "market_cap": "221.04B",
+    "fwd_pe": 11.8,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.7,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all up, with 6 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter other operating items decreasing 10% quarter over quarter (6/30/2026)",
+      "Last quarter net receivables decreasing 9% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 2.04 -> 3.14"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "15-Jan-27",
+        "strike": 135.0,
+        "qty": 5,
+        "underlying": 131.77,
+        "multiplier": 100,
+        "price": 8.12,
+        "total": 4059.9999999999995,
+        "open_interest": 1565
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 135.0,
+        "qty": 2,
+        "underlying": 131.77,
+        "multiplier": 100,
+        "price": 3.4,
+        "total": -680.0,
+        "open_interest": 3788
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-12 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.",
+    "reflection": "The short October 135 call expires three days after the print, so the 15.8% credit is only kept if the stock stalls below 135 into mid-October. Five longs against two shorts leaves room to sell more if it does. The floor test is the risk: a beat that gaps the stock through 135 caps the upside on the shorted portion."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 31,
+        "errors": 3,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [
+        "\"127\""
+      ],
+      "grounded": false,
+      "ratio": 0.857
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "banks",
+          "client",
+          "correspondent",
+          "defend",
+          "deposit",
+          "exited",
+          "network",
+          "relationships",
+          "september",
+          "settlement",
+          "tokenised"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "corporates",
+          "cycle",
+          "finance",
+          "goldman",
+          "liquidity",
+          "passed",
+          "priority",
+          "raising",
+          "releasing",
+          "shipping",
+          "stablecoins",
+          "tariffs",
+          "trapped"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "drive",
+          "highest"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S16",
+        "kind": "ollama_search",
+        "label": "citigroup.com: SECOND QUARTER 2026 RESULTS AND KEY METRICS",
+        "provider": "citigroup.com",
+        "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf",
+        "date": "2026-07-14"
+      },
+      {
+        "id": "S17",
+        "kind": "ollama_search",
+        "label": "fool.com: Citi (C) Q2 2026 Earnings Call Transcript | The Motley Fool",
+        "provider": "fool.com",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/07/21/citi-c-q2-2026-earnings-call-transcript/",
+        "date": "2026-07-14"
+      },
+      {
+        "id": "S18",
+        "kind": "ollama_search",
+        "label": "reuters.com: Citigroup estimates revised after bank flags higher expenses, stock tanks | Reuters",
+        "provider": "reuters.com",
+        "url": "https://www.reuters.com/business/finance/citigroup-estimates-revised-after-bank-flags-higher-expenses-stock-tanks-2026-07-15/",
+        "date": "2026-07-15"
+      }
+    ],
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for C",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/C/key-statistics/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "label": "Analyst EPS estimates and revision counts for C",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/C/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "label": "C earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/c/earnings",
+        "date": "2026-10-13"
+      },
+      {
+        "id": "S18",
+        "kind": "ollama_search",
+        "label": "reuters.com: Citigroup estimates revised after bank flags higher expenses, stock tanks | Reuters",
+        "provider": "reuters.com",
+        "url": "https://www.reuters.com/business/finance/citigroup-estimates-revised-after-bank-flags-higher-expenses-stock-tanks-2026-07-15/",
+        "date": "2026-07-15"
+      }
+    ],
+    []
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for C",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/C/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for C",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/C/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "C quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/c/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "C earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/c/earnings",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "Zacks: Will Higher Costs and Softer FICC Weigh on Goldman Q3 Momentum?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/higher-costs-softer-ficc-weigh-144200214.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "label": "Zacks: Can JPM's Strong Q3 Capital Markets Outlook Help Sustain Fee Growth?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpms-strong-q3-capital-markets-144600245.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "label": "Barchart: Wall Street May Have Overpriced the Fed Rate Hike\u2019s Impact on Citigroup Stock Spreads",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/4661125/wall-street-may-have-overpriced-the-fed-rate-hikes-impact-on-citigroup-stock-spreads",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "label": "Zacks: Citigroup (C) Could Be a Great Choice",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-c-could-great-choice-154501462.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "label": "MT Newswires: Jefferies to Benefit From Increased Investment Banking Momentum, Oppenheimer Says",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-benefit-increased-investment-banking-211629164.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "label": "Moneywise: Jamie Dimon was fired from Citigroup at 42 \u2014 he turned a $20 billion bank into America's most profitable",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jamie-dimon-fired-citigroup-42-110500399.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: Health Catalyst (HCAT) Stock Fair Value Falls As Analysts Cut Targets On Growth Risks",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/health-catalyst-hcat-stock-fair-101048877.html",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S12",
+      "kind": "yahoo",
+      "label": "InvestorsHub: Citi Forecasts Widening Memory Chip Shortages Through 2031 as AI Demand Expands",
+      "provider": "investorshub.advfn.com",
+      "url": "https://investorshub.advfn.com/market-news/article/36526/citi-forecasts-widening-memory-chip-shortages-through-2031-as-ai-demand-expands",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: Why SLB Stock Slumped Today",
+      "provider": null,
+      "url": "/articles/why-slb-stock-slumped-today",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "Zacks: Citigroup (C) Suffers a Larger Drop Than the General Market: Key Insights",
+      "provider": null,
+      "url": "/articles/citigroup-c-suffers-larger-drop-general-market-key-insights",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "clearthesis.ai: C Stock Analysis 2026: Is Citigroup a Buy? Moat, Valuation & Forecast | Clearthesis",
+      "provider": "clearthesis.ai",
+      "url": "https://www.clearthesis.ai/thesis/C",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "citigroup.com: SECOND QUARTER 2026 RESULTS AND KEY METRICS",
+      "provider": "citigroup.com",
+      "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "fool.com: Citi (C) Q2 2026 Earnings Call Transcript | The Motley Fool",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/21/citi-c-q2-2026-earnings-call-transcript/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "reuters.com: Citigroup estimates revised after bank flags higher expenses, stock tanks | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/finance/citigroup-estimates-revised-after-bank-flags-higher-expenses-stock-tanks-2026-07-15/",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: Citigroup Has Improved, But Upside Is Limited (NYSE:C) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4939986-citigroup-has-improved-but-upside-is-limited",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "citigroup.com: As of September 2026, Citi\u2019s Global Supply Chain Pressure Index is at its highest sustained level since 2021\u201322.",
+      "provider": "citigroup.com",
+      "url": "https://www.citigroup.com/global/insights/the-world-rewired",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "sc.com: As of July 2026, digital acceleration could add $2.8 trillion to international trade annually by 2031.",
+      "provider": "sc.com",
+      "url": "https://www.sc.com/en/corporate-investment-banking/future-of-trade/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "sc.com: As of July 2026, over 90% of corporates expect to adjust supply chains over the next three to five years.",
+      "provider": "sc.com",
+      "url": "https://www.sc.com/en/corporate-investment-banking/future-of-trade/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "jpmorgan.com: In 1H 2026, M&A transactions became more complex but activity still built beyond headlines.",
+      "provider": "jpmorgan.com",
+      "url": "https://www.jpmorgan.com/content/dam/jpmorgan/documents/cib/banking/jpmorgan-2026-global-m-and-a-mid-year-outlook-v3.pdf",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "jpmorgan.com: In 1H 2026, M&A faced a tighter financing tone and stickier inflation concerns.",
+      "provider": "jpmorgan.com",
+      "url": "https://www.jpmorgan.com/content/dam/jpmorgan/documents/cib/banking/jpmorgan-2026-global-m-and-a-mid-year-outlook-v3.pdf",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "C listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/C/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

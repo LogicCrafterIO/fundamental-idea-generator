@@ -1,0 +1,1996 @@
+{
+  "symbol": "WOR",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T10:17:33",
+  "profile": {
+    "symbol": "WOR",
+    "name": "Worthington Enterprises, Inc.",
+    "sector": "Industrials",
+    "industry": "Metal Fabrication",
+    "summary": "Worthington Enterprises, Inc. operates as an industrial manufacturing company. It operates through two segments, Consumer Products and Building Products. The Consumer Products segment provides products in the tools, outdoor living, and celebrations. Its products include hand-held torches, micro torches, lighters, accessories, and fuel for constructing, fixing making, and creating; precision and specialty hand, digital, and safety tools; drywall tools and accessories used for finishing and taping, cutting, siding, and roofing; propane-filled cylinders for torches, camping stoves and other applications, helium-filled balloon kits, and gas grills and pizza ovens. This segment sells its products primarily to mass merchandisers, retailers, and distributors under the Balloon Time, Bernzomatic, Coleman, Garden-Weasel, General, Halo, Hawkeye, Level5, Mag-Torch, Pactool International, and Worthington Pro Grade brand names. The Building Products segment provides pressurized containment solutions, such as refrigerant gas cylinders used in holding refrigerant gases for commercial, residential, and automotive air conditioning, and refrigeration systems; liquefied petroleum gas cylinders that holds fuel for residential and light commercial heating systems, barbeque grills and recreational vehicle equipment, industrial forklifts, and commercial/residential cooking; well water and expansion tanks used primarily in the residential and commercial markets; specialty products, including various fire suppression tanks, chemical tanks, and foam and adhesive tanks; and ceiling suspension systems and light gauge metal framing products. The company was formerly known as Worthington Industries, Inc. Worthington Enterprises, Inc. was founded in 1955 and is headquartered in Columbus, Ohio.",
+    "employees": 3800,
+    "country": "United States",
+    "website": "https://www.worthingtonenterprises.com"
+  },
+  "quants": {
+    "symbol": "WOR",
+    "name": "Worthington Enterprises, Inc.",
+    "price": 57.38,
+    "market_cap": 2807418880,
+    "market_cap_human": "2.81B",
+    "fwd_pe": 15.53,
+    "fwd_pe_1y": 14.06,
+    "fwd_pe_yahoo": 14.055114,
+    "trailing_pe": 18.273886,
+    "ps": 2.0324585,
+    "ev_ebitda": 21.522,
+    "sector": "Industrials",
+    "industry": "Metal Fabrication",
+    "eps_fy_current": 3.694,
+    "eps_fy_next": 4.0825,
+    "eps_trend": {
+      "change_7d_pct": -1.07,
+      "change_30d_pct": -1.07,
+      "current": 3.694,
+      "7d_ago": 3.734,
+      "30d_ago": 3.734,
+      "text": "down over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 0,
+      "down_7d": 4,
+      "up_30d": 0,
+      "down_30d": 4,
+      "net_30d": -4,
+      "text": "all down, with 0 up and 4 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-23"
+      ],
+      "next_date": "2026-09-23",
+      "eps_avg": 0.75,
+      "eps_low": 0.72,
+      "eps_high": 0.8,
+      "revenue_avg": 331267110
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 57.38 USD",
+    "Market Cap: 2.81B",
+    "Fwd PE: 15.53",
+    "P/S: 2.0",
+    "EPS trends: down over the last 7 days",
+    "EPS revisions: all down, with 0 up and 4 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 27725.0,
+      "prior": 5979.0,
+      "change_pct": 363.7,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 48146.0,
+      "prior": 45463.0,
+      "change_pct": 5.9,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-06-23T16:00:00-04:00",
+    "current": 0.97,
+    "year_ago": 1.06,
+    "year_ago_period": "2025-06-24T16:00:00-04:00",
+    "change": -0.09,
+    "direction": "declined"
+  },
+  "news": [
+    {
+      "title": "Worthington Enterprises, Inc. (WOR) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "publisher": "sg.finance.yahoo.com",
+      "url": "https://sg.finance.yahoo.com/quote/WOR/analysis/",
+      "summary": "Worthington Enterprises, Inc. (WOR) analyst ratings, estimates and forecasts \u2013 Yahoo Finance\n\nSomething went wrong\n\nNYSE - Nasdaq Real Time Price USD\n\n# Worthington Enterprises, Inc. (WOR)\n\n56.51 -4.52 (-7.38%)\n\nAs of 10:59:28 am GMT-4. Market open.\n\nWOR Q4 2026 earnings call\n\nReplay the call for the latest insights.\n\nPlay call\n\nQ4 FY26\n\nRevenue 371.46M\n\nEarnings 47.7M\n\nQ1\n\nFY26\n\nQ2\n\nFY26\n\nQ3\n\nFY26\n\nQ4\n\nFY26\n\n0\n\n100M\n\n200M\n\n300M\n\nCurrency in USD\n\nCurrent qtr. (May 2026)\n\nNext qtr. (Aug 2026)\n\nCurrent year (2026)\n\nNext year (2027)\n\n| No. of analysts | 5 | 3 | 5 | 5 |\n| --- | --- | --- | --- | -",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946986-worthington-enterprises-structural-growth-but-margin-uncertainty-limits-the-upside",
+      "summary": "# Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha\n\nPublished: 2026-09-16T13:55:07+00:00\nSource: seekingalpha.com (seekingalpha.com)\nLanguage: en\n\n## Story\n\nWorthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha\n\n## Summary\n\n- Worthington Enterprises is rated Hold, with valuation aligned to sector median and key catalysts already reflected in estimates.\n- Structural growth in data center liquid cooling, acquisitions, and pricing actions drive the topline, but weak commercial construction and A2L i",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "valuation_dispersion",
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises (NYSE:WOR) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-wor/worthington-enterprises/future",
+      "summary": "Worthington Enterprises (NYSE:WOR) Stock Forecast & Analyst Predictions - Simply Wall St\n\nNOT FOR DISTRIBUTION\n\nWorthington Enterprises, Inc.\n\nNYSE:WOR Stock Report\n\nMarket Cap: US$2.9b\n\nPortfolioAdd to Portfolio\n\nView Valuation\n\n# Worthington Enterprises Future Growth\n\n## Future criteria checks 1/6\n\nWorthington Enterprises is forecast to grow earnings and revenue by 15.7% and 5.3% per annum respectively while EPS is expected to grow by 15.1% per annum.\n\n## Key information\n\n15.7%\n\nEarnings growth rate\n\n15.10%\n\nEPS growth rate\n\nLow\n\n| Machinery earnings growth | 16.7% |\n| --- | --- |\n| Revenue ",
+      "published": "2026-04-23",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "WOR Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/wor-stock-analysis/",
+      "summary": "WOR Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy Worthington Enterprises, Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-09-04 \u00b7 10/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, Worthington Enterprises, Inc. (WOR) scores a robust 7.9/10 on our 32-signal Quality of Company framework. At the current market price of $62.49 and a $3.1B market cap, our analysis maps this fundamental strength against 13 institutional-grade models to determine if a sufficient margin of safety exists.\n\nThe short answer: 1 of 10 CirclFi valuation models",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts - Benzinga",
+      "publisher": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/53214882/worthington-enterprises-likely-to-report-higher-q4-revenue-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "summary": "Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts - Benzinga\n\n June 16, 2026 1:19 AM 1 min read \n\n## Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call\n\nWorthington Enterprises, Inc. (NYSE: WOR) will release its fourth quarter earnings report after the closing bell on Tuesday, June 23.\n\nAnalysts expect the Columbus, Ohio-based grocer to report quarterly earnings of $1.06 per share, unchanged from $1.06 per share in the year-ago period. The consensus estimate for",
+      "published": "2026-06-16",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises, Inc. - Worthington Enterprises Reports Fourth Quarter and Full-Year Fiscal 2026 Results",
+      "publisher": "ir.worthingtonenterprises.com",
+      "url": "https://ir.worthingtonenterprises.com/news/news-details/2026/Worthington-Enterprises-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx",
+      "summary": "Worthington Enterprises, Inc. - Worthington Enterprises Reports Fourth Quarter and Full-Year Fiscal 2026 Results \n\n### Worthington Enterprises Reports Fourth Quarter and Full-Year Fiscal 2026 Results \n\n 06/23/2026 \n\nCOLUMBUS, Ohio, June 23, 2026 (GLOBE NEWSWIRE) -- Worthington Enterprises Inc. (NYSE: WOR), a designer and manufacturer of market-leading building and consumer products that improve everyday life by elevating spaces and experiences, today reported results for its fiscal 2026 fourth quarter and full-year ended May 31, 2026.\n\nRecent Developments and Highlights (comparisons to the pri",
+      "published": "2026-06-23",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4917428-worthington-enterprises-an-optimistic-dividend-hike-a-fair-valuation-downgrade",
+      "summary": "Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade)\nJun 24, 2026, 2:26 PM ETWorthington Enterprises, Inc. (WOR) Stock\n\nMike Zaccardi, CFA, CMT\n9.72K Followers\nFollow\n## Summary\n* Worthington Enterprises is",
+      "published": "2026-06-24",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion",
+        "mna",
+        "positioning"
+      ]
+    },
+    {
+      "title": "WOR Stock Forecast 2026-2027 - Worthington Enterprises, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/wor-forecast/",
+      "summary": "WOR Stock Forecast 2026-2027 - Worthington Enterprises, Inc. Price Targets & Predictions\n\n# WOR Stock Forecast: Worthington Enterprises, Inc. Price Predictions for 2026-2027\n\nLast close, 9 Sept 2026\n\n$60\n\n\u22124.21% on the day\n\nThe 4 Wall Street analysts covering Worthington Enterprises, Inc. hold a median 12-month price target of $67 \u2014 +12.1% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 73 of 100 as at 8 Sept 2026 \u2014 in the upper half. Here, the model and the Street point the same way.\n\nMarket cap\n\n$3.1B\n\nTicker Nerd rank\n\n73 / 100\n\nMedian analy",
+      "published": "2026-09-09",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "WOR | Worthington Enterprises Inc. Analyst Estimates | MarketWatch",
+      "publisher": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/wor/analystestimates",
+      "summary": "WOR | Worthington Enterprises Inc. Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDow\n0.98%\n\nS&P 500\n0.86%\n\nNasdaq\n0.96%\n\nVIX\n-11.21%\n\nGold\n-0.43%\n\nOil\n-0.06%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|Dow|52,573.29|509.19|0.98%|\n|**|S&P 500|7,656.98|65.28|0.86%|\n|**|Nasdaq|26,333.04|251.31|0.96%|\n|**|VIX|15.84|-2.00|-11.21%|\n|**|Gold|4,390.00|-18.90|-0.43%|\n|**|Oil|99.99|-0.06|-0.06%|\nS&P 500 Movers\n* HPE\n12.4\n\n* DELL\n12.0\n\n* NTAP\n8.5\n\n* ON\n8.5\n\n* STX\n-3.7\n\n* SNDK\n-3.5\n\n* ALB\n-3.4\n\n* WDC\n-3.0\n\nVisit Marke",
+      "published": "2026-09-11",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises Is Doing Well, But Caution Is Warranted (NYSE:WOR) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946541-worthington-enterprises-is-doing-well-but-caution-is-warranted",
+      "summary": "Worthington Enterprises Is Doing Well, But Caution Is Warranted (NYSE:WOR) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n* Interest Rates\n# Worthington Enterprises Is Doing Well With Strategic Acquisitions, But Caution Is Warranted\nSep 15, 2026, 12:03 PM ETWorthington Enterprises, Inc. (WOR) Stock\n\nDaniel Jones\nInvesting Group Leader\nFollow\n## Summary\n* Worthington Enterprises receives a 'hold' rating due to mixed financial performance and ",
+      "published": "2026-09-15",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-wor/worthington-enterprises/news/worthington-enterprises-wor-stock-looks-reasonable-despite-a",
+      "summary": "# Worthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap - Simply Wall St News\n\nPublished: 2026-09-16T19:24:36.897000+00:00\nSource: simplywall.st (simplywall.st)\nLanguage: en\n\n## Story\n\nWorthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap - Simply Wall St News\n\n# Worthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap\n\n September 16, 2026\n\nSimply Wall St Reviewed by Bailey Pemberton\n\nWorthington Enterprises has seen its share price move around over the past few years, and that puts the spotlight squarely on whether ",
+      "published": "2026-09-16",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Why Worthington Enterprises Stock Jumped 10% Today",
+      "publisher": "Motley Fool",
+      "published": "2026-09-16T17:02:10Z",
+      "summary": "Is Worthington an under-the-radar data center play?",
+      "url": "https://www.fool.com/investing/2026/09/16/why-worthington-enterprises-stock-jumped-10-today/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Zacks Industry Outlook Trex and Worthington",
+      "publisher": "Zacks",
+      "published": "2026-09-17T07:24:00Z",
+      "summary": "Trex and Worthington have been highlighted in this Industry Outlook article.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-trex-worthington-072400203.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "How Investors Are Reacting To Worthington (WOR) Linking Sustainability Targets With Automation And AI Investments",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-18T01:16:51Z",
+      "summary": "Earlier this year, Worthington Enterprises released its annual Corporate Citizenship and Sustainability Report, outlining progress across people, planet, products and governance, alongside advances in automation and AI-enabled operational technologies. The combination of expanded sustainability commitments and investments in areas like data-center liquid cooling and process automation signals how Worthington is tying environmental goals to long-term operational efficiency and...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-worthington-wor-linking-011651100.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Strength Seen in Worthington Enterprises (WOR): Can Its 8.2% Jump Turn into More Strength?",
+      "publisher": "Zacks",
+      "published": "2026-09-18T14:20:00Z",
+      "summary": "Worthington Enterprises (WOR) was a big mover last session on higher-than-average trading volume. The latest trend in earnings estimate revisions might not help the stock continue moving higher in the near term.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strength-seen-worthington-enterprises-wor-142000856.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "How To Earn $500 A Month From Worthington Enterprises Stock Ahead Of Q1 Earnings",
+      "publisher": "Benzinga",
+      "published": "2026-09-18T20:31:10Z",
+      "summary": "As Worthington Enterprises, Inc. prepares to release first-quarter earnings after the closing bell on Tuesday, Sept. 22, some investors may be eyeing potential gains from its dividends. Currently, Worthington has an annual dividend yield of 1.36%, with a quarterly dividend...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-worthington-enterprises-203110190.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises Announces Investor Day; Renames",
+      "publisher": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/09/15/3362649/0/en/worthington-enterprises-announces-investor-day-renames-business-segments.html",
+      "summary": "Worthington Enterprises Announces Investor Day; Renames\n\n# Worthington Enterprises Announces Investor Day; Renames Business Segments\n\n September 15, 2026 16:15 ET | Source: Worthington Enterprises, Inc. \n\nCOLUMBUS, Ohio, Sept. 15, 2026 (GLOBE NEWSWIRE) -- Worthington Enterprises Inc. (NYSE: WOR) today announced plans to host an Investor and Analyst Day on November 10. The event marks the company's first Investor Day since October 2023, when Worthington Enterprises was still known as Worthington Industries and preparing to separate its Steel Processing business. Registration information is link",
+      "published": "2026-11-10",
+      "source": "ollama_search",
+      "query": "Worthington Enterprises, Inc. (WOR) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Notable Wednesday Option Activity: RDDT, PVLA, WOR",
+      "publisher": "BNK Invest",
+      "created": "Jul 15, 2026",
+      "ago": "Jul 15, 2026",
+      "url": "/articles/notable-wednesday-option-activity-rddt-pvla-wor",
+      "primary_symbol": "RDDT",
+      "related_symbols": [
+        "RDDT",
+        "PVLA",
+        "WOR"
+      ],
+      "summary": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Reddit Inc (Symbol: RDDT), where a total of 27,612 contracts have traded so far, representing approximately 2.8 million underlying shares.  That amounts to about 66.3% of",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises (WOR) Lags Q4 Earnings and Revenue Estimates",
+      "publisher": "Zacks",
+      "created": "Jun 23, 2026",
+      "ago": "Jun 23, 2026",
+      "url": "/articles/worthington-enterprises-wor-lags-q4-earnings-and-revenue-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "WOR",
+        "WFG"
+      ],
+      "summary": "Worthington Enterprises (WOR) delivered earnings and revenue surprises of -6.73% and -3.69%, respectively, for the quarter ended May 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises Inc. Q4 Income Climbs",
+      "publisher": "RTTNews",
+      "created": "Jun 23, 2026",
+      "ago": "Jun 23, 2026",
+      "url": "/articles/worthington-enterprises-inc-q4-income-climbs",
+      "primary_symbol": "WOR",
+      "related_symbols": [
+        "WOR"
+      ],
+      "summary": "(RTTNews) - Worthington Enterprises Inc. (WOR) announced a profit for its fourth quarter that Increases, from the same period last year",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Daily Dividend Report: WOR,GBCI,MKC,CMC,MRP",
+      "publisher": "BNK Invest",
+      "created": "Jun 24, 2026",
+      "ago": "Jun 24, 2026",
+      "url": "/articles/daily-dividend-report-worgbcimkccmcmrp",
+      "primary_symbol": "WOR",
+      "related_symbols": [
+        "WOR",
+        "GBCI",
+        "MKC",
+        "CMC",
+        "MRP"
+      ],
+      "summary": "The Worthington Enterprises board of directors today declared a quarterly dividend of $0.20 per share, which represents an increase of $0.01 per share or 5% from the prior quarter. The dividend is payable on September 29, 2026, to shareholders of record on September 15, 2026. Th",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "WOR Q4 Earnings Call Highlights Data Center Growth Push",
+      "publisher": "Zacks",
+      "created": "Jun 25, 2026",
+      "ago": "Jun 25, 2026",
+      "url": "/articles/wor-q4-earnings-call-highlights-data-center-growth-push",
+      "primary_symbol": null,
+      "related_symbols": [
+        "WOR"
+      ],
+      "summary": "WOR highlights data center cooling demand, acquisition gains and record free cash flow as it enters fiscal 2027 with expansion plans.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "depreciation_debt",
+        "mna"
+      ]
+    },
+    {
+      "title": "Worthington Enterprises Breaks Below 200-Day Moving Average - Notable for WOR",
+      "publisher": "BNK Invest",
+      "created": "Jun 29, 2026",
+      "ago": "Jun 29, 2026",
+      "url": "/articles/worthington-enterprises-breaks-below-200-day-moving-average-notable-wor",
+      "primary_symbol": "WOR",
+      "related_symbols": [
+        "WOR"
+      ],
+      "summary": "In trading on Monday, shares of Worthington Enterprises Inc (Symbol: WOR) crossed below their 200 day moving average of $55.20, changing hands as low as $54.11 per share.  Worthington Enterprises Inc shares are currently trading off about 3.9% on the day.  The chart below shows",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "The Zacks Analyst Blog Highlights The Kroger, Worthington Enterprises, Delta Air Line, Northeast Community Bancorp and World Kinect",
+      "publisher": "Zacks",
+      "created": "Jun 29, 2026",
+      "ago": "Jun 29, 2026",
+      "url": "/articles/zacks-analyst-blog-highlights-kroger-worthington-enterprises-delta-air-line-northeast",
+      "primary_symbol": null,
+      "related_symbols": [
+        "WOR",
+        "DAL",
+        "KR",
+        "NECB",
+        "WKC"
+      ],
+      "summary": "The Kroger, Worthington Enterprises, Delta Air Lines, Northeast Community Bancorp and World Kinect are highlighted after recent dividend increases.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Company News for Jun 25, 2026",
+      "publisher": "Zacks",
+      "created": "Jun 25, 2026",
+      "ago": "Jun 25, 2026",
+      "url": "/articles/company-news-jun-25-2026",
+      "primary_symbol": null,
+      "related_symbols": [
+        "WOR",
+        "DAL",
+        "KBH",
+        "ICLR"
+      ],
+      "summary": "Companies in The News Are: KBH, ICLR, WOR, DAL",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "5 Stocks to Watch on Recent Dividend Hikes as Market Risks Rise",
+      "publisher": "Zacks",
+      "created": "Jun 26, 2026",
+      "ago": "Jun 26, 2026",
+      "url": "/articles/5-stocks-watch-recent-dividend-hikes-market-risks-rise",
+      "primary_symbol": null,
+      "related_symbols": [
+        "WOR",
+        "DAL",
+        "KR",
+        "NECB",
+        "WKC"
+      ],
+      "summary": "KR, WOR, DAL, NECB and WKC recently raised dividends as persistent inflation and market risks keep income-focused investors on alert.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "2 Wood Stocks Positioned to Weather Industry Challenges",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/2-wood-stocks-positioned-weather-industry-challenges",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TREX",
+        "WOR"
+      ],
+      "summary": "Focus on product innovation and efficient cost management is encouraging for the Zacks Building Products ??? Wood industry players like TREX and WOR despite a challenging macroeconomic backdrop.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "3 Industrials Stocks Walking a Fine Line",
+      "publisher": "StockStory",
+      "published": "2026-08-16T01:09:00Z",
+      "summary": "Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. But they are at the whim of volatile macroeconomic factors that influence capital spending (like interest rates), and the industry has underperformed the market over the past six months as its 2.1% return lagged the S&P 500 by 10.9 percentage points.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-walking-fine-010900800.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "3 Russell 2000 Stocks That Fall Short",
+      "publisher": "StockStory",
+      "published": "2026-08-31T22:36:40Z",
+      "summary": "The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size makes them more vulnerable to economic downturns.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-fall-223640545.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "3 Small-Cap Stocks We\u2019re Skeptical Of",
+      "publisher": "StockStory",
+      "published": "2026-09-02T18:04:23Z",
+      "summary": "Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it harder to expand their competitive moats.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-skeptical-180423128.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Quanex Building Products (NX) Beats Q3 Earnings and Revenue Estimates",
+      "publisher": "Zacks",
+      "published": "2026-09-03T21:40:02Z",
+      "summary": "Quanex (NX) delivered earnings and revenue surprises of +16.18% and +0.77%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quanex-building-products-nx-beats-214002308.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Earnings Calendar and Analysis for This Week (September 21-25)",
+      "publisher": "Kiplinger",
+      "published": "2026-09-18T16:29:46Z",
+      "summary": "Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports.",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 10,
+        "share": 0.294,
+        "evidence": [
+          {
+            "title": "Worthington Enterprises, Inc. (WOR) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+            "publisher": "sg.finance.yahoo.com",
+            "published": null,
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises (NYSE:WOR) Stock Forecast & Analyst Predictions - Simply Wall St",
+            "publisher": "simplywall.st",
+            "published": "2026-04-23",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts - Benzinga",
+            "publisher": "benzinga.com",
+            "published": "2026-06-16",
+            "matched": [
+              "forecast",
+              "revis",
+              "estimate",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 8,
+        "share": 0.235,
+        "evidence": [
+          {
+            "title": "Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-24",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises Is Doing Well, But Caution Is Warranted (NYSE:WOR) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-15",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "How To Earn $500 A Month From Worthington Enterprises Stock Ahead Of Q1 Earnings",
+            "publisher": "Benzinga",
+            "published": "2026-09-18T20:31:10Z",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 4,
+        "share": 0.118,
+        "evidence": [
+          {
+            "title": "Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises (NYSE:WOR) Stock Forecast & Analyst Predictions - Simply Wall St",
+            "publisher": "simplywall.st",
+            "published": "2026-04-23",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "WOR Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-24",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.118,
+        "evidence": [
+          {
+            "title": "WOR Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "institutional"
+            ]
+          },
+          {
+            "title": "Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-24",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "WOR Stock Forecast 2026-2027 - Worthington Enterprises, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-09",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Notable Wednesday Option Activity: RDDT, PVLA, WOR",
+            "publisher": "BNK Invest",
+            "published": "Jul 15, 2026",
+            "matched": [
+              "options"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 3,
+        "share": 0.088,
+        "evidence": [
+          {
+            "title": "Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "data center"
+            ]
+          },
+          {
+            "title": "Why Worthington Enterprises Stock Jumped 10% Today",
+            "publisher": "Motley Fool",
+            "published": "2026-09-16T17:02:10Z",
+            "matched": [
+              "data center"
+            ]
+          },
+          {
+            "title": "WOR Q4 Earnings Call Highlights Data Center Growth Push",
+            "publisher": "Zacks",
+            "published": "Jun 25, 2026",
+            "matched": [
+              "data center"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 3,
+        "share": 0.088,
+        "evidence": [
+          {
+            "title": "Worthington Enterprises Is Doing Well, But Caution Is Warranted (NYSE:WOR) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-15",
+            "matched": [
+              "interest rate"
+            ]
+          },
+          {
+            "title": "How To Earn $500 A Month From Worthington Enterprises Stock Ahead Of Q1 Earnings",
+            "publisher": "Benzinga",
+            "published": "2026-09-18T20:31:10Z",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "3 Industrials Stocks Walking a Fine Line",
+            "publisher": "StockStory",
+            "published": "2026-08-16T01:09:00Z",
+            "matched": [
+              "interest rate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 2,
+        "share": 0.059,
+        "evidence": [
+          {
+            "title": "Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-06-24",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "WOR Q4 Earnings Call Highlights Data Center Growth Push",
+            "publisher": "Zacks",
+            "published": "Jun 25, 2026",
+            "matched": [
+              "free cash flow"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-09-23"
+    ],
+    "next_date": "2026-09-23",
+    "eps_avg": 0.75,
+    "eps_low": 0.72,
+    "eps_high": 0.8,
+    "revenue_avg": 331267110
+  },
+  "catalyst": {
+    "date": "2026-09-22",
+    "weekday": "Tuesday",
+    "days_out": 2,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 0.75
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-23",
+        "eps_estimate": 1.06,
+        "eps_actual": 0.97,
+        "surprise_pct": -8.49,
+        "beat": false
+      },
+      {
+        "date": "2026-03-24",
+        "eps_estimate": 0.96,
+        "eps_actual": 0.98,
+        "surprise_pct": 1.87,
+        "beat": true
+      },
+      {
+        "date": "2025-12-16",
+        "eps_estimate": 0.7,
+        "eps_actual": 0.65,
+        "surprise_pct": -7.67,
+        "beat": false
+      },
+      {
+        "date": "2025-09-23",
+        "eps_estimate": 0.7,
+        "eps_actual": 0.74,
+        "surprise_pct": 5.41,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "beat_rate": 0.5,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-22 (Tuesday, after the close), 2 days out -- from the earnings calendar, consensus EPS 0.75."
+  },
+  "forward_trends": {
+    "queries": [
+      "Worthington Enterprises WOR 2026 end market demand consumer tools outdoor living building products",
+      "US home improvement retail sales outlook 2026 DIY consumer spending mass merchandiser inventory",
+      "A2L refrigerant cylinder regulations 2026 HVAC commercial refrigeration automotive AC demand",
+      "battery powered tools replacing propane torches 2026 outdoor cooking electric grills"
+    ],
+    "results_count": 20,
+    "results_dated": 17,
+    "trends": [
+      {
+        "claim": "In 2026, US home improvement demand remains subdued as weak consumer confidence and high mortgage rates limit discretionary remodeling.",
+        "stance": "pressure",
+        "why": "This can keep volumes and mix under pressure for WOR building products sold through home improvement channels.",
+        "quote": "Weak consumer confidence, elevated mortgage rates, and subdued housing turnover are likely to keep growth modest",
+        "url": "https://dbrs.morningstar.com/research/479570/us-home-improvement-sector-cautious-consumers-and-housing-affordability-pressures-dampen-volume-led-recovery-in-2026",
+        "publisher": "dbrs.morningstar.com",
+        "as_of": "2026-04-27",
+        "age_days": 146,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, easing HELOC rates and tax refunds provide some support to US home improvement demand.",
+        "stance": "support",
+        "why": "This may cushion WOR building product volumes even as discretionary remodeling remains weak.",
+        "quote": "Easing home equity line of credit (HELOC) rates and tax refunds tailwinds are likely to offer some support",
+        "url": "https://dbrs.morningstar.com/research/479570/us-home-improvement-sector-cautious-consumers-and-housing-affordability-pressures-dampen-volume-led-recovery-in-2026",
+        "publisher": "dbrs.morningstar.com",
+        "as_of": "2026-04-27",
+        "age_days": 146,
+        "undated": false
+      },
+      {
+        "claim": "Discretionary remodeling weakness is expected to persist into late 2026 and slow further by Q2 2027.",
+        "stance": "pressure",
+        "why": "This delays recovery in WOR building products tied to larger renovation projects.",
+        "quote": "Executives expect conditions to persist into late 2026, and Harvard LIRA projects remodeling growth slows to 0.5% by Q2 2027.",
+        "url": "https://www.housingwire.com/articles/remodeling-home-improvement-demand/",
+        "publisher": "housingwire.com",
+        "as_of": "2026-08-24",
+        "age_days": 27,
+        "undated": false
+      },
+      {
+        "claim": "As of August 2026, steady repair and maintenance demand supports lower-ticket home improvement products.",
+        "stance": "support",
+        "why": "This can sustain baseline volumes for WOR's building products despite weak big-ticket remodeling.",
+        "quote": "While home repair and maintenance demand remains steady, consumers stall large, discretionary remodeling projects",
+        "url": "https://www.housingwire.com/articles/remodeling-home-improvement-demand/",
+        "publisher": "housingwire.com",
+        "as_of": "2026-08-24",
+        "age_days": 27,
+        "undated": false
+      },
+      {
+        "claim": "As of September 2026, siding and exterior trim growth is projected to slow sharply to 2.2% annually.",
+        "stance": "pressure",
+        "why": "This can reduce growth for WOR building products exposed to exterior trim and siding.",
+        "quote": "its growth is set to slow sharply, from 9.2% annually to just 2.2%.",
+        "url": "https://www.hiri.org/research/u.s.-size-of-the-home-improvement-products-market-2026-q3-hiri",
+        "publisher": "hiri.org",
+        "as_of": "2026-09-08",
+        "age_days": 12,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "WOR",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 57.38,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 60.0,
+        "premium": 5.1,
+        "bid": 4.2,
+        "ask": 6.0,
+        "mid": 5.1,
+        "last": 5.61,
+        "open_interest": 0,
+        "volume": null,
+        "implied_vol": 0.4405573522949219,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 60.0,
+        "premium": 1.73,
+        "bid": 1.5,
+        "ask": 1.95,
+        "mid": 1.73,
+        "last": 1.77,
+        "open_interest": 175,
+        "volume": 8.0,
+        "implied_vol": 0.4848684326171875,
+        "qty": 3
+      },
+      "long_total": 4080.0,
+      "short_total": 519.0,
+      "net_debit": 3561.0,
+      "credit_ratio_mid": 0.1272,
+      "credit_ratio_conservative": 0.0938,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 60.0,
+          "qty": 8,
+          "underlying": 57.38,
+          "multiplier": 100,
+          "price": 5.1,
+          "total": 4079.9999999999995,
+          "open_interest": 0
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 60.0,
+          "qty": 3,
+          "underlying": 57.38,
+          "multiplier": 100,
+          "price": 1.73,
+          "total": -519.0,
+          "open_interest": 175
+        }
+      ],
+      "notes": [
+        "thin long leg: 0 open interest",
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 19-Mar-27, after it",
+        "targets report #3 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 60, 65, 70, 80"
+      ],
+      "advice": "Credit ratio 9.4% is below the 10% floor; sell ~1 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0424,
+          "credit_ratio_conservative": 0.0312,
+          "passes_floor": false,
+          "cash_collected": 173.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0848,
+          "credit_ratio_conservative": 0.0625,
+          "passes_floor": false,
+          "cash_collected": 346.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1272,
+          "credit_ratio_conservative": 0.0938,
+          "passes_floor": false,
+          "cash_collected": 519.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1696,
+          "credit_ratio_conservative": 0.125,
+          "passes_floor": true,
+          "cash_collected": 692.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.212,
+          "credit_ratio_conservative": 0.1562,
+          "passes_floor": true,
+          "cash_collected": 865.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2544,
+          "credit_ratio_conservative": 0.1875,
+          "passes_floor": true,
+          "cash_collected": 1038.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2968,
+          "credit_ratio_conservative": 0.2188,
+          "passes_floor": true,
+          "cash_collected": 1211.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.3392,
+          "credit_ratio_conservative": 0.25,
+          "passes_floor": true,
+          "cash_collected": 1384.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "WOR",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 57.38,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 50.0,
+        "premium": 2.6,
+        "bid": 2.1,
+        "ask": 3.1,
+        "mid": 2.6,
+        "last": 2.96,
+        "open_interest": 1,
+        "volume": 1,
+        "implied_vol": 0.40601179931640624,
+        "qty": 17
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 50.0,
+        "premium": 0.68,
+        "bid": 0.4,
+        "ask": 0.95,
+        "mid": 0.68,
+        "last": 0.49,
+        "open_interest": 23,
+        "volume": 1.0,
+        "implied_vol": 0.523442265625,
+        "qty": 8
+      },
+      "long_total": 4420.0,
+      "short_total": 544.0,
+      "net_debit": 3876.0,
+      "credit_ratio_mid": 0.1231,
+      "credit_ratio_conservative": 0.0607,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 50.0,
+          "qty": 17,
+          "underlying": 57.38,
+          "multiplier": 100,
+          "price": 2.6,
+          "total": 4420.0,
+          "open_interest": 1
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 50.0,
+          "qty": 8,
+          "underlying": 57.38,
+          "multiplier": 100,
+          "price": 0.68,
+          "total": -544.0,
+          "open_interest": 23
+        }
+      ],
+      "notes": [
+        "thin long leg: 1 open interest",
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 19-Mar-27, after it",
+        "targets report #3 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 50, 45, 40"
+      ],
+      "advice": "Credit ratio 6.1% is below the 10% floor; sell ~6 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0154,
+          "credit_ratio_conservative": 0.0076,
+          "passes_floor": false,
+          "cash_collected": 68.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0308,
+          "credit_ratio_conservative": 0.0152,
+          "passes_floor": false,
+          "cash_collected": 136.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0462,
+          "credit_ratio_conservative": 0.0228,
+          "passes_floor": false,
+          "cash_collected": 204.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0615,
+          "credit_ratio_conservative": 0.0304,
+          "passes_floor": false,
+          "cash_collected": 272.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0769,
+          "credit_ratio_conservative": 0.038,
+          "passes_floor": false,
+          "cash_collected": 340.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0923,
+          "credit_ratio_conservative": 0.0455,
+          "passes_floor": false,
+          "cash_collected": 408.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1077,
+          "credit_ratio_conservative": 0.0531,
+          "passes_floor": false,
+          "cash_collected": 476.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1231,
+          "credit_ratio_conservative": 0.0607,
+          "passes_floor": false,
+          "cash_collected": 544.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.1385,
+          "credit_ratio_conservative": 0.0683,
+          "passes_floor": false,
+          "cash_collected": 612.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.1538,
+          "credit_ratio_conservative": 0.0759,
+          "passes_floor": false,
+          "cash_collected": 680.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.1692,
+          "credit_ratio_conservative": 0.0835,
+          "passes_floor": false,
+          "cash_collected": 748.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.1846,
+          "credit_ratio_conservative": 0.0911,
+          "passes_floor": false,
+          "cash_collected": 816.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.2,
+          "credit_ratio_conservative": 0.0987,
+          "passes_floor": false,
+          "cash_collected": 884.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.2154,
+          "credit_ratio_conservative": 0.1063,
+          "passes_floor": true,
+          "cash_collected": 952.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.2308,
+          "credit_ratio_conservative": 0.1139,
+          "passes_floor": true,
+          "cash_collected": 1020.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.2462,
+          "credit_ratio_conservative": 0.1214,
+          "passes_floor": true,
+          "cash_collected": 1088.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.2615,
+          "credit_ratio_conservative": 0.129,
+          "passes_floor": true,
+          "cash_collected": 1156.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for WOR",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/WOR/key-statistics/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "Price: 57.38 USD Market Cap: 2.81B Fwd PE: 15.53 P/S: 2.0 EPS trends: down over the last 7 days EPS revisions: all down, with 0 up and 4 down over last 30 days price 57.38 market cap 2.81B forward PE 15.53 forward PE next FY 14.06 trailing PE 18.273886 P/S 2.0324585 EV/EBITDA 21.522"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for WOR",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/WOR/analysis/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "FY consensus 3.694 now, 3.734 7 days ago, 3.734 30 days ago, change over 30 days -1.07%; EPS revisions 0 up and 4 down over 30 days, 0 up and 4 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "WOR quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/wor/financials",
+      "date": "5/31/2026",
+      "weight": null,
+      "text": "Cash and Cash Equivalents increasing 363.7% (2/28/2026 to 5/31/2026) Net Income increasing 5.9% (2/28/2026 to 5/31/2026) EPS declined year over year 1.06 to 0.97"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "WOR earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/wor/earnings",
+      "date": "2026-09-22",
+      "weight": null,
+      "text": "2026-09-22 (Tuesday, after the close), 2 days out -- from the earnings calendar, consensus EPS 0.75. beat streak 0 median gap 91 days 2026-06-23 estimate 1.06 actual 0.97 surprise -8.49% 2026-03-24 estimate 0.96 actual 0.98 surprise 1.87% 2025-12-16 estimate 0.7 actual 0.65 surprise -7.67% 2025-09-23 estimate 0.7 actual 0.74 surprise 5.41%"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Motley Fool: Why Worthington Enterprises Stock Jumped 10% Today",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/investing/2026/09/16/why-worthington-enterprises-stock-jumped-10-today/",
+      "date": "2026-09-16",
+      "weight": 3,
+      "text": "Why Worthington Enterprises Stock Jumped 10% Today Is Worthington an under-the-radar data center play?"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Zacks: Zacks Industry Outlook Trex and Worthington",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-trex-worthington-072400203.html",
+      "date": "2026-09-17",
+      "weight": 3,
+      "text": "Zacks Industry Outlook Trex and Worthington Trex and Worthington have been highlighted in this Industry Outlook article."
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Simply Wall St.: How Investors Are Reacting To Worthington (WOR) Linking Sustainability Targets With Automation And AI Investments",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-worthington-wor-linking-011651100.html",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "How Investors Are Reacting To Worthington (WOR) Linking Sustainability Targets With Automation And AI Investments Earlier this year, Worthington Enterprises released its annual Corporate Citizenship and Sustainability Report, outlining progress across people, planet, products and governance, alongside advances in automation and AI-enabled operational technologies. The combination of expanded sustainability commitments and investments in areas like data-center liquid cooling and process automation signals how Worthington is tying environmental goals to long-term operational efficiency and..."
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Zacks: Strength Seen in Worthington Enterprises (WOR): Can Its 8.2% Jump Turn into More Strength?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strength-seen-worthington-enterprises-wor-142000856.html",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "Strength Seen in Worthington Enterprises (WOR): Can Its 8.2% Jump Turn into More Strength? Worthington Enterprises (WOR) was a big mover last session on higher-than-average trading volume. The latest trend in earnings estimate revisions might not help the stock continue moving higher in the near term."
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "ref": "news:4",
+      "label": "Benzinga: How To Earn $500 A Month From Worthington Enterprises Stock Ahead Of Q1 Earnings",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-worthington-enterprises-203110190.html",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "How To Earn $500 A Month From Worthington Enterprises Stock Ahead Of Q1 Earnings As Worthington Enterprises, Inc. prepares to release first-quarter earnings after the closing bell on Tuesday, Sept. 22, some investors may be eyeing potential gains from its dividends. Currently, Worthington has an annual dividend yield of 1.36%, with a quarterly dividend..."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "BNK Invest: Notable Wednesday Option Activity: RDDT, PVLA, WOR",
+      "provider": null,
+      "url": "/articles/notable-wednesday-option-activity-rddt-pvla-wor",
+      "date": "Jul 15, 20",
+      "weight": 3,
+      "text": "Notable Wednesday Option Activity: RDDT, PVLA, WOR Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Reddit Inc (Symbol: RDDT), where a total of 27,612 contracts have traded so far, representing approximately 2.8 million underlying shares.  That amounts to about 66.3% of"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Worthington Enterprises (WOR) Lags Q4 Earnings and Revenue Estimates",
+      "provider": null,
+      "url": "/articles/worthington-enterprises-wor-lags-q4-earnings-and-revenue-estimates",
+      "date": "Jun 23, 20",
+      "weight": 3,
+      "text": "Worthington Enterprises (WOR) Lags Q4 Earnings and Revenue Estimates Worthington Enterprises (WOR) delivered earnings and revenue surprises of -6.73% and -3.69%, respectively, for the quarter ended May 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "RTTNews: Worthington Enterprises Inc. Q4 Income Climbs",
+      "provider": null,
+      "url": "/articles/worthington-enterprises-inc-q4-income-climbs",
+      "date": "Jun 23, 20",
+      "weight": 3,
+      "text": "Worthington Enterprises Inc. Q4 Income Climbs (RTTNews) - Worthington Enterprises Inc. (WOR) announced a profit for its fourth quarter that Increases, from the same period last year"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "BNK Invest: Daily Dividend Report: WOR,GBCI,MKC,CMC,MRP",
+      "provider": null,
+      "url": "/articles/daily-dividend-report-worgbcimkccmcmrp",
+      "date": "Jun 24, 20",
+      "weight": 3,
+      "text": "Daily Dividend Report: WOR,GBCI,MKC,CMC,MRP The Worthington Enterprises board of directors today declared a quarterly dividend of $0.20 per share, which represents an increase of $0.01 per share or 5% from the prior quarter. The dividend is payable on September 29, 2026, to shareholders of record on September 15, 2026. Th"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: WOR Q4 Earnings Call Highlights Data Center Growth Push",
+      "provider": null,
+      "url": "/articles/wor-q4-earnings-call-highlights-data-center-growth-push",
+      "date": "Jun 25, 20",
+      "weight": 3,
+      "text": "WOR Q4 Earnings Call Highlights Data Center Growth Push WOR highlights data center cooling demand, acquisition gains and record free cash flow as it enters fiscal 2027 with expansion plans."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "BNK Invest: Worthington Enterprises Breaks Below 200-Day Moving Average - Notable for WOR",
+      "provider": null,
+      "url": "/articles/worthington-enterprises-breaks-below-200-day-moving-average-notable-wor",
+      "date": "Jun 29, 20",
+      "weight": 3,
+      "text": "Worthington Enterprises Breaks Below 200-Day Moving Average - Notable for WOR In trading on Monday, shares of Worthington Enterprises Inc (Symbol: WOR) crossed below their 200 day moving average of $55.20, changing hands as low as $54.11 per share.  Worthington Enterprises Inc shares are currently trading off about 3.9% on the day.  The chart below shows"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: The Zacks Analyst Blog Highlights The Kroger, Worthington Enterprises, Delta Air Line, Northeast Community Bancorp and World Kinect",
+      "provider": null,
+      "url": "/articles/zacks-analyst-blog-highlights-kroger-worthington-enterprises-delta-air-line-northeast",
+      "date": "Jun 29, 20",
+      "weight": 3,
+      "text": "The Zacks Analyst Blog Highlights The Kroger, Worthington Enterprises, Delta Air Line, Northeast Community Bancorp and World Kinect The Kroger, Worthington Enterprises, Delta Air Lines, Northeast Community Bancorp and World Kinect are highlighted after recent dividend increases."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Company News for Jun 25, 2026",
+      "provider": null,
+      "url": "/articles/company-news-jun-25-2026",
+      "date": "Jun 25, 20",
+      "weight": 2,
+      "text": "Company News for Jun 25, 2026 Companies in The News Are: KBH, ICLR, WOR, DAL"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: 5 Stocks to Watch on Recent Dividend Hikes as Market Risks Rise",
+      "provider": null,
+      "url": "/articles/5-stocks-watch-recent-dividend-hikes-market-risks-rise",
+      "date": "Jun 26, 20",
+      "weight": 2,
+      "text": "5 Stocks to Watch on Recent Dividend Hikes as Market Risks Rise KR, WOR, DAL, NECB and WKC recently raised dividends as persistent inflation and market risks keep income-focused investors on alert."
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: 2 Wood Stocks Positioned to Weather Industry Challenges",
+      "provider": null,
+      "url": "/articles/2-wood-stocks-positioned-weather-industry-challenges",
+      "date": "Sep 16, 20",
+      "weight": 2,
+      "text": "2 Wood Stocks Positioned to Weather Industry Challenges Focus on product innovation and efficient cost management is encouraging for the Zacks Building Products ??? Wood industry players like TREX and WOR despite a challenging macroeconomic backdrop."
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "StockStory: 3 Industrials Stocks Walking a Fine Line",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-walking-fine-010900800.html",
+      "date": "2026-08-16",
+      "weight": 0,
+      "text": "3 Industrials Stocks Walking a Fine Line Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. But they are at the whim of volatile macroeconomic factors that influence capital spending (like interest rates), and the industry has underperformed the market over the past six months as its 2.1% return lagged the S&P 500 by 10.9 percentage points."
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "StockStory: 3 Russell 2000 Stocks That Fall Short",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-fall-223640545.html",
+      "date": "2026-08-31",
+      "weight": 0,
+      "text": "3 Russell 2000 Stocks That Fall Short The Russell 2000 (^RUT) is home to many small-cap stocks, offering investors the chance to uncover hidden gems before the broader market catches on. However, these companies often come with higher volatility and risk, as their smaller size makes them more vulnerable to economic downturns."
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "StockStory: 3 Small-Cap Stocks We\u2019re Skeptical Of",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-skeptical-180423128.html",
+      "date": "2026-09-02",
+      "weight": 0,
+      "text": "3 Small-Cap Stocks We\u2019re Skeptical Of Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it harder to expand their competitive moats."
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Zacks: Quanex Building Products (NX) Beats Q3 Earnings and Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quanex-building-products-nx-beats-214002308.html",
+      "date": "2026-09-03",
+      "weight": 0,
+      "text": "Quanex Building Products (NX) Beats Q3 Earnings and Revenue Estimates Quanex (NX) delivered earnings and revenue surprises of +16.18% and +0.77%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Kiplinger: Earnings Calendar and Analysis for This Week (September 21-25)",
+      "provider": "kiplinger.com",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "Earnings Calendar and Analysis for This Week (September 21-25) Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports."
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "sg.finance.yahoo.com: Worthington Enterprises, Inc. (WOR) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "sg.finance.yahoo.com",
+      "url": "https://sg.finance.yahoo.com/quote/WOR/analysis/",
+      "date": null,
+      "weight": 3,
+      "text": "Worthington Enterprises, Inc. (WOR) analyst ratings, estimates and forecasts \u2013 Yahoo Finance Worthington Enterprises, Inc. (WOR) analyst ratings, estimates and forecasts \u2013 Yahoo Finance\n\nSomething went wrong\n\nNYSE - Nasdaq Real Time Price USD\n\n# Worthington Enterprises, Inc. (WOR)\n\n56.51 -4.52 (-7.38%)\n\nAs of 10:59:28 am GMT-4. Market open.\n\nWOR Q4 2026 earnings call\n\nReplay the call for the latest insights.\n\nPlay call\n\nQ4 FY26\n\nRevenue 371.46M\n\nEarnings 47.7M\n\nQ1\n\nFY26\n\nQ2\n\nFY26\n\nQ3\n\nFY26\n\nQ4\n\nFY26\n\n0\n\n100M\n\n200M\n\n300M\n\nCurrency in USD\n\nCurrent qtr. (May 2026)\n\nNext qtr. (Aug 2026)\n\nCurrent year (2026)\n\nNext year (2027)\n\n| No. of analysts | 5 | 3 | 5 | 5 |\n| --- | --- | --- | --- | -"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "seekingalpha.com: Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946986-worthington-enterprises-structural-growth-but-margin-uncertainty-limits-the-upside",
+      "date": null,
+      "weight": 3,
+      "text": "Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha # Worthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha\n\nPublished: 2026-09-16T13:55:07+00:00\nSource: seekingalpha.com (seekingalpha.com)\nLanguage: en\n\n## Story\n\nWorthington Enterprises: Structural Growth, But Margin Uncertainty Limits The Upside | Seeking Alpha\n\n## Summary\n\n- Worthington Enterprises is rated Hold, with valuation aligned to sector median and key catalysts already reflected in estimates.\n- Structural growth in data center liquid cooling, acquisitions, and pricing actions drive the topline, but weak commercial construction and A2L i"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "simplywall.st: Worthington Enterprises (NYSE:WOR) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-wor/worthington-enterprises/future",
+      "date": "2026-04-23",
+      "weight": 3,
+      "text": "Worthington Enterprises (NYSE:WOR) Stock Forecast & Analyst Predictions - Simply Wall St Worthington Enterprises (NYSE:WOR) Stock Forecast & Analyst Predictions - Simply Wall St\n\nNOT FOR DISTRIBUTION\n\nWorthington Enterprises, Inc.\n\nNYSE:WOR Stock Report\n\nMarket Cap: US$2.9b\n\nPortfolioAdd to Portfolio\n\nView Valuation\n\n# Worthington Enterprises Future Growth\n\n## Future criteria checks 1/6\n\nWorthington Enterprises is forecast to grow earnings and revenue by 15.7% and 5.3% per annum respectively while EPS is expected to grow by 15.1% per annum.\n\n## Key information\n\n15.7%\n\nEarnings growth rate\n\n15.10%\n\nEPS growth rate\n\nLow\n\n| Machinery earnings growth | 16.7% |\n| --- | --- |\n| Revenue"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "circlfi.com: WOR Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/wor-stock-analysis/",
+      "date": "2026-06-03",
+      "weight": 3,
+      "text": "WOR Stock: Buy or Avoid in 2026? | CirclFi WOR Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy Worthington Enterprises, Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-09-04 \u00b7 10/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, Worthington Enterprises, Inc. (WOR) scores a robust 7.9/10 on our 32-signal Quality of Company framework. At the current market price of $62.49 and a $3.1B market cap, our analysis maps this fundamental strength against 13 institutional-grade models to determine if a sufficient margin of safety exists.\n\nThe short answer: 1 of 10 CirclFi valuation models"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "benzinga.com: Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts - Benzinga",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/53214882/worthington-enterprises-likely-to-report-higher-q4-revenue-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "date": "2026-06-16",
+      "weight": 3,
+      "text": "Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts - Benzinga Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts - Benzinga\n\n June 16, 2026 1:19 AM 1 min read \n\n## Worthington Enterprises Likely To Report Higher Q4 Revenue; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call\n\nWorthington Enterprises, Inc. (NYSE: WOR) will release its fourth quarter earnings report after the closing bell on Tuesday, June 23.\n\nAnalysts expect the Columbus, Ohio-based grocer to report quarterly earnings of $1.06 per share, unchanged from $1.06 per share in the year-ago period. The consensus estimate for"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "ir.worthingtonenterprises.com: Worthington Enterprises, Inc. - Worthington Enterprises Reports Fourth Quarter and Full-Year Fiscal 2026 Results",
+      "provider": "ir.worthingtonenterprises.com",
+      "url": "https://ir.worthingtonenterprises.com/news/news-details/2026/Worthington-Enterprises-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx",
+      "date": "2026-06-23",
+      "weight": 3,
+      "text": "Worthington Enterprises, Inc. - Worthington Enterprises Reports Fourth Quarter and Full-Year Fiscal 2026 Results Worthington Enterprises, Inc. - Worthington Enterprises Reports Fourth Quarter and Full-Year Fiscal 2026 Results \n\n### Worthington Enterprises Reports Fourth Quarter and Full-Year Fiscal 2026 Results \n\n 06/23/2026 \n\nCOLUMBUS, Ohio, June 23, 2026 (GLOBE NEWSWIRE) -- Worthington Enterprises Inc. (NYSE: WOR), a designer and manufacturer of market-leading building and consumer products that improve everyday life by elevating spaces and experiences, today reported results for its fiscal 2026 fourth quarter and full-year ended May 31, 2026.\n\nRecent Developments and Highlights (comparisons to the pri"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "seekingalpha.com: Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4917428-worthington-enterprises-an-optimistic-dividend-hike-a-fair-valuation-downgrade",
+      "date": "2026-06-24",
+      "weight": 3,
+      "text": "Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade) (WOR) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# Worthington Enterprises: An Optimistic Dividend Hike, A Fair Valuation (Downgrade)\nJun 24, 2026, 2:26 PM ETWorthington Enterprises, Inc. (WOR) Stock\n\nMike Zaccardi, CFA, CMT\n9.72K Followers\nFollow\n## Summary\n* Worthington Enterprises is"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "tickernerd.com: WOR Stock Forecast 2026-2027 - Worthington Enterprises, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/wor-forecast/",
+      "date": "2026-09-09",
+      "weight": 3,
+      "text": "WOR Stock Forecast 2026-2027 - Worthington Enterprises, Inc. Price Targets & Predictions WOR Stock Forecast 2026-2027 - Worthington Enterprises, Inc. Price Targets & Predictions\n\n# WOR Stock Forecast: Worthington Enterprises, Inc. Price Predictions for 2026-2027\n\nLast close, 9 Sept 2026\n\n$60\n\n\u22124.21% on the day\n\nThe 4 Wall Street analysts covering Worthington Enterprises, Inc. hold a median 12-month price target of $67 \u2014 +12.1% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 73 of 100 as at 8 Sept 2026 \u2014 in the upper half. Here, the model and the Street point the same way.\n\nMarket cap\n\n$3.1B\n\nTicker Nerd rank\n\n73 / 100\n\nMedian analy"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketwatch.com: WOR | Worthington Enterprises Inc. Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/wor/analystestimates",
+      "date": "2026-09-11",
+      "weight": 3,
+      "text": "WOR | Worthington Enterprises Inc. Analyst Estimates | MarketWatch WOR | Worthington Enterprises Inc. Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDow\n0.98%\n\nS&P 500\n0.86%\n\nNasdaq\n0.96%\n\nVIX\n-11.21%\n\nGold\n-0.43%\n\nOil\n-0.06%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|Dow|52,573.29|509.19|0.98%|\n|**|S&P 500|7,656.98|65.28|0.86%|\n|**|Nasdaq|26,333.04|251.31|0.96%|\n|**|VIX|15.84|-2.00|-11.21%|\n|**|Gold|4,390.00|-18.90|-0.43%|\n|**|Oil|99.99|-0.06|-0.06%|\nS&P 500 Movers\n* HPE\n12.4\n\n* DELL\n12.0\n\n* NTAP\n8.5\n\n* ON\n8.5\n\n* STX\n-3.7\n\n* SNDK\n-3.5\n\n* ALB\n-3.4\n\n* WDC\n-3.0\n\nVisit Marke"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "seekingalpha.com: Worthington Enterprises Is Doing Well, But Caution Is Warranted (NYSE:WOR) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946541-worthington-enterprises-is-doing-well-but-caution-is-warranted",
+      "date": "2026-09-15",
+      "weight": 3,
+      "text": "Worthington Enterprises Is Doing Well, But Caution Is Warranted (NYSE:WOR) | Seeking Alpha Worthington Enterprises Is Doing Well, But Caution Is Warranted (NYSE:WOR) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n* Interest Rates\n# Worthington Enterprises Is Doing Well With Strategic Acquisitions, But Caution Is Warranted\nSep 15, 2026, 12:03 PM ETWorthington Enterprises, Inc. (WOR) Stock\n\nDaniel Jones\nInvesting Group Leader\nFollow\n## Summary\n* Worthington Enterprises receives a 'hold' rating due to mixed financial performance and"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "simplywall.st: Worthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-wor/worthington-enterprises/news/worthington-enterprises-wor-stock-looks-reasonable-despite-a",
+      "date": "2026-09-16",
+      "weight": 3,
+      "text": "Worthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap - Simply Wall St News # Worthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap - Simply Wall St News\n\nPublished: 2026-09-16T19:24:36.897000+00:00\nSource: simplywall.st (simplywall.st)\nLanguage: en\n\n## Story\n\nWorthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap - Simply Wall St News\n\n# Worthington Enterprises (WOR) Stock Looks Reasonable Despite A 41% Cash Flow Gap\n\n September 16, 2026\n\nSimply Wall St Reviewed by Bailey Pemberton\n\nWorthington Enterprises has seen its share price move around over the past few years, and that puts the spotlight squarely on whether"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "globenewswire.com: Worthington Enterprises Announces Investor Day; Renames",
+      "provider": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/09/15/3362649/0/en/worthington-enterprises-announces-investor-day-renames-business-segments.html",
+      "date": "2026-11-10",
+      "weight": 3,
+      "text": "Worthington Enterprises Announces Investor Day; Renames Worthington Enterprises Announces Investor Day; Renames\n\n# Worthington Enterprises Announces Investor Day; Renames Business Segments\n\n September 15, 2026 16:15 ET | Source: Worthington Enterprises, Inc. \n\nCOLUMBUS, Ohio, Sept. 15, 2026 (GLOBE NEWSWIRE) -- Worthington Enterprises Inc. (NYSE: WOR) today announced plans to host an Investor and Analyst Day on November 10. The event marks the company's first Investor Day since October 2023, when Worthington Enterprises was still known as Worthington Industries and preparing to separate its Steel Processing business. Registration information is link"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "dbrs.morningstar.com: In 2026, US home improvement demand remains subdued as weak consumer confidence and high mortgage rates limit discretionary remodeling.",
+      "provider": "dbrs.morningstar.com",
+      "url": "https://dbrs.morningstar.com/research/479570/us-home-improvement-sector-cautious-consumers-and-housing-affordability-pressures-dampen-volume-led-recovery-in-2026",
+      "date": "2026-04-27",
+      "weight": null,
+      "text": "In 2026, US home improvement demand remains subdued as weak consumer confidence and high mortgage rates limit discretionary remodeling. This can keep volumes and mix under pressure for WOR building products sold through home improvement channels. \"Weak consumer confidence, elevated mortgage rates, and subdued housing turnover are likely to keep growth modest\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "dbrs.morningstar.com: In 2026, easing HELOC rates and tax refunds provide some support to US home improvement demand.",
+      "provider": "dbrs.morningstar.com",
+      "url": "https://dbrs.morningstar.com/research/479570/us-home-improvement-sector-cautious-consumers-and-housing-affordability-pressures-dampen-volume-led-recovery-in-2026",
+      "date": "2026-04-27",
+      "weight": null,
+      "text": "In 2026, easing HELOC rates and tax refunds provide some support to US home improvement demand. This may cushion WOR building product volumes even as discretionary remodeling remains weak. \"Easing home equity line of credit (HELOC) rates and tax refunds tailwinds are likely to offer some support\""
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "housingwire.com: Discretionary remodeling weakness is expected to persist into late 2026 and slow further by Q2 2027.",
+      "provider": "housingwire.com",
+      "url": "https://www.housingwire.com/articles/remodeling-home-improvement-demand/",
+      "date": "2026-08-24",
+      "weight": null,
+      "text": "Discretionary remodeling weakness is expected to persist into late 2026 and slow further by Q2 2027. This delays recovery in WOR building products tied to larger renovation projects. \"Executives expect conditions to persist into late 2026, and Harvard LIRA projects remodeling growth slows to 0.5% by Q2 2027.\""
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "housingwire.com: As of August 2026, steady repair and maintenance demand supports lower-ticket home improvement products.",
+      "provider": "housingwire.com",
+      "url": "https://www.housingwire.com/articles/remodeling-home-improvement-demand/",
+      "date": "2026-08-24",
+      "weight": null,
+      "text": "As of August 2026, steady repair and maintenance demand supports lower-ticket home improvement products. This can sustain baseline volumes for WOR's building products despite weak big-ticket remodeling. \"While home repair and maintenance demand remains steady, consumers stall large, discretionary remodeling projects\""
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "hiri.org: As of September 2026, siding and exterior trim growth is projected to slow sharply to 2.2% annually.",
+      "provider": "hiri.org",
+      "url": "https://www.hiri.org/research/u.s.-size-of-the-home-improvement-products-market-2026-q3-hiri",
+      "date": "2026-09-08",
+      "weight": null,
+      "text": "As of September 2026, siding and exterior trim growth is projected to slow sharply to 2.2% annually. This can reduce growth for WOR building products exposed to exterior trim and siding. \"its growth is set to slow sharply, from 9.2% annually to just 2.2%.\""
+    },
+    {
+      "id": "S42",
+      "kind": "options",
+      "ref": "options",
+      "label": "WOR listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/WOR/options/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "long CALL strike 60.0 expiry 2027-03-19 premium 5.1 short PUT strike 50.0 expiry 2027-03-19 premium 2.6"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 3.34,
+    "fy_consensus": 3.694,
+    "ratio": 0.904,
+    "beats": 2,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.97 + 0.98 + 0.65 + 0.74) total 3.34, against a current-FY consensus of 3.694 -- read it against the streak before treating either as stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "Worthington Enterprises WOR 2026 2027 A2L refrigerant cylinder demand HVAC",
+        "2026 2027 propane LPG cylinder demand outdoor cooking heating consumer spending",
+        "2026 2027 home improvement retail sales DIY tools drywall construction remodeling outlook",
+        "2026 2027 helium supply balloon kit demand party goods retail"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "As of April 2026, the A2L refrigerant transition is driving cylinder capacity investment to avoid contractor shortages.",
+          "stance": "support",
+          "why": "Higher A2L cylinder volumes can lift Worthington's refrigerant cylinder sales.",
+          "quote": "they invested heavily in production capacity and distribution coordination to make sure contractors aren\u2019t left waiting",
+          "url": "https://hvac-blog.acca.org/how-worthington-is-building-supply-confidence-for-contractors/",
+          "publisher": "hvac-blog.acca.org",
+          "as_of": "2026-04-14",
+          "age_days": 159,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, U.S. LPG tank demand is forecast to grow 4-6% annually through 2035.",
+          "stance": "support",
+          "why": "Growing propane tank demand can support Worthington's cylinder volumes and revenue.",
+          "quote": "positioned for sustained growth at a 4-6% compound annual rate through 2035",
+          "url": "https://www.indexbox.io/store/united-states-liquefied-petroleum-gas-tanks-market-analysis-forecast-size-trends-and-insights/",
+          "publisher": "indexbox.io",
+          "as_of": "2026-08-16",
+          "age_days": 35,
+          "undated": false
+        },
+        {
+          "claim": "As of May 2026, the global LPG cylinder market is forecast to grow 4.60% annually through 2035.",
+          "stance": "support",
+          "why": "Expanding global cylinder demand can support Worthington's LPG cylinder sales.",
+          "quote": "The LPG Gas Cylinder Market valued at $18.7 Billion in 2026 is forecast to scale to $28.03 Billion by 2035",
+          "url": "https://markwideresearch.com/lpg-gas-cylinder-market",
+          "publisher": "markwideresearch.com",
+          "as_of": "2026-05-01",
+          "age_days": 142,
+          "undated": false
+        },
+        {
+          "claim": "In the second half of 2026, home improvement product growth is declining after inflation adjustment.",
+          "stance": "pressure",
+          "why": "Weaker real demand for building products can reduce Worthington's volumes.",
+          "quote": "product growth is in decline across almost every major category",
+          "url": "https://www.hiri.org/blog/navigating-home-improvement-market-insights-from-hiris-latest-size-of-market-forecast",
+          "publisher": "hiri.org",
+          "as_of": "2026-07-29",
+          "age_days": 53,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, some building product categories are forecast to shrink in 2026.",
+          "stance": "pressure",
+          "why": "Slower building product demand can pressure Worthington's volumes.",
+          "quote": "Kitchen and bath cabinets are forecast to be one of the few categories to shrink outright in 2026, down 2.1%.",
+          "url": "https://www.hiri.org/research/u.s.-size-of-the-home-improvement-products-market-2026-q3-hiri",
+          "publisher": "hiri.org",
+          "as_of": "2026-09-08",
+          "age_days": 12,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Worthington Enterprises WOR 2026 HVAC refrigerant cylinder demand A2L transition",
+        "2026 US propane cylinder market outlook outdoor cooking camping demand",
+        "2026 home improvement retail inventory outlook tools hardware outdoor living consumer spending",
+        "2026 construction spending drywall tools roofing siding demand tariffs"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "After the 2025 R-454B supply crunch, Worthington's A2L cylinder capacity investments support demand into 2026.",
+          "stance": "support",
+          "why": "Higher A2L cylinder volumes and distribution readiness should lift sales as HFC phasedown continues.",
+          "quote": "after last year\u2019s R-454B supply crunch exposed how much that availability matters, they invested heavily in production capacity and distribution coordination",
+          "url": "https://hvac-blog.acca.org/how-worthington-is-building-supply-confidence-for-contractors/",
+          "publisher": "hvac-blog.acca.org",
+          "as_of": "2026-04-14",
+          "age_days": 159,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, US LPG tank demand is projected to grow 4-6% annually through 2035.",
+          "stance": "support",
+          "why": "Rising residential heating, agricultural drying, and autogas adoption should increase cylinder and tank orders.",
+          "quote": "positioned for sustained growth at a 4-6% compound annual rate through 2035",
+          "url": "https://www.indexbox.io/store/united-states-liquefied-petroleum-gas-tanks-market-analysis-forecast-size-trends-and-insights/",
+          "publisher": "indexbox.io",
+          "as_of": "2026-08-16",
+          "age_days": 35,
+          "undated": false
+        },
+        {
+          "claim": "Global propane cylinder market is forecast to grow 7.2% annually from 2026 to 2033.",
+          "stance": "support",
+          "why": "Rising residential, commercial LPG and outdoor recreation use should increase cylinder sales volumes.",
+          "quote": "growing at a CAGR of 7.2% during the forecast period 2026-2033",
+          "url": "https://www.linkedin.com/pulse/propane-cylinder-market-size-trends-2026-2033-forecast-12cef",
+          "publisher": "linkedin.com",
+          "as_of": "2026-05-20",
+          "age_days": 123,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, mortgage rates near 6.76% are pressuring housing affordability and larger remodel demand.",
+          "stance": "pressure",
+          "why": "Weaker new construction and remodel activity should reduce demand for Worthington building products.",
+          "quote": "That higher rate is keeping pressure on housing affordability and household confidence, especially for new construction and larger remodel work.",
+          "url": "https://www.building-products.com/quarterly-outlook-q3-2026/",
+          "publisher": "building-products.com",
+          "as_of": "2026-09-16",
+          "age_days": 4,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, siding and exterior trim growth is set to slow sharply to 2.2% annually.",
+          "stance": "pressure",
+          "why": "Slower category growth should weigh on Worthington's building products volumes and pricing.",
+          "quote": "its growth is set to slow sharply, from 9.2% annually to just 2.2%",
+          "url": "https://www.hiri.org/research/u.s.-size-of-the-home-improvement-products-market-2026-q3-hiri",
+          "publisher": "hiri.org",
+          "as_of": "2026-09-08",
+          "age_days": 12,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Worthington Enterprises WOR 2026 end market demand consumer tools outdoor living building products",
+        "US home improvement retail sales outlook 2026 DIY consumer spending mass merchandiser inventory",
+        "A2L refrigerant cylinder regulations 2026 HVAC commercial refrigeration automotive AC demand",
+        "battery powered tools replacing propane torches 2026 outdoor cooking electric grills"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "In 2026, US home improvement demand remains subdued as weak consumer confidence and high mortgage rates limit discretionary remodeling.",
+          "stance": "pressure",
+          "why": "This can keep volumes and mix under pressure for WOR building products sold through home improvement channels.",
+          "quote": "Weak consumer confidence, elevated mortgage rates, and subdued housing turnover are likely to keep growth modest",
+          "url": "https://dbrs.morningstar.com/research/479570/us-home-improvement-sector-cautious-consumers-and-housing-affordability-pressures-dampen-volume-led-recovery-in-2026",
+          "publisher": "dbrs.morningstar.com",
+          "as_of": "2026-04-27",
+          "age_days": 146,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, easing HELOC rates and tax refunds provide some support to US home improvement demand.",
+          "stance": "support",
+          "why": "This may cushion WOR building product volumes even as discretionary remodeling remains weak.",
+          "quote": "Easing home equity line of credit (HELOC) rates and tax refunds tailwinds are likely to offer some support",
+          "url": "https://dbrs.morningstar.com/research/479570/us-home-improvement-sector-cautious-consumers-and-housing-affordability-pressures-dampen-volume-led-recovery-in-2026",
+          "publisher": "dbrs.morningstar.com",
+          "as_of": "2026-04-27",
+          "age_days": 146,
+          "undated": false
+        },
+        {
+          "claim": "Discretionary remodeling weakness is expected to persist into late 2026 and slow further by Q2 2027.",
+          "stance": "pressure",
+          "why": "This delays recovery in WOR building products tied to larger renovation projects.",
+          "quote": "Executives expect conditions to persist into late 2026, and Harvard LIRA projects remodeling growth slows to 0.5% by Q2 2027.",
+          "url": "https://www.housingwire.com/articles/remodeling-home-improvement-demand/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-08-24",
+          "age_days": 27,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, steady repair and maintenance demand supports lower-ticket home improvement products.",
+          "stance": "support",
+          "why": "This can sustain baseline volumes for WOR's building products despite weak big-ticket remodeling.",
+          "quote": "While home repair and maintenance demand remains steady, consumers stall large, discretionary remodeling projects",
+          "url": "https://www.housingwire.com/articles/remodeling-home-improvement-demand/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-08-24",
+          "age_days": 27,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, siding and exterior trim growth is projected to slow sharply to 2.2% annually.",
+          "stance": "pressure",
+          "why": "This can reduce growth for WOR building products exposed to exterior trim and siding.",
+          "quote": "its growth is set to slow sharply, from 9.2% annually to just 2.2%.",
+          "url": "https://www.hiri.org/research/u.s.-size-of-the-home-improvement-products-market-2026-q3-hiri",
+          "publisher": "hiri.org",
+          "as_of": "2026-09-08",
+          "age_days": 12,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

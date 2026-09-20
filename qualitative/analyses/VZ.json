@@ -1,0 +1,1219 @@
+{
+  "symbol": "VZ",
+  "researched_on": "2026-09-20",
+  "model": "deepseek-v4.1-flash",
+  "gates": {
+    "max_price": 100.0,
+    "min_market_cap": 1000000000.0
+  },
+  "profile": {
+    "symbol": "VZ",
+    "name": "Verizon Communications Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "country": "United States",
+    "website": "https://www.verizon.com",
+    "employees": 97600,
+    "summary": "Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and streaming products and services to consumers, businesses, and governmental entities worldwide. It operates in two segments, Verizon Consumer Group (Consumer) and Verizon Business Group (Business). The Consumer segment provides wireless services across the wireless networks in the United States under the Verizon and TracFone brands and through wholesale and other arrangements; and fixed wireless access (FWA) broadband through its wireless networks, as well as related equipment and devices, such as smartphones, tablets, smartwatches, and other wireless-enabled connected devices. The segment also offers wireline services in the Mid-Atlantic and Northeastern United States, as well as Washington D.C. through its fiber-optic network, Verizon Fios product portfolio, and a copper-based network. The Business segment provides wireless and wireline communications services and products, including FWA and wireline broadband, advanced communication services, corporate networking, security and managed network, local and long-distance voice, and network access services to deliver various IoT services and products to businesses, government customers, and wireless and wireline carriers in the United States and internationally. The company distributes its products and services through direct channels, company-operated stores, digital and omnichannel platforms, indirect agents, business solution resellers, and national retailers. The company was formerly known as Bell Atlantic Corporation and changed its name to Verizon Communications Inc. in June 2000. Verizon Communications Inc. was incorporated in 1983 and is headquartered in New York, New York.",
+    "summary_words": 237,
+    "price": 48.09,
+    "market_cap": 199803142144,
+    "market_cap_human": "199.8B",
+    "exchange": "NYSE",
+    "nasdaq_price": 48.09,
+    "nasdaq_market_cap": 199803139464.0,
+    "gate_conflicts": [],
+    "passes_price_gate": true,
+    "passes_cap_gate": true
+  },
+  "streams": {
+    "queries": [
+      "Verizon Communications Inc. (VZ) revenue by segment product line breakdown annual report 10-K",
+      "Verizon Communications Inc. how it makes money revenue streams Telecom Services 2026",
+      "Verizon Communications Inc. (VZ) segment revenue percentage of total latest quarter results",
+      "VZ stock revenue by segment breakdown percentage of total revenue"
+    ],
+    "results": [
+      {
+        "title": "Form 10-K for Verizon Communications INC filed 02/17/2026",
+        "url": "https://www.verizon.com/about/sites/default/files/2025-Annual-Report-on-Form-10k.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Verizon Communications Inc (VZ) 10-K Annual Report February 2026",
+        "url": "https://last10k.com/sec-filings/vz/0000732712-26-000007.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "10-K \u00b7 VERIZON COMMUNICATIONS INC",
+        "url": "https://app.edgar.tools/filing/732712/0000732712-26-000007",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+        "url": "https://www.verizon.com/about/sites/default/files/2024-Annual-Report-on-Form-10k.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "VERIZON COMMUNICATIONS INC Reports Material Event | VZ Form 8-K",
+        "url": "https://www.stocktitan.net/sec-filings/VZ/8-k-verizon-communications-inc-reports-material-event-9230fec500e9.html",
+        "publisher": "stocktitan.net",
+        "source_date": "2026-09-02",
+        "age_days": 18,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Form 10-K for Verizon Communications INC filed 02/17/2026",
+        "url": "https://www.verizon.com/about/sites/default/files/2025-Annual-Report-on-Form-10k.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. how it makes money revenue streams Telecom Services 2026"
+      },
+      {
+        "title": "2026 Q2 Financial & Operating Information",
+        "url": "https://www.verizon.com/about/sites/default/files/2026-07/vz_2q2026_foi_072426.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. how it makes money revenue streams Telecom Services 2026"
+      },
+      {
+        "title": "2026 Q2 Exhibit 99",
+        "url": "https://www.verizon.com/about/sites/default/files/verizon-2Q26-earnings-press-release.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. how it makes money revenue streams Telecom Services 2026"
+      },
+      {
+        "title": "R21.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000023/R21.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-03-31",
+        "age_days": 173,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. how it makes money revenue streams Telecom Services 2026"
+      },
+      {
+        "title": "Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)",
+        "url": "https://www.deepresearchglobal.com/p/verizon-vz-fundamental-analysis-report",
+        "publisher": "deepresearchglobal.com",
+        "source_date": "2026-06-26",
+        "age_days": 86,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. how it makes money revenue streams Telecom Services 2026"
+      },
+      {
+        "title": "2026 Q2 Financial & Operating Information",
+        "url": "https://www.verizon.com/about/sites/default/files/2026-07/vz_2q2026_foi_072426.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "2026 Q2 Exhibit 99",
+        "url": "https://www.verizon.com/about/sites/default/files/verizon-2Q26-earnings-press-release.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Condensed Consolidated Statements of Income",
+        "url": "https://www.verizon.com/about/sites/default/files/2026-07/vz_2q2026_fs_072426.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "2Q26 Earnings Presentation",
+        "url": "https://www.verizon.com/about/sites/default/files/2026-07/vz_2q2026_presentation_072426.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Verizon Communications Inc. (VZ) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Financial and Operating Information As of December 31, 2025",
+        "url": "https://www.verizon.com/about/sites/default/files/2026-02/vz_4q25_foi_013026r.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": null,
+        "stream": null,
+        "query": "VZ stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Verizon Communications Annual Report 2026 Form 10-K (NYSE:VZ) Published: February 17th, 2026",
+        "url": "https://stocklight.com/stocks/us/nyse-vz/verizon-communications/annual-reports/nyse-vz-2026-10K-26637882.pdf",
+        "publisher": "stocklight.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": null,
+        "stream": null,
+        "query": "VZ stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+        "url": "https://www.verizon.com/about/sites/default/files/2024-Annual-Report-on-Form-10k.pdf",
+        "publisher": "verizon.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": null,
+        "stream": null,
+        "query": "VZ stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Verizon Communications (VZ) Operating Metrics & Breakdowns",
+        "url": "https://stockanalysis.com/stocks/vz/metrics/",
+        "publisher": "stockanalysis.com",
+        "source_date": "2026-07-31",
+        "age_days": 51,
+        "lens": null,
+        "stream": null,
+        "query": "VZ stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Verizon Communications Inc. (VZ) Revenue & Cost Structure \u2014 HowTheyMakeMoney.io",
+        "url": "https://www.howtheymakemoney.io/companies/vz/",
+        "publisher": "howtheymakemoney.io",
+        "source_date": "2026-08-10",
+        "age_days": 41,
+        "lens": null,
+        "stream": null,
+        "query": "VZ stock revenue by segment breakdown percentage of total revenue"
+      }
+    ],
+    "results_count": 19,
+    "streams": [
+      {
+        "name": "Mobility and broadband service",
+        "what_it_is": "Wireless mobility and broadband services sold to consumers and businesses.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Consumers and businesses",
+        "quote": "Revenue will now be broken out into mobility and broadband service, wireless equipment, and other revenue for each segment.",
+        "url": "https://www.stocktitan.net/sec-filings/VZ/8-k-verizon-communications-inc-reports-material-event-9230fec500e9.html",
+        "publisher": "stocktitan.net",
+        "as_of": "2026-09-02",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Wireless equipment",
+        "what_it_is": "Sale of wireless equipment and devices to consumers and businesses.",
+        "revenue_share": 0.1843,
+        "revenue_share_basis": "derived",
+        "amount": "$25,470 million in FY2025",
+        "customer": "Consumers and businesses",
+        "quote": "Wireless equipment revenues $ 25,470",
+        "url": "https://www.verizon.com/about/sites/default/files/2026-07/vz_2q2026_foi_072426.pdf",
+        "publisher": "verizon.com",
+        "as_of": null,
+        "grounded_by": "business_summary"
+      },
+      {
+        "name": "Other revenue",
+        "what_it_is": "Other communications products and services sold to consumers and businesses.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Consumers and businesses",
+        "quote": "Revenue will now be broken out into mobility and broadband service, wireless equipment, and other revenue for each segment.",
+        "url": "https://www.stocktitan.net/sec-filings/VZ/8-k-verizon-communications-inc-reports-material-event-9230fec500e9.html",
+        "publisher": "stocktitan.net",
+        "as_of": "2026-09-02",
+        "grounded_by": "search"
+      }
+    ],
+    "dropped": [],
+    "description": "Verizon provides wireless and wireline communications, broadband, and equipment to consumers, businesses, and governments. It operates Consumer and Business segments. Revenue is reported as mobility and broadband service, wireless equipment, and other revenue. In FY2025, total operating revenues were $138.2 billion.",
+    "customer_concentration": null,
+    "notes": "Mobility and broadband service revenue grew 2.8% in Q2 2026, while wireless equipment revenues declined 19.7%.",
+    "split_basis": "revenue_type",
+    "geography": null
+  },
+  "trends": {
+    "queries": [
+      {
+        "q": "US wireless telecom services market demand forecast 2026 2027 2028 consumer mobility broadband trade association report",
+        "lens": "demand",
+        "stream": "Mobility and broadband service"
+      },
+      {
+        "q": "US smartphone upgrade cycle demand forecast 2026 2027 2028 telecom trade press",
+        "lens": "demand",
+        "stream": "Wireless equipment"
+      },
+      {
+        "q": "enterprise 5G IoT private networking spending outlook 2026 2027 telecom industry survey",
+        "lens": "demand",
+        "stream": "Other revenue"
+      },
+      {
+        "q": "US wireless retail distribution channel shifts 2026 2027 omnichannel indirect agents market report",
+        "lens": "sold",
+        "stream": "Mobility and broadband service"
+      },
+      {
+        "q": "wireless device financing bundling pricing models 2026 2027 US carriers trade publication",
+        "lens": "sold",
+        "stream": "Wireless equipment"
+      },
+      {
+        "q": "telecom enterprise procurement trends 2026 2027 managed network services competitive bidding industry survey",
+        "lens": "sold",
+        "stream": "Other revenue"
+      },
+      {
+        "q": "telecom network equipment supply chain outlook 2026 2027 fiber optic cable manufacturing capacity market report",
+        "lens": "made",
+        "stream": null
+      },
+      {
+        "q": "telecom infrastructure labor shortage tower deployment permitting regulation 2026 2027 industry report",
+        "lens": "made",
+        "stream": null
+      },
+      {
+        "q": "Wireless equipment Telecom Services market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Wireless equipment"
+      },
+      {
+        "q": "Mobility and broadband service Telecom Services market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Mobility and broadband service"
+      },
+      {
+        "q": "Other revenue Telecom Services market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Other revenue"
+      }
+    ],
+    "searched": [
+      {
+        "query": "US wireless telecom services market demand forecast 2026 2027 2028 consumer mobility broadband trade association report",
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "results": 5
+      },
+      {
+        "query": "US smartphone upgrade cycle demand forecast 2026 2027 2028 telecom trade press",
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "results": 5
+      },
+      {
+        "query": "enterprise 5G IoT private networking spending outlook 2026 2027 telecom industry survey",
+        "lens": "demand",
+        "stream": "Other revenue",
+        "results": 5
+      },
+      {
+        "query": "US wireless retail distribution channel shifts 2026 2027 omnichannel indirect agents market report",
+        "lens": "sold",
+        "stream": "Mobility and broadband service",
+        "results": 5
+      },
+      {
+        "query": "wireless device financing bundling pricing models 2026 2027 US carriers trade publication",
+        "lens": "sold",
+        "stream": "Wireless equipment",
+        "results": 5
+      },
+      {
+        "query": "telecom enterprise procurement trends 2026 2027 managed network services competitive bidding industry survey",
+        "lens": "sold",
+        "stream": "Other revenue",
+        "results": 5
+      },
+      {
+        "query": "telecom network equipment supply chain outlook 2026 2027 fiber optic cable manufacturing capacity market report",
+        "lens": "made",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "telecom infrastructure labor shortage tower deployment permitting regulation 2026 2027 industry report",
+        "lens": "made",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "Wireless equipment Telecom Services market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "results": 5
+      },
+      {
+        "query": "Mobility and broadband service Telecom Services market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "results": 5
+      },
+      {
+        "query": "Other revenue Telecom Services market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Other revenue",
+        "results": 5
+      }
+    ],
+    "results": [
+      {
+        "title": "Before the FEDERAL COMMUNICATIONS COMMISSION Washington, D.C. 20554",
+        "url": "https://api.ctia.org/wp-content/uploads/2024/06/240606-FINAL-CTIA-Comments-for-2024-Communications-Marketplace-Report.pdf",
+        "publisher": "api.ctia.org",
+        "source_date": "2024-06-01",
+        "age_days": 841,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless telecom services market demand forecast 2026 2027 2028 consumer mobility broadband trade association report"
+      },
+      {
+        "title": "Wireless Telecommunications Carriers in the US Industry Analysis, 2026",
+        "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+        "publisher": "script.ibisworld.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless telecom services market demand forecast 2026 2027 2028 consumer mobility broadband trade association report"
+      },
+      {
+        "title": "US Telecom MNO Market Size, Trends & Forecast Report, 2031",
+        "url": "https://www.mordorintelligence.com/industry-reports/united-states-telecom-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-08-11",
+        "age_days": 40,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless telecom services market demand forecast 2026 2027 2028 consumer mobility broadband trade association report"
+      },
+      {
+        "title": "How Much Licensed Spectrum is Needed to Meet Future Demands for Network Capacity?",
+        "url": "https://mma.prnewswire.com/media/2055785/CTIA_Need_for_Spectrum_Brattle_report.pdf",
+        "publisher": "mma.prnewswire.com",
+        "source_date": "2023-01-11",
+        "age_days": 1348,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless telecom services market demand forecast 2026 2027 2028 consumer mobility broadband trade association report"
+      },
+      {
+        "title": "The Looming Spectrum Crisis",
+        "url": "https://api.ctia.org/wp-content/uploads/2025/03/Looming-Spectrum-Crisis-Accenture.pdf",
+        "publisher": "api.ctia.org",
+        "source_date": "2025-03-01",
+        "age_days": 568,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless telecom services market demand forecast 2026 2027 2028 consumer mobility broadband trade association report"
+      },
+      {
+        "title": "State of US Postpaid 2026: The Year of Convergence and Shrinking Margins for US Postpaid MNOs",
+        "url": "https://counterpointresearch.com/en/reports/state-of-us-postpaid-2026-the-year-of-convergence-and-shrinking-margins-for-us-postpaid-mnos",
+        "publisher": "counterpointresearch.com",
+        "source_date": "2026-02-25",
+        "age_days": 207,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "US smartphone upgrade cycle demand forecast 2026 2027 2028 telecom trade press"
+      },
+      {
+        "title": "Telecom 2026 Report: Winning the Device Ecosystem | NIQ",
+        "url": "https://nielseniq.com/global/en/insights/report/2026/when-upgrades-stall-how-to-win-the-device-ecosystem/",
+        "publisher": "nielseniq.com",
+        "source_date": "2026-09-10",
+        "age_days": 10,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "US smartphone upgrade cycle demand forecast 2026 2027 2028 telecom trade press"
+      },
+      {
+        "title": "Memory Crisis Pushes Global Smartphone Replacement Cycles Toward 4 Years",
+        "url": "https://counterpointresearch.com/q1-2026-report.pdf/reports/memory-crisis-pushes-global-smartphone%20replacement-cycles-toward-4-years",
+        "publisher": "counterpointresearch.com",
+        "source_date": "2026-08-13",
+        "age_days": 38,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "US smartphone upgrade cycle demand forecast 2026 2027 2028 telecom trade press"
+      },
+      {
+        "title": "5G Smartphone Market in the United States | Report - IndexBox - Prices, Size, Forecast, and Companies",
+        "url": "https://www.indexbox.io/store/united-states-5g-smartphone-market-analysis-forecast-size-trends-and-insights/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-04-29",
+        "age_days": 144,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "US smartphone upgrade cycle demand forecast 2026 2027 2028 telecom trade press"
+      },
+      {
+        "title": "SAG: Can Apple Upgrade Leasing Program Shorten the U.S. Smartphone Replacement Cycle? - Smart Analytics Global",
+        "url": "https://smartanalyticsglobal.com/apple-upgrade-hardware-as-a-service-us-smartphone-replacement-cycle/",
+        "publisher": "smartanalyticsglobal.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "US smartphone upgrade cycle demand forecast 2026 2027 2028 telecom trade press"
+      },
+      {
+        "title": "Private Network Spend to Exceed $84 Billion Globally by 2031",
+        "url": "https://www.juniperresearch.com/press/private-network-spend-to-exceed-84bn/",
+        "publisher": "juniperresearch.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "enterprise 5G IoT private networking spending outlook 2026 2027 telecom industry survey"
+      },
+      {
+        "title": "5G Private Network Market Size & Share Analysis - Growth Trends and Forecast (2026 - 2031)",
+        "url": "https://www.mordorintelligence.com/industry-reports/5g-private-network-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-09-11",
+        "age_days": 9,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "enterprise 5G IoT private networking spending outlook 2026 2027 telecom industry survey"
+      },
+      {
+        "title": "Private 5G Market worth $24.84 billion by 2032 - Exclusive Report by MarketsandMarkets\u2122",
+        "url": "https://www.prnewswire.com/news-releases/private-5g-market-worth-24-84-billion-by-2032---exclusive-report-by-marketsandmarkets-302840967.html",
+        "publisher": "prnewswire.com",
+        "source_date": "2026-08-03",
+        "age_days": 48,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "enterprise 5G IoT private networking spending outlook 2026 2027 telecom industry survey"
+      },
+      {
+        "title": "Private 5G Spending to Surpass $6.6 Billion as Physical AI Adoption - Inside Telecom",
+        "url": "https://insidetelecom.com/private-5g-spending-to-surpass-6-6-billion-as-physical-ai-adoption/",
+        "publisher": "insidetelecom.com",
+        "source_date": "2026-07-30",
+        "age_days": 52,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "enterprise 5G IoT private networking spending outlook 2026 2027 telecom industry survey"
+      },
+      {
+        "title": "Private 5G Network Market Report 2026 - Research and Markets",
+        "url": "https://www.researchandmarkets.com/reports/5980539/private-5g-network-market-report",
+        "publisher": "researchandmarkets.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "enterprise 5G IoT private networking spending outlook 2026 2027 telecom industry survey"
+      },
+      {
+        "title": "Walmart Is the U.S. Wireless Industry's Most Important Store \u2014 And Nobody Controls It - Recon Analytics",
+        "url": "https://www.reconanalytics.com/walmart-is-the-u-s-wireless-industrys-most-important-store-and-nobody-controls-it/",
+        "publisher": "reconanalytics.com",
+        "source_date": "2025-12-01",
+        "age_days": 293,
+        "lens": "sold",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless retail distribution channel shifts 2026 2027 omnichannel indirect agents market report"
+      },
+      {
+        "title": "US Smartphone Channel Share Tracker Monthly Report, June 2026",
+        "url": "https://counterpointresearch.com/en/reports/us-smartphone-channel-share-tracker-monthly-report-june-2026",
+        "publisher": "counterpointresearch.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "sold",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless retail distribution channel shifts 2026 2027 omnichannel indirect agents market report"
+      },
+      {
+        "title": "US Smartphone Channel Share Tracker Monthly Report, April 2026",
+        "url": "https://counterpointresearch.com/en/reports/us-smartphone-channel-share-tracker-monthly-report-april-2026",
+        "publisher": "counterpointresearch.com",
+        "source_date": "2026-05-27",
+        "age_days": 116,
+        "lens": "sold",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless retail distribution channel shifts 2026 2027 omnichannel indirect agents market report"
+      },
+      {
+        "title": "Telecom and Wireless Resellers - US Industry Market Research Report with Recession Risk Analysis & Forecasts",
+        "url": "https://www.marketresearch.com/Kentley-Insights-v4035/Telecom-Wireless-Resellers-Research-Recession-45538750/",
+        "publisher": "marketresearch.com",
+        "source_date": "2026-07-02",
+        "age_days": 80,
+        "lens": "sold",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless retail distribution channel shifts 2026 2027 omnichannel indirect agents market report"
+      },
+      {
+        "title": "5G Smartphone Market in the United States | Report - IndexBox - Prices, Size, Forecast, and Companies",
+        "url": "https://www.indexbox.io/store/united-states-5g-smartphone-market-analysis-forecast-size-trends-and-insights/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-04-29",
+        "age_days": 144,
+        "lens": "sold",
+        "stream": "Mobility and broadband service",
+        "query": "US wireless retail distribution channel shifts 2026 2027 omnichannel indirect agents market report"
+      },
+      {
+        "title": "T-Mobile launches \u2018Nothing,\u2019 so what\u2019s the big deal?",
+        "url": "https://www.fierce-network.com/wireless/t-mobile-launches-nothing-so-whats-big-deal",
+        "publisher": "fierce-network.com",
+        "source_date": "2026-08-04",
+        "age_days": 47,
+        "lens": "sold",
+        "stream": "Wireless equipment",
+        "query": "wireless device financing bundling pricing models 2026 2027 US carriers trade publication"
+      },
+      {
+        "title": "THE UPGRADE ACCELERATOR: INSIDE APPLE'S NEW KLARNA LEASE - Recon Analytics",
+        "url": "https://www.reconanalytics.com/the-upgrade-accelerator-inside-apples-new-klarna-lease/",
+        "publisher": "reconanalytics.com",
+        "source_date": "2026-08-10",
+        "age_days": 41,
+        "lens": "sold",
+        "stream": "Wireless equipment",
+        "query": "wireless device financing bundling pricing models 2026 2027 US carriers trade publication"
+      },
+      {
+        "title": "The good, the bad, the okay \u2013 growth and opportunities in prepaid wireless (Analyst Angle)",
+        "url": "https://rcrwireless.com/20260909/analyst-angle/the-good-the-bad-the-okay-growth-and-opportunities-in-prepaid-wireless-analyst-angle",
+        "publisher": "rcrwireless.com",
+        "source_date": "2026-09-09",
+        "age_days": 11,
+        "lens": "sold",
+        "stream": "Wireless equipment",
+        "query": "wireless device financing bundling pricing models 2026 2027 US carriers trade publication"
+      },
+      {
+        "title": "The \u201cFree\u201d iPhone 18 Pro Is a Loan T-Mobile Forgives Only as Long as You Stay",
+        "url": "https://www.ainvest.com/news/free-iphone-18-pro-loan-mobile-forgives-long-stay-2609/",
+        "publisher": "ainvest.com",
+        "source_date": "2026-09-10",
+        "age_days": 10,
+        "lens": "sold",
+        "stream": "Wireless equipment",
+        "query": "wireless device financing bundling pricing models 2026 2027 US carriers trade publication"
+      },
+      {
+        "title": "T-Mobile iPhone 18 Pro Deal: The $1,200 Offer Is a 36-Month Churn Bet",
+        "url": "https://ts2.tech/en/t-mobile-iphone-18-pro-deal-the-1200-offer-is-a-36-month-churn-bet/",
+        "publisher": "ts2.tech",
+        "source_date": "2026-09-11",
+        "age_days": 9,
+        "lens": "sold",
+        "stream": "Wireless equipment",
+        "query": "wireless device financing bundling pricing models 2026 2027 US carriers trade publication"
+      },
+      {
+        "title": "2025 IPL Brochure Report",
+        "url": "https://isg-one.com/docs/default-source/2026-ipl-brochures/emn-services-2026_brochure-english.pdf?sfvrsn=e27bad31_1",
+        "publisher": "isg-one.com",
+        "source_date": "2026-08-06",
+        "age_days": 45,
+        "lens": "sold",
+        "stream": "Other revenue",
+        "query": "telecom enterprise procurement trends 2026 2027 managed network services competitive bidding industry survey"
+      },
+      {
+        "title": "Voice of Customer Network & Wireless Services Survey, Global, 2026",
+        "url": "https://store.frost.com/voice-of-customer-network-wireless-services-survey-global-2026.html",
+        "publisher": "store.frost.com",
+        "source_date": "2026-08-31",
+        "age_days": 20,
+        "lens": "sold",
+        "stream": "Other revenue",
+        "query": "telecom enterprise procurement trends 2026 2027 managed network services competitive bidding industry survey"
+      },
+      {
+        "title": "State of Telecoms Procurement in 2026 | Suplari",
+        "url": "https://suplari.com/blog/state-of-telecoms-procurement",
+        "publisher": "suplari.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": "sold",
+        "stream": "Other revenue",
+        "query": "telecom enterprise procurement trends 2026 2027 managed network services competitive bidding industry survey"
+      },
+      {
+        "title": "State of Connectivity",
+        "url": "https://assets.ctfassets.net/wivd9zt8fi3t/4YWFe64rvBzWW7PndpmFA5/e6fdd4d13300d51b87263f0fdf1cb8b7/LY-Ebook-SofC26-03.17.26__1_.pdf",
+        "publisher": "assets.ctfassets.net",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": "sold",
+        "stream": "Other revenue",
+        "query": "telecom enterprise procurement trends 2026 2027 managed network services competitive bidding industry survey"
+      },
+      {
+        "title": "Integration, price and AI expertise are criteria for CX selection",
+        "url": "https://www.nojitter.com/customer-experience/integration-price-and-ai-expertise-are-top-criteria-for-cx-provider-selection",
+        "publisher": "nojitter.com",
+        "source_date": "2026-09-18",
+        "age_days": 2,
+        "lens": "sold",
+        "stream": "Other revenue",
+        "query": "telecom enterprise procurement trends 2026 2027 managed network services competitive bidding industry survey"
+      },
+      {
+        "title": "Telecom Cable Market Outlook 2026-2034: Market Share, and Growth Analysis by Type (Fiber-optic Cable, Coaxial Cable, Twisted Pair Cable, Hybrid Fiber-Coax (HFC)), Application, Installation Environment, End-User Industry",
+        "url": "https://www.researchandmarkets.com/reports/6257120/telecom-cable-market-outlook-market-share",
+        "publisher": "researchandmarkets.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom network equipment supply chain outlook 2026 2027 fiber optic cable manufacturing capacity market report"
+      },
+      {
+        "title": "Telecommunication Cable Market in the world | Report - IndexBox - Prices, Size, Forecast, and Companies",
+        "url": "https://www.indexbox.io/store/world-telecommunication-cable-market-analysis-forecast-size-trends-and-insights/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-07-10",
+        "age_days": 72,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom network equipment supply chain outlook 2026 2027 fiber optic cable manufacturing capacity market report"
+      },
+      {
+        "title": "Fiber Optic Cable Market 2026: Growth Drivers & Outlook",
+        "url": "https://www.ampcom.com/blogs/industry-insights/fiber-optic-cable-market-2026-growth-drivers-outlook",
+        "publisher": "ampcom.com",
+        "source_date": "2026-09-14",
+        "age_days": 6,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom network equipment supply chain outlook 2026 2027 fiber optic cable manufacturing capacity market report"
+      },
+      {
+        "title": "Cables and Transceivers Market in the world | Report - IndexBox - Prices, Size, Forecast, and Companies",
+        "url": "https://www.indexbox.io/store/world-cables-and-transceivers-market-analysis-forecast-size-trends-and-insights/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-07-21",
+        "age_days": 61,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom network equipment supply chain outlook 2026 2027 fiber optic cable manufacturing capacity market report"
+      },
+      {
+        "title": "2025-2030 Global Optical Fiber Cable Market: A Deep-Dive Industry Analysis",
+        "url": "https://en.wedoany.com/market/8144.html",
+        "publisher": "en.wedoany.com",
+        "source_date": "2026-07-13",
+        "age_days": 69,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom network equipment supply chain outlook 2026 2027 fiber optic cable manufacturing capacity market report"
+      },
+      {
+        "title": "Quantifying the Opportunity of Reforming the Federal Communications Commission\u2019s National Environmental Policy Act and National Historical Preservation Act Rules",
+        "url": "https://api.ctia.org/wp-content/uploads/2026/01/Dippon_NEPA_NHPA_Reform_Final.pdf",
+        "publisher": "api.ctia.org",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom infrastructure labor shortage tower deployment permitting regulation 2026 2027 industry report"
+      },
+      {
+        "title": "Nearly $65B, 158,500 towers, and a shrinking workforce: What WIA\u2019s 2025 \u2018By the Numbers\u2019 reveals | Wireless Estimator",
+        "url": "https://wirelessestimator.com/articles/2026/nearly-65b-158500-towers-and-a-shrinking-workforce-what-wias-2025-by-the-numbers-reveals/",
+        "publisher": "wirelessestimator.com",
+        "source_date": "2026-03-19",
+        "age_days": 185,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom infrastructure labor shortage tower deployment permitting regulation 2026 2027 industry report"
+      },
+      {
+        "title": "Study finds FCC permitting reform could remove billions in costs burdening wireless construction | Wireless Estimator",
+        "url": "https://wirelessestimator.com/articles/2026/study-finds-fcc-permitting-reform-could-remove-billions-in-costs-burdening-wireless-construction/",
+        "publisher": "wirelessestimator.com",
+        "source_date": "2026-08-04",
+        "age_days": 47,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom infrastructure labor shortage tower deployment permitting regulation 2026 2027 industry report"
+      },
+      {
+        "title": "After two lean years, AT&T\u2019s 600 MHz buildout points to a stronger 2027 for contractors | Wireless Estimator",
+        "url": "https://wirelessestimator.com/articles/2026/after-two-lean-years-atts-600-mhz-buildout-points-to-a-stronger-2027-for-contractors/",
+        "publisher": "wirelessestimator.com",
+        "source_date": "2026-09-09",
+        "age_days": 11,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom infrastructure labor shortage tower deployment permitting regulation 2026 2027 industry report"
+      },
+      {
+        "title": "Market Failure in the Wireless",
+        "url": "https://natehome.com/wp-content/uploads/2025/07/NATE-Brattle-Report-2025-eFile-1-1.pdf",
+        "publisher": "natehome.com",
+        "source_date": "2025-07-01",
+        "age_days": 446,
+        "lens": "made",
+        "stream": null,
+        "query": "telecom infrastructure labor shortage tower deployment permitting regulation 2026 2027 industry report"
+      },
+      {
+        "title": "Cloud Providers Drive Telecom Equipment Growth in 1H26 - Dell'Oro Group",
+        "url": "https://www.delloro.com/cloud-providers-drive-telecom-equipment-growth-in-1h26/",
+        "publisher": "delloro.com",
+        "source_date": "2026-09-17",
+        "age_days": 3,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "Wireless equipment Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Wireless Telecommunication Service Global Market Report 2026",
+        "url": "https://www.giiresearch.com/report/tbrc1983618-wireless-telecommunication-service-global-market.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-03-13",
+        "age_days": 191,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "Wireless equipment Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Telecom Equipment Market Size, Share & 2031 Trends Report",
+        "url": "https://www.mordorintelligence.com/industry-reports/telecom-equipment-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-01-27",
+        "age_days": 236,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "Wireless equipment Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Wireless Communication Equipment Market Share, Size, Report 2026",
+        "url": "https://www.thebusinessresearchcompany.com/report/wireless-communication-equipment-market-report",
+        "publisher": "thebusinessresearchcompany.com",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "Wireless equipment Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Explore the Global Telecom Equipment Market \u2014 analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+        "url": "https://www.futuremarketinsights.com/reports/telecom-equipment-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": "demand",
+        "stream": "Wireless equipment",
+        "query": "Wireless equipment Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Perspectives from the Global Telecom Outlook, 2025-2029",
+        "url": "https://assets.pwc.com/adobe/assets/urn:aaid:aem:11d8a065-60f8-4ab7-a196-567aa29f5cb2/original/as/pwc-global-telecom-outlook-2026.pdf",
+        "publisher": "assets.pwc.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "Mobility and broadband service Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "2026 Telecommunications Industry Outlook | Deloitte Insights",
+        "url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-telecom-outlooks/telecommunications-industry-outlook.html",
+        "publisher": "deloitte.com",
+        "source_date": "2026-02-10",
+        "age_days": 222,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "Mobility and broadband service Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Telecom Services Market Growth Analysis - Size and Forecast 2026-2030 | Technavio",
+        "url": "https://www.technavio.com/report/telecom-services-market-analysis",
+        "publisher": "technavio.com",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "Mobility and broadband service Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Telecom Services Market Size & Share | Industry Report 2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/global-telecom-services-market",
+        "publisher": "grandviewresearch.com",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "Mobility and broadband service Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Explore the Global Telecommunications Services Market \u2014 analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+        "url": "https://www.futuremarketinsights.com/reports/global-telecommunications-services-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": "demand",
+        "stream": "Mobility and broadband service",
+        "query": "Mobility and broadband service Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Other Telecommunications Market Research: Industry Analysis",
+        "url": "https://www.kentleyinsights.com/other-telecommunications-industry-market-research-report/",
+        "publisher": "kentleyinsights.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "Other revenue Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "2026 Other Telecommunications Global Market Size & Growth Report with Updated Country Recession Risk Forecasts",
+        "url": "https://www.marketresearch.com/Kentley-Insights-v4035/Telecommunications-Global-Size-Growth-Updated-45845581/",
+        "publisher": "marketresearch.com",
+        "source_date": "2026-08-03",
+        "age_days": 48,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "Other revenue Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Telecom Services Market 2026-2030 - Research and Markets",
+        "url": "https://www.researchandmarkets.com/reports/5821282/telecom-services-market",
+        "publisher": "researchandmarkets.com",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "Other revenue Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Explore the Global Telecommunications Services Market \u2014 analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+        "url": "https://www.futuremarketinsights.com/reports/global-telecommunications-services-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "Other revenue Telecom Services market growth demand outlook 2026"
+      },
+      {
+        "title": "Global Telecom Services Market Share, Companies & Trends Report 2025-2032",
+        "url": "https://www.kenresearch.com/global-telecom-services-market",
+        "publisher": "kenresearch.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "Other revenue",
+        "query": "Other revenue Telecom Services market growth demand outlook 2026"
+      }
+    ],
+    "results_count": 55,
+    "trends": [
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "US wireless demand matures with high smartphone penetration and intensifying competition constraining pricing power in 2026.",
+        "direction": "headwind",
+        "why": "Constrains service pricing and revenue per user, pressuring Verizon's mobility and broadband service margins.",
+        "quote": "competition intensifying across both premium and value segments",
+        "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+        "source_type": "trade",
+        "size": 5,
+        "size_basis": "$336.1 billion US wireless carrier revenue in 2026",
+        "speed": 5,
+        "speed_basis": "already visible in 2026 revenue estimate",
+        "impact": 5,
+        "impact_basis": "mobility and broadband service is core revenue",
+        "theme_key": "wireless-service-price-competition",
+        "theme_label": "Wireless service price competition",
+        "theme_definition": "Intensifying competition among wireless carriers constrains pricing power even as data usage grows.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-05-01",
+        "age_days": 142,
+        "stale": false,
+        "publisher": "script.ibisworld.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "Smartphone replacement cycles extend toward four years through 2026-2027 as memory costs raise device prices.",
+        "direction": "headwind",
+        "why": "Longer replacement cycles reduce device upgrade volumes, pressuring Verizon's wireless equipment revenue.",
+        "quote": "Smartphone replacement cycles are extending to four years, with this trend expected to continue through 2026 and 2027",
+        "url": "https://counterpointresearch.com/q1-2026-report.pdf/reports/memory-crisis-pushes-global-smartphone%20replacement-cycles-toward-4-years",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "no magnitude in evidence",
+        "speed": 5,
+        "speed_basis": "trend expected through 2026 and 2027",
+        "impact": 4,
+        "impact_basis": "wireless equipment is 18.4% of revenue",
+        "theme_key": "smartphone-upgrade-cycle-extension",
+        "theme_label": "Smartphone upgrade cycle extension",
+        "theme_definition": "Consumers hold smartphones longer, reducing device upgrade volumes across carriers and OEMs.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-08-13",
+        "age_days": 38,
+        "stale": false,
+        "publisher": "counterpointresearch.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "Global private LTE/5G network spend will rise from $17.3bn in 2026 to $84.7bn in 2031.",
+        "direction": "tailwind",
+        "why": "Expands enterprise connectivity and managed-network revenue for Verizon's other revenue stream.",
+        "quote": "spend on private LTE & 5G networks will reach $84.7 billion globally in 2031; up from $17.3 billion in 2026",
+        "url": "https://www.juniperresearch.com/press/private-network-spend-to-exceed-84bn/",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "$17.3bn in 2026 rising to $84.7bn by 2031",
+        "speed": 3,
+        "speed_basis": "2026-2031 forecast period",
+        "impact": 3,
+        "impact_basis": "other revenue stream; share not disclosed",
+        "theme_key": "private-5g-enterprise-adoption",
+        "theme_label": "Private 5G enterprise adoption",
+        "theme_definition": "Enterprises increasingly deploy private LTE/5G networks for AI, automation, and mission-critical connectivity.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-09-01",
+        "age_days": 19,
+        "stale": false,
+        "publisher": "juniperresearch.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "US postpaid promotions remain at all-time highs in 2026, compressing margins as carriers compete on convergence.",
+        "direction": "headwind",
+        "why": "Higher subsidies and promotions raise customer acquisition costs and reduce service margins.",
+        "quote": "Mobile service promotions remain at all-time highs with lots of parity",
+        "url": "https://counterpointresearch.com/en/reports/state-of-us-postpaid-2026-the-year-of-convergence-and-shrinking-margins-for-us-postpaid-mnos",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "US postpaid market; no magnitude in evidence",
+        "speed": 5,
+        "speed_basis": "Q4 2025 earnings analyzed in Feb 2026",
+        "impact": 5,
+        "impact_basis": "mobility service margins are core",
+        "theme_key": "wireless-promotional-intensity",
+        "theme_label": "Wireless promotional intensity",
+        "theme_definition": "Carriers compete with aggressive device subsidies and promotions, compressing postpaid margins.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-02-25",
+        "age_days": 207,
+        "stale": false,
+        "publisher": "counterpointresearch.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "Apple's Klarna-backed lease in 2026 competes with Verizon's device financing and aims to shorten upgrade cycles.",
+        "direction": "two-sided",
+        "why": "It may boost upgrade frequency but shifts device financing and customer relationships away from carriers.",
+        "quote": "Recurring payment is the mechanism; a shorter replacement cycle is the outcome it\u2019s built",
+        "url": "https://www.reconanalytics.com/the-upgrade-accelerator-inside-apples-new-klarna-lease/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "US smartphone market; no magnitude in evidence",
+        "speed": 4,
+        "speed_basis": "launched July 28, 2026",
+        "impact": 3,
+        "impact_basis": "wireless equipment and service; minority stream",
+        "theme_key": "smartphone-oem-financing-disintermediation",
+        "theme_label": "Smartphone OEM financing disintermediation",
+        "theme_definition": "Device makers' leasing programs shift hardware financing and upgrade relationships away from carriers.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-08-10",
+        "age_days": 41,
+        "stale": false,
+        "publisher": "reconanalytics.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "Walmart became the most important US wireless retail destination by late 2025, but carriers don't control it.",
+        "direction": "headwind",
+        "why": "Third-party retail control weakens carrier pricing and device sales influence.",
+        "quote": "Walmart has quietly become the single most important physical destination for wireless shopping in the United States",
+        "url": "https://www.reconanalytics.com/walmart-is-the-u-s-wireless-industrys-most-important-store-and-nobody-controls-it/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "US wireless retail; no magnitude in evidence",
+        "speed": 4,
+        "speed_basis": "data through Q4 2024-Q4 2025",
+        "impact": 3,
+        "impact_basis": "wireless equipment and prepaid service channel",
+        "theme_key": "wireless-retail-channel-control",
+        "theme_label": "Wireless retail channel control",
+        "theme_definition": "Third-party retail platforms control a growing share of US wireless device and service sales.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2025-12-01",
+        "age_days": 293,
+        "stale": false,
+        "publisher": "reconanalytics.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "US wireless networks face spectrum shortfall starting 2026, unable to meet nearly a quarter of peak traffic by 2027.",
+        "direction": "headwind",
+        "why": "Requires additional spectrum and network capex, raising Verizon's cost base and risking service quality.",
+        "quote": "by 2027, networks will be unable to meet nearly a quarter of traffic demand in high-traffic areas during peak hours",
+        "url": "https://api.ctia.org/wp-content/uploads/2025/03/Looming-Spectrum-Crisis-Accenture.pdf",
+        "source_type": "trade",
+        "size": 5,
+        "size_basis": "US wireless networks; no dollar magnitude in evidence",
+        "speed": 4,
+        "speed_basis": "impacts start 2026, worsen by 2027",
+        "impact": 4,
+        "impact_basis": "network capacity and capex for mobility service",
+        "theme_key": "wireless-spectrum-capacity-shortfall",
+        "theme_label": "Wireless spectrum capacity shortfall",
+        "theme_definition": "US wireless networks face mid-band spectrum shortages that constrain capacity and require new investment.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2025-03-01",
+        "age_days": 568,
+        "stale": true,
+        "publisher": "api.ctia.org",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "US wireless infrastructure workforce shrank by over 26,000 jobs in 2025, raising buildout labor risk.",
+        "direction": "headwind",
+        "why": "Tighter skilled labor supply raises construction and maintenance costs for Verizon's network.",
+        "quote": "workforce that contracted by more than 26,000 jobs in a single year",
+        "url": "https://wirelessestimator.com/articles/2026/nearly-65b-158500-towers-and-a-shrinking-workforce-what-wias-2025-by-the-numbers-reveals/",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "26,000 jobs lost; $65B sector investment",
+        "speed": 4,
+        "speed_basis": "2025 data reported March 2026",
+        "impact": 3,
+        "impact_basis": "network construction and maintenance cost base",
+        "theme_key": "wireless-infrastructure-labour-shortage",
+        "theme_label": "Wireless infrastructure labour shortage",
+        "theme_definition": "A shrinking skilled workforce for tower and network construction raises costs and delays deployments.",
+        "as_of": "2026-03-19",
+        "age_days": 185,
+        "stale": false,
+        "publisher": "wirelessestimator.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "FCC permitting reform could remove billions in costs burdening wireless construction as of August 2026.",
+        "direction": "tailwind",
+        "why": "Lower permitting costs and faster builds reduce Verizon's network deployment cost base.",
+        "quote": "Study finds FCC permitting reform could remove billions in costs burdening wireless construction",
+        "url": "https://wirelessestimator.com/articles/2026/study-finds-fcc-permitting-reform-could-remove-billions-in-costs-burdening-wireless-construction/",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "billions in costs",
+        "speed": 3,
+        "speed_basis": "reform under consideration in 2026",
+        "impact": 3,
+        "impact_basis": "network deployment cost base",
+        "theme_key": "wireless-infrastructure-permitting-reform",
+        "theme_label": "Wireless infrastructure permitting reform",
+        "theme_definition": "Regulatory permitting changes aim to cut costs and delays in building wireless infrastructure.",
+        "as_of": "2026-08-04",
+        "age_days": 47,
+        "stale": false,
+        "publisher": "wirelessestimator.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "AI-powered spend intelligence delivers 5-15% cost reductions within 90 days for telecom procurement in 2026.",
+        "direction": "tailwind",
+        "why": "Cuts external spend, which is up to 40% of telecom revenue, improving Verizon's margins.",
+        "quote": "AI-powered spend intelligence platforms deliver 95%+ visibility and 5\u201315% cost reductions within 90 days",
+        "url": "https://suplari.com/blog/state-of-telecoms-procurement",
+        "source_type": "general",
+        "size": 5,
+        "size_basis": "5-15% cost reduction on external spend up to 40% of revenue",
+        "speed": 4,
+        "speed_basis": "within 90 days",
+        "impact": 4,
+        "impact_basis": "external spend up to 40% of telecom revenue",
+        "theme_key": "telecom-ai-procurement-cost-savings",
+        "theme_label": "AI telecom procurement savings",
+        "theme_definition": "AI spend intelligence tools reduce telecom operators' external procurement costs.",
+        "as_of": "2026-07-28",
+        "age_days": 54,
+        "stale": false,
+        "publisher": "suplari.com",
+        "lens_label": "How it's made"
+      }
+    ],
+    "dropped": [],
+    "by_lens": {
+      "demand": 3,
+      "sold": 3,
+      "made": 4
+    },
+    "coverage": {
+      "demand": 3,
+      "sold": 3,
+      "made": 4
+    },
+    "stale_dropped": 1
+  },
+  "errors": []
+}

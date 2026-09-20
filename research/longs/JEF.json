@@ -1,0 +1,482 @@
+{
+  "ticker": "JEF",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Investment bank and capital markets firm: merger advice, underwriting, trading, plus asset management.",
+  "catalyst": {
+    "date": "2026-09-28",
+    "weekday": "Monday",
+    "session": "after the close",
+    "days_out": 8,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.0
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-24",
+        "eps_estimate": 1.24,
+        "eps_actual": 1.02,
+        "surprise_pct": -18.05,
+        "beat": false
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 0.89,
+        "eps_actual": 0.7,
+        "surprise_pct": -21.35,
+        "beat": false
+      },
+      {
+        "date": "2026-01-07",
+        "eps_estimate": 0.8,
+        "eps_actual": 0.96,
+        "surprise_pct": 20.0,
+        "beat": true
+      },
+      {
+        "date": "2025-09-29",
+        "eps_estimate": 0.8,
+        "eps_actual": 1.01,
+        "surprise_pct": 26.25,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-28 (Monday, after the close), 8 days out -- from the earnings calendar, consensus EPS 1.",
+    "why": "Investment banking fees must land near $1.274B and asset management must stop losing money, or the miss pattern repeats."
+  },
+  "reasons": [
+    "Investment banking and capital markets revenue rose 35% quarter-over-quarter to $2.2B in Q2, so the fee engine is already running; the stock fell only because asset management lost money.",
+    "Oppenheimer raised its Q3 EPS estimate to $1.06 from $0.67 because equity underwriting and completed M&A strengthened, so a quarter near that number forces consensus up from $1.00.",
+    "Jefferies Credit Partners raised about $4B for European direct lending, so as private credit's edge fades, Jefferies wins leveraged finance mandates it had been losing to direct lenders."
+  ],
+  "quants": {
+    "price": 47.9,
+    "market_cap": "9.74B",
+    "fwd_pe": 13.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.2,
+    "eps_trend": "up over the last 7 days",
+    "eps_revisions": "tilted higher, with 3 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 46% quarter over quarter (5/31/2026)",
+      "Last quarter net income applicable to common shareholders increasing 45% quarter over quarter (5/31/2026)",
+      "Warning: revisions disagree by window, 1 up / 3 down over 7 days",
+      "EPS increased year over year, 0.4 -> 1.02"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "15-Jan-27",
+        "strike": 50.0,
+        "qty": 12,
+        "underlying": 47.9,
+        "multiplier": 100,
+        "price": 3.6,
+        "total": 4320.0,
+        "open_interest": 112
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 50.0,
+        "qty": 4,
+        "underlying": 47.9,
+        "multiplier": 100,
+        "price": 1.57,
+        "total": -628.0,
+        "open_interest": 38
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-29 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.",
+    "reflection": "The 10.9% credit ratio clears the floor and the net debit is only $3,692, but the short 50 call expiring 16 October caps the payoff 18 days after the print -- you have sold part of the move you are paying to own. Twelve longs against four shorts leaves room to add if the report confirms the fee run-rate."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 49,
+        "errors": 2,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 64,
+        "errors": 2,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 5,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 95,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "banking",
+          "credit",
+          "direct",
+          "equity",
+          "finance",
+          "jefferies",
+          "lenders",
+          "leveraged",
+          "mandates",
+          "oppenheimer",
+          "private",
+          "raised"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 95,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "advisory",
+          "global",
+          "historic",
+          "issuance",
+          "volume",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "banking",
+          "dealmakers",
+          "equity",
+          "expect",
+          "jefferies",
+          "oppenheimer",
+          "pipelines",
+          "volumes"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S19",
+        "kind": "ollama_search",
+        "label": "seekingalpha.com: Jefferies: Good Operating Performance In Q2 Overshadowed By Asset Management Woes (JEF) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4918059-jefferies-good-operating-performance-in-q2-overshadowed-by-asset-management-woes",
+        "date": "2026-06-26"
+      }
+    ],
+    [
+      {
+        "id": "S24",
+        "kind": "research",
+        "label": "finimize.com: As of September 2026, Oppenheimer sees improving deal-making lifting Jefferies' Q3 2026 investment banking revenue.",
+        "provider": "finimize.com",
+        "url": "https://finimize.com/content/jefferies-could-ride-a-deal-making-pickup-oppenheimer-says",
+        "date": null
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "label": "JEF earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/jef/earnings",
+        "date": "2026-09-28"
+      }
+    ],
+    [
+      {
+        "id": "S8",
+        "kind": "nasdaq",
+        "label": "RTTNews: Jefferies Credit Partners Launches $4 Bln European Direct Lending Strategy",
+        "provider": null,
+        "url": "/articles/jefferies-credit-partners-launches-4-bln-european-direct-lending-strategy",
+        "date": "Sep 9, 202"
+      },
+      {
+        "id": "S22",
+        "kind": "research",
+        "label": "pitchbook.com: As of September 2026, private credit redemptions are creating an opening for banks and broadly syndicated loans.",
+        "provider": "pitchbook.com",
+        "url": "https://pitchbook.com/news/articles/private-credit-loses-its-edge-in-the-battle-for-pe-borrowers",
+        "date": "2026-09-10"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for JEF",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JEF/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for JEF",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JEF/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "JEF quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/jef/financials",
+      "date": "5/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "JEF earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/jef/earnings",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "label": "Zacks: Do Options Traders Know Something About Jefferies Stock We Don't?",
+      "provider": null,
+      "url": "/articles/do-options-traders-know-something-about-jefferies-stock-we-dont",
+      "date": "Aug 17, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "label": "Zacks: Why Is Jefferies (JEF) Up 5.6% Since Last Earnings Report?",
+      "provider": null,
+      "url": "/articles/why-jefferies-jef-56-last-earnings-report",
+      "date": "Jul 24, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "label": "BNK Invest: Jefferies Group (JEF) Shares Cross Above 200 DMA",
+      "provider": null,
+      "url": "/articles/jefferies-group-jef-shares-cross-above-200-dma",
+      "date": "Sep 3, 202"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "label": "RTTNews: Jefferies Credit Partners Launches $4 Bln European Direct Lending Strategy",
+      "provider": null,
+      "url": "/articles/jefferies-credit-partners-launches-4-bln-european-direct-lending-strategy",
+      "date": "Sep 9, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: Why Wendy's Stock Wilted on Monday",
+      "provider": null,
+      "url": "/articles/why-wendys-stock-wilted-monday",
+      "date": "Aug 10, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "label": "MarketBeat: XPeng\u2019s Top Secret AI Robotics Program Outshines EV Woes",
+      "provider": null,
+      "url": "/articles/xpengs-top-secret-ai-robotics-program-outshines-ev-woes",
+      "date": "Aug 25, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: Why Salesforce Stock Is Soaring This Week",
+      "provider": null,
+      "url": "/articles/why-salesforce-stock-soaring-week",
+      "date": "Aug 27, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: 2 Premier Artificial Intelligence (AI) Stocks That Can Plunge Up to 63%, According to Select Wall Street Analysts",
+      "provider": null,
+      "url": "/articles/2-premier-artificial-intelligence-ai-stocks-can-plunge-63-according-select-wall-street",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "Zacks: Lazard Stock Plunges 14% in 6 Months: Buy the Dip or Cut Your Losses?",
+      "provider": null,
+      "url": "/articles/lazard-stock-plunges-14-6-months-buy-dip-or-cut-your-losses",
+      "date": "Aug 31, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "Zacks: JPM Q2 Earnings Beat on Trading & IB, Higher Cost Outlook Drags Stock",
+      "provider": null,
+      "url": "/articles/jpm-q2-earnings-beat-trading-ib-higher-cost-outlook-drags-stock",
+      "date": "Jul 14, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "ca.finance.yahoo.com: Jefferies Financial Group Inc. (JEF) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/quote/JEF/analysis/",
+      "date": "2025-05-31"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "circlfi.com: JEF Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/jef-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: Jefferies Financial Group Q2 Preview: Favorable Trading But Private Credit Risks Linger | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4916500-jefferies-financial-group-q2-preview-favorable-trading-but-private-credit-risks-linger",
+      "date": "2026-06-21"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "reuters.com: Jefferies quarterly profit misses estimates as asset management weighs | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/legal/transactional/jefferies-quarterly-profit-more-than-doubles-dealmaking-equities-strength-2026-06-24/",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: Jefferies: Good Operating Performance In Q2 Overshadowed By Asset Management Woes (JEF) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4918059-jefferies-good-operating-performance-in-q2-overshadowed-by-asset-management-woes",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "goldmansachs.com: As of July 2026, Goldman Sachs expects the M&A cycle to have substantial room to run after H1 2026 volumes rose 48%.",
+      "provider": "goldmansachs.com",
+      "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/global-ma-in-2h-2026",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "kpmg.com: In KPMG's 2026 outlook, 56% of dealmakers expect higher M&A pipelines in 2026 versus 2025.",
+      "provider": "kpmg.com",
+      "url": "https://kpmg.com/us/en/articles/2026/kpmg-2026-global-ma-outlook.html",
+      "date": null
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "pitchbook.com: As of September 2026, private credit redemptions are creating an opening for banks and broadly syndicated loans.",
+      "provider": "pitchbook.com",
+      "url": "https://pitchbook.com/news/articles/private-credit-loses-its-edge-in-the-battle-for-pe-borrowers",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "reuters.com: As of July 2026, Wall Street banks are enjoying record prime brokerage windfalls.",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/legal/transactional/wall-street-banks-enjoy-record-windfalls-prime-brokerage-business-2026-07-15/",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "finimize.com: As of September 2026, Oppenheimer sees improving deal-making lifting Jefferies' Q3 2026 investment banking revenue.",
+      "provider": "finimize.com",
+      "url": "https://finimize.com/content/jefferies-could-ride-a-deal-making-pickup-oppenheimer-says",
+      "date": null
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "JEF listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JEF/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

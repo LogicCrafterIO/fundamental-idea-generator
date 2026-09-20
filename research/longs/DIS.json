@@ -1,0 +1,455 @@
+{
+  "ticker": "DIS",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Entertainment company: film and TV studios, streaming (Disney+, Hulu), ESPN sports, and theme parks and cruises.",
+  "catalyst": {
+    "date": "2026-11-12",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 53,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.68306,
+      "eps_low": 1.42169,
+      "eps_high": 1.93,
+      "revenue_avg": 25106654150
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 1.85,
+        "eps_actual": 2.06,
+        "surprise_pct": 11.09,
+        "beat": true
+      },
+      {
+        "date": "2026-05-06",
+        "eps_estimate": 1.5,
+        "eps_actual": 1.57,
+        "surprise_pct": 4.98,
+        "beat": true
+      },
+      {
+        "date": "2026-02-02",
+        "eps_estimate": 1.58,
+        "eps_actual": 1.63,
+        "surprise_pct": 3.44,
+        "beat": true
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 1.02,
+        "eps_actual": 1.11,
+        "surprise_pct": 8.42,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-11-12 (Thursday, before the open), 53 days out -- from the earnings calendar, consensus EPS 1.68.",
+    "why": "Parks revenue and per-visit spending must hold up despite slumping international travel, and streaming profit must keep growing."
+  },
+  "reasons": [
+    "Experiences posted record revenue in fiscal Q3 2026 even as international travel to the U.S. slumped, because new park and cruise capacity is filling at higher prices per visit.",
+    "The market prices the international travel slump as if it hits park revenue, yet fiscal Q3 2026 parks revenue hit a record and FY EPS estimates were raised 21 times against 3 cuts in 30 days.",
+    "Management reaffirmed double-digit earnings growth and a $9B buyback, so a shrinking share count lifts per-share earnings even if net income grows only modestly."
+  ],
+  "quants": {
+    "price": 102.67,
+    "market_cap": "177.28B",
+    "fwd_pe": 14.8,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.8,
+    "eps_trend": "slightly up over the last 7 days",
+    "eps_revisions": "tilted higher, with 21 up and 3 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 17% quarter over quarter (6/27/2026)",
+      "Last quarter earnings before interest and tax increasing 9% quarter over quarter (6/27/2026)",
+      "EPS increased year over year, 1.61 -> 2.06"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 105.0,
+        "qty": 10,
+        "underlying": 102.67,
+        "multiplier": 100,
+        "price": 4.33,
+        "total": 4330.0,
+        "open_interest": 2485
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 105.0,
+        "qty": 3,
+        "underlying": 102.67,
+        "multiplier": 100,
+        "price": 1.79,
+        "total": -537.0,
+        "open_interest": 2029
+      }
+    ],
+    "thesis_target": "Targets the 2026-11-12 report, with the long leg expiring 2026-11-20, which gives the thesis time to show up.",
+    "reflection": "The short 105 call expires 2026-10-16, a month before the print, so the credit is banked and the long call runs unhedged into the number. 11.3% conservative credit clears the floor, but the whole $3,793 debit rides on one report -- size it so a miss is survivable, and add only on a dip before 2026-10-16."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 4,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "contradicts"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "affiliate",
+          "decline",
+          "dollars",
+          "first",
+          "floor",
+          "linear",
+          "primetime",
+          "shrink",
+          "slowing",
+          "subscriber",
+          "tiers",
+          "upfront",
+          "viewers",
+          "watch"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "capacity",
+          "cruise",
+          "experiences",
+          "filling",
+          "fiscal",
+          "international",
+          "posted",
+          "prices",
+          "record",
+          "slump",
+          "travel",
+          "visit"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "cable",
+          "decline",
+          "dollars",
+          "first",
+          "linear",
+          "nearly",
+          "upfront"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S19",
+        "kind": "ollama_search",
+        "label": "alcapitaladvisory.com: The Walt Disney (DIS) Stock Analysis September 2026",
+        "provider": "alcapitaladvisory.com",
+        "url": "https://alcapitaladvisory.com/research/equities/dis.html",
+        "date": "2026-04-04"
+      }
+    ],
+    [
+      {
+        "id": "S19",
+        "kind": "ollama_search",
+        "label": "alcapitaladvisory.com: The Walt Disney (DIS) Stock Analysis September 2026",
+        "provider": "alcapitaladvisory.com",
+        "url": "https://alcapitaladvisory.com/research/equities/dis.html",
+        "date": "2026-04-04"
+      },
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "label": "Analyst EPS estimates and revision counts for DIS",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/DIS/analysis/",
+        "date": "2026-09-20"
+      }
+    ],
+    [
+      {
+        "id": "S18",
+        "kind": "ollama_search",
+        "label": "fool.com: Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here\u2019s What Investors Need to Know. | The Motley Fool",
+        "provider": "fool.com",
+        "url": "https://www.fool.com/investing/2026/08/05/disney-reaffirms-double-digit-earnings-growth-targets-9-billion-in-buybacks-heres-what-investors-need-to-know/",
+        "date": "2026-03-32"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for DIS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/DIS/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for DIS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/DIS/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "DIS quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/dis/financials",
+      "date": "6/27/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "DIS earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/dis/earnings",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "Barrons.com: Netflix Stock Falls After Downgrade. Why It\u2019s Losing the Streaming Wars to Disney.",
+      "provider": "barrons.com",
+      "url": "https://www.barrons.com/articles/netflix-stock-downgrade-streaming-disney-78fe3ca9?siteid=yhoof2&yptr=yahoo",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "label": "LA Times: Disney names first-ever chief technology officer, a day after tapping ex-YouTube executive to run streaming",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/technology/articles/disney-names-first-ever-chief-170000071.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "label": "Quartz: Disney names Karandeep Anand as first-ever CTO",
+      "provider": "qz.com",
+      "url": "https://qz.com/disney-first-cto-karandeep-anand-character-ai-091826",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "label": "TechCrunch: Disney\u2019s first CTO led an AI startup it once accused of copying its characters",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/disney-first-cto-led-ai-175953724.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "label": "Zacks: Walt Disney (DIS) Stock Dips While Market Gains: Key Facts",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-stock-dips-214502762.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: Disney (DIS) Stock May Trade Near Fair Value On CTO Appointment",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-may-trade-031710686.html",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "label": "Motley Fool: Is Walt Disney Stock a Buy, Sell, or Hold 47% Below Its All-Time High?",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/investing/2026/09/19/walt-disney-stock-buy-sell-hold-all-time-high/",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "BNK Invest: Notable ETF Outflow Detected - VOX, VZ, DIS, CMCSA",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-vox-vz-dis-cmcsa",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "Zacks: Walt Disney (DIS) Boasts Earnings & Price Momentum: Should You Buy?",
+      "provider": null,
+      "url": "/articles/walt-disney-dis-boasts-earnings-price-momentum-should-you-buy",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "Zacks: The Walt Disney Company (DIS) is Attracting Investor Attention: Here is What You Should Know",
+      "provider": null,
+      "url": "/articles/walt-disney-company-dis-attracting-investor-attention-here-what-you-should-know",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "watchlistnews.com: FY2027 EPS Estimates for Walt Disney Increased by Analyst - Watch List News",
+      "provider": "watchlistnews.com",
+      "url": "https://www.watchlistnews.com/fy2027-eps-estimates-for-walt-disney-increased-by-analyst/11222054.html",
+      "date": null
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "trefis.com: Is Disney Stock A Bargain Or Just A Slower Grower? | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/dis/articles/615832/is-disney-stock-a-bargain-or-just-a-slower-grower/2026-09-18",
+      "date": null
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "metatrader.com: Earnings Growth & Price Strength Make Walt Disney (DIS) a Stock to Watch \u2014 Latest News | MetaTrader",
+      "provider": "metatrader.com",
+      "url": "https://www.metatrader.com/en/news/zacks/3821636-earnings-growth-price-strength-make-walt-disney-dis-a",
+      "date": "1996-02-01"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "fool.com: Disney Reaffirms Double-Digit Earnings Growth, Targets $9 Billion in Buybacks. Here\u2019s What Investors Need to Know. | The Motley Fool",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/investing/2026/08/05/disney-reaffirms-double-digit-earnings-growth-targets-9-billion-in-buybacks-heres-what-investors-need-to-know/",
+      "date": "2026-03-32"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "alcapitaladvisory.com: The Walt Disney (DIS) Stock Analysis September 2026",
+      "provider": "alcapitaladvisory.com",
+      "url": "https://alcapitaladvisory.com/research/equities/dis.html",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "mediadynamicsinc.com: In the 2026-27 upfront, streaming ad spending rose nearly 30% and surpassed linear TV for the first time.",
+      "provider": "mediadynamicsinc.com",
+      "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-7Ls.pdf",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "mediadynamicsinc.com: In the 2026-27 upfront, cable TV ad dollars fell 7.7%, pressuring Disney's linear networks.",
+      "provider": "mediadynamicsinc.com",
+      "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-7Ls.pdf",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "emarketer.com: As of April 2026, pay TV remains in free fall, pressuring Disney's linear affiliate fee revenue.",
+      "provider": "emarketer.com",
+      "url": "https://www.emarketer.com/content/us-ott-and-pay-tv-viewers-forecast-2026",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "emarketer.com: As of April 2026, YouTube is flourishing on connected TV, intensifying competition for Disney's streaming ad dollars.",
+      "provider": "emarketer.com",
+      "url": "https://www.emarketer.com/content/us-ott-and-pay-tv-viewers-forecast-2026",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "emarketer.com: In 2026, over 240 million people will watch subscription OTT video, and most will see ads.",
+      "provider": "emarketer.com",
+      "url": "https://www.emarketer.com/content/us-ott-and-pay-tv-viewers-forecast-2026",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "DIS listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/DIS/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

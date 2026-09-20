@@ -1,0 +1,2323 @@
+{
+  "symbol": "KBH",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T09:42:44",
+  "profile": {
+    "symbol": "KBH",
+    "name": "KB Home",
+    "sector": "Consumer Cyclical",
+    "industry": "Residential Construction",
+    "summary": "KB Home operates as a homebuilding company in the United States. It builds and sells homes, including attached and detached single-family residential homes, townhomes, and condominiums primarily for first-time, first move-up, second move-up, and active adult homebuyers. The company also provides financial services, such as mortgage banking services, such as residential consumer mortgage loan originations to homebuyers; property and casualty insurance services, as well as earthquake, flood, and personal property insurance products to homebuyers; and title services. It conducts operations in Arizona, California, Colorado, Florida, Idaho, Nevada, North Carolina, Texas, and Washington. The company was formerly known as Kaufman and Broad Home Corporation and changed its name to KB Home in January 2001. KB Home was founded in 1957 and is based in Los Angeles, California.",
+    "employees": 2118,
+    "country": "United States",
+    "website": "https://www.kbhome.com"
+  },
+  "quants": {
+    "symbol": "KBH",
+    "name": "KB Home",
+    "price": 47.12,
+    "market_cap": 2888914432,
+    "market_cap_human": "2.89B",
+    "fwd_pe": 14.18,
+    "fwd_pe_1y": 10.51,
+    "fwd_pe_yahoo": 10.862348,
+    "trailing_pe": 11.46472,
+    "ps": 0.52484703,
+    "ev_ebitda": 11.338,
+    "sector": "Consumer Cyclical",
+    "industry": "Residential Construction",
+    "eps_fy_current": 3.32183,
+    "eps_fy_next": 4.48222,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": -0.39,
+      "current": 3.32183,
+      "7d_ago": 3.32183,
+      "30d_ago": 3.33491,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 0,
+      "up_30d": 7,
+      "down_30d": 5,
+      "net_30d": 2,
+      "text": "tilted higher, with 7 up and 5 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-23"
+      ],
+      "next_date": "2026-09-23",
+      "eps_avg": 0.8778,
+      "eps_low": 0.82,
+      "eps_high": 0.93,
+      "revenue_avg": 1296999300
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 47.12 USD",
+    "Market Cap: 2.89B",
+    "Fwd PE: 14.18",
+    "P/S: 0.5",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted higher, with 7 up and 5 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 27349.0,
+      "prior": 33424.0,
+      "change_pct": -18.2,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 37249.0,
+      "prior": 40324.0,
+      "change_pct": -7.6,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 140547.0,
+      "prior": 131044.0,
+      "change_pct": 7.3,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-06-23T16:00:00-04:00",
+    "current": 0.43,
+    "year_ago": 1.5,
+    "year_ago_period": "2025-06-23T16:00:00-04:00",
+    "change": -1.07,
+    "direction": "declined"
+  },
+  "news": [
+    {
+      "title": "KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4923410-kb-home-bto-is-working-but-demand-is-still-a-problem-rating-upgrade",
+      "summary": "KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha\n\n738 Followers\n\n5\n\nShare\n\nPlay(10min)\n\n## Summary\n\n- KB Home is upgraded to Hold as built-to-order (BTO) reduces unsold inventory, shortens build times, and supports margin recovery.\n- BTO now represents 73% of orders, with finished unsold homes dropping to 11% of production and build times at a decade low.\n- Despite operational improvements, weak buyer conversion, negative cash flow, and elevated leverage, limit upside and keep a buy rating unjustified for KBH stock.\n- Current valuation (~14x NT",
+      "published": null,
+      "source": "ollama_search",
+      "query": "KB Home (KBH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release | Nasdaq",
+      "publisher": "nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/kb-home-kbh-expected-beat-earnings-estimates-what-know-ahead-q3-release",
+      "summary": "KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release | Nasdaq\n\nSkip to main content\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nStocks\n\n# KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release\n\nSeptember 17, 2025 \u2014 10:00 am EDT\n\nWritten by Zacks Equity Research for Zacks",
+      "published": "2025-09-17",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "KBH Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/kbh-stock-analysis/",
+      "summary": "KBH Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy KB Home Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-07-28 \u00b7 11/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, KB Home (KBH) is rated as a strong fundamental performer with a QOC score of 8.6/10. Trading at $57.80, our valuation engine evaluates whether the market price reflects the company's underlying earnings power.\n\nThe short answer: 10 of 11 CirclFi valuation models project upside for KB Home (KBH) at $57.80 \u2014 the model consensus leans bullish, with a Quality Score of 8.6/10 and",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/kbh/transcripts/614663-q2-2026/",
+      "summary": "KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio\n\n# Earnings Call: Q2 2026\n\nJun 23, 2026\n\n Summary\n\nSecond quarter results showed sequential margin improvement and strong execution, with a strategic shift to built-to-order homes driving backlog growth and operational efficiency. Guidance calls for higher deliveries, revenues, and margins in the second half, supported by a favorable West Coast mix and disciplined capital allocation.\n\nOperator\n\n Good afternoon. My name is John, and I will be your conference operator today. I would like to welcome everyone to the KB Home 2026 second quarter",
+      "published": "2026-06-23",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "KB Home (KBH) Stock Analysis | InTickers",
+      "publisher": "intickers.com",
+      "url": "https://intickers.com/reports/kbh/",
+      "summary": "KB Home (KBH) Stock Analysis | InTickers\n\n# KB Home\n\n B \u2605\u2605\u2605 Hold \n\n Aug 22, 2026 \u00b7 Score 76 \u00b7 Type A? Type A \u2014 Value-style analysis Used for established, cash-generative companies \u2014 weighs earnings power, valuation against the company's own history and peers, and margin of safety. Full methodology \u2192 \n\n Current Price? The market price around the time this report was written \u2014 not a live quote. The market has moved since; check a current price before acting. Methodology \u2192 $54.46 \n\n Buy Zone? The large figure is the midpoint of the suggested buy range shown in parentheses. $48.00 ($46.00\u2013$50.00) ",
+      "published": "2026-08-22",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "KBH | KB Home Analyst Estimates | MarketWatch",
+      "publisher": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/kbh/analystestimates",
+      "summary": "KBH | KB Home Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDow\n0.98%\n\nS&P 500\n0.86%\n\nNasdaq\n0.96%\n\nVIX\n-11.21%\n\nGold\n-0.39%\n\nOil\n-2.43%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|Dow|52,573.29|509.19|0.98%|\n|**|S&P 500|7,656.98|65.28|0.86%|\n|**|Nasdaq|26,333.04|251.31|0.96%|\n|**|VIX|15.84|-2.00|-11.21%|\n|**|Gold|4,390.00|-17.30|-0.39%|\n|**|Oil|99.99|-2.49|-2.43%|\nS&P 500 Movers\n* HPE\n12.4\n\n* DELL\n12.0\n\n* NTAP\n8.5\n\n* ON\n8.5\n\n* STX\n-3.7\n\n* SNDK\n-3.5\n\n* ALB\n-3.4\n\n* WDC\n-3.0\n\nVisit Market Data Center**\n*\nLat",
+      "published": "2026-09-11",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is KB HOME overvalued? KBH stock analysis | Kabrios",
+      "publisher": "kabrios.com",
+      "url": "https://kabrios.com/KBH.html",
+      "summary": "Is KB HOME overvalued? KBH stock analysis | Kabrios\n\n# KBH KB HOME\n\n $49.57 analysed 2026-09-14 \n\n Track A \u2014 Established Fast Grower Methodology v3.0.0 13 of 20 inputs available; 4 of 4 pillars scored. Missing inputs are omitted and remaining weights renormalized; coverage is not confidence. \n\nPublished by Zach Miller Independent investor As of 2026-09-14\n\n## Is KB HOME (KBH) overvalued?\n\nOn this methodology KB HOME (KBH) is close to fairly valued. At $49.57 on 2026-09-14 it traded at 0.84\u00d7 an estimated fair value of $59.09, which puts it in the fairly valued. That is a verdict on the price, n",
+      "published": "2026-09-14",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "KB Home (KBH) to Release Earnings on Tuesday",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-kb-home-kbh-to-release-earnings-on-tuesday-2026-09-15/",
+      "summary": "# KB Home (KBH) to Release Earnings on Tuesday\n\nPublished: 2026-09-15T05:11:26.020000+00:00\nSource: marketbeat.com (marketbeat.com)\nLanguage: en\n\n## Story\n\nSkip to main content\n\n\u2192 The cat is out the bag (From Porter & Company) (Ad)\n\n# KB Home (KBH) to Release Earnings on Tuesday\n\nWritten by MarketBeat\n\nSeptember 15, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- KB Home is scheduled to report Q3 2026 earnings after the market closes on September 22. Analysts expect earnings of $0.892 per sha",
+      "published": "2026-09-15",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Earnings Preview: KB Home (KBH) Q3 Earnings Expected to Decline",
+      "publisher": "Zacks",
+      "published": "2026-09-15T14:00:03Z",
+      "summary": "KB Home (KBH) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-kb-home-kbh-140003449.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "KB Home: What To Expect From The Upcoming Q3 Earnings (NYSE:KBH) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4947206-kb-home-what-to-expect-from-the-upcoming-q3-earnings",
+      "summary": "KB Home: What To Expect From The Upcoming Q3 Earnings (NYSE:KBH) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n* Interest Rates\n# KB Home: What To Expect From The Upcoming Q3 Earnings\nSep 16, 2026, 4:05 PM ETKB Home (KBH) Stock\n## Summary\n* KB Home faces a likely earnings and revenue decline in its upcoming fiscal Q3 report, reflecting ongoing negative momentum.\n* Recent",
+      "published": "2026-09-16",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "KB Home (KBH) Suffers a Larger Drop Than the General Market: Key Insights",
+      "publisher": "Zacks",
+      "published": "2026-09-16T21:50:04Z",
+      "summary": "KB Home (KBH) concluded the recent trading session at $48.67, signifying a -1.72% move from its prior day's close.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kb-home-kbh-suffers-larger-215004035.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Curious about KB Home (KBH) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "publisher": "Zacks",
+      "published": "2026-09-17T13:15:02Z",
+      "summary": "Evaluate the expected performance of KB Home (KBH) for the quarter ended August 2026, looking beyond the conventional Wall Street top-and-bottom-line estimates and examining some of its key metrics for better insight.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/curious-kb-home-kbh-q3-131502043.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "KB Home (KBH) Stock May Be Undervalued Following Housing Affordability Pressure",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-18T13:13:25Z",
+      "summary": "KB Home has seen a mixed share price path in recent years, and the question now is whether what you pay today is properly explained by what the business earns. With fresh affordability pressures hitting the US housing market again, investors are asking how much of that strain is already reflected in KB Home's valuation. Over the past 5 years the stock has returned 27.9%, which puts real weight on whether the current earnings profile can support that longer run outcome. RBC's latest comments...",
+      "url": "https://finance.yahoo.com/real-estate/articles/kb-home-kbh-stock-may-131325655.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet",
+      "publisher": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/kb-home-kbh-q3-2026-preview-eps-est-0-90-reports-september-22/amp/",
+      "summary": "# KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet\n\nAuthor: AlphaStreet Newsdesk\nPublished: 2026-09-17T06:13:59-05:00\nSource: news.alphastreet.com (news.alphastreet.com)\nLanguage: en\n\n## Story\n\nKB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet\n\n 1 hour ago \n\n# KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22\n\nAlphaStreet Newsdesk powered by AlphaStreet Intelligence\n\nWall Street expects KB Home to post sharply lower earnings when the homebuilder reports fiscal third-quarter 2026 results after the close on Septem",
+      "published": "2026-09-22",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "KB Home (KBH) Outperforms Broader Market: What You Need to Know",
+      "publisher": "Zacks",
+      "created": "Aug 25, 2026",
+      "ago": "Aug 25, 2026",
+      "url": "/articles/kb-home-kbh-outperforms-broader-market-what-you-need-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KBH"
+      ],
+      "summary": "In the latest trading session, KB Home (KBH) closed at $57.11, marking a +2.64% move from the previous day.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Here is What to Know Beyond Why KB Home (KBH) is a Trending Stock",
+      "publisher": "Zacks",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/here-what-know-beyond-why-kb-home-kbh-trending-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KBH"
+      ],
+      "summary": "Recently, Zacks.com users have been paying close attention to KB Home (KBH). This makes it worthwhile to examine what the stock has in store.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
+      "publisher": "Barchart",
+      "created": "Aug 11, 2026",
+      "ago": "Aug 11, 2026",
+      "url": "/articles/stocks-finish-lower-soaring-crude-prices-spur-inflation-fears",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ALK",
+        "MPC",
+        "ADI",
+        "SLB",
+        "TRI",
+        "OXY",
+        "FANG",
+        "AMD",
+        "SPY",
+        "ADSK",
+        "MU",
+        "BKR",
+        "ORCL",
+        "AAL",
+        "QQQ",
+        "TOL",
+        "PSX",
+        "FTNT",
+        "XOM",
+        "ADBE",
+        "ZS",
+        "MCHP",
+        "RCL",
+        "ARM",
+        "HPE",
+        "MRVL",
+        "CRM",
+        "AMAT",
+        "UAL",
+        "DHI",
+        "INTU",
+        "CVX",
+        "TTD",
+        "BLDR",
+        "DDOG",
+        "VREX",
+        "TXN",
+        "KBH",
+        "MSFT",
+        "MNDY",
+        "PHM",
+        "QCOM",
+        "NCLH",
+        "LRCX",
+        "VLO",
+        "DIA",
+        "RDNT",
+        "PLTR",
+        "PANW",
+        "KLAC",
+        "NVDA",
+        "CRWD",
+        "COP",
+        "NXPI",
+        "LUV",
+        "OKTA",
+        "CCL",
+        "WDAY",
+        "DAL",
+        "IOT",
+        "APA",
+        "HAL",
+        "LEN",
+        "INTC",
+        "HD",
+        "NET",
+        "DVN"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.06% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.11%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.34%.  September E-mini S&P futures (ESU26 ) fell -0.07%, and September E-mini Nasdaq futures...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Rout in Chipmakers Weighs on Broader Market",
+      "publisher": "Barchart",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/rout-chipmakers-weighs-broader-market",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "SNDK",
+        "CVX",
+        "DHI",
+        "BLDR",
+        "SLB",
+        "TXN",
+        "KBH",
+        "OXY",
+        "FANG",
+        "PHM",
+        "MA",
+        "STX",
+        "V",
+        "WDC",
+        "LRCX",
+        "AMD",
+        "RGNX",
+        "SPY",
+        "DIA",
+        "NUE",
+        "KLAC",
+        "NVDA",
+        "AAOI",
+        "NXPI",
+        "MU",
+        "BKR",
+        "QQQ",
+        "APA",
+        "HAL",
+        "LEN",
+        "INTC",
+        "XOM",
+        "MCHP",
+        "DRI",
+        "ARM",
+        "CLF",
+        "DVN",
+        "MRVL",
+        "STLD"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.27% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.26%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down by -1.00%.  E-mini S&P futures (ESU26 ) are down -0.26%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
+      "publisher": "Barchart",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/stocks-pressured-weakness-chipmakers-and-ai-infrastructure-stocks",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "SNDK",
+        "DHI",
+        "BLDR",
+        "KBH",
+        "PHM",
+        "MA",
+        "STX",
+        "V",
+        "WDC",
+        "LRCX",
+        "AMD",
+        "RGNX",
+        "SPY",
+        "DIA",
+        "NUE",
+        "KLAC",
+        "NVDA",
+        "AAOI",
+        "NXPI",
+        "MU",
+        "QQQ",
+        "TOL",
+        "LEN",
+        "INTC",
+        "MCHP",
+        "DRI",
+        "ARM",
+        "CLF",
+        "MRVL",
+        "STLD"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.43% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.19%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down by -1.41%.  E-mini S&P futures (ESU26 ) are down -0.36%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
+      "publisher": "Barchart",
+      "created": "Aug 31, 2026",
+      "ago": "Aug 31, 2026",
+      "url": "/articles/stocks-fall-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ALK",
+        "UAL",
+        "DHI",
+        "CVX",
+        "BLDR",
+        "SLB",
+        "SAIC",
+        "KBH",
+        "OXY",
+        "PHM",
+        "FANG",
+        "NCLH",
+        "PINS",
+        "SPY",
+        "DIA",
+        "HWM",
+        "AON",
+        "CRWD",
+        "COP",
+        "BKR",
+        "AAL",
+        "LUV",
+        "CCL",
+        "DAL",
+        "QQQ",
+        "TOL",
+        "HAL",
+        "LEN",
+        "EIX",
+        "PCG",
+        "XOM",
+        "GEV",
+        "RCL",
+        "HD",
+        "CNH",
+        "KALU",
+        "DVN"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.50% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.67%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down by -0.29%.  E-mini S&P futures (ESU26 ) are down -0.48%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
+      "publisher": "Barchart",
+      "created": "Sep 1, 2026",
+      "ago": "Sep 1, 2026",
+      "url": "/articles/stocks-finish-mostly-lower-rising-crude-boosts-bond-yields",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ALK",
+        "MSTR",
+        "MPC",
+        "GLXY",
+        "SLB",
+        "COIN",
+        "OXY",
+        "FANG",
+        "SPY",
+        "HWM",
+        "BKR",
+        "AAL",
+        "QQQ",
+        "TOL",
+        "IREN",
+        "PSX",
+        "FTNT",
+        "EIX",
+        "PCG",
+        "XOM",
+        "ZS",
+        "GEV",
+        "RCL",
+        "CNH",
+        "UAL",
+        "DHI",
+        "CVX",
+        "BLDR",
+        "SAIC",
+        "KBH",
+        "S",
+        "PHM",
+        "NCLH",
+        "VLO",
+        "PINS",
+        "DIA",
+        "PANW",
+        "MARA",
+        "AON",
+        "CRWD",
+        "COP",
+        "LUV",
+        "OKTA",
+        "CCL",
+        "DAL",
+        "APA",
+        "HAL",
+        "LEN",
+        "NET",
+        "KALU",
+        "DVN"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.33% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.70%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up by +0.08%.  E-mini S&P futures (ESU26 ) fell -0.28%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Retreat as 10-year T-note Yield Reaches New 2.75-year High",
+      "publisher": "Barchart",
+      "created": "Sep 10, 2026",
+      "ago": "Sep 10, 2026",
+      "url": "/articles/stocks-retreat-10-year-t-note-yield-reaches-new-275-year-high",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "RCAT",
+        "SNDK",
+        "DHI",
+        "BLDR",
+        "KBH",
+        "CRWV",
+        "S",
+        "PHM",
+        "WDC",
+        "LRCX",
+        "AMD",
+        "SCCO",
+        "SPY",
+        "DIA",
+        "UMAC",
+        "PANW",
+        "NVDA",
+        "JEDI",
+        "COO",
+        "CRWD",
+        "DRVN",
+        "MU",
+        "AEO",
+        "OKTA",
+        "KTOS",
+        "QQQ",
+        "TOL",
+        "KYMR",
+        "LEN",
+        "AVAV",
+        "FTNT",
+        "INTC",
+        "AVEX",
+        "NEM",
+        "RIO",
+        "FCX",
+        "ARM"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down -0.42% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.43%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.69%.  E-mini S&P futures (ESU26 ) are down -0.40%, and September E-mini Nasdaq futures (NQU26...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Settle Lower as Surging Crude Prices Boost Fed Rate Hike Chances",
+      "publisher": "Barchart",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/stocks-settle-lower-surging-crude-prices-boost-fed-rate-hike-chances",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "AAPL",
+        "SNDK",
+        "DHI",
+        "BLDR",
+        "ASML",
+        "KBH",
+        "CRWV",
+        "PHM",
+        "FDS",
+        "STX",
+        "WDC",
+        "LRCX",
+        "AMD",
+        "SCCO",
+        "SPY",
+        "DIA",
+        "KLAC",
+        "NVDA",
+        "COO",
+        "MU",
+        "AEO",
+        "QQQ",
+        "TOL",
+        "LEN",
+        "AVAV",
+        "INTC",
+        "NEM",
+        "RIO",
+        "FCX",
+        "ARM",
+        "HD",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.58% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.60%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.08%.  E-mini S&P futures (ESU26 ) fell -0.61%, and September E-mini Nasdaq futures (NQU26...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Settle Lower as Bond Yields Surge",
+      "publisher": "Barchart",
+      "created": "Sep 2, 2026",
+      "ago": "Sep 2, 2026",
+      "url": "/articles/stocks-settle-lower-bond-yields-surge",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "HL",
+        "CDE",
+        "ADI",
+        "GLXY",
+        "COIN",
+        "ELV",
+        "DUOL",
+        "AMD",
+        "SCCO",
+        "SPY",
+        "HWM",
+        "FRVO",
+        "MU",
+        "CAH",
+        "QQQ",
+        "TOL",
+        "AU",
+        "FTNT",
+        "ZS",
+        "CNC",
+        "MCHP",
+        "FCX",
+        "ARM",
+        "AMAT",
+        "CVS",
+        "B",
+        "DHI",
+        "BLDR",
+        "TXN",
+        "UNH",
+        "ASML",
+        "KBH",
+        "S",
+        "PHM",
+        "QCOM",
+        "LRCX",
+        "DIA",
+        "PANW",
+        "KLAC",
+        "MARA",
+        "HUM",
+        "CRWD",
+        "CI",
+        "MOH",
+        "OKTA",
+        "LEN",
+        "NEM",
+        "RIOT",
+        "NET",
+        "HD"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.71% on Tuesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.79%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down by -1.29%.  E-mini S&P futures (ESU26 ) fell -0.71%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "KB Home - KB HOME REPORTS 2026 SECOND QUARTER RESULTS",
+      "publisher": "investor.kbhome.com",
+      "url": "https://investor.kbhome.com/company-news/news-releases/press-release-details/2026/KB-HOME-REPORTS-2026-SECOND-QUARTER-RESULTS/default.aspx",
+      "summary": "KB Home - KB HOME REPORTS 2026 SECOND QUARTER RESULTS \n\n### KB HOME REPORTS 2026 SECOND QUARTER RESULTS \n\n June 23, 2026 \n\nRevenues of $1.11 Billion; Diluted Earnings Per Share of $.43 Repurchased $75.0 Million of Common Stock\n\nLOS ANGELES, June 23, 2026 /PRNewswire/ -- KB Home (NYSE: KBH) today reported results for its second quarter ended May 31, 2026.\n\n \n\n\"We produced solid second-quarter results that met or exceeded the mid-point of our key guidance ranges,\" said Jeffrey Mezger, Executive Chairman. \"Our return to a predominantly Built to Order business model continued to gain momentum, wit",
+      "published": "2026-06-23",
+      "source": "ollama_search",
+      "query": "KB Home (KBH) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Meritage Homes Likely to Increase Homebuyer Incentives Amid High Mortgage Rates, Truist Says",
+      "publisher": "MT Newswires",
+      "published": "2026-09-16T13:03:47Z",
+      "summary": "Meritage Homes (MTH) and other homebuilders will likely need to increase buyer incentives amid eleva",
+      "url": "https://finance.yahoo.com/real-estate/articles/meritage-homes-likely-increase-homebuyer-130347263.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Lennar (LEN) Lags Q3 Earnings and Revenue Estimates",
+      "publisher": "Zacks",
+      "published": "2026-09-16T21:40:01Z",
+      "summary": "Lennar (LEN) delivered earnings and revenue surprises of -4.65% and -3.44%, respectively, for the quarter ended August 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lennar-len-lags-q3-earnings-214001622.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Lennar's Quarterly Results Trail Views as Affordability Challenges Weigh on Home Buying",
+      "publisher": "MT Newswires",
+      "published": "2026-09-17T10:36:15Z",
+      "summary": "Lennar's (LEN, LEN.B) shares declined early Thursday after the homebuilder reported weaker-than-expe",
+      "url": "https://finance.yahoo.com/real-estate/articles/lennar-apos-quarterly-results-trail-103615167.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "How To Earn $500 A Month From KB Home Stock Ahead Of Q3 Earnings",
+      "publisher": "Benzinga",
+      "published": "2026-09-18T02:30:21Z",
+      "summary": "KB Home will release earnings for its third-quarter after the closing bell on Tuesday, Sept. 22. Analysts expect the company to report quarterly earnings of 90 cents per share, down from $1.61 per share in the year-ago period. The consensus...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-kb-home-023021697.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "KB Home to Report Q3 Earnings: Here's What Investors Must Know",
+      "publisher": "Zacks",
+      "published": "2026-09-18T14:56:00Z",
+      "summary": "KBH's fiscal third-quarter results are likely to reflect lower deliveries and ASP, while its built-to-order model supports activity.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kb-home-report-q3-earnings-145600761.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Earnings Calendar and Analysis for This Week (September 21-25)",
+      "publisher": "Kiplinger",
+      "published": "2026-09-18T16:29:46Z",
+      "summary": "Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports.",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 10,
+        "share": 0.4,
+        "evidence": [
+          {
+            "title": "KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release | Nasdaq",
+            "publisher": "nasdaq.com",
+            "published": "2025-09-17",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "KBH Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio",
+            "publisher": "stockanalysis.com",
+            "published": "2026-06-23",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "KBH | KB Home Analyst Estimates | MarketWatch",
+            "publisher": "marketwatch.com",
+            "published": "2026-09-11",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 6,
+        "share": 0.24,
+        "evidence": [
+          {
+            "title": "KB Home: What To Expect From The Upcoming Q3 Earnings (NYSE:KBH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-16",
+            "matched": [
+              "interest rate"
+            ]
+          },
+          {
+            "title": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
+            "publisher": "Barchart",
+            "published": "Aug 31, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
+            "publisher": "Barchart",
+            "published": "Sep 1, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Stocks Retreat as 10-year T-note Yield Reaches New 2.75-year High",
+            "publisher": "Barchart",
+            "published": "Sep 10, 2026",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "KBH Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "KB Home (KBH) Stock Analysis | InTickers",
+            "publisher": "intickers.com",
+            "published": "2026-08-22",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Is KB HOME overvalued? KBH stock analysis | Kabrios",
+            "publisher": "kabrios.com",
+            "published": "2026-09-14",
+            "matched": [
+              "overvalued"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.04,
+        "evidence": [
+          {
+            "title": "KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "leverage"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 1,
+        "share": 0.04,
+        "evidence": [
+          {
+            "title": "KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "upgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 1,
+        "share": 0.04,
+        "evidence": [
+          {
+            "title": "KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio",
+            "publisher": "stockanalysis.com",
+            "published": "2026-06-23",
+            "matched": [
+              "backlog"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 1,
+        "share": 0.04,
+        "evidence": [
+          {
+            "title": "KBH | KB Home Analyst Estimates | MarketWatch",
+            "publisher": "marketwatch.com",
+            "published": "2026-09-11",
+            "matched": [
+              "data center"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    },
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-09-23"
+    ],
+    "next_date": "2026-09-23",
+    "eps_avg": 0.8778,
+    "eps_low": 0.82,
+    "eps_high": 0.93,
+    "revenue_avg": 1296999300
+  },
+  "catalyst": {
+    "date": "2026-09-22",
+    "weekday": "Tuesday",
+    "days_out": 2,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 0.9
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-23",
+        "eps_estimate": 0.46,
+        "eps_actual": 0.43,
+        "surprise_pct": -5.98,
+        "beat": false
+      },
+      {
+        "date": "2026-03-24",
+        "eps_estimate": 0.54,
+        "eps_actual": 0.52,
+        "surprise_pct": -4.57,
+        "beat": false
+      },
+      {
+        "date": "2025-12-18",
+        "eps_estimate": 1.79,
+        "eps_actual": 1.55,
+        "surprise_pct": -13.55,
+        "beat": false
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": 1.51,
+        "eps_actual": 1.61,
+        "surprise_pct": 6.91,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "beat_rate": 0.25,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-22 (Tuesday, after the close), 2 days out -- from the earnings calendar, consensus EPS 0.9."
+  },
+  "forward_trends": {
+    "queries": [
+      "US housing market 2026 2027 first-time homebuyer affordability mortgage rates inventory outlook",
+      "homebuilding industry 2026 2027 construction labor costs building materials land supply regulation",
+      "build-to-rent single-family rental competition traditional homebuilders 2026 2027",
+      "KBH KB Home 2026 2027 first-time buyer demand active adult housing market outlook"
+    ],
+    "results_count": 20,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "Mortgage rates are forecast to stay above 6.5% through 2027, keeping borrowing costs high for KBH buyers.",
+        "stance": "pressure",
+        "why": "Higher borrowing costs reduce buyer purchasing power and can slow KBH net orders and deliveries.",
+        "quote": "U.S. mortgage rates seen staying above 6.5% through 2027",
+        "url": "https://finance-commerce.com/2026/09/us-mortgage-rates-housing-market-2027/",
+        "publisher": "finance-commerce.com",
+        "as_of": "2026-09-01",
+        "age_days": 19,
+        "undated": false
+      },
+      {
+        "claim": "Home prices are expected to remain flat in 2026 and rise 3% in 2027, weighing on sales.",
+        "stance": "pressure",
+        "why": "High prices limit affordability and can reduce KBH buyer traffic and net orders.",
+        "quote": "J.P. Morgan Global Research expects home prices to remain flat in 2026 and increase by 3% in 2027.",
+        "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+        "publisher": "jpmorgan.com",
+        "as_of": "2026-07-29",
+        "age_days": 53,
+        "undated": false
+      },
+      {
+        "claim": "Housing starts outlook is negative through 2027 as construction costs rise.",
+        "stance": "pressure",
+        "why": "KBH may slow starts and deliveries while facing higher construction costs.",
+        "quote": "Housing starts outlook turns negative through 2027 as costs rise",
+        "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+        "publisher": "housingwire.com",
+        "as_of": "2026-09-17",
+        "age_days": 3,
+        "undated": false
+      },
+      {
+        "claim": "As of September 2026, buy-downs support 80-90% of new-home sales as margins tighten.",
+        "stance": "pressure",
+        "why": "KBH may need to keep incentives high, compressing gross margins.",
+        "quote": "Buy-downs now support 80-90% of new-home sales as margins tighten and labor shortages persist",
+        "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+        "publisher": "housingwire.com",
+        "as_of": "2026-09-17",
+        "age_days": 3,
+        "undated": false
+      },
+      {
+        "claim": "New U.S. tariffs on Canadian goods, including cement, add cost uncertainty for homebuilders in 2026.",
+        "stance": "pressure",
+        "why": "Higher material costs can raise KBH construction costs and squeeze margins.",
+        "quote": "New U.S. tariffs on certain Canadian goods, including cement, introduce added cost uncertainty.",
+        "url": "https://dbrs.morningstar.com/research/486907/north-american-homebuilders-2026-midyear-outlook-affordability-challenges-persist-amid-rising-cost-pressures",
+        "publisher": "dbrs.morningstar.com",
+        "as_of": "2026-08-06",
+        "age_days": 45,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In 2026, an anticipated modest mortgage-rate reduction should support production and sales.",
+        "stance": "support",
+        "why": "Lower rates can improve KBH buyer affordability and order activity.",
+        "quote": "easing financial conditions led by an anticipated modest reduction in mortgage rates should help to somewhat offset these market challenges and support production and sales",
+        "url": "https://www.nahb.org/news-and-economics/press-releases/2026/02/2026-housing-outlook-ongoing-challenges-cautious-optimism-and-incremental-gains",
+        "publisher": "nahb.org",
+        "as_of": "2026-02-01",
+        "age_days": 231,
+        "undated": false,
+        "drop_reason": "stale (231 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "KBH",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 47.12,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 50.0,
+        "premium": 2.77,
+        "bid": 2.15,
+        "ask": 3.4,
+        "mid": 2.77,
+        "last": 3.47,
+        "open_interest": 256,
+        "volume": 1,
+        "implied_vol": 0.4278621667480469,
+        "qty": 16
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 50.0,
+        "premium": 1.05,
+        "bid": 0.8,
+        "ask": 1.3,
+        "mid": 1.05,
+        "last": 1.08,
+        "open_interest": 268,
+        "volume": 59.0,
+        "implied_vol": 0.47070841796875,
+        "qty": 6
+      },
+      "long_total": 4432.0,
+      "short_total": 630.0,
+      "net_debit": 3802.0,
+      "credit_ratio_mid": 0.1421,
+      "credit_ratio_conservative": 0.0882,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "15-Jan-27",
+          "strike": 50.0,
+          "qty": 16,
+          "underlying": 47.12,
+          "multiplier": 100,
+          "price": 2.77,
+          "total": 4432.0,
+          "open_interest": 256
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 50.0,
+          "qty": 6,
+          "underlying": 47.12,
+          "multiplier": 100,
+          "price": 1.05,
+          "total": -630.0000000000001,
+          "open_interest": 268
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 15-Jan-27, after it",
+        "targets report #3 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 50, 55, 60, 65"
+      ],
+      "advice": "Credit ratio 8.8% is below the 10% floor; sell ~1 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0237,
+          "credit_ratio_conservative": 0.0147,
+          "passes_floor": false,
+          "cash_collected": 105.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0474,
+          "credit_ratio_conservative": 0.0294,
+          "passes_floor": false,
+          "cash_collected": 210.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0711,
+          "credit_ratio_conservative": 0.0441,
+          "passes_floor": false,
+          "cash_collected": 315.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0948,
+          "credit_ratio_conservative": 0.0588,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1185,
+          "credit_ratio_conservative": 0.0735,
+          "passes_floor": false,
+          "cash_collected": 525.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1421,
+          "credit_ratio_conservative": 0.0882,
+          "passes_floor": false,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1658,
+          "credit_ratio_conservative": 0.1029,
+          "passes_floor": true,
+          "cash_collected": 735.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1895,
+          "credit_ratio_conservative": 0.1176,
+          "passes_floor": true,
+          "cash_collected": 840.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2132,
+          "credit_ratio_conservative": 0.1324,
+          "passes_floor": true,
+          "cash_collected": 945.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2369,
+          "credit_ratio_conservative": 0.1471,
+          "passes_floor": true,
+          "cash_collected": 1050.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2606,
+          "credit_ratio_conservative": 0.1618,
+          "passes_floor": true,
+          "cash_collected": 1155.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.2843,
+          "credit_ratio_conservative": 0.1765,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.308,
+          "credit_ratio_conservative": 0.1912,
+          "passes_floor": true,
+          "cash_collected": 1365.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3317,
+          "credit_ratio_conservative": 0.2059,
+          "passes_floor": true,
+          "cash_collected": 1470.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.3554,
+          "credit_ratio_conservative": 0.2206,
+          "passes_floor": true,
+          "cash_collected": 1575.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.3791,
+          "credit_ratio_conservative": 0.2353,
+          "passes_floor": true,
+          "cash_collected": 1680.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "KBH",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 47.12,
+      "catalyst": "2026-12-23",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 45.0,
+        "premium": 2.83,
+        "bid": 2.45,
+        "ask": 3.2,
+        "mid": 2.83,
+        "last": 2.9,
+        "open_interest": 1714,
+        "volume": 1,
+        "implied_vol": 0.40064075927734377,
+        "qty": 15
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 45.0,
+        "premium": 1.27,
+        "bid": 1.2,
+        "ask": 1.35,
+        "mid": 1.27,
+        "last": 1.3,
+        "open_interest": 2931,
+        "volume": 491.0,
+        "implied_vol": 0.45117736328125,
+        "qty": 5
+      },
+      "long_total": 4245.0,
+      "short_total": 635.0,
+      "net_debit": 3610.0,
+      "credit_ratio_mid": 0.1496,
+      "credit_ratio_conservative": 0.125,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "15-Jan-27",
+          "strike": 45.0,
+          "qty": 15,
+          "underlying": 47.12,
+          "multiplier": 100,
+          "price": 2.83,
+          "total": 4245.0,
+          "open_interest": 1714
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 45.0,
+          "qty": 5,
+          "underlying": 47.12,
+          "multiplier": 100,
+          "price": 1.27,
+          "total": -635.0,
+          "open_interest": 2931
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-23 catalyst; long expires 15-Jan-27, after it",
+        "targets report #3 (2026-12-23); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 45, 40, 35, 30"
+      ],
+      "advice": "Credit ratio 12.5% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0299,
+          "credit_ratio_conservative": 0.025,
+          "passes_floor": false,
+          "cash_collected": 127.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0598,
+          "credit_ratio_conservative": 0.05,
+          "passes_floor": false,
+          "cash_collected": 254.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0898,
+          "credit_ratio_conservative": 0.075,
+          "passes_floor": false,
+          "cash_collected": 381.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1197,
+          "credit_ratio_conservative": 0.1,
+          "passes_floor": true,
+          "cash_collected": 508.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1496,
+          "credit_ratio_conservative": 0.125,
+          "passes_floor": true,
+          "cash_collected": 635.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1795,
+          "credit_ratio_conservative": 0.15,
+          "passes_floor": true,
+          "cash_collected": 762.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2094,
+          "credit_ratio_conservative": 0.175,
+          "passes_floor": true,
+          "cash_collected": 889.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2393,
+          "credit_ratio_conservative": 0.2,
+          "passes_floor": true,
+          "cash_collected": 1016.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2693,
+          "credit_ratio_conservative": 0.225,
+          "passes_floor": true,
+          "cash_collected": 1143.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2992,
+          "credit_ratio_conservative": 0.25,
+          "passes_floor": true,
+          "cash_collected": 1270.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.3291,
+          "credit_ratio_conservative": 0.275,
+          "passes_floor": true,
+          "cash_collected": 1397.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.359,
+          "credit_ratio_conservative": 0.3,
+          "passes_floor": true,
+          "cash_collected": 1524.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.3889,
+          "credit_ratio_conservative": 0.325,
+          "passes_floor": true,
+          "cash_collected": 1651.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.4188,
+          "credit_ratio_conservative": 0.35,
+          "passes_floor": true,
+          "cash_collected": 1778.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.4488,
+          "credit_ratio_conservative": 0.375,
+          "passes_floor": true,
+          "cash_collected": 1905.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for KBH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KBH/key-statistics/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "Price: 47.12 USD Market Cap: 2.89B Fwd PE: 14.18 P/S: 0.5 EPS trends: flat over the last 7 days EPS revisions: tilted higher, with 7 up and 5 down over last 30 days price 47.12 market cap 2.89B forward PE 14.18 forward PE next FY 10.51 trailing PE 11.46472 P/S 0.52484703 EV/EBITDA 11.338"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for KBH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KBH/analysis/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "FY consensus 3.32183 now, 3.32183 7 days ago, 3.33491 30 days ago, change over 30 days -0.39%; EPS revisions 7 up and 5 down over 30 days, 1 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "KBH quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/kbh/financials",
+      "date": "5/31/2026",
+      "weight": null,
+      "text": "Net Income decreasing 18.2% (2/28/2026 to 5/31/2026) Earnings Before Interest and Tax decreasing 7.6% (2/28/2026 to 5/31/2026) Sales, General and Admin. increasing 7.3% (2/28/2026 to 5/31/2026) EPS declined year over year 1.5 to 0.43"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "KBH earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/kbh/earnings",
+      "date": "2026-09-22",
+      "weight": null,
+      "text": "2026-09-22 (Tuesday, after the close), 2 days out -- from the earnings calendar, consensus EPS 0.9. beat streak 0 median gap 91 days 2026-06-23 estimate 0.46 actual 0.43 surprise -5.98% 2026-03-24 estimate 0.54 actual 0.52 surprise -4.57% 2025-12-18 estimate 1.79 actual 1.55 surprise -13.55% 2025-09-24 estimate 1.51 actual 1.61 surprise 6.91%"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Zacks: Earnings Preview: KB Home (KBH) Q3 Earnings Expected to Decline",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-kb-home-kbh-140003449.html",
+      "date": "2026-09-15",
+      "weight": 3,
+      "text": "Earnings Preview: KB Home (KBH) Q3 Earnings Expected to Decline KB Home (KBH) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Zacks: KB Home (KBH) Suffers a Larger Drop Than the General Market: Key Insights",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kb-home-kbh-suffers-larger-215004035.html",
+      "date": "2026-09-16",
+      "weight": 3,
+      "text": "KB Home (KBH) Suffers a Larger Drop Than the General Market: Key Insights KB Home (KBH) concluded the recent trading session at $48.67, signifying a -1.72% move from its prior day's close."
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Zacks: Curious about KB Home (KBH) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/curious-kb-home-kbh-q3-131502043.html",
+      "date": "2026-09-17",
+      "weight": 3,
+      "text": "Curious about KB Home (KBH) Q3 Performance? Explore Wall Street Estimates for Key Metrics Evaluate the expected performance of KB Home (KBH) for the quarter ended August 2026, looking beyond the conventional Wall Street top-and-bottom-line estimates and examining some of its key metrics for better insight."
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Simply Wall St.: KB Home (KBH) Stock May Be Undervalued Following Housing Affordability Pressure",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/real-estate/articles/kb-home-kbh-stock-may-131325655.html",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "KB Home (KBH) Stock May Be Undervalued Following Housing Affordability Pressure KB Home has seen a mixed share price path in recent years, and the question now is whether what you pay today is properly explained by what the business earns. With fresh affordability pressures hitting the US housing market again, investors are asking how much of that strain is already reflected in KB Home's valuation. Over the past 5 years the stock has returned 27.9%, which puts real weight on whether the current earnings profile can support that longer run outcome. RBC's latest comments..."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: KB Home (KBH) Outperforms Broader Market: What You Need to Know",
+      "provider": null,
+      "url": "/articles/kb-home-kbh-outperforms-broader-market-what-you-need-know",
+      "date": "Aug 25, 20",
+      "weight": 3,
+      "text": "KB Home (KBH) Outperforms Broader Market: What You Need to Know In the latest trading session, KB Home (KBH) closed at $57.11, marking a +2.64% move from the previous day."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Here is What to Know Beyond Why KB Home (KBH) is a Trending Stock",
+      "provider": null,
+      "url": "/articles/here-what-know-beyond-why-kb-home-kbh-trending-stock",
+      "date": "Sep 11, 20",
+      "weight": 3,
+      "text": "Here is What to Know Beyond Why KB Home (KBH) is a Trending Stock Recently, Zacks.com users have been paying close attention to KB Home (KBH). This makes it worthwhile to examine what the stock has in store."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Barchart: Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
+      "provider": null,
+      "url": "/articles/stocks-finish-lower-soaring-crude-prices-spur-inflation-fears",
+      "date": "Aug 11, 20",
+      "weight": 1,
+      "text": "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears The S&P 500 Index ($SPX ) (SPY ) closed down -0.06% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.11%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.34%.  September E-mini S&P futures (ESU26 ) fell -0.07%, and September E-mini Nasdaq futures..."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Barchart: Rout in Chipmakers Weighs on Broader Market",
+      "provider": null,
+      "url": "/articles/rout-chipmakers-weighs-broader-market",
+      "date": "Aug 24, 20",
+      "weight": 1,
+      "text": "Rout in Chipmakers Weighs on Broader Market The S&P 500 Index ($SPX ) (SPY ) is down by -0.27% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.26%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down by -1.00%.  E-mini S&P futures (ESU26 ) are down -0.26%, and September E-mini..."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Barchart: Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
+      "provider": null,
+      "url": "/articles/stocks-pressured-weakness-chipmakers-and-ai-infrastructure-stocks",
+      "date": "Aug 24, 20",
+      "weight": 1,
+      "text": "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks The S&P 500 Index ($SPX ) (SPY ) is down by -0.43% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.19%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down by -1.41%.  E-mini S&P futures (ESU26 ) are down -0.36%, and September E-mini..."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Barchart: Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
+      "provider": null,
+      "url": "/articles/stocks-fall-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
+      "date": "Aug 31, 20",
+      "weight": 1,
+      "text": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields The S&P 500 Index ($SPX ) (SPY ) is down by -0.50% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.67%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down by -0.29%.  E-mini S&P futures (ESU26 ) are down -0.48%, and September E-mini..."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Barchart: Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
+      "provider": null,
+      "url": "/articles/stocks-finish-mostly-lower-rising-crude-boosts-bond-yields",
+      "date": "Sep 1, 202",
+      "weight": 1,
+      "text": "Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields The S&P 500 Index ($SPX ) (SPY ) closed down by -0.33% on Monday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.70%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up by +0.08%.  E-mini S&P futures (ESU26 ) fell -0.28%, and September E-mini..."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Stocks Retreat as 10-year T-note Yield Reaches New 2.75-year High",
+      "provider": null,
+      "url": "/articles/stocks-retreat-10-year-t-note-yield-reaches-new-275-year-high",
+      "date": "Sep 10, 20",
+      "weight": 1,
+      "text": "Stocks Retreat as 10-year T-note Yield Reaches New 2.75-year High The S&P 500 Index ($SPX ) (SPY ) is down -0.42% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.43%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.69%.  E-mini S&P futures (ESU26 ) are down -0.40%, and September E-mini Nasdaq futures (NQU26..."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Settle Lower as Surging Crude Prices Boost Fed Rate Hike Chances",
+      "provider": null,
+      "url": "/articles/stocks-settle-lower-surging-crude-prices-boost-fed-rate-hike-chances",
+      "date": "Sep 11, 20",
+      "weight": 1,
+      "text": "Stocks Settle Lower as Surging Crude Prices Boost Fed Rate Hike Chances The S&P 500 Index ($SPX ) (SPY ) closed down -0.58% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.60%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.08%.  E-mini S&P futures (ESU26 ) fell -0.61%, and September E-mini Nasdaq futures (NQU26..."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Settle Lower as Bond Yields Surge",
+      "provider": null,
+      "url": "/articles/stocks-settle-lower-bond-yields-surge",
+      "date": "Sep 2, 202",
+      "weight": 1,
+      "text": "Stocks Settle Lower as Bond Yields Surge The S&P 500 Index ($SPX ) (SPY ) closed down by -0.71% on Tuesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.79%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down by -1.29%.  E-mini S&P futures (ESU26 ) fell -0.71%, and September E-mini..."
+    },
+    {
+      "id": "S19",
+      "kind": "yahoo",
+      "ref": "news:14",
+      "label": "MT Newswires: Meritage Homes Likely to Increase Homebuyer Incentives Amid High Mortgage Rates, Truist Says",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/real-estate/articles/meritage-homes-likely-increase-homebuyer-130347263.html",
+      "date": "2026-09-16",
+      "weight": 0,
+      "text": "Meritage Homes Likely to Increase Homebuyer Incentives Amid High Mortgage Rates, Truist Says Meritage Homes (MTH) and other homebuilders will likely need to increase buyer incentives amid eleva"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "Zacks: Lennar (LEN) Lags Q3 Earnings and Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lennar-len-lags-q3-earnings-214001622.html",
+      "date": "2026-09-16",
+      "weight": 0,
+      "text": "Lennar (LEN) Lags Q3 Earnings and Revenue Estimates Lennar (LEN) delivered earnings and revenue surprises of -4.65% and -3.44%, respectively, for the quarter ended August 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "MT Newswires: Lennar's Quarterly Results Trail Views as Affordability Challenges Weigh on Home Buying",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/real-estate/articles/lennar-apos-quarterly-results-trail-103615167.html",
+      "date": "2026-09-17",
+      "weight": 0,
+      "text": "Lennar's Quarterly Results Trail Views as Affordability Challenges Weigh on Home Buying Lennar's (LEN, LEN.B) shares declined early Thursday after the homebuilder reported weaker-than-expe"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Benzinga: How To Earn $500 A Month From KB Home Stock Ahead Of Q3 Earnings",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-kb-home-023021697.html",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "How To Earn $500 A Month From KB Home Stock Ahead Of Q3 Earnings KB Home will release earnings for its third-quarter after the closing bell on Tuesday, Sept. 22. Analysts expect the company to report quarterly earnings of 90 cents per share, down from $1.61 per share in the year-ago period. The consensus..."
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Zacks: KB Home to Report Q3 Earnings: Here's What Investors Must Know",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kb-home-report-q3-earnings-145600761.html",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "KB Home to Report Q3 Earnings: Here's What Investors Must Know KBH's fiscal third-quarter results are likely to reflect lower deliveries and ASP, while its built-to-order model supports activity."
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Kiplinger: Earnings Calendar and Analysis for This Week (September 21-25)",
+      "provider": "kiplinger.com",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "Earnings Calendar and Analysis for This Week (September 21-25) Check out our earnings calendar for this week, as well as our previews and recaps of the more noteworthy reports."
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4923410-kb-home-bto-is-working-but-demand-is-still-a-problem-rating-upgrade",
+      "date": null,
+      "weight": 3,
+      "text": "KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha KB Home: BTO Is Working, But Demand Is Still A Problem (Rating Upgrade) (NYSE:KBH) | Seeking Alpha\n\n738 Followers\n\n5\n\nShare\n\nPlay(10min)\n\n## Summary\n\n- KB Home is upgraded to Hold as built-to-order (BTO) reduces unsold inventory, shortens build times, and supports margin recovery.\n- BTO now represents 73% of orders, with finished unsold homes dropping to 11% of production and build times at a decade low.\n- Despite operational improvements, weak buyer conversion, negative cash flow, and elevated leverage, limit upside and keep a buy rating unjustified for KBH stock.\n- Current valuation (~14x NT"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "nasdaq.com: KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release | Nasdaq",
+      "provider": "nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/kb-home-kbh-expected-beat-earnings-estimates-what-know-ahead-q3-release",
+      "date": "2025-09-17",
+      "weight": 3,
+      "text": "KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release | Nasdaq KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release | Nasdaq\n\nSkip to main content\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nStocks\n\n# KB Home (KBH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release\n\nSeptember 17, 2025 \u2014 10:00 am EDT\n\nWritten by Zacks Equity Research for Zacks"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "circlfi.com: KBH Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/kbh-stock-analysis/",
+      "date": "2026-06-03",
+      "weight": 3,
+      "text": "KBH Stock: Buy or Avoid in 2026? | CirclFi KBH Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy KB Home Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-07-28 \u00b7 11/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, KB Home (KBH) is rated as a strong fundamental performer with a QOC score of 8.6/10. Trading at $57.80, our valuation engine evaluates whether the market price reflects the company's underlying earnings power.\n\nThe short answer: 10 of 11 CirclFi valuation models project upside for KB Home (KBH) at $57.80 \u2014 the model consensus leans bullish, with a Quality Score of 8.6/10 and"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "stockanalysis.com: KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/kbh/transcripts/614663-q2-2026/",
+      "date": "2026-06-23",
+      "weight": 3,
+      "text": "KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio KB Home (KBH) Q2 2026 Earnings Call Transcript & Audio\n\n# Earnings Call: Q2 2026\n\nJun 23, 2026\n\n Summary\n\nSecond quarter results showed sequential margin improvement and strong execution, with a strategic shift to built-to-order homes driving backlog growth and operational efficiency. Guidance calls for higher deliveries, revenues, and margins in the second half, supported by a favorable West Coast mix and disciplined capital allocation.\n\nOperator\n\n Good afternoon. My name is John, and I will be your conference operator today. I would like to welcome everyone to the KB Home 2026 second quarter"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "intickers.com: KB Home (KBH) Stock Analysis | InTickers",
+      "provider": "intickers.com",
+      "url": "https://intickers.com/reports/kbh/",
+      "date": "2026-08-22",
+      "weight": 3,
+      "text": "KB Home (KBH) Stock Analysis | InTickers KB Home (KBH) Stock Analysis | InTickers\n\n# KB Home\n\n B \u2605\u2605\u2605 Hold \n\n Aug 22, 2026 \u00b7 Score 76 \u00b7 Type A? Type A \u2014 Value-style analysis Used for established, cash-generative companies \u2014 weighs earnings power, valuation against the company's own history and peers, and margin of safety. Full methodology \u2192 \n\n Current Price? The market price around the time this report was written \u2014 not a live quote. The market has moved since; check a current price before acting. Methodology \u2192 $54.46 \n\n Buy Zone? The large figure is the midpoint of the suggested buy range shown in parentheses. $48.00 ($46.00\u2013$50.00)"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "marketwatch.com: KBH | KB Home Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/kbh/analystestimates",
+      "date": "2026-09-11",
+      "weight": 3,
+      "text": "KBH | KB Home Analyst Estimates | MarketWatch KBH | KB Home Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDow\n0.98%\n\nS&P 500\n0.86%\n\nNasdaq\n0.96%\n\nVIX\n-11.21%\n\nGold\n-0.39%\n\nOil\n-2.43%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|Dow|52,573.29|509.19|0.98%|\n|**|S&P 500|7,656.98|65.28|0.86%|\n|**|Nasdaq|26,333.04|251.31|0.96%|\n|**|VIX|15.84|-2.00|-11.21%|\n|**|Gold|4,390.00|-17.30|-0.39%|\n|**|Oil|99.99|-2.49|-2.43%|\nS&P 500 Movers\n* HPE\n12.4\n\n* DELL\n12.0\n\n* NTAP\n8.5\n\n* ON\n8.5\n\n* STX\n-3.7\n\n* SNDK\n-3.5\n\n* ALB\n-3.4\n\n* WDC\n-3.0\n\nVisit Market Data Center**\n*\nLat"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "kabrios.com: Is KB HOME overvalued? KBH stock analysis | Kabrios",
+      "provider": "kabrios.com",
+      "url": "https://kabrios.com/KBH.html",
+      "date": "2026-09-14",
+      "weight": 3,
+      "text": "Is KB HOME overvalued? KBH stock analysis | Kabrios Is KB HOME overvalued? KBH stock analysis | Kabrios\n\n# KBH KB HOME\n\n $49.57 analysed 2026-09-14 \n\n Track A \u2014 Established Fast Grower Methodology v3.0.0 13 of 20 inputs available; 4 of 4 pillars scored. Missing inputs are omitted and remaining weights renormalized; coverage is not confidence. \n\nPublished by Zach Miller Independent investor As of 2026-09-14\n\n## Is KB HOME (KBH) overvalued?\n\nOn this methodology KB HOME (KBH) is close to fairly valued. At $49.57 on 2026-09-14 it traded at 0.84\u00d7 an estimated fair value of $59.09, which puts it in the fairly valued. That is a verdict on the price, n"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "marketbeat.com: KB Home (KBH) to Release Earnings on Tuesday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-kb-home-kbh-to-release-earnings-on-tuesday-2026-09-15/",
+      "date": "2026-09-15",
+      "weight": 3,
+      "text": "KB Home (KBH) to Release Earnings on Tuesday # KB Home (KBH) to Release Earnings on Tuesday\n\nPublished: 2026-09-15T05:11:26.020000+00:00\nSource: marketbeat.com (marketbeat.com)\nLanguage: en\n\n## Story\n\nSkip to main content\n\n\u2192 The cat is out the bag (From Porter & Company) (Ad)\n\n# KB Home (KBH) to Release Earnings on Tuesday\n\nWritten by MarketBeat\n\nSeptember 15, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- KB Home is scheduled to report Q3 2026 earnings after the market closes on September 22. Analysts expect earnings of $0.892 per sha"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: KB Home: What To Expect From The Upcoming Q3 Earnings (NYSE:KBH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4947206-kb-home-what-to-expect-from-the-upcoming-q3-earnings",
+      "date": "2026-09-16",
+      "weight": 3,
+      "text": "KB Home: What To Expect From The Upcoming Q3 Earnings (NYSE:KBH) | Seeking Alpha KB Home: What To Expect From The Upcoming Q3 Earnings (NYSE:KBH) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n* Interest Rates\n# KB Home: What To Expect From The Upcoming Q3 Earnings\nSep 16, 2026, 4:05 PM ETKB Home (KBH) Stock\n## Summary\n* KB Home faces a likely earnings and revenue decline in its upcoming fiscal Q3 report, reflecting ongoing negative momentum.\n* Recent"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "news.alphastreet.com: KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet",
+      "provider": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/kb-home-kbh-q3-2026-preview-eps-est-0-90-reports-september-22/amp/",
+      "date": "2026-09-22",
+      "weight": 3,
+      "text": "KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet # KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet\n\nAuthor: AlphaStreet Newsdesk\nPublished: 2026-09-17T06:13:59-05:00\nSource: news.alphastreet.com (news.alphastreet.com)\nLanguage: en\n\n## Story\n\nKB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22 - Alphastreet\n\n 1 hour ago \n\n# KB Home (KBH) Q3 2026 Preview: EPS Est. $0.90, Reports September 22\n\nAlphaStreet Newsdesk powered by AlphaStreet Intelligence\n\nWall Street expects KB Home to post sharply lower earnings when the homebuilder reports fiscal third-quarter 2026 results after the close on Septem"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investor.kbhome.com: KB Home - KB HOME REPORTS 2026 SECOND QUARTER RESULTS",
+      "provider": "investor.kbhome.com",
+      "url": "https://investor.kbhome.com/company-news/news-releases/press-release-details/2026/KB-HOME-REPORTS-2026-SECOND-QUARTER-RESULTS/default.aspx",
+      "date": "2026-06-23",
+      "weight": 0,
+      "text": "KB Home - KB HOME REPORTS 2026 SECOND QUARTER RESULTS KB Home - KB HOME REPORTS 2026 SECOND QUARTER RESULTS \n\n### KB HOME REPORTS 2026 SECOND QUARTER RESULTS \n\n June 23, 2026 \n\nRevenues of $1.11 Billion; Diluted Earnings Per Share of $.43 Repurchased $75.0 Million of Common Stock\n\nLOS ANGELES, June 23, 2026 /PRNewswire/ -- KB Home (NYSE: KBH) today reported results for its second quarter ended May 31, 2026.\n\n \n\n\"We produced solid second-quarter results that met or exceeded the mid-point of our key guidance ranges,\" said Jeffrey Mezger, Executive Chairman. \"Our return to a predominantly Built to Order business model continued to gain momentum, wit"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "finance-commerce.com: Mortgage rates are forecast to stay above 6.5% through 2027, keeping borrowing costs high for KBH buyers.",
+      "provider": "finance-commerce.com",
+      "url": "https://finance-commerce.com/2026/09/us-mortgage-rates-housing-market-2027/",
+      "date": "2026-09-01",
+      "weight": null,
+      "text": "Mortgage rates are forecast to stay above 6.5% through 2027, keeping borrowing costs high for KBH buyers. Higher borrowing costs reduce buyer purchasing power and can slow KBH net orders and deliveries. \"U.S. mortgage rates seen staying above 6.5% through 2027\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "jpmorgan.com: Home prices are expected to remain flat in 2026 and rise 3% in 2027, weighing on sales.",
+      "provider": "jpmorgan.com",
+      "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+      "date": "2026-07-29",
+      "weight": null,
+      "text": "Home prices are expected to remain flat in 2026 and rise 3% in 2027, weighing on sales. High prices limit affordability and can reduce KBH buyer traffic and net orders. \"J.P. Morgan Global Research expects home prices to remain flat in 2026 and increase by 3% in 2027.\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "housingwire.com: Housing starts outlook is negative through 2027 as construction costs rise.",
+      "provider": "housingwire.com",
+      "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+      "date": "2026-09-17",
+      "weight": null,
+      "text": "Housing starts outlook is negative through 2027 as construction costs rise. KBH may slow starts and deliveries while facing higher construction costs. \"Housing starts outlook turns negative through 2027 as costs rise\""
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "housingwire.com: As of September 2026, buy-downs support 80-90% of new-home sales as margins tighten.",
+      "provider": "housingwire.com",
+      "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+      "date": "2026-09-17",
+      "weight": null,
+      "text": "As of September 2026, buy-downs support 80-90% of new-home sales as margins tighten. KBH may need to keep incentives high, compressing gross margins. \"Buy-downs now support 80-90% of new-home sales as margins tighten and labor shortages persist\""
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "dbrs.morningstar.com: New U.S. tariffs on Canadian goods, including cement, add cost uncertainty for homebuilders in 2026.",
+      "provider": "dbrs.morningstar.com",
+      "url": "https://dbrs.morningstar.com/research/486907/north-american-homebuilders-2026-midyear-outlook-affordability-challenges-persist-amid-rising-cost-pressures",
+      "date": "2026-08-06",
+      "weight": null,
+      "text": "New U.S. tariffs on Canadian goods, including cement, add cost uncertainty for homebuilders in 2026. Higher material costs can raise KBH construction costs and squeeze margins. \"New U.S. tariffs on certain Canadian goods, including cement, introduce added cost uncertainty.\""
+    },
+    {
+      "id": "S41",
+      "kind": "options",
+      "ref": "options",
+      "label": "KBH listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KBH/options/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "long CALL strike 50.0 expiry 2027-01-15 premium 2.77 short PUT strike 45.0 expiry 2027-01-15 premium 2.83"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 4.11,
+    "fy_consensus": 3.32183,
+    "ratio": 1.237,
+    "beats": 1,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.43 + 0.52 + 1.55 + 1.61) total 4.11, against a current-FY consensus of 3.32183 -- read it against the streak before treating either as stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "KB Home KBH 2026 2027 housing market outlook first-time homebuyer mortgage rates affordability",
+        "US new home sales housing starts forecast 2026 2027 household formation employment income first-time buyer budgets",
+        "build-to-rent single-family rental institutional investors competition homebuilders 2026 2027",
+        "offsite modular construction 3D printed homes technology disruption homebuilding industry 2026 2027"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "KB Home is close to reaching its 70% built-to-order mix early, which could improve margins in 2026.",
+          "stance": "support",
+          "why": "A higher built-to-order share may reduce speculative inventory risk and support pricing and margins.",
+          "quote": "KB Home is close to hitting its desired product mix of 70% built-to-order homes early, a pivot that could improve margins.",
+          "url": "https://www.housingwire.com/articles/kb-home-q1-2026-earnings/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-03-25",
+          "age_days": 179,
+          "undated": false
+        },
+        {
+          "claim": "Reduced spec starts and macro uncertainty could pressure KB Home's near-term deliveries in 2026.",
+          "stance": "pressure",
+          "why": "Fewer spec homes available to sell and close can lower delivery volumes if demand shifts.",
+          "quote": "reduced spec starts and macro uncertainty could pressure near-term deliveries",
+          "url": "https://www.housingwire.com/articles/kb-home-q1-2026-earnings/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-03-25",
+          "age_days": 179,
+          "undated": false
+        },
+        {
+          "claim": "Near-term housing affordability pressure may weigh on KB Home demand in 2026.",
+          "stance": "pressure",
+          "why": "Affordability constraints can reduce buyer traffic and conversion, pressuring deliveries and pricing.",
+          "quote": "near-term housing affordability pressure",
+          "url": "https://flash.stocksentinel.ai/research/KBH",
+          "publisher": "flash.stocksentinel.ai",
+          "as_of": "2026-06-23",
+          "age_days": 89,
+          "undated": false
+        },
+        {
+          "claim": "KB Home's built-to-order margin recovery and faster construction cycles may support results in 2026.",
+          "stance": "support",
+          "why": "Faster cycles can lower costs and improve inventory turns, lifting margins.",
+          "quote": "Built-to-Order margin recovery, faster construction cycles",
+          "url": "https://flash.stocksentinel.ai/research/KBH",
+          "publisher": "flash.stocksentinel.ai",
+          "as_of": "2026-06-23",
+          "age_days": 89,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, buy-downs support 80-90% of new-home sales while margins tighten and labor shortages persist.",
+          "stance": "pressure",
+          "why": "KB Home may need higher incentives to sell homes, compressing gross margins.",
+          "quote": "Buy-downs now support 80-90% of new-home sales as margins tighten and labor shortages persist",
+          "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-09-17",
+          "age_days": 3,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, economic policy uncertainty, a softening labor market, and affordability problems are housing headwinds.",
+          "stance": "pressure",
+          "why": "These can reduce buyer demand and delay purchases, pressuring KB Home orders and deliveries.",
+          "quote": "economic policy uncertainty as well as a softening labor market and ongoing affordability problems",
+          "url": "https://www.nahb.org/news-and-economics/press-releases/2026/02/2026-housing-outlook-ongoing-challenges-cautious-optimism-and-incremental-gains",
+          "publisher": "nahb.org",
+          "as_of": "2026-02-01",
+          "age_days": 231,
+          "undated": false,
+          "drop_reason": "stale (231 days old)"
+        },
+        {
+          "claim": "An anticipated modest reduction in mortgage rates in 2026 should support housing production and sales.",
+          "stance": "support",
+          "why": "Lower rates improve affordability and can lift KB Home orders and deliveries.",
+          "quote": "an anticipated modest reduction in mortgage rates should help to somewhat offset these market challenges and support production and sales",
+          "url": "https://www.nahb.org/news-and-economics/press-releases/2026/02/2026-housing-outlook-ongoing-challenges-cautious-optimism-and-incremental-gains",
+          "publisher": "nahb.org",
+          "as_of": "2026-02-01",
+          "age_days": 231,
+          "undated": false,
+          "drop_reason": "stale (231 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "US housing market outlook 2026 2027 first-time homebuyer affordability mortgage rates insurance costs",
+        "single-family housing starts forecast 2026 2027 construction labor shortages tariffs building materials",
+        "build-to-rent single-family rental competition traditional homebuilders 2026 2027",
+        "KBH KB Home first-time homebuyer and active adult demand 2026 2027"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "Mortgage rates are forecast to stay above 6.5% through 2027.",
+          "stance": "pressure",
+          "why": "High borrowing costs keep monthly payments unaffordable, pressuring KBH buyer demand.",
+          "quote": "U.S. mortgage rates seen staying above 6.5% through 2027",
+          "url": "https://finance-commerce.com/2026/09/us-mortgage-rates-housing-market-2027/",
+          "publisher": "finance-commerce.com",
+          "as_of": "2026-09-01",
+          "age_days": 19,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, elevated home prices and tight supply are weighing on sales.",
+          "stance": "pressure",
+          "why": "Fewer sales can reduce KBH order volumes and deliveries.",
+          "quote": "U.S. home prices remain elevated due to tight supply, and this is in turn weighing on sales.",
+          "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+          "publisher": "jpmorgan.com",
+          "as_of": "2026-07-29",
+          "age_days": 53,
+          "undated": false
+        },
+        {
+          "claim": "J.P. Morgan expects home prices to remain flat in 2026 and rise 3% in 2027.",
+          "stance": "support",
+          "why": "Stable-to-rising prices can support KBH revenue and margins.",
+          "quote": "J.P. Morgan Global Research expects home prices to remain flat in 2026 and increase by 3% in 2027.",
+          "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+          "publisher": "jpmorgan.com",
+          "as_of": "2026-07-29",
+          "age_days": 53,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, buy-downs support 80-90% of new-home sales as margins tighten.",
+          "stance": "pressure",
+          "why": "KBH may need costly incentives to sell homes, compressing gross margins.",
+          "quote": "Buy-downs now support 80-90% of new-home sales as margins tighten and labor shortages persist",
+          "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-09-17",
+          "age_days": 3,
+          "undated": false
+        },
+        {
+          "claim": "Housing starts outlook turned negative through 2027 as costs rise.",
+          "stance": "pressure",
+          "why": "Higher costs and slower starts can pressure KBH's construction volume and margins.",
+          "quote": "Housing starts outlook turns negative through 2027 as costs rise",
+          "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-09-17",
+          "age_days": 3,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "US housing market 2026 2027 first-time homebuyer affordability mortgage rates inventory outlook",
+        "homebuilding industry 2026 2027 construction labor costs building materials land supply regulation",
+        "build-to-rent single-family rental competition traditional homebuilders 2026 2027",
+        "KBH KB Home 2026 2027 first-time buyer demand active adult housing market outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "Mortgage rates are forecast to stay above 6.5% through 2027, keeping borrowing costs high for KBH buyers.",
+          "stance": "pressure",
+          "why": "Higher borrowing costs reduce buyer purchasing power and can slow KBH net orders and deliveries.",
+          "quote": "U.S. mortgage rates seen staying above 6.5% through 2027",
+          "url": "https://finance-commerce.com/2026/09/us-mortgage-rates-housing-market-2027/",
+          "publisher": "finance-commerce.com",
+          "as_of": "2026-09-01",
+          "age_days": 19,
+          "undated": false
+        },
+        {
+          "claim": "Home prices are expected to remain flat in 2026 and rise 3% in 2027, weighing on sales.",
+          "stance": "pressure",
+          "why": "High prices limit affordability and can reduce KBH buyer traffic and net orders.",
+          "quote": "J.P. Morgan Global Research expects home prices to remain flat in 2026 and increase by 3% in 2027.",
+          "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+          "publisher": "jpmorgan.com",
+          "as_of": "2026-07-29",
+          "age_days": 53,
+          "undated": false
+        },
+        {
+          "claim": "Housing starts outlook is negative through 2027 as construction costs rise.",
+          "stance": "pressure",
+          "why": "KBH may slow starts and deliveries while facing higher construction costs.",
+          "quote": "Housing starts outlook turns negative through 2027 as costs rise",
+          "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-09-17",
+          "age_days": 3,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, buy-downs support 80-90% of new-home sales as margins tighten.",
+          "stance": "pressure",
+          "why": "KBH may need to keep incentives high, compressing gross margins.",
+          "quote": "Buy-downs now support 80-90% of new-home sales as margins tighten and labor shortages persist",
+          "url": "https://www.housingwire.com/articles/housing-starts-august-2026/",
+          "publisher": "housingwire.com",
+          "as_of": "2026-09-17",
+          "age_days": 3,
+          "undated": false
+        },
+        {
+          "claim": "New U.S. tariffs on Canadian goods, including cement, add cost uncertainty for homebuilders in 2026.",
+          "stance": "pressure",
+          "why": "Higher material costs can raise KBH construction costs and squeeze margins.",
+          "quote": "New U.S. tariffs on certain Canadian goods, including cement, introduce added cost uncertainty.",
+          "url": "https://dbrs.morningstar.com/research/486907/north-american-homebuilders-2026-midyear-outlook-affordability-challenges-persist-amid-rising-cost-pressures",
+          "publisher": "dbrs.morningstar.com",
+          "as_of": "2026-08-06",
+          "age_days": 45,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, an anticipated modest mortgage-rate reduction should support production and sales.",
+          "stance": "support",
+          "why": "Lower rates can improve KBH buyer affordability and order activity.",
+          "quote": "easing financial conditions led by an anticipated modest reduction in mortgage rates should help to somewhat offset these market challenges and support production and sales",
+          "url": "https://www.nahb.org/news-and-economics/press-releases/2026/02/2026-housing-outlook-ongoing-challenges-cautious-optimism-and-incremental-gains",
+          "publisher": "nahb.org",
+          "as_of": "2026-02-01",
+          "age_days": 231,
+          "undated": false,
+          "drop_reason": "stale (231 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    }
+  ]
+}

@@ -20,6 +20,83 @@ from fig.util import human_money, parse_money  # noqa: E402
 from fig.quants import describe_revisions, describe_trend  # noqa: E402
 
 
+class TestSidesAndFolders(unittest.TestCase):
+    """Longs and shorts are filed apart, by the direction inside the note."""
+
+    def test_side_folder_follows_the_direction(self):
+        from fig.generate import side_folder
+
+        self.assertEqual(side_folder("long"), "longs")
+        self.assertEqual(side_folder("short"), "shorts")
+        self.assertEqual(side_folder("SHORT"), "shorts")
+        # An unset direction files as a long rather than crashing, and the note
+        # still says what it argues.
+        self.assertEqual(side_folder(None), "longs")
+
+    def test_organize_moves_notes_and_packets_into_their_side(self):
+        import json
+        import tempfile
+        from pathlib import Path as _Path
+
+        from fig.generate import note_paths, organize
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = _Path(tmp)
+            for ticker, direction in (("AAA", "long"), ("BBB", "short")):
+                (root / f"{ticker}.json").write_text(
+                    json.dumps({"ticker": ticker, "direction": direction, "reasons": ["x 1%"]})
+                )
+                (root / f"{ticker}.packet.json").write_text(json.dumps({"symbol": ticker}))
+                (root / f"{ticker}.md").write_text(f"Ticker: {ticker}\n")
+            (root / "README.md").write_text("index")
+
+            result = organize(root)
+            self.assertEqual(len(result["moved"]), 2)
+            self.assertTrue((root / "longs" / "AAA.json").is_file())
+            self.assertTrue((root / "longs" / "AAA.packet.json").is_file())
+            self.assertTrue((root / "shorts" / "BBB.json").is_file())
+            # The packet must travel with its note or the note is not auditable,
+            # and the rendered note must not be left behind as a stale copy of
+            # itself at the old path.
+            self.assertFalse((root / "AAA.packet.json").exists())
+            self.assertFalse((root / "AAA.md").exists())
+            self.assertTrue((root / "longs" / "AAA.md").is_file())
+
+            # Re-running finds nothing left to move.
+            self.assertEqual(organize(root)["moved"], [])
+            self.assertEqual(len(note_paths(root)), 2)
+
+    def test_a_misfiled_note_is_corrected(self):
+        import json
+        import tempfile
+        from pathlib import Path as _Path
+
+        from fig.generate import organize
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = _Path(tmp)
+            (root / "shorts").mkdir()
+            (root / "shorts" / "AAA.json").write_text(
+                json.dumps({"ticker": "AAA", "direction": "long", "reasons": ["x 1%"]})
+            )
+            result = organize(root)
+            self.assertEqual(len(result["moved"]), 1)
+            self.assertTrue((root / "longs" / "AAA.json").is_file())
+
+
+class TestMoneyArgs(unittest.TestCase):
+    def test_market_cap_arguments(self):
+        from fig.cli import _parse_money_arg
+
+        self.assertEqual(_parse_money_arg("1b", None), 1e9)
+        self.assertEqual(_parse_money_arg("1000m", None), 1e9)
+        self.assertEqual(_parse_money_arg("2e9", None), 2e9)
+        self.assertEqual(_parse_money_arg("1,000,000,000", None), 1e9)
+        # 0 means "no floor", not "$0", so the two ways of disabling agree.
+        self.assertIsNone(_parse_money_arg("0", 2e9))
+        self.assertEqual(_parse_money_arg(None, 2e9), 2e9)
+
+
 class TestParsing(unittest.TestCase):
     def test_parse_money_shapes(self):
         cases = [
@@ -450,12 +527,335 @@ class TestAssembleWriteup(unittest.TestCase):
             {"description": "Nonprime consumer loan lender",
              "reasons": ["Provisions rose 31% quarter over quarter, so losses are accelerating.",
                          "If charge-offs reach 10% the stock rerates lower."],
+             "reason_sources": [["S3"], ["S2"]],
              "reflection": "Credit is 14.8% mid but 10.0% if priced against me.",
              "catalyst_why": "Provisions must keep rising for the thesis to be right."},
             "short",
         )
         result = lint.lint_writeup(writeup)
         self.assertTrue(result["ok"], result["issues"])
+
+
+class TestReasonSources(unittest.TestCase):
+    """Every reason names the evidence behind it, and only real evidence."""
+
+    def test_citations_resolve_to_packet_entries(self):
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender",
+             "reasons": ["Provisions rose 31% so losses accelerate."],
+             "reason_sources": [["S1", "S3"]]},
+            "short",
+        )
+        cited = writeup["reason_sources"][0]
+        self.assertEqual([c["id"] for c in cited], ["S1", "S3"])
+        # The URL and provider come from the packet, never from the model.
+        self.assertTrue(all(c["provider"] for c in cited))
+        self.assertNotIn("text", cited[0])
+
+    def test_fabricated_source_id_is_dropped_not_printed(self):
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender",
+             "reasons": ["Provisions rose 31% so losses accelerate."],
+             "reason_sources": [["S99"]]},
+            "short",
+        )
+        self.assertEqual(writeup["reason_sources"][0], [])
+        self.assertEqual(writeup["sources_unverified"], ["S99"])
+        result = lint.lint_writeup(writeup)
+        codes = {i["code"] for i in result["issues_detail"]}
+        self.assertIn("reason_source_unknown", codes)
+        self.assertIn("reason_no_source", codes)
+
+    def test_url_written_into_a_reason_is_removed(self):
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender",
+             "reasons": ["Provisions rose 31% (see https://made-up.example/report) so losses accelerate."],
+             "reason_sources": [["S1"]]},
+            "short",
+        )
+        self.assertNotIn("made-up.example", writeup["reasons"][0])
+        self.assertEqual(writeup["urls_redacted"], ["https://made-up.example/report"])
+        codes = {i["code"] for i in lint.lint_writeup(writeup)["issues_detail"]}
+        self.assertIn("reason_url_redacted", codes)
+
+    def test_missing_citation_is_an_error_only_when_sources_were_supplied(self):
+        from fig.generate import assemble_writeup
+
+        without_catalogue = {"ticker": "T", "description": "Lender",
+                             "reasons": ["Provisions rose 31% so losses accelerate.",
+                                         "If charge-offs reach 10% the stock rerates lower."]}
+        self.assertTrue(lint.lint_writeup(without_catalogue)["ok"])
+        # The same note built from a packet that registered sources must cite one.
+        assembled = assemble_writeup(
+            _fake_packet(),
+            {"description": "Lender",
+             "reasons": ["Provisions rose 31% so losses accelerate."]},
+            "short",
+        )
+        self.assertFalse(lint.lint_writeup(assembled)["ok"])
+
+    def test_source_grounding_flags_a_figure_from_another_source(self):
+        note = {
+            "description": "Lender",
+            "reasons": ["Provisions rose 31% quarter over quarter, so losses accelerate."],
+            "reason_sources": [[{"id": "S1"}]],
+            "sources_catalogue": [
+                {"id": "S1", "kind": "consensus", "label": "estimates", "provider": "Yahoo"},
+                {"id": "S3", "kind": "statements", "label": "statements", "provider": "Nasdaq"},
+            ],
+        }
+        catalogue = note["sources_catalogue"]
+        catalogue[0]["text"] = "FY consensus 1.88, 5 up and 0 down over 30 days"
+        catalogue[1]["text"] = "Other Operating Items increasing 31.0%"
+        report = lint.check_source_grounding(note, catalogue)
+        self.assertFalse(report["ok"])
+        self.assertIn("31", report["mismatches"][0])
+        # Cited correctly, the same figure passes.
+        note["reason_sources"] = [[{"id": "S3"}]]
+        self.assertTrue(lint.check_source_grounding(note, catalogue)["ok"])
+
+    def test_render_prints_a_source_line_under_each_reason(self):
+        text = render.render_writeup(
+            {
+                "ticker": "BB",
+                "description": "Lender",
+                "reasons": ["Provisions rose 31% so losses accelerate."],
+                "reason_sources": [
+                    [
+                        {"id": "S3", "provider": "Nasdaq company financials",
+                         "url": "https://www.nasdaq.com/market-activity/stocks/bb/financials",
+                         "date": "5/31/2026"}
+                    ]
+                ],
+            }
+        )
+        lines = text.splitlines()
+        reason_at = next(i for i, line in enumerate(lines) if line.startswith("1) "))
+        self.assertTrue(lines[reason_at + 1].startswith("   Source: [S3] Nasdaq company financials"))
+        self.assertIn("https://www.nasdaq.com", lines[reason_at + 1])
+
+
+class TestStaleConsensusOnCounts(unittest.TestCase):
+    """The BB error: a revision count read as a revision of the number."""
+
+    QUANTS = {"eps_trend": "flat over the last 7 days",
+              "eps_revisions": "all up, with 5 up and 0 down over last 30 days"}
+
+    def test_bb_reason_is_caught(self):
+        reason = ("Because BlackBerry beat consensus in each of the last four quarters by "
+                  "36% to 186%, and five analysts raised estimates in 30 days with none "
+                  "cutting, the 0.19 FY number is stale.")
+        self.assertTrue(lint.is_stale_consensus_on_counts(reason, self.QUANTS))
+        codes = {i["code"] for i in lint.lint_writeup(
+            {"ticker": "BB", "description": "x",
+             "reasons": [reason, "If the backlog converts the stock rerates to a PE of 20."],
+             "quants": self.QUANTS}
+        )["issues_detail"]}
+        self.assertIn("reason_stale_consensus_on_counts", codes)
+
+    def test_a_claim_about_the_level_is_not_flagged(self):
+        # No revision counts: this is an argument about value, not about age.
+        reason = ("Because QNX royalties convert only as cars ship, the 0.19 FY consensus "
+                  "is too low by the amount already contracted.")
+        self.assertFalse(lint.is_stale_consensus_on_counts(reason, self.QUANTS))
+
+    def test_counts_without_a_staleness_claim_are_not_flagged(self):
+        reason = "Five analysts raised estimates in 30 days with none cutting, so the bar is higher."
+        self.assertFalse(lint.is_stale_consensus_on_counts(reason, self.QUANTS))
+
+    def test_falling_estimates_leave_staleness_arguable(self):
+        reason = "Five analysts cut estimates in 30 days and the 0.19 consensus is stale."
+        quants = {"eps_trend": "slightly down over the last 7 days"}
+        self.assertFalse(lint.is_stale_consensus_on_counts(reason, quants))
+
+
+class TestCountsVersusLevel(unittest.TestCase):
+    """The packet states which of the two moved, because prose conflates them."""
+
+    def test_flat_level_with_rising_counts_says_the_consensus_is_current(self):
+        from fig.packet import revisions_reading
+
+        line = revisions_reading({
+            "eps_trend": {"current": 0.18857, "30d_ago": 0.18857, "change_30d_pct": 0.0},
+            "eps_revisions": {"up_30d": 5, "down_30d": 0},
+        })
+        self.assertIn("unchanged", line)
+        self.assertIn("not stale", line)
+
+    def test_a_raised_level_says_the_revisions_are_already_in_it(self):
+        from fig.packet import revisions_reading
+
+        line = revisions_reading({
+            "eps_trend": {"current": 2.1, "30d_ago": 2.0, "change_30d_pct": 5.0},
+            "eps_revisions": {"up_30d": 7, "down_30d": 1},
+        })
+        self.assertIn("raised", line)
+        self.assertIn("already includes", line)
+
+    def test_trailing_beats_that_add_up_to_the_consensus_are_called_out(self):
+        from fig.packet import trailing_vs_consensus
+
+        found = trailing_vs_consensus({
+            "quants": {"eps_fy_current": 0.18857},
+            "catalyst": {"recent_reports": [
+                {"date": "2026-06-25", "eps_actual": 0.04, "beat": True},
+                {"date": "2026-04-09", "eps_actual": 0.06, "beat": True},
+                {"date": "2025-12-18", "eps_actual": 0.05, "beat": True},
+                {"date": "2025-09-25", "eps_actual": 0.04, "beat": True},
+            ]},
+        })
+        self.assertIsNotNone(found)
+        self.assertAlmostEqual(found["trailing_sum"], 0.19, places=6)
+        self.assertIn("already in the consensus", found["line"])
+
+    def test_uncomparable_quarters_are_not_reported(self):
+        from fig.packet import trailing_vs_consensus
+
+        # A company whose consensus is 4x its last four quarters: no comparison.
+        self.assertIsNone(trailing_vs_consensus({
+            "quants": {"eps_fy_current": 8.0},
+            "catalyst": {"recent_reports": [
+                {"date": "2026-06-25", "eps_actual": 0.5, "beat": True},
+                {"date": "2026-04-09", "eps_actual": 0.5, "beat": True},
+                {"date": "2025-12-18", "eps_actual": 0.5, "beat": True},
+            ]},
+        }))
+
+
+class TestRegisterStability(unittest.TestCase):
+    """Ids are positional, so a note must be checked against the register it cited.
+
+    Widening how many headlines are citable shifts every id after them. Checking a
+    stored note against a freshly built register therefore resolves its citations to
+    the wrong sources -- in this repo it reported six misfiled citations that were
+    artefacts of the rebuild. `register_for` resolves against the note's own register,
+    with the text coming from the packet by ``ref``.
+    """
+
+    PACKET = {
+        "symbol": "ZZ",
+        "quants": {"price": 10.0, "market_cap": 1e9, "fwd_pe": 10.0},
+        "profile": {"name": "ZZ Corp", "summary": "does things"},
+        "news": [
+            {
+                "title": f"feed {i}",
+                "url": f"https://f{i}.com/a",
+                "source": "yfinance",
+                "publisher": f"f{i}.com",
+                "summary": f"feed text {i}",
+            }
+            for i in range(3)
+        ]
+        + [
+            {
+                "title": "web item",
+                "url": "https://w.com/a",
+                "source": "ollama_search",
+                "publisher": "w.com",
+                "summary": "the delinquency rate hit 22% in the quarter",
+            }
+        ],
+    }
+
+    def _note_citing_web_item(self):
+        from fig import generate, packet as packet_mod
+
+        small = packet_mod.source_catalogue(self.PACKET, max_news=1)
+        web_id = next(e["id"] for e in small if e["ref"] == "web:0")
+        note = {
+            "description": "Lender",
+            "reasons": ["Delinquency hit 22%, the worst since 2020."],
+            "reason_sources": [[{"id": web_id}]],
+            "sources_catalogue": generate.public_sources(small),
+        }
+        return note, web_id
+
+    def test_a_rebuilt_register_would_misfile_the_citation(self):
+        from fig import packet as packet_mod
+
+        note, web_id = self._note_citing_web_item()
+        rebuilt = packet_mod.source_catalogue(self.PACKET, max_news=10)
+        self.assertNotEqual(
+            next(e["ref"] for e in rebuilt if e["id"] == web_id),
+            "web:0",
+            "the fixture no longer reproduces the id shift this class exists for",
+        )
+        # The figure is in the packet and cited correctly, and the rebuilt register
+        # still reports it as misfiled -- which is why the rebuild must not be used.
+        self.assertFalse(lint.check_source_grounding(note, rebuilt)["ok"])
+
+    def test_the_stored_register_resolves_it_correctly(self):
+        from fig import generate
+
+        note, web_id = self._note_citing_web_item()
+        report = lint.check_source_grounding(note, generate.register_for(note, self.PACKET))
+        self.assertTrue(report["ok"], report)
+        self.assertEqual(report["checked"], 1, report)
+
+    def test_a_note_without_a_stored_register_uses_the_packet(self):
+        from fig import generate, packet as packet_mod
+
+        packet = {**self.PACKET, "sources": packet_mod.source_catalogue(self.PACKET)}
+        note = {"description": "Lender", "reasons": ["Delinquency hit 22%."], "reason_sources": [[]]}
+        self.assertEqual(generate.register_for(note, packet), packet["sources"])
+
+
+class TestRunSettings(unittest.TestCase):
+    """A folder can hold notes from runs under different caps.
+
+    The index states which cap produced which notes, and it is rebuilt from the notes
+    alone -- so the rules have to be on disk beside them. Stating one default for the
+    whole folder is a false claim about how most of these names were chosen.
+    """
+
+    def test_the_index_states_the_cap_each_batch_ran_under(self):
+        import tempfile
+
+        from fig import generate
+
+        with tempfile.TemporaryDirectory() as tmp:
+            generate.record_settings(
+                tmp, tickers=["AAA", "BBB"], max_price=75.0, min_market_cap=1e9
+            )
+            generate.record_settings(tmp, tickers=["CCC"], max_price=150.0, min_market_cap=2e9)
+            rows = generate._read_settings(tmp)
+            self.assertEqual(len(rows), 2)
+
+            results = [
+                {"writeup": {"ticker": t, "direction": "long"}, "lint": {"score": 90}}
+                for t in ("AAA", "BBB", "CCC")
+            ]
+            text = generate.write_index(results, tmp, settings=rows)
+            self.assertIn("2 note(s) under a **$75** share price", text)
+            self.assertIn("1 note(s) under a **$150** share price", text)
+
+    def test_a_note_from_no_recorded_run_is_not_attributed_to_one(self):
+        import tempfile
+
+        from fig import generate
+
+        with tempfile.TemporaryDirectory() as tmp:
+            results = [
+                {"writeup": {"ticker": "ZZZ", "direction": "long"}, "lint": {"score": 90}}
+            ]
+            text = generate.write_index(
+                results,
+                tmp,
+                settings=[{"tickers": ["AAA"], "max_price": 75.0, "min_market_cap": 1e9}],
+            )
+            # No record names this note, so the index must not claim the recorded
+            # cap produced it -- it says it does not know, and names the defaults.
+            self.assertIn("No run record for these 1 note(s)", text)
+            self.assertIn("$150 and $2.0B", text)
 
 
 class TestGrounding(unittest.TestCase):
@@ -501,6 +901,93 @@ class TestGrounding(unittest.TestCase):
             self._note(["Two bad quarters in 2027 could cut the dividend 5 times."]), self.EVIDENCE
         )
         self.assertTrue(report["grounded"], report)
+
+    def test_digits_inside_dates_and_urls_cannot_ground_a_figure(self):
+        # The BB regression, exactly: a reason claimed "25.38% a year" growth. The
+        # packet has no such figure -- the only 25 in it was the day of the month in
+        # "Jun 25, 2026" and a digit run in a link, and either was enough to make an
+        # invented figure look sourced.
+        evidence = (
+            "Release Date Jun 25, 2026\n"
+            "  BlackBerry (BB) Q2 2026 Earnings  https://247wallst.com/companies/bb/181253/earnings\n"
+            "  [3] 2025-09-25 headline text\n"
+        )
+        report = lint.check_grounding(
+            self._note(["UEM demand grows 25.38% a year through 2031."]), evidence
+        )
+        self.assertFalse(report["grounded"], report)
+        self.assertIn("25.38", " ".join(report["unsupported"]))
+
+    def test_a_year_is_not_a_figure_in_either_direction(self):
+        # The three-digit head of a four-digit year used to be harvested as a number
+        # ("202" from "2026"), which matched unrelated prose years both ways.
+        report = lint.check_grounding(
+            self._note(["The 2027 print is the one that matters."]), "Fiscal 2026 outlook"
+        )
+        self.assertTrue(report["grounded"], report)
+        self.assertEqual(report["checked"], 0, report)
+
+    def test_a_date_written_in_words_still_grounds_its_own_date(self):
+        # The exclusions must not go so far that a real date stops being supported.
+        report = lint.check_grounding(
+            self._note(["Reports 2026-10-30, and the consensus is 1.88."]), self.EVIDENCE
+        )
+        self.assertTrue(report["grounded"], report)
+
+
+class TestSourceGrounding(unittest.TestCase):
+    """A citation is worth nothing if the figure is not in the source it names."""
+
+    CATALOGUE = [
+        {"id": "S1", "kind": "fundamentals", "text": "Price 60.81 Market Cap 7.0B"},
+        {"id": "S4", "kind": "catalyst", "text": "NEXT EARNINGS 2026-10-30 consensus EPS 1.87559"},
+        {"id": "S7", "kind": "news", "text": "Subprime auto loan delinquency rate hit 6.8%"},
+    ]
+
+    def _note(self, reason, cited):
+        return {
+            "description": "Lender",
+            "reasons": [reason],
+            "reason_sources": [[{"id": c} for c in cited]],
+        }
+
+    def test_figure_in_the_cited_source_passes(self):
+        report = lint.check_source_grounding(
+            self._note("Delinquency hit 6.8%, the worst in decades.", ["S7"]), self.CATALOGUE
+        )
+        self.assertTrue(report["ok"], report)
+
+    def test_figure_in_the_packet_but_another_source_is_named(self):
+        # Cited to the fundamentals block, but 6.8% lives in the headline.
+        report = lint.check_source_grounding(
+            self._note("Delinquency hit 6.8%, the worst in decades.", ["S1"]), self.CATALOGUE
+        )
+        self.assertFalse(report["ok"], report)
+        self.assertIn("S7", report["mismatches"][0])
+        self.assertIn("S1", report["mismatches"][0])
+
+    def test_figure_that_is_nowhere_is_left_to_check_grounding(self):
+        # Deliberately silent here: a derived figure has no home source, and naming
+        # every one of them would bury the miscitations this check exists to find.
+        report = lint.check_source_grounding(
+            self._note("The 12.4% target implies a rerating.", ["S1"]), self.CATALOGUE
+        )
+        self.assertTrue(report["ok"], report)
+
+    def test_counts_and_years_are_not_checked_against_a_source(self):
+        report = lint.check_source_grounding(
+            self._note("Four quarters into 2027, the 30-day revision window is flat.", ["S1"]),
+            self.CATALOGUE,
+        )
+        self.assertTrue(report["ok"], report)
+        self.assertEqual(report["checked"], 0, report)
+
+    def test_an_uncited_reason_is_not_reported_here(self):
+        # Missing citations are a lint error; this check is about wrong ones.
+        note = self._note("Delinquency hit 6.8%.", [])
+        report = lint.check_source_grounding(note, self.CATALOGUE)
+        self.assertTrue(report["ok"], report)
+        self.assertEqual(report["checked"], 0, report)
 
 
 class TestCatalystLint(unittest.TestCase):
@@ -972,6 +1459,172 @@ class TestRanking(unittest.TestCase):
         from fig import ranking
 
         self.assertAlmostEqual(sum(ranking.WEIGHTS.values()), 1.0)
+
+
+class TestEvidenceShapeChecks(unittest.TestCase):
+    """The checks that exist because a true, well-sourced note was still wrong.
+
+    Each fixture is the shape of a real failure, not a hypothetical: the PAYX note
+    that reported a sequential revenue fall as deterioration, and the lead reason
+    built on the older reading of a survey the packet had already superseded.
+    """
+
+    # The real comparison for Paychex's May 2026 quarter: revenue fell 11.2% from the
+    # February quarter and grew 12.5% against the year-earlier quarter.
+    YOY = [
+        {"label": "Total Revenue", "qoq_pct": -11.2, "yoy_pct": 12.5,
+         "conflict": True, "period": "2026-05-31"},
+        {"label": "Net Income", "qoq_pct": -24.9, "yoy_pct": 41.5,
+         "conflict": True, "period": "2026-05-31"},
+        {"label": "Interest Expense", "qoq_pct": -5.0, "yoy_pct": 1.6,
+         "conflict": False, "period": "2026-05-31"},
+    ]
+
+    def test_sequential_move_without_the_year_is_flagged(self):
+        reason = (
+            "The May quarter showed revenue down 11.2% and net income down 24.9% "
+            "sequentially, while the stock trades at 19.5x forward earnings."
+        )
+        found = lint.sequential_without_year(reason, {"yoy": self.YOY})
+        self.assertTrue(found["conflict"])
+        self.assertEqual(found["label"], "Total Revenue")
+
+    def test_pairing_the_two_comparisons_passes(self):
+        reason = (
+            "Revenue fell 11.2% quarter over quarter but rose 12.5% year over year, "
+            "so the sequential move is the calendar, not the business."
+        )
+        self.assertIsNone(lint.sequential_without_year(reason, {"yoy": self.YOY}))
+
+    def test_a_non_conflicting_sequential_move_is_only_a_warning(self):
+        reason = "Interest expense rose 4% sequentially and the trend is intact."
+        found = lint.sequential_without_year(reason, {"yoy": self.YOY})
+        self.assertIsNotNone(found)
+        self.assertFalse(found["conflict"])
+
+    def test_ignores_deal_fires_when_growth_is_called_organic(self):
+        hints = {"deal": [{"label": "Goodwill", "period": "2025-05-31",
+                           "change_pct": 139.8, "confirmed": True}]}
+        found = lint.ignores_deal(
+            ["Revenue grew 16.9% and will keep growing."], hints
+        )
+        self.assertTrue(found["confirmed"])
+
+    def test_only_a_goodwill_step_is_treated_as_proof(self):
+        """An intangibles step is suggestive, so it warns rather than errors."""
+        confirmed = lint.ignores_deal(
+            ["Revenue grew."], {"deal": [{"label": "Goodwill", "confirmed": True}]}
+        )
+        suspected = lint.ignores_deal(
+            ["Revenue grew."], {"deal": [{"label": "Other Intangible Assets", "confirmed": False}]}
+        )
+        self.assertTrue(confirmed["confirmed"])
+        self.assertFalse(suspected["confirmed"])
+
+    def test_ignores_deal_clears_when_the_acquisition_is_named(self):
+        hints = {"deal": [{"label": "Other Intangible Assets", "change_pct": 901.2}]}
+        self.assertIsNone(
+            lint.ignores_deal(["The Paycor acquisition supplies most of the growth."], hints)
+        )
+        self.assertIsNone(
+            lint.ignores_deal(["Growth is Paycor synergies, not new clients."], hints)
+        )
+
+    def test_long_horizon_payoff_is_flagged(self):
+        found = lint.speculative_reason(
+            "AI agents will eventually replace payroll staff, which leads to fewer "
+            "small companies and lower revenue over time."
+        )
+        self.assertIsNotNone(found)
+
+    def test_watch_is_required_when_the_print_is_close(self):
+        problems = lint.watch_problems([], {"catalyst_days": 3})
+        self.assertEqual(problems[0][1], "watch_missing")
+        self.assertEqual(problems[0][0], "error")
+
+    def test_watch_is_optional_with_no_dated_catalyst(self):
+        self.assertEqual(lint.watch_problems([], {"catalyst_days": None}), [])
+
+    def test_watch_line_needs_both_readings(self):
+        vague = lint.watch_problems(
+            ["Client counts matter for the payroll thesis."], {"catalyst_days": 3}
+        )
+        self.assertIn("watch_no_test", [code for _, code, _ in vague])
+        paired = lint.watch_problems(
+            ["Client counts: flat or falling confirms the thesis; rising breaks it."],
+            {"catalyst_days": 3},
+        )
+        self.assertNotIn("watch_no_test", [code for _, code, _ in paired])
+
+    def test_superseded_reading_is_caught(self):
+        """The May job-openings reading, with June's opposite reading uncited."""
+        catalogue = [
+            {
+                "id": "S1", "kind": "research", "provider": "nfib.com", "date": "2026-06-01",
+                "label": "nfib.com: In May 2026, small-business job openings fell to 29%",
+                "text": (
+                    "In May 2026, small-business job openings fell to 29%, the lowest "
+                    "since May 2020. Fewer job openings mean slower payroll headcount "
+                    "growth for Paychex."
+                ),
+            },
+            {
+                "id": "S2", "kind": "research", "provider": "nfib.com", "date": "2026-07-01",
+                "label": "nfib.com: In June 2026, 51% of small businesses reported few or no qualified workers",
+                "text": (
+                    "In June 2026, 51% of small businesses reported few or no qualified "
+                    "workers, highest since September 2024. Hiring difficulty can limit "
+                    "headcount growth for Paychex."
+                ),
+            },
+        ]
+        writeup = {
+            "reasons": ["Job openings fell to 29%, the lowest since May 2020."],
+            "reason_sources": [[catalogue[0]]],
+        }
+        findings = lint.superseded_readings(writeup, catalogue)
+        self.assertEqual(len(findings), 1)
+        self.assertIn("S2", findings[0])
+
+    def test_unrelated_later_article_is_not_a_superseded_reading(self):
+        catalogue = [
+            {
+                "id": "S1", "kind": "research", "provider": "nfib.com", "date": "2026-06-01",
+                "label": "nfib.com: job openings fell to 29%",
+                "text": "In May 2026, small-business job openings fell to 29%, the lowest "
+                        "since May 2020. Fewer job openings mean slower payroll growth.",
+            },
+            {
+                "id": "S2", "kind": "research", "provider": "nfib.com", "date": "2026-07-01",
+                "label": "nfib.com: capital spending plans rose",
+                "text": "In June 2026, capital spending plans rose to 24%, the highest "
+                        "since 2022. Stronger investment supports equipment demand.",
+            },
+        ]
+        writeup = {
+            "reasons": ["Job openings fell to 29%."],
+            "reason_sources": [[catalogue[0]]],
+        }
+        self.assertEqual(lint.superseded_readings(writeup, catalogue), [])
+
+    def test_canonical_label_matches_the_two_sources(self):
+        from fig.quants import canonical_label
+
+        self.assertEqual(
+            canonical_label("Earnings Before Interest and Tax"), "EBIT"
+        )
+        # The alias must not rewrite a label it has no mapping for.
+        self.assertEqual(canonical_label("Total Revenue"), "Total Revenue")
+
+    def test_year_ago_column_is_found_by_gap_not_offset(self):
+        from fig.quants import _year_ago_index
+
+        self.assertEqual(
+            _year_ago_index(["2026-05-31", "2026-02-28", "2025-11-30", "2025-08-31", "2025-05-31"]),
+            4,
+        )
+        # A series with no year-earlier column must return None, not the last column.
+        self.assertIsNone(_year_ago_index(["2026-05-31", "2026-02-28", "2025-11-30"]))
 
 
 class TestReferencesPresent(unittest.TestCase):

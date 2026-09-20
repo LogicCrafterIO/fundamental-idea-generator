@@ -1,0 +1,718 @@
+{
+  "ticker": "CCL",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Cruise line operator; nine brands including Carnival, Princess and Holland America, plus ports and islands.",
+  "catalyst": {
+    "date": "2026-09-29",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 9,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.35267,
+      "eps_low": 1.3,
+      "eps_high": 1.39,
+      "revenue_avg": 8401010310
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-23",
+        "eps_estimate": 0.34,
+        "eps_actual": 0.41,
+        "surprise_pct": 21.08,
+        "beat": true
+      },
+      {
+        "date": "2026-03-27",
+        "eps_estimate": 0.18,
+        "eps_actual": 0.2,
+        "surprise_pct": 8.94,
+        "beat": true
+      },
+      {
+        "date": "2025-12-19",
+        "eps_estimate": 0.25,
+        "eps_actual": 0.34,
+        "surprise_pct": 38.64,
+        "beat": true
+      },
+      {
+        "date": "2025-09-29",
+        "eps_estimate": 1.32,
+        "eps_actual": 1.43,
+        "surprise_pct": 8.54,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 92,
+    "facts_line": "2026-09-29 (Tuesday, before the open), 9 days out -- from the earnings calendar, consensus EPS 1.35.",
+    "why": "The quarter must show fuel and Caribbean pricing did not eat the margin record Q2 implied; fourth-quarter guidance is where the cut lands."
+  },
+  "reasons": [
+    "Crude rose 6.28% in a session, and because fuel is a direct cost, higher oil leads to lower margins in the quarter being reported.",
+    "The last four quarters' actuals total 2.38 against a FY consensus of 2.22612, so because the beat streak is already in the number, a fifth beat cannot lift it.",
+    "US travel spending growth is forecast at just 1% in 2026 and recession expectations rose in September, so weaker consumer confidence leads to softer Caribbean pricing."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S29",
+        "kind": "ollama_search",
+        "ref": "web:2",
+        "label": "marketwatch.com: CCL | Carnival Corp. Ltd. Analyst Estimates | MarketWatch",
+        "provider": "marketwatch.com",
+        "url": "https://www.marketwatch.com/investing/stock/ccl/analystestimates",
+        "date": "2026-09-10"
+      },
+      {
+        "id": "S7",
+        "kind": "yahoo",
+        "ref": "news:2",
+        "label": "Stocktwits: CCL Stock Traders Stare At Sixth Red Week: Analysts Predict Weak Outlook On High Fuel Prices Ahead Of Q3 Earnings",
+        "provider": "stocktwits.com",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ccl-stock-traders-stare-at-sixth-red-week-analysts-predict-weak-outlook-on-high-fuel-prices-ahead-of-q3-earnings/cZtrQzvRB57",
+        "date": "2026-09-17"
+      },
+      {
+        "id": "S24",
+        "kind": "yahoo",
+        "ref": "news:19",
+        "label": "GuruFocus.com: Airlines and Cruise Stocks Face New Oil Shock",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/airlines-cruise-stocks-face-oil-181853861.html",
+        "date": "2026-09-16"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for CCL",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/CCL/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "CCL earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/ccl/earnings",
+        "date": "2026-09-29"
+      }
+    ],
+    [
+      {
+        "id": "S43",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "ustravel.org: U.S. travel spending is forecast to grow only 1% in 2026.",
+        "provider": "ustravel.org",
+        "url": "https://www.ustravel.org/research/travel-forecasts",
+        "date": "2026-05-07"
+      },
+      {
+        "id": "S45",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "futurepartners.com: In September 2026, recession expectations rose and financial optimism softened.",
+        "provider": "futurepartners.com",
+        "url": "https://futurepartners.com/blog/the-state-of-the-american-traveler-in-september-2026/",
+        "date": "2026-09-04"
+      },
+      {
+        "id": "S21",
+        "kind": "yahoo",
+        "ref": "news:16",
+        "label": "24/7 Wall St.: Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
+        "provider": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/09/15/norwegian-falls-3-as-wells-fargo-trims-carnival-target-on-caribbean-pricing-pressure-carnival-slips-royal-caribbean-dips/",
+        "date": "2026-09-15"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for CCL",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CCL/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for CCL",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CCL/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "CCL quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/ccl/financials",
+      "date": "5/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "CCL earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/ccl/earnings",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Zacks: Why Carnival (CCL) Dipped More Than Broader Market Today",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-carnival-ccl-dipped-more-215003379.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Stocktwits: Why Did OPEN, NKE, CCL Stocks Crash To 52-Week Lows Today?",
+      "provider": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/why-did-open-nke-ccl-stocks-crash-to-52-week-lows-today/cZtY2PcRB2d",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Stocktwits: CCL Stock Traders Stare At Sixth Red Week: Analysts Predict Weak Outlook On High Fuel Prices Ahead Of Q3 Earnings",
+      "provider": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/ccl-stock-traders-stare-at-sixth-red-week-analysts-predict-weak-outlook-on-high-fuel-prices-ahead-of-q3-earnings/cZtrQzvRB57",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Simply Wall St.: Carnival (CCL) Stock Gets Fair Value Trim As Analysts Weigh Demand Against Yield Risks",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carnival-ccl-stock-gets-fair-221712010.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Carnival Cruise Stock is an Interesting Situation With Significant Upside",
+      "provider": null,
+      "url": "/articles/carnival-cruise-stock-interesting-situation-significant-upside",
+      "date": "Aug 31, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Can CCL's $7B+ EBITDA Outlook Withstand Geopolitical Headwinds?",
+      "provider": null,
+      "url": "/articles/can-ccls-7b-ebitda-outlook-withstand-geopolitical-headwinds",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Why Is Carnival Stock Down 26% This Year?",
+      "provider": null,
+      "url": "/articles/why-carnival-stock-down-26-year",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: Carnival vs. Uber Technologies: Which Consumer Stock Is a Better Buy in 2026?",
+      "provider": null,
+      "url": "/articles/carnival-vs-uber-technologies-which-consumer-stock-better-buy-2026",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Want Better Returns? Don't Ignore These 2 Consumer Discretionary Stocks Set to Beat Earnings",
+      "provider": null,
+      "url": "/articles/want-better-returns-dont-ignore-these-2-consumer-discretionary-stocks-set-beat-earnings-0",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Carnival's Record Booking Curve Extends: Will Pricing Momentum Last?",
+      "provider": null,
+      "url": "/articles/carnivals-record-booking-curve-extends-will-pricing-momentum-last",
+      "date": "Sep 8, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Carnival Stock Declines 16% in a Month: Should You Buy or Wait?",
+      "provider": null,
+      "url": "/articles/carnival-stock-declines-16-month-should-you-buy-or-wait",
+      "date": "Sep 9, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
+      "provider": null,
+      "url": "/articles/stocks-fall-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
+      "date": "Aug 31, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
+      "provider": null,
+      "url": "/articles/stocks-finish-mostly-lower-rising-crude-boosts-bond-yields",
+      "date": "Sep 1, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Fall as Crude Prices and Bond Yields Jump",
+      "provider": null,
+      "url": "/articles/stocks-fall-crude-prices-and-bond-yields-jump",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Barchart: Stocks Settle Lower as Crude Prices and Bond Yields Surge",
+      "provider": null,
+      "url": "/articles/stocks-settle-lower-crude-prices-and-bond-yields-surge",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Barchart: Stocks Push Higher as Crude Oil and Bond Yields Stabilize",
+      "provider": null,
+      "url": "/articles/stocks-push-higher-crude-oil-and-bond-yields-stabilize",
+      "date": "Sep 2, 202"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "24/7 Wall St.: Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/15/norwegian-falls-3-as-wells-fargo-trims-carnival-target-on-caribbean-pricing-pressure-carnival-slips-royal-caribbean-dips/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Zacks: Trip.com (TCOM) Beats Q2 Earnings and Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trip-com-tcom-beats-q2-232002507.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Investing.com: Carnival selloff overdone, a buying opportunity into earnings: Stifel",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carnival-selloff-overdone-buying-opportunity-174901457.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "GuruFocus.com: Airlines and Cruise Stocks Face New Oil Shock",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/airlines-cruise-stocks-face-oil-181853861.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "StockStory: 2 Cash-Producing Stocks with Competitive Advantages and 1 Facing Headwinds",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-competitive-101817418.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "TIKR: TITLE",
+      "provider": "tikr.com",
+      "url": "https://www.tikr.com/blog/title-3?ref=yahoofinance",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "247wallst.com: Carnival (CCL) Earnings Report Q2 2026 | Beat, EPS & Revenue | 24/7 Wall St.",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/companies/ccl/earnings",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "stockanalysis.com: Carnival Corporation (CCL) Stock Forecast & Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/ccl/forecast/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "marketwatch.com: CCL | Carnival Corp. Ltd. Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/ccl/analystestimates",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "simplywall.st: Carnival (CCL) Could Be 49% Undervalued As Refurbishment News Tests The Pullback - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/consumer-services/nyse-ccl/carnival/news/carnival-ccl-could-be-49-undervalued-as-refurbishment-news-t",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "tipranks.com: Carnival Stock (CCL) Slips 2% Ahead of Q3 2026 Earnings - TipRanks.com",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/news/carnival-stock-ccl-slips-2-ahead-of-q3-2026-earnings",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "ca.finance.yahoo.com: Carnival Q2 Earnings Call Highlights Resilience Amid Europe Pause",
+      "provider": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/news/carnival-q2-earnings-call-highlights-100700100.html",
+      "date": null
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "seekingalpha.com: Carnival: Fuel/Demand Risks Depress Near-Term Recovery Prospects; Contrarian Buy | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4924232-carnival-fueldemand-risks-depress-near-term-recovery-prospects-contrarian-buy",
+      "date": null
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "trefis.com: Is Carnival Stock A Trap Or A Missed Opportunity? | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/ccl/articles2/596498/is-carnival-stock-a-trap-or-a-missed-opportunity/2026-04-14",
+      "date": null
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "trefis.com: Is Carnival Stock Undervalued Stock Or Value Trap? | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/ccl/articles2/591953/is-carnival-stock-undervalued-stock-or-value-trap/2026-03-03",
+      "date": "2026-03-05"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "carnivalcorp.com: 2026 2Q Earnings Release (8-K)",
+      "provider": "carnivalcorp.com",
+      "url": "https://www.carnivalcorp.com/wp-content/uploads/2026/03/2026-2Q-Earnings-Release-Final-Draft_MA_Final.pdf",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "barchart.com: Carnival Corporation Stock: Analyst Estimates & Ratings",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/3503405/carnival-corporation-stock-analyst-estimates-ratings",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "tikr.com: Carnival Has Record Bookings and $24 Billion in Debt. Is the Stock Worth Buying at $29? | TIKR.com",
+      "provider": "tikr.com",
+      "url": "https://www.tikr.com/blog/carnival-has-record-bookings-and-24-billion-in-debt-is-the-stock-worth-buying-at-29",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "tikr.com: Carnival Says Costs Offset the Yield Hit. Fuel and Margins Tell a Murkier Story | TIKR.com",
+      "provider": "tikr.com",
+      "url": "https://www.tikr.com/blog/title-3?.tsrc=rss",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "marketscreener.com: Barclays Adjusts Price Target on Carnival to $33 From $35, Keeps Overweight Rating | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/barclays-adjusts-price-target-on-carnival-to-33-from-35-keeps-overweight-rating-ce785bd2da8ef221",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "shipuniverse.com: In 2027, the easy post-recovery rebound is over for cruise operators.",
+      "provider": "shipuniverse.com",
+      "url": "https://www.shipuniverse.com/cruise/2027-cruise-industry-outlook-growth-is-strong-but-the-easy-recovery-is-over/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "shipuniverse.com: In 2027, global cruise passenger volume is forecast to exceed 40 million.",
+      "provider": "shipuniverse.com",
+      "url": "https://www.shipuniverse.com/cruise/2027-cruise-industry-outlook-growth-is-strong-but-the-easy-recovery-is-over/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "ustravel.org: U.S. travel spending is forecast to grow only 1% in 2026.",
+      "provider": "ustravel.org",
+      "url": "https://www.ustravel.org/research/travel-forecasts",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "ustravel.org: U.S. travel spending growth is forecast to accelerate to 3% in 2027 and 2028.",
+      "provider": "ustravel.org",
+      "url": "https://www.ustravel.org/research/travel-forecasts",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "futurepartners.com: In September 2026, recession expectations rose and financial optimism softened.",
+      "provider": "futurepartners.com",
+      "url": "https://futurepartners.com/blog/the-state-of-the-american-traveler-in-september-2026/",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S46",
+      "kind": "options",
+      "ref": "options",
+      "label": "CCL listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CCL/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 21.84,
+    "market_cap": "29.91B",
+    "fwd_pe": 9.8,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.1,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 108% quarter over quarter (5/31/2026)",
+      "Last quarter cash and cash equivalents increasing 58% quarter over quarter (5/31/2026)",
+      "EPS increased year over year, 0.35 -> 0.41"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 21.0,
+        "qty": 25,
+        "underlying": 21.84,
+        "multiplier": 100,
+        "price": 1.77,
+        "total": 4425.0,
+        "open_interest": 3088
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 21.0,
+        "qty": 8,
+        "underlying": 21.84,
+        "multiplier": 100,
+        "price": 0.75,
+        "total": -600.0,
+        "open_interest": 1874
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-30 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "Eight short Oct 21 puts against 25 long Jan 21 puts is a thin ratio, and the short leg expires 17 days after the print -- the earnings gap is what the 12.2% credit pays for. If the stock gaps through 21 on Sept 29, the long Jan puts are the only thing between you and assignment."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 4,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 4,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "berths",
+          "capacity",
+          "passenger",
+          "passengers",
+          "pricing"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "confidence",
+          "consumer",
+          "expectations",
+          "forecast",
+          "pricing",
+          "recession",
+          "september",
+          "spend",
+          "travel",
+          "weaker"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "anxiety",
+          "consumer",
+          "financial",
+          "forecast",
+          "limits",
+          "months",
+          "prices",
+          "pricing",
+          "sentiment",
+          "spend",
+          "straight",
+          "summer",
+          "travel",
+          "yield"
+        ]
+      }
+    ]
+  }
+}

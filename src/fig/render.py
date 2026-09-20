@@ -51,12 +51,38 @@ def render_structure_table(rows: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def render_writeup(writeup: dict, *, include_lint: bool = False) -> str:
+def render_source_line(entry: dict) -> str:
+    """One citable source: ``[S3] reuters.com -- https://...``.
+
+    The id is printed as well as the link because the id is what the claim was
+    resolved against -- a reader comparing the note to its packet can match on it.
+    """
+    bits = [f"[{entry.get('id')}]"]
+    provider = entry.get("provider")
+    if provider:
+        bits.append(str(provider))
+    elif entry.get("label"):
+        bits.append(str(entry["label"]))
+    if entry.get("date"):
+        bits.append(f"({entry['date']})")
+    if entry.get("url"):
+        bits.append(str(entry["url"]))
+    return " ".join(bits)
+
+
+def render_writeup(
+    writeup: dict,
+    *,
+    include_lint: bool = False,
+    grounding: dict | None = None,
+    source_grounding: dict | None = None,
+) -> str:
     """Full note in reference layout.
 
     ``writeup`` shape::
 
         {"ticker", "description", "reasons": [...],
+         "reason_sources": [[{"id","provider","url",...}], ...],
          "quants": {"price","market_cap","fwd_pe","eps_trend","eps_revisions","extra":[...]},
          "structuring": {"rows": [...], "reflection": "..."}}
     """
@@ -78,9 +104,39 @@ def render_writeup(writeup: dict, *, include_lint: bool = False) -> str:
         out.append("")
 
     out.append("Reasons")
+    reason_sources = writeup.get("reason_sources") or []
     for index, reason in enumerate(writeup.get("reasons") or [], start=1):
         out.append(f"{index}) {str(reason).strip()}")
+        # Directly under its own reason, not in an appendix: the point of a source
+        # is that a reader can check the claim they just read without hunting.
+        cited = reason_sources[index - 1] if index - 1 < len(reason_sources) else []
+        # Two ids can resolve to the same page: the register indexes each research
+        # claim separately, so one press release with two findings appears twice.
+        # Printing the identical line twice makes the note look padded and invites
+        # the reader to wonder what the difference is.
+        printed: set[str] = set()
+        for entry in cited or []:
+            line = (
+                render_source_line(entry)
+                if isinstance(entry, dict)
+                else str(entry)
+            )
+            if line in printed:
+                continue
+            printed.add(line)
+            out.append(f"   Source: {line}")
     out.append("")
+
+    # Watch sits between the reasons and the numbers: it is the part of the note a
+    # reader acts on at the print, so it should be read before the panel they already
+    # know. Each line names one variable and both readings, which is what makes the
+    # idea falsifiable rather than merely argued.
+    watch = [str(line).strip() for line in (writeup.get("watch") or []) if str(line).strip()]
+    if watch:
+        out.append("Watch")
+        for line in watch:
+            out.append(f"- {line}")
+        out.append("")
 
     quants = writeup.get("quants") or {}
     out.append("Quants")
@@ -141,6 +197,10 @@ def render_writeup(writeup: dict, *, include_lint: bool = False) -> str:
     text = "\n".join(out).rstrip() + "\n"
     if include_lint:
         result = lint_writeup(writeup)
+        if grounding:
+            result["grounding"] = grounding
+        if source_grounding:
+            result["source_grounding"] = source_grounding
         text += "\n" + _render_lint(result)
     return text
 
@@ -166,9 +226,25 @@ def _render_lint(result: dict) -> str:
             lines.append(
                 f"Grounding: all {grounding['checked']} figures in the prose appear in the evidence."
             )
+    source_grounding = result.get("source_grounding")
+    if source_grounding and source_grounding.get("mismatches"):
+        # The stronger claim of the two, and the one a reader is actually relying
+        # on: not "this figure is in the packet" but "it is in the source named
+        # directly above it".
+        lines.append(
+            f"Source grounding: {len(source_grounding['mismatches'])} figure(s) are in the "
+            f"packet but not in the source cited for them -- "
+            f"{'; '.join(source_grounding['mismatches'])}"
+        )
+    if source_grounding and source_grounding.get("superseded"):
+        # Not a citation error: every figure is in the source named. It is the
+        # quieter failure of using a reading the packet has already superseded.
+        lines.append(
+            f"Superseded readings: {'; '.join(source_grounding['superseded'])}"
+        )
     for issue in result["issues"]:
         lines.append(f"  {issue}")
-    return "\n".join(lines)
+    return "\n".join(lines) + "\n"
 
 
 def render_index(writeups: list[dict]) -> str:

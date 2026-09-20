@@ -14,12 +14,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from . import discover, lint, options, packet, quants, render, themes
 from .sources import nasdaq
+from .util import human_money
 
 
 # --------------------------------------------------------------------------
@@ -47,6 +49,33 @@ def _write(path: str | None, text: str) -> None:
         print(f"wrote {target}", file=sys.stderr)
     else:
         print(text)
+
+
+def _parse_money_arg(value: str | None, default: float | None) -> float | None:
+    """Parse a money argument: ``1b``, ``1000m``, ``2.5e9``, ``75000000``, ``0``.
+
+    A plain number is dollars, and a bare ``0`` means "no floor" rather than
+    "$0" so the two ways of disabling a rule behave the same.
+    """
+    if value is None:
+        return default
+    text = str(value).strip().lower().replace("_", "").replace(",", "")
+    if not text:
+        return default
+    scale = 1.0
+    if text.endswith("k"):
+        scale, text = 1e3, text[:-1]
+    elif text.endswith("m"):
+        scale, text = 1e6, text[:-1]
+    elif text.endswith("b"):
+        scale, text = 1e9, text[:-1]
+    elif text.endswith("t"):
+        scale, text = 1e12, text[:-1]
+    try:
+        number = float(text) * scale
+    except ValueError:
+        raise SystemExit(f"could not read a dollar amount from {value!r} (try 1b, 1000m, 75000000)")
+    return None if number <= 0 else number
 
 
 # --------------------------------------------------------------------------
@@ -86,12 +115,25 @@ def cmd_themes(args) -> int:
 
 
 def cmd_screen(args) -> int:
+    max_price = _parse_money_arg(getattr(args, "max_price", None), discover.DEFAULT_MAX_PRICE)
+    min_market_cap = _parse_money_arg(
+        getattr(args, "min_market_cap", None), discover.DEFAULT_MIN_MARKET_CAP
+    )
     result = discover.scan(
         watchlist=[s.strip().upper() for s in (args.watchlist or [])],
         limit=args.limit,
         top=args.top,
         earnings_days=args.earnings_days,
         include_screener=not args.no_screener,
+        max_price=max_price,
+        min_market_cap=min_market_cap if min_market_cap is not None else 0.0,
+    )
+    cap_text = f"${max_price:,.0f}" if max_price is not None else "none"
+    print(
+        f"rules: share price under {cap_text}, market cap at least "
+        f"{human_money(min_market_cap) if min_market_cap else 'none'}, "
+        f"earnings within {args.earnings_days}d, screener "
+        f"{'on' if not args.no_screener else 'off'}\n"
     )
     print(
         f"pool {result['pool_size']} names -> screened {result['screened']} -> "
@@ -123,9 +165,15 @@ def cmd_screen(args) -> int:
         )
     )
     if result["gated"]:
+        # Counted by reason, because "how many names the cap removed" is the number
+        # that explains the size of the batch -- listing six tickers does not.
+        reasons: dict[str, int] = {}
+        for row in result["gated"]:
+            key = re.sub(r"\$[\d,.]+", "$X", str(row.get("gated") or "other"))
+            reasons[key] = reasons.get(key, 0) + 1
         print(f"\nGated out ({len(result['gated'])}):")
-        for row in result["gated"][:6]:
-            print(f"  {row['symbol']:<6} {row.get('gated')}")
+        for reason, count in sorted(reasons.items(), key=lambda kv: -kv[1]):
+            print(f"  {count:4}  {reason}")
     print("\nScore components for the top name:")
     top = result["ranked"][0]
     for key, value in (top.get("score_components") or {}).items():
@@ -263,6 +311,51 @@ def cmd_quants(args) -> int:
         print("\nStatement moves")
         for d in deltas:
             print(f"  {d['label']}: {d['direction']} {abs(d['change_pct']):.1f}% ({d['prior_period']} -> {d['period']})")
+
+    # Printed here because this command is where a person checks a figure by hand, and
+    # a sequential move without its year-earlier comparison is the reading error this
+    # tool has actually made.
+    rows = quants.yoy_deltas(args.symbol)
+    if rows:
+        print("\nSequential vs same quarter a year ago")
+        for d in rows:
+            conflict = "  <- opposite directions" if d.get("conflict") else ""
+            print(
+                f"  {d['label']}: {human_money(d.get('current'))} ({d['period']}) "
+                f"{d['qoq_pct']:+.1f}% QoQ vs {human_money(d.get('year_ago'))} "
+                f"({d.get('year_ago_period')}) {d['yoy_pct']:+.1f}% YoY{conflict}"
+            )
+
+    annual = quants.annual_deltas(args.symbol)
+    if annual:
+        print("\nFiscal year vs prior year")
+        for d in annual:
+            print(
+                f"  {d['label']}: {human_money(d.get('prior'))} -> "
+                f"{human_money(d.get('current'))} ({d['change_pct']:+.1f}%)"
+            )
+
+    deals = quants.deal_activity(args.symbol)
+    if deals:
+        print("\nAcquisition footprint")
+        for d in deals:
+            print(
+                f"  {d['label']}: {human_money(d.get('prior'))} -> "
+                f"{human_money(d.get('current'))} ({d['prior_period']} to {d['period']}, "
+                f"{d['basis']}, {d['change_pct']:+.1f}%)"
+                + ("  [goodwill: confirms a deal]" if d.get("confirmed") else "  [suggestive]")
+            )
+
+    panel_next = panel.get("next_earnings") or {}
+    bar = quants.consensus_bar(panel)
+    if bar:
+        bits = []
+        if bar.get("eps_avg") is not None:
+            bits.append(f"EPS {bar['eps_avg']}")
+        if bar.get("revenue_avg") is not None:
+            bits.append(f"revenue {human_money(bar['revenue_avg'])}")
+        print(f"\nConsensus bar ({bar.get('date')}): " + ", ".join(bits))
+
     yoy = quants.eps_yoy(args.symbol)
     if yoy:
         print(f"\nEPS yoy: {yoy['direction']} ({yoy['year_ago']} -> {yoy['current']})")
@@ -322,10 +415,14 @@ def cmd_generate(args) -> int:
     hint: dict[str, str] = {}
     screen_n = int(getattr(args, "screen", 0) or 0)
     if screen_n:
+        min_market_cap = _parse_money_arg(
+            getattr(args, "min_market_cap", None), discover.DEFAULT_MIN_MARKET_CAP
+        )
         outcome = discover.scan(
             top=screen_n,
             limit=int(getattr(args, "screen_limit", 60) or 60),
             max_price=max_price,
+            min_market_cap=min_market_cap if min_market_cap is not None else 0.0,
             require_structure=bool(getattr(args, "strict", False)),
             require_positive_pe=bool(getattr(args, "strict", False)),
         )
@@ -337,6 +434,12 @@ def cmd_generate(args) -> int:
         print(
             f"screener: {outcome['pool_size']} in pool, {outcome['screened']} screened, "
             f"{len(outcome['ranked'])} passed -> {len(hint)} to generate"
+        )
+        print(
+            f"  rules: share price under "
+            f"{f'${max_price:,.0f}' if max_price is not None else 'none'}, "
+            f"market cap at least "
+            f"{human_money(min_market_cap) if min_market_cap else 'none'}"
         )
         for row in outcome["ranked"]:
             print(
@@ -421,8 +524,26 @@ def cmd_generate(args) -> int:
         )
 
     if results or excluded:
-        generate.write_index(results, args.out, excluded=excluded, max_price=max_price)
-        print(f"\nindex: {args.out}/README.md")
+        generate.write_excluded(excluded, args.out)
+        # Rebuilt from every note on disk rather than written from this batch alone:
+        # a 23-note batch that wrote its own index would silently drop every note
+        # from the runs before it. The rebuild re-lints and re-grounds each note, so
+        # the index is an audit of the whole folder, not a report on one batch.
+        # The rules this batch ran under are recorded beside the notes, so a later
+        # rebuild states the cap the folder was actually built under rather than the
+        # tool's default.
+        generate.record_settings(
+            args.out,
+            tickers=[r["writeup"]["ticker"] for r in results],
+            max_price=max_price,
+            min_market_cap=(
+                _parse_money_arg(getattr(args, "min_market_cap", None), None)
+                if getattr(args, "min_market_cap", None)
+                else None
+            ),
+        )
+        rebuilt = generate.rebuild_index(args.out)
+        print(f"\nindex: {rebuilt['index']} ({rebuilt['notes']} note(s))")
     if failures:
         print(f"\n{len(failures)} failed:", file=sys.stderr)
         for symbol, error in failures:
@@ -471,6 +592,46 @@ def cmd_index(args) -> int:
 
     summary = generate.rebuild_index(args.out)
     print(f"{summary['notes']} note(s), mean score {summary['mean_score']} -> {summary['index']}")
+    return 0
+
+
+def cmd_organize(args) -> int:
+    """File every note under its own side's folder."""
+    from . import generate
+
+    result = generate.organize(args.out, dry_run=args.dry_run)
+    for source, destination in result["moved"]:
+        print(f"{'would move' if args.dry_run else 'moved'} {source} -> {destination}")
+    if not result["moved"]:
+        print(f"{result['unchanged']} note(s) already filed under their side")
+    elif result["unchanged"]:
+        print(f"{result['unchanged']} note(s) already filed under their side")
+    if result["moved"] and not args.dry_run:
+        print("\nrun `fig index` to rewrite the index links into the folders")
+    return 0
+
+
+def cmd_attribute(args) -> int:
+    """Backfill the sources behind each reason, for notes written before sources."""
+    from . import attribute
+
+    summary = attribute.attribute_folder(args.out, model=args.model, limit=args.limit)
+    print()
+    for row in summary["attributed"]:
+        status = f"{row['citations']} citation(s)"
+        if row["uncited_reasons"]:
+            status += f", reason(s) {row['uncited_reasons']} left uncited"
+        if row["unknown_ids"]:
+            status += f", dropped unknown id(s) {row['unknown_ids']}"
+        ground = row["source_grounding"]
+        if ground and ground.get("mismatches"):
+            status += f", {len(ground['mismatches'])} figure(s) outside the cited source"
+        print(f"  {row['ticker']:6} {status}")
+    if summary["skipped"]:
+        print("\nskipped:")
+        for ticker, why in summary["skipped"]:
+            print(f"  {ticker:6} {why}")
+    print(f"\n{len(summary['attributed'])} note(s) attributed")
     return 0
 
 
@@ -537,6 +698,17 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--limit", type=int, default=25, help="names to screen")
     p.add_argument("--top", type=int, default=12)
     p.add_argument("--earnings-days", type=int, default=10)
+    p.add_argument(
+        "--max-price",
+        default=None,
+        help="only names trading under this share price (default 150, the ideas "
+        "cap; accepts 75 or 75.00; 0 disables)",
+    )
+    p.add_argument(
+        "--min-market-cap",
+        default=None,
+        help="pool floor, accepts 1b / 1000m / 2e9 (default 2b)",
+    )
     p.add_argument("--no-screener", action="store_true")
     p.set_defaults(func=cmd_screen)
 
@@ -600,6 +772,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="how many names the screener screens before ranking (default 60)",
     )
     p.add_argument(
+        "--min-market-cap",
+        default=None,
+        help="pool floor for --screen, accepts 1b / 1000m / 2e9 (default 2b)",
+    )
+    p.add_argument(
         "--strict",
         action="store_true",
         help="also filter on missing option chains and loss-making (off by default: "
@@ -652,6 +829,20 @@ def build_parser() -> argparse.ArgumentParser:
     p = sub.add_parser("index", help="rebuild the research index from the notes on disk")
     p.add_argument("--out", default="research")
     p.set_defaults(func=cmd_index)
+
+    p = sub.add_parser("organize", help="file notes under longs/ and shorts/ by their side")
+    p.add_argument("--out", default="research")
+    p.add_argument("--dry-run", action="store_true")
+    p.set_defaults(func=cmd_organize)
+
+    p = sub.add_parser(
+        "attribute",
+        help="backfill the sources behind each reason for notes written before sources",
+    )
+    p.add_argument("--out", default="research")
+    p.add_argument("--limit", type=int, default=None, help="stop after this many notes")
+    p.add_argument("--model", default=None)
+    p.set_defaults(func=cmd_attribute)
 
     p = sub.add_parser("demo", help="verify the engine reproduces the reference structures")
     p.set_defaults(func=cmd_demo)

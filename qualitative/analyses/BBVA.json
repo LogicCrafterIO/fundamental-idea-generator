@@ -1,0 +1,1247 @@
+{
+  "symbol": "BBVA",
+  "researched_on": "2026-09-20",
+  "model": "deepseek-v4.1-flash",
+  "gates": {
+    "max_price": 100.0,
+    "min_market_cap": 1000000000.0
+  },
+  "profile": {
+    "symbol": "BBVA",
+    "name": "Banco Bilbao Vizcaya Argentaria, S.A.",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "country": "Spain",
+    "website": "https://www.bbva.com",
+    "employees": 126994,
+    "summary": "Banco Bilbao Vizcaya Argentaria, S.A., together with its subsidiaries, provides various financial services in Spain, Mexico, Turkey, South America, Europe, the United States, and Asia. The company offers traditional retail, wholesale, investment, and transaction banking. It also engages in financial, insurance, asset management, and capital markets businesses, as well as digital banking. The company was formerly known as Banco Bilbao Vizcaya, S.A. and changed its name to Banco Bilbao Vizcaya Argentaria, S.A. in January 2000. Banco Bilbao Vizcaya Argentaria, S.A. was founded in 1857 and is headquartered in Bilbao, Spain.",
+    "summary_words": 90,
+    "price": 28.36,
+    "market_cap": 156499148800,
+    "market_cap_human": "156.5B",
+    "exchange": "NYSE",
+    "nasdaq_price": 28.36,
+    "nasdaq_market_cap": 161906352332.0,
+    "gate_conflicts": [],
+    "passes_price_gate": true,
+    "passes_cap_gate": true
+  },
+  "streams": {
+    "queries": [
+      "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) revenue by segment product line breakdown annual report 10-K",
+      "Banco Bilbao Vizcaya Argentaria, S.A. how it makes money revenue streams Banks - Diversified 2026",
+      "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) segment revenue percentage of total latest quarter results",
+      "BBVA stock revenue by segment breakdown percentage of total revenue"
+    ],
+    "results": [
+      {
+        "title": "bbva-20251231",
+        "url": "https://www.sec.gov/Archives/edgar/data/842180/000162828026010001/bbva-20251231.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Bank Annual Report BBVA,S.A. 2025 (Wdata)",
+        "url": "https://shareholdersandinvestors.bbva.com/wp-content/uploads/2026/02/K8MS7FD7N5Z2WQ51AZ71-2025-12-31-1-en.xhtml",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "bbva-20241231",
+        "url": "https://www.sec.gov/Archives/edgar/data/842180/000084218025000010/bbva-20241231.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "ANNUAL REPORT BBVA GROUP 2024",
+        "url": "https://shareholdersandinvestors.bbva.com/wp-content/uploads/2025/02/Informe-anual-2024_ENG.pdf",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2025-02-01",
+        "age_days": 596,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "BBVA Posts Over \u20ac6 Billion in Profit for the First Half of 2026 (Up 11 Percent) and Announces a New \u20ac2 Billion Extraordinary Share Buyback Program",
+        "url": "https://www.bbva.com/en/economy-and-finance/earnings-2q2026/",
+        "publisher": "bbva.com",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. how it makes money revenue streams Banks - Diversified 2026"
+      },
+      {
+        "title": "January - June Report 2026",
+        "url": "https://www.bbva.com/wp-content/uploads/2026/07/January-June-Report-2026.pdf",
+        "publisher": "bbva.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. how it makes money revenue streams Banks - Diversified 2026"
+      },
+      {
+        "title": "January - June Report 2026",
+        "url": "https://shareholdersandinvestors.bbva.com/wp-content/uploads/2026/07/January-June-Report-2026.pdf",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. how it makes money revenue streams Banks - Diversified 2026"
+      },
+      {
+        "title": "Quarterly Report_1T26",
+        "url": "https://shareholdersandinvestors.bbva.com/wp-content/uploads/2026/04/January-March-Report-2026.pdf",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. how it makes money revenue streams Banks - Diversified 2026"
+      },
+      {
+        "title": "Earnings: BBVA Posts Nearly \u20ac3 Billion Profit in the First Quarter (up 11%) and Announces a New Tranche of Share Buybacks",
+        "url": "https://www.bbva.com/en/economy-and-finance/earnings-1q2026/",
+        "publisher": "bbva.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. how it makes money revenue streams Banks - Diversified 2026"
+      },
+      {
+        "title": "2Q26 Report Business Areas - Accionistas e Inversiones en Bolsa, Analistas de Mercados y Financieros \u2013 BBVA",
+        "url": "https://shareholdersandinvestors.bbva.com/informes/2q26-report-business-areas/",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "BBVA Posts Over \u20ac6 Billion in Profit for the First Half of 2026 (Up 11 Percent) and Announces a New \u20ac2 Billion Extraordinary Share Buyback Program",
+        "url": "https://www.bbva.com/en/economy-and-finance/earnings-2q2026/",
+        "publisher": "bbva.com",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "2Q26 [ENG] Earnings Presentation_Analysts",
+        "url": "https://shareholdersandinvestors.bbva.com/wp-content/uploads/2026/07/2Q26-ENG-Earnings-Presentation_Analysts.pdf",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "BBVA earns \u20ac6.05B and launches \u20ac2B buyback | BBVA SEC Filing - Form 6-K",
+        "url": "https://www.stocktitan.net/sec-filings/BBVA/6-k-banco-bilbao-vizcaya-argentaria-s-a-current-report-foreign-issuer-0bcff59f849d.html",
+        "publisher": "stocktitan.net",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "2Q26 Report Business Areas Rest of Business - Accionistas e Inversiones en Bolsa, Analistas de Mercados y Financieros \u2013 BBVA",
+        "url": "https://shareholdersandinvestors.bbva.com/informes/2q26-report-business-areas-rest-of-business/",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": null,
+        "stream": null,
+        "query": "Banco Bilbao Vizcaya Argentaria, S.A. (BBVA) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "BBVA: Business Segments and Geographical Breakdown of Revenue",
+        "url": "https://www.marketscreener.com/quote/stock/BBVA-69719/finances-segments/",
+        "publisher": "marketscreener.com",
+        "source_date": "2026-05-27",
+        "age_days": 116,
+        "lens": null,
+        "stream": null,
+        "query": "BBVA stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "R73.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/842180/000084218025000010/R73.htm",
+        "publisher": "sec.gov",
+        "source_date": "2024-12-31",
+        "age_days": 628,
+        "lens": null,
+        "stream": null,
+        "query": "BBVA stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Quarterly Report_4T25",
+        "url": "https://www.bbva.com/wp-content/uploads/2026/02/January-December-2025-Report.pdf",
+        "publisher": "bbva.com",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": null,
+        "stream": null,
+        "query": "BBVA stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Quarterly Report_4T25",
+        "url": "https://shareholdersandinvestors.bbva.com/wp-content/uploads/2026/02/January-December-Report-2025.pdf",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": null,
+        "stream": null,
+        "query": "BBVA stock revenue by segment breakdown percentage of total revenue"
+      }
+    ],
+    "results_count": 18,
+    "streams": [
+      {
+        "name": "Net interest income",
+        "what_it_is": "Interest earned on loans and other assets minus interest paid to depositors and creditors.",
+        "revenue_share": 0.7164,
+        "revenue_share_basis": "derived",
+        "amount": "\u20ac15.16 billion in 1H2026",
+        "customer": "Borrowers and depositors",
+        "quote": "Net interest income reached \u20ac15.16 billion (up 18.8 percent)",
+        "url": "https://www.stocktitan.net/sec-filings/BBVA/6-k-banco-bilbao-vizcaya-argentaria-s-a-current-report-foreign-issuer-0bcff59f849d.html",
+        "publisher": "stocktitan.net",
+        "as_of": "2026-08-05",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Fees and commissions",
+        "what_it_is": "Fees from banking services such as payments, cards, and asset management.",
+        "revenue_share": 0.216,
+        "revenue_share_basis": "derived",
+        "amount": "\u20ac4.57 billion in 1H2026",
+        "customer": "Banking customers",
+        "quote": "fees and commissions \u20ac4.57 billion (up 15.8 percent)",
+        "url": "https://www.stocktitan.net/sec-filings/BBVA/6-k-banco-bilbao-vizcaya-argentaria-s-a-current-report-foreign-issuer-0bcff59f849d.html",
+        "publisher": "stocktitan.net",
+        "as_of": "2026-08-05",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Net trading income",
+        "what_it_is": "Trading income from financial markets activities, reported for Rest of Business.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": "\u20ac300M in 6M26 for Rest of Business",
+        "customer": "Financial market counterparties",
+        "quote": "Net trading income | 300 | 66.9 | 66.5 | 180",
+        "url": "https://shareholdersandinvestors.bbva.com/informes/2q26-report-business-areas-rest-of-business/",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "as_of": "2026-06-01",
+        "grounded_by": "search"
+      }
+    ],
+    "dropped": [],
+    "description": "BBVA is a bank providing retail, wholesale, investment, and transaction banking, plus financial, insurance, asset management, and capital markets services across Spain, Mexico, Turkey, South America, Europe, the US, and Asia. It earns money primarily from net interest income and fees and commissions, with additional net trading income. In 1H2026, net interest income was \u20ac15.16 billion and fees and commissions were \u20ac4.57 billion, lifting gross income to \u20ac21.16 billion.",
+    "customer_concentration": null,
+    "notes": "Net interest income and fees and commissions grew year-over-year in 1H2026, supported by loan growth of 17.7% at constant exchange rates.",
+    "split_basis": "revenue_type",
+    "geography": "The company reports business areas including Spain, Mexico, Turkey, South America, Rest of Business, and Corporate Center."
+  },
+  "trends": {
+    "queries": [
+      {
+        "q": "BBVA Mexico banking sector loan demand 2026 industry report",
+        "lens": "demand",
+        "stream": "Net interest income"
+      },
+      {
+        "q": "2026 SME credit demand survey Europe Latin America banking association",
+        "lens": "demand",
+        "stream": "Net interest income"
+      },
+      {
+        "q": "2026 consumer payments cards wealth management fee demand market research",
+        "lens": "demand",
+        "stream": "Fees and commissions"
+      },
+      {
+        "q": "2026 bank branch digital channel shift retail banking distribution report",
+        "lens": "sold",
+        "stream": null
+      },
+      {
+        "q": "2026 banking fee pricing models interchange regulation Europe Mexico trade press",
+        "lens": "sold",
+        "stream": "Fees and commissions"
+      },
+      {
+        "q": "2026 institutional trading platform distribution market report fixed income FX",
+        "lens": "sold",
+        "stream": "Net trading income"
+      },
+      {
+        "q": "2026 bank funding costs deposit competition net interest margin outlook",
+        "lens": "made",
+        "stream": "Net interest income"
+      },
+      {
+        "q": "2026 bank regulatory compliance costs capital requirements Basel III implementation",
+        "lens": "made",
+        "stream": null
+      },
+      {
+        "q": "Net interest income Banks - Diversified market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Net interest income"
+      },
+      {
+        "q": "Fees and commissions Banks - Diversified market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Fees and commissions"
+      },
+      {
+        "q": "Net trading income Banks - Diversified market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Net trading income"
+      }
+    ],
+    "searched": [
+      {
+        "query": "BBVA Mexico banking sector loan demand 2026 industry report",
+        "lens": "demand",
+        "stream": "Net interest income",
+        "results": 5
+      },
+      {
+        "query": "2026 SME credit demand survey Europe Latin America banking association",
+        "lens": "demand",
+        "stream": "Net interest income",
+        "results": 5
+      },
+      {
+        "query": "2026 consumer payments cards wealth management fee demand market research",
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "results": 5
+      },
+      {
+        "query": "2026 bank branch digital channel shift retail banking distribution report",
+        "lens": "sold",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "2026 banking fee pricing models interchange regulation Europe Mexico trade press",
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "results": 5
+      },
+      {
+        "query": "2026 institutional trading platform distribution market report fixed income FX",
+        "lens": "sold",
+        "stream": "Net trading income",
+        "results": 5
+      },
+      {
+        "query": "2026 bank funding costs deposit competition net interest margin outlook",
+        "lens": "made",
+        "stream": "Net interest income",
+        "results": 5
+      },
+      {
+        "query": "2026 bank regulatory compliance costs capital requirements Basel III implementation",
+        "lens": "made",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "Net interest income Banks - Diversified market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Net interest income",
+        "results": 5
+      },
+      {
+        "query": "Fees and commissions Banks - Diversified market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "results": 5
+      },
+      {
+        "query": "Net trading income Banks - Diversified market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Net trading income",
+        "results": 5
+      }
+    ],
+    "results": [
+      {
+        "title": "2Q26 Report Business Areas Mexico - Accionistas e Inversiones en Bolsa, Analistas de Mercados y Financieros \u2013 BBVA",
+        "url": "https://shareholdersandinvestors.bbva.com/informes/2q26-report-business-areas-mexico/",
+        "publisher": "shareholdersandinvestors.bbva.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "BBVA Mexico banking sector loan demand 2026 industry report"
+      },
+      {
+        "title": "Mexico | Banking outlook. May 2026. | BBVA Research",
+        "url": "https://www.bbvaresearch.com/en/publicaciones/mexico-banking-outlook-may-2026/",
+        "publisher": "bbvaresearch.com",
+        "source_date": "2026-06-05",
+        "age_days": 107,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "BBVA Mexico banking sector loan demand 2026 industry report"
+      },
+      {
+        "title": "BBVA Mexico Quarterly Report 2Q26",
+        "url": "https://investors.bbva.mx/wp-content/uploads/2026/07/BBVA-Mexico-Quarterly-Report-2Q26.pdf",
+        "publisher": "investors.bbva.mx",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "BBVA Mexico banking sector loan demand 2026 industry report"
+      },
+      {
+        "title": "Mexico | Monthly report on banking and the financial system. August 2026 | BBVA Research",
+        "url": "https://www.bbvaresearch.com/en/publicaciones/mexico-monthly-report-on-banking-and-the-financial-system-august-2026/",
+        "publisher": "bbvaresearch.com",
+        "source_date": "2026-08-21",
+        "age_days": 30,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "BBVA Mexico banking sector loan demand 2026 industry report"
+      },
+      {
+        "title": "Mexico | Monthly report on banking and the financial system. June 2026. | BBVA Research",
+        "url": "https://www.bbvaresearch.com/en/publicaciones/mexico-monthly-report-on-banking-and-the-financial-system-june-2026/",
+        "publisher": "bbvaresearch.com",
+        "source_date": "2026-06-19",
+        "age_days": 93,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "BBVA Mexico banking sector loan demand 2026 industry report"
+      },
+      {
+        "title": "Survey on the Access to Finance of Enterprises in the euro area - First quarter of 2026",
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/ecb.safe202604.en.html",
+        "publisher": "ecb.europa.eu",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "2026 SME credit demand survey Europe Latin America banking association"
+      },
+      {
+        "title": "Survey on the Access to Finance of Enterprises in the euro area - Second quarter of 2026",
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/ecb.safe202607.en.html",
+        "publisher": "ecb.europa.eu",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "2026 SME credit demand survey Europe Latin America banking association"
+      },
+      {
+        "title": "Central, Eastern and South-Eastern Europe (CESEE) Bank Lending Survey - First half of 2026",
+        "url": "https://www.eib.org/files/publications/20260118-180626-economics-cesee-bls-2026-h1-en.pdf",
+        "publisher": "eib.org",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "2026 SME credit demand survey Europe Latin America banking association"
+      },
+      {
+        "title": "The euro area bank lending survey - Second quarter of 2026",
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/bank_lending_survey/html/ecb.blssurvey2026q2~baa6b60429.et.html",
+        "publisher": "ecb.europa.eu",
+        "source_date": "2026-07-15",
+        "age_days": 67,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "2026 SME credit demand survey Europe Latin America banking association"
+      },
+      {
+        "title": "Visa Study: Small Business Banking Relationships Generate Up to 12 Times More Revenue Than Consumer Relationships in Europe  | Visa UK",
+        "url": "https://www.mynewsdesk.com/uk/visa/pressreleases/visa-study-small-business-banking-relationships-generate-up-to-12-times-more-revenue-than-consumer-relationships-in-europe-3465951",
+        "publisher": "mynewsdesk.com",
+        "source_date": "2026-09-08",
+        "age_days": 12,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "2026 SME credit demand survey Europe Latin America banking association"
+      },
+      {
+        "title": "2026 Findings from the Diary of Consumer Payment Choice",
+        "url": "https://frbservices.org/binaries/content/assets/crsocms/news/research/2026-diary-consumer-payments-choice.pdf",
+        "publisher": "frbservices.org",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "2026 consumer payments cards wealth management fee demand market research"
+      },
+      {
+        "title": "Hard-Cover_Landscape-Template",
+        "url": "https://www.capgemini.com/wp-content/uploads/2025/09/WPR_2026_Final-2MB-version-1.pdf",
+        "publisher": "capgemini.com",
+        "source_date": "2025-09-01",
+        "age_days": 384,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "2026 consumer payments cards wealth management fee demand market research"
+      },
+      {
+        "title": "Credit Card Databook 2026 | Javelin",
+        "url": "https://javelinstrategy.com/research/credit-card-databook-2026",
+        "publisher": "javelinstrategy.com",
+        "source_date": "2026-01-26",
+        "age_days": 237,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "2026 consumer payments cards wealth management fee demand market research"
+      },
+      {
+        "title": "The State of Card Payments 2026",
+        "url": "https://www.emarketer.com/content/state-of-card-payments-2026",
+        "publisher": "emarketer.com",
+        "source_date": "2026-04-02",
+        "age_days": 171,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "2026 consumer payments cards wealth management fee demand market research"
+      },
+      {
+        "title": "US Consumer Payment Method Trends 2026",
+        "url": "https://www.emarketer.com/content/us-consumer-payment-method-trends-2026",
+        "publisher": "emarketer.com",
+        "source_date": "2026-02-06",
+        "age_days": 226,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "2026 consumer payments cards wealth management fee demand market research"
+      },
+      {
+        "title": "7 top distribution trends reshaping retail banking in Europe",
+        "url": "https://www.oliverwyman.com/our-expertise/insights/2026/apr/key-retail-banking-distribution-trends-europe-2026.html",
+        "publisher": "oliverwyman.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 bank branch digital channel shift retail banking distribution report"
+      },
+      {
+        "title": "2026 Future of Branch Banking - Digital Banking Report",
+        "url": "https://www.digitalbankingreport.com/trends/2026-future-of-branch-banking/",
+        "publisher": "digitalbankingreport.com",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 bank branch digital channel shift retail banking distribution report"
+      },
+      {
+        "title": "2026 Retail Banking Trends and Priorities - Digital Banking Report",
+        "url": "https://www.digitalbankingreport.com/trends/2026-retail-banking-trends-and-priorities/",
+        "publisher": "digitalbankingreport.com",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 bank branch digital channel shift retail banking distribution report"
+      },
+      {
+        "title": "Accenture Top Banking Trends 2026: Unconstrained Banking",
+        "url": "https://www.accenture.com/content/dam/accenture/final/industry/banking/document/Banking-Top-Trends-FY26-Report-Final.pdf",
+        "publisher": "accenture.com",
+        "source_date": "2025-12-17",
+        "age_days": 277,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 bank branch digital channel shift retail banking distribution report"
+      },
+      {
+        "title": "2026 DIGITAL BANKING",
+        "url": "https://www.prosightfa.org/wp-content/uploads/2026/06/Alkami-Research_Report_Cornerstone-Digital-Banking-Performance-Metrics_2026.pdf",
+        "publisher": "prosightfa.org",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 bank branch digital channel shift retail banking distribution report"
+      },
+      {
+        "title": "Banxico, CNBV Propose Phase-In Caps on Card Interchange Fees",
+        "url": "https://mexicobusiness.news/finance/news/banxico-cnbv-propose-phase-caps-card-interchange-fees",
+        "publisher": "mexicobusiness.news",
+        "source_date": "2025-10-01",
+        "age_days": 354,
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "query": "2026 banking fee pricing models interchange regulation Europe Mexico trade press"
+      },
+      {
+        "title": "Mexico Pairs a Digital-Payments Bill With a Card-Fee and Terminal Proposal | Clarqo News",
+        "url": "https://clarqo.com/2026/09/17/mexico-pairs-a-digital-payments-bill-with-a-card-fee-and-terminal-proposal/",
+        "publisher": "clarqo.com",
+        "source_date": "2026-09-17",
+        "age_days": 3,
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "query": "2026 banking fee pricing models interchange regulation Europe Mexico trade press"
+      },
+      {
+        "title": "PS26/1 Market review of card scheme and processing fees: Final decision",
+        "url": "https://www.psr.org.uk/media/kajnh5wc/ps26-1-final-decision-itc-and-pg-jul-2026-v3.pdf",
+        "publisher": "psr.org.uk",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "query": "2026 banking fee pricing models interchange regulation Europe Mexico trade press"
+      },
+      {
+        "title": "Reduction of interchange fees at gas stations | CNBV and Banxico Resolution 2026",
+        "url": "https://santamarinasteta.mx/en/publicaciones-y-eventos/updates/cuotas-intercambio-gasolineras-mexico-2026/",
+        "publisher": "santamarinasteta.mx",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "query": "2026 banking fee pricing models interchange regulation Europe Mexico trade press"
+      },
+      {
+        "title": "Banxico and regulators revisit card-payment reform: seeking consensus to cut fees without slowing digitalization | PesoMXN.com",
+        "url": "https://www.pesomxn.com/en/news/108269-a0ac08-be57ce-bfefa5-216120/banxico-and-regulators-revisit-card-payment-reform-seeking-consensus-to-cut-fees-without-slowing-digitalization",
+        "publisher": "pesomxn.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "query": "2026 banking fee pricing models interchange regulation Europe Mexico trade press"
+      },
+      {
+        "title": "Buyer\u2019s Guide: Institutional FX Trading Solutions 2026 - GreySpark Partners",
+        "url": "https://www.greyspark.com/report/buyers-guide-institutional-fx-trading-solutions-2026/",
+        "publisher": "greyspark.com",
+        "source_date": "2026-05-26",
+        "age_days": 117,
+        "lens": "sold",
+        "stream": "Net trading income",
+        "query": "2026 institutional trading platform distribution market report fixed income FX"
+      },
+      {
+        "title": "Future of FX Report - Integral",
+        "url": "https://www.integral.com/future-of-fx-report/",
+        "publisher": "integral.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Net trading income",
+        "query": "2026 institutional trading platform distribution market report fixed income FX"
+      },
+      {
+        "title": "Technology Report: From Ops to",
+        "url": "https://www.ltxtrading.com/assets/docs/tabbforum-2026-fixed-income-trading-technology-report.pdf",
+        "publisher": "ltxtrading.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "sold",
+        "stream": "Net trading income",
+        "query": "2026 institutional trading platform distribution market report fixed income FX"
+      },
+      {
+        "title": "Fixed income set for volatile 2026",
+        "url": "https://fsa.valantic.com/wp-content/uploads/2026/06/2026-FIENR-Report-Final.pdf",
+        "publisher": "fsa.valantic.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "sold",
+        "stream": "Net trading income",
+        "query": "2026 institutional trading platform distribution market report fixed income FX"
+      },
+      {
+        "title": "EMBRACING COMPLEXITY",
+        "url": "https://www.jpmorgan.com/content/dam/jpmorgan/documents/markets/Report_Embracing_Complexity.pdf",
+        "publisher": "jpmorgan.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Net trading income",
+        "query": "2026 institutional trading platform distribution market report fixed income FX"
+      },
+      {
+        "title": "2026 banking and capital markets outlook | Deloitte Insights",
+        "url": "https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook.html",
+        "publisher": "deloitte.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "made",
+        "stream": "Net interest income",
+        "query": "2026 bank funding costs deposit competition net interest margin outlook"
+      },
+      {
+        "title": "Quarterly Banking Profile 2026 Quarter 2",
+        "url": "https://www.fdic.gov/quarterly-banking-profile/quarterly-banking-profile-second-quarter-2026.pdf",
+        "publisher": "fdic.gov",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": "made",
+        "stream": "Net interest income",
+        "query": "2026 bank funding costs deposit competition net interest margin outlook"
+      },
+      {
+        "title": "Why USB, PNC and TFC Show Deposit Competition Is Cooling as an S&P 500 Banking Theme",
+        "url": "https://kalkine.com/news/financial/why-usb-pnc-and-tfc-show-deposit-competition-is-cooling-as-an-sp-500-banking-theme",
+        "publisher": "kalkine.com",
+        "source_date": "2026-09-16",
+        "age_days": 4,
+        "lens": "made",
+        "stream": "Net interest income",
+        "query": "2026 bank funding costs deposit competition net interest margin outlook"
+      },
+      {
+        "title": "[JPM] JPMorganChase: Can Deposit Growth Offset Margin Pressure? | drillr",
+        "url": "https://drillr.ai/article/jpm-deposit-growth-net-interest-margin-2026",
+        "publisher": "drillr.ai",
+        "source_date": "2026-09-14",
+        "age_days": 6,
+        "lens": "made",
+        "stream": "Net interest income",
+        "query": "2026 bank funding costs deposit competition net interest margin outlook"
+      },
+      {
+        "title": "'Built for Higher Rates' Bank Stocks Rest on a Repricing Gap That Is Now Closing",
+        "url": "https://www.ainvest.com/news/built-higher-rates-bank-stocks-rest-repricing-gap-closing-2609/",
+        "publisher": "ainvest.com",
+        "source_date": "2026-09-13",
+        "age_days": 7,
+        "lens": "made",
+        "stream": "Net interest income",
+        "query": "2026 bank funding costs deposit competition net interest margin outlook"
+      },
+      {
+        "title": "Board memo: Basel III proposal, GSIB surcharge proposal, and standardized approach proposal",
+        "url": "http://federalreserve.gov/aboutthefed/boardmeetings/files/board-memo-basel-gsib-standardized-approach-20260319.pdf",
+        "publisher": "federalreserve.gov",
+        "source_date": "2026-03-19",
+        "age_days": 185,
+        "lens": "made",
+        "stream": null,
+        "query": "2026 bank regulatory compliance costs capital requirements Basel III implementation"
+      },
+      {
+        "title": "US Basel III Proposal",
+        "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/campaigns/documents/ey-us-basel-iii-proposal-what-the-changes-mean.pdf",
+        "publisher": "ey.com",
+        "source_date": "2026-03-19",
+        "age_days": 185,
+        "lens": "made",
+        "stream": null,
+        "query": "2026 bank regulatory compliance costs capital requirements Basel III implementation"
+      },
+      {
+        "title": "Bank Regulatory Capital | Sullivan & Cromwell LLP",
+        "url": "https://www.sullcrom.com/insights/memo/2026/March/Banking-Agencies-Release-Basel-III-GSIB-Surcharge-Revised-Standardized-Approach-Proposals",
+        "publisher": "sullcrom.com",
+        "source_date": "2026-06-18",
+        "age_days": 94,
+        "lens": "made",
+        "stream": null,
+        "query": "2026 bank regulatory compliance costs capital requirements Basel III implementation"
+      },
+      {
+        "title": "Agencies\u2019 Capital Proposals Seek to Reduce Regulatory Burden and Extend Capital Relief to the Banking Industry at Large | Advisories |  Arnold & Porter",
+        "url": "https://www.arnoldporter.com/en/perspectives/advisories/2026/03/agencies-capital-proposals-seek-to-reduce-regulatory-burden",
+        "publisher": "arnoldporter.com",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "made",
+        "stream": null,
+        "query": "2026 bank regulatory compliance costs capital requirements Basel III implementation"
+      },
+      {
+        "title": "Basel III Endgame, Take Two: 8 Key Takeaways from the Federal Banking Agencies\u2019 Capital Re-Proposals | Freshfields",
+        "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/basel-iii-endgame-take-two-8-key-takeaways-from-the-federal-banking-agencies-c-102mnm3",
+        "publisher": "freshfields.com",
+        "source_date": "2026-06-18",
+        "age_days": 94,
+        "lens": "made",
+        "stream": null,
+        "query": "2026 bank regulatory compliance costs capital requirements Basel III implementation"
+      },
+      {
+        "title": "Large U.S. Banks: 4Q25\u20131Q26 Performance Review - Evalueserve",
+        "url": "https://www.evalueserve.com/blog/large-us-banks-performance-evolution-over-the-last-two-quarters-4q25-1q26/",
+        "publisher": "evalueserve.com",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "Net interest income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "FDIC Quarterly Banking Profile Second Quarter 2026 | FDIC.gov",
+        "url": "https://www.fdic.gov/news/speeches/2026/fdic-quarterly-banking-profile-second-quarter-2026",
+        "publisher": "fdic.gov",
+        "source_date": "2026-08-25",
+        "age_days": 26,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "Net interest income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Wells Fargo Expects 2026 NII to Reach $50B: What's Fueling Growth?",
+        "url": "https://www.nasdaq.com/articles/wells-fargo-expects-2026-nii-reach-50b-whats-fueling-growth",
+        "publisher": "nasdaq.com",
+        "source_date": "2026-01-19",
+        "age_days": 244,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "Net interest income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Associated Banc-Corp projects near-20% 2026 loan growth | ASB 8-K Filing",
+        "url": "https://www.stocktitan.net/sec-filings/ASB/8-k-associated-banc-corp-reports-material-event-c951f1f5b544.html",
+        "publisher": "stocktitan.net",
+        "source_date": "2026-09-14",
+        "age_days": 6,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "Net interest income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "KeyCorp outlines 2026 outlook, eyes ~8% revenue gain | KEY 8-K Filing",
+        "url": "https://www.stocktitan.net/sec-filings/KEY/8-k-keycorp-new-reports-material-event-38f11cea1262.html",
+        "publisher": "stocktitan.net",
+        "source_date": "2026-09-14",
+        "age_days": 6,
+        "lens": "demand",
+        "stream": "Net interest income",
+        "query": "Net interest income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "2026 banking and capital markets outlook | Deloitte Insights",
+        "url": "https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook.html",
+        "publisher": "deloitte.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "Fees and commissions Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Building a stronger non-interest revenue engine in commercial banking | Simon-Kucher",
+        "url": "https://www.simon-kucher.com/en/insights/building-stronger-non-interest-revenue-engine-commercial-banking",
+        "publisher": "simon-kucher.com",
+        "source_date": "2026-07-31",
+        "age_days": 51,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "Fees and commissions Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Commercial banks in 2026:",
+        "url": "https://www.greenwich.com/file/171809/download?token=NpNvB8eY",
+        "publisher": "greenwich.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "Fees and commissions Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Global Banking Trends 2026 copy",
+        "url": "https://www.zensar.com/assets/files/1LYnWXvlYsXmaMemZsWZJO/Global-Banking-Trends-2026.pdf",
+        "publisher": "zensar.com",
+        "source_date": "2025-11-01",
+        "age_days": 323,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "Fees and commissions Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Global Banking 2026: Precision, Speed, and the Fight for Customer Relevance | The Ledger Review",
+        "url": "https://theledgerreview.com/the-review/global-banking-2026-precision-speed-customer-relevance",
+        "publisher": "theledgerreview.com",
+        "source_date": "2026-09-05",
+        "age_days": 15,
+        "lens": "demand",
+        "stream": "Fees and commissions",
+        "query": "Fees and commissions Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "CIBC Announces Third Quarter 2026 Results",
+        "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326newsrelease-en.pdf",
+        "publisher": "cibc.com",
+        "source_date": "2026-09-10",
+        "age_days": 10,
+        "lens": "demand",
+        "stream": "Net trading income",
+        "query": "Net trading income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "UBS reports 2Q26 net profit of USD 2.8bn and USD 5.8bn for 1H26 with robust momentum across businesses; Group invested assets at USD 7.3trn",
+        "url": "https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2026/2q26/2q26-media-release-en.pdf",
+        "publisher": "ubs.com",
+        "source_date": "2026-07-29",
+        "age_days": 53,
+        "lens": "demand",
+        "stream": "Net trading income",
+        "query": "Net trading income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Financial report 2026 - January - June",
+        "url": "https://www.santander.com/content/dam/santander-com/en/documentos/resultados-trimestrales/2026/q2/rt-q2-2026-banco-santander-financial-report-en.pdf",
+        "publisher": "santander.com",
+        "source_date": "2026-07-22",
+        "age_days": 60,
+        "lens": "demand",
+        "stream": "Net trading income",
+        "query": "Net trading income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "Scotiabank reports third quarter results - Aug 25, 2026",
+        "url": "https://scotiabank.investorroom.com/2026-08-25-Scotiabank-reports-third-quarter-results",
+        "publisher": "scotiabank.investorroom.com",
+        "source_date": "2026-08-25",
+        "age_days": 26,
+        "lens": "demand",
+        "stream": "Net trading income",
+        "query": "Net trading income Banks - Diversified market growth demand outlook 2026"
+      },
+      {
+        "title": "HSBC Holdings plc - Interim Report 2026",
+        "url": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2026/interim/pdfs/hsbc-holdings-plc/260804-hsbc-holdings-plc-interim-report-2026.pdf",
+        "publisher": "hsbc.com",
+        "source_date": "2026-09-15",
+        "age_days": 5,
+        "lens": "demand",
+        "stream": "Net trading income",
+        "query": "Net trading income Banks - Diversified market growth demand outlook 2026"
+      }
+    ],
+    "results_count": 55,
+    "trends": [
+      {
+        "lens": "demand",
+        "stream": "Net interest income",
+        "claim": "Mexican bank deposits and lending regained momentum in June 2026, with credit growing 3.0% and deposits 3.1% in real annual terms.",
+        "direction": "tailwind",
+        "why": "Higher loan and deposit volumes expand BBVA Mexico's net interest income base.",
+        "quote": "In June 2026, bank deposits and lending in Mexico showed greater momentum, driven by time deposits and consumer credit.",
+        "url": "https://www.bbvaresearch.com/en/publicaciones/mexico-monthly-report-on-banking-and-the-financial-system-august-2026/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "3.0% credit and 3.1% deposit real annual growth; no absolute size.",
+        "speed": 5,
+        "speed_basis": "June 2026 data, already visible.",
+        "impact": 4,
+        "impact_basis": "Mexico NII is core; NII is 71.6% of revenue.",
+        "theme_key": "deposit-and-loan-growth",
+        "theme_label": "Deposit and loan growth",
+        "theme_definition": "Bank deposits and lending expand, supporting net interest income for banks.",
+        "as_of": "2026-08-21",
+        "age_days": 30,
+        "stale": false,
+        "publisher": "bbvaresearch.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "Net interest income",
+        "claim": "Mexican non-financial private sector credit slowed to 1.3% real annual in April 2026, with corporate lending negative for a fourth quarter.",
+        "direction": "headwind",
+        "why": "Slower loan growth limits BBVA Mexico's interest-earning asset expansion.",
+        "quote": "In April 2026, the outstanding credit to the non-financial private sector continued to slow, reaching 1.3% in real annual terms",
+        "url": "https://www.bbvaresearch.com/en/publicaciones/mexico-monthly-report-on-banking-and-the-financial-system-june-2026/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "1.3% real annual credit growth; no absolute size.",
+        "speed": 5,
+        "speed_basis": "April 2026 data, already visible.",
+        "impact": 4,
+        "impact_basis": "Mexico loan growth feeds NII, 71.6% of revenue.",
+        "theme_key": "commercial-credit-demand",
+        "theme_label": "Commercial credit demand",
+        "theme_definition": "Demand for commercial credit from businesses rises or falls, affecting bank loan growth.",
+        "as_of": "2026-06-19",
+        "age_days": 93,
+        "stale": false,
+        "publisher": "bbvaresearch.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "Net interest income",
+        "claim": "Euro area banks reported moderate net tightening of corporate credit standards in Q2 2026, with a net 7% of banks tightening.",
+        "direction": "headwind",
+        "why": "Tighter credit standards restrain loan supply and volume growth in BBVA's European markets.",
+        "quote": "euro area banks reported a moderate net tightening of credit standards for loans or credit lines to firms (net percentage of banks of 7%",
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/bank_lending_survey/html/ecb.blssurvey2026q2~baa6b60429.et.html",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "Net 7% of banks tightening; no absolute size.",
+        "speed": 5,
+        "speed_basis": "Q2 2026 survey, already visible.",
+        "impact": 3,
+        "impact_basis": "European corporate lending is a minority of BBVA's NII.",
+        "theme_key": "commercial-lending-standards-tightening",
+        "theme_label": "Commercial lending standards tightening",
+        "theme_definition": "Banks tighten credit standards for commercial loans, restraining loan supply and volume.",
+        "as_of": "2026-07-15",
+        "age_days": 67,
+        "stale": false,
+        "publisher": "ecb.europa.eu",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "European SMB banking customers generate up to 12 times more annual revenue than consumer customers, per Visa study in September 2026.",
+        "direction": "tailwind",
+        "why": "Capturing SMB primary relationships lifts fee and interest revenue per customer.",
+        "quote": "Small business banking customers generate up to 12 times more annual revenue for financial institutions than traditional consumer customers in Europe",
+        "url": "https://www.mynewsdesk.com/uk/visa/pressreleases/visa-study-small-business-banking-relationships-generate-up-to-12-times-more-revenue-than-consumer-relationships-in-europe-3465951",
+        "source_type": "company",
+        "size": 3,
+        "size_basis": "12x revenue multiple; no market size.",
+        "speed": 3,
+        "speed_basis": "September 2026 study; opportunity not yet realized.",
+        "impact": 3,
+        "impact_basis": "SMB is a material but minority customer segment.",
+        "theme_key": "smb-banking-switching-intent",
+        "theme_label": "SMB banking switching intent",
+        "theme_definition": "Small and medium businesses reconsider primary banking relationships, creating share-shift opportunities.",
+        "as_of": "2026-09-08",
+        "age_days": 12,
+        "stale": false,
+        "publisher": "mynewsdesk.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "claim": "Mexico's Banxico and CNBV proposed phased caps on credit and debit card interchange fees in August 2026.",
+        "direction": "headwind",
+        "why": "Lower interchange fees reduce card payment fee revenue for BBVA Mexico.",
+        "quote": "proposed updated regulations establishing phased caps on credit and debit card interchange fees",
+        "url": "https://mexicobusiness.news/finance/news/banxico-cnbv-propose-phase-caps-card-interchange-fees",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "No market size; caps at 1.30% and MX$10.80.",
+        "speed": 4,
+        "speed_basis": "Proposed August 2026; phased implementation.",
+        "impact": 4,
+        "impact_basis": "Card fees are part of 21.6% fee revenue; Mexico is key.",
+        "theme_key": "card-interchange-fee-caps",
+        "theme_label": "Card interchange fee caps",
+        "theme_definition": "Regulators cap card interchange fees, reducing issuer payment fee revenue.",
+        "as_of": "2025-10-01",
+        "age_days": 354,
+        "stale": false,
+        "publisher": "mexicobusiness.news",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "Fees and commissions",
+        "claim": "Stablecoins backed by new US legislation are emerging as a disruptive force in payments as of July 2026.",
+        "direction": "headwind",
+        "why": "Stablecoin payments could bypass bank rails and erode card and payment fee income.",
+        "quote": "The payments landscape also seems to be at a crossroads. Stablecoins, backed by the new Guiding and Establishing National Innovation",
+        "url": "https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook.html",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "No magnitude in evidence.",
+        "speed": 3,
+        "speed_basis": "New legislation and emerging adoption; not yet in reported numbers.",
+        "impact": 3,
+        "impact_basis": "Threatens payment fees, 21.6% of BBVA revenue.",
+        "theme_key": "stablecoin-disintermediation",
+        "theme_label": "Stablecoin disruption in banking",
+        "theme_definition": "Stablecoins enable payments outside bank rails, threatening bank payment fees.",
+        "as_of": "2026-07-01",
+        "age_days": 81,
+        "stale": false,
+        "publisher": "deloitte.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "Nonbank competition is forcing banks to defend margins and diversify fee income as of July 2026.",
+        "direction": "headwind",
+        "why": "Nonbanks compete for loans, deposits, and payments, pressuring BBVA's spread and fee income.",
+        "quote": "Banks could be forced to defend margins, diversify fee income, and prepare for increased competition from nonbank entities.",
+        "url": "https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/banking-industry-outlook.html",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "No magnitude in evidence.",
+        "speed": 3,
+        "speed_basis": "Ongoing competitive shift; not quantified.",
+        "impact": 4,
+        "impact_basis": "Affects both NII and fees, most of BBVA revenue.",
+        "theme_key": "nonbank-competition-in-banking",
+        "theme_label": "Nonbank competition in banking",
+        "theme_definition": "Nonbank financial firms compete with banks for loans, deposits, and payments.",
+        "as_of": "2026-07-01",
+        "age_days": 81,
+        "stale": false,
+        "publisher": "deloitte.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "McKinsey's 2026 review warns fintechs and AI-driven disintermediation threaten banks' control of client relationships.",
+        "direction": "headwind",
+        "why": "Loss of customer ownership can reduce cross-sell and fee income across BBVA.",
+        "quote": "warns that a new generation of fintechs, AI-driven disintermediation, and shifting customer trust threaten banks' control of client relationships.",
+        "url": "https://theledgerreview.com/the-review/global-banking-2026-precision-speed-customer-relevance",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "No magnitude in evidence.",
+        "speed": 3,
+        "speed_basis": "2026 review; structural threat over 1-3 years.",
+        "impact": 4,
+        "impact_basis": "Threatens customer relationship across all revenue streams.",
+        "theme_key": "ai-disruption-banking-models",
+        "theme_label": "AI disruption in banking",
+        "theme_definition": "AI and fintechs disintermediate banks, threatening control of customer relationships.",
+        "as_of": "2026-09-05",
+        "age_days": 15,
+        "stale": false,
+        "publisher": "theledgerreview.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "Net trading income",
+        "claim": "Global FX daily trading volumes reached USD 9.6 trillion in 2025, supporting trading revenue in 2026.",
+        "direction": "tailwind",
+        "why": "Higher FX volumes increase client flow and trading income for BBVA's markets business.",
+        "quote": "daily trading volumes reaching USD 9.6 trillion in 2025",
+        "url": "https://www.greyspark.com/report/buyers-guide-institutional-fx-trading-solutions-2026/",
+        "source_type": "trade",
+        "size": 5,
+        "size_basis": "USD 9.6 trillion daily FX volume in 2025.",
+        "speed": 4,
+        "speed_basis": "2025 volume data reported May 2026.",
+        "impact": 3,
+        "impact_basis": "Net trading income share not disclosed; material but minority.",
+        "theme_key": "forex-market-volume-growth",
+        "theme_label": "Forex market volume growth",
+        "theme_definition": "Foreign exchange trading volumes grow, supporting bank trading revenue.",
+        "as_of": "2026-05-26",
+        "age_days": 117,
+        "stale": false,
+        "publisher": "greyspark.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "made",
+        "stream": "Net interest income",
+        "claim": "Commercial banks face pressure on spread income as loan repricing continues and funding-cost cuts run out in 2026.",
+        "direction": "headwind",
+        "why": "Narrower spreads directly reduce BBVA's largest revenue stream, net interest income.",
+        "quote": "continued repricing of loans and other earning assets is likely to increase pressure on spread income",
+        "url": "https://www.simon-kucher.com/en/insights/building-stronger-non-interest-revenue-engine-commercial-banking",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "No magnitude in evidence.",
+        "speed": 4,
+        "speed_basis": "July 2026 report; pressure expected as rates stabilize.",
+        "impact": 5,
+        "impact_basis": "NII is 71.6% of BBVA revenue.",
+        "theme_key": "net-interest-margin-compression",
+        "theme_label": "Net interest margin compression",
+        "theme_definition": "Falling rates and loan repricing compress bank net interest margins.",
+        "as_of": "2026-07-31",
+        "age_days": 51,
+        "stale": false,
+        "publisher": "simon-kucher.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "Digital transformation remains the top strategic focus for banks in 2026, driving technology spending.",
+        "direction": "two-sided",
+        "why": "Higher technology spend raises BBVA's cost base while potentially improving efficiency and distribution.",
+        "quote": "digital transformation remains the top focus",
+        "url": "https://www.digitalbankingreport.com/trends/2026-retail-banking-trends-and-priorities/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "No magnitude in evidence.",
+        "speed": 4,
+        "speed_basis": "2026 priorities report; current spending cycle.",
+        "impact": 3,
+        "impact_basis": "Affects operating expenses, not directly revenue.",
+        "theme_key": "banking-technology-spending-cycle",
+        "theme_label": "Banking technology spending cycle",
+        "theme_definition": "Banks increase technology spending on digital transformation and AI.",
+        "as_of": "2026-01-01",
+        "age_days": 262,
+        "stale": false,
+        "publisher": "digitalbankingreport.com",
+        "lens_label": "How it's made"
+      }
+    ],
+    "dropped": [
+      {
+        "lens": "sold",
+        "stream": "Net trading income",
+        "claim": "Fixed income markets saw record trading volumes and AI-driven change in 2026, reshaping bond trading.",
+        "direction": "two-sided",
+        "why": "Higher volumes lift trading revenue, but nonbank liquidity providers and AI pressure bank market share.",
+        "quote": "record trading volumes, the rise of non-bank liquidity providers, and rapid advances in artificial intelligence reshape how bonds are traded.",
+        "url": "https://www.ltxtrading.com/assets/docs/tabbforum-2026-fixed-income-trading-technology-report.pdf",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "No magnitude in evidence.",
+        "speed": 4,
+        "speed_basis": "2026 report calls it a tipping point.",
+        "impact": 3,
+        "impact_basis": "Net trading income share not disclosed; material but minority.",
+        "theme_key": "sales-and-trading-revenue-boom",
+        "theme_label": "Sales and trading revenue boom",
+        "theme_definition": "Trading volumes and volatility lift sales and trading revenue for banks.",
+        "drop_reason": "quote_not_found_in_retrieved_results"
+      }
+    ],
+    "by_lens": {
+      "demand": 3,
+      "sold": 6,
+      "made": 2
+    },
+    "coverage": {
+      "demand": 3,
+      "sold": 6,
+      "made": 2
+    },
+    "stale_dropped": 0
+  },
+  "errors": []
+}

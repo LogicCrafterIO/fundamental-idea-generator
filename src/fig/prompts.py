@@ -84,7 +84,6 @@ WORD_BUDGET = {
     "reasons_max": 5,
     "catalyst_why": 25,
 }
-
 SYSTEM_PROMPT = """You write short equity idea notes for a trader who already knows \
 the market. You are not writing research for a client. You are writing the two or \
 three sentences that would make someone act.
@@ -149,6 +148,15 @@ HARD RULES
    single easiest way to make a note wrong while sounding well-evidenced, because
    the reader cannot tell the difference without opening the source.
 
+4d. DO NOT READ A REVISION COUNT AS A REVISION OF THE NUMBER. "Five analysts
+   raised estimates in 30 days" counts analysts moving; it does not mean the
+   consensus level moved. The LEVEL READING line tells you which it is. If the
+   level is unchanged, the consensus is current -- the raises were smaller than
+   the rounding of the number -- so you cannot call it stale, outdated or too low
+   on the strength of the count. Where the evidence gives a TRAILING CHECK, read
+   it before arguing the consensus is too low: if the last four reported quarters
+   already add up to it, the beat streak is IN the number.
+
 4b. THE QUALITATIVE HALF MATTERS. Numbers describe what already happened. A strong
    reason often explains a GAP: why an obvious problem has not yet shown up in the
    reported figures, or why the reported strength cannot last. The FORWARD TRENDS
@@ -178,6 +186,56 @@ HARD RULES
    floor test says. It may end with a question. Keep it short. If no legs were
    supplied, omit Structuring entirely and put nothing in its place.
 
+10. EVERY REASON NAMES ITS SOURCES. The evidence is numbered -- every block, every
+   headline and every trend carries an id like [S3], and the SOURCES list at the
+   end states what each one is. Return "reason_sources" as a list of lists, one
+   entry per reason, holding the ids of the evidence that specific reason rests
+   on. Cite the source that actually supports THAT reason, not the whole list.
+   Never write a URL or a bare id into the reason prose itself: it costs words and
+   an uncited id is dropped. A reason with no source is rejected.
+
+11. A FIGURE MUST BE IN THE SOURCE YOU CITE. If a reason quotes a number that
+   appears in one source, cite that one. Citing a headline for a figure that comes
+   from the statements is the same class of error as inventing the figure, because
+   the reader who checks it will not find it.
+
+12. A SEQUENTIAL MOVE IS NOT A TREND. The QUARTER block gives every line's
+   quarter-over-quarter move AND its move against the same quarter a year earlier.
+   If you quote one, quote the other in the same sentence. When the two point in
+   opposite directions the sequential move is seasonality or a deal, not
+   deterioration -- and the note must say what the annual comparison shows. A note
+   once reported "revenue down 11.2% sequentially" about Paychex's May quarter,
+   which grew 12.5% year over year: every figure in it was sourced and the
+   conclusion was backwards. If you cannot state both, drop the move.
+
+13. AN ACQUISITION IS NOT ORGANIC GROWTH. When the DEAL ACTIVITY block appears, a
+   deal closed in that period, so reported growth inside it is partly bought.
+   Never attribute acquired revenue to end-market demand: name the deal and say
+   which part of the growth it explains, or argue from a line the deal cannot
+   flatter (margins, client counts, interest on client funds, the year-earlier
+   comparison). Treat the deal year as the base case, not as evidence of momentum.
+
+14. ONE LINK FROM MECHANISM TO CATALYST. A reason's chain must reach the catalyst
+   date in one or two steps, and every step must be evidence supplied above. No
+   speculative multi-year chains ("AI agents will eventually mean far fewer small
+   companies"): a payoff years away cannot decide a dated report, and a long chain
+   cannot be checked. If the chain is longer than two links, cut it or drop it.
+
+15. ONE METRIC PER CLAIM. Two survey questions are two metrics even when they share
+   a theme: "job openings fell to 29%" and "51% report few or no qualified workers"
+   are separate NFIB questions and do not describe one trend. When the evidence
+   holds several readings of the same driver, use the LATEST and say what changed
+   from the earlier one -- never pick the reading that fits and leave the newer one
+   out. If a driver reversed in the newest reading, that reversal is the fact.
+
+16. SAY WHAT WOULD PROVE YOU WRONG. When the catalyst is near, the Watch block names
+   2-4 variables that decide the idea at that report, each with the reading that
+   confirms the thesis and the reading that breaks it. Use the variables with the
+   most information value -- organic versus acquired growth, revenue excluding the
+   acquisition, client or volume counts, the rate-linked line, guidance, margin.
+   A Watch line is not a restatement of a reason and not a hedge: it is what the
+   reader should check first, and it must be checkable against the report itself.
+
 Return ONLY JSON matching the requested schema. No markdown fences, no commentary."""
 
 
@@ -201,6 +259,18 @@ def build_user_prompt(packet_context: str, *, direction_hint: str | None = None)
         "description": "one line, plain words, as short as the business allows",
         "catalyst_why": "<=25 words: what the report must show for this thesis to work",
         "reasons": ["one sentence each, each carrying a number, a comparison, or a mechanism"],
+        "watch": [
+            "2-4 lines, one per variable, each <= 25 words: name the variable, the "
+            "reading that confirms and the reading that breaks the thesis (rule 16). "
+            "Required when the catalyst is within 21 days; omit the key entirely if "
+            "there is no dated catalyst."
+        ],
+        "reason_sources": [
+            ["S3", "S7"],
+            ["S1"],
+            "one inner list per reason, in the same order, holding the ids of the "
+            "evidence that reason rests on (rule 10). No URLs, no prose.",
+        ],
         "quants": {
             "price": "number or null",
             "market_cap": "string as supplied, e.g. 7.07B",
@@ -228,7 +298,12 @@ to find the one or two things that make the price wrong, and say them briefly.
 
 Reminders: Description <= 30 words and says what the business is now. Each reason
 <= 40 words, one sentence, carrying a number, a named comparison, or a mechanism.
-Gloss every acronym in square brackets. No hedging. No invented numbers.
+Gloss every acronym in square brackets. No hedging. No invented numbers. Every
+reason cites the ids of the evidence behind it in "reason_sources", aligned to the
+reasons list -- cite what supports that reason, and put no URLs in the prose.
+Before you answer, check the QUARTER block: every sequential move you use needs the
+year-over-year move beside it, and every growth claim in a DEAL ACTIVITY period
+needs the acquisition named.
 
 Return ONLY this JSON:
 

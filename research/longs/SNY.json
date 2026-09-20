@@ -1,0 +1,758 @@
+{
+  "ticker": "SNY",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Biopharma and vaccines company; after selling Opella it is centred on Dupixent, specialty launches and vaccines.",
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "session": "before the open",
+    "days_out": 40,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.55716,
+      "eps_low": 1.53731,
+      "eps_high": 1.577,
+      "revenue_avg": 13186385670
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.14,
+        "eps_actual": 1.2,
+        "surprise_pct": 5.59,
+        "beat": true
+      },
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 1.03,
+        "eps_actual": 1.1,
+        "surprise_pct": 7.26,
+        "beat": true
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 0.85,
+        "eps_actual": 0.91,
+        "surprise_pct": 7.38,
+        "beat": true
+      },
+      {
+        "date": "2025-10-24",
+        "eps_estimate": 1.57,
+        "eps_actual": 1.69,
+        "surprise_pct": 8.14,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 92,
+    "facts_line": "2026-10-30 (Friday, before the open), 40 days out -- from the earnings calendar, consensus EPS 1.56.",
+    "why": "Q3 must show Dupixent and launch sales still compounding double digits, or the raised 2026 guidance and 8.5x forward multiple lose their support."
+  },
+  "reasons": [
+    "Q2 2026 sales rose 17.8% at constant rates while business EPS rose 33.3%, because pharma launches (+48.3% to EUR1.3bn) and Dupixent (+37.6% to EUR5.15bn) carry higher margins than the base.",
+    "Four biologics and three oral JAK [Janus kinase] inhibitors now sell in atopic dermatitis and seven in severe asthma, yet Dupixent grew 37.6% in Q2 because the new entrants have not yet taken share.",
+    "Sanofi is handing 20 mature medicines and three sites to Cheplapharm for a 26.4% equity stake, which lifts the growth rate of the remaining base because the slowest-selling products leave the revenue line."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S39",
+        "kind": "ollama_search",
+        "ref": "web:9",
+        "label": "sanofi.com: Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded",
+        "provider": "sanofi.com",
+        "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+        "date": "2026-07-30"
+      },
+      {
+        "id": "S41",
+        "kind": "ollama_search",
+        "ref": "web:11",
+        "label": "sanofi.com: Q2 2026 Sanofi Results EN Accessible Version",
+        "provider": "sanofi.com",
+        "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2026/2026-q2-2026-results/Q2_2026_Sanofi_Results_EN_ACCESSIBLE_VERSION.pdf",
+        "date": "2026-07-30"
+      },
+      {
+        "id": "S31",
+        "kind": "ollama_search",
+        "ref": "web:1",
+        "label": "stocktitan.net: Sanofi lifts 2026 outlook after strong Q2 growth | SNY SEC Filing - Form 6-K",
+        "provider": "stocktitan.net",
+        "url": "https://www.stocktitan.net/sec-filings/SNY/6-k-sanofi-current-report-foreign-issuer-d5f7e8dd0b94.html",
+        "date": "2026-01-01"
+      }
+    ],
+    [
+      {
+        "id": "S44",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "pharmadossier.com: As of July 2026, the atopic dermatitis market has expanded to four biologics and three oral JAK inhibitors, challenging Dupixent.",
+        "provider": "pharmadossier.com",
+        "url": "https://pharmadossier.com/blog/atopic-dermatitis-systemic-access-landscape-dupixent-adbry-ebglyss-nemluvio-jak",
+        "date": "2026-07-16"
+      },
+      {
+        "id": "S45",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "pharmadossier.com: As of September 2026, seven FDA-approved biologics compete in severe asthma, including Dupixent.",
+        "provider": "pharmadossier.com",
+        "url": "https://pharmadossier.com/blog/severe-asthma-biologic-access-landscape",
+        "date": "2026-09-04"
+      },
+      {
+        "id": "S47",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "stockanalysis.com: In July 2026, Sanofi raised its 2030 ambitions for Dupixent, pharma launches, and vaccines.",
+        "provider": "stockanalysis.com",
+        "url": "https://stockanalysis.com/quote/epa/SAN/transcripts/550262-q2-2026/",
+        "date": "2026-07-30"
+      },
+      {
+        "id": "S39",
+        "kind": "ollama_search",
+        "ref": "web:9",
+        "label": "sanofi.com: Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded",
+        "provider": "sanofi.com",
+        "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+        "date": "2026-07-30"
+      }
+    ],
+    [
+      {
+        "id": "S13",
+        "kind": "nasdaq",
+        "ref": "news:8",
+        "label": "RTTNews: Sanofi To Receive 26.4% Stake In Cheplapharm For Mature Medicines",
+        "provider": null,
+        "url": "/articles/sanofi-receive-264-stake-cheplapharm-mature-medicines",
+        "date": "Sep 14, 20"
+      },
+      {
+        "id": "S26",
+        "kind": "yahoo",
+        "ref": "news:21",
+        "label": "Pharmaceutical Technology: Cheplapharm to take over 20 medicines and three sites from Sanofi",
+        "provider": "pharmaceutical-technology.com",
+        "url": "https://www.pharmaceutical-technology.com/news/cheplapharm-20-medicines-three-sites-sanofi/",
+        "date": "2026-09-15"
+      },
+      {
+        "id": "S30",
+        "kind": "ollama_search",
+        "ref": "web:0",
+        "label": "flash.stocksentinel.ai: Sanofi (SNY) Stock Research Report | Flash",
+        "provider": "flash.stocksentinel.ai",
+        "url": "https://flash.stocksentinel.ai/research/SNY",
+        "date": "2025-04-30"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SNY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SNY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "SNY quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sny/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "SNY earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: SNY Stock Trading Above 50- & 200-Day SMAs: Buy, Hold or Sell?",
+      "provider": null,
+      "url": "/articles/sny-stock-trading-above-50-200-day-smas-buy-hold-or-sell",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Top Stock Reports for NVIDIA, ExxonMobil & HSBC",
+      "provider": null,
+      "url": "/articles/top-stock-reports-nvidia-exxonmobil-hsbc",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "RTTNews: Novavax's XFG-Adapted Nuvaxovid Approved In U.S., EU, Japan For 2026-2027 Season",
+      "provider": null,
+      "url": "/articles/novavaxs-xfg-adapted-nuvaxovid-approved-us-eu-japan-2026-2027-season",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Eli Lilly to Buy Immunology Biotech Merida Biosciences in $2.9B Deal",
+      "provider": null,
+      "url": "/articles/eli-lilly-buy-immunology-biotech-merida-biosciences-29b-deal",
+      "date": "Sep 1, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: AbbVie's Immunology Franchise: From Skyrizi & Rinvoq to What's Next",
+      "provider": null,
+      "url": "/articles/abbvies-immunology-franchise-skyrizi-rinvoq-whats-next",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: GSK's Specialty Medicines Drive Growth Amid Looming HIV Patent Cliff",
+      "provider": null,
+      "url": "/articles/gsks-specialty-medicines-drive-growth-amid-looming-hiv-patent-cliff",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "RTTNews: Sanofi Partners With USA Pickleball On COVID-19 Protection Campaign",
+      "provider": null,
+      "url": "/articles/sanofi-partners-usa-pickleball-covid-19-protection-campaign",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Here's Why You Should Add NRIX Stock to Your Portfolio Now",
+      "provider": null,
+      "url": "/articles/heres-why-you-should-add-nrix-stock-your-portfolio-now",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "RTTNews: Sanofi To Receive 26.4% Stake In Cheplapharm For Mature Medicines",
+      "provider": null,
+      "url": "/articles/sanofi-receive-264-stake-cheplapharm-mature-medicines",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "RTTNews: Sanofi's C$925M Facility To Support 2027-28 Flu Vaccine Season",
+      "provider": null,
+      "url": "/articles/sanofis-c-925m-facility-support-2027-28-flu-vaccine-season",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is CRBP a Good Cannabis Investment After Positive Obesity Study Data?",
+      "provider": null,
+      "url": "/articles/crbp-good-cannabis-investment-after-positive-obesity-study-data",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "RTTNews: Bavarian Nordic Appoints Stenvall As President & CEO",
+      "provider": null,
+      "url": "/articles/bavarian-nordic-appoints-stenvall-president-ceo",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "RTTNews: Owkin Licenses K Pro AI Scientist And Multimodal Data To Boehringer Ingelheim",
+      "provider": null,
+      "url": "/articles/owkin-licenses-k-pro-ai-scientist-and-multimodal-data-boehringer-ingelheim",
+      "date": "Sep 2, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Does Moderna's mRNA Flu Shot Face a New Challenge From GSK?",
+      "provider": null,
+      "url": "/articles/does-modernas-mrna-flu-shot-face-new-challenge-gsk",
+      "date": "Sep 3, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
+      "provider": null,
+      "url": "/articles/vertex-vs-regeneron-which-biotech-giant-better-buy-right-now",
+      "date": "Sep 4, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "MarketBeat: Novavax Highlights Matrix-M Licensing Push, Oncology Ambitions at Cantor Conference",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/event-novavax-highlights-matrix-m-licensing-push-oncology-ambitions-at-cantor-conference-2026-09-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "MarketBeat: Novavax Highlights Sanofi, Pfizer Catalysts in Matrix-M Platform Pivot",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/event-novavax-highlights-sanofi-pfizer-catalysts-in-matrix-m-platform-pivot-2026-09-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Insider Monkey: Could Remibrutinib Become the Next $9 Billion Drug for Novartis?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/could-remibrutinib-become-next-9-004436427.html",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "MarketBeat: Regeneron Eyes 2026 Catalysts as EYLEA HD and DUPIXENT Drive Growth",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/event-regeneron-eyes-2026-catalysts-as-eylea-hd-and-dupixent-drive-growth-2026-09-12/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "MT Newswires: Sector Update: Healthcare Stocks Rise in Afternoon Trading",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-174953468.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "MarketBeat: Regeneron Highlights Dupixent Growth, Cemdisiran Catalysts and EYLEA HD Momentum",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/event-regeneron-highlights-dupixent-growth-cemdisiran-catalysts-and-eylea-hd-momentum-2026-09-14/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Pharmaceutical Technology: Cheplapharm to take over 20 medicines and three sites from Sanofi",
+      "provider": "pharmaceutical-technology.com",
+      "url": "https://www.pharmaceutical-technology.com/news/cheplapharm-20-medicines-three-sites-sanofi/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S27",
+      "kind": "yahoo",
+      "ref": "news:22",
+      "label": "Simply Wall St.: Sanofi (ENXTPA:SAN) Stock May Be Undervalued Despite Its Mature Medicines Deal",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sanofi-enxtpa-san-stock-may-111535423.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S28",
+      "kind": "yahoo",
+      "ref": "news:23",
+      "label": "Simply Wall St.: Do Novavax\u2019s (NVAX) New Partnerships Offset Policy Risks From The Protecting Approved Care Act?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/novavax-nvax-partnerships-offset-policy-051305726.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S29",
+      "kind": "yahoo",
+      "ref": "news:24",
+      "label": "MT Newswires: Sector Update: Healthcare Stocks Edge Lower Late Afternoon",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-edge-lower-194551510.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "flash.stocksentinel.ai: Sanofi (SNY) Stock Research Report | Flash",
+      "provider": "flash.stocksentinel.ai",
+      "url": "https://flash.stocksentinel.ai/research/SNY",
+      "date": "2025-04-30"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "stocktitan.net: Sanofi lifts 2026 outlook after strong Q2 growth | SNY SEC Filing - Form 6-K",
+      "provider": "stocktitan.net",
+      "url": "https://www.stocktitan.net/sec-filings/SNY/6-k-sanofi-current-report-foreign-issuer-d5f7e8dd0b94.html",
+      "date": "2026-01-01"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "circlfi.com: SNY Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/sny-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "vcpscanner.com: Sanofi (SNY) Estimates & Forecasts \u2014 EPS, Revenue & Price Targets (2026) | VCP Scanner",
+      "provider": "vcpscanner.com",
+      "url": "https://vcpscanner.com/valuation/sny/estimates",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "insidermonkey.com: Is Sanofi (SNY) A Good Stock To Buy Now? - Insider Monkey",
+      "provider": "insidermonkey.com",
+      "url": "https://www.insidermonkey.com/blog/is-sanofi-sny-a-good-stock-to-buy-now-1784987/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "stockanalysis.com: Sanofi (SNY) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/sny/forecast/",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "vcpscanner.com: SNY Price Target: $50 (+8%) | 27 Analyst Ratings 2026 | VCP Scanner",
+      "provider": "vcpscanner.com",
+      "url": "https://vcpscanner.com/stock/sny/price-target",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "seekingalpha.com: Sanofi: Stronger Launches And A New R&D Reset Keep The Re-Rating Case Alive (NASDAQ:SNY) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946915-sanofi-stronger-launches-and-a-new-r-and-d-reset-keep-the-re-rating-case-alive",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "sanofi.com: Business Finance Pipeline First reflections Appendices",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2026/2026-q2-2026-results/2026_07_30_Sanofi_Q2_2026_Results.pdf",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "sanofi.com: Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "sanofi.com: Second quarter 2026 results l Sanofi",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/en/investors/financial-results-and-events/financial-results/q2-2026-results",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "sanofi.com: Q2 2026 Sanofi Results EN Accessible Version",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2026/2026-q2-2026-results/Q2_2026_Sanofi_Results_EN_ACCESSIBLE_VERSION.pdf",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S42",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "ainvest.com: Sanofi's single-molecule problem",
+      "provider": "ainvest.com",
+      "url": "https://www.ainvest.com/news/sanofi-single-molecule-problem-2609/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "researchandmarkets.com: Global vaccine sales market is forecast to grow at 6.3% CAGR from 2026 to 2036.",
+      "provider": "researchandmarkets.com",
+      "url": "https://www.researchandmarkets.com/reports/5836014/vaccine-sales-market-report",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "pharmadossier.com: As of July 2026, the atopic dermatitis market has expanded to four biologics and three oral JAK inhibitors, challenging Dupixent.",
+      "provider": "pharmadossier.com",
+      "url": "https://pharmadossier.com/blog/atopic-dermatitis-systemic-access-landscape-dupixent-adbry-ebglyss-nemluvio-jak",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "pharmadossier.com: As of September 2026, seven FDA-approved biologics compete in severe asthma, including Dupixent.",
+      "provider": "pharmadossier.com",
+      "url": "https://pharmadossier.com/blog/severe-asthma-biologic-access-landscape",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "fiercepharma.com: As of March 2026, rare disease field faces a temperamental FDA and competition from obesity drugs.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/rare-disease-drug-sales-surge-past-400b-2032-despite-fda-volatility-evaluate-report",
+      "date": null
+    },
+    {
+      "id": "S47",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "stockanalysis.com: In July 2026, Sanofi raised its 2030 ambitions for Dupixent, pharma launches, and vaccines.",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/quote/epa/SAN/transcripts/550262-q2-2026/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S48",
+      "kind": "options",
+      "ref": "options",
+      "label": "SNY listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 42.48,
+    "market_cap": "101.79B",
+    "fwd_pe": 8.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.1,
+    "eps_trend": "slightly up over the last 7 days",
+    "eps_revisions": "all up, with 2 up and 0 down over last 30 days",
+    "extra": [
+      "EPS increased year over year, 0.91 -> 1.2"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "18-Dec-26",
+        "strike": 45.0,
+        "qty": 54,
+        "underlying": 42.48,
+        "multiplier": 100,
+        "price": 0.82,
+        "total": 4427.999999999999,
+        "open_interest": 965
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 45.0,
+        "qty": 17,
+        "underlying": 42.48,
+        "multiplier": 100,
+        "price": 0.33,
+        "total": -561.0,
+        "open_interest": 214
+      }
+    ],
+    "thesis_target": "Targets the 2026-10-30 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.",
+    "reflection": "The short call expires 2026-10-16, two weeks before the print, so the credit is banked but you carry the long into the catalyst with no cover. At 5.6% conservative the credit is thin against a 10% floor -- sell the ~14 extra contracts, or the position is a directional bet paying for itself."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 6,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "contradicts"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "atopic",
+          "biologics",
+          "comparison",
+          "concentration",
+          "dermatitis",
+          "inhibitors",
+          "pharma",
+          "preventive",
+          "sanofi",
+          "three"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "contract",
+          "currency",
+          "exercised",
+          "options",
+          "portfolio",
+          "vaccine"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "asthma",
+          "atopic",
+          "biologics",
+          "dermatitis",
+          "inhibitors",
+          "pharma",
+          "sanofi",
+          "seven",
+          "severe",
+          "share",
+          "three",
+          "vaccine"
+        ]
+      }
+    ]
+  }
+}

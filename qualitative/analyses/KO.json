@@ -1,0 +1,1283 @@
+{
+  "symbol": "KO",
+  "researched_on": "2026-09-20",
+  "model": "deepseek-v4.1-flash",
+  "gates": {
+    "max_price": 100.0,
+    "min_market_cap": 1000000000.0
+  },
+  "profile": {
+    "symbol": "KO",
+    "name": "The Coca-Cola Company",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic",
+    "country": "United States",
+    "website": "https://www.coca-colacompany.com",
+    "employees": 65900,
+    "summary": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta, Sprite, Simply, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, Fuze Tea, Georgia, glac\u00e9au smartwater, glac\u00e9au vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, Santa Clara, and dogadan brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The Coca-Cola Company was founded in 1886 and is headquartered in Atlanta, Georgia.",
+    "summary_words": 180,
+    "price": 88.25,
+    "market_cap": 379699953664,
+    "market_cap_human": "379.7B",
+    "exchange": "NYSE",
+    "nasdaq_price": 88.25,
+    "nasdaq_market_cap": 379699970695.0,
+    "gate_conflicts": [],
+    "passes_price_gate": true,
+    "passes_cap_gate": true
+  },
+  "streams": {
+    "queries": [
+      "The Coca-Cola Company (KO) revenue by segment product line breakdown annual report 10-K",
+      "The Coca-Cola Company how it makes money revenue streams Beverages - Non-Alcoholic 2026",
+      "The Coca-Cola Company (KO) segment revenue percentage of total latest quarter results",
+      "KO stock revenue by segment breakdown percentage of total revenue"
+    ],
+    "results": [
+      {
+        "title": "February 20, 2026 - 10-K: Annual report [Section 13 and 15(d), not S-K Item 405] | The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/filings-reports/annual-filings-10-k/content/0001628280-26-010047/ko-20251231.htm",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-03-31",
+        "age_days": 173,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "February 20, 2026 - 10-K: Annual report [Section 13 and 15(d), not S-K Item 405] | The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-010047/ko-20251231.htm",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-03-31",
+        "age_days": 173,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Coca-Cola Co (KO) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution \u2014 TradingKey",
+        "url": "https://www.tradingkey.com/markets/stocks/nasdaq-ko/revenue",
+        "publisher": "tradingkey.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Coca Cola Co (KO) Revenue Breakdown by Segment & Geography",
+        "url": "https://businessquant.com/stocks/ko/revenue-breakdown/",
+        "publisher": "businessquant.com",
+        "source_date": "2026-09-15",
+        "age_days": 5,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Segments :: The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/about/segments",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2025-10-01",
+        "age_days": 354,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "2025.12.31 10-K-2026-02-23-12-27",
+        "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001104659-26-028252/0001104659-26-028252.pdf",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-03-31",
+        "age_days": 173,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company how it makes money revenue streams Beverages - Non-Alcoholic 2026"
+      },
+      {
+        "title": "Coca-Cola Reports Second Quarter 2026 Results and Raises Full Year Guidance :: The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1168/coca-cola-reports-second-quarter-2026-results-and-raises-full-year-guidance?_sp=9ed773b9-1ea0-4073-af97-e9cc8e13f848",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company how it makes money revenue streams Beverages - Non-Alcoholic 2026"
+      },
+      {
+        "title": "Segments :: The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/about/segments",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2025-10-01",
+        "age_days": 354,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company how it makes money revenue streams Beverages - Non-Alcoholic 2026"
+      },
+      {
+        "title": "July 29, 2026 - 10-Q: Quarterly report [Sections 13 or 15(d)] | The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-050503/ko-20260703.htm",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-09-15",
+        "age_days": 5,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company how it makes money revenue streams Beverages - Non-Alcoholic 2026"
+      },
+      {
+        "title": "Coca-Cola Reports First Quarter 2026 Results and Updates Full Year Guidance :: The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1158/coca-cola-reports-first-quarter-2026-results-and-updates-full-year-guidance",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-04-28",
+        "age_days": 145,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company how it makes money revenue streams Beverages - Non-Alcoholic 2026"
+      },
+      {
+        "title": "Coca-Cola Reports Second Quarter 2026 Results and Raises Full Year Guidance :: The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1168/coca-cola-reports-second-quarter-2026-results-and-raises-full-year-guidance?_sp=9ed773b9-1ea0-4073-af97-e9cc8e13f848",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "July 29, 2026 - 10-Q: Quarterly report [Sections 13 or 15(d)] | The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-050503/ko-20260703.htm",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-09-15",
+        "age_days": 5,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "2026 Q2 Earnings Release (Ex-99.1)_Full Release",
+        "url": "https://www.coca-colacompany.com/content/dam/corporate/us/en/media-center/2026/Coca-Cola-2026-Q2-Earnings-Release_Full%20Release_7.28.26.pdf",
+        "publisher": "coca-colacompany.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Coca Cola Co (KO) 10-Q Quarterly Report July 2026",
+        "url": "https://last10k.com/sec-filings/ko/0001628280-26-050503.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-07-29",
+        "age_days": 53,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "The Coca-Cola Company (KO) Revenue by Segment",
+        "url": "https://stockanalysis.com/stocks/ko/metrics/revenue-by-segment/",
+        "publisher": "stockanalysis.com",
+        "source_date": "2026-08-04",
+        "age_days": 47,
+        "lens": null,
+        "stream": null,
+        "query": "The Coca-Cola Company (KO) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Segments :: The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/about/segments",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2025-10-01",
+        "age_days": 354,
+        "lens": null,
+        "stream": null,
+        "query": "KO stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "The Coca-Cola Company (KO) Revenue by Segment",
+        "url": "https://stockanalysis.com/stocks/ko/metrics/revenue-by-segment/",
+        "publisher": "stockanalysis.com",
+        "source_date": "2026-08-04",
+        "age_days": 47,
+        "lens": null,
+        "stream": null,
+        "query": "KO stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Coca-Cola Co (KO) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution \u2014 TradingKey",
+        "url": "https://www.tradingkey.com/markets/stocks/ko/revenue",
+        "publisher": "tradingkey.com",
+        "source_date": "2026-07-03",
+        "age_days": 79,
+        "lens": null,
+        "stream": null,
+        "query": "KO stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "KO Revenue Segments & Geographic Breakdown \u2014 fffinstill",
+        "url": "https://fffinstill.com/stock/KO/segments",
+        "publisher": "fffinstill.com",
+        "source_date": "2025-12-31",
+        "age_days": 263,
+        "lens": null,
+        "stream": null,
+        "query": "KO stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "The Coca-Cola Company: Business Segments and Geographical Breakdown of Revenue",
+        "url": "https://ca.marketscreener.com/quote/stock/THE-COCA-COLA-COMPANY-4819/finances-segments/",
+        "publisher": "ca.marketscreener.com",
+        "source_date": "2026-06-10",
+        "age_days": 102,
+        "lens": null,
+        "stream": null,
+        "query": "KO stock revenue by segment breakdown percentage of total revenue"
+      }
+    ],
+    "results_count": 20,
+    "streams": [
+      {
+        "name": "Sparkling Soft Drinks",
+        "what_it_is": "Sparkling soft drinks and flavors sold to consumers through bottlers and retailers.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Bottling partners, distributors, wholesalers, and retailers",
+        "quote": "Sparkling Soft Drinks | ~50%",
+        "url": "https://investors.coca-colacompany.com/about/segments",
+        "publisher": "investors.coca-colacompany.com",
+        "as_of": "2025-10-01",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Juice, Value-Added Dairy & Plant-Based",
+        "what_it_is": "Juice, value-added dairy, and plant-based beverages sold to consumers through bottlers and retailers.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Bottling partners, distributors, wholesalers, and retailers",
+        "quote": "Juice, Value-Added Dairy & Plant-Based | ~20%",
+        "url": "https://investors.coca-colacompany.com/about/segments",
+        "publisher": "investors.coca-colacompany.com",
+        "as_of": "2025-10-01",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Water, Sports, Coffee & Tea",
+        "what_it_is": "Water, sports, coffee, and tea beverages sold to consumers through bottlers and retailers.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Bottling partners, distributors, wholesalers, and retailers",
+        "quote": "Water, Sports, Coffee & Tea (b) | ~20%",
+        "url": "https://investors.coca-colacompany.com/about/segments",
+        "publisher": "investors.coca-colacompany.com",
+        "as_of": "2025-10-01",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Energy",
+        "what_it_is": "Energy drinks sold to consumers through bottlers and retailers.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Bottling partners, distributors, wholesalers, and retailers",
+        "quote": "Energy | ~3",
+        "url": "https://investors.coca-colacompany.com/about/segments",
+        "publisher": "investors.coca-colacompany.com",
+        "as_of": "2025-10-01",
+        "grounded_by": "search"
+      }
+    ],
+    "dropped": [],
+    "description": "The Coca-Cola Company manufactures and sells nonalcoholic beverages worldwide. It earns money by selling beverage concentrates and syrups to bottling partners and fountain retailers, and by selling finished beverages through distributors, wholesalers, and retailers. Its product categories include sparkling soft drinks, water, sports, coffee and tea, juice, value-added dairy and plant-based beverages, and energy drinks. North America is its largest market, contributing about 40% of net revenues.",
+    "customer_concentration": null,
+    "notes": null,
+    "split_basis": "product_line",
+    "geography": "North America was 40% of 2025 net revenues; other regions include Europe, Middle East & Africa, Latin America, and Asia Pacific."
+  },
+  "trends": {
+    "queries": [
+      {
+        "q": "2026 2027 sparkling soft drinks market volume growth sugar reduction consumer demand industry report",
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks"
+      },
+      {
+        "q": "2026 bottled water sports drinks coffee tea market outlook consumer demand functional beverages trade association data",
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea"
+      },
+      {
+        "q": "2026 juice value-added dairy plant-based beverage demand trends market research",
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based"
+      },
+      {
+        "q": "2026 non-alcoholic beverage distribution channel shifts foodservice fountain e-commerce retail trade press",
+        "lens": "sold",
+        "stream": null
+      },
+      {
+        "q": "Coca-Cola bottler system distribution channel trends 2026 trade press",
+        "lens": "sold",
+        "stream": null
+      },
+      {
+        "q": "2026 beverage retail customer concentration procurement competitive bidding convenience store restaurant channel trade publication",
+        "lens": "sold",
+        "stream": null
+      },
+      {
+        "q": "2026 sparkling soft drink manufacturing capacity sugar reformulation aluminum can PET resin input cost outlook",
+        "lens": "made",
+        "stream": "Sparkling Soft Drinks"
+      },
+      {
+        "q": "Coca-Cola supply chain input costs aluminum PET sugar 2026 industry report",
+        "lens": "made",
+        "stream": null
+      },
+      {
+        "q": "Sparkling Soft Drinks Beverages - Non-Alcoholic market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks"
+      },
+      {
+        "q": "Juice, Value-Added Dairy & Plant-Based Beverages - Non-Alcoholic market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based"
+      },
+      {
+        "q": "Water, Sports, Coffee & Tea Beverages - Non-Alcoholic market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea"
+      }
+    ],
+    "searched": [
+      {
+        "query": "2026 2027 sparkling soft drinks market volume growth sugar reduction consumer demand industry report",
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "results": 5
+      },
+      {
+        "query": "2026 bottled water sports drinks coffee tea market outlook consumer demand functional beverages trade association data",
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "results": 5
+      },
+      {
+        "query": "2026 juice value-added dairy plant-based beverage demand trends market research",
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "results": 5
+      },
+      {
+        "query": "2026 non-alcoholic beverage distribution channel shifts foodservice fountain e-commerce retail trade press",
+        "lens": "sold",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "Coca-Cola bottler system distribution channel trends 2026 trade press",
+        "lens": "sold",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "2026 beverage retail customer concentration procurement competitive bidding convenience store restaurant channel trade publication",
+        "lens": "sold",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "2026 sparkling soft drink manufacturing capacity sugar reformulation aluminum can PET resin input cost outlook",
+        "lens": "made",
+        "stream": "Sparkling Soft Drinks",
+        "results": 5
+      },
+      {
+        "query": "Coca-Cola supply chain input costs aluminum PET sugar 2026 industry report",
+        "lens": "made",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "Sparkling Soft Drinks Beverages - Non-Alcoholic market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "results": 5
+      },
+      {
+        "query": "Juice, Value-Added Dairy & Plant-Based Beverages - Non-Alcoholic market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "results": 5
+      },
+      {
+        "query": "Water, Sports, Coffee & Tea Beverages - Non-Alcoholic market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "results": 5
+      }
+    ],
+    "results": [
+      {
+        "title": "Carbonated Soft Drinks Market Size, Share & 2031 Growth Trends Report",
+        "url": "https://www.mordorintelligence.com/industry-reports/carbonated-soft-drinks-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-06-18",
+        "age_days": 94,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 2027 sparkling soft drinks market volume growth sugar reduction consumer demand industry report"
+      },
+      {
+        "title": "Carbonated Soft Drinks Market Forecast to 2033",
+        "url": "https://www.persistencemarketresearch.com/market-research/carbonated-soft-drinks-market.asp",
+        "publisher": "persistencemarketresearch.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 2027 sparkling soft drinks market volume growth sugar reduction consumer demand industry report"
+      },
+      {
+        "title": "Carbonated Soft Drinks Market Share Analysis Report 2026-2030",
+        "url": "https://www.thebusinessresearchcompany.com/report/carbonated-soft-drinks-global-market-report",
+        "publisher": "thebusinessresearchcompany.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 2027 sparkling soft drinks market volume growth sugar reduction consumer demand industry report"
+      },
+      {
+        "title": "Sparkling Drinks Market Size, Share & Growth Report, H2-2026: Industry Outlook By Product Type, By Flavor, By Packaging Type, By Distribution Channel, Companies and Countries to 2032",
+        "url": "https://pdf.marketpublishers.com/vpar/sparkling-drinks-market-vpar.pdf",
+        "publisher": "pdf.marketpublishers.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 2027 sparkling soft drinks market volume growth sugar reduction consumer demand industry report"
+      },
+      {
+        "title": "Sparkling Sodas Projected to Grow at XX CAGR: Insights and Forecasts 2026-2034",
+        "url": "https://www.datainsightsmarket.com/reports/sparkling-sodas-394889",
+        "publisher": "datainsightsmarket.com",
+        "source_date": "2026-02-02",
+        "age_days": 230,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 2027 sparkling soft drinks market volume growth sugar reduction consumer demand industry report"
+      },
+      {
+        "title": "Functional Beverage Market Size & Share Analysis - Growth Trends and Forecast (2026 - 2031)",
+        "url": "https://www.mordorintelligence.com/industry-reports/functional-beverage-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-07-16",
+        "age_days": 66,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "2026 bottled water sports drinks coffee tea market outlook consumer demand functional beverages trade association data"
+      },
+      {
+        "title": "Non-Carbonated Soft Drinks Market - Global Forecast 2026-2032",
+        "url": "https://www.giiresearch.com/report/ires2100172-non-carbonated-soft-drinks-market-global-forecast.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "2026 bottled water sports drinks coffee tea market outlook consumer demand functional beverages trade association data"
+      },
+      {
+        "title": "Non-Alcoholic Beverage Market by Product Type, Consumer Type, Packaging, Processing Type, Distribution Channel, End-Use - Global Forecast 2026-2032",
+        "url": "https://www.giiresearch.com/report/ires2087871-non-alcoholic-beverage-market-by-product-type.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-07-13",
+        "age_days": 69,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "2026 bottled water sports drinks coffee tea market outlook consumer demand functional beverages trade association data"
+      },
+      {
+        "title": "Bottled Water Market Outlook: Trends, Growth & Forecast to 2035",
+        "url": "https://www.astuteanalytica.com/industry-report/bottled-water-market",
+        "publisher": "astuteanalytica.com",
+        "source_date": "2026-02-02",
+        "age_days": 230,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "2026 bottled water sports drinks coffee tea market outlook consumer demand functional beverages trade association data"
+      },
+      {
+        "title": "Bottled Water Market by Product Type, Packaging Type, Packaging Size, Closure Type, Distribution Channel, End User - Global Forecast 2026-2032",
+        "url": "https://www.giiresearch.com/report/ires2080218-bottled-water-market-by-product-type-packaging.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-07-07",
+        "age_days": 75,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "2026 bottled water sports drinks coffee tea market outlook consumer demand functional beverages trade association data"
+      },
+      {
+        "title": "US Juice and Juice Drinks Market Report 2026 | Mintel Store",
+        "url": "https://store.mintel.com/report/us-juice-and-juice-drinks-market-report",
+        "publisher": "store.mintel.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "2026 juice value-added dairy plant-based beverage demand trends market research"
+      },
+      {
+        "title": "Global Dairy Products Juice Market (2025 - 2031) | Trends, Outlook & Forecast",
+        "url": "https://www.6wresearch.com/industry-report/global-dairy-products-juice-market",
+        "publisher": "6wresearch.com",
+        "source_date": "2025-07-01",
+        "age_days": 446,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "2026 juice value-added dairy plant-based beverage demand trends market research"
+      },
+      {
+        "title": "Juices Market Growth Analysis - Size and Forecast 2026-2030 | Technavio",
+        "url": "https://www.technavio.com/report/juices-market-industry-analysis",
+        "publisher": "technavio.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "2026 juice value-added dairy plant-based beverage demand trends market research"
+      },
+      {
+        "title": "Explore the Global Plant Based Beverage Market \u2014 analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+        "url": "https://www.futuremarketinsights.com/reports/plant-based-beverages-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-03-05",
+        "age_days": 199,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "2026 juice value-added dairy plant-based beverage demand trends market research"
+      },
+      {
+        "title": "Plant-Based Beverages Global Market Report 2026",
+        "url": "https://www.giiresearch.com/report/tbrc1998065-plant-based-beverages-global-market-report.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-06-04",
+        "age_days": 108,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "2026 juice value-added dairy plant-based beverage demand trends market research"
+      },
+      {
+        "title": "QSRs are gaining ground in dispensed beverages | Restaurant Dive",
+        "url": "https://www.restaurantdive.com/news/qsrs-gaining-ground-in-dispensed-beverages-c-stores/822889/",
+        "publisher": "restaurantdive.com",
+        "source_date": "2026-06-18",
+        "age_days": 94,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 non-alcoholic beverage distribution channel shifts foodservice fountain e-commerce retail trade press"
+      },
+      {
+        "title": "Soda & Pop Market in the United States | Report - IndexBox - Prices, Size, Forecast, and Companies",
+        "url": "https://www.indexbox.io/store/united-states-soda-pop-market-analysis-forecast-size-trends-and-insights/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-08-19",
+        "age_days": 32,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 non-alcoholic beverage distribution channel shifts foodservice fountain e-commerce retail trade press"
+      },
+      {
+        "title": "Coca-Cola Is Building Drinks That Don't Say Coca-Cola",
+        "url": "https://businessmodelanalyst.com/coca-cola-white-label-freestyle-foodservice/",
+        "publisher": "businessmodelanalyst.com",
+        "source_date": "2026-08-24",
+        "age_days": 27,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 non-alcoholic beverage distribution channel shifts foodservice fountain e-commerce retail trade press"
+      },
+      {
+        "title": "US Non-Alcoholic Beverages Market Size, Share, Growth & Forecast 2026-2035",
+        "url": "https://www.morganreedinsights.com/us-non-alcoholic-beverages-market/",
+        "publisher": "morganreedinsights.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 non-alcoholic beverage distribution channel shifts foodservice fountain e-commerce retail trade press"
+      },
+      {
+        "title": "Distribution Playbook: Where Functional Beverage Growth Is Really Happening - Calebrate June 2026 - Nombase Data Hub",
+        "url": "https://www.nombase.com/datahub/distribution-playbook-where-functional-beverage-growth-is-really-happening---calebrate-report-july-2026",
+        "publisher": "nombase.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 non-alcoholic beverage distribution channel shifts foodservice fountain e-commerce retail trade press"
+      },
+      {
+        "title": "Coca-Cola Plans USD$10 Billion US Investment as Economic Contribution Reaches USD$85 Billion - Food & Beverage Outlook",
+        "url": "https://www.foodbeverage-outlook.com/beverage-production/coca-cola-plans-usd10-billion-us-investment-as-economic-contribution-reaches-usd85-billion",
+        "publisher": "foodbeverage-outlook.com",
+        "source_date": "2026-09-16",
+        "age_days": 4,
+        "lens": "sold",
+        "stream": null,
+        "query": "Coca-Cola bottler system distribution channel trends 2026 trade press"
+      },
+      {
+        "title": "Coca-Cola Bets $10bn on US Bottling Network",
+        "url": "https://drinkabl.media/coca-cola-bets-10bn-on-us-bottling-network/",
+        "publisher": "drinkabl.media",
+        "source_date": "2026-09-17",
+        "age_days": 3,
+        "lens": "sold",
+        "stream": null,
+        "query": "Coca-Cola bottler system distribution channel trends 2026 trade press"
+      },
+      {
+        "title": "Coca-Cola System plans US$10B US investment through 2030 \u2013 Food Business Middle East & Africa \u2013 No.1 Food & Beverage Formulation, Processing & Packaging Publication",
+        "url": "https://www.foodbusinessmea.com/coca-cola-system-plans-us10b-us-investment-through-2030/",
+        "publisher": "foodbusinessmea.com",
+        "source_date": "2026-09-16",
+        "age_days": 4,
+        "lens": "sold",
+        "stream": null,
+        "query": "Coca-Cola bottler system distribution channel trends 2026 trade press"
+      },
+      {
+        "title": "Coca-Cola Builds All-Weather Supply Chain Model",
+        "url": "https://supplychain360.io/operations/all-weather-supply-chain-brief/",
+        "publisher": "supplychain360.io",
+        "source_date": "2026-02-18",
+        "age_days": 214,
+        "lens": "sold",
+        "stream": null,
+        "query": "Coca-Cola bottler system distribution channel trends 2026 trade press"
+      },
+      {
+        "title": "Coca-Cola Sales and Marketing: 2026 Demand and Growth Metrics\n   \u2013   SOAR Analysis",
+        "url": "https://soar-analysis.com/blogs/company-commercial-risks/coca-colacompany",
+        "publisher": "soar-analysis.com",
+        "source_date": "2026-09-02",
+        "age_days": 18,
+        "lens": "sold",
+        "stream": null,
+        "query": "Coca-Cola bottler system distribution channel trends 2026 trade press"
+      },
+      {
+        "title": "Industry Analysis: Beverage Manufacturing | Think Insights",
+        "url": "https://thinkinsights.net/strategy/industry-analysis-beverage-manufacturing",
+        "publisher": "thinkinsights.net",
+        "source_date": "2023-09-27",
+        "age_days": 1089,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 beverage retail customer concentration procurement competitive bidding convenience store restaurant channel trade publication"
+      },
+      {
+        "title": "The New Convenience Battleground: C-store Trends Shaping 2026",
+        "url": "https://www.intouchinsight.com/hubfs/website/intouch-insight/resources/reports/convenience-store-trends/intouch-insight-cstore-trends-report-2026.pdf",
+        "publisher": "intouchinsight.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 beverage retail customer concentration procurement competitive bidding convenience store restaurant channel trade publication"
+      },
+      {
+        "title": "Retailers Turn to Vertical Integration to Cut Costs, Strengthen Supply Chains - CStore Decisions",
+        "url": "https://cstoredecisions.com/retailers-turn-to-vertical-integration-to-cut-costs-strengthen-supply-chains/",
+        "publisher": "cstoredecisions.com",
+        "source_date": "2026-08-31",
+        "age_days": 20,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 beverage retail customer concentration procurement competitive bidding convenience store restaurant channel trade publication"
+      },
+      {
+        "title": "Convenience Store Distribution Opportunities in China 2026 - Yucheng IP Law - Your Trusted IP Law Firm in China",
+        "url": "https://yciplaw.com/convenience-store-distribution-opportunities-in-china-2026/",
+        "publisher": "yciplaw.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 beverage retail customer concentration procurement competitive bidding convenience store restaurant channel trade publication"
+      },
+      {
+        "title": "What's Driving Convenience Store Distribution Right Now: Spring 2026 Trends to Watch - CDR Software",
+        "url": "https://cdrsoftware.com/blog/whats-driving-convenience-store-distribution-right-now-spring-2026-trends-to-watch/",
+        "publisher": "cdrsoftware.com",
+        "source_date": "2026-07-06",
+        "age_days": 76,
+        "lens": "sold",
+        "stream": null,
+        "query": "2026 beverage retail customer concentration procurement competitive bidding convenience store restaurant channel trade publication"
+      },
+      {
+        "title": "Soda Market in the United States | Report - IndexBox - Prices, Size, Forecast, and Companies",
+        "url": "https://www.indexbox.io/store/united-states-soda-market-analysis-forecast-size-trends-and-insights/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-05-22",
+        "age_days": 121,
+        "lens": "made",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 sparkling soft drink manufacturing capacity sugar reformulation aluminum can PET resin input cost outlook"
+      },
+      {
+        "title": "Pop Packaging Market in the world | Report - IndexBox - Prices, Size, Forecast, and Companies",
+        "url": "https://www.indexbox.io/store/world-pop-packaging-market-analysis-forecast-size-trends-and-insights/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-07-03",
+        "age_days": 79,
+        "lens": "made",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 sparkling soft drink manufacturing capacity sugar reformulation aluminum can PET resin input cost outlook"
+      },
+      {
+        "title": "Carbonated Soft Drinks Market Size, Share, and Industry Trends Forecast 2026-2036 | MarkWide Research",
+        "url": "https://markwideresearch.com/carbonated-soft-drinks-market",
+        "publisher": "markwideresearch.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "made",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 sparkling soft drink manufacturing capacity sugar reformulation aluminum can PET resin input cost outlook"
+      },
+      {
+        "title": "Carbonated Beverages Market - Global Forecast 2026-2032",
+        "url": "https://www.giiresearch.com/report/ires2098963-carbonated-beverages-market-global-forecast.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-07-27",
+        "age_days": 55,
+        "lens": "made",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 sparkling soft drink manufacturing capacity sugar reformulation aluminum can PET resin input cost outlook"
+      },
+      {
+        "title": "Carbonated Soft Drinks Market Size, Share & Trends | Industry Report 2035",
+        "url": "https://www.emergenresearch.com/industry-report/carbonated-soft-drinks-market",
+        "publisher": "emergenresearch.com",
+        "source_date": "2026-07-14",
+        "age_days": 68,
+        "lens": "made",
+        "stream": "Sparkling Soft Drinks",
+        "query": "2026 sparkling soft drink manufacturing capacity sugar reformulation aluminum can PET resin input cost outlook"
+      },
+      {
+        "title": "The Coca-Cola Company Supply Chain Intelligence | Hylios | Hylios",
+        "url": "https://www.hylios.com/intelligence/coca-colacompany",
+        "publisher": "hylios.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "made",
+        "stream": null,
+        "query": "Coca-Cola supply chain input costs aluminum PET sugar 2026 industry report"
+      },
+      {
+        "title": "Coca-Cola plays down impact of high oil prices to raise profit forecast | MarketScreener Canada",
+        "url": "https://ca.marketscreener.com/news/coca-cola-raises-annual-adjusted-profit-forecast-on-steady-sodas-demand-ce7f59d2d98ff02d",
+        "publisher": "ca.marketscreener.com",
+        "source_date": "2026-08-07",
+        "age_days": 44,
+        "lens": "made",
+        "stream": null,
+        "query": "Coca-Cola supply chain input costs aluminum PET sugar 2026 industry report"
+      },
+      {
+        "title": "Coca-Cola Uses Refillables To Cushion Inflation",
+        "url": "https://supplychain360.io/operations/coca-cola-all-weather-supply-chain/",
+        "publisher": "supplychain360.io",
+        "source_date": "2026-05-13",
+        "age_days": 130,
+        "lens": "made",
+        "stream": null,
+        "query": "Coca-Cola supply chain input costs aluminum PET sugar 2026 industry report"
+      },
+      {
+        "title": "2026 Q2 Earnings Release (Ex-99.1)_Full Release",
+        "url": "https://investors.coca-colacompany.com/_assets/_1d55460c0476067ab8ef34392a48b036/cocacolacompany/db/880/11126/earnings_release/Coca-Cola+2026+Q2+Earnings+Release_Full+Release_7.28.26.pdf",
+        "publisher": "investors.coca-colacompany.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": "made",
+        "stream": null,
+        "query": "Coca-Cola supply chain input costs aluminum PET sugar 2026 industry report"
+      },
+      {
+        "title": "Coca-Cola (KO) CFO says bottlers would have greater impact if higher aluminum and pet prices sustain; on aluminum can shortage in India says, 'have had some disruption in can supply and our cross enterprise procurement team' | Newsquawk",
+        "url": "https://www.newsquawk.com/headlines/coca-cola-ko-cfo-says-bottlers-would-have-greater-impact-if-higher-aluminum-and-pet-prices-sustain-on-aluminum-can-shortage-in-india-says-have-had-some-disruption-in-can-supply-and-our-cross-enterprise-procurement-team",
+        "publisher": "newsquawk.com",
+        "source_date": "2026-04-28",
+        "age_days": 145,
+        "lens": "made",
+        "stream": null,
+        "query": "Coca-Cola supply chain input costs aluminum PET sugar 2026 industry report"
+      },
+      {
+        "title": "Sparkling Non-alcoholic Beverages Market Research Report 2033",
+        "url": "https://growthmarketreports.com/report/sparkling-non-alcoholic-beverages-market",
+        "publisher": "growthmarketreports.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "Sparkling Soft Drinks Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Sparkling Non-alcoholic Beverages Market Research Report 2034",
+        "url": "https://marketintelo.com/report/sparkling-non-alcoholic-beverages-market",
+        "publisher": "marketintelo.com",
+        "source_date": "2026-06-10",
+        "age_days": 102,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "Sparkling Soft Drinks Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-Alcoholic Beverages Market Size | Industry Report, 2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/nonalcoholic-beverage-market",
+        "publisher": "grandviewresearch.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "Sparkling Soft Drinks Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-carbonated Soft Drinks Market | Industry Report, 2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/non-carbonated-soft-drinks-market-report",
+        "publisher": "grandviewresearch.com",
+        "source_date": "2025-10-01",
+        "age_days": 354,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "Sparkling Soft Drinks Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Flavored Seltzer and Sparkling Water Market Size, Share & Trends | Industry Report 2035",
+        "url": "https://www.emergenresearch.com/industry-report/flavored-seltzer-and-sparkling-water-market",
+        "publisher": "emergenresearch.com",
+        "source_date": "2026-08-06",
+        "age_days": 45,
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "query": "Sparkling Soft Drinks Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-Alcoholic Beverage Market by Product Type (Bottled Water, Dairy-based Beverages, Functional Beverages), Consumer Type (Adults, Children, Seniors), Packaging, Processing Type, Distribution Channel, End-Use - Global Forecast 2026-2032",
+        "url": "https://www.marketresearch.com/360iResearch-v4164/Non-Alcoholic-Beverage-Product-Type-45366836/",
+        "publisher": "marketresearch.com",
+        "source_date": "2026-06-05",
+        "age_days": 107,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "Juice, Value-Added Dairy & Plant-Based Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Explore the Global Fruit And Vegetable Juice Market- analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+        "url": "https://www.futuremarketinsights.com/reports/fruit-and-vegetable-juice-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-03-16",
+        "age_days": 188,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "Juice, Value-Added Dairy & Plant-Based Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Explore the Global Plant Based Beverage Market \u2014 analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+        "url": "https://www.futuremarketinsights.com/reports/plant-based-beverages-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-03-05",
+        "age_days": 199,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "Juice, Value-Added Dairy & Plant-Based Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Juice Market Analysis and Growth Outlook to 2035 - Indexbox Report",
+        "url": "https://www.indexbox.io/blog/juice-market-forecast-points-higher-toward-2035-driven-by-health-conscious-premiumization/",
+        "publisher": "indexbox.io",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "Juice, Value-Added Dairy & Plant-Based Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Dairy & Beverage Products Market Size, Share & Trends | Industry Report 2035",
+        "url": "https://www.emergenresearch.com/industry-report/dairy-beverage-products-market",
+        "publisher": "emergenresearch.com",
+        "source_date": "2026-06-07",
+        "age_days": 105,
+        "lens": "demand",
+        "stream": "Juice, Value-Added Dairy & Plant-Based",
+        "query": "Juice, Value-Added Dairy & Plant-Based Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-alcoholic Beverages Market Size, Growth & Industry Analysis\u00a0| 2031",
+        "url": "https://www.mordorintelligence.com/industry-reports/non-alcoholic-beverage-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "Water, Sports, Coffee & Tea Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-Alcoholic Beverage Market by Product Type, Consumer Type, Packaging, Processing Type, Distribution Channel, End-Use - Global Forecast 2026-2032",
+        "url": "https://www.giiresearch.com/report/ires2087871-non-alcoholic-beverage-market-by-product-type.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-07-13",
+        "age_days": 69,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "Water, Sports, Coffee & Tea Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-alcoholic Beverages Market Size, Share & Forecast to 2035",
+        "url": "https://www.transparencymarketresearch.com/non-alcoholic-beverages-market.html",
+        "publisher": "transparencymarketresearch.com",
+        "source_date": "2025-03-01",
+        "age_days": 568,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "Water, Sports, Coffee & Tea Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-Alcoholic Drinks Market to Reach $2.9 Trillion, Globally, by 2035 at 6.9% CAGR: Allied Market Research",
+        "url": "https://www.prnewswire.com/news-releases/non-alcoholic-drinks-market-to-reach-2-9-trillion-globally-by-2035-at-6-9-cagr-allied-market-research-302797943.html",
+        "publisher": "prnewswire.com",
+        "source_date": "2026-06-11",
+        "age_days": 101,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "Water, Sports, Coffee & Tea Beverages - Non-Alcoholic market growth demand outlook 2026"
+      },
+      {
+        "title": "Non Alcoholic - Beverages Global Market Report 2026",
+        "url": "https://www.giiresearch.com/report/tbrc1997988-non-alcoholic-beverages-global-market-report.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-03-25",
+        "age_days": 179,
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "query": "Water, Sports, Coffee & Tea Beverages - Non-Alcoholic market growth demand outlook 2026"
+      }
+    ],
+    "results_count": 55,
+    "trends": [
+      {
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "claim": "Health-driven demand for zero-sugar and diet carbonated soft drinks is rising as of July 2026, pressuring sugary CSDs while lifting better-for-you variants.",
+        "direction": "two-sided",
+        "why": "Shifts mix within Sparkling Soft Drinks; KO's zero-sugar portfolio can offset core sugar volume decline.",
+        "quote": "Demand for zero-sugar and diet carbonated soft drink formulations is increasing owing to rising consumer awareness of obesity and metabolic health risks",
+        "url": "https://www.emergenresearch.com/industry-report/carbonated-soft-drinks-market",
+        "source_type": "market_research",
+        "size": 5,
+        "size_basis": "CSD market USD 285.40B in 2025",
+        "speed": 5,
+        "speed_basis": "Published July 2026; demand shift already noted.",
+        "impact": 5,
+        "impact_basis": "Core Sparkling Soft Drinks stream; mix shift decides revenue/margin.",
+        "theme_key": "health-wellness-beverage-reformulation",
+        "theme_label": "Health-driven beverage reformulation",
+        "theme_definition": "Consumers shift to lower-sugar, functional drinks, forcing beverage makers to reformulate portfolios.",
+        "as_of": "2026-07-14",
+        "age_days": 68,
+        "stale": false,
+        "publisher": "emergenresearch.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "claim": "US functional and health-oriented drink demand is accelerating category diversification as of June 2026, expanding addressable demand.",
+        "direction": "tailwind",
+        "why": "Functional demand lifts KO's water, sports, coffee/tea and energy lines, supporting price/mix.",
+        "quote": "Rising consumer preference for functional and health-oriented drinks across demographics is accelerating category diversification.",
+        "url": "https://www.morganreedinsights.com/us-non-alcoholic-beverages-market/",
+        "source_type": "market_research",
+        "size": 4,
+        "size_basis": "US non-alcoholic beverages $195.46B in 2026; functional share not stated.",
+        "speed": 4,
+        "speed_basis": "June 2026 report; already accelerating.",
+        "impact": 4,
+        "impact_basis": "Reaches Water/Sports/Coffee/Tea and Energy streams.",
+        "theme_key": "functional-beverage-demand",
+        "theme_label": "Functional beverage demand growth",
+        "theme_definition": "Consumers increasingly buy drinks with functional health benefits, expanding beverage categories beyond refreshment.",
+        "as_of": "2026-06-01",
+        "age_days": 111,
+        "stale": false,
+        "publisher": "morganreedinsights.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "Water, Sports, Coffee & Tea",
+        "claim": "Non-carbonated soft drinks are forecast to grow at a 6.4% CAGR from 2026 to 2033.",
+        "direction": "tailwind",
+        "why": "Lifts KO's non-carbonated portfolio, offsetting slower carbonated volume growth.",
+        "quote": "growing at a CAGR of 6.4% from 2026 to 2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/non-carbonated-soft-drinks-market-report",
+        "source_type": "market_research",
+        "size": 5,
+        "size_basis": "USD 168.63B in 2025 to USD 278.17B by 2033.",
+        "speed": 4,
+        "speed_basis": "Forecast period starts 2026; growth already underway.",
+        "impact": 4,
+        "impact_basis": "Reaches Water/Sports/Coffee/Tea and Juice/plant-based streams.",
+        "theme_key": "non-carbonated-beverage-shift",
+        "theme_label": "Non-carbonated beverage shift",
+        "theme_definition": "Consumers move from carbonated sugary drinks to still, hydrating, and functional non-carbonated beverages.",
+        "as_of": "2025-10-01",
+        "age_days": 354,
+        "stale": false,
+        "publisher": "grandviewresearch.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "Sparkling Soft Drinks",
+        "claim": "US soda per capita consumption has declined roughly 10\u201315%, as of August 2026, constraining volume.",
+        "direction": "headwind",
+        "why": "Limits US volume growth in KO's largest CSD market, forcing reliance on price/mix.",
+        "quote": "per capita consumption has declined by roughly 10\u201315%",
+        "url": "https://www.indexbox.io/store/united-states-soda-pop-market-analysis-forecast-size-trends-and-insights/",
+        "source_type": "market_research",
+        "size": 3,
+        "size_basis": "no exact size in evidence; world's largest CSD market.",
+        "speed": 5,
+        "speed_basis": "Decline over past decade; current as of August 2026.",
+        "impact": 4,
+        "impact_basis": "Directly hits Sparkling Soft Drinks, KO's largest stream.",
+        "theme_key": "csd-per-capita-decline",
+        "theme_label": "Carbonated soft drink per-capita decline",
+        "theme_definition": "Per-person consumption of sugary carbonated drinks falls in mature markets, pressuring volume.",
+        "as_of": "2026-08-19",
+        "age_days": 32,
+        "stale": false,
+        "publisher": "indexbox.io",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "sold",
+        "stream": "Sparkling Soft Drinks",
+        "claim": "In June 2026, major QSRs are expanding refreshers, flavored sodas and craft-style dispensed beverages, lifting foodservice beverage demand.",
+        "direction": "tailwind",
+        "why": "More QSR beverage launches increase concentrate and syrup sales through KO's foodservice system.",
+        "quote": "Sonic, McDonald\u2019s, Chick-fil-A, and Whataburger are all expanding their assortment of refreshers, flavored sodas, lemonades, floats and craft-style beverage formats",
+        "url": "https://www.restaurantdive.com/news/qsrs-gaining-ground-in-dispensed-beverages-c-stores/822889/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "no magnitude in evidence",
+        "speed": 4,
+        "speed_basis": "Published June 2026; launches in 2026.",
+        "impact": 4,
+        "impact_basis": "Reaches Sparkling Soft Drinks via foodservice dispensed channel.",
+        "theme_key": "foodservice-dispensed-beverage-expansion",
+        "theme_label": "QSR dispensed beverage expansion",
+        "theme_definition": "Restaurant chains broaden dispensed drink menus, increasing fountain beverage demand.",
+        "as_of": "2026-06-18",
+        "age_days": 94,
+        "stale": false,
+        "publisher": "restaurantdive.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "As of August 2026, Coca-Cola is scaling white-label foodservice drinks, with lemonade already in more than 40,000 dispensers.",
+        "direction": "tailwind",
+        "why": "Expands foodservice revenue via equipment and white-label supply, deepening customer lock-in.",
+        "quote": "A white-label lemonade already runs through more than 40,000 dispensers, some of it sold as Wendy\u2019s Dave\u2019s Craft Lemonade.",
+        "url": "https://businessmodelanalyst.com/coca-cola-white-label-freestyle-foodservice/",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "40,000+ dispensers; no dollar magnitude",
+        "speed": 4,
+        "speed_basis": "Unbranded energy arrives with operators in first half of 2027.",
+        "impact": 3,
+        "impact_basis": "Adds foodservice revenue but small versus total KO.",
+        "theme_key": "white-label-foodservice-beverages",
+        "theme_label": "White-label foodservice beverages",
+        "theme_definition": "Beverage makers supply unbranded drinks and equipment to restaurants seeking exclusive menus.",
+        "as_of": "2026-08-24",
+        "age_days": 27,
+        "stale": false,
+        "publisher": "businessmodelanalyst.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "As of August 2026, more c-store chains are considering vertical integration to cut costs and control supply, shifting channel power.",
+        "direction": "headwind",
+        "why": "Retailer integration can bypass suppliers, pressure margins and shelf space for KO brands.",
+        "quote": "more chains of all sizes are considering how various levels of vertical integration can help improve efficiency, strengthen supply chains and create a competitive advantage.",
+        "url": "https://cstoredecisions.com/retailers-turn-to-vertical-integration-to-cut-costs-strengthen-supply-chains/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "no magnitude in evidence",
+        "speed": 3,
+        "speed_basis": "Chains considering; adoption not yet quantified.",
+        "impact": 3,
+        "impact_basis": "Affects c-store channel across all beverage streams.",
+        "theme_key": "retail-vertical-integration",
+        "theme_label": "Retail vertical integration",
+        "theme_definition": "Retailers bring distribution and production in-house to cut costs and control supply.",
+        "as_of": "2026-08-31",
+        "age_days": 20,
+        "stale": false,
+        "publisher": "cstoredecisions.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "As of September 2026, health pressure and private-label competition keep rising, challenging Coca-Cola's pricing power.",
+        "direction": "headwind",
+        "why": "Private label and health shifts can slow volume and limit price increases across KO's portfolio.",
+        "quote": "health pressure and private-label competition keep rising",
+        "url": "https://soar-analysis.com/blogs/company-commercial-risks/coca-colacompany",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "no magnitude in evidence",
+        "speed": 4,
+        "speed_basis": "September 2026 analysis; current pressure.",
+        "impact": 4,
+        "impact_basis": "Threatens pricing/mix across all beverage streams.",
+        "theme_key": "private-label-beverage-competition",
+        "theme_label": "Private-label beverage competition",
+        "theme_definition": "Retailer-owned brands gain share, pressuring branded beverage pricing and volume.",
+        "as_of": "2026-09-02",
+        "age_days": 18,
+        "stale": false,
+        "publisher": "soar-analysis.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "As of April 2026, Coca-Cola's CFO warned higher aluminum and PET prices would hit bottlers if sustained.",
+        "direction": "headwind",
+        "why": "Higher packaging input costs squeeze bottler margins and may pass through to KO's system economics.",
+        "quote": "bottlers would have greater impact if higher aluminum and pet prices sustain",
+        "url": "https://www.newsquawk.com/headlines/coca-cola-ko-cfo-says-bottlers-would-have-greater-impact-if-higher-aluminum-and-pet-prices-sustain-on-aluminum-can-shortage-in-india-says-have-had-some-disruption-in-can-supply-and-our-cross-enterprise-procurement-team",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "no dollar magnitude; packaging is critical input",
+        "speed": 5,
+        "speed_basis": "CFO comments April 2026; disruption already occurred.",
+        "impact": 4,
+        "impact_basis": "Affects all packaged beverage streams via bottler cost base.",
+        "theme_key": "beverage-packaging-input-inflation",
+        "theme_label": "Beverage packaging input inflation",
+        "theme_definition": "Rising aluminum and PET costs raise packaging expenses across the beverage supply chain.",
+        "as_of": "2026-04-28",
+        "age_days": 145,
+        "stale": false,
+        "publisher": "newsquawk.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "In September 2026, the Coca-Cola system announced $10 billion of US infrastructure investment for 2026\u20132030 to expand production and distribution.",
+        "direction": "tailwind",
+        "why": "Expands US capacity and distribution, supporting volume growth but adding system capital intensity.",
+        "quote": "The Coca-Cola system plans to invest USD$10 billion in US infrastructure between 2026 and 2030",
+        "url": "https://www.foodbeverage-outlook.com/beverage-production/coca-cola-plans-usd10-billion-us-investment-as-economic-contribution-reaches-usd85-billion",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "USD$10 billion investment",
+        "speed": 4,
+        "speed_basis": "Investment period starts 2026; projects already announced.",
+        "impact": 3,
+        "impact_basis": "Supports US volume across all streams; mostly bottler-funded.",
+        "theme_key": "beverage-system-capex",
+        "theme_label": "Beverage system capacity investment",
+        "theme_definition": "Beverage makers and bottlers invest in production and distribution capacity to meet demand.",
+        "as_of": "2026-09-16",
+        "age_days": 4,
+        "stale": false,
+        "publisher": "foodbeverage-outlook.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "Water, Sports, Coffee & Tea",
+        "claim": "In the quarter reported by May 2026, Coca-Cola's gross margin fell about 30 basis points on tea and coffee commodity pressures.",
+        "direction": "headwind",
+        "why": "Higher tea and coffee input costs compress gross margin in that stream.",
+        "quote": "comparable gross margin still declined by around 30 basis points, mainly due to commodity pressures in tea and coffee",
+        "url": "https://supplychain360.io/operations/coca-cola-all-weather-supply-chain/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "about 30 basis points of gross margin decline",
+        "speed": 5,
+        "speed_basis": "Reported in May 2026 results.",
+        "impact": 3,
+        "impact_basis": "Hits Water, Sports, Coffee & Tea gross margin.",
+        "theme_key": "coffee-tea-commodity-inflation",
+        "theme_label": "Coffee and tea commodity inflation",
+        "theme_definition": "Rising coffee and tea input costs squeeze margins for beverage makers.",
+        "as_of": "2026-05-13",
+        "age_days": 130,
+        "stale": false,
+        "publisher": "supplychain360.io",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "As of February 2026, Coca-Cola's asset-light franchise model targets about 60 basis points annual margin expansion and 93% cash conversion.",
+        "direction": "tailwind",
+        "why": "Franchise-led structure lowers owned-asset risk and supports margin and cash flow.",
+        "quote": "about 60 basis points of annual margin expansion and 93 percent cash conversion",
+        "url": "https://supplychain360.io/operations/all-weather-supply-chain-brief/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "about 60 basis points annual margin expansion",
+        "speed": 4,
+        "speed_basis": "February 2026 report; structural metrics current.",
+        "impact": 4,
+        "impact_basis": "Affects total company margin and cash conversion.",
+        "theme_key": "asset-light-beverage-franchising",
+        "theme_label": "Asset-light beverage franchising",
+        "theme_definition": "Beverage companies shift to franchise bottling to lower capital intensity and lift margins.",
+        "as_of": "2026-02-18",
+        "age_days": 214,
+        "stale": false,
+        "publisher": "supplychain360.io",
+        "lens_label": "How it's made"
+      }
+    ],
+    "dropped": [],
+    "by_lens": {
+      "demand": 4,
+      "sold": 4,
+      "made": 4
+    },
+    "coverage": {
+      "demand": 4,
+      "sold": 4,
+      "made": 4
+    },
+    "stale_dropped": 0
+  },
+  "errors": []
+}

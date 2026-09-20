@@ -1,0 +1,1216 @@
+{
+  "symbol": "NEE",
+  "researched_on": "2026-09-20",
+  "model": "deepseek-v4.1-flash",
+  "gates": {
+    "max_price": 100.0,
+    "min_market_cap": 1000000000.0
+  },
+  "profile": {
+    "symbol": "NEE",
+    "name": "NextEra Energy, Inc.",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "country": "United States",
+    "website": "https://www.nexteraenergy.com",
+    "employees": 17400,
+    "summary": "NextEra Energy, Inc., through its subsidiaries, generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North America. It operates through Florida Power & Light Company (FPL) and NEER segments. The company generates electricity from wind, solar, nuclear, natural gas, and other clean energy assets. It also invests in generation, storage, transmission, and distribution facilities; owns, develops, constructs, manages, and operates generation facilities, including renewables, nuclear and natural gas, and battery storage facilities in the wholesale energy market in the United States and Canada, as well as electric and gas transmission assets, and natural gas pipelines; provides full energy and capacity requirement services; markets and trades in energy-related commodities; and participates in the production of natural gas, natural gas liquids, and oil. As of December 31, 2025, the company had approximately 35,963 megawatts of net generating capacity; approximately 93,000 circuit miles of transmission and distribution lines; and 932 substations. It serves approximately 12 million people through approximately 6 million customer accounts on the east and lower west coasts of Florida. The company was formerly known as FPL Group, Inc. and changed its name to NextEra Energy, Inc. in 2010. NextEra Energy, Inc. was founded in 1925 and is headquartered in Juno Beach, Florida.",
+    "summary_words": 207,
+    "price": 80.47,
+    "market_cap": 167858667520,
+    "market_cap_human": "167.86B",
+    "exchange": "NYSE",
+    "nasdaq_price": 80.47,
+    "nasdaq_market_cap": 167858666478.0,
+    "gate_conflicts": [],
+    "passes_price_gate": true,
+    "passes_cap_gate": true
+  },
+  "streams": {
+    "queries": [
+      "NextEra Energy, Inc. (NEE) revenue by segment product line breakdown annual report 10-K",
+      "NextEra Energy, Inc. how it makes money revenue streams Utilities - Regulated Electric 2026",
+      "NextEra Energy, Inc. (NEE) segment revenue percentage of total latest quarter results",
+      "NEE stock revenue by segment breakdown percentage of total revenue"
+    ],
+    "results": [
+      {
+        "title": "NEE-FPL 2025 10-K - Final Draft",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/NEE%202025%2010-K.pdf",
+        "publisher": "investor.nexteraenergy.com",
+        "source_date": "2026-09-04",
+        "age_days": 16,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Nextera Energy (NEE) Revenue by Segment (2015-2025 10-K) | edgar.tools",
+        "url": "https://app.edgar.tools/companies/NEE/disclosures/segments",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-02-13",
+        "age_days": 219,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Nextera Energy Inc (NEE) 10-K Annual Report February 2026",
+        "url": "https://last10k.com/sec-filings/nee/0000753308-26-000015.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-02-13",
+        "age_days": 219,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "FORM 10-K",
+        "url": "https://fortune.com/company-assets/725/quartr/annual-report-10-k-fdb4c-2026-02-13-09-52-20.pdf",
+        "publisher": "fortune.com",
+        "source_date": "2026-09-04",
+        "age_days": 16,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Nextera Energy - 10-K annual report 2025",
+        "url": "https://companiesmarketcap.com/aud/nextera-energy/sec-reports-10k/0000753308-26-000015/",
+        "publisher": "companiesmarketcap.com",
+        "source_date": "2026-09-04",
+        "age_days": 16,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Nextera Energy Inc (NEE) 10-K Annual Report February 2026",
+        "url": "https://last10k.com/sec-filings/nee/0000753308-26-000015.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-02-13",
+        "age_days": 219,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. how it makes money revenue streams Utilities - Regulated Electric 2026"
+      },
+      {
+        "title": "Earnings Conference Call",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q2%202026/Q2%202026%20Earnings%20Slides_vF.pdf",
+        "publisher": "investor.nexteraenergy.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. how it makes money revenue streams Utilities - Regulated Electric 2026"
+      },
+      {
+        "title": "NextEra Energy",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2026/May%20Investor%20Presentation%20%20vF.pdf",
+        "publisher": "investor.nexteraenergy.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. how it makes money revenue streams Utilities - Regulated Electric 2026"
+      },
+      {
+        "title": "Nextera Energy Inc (NEE) 10-Q Quarterly Report July 2026",
+        "url": "https://last10k.com/sec-filings/nee/0000753308-26-000060.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. how it makes money revenue streams Utilities - Regulated Electric 2026"
+      },
+      {
+        "title": "Earnings Conference Call",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q2%202026/Q2%202026%20Earnings%20Slides_vF.pdf",
+        "publisher": "investor.nexteraenergy.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "NextEra Energy reports second-quarter 2026 financial results",
+        "url": "https://fortune.com/company-assets/725/quartr/earnings-release-8-k-df5465054bce20f45bf6e522158aea9e-2026-07-24-11-32-46.pdf",
+        "publisher": "fortune.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Document",
+        "url": "https://app.edgar.tools/filing/753308/0000753308-26-000058/neeq22026exhibit99.htm",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Nextera Energy Inc (NEE) 10-Q Quarterly Report July 2026",
+        "url": "https://last10k.com/sec-filings/nee/0000753308-26-000060.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": null,
+        "stream": null,
+        "query": "NextEra Energy, Inc. (NEE) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "R26.htm",
+        "url": "https://www.sec.gov/Archives/edgar/data/37634/000075330826000015/R26.htm",
+        "publisher": "sec.gov",
+        "source_date": "2025-12-31",
+        "age_days": 263,
+        "lens": null,
+        "stream": null,
+        "query": "NEE stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Nextera Energy (NEE) Revenue by Segment (2015-2025 10-K) | edgar.tools",
+        "url": "https://app.edgar.tools/companies/NEE/disclosures/segments",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-02-13",
+        "age_days": 219,
+        "lens": null,
+        "stream": null,
+        "query": "NEE stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "NextEra Energy (NEE) Business Metrics & Revenue Breakdown",
+        "url": "https://stockanalysis.com/stocks/nee/financials/metrics/",
+        "publisher": "stockanalysis.com",
+        "source_date": "2026-08-21",
+        "age_days": 30,
+        "lens": null,
+        "stream": null,
+        "query": "NEE stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "NextEra Energy (NEE) Revenue & Revenue Breakdown 2026",
+        "url": "https://www.tickergate.com/stocks/nee/revenue",
+        "publisher": "tickergate.com",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": null,
+        "stream": null,
+        "query": "NEE stock revenue by segment breakdown percentage of total revenue"
+      }
+    ],
+    "results_count": 17,
+    "streams": [
+      {
+        "name": "FPL",
+        "what_it_is": "Rate-regulated utility business selling electric power to customers.",
+        "revenue_share": 0.666,
+        "revenue_share_basis": "derived",
+        "amount": "$18.26B in FY2025",
+        "customer": "Retail and wholesale electric customers",
+        "quote": "FPL Gross Revenue | 18.72B | 18.26B | 17.02B",
+        "url": "https://stockanalysis.com/stocks/nee/financials/metrics/",
+        "publisher": "stockanalysis.com",
+        "as_of": "2026-08-21",
+        "grounded_by": "search"
+      },
+      {
+        "name": "NEER",
+        "what_it_is": "Competitive energy and regulated transmission businesses selling power and services.",
+        "revenue_share": 0.32,
+        "revenue_share_basis": "derived",
+        "amount": "$8.76B in FY2025",
+        "customer": "Wholesale energy market customers",
+        "quote": "NEER Gross Revenue | 9.53B | 8.76B | 7.54B",
+        "url": "https://stockanalysis.com/stocks/nee/financials/metrics/",
+        "publisher": "stockanalysis.com",
+        "as_of": "2026-08-21",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Corporate and Other",
+        "what_it_is": "Other business activities, including eliminating entries.",
+        "revenue_share": 0.014,
+        "revenue_share_basis": "derived",
+        "amount": "$390.00M in FY2025",
+        "customer": null,
+        "quote": "Corporate and Other Revenue | 451.00M | 390.00M | 192.00M",
+        "url": "https://stockanalysis.com/stocks/nee/financials/metrics/",
+        "publisher": "stockanalysis.com",
+        "as_of": "2026-08-21",
+        "grounded_by": "search"
+      }
+    ],
+    "dropped": [],
+    "description": "NextEra Energy operates through FPL, a rate-regulated utility business, and NEER, which is comprised of competitive energy and regulated transmission businesses. Corporate and Other represents other business activities and eliminating entries. It generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North America, and also develops and operates generation, storage, and transmission facilities, provides energy and capacity services, trades energy commodities, and produces natural gas, natural gas liquids, and oil.",
+    "customer_concentration": null,
+    "notes": null,
+    "split_basis": "business_segment",
+    "geography": null
+  },
+  "trends": {
+    "queries": [
+      {
+        "q": "Florida electricity demand forecast data center growth 2026 2027 market report",
+        "lens": "demand",
+        "stream": "FPL"
+      },
+      {
+        "q": "U.S. wholesale power market demand data centers 2026 2027 industry outlook",
+        "lens": "demand",
+        "stream": "NEER"
+      },
+      {
+        "q": "Florida utility rate case trends 2026 Public Service Commission",
+        "lens": "sold",
+        "stream": "FPL"
+      },
+      {
+        "q": "utility renewable energy RFP procurement trends 2026 market report",
+        "lens": "sold",
+        "stream": "NEER"
+      },
+      {
+        "q": "data center power purchase agreement structures 2026 industry outlook",
+        "lens": "sold",
+        "stream": "NEER"
+      },
+      {
+        "q": "solar and battery storage supply chain costs 2026 market report",
+        "lens": "made",
+        "stream": "NEER"
+      },
+      {
+        "q": "natural gas price outlook electric utilities 2026 industry forecast",
+        "lens": "made",
+        "stream": "FPL"
+      },
+      {
+        "q": "electric utility transformer lead times 2026 trade association data",
+        "lens": "made",
+        "stream": null
+      },
+      {
+        "q": "FPL Utilities - Regulated Electric market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "FPL"
+      },
+      {
+        "q": "NEER Utilities - Regulated Electric market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "NEER"
+      },
+      {
+        "q": "Corporate and Other Utilities - Regulated Electric market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Corporate and Other"
+      }
+    ],
+    "searched": [
+      {
+        "query": "Florida electricity demand forecast data center growth 2026 2027 market report",
+        "lens": "demand",
+        "stream": "FPL",
+        "results": 5
+      },
+      {
+        "query": "U.S. wholesale power market demand data centers 2026 2027 industry outlook",
+        "lens": "demand",
+        "stream": "NEER",
+        "results": 5
+      },
+      {
+        "query": "Florida utility rate case trends 2026 Public Service Commission",
+        "lens": "sold",
+        "stream": "FPL",
+        "results": 5
+      },
+      {
+        "query": "utility renewable energy RFP procurement trends 2026 market report",
+        "lens": "sold",
+        "stream": "NEER",
+        "results": 5
+      },
+      {
+        "query": "data center power purchase agreement structures 2026 industry outlook",
+        "lens": "sold",
+        "stream": "NEER",
+        "results": 5
+      },
+      {
+        "query": "solar and battery storage supply chain costs 2026 market report",
+        "lens": "made",
+        "stream": "NEER",
+        "results": 5
+      },
+      {
+        "query": "natural gas price outlook electric utilities 2026 industry forecast",
+        "lens": "made",
+        "stream": "FPL",
+        "results": 5
+      },
+      {
+        "query": "electric utility transformer lead times 2026 trade association data",
+        "lens": "made",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "FPL Utilities - Regulated Electric market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "FPL",
+        "results": 5
+      },
+      {
+        "query": "NEER Utilities - Regulated Electric market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "NEER",
+        "results": 5
+      },
+      {
+        "query": "Corporate and Other Utilities - Regulated Electric market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Corporate and Other",
+        "results": 5
+      }
+    ],
+    "results": [
+      {
+        "title": "NextEra raises data center forecast to 8GW by 2032 at Florida subsidiary FPL - DCD",
+        "url": "https://www.datacenterdynamics.com/en/news/nextera-raises-data-center-forecast-to-8gw-by-2032-at-florida-subsidiary-fpl/",
+        "publisher": "datacenterdynamics.com",
+        "source_date": "2026-07-28",
+        "age_days": 54,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "Florida electricity demand forecast data center growth 2026 2027 market report"
+      },
+      {
+        "title": "2025 TEN YEAR SITE PLANS",
+        "url": "https://www.floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/TenYearSitePlans/2025/Review.pdf",
+        "publisher": "floridapsc.com",
+        "source_date": "2025-11-01",
+        "age_days": 323,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "Florida electricity demand forecast data center growth 2026 2027 market report"
+      },
+      {
+        "title": "Duke Energy Florida, LLC Ten-Year Site Plan",
+        "url": "https://www.floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/TenYearSitePlans/2026/Duke%20Energy%20Florida.pdf",
+        "publisher": "floridapsc.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "Florida electricity demand forecast data center growth 2026 2027 market report"
+      },
+      {
+        "title": "Mapped: Florida's next data centers - Axios Miami",
+        "url": "https://www.axios.com/local/miami/2026/09/18/data-centers-how-much-power-florida",
+        "publisher": "axios.com",
+        "source_date": "2026-09-18",
+        "age_days": 2,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "Florida electricity demand forecast data center growth 2026 2027 market report"
+      },
+      {
+        "title": "NextEra Just Raised Its Large-Load Forecast to 8 Gigawatts. Here's Why That Matters. - TheAdviserMagazine.com",
+        "url": "https://theadvisermagazine.com/market-research/business/nextera-just-raised-its-large-load-forecast-to-8-gigawatts-heres-why-that-matters/",
+        "publisher": "theadvisermagazine.com",
+        "source_date": "2005-04-15",
+        "age_days": 7828,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "Florida electricity demand forecast data center growth 2026 2027 market report"
+      },
+      {
+        "title": "Processing Power: The Effect of Data Centers on Wholesale Electricity Markets  - Research Dept. Working Paper No. 2606 - Dallas Fed",
+        "url": "https://www.dallasfed.org/~/media/documents/research/papers/2026/wp2606.pdf",
+        "publisher": "dallasfed.org",
+        "source_date": "2026-03-17",
+        "age_days": 187,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "U.S. wholesale power market demand data centers 2026 2027 industry outlook"
+      },
+      {
+        "title": "Short-Term Energy Outlook",
+        "url": "https://www.eia.gov/outlooks/steo/archives/aug26.pdf",
+        "publisher": "eia.gov",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "U.S. wholesale power market demand data centers 2026 2027 industry outlook"
+      },
+      {
+        "title": "Fossil generation could rise with faster-than-expected growth in data center power demand -\n\t\tU.S. Energy Information Administration (EIA)",
+        "url": "https://www.eia.gov/Todayinenergy/detail.php?id=67344",
+        "publisher": "eia.gov",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "U.S. wholesale power market demand data centers 2026 2027 industry outlook"
+      },
+      {
+        "title": "US Data Center Power Demand Projected to Double by 2027 | Goldman Sachs",
+        "url": "https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027",
+        "publisher": "goldmansachs.com",
+        "source_date": "2026-05-20",
+        "age_days": 123,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "U.S. wholesale power market demand data centers 2026 2027 industry outlook"
+      },
+      {
+        "title": "2026 Data Center Power Report",
+        "url": "https://www.powermag.com/wp-content/uploads/2026/07/2026-power-report.pdf",
+        "publisher": "powermag.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "U.S. wholesale power market demand data centers 2026 2027 industry outlook"
+      },
+      {
+        "title": "Public Service Commission",
+        "url": "https://www.floridapsc.com/library/FILINGS/2026/01781-2026/01781-2026.pdf",
+        "publisher": "floridapsc.com",
+        "source_date": "2026-03-26",
+        "age_days": 178,
+        "lens": "sold",
+        "stream": "FPL",
+        "query": "Florida utility rate case trends 2026 Public Service Commission"
+      },
+      {
+        "title": "Background This proceeding commenced on February 28, 2025, when Florida Power & Light Company (FPL or Company) filed its petition for a permanent rate increase. The Company is a public utility providing electric service as defined in Section 366.02, Florida Statutes (F.S.), to 6 million retail customers throughout both Northwest Florida and the peninsula. FPL has requested an increase in its retail rates and charges to generate $1.55 billion in additional gross annual revenue, effective January 1, 2026. The Company also has requested an increase in its retail rates and charges to generate $927 million in additional gross annual revenue, effective January 1, 2027. FPL asserts that the combined increases will allow the Company an opportunity to earn a return on equity (ROE) midpoint of 11.90 percent. The Company based its requests on projected test years ending December 31, 2026 and December 31, 2027. FPL stated that these test years are the appropriate periods to be utilized because they best represent expected revenues, costs, and investment in the period immediately after the proposed base rates go into effect. FPL has also requested Solar Base Rate Adjustments (SoBRAs) of approximately $296 million and $266 million for 2028 and 2029, respectively. The current proposal also includes a Tax Adjustment Mechanism (TAM), which is a non-cash accounting mechanism that accelerates the recording of deferred tax benefits over the proposed 4-year rate period by reversing certain deferred tax liabilities. FPL states it will use the TAM like its predecessor mechanism, the theoretical depreciation reserve surplus (RSAM), to respond to changes in underlying revenues and expenses to avoid additional general base rate increases over the 4-year rate period. In total, the Company is requesting approximately $9.80 billion in additional revenue over the 4-year rate period. FPL did not request any interim rate relief.",
+        "url": "https://www.psc.state.fl.us/library/filings/2025/02690-2025/02690-2025.pdf",
+        "publisher": "psc.state.fl.us",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "sold",
+        "stream": "FPL",
+        "query": "Florida utility rate case trends 2026 Public Service Commission"
+      },
+      {
+        "title": "ORDER NO. PSC-2026-0059-TRF-EI DOCKET NO. 20250139-EI PAGE 2 Paragraph XV, New Rates, of the 2025 Settlement provides for FPUC to file revised tariffs reflecting the subsequent years\u2019 revenue requirement, to be effective on March 20, 2026. Accordingly, on November 17, 2025, FPUC filed a petition seeking approval to implement a base rate increase consistent with the 2025 Settlement to be effective on March 20, 2026.",
+        "url": "https://www.psc.state.fl.us/library/filings/2026/01517-2026/01517-2026.pdf",
+        "publisher": "psc.state.fl.us",
+        "source_date": "2026-04-02",
+        "age_days": 171,
+        "lens": "sold",
+        "stream": "FPL",
+        "query": "Florida utility rate case trends 2026 Public Service Commission"
+      },
+      {
+        "title": "FINAL ORDER APPROVING ENVIRONMENTAL COST RECOVERY AMOUNTS AND RELATED TARIFFS AND ESTABLISHING ENVIRONMENTAL COST RECOVERY FACTORS FOR THE PERIOD JANUARY 2026 THROUGH DECEMBER 2026 APPEARANCES: MARIA JOSE MONCADA and JOEL T. BAKER, ESQUIRES, 700 Universe Boulevard, Juno Beach, Florida 33408-2863 On behalf of FLORIDA POWER & LIGHT COMPANY (FPL) . DIANNE M. TRIPLETT, ESQUIRE, 299 First Avenue North, St. Petersburg, Florida 33701 MATTHEW R. BERNIER and STEPHANIE CUELLO, ESQUIRES, 106 East College Avenue, Suite 800, Tallahassee, Florida 32301 On behalf of DUKE ENERGY FLORIDA, LLC (DEF) . J. JEFFRY WAHLEN, MALCOLM N. MEANS, and VIRGINIA PONDER, ESQUIRES, Ausley McMullen, Post Office Box 391, Tallahassee, Florida 32302 On behalf of TAMPA ELECTRIC COMPANY (TECO) . WALT TRIERWEILER, CHARLES J. REHWINKEL, PATRICIA A. CHRISTENSEN, MARY A. WESSLING, OCTAVIO PONCE, and AUSTIN WATROUS, ESQUIRES, c/o The Florida Legislature, 111 West Madison Street, Suite 812, Tallahassee, Florida 32399-1400 On behalf of the OFFICE OF PUBLIC COUNSEL (OPC) . JON C. MOYLE, JR. and KAREN A. PUTNAL, ESQUIRES, Moyle Law Firm, P.A., 118 North Gadsden Street, Tallahassee, Florida 32301 On behalf of FLORIDA INDUSTRIAL POWER USERS GROUP (FIPUG).",
+        "url": "https://www.floridapsc.com/pscfiles/library/filings/2025/15231-2025/15231-2025.pdf",
+        "publisher": "floridapsc.com",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "sold",
+        "stream": "FPL",
+        "query": "Florida utility rate case trends 2026 Public Service Commission"
+      },
+      {
+        "title": "Amin Mohomed FPL Fuel Adjustment True-ups and Projections; FPL SolarTogether Subscription Credit; FPL Capacity Cost Recovery True-ups and Projections; Fuel Cost Recovery Factor Calculations; Capacity Cost Recovery Factor Calculations; FPL\u2019s 2026 Project Revenue Requirements; Tariff Rates; Request for Tariff Approval; 2026 FCR and CCR Factors Effective Date",
+        "url": "https://www.psc.state.fl.us/library/FILINGS/2025/14285-2025/14285-2025.pdf",
+        "publisher": "psc.state.fl.us",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "sold",
+        "stream": "FPL",
+        "query": "Florida utility rate case trends 2026 Public Service Commission"
+      },
+      {
+        "title": "Clean Energy Procurement Across U.S. Regions",
+        "url": "https://illinoisenergy.org/clean-energy-procurement-across-u-s/",
+        "publisher": "illinoisenergy.org",
+        "source_date": "2026-09-08",
+        "age_days": 12,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "utility renewable energy RFP procurement trends 2026 market report"
+      },
+      {
+        "title": "2026 Renewable Energy Industry Outlook | Deloitte Insights",
+        "url": "https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html",
+        "publisher": "deloitte.com",
+        "source_date": "2026-07-04",
+        "age_days": 78,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "utility renewable energy RFP procurement trends 2026 market report"
+      },
+      {
+        "title": "Duff & Phelps Clean Energy 2026 Outlook",
+        "url": "https://www.dpimc.com/assets/files/md/2026-clean-energy-outlook_9122.pdf",
+        "publisher": "dpimc.com",
+        "source_date": "2025-12-01",
+        "age_days": 293,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "utility renewable energy RFP procurement trends 2026 market report"
+      },
+      {
+        "title": "US Renewable Energy Strategy 2026: Credits & Investment - Kurums | Business Intelligence",
+        "url": "https://kurums.com/us-renewable-energy-strategy/",
+        "publisher": "kurums.com",
+        "source_date": "2026-08-26",
+        "age_days": 25,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "utility renewable energy RFP procurement trends 2026 market report"
+      },
+      {
+        "title": "Public Utilities Commission approves Hawaiian Electric\u2019s request to expand renewables, energy storage",
+        "url": "https://www.hawaiianelectric.com/documents/about_us/news/2026/20260810_igp_rfp.pdf",
+        "publisher": "hawaiianelectric.com",
+        "source_date": "2026-08-10",
+        "age_days": 41,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "utility renewable energy RFP procurement trends 2026 market report"
+      },
+      {
+        "title": "AI power dash transforms clean energy offtake market | Reuters",
+        "url": "https://www.reuters.com/business/energy/ai-power-dash-transforms-clean-energy-offtake-market--reeii-2026-03-17/",
+        "publisher": "reuters.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "data center power purchase agreement structures 2026 industry outlook"
+      },
+      {
+        "title": "Power Purchase Agreements for Data Centers: How Developers Structure the Deal That Now Leads the Deal | Insights | Build",
+        "url": "https://build.inc/insights/data-center-ppa-structuring-developers",
+        "publisher": "build.inc",
+        "source_date": "2026-06-19",
+        "age_days": 93,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "data center power purchase agreement structures 2026 industry outlook"
+      },
+      {
+        "title": "Data Center Power Procurement in 2026: Why the Energy Deal Now Leads the Development Deal | Insights | Build",
+        "url": "https://build.inc/insights/data-center-power-procurement-2026",
+        "publisher": "build.inc",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "data center power purchase agreement structures 2026 industry outlook"
+      },
+      {
+        "title": "Offtake Agreements for Power Projects: What Developers, Lenders and Corporate Buyers Need to Know | Bracewell LLP - JDSupra",
+        "url": "https://www.jdsupra.com/legalnews/offtake-agreements-for-power-projects-4885026/",
+        "publisher": "jdsupra.com",
+        "source_date": "2026-09-11",
+        "age_days": 9,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "data center power purchase agreement structures 2026 industry outlook"
+      },
+      {
+        "title": "How to price grid uncertainty in data center energy contracts | BCLP - Bryan Cave Leighton Paisner",
+        "url": "https://www.bclplaw.com/en-US/events-insights-news/how-to-price-grid-uncertainty-in-energy-contracts.html",
+        "publisher": "bclplaw.com",
+        "source_date": "2026-09-09",
+        "age_days": 11,
+        "lens": "sold",
+        "stream": "NEER",
+        "query": "data center power purchase agreement structures 2026 industry outlook"
+      },
+      {
+        "title": "Solar PV Supply Chain Cost Tool: Methodology, results and analysis",
+        "url": "https://www.cleanenergyministerial.org/content/uploads/2026/02/solar_pv_supply_cost_tool_2026.pdf",
+        "publisher": "cleanenergyministerial.org",
+        "source_date": "2026-02-01",
+        "age_days": 231,
+        "lens": "made",
+        "stream": "NEER",
+        "query": "solar and battery storage supply chain costs 2026 market report"
+      },
+      {
+        "title": "Global battery energy storage supply chain trends 2025 report | Wood Mackenzie",
+        "url": "https://www.woodmac.com/reports/power-markets-global-battery-energy-storage-supply-chain-trends-2025-report-150410525/",
+        "publisher": "woodmac.com",
+        "source_date": "2026-07-16",
+        "age_days": 66,
+        "lens": "made",
+        "stream": "NEER",
+        "query": "solar and battery storage supply chain costs 2026 market report"
+      },
+      {
+        "title": "Solar Supply Chain Trends 2026: Prices, Polysilicon & Manufacturing | SurgePV",
+        "url": "https://www.surgepv.com/blog/solar-supply-chain-trends-2026",
+        "publisher": "surgepv.com",
+        "source_date": "2026-05-25",
+        "age_days": 118,
+        "lens": "made",
+        "stream": "NEER",
+        "query": "solar and battery storage supply chain costs 2026 market report"
+      },
+      {
+        "title": "Cost of Solar Power Battery Storage: A 2026 Engineering and Economic Deep-Dive",
+        "url": "https://en.cntepower.com/cost-of-solar-power-battery-storage-a-2026-engineering-and-economic-deep-dive/",
+        "publisher": "en.cntepower.com",
+        "source_date": "2026-07-06",
+        "age_days": 76,
+        "lens": "made",
+        "stream": "NEER",
+        "query": "solar and battery storage supply chain costs 2026 market report"
+      },
+      {
+        "title": "Energy Technology Perspectives 2026",
+        "url": "https://www.rinnovabili.net/wp-content/uploads/2026/03/EnergyTechnologyPerspectives2026.pdf",
+        "publisher": "rinnovabili.net",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "made",
+        "stream": "NEER",
+        "query": "solar and battery storage supply chain costs 2026 market report"
+      },
+      {
+        "title": "2026-2027 Winter Heating Outlook",
+        "url": "https://www.aga.org/wp-content/uploads/2026/09/AGA-Winter-Heating-Outlook-26-27-Final.pdf",
+        "publisher": "aga.org",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "made",
+        "stream": "FPL",
+        "query": "natural gas price outlook electric utilities 2026 industry forecast"
+      },
+      {
+        "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+        "url": "https://www.eia.gov/outlooks/steo/report/natgas.php",
+        "publisher": "eia.gov",
+        "source_date": "2026-09-09",
+        "age_days": 11,
+        "lens": "made",
+        "stream": "FPL",
+        "query": "natural gas price outlook electric utilities 2026 industry forecast"
+      },
+      {
+        "title": "We expect Henry Hub natural gas spot prices to fall slightly in 2026 before rising in 2027 -\n\t\tU.S. Energy Information Administration (EIA)",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=67004",
+        "publisher": "eia.gov",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "made",
+        "stream": "FPL",
+        "query": "natural gas price outlook electric utilities 2026 industry forecast"
+      },
+      {
+        "title": "Summer 2026 Natural Gas Market Outlook",
+        "url": "https://www.ngsa.org/wp-content/uploads/2026/05/NGSA-Summer-2026-Natural-Gas-Market-Outlook-EVA-Executive-Summary.pdf",
+        "publisher": "ngsa.org",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "made",
+        "stream": "FPL",
+        "query": "natural gas price outlook electric utilities 2026 industry forecast"
+      },
+      {
+        "title": "Natural Gas Market Indicators - 501st Edition - American Gas Association",
+        "url": "https://www.aga.org/research-policy/resource-library/natural-gas-market-indicators-501st-edition/",
+        "publisher": "aga.org",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "made",
+        "stream": "FPL",
+        "query": "natural gas price outlook electric utilities 2026 industry forecast"
+      },
+      {
+        "title": "Making the connection: meeting the electric T&D supply chain challenge",
+        "url": "https://www.powermag.com/wp-content/uploads/2026/01/making-the-connection-executive-summary-september-2025.pdf",
+        "publisher": "powermag.com",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "made",
+        "stream": null,
+        "query": "electric utility transformer lead times 2026 trade association data"
+      },
+      {
+        "title": "Transformers in 2026: Shortage, Scramble, or Self-Inflicted Crisis?",
+        "url": "https://www.powermag.com/transformers-in-2026-shortage-scramble-or-self-inflicted-crisis/",
+        "publisher": "powermag.com",
+        "source_date": "2026-01-02",
+        "age_days": 261,
+        "lens": "made",
+        "stream": null,
+        "query": "electric utility transformer lead times 2026 trade association data"
+      },
+      {
+        "title": "Transcript: Distribution Transformer Convening Group Webinar",
+        "url": "https://www.energy.gov/sites/default/files/2026-03/Distribution-Transformer-Convening-Webinar-Transcript.pdf",
+        "publisher": "energy.gov",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "made",
+        "stream": null,
+        "query": "electric utility transformer lead times 2026 trade association data"
+      },
+      {
+        "title": "Transformer Lead Times 2026: US Procurement Numbers | DistroForge",
+        "url": "https://distroforge.com/blog/transformer-procurement-2026/",
+        "publisher": "distroforge.com",
+        "source_date": "2026-07-21",
+        "age_days": 61,
+        "lens": "made",
+        "stream": null,
+        "query": "electric utility transformer lead times 2026 trade association data"
+      },
+      {
+        "title": "Electricity Distribution Transformers: Supply, Tariffs, and Policy Options",
+        "url": "https://www.everycrsreport.com/files/2026-04-23_R48933_e69524fc8f52951a242ed35c91713fade25fe8ac.html",
+        "publisher": "everycrsreport.com",
+        "source_date": "2026-04-01",
+        "age_days": 172,
+        "lens": "made",
+        "stream": null,
+        "query": "electric utility transformer lead times 2026 trade association data"
+      },
+      {
+        "title": "Ten Year Power Plant Site Plan 2026 \u2013 2035",
+        "url": "https://www.fpl.com/content/dam/fplgp/us/en/about/pdf/ten-year-site-plan.pdf",
+        "publisher": "fpl.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "FPL Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "NextEra Energy",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2026/March%20Investor%20Presentation%20vF.pdf",
+        "publisher": "investor.nexteraenergy.com",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "FPL Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "FPL ..",
+        "url": "https://www.floridapsc.com/pscfiles/library/filings/2025/00012-2025/00012-2025.pdf",
+        "publisher": "floridapsc.com",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "FPL Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "Florida Power Light Co 10-Q Quarterly Report July 2026",
+        "url": "https://last10k.com/sec-filings/37634/0000753308-26-000060.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-07-24",
+        "age_days": 58,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "FPL Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "NextEra Just Raised Its Large-Load Forecast to 8 Gigawatts. Here's Why That Matters. | The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/31/nextera-just-raised-its-large-load-forecast-to-8-g/",
+        "publisher": "fool.com",
+        "source_date": "2026-07-31",
+        "age_days": 51,
+        "lens": "demand",
+        "stream": "FPL",
+        "query": "FPL Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "NextEra Energy",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2026/May%20Investor%20Presentation%20%20vF.pdf",
+        "publisher": "investor.nexteraenergy.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "NEER Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "Nextera Energy",
+        "url": "https://www.dbs.com/content/article/pdf/US_clover/Nextera.pdf",
+        "publisher": "dbs.com",
+        "source_date": "2026-02-09",
+        "age_days": 223,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "NEER Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "NextEra Energy: A Premium Worth Paying For (NYSE:NEE) | Seeking Alpha",
+        "url": "https://seekingalpha.com/article/4947235-nextera-energy-a-premium-worth-paying-for",
+        "publisher": "seekingalpha.com",
+        "source_date": "2026-09-16",
+        "age_days": 4,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "NEER Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "2026 Power and Utilities Industry Outlook | Deloitte Insights",
+        "url": "https://www.deloitte.com/us/en/insights/industry/power-and-utilities/power-and-utilities-industry-outlook.html",
+        "publisher": "deloitte.com",
+        "source_date": "2025-10-29",
+        "age_days": 326,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "NEER Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "NextEra Energy Inc",
+        "url": "https://students.tippie.uiowa.edu/sites/students.tippie.uiowa.edu/files/2026-05/s26-Nextera-Energy-Inc.pdf",
+        "publisher": "students.tippie.uiowa.edu",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "NEER",
+        "query": "NEER Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "Utilities - U.S. Outlook",
+        "url": "https://gabelli.com/research/utilities-u-s-outlook/",
+        "publisher": "gabelli.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "demand",
+        "stream": "Corporate and Other",
+        "query": "Corporate and Other Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "2026 Power and Utilities Industry Outlook | Deloitte Insights",
+        "url": "https://www.deloitte.com/us/en/insights/industry/power-and-utilities/power-and-utilities-industry-outlook.html",
+        "publisher": "deloitte.com",
+        "source_date": "2025-10-29",
+        "age_days": 326,
+        "lens": "demand",
+        "stream": "Corporate and Other",
+        "query": "Corporate and Other Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "Utility Outlook- 6-30-2026-A (003)",
+        "url": "https://gabelli.com/wp-content/uploads/2026/06/Utility-Outlook-6.30.2026.pdf",
+        "publisher": "gabelli.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "demand",
+        "stream": "Corporate and Other",
+        "query": "Corporate and Other Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "Utilities \u2212 U.S.",
+        "url": "https://gabelli.com/wp-content/uploads/2026/01/Utility-Outlook-2026.pdf",
+        "publisher": "gabelli.com",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "demand",
+        "stream": "Corporate and Other",
+        "query": "Corporate and Other Utilities - Regulated Electric market growth demand outlook 2026"
+      },
+      {
+        "title": "Goldman Sachs Americas Utilities 2Q 2026 Preview Report | Finvaulta",
+        "url": "https://finvaulta.com/research/goldman-sachs/americas-utilities-2q-preview-2026-07-16",
+        "publisher": "finvaulta.com",
+        "source_date": "2026-07-16",
+        "age_days": 66,
+        "lens": "demand",
+        "stream": "Corporate and Other",
+        "query": "Corporate and Other Utilities - Regulated Electric market growth demand outlook 2026"
+      }
+    ],
+    "results_count": 55,
+    "trends": [
+      {
+        "lens": "demand",
+        "stream": "FPL",
+        "claim": "In July 2026, NextEra raised FPL's data-center and large-load forecast to 8GW by 2032 from 6GW.",
+        "direction": "tailwind",
+        "why": "Drives FPL capital investment and rate base growth as large loads connect.",
+        "quote": "data center and other large-load demand at its Florida subsidiary, Florida Power & Light (FPL), to 8GW by 2032",
+        "url": "https://www.datacenterdynamics.com/en/news/nextera-raises-data-center-forecast-to-8gw-by-2032-at-florida-subsidiary-fpl/",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "8GW by 2032, up from 6GW; 21GW pipeline",
+        "speed": 4,
+        "speed_basis": "Transaction by end 2026; capacity online 2028",
+        "impact": 5,
+        "impact_basis": "FPL is 0.666 of revenue; large loads drive growth",
+        "theme_key": "ai-data-centre-capex",
+        "theme_label": "AI data centre capex",
+        "theme_definition": "AI-driven data centre construction is accelerating electricity demand and large-load power contracts.",
+        "as_of": "2026-07-28",
+        "age_days": 54,
+        "stale": false,
+        "publisher": "datacenterdynamics.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "sold",
+        "stream": "FPL",
+        "claim": "As of January 2026, FPL's new large-load tariff is effective, targeting data-center customers.",
+        "direction": "tailwind",
+        "why": "Enables FPL to contract with large loads, supporting revenue and capital recovery.",
+        "quote": "FPL's tariff was approved in November of last year and took effect on January 1, 2026.",
+        "url": "https://www.datacenterdynamics.com/en/news/nextera-raises-data-center-forecast-to-8gw-by-2032-at-florida-subsidiary-fpl/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "8GW large-load forecast; no dollar size",
+        "speed": 5,
+        "speed_basis": "Tariff effective January 1, 2026",
+        "impact": 4,
+        "impact_basis": "FPL is 0.666 of revenue; new large-load pricing",
+        "theme_key": "utility-large-load-tariffs",
+        "theme_label": "Utility large-load tariffs",
+        "theme_definition": "Regulated utilities create special tariffs to serve data centres and other large loads.",
+        "as_of": "2026-07-28",
+        "age_days": 54,
+        "stale": false,
+        "publisher": "datacenterdynamics.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "FPL",
+        "claim": "As of March 2026, FPL's rate case seeks $1.55bn additional annual revenue from Jan 2026 and $927m from Jan 2027.",
+        "direction": "tailwind",
+        "why": "Approved rate increases raise FPL revenue and return on equity.",
+        "quote": "FPL has requested an increase in its retail rates and charges to generate $1.55 billion in additional gross annual revenue, effective January 1, 2026.",
+        "url": "https://www.psc.state.fl.us/library/filings/2025/02690-2025/02690-2025.pdf",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "$1.55bn 2026 plus $927m 2027; $9.80bn four-year",
+        "speed": 5,
+        "speed_basis": "Effective January 1, 2026 and January 1, 2027",
+        "impact": 5,
+        "impact_basis": "FPL is 0.666 of revenue; rate increase directly lifts revenue",
+        "theme_key": "utility-rate-base-growth",
+        "theme_label": "Utility rate base growth",
+        "theme_definition": "Regulated utilities seek rate increases to fund capital investment and grow revenue.",
+        "as_of": "2026-01-01",
+        "age_days": 262,
+        "stale": false,
+        "publisher": "psc.state.fl.us",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "demand",
+        "stream": "NEER",
+        "claim": "In Q2 2026, NEER added 3.6GW to its renewables and storage backlog on strong origination.",
+        "direction": "tailwind",
+        "why": "Backlog converts into future NEER revenue as projects are built.",
+        "quote": "NextEra Energy Resources has a strong quarter for new renewables and storage origination, adding 3.6 gigawatts to its backlog",
+        "url": "https://last10k.com/sec-filings/37634/0000753308-26-000060.htm",
+        "source_type": "company",
+        "size": 4,
+        "size_basis": "3.6GW added; 35.1GW backlog",
+        "speed": 4,
+        "speed_basis": "Added in Q2 2026; backlog converts over years",
+        "impact": 4,
+        "impact_basis": "NEER is 0.32 of revenue; backlog drives future growth",
+        "theme_key": "clean-energy-development-backlog",
+        "theme_label": "Clean energy development backlog",
+        "theme_definition": "Renewables and storage developers are building large backlogs of contracted projects.",
+        "as_of": "2026-07-24",
+        "age_days": 58,
+        "stale": false,
+        "publisher": "last10k.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "sold",
+        "stream": "NEER",
+        "claim": "In Q4 2025, average North American solar PPA prices rose 9% year over year to $61.7/MWh.",
+        "direction": "tailwind",
+        "why": "Higher PPA prices lift revenue per megawatt-hour for NEER projects.",
+        "quote": "Average solar PPA prices in North America in Q4 2025 rose by 9% on the year to $61.7/MWh",
+        "url": "https://www.reuters.com/business/energy/ai-power-dash-transforms-clean-energy-offtake-market--reeii-2026-03-17/",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "No market size in evidence; 9% price rise",
+        "speed": 4,
+        "speed_basis": "Q4 2025 data; PPA pricing affects new contracts",
+        "impact": 4,
+        "impact_basis": "NEER is 0.32 of revenue; PPA prices drive project returns",
+        "theme_key": "clean-energy-ppa-price-inflation",
+        "theme_label": "Clean energy PPA price inflation",
+        "theme_definition": "Data centre demand and supply constraints are raising long-term clean power contract prices.",
+        "as_of": null,
+        "age_days": null,
+        "stale": false,
+        "publisher": "reuters.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "As of May 2026, only 50-60% of data center capacity scheduled for 2026-2027 is expected online on time.",
+        "direction": "headwind",
+        "why": "Delays push out FPL large-load revenue and NEER offtake opportunities.",
+        "quote": "Only about 50-60% of data center capacity scheduled for the next one to two years is expected to come online on time",
+        "url": "https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "50-60% of scheduled capacity; no dollar size",
+        "speed": 4,
+        "speed_basis": "Next one to two years",
+        "impact": 4,
+        "impact_basis": "Affects FPL large-load and NEER offtake timing",
+        "theme_key": "data-centre-construction-delays",
+        "theme_label": "Data centre construction delays",
+        "theme_definition": "Data centre projects face delays and cancellations, slowing power demand growth.",
+        "as_of": "2026-05-20",
+        "age_days": 123,
+        "stale": false,
+        "publisher": "goldmansachs.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "As of September 2025, power transformer and GSU lead times are 2 to 3 years.",
+        "direction": "headwind",
+        "why": "Long lead times delay FPL and NEER capital projects and raise equipment costs.",
+        "quote": "Power transformer and GSUs are seeing sustained lead times of 2 to 3 years.",
+        "url": "https://www.powermag.com/wp-content/uploads/2026/01/making-the-connection-executive-summary-september-2025.pdf",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "Lead times 2-3 years; $1.8bn announced investments",
+        "speed": 5,
+        "speed_basis": "Already visible in 2025-2026 procurement",
+        "impact": 4,
+        "impact_basis": "Affects both FPL and NEER capital project timelines",
+        "theme_key": "transformer-supply-shortage",
+        "theme_label": "Transformer supply shortage",
+        "theme_definition": "Power transformer shortages and long lead times constrain grid and generation projects.",
+        "as_of": "2026-01-01",
+        "age_days": 262,
+        "stale": false,
+        "publisher": "powermag.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "NEER",
+        "claim": "In 2026, solar module prices are stabilizing at $0.10-$0.15/W and polysilicon at $8-$12/kg.",
+        "direction": "tailwind",
+        "why": "Lower module and polysilicon costs improve NEER project economics.",
+        "quote": "Solar supply chain trends in 2026 show module prices stabilizing at $0.10\u2013$0.15/W, polysilicon at $8\u2013$12/kg",
+        "url": "https://www.surgepv.com/blog/solar-supply-chain-trends-2026",
+        "source_type": "general",
+        "size": 5,
+        "size_basis": "Global module capacity >1,100GW vs ~650GW demand",
+        "speed": 5,
+        "speed_basis": "Already visible in 2026 prices",
+        "impact": 4,
+        "impact_basis": "NEER is 0.32 of revenue; lower capex lifts returns",
+        "theme_key": "solar-supply-chain-oversupply",
+        "theme_label": "Solar supply chain oversupply",
+        "theme_definition": "Global solar manufacturing capacity exceeds demand, keeping module and polysilicon prices low.",
+        "as_of": "2026-05-25",
+        "age_days": 118,
+        "stale": false,
+        "publisher": "surgepv.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "sold",
+        "stream": "NEER",
+        "claim": "As of August 2026, OBBBA sets wind and solar tax credit deadlines at July 4, 2026 construction or end-2027 operation.",
+        "direction": "two-sided",
+        "why": "Pulls forward wind/solar projects but threatens post-2027 pipeline; storage/nuclear favored.",
+        "quote": "projects generally needed to begin construction by July 4, 2026, or reach commercial operation by the end of 2027",
+        "url": "https://kurums.com/us-renewable-energy-strategy/",
+        "source_type": "general",
+        "size": 5,
+        "size_basis": "Tax credits affect most US clean energy projects",
+        "speed": 5,
+        "speed_basis": "Deadlines in 2026 and 2027",
+        "impact": 4,
+        "impact_basis": "NEER is 0.32 of revenue; tax credits drive project economics",
+        "theme_key": "clean-energy-tax-credit-deadlines",
+        "theme_label": "Clean energy tax credit deadlines",
+        "theme_definition": "US clean energy tax credits now have construction and operation deadlines that reshape project timing.",
+        "as_of": "2026-08-26",
+        "age_days": 25,
+        "stale": false,
+        "publisher": "kurums.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "In Q1 2026, the 10-year Treasury yield rose above 4.3%, a headwind for utilities.",
+        "direction": "headwind",
+        "why": "Higher rates raise NEE's financing costs and pressure valuation.",
+        "quote": "pushing the 10-year Treasury yield above 4.3%, creating a headwind for the group.",
+        "url": "https://gabelli.com/research/utilities-u-s-outlook/",
+        "source_type": "trade",
+        "size": 5,
+        "size_basis": "Affects entire utility sector cost of capital",
+        "speed": 5,
+        "speed_basis": "Already visible in Q1 2026",
+        "impact": 4,
+        "impact_basis": "Capital-intensive business; financing costs affect earnings",
+        "theme_key": "utility-interest-rate-headwind",
+        "theme_label": "Utility interest rate headwind",
+        "theme_definition": "Rising interest rates increase financing costs and pressure utility valuations.",
+        "as_of": "2026-09-01",
+        "age_days": 19,
+        "stale": false,
+        "publisher": "gabelli.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "As of August 2026, EIA forecasts Henry Hub gas at $3.44/MMBtu in 2026 and $3.31 in 2027.",
+        "direction": "two-sided",
+        "why": "Lower gas prices reduce FPL fuel costs but pressure NEER gas generation margins.",
+        "quote": "Natural gas price at Henry Hub (dollars per million British thermal units) $3.53 $3.44 $3.31",
+        "url": "https://www.eia.gov/outlooks/steo/archives/aug26.pdf",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "Henry Hub price forecast; no market size",
+        "speed": 4,
+        "speed_basis": "2026-2027 forecast period",
+        "impact": 3,
+        "impact_basis": "FPL fuel costs pass through; NEER gas margins smaller",
+        "theme_key": "natural-gas-price-volatility",
+        "theme_label": "Natural gas price volatility",
+        "theme_definition": "Natural gas price swings affect utility fuel costs and gas-fired generation margins.",
+        "as_of": "2026-09-01",
+        "age_days": 19,
+        "stale": false,
+        "publisher": "eia.gov",
+        "lens_label": "How it's made"
+      }
+    ],
+    "dropped": [],
+    "by_lens": {
+      "demand": 3,
+      "sold": 4,
+      "made": 4
+    },
+    "coverage": {
+      "demand": 3,
+      "sold": 4,
+      "made": 4
+    },
+    "stale_dropped": 0
+  },
+  "errors": []
+}

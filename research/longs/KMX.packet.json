@@ -1,0 +1,2117 @@
+{
+  "symbol": "KMX",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T09:42:48",
+  "profile": {
+    "symbol": "KMX",
+    "name": "CarMax, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto & Truck Dealerships",
+    "summary": "CarMax, Inc., through its subsidiaries, operates as a retailer of used vehicles and related products in the United States. The company operates in two segments: CarMax Sales Operations and CarMax Auto Finance. The CarMax Sales Operations segment offers customers a range of makes and models of used vehicles, including domestic, imported, and luxury vehicles, as well as hybrid and electric vehicles; wholesale auctions; extended protection plans to customers at the time of sale; and reconditioning and vehicle repair services. The CarMax Auto Finance segment provides financing alternatives for retail customers across a range of credit spectrum and arrangements with various financial institutions. The company was founded in 1993 and is based in Richmond, Virginia.",
+    "employees": 28000,
+    "country": "United States",
+    "website": "https://www.carmax.com"
+  },
+  "quants": {
+    "symbol": "KMX",
+    "name": "CarMax, Inc.",
+    "price": 57.21,
+    "market_cap": 8118734336,
+    "market_cap_human": "8.12B",
+    "fwd_pe": 20.99,
+    "fwd_pe_1y": 18.26,
+    "fwd_pe_yahoo": 18.6735,
+    "trailing_pe": 35.53416,
+    "ps": 0.2879238,
+    "ev_ebitda": 26.002,
+    "sector": "Consumer Cyclical",
+    "industry": "Auto & Truck Dealerships",
+    "eps_fy_current": 2.72551,
+    "eps_fy_next": 3.13248,
+    "eps_trend": {
+      "change_7d_pct": -0.24,
+      "change_30d_pct": -0.24,
+      "current": 2.72551,
+      "7d_ago": 2.73219,
+      "30d_ago": 2.73219,
+      "text": "slightly down over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 0,
+      "up_30d": 2,
+      "down_30d": 0,
+      "net_30d": 2,
+      "text": "all up, with 2 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "next_date": "2026-09-29",
+      "eps_avg": 0.72236,
+      "eps_low": 0.62,
+      "eps_high": 0.85365,
+      "revenue_avg": 6950216500
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 57.21 USD",
+    "Market Cap: 8.12B",
+    "Fwd PE: 20.99",
+    "P/S: 0.3",
+    "EPS trends: slightly down over the last 7 days",
+    "EPS revisions: all up, with 2 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 292368.0,
+      "prior": 81930.0,
+      "change_pct": 256.9,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 1346305.0,
+      "prior": 815350.0,
+      "change_pct": 65.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 185627.0,
+      "prior": 120684.0,
+      "change_pct": 53.8,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 8013519.0,
+      "prior": 5945960.0,
+      "change_pct": 34.8,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 263919.0,
+      "prior": 204453.0,
+      "change_pct": 29.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "5/31/2026",
+      "prior_period": "2/28/2026",
+      "current": 494934.0,
+      "prior": 467613.0,
+      "change_pct": 5.8,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-06-17T05:00:00-04:00",
+    "current": 1.31,
+    "year_ago": 1.38,
+    "year_ago_period": "2025-06-20T06:00:00-04:00",
+    "change": -0.07,
+    "direction": "declined"
+  },
+  "news": [
+    {
+      "title": "KMX Earnings Estimates for Carmax Stock - Barchart.com",
+      "publisher": "barchart.com",
+      "url": "https://www.barchart.com/stocks/quotes/KMX/earnings-estimates",
+      "summary": "KMX Earnings Estimates for Carmax Stock - Barchart.com\n\n# Carmax Inc (KMX) \n\n Carmax Inc (KMX) \n\n [[ item.lastPrice ]] [[ item.priceChange ]] ([[ item.percentChange ]]) [[ item.tradeTime ]] [NYSE] \n\n [[ item.bidPrice ]] x [[ item.bidSize ]] [[ item.askPrice ]] x [[ item.askSize ]] \n\n [[ session ]] by (Cboe BZX) \n\n [[ item.lastPrice ]] [[ item.priceChange ]] ([[ item.percentChange ]]) [[ item.tradeTime ]] [NYSE] \n\n [[ item.bidPrice ]] x [[ item.bidSize ]] [[ item.askPrice ]] x [[ item.askSize ]] \n\n [[ session ]] [[ item.lastPriceExt ]] [[ item.priceChangeExt ]] ([[ item.percentChangeExt ]]) [[ ",
+      "published": null,
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4915749-carmax-still-missing-gpu-boost-q1-earnings-review",
+      "summary": "CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha\n\nLuca Socci\n\nInvesting Group\n\n5\n\nShare\n\nPlay(11min)\n\n- Comments\n\n## Summary\n\n- CarMax is rated a sell due to unfavorable risk/reward, high valuation multiples, and gross margin pressures.\n- Q1 FY27 results showed revenue growth driven by higher ASPs and wholesale volume, but gross profit per used car declined $230 YoY to $2,177.\n- SG&A cost control and redesigned extended protection plans offer some margin support, but buybacks have paused and customer credit quality is deteriorating.\n- With no FY27 guidance an",
+      "published": null,
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "valuation_dispersion",
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "CarMax: Business Is Improving, But Not Good Enough (Rating Upgrade) (NYSE:KMX) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4923424-carmax-business-is-improving-but-not-good-enough-rating-upgrade",
+      "summary": "CarMax: Business Is Improving, But Not Good Enough (Rating Upgrade) (NYSE:KMX) | Seeking Alpha\n\nRedfox Capital Ideas\n\n769 Followers\n\n5\n\nShare\n\nPlay(8min)\n\n- Comments(2)\n\n## Summary\n\n- CarMax (KMX) is upgraded from sell to hold as retail demand stabilizes and management addresses pricing, conversion, and cost issues.\n- KMX\u2019s retail recovery comes at the expense of lower gross profit per unit and higher advertising spend, raising questions about sustainable profitability.\n- Cost-cutting initiatives, wholesale growth, and improved extended protection plan margins provide partial offsets to retail",
+      "published": null,
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "CarMax, Inc. (KMX) stock report | Bellwether Brief",
+      "publisher": "bellwetherbrief.com",
+      "url": "https://bellwetherbrief.com/stock/kmx",
+      "summary": "CarMax, Inc. (KMX) stock report | Bellwether Brief\n\nKMX\n\n\u2190 PrevNext \u2192\n\n\u2630\n\nPrice\n\n$51.58\n\nMarket Cap\n\n$6.4B\n\n4 DAYS OLD\n\nThis report reflects conditions as of June 12, 2026. Markets move fast \u2014 a fresh report takes under a minute.\n\nGENERATE A FRESH REPORT \u2192\n\n## Executive Summary\n\nCarMax (KMX) is a company in the middle of a messy identity crisis. Once the gold standard of the used-car market, the stock now limps along near the lower end of its 12-month range, having shed nearly half its value since last summer\u2019s peak. The defining dynamic is a collision between a broken affordability model and ",
+      "published": "2026-04-14",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "CarMax Stock (NYSE:KMX) Analysis: Turnaround Play or Value Trap? | AI Finance Hub",
+      "publisher": "aifinancehub.site",
+      "url": "https://aifinancehub.site/carmax-stock",
+      "summary": "CarMax Stock (NYSE:KMX) Analysis: Turnaround Play or Value Trap? | AI Finance Hub\n\nMay 23, 2026 \u00b7 11 min read\n\n# CarMax Stock (NYSE:KMX) Analysis: Turnaround Play or Value Trap?\n\nCarMax stock (NYSE:KMX) has lost over 50% of its value. We analyze KMX\u2019s new CEO Keith Barr, Q4 2026 earnings, cost cuts, and whether KMX is a buy now.\n\nMay 23, 2026 \u00b7 11 min read\n\nIs CarMax stock (NYSE: KMX) a generational buying opportunity or a dangerous value trap? This is the multi-billion-dollar question facing value investors as the nation's largest used-car retailer undergoes one of its most critical structura",
+      "published": "2026-05-23",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "KMX Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/kmx-stock-analysis/",
+      "summary": "KMX Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy CarMax, Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-08-27 \u00b7 7/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, CarMax, Inc. (KMX) occupies a solid middle-ground position with a Quality of Company score of 6.9/10. At the current market price of $62.64, the investment case depends heavily on whether our 13 independent valuation models indicate a discount to fair value.\n\nThe short answer: 2 of 7 CirclFi valuation models project upside for CarMax, Inc. (KMX) at $62.64 \u2014 the model con",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "kmx-20260617",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001026000053/kmx-20260617.htm",
+      "summary": "kmx-20260617\n\nWashington, D.C. 20549\n\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\n\nJune 17, 2026 \n\nDate of Report (date of earliest event reported)\n\nCARMAX, INC. \n\n(Exact name of registrant as specified in its charter)\n\n| Virginia | | 1-31420 | 54-1821055 |\n| --- | --- | --- | --- |\n| (State or other jurisdiction of incorporation) | | (Commission File Number) | (I.R.S. Employer Identification No.) |\n| 12800 Tuckahoe Creek Parkway | | | 23238 |\n| Richmond, | Virginia | | |\n| (Address of Principal Executive Offices) | | | (Zip Code) |\n\n(804) 747-0422 \n\nRegistrant's tel",
+      "published": "2026-06-17",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "CarMax (NYSE:KMX) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nyse-kmx/carmax/future",
+      "summary": "CarMax (NYSE:KMX) Stock Forecast & Analyst Predictions - Simply Wall St\n\nNOT FOR DISTRIBUTION\n\nCarMax, Inc.\n\nNYSE:KMX Stock Report\n\nMarket Cap: US$7.5b\n\nPortfolioAdd to Portfolio\n\nView Valuation\n\n# CarMax Future Growth\n\n## Future criteria checks 3/6\n\nCarMax's revenue is forecast to decline at 0.05% per annum while its annual earnings are expected to grow at 24.5% per year. EPS is expected to grow by 25.6% per annum. Return on equity is forecast to be 8.4% in 3 years.\n\n## Key information\n\n24.5%\n\nEarnings growth rate\n\n25.63%\n\nEPS growth rate\n\nGood\n\n| Specialty Retail earnings growth | 9.8% |\n| -",
+      "published": "2026-06-26",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "CarMax (KMX) Stock Looks Stretched After A 53% Five Year Slump",
+      "publisher": "Simply Wall St.",
+      "published": "2026-08-13T19:10:51Z",
+      "summary": "CarMax stock has roughly halved over the past 5 years, yet the broader valuation checks still suggest the shares are not a clear bargain at the current price. CarMax has declined 52.9% over the last 5 years, which raises questions about how much of the company\u2019s challenges are already reflected in the share price. Investor focus now includes an investigation into potential breaches of fiduciary duty by certain CarMax directors and officers, which can weigh on sentiment even if the core used...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carmax-kmx-stock-looks-stretched-191051271.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "regulation",
+        "positioning"
+      ]
+    },
+    {
+      "title": "CarMax (KMX) Stock Sees Modest Fair Value Lift After More Constructive Q1 Analyst Views",
+      "publisher": "Simply Wall St.",
+      "published": "2026-08-13T20:08:05Z",
+      "summary": "CarMax's fair value estimate has shifted from US$51.31 to US$54.85, which places it closer to the upper half of the current US$44 to US$66 price target range. Analysts linking this move to the latest Q1 update point to a more neutral and constructive stance, with several firms lifting ratings and targets as they reassess the turnaround effort. Read on to see what is driving this evolving CarMax story and how you can track the next phase of the narrative. Analyst Price Targets don't always...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carmax-kmx-stock-sees-modest-200805856.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "CarMax KMX Q2 FY27 Preview \u2014 Used Car Market & EV Residuals Sep 19",
+      "publisher": "alphagridhub.com",
+      "url": "https://alphagridhub.com/carmax-kmx-q2-fy27-preview-used-car-ev-residuals/",
+      "summary": "CarMax KMX Q2 FY27 Preview \u2014 Used Car Market & EV Residuals Sep 19\n\n# CarMax (KMX) Q2 FY27 Earnings Preview \u2014 Used Car Market, EV Residual Pressure, and Auto Finance Recovery\n\nBy Alex Kim / August 24, 2026 \n\n# CarMax (KMX) Q2 FY27 Earnings Preview \u2014 Used Car Market, EV Residual Pressure, and Auto Finance Recovery\n\nEducational only, not investment advice. This preview uses CarMax\u2019s public SEC filings, FY2026 10-K (ended February 28, 2026), Q1 FY2027 10-Q, Cox Automotive Manheim Used Vehicle Value Index data, and analyst consensus. All forward estimates are my synthesis of the public record. Con",
+      "published": "2026-08-24",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "regulation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "KMX Stock Forecast 2026-2027 - CarMax, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/kmx-forecast/",
+      "summary": "KMX Stock Forecast 2026-2027 - CarMax, Inc. Price Targets & Predictions\n\n# KMX Stock Forecast: CarMax, Inc. Price Predictions for 2026-2027\n\nLast close, 28 Aug 2026\n\n$62\n\n\u22120.85% on the day\n\nThe 19 Wall Street analysts covering CarMax, Inc. hold a median 12-month price target of $55 \u2014 -11.4% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 62 of 100 as at 29 Aug 2026 \u2014 in the upper half.\n\nMarket cap\n\n$8.8B\n\nTicker Nerd rank\n\n62 / 100\n\nMedian analyst target\n\n$55\n\nAnalysts covering\n\n19\n\nRevenue$8.0B+6.2% y/y\n\nOperating income$31.7M\n\nNet income$185.",
+      "published": "2026-08-28",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Will CarMax (KMX) Beat Estimates Again in Its Next Earnings Report?",
+      "publisher": "Zacks",
+      "published": "2026-08-31T16:10:02Z",
+      "summary": "CarMax (KMX) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carmax-kmx-beat-estimates-again-161002647.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "CarMax (KMX) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/kmx/forecast/",
+      "summary": "CarMax (KMX) Stock Forecast & Analyst Price Targets\n\n63.29 +0.65 (1.04%) At close: Sep 4, 2026, 4:00 PM EDT\n\n63.10 -0.19 (-0.30%) After-hours: Sep 4, 2026, 7:49 PM EDT\n\n# CarMax Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 19 analysts polled by S&P Global, CarMax stock has a consensus rating of \"Hold\" and an average price target of $54.85. The average 1-year stock price forecast is 13.34% lower than the current stock price, while the lowest is $33 (-47.86%) and the highest is $96 (+51.68%).\n\nPrice Target: $54.85 (-13.34%)\n\nAnalyst Consensus: Hold\n\n## Price Target\n\n| Target | Low | Ave",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "CarMax (KMX) is a Top-Ranked Value Stock: Should You Buy?",
+      "publisher": "Zacks",
+      "created": "Aug 11, 2026",
+      "ago": "Aug 11, 2026",
+      "url": "/articles/carmax-kmx-top-ranked-value-stock-should-you-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KMX"
+      ],
+      "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "IJR, MTCH, PAYC, KMX: Large Inflows Detected at ETF",
+      "publisher": "BNK Invest",
+      "created": "Aug 27, 2026",
+      "ago": "Aug 27, 2026",
+      "url": "/articles/ijr-mtch-payc-kmx-large-inflows-detected-etf",
+      "primary_symbol": "IJR",
+      "related_symbols": [
+        "IJR",
+        "MTCH",
+        "PAYC",
+        "KMX"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares Core S&P Small-Cap ETF (Symbol: IJR) where we have detected an approximate $183.5 million dollar inflow -- that's a 0.2% increase week ov",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "CarMax (KMX) Up 9% Since Last Earnings Report: Can It Continue?",
+      "publisher": "Zacks",
+      "created": "Jul 17, 2026",
+      "ago": "Jul 17, 2026",
+      "url": "/articles/carmax-kmx-9-last-earnings-report-can-it-continue",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KMX"
+      ],
+      "summary": "CarMax (KMX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Here's Why CarMax (KMX) is a Strong Momentum Stock",
+      "publisher": "Zacks",
+      "created": "Jul 30, 2026",
+      "ago": "Jul 30, 2026",
+      "url": "/articles/heres-why-carmax-kmx-strong-momentum-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KMX"
+      ],
+      "summary": "Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Why CarMax Stock Zoomed Nearly 19% Higher in June",
+      "publisher": "The Motley Fool",
+      "created": "Jul 8, 2026",
+      "ago": "Jul 8, 2026",
+      "url": "/articles/why-carmax-stock-zoomed-nearly-19-higher-june",
+      "primary_symbol": "KMX",
+      "related_symbols": [
+        "KMX"
+      ],
+      "summary": "Key PointsThis was due in no small part to a wave of positive analyst updates.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Friday 6/26 Insider Buying Report: F, KMX",
+      "publisher": "BNK Invest",
+      "created": "Jun 26, 2026",
+      "ago": "Jun 26, 2026",
+      "url": "/articles/friday-6-26-insider-buying-report-f-kmx",
+      "primary_symbol": "F",
+      "related_symbols": [
+        "F",
+        "KMX"
+      ],
+      "summary": "Bargain hunters are wise to pay careful attention to insider buying, because although there are many various reasons for an insider to sell a stock, presumably the only reason they would use their hard-earned dollars to make a purchase, is that they expect to make money.  Today",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why CarMax (KMX) is a Top Value Stock for the Long-Term",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/why-carmax-kmx-top-value-stock-long-term-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KMX"
+      ],
+      "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Is Carvana Stock a Buy as Rapid Growth Tests Its Premium Valuation?",
+      "publisher": "Zacks",
+      "created": "Aug 11, 2026",
+      "ago": "Aug 11, 2026",
+      "url": "/articles/carvana-stock-buy-rapid-growth-tests-its-premium-valuation",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CVNA",
+        "KMX",
+        "SAH"
+      ],
+      "summary": "Carvana's rapid volume growth, rising EBITDA and stronger liquidity support its outlook, but a premium valuation and execution risks call for patience.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "CVNA Stock Down 20% YTD: Is This a Buy the Dip Opportunity?",
+      "publisher": "Zacks",
+      "created": "Jul 10, 2026",
+      "ago": "Jul 10, 2026",
+      "url": "/articles/cvna-stock-down-20-ytd-buy-dip-opportunity",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CVNA",
+        "KMX",
+        "SAH"
+      ],
+      "summary": "Carvana's 20% YTD slide contrasts with record EBITDA, rapid unit growth and expanding capacity, making the dip look like a buying opportunity.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "2 Industrials Stocks That Can Make You Richer Than You Think",
+      "publisher": "The Motley Fool",
+      "created": "Jul 26, 2026",
+      "ago": "Jul 26, 2026",
+      "url": "/articles/2-industrials-stocks-can-make-you-richer-you-think",
+      "primary_symbol": "ITW",
+      "related_symbols": [
+        "ITW",
+        "KMX"
+      ],
+      "summary": "Key PointsIllinois Tool Works' deep business diversification isn't a liability stemming from complexity because it makes a point of not letting it be.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Is PC Connection (CNXN) Stock Outpacing Its Retail-Wholesale Peers This Year?",
+      "publisher": "Zacks",
+      "created": "Jul 31, 2026",
+      "ago": "Jul 31, 2026",
+      "url": "/articles/pc-connection-cnxn-stock-outpacing-its-retail-wholesale-peers-year-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CNXN",
+        "KMX"
+      ],
+      "summary": "Here is how PC Connection (CNXN) and CarMax (KMX) have performed compared to their sector so far this year.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "iShares S&P Small-Cap 600 Value ETF Experiences Big Outflow",
+      "publisher": "BNK Invest",
+      "created": "Sep 17, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/ishares-sp-small-cap-600-value-etf-experiences-big-outflow",
+      "primary_symbol": "IJS",
+      "related_symbols": [
+        "IJS",
+        "MTCH",
+        "PAYC",
+        "KMX"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares S&P Small-Cap 600 Value ETF (Symbol: IJS) where we have detected an approximate $105.8 million dollar outflow -- that's a 1.3% decrease",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Loan Delinquencies Edge Lower in Q2, but Some Remain at Very High Levels. Here's What It Means for Investors.",
+      "publisher": "The Motley Fool",
+      "created": "Sep 2, 2026",
+      "ago": "Sep 2, 2026",
+      "url": "/articles/loan-delinquencies-edge-lower-q2-some-remain-very-high-levels-heres-what-it-means",
+      "primary_symbol": "AXP",
+      "related_symbols": [
+        "AXP",
+        "MCD",
+        "WMT",
+        "KMX",
+        "ALLY",
+        "TRU",
+        "CVNA"
+      ],
+      "summary": "Key PointsOverall, U.S. consumers are demonstrating improving economic resiliency.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "consumer_credit"
+      ]
+    },
+    {
+      "title": "Carmax - CarMax Reports Fourth Quarter and Fiscal Year 2026 Results",
+      "publisher": "investors.carmax.com",
+      "url": "https://investors.carmax.com/news-and-events/news/news-details/2026/CarMax-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx",
+      "summary": "Carmax - CarMax Reports Fourth Quarter and Fiscal Year 2026 Results\n\nSkip to main content\n\n# News Details\n\n### CarMax Reports Fourth Quarter and Fiscal Year 2026 Results\n\nApr 14, 2026\n\n- Download (opens in new window)\n\nRICHMOND, Va.--(BUSINESS WIRE)-- CarMax, Inc. (NYSE:KMX) today reported results for the fourth quarter and fiscal year ended February 28, 2026.\n\nFourth Quarter Highlights:(1)\n\n- Keith Barr appointed President and Chief Executive Officer, effective March 16, 2026.\n- Combined retail and wholesale unit sales of 303,969, an increase of 0.7%.\n- Retail used unit sales decreased 0.8% a",
+      "published": "2026-04-14",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Carmax - CarMax Reports First Quarter Fiscal 2027 Results",
+      "publisher": "investors.carmax.com",
+      "url": "https://investors.carmax.com/news-and-events/news/news-details/2026/CarMax-Reports-First-Quarter-Fiscal-2027-Results/",
+      "summary": "Carmax - CarMax Reports First Quarter Fiscal 2027 Results \n\n### CarMax Reports First Quarter Fiscal 2027 Results \n\n Jun 17, 2026 \n\n Introduces Strategy for Growth \n\nRICHMOND, Va.--(BUSINESS WIRE)-- CarMax, Inc. (NYSE:KMX) today reported results for the first quarter ended May 31, 2026.\n\nFirst Quarter Highlights: (1) \n\n- CEO Keith Barr announces CarMax's four-pillar strategic framework with the objective of delivering strong unit and earnings growth that enables CarMax to consistently reward shareholders.\n\n- Net revenues rose 6.2% to $8.0 billion.\n\n- Combined retail and wholesale unit sales of ",
+      "published": "2026-06-17",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Carvana Drops 7% With Bulls, Bears Split Over the Business Model",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-08-18T15:23:07Z",
+      "summary": "Carvana just posted its best quarter ever, yet the stock keeps sliding while a traditional rival is up over 50% this year. Something about that gap deserves a closer look.",
+      "url": "https://247wallst.com/investing/2026/08/18/carvana-drops-7-with-bulls-bears-split-over-the-business-model/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Is Fossil Group (FOSL) Outperforming Other Retail-Wholesale Stocks This Year?",
+      "publisher": "Zacks",
+      "published": "2026-08-20T13:40:02Z",
+      "summary": "Here is how Fossil Group (FOSL) and CarMax (KMX) have performed compared to their sector so far this year.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-fosl-outperforming-other-134002044.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Carvana Jumps 5% as Risk Appetite Returns to High-Beta Names; CarMax and Lithia Motors Inch Higher",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-08-25T18:19:17Z",
+      "summary": "Carvana is leaving CarMax and Lithia Motors in the dust today, but the reason has nothing to do with used cars and everything to do with where traders are parking their risk appetite right now.",
+      "url": "https://247wallst.com/investing/2026/08/25/carvana-jumps-5-as-risk-appetite-returns-to-high-beta-names-carmax-and-lithia-motors-inch-higher/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "No AI, No Problem: 5 Consumer Stocks Quietly Outperforming Nvidia This Year",
+      "publisher": "Stocktwits",
+      "published": "2026-08-27T05:31:24Z",
+      "summary": "Cheesecake Factory, Victoria\u2019s Secret, Cracker Barrel, CarMax and Airbnb have risen 38% to 130%.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/no-ai-no-problem-5-consumer-stocks-quietly-outperforming-nvidia-this-year/cZY8qSVRJpm",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "1 Consumer Stock Worth Your Attention and 2 We Question",
+      "publisher": "StockStory",
+      "published": "2026-09-01T14:50:20Z",
+      "summary": "Retailers are adapting their business models as technology changes how people shop. Still, secular trends are working against them as e-commerce continues to take share from brick-and-mortar stores. This puts retail stocks in a tough spot, and over the past six months, the industry\u2019s returns were flat while the S&P 500 gained 12.1%.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-consumer-stock-worth-attention-145020791.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Petco Health & Wellness (WOOF) Surpasses Q2 Earnings Estimates",
+      "publisher": "Zacks",
+      "published": "2026-09-02T21:25:04Z",
+      "summary": "Petco (WOOF) delivered earnings and revenue surprises of +166.67% and -0.30%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/petco-health-wellness-woof-surpasses-212504948.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "CarMax Q2FY26 Results: Earnings call set for September 29",
+      "publisher": "scanx.trade",
+      "url": "https://scanx.trade/stock-market-news/companies/carmax-q2fy26-results-earnings-call-set-september-29/50537303",
+      "summary": "# CarMax Q2FY26 Results: Earnings call set for September 29\n\nAuthor: Dhan\nPublished: 2026-09-09T22:08:30.979000+00:00\nSource: scanx.trade (scanx.trade)\nLanguage: en\n\n## Story\n\nCarMax Q2FY26 Results: Earnings call set for September 29\n\n# CarMax Q2FY26 Results: Earnings call set for September 29\n\n1 min read | Published on 10 Sept 2026, 03:38 AM |Updated on 10 Sept 2026, 03:38 AM\n\nReviewed by\n\nRiya DScanX News Team\n\nAdd as a preferred source on Google\n\nKey Highlights\n\n- CarMax to report Q2 FY26 results before market open on September 29, 2026\n- Conference call scheduled for 8:00 am ET with CEO Ke",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Zacks Research Issues Negative Forecast for CarMax Earnings",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-zacks-research-issues-negative-forecast-for-carmax-earnings-2026-09-18/",
+      "summary": "Skip to main content\n\n\u2192 Iran War WARNING: Something Just Changed (From Banyan Hill Publishing) (Ad)\n\n# Zacks Research Issues Negative Forecast for CarMax Earnings\n\nWritten by MarketBeat\n\nSeptember 18, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Zacks Research lowered CarMax\u2019s Q2 2027 EPS forecast to $0.57 from $0.60 and projects full-year 2027 EPS of $2.54. The firm maintains a \u201cHold\u201d rating.\n- CarMax\u2019s latest quarterly results exceeded expectations, with EPS of $1.31 versus the $0.96 con",
+      "published": "2026-09-18",
+      "source": "ollama_search",
+      "query": "CarMax, Inc. (KMX) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Should You Buy Copart Stock On The ACV Deal?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T17:16:08Z",
+      "summary": "Copart (CPRT) has lost more than a third of its value over the past twelve months, while the S&P 500 gained about 17%. At $29.66, the stock sits at roughly 64% of its 52-week high, and the easy read is that a durable auction business has gone on sale. But its growth slowed well before the acquisition it just announced, and dealer volume is a different business from the insurance volume that is falling.",
+      "url": "https://www.trefis.com/articles/615886/should-you-buy-copart-stock-on-the-acv-deal/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "mna"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 12,
+        "share": 0.4,
+        "evidence": [
+          {
+            "title": "KMX Earnings Estimates for Carmax Stock - Barchart.com",
+            "publisher": "barchart.com",
+            "published": null,
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "CarMax (NYSE:KMX) Stock Forecast & Analyst Predictions - Simply Wall St",
+            "publisher": "simplywall.st",
+            "published": "2026-06-26",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "CarMax (KMX) Stock Sees Modest Fair Value Lift After More Constructive Q1 Analyst Views",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-13T20:08:05Z",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 6,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "CarMax: Business Is Improving, But Not Good Enough (Rating Upgrade) (NYSE:KMX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "upgrade"
+            ]
+          },
+          {
+            "title": "CarMax (KMX) Stock Looks Stretched After A 53% Five Year Slump",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-13T19:10:51Z",
+            "matched": [
+              "sentiment"
+            ]
+          },
+          {
+            "title": "CarMax (KMX) Stock Sees Modest Fair Value Lift After More Constructive Q1 Analyst Views",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-13T20:08:05Z",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "KMX Stock Forecast 2026-2027 - CarMax, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-08-28",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.167,
+        "evidence": [
+          {
+            "title": "CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "valuation",
+              "multiple"
+            ]
+          },
+          {
+            "title": "KMX Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation",
+              "discount"
+            ]
+          },
+          {
+            "title": "CarMax (NYSE:KMX) Stock Forecast & Analyst Predictions - Simply Wall St",
+            "publisher": "simplywall.st",
+            "published": "2026-06-26",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "CarMax (KMX) Stock Looks Stretched After A 53% Five Year Slump",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-13T19:10:51Z",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 2,
+        "share": 0.067,
+        "evidence": [
+          {
+            "title": "CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "gpu"
+            ]
+          },
+          {
+            "title": "No AI, No Problem: 5 Consumer Stocks Quietly Outperforming Nvidia This Year",
+            "publisher": "Stocktwits",
+            "published": "2026-08-27T05:31:24Z",
+            "matched": [
+              "nvidia"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 2,
+        "share": 0.067,
+        "evidence": [
+          {
+            "title": "CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "buyback"
+            ]
+          },
+          {
+            "title": "Should You Buy Copart Stock On The ACV Deal?",
+            "publisher": "Trefis",
+            "published": "2026-09-18T17:16:08Z",
+            "matched": [
+              "acquisition"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 2,
+        "share": 0.067,
+        "evidence": [
+          {
+            "title": "CarMax (KMX) Stock Looks Stretched After A 53% Five Year Slump",
+            "publisher": "Simply Wall St.",
+            "published": "2026-08-13T19:10:51Z",
+            "matched": [
+              "investigation"
+            ]
+          },
+          {
+            "title": "CarMax KMX Q2 FY27 Preview \u2014 Used Car Market & EV Residuals Sep 19",
+            "publisher": "alphagridhub.com",
+            "published": "2026-08-24",
+            "matched": [
+              "sec filing"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "consumer_credit",
+        "label": "Consumer credit deterioration",
+        "description": "Stress in household balance sheets showing up as loan losses.",
+        "count": 1,
+        "share": 0.033,
+        "evidence": [
+          {
+            "title": "Loan Delinquencies Edge Lower in Q2, but Some Remain at Very High Levels. Here's What It Means for Investors.",
+            "publisher": "The Motley Fool",
+            "published": "Sep 2, 2026",
+            "matched": [
+              "delinquen"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI adoption is bullish capex, bearish labour income",
+      "long_side": "AI infrastructure and power",
+      "short_side": "consumer lenders exposed to job losses"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-09-29"
+    ],
+    "next_date": "2026-09-29",
+    "eps_avg": 0.72236,
+    "eps_low": 0.62,
+    "eps_high": 0.85365,
+    "revenue_avg": 6950216500
+  },
+  "catalyst": {
+    "date": "2026-09-29",
+    "weekday": "Tuesday",
+    "days_out": 9,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 0.72236,
+      "eps_low": 0.62,
+      "eps_high": 0.85365,
+      "revenue_avg": 6950216500
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-17",
+        "eps_estimate": 0.94,
+        "eps_actual": 1.31,
+        "surprise_pct": 38.77,
+        "beat": true
+      },
+      {
+        "date": "2026-04-14",
+        "eps_estimate": 0.22,
+        "eps_actual": -0.85,
+        "surprise_pct": -479.74,
+        "beat": false
+      },
+      {
+        "date": "2025-12-18",
+        "eps_estimate": 0.32,
+        "eps_actual": 0.43,
+        "surprise_pct": 36.07,
+        "beat": true
+      },
+      {
+        "date": "2025-09-25",
+        "eps_estimate": 1.04,
+        "eps_actual": 0.64,
+        "surprise_pct": -38.6,
+        "beat": false
+      }
+    ],
+    "beat_streak": 1,
+    "beat_rate": 0.5,
+    "median_gap_days": 89,
+    "same_slot_last_year": true,
+    "facts_line": "2026-09-29 (Tuesday, before the open), 9 days out -- from the earnings calendar, consensus EPS 0.72."
+  },
+  "forward_trends": {
+    "queries": [
+      "used vehicle market outlook 2026 2027 affordability interest rates consumer demand",
+      "auto loan delinquency subprime borrowers 2026 2027 credit conditions",
+      "new car incentives tariffs used vehicle prices 2026 2027 forecast",
+      "CarMax KMX used car demand competition Carvana online used car retail 2026 2027"
+    ],
+    "results_count": 20,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "In early September 2026, non-adjusted wholesale vehicle prices fell 1.1% from August and 1.1% year over year.",
+        "stance": "pressure",
+        "why": "Larger-than-seasonal wholesale declines can pressure CarMax's inventory values and wholesale margins.",
+        "quote": "Non-adjusted wholesale vehicle prices decreased 1.1% in the first half of September from August and are down 1.1% year over year.",
+        "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
+        "publisher": "coxautoinc.com",
+        "as_of": "2026-09-18",
+        "age_days": 2,
+        "undated": false
+      },
+      {
+        "claim": "In Q2 2026, average 3-year-old used vehicle prices topped $32K and sub-$20K vehicles were less than one-third of used sales.",
+        "stance": "pressure",
+        "why": "This squeezes budget buyers and can limit CarMax's unit demand.",
+        "quote": "Vehicles under $20,000 now account for less than one-third of used sales",
+        "url": "https://www.edmunds.com/car-news/insights-q2-2026-used-car-report.html",
+        "publisher": "edmunds.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In August 2026, average new car prices exceeded $50,000 for the first time this year.",
+        "stance": "support",
+        "why": "High new-car prices can push budget-conscious buyers toward used vehicles, supporting CarMax demand.",
+        "quote": "In August 2026, the average sale price of a new car drifted over $50,000 for the first time this year.",
+        "url": "https://www.kbb.com/car-advice/is-now-the-time-to-buy-sell-or-trade-in-a-used-car/",
+        "publisher": "kbb.com",
+        "as_of": "2026-08-01",
+        "age_days": 50,
+        "undated": false
+      },
+      {
+        "claim": "As of August 2026, it is easier to qualify for a new car loan than at any time since 2015.",
+        "stance": "support",
+        "why": "Easier credit access can support vehicle demand, including used cars sold by CarMax.",
+        "quote": "It hasn\u2019t been this easy to qualify for a new car loan since 2015.",
+        "url": "https://www.kbb.com/car-advice/is-now-the-time-to-buy-sell-or-trade-in-a-used-car/",
+        "publisher": "kbb.com",
+        "as_of": "2026-08-01",
+        "age_days": 50,
+        "undated": false
+      },
+      {
+        "claim": "As of April 2026, severe auto delinquencies are rising though new delinquency flow is stable.",
+        "stance": "pressure",
+        "why": "If forbearance practices change, CarMax's finance arm could face higher credit losses.",
+        "quote": "while the stock of severe auto delinquencies is rising, the flow of new delinquencies into this stage is fairly stable",
+        "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Consumer-Finance/Reports/cfi-report-april-2026-do-recent-auto-loan-delinquency-rates-overstate-borrower-distress.pdf",
+        "publisher": "philadelphiafed.org",
+        "as_of": "2026-04-01",
+        "age_days": 172,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In first half of September 2026, wholesale used-vehicle prices fell 1% from August, softening from first-half highs.",
+        "stance": "pressure",
+        "why": "Softer wholesale values can pressure CarMax's wholesale auction results and used vehicle margins.",
+        "quote": "MUVVI fell to 206.2, reflecting a 1% decrease in wholesale used-vehicle prices",
+        "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
+        "publisher": "coxautoinc.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true,
+        "drop_reason": "quote_not_found_in_results"
+      },
+      {
+        "claim": "By mid-2026, used vehicle depreciation reasserted itself in late June, ending broad appreciation.",
+        "stance": "pressure",
+        "why": "Slowing appreciation can pressure CarMax's used vehicle margins and inventory values.",
+        "quote": "depreciation started to reassert itself in late June",
+        "url": "https://www.blackbook.com/used-car-market-2026-where-values-stand-at-the-halfway-point/",
+        "publisher": "blackbook.com",
+        "as_of": "2026-03-01",
+        "age_days": 203,
+        "undated": false,
+        "drop_reason": "stale (203 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "KMX",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 57.21,
+      "catalyst": "2026-12-27",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 60.0,
+        "premium": 5.6,
+        "bid": 5.3,
+        "ask": 5.9,
+        "mid": 5.6,
+        "last": 5.33,
+        "open_interest": 741,
+        "volume": 3,
+        "implied_vol": 0.521367091064453,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 60.0,
+        "premium": 2.58,
+        "bid": 2.4,
+        "ask": 2.75,
+        "mid": 2.58,
+        "last": 2.5,
+        "open_interest": 400,
+        "volume": 41,
+        "implied_vol": 0.5996133789062501,
+        "qty": 3
+      },
+      "long_total": 4480.0,
+      "short_total": 774.0,
+      "net_debit": 3706.0,
+      "credit_ratio_mid": 0.1728,
+      "credit_ratio_conservative": 0.1525,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "15-Jan-27",
+          "strike": 60.0,
+          "qty": 8,
+          "underlying": 57.21,
+          "multiplier": 100,
+          "price": 5.6,
+          "total": 4480.0,
+          "open_interest": 741
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 60.0,
+          "qty": 3,
+          "underlying": 57.21,
+          "multiplier": 100,
+          "price": 2.58,
+          "total": -774.0,
+          "open_interest": 400
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-27 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 60, 57.5, 62.5, 65"
+      ],
+      "advice": "Credit ratio 15.3% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0576,
+          "credit_ratio_conservative": 0.0508,
+          "passes_floor": false,
+          "cash_collected": 258.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1152,
+          "credit_ratio_conservative": 0.1017,
+          "passes_floor": true,
+          "cash_collected": 516.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1728,
+          "credit_ratio_conservative": 0.1525,
+          "passes_floor": true,
+          "cash_collected": 774.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.2304,
+          "credit_ratio_conservative": 0.2034,
+          "passes_floor": true,
+          "cash_collected": 1032.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2879,
+          "credit_ratio_conservative": 0.2542,
+          "passes_floor": true,
+          "cash_collected": 1290.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.3455,
+          "credit_ratio_conservative": 0.3051,
+          "passes_floor": true,
+          "cash_collected": 1548.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.4031,
+          "credit_ratio_conservative": 0.3559,
+          "passes_floor": true,
+          "cash_collected": 1806.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.4607,
+          "credit_ratio_conservative": 0.4068,
+          "passes_floor": true,
+          "cash_collected": 2064.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "KMX",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 57.21,
+      "catalyst": "2026-12-27",
+      "long_leg": {
+        "expiry": "2027-01-15",
+        "strike": 55.0,
+        "premium": 5.2,
+        "bid": 4.5,
+        "ask": 5.9,
+        "mid": 5.2,
+        "last": 5.3,
+        "open_interest": 107,
+        "volume": 6.0,
+        "implied_vol": 0.5483443603515626,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 55.0,
+        "premium": 2.67,
+        "bid": 2.5,
+        "ask": 2.85,
+        "mid": 2.67,
+        "last": 2.75,
+        "open_interest": 190,
+        "volume": 177.0,
+        "implied_vol": 0.6044961425781252,
+        "qty": 2
+      },
+      "long_total": 4160.0,
+      "short_total": 534.0,
+      "net_debit": 3626.0,
+      "credit_ratio_mid": 0.1284,
+      "credit_ratio_conservative": 0.1059,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "15-Jan-27",
+          "strike": 55.0,
+          "qty": 8,
+          "underlying": 57.21,
+          "multiplier": 100,
+          "price": 5.2,
+          "total": 4160.0,
+          "open_interest": 107
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 55.0,
+          "qty": 2,
+          "underlying": 57.21,
+          "multiplier": 100,
+          "price": 2.67,
+          "total": -534.0,
+          "open_interest": 190
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-12-27 catalyst; long expires 15-Jan-27, after it",
+        "targets report #2 (2026-12-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 55, 52.5, 50, 47.5"
+      ],
+      "advice": "Credit ratio 10.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0642,
+          "credit_ratio_conservative": 0.053,
+          "passes_floor": false,
+          "cash_collected": 267.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1284,
+          "credit_ratio_conservative": 0.1059,
+          "passes_floor": true,
+          "cash_collected": 534.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1925,
+          "credit_ratio_conservative": 0.1589,
+          "passes_floor": true,
+          "cash_collected": 801.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.2567,
+          "credit_ratio_conservative": 0.2119,
+          "passes_floor": true,
+          "cash_collected": 1068.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.3209,
+          "credit_ratio_conservative": 0.2648,
+          "passes_floor": true,
+          "cash_collected": 1335.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.3851,
+          "credit_ratio_conservative": 0.3178,
+          "passes_floor": true,
+          "cash_collected": 1602.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.4493,
+          "credit_ratio_conservative": 0.3708,
+          "passes_floor": true,
+          "cash_collected": 1869.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.5135,
+          "credit_ratio_conservative": 0.4237,
+          "passes_floor": true,
+          "cash_collected": 2136.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for KMX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KMX/key-statistics/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "Price: 57.21 USD Market Cap: 8.12B Fwd PE: 20.99 P/S: 0.3 EPS trends: slightly down over the last 7 days EPS revisions: all up, with 2 up and 0 down over last 30 days price 57.21 market cap 8.12B forward PE 20.99 forward PE next FY 18.26 trailing PE 35.53416 P/S 0.2879238 EV/EBITDA 26.002"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for KMX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KMX/analysis/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "FY consensus 2.72551 now, 2.73219 7 days ago, 2.73219 30 days ago, change over 30 days -0.24%; EPS revisions 2 up and 0 down over 30 days, 1 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "KMX quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/kmx/financials",
+      "date": "5/31/2026",
+      "weight": null,
+      "text": "Earnings Before Interest and Tax increasing 256.9% (2/28/2026 to 5/31/2026) Cash and Cash Equivalents increasing 65.1% (2/28/2026 to 5/31/2026) Net Income increasing 53.8% (2/28/2026 to 5/31/2026) Total Revenue increasing 34.8% (2/28/2026 to 5/31/2026) Net Receivables increasing 29.1% (2/28/2026 to 5/31/2026) Sales, General and Admin. increasing 5.8% (2/28/2026 to 5/31/2026) EPS declined year over year 1.38 to 1.31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "KMX earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/kmx/earnings",
+      "date": "2026-09-29",
+      "weight": null,
+      "text": "2026-09-29 (Tuesday, before the open), 9 days out -- from the earnings calendar, consensus EPS 0.72. beat streak 1 median gap 89 days 2026-06-17 estimate 0.94 actual 1.31 surprise 38.77% 2026-04-14 estimate 0.22 actual -0.85 surprise -479.74% 2025-12-18 estimate 0.32 actual 0.43 surprise 36.07% 2025-09-25 estimate 1.04 actual 0.64 surprise -38.6%"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: CarMax (KMX) Stock Looks Stretched After A 53% Five Year Slump",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carmax-kmx-stock-looks-stretched-191051271.html",
+      "date": "2026-08-13",
+      "weight": 3,
+      "text": "CarMax (KMX) Stock Looks Stretched After A 53% Five Year Slump CarMax stock has roughly halved over the past 5 years, yet the broader valuation checks still suggest the shares are not a clear bargain at the current price. CarMax has declined 52.9% over the last 5 years, which raises questions about how much of the company\u2019s challenges are already reflected in the share price. Investor focus now includes an investigation into potential breaches of fiduciary duty by certain CarMax directors and officers, which can weigh on sentiment even if the core used..."
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Simply Wall St.: CarMax (KMX) Stock Sees Modest Fair Value Lift After More Constructive Q1 Analyst Views",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carmax-kmx-stock-sees-modest-200805856.html",
+      "date": "2026-08-13",
+      "weight": 3,
+      "text": "CarMax (KMX) Stock Sees Modest Fair Value Lift After More Constructive Q1 Analyst Views CarMax's fair value estimate has shifted from US$51.31 to US$54.85, which places it closer to the upper half of the current US$44 to US$66 price target range. Analysts linking this move to the latest Q1 update point to a more neutral and constructive stance, with several firms lifting ratings and targets as they reassess the turnaround effort. Read on to see what is driving this evolving CarMax story and how you can track the next phase of the narrative. Analyst Price Targets don't always..."
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Zacks: Will CarMax (KMX) Beat Estimates Again in Its Next Earnings Report?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carmax-kmx-beat-estimates-again-161002647.html",
+      "date": "2026-08-31",
+      "weight": 3,
+      "text": "Will CarMax (KMX) Beat Estimates Again in Its Next Earnings Report? CarMax (KMX) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: CarMax (KMX) is a Top-Ranked Value Stock: Should You Buy?",
+      "provider": null,
+      "url": "/articles/carmax-kmx-top-ranked-value-stock-should-you-buy",
+      "date": "Aug 11, 20",
+      "weight": 3,
+      "text": "CarMax (KMX) is a Top-Ranked Value Stock: Should You Buy? The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: IJR, MTCH, PAYC, KMX: Large Inflows Detected at ETF",
+      "provider": null,
+      "url": "/articles/ijr-mtch-payc-kmx-large-inflows-detected-etf",
+      "date": "Aug 27, 20",
+      "weight": 3,
+      "text": "IJR, MTCH, PAYC, KMX: Large Inflows Detected at ETF Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares Core S&P Small-Cap ETF (Symbol: IJR) where we have detected an approximate $183.5 million dollar inflow -- that's a 0.2% increase week ov"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: CarMax (KMX) Up 9% Since Last Earnings Report: Can It Continue?",
+      "provider": null,
+      "url": "/articles/carmax-kmx-9-last-earnings-report-can-it-continue",
+      "date": "Jul 17, 20",
+      "weight": 3,
+      "text": "CarMax (KMX) Up 9% Since Last Earnings Report: Can It Continue? CarMax (KMX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Here's Why CarMax (KMX) is a Strong Momentum Stock",
+      "provider": null,
+      "url": "/articles/heres-why-carmax-kmx-strong-momentum-stock",
+      "date": "Jul 30, 20",
+      "weight": 3,
+      "text": "Here's Why CarMax (KMX) is a Strong Momentum Stock Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: Why CarMax Stock Zoomed Nearly 19% Higher in June",
+      "provider": null,
+      "url": "/articles/why-carmax-stock-zoomed-nearly-19-higher-june",
+      "date": "Jul 8, 202",
+      "weight": 3,
+      "text": "Why CarMax Stock Zoomed Nearly 19% Higher in June Key PointsThis was due in no small part to a wave of positive analyst updates."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "BNK Invest: Friday 6/26 Insider Buying Report: F, KMX",
+      "provider": null,
+      "url": "/articles/friday-6-26-insider-buying-report-f-kmx",
+      "date": "Jun 26, 20",
+      "weight": 3,
+      "text": "Friday 6/26 Insider Buying Report: F, KMX Bargain hunters are wise to pay careful attention to insider buying, because although there are many various reasons for an insider to sell a stock, presumably the only reason they would use their hard-earned dollars to make a purchase, is that they expect to make money.  Today"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Why CarMax (KMX) is a Top Value Stock for the Long-Term",
+      "provider": null,
+      "url": "/articles/why-carmax-kmx-top-value-stock-long-term-0",
+      "date": "Sep 15, 20",
+      "weight": 3,
+      "text": "Why CarMax (KMX) is a Top Value Stock for the Long-Term The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is Carvana Stock a Buy as Rapid Growth Tests Its Premium Valuation?",
+      "provider": null,
+      "url": "/articles/carvana-stock-buy-rapid-growth-tests-its-premium-valuation",
+      "date": "Aug 11, 20",
+      "weight": 2,
+      "text": "Is Carvana Stock a Buy as Rapid Growth Tests Its Premium Valuation? Carvana's rapid volume growth, rising EBITDA and stronger liquidity support its outlook, but a premium valuation and execution risks call for patience."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: CVNA Stock Down 20% YTD: Is This a Buy the Dip Opportunity?",
+      "provider": null,
+      "url": "/articles/cvna-stock-down-20-ytd-buy-dip-opportunity",
+      "date": "Jul 10, 20",
+      "weight": 2,
+      "text": "CVNA Stock Down 20% YTD: Is This a Buy the Dip Opportunity? Carvana's 20% YTD slide contrasts with record EBITDA, rapid unit growth and expanding capacity, making the dip look like a buying opportunity."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: 2 Industrials Stocks That Can Make You Richer Than You Think",
+      "provider": null,
+      "url": "/articles/2-industrials-stocks-can-make-you-richer-you-think",
+      "date": "Jul 26, 20",
+      "weight": 2,
+      "text": "2 Industrials Stocks That Can Make You Richer Than You Think Key PointsIllinois Tool Works' deep business diversification isn't a liability stemming from complexity because it makes a point of not letting it be."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Is PC Connection (CNXN) Stock Outpacing Its Retail-Wholesale Peers This Year?",
+      "provider": null,
+      "url": "/articles/pc-connection-cnxn-stock-outpacing-its-retail-wholesale-peers-year-0",
+      "date": "Jul 31, 20",
+      "weight": 2,
+      "text": "Is PC Connection (CNXN) Stock Outpacing Its Retail-Wholesale Peers This Year? Here is how PC Connection (CNXN) and CarMax (KMX) have performed compared to their sector so far this year."
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "BNK Invest: iShares S&P Small-Cap 600 Value ETF Experiences Big Outflow",
+      "provider": null,
+      "url": "/articles/ishares-sp-small-cap-600-value-etf-experiences-big-outflow",
+      "date": "Sep 17, 20",
+      "weight": 2,
+      "text": "iShares S&P Small-Cap 600 Value ETF Experiences Big Outflow Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares S&P Small-Cap 600 Value ETF (Symbol: IJS) where we have detected an approximate $105.8 million dollar outflow -- that's a 1.3% decrease"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "The Motley Fool: Loan Delinquencies Edge Lower in Q2, but Some Remain at Very High Levels. Here's What It Means for Investors.",
+      "provider": null,
+      "url": "/articles/loan-delinquencies-edge-lower-q2-some-remain-very-high-levels-heres-what-it-means",
+      "date": "Sep 2, 202",
+      "weight": 2,
+      "text": "Loan Delinquencies Edge Lower in Q2, but Some Remain at Very High Levels. Here's What It Means for Investors. Key PointsOverall, U.S. consumers are demonstrating improving economic resiliency."
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "24/7 Wall St.: Carvana Drops 7% With Bulls, Bears Split Over the Business Model",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/08/18/carvana-drops-7-with-bulls-bears-split-over-the-business-model/",
+      "date": "2026-08-18",
+      "weight": 0,
+      "text": "Carvana Drops 7% With Bulls, Bears Split Over the Business Model Carvana just posted its best quarter ever, yet the stock keeps sliding while a traditional rival is up over 50% this year. Something about that gap deserves a closer look."
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Zacks: Is Fossil Group (FOSL) Outperforming Other Retail-Wholesale Stocks This Year?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-fosl-outperforming-other-134002044.html",
+      "date": "2026-08-20",
+      "weight": 0,
+      "text": "Is Fossil Group (FOSL) Outperforming Other Retail-Wholesale Stocks This Year? Here is how Fossil Group (FOSL) and CarMax (KMX) have performed compared to their sector so far this year."
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "24/7 Wall St.: Carvana Jumps 5% as Risk Appetite Returns to High-Beta Names; CarMax and Lithia Motors Inch Higher",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/08/25/carvana-jumps-5-as-risk-appetite-returns-to-high-beta-names-carmax-and-lithia-motors-inch-higher/",
+      "date": "2026-08-25",
+      "weight": 0,
+      "text": "Carvana Jumps 5% as Risk Appetite Returns to High-Beta Names; CarMax and Lithia Motors Inch Higher Carvana is leaving CarMax and Lithia Motors in the dust today, but the reason has nothing to do with used cars and everything to do with where traders are parking their risk appetite right now."
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Stocktwits: No AI, No Problem: 5 Consumer Stocks Quietly Outperforming Nvidia This Year",
+      "provider": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/no-ai-no-problem-5-consumer-stocks-quietly-outperforming-nvidia-this-year/cZY8qSVRJpm",
+      "date": "2026-08-27",
+      "weight": 0,
+      "text": "No AI, No Problem: 5 Consumer Stocks Quietly Outperforming Nvidia This Year Cheesecake Factory, Victoria\u2019s Secret, Cracker Barrel, CarMax and Airbnb have risen 38% to 130%."
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "StockStory: 1 Consumer Stock Worth Your Attention and 2 We Question",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-consumer-stock-worth-attention-145020791.html",
+      "date": "2026-09-01",
+      "weight": 0,
+      "text": "1 Consumer Stock Worth Your Attention and 2 We Question Retailers are adapting their business models as technology changes how people shop. Still, secular trends are working against them as e-commerce continues to take share from brick-and-mortar stores. This puts retail stocks in a tough spot, and over the past six months, the industry\u2019s returns were flat while the S&P 500 gained 12.1%."
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Zacks: Petco Health & Wellness (WOOF) Surpasses Q2 Earnings Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/petco-health-wellness-woof-surpasses-212504948.html",
+      "date": "2026-09-02",
+      "weight": 0,
+      "text": "Petco Health & Wellness (WOOF) Surpasses Q2 Earnings Estimates Petco (WOOF) delivered earnings and revenue surprises of +166.67% and -0.30%, respectively, for the quarter ended July 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "id": "S27",
+      "kind": "yahoo",
+      "ref": "news:22",
+      "label": "Trefis: Should You Buy Copart Stock On The ACV Deal?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615886/should-you-buy-copart-stock-on-the-acv-deal/2026-09-18",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "Should You Buy Copart Stock On The ACV Deal? Copart (CPRT) has lost more than a third of its value over the past twelve months, while the S&P 500 gained about 17%. At $29.66, the stock sits at roughly 64% of its 52-week high, and the easy read is that a durable auction business has gone on sale. But its growth slowed well before the acquisition it just announced, and dealer volume is a different business from the insurance volume that is falling."
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "barchart.com: KMX Earnings Estimates for Carmax Stock - Barchart.com",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/stocks/quotes/KMX/earnings-estimates",
+      "date": null,
+      "weight": 3,
+      "text": "KMX Earnings Estimates for Carmax Stock - Barchart.com KMX Earnings Estimates for Carmax Stock - Barchart.com\n\n# Carmax Inc (KMX) \n\n Carmax Inc (KMX) \n\n [[ item.lastPrice ]] [[ item.priceChange ]] ([[ item.percentChange ]]) [[ item.tradeTime ]] [NYSE] \n\n [[ item.bidPrice ]] x [[ item.bidSize ]] [[ item.askPrice ]] x [[ item.askSize ]] \n\n [[ session ]] by (Cboe BZX) \n\n [[ item.lastPrice ]] [[ item.priceChange ]] ([[ item.percentChange ]]) [[ item.tradeTime ]] [NYSE] \n\n [[ item.bidPrice ]] x [[ item.bidSize ]] [[ item.askPrice ]] x [[ item.askSize ]] \n\n [[ session ]] [[ item.lastPriceExt ]] [[ item.priceChangeExt ]] ([[ item.percentChangeExt ]]) [["
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "seekingalpha.com: CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4915749-carmax-still-missing-gpu-boost-q1-earnings-review",
+      "date": null,
+      "weight": 3,
+      "text": "CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha CarMax: Still Missing The GPU Boost (Q1 Earnings Review) (NYSE:KMX) | Seeking Alpha\n\nLuca Socci\n\nInvesting Group\n\n5\n\nShare\n\nPlay(11min)\n\n- Comments\n\n## Summary\n\n- CarMax is rated a sell due to unfavorable risk/reward, high valuation multiples, and gross margin pressures.\n- Q1 FY27 results showed revenue growth driven by higher ASPs and wholesale volume, but gross profit per used car declined $230 YoY to $2,177.\n- SG&A cost control and redesigned extended protection plans offer some margin support, but buybacks have paused and customer credit quality is deteriorating.\n- With no FY27 guidance an"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: CarMax: Business Is Improving, But Not Good Enough (Rating Upgrade) (NYSE:KMX) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4923424-carmax-business-is-improving-but-not-good-enough-rating-upgrade",
+      "date": null,
+      "weight": 3,
+      "text": "CarMax: Business Is Improving, But Not Good Enough (Rating Upgrade) (NYSE:KMX) | Seeking Alpha CarMax: Business Is Improving, But Not Good Enough (Rating Upgrade) (NYSE:KMX) | Seeking Alpha\n\nRedfox Capital Ideas\n\n769 Followers\n\n5\n\nShare\n\nPlay(8min)\n\n- Comments(2)\n\n## Summary\n\n- CarMax (KMX) is upgraded from sell to hold as retail demand stabilizes and management addresses pricing, conversion, and cost issues.\n- KMX\u2019s retail recovery comes at the expense of lower gross profit per unit and higher advertising spend, raising questions about sustainable profitability.\n- Cost-cutting initiatives, wholesale growth, and improved extended protection plan margins provide partial offsets to retail"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "bellwetherbrief.com: CarMax, Inc. (KMX) stock report | Bellwether Brief",
+      "provider": "bellwetherbrief.com",
+      "url": "https://bellwetherbrief.com/stock/kmx",
+      "date": "2026-04-14",
+      "weight": 3,
+      "text": "CarMax, Inc. (KMX) stock report | Bellwether Brief CarMax, Inc. (KMX) stock report | Bellwether Brief\n\nKMX\n\n\u2190 PrevNext \u2192\n\n\u2630\n\nPrice\n\n$51.58\n\nMarket Cap\n\n$6.4B\n\n4 DAYS OLD\n\nThis report reflects conditions as of June 12, 2026. Markets move fast \u2014 a fresh report takes under a minute.\n\nGENERATE A FRESH REPORT \u2192\n\n## Executive Summary\n\nCarMax (KMX) is a company in the middle of a messy identity crisis. Once the gold standard of the used-car market, the stock now limps along near the lower end of its 12-month range, having shed nearly half its value since last summer\u2019s peak. The defining dynamic is a collision between a broken affordability model and"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "aifinancehub.site: CarMax Stock (NYSE:KMX) Analysis: Turnaround Play or Value Trap? | AI Finance Hub",
+      "provider": "aifinancehub.site",
+      "url": "https://aifinancehub.site/carmax-stock",
+      "date": "2026-05-23",
+      "weight": 3,
+      "text": "CarMax Stock (NYSE:KMX) Analysis: Turnaround Play or Value Trap? | AI Finance Hub CarMax Stock (NYSE:KMX) Analysis: Turnaround Play or Value Trap? | AI Finance Hub\n\nMay 23, 2026 \u00b7 11 min read\n\n# CarMax Stock (NYSE:KMX) Analysis: Turnaround Play or Value Trap?\n\nCarMax stock (NYSE:KMX) has lost over 50% of its value. We analyze KMX\u2019s new CEO Keith Barr, Q4 2026 earnings, cost cuts, and whether KMX is a buy now.\n\nMay 23, 2026 \u00b7 11 min read\n\nIs CarMax stock (NYSE: KMX) a generational buying opportunity or a dangerous value trap? This is the multi-billion-dollar question facing value investors as the nation's largest used-car retailer undergoes one of its most critical structura"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "circlfi.com: KMX Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/kmx-stock-analysis/",
+      "date": "2026-06-03",
+      "weight": 3,
+      "text": "KMX Stock: Buy or Avoid in 2026? | CirclFi KMX Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy CarMax, Inc. Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-08-27 \u00b7 7/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, CarMax, Inc. (KMX) occupies a solid middle-ground position with a Quality of Company score of 6.9/10. At the current market price of $62.64, the investment case depends heavily on whether our 13 independent valuation models indicate a discount to fair value.\n\nThe short answer: 2 of 7 CirclFi valuation models project upside for CarMax, Inc. (KMX) at $62.64 \u2014 the model con"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "sec.gov: kmx-20260617",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001026000053/kmx-20260617.htm",
+      "date": "2026-06-17",
+      "weight": 3,
+      "text": "kmx-20260617 kmx-20260617\n\nWashington, D.C. 20549\n\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\n\nJune 17, 2026 \n\nDate of Report (date of earliest event reported)\n\nCARMAX, INC. \n\n(Exact name of registrant as specified in its charter)\n\n| Virginia | | 1-31420 | 54-1821055 |\n| --- | --- | --- | --- |\n| (State or other jurisdiction of incorporation) | | (Commission File Number) | (I.R.S. Employer Identification No.) |\n| 12800 Tuckahoe Creek Parkway | | | 23238 |\n| Richmond, | Virginia | | |\n| (Address of Principal Executive Offices) | | | (Zip Code) |\n\n(804) 747-0422 \n\nRegistrant's tel"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "simplywall.st: CarMax (NYSE:KMX) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nyse-kmx/carmax/future",
+      "date": "2026-06-26",
+      "weight": 3,
+      "text": "CarMax (NYSE:KMX) Stock Forecast & Analyst Predictions - Simply Wall St CarMax (NYSE:KMX) Stock Forecast & Analyst Predictions - Simply Wall St\n\nNOT FOR DISTRIBUTION\n\nCarMax, Inc.\n\nNYSE:KMX Stock Report\n\nMarket Cap: US$7.5b\n\nPortfolioAdd to Portfolio\n\nView Valuation\n\n# CarMax Future Growth\n\n## Future criteria checks 3/6\n\nCarMax's revenue is forecast to decline at 0.05% per annum while its annual earnings are expected to grow at 24.5% per year. EPS is expected to grow by 25.6% per annum. Return on equity is forecast to be 8.4% in 3 years.\n\n## Key information\n\n24.5%\n\nEarnings growth rate\n\n25.63%\n\nEPS growth rate\n\nGood\n\n| Specialty Retail earnings growth | 9.8% |\n| -"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "alphagridhub.com: CarMax KMX Q2 FY27 Preview \u2014 Used Car Market & EV Residuals Sep 19",
+      "provider": "alphagridhub.com",
+      "url": "https://alphagridhub.com/carmax-kmx-q2-fy27-preview-used-car-ev-residuals/",
+      "date": "2026-08-24",
+      "weight": 3,
+      "text": "CarMax KMX Q2 FY27 Preview \u2014 Used Car Market & EV Residuals Sep 19 CarMax KMX Q2 FY27 Preview \u2014 Used Car Market & EV Residuals Sep 19\n\n# CarMax (KMX) Q2 FY27 Earnings Preview \u2014 Used Car Market, EV Residual Pressure, and Auto Finance Recovery\n\nBy Alex Kim / August 24, 2026 \n\n# CarMax (KMX) Q2 FY27 Earnings Preview \u2014 Used Car Market, EV Residual Pressure, and Auto Finance Recovery\n\nEducational only, not investment advice. This preview uses CarMax\u2019s public SEC filings, FY2026 10-K (ended February 28, 2026), Q1 FY2027 10-Q, Cox Automotive Manheim Used Vehicle Value Index data, and analyst consensus. All forward estimates are my synthesis of the public record. Con"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "tickernerd.com: KMX Stock Forecast 2026-2027 - CarMax, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/kmx-forecast/",
+      "date": "2026-08-28",
+      "weight": 3,
+      "text": "KMX Stock Forecast 2026-2027 - CarMax, Inc. Price Targets & Predictions KMX Stock Forecast 2026-2027 - CarMax, Inc. Price Targets & Predictions\n\n# KMX Stock Forecast: CarMax, Inc. Price Predictions for 2026-2027\n\nLast close, 28 Aug 2026\n\n$62\n\n\u22120.85% on the day\n\nThe 19 Wall Street analysts covering CarMax, Inc. hold a median 12-month price target of $55 \u2014 -11.4% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 62 of 100 as at 29 Aug 2026 \u2014 in the upper half.\n\nMarket cap\n\n$8.8B\n\nTicker Nerd rank\n\n62 / 100\n\nMedian analyst target\n\n$55\n\nAnalysts covering\n\n19\n\nRevenue$8.0B+6.2% y/y\n\nOperating income$31.7M\n\nNet income$185."
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "stockanalysis.com: CarMax (KMX) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/kmx/forecast/",
+      "date": "2026-09-04",
+      "weight": 3,
+      "text": "CarMax (KMX) Stock Forecast & Analyst Price Targets CarMax (KMX) Stock Forecast & Analyst Price Targets\n\n63.29 +0.65 (1.04%) At close: Sep 4, 2026, 4:00 PM EDT\n\n63.10 -0.19 (-0.30%) After-hours: Sep 4, 2026, 7:49 PM EDT\n\n# CarMax Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 19 analysts polled by S&P Global, CarMax stock has a consensus rating of \"Hold\" and an average price target of $54.85. The average 1-year stock price forecast is 13.34% lower than the current stock price, while the lowest is $33 (-47.86%) and the highest is $96 (+51.68%).\n\nPrice Target: $54.85 (-13.34%)\n\nAnalyst Consensus: Hold\n\n## Price Target\n\n| Target | Low | Ave"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "investors.carmax.com: Carmax - CarMax Reports Fourth Quarter and Fiscal Year 2026 Results",
+      "provider": "investors.carmax.com",
+      "url": "https://investors.carmax.com/news-and-events/news/news-details/2026/CarMax-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx",
+      "date": "2026-04-14",
+      "weight": 0,
+      "text": "Carmax - CarMax Reports Fourth Quarter and Fiscal Year 2026 Results Carmax - CarMax Reports Fourth Quarter and Fiscal Year 2026 Results\n\nSkip to main content\n\n# News Details\n\n### CarMax Reports Fourth Quarter and Fiscal Year 2026 Results\n\nApr 14, 2026\n\n- Download (opens in new window)\n\nRICHMOND, Va.--(BUSINESS WIRE)-- CarMax, Inc. (NYSE:KMX) today reported results for the fourth quarter and fiscal year ended February 28, 2026.\n\nFourth Quarter Highlights:(1)\n\n- Keith Barr appointed President and Chief Executive Officer, effective March 16, 2026.\n- Combined retail and wholesale unit sales of 303,969, an increase of 0.7%.\n- Retail used unit sales decreased 0.8% a"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investors.carmax.com: Carmax - CarMax Reports First Quarter Fiscal 2027 Results",
+      "provider": "investors.carmax.com",
+      "url": "https://investors.carmax.com/news-and-events/news/news-details/2026/CarMax-Reports-First-Quarter-Fiscal-2027-Results/",
+      "date": "2026-06-17",
+      "weight": 0,
+      "text": "Carmax - CarMax Reports First Quarter Fiscal 2027 Results Carmax - CarMax Reports First Quarter Fiscal 2027 Results \n\n### CarMax Reports First Quarter Fiscal 2027 Results \n\n Jun 17, 2026 \n\n Introduces Strategy for Growth \n\nRICHMOND, Va.--(BUSINESS WIRE)-- CarMax, Inc. (NYSE:KMX) today reported results for the first quarter ended May 31, 2026.\n\nFirst Quarter Highlights: (1) \n\n- CEO Keith Barr announces CarMax's four-pillar strategic framework with the objective of delivering strong unit and earnings growth that enables CarMax to consistently reward shareholders.\n\n- Net revenues rose 6.2% to $8.0 billion.\n\n- Combined retail and wholesale unit sales of"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "scanx.trade: CarMax Q2FY26 Results: Earnings call set for September 29",
+      "provider": "scanx.trade",
+      "url": "https://scanx.trade/stock-market-news/companies/carmax-q2fy26-results-earnings-call-set-september-29/50537303",
+      "date": "2026-09-10",
+      "weight": 0,
+      "text": "CarMax Q2FY26 Results: Earnings call set for September 29 # CarMax Q2FY26 Results: Earnings call set for September 29\n\nAuthor: Dhan\nPublished: 2026-09-09T22:08:30.979000+00:00\nSource: scanx.trade (scanx.trade)\nLanguage: en\n\n## Story\n\nCarMax Q2FY26 Results: Earnings call set for September 29\n\n# CarMax Q2FY26 Results: Earnings call set for September 29\n\n1 min read | Published on 10 Sept 2026, 03:38 AM |Updated on 10 Sept 2026, 03:38 AM\n\nReviewed by\n\nRiya DScanX News Team\n\nAdd as a preferred source on Google\n\nKey Highlights\n\n- CarMax to report Q2 FY26 results before market open on September 29, 2026\n- Conference call scheduled for 8:00 am ET with CEO Ke"
+    },
+    {
+      "id": "S42",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "marketbeat.com: Zacks Research Issues Negative Forecast for CarMax Earnings",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-zacks-research-issues-negative-forecast-for-carmax-earnings-2026-09-18/",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "Zacks Research Issues Negative Forecast for CarMax Earnings Skip to main content\n\n\u2192 Iran War WARNING: Something Just Changed (From Banyan Hill Publishing) (Ad)\n\n# Zacks Research Issues Negative Forecast for CarMax Earnings\n\nWritten by MarketBeat\n\nSeptember 18, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Zacks Research lowered CarMax\u2019s Q2 2027 EPS forecast to $0.57 from $0.60 and projects full-year 2027 EPS of $2.54. The firm maintains a \u201cHold\u201d rating.\n- CarMax\u2019s latest quarterly results exceeded expectations, with EPS of $1.31 versus the $0.96 con"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "coxautoinc.com: In early September 2026, non-adjusted wholesale vehicle prices fell 1.1% from August and 1.1% year over year.",
+      "provider": "coxautoinc.com",
+      "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
+      "date": "2026-09-18",
+      "weight": null,
+      "text": "In early September 2026, non-adjusted wholesale vehicle prices fell 1.1% from August and 1.1% year over year. Larger-than-seasonal wholesale declines can pressure CarMax's inventory values and wholesale margins. \"Non-adjusted wholesale vehicle prices decreased 1.1% in the first half of September from August and are down 1.1% year over year.\""
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "edmunds.com: In Q2 2026, average 3-year-old used vehicle prices topped $32K and sub-$20K vehicles were less than one-third of used sales.",
+      "provider": "edmunds.com",
+      "url": "https://www.edmunds.com/car-news/insights-q2-2026-used-car-report.html",
+      "date": null,
+      "weight": null,
+      "text": "In Q2 2026, average 3-year-old used vehicle prices topped $32K and sub-$20K vehicles were less than one-third of used sales. This squeezes budget buyers and can limit CarMax's unit demand. \"Vehicles under $20,000 now account for less than one-third of used sales\""
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "kbb.com: In August 2026, average new car prices exceeded $50,000 for the first time this year.",
+      "provider": "kbb.com",
+      "url": "https://www.kbb.com/car-advice/is-now-the-time-to-buy-sell-or-trade-in-a-used-car/",
+      "date": "2026-08-01",
+      "weight": null,
+      "text": "In August 2026, average new car prices exceeded $50,000 for the first time this year. High new-car prices can push budget-conscious buyers toward used vehicles, supporting CarMax demand. \"In August 2026, the average sale price of a new car drifted over $50,000 for the first time this year.\""
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "kbb.com: As of August 2026, it is easier to qualify for a new car loan than at any time since 2015.",
+      "provider": "kbb.com",
+      "url": "https://www.kbb.com/car-advice/is-now-the-time-to-buy-sell-or-trade-in-a-used-car/",
+      "date": "2026-08-01",
+      "weight": null,
+      "text": "As of August 2026, it is easier to qualify for a new car loan than at any time since 2015. Easier credit access can support vehicle demand, including used cars sold by CarMax. \"It hasn\u2019t been this easy to qualify for a new car loan since 2015.\""
+    },
+    {
+      "id": "S47",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "philadelphiafed.org: As of April 2026, severe auto delinquencies are rising though new delinquency flow is stable.",
+      "provider": "philadelphiafed.org",
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Consumer-Finance/Reports/cfi-report-april-2026-do-recent-auto-loan-delinquency-rates-overstate-borrower-distress.pdf",
+      "date": "2026-04-01",
+      "weight": null,
+      "text": "As of April 2026, severe auto delinquencies are rising though new delinquency flow is stable. If forbearance practices change, CarMax's finance arm could face higher credit losses. \"while the stock of severe auto delinquencies is rising, the flow of new delinquencies into this stage is fairly stable\""
+    },
+    {
+      "id": "S48",
+      "kind": "options",
+      "ref": "options",
+      "label": "KMX listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KMX/options/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "long CALL strike 60.0 expiry 2027-01-15 premium 5.6 short PUT strike 55.0 expiry 2027-01-15 premium 5.2"
+    }
+  ],
+  "trailing_vs_consensus": null,
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "used vehicle market outlook 2026 2027 affordability interest rates consumer demand",
+        "auto loan delinquency subprime borrowers 2026 2027 credit conditions",
+        "new car incentives tariffs used vehicle prices 2026 2027 forecast",
+        "CarMax KMX used car demand competition Carvana online used car retail 2026 2027"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In early September 2026, non-adjusted wholesale vehicle prices fell 1.1% from August and 1.1% year over year.",
+          "stance": "pressure",
+          "why": "Larger-than-seasonal wholesale declines can pressure CarMax's inventory values and wholesale margins.",
+          "quote": "Non-adjusted wholesale vehicle prices decreased 1.1% in the first half of September from August and are down 1.1% year over year.",
+          "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
+          "publisher": "coxautoinc.com",
+          "as_of": "2026-09-18",
+          "age_days": 2,
+          "undated": false
+        },
+        {
+          "claim": "In Q2 2026, average 3-year-old used vehicle prices topped $32K and sub-$20K vehicles were less than one-third of used sales.",
+          "stance": "pressure",
+          "why": "This squeezes budget buyers and can limit CarMax's unit demand.",
+          "quote": "Vehicles under $20,000 now account for less than one-third of used sales",
+          "url": "https://www.edmunds.com/car-news/insights-q2-2026-used-car-report.html",
+          "publisher": "edmunds.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In August 2026, average new car prices exceeded $50,000 for the first time this year.",
+          "stance": "support",
+          "why": "High new-car prices can push budget-conscious buyers toward used vehicles, supporting CarMax demand.",
+          "quote": "In August 2026, the average sale price of a new car drifted over $50,000 for the first time this year.",
+          "url": "https://www.kbb.com/car-advice/is-now-the-time-to-buy-sell-or-trade-in-a-used-car/",
+          "publisher": "kbb.com",
+          "as_of": "2026-08-01",
+          "age_days": 50,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, it is easier to qualify for a new car loan than at any time since 2015.",
+          "stance": "support",
+          "why": "Easier credit access can support vehicle demand, including used cars sold by CarMax.",
+          "quote": "It hasn\u2019t been this easy to qualify for a new car loan since 2015.",
+          "url": "https://www.kbb.com/car-advice/is-now-the-time-to-buy-sell-or-trade-in-a-used-car/",
+          "publisher": "kbb.com",
+          "as_of": "2026-08-01",
+          "age_days": 50,
+          "undated": false
+        },
+        {
+          "claim": "As of April 2026, severe auto delinquencies are rising though new delinquency flow is stable.",
+          "stance": "pressure",
+          "why": "If forbearance practices change, CarMax's finance arm could face higher credit losses.",
+          "quote": "while the stock of severe auto delinquencies is rising, the flow of new delinquencies into this stage is fairly stable",
+          "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Consumer-Finance/Reports/cfi-report-april-2026-do-recent-auto-loan-delinquency-rates-overstate-borrower-distress.pdf",
+          "publisher": "philadelphiafed.org",
+          "as_of": "2026-04-01",
+          "age_days": 172,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In first half of September 2026, wholesale used-vehicle prices fell 1% from August, softening from first-half highs.",
+          "stance": "pressure",
+          "why": "Softer wholesale values can pressure CarMax's wholesale auction results and used vehicle margins.",
+          "quote": "MUVVI fell to 206.2, reflecting a 1% decrease in wholesale used-vehicle prices",
+          "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
+          "publisher": "coxautoinc.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true,
+          "drop_reason": "quote_not_found_in_results"
+        },
+        {
+          "claim": "By mid-2026, used vehicle depreciation reasserted itself in late June, ending broad appreciation.",
+          "stance": "pressure",
+          "why": "Slowing appreciation can pressure CarMax's used vehicle margins and inventory values.",
+          "quote": "depreciation started to reassert itself in late June",
+          "url": "https://www.blackbook.com/used-car-market-2026-where-values-stand-at-the-halfway-point/",
+          "publisher": "blackbook.com",
+          "as_of": "2026-03-01",
+          "age_days": 203,
+          "undated": false,
+          "drop_reason": "stale (203 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "used vehicle market outlook 2026 2027 affordability interest rates tariffs",
+        "subprime auto loan delinquencies 2026 2027 consumer credit conditions",
+        "online used car retail competition 2026 Carvana market share disruption",
+        "CarMax KMX used vehicle demand 2026 2027 consumer spending outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "Auto loan serious delinquencies reached 5.49% in Q2 2026, above the Great Recession-era peak.",
+          "stance": "pressure",
+          "why": "Higher delinquencies force CarMax Auto Finance to raise loan-loss reserves, reducing finance income.",
+          "quote": "Auto loan serious delinquency \u2014 the share of outstanding balances 90 or more days past due \u2014 reached 5.49% in Q2 2026",
+          "url": "https://americandefault.org/indicators/the-repo-line/",
+          "publisher": "americandefault.org",
+          "as_of": "2026-08-11",
+          "age_days": 40,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, CarMax faces shrinking retail margins and rising loan-loss reserves from financing 43% of sales.",
+          "stance": "pressure",
+          "why": "These strains can reduce retail gross profit and increase credit costs in coming quarters.",
+          "quote": "CarMax KMX--, the top used-car retailer, faces dual financial strain: shrinking retail margins and rising loan-loss reserves as it finances 43% of its sales.",
+          "url": "https://www.ainvest.com/news/car-lots-feel-brunt-america-affordability-crisis-2609/",
+          "publisher": "ainvest.com",
+          "as_of": "2026-09-19",
+          "age_days": 1,
+          "undated": false
+        },
+        {
+          "claim": "Wholesale used-vehicle prices declined in 2026, with demand weakening and Fed rate hikes offsetting affordability recovery.",
+          "stance": "pressure",
+          "why": "Lower wholesale values can cut CarMax's wholesale gross profit and pressure used-vehicle inventory valuations.",
+          "quote": "Wholesale used-vehicle prices declined in 2026, compounding pressure as demand weakens and Fed rate hikes counteract affordability recovery bets.",
+          "url": "https://www.ainvest.com/news/car-lots-feel-brunt-america-affordability-crisis-2609/",
+          "publisher": "ainvest.com",
+          "as_of": "2026-09-19",
+          "age_days": 1,
+          "undated": false
+        },
+        {
+          "claim": "In mid-September 2026, the Manheim index was down 0.4% year over year, softening from first-half 2026 levels.",
+          "stance": "pressure",
+          "why": "Falling wholesale values can reduce CarMax's used-vehicle margins and wholesale gross profit.",
+          "quote": "The Manheim index was down 0.4% compared to September 2025, softening from the elevated levels recorded in the first half of the year.",
+          "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/",
+          "publisher": "coxautoinc.com",
+          "as_of": "2026-09-18",
+          "age_days": 2,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, used car prices have risen to near pandemic-era highs again.",
+          "stance": "support",
+          "why": "High used-vehicle prices support CarMax's retail revenue and gross profit per unit.",
+          "quote": "Used car prices have risen to near their pandemic-era highs again.",
+          "url": "https://www.kbb.com/car-advice/is-now-the-time-to-buy-sell-or-trade-in-a-used-car/",
+          "publisher": "kbb.com",
+          "as_of": "2026-08-01",
+          "age_days": 50,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "used vehicle market forecast 2026 2027 affordability interest rates wholesale prices",
+        "subprime auto loan delinquencies 2026 2027 consumer credit used car buyers",
+        "online used car retail competition 2026 2027 Carvana digital sales",
+        "CarMax KMX 2026 2027 used vehicle demand tariffs EV residual values"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "In 2026, rising used EV prices are boosting auto retailers including CarMax.",
+          "stance": "support",
+          "why": "Higher used EV prices can lift CarMax's used EV margins and inventory values.",
+          "quote": "Rising used EV prices in 2026, driven by high gas costs and ended tax credits, are boosting auto retailers like CarMax (KMX)",
+          "url": "https://longbridge.com/news/294531928",
+          "publisher": "longbridge.com",
+          "as_of": "2026-07-31",
+          "age_days": 51,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, lower-maintenance EVs pose potential pressure on CarMax's service profits.",
+          "stance": "pressure",
+          "why": "As EV mix grows, CarMax's service gross profit may decline.",
+          "quote": "potential pressure on service profits from lower-maintenance EVs",
+          "url": "https://longbridge.com/news/294531928",
+          "publisher": "longbridge.com",
+          "as_of": "2026-07-31",
+          "age_days": 51,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, EV residual pressure remains a key theme for CarMax's Q2 FY27.",
+          "stance": "pressure",
+          "why": "Falling EV residuals can force CarMax to write down used EV inventory.",
+          "quote": "EV Residual Pressure, and Auto Finance Recovery",
+          "url": "https://alphagridhub.com/carmax-kmx-q2-fy27-preview-used-car-ev-residuals/",
+          "publisher": "alphagridhub.com",
+          "as_of": "2026-09-19",
+          "age_days": 1,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, auto finance recovery is a key theme for CarMax's Q2 FY27.",
+          "stance": "support",
+          "why": "Improving auto finance results can lift CarMax Auto Finance income.",
+          "quote": "Auto Finance Recovery",
+          "url": "https://alphagridhub.com/carmax-kmx-q2-fy27-preview-used-car-ev-residuals/",
+          "publisher": "alphagridhub.com",
+          "as_of": "2026-09-19",
+          "age_days": 1,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, Carvana is sustaining market share gains, pressuring CarMax's used-car sales.",
+          "stance": "pressure",
+          "why": "If Carvana keeps taking share, CarMax's unit growth and pricing power may weaken.",
+          "quote": "Carvana Co (NYSE:CVNA) is sustaining market share gains and production improvements",
+          "url": "https://www.tradingpedia.com/2026/08/18/wells-fargo-sees-carvana-sustaining-market-share-gains/",
+          "publisher": "tradingpedia.com",
+          "as_of": "2026-08-18",
+          "age_days": 33,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

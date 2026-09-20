@@ -1,0 +1,2899 @@
+{
+  "symbol": "T",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T09:42:44",
+  "profile": {
+    "symbol": "T",
+    "name": "AT&T Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "summary": "AT&T Inc. provides telecommunications and technology services worldwide. It operates through two segments, Communications and Latin America. The Communications segment offers wireless voice and data communications services; and sells handsets, wireless data cards, wireless computing devices, carrying cases/protective covers, and wireless chargers through its own company-owned stores, agents, and third-party retail stores. It also provides AT&T Dedicated Internet, fiber ethernet and broadband, fixed wireless, and hosted and managed professional services; and copper-based voice and data, Virtual Private Networks (VPN), wholesale, outsourcing, and IP, as well as customer premises equipment for multinational corporations, small and mid-sized businesses, governmental, and wholesale customers. In addition, this segment offers broadband services, including fiber connections, legacy telephony voice communication services, and other VoIP services and equipment to residential customers. This segment markets its communications services and products under the AT&T, AT&T Business, Cricket, AT&T PREPAID, AT&T Fiber, and AT&T Internet Air brand names. Its Latin America segment provides postpaid and prepaid wireless services in Mexico under the AT&T and Unefon brand names, as well as sells smartphones through its stores, agents and third-party retail stores. The company was formerly known as SBC Communications Inc. and changed its name to AT&T Inc. in 2005. AT&T Inc. was incorporated in 1983 and is based in Dallas, Texas.",
+    "employees": 133030,
+    "country": "United States",
+    "website": "https://www.att.com"
+  },
+  "quants": {
+    "symbol": "T",
+    "name": "AT&T Inc.",
+    "price": 25.4,
+    "market_cap": 174050590720,
+    "market_cap_human": "174.05B",
+    "fwd_pe": 10.86,
+    "fwd_pe_1y": 9.91,
+    "fwd_pe_yahoo": 9.905663,
+    "trailing_pe": 8.382838,
+    "ps": 1.3679029,
+    "ev_ebitda": 7.571,
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "eps_fy_current": 2.33782,
+    "eps_fy_next": 2.56419,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": 0.0,
+      "current": 2.33782,
+      "7d_ago": 2.33771,
+      "30d_ago": 2.33771,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 12,
+      "down_7d": 6,
+      "up_30d": 15,
+      "down_30d": 3,
+      "net_30d": 12,
+      "text": "tilted higher, with 15 up and 3 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-21"
+      ],
+      "next_date": "2026-10-21",
+      "eps_avg": 0.60352,
+      "eps_low": 0.565,
+      "eps_high": 0.64,
+      "revenue_avg": 31666838610
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 25.40 USD",
+    "Market Cap: 174.05B",
+    "Fwd PE: 10.86",
+    "P/S: 1.4",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted higher, with 15 up and 3 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 17570000.0,
+      "prior": 11964000.0,
+      "change_pct": 46.9,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income Applicable to Common Shareholders",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 4591000.0,
+      "prior": 3793000.0,
+      "change_pct": 21.0,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 7705000.0,
+      "prior": 7211000.0,
+      "change_pct": 6.9,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-22T06:00:00-04:00",
+    "current": 0.65,
+    "year_ago": 0.54,
+    "year_ago_period": "2025-07-23T06:00:00-04:00",
+    "change": 0.11,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "AT&T Inc. (T) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "publisher": "au.finance.yahoo.com",
+      "url": "https://au.finance.yahoo.com/quote/T/analysis/",
+      "summary": "AT&T Inc. (T) analyst ratings, estimates and forecasts \u2013 Yahoo Finance\n\n22.61 + 0.49% \n\nNYSE - BOATS Real Time Price \u2022 USD \n\n# AT&T Inc. (T)\n\n22.50 -0.25 (-1.10%) \n\n At close: 8 June at 4:00:51 pm GMT-4 \n\n22.61 +0.11 (+0.49%) \n\nOvernight: 2:11:09 am GMT-4\n\nThis price reflects trading activity during the overnight session on the Blue Ocean ATS, available 8 p.m. to 4 a.m. ET, Sunday through Thursday, when regular markets are closed. \n\n### Revenue vs. Earnings \n\nQ1 FY26\n\nRevenue 31.51B\n\nEarnings 4.03B\n\nQ2\n\nFY25\n\nQ3\n\nFY25\n\nQ4\n\nFY25\n\nQ1\n\nFY26\n\n### Revenue estimate\n\n| Currency in USD | Current qtr. ",
+      "published": null,
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "At&T Inc. (T) Analyst Estimates - Revenue & EPS",
+      "publisher": "businessquant.com",
+      "url": "https://businessquant.com/stocks/t/estimates/",
+      "summary": "At&T Inc. (T) Analyst Estimates - Revenue & EPS\n\n### Research Tools\n\n### Developers\n\n---\n\nLogin Start for Free\n\n\u00d7\n\n# At&T Inc. (T) Estimates\n\nDetailed analyst consensus, revenue, and earnings forecasts vs reported data.\n\n## Revenue Estimates\n\nQuarterly Annual\n\n| Metric | Q2 24 | Q2 24 | Q3 24 | Q3 24 | Q4 24 | Q4 24 | Q1 25 | Q1 25 | Q2 25 | Q2 25 | Q3 25 | Q3 25 | Q4 25 | Q4 25 | Q1 26 | Q1 26 | Q2 26 | Q2 26 | Q3 26 | Q3 26 | Q4 26 | Q4 26 | Q1 27 | Q1 27 | Q2 27 | Q2 27 | Q3 27 | Q3 27 | Q4 27 | Q4 27 | Q1 28 | Q1 28 | Q2 28 | Q2 28 | Q3 28 | Q3 28 | Q4 28 | Q4 28 | Q1 29 | Q1 29 | Q2 29 | ",
+      "published": null,
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "AT&T Stock Price Prediction: Bull and Bear Case - 24/7 Wall St.",
+      "publisher": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/04/20/att-stock-price-prediction-bull-and-bear-case/",
+      "summary": "AT&T Stock Price Prediction: Bull and Bear Case - 24/7 Wall St.\n\n# AT&T Stock Price Prediction: Bull and Bear Case\n\n By Vandita Jadeja Updated Apr 20, 6:58PM EDT \u00b7 Published Apr 20, 11:43AM EDT \n\n \u00a9 jetcityimage / iStock Editorial via Getty Images \n\nAT&T (NYSE:T | T Price Prediction) has been one of the steadier performers in the Communication Services sector in 2026. The 24/7 Wall St. price target for AT&T is $30.34, representing approximately 14.43% upside from the current price of $26.51. Our rating is buy, with a high confidence level of 90%.\n\n| Metric | Value |\n| --- | --- |\n| Current Pri",
+      "published": "2026-04-17",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "t-20260630",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000297/t-20260630.htm",
+      "summary": "t-20260630\n\nWashington, D.C. 20549\n\nFORM 10-Q \n\n| (Mark One) | |\n| --- | --- |\n| \u2612 | QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 |\n\nFor the quarterly period ended June 30, 2026 \n\nor\n\n| \u2610 | TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 |\n| --- | --- |\n\nFor the transition period from to\n\nCommission File Number 001-08610 \n\nAT&T INC. \n\nIncorporated under the laws of the State of Delaware \n\nI.R.S. Employer Identification Number 43-1301883 \n\n208 S. Akard St., Dallas, Texas 75202 \n\nTelephone Number: (210) 821-4105 ",
+      "published": "2026-06-30",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Document",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000294/t-2q2026exhibit991.htm",
+      "summary": "AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum\n\nAT&T adds more than 1 million Advanced Connectivity customers, driven by year-over-year increases in net adds across fiber, fixed wireless, and postpaid phone subscribers\n\nThe Company reiterates all consolidated full-year 2026 and multi-year financial guidance and multi-year capital return plans, with accelerated pace of share repurchases in 2026\n\nDALLAS, July 22, 2026 \u2014 AT&T Inc. (NYSE: T) reported strong second-quarter results, driven by consistent execution of the Company\u2019s investment-led strategy, demons",
+      "published": "2026-07-22",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum | Morningstar",
+      "publisher": "morningstar.com",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260722da09771/att-delivers-strong-second-quarter-results-as-investment-led-strategy-gains-momentum",
+      "summary": "AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum | Morningstar\n\n# AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum \n\n Provided by PR Newswire Jul 22, 2026, 11:30:00 AM\n\n## AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum\n\nPR Newswire\n\nDALLAS, July 22, 2026\n\nAT&T adds more than 1 million Advanced Connectivity customers, driven by year-over-year increases in net adds across fiber, fixed wireless, and postpaid phone subscribers\n\nThe Company reiterates all consolidated full-year 2026 and ",
+      "published": "2026-07-22",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar",
+      "publisher": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/after-earnings-is-att-stock-buy-sell-or-fairly-valued-10",
+      "summary": "After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar\n\n# After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? \n\nWith telecom companies facing valuation pressures and worries about SpaceX, here\u2019s what we thought of AT&T\u2019s earnings report.\n\n Michael Hodel, CFA Jul 29, 2026\n\n \u00a9 2025 AT&T Intellectual Property\n\nAT&T released its second-quarter earnings report on July 22. Here\u2019s Morningstar\u2019s take on AT&T\u2019s earnings and stock.\n\n## Key Morningstar Metrics for AT&T\n\n- Fair Value Estimate\n\n: $27.00\n- Morningstar Rating\n\n: \u2605\u2605\u2605\u2605\n- Morningstar Economic Moat Rating\n\n: Narr",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "AT&T (T) - Fundamental Analysis Report 2026",
+      "publisher": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/att-t-fundamental-analysis-report",
+      "summary": "AT&T (T) - Fundamental Analysis Report 2026\n\n# AT&T (T) - Fundamental Analysis Report 2026\n\nDeep Research Global\n\nAug 21, 2026 \u2219 Paid\n\nDear Investor, Welcome to Deep Research Global.\n\nExecutive TL;DR\n\n- AT&T (T) just posted its strongest consumer wireless quarter in three years, adding 432,000 postpaid phone subscribers and generating $31.6 billion in revenue with adjusted EPS climbing to $0.65 versus $0.54 the prior year.\n- The company closed its $5.75 billion Lumen fiber acquisition and its $23 billion EchoStar spectrum deal, reshaping its long-term connectivity moat.\n- Management raised the",
+      "published": "2026-08-21",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "AT&T Reports Q2\u202f2026 Earnings, Beats Estimates on Strong Subscriber Growth - T News - EveryTicker",
+      "publisher": "everyticker.com",
+      "url": "https://everyticker.com/quote/T/news/att-reports-q2-2026-earnings-beats-estimates-on-strong-subscriber-growth",
+      "summary": "AT&T Reports Q2 2026 Earnings, Beats Estimates on Strong Subscriber Growth - T News - EveryTicker \n\n# AT&T Inc. (T)\n\n$25.66\n\n -0.53 (-2.00%) \n\n### Timeline\n\nResearch report published\n\n## Price Chart \n\n 1D 5D 1M 3M 6M 1Y 5Y 10Y ALL \n\n## At a glance\n\n \u2022 Fiber-Led Convergence Is Working: AT&T's Q2 2026 results validate the core strategy\u2014Advanced Connectivity segment EBITDA grew 8% year-over-year with margins expanding to 42%, driven by 344,000 fiber net adds and 215,000 fixed wireless additions. The 42.5% convergence rate creates structurally lower churn and higher lifetime value, positioning AT&",
+      "published": "2026-09-01",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "AT&T Inc. (T) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/t/forecast/",
+      "summary": "AT&T Inc. (T) Stock Forecast & Analyst Price Targets\n\n26.33 +0.32 (1.25%) Sep 2, 2026, 11:39 AM EDT - Market open\n\n# AT&T Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 25 analysts polled by S&P Global, AT&T stock has a consensus rating of \"Buy\" and an average price target of $28.71. The average 1-year stock price forecast is 9.06% higher than the current stock price, while the lowest is $20 (-24.03%) and the highest is $36 (+36.75%).\n\nPrice Target: $28.71 (+9.06%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Target | Low | Average | Median | High |\n| --- | --- | --- | --- | --- |\n| Pric",
+      "published": "2026-09-02",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "T Stock Forecast 2026-2027 - AT&T, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/t-forecast/",
+      "summary": "T Stock Forecast 2026-2027 - AT&T, Inc. Price Targets & Predictions\n\n# T Stock Forecast: AT&T, Inc. Price Predictions for 2026-2027\n\nLast close, 4 Sept 2026\n\n$26\n\n\u22121.95% on the day\n\nThe 25 Wall Street analysts covering AT&T, Inc. hold a median 12-month price target of $28 \u2014 +9.0% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 74 of 100 as at 5 Sept 2026 \u2014 in the upper half. Here, the model and the Street point the same way.\n\nMarket cap\n\n$176.0B\n\nTicker Nerd rank\n\n74 / 100\n\nMedian analyst target\n\n$28\n\nAnalysts covering\n\n25\n\nRevenue$31.6B+2.3% y",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "AT&T Inc. (T) Earnings Call Transcript & Summary",
+      "publisher": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/atandt-inc_t_earnings_call_transcript_2026-09-09",
+      "summary": "# AT&T Inc. (T) Earnings Call Transcript & Summary\n\nSeptember 9, 2026\n\nNYSE US Communication Services Diversified Telecommunication Services conference_presentation 36 min\n\n## What were the key takeaways from AT&T Inc.'s September 9, 2026 earnings call?\n\nIn the Q3 2026 earnings call, AT&T Inc. (T:US) reported a notable improvement in its financial performance, driven by a robust fiber-led convergence strategy. Revenue for the quarter reached $42.1 billion, up 5% year-over-year, while earnings per share (EPS) were $0.75, exceeding expectations by $0.10. Management maintained its guidance for a ",
+      "published": "2026-09-09",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "AT&T (T) Could Be 13% Undervalued Following Plan Price Hikes And New Perks",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-17T22:17:08Z",
+      "summary": "AT&T (T) is under the microscope after a mix of price hikes on older wireless plans and new perks such as virtual care access and 5G home internet for Cricket customers. AT&T\u2019s recent plan changes and new perks are landing against a backdrop of mixed performance, with the 90-day share price return of 15.36% pointing to improving momentum, even as the 1-year total shareholder return has declined 8.96% and longer term total returns over 3 and 5 years remain strong. Scan how AT&T\u2019s mix of price...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-t-could-13-undervalued-221708077.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "ASTS Retail Sentiment Nears 1-Year Low As SpaceX Turns Up The Heat In Global Mobile Race",
+      "publisher": "Stocktwits",
+      "published": "2026-09-18T05:04:12Z",
+      "summary": "SpaceX\u2019s vertically integrated strategy increases pressure on AST, which serves 60 carrier partners covering about three billion subscribers.",
+      "url": "https://stocktwits.com/news-articles/markets/equity/asts-retail-sentiment-1-year-low-spacex-turns-up-heat-global-mobile-race/cZtulTMRB33",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "T-Mobile\u2019s $85 Billion Debt Load Won\u2019t Feel the Fed\u2019s Rate Hike the Way Wall Street Thinks",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-18T13:35:43Z",
+      "summary": "Wall Street's quick math on T-Mobile's rate hike exposure produces a frightening number, but that number depends on a reading of the debt stack that the actual quarterly filing does not support.",
+      "url": "https://247wallst.com/investing/2026/09/18/t-mobiles-85-billion-debt-load-wont-feel-the-feds-rate-hike-the-way-wall-street-thinks/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "How Much Further Can T-Mobile Stock Fall From Here?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T15:32:56Z",
+      "summary": "T-Mobile US (TMUS) stock fell 5.6% on 17 September to about $166, the lowest it has traded in a year. One session is not the problem: over the past twelve months the stock returned -28.5% while the S&P 500 returned 17.0%, and the year is what matters. A rising market did not do that. What changed is inside the business, and part of it is deliberate.",
+      "url": "https://www.trefis.com/articles/615852/how-much-further-can-t-mobile-stock-fall-from-here/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T16:04:00Z",
+      "summary": "Verizon Communications (VZ) trades near $48 a share and generated free cash worth 10.0% of its market value over the last twelve months. The median S&P 500 company manages 4.5%. A gap that wide usually means one of two things: a bargain, or a business the market expects to shrink. Verizon is neither, quite. The cash is real, and it is not all yours.",
+      "url": "https://www.trefis.com/articles/615856/is-verizon-stock-cheap-or-is-its-cash-already-spoken-for/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "The 3 Tech Laggards Are Top Stock Picks, UBS Says",
+      "publisher": "Barrons.com",
+      "published": "2026-09-18T18:49:00Z",
+      "summary": "Palantir, AT&T, and Spotify have lagged the market in 2026, but UBS rates each of the stocks as strong buys.",
+      "url": "https://www.barrons.com/articles/palantir-at-t-spotify-stocks-ubs-b8b42890?siteid=yhoof2&yptr=yahoo",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "AT&T launches free healthcare perk for customers",
+      "publisher": "TheStreet",
+      "published": "2026-09-19T13:03:00Z",
+      "summary": "AT&T is branching beyond its usual telecom offerings with a benefit that could catch some customers off guard.",
+      "url": "https://www.thestreet.com/retail/att-launches-free-lifemd-healthcare-perk-for-customers",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "3 Stocks Linked To California Wealth Tax Spending Investors Should Watch",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-19T18:10:43Z",
+      "summary": "California\u2019s proposed one-time 5% wealth tax on billionaires has turned the state into a live experiment in how far governments might go in taxing extreme fortunes. That debate is not just political theatre. It could reshape where capital flows, which projects get funded, and which stocks feel the tailwind from as much as US$100b of potential new public spending. This article picks out three companies whose businesses are directly exposed to that story and explains how each could be...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-linked-california-wealth-181043824.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/t/articles/614687/why-does-att-stock-still-trade-like-it-is-shrinking/2026-09-09",
+      "summary": "Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis\n\n# Why Does AT&T Stock Still Trade Like It Is Shrinking?\n\nSeptember 9th, 2026 \u00b7 by Trefis Team\n\nAT&T (T) trades at 8.2 times earnings against an S&P 500 median of 23.0, and it got there the hard way: the stock returned -9.4% over the past year while the index returned +19.3%. A profitable telecom throwing off cash at that discount is what value buyers hunt for.\n\nImage from Pixabay\n\nDoes AT&T Still Turn Its Network Into Cash?\n\nAT&T sells wireless service, AT&T Fiber and fixed wireless home internet to households and businesses, and ",
+      "published": "2026-12-01",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "What Could Go Wrong For AT & T Stock | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/t/articles/608736/what-could-go-wrong-for-at-t-stock/2026-07-24",
+      "summary": "What Could Go Wrong For AT & T Stock | Trefis\n\n# What Could Go Wrong For AT & T Stock\n\nJuly 24th, 2026 \u00b7 by Trefis Team\n\nThe company is winning subscribers with its all-in-one strategy, but the real question is whether it\u2019s winning them at a sustainable price.\n\nFor anyone holding AT&T (T) stock, the recent results present a puzzle. The company is executing its strategy, adding over 1 million new high-value subscribers in the last quarter and boosting its share repurchase plan to approximately $10 billion. Yet the stock has lagged, down 12.3% over the past year while the market gained. The opti",
+      "published": "2026-12-01",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "AT&T (T) Ascends While Market Falls: Some Facts to Note",
+      "publisher": "Zacks",
+      "created": "Sep 10, 2026",
+      "ago": "Sep 10, 2026",
+      "url": "/articles/att-t-ascends-while-market-falls-some-facts-note",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T"
+      ],
+      "summary": "AT&T (T) concluded the recent trading session at $25.55, signifying a +1.59% move from its prior day's close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "After Hours Most Active for Sep 11, 2026 :  KHC, ACWX, PATH, TSLL, GRAB, F, LEGN, AAPL, XPEV, KVUE, T, BMNR",
+      "publisher": "NASDAQ.com",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/after-hours-most-active-sep-11-2026-khc-acwx-path-tsll-grab-f-legn-aapl-xpev-kvue-t-bmnr",
+      "primary_symbol": "KHC",
+      "related_symbols": [
+        "KHC",
+        "ACWX",
+        "PATH",
+        "TSLL",
+        "GRAB",
+        "F",
+        "LEGN",
+        "AAPL",
+        "XPEV",
+        "KVUE",
+        "T",
+        "BMN"
+      ],
+      "summary": "The NASDAQ 100 After Hours Indicator is down -2.61 to 29,365.83.  The total After hours volume is currently 158,788,347 shares traded.The following are the most active stocks for the after hours session: The Kraft Heinz Company (KHC) is +0.1383 at $24.74, with 40,545,978 shares t",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "AST SpaceMobile vs. Jabil: Which Connectivity Stock is a Better Buy?",
+      "publisher": "Zacks",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/ast-spacemobile-vs-jabil-which-connectivity-stock-better-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "JBL",
+        "ASTS",
+        "T",
+        "VZ",
+        "SANM"
+      ],
+      "summary": "JBL edges ASTS as the better pick, backed by expected EPS growth, steadier estimates and a far cheaper valuation.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Notable ETF Outflow Detected - PWV, T, PEP, F",
+      "publisher": "BNK Invest",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/notable-etf-outflow-detected-pwv-t-pep-f",
+      "primary_symbol": "PWV",
+      "related_symbols": [
+        "PWV",
+        "T",
+        "PEP",
+        "F"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Invesco Large Cap Value ETF (Symbol: PWV) where we have detected an approximate $451.7 million dollar outflow -- that's a 19.3% decrease week over w",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "AT&T vs. Nokia: Which Telecom Stock Is the Better Buy Now?",
+      "publisher": "Zacks",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/att-vs-nokia-which-telecom-stock-better-buy-now",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T",
+        "NOK",
+        "ERIC"
+      ],
+      "summary": "AT&T and Nokia are positioning for an AI-driven shift in telecom, with fiber, 5G, cloud and network technology shaping the outlook.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These 3 Fantastic Dividend Stocks Yielding 3.3% to 5.5%.",
+      "publisher": "The Motley Fool",
+      "created": "Sep 13, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/forget-president-donald-trumps-5000-dividend-promise-investors-can-start-earning-passive",
+      "primary_symbol": "O",
+      "related_symbols": [
+        "O",
+        "T",
+        "CVX",
+        "DG"
+      ],
+      "summary": "Key PointsPresident Trump's $5,000 dividend promise came with few details.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Here's Why I Think AT&T Stock Could Be a No-Brainer Buy Right Now",
+      "publisher": "The Motley Fool",
+      "created": "Sep 14, 2026",
+      "ago": "6 days ago",
+      "url": "/articles/heres-why-i-think-att-stock-could-be-no-brainer-buy-right-now",
+      "primary_symbol": "T",
+      "related_symbols": [
+        "T"
+      ],
+      "summary": "Key PointsAT&T recently announced a deal with Amazon related to satellite internet.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth?",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/can-verizons-6g-acceleration-initiatives-and-ai-trials-drive-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "VZ",
+        "T",
+        "TMUS"
+      ],
+      "summary": "VZ is advancing 6G with AI-native networks, real-world sensing trials and smart technologies, targeting the 2028 Olympics as a key test.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Is Most-Watched Stock AT&T Inc. (T) Worth Betting on Now?",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/most-watched-stock-att-inc-t-worth-betting-now-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T"
+      ],
+      "summary": "Recently, Zacks.com users have been paying close attention to AT&T (T). This makes it worthwhile to examine what the stock has in store.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "The Simple Reason AT&T Isn't Too Concerned About SpaceX's Starlink Business",
+      "publisher": "The Motley Fool",
+      "created": "Sep 15, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/simple-reason-att-isnt-too-concerned-about-spacexs-starlink-business",
+      "primary_symbol": "T",
+      "related_symbols": [
+        "T"
+      ],
+      "summary": "Key PointsAT&T CEO John Stankey says Starlink doesn't do so well when buildings get in its way.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "AT&T Teams Up With LifeMD for Virtual Health Care: Can it Aid Shares?",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/att-teams-lifemd-virtual-health-care-can-it-aid-shares",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T",
+        "VZ",
+        "TMUS",
+        "LFMD"
+      ],
+      "summary": "T expands customer benefits with complimentary LifeMD memberships, offering virtual care, prescriptions and pharmacy services.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "After Hours Most Active for Sep 17, 2026 :  NU, NVDA, INTC, NOK, T, PFE, PGEN, AAL, BAC, GRAB, CZR, PCG",
+      "publisher": "NASDAQ.com",
+      "created": "Sep 17, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/after-hours-most-active-sep-17-2026-nu-nvda-intc-nok-t-pfe-pgen-aal-bac-grab-czr-pcg",
+      "primary_symbol": "NU",
+      "related_symbols": [
+        "NU",
+        "NVDA",
+        "INTC",
+        "NOK",
+        "T",
+        "PFE",
+        "PGEN",
+        "AAL",
+        "BAC",
+        "GRAB",
+        "CZR",
+        "PC"
+      ],
+      "summary": "The NASDAQ 100 After Hours Indicator is down -13.59 to 29,433.39.  The total After hours volume is currently 139,776,793 shares traded.The following are the most active stocks for the after hours session: Nu Holdings Ltd. (NU) is +0.03 at $13.87, with 17,646,771 shares traded. NU",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall",
+      "publisher": "Barchart",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stocks-settle-sharply-higher-crude-oil-and-bond-yields-fall",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GOOGL",
+        "AAPL",
+        "AVGO",
+        "SNDK",
+        "VZ",
+        "VICR",
+        "MSFT",
+        "CRWV",
+        "ALAB",
+        "TSLA",
+        "T",
+        "PSKY",
+        "QCOM",
+        "STX",
+        "AMD",
+        "QGEN",
+        "FLNC",
+        "SPY",
+        "DIA",
+        "NVDA",
+        "META",
+        "NXPI",
+        "MU",
+        "QQQ",
+        "TMUS",
+        "CMCSA",
+        "INTC",
+        "GNRC",
+        "SOXX",
+        "ARM",
+        "CHTR",
+        "AMZN",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +1.14% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.61%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.73%.  September E-mini S&P futures (ESU26 ) rose +1.10%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "AT&T (T) Stock Forecast & Price Target - Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/equities/at-t-consensus-estimates",
+      "summary": "AT&T (T) Stock Forecast & Price Target - Investing.com\n\n# AT&T Inc (T)\n\nNYSE\n\nSymbol\n\nExchange\n\nCurrency\n\n| T | \u00b7 | NYSE | \u00b7 | USD | Real-time |\n| --- | --- | --- | --- | --- | --- |\n| TBB | \u00b7 | NYSE | \u00b7 | USD | Real-time |\n| 0QZ1 | \u00b7 | London | \u00b7 | USD | Real-time |\n| T | \u00b7 | Xetra | \u00b7 | EUR | Delayed |\n| 1T | \u00b7 | Milan | \u00b7 | EUR | Real-time |\n| T | \u00b7 | Vienna | \u00b7 | EUR | Real-time |\n| Tm | \u00b7 | Buenos Aires | \u00b7 | ARS | Delayed |\n| ATTB34 | \u00b7 | B3 | \u00b7 | BRL | Delayed |\n| T | \u00b7 | Mexico | \u00b7 | MXN | Delayed |\n| TUS | \u00b7 | Lima | \u00b7 | USD | Delayed |\n| T | \u00b7 | Frankfurt | \u00b7 | EUR | Delayed |\n| T | ",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "AT&T Inc. (T) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "AT&T Sees Fiber, Spectrum Deals Fueling Accelerated Growth and Shareholder Returns",
+      "publisher": "MarketBeat",
+      "created": "Sep 10, 2026",
+      "ago": "Sep 10, 2026",
+      "url": "/articles/att-sees-fiber-spectrum-deals-fueling-accelerated-growth-and-shareholder-returns",
+      "primary_symbol": "T",
+      "related_symbols": [
+        "T"
+      ],
+      "summary": "Smart Money Shifts: U.S. Bancorp Pairs Tech With YieldAT&T (NYSE:T) executives said the company\u2019s second-quarter performance reflected the benefits of its fiber expansion, spectrum investments and recently closed acquisitions, while emphasizing a strategy centered on converged wi",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "AT&T (T) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/att-t-sees-more-significant-dip-broader-market-some-facts-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T"
+      ],
+      "summary": "In the most recent trading session, AT&T (T) closed at $25.86, indicating a -3.22% shift from the previous trading day.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 11,
+        "share": 0.367,
+        "evidence": [
+          {
+            "title": "AT&T Inc. (T) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+            "publisher": "au.finance.yahoo.com",
+            "published": null,
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "At&T Inc. (T) Analyst Estimates - Revenue & EPS",
+            "publisher": "businessquant.com",
+            "published": null,
+            "matched": [
+              "forecast",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Document",
+            "publisher": "sec.gov",
+            "published": "2026-07-22",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar",
+            "publisher": "morningstar.com",
+            "published": "2026-07-29",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 6,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "AT&T Stock Price Prediction: Bull and Bear Case - 24/7 Wall St.",
+            "publisher": "247wallst.com",
+            "published": "2026-04-17",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "AT&T Inc. (T) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-09-02",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "T Stock Forecast 2026-2027 - AT&T, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "ASTS Retail Sentiment Nears 1-Year Low As SpaceX Turns Up The Heat In Global Mobile Race",
+            "publisher": "Stocktwits",
+            "published": "2026-09-18T05:04:12Z",
+            "matched": [
+              "sentiment"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.167,
+        "evidence": [
+          {
+            "title": "After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar",
+            "publisher": "morningstar.com",
+            "published": "2026-07-29",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "AT&T (T) Could Be 13% Undervalued Following Plan Price Hikes And New Perks",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-17T22:17:08Z",
+            "matched": [
+              "undervalued"
+            ]
+          },
+          {
+            "title": "Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For?",
+            "publisher": "Trefis",
+            "published": "2026-09-18T16:04:00Z",
+            "matched": [
+              "cheap"
+            ]
+          },
+          {
+            "title": "Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis",
+            "publisher": "trefis.com",
+            "published": "2026-12-01",
+            "matched": [
+              "discount"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 4,
+        "share": 0.133,
+        "evidence": [
+          {
+            "title": "T-Mobile\u2019s $85 Billion Debt Load Won\u2019t Feel the Fed\u2019s Rate Hike the Way Wall Street Thinks",
+            "publisher": "24/7 Wall St.",
+            "published": "2026-09-18T13:35:43Z",
+            "matched": [
+              "fed",
+              "rate hike"
+            ]
+          },
+          {
+            "title": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These 3 Fantastic Dividend Stocks Yielding 3.3% to 5.5%.",
+            "publisher": "The Motley Fool",
+            "published": "Sep 13, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall",
+            "publisher": "Barchart",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "AT&T Sees Fiber, Spectrum Deals Fueling Accelerated Growth and Shareholder Returns",
+            "publisher": "MarketBeat",
+            "published": "Sep 10, 2026",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 3,
+        "share": 0.1,
+        "evidence": [
+          {
+            "title": "AT&T (T) - Fundamental Analysis Report 2026",
+            "publisher": "deepresearchglobal.com",
+            "published": "2026-08-21",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These 3 Fantastic Dividend Stocks Yielding 3.3% to 5.5%.",
+            "publisher": "The Motley Fool",
+            "published": "Sep 13, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "AT&T Sees Fiber, Spectrum Deals Fueling Accelerated Growth and Shareholder Returns",
+            "publisher": "MarketBeat",
+            "published": "Sep 10, 2026",
+            "matched": [
+              "acquisition"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.033,
+        "evidence": [
+          {
+            "title": "T-Mobile\u2019s $85 Billion Debt Load Won\u2019t Feel the Fed\u2019s Rate Hike the Way Wall Street Thinks",
+            "publisher": "24/7 Wall St.",
+            "published": "2026-09-18T13:35:43Z",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-21"
+    ],
+    "next_date": "2026-10-21",
+    "eps_avg": 0.60352,
+    "eps_low": 0.565,
+    "eps_high": 0.64,
+    "revenue_avg": 31666838610
+  },
+  "catalyst": {
+    "date": "2026-10-21",
+    "weekday": "Wednesday",
+    "days_out": 31,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 0.60352,
+      "eps_low": 0.565,
+      "eps_high": 0.64,
+      "revenue_avg": 31666838610
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-22",
+        "eps_estimate": 0.59,
+        "eps_actual": 0.65,
+        "surprise_pct": 10.49,
+        "beat": true
+      },
+      {
+        "date": "2026-04-22",
+        "eps_estimate": 0.55,
+        "eps_actual": 0.57,
+        "surprise_pct": 3.42,
+        "beat": true
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.52,
+        "surprise_pct": 11.58,
+        "beat": true
+      },
+      {
+        "date": "2025-10-22",
+        "eps_estimate": 0.54,
+        "eps_actual": 0.54,
+        "surprise_pct": 0.45,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-21 (Wednesday, before the open), 31 days out -- from the earnings calendar, consensus EPS 0.6."
+  },
+  "forward_trends": {
+    "queries": [
+      "AT&T T 2026 2027 US telecom industry outlook wireless broadband enterprise competition",
+      "US wireless market 2026 2027 subscriber growth cable mobile fixed wireless access competition",
+      "US broadband fiber market 2026 2027 overbuild competition BEAD funding subscriber growth",
+      "enterprise telecom IT spending 2026 2027 budgets AI networking cloud connectivity demand"
+    ],
+    "results_count": 20,
+    "results_dated": 16,
+    "trends": [
+      {
+        "claim": "In Q1 2026, US postpaid service revenues saw negative growth for the first time in the 5G cycle.",
+        "stance": "pressure",
+        "why": "Falling industry service revenue can pressure AT&T's wireless revenue growth and margins.",
+        "quote": "For the first time in the 5G cycle, postpaid service revenues saw negative growth.",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+        "publisher": "chetansharma.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In Q1 2026, US wireless churn remained stubbornly high above the old normal threshold.",
+        "stance": "pressure",
+        "why": "High churn raises AT&T's retention costs and can slow subscriber and revenue growth.",
+        "quote": "Churn remains stubbornly high above the threshold that defined the old normal.",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+        "publisher": "chetansharma.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In Q1 2026, US wireless promotional discipline was holding but incentives to break it remained.",
+        "stance": "pressure",
+        "why": "A return to subsidy wars could raise AT&T's customer acquisition costs and pressure margins.",
+        "quote": "The truce is holding \u2014 for now \u2014 but the incentives to break it are still very much in place.",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+        "publisher": "chetansharma.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In Q2 2026, US operators cut device subsidies and posted record margins while growing volume.",
+        "stance": "support",
+        "why": "Lower subsidy intensity supports AT&T's wireless margins and cash flow.",
+        "quote": "Every national operator cut subsidy intensity and grew volume in the same quarter, each posted a record margin on its own preferred measure",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+        "publisher": "chetansharma.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In Q2 2026, US wireless service revenue growth returned to the strongest reading of the 5G cycle.",
+        "stance": "support",
+        "why": "Stronger industry service revenue growth supports AT&T's wireless revenue and margins.",
+        "quote": "service revenue growth returned to the strongest reading of the 5G cycle",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+        "publisher": "chetansharma.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "T",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 25.4,
+      "catalyst": "2026-10-21",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 26.0,
+        "premium": 0.81,
+        "bid": 0.78,
+        "ask": 0.85,
+        "mid": 0.81,
+        "last": 0.82,
+        "open_interest": 4043,
+        "volume": 1243.0,
+        "implied_vol": 0.2661206201171875,
+        "qty": 55
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 26.0,
+        "premium": 0.35,
+        "bid": 0.34,
+        "ask": 0.37,
+        "mid": 0.35,
+        "last": 0.36,
+        "open_interest": 15636,
+        "volume": 476,
+        "implied_vol": 0.22412885253906245,
+        "qty": 16
+      },
+      "long_total": 4455.0,
+      "short_total": 560.0,
+      "net_debit": 3895.0,
+      "credit_ratio_mid": 0.1257,
+      "credit_ratio_conservative": 0.1164,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 26.0,
+          "qty": 55,
+          "underlying": 25.4,
+          "multiplier": 100,
+          "price": 0.81,
+          "total": 4455.0,
+          "open_interest": 4043
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 26.0,
+          "qty": 16,
+          "underlying": 25.4,
+          "multiplier": 100,
+          "price": 0.35,
+          "total": -560.0,
+          "open_interest": 15636
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-21 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 26, 27, 28, 29"
+      ],
+      "advice": "Credit ratio 11.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0079,
+          "credit_ratio_conservative": 0.0073,
+          "passes_floor": false,
+          "cash_collected": 35.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0157,
+          "credit_ratio_conservative": 0.0145,
+          "passes_floor": false,
+          "cash_collected": 70.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0236,
+          "credit_ratio_conservative": 0.0218,
+          "passes_floor": false,
+          "cash_collected": 105.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0314,
+          "credit_ratio_conservative": 0.0291,
+          "passes_floor": false,
+          "cash_collected": 140.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0393,
+          "credit_ratio_conservative": 0.0364,
+          "passes_floor": false,
+          "cash_collected": 175.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0471,
+          "credit_ratio_conservative": 0.0436,
+          "passes_floor": false,
+          "cash_collected": 210.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.055,
+          "credit_ratio_conservative": 0.0509,
+          "passes_floor": false,
+          "cash_collected": 245.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0629,
+          "credit_ratio_conservative": 0.0582,
+          "passes_floor": false,
+          "cash_collected": 280.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.0707,
+          "credit_ratio_conservative": 0.0655,
+          "passes_floor": false,
+          "cash_collected": 315.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.0786,
+          "credit_ratio_conservative": 0.0727,
+          "passes_floor": false,
+          "cash_collected": 350.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.0864,
+          "credit_ratio_conservative": 0.08,
+          "passes_floor": false,
+          "cash_collected": 385.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.0943,
+          "credit_ratio_conservative": 0.0873,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.1021,
+          "credit_ratio_conservative": 0.0945,
+          "passes_floor": false,
+          "cash_collected": 455.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.11,
+          "credit_ratio_conservative": 0.1018,
+          "passes_floor": true,
+          "cash_collected": 490.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.1178,
+          "credit_ratio_conservative": 0.1091,
+          "passes_floor": true,
+          "cash_collected": 525.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.1257,
+          "credit_ratio_conservative": 0.1164,
+          "passes_floor": true,
+          "cash_collected": 560.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.1336,
+          "credit_ratio_conservative": 0.1236,
+          "passes_floor": true,
+          "cash_collected": 595.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.1414,
+          "credit_ratio_conservative": 0.1309,
+          "passes_floor": true,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.1493,
+          "credit_ratio_conservative": 0.1382,
+          "passes_floor": true,
+          "cash_collected": 665.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.1571,
+          "credit_ratio_conservative": 0.1455,
+          "passes_floor": true,
+          "cash_collected": 700.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.165,
+          "credit_ratio_conservative": 0.1527,
+          "passes_floor": true,
+          "cash_collected": 735.0
+        },
+        {
+          "short_qty": 22,
+          "credit_ratio_mid": 0.1728,
+          "credit_ratio_conservative": 0.16,
+          "passes_floor": true,
+          "cash_collected": 770.0
+        },
+        {
+          "short_qty": 23,
+          "credit_ratio_mid": 0.1807,
+          "credit_ratio_conservative": 0.1673,
+          "passes_floor": true,
+          "cash_collected": 805.0
+        },
+        {
+          "short_qty": 24,
+          "credit_ratio_mid": 0.1886,
+          "credit_ratio_conservative": 0.1745,
+          "passes_floor": true,
+          "cash_collected": 840.0
+        },
+        {
+          "short_qty": 25,
+          "credit_ratio_mid": 0.1964,
+          "credit_ratio_conservative": 0.1818,
+          "passes_floor": true,
+          "cash_collected": 875.0
+        },
+        {
+          "short_qty": 26,
+          "credit_ratio_mid": 0.2043,
+          "credit_ratio_conservative": 0.1891,
+          "passes_floor": true,
+          "cash_collected": 910.0
+        },
+        {
+          "short_qty": 27,
+          "credit_ratio_mid": 0.2121,
+          "credit_ratio_conservative": 0.1964,
+          "passes_floor": true,
+          "cash_collected": 945.0
+        },
+        {
+          "short_qty": 28,
+          "credit_ratio_mid": 0.22,
+          "credit_ratio_conservative": 0.2036,
+          "passes_floor": true,
+          "cash_collected": 980.0
+        },
+        {
+          "short_qty": 29,
+          "credit_ratio_mid": 0.2278,
+          "credit_ratio_conservative": 0.2109,
+          "passes_floor": true,
+          "cash_collected": 1015.0
+        },
+        {
+          "short_qty": 30,
+          "credit_ratio_mid": 0.2357,
+          "credit_ratio_conservative": 0.2182,
+          "passes_floor": true,
+          "cash_collected": 1050.0
+        },
+        {
+          "short_qty": 31,
+          "credit_ratio_mid": 0.2435,
+          "credit_ratio_conservative": 0.2255,
+          "passes_floor": true,
+          "cash_collected": 1085.0
+        },
+        {
+          "short_qty": 32,
+          "credit_ratio_mid": 0.2514,
+          "credit_ratio_conservative": 0.2327,
+          "passes_floor": true,
+          "cash_collected": 1120.0
+        },
+        {
+          "short_qty": 33,
+          "credit_ratio_mid": 0.2593,
+          "credit_ratio_conservative": 0.24,
+          "passes_floor": true,
+          "cash_collected": 1155.0
+        },
+        {
+          "short_qty": 34,
+          "credit_ratio_mid": 0.2671,
+          "credit_ratio_conservative": 0.2473,
+          "passes_floor": true,
+          "cash_collected": 1190.0
+        },
+        {
+          "short_qty": 35,
+          "credit_ratio_mid": 0.275,
+          "credit_ratio_conservative": 0.2545,
+          "passes_floor": true,
+          "cash_collected": 1225.0
+        },
+        {
+          "short_qty": 36,
+          "credit_ratio_mid": 0.2828,
+          "credit_ratio_conservative": 0.2618,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 37,
+          "credit_ratio_mid": 0.2907,
+          "credit_ratio_conservative": 0.2691,
+          "passes_floor": true,
+          "cash_collected": 1295.0
+        },
+        {
+          "short_qty": 38,
+          "credit_ratio_mid": 0.2985,
+          "credit_ratio_conservative": 0.2764,
+          "passes_floor": true,
+          "cash_collected": 1330.0
+        },
+        {
+          "short_qty": 39,
+          "credit_ratio_mid": 0.3064,
+          "credit_ratio_conservative": 0.2836,
+          "passes_floor": true,
+          "cash_collected": 1365.0
+        },
+        {
+          "short_qty": 40,
+          "credit_ratio_mid": 0.3143,
+          "credit_ratio_conservative": 0.2909,
+          "passes_floor": true,
+          "cash_collected": 1400.0
+        },
+        {
+          "short_qty": 41,
+          "credit_ratio_mid": 0.3221,
+          "credit_ratio_conservative": 0.2982,
+          "passes_floor": true,
+          "cash_collected": 1435.0
+        },
+        {
+          "short_qty": 42,
+          "credit_ratio_mid": 0.33,
+          "credit_ratio_conservative": 0.3055,
+          "passes_floor": true,
+          "cash_collected": 1470.0
+        },
+        {
+          "short_qty": 43,
+          "credit_ratio_mid": 0.3378,
+          "credit_ratio_conservative": 0.3127,
+          "passes_floor": true,
+          "cash_collected": 1505.0
+        },
+        {
+          "short_qty": 44,
+          "credit_ratio_mid": 0.3457,
+          "credit_ratio_conservative": 0.32,
+          "passes_floor": true,
+          "cash_collected": 1540.0
+        },
+        {
+          "short_qty": 45,
+          "credit_ratio_mid": 0.3535,
+          "credit_ratio_conservative": 0.3273,
+          "passes_floor": true,
+          "cash_collected": 1575.0
+        },
+        {
+          "short_qty": 46,
+          "credit_ratio_mid": 0.3614,
+          "credit_ratio_conservative": 0.3345,
+          "passes_floor": true,
+          "cash_collected": 1610.0
+        },
+        {
+          "short_qty": 47,
+          "credit_ratio_mid": 0.3692,
+          "credit_ratio_conservative": 0.3418,
+          "passes_floor": true,
+          "cash_collected": 1645.0
+        },
+        {
+          "short_qty": 48,
+          "credit_ratio_mid": 0.3771,
+          "credit_ratio_conservative": 0.3491,
+          "passes_floor": true,
+          "cash_collected": 1680.0
+        },
+        {
+          "short_qty": 49,
+          "credit_ratio_mid": 0.385,
+          "credit_ratio_conservative": 0.3564,
+          "passes_floor": true,
+          "cash_collected": 1715.0
+        },
+        {
+          "short_qty": 50,
+          "credit_ratio_mid": 0.3928,
+          "credit_ratio_conservative": 0.3636,
+          "passes_floor": true,
+          "cash_collected": 1750.0
+        },
+        {
+          "short_qty": 51,
+          "credit_ratio_mid": 0.4007,
+          "credit_ratio_conservative": 0.3709,
+          "passes_floor": true,
+          "cash_collected": 1785.0
+        },
+        {
+          "short_qty": 52,
+          "credit_ratio_mid": 0.4085,
+          "credit_ratio_conservative": 0.3782,
+          "passes_floor": true,
+          "cash_collected": 1820.0
+        },
+        {
+          "short_qty": 53,
+          "credit_ratio_mid": 0.4164,
+          "credit_ratio_conservative": 0.3855,
+          "passes_floor": true,
+          "cash_collected": 1855.0
+        },
+        {
+          "short_qty": 54,
+          "credit_ratio_mid": 0.4242,
+          "credit_ratio_conservative": 0.3927,
+          "passes_floor": true,
+          "cash_collected": 1890.0
+        },
+        {
+          "short_qty": 55,
+          "credit_ratio_mid": 0.4321,
+          "credit_ratio_conservative": 0.4,
+          "passes_floor": true,
+          "cash_collected": 1925.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "T",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 25.4,
+      "catalyst": "2026-10-21",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 24.0,
+        "premium": 0.62,
+        "bid": 0.53,
+        "ask": 0.71,
+        "mid": 0.62,
+        "last": 0.6,
+        "open_interest": 2013,
+        "volume": 135,
+        "implied_vol": 0.31836619140624994,
+        "qty": 72
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 24.0,
+        "premium": 0.22,
+        "bid": 0.19,
+        "ask": 0.25,
+        "mid": 0.22,
+        "last": 0.23,
+        "open_interest": 7102,
+        "volume": 146.0,
+        "implied_vol": 0.2802806347656249,
+        "qty": 25
+      },
+      "long_total": 4464.0,
+      "short_total": 550.0,
+      "net_debit": 3914.0,
+      "credit_ratio_mid": 0.1232,
+      "credit_ratio_conservative": 0.0929,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 24.0,
+          "qty": 72,
+          "underlying": 25.4,
+          "multiplier": 100,
+          "price": 0.62,
+          "total": 4464.0,
+          "open_interest": 2013
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 24.0,
+          "qty": 25,
+          "underlying": 25.4,
+          "multiplier": 100,
+          "price": 0.22,
+          "total": -550.0,
+          "open_interest": 7102
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-21 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 24, 25, 23, 22"
+      ],
+      "advice": "Credit ratio 9.3% is below the 10% floor; sell ~2 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0049,
+          "credit_ratio_conservative": 0.0037,
+          "passes_floor": false,
+          "cash_collected": 22.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0099,
+          "credit_ratio_conservative": 0.0074,
+          "passes_floor": false,
+          "cash_collected": 44.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0148,
+          "credit_ratio_conservative": 0.0112,
+          "passes_floor": false,
+          "cash_collected": 66.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0197,
+          "credit_ratio_conservative": 0.0149,
+          "passes_floor": false,
+          "cash_collected": 88.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0246,
+          "credit_ratio_conservative": 0.0186,
+          "passes_floor": false,
+          "cash_collected": 110.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0296,
+          "credit_ratio_conservative": 0.0223,
+          "passes_floor": false,
+          "cash_collected": 132.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.0345,
+          "credit_ratio_conservative": 0.026,
+          "passes_floor": false,
+          "cash_collected": 154.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0394,
+          "credit_ratio_conservative": 0.0297,
+          "passes_floor": false,
+          "cash_collected": 176.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.0444,
+          "credit_ratio_conservative": 0.0335,
+          "passes_floor": false,
+          "cash_collected": 198.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.0493,
+          "credit_ratio_conservative": 0.0372,
+          "passes_floor": false,
+          "cash_collected": 220.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.0542,
+          "credit_ratio_conservative": 0.0409,
+          "passes_floor": false,
+          "cash_collected": 242.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.0591,
+          "credit_ratio_conservative": 0.0446,
+          "passes_floor": false,
+          "cash_collected": 264.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.0641,
+          "credit_ratio_conservative": 0.0483,
+          "passes_floor": false,
+          "cash_collected": 286.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.069,
+          "credit_ratio_conservative": 0.052,
+          "passes_floor": false,
+          "cash_collected": 308.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.0739,
+          "credit_ratio_conservative": 0.0558,
+          "passes_floor": false,
+          "cash_collected": 330.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.0789,
+          "credit_ratio_conservative": 0.0595,
+          "passes_floor": false,
+          "cash_collected": 352.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.0838,
+          "credit_ratio_conservative": 0.0632,
+          "passes_floor": false,
+          "cash_collected": 374.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.0887,
+          "credit_ratio_conservative": 0.0669,
+          "passes_floor": false,
+          "cash_collected": 396.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.0936,
+          "credit_ratio_conservative": 0.0706,
+          "passes_floor": false,
+          "cash_collected": 418.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.0986,
+          "credit_ratio_conservative": 0.0743,
+          "passes_floor": false,
+          "cash_collected": 440.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.1035,
+          "credit_ratio_conservative": 0.0781,
+          "passes_floor": false,
+          "cash_collected": 462.0
+        },
+        {
+          "short_qty": 22,
+          "credit_ratio_mid": 0.1084,
+          "credit_ratio_conservative": 0.0818,
+          "passes_floor": false,
+          "cash_collected": 484.0
+        },
+        {
+          "short_qty": 23,
+          "credit_ratio_mid": 0.1134,
+          "credit_ratio_conservative": 0.0855,
+          "passes_floor": false,
+          "cash_collected": 506.0
+        },
+        {
+          "short_qty": 24,
+          "credit_ratio_mid": 0.1183,
+          "credit_ratio_conservative": 0.0892,
+          "passes_floor": false,
+          "cash_collected": 528.0
+        },
+        {
+          "short_qty": 25,
+          "credit_ratio_mid": 0.1232,
+          "credit_ratio_conservative": 0.0929,
+          "passes_floor": false,
+          "cash_collected": 550.0
+        },
+        {
+          "short_qty": 26,
+          "credit_ratio_mid": 0.1281,
+          "credit_ratio_conservative": 0.0966,
+          "passes_floor": false,
+          "cash_collected": 572.0
+        },
+        {
+          "short_qty": 27,
+          "credit_ratio_mid": 0.1331,
+          "credit_ratio_conservative": 0.1004,
+          "passes_floor": true,
+          "cash_collected": 594.0
+        },
+        {
+          "short_qty": 28,
+          "credit_ratio_mid": 0.138,
+          "credit_ratio_conservative": 0.1041,
+          "passes_floor": true,
+          "cash_collected": 616.0
+        },
+        {
+          "short_qty": 29,
+          "credit_ratio_mid": 0.1429,
+          "credit_ratio_conservative": 0.1078,
+          "passes_floor": true,
+          "cash_collected": 638.0
+        },
+        {
+          "short_qty": 30,
+          "credit_ratio_mid": 0.1478,
+          "credit_ratio_conservative": 0.1115,
+          "passes_floor": true,
+          "cash_collected": 660.0
+        },
+        {
+          "short_qty": 31,
+          "credit_ratio_mid": 0.1528,
+          "credit_ratio_conservative": 0.1152,
+          "passes_floor": true,
+          "cash_collected": 682.0
+        },
+        {
+          "short_qty": 32,
+          "credit_ratio_mid": 0.1577,
+          "credit_ratio_conservative": 0.1189,
+          "passes_floor": true,
+          "cash_collected": 704.0
+        },
+        {
+          "short_qty": 33,
+          "credit_ratio_mid": 0.1626,
+          "credit_ratio_conservative": 0.1227,
+          "passes_floor": true,
+          "cash_collected": 726.0
+        },
+        {
+          "short_qty": 34,
+          "credit_ratio_mid": 0.1676,
+          "credit_ratio_conservative": 0.1264,
+          "passes_floor": true,
+          "cash_collected": 748.0
+        },
+        {
+          "short_qty": 35,
+          "credit_ratio_mid": 0.1725,
+          "credit_ratio_conservative": 0.1301,
+          "passes_floor": true,
+          "cash_collected": 770.0
+        },
+        {
+          "short_qty": 36,
+          "credit_ratio_mid": 0.1774,
+          "credit_ratio_conservative": 0.1338,
+          "passes_floor": true,
+          "cash_collected": 792.0
+        },
+        {
+          "short_qty": 37,
+          "credit_ratio_mid": 0.1823,
+          "credit_ratio_conservative": 0.1375,
+          "passes_floor": true,
+          "cash_collected": 814.0
+        },
+        {
+          "short_qty": 38,
+          "credit_ratio_mid": 0.1873,
+          "credit_ratio_conservative": 0.1412,
+          "passes_floor": true,
+          "cash_collected": 836.0
+        },
+        {
+          "short_qty": 39,
+          "credit_ratio_mid": 0.1922,
+          "credit_ratio_conservative": 0.145,
+          "passes_floor": true,
+          "cash_collected": 858.0
+        },
+        {
+          "short_qty": 40,
+          "credit_ratio_mid": 0.1971,
+          "credit_ratio_conservative": 0.1487,
+          "passes_floor": true,
+          "cash_collected": 880.0
+        },
+        {
+          "short_qty": 41,
+          "credit_ratio_mid": 0.2021,
+          "credit_ratio_conservative": 0.1524,
+          "passes_floor": true,
+          "cash_collected": 902.0
+        },
+        {
+          "short_qty": 42,
+          "credit_ratio_mid": 0.207,
+          "credit_ratio_conservative": 0.1561,
+          "passes_floor": true,
+          "cash_collected": 924.0
+        },
+        {
+          "short_qty": 43,
+          "credit_ratio_mid": 0.2119,
+          "credit_ratio_conservative": 0.1598,
+          "passes_floor": true,
+          "cash_collected": 946.0
+        },
+        {
+          "short_qty": 44,
+          "credit_ratio_mid": 0.2168,
+          "credit_ratio_conservative": 0.1635,
+          "passes_floor": true,
+          "cash_collected": 968.0
+        },
+        {
+          "short_qty": 45,
+          "credit_ratio_mid": 0.2218,
+          "credit_ratio_conservative": 0.1673,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 46,
+          "credit_ratio_mid": 0.2267,
+          "credit_ratio_conservative": 0.171,
+          "passes_floor": true,
+          "cash_collected": 1012.0
+        },
+        {
+          "short_qty": 47,
+          "credit_ratio_mid": 0.2316,
+          "credit_ratio_conservative": 0.1747,
+          "passes_floor": true,
+          "cash_collected": 1034.0
+        },
+        {
+          "short_qty": 48,
+          "credit_ratio_mid": 0.2366,
+          "credit_ratio_conservative": 0.1784,
+          "passes_floor": true,
+          "cash_collected": 1056.0
+        },
+        {
+          "short_qty": 49,
+          "credit_ratio_mid": 0.2415,
+          "credit_ratio_conservative": 0.1821,
+          "passes_floor": true,
+          "cash_collected": 1078.0
+        },
+        {
+          "short_qty": 50,
+          "credit_ratio_mid": 0.2464,
+          "credit_ratio_conservative": 0.1858,
+          "passes_floor": true,
+          "cash_collected": 1100.0
+        },
+        {
+          "short_qty": 51,
+          "credit_ratio_mid": 0.2513,
+          "credit_ratio_conservative": 0.1896,
+          "passes_floor": true,
+          "cash_collected": 1122.0
+        },
+        {
+          "short_qty": 52,
+          "credit_ratio_mid": 0.2563,
+          "credit_ratio_conservative": 0.1933,
+          "passes_floor": true,
+          "cash_collected": 1144.0
+        },
+        {
+          "short_qty": 53,
+          "credit_ratio_mid": 0.2612,
+          "credit_ratio_conservative": 0.197,
+          "passes_floor": true,
+          "cash_collected": 1166.0
+        },
+        {
+          "short_qty": 54,
+          "credit_ratio_mid": 0.2661,
+          "credit_ratio_conservative": 0.2007,
+          "passes_floor": true,
+          "cash_collected": 1188.0
+        },
+        {
+          "short_qty": 55,
+          "credit_ratio_mid": 0.2711,
+          "credit_ratio_conservative": 0.2044,
+          "passes_floor": true,
+          "cash_collected": 1210.0
+        },
+        {
+          "short_qty": 56,
+          "credit_ratio_mid": 0.276,
+          "credit_ratio_conservative": 0.2081,
+          "passes_floor": true,
+          "cash_collected": 1232.0
+        },
+        {
+          "short_qty": 57,
+          "credit_ratio_mid": 0.2809,
+          "credit_ratio_conservative": 0.2119,
+          "passes_floor": true,
+          "cash_collected": 1254.0
+        },
+        {
+          "short_qty": 58,
+          "credit_ratio_mid": 0.2858,
+          "credit_ratio_conservative": 0.2156,
+          "passes_floor": true,
+          "cash_collected": 1276.0
+        },
+        {
+          "short_qty": 59,
+          "credit_ratio_mid": 0.2908,
+          "credit_ratio_conservative": 0.2193,
+          "passes_floor": true,
+          "cash_collected": 1298.0
+        },
+        {
+          "short_qty": 60,
+          "credit_ratio_mid": 0.2957,
+          "credit_ratio_conservative": 0.223,
+          "passes_floor": true,
+          "cash_collected": 1320.0
+        },
+        {
+          "short_qty": 61,
+          "credit_ratio_mid": 0.3006,
+          "credit_ratio_conservative": 0.2267,
+          "passes_floor": true,
+          "cash_collected": 1342.0
+        },
+        {
+          "short_qty": 62,
+          "credit_ratio_mid": 0.3056,
+          "credit_ratio_conservative": 0.2304,
+          "passes_floor": true,
+          "cash_collected": 1364.0
+        },
+        {
+          "short_qty": 63,
+          "credit_ratio_mid": 0.3105,
+          "credit_ratio_conservative": 0.2342,
+          "passes_floor": true,
+          "cash_collected": 1386.0
+        },
+        {
+          "short_qty": 64,
+          "credit_ratio_mid": 0.3154,
+          "credit_ratio_conservative": 0.2379,
+          "passes_floor": true,
+          "cash_collected": 1408.0
+        },
+        {
+          "short_qty": 65,
+          "credit_ratio_mid": 0.3203,
+          "credit_ratio_conservative": 0.2416,
+          "passes_floor": true,
+          "cash_collected": 1430.0
+        },
+        {
+          "short_qty": 66,
+          "credit_ratio_mid": 0.3253,
+          "credit_ratio_conservative": 0.2453,
+          "passes_floor": true,
+          "cash_collected": 1452.0
+        },
+        {
+          "short_qty": 67,
+          "credit_ratio_mid": 0.3302,
+          "credit_ratio_conservative": 0.249,
+          "passes_floor": true,
+          "cash_collected": 1474.0
+        },
+        {
+          "short_qty": 68,
+          "credit_ratio_mid": 0.3351,
+          "credit_ratio_conservative": 0.2527,
+          "passes_floor": true,
+          "cash_collected": 1496.0
+        },
+        {
+          "short_qty": 69,
+          "credit_ratio_mid": 0.3401,
+          "credit_ratio_conservative": 0.2565,
+          "passes_floor": true,
+          "cash_collected": 1518.0
+        },
+        {
+          "short_qty": 70,
+          "credit_ratio_mid": 0.345,
+          "credit_ratio_conservative": 0.2602,
+          "passes_floor": true,
+          "cash_collected": 1540.0
+        },
+        {
+          "short_qty": 71,
+          "credit_ratio_mid": 0.3499,
+          "credit_ratio_conservative": 0.2639,
+          "passes_floor": true,
+          "cash_collected": 1562.0
+        },
+        {
+          "short_qty": 72,
+          "credit_ratio_mid": 0.3548,
+          "credit_ratio_conservative": 0.2676,
+          "passes_floor": true,
+          "cash_collected": 1584.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for T",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/T/key-statistics/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "Price: 25.40 USD Market Cap: 174.05B Fwd PE: 10.86 P/S: 1.4 EPS trends: flat over the last 7 days EPS revisions: tilted higher, with 15 up and 3 down over last 30 days price 25.4 market cap 174.05B forward PE 10.86 forward PE next FY 9.91 trailing PE 8.382838 P/S 1.3679029 EV/EBITDA 7.571"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for T",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/T/analysis/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "FY consensus 2.33782 now, 2.33771 7 days ago, 2.33771 30 days ago, change over 30 days 0.0%; EPS revisions 15 up and 3 down over 30 days, 12 up and 6 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "T quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/t/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Cash and Cash Equivalents increasing 46.9% (3/31/2026 to 6/30/2026) Net Income Applicable to Common Shareholders increasing 21.0% (3/31/2026 to 6/30/2026) Earnings Before Interest and Tax increasing 6.9% (3/31/2026 to 6/30/2026) EPS increased year over year 0.54 to 0.65"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "T earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/t/earnings",
+      "date": "2026-10-21",
+      "weight": null,
+      "text": "2026-10-21 (Wednesday, before the open), 31 days out -- from the earnings calendar, consensus EPS 0.6. beat streak 4 median gap 91 days 2026-07-22 estimate 0.59 actual 0.65 surprise 10.49% 2026-04-22 estimate 0.55 actual 0.57 surprise 3.42% 2026-01-28 estimate 0.47 actual 0.52 surprise 11.58% 2025-10-22 estimate 0.54 actual 0.54 surprise 0.45%"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: AT&T (T) Could Be 13% Undervalued Following Plan Price Hikes And New Perks",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-t-could-13-undervalued-221708077.html",
+      "date": "2026-09-17",
+      "weight": 3,
+      "text": "AT&T (T) Could Be 13% Undervalued Following Plan Price Hikes And New Perks AT&T (T) is under the microscope after a mix of price hikes on older wireless plans and new perks such as virtual care access and 5G home internet for Cricket customers. AT&T\u2019s recent plan changes and new perks are landing against a backdrop of mixed performance, with the 90-day share price return of 15.36% pointing to improving momentum, even as the 1-year total shareholder return has declined 8.96% and longer term total returns over 3 and 5 years remain strong. Scan how AT&T\u2019s mix of price..."
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Stocktwits: ASTS Retail Sentiment Nears 1-Year Low As SpaceX Turns Up The Heat In Global Mobile Race",
+      "provider": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/asts-retail-sentiment-1-year-low-spacex-turns-up-heat-global-mobile-race/cZtulTMRB33",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "ASTS Retail Sentiment Nears 1-Year Low As SpaceX Turns Up The Heat In Global Mobile Race SpaceX\u2019s vertically integrated strategy increases pressure on AST, which serves 60 carrier partners covering about three billion subscribers."
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "24/7 Wall St.: T-Mobile\u2019s $85 Billion Debt Load Won\u2019t Feel the Fed\u2019s Rate Hike the Way Wall Street Thinks",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/18/t-mobiles-85-billion-debt-load-wont-feel-the-feds-rate-hike-the-way-wall-street-thinks/",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "T-Mobile\u2019s $85 Billion Debt Load Won\u2019t Feel the Fed\u2019s Rate Hike the Way Wall Street Thinks Wall Street's quick math on T-Mobile's rate hike exposure produces a frightening number, but that number depends on a reading of the debt stack that the actual quarterly filing does not support."
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Trefis: How Much Further Can T-Mobile Stock Fall From Here?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615852/how-much-further-can-t-mobile-stock-fall-from-here/2026-09-18",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "How Much Further Can T-Mobile Stock Fall From Here? T-Mobile US (TMUS) stock fell 5.6% on 17 September to about $166, the lowest it has traded in a year. One session is not the problem: over the past twelve months the stock returned -28.5% while the S&P 500 returned 17.0%, and the year is what matters. A rising market did not do that. What changed is inside the business, and part of it is deliberate."
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "ref": "news:4",
+      "label": "Trefis: Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615856/is-verizon-stock-cheap-or-is-its-cash-already-spoken-for/2026-09-18",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For? Verizon Communications (VZ) trades near $48 a share and generated free cash worth 10.0% of its market value over the last twelve months. The median S&P 500 company manages 4.5%. A gap that wide usually means one of two things: a bargain, or a business the market expects to shrink. Verizon is neither, quite. The cash is real, and it is not all yours."
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "ref": "news:5",
+      "label": "Barrons.com: The 3 Tech Laggards Are Top Stock Picks, UBS Says",
+      "provider": "barrons.com",
+      "url": "https://www.barrons.com/articles/palantir-at-t-spotify-stocks-ubs-b8b42890?siteid=yhoof2&yptr=yahoo",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "The 3 Tech Laggards Are Top Stock Picks, UBS Says Palantir, AT&T, and Spotify have lagged the market in 2026, but UBS rates each of the stocks as strong buys."
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "ref": "news:6",
+      "label": "TheStreet: AT&T launches free healthcare perk for customers",
+      "provider": "thestreet.com",
+      "url": "https://www.thestreet.com/retail/att-launches-free-lifemd-healthcare-perk-for-customers",
+      "date": "2026-09-19",
+      "weight": 3,
+      "text": "AT&T launches free healthcare perk for customers AT&T is branching beyond its usual telecom offerings with a benefit that could catch some customers off guard."
+    },
+    {
+      "id": "S12",
+      "kind": "yahoo",
+      "ref": "news:7",
+      "label": "Simply Wall St.: 3 Stocks Linked To California Wealth Tax Spending Investors Should Watch",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-linked-california-wealth-181043824.html",
+      "date": "2026-09-19",
+      "weight": 3,
+      "text": "3 Stocks Linked To California Wealth Tax Spending Investors Should Watch California\u2019s proposed one-time 5% wealth tax on billionaires has turned the state into a live experiment in how far governments might go in taxing extreme fortunes. That debate is not just political theatre. It could reshape where capital flows, which projects get funded, and which stocks feel the tailwind from as much as US$100b of potential new public spending. This article picks out three companies whose businesses are directly exposed to that story and explains how each could be..."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: AT&T (T) Ascends While Market Falls: Some Facts to Note",
+      "provider": null,
+      "url": "/articles/att-t-ascends-while-market-falls-some-facts-note",
+      "date": "Sep 10, 20",
+      "weight": 3,
+      "text": "AT&T (T) Ascends While Market Falls: Some Facts to Note AT&T (T) concluded the recent trading session at $25.55, signifying a +1.59% move from its prior day's close."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "NASDAQ.com: After Hours Most Active for Sep 11, 2026 :  KHC, ACWX, PATH, TSLL, GRAB, F, LEGN, AAPL, XPEV, KVUE, T, BMNR",
+      "provider": null,
+      "url": "/articles/after-hours-most-active-sep-11-2026-khc-acwx-path-tsll-grab-f-legn-aapl-xpev-kvue-t-bmnr",
+      "date": "Sep 11, 20",
+      "weight": 3,
+      "text": "After Hours Most Active for Sep 11, 2026 :  KHC, ACWX, PATH, TSLL, GRAB, F, LEGN, AAPL, XPEV, KVUE, T, BMNR The NASDAQ 100 After Hours Indicator is down -2.61 to 29,365.83.  The total After hours volume is currently 158,788,347 shares traded.The following are the most active stocks for the after hours session: The Kraft Heinz Company (KHC) is +0.1383 at $24.74, with 40,545,978 shares t"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: AST SpaceMobile vs. Jabil: Which Connectivity Stock is a Better Buy?",
+      "provider": null,
+      "url": "/articles/ast-spacemobile-vs-jabil-which-connectivity-stock-better-buy",
+      "date": "Sep 11, 20",
+      "weight": 3,
+      "text": "AST SpaceMobile vs. Jabil: Which Connectivity Stock is a Better Buy? JBL edges ASTS as the better pick, backed by expected EPS growth, steadier estimates and a far cheaper valuation."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "BNK Invest: Notable ETF Outflow Detected - PWV, T, PEP, F",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-pwv-t-pep-f",
+      "date": "Sep 11, 20",
+      "weight": 3,
+      "text": "Notable ETF Outflow Detected - PWV, T, PEP, F Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Invesco Large Cap Value ETF (Symbol: PWV) where we have detected an approximate $451.7 million dollar outflow -- that's a 19.3% decrease week over w"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: AT&T vs. Nokia: Which Telecom Stock Is the Better Buy Now?",
+      "provider": null,
+      "url": "/articles/att-vs-nokia-which-telecom-stock-better-buy-now",
+      "date": "Sep 11, 20",
+      "weight": 3,
+      "text": "AT&T vs. Nokia: Which Telecom Stock Is the Better Buy Now? AT&T and Nokia are positioning for an AI-driven shift in telecom, with fiber, 5G, cloud and network technology shaping the outlook."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "The Motley Fool: Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These 3 Fantastic Dividend Stocks Yielding 3.3% to 5.5%.",
+      "provider": null,
+      "url": "/articles/forget-president-donald-trumps-5000-dividend-promise-investors-can-start-earning-passive",
+      "date": "Sep 13, 20",
+      "weight": 3,
+      "text": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These 3 Fantastic Dividend Stocks Yielding 3.3% to 5.5%. Key PointsPresident Trump's $5,000 dividend promise came with few details."
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: Here's Why I Think AT&T Stock Could Be a No-Brainer Buy Right Now",
+      "provider": null,
+      "url": "/articles/heres-why-i-think-att-stock-could-be-no-brainer-buy-right-now",
+      "date": "Sep 14, 20",
+      "weight": 3,
+      "text": "Here's Why I Think AT&T Stock Could Be a No-Brainer Buy Right Now Key PointsAT&T recently announced a deal with Amazon related to satellite internet."
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Zacks: Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth?",
+      "provider": null,
+      "url": "/articles/can-verizons-6g-acceleration-initiatives-and-ai-trials-drive-growth",
+      "date": "Sep 15, 20",
+      "weight": 3,
+      "text": "Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth? VZ is advancing 6G with AI-native networks, real-world sensing trials and smart technologies, targeting the 2028 Olympics as a key test."
+    },
+    {
+      "id": "S21",
+      "kind": "nasdaq",
+      "ref": "news:16",
+      "label": "Zacks: Is Most-Watched Stock AT&T Inc. (T) Worth Betting on Now?",
+      "provider": null,
+      "url": "/articles/most-watched-stock-att-inc-t-worth-betting-now-0",
+      "date": "Sep 15, 20",
+      "weight": 3,
+      "text": "Is Most-Watched Stock AT&T Inc. (T) Worth Betting on Now? Recently, Zacks.com users have been paying close attention to AT&T (T). This makes it worthwhile to examine what the stock has in store."
+    },
+    {
+      "id": "S22",
+      "kind": "nasdaq",
+      "ref": "news:17",
+      "label": "The Motley Fool: The Simple Reason AT&T Isn't Too Concerned About SpaceX's Starlink Business",
+      "provider": null,
+      "url": "/articles/simple-reason-att-isnt-too-concerned-about-spacexs-starlink-business",
+      "date": "Sep 15, 20",
+      "weight": 3,
+      "text": "The Simple Reason AT&T Isn't Too Concerned About SpaceX's Starlink Business Key PointsAT&T CEO John Stankey says Starlink doesn't do so well when buildings get in its way."
+    },
+    {
+      "id": "S23",
+      "kind": "nasdaq",
+      "ref": "news:18",
+      "label": "Zacks: AT&T Teams Up With LifeMD for Virtual Health Care: Can it Aid Shares?",
+      "provider": null,
+      "url": "/articles/att-teams-lifemd-virtual-health-care-can-it-aid-shares",
+      "date": "Sep 16, 20",
+      "weight": 3,
+      "text": "AT&T Teams Up With LifeMD for Virtual Health Care: Can it Aid Shares? T expands customer benefits with complimentary LifeMD memberships, offering virtual care, prescriptions and pharmacy services."
+    },
+    {
+      "id": "S24",
+      "kind": "nasdaq",
+      "ref": "news:19",
+      "label": "NASDAQ.com: After Hours Most Active for Sep 17, 2026 :  NU, NVDA, INTC, NOK, T, PFE, PGEN, AAL, BAC, GRAB, CZR, PCG",
+      "provider": null,
+      "url": "/articles/after-hours-most-active-sep-17-2026-nu-nvda-intc-nok-t-pfe-pgen-aal-bac-grab-czr-pcg",
+      "date": "Sep 17, 20",
+      "weight": 3,
+      "text": "After Hours Most Active for Sep 17, 2026 :  NU, NVDA, INTC, NOK, T, PFE, PGEN, AAL, BAC, GRAB, CZR, PCG The NASDAQ 100 After Hours Indicator is down -13.59 to 29,433.39.  The total After hours volume is currently 139,776,793 shares traded.The following are the most active stocks for the after hours session: Nu Holdings Ltd. (NU) is +0.03 at $13.87, with 17,646,771 shares traded. NU"
+    },
+    {
+      "id": "S25",
+      "kind": "nasdaq",
+      "ref": "news:20",
+      "label": "Barchart: Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall",
+      "provider": null,
+      "url": "/articles/stocks-settle-sharply-higher-crude-oil-and-bond-yields-fall",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall The S&P 500 Index ($SPX ) (SPY ) closed up by +1.14% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.61%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.73%.  September E-mini S&P futures (ESU26 ) rose +1.10%, and September E-mini..."
+    },
+    {
+      "id": "S26",
+      "kind": "nasdaq",
+      "ref": "news:21",
+      "label": "MarketBeat: AT&T Sees Fiber, Spectrum Deals Fueling Accelerated Growth and Shareholder Returns",
+      "provider": null,
+      "url": "/articles/att-sees-fiber-spectrum-deals-fueling-accelerated-growth-and-shareholder-returns",
+      "date": "Sep 10, 20",
+      "weight": 1,
+      "text": "AT&T Sees Fiber, Spectrum Deals Fueling Accelerated Growth and Shareholder Returns Smart Money Shifts: U.S. Bancorp Pairs Tech With YieldAT&T (NYSE:T) executives said the company\u2019s second-quarter performance reflected the benefits of its fiber expansion, spectrum investments and recently closed acquisitions, while emphasizing a strategy centered on converged wi"
+    },
+    {
+      "id": "S27",
+      "kind": "nasdaq",
+      "ref": "news:22",
+      "label": "Zacks: AT&T (T) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "provider": null,
+      "url": "/articles/att-t-sees-more-significant-dip-broader-market-some-facts-know",
+      "date": "Sep 16, 20",
+      "weight": 1,
+      "text": "AT&T (T) Sees a More Significant Dip Than Broader Market: Some Facts to Know In the most recent trading session, AT&T (T) closed at $25.86, indicating a -3.22% shift from the previous trading day."
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "au.finance.yahoo.com: AT&T Inc. (T) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "au.finance.yahoo.com",
+      "url": "https://au.finance.yahoo.com/quote/T/analysis/",
+      "date": null,
+      "weight": 3,
+      "text": "AT&T Inc. (T) analyst ratings, estimates and forecasts \u2013 Yahoo Finance AT&T Inc. (T) analyst ratings, estimates and forecasts \u2013 Yahoo Finance\n\n22.61 + 0.49% \n\nNYSE - BOATS Real Time Price \u2022 USD \n\n# AT&T Inc. (T)\n\n22.50 -0.25 (-1.10%) \n\n At close: 8 June at 4:00:51 pm GMT-4 \n\n22.61 +0.11 (+0.49%) \n\nOvernight: 2:11:09 am GMT-4\n\nThis price reflects trading activity during the overnight session on the Blue Ocean ATS, available 8 p.m. to 4 a.m. ET, Sunday through Thursday, when regular markets are closed. \n\n### Revenue vs. Earnings \n\nQ1 FY26\n\nRevenue 31.51B\n\nEarnings 4.03B\n\nQ2\n\nFY25\n\nQ3\n\nFY25\n\nQ4\n\nFY25\n\nQ1\n\nFY26\n\n### Revenue estimate\n\n| Currency in USD | Current qtr."
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "businessquant.com: At&T Inc. (T) Analyst Estimates - Revenue & EPS",
+      "provider": "businessquant.com",
+      "url": "https://businessquant.com/stocks/t/estimates/",
+      "date": null,
+      "weight": 3,
+      "text": "At&T Inc. (T) Analyst Estimates - Revenue & EPS At&T Inc. (T) Analyst Estimates - Revenue & EPS\n\n### Research Tools\n\n### Developers\n\n---\n\nLogin Start for Free\n\n\u00d7\n\n# At&T Inc. (T) Estimates\n\nDetailed analyst consensus, revenue, and earnings forecasts vs reported data.\n\n## Revenue Estimates\n\nQuarterly Annual\n\n| Metric | Q2 24 | Q2 24 | Q3 24 | Q3 24 | Q4 24 | Q4 24 | Q1 25 | Q1 25 | Q2 25 | Q2 25 | Q3 25 | Q3 25 | Q4 25 | Q4 25 | Q1 26 | Q1 26 | Q2 26 | Q2 26 | Q3 26 | Q3 26 | Q4 26 | Q4 26 | Q1 27 | Q1 27 | Q2 27 | Q2 27 | Q3 27 | Q3 27 | Q4 27 | Q4 27 | Q1 28 | Q1 28 | Q2 28 | Q2 28 | Q3 28 | Q3 28 | Q4 28 | Q4 28 | Q1 29 | Q1 29 | Q2 29 |"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "247wallst.com: AT&T Stock Price Prediction: Bull and Bear Case - 24/7 Wall St.",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/04/20/att-stock-price-prediction-bull-and-bear-case/",
+      "date": "2026-04-17",
+      "weight": 3,
+      "text": "AT&T Stock Price Prediction: Bull and Bear Case - 24/7 Wall St. AT&T Stock Price Prediction: Bull and Bear Case - 24/7 Wall St.\n\n# AT&T Stock Price Prediction: Bull and Bear Case\n\n By Vandita Jadeja Updated Apr 20, 6:58PM EDT \u00b7 Published Apr 20, 11:43AM EDT \n\n \u00a9 jetcityimage / iStock Editorial via Getty Images \n\nAT&T (NYSE:T | T Price Prediction) has been one of the steadier performers in the Communication Services sector in 2026. The 24/7 Wall St. price target for AT&T is $30.34, representing approximately 14.43% upside from the current price of $26.51. Our rating is buy, with a high confidence level of 90%.\n\n| Metric | Value |\n| --- | --- |\n| Current Pri"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "sec.gov: t-20260630",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000297/t-20260630.htm",
+      "date": "2026-06-30",
+      "weight": 3,
+      "text": "t-20260630 t-20260630\n\nWashington, D.C. 20549\n\nFORM 10-Q \n\n| (Mark One) | |\n| --- | --- |\n| \u2612 | QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 |\n\nFor the quarterly period ended June 30, 2026 \n\nor\n\n| \u2610 | TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 |\n| --- | --- |\n\nFor the transition period from to\n\nCommission File Number 001-08610 \n\nAT&T INC. \n\nIncorporated under the laws of the State of Delaware \n\nI.R.S. Employer Identification Number 43-1301883 \n\n208 S. Akard St., Dallas, Texas 75202 \n\nTelephone Number: (210) 821-4105"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "sec.gov: Document",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000294/t-2q2026exhibit991.htm",
+      "date": "2026-07-22",
+      "weight": 3,
+      "text": "Document AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum\n\nAT&T adds more than 1 million Advanced Connectivity customers, driven by year-over-year increases in net adds across fiber, fixed wireless, and postpaid phone subscribers\n\nThe Company reiterates all consolidated full-year 2026 and multi-year financial guidance and multi-year capital return plans, with accelerated pace of share repurchases in 2026\n\nDALLAS, July 22, 2026 \u2014 AT&T Inc. (NYSE: T) reported strong second-quarter results, driven by consistent execution of the Company\u2019s investment-led strategy, demons"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "morningstar.com: AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260722da09771/att-delivers-strong-second-quarter-results-as-investment-led-strategy-gains-momentum",
+      "date": "2026-07-22",
+      "weight": 3,
+      "text": "AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum | Morningstar AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum | Morningstar\n\n# AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum \n\n Provided by PR Newswire Jul 22, 2026, 11:30:00 AM\n\n## AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum\n\nPR Newswire\n\nDALLAS, July 22, 2026\n\nAT&T adds more than 1 million Advanced Connectivity customers, driven by year-over-year increases in net adds across fiber, fixed wireless, and postpaid phone subscribers\n\nThe Company reiterates all consolidated full-year 2026 and"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "morningstar.com: After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/after-earnings-is-att-stock-buy-sell-or-fairly-valued-10",
+      "date": "2026-07-29",
+      "weight": 3,
+      "text": "After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar\n\n# After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? \n\nWith telecom companies facing valuation pressures and worries about SpaceX, here\u2019s what we thought of AT&T\u2019s earnings report.\n\n Michael Hodel, CFA Jul 29, 2026\n\n \u00a9 2025 AT&T Intellectual Property\n\nAT&T released its second-quarter earnings report on July 22. Here\u2019s Morningstar\u2019s take on AT&T\u2019s earnings and stock.\n\n## Key Morningstar Metrics for AT&T\n\n- Fair Value Estimate\n\n: $27.00\n- Morningstar Rating\n\n: \u2605\u2605\u2605\u2605\n- Morningstar Economic Moat Rating\n\n: Narr"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "deepresearchglobal.com: AT&T (T) - Fundamental Analysis Report 2026",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/att-t-fundamental-analysis-report",
+      "date": "2026-08-21",
+      "weight": 3,
+      "text": "AT&T (T) - Fundamental Analysis Report 2026 AT&T (T) - Fundamental Analysis Report 2026\n\n# AT&T (T) - Fundamental Analysis Report 2026\n\nDeep Research Global\n\nAug 21, 2026 \u2219 Paid\n\nDear Investor, Welcome to Deep Research Global.\n\nExecutive TL;DR\n\n- AT&T (T) just posted its strongest consumer wireless quarter in three years, adding 432,000 postpaid phone subscribers and generating $31.6 billion in revenue with adjusted EPS climbing to $0.65 versus $0.54 the prior year.\n- The company closed its $5.75 billion Lumen fiber acquisition and its $23 billion EchoStar spectrum deal, reshaping its long-term connectivity moat.\n- Management raised the"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "everyticker.com: AT&T Reports Q2\u202f2026 Earnings, Beats Estimates on Strong Subscriber Growth - T News - EveryTicker",
+      "provider": "everyticker.com",
+      "url": "https://everyticker.com/quote/T/news/att-reports-q2-2026-earnings-beats-estimates-on-strong-subscriber-growth",
+      "date": "2026-09-01",
+      "weight": 3,
+      "text": "AT&T Reports Q2\u202f2026 Earnings, Beats Estimates on Strong Subscriber Growth - T News - EveryTicker AT&T Reports Q2 2026 Earnings, Beats Estimates on Strong Subscriber Growth - T News - EveryTicker \n\n# AT&T Inc. (T)\n\n$25.66\n\n -0.53 (-2.00%) \n\n### Timeline\n\nResearch report published\n\n## Price Chart \n\n 1D 5D 1M 3M 6M 1Y 5Y 10Y ALL \n\n## At a glance\n\n \u2022 Fiber-Led Convergence Is Working: AT&T's Q2 2026 results validate the core strategy\u2014Advanced Connectivity segment EBITDA grew 8% year-over-year with margins expanding to 42%, driven by 344,000 fiber net adds and 215,000 fixed wireless additions. The 42.5% convergence rate creates structurally lower churn and higher lifetime value, positioning AT&"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "stockanalysis.com: AT&T Inc. (T) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/t/forecast/",
+      "date": "2026-09-02",
+      "weight": 3,
+      "text": "AT&T Inc. (T) Stock Forecast & Analyst Price Targets AT&T Inc. (T) Stock Forecast & Analyst Price Targets\n\n26.33 +0.32 (1.25%) Sep 2, 2026, 11:39 AM EDT - Market open\n\n# AT&T Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 25 analysts polled by S&P Global, AT&T stock has a consensus rating of \"Buy\" and an average price target of $28.71. The average 1-year stock price forecast is 9.06% higher than the current stock price, while the lowest is $20 (-24.03%) and the highest is $36 (+36.75%).\n\nPrice Target: $28.71 (+9.06%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Target | Low | Average | Median | High |\n| --- | --- | --- | --- | --- |\n| Pric"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "tickernerd.com: T Stock Forecast 2026-2027 - AT&T, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/t-forecast/",
+      "date": "2026-09-04",
+      "weight": 3,
+      "text": "T Stock Forecast 2026-2027 - AT&T, Inc. Price Targets & Predictions T Stock Forecast 2026-2027 - AT&T, Inc. Price Targets & Predictions\n\n# T Stock Forecast: AT&T, Inc. Price Predictions for 2026-2027\n\nLast close, 4 Sept 2026\n\n$26\n\n\u22121.95% on the day\n\nThe 25 Wall Street analysts covering AT&T, Inc. hold a median 12-month price target of $28 \u2014 +9.0% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 74 of 100 as at 5 Sept 2026 \u2014 in the upper half. Here, the model and the Street point the same way.\n\nMarket cap\n\n$176.0B\n\nTicker Nerd rank\n\n74 / 100\n\nMedian analyst target\n\n$28\n\nAnalysts covering\n\n25\n\nRevenue$31.6B+2.3% y"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "earningscalls.dev: AT&T Inc. (T) Earnings Call Transcript & Summary",
+      "provider": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/atandt-inc_t_earnings_call_transcript_2026-09-09",
+      "date": "2026-09-09",
+      "weight": 3,
+      "text": "AT&T Inc. (T) Earnings Call Transcript & Summary # AT&T Inc. (T) Earnings Call Transcript & Summary\n\nSeptember 9, 2026\n\nNYSE US Communication Services Diversified Telecommunication Services conference_presentation 36 min\n\n## What were the key takeaways from AT&T Inc.'s September 9, 2026 earnings call?\n\nIn the Q3 2026 earnings call, AT&T Inc. (T:US) reported a notable improvement in its financial performance, driven by a robust fiber-led convergence strategy. Revenue for the quarter reached $42.1 billion, up 5% year-over-year, while earnings per share (EPS) were $0.75, exceeding expectations by $0.10. Management maintained its guidance for a"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "trefis.com: Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/t/articles/614687/why-does-att-stock-still-trade-like-it-is-shrinking/2026-09-09",
+      "date": "2026-12-01",
+      "weight": 3,
+      "text": "Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis\n\n# Why Does AT&T Stock Still Trade Like It Is Shrinking?\n\nSeptember 9th, 2026 \u00b7 by Trefis Team\n\nAT&T (T) trades at 8.2 times earnings against an S&P 500 median of 23.0, and it got there the hard way: the stock returned -9.4% over the past year while the index returned +19.3%. A profitable telecom throwing off cash at that discount is what value buyers hunt for.\n\nImage from Pixabay\n\nDoes AT&T Still Turn Its Network Into Cash?\n\nAT&T sells wireless service, AT&T Fiber and fixed wireless home internet to households and businesses, and"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "trefis.com: What Could Go Wrong For AT & T Stock | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/t/articles/608736/what-could-go-wrong-for-at-t-stock/2026-07-24",
+      "date": "2026-12-01",
+      "weight": 3,
+      "text": "What Could Go Wrong For AT & T Stock | Trefis What Could Go Wrong For AT & T Stock | Trefis\n\n# What Could Go Wrong For AT & T Stock\n\nJuly 24th, 2026 \u00b7 by Trefis Team\n\nThe company is winning subscribers with its all-in-one strategy, but the real question is whether it\u2019s winning them at a sustainable price.\n\nFor anyone holding AT&T (T) stock, the recent results present a puzzle. The company is executing its strategy, adding over 1 million new high-value subscribers in the last quarter and boosting its share repurchase plan to approximately $10 billion. Yet the stock has lagged, down 12.3% over the past year while the market gained. The opti"
+    },
+    {
+      "id": "S42",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "investing.com: AT&T (T) Stock Forecast & Price Target - Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/equities/at-t-consensus-estimates",
+      "date": "2026-06-03",
+      "weight": 1,
+      "text": "AT&T (T) Stock Forecast & Price Target - Investing.com AT&T (T) Stock Forecast & Price Target - Investing.com\n\n# AT&T Inc (T)\n\nNYSE\n\nSymbol\n\nExchange\n\nCurrency\n\n| T | \u00b7 | NYSE | \u00b7 | USD | Real-time |\n| --- | --- | --- | --- | --- | --- |\n| TBB | \u00b7 | NYSE | \u00b7 | USD | Real-time |\n| 0QZ1 | \u00b7 | London | \u00b7 | USD | Real-time |\n| T | \u00b7 | Xetra | \u00b7 | EUR | Delayed |\n| 1T | \u00b7 | Milan | \u00b7 | EUR | Real-time |\n| T | \u00b7 | Vienna | \u00b7 | EUR | Real-time |\n| Tm | \u00b7 | Buenos Aires | \u00b7 | ARS | Delayed |\n| ATTB34 | \u00b7 | B3 | \u00b7 | BRL | Delayed |\n| T | \u00b7 | Mexico | \u00b7 | MXN | Delayed |\n| TUS | \u00b7 | Lima | \u00b7 | USD | Delayed |\n| T | \u00b7 | Frankfurt | \u00b7 | EUR | Delayed |\n| T |"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "chetansharma.com: In Q1 2026, US postpaid service revenues saw negative growth for the first time in the 5G cycle.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+      "date": null,
+      "weight": null,
+      "text": "In Q1 2026, US postpaid service revenues saw negative growth for the first time in the 5G cycle. Falling industry service revenue can pressure AT&T's wireless revenue growth and margins. \"For the first time in the 5G cycle, postpaid service revenues saw negative growth.\""
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "chetansharma.com: In Q1 2026, US wireless churn remained stubbornly high above the old normal threshold.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+      "date": null,
+      "weight": null,
+      "text": "In Q1 2026, US wireless churn remained stubbornly high above the old normal threshold. High churn raises AT&T's retention costs and can slow subscriber and revenue growth. \"Churn remains stubbornly high above the threshold that defined the old normal.\""
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "chetansharma.com: In Q1 2026, US wireless promotional discipline was holding but incentives to break it remained.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+      "date": null,
+      "weight": null,
+      "text": "In Q1 2026, US wireless promotional discipline was holding but incentives to break it remained. A return to subsidy wars could raise AT&T's customer acquisition costs and pressure margins. \"The truce is holding \u2014 for now \u2014 but the incentives to break it are still very much in place.\""
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "chetansharma.com: In Q2 2026, US operators cut device subsidies and posted record margins while growing volume.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+      "date": null,
+      "weight": null,
+      "text": "In Q2 2026, US operators cut device subsidies and posted record margins while growing volume. Lower subsidy intensity supports AT&T's wireless margins and cash flow. \"Every national operator cut subsidy intensity and grew volume in the same quarter, each posted a record margin on its own preferred measure\""
+    },
+    {
+      "id": "S47",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "chetansharma.com: In Q2 2026, US wireless service revenue growth returned to the strongest reading of the 5G cycle.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+      "date": null,
+      "weight": null,
+      "text": "In Q2 2026, US wireless service revenue growth returned to the strongest reading of the 5G cycle. Stronger industry service revenue growth supports AT&T's wireless revenue and margins. \"service revenue growth returned to the strongest reading of the 5G cycle\""
+    },
+    {
+      "id": "S48",
+      "kind": "options",
+      "ref": "options",
+      "label": "T listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/T/options/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "long CALL strike 26.0 expiry 2026-11-20 premium 0.81 short PUT strike 24.0 expiry 2026-11-20 premium 0.62"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 2.28,
+    "fy_consensus": 2.33782,
+    "ratio": 0.975,
+    "beats": 4,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.65 + 0.57 + 0.52 + 0.54) total 2.28, against a current-FY consensus of 2.33782 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "AT&T T 2026 2027 US telecom industry outlook wireless broadband enterprise competition",
+        "US wireless market 2026 2027 subscriber growth cable mobile fixed wireless access competition",
+        "US broadband fiber market 2026 2027 overbuild competition BEAD funding subscriber growth",
+        "enterprise telecom IT spending 2026 2027 budgets AI networking cloud connectivity demand"
+      ],
+      "results_count": 20,
+      "results_dated": 16,
+      "trends": [
+        {
+          "claim": "In Q1 2026, US postpaid service revenues saw negative growth for the first time in the 5G cycle.",
+          "stance": "pressure",
+          "why": "Falling industry service revenue can pressure AT&T's wireless revenue growth and margins.",
+          "quote": "For the first time in the 5G cycle, postpaid service revenues saw negative growth.",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In Q1 2026, US wireless churn remained stubbornly high above the old normal threshold.",
+          "stance": "pressure",
+          "why": "High churn raises AT&T's retention costs and can slow subscriber and revenue growth.",
+          "quote": "Churn remains stubbornly high above the threshold that defined the old normal.",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In Q1 2026, US wireless promotional discipline was holding but incentives to break it remained.",
+          "stance": "pressure",
+          "why": "A return to subsidy wars could raise AT&T's customer acquisition costs and pressure margins.",
+          "quote": "The truce is holding \u2014 for now \u2014 but the incentives to break it are still very much in place.",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In Q2 2026, US operators cut device subsidies and posted record margins while growing volume.",
+          "stance": "support",
+          "why": "Lower subsidy intensity supports AT&T's wireless margins and cash flow.",
+          "quote": "Every national operator cut subsidy intensity and grew volume in the same quarter, each posted a record margin on its own preferred measure",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In Q2 2026, US wireless service revenue growth returned to the strongest reading of the 5G cycle.",
+          "stance": "support",
+          "why": "Stronger industry service revenue growth supports AT&T's wireless revenue and margins.",
+          "quote": "service revenue growth returned to the strongest reading of the 5G cycle",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "US wireless and broadband telecom market outlook 2026 2027 fiber fixed wireless cable competition subscriber growth",
+        "enterprise IT and telecom spending trends 2026 2027 CIO budgets hiring small business communications",
+        "satellite internet direct-to-cell Starlink 2026 2027 impact on telecom broadband mobile substitution",
+        "AT&T T 2026 2027 fiber broadband business wireline legacy voice decline Latin America telecom market outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In 2026, competition in U.S. fiber broadband is intensifying as all major wireless operators commit capital.",
+          "stance": "pressure",
+          "why": "This could pressure AT&T's fiber broadband pricing and convergence-driven subscriber growth.",
+          "quote": "Competition in the U.S. fiber broadband market is intensifying",
+          "url": "https://insight.factset.com/u.s.-wireless-operators-increase-focus-on-fiber",
+          "publisher": "insight.factset.com",
+          "as_of": "2026-09-01",
+          "age_days": 19,
+          "undated": false
+        },
+        {
+          "claim": "As of March 2026, fiber-based convergence is structurally dominant where deployed, supporting AT&T's bundling.",
+          "stance": "support",
+          "why": "This helps retain wireless subscribers and grow broadband revenue as AT&T expands fiber.",
+          "quote": "Fiber Castle: High-satisfaction broadband anchor with convergence-driven wireless retention. Structurally dominant where deployed.",
+          "url": "https://www.lightreading.com/broadband/fiber-castles-cable-forts-fwa-camps-and-satellite-warbands",
+          "publisher": "lightreading.com",
+          "as_of": "2026-03-31",
+          "age_days": 173,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, IT buyers expect 2026 budgets to grow 5.8% year-over-year.",
+          "stance": "support",
+          "why": "Stronger enterprise IT budgets could support AT&T's business connectivity spending.",
+          "quote": "IT buyers now expect 2026 budgets to grow 5.8% year-over-year, up from a planned 3.6% just two quarters earlier",
+          "url": "https://www.bcg.com/publications/2026/it-budgets-ai-spending-priority",
+          "publisher": "bcg.com",
+          "as_of": "2026-09-17",
+          "age_days": 3,
+          "undated": false
+        },
+        {
+          "claim": "As of May 2026, enterprise IT spending growth for 2026 was revised down to 3.6%.",
+          "stance": "pressure",
+          "why": "Slower enterprise IT budget growth could pressure AT&T's business services revenue.",
+          "quote": "calendar year 2026 IT spending growth at 3.6%, down a full percentage point from January's 4.6%",
+          "url": "https://research.etr.ai/etr-data-drop/enterprise-it-budget-reality-2026-growth-is-slowing-not-stopping",
+          "publisher": "research.etr.ai",
+          "as_of": "2026-05-14",
+          "age_days": 129,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, SpaceX plans Starlink Mobile to compete directly with major wireless carriers.",
+          "stance": "pressure",
+          "why": "This could pressure AT&T's wireless subscriber growth and pricing.",
+          "quote": "SpaceX says it has a plan for Starlink Mobile to compete against the big three wireless carriers",
+          "url": "https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/",
+          "publisher": "arstechnica.com",
+          "as_of": "2026-08-01",
+          "age_days": 50,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, telecom is expected to remain a low-growth industry with solid margins.",
+          "stance": "pressure",
+          "why": "This limits AT&T's revenue growth despite solid margins from connectivity.",
+          "quote": "Telecom will likely be a low-growth industry and with solid margins, driven mainly by providing basic connectivity, primarily to consumers.",
+          "url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-telecom-outlooks/telecommunications-industry-outlook.html",
+          "publisher": "deloitte.com",
+          "as_of": "2026-02-10",
+          "age_days": 222,
+          "undated": false,
+          "drop_reason": "stale (222 days old)"
+        },
+        {
+          "claim": "The U.S. telecom market is forecast to grow at 6.9% CAGR from 2025 to 2030.",
+          "stance": "support",
+          "why": "This expanding market supports AT&T's connectivity revenue growth over the next three years.",
+          "quote": "The us telecom market size is valued to increase by USD 134.3 billion, at a CAGR of 6.9% from 2025 to 2030.",
+          "url": "https://www.technavio.com/report/us-telecom-market-analysis",
+          "publisher": "technavio.com",
+          "as_of": "2026-03-01",
+          "age_days": 203,
+          "undated": false,
+          "drop_reason": "stale (203 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "AT&T T 2026 2027 fiber broadband BEAD funding fixed wireless competition cable satellite internet market outlook",
+        "US wireless industry 2026 2027 subscriber growth competition T-Mobile Verizon cable MVNO satellite direct-to-cell",
+        "enterprise telecom IT budget spending 2026 2027 SMB government cloud connectivity trends",
+        "Latin America telecom market 2026 2027 Mexico Brazil mobile broadband competition prepaid postpaid"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "In an undated Morningstar report, competitive intensity is ratcheting up as US wireless and broadband markets mature.",
+          "stance": "pressure",
+          "why": "This can pressure AT&T's pricing and margins as rivals fight for growth in mature markets.",
+          "quote": "competitive intensity is ratcheting up, with firms pushing to maintain growth as the wireless and broadband markets rapidly mature.",
+          "url": "https://www.morningstar.com/company-reports/1489207-wireless-and-fiber-investments-position-att-well-but-at-a-high-cost",
+          "publisher": "morningstar.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In an undated Morningstar report, AT&T's fiber and 5G investments have strengthened its competitive position.",
+          "stance": "support",
+          "why": "This supports subscriber retention and growth, helping offset competitive pressures in coming quarters.",
+          "quote": "We believe AT&T's investment in its fiber and 5G wireless networks has strengthened its competitive position.",
+          "url": "https://www.morningstar.com/company-reports/1489207-wireless-and-fiber-investments-position-att-well-but-at-a-high-cost",
+          "publisher": "morningstar.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In an undated Morningstar report, AT&T's fiber and 5G investments don't come cheap, requiring pricing discipline.",
+          "stance": "pressure",
+          "why": "High capital intensity can pressure margins and returns if competitive pricing weakens.",
+          "quote": "These investments don't come cheap, however.",
+          "url": "https://www.morningstar.com/company-reports/1489207-wireless-and-fiber-investments-position-att-well-but-at-a-high-cost",
+          "publisher": "morningstar.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of September 2026, AT&T says momentum is accelerating from fiber and 5G investments and converged offerings.",
+          "stance": "support",
+          "why": "This supports subscriber growth and revenue in under-penetrated segments over the next year.",
+          "quote": "Momentum is accelerating due to strategic investments in fiber and 5G, with a focus on converged offerings driving growth in under-penetrated segments.",
+          "url": "https://stockanalysis.com/stocks/t/transcripts/738876-bank-of-america-2026-media-communications-entertainment-conference/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-09-10",
+          "age_days": 10,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, AT&T cites Lumen integration and disciplined fiber build economics supporting long-term targets.",
+          "stance": "support",
+          "why": "Successful integration can lower costs and expand fiber reach, supporting margins.",
+          "quote": "Lumen integration and disciplined fiber build economics support long-term targets.",
+          "url": "https://stockanalysis.com/stocks/t/transcripts/738876-bank-of-america-2026-media-communications-entertainment-conference/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-09-10",
+          "age_days": 10,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+2026-09-20T08:58:41+08:00
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGM"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGM"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGN"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GOOGN"}}}
+HTTP Error 404: {"finance":{"result":null,"error":{"code":"Not Found","description":"HTTP 404 Not Found"}}}
+HTTP Error 404: {"finance":{"result":null,"error":{"code":"Not Found","description":"HTTP 404 Not Found"}}}
+rules: share price under $75, market cap at least 1.0B, earnings within 10d, screener on
+
+pool 149 names -> screened 149 -> ranked 29
+
+TICKER  SIDE   SCORE  FWD_PE   P/S         30D   REV_NET  EARNINGS    THEMES
+------  -----  -----  -------  ----------  ----  -------  ----------  --------------------------
+MNST    long   92     38.85    9.500988    -6%   +7       2026-11-06  valuation_dispersion,mna,p
+CSX     long   84     23.47    6.0123734   -7%   +23      2026-10-23  mna,rates,valuation_disper
+BB      long   82     42.37    8.069863    -4%   +5       2026-09-24  guidance,consumer_credit,r
+FUL     long   82     10.18    0.7576046   -19%  +7       2026-09-24  mna,guidance,rates,regulat
+CNXC    short  75     2.49     0.17007445  +8%   -3       2026-09-30  valuation_dispersion,posit
+WOR     short  69     15.53    2.0324585   +0%   -4       2026-09-23  guidance,mna,ai_capex,rate
+NFLX    long   69     20.03    6.1799564   -11%  +2       2026-10-21  positioning,depreciation_d
+KBH     long   69     14.18    0.52484703  -16%  +2       2026-09-23  guidance,rates,valuation_d
+JEF     long   56     13.16    1.1681815   -11%  +2       2026-09-29  guidance,positioning,valua
+VZ      short  53     9.57     1.4385194   -3%   -1       2026-10-20  rates,mna,depreciation_deb
+MLKN    long   52     10.25    0.36963454  -11%  +1       2026-09-22  guidance,mna,ai_capex,depr
+KMX     long   52     20.99    0.2879238   -3%   +2       2026-09-29  guidance,valuation_dispers
+SNY     long   51     8.47     2.080744    -7%   +2       2026-10-30  mna,valuation_dispersion,r
+GIS     short  48     11.83    1.053903    -9%   -2       2026-09-23  guidance,valuation_dispers
+SA      long   47     -199.04  -           -8%   +0       2026-11-12  guidance,positioning,valua
+SAN     long   46     11.18    4.2779055   +1%   +0       2026-10-28  mna,rates,positioning,ai_c
+T       long   44     10.86    1.3679029   +1%   +12      2026-10-21  valuation_dispersion,posit
+NVO     long   44     1.86     0.57987535  -7%   +1       2026-11-04  valuation_dispersion,regul
+CCL     short  43     9.81     1.095278    -18%  -1       2026-09-29  guidance,rates,positioning
+MANU    short  40     -75.73   4.9613676   -18%  -1       2026-09-23  guidance,rates,valuation_d
+THO     short  40     19.38    0.35924846  -15%  -1       2026-09-22  guidance,valuation_dispers
+HUBG    long   40     17.93    0.5366084   -18%  +0       -           guidance,positioning,depre
+VFS     long   39     -2.11    -           +3%   +1       2026-09-21  guidance,valuation_dispers
+BAC     short  38     12.38    3.543297    -9%   -1       2026-10-14  guidance,rates,positioning
+ANAB    short  38     -239.25  7.0330143   -7%   -4       2026-09-22  guidance,positioning,mna,r
+IDT     long   38     18.14    1.3615981   +6%   +1       2026-09-29  valuation_dispersion,guida
+MUFG    long   38     14.66    0.03585804  +7%   +2       2026-11-13  rates,guidance,mna,depreci
+UEC     short  36     -53.51   240.33159   -16%  -2       2026-09-24  valuation_dispersion,ai_ca
+TBN     short  29     -34.67   -           +0%   -1       2026-09-25  positioning,guidance,depre
+
+Gated out (118):
+   113  share price $X is at or above the $X cap
+     5  below score floor
+
+Score components for the top name:
+  divergence     45.0
+  catalyst       19.8
+  salience       15.0
+  tradeable      12.0
+
+Next: fig prompt MNST --direction long
+
+real	17m9.992s
+user	0m24.941s
+sys	0m1.148s
+EXIT=0
+2026-09-20T09:15:51+08:00

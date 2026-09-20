@@ -1,0 +1,703 @@
+{
+  "ticker": "SA",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Pre-revenue gold and copper mine developer; its value is the KSM project in British Columbia, with smaller deposits being spun out.",
+  "catalyst": {
+    "date": "2026-11-11",
+    "weekday": "Wednesday",
+    "session": null,
+    "days_out": 52,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": -0.04
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-13",
+        "eps_estimate": -0.04,
+        "eps_actual": 0.77,
+        "surprise_pct": 1901.65,
+        "beat": true
+      },
+      {
+        "date": "2026-05-13",
+        "eps_estimate": -0.04,
+        "eps_actual": -0.09,
+        "surprise_pct": -99.65,
+        "beat": false
+      },
+      {
+        "date": "2026-03-26",
+        "eps_estimate": -0.03,
+        "eps_actual": -0.32,
+        "surprise_pct": -1034.82,
+        "beat": false
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": -0.03,
+        "eps_actual": -0.23,
+        "surprise_pct": -688.0,
+        "beat": false
+      }
+    ],
+    "beat_streak": 1,
+    "median_gap_days": 91,
+    "facts_line": "2026-11-11 (Wednesday), 52 days out -- from the earnings calendar, consensus EPS -0.04.",
+    "why": "Must show KSM earn-in joint venture terms and feasibility progress; a developer's EPS loss says nothing about the asset."
+  },
+  "reasons": [
+    "KSM holds 47.3M oz of gold and 7.3B lb of copper, so because SA's $3.34B market cap is about 10% of KSM's spot NPV [net present value], the earn-in joint venture is what turns the resource into funded development.",
+    "J.P. Morgan forecasts gold at $6,000/oz by end-2026, so because KSM's value is a direct function of the gold price, higher gold leads to a higher project value.",
+    "RBC raised its target to $72 from $71 on 2026-09-18, 133% above the $30.95 price, because the Courageous Lake and Valor spin-outs surface assets buried inside SA's market cap."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S30",
+        "kind": "ollama_search",
+        "ref": "web:2",
+        "label": "seekingalpha.com: Seabridge Gold: $33 Billion Project Trading At 12 Cents On The Dollar (NYSE:SA) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4889871-seabridge-gold-33-billion-project-trading-at-12-cents-on-the-dollar",
+        "date": "2026-04-10"
+      },
+      {
+        "id": "S32",
+        "kind": "ollama_search",
+        "ref": "web:4",
+        "label": "seekingalpha.com: Seabridge Gold: Big Asset, Big Discount, Big Risk (NYSE:SA) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4913789-seabridge-gold-big-asset-big-discount-big-risk",
+        "date": "2026-06-10"
+      },
+      {
+        "id": "S28",
+        "kind": "ollama_search",
+        "ref": "web:0",
+        "label": "stonegateinc.com: Stonegate Capital Partners Updates Coverage on Seabridge Gold Inc. (NYSE: SA) 2Q26 - Stonegate",
+        "provider": "stonegateinc.com",
+        "url": "https://stonegateinc.com/stonegate-capital-partners-updates-coverage-on-seabridge-gold-inc-nyse-sa-2q26/",
+        "date": null
+      },
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for SA",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/SA/key-statistics/",
+        "date": "2026-09-20"
+      }
+    ],
+    [
+      {
+        "id": "S45",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "jpmorgan.com: J.P. Morgan expects gold to reach $6,000/oz by end of 2026 and $6,300/oz in 2027.",
+        "provider": "jpmorgan.com",
+        "url": "https://www.jpmorgan.com/insights/global-research/commodities/gold-prices",
+        "date": "2026-06-09"
+      }
+    ],
+    [
+      {
+        "id": "S38",
+        "kind": "ollama_search",
+        "ref": "web:10",
+        "label": "marketscreener.com: RBC Raises Price Target on Seabridge Gold to $72 From $71, Keeps Outperform, Speculative Risk | MarketScreener",
+        "provider": "marketscreener.com",
+        "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-seabridge-gold-to-72-from-71-keeps-outperform-speculative-risk-ce785bd2dd8ef125",
+        "date": "2026-09-18"
+      },
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for SA",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/SA/key-statistics/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S5",
+        "kind": "yahoo",
+        "ref": "news:1",
+        "label": "Insider Monkey: Seabridge Gold Inc (SA) to Spin Out Courageous Lake",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/seabridge-gold-inc-sa-spin-195859247.html",
+        "date": "2026-05-05"
+      },
+      {
+        "id": "S25",
+        "kind": "yahoo",
+        "ref": "news:21",
+        "label": "MT Newswires: Seabridge Gold Maintained at Outperform, Speculative, at RBC Ahead of Valor Spinout; Price Target Kept at US$71",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/seabridge-gold-maintained-outperform-speculative-154158423.html",
+        "date": "2026-06-01"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SA",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SA/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SA",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SA/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "SA earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sa/earnings",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "S4",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Insider Monkey: Seabridge Gold (SA) Reports Maiden Resource Estimate for Snip North Deposit",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/seabridge-gold-sa-reports-maiden-173338956.html",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Insider Monkey: Seabridge Gold Inc (SA) to Spin Out Courageous Lake",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seabridge-gold-inc-sa-spin-195859247.html",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "BNK Invest: SA Crosses Above Key Moving Average Level",
+      "provider": null,
+      "url": "/articles/sa-crosses-above-key-moving-average-level",
+      "date": "Aug 5, 202"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Fintel: RED CLOUD KLONDIKE STRIKE Maintains Seabridge Gold (SA) Buy Recommendation",
+      "provider": null,
+      "url": "/articles/red-cloud-klondike-strike-maintains-seabridge-gold-sa-buy-recommendation",
+      "date": "Dec 16, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Fintel: B. Riley Securities Maintains Seabridge Gold (SA) Buy Recommendation",
+      "provider": null,
+      "url": "/articles/b-riley-securities-maintains-seabridge-gold-sa-buy-recommendation",
+      "date": "Dec 2, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "NASDAQ.com: Pre-Market Most Active for Jan 29, 2026 :  JOBY, TSLL, NAMM, INTC, TQQQ, MSFT, VALE, USAR, NOW, NOK, RDW, SAP",
+      "provider": null,
+      "url": "/articles/pre-market-most-active-jan-29-2026-joby-tsll-namm-intc-tqqq-msft-vale-usar-now-nok-rdw-sap",
+      "date": "Jan 29, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "NASDAQ.com: After-Hours Earnings Report for July 7, 2026 :  PENG, EPAC, KRUS, SAR",
+      "provider": null,
+      "url": "/articles/after-hours-earnings-report-july-7-2026-peng-epac-krus-sar",
+      "date": "Jul 7, 202"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "BNK Invest: Seabridge Gold Breaks Above 200-Day Moving Average - Bullish for SA",
+      "provider": null,
+      "url": "/articles/seabridge-gold-breaks-above-200-day-moving-average-bullish-sa",
+      "date": "Jun 5, 202"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "NASDAQ.com: After-Hours Earnings Report for October 7, 2025 :  PENG, SAR",
+      "provider": null,
+      "url": "/articles/after-hours-earnings-report-october-7-2025-peng-sar",
+      "date": "Oct 7, 202"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "MarketBeat: 3 Mining Stocks Poised to Ride the Precious Metals Boom",
+      "provider": null,
+      "url": "/articles/3-mining-stocks-poised-ride-precious-metals-boom",
+      "date": "Feb 10, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "BNK Invest: Wednesday's ETF Movers: KWEB, SILJ",
+      "provider": null,
+      "url": "/articles/wednesdays-etf-movers-kweb-silj",
+      "date": "Jul 8, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Van Den Berg Boosts MarketAxess Stake as Electronic Platforms Compete for Credit Trading Flow",
+      "provider": null,
+      "url": "/articles/van-den-berg-boosts-marketaxess-stake-electronic-platforms-compete-credit-trading-flow",
+      "date": "Mar 4, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: From Marcellus Rock to Global Markets: How Range Resources Sits in the Middle of the Gas Boom Ahead",
+      "provider": null,
+      "url": "/articles/marcellus-rock-global-markets-how-range-resources-sits-middle-gas-boom-ahead",
+      "date": "Nov 24, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "MarketBeat: The Metals Market Is Heating Up\u20144 Stocks Poised to Shine",
+      "provider": null,
+      "url": "/articles/metals-market-heating-4-stocks-poised-shine",
+      "date": "Nov 6, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "yahoo",
+      "ref": "news:14",
+      "label": "Insider Monkey: Wall Street Sees Huge Upside As Seabridge Gold (SA) Builds For Long Term",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-sees-huge-upside-134206994.html",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Fintel: Seabridge Gold (SA) Price Target Increased by 32.14% to 54.98",
+      "provider": null,
+      "url": "/articles/seabridge-gold-sa-price-target-increased-3214-5498",
+      "date": "Dec 21, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:16",
+      "label": "BNK Invest: See How Seabridge Gold Ranks Among Analysts' Top Metals Picks",
+      "provider": null,
+      "url": "/articles/see-how-seabridge-gold-ranks-among-analysts-top-metals-picks",
+      "date": "Jul 2, 202"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "MT Newswires: RBC Maintains Seabridge Gold's Outperform Rating, US$71.00 Price Target, Ahead of Valor Gold Spin Out",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-maintains-seabridge-gold-apos-150851371.html",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Simply Wall St.: Assessing Seabridge Gold (TSX:SEA) Valuation After Mixed Recent Returns And A Premium Price To Book Ratio",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-seabridge-gold-tsx-sea-221649487.html",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "MT Newswires: Aben Gold Announces 2026 Exploration Program at Justin Gold Tungsten Project, Yukon",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/aben-gold-announces-2026-exploration-125006579.html",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "Simply Wall St.: Why Seabridge Gold (TSX:SEA) Is Up 10.6% After Portfolio Reshaping KSM, Snip North And Spin-Out Update",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-seabridge-gold-tsx-sea-141208187.html",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "MT Newswires: Seabridge Gold Maintained at Outperform, Speculative, at RBC Ahead of Valor Spinout; Price Target Kept at US$71",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seabridge-gold-maintained-outperform-speculative-154158423.html",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:22",
+      "label": "Simply Wall St.: Seabridge Gold (TSX:SEA) Stock May Look Overvalued Following KSM Power Progress",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seabridge-gold-tsx-sea-stock-150930849.html",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "S27",
+      "kind": "yahoo",
+      "ref": "news:23",
+      "label": "MT Newswires: Seabridge Gold Secures US$100 Million Credit Facility",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seabridge-gold-secures-us-100-121148210.html",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "stonegateinc.com: Stonegate Capital Partners Updates Coverage on Seabridge Gold Inc. (NYSE: SA) 2Q26 - Stonegate",
+      "provider": "stonegateinc.com",
+      "url": "https://stonegateinc.com/stonegate-capital-partners-updates-coverage-on-seabridge-gold-inc-nyse-sa-2q26/",
+      "date": null
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "streetwisereports.com: KSM Partnership Announcement & Feasibility Study Progress Could Unlock 104% Upside RBC Says",
+      "provider": "streetwisereports.com",
+      "url": "https://www.streetwisereports.com/article/2026/03/16/ksm-partnership-announcement-and-feasibility-study-progress-could-unlock-104-upside-rbc-says.html",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: Seabridge Gold: $33 Billion Project Trading At 12 Cents On The Dollar (NYSE:SA) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4889871-seabridge-gold-33-billion-project-trading-at-12-cents-on-the-dollar",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "circlfi.com: SA Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/sa-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "seekingalpha.com: Seabridge Gold: Big Asset, Big Discount, Big Risk (NYSE:SA) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4913789-seabridge-gold-big-asset-big-discount-big-risk",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "chartmill.com: SEA.CA Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/SEA.CA/analyst-ratings",
+      "date": "2023-12-21"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stonegateinc.com: Company Updates",
+      "provider": "stonegateinc.com",
+      "url": "https://stonegateinc.com/wp-content/uploads/2026/08/SA-Report-26Q2.pdf",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "sec.gov: Document",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1231346/000123134626000009/sgimda2026q2.htm",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketscreener.com: Seabridge Gold Inc. Reports Earnings Results for the Second Quarter and Six Months Ended June 30, 2026 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/seabridge-gold-inc-reports-earnings-results-for-the-second-quarter-and-six-months-ended-june-30-20-ce7859dedd8ef226",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "seabridgegold.com: Seabridge Gold",
+      "provider": "seabridgegold.com",
+      "url": "https://www.seabridgegold.com/press-release/seabridge-gold-files-second-quarter-2026-report-to-shareholders-and-its-financial-statements-and-md-a",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "marketscreener.com: RBC Raises Price Target on Seabridge Gold to $72 From $71, Keeps Outperform, Speculative Risk | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-seabridge-gold-to-72-from-71-keeps-outperform-speculative-risk-ce785bd2dd8ef125",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "streetwisereports.com: Gold Developer Advancing Major BC Gold-Copper Project Releases Report Finances",
+      "provider": "streetwisereports.com",
+      "url": "https://www.streetwisereports.com/article/2026/08/17/gold-developer-advancing-major-bc-gold-copper-project-releases-report-finances.html",
+      "date": "2026-12-31"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "streetwisereports.com: BC Gold-Copper Developer Secures US$100M Facility for KSM",
+      "provider": "streetwisereports.com",
+      "url": "https://www.streetwisereports.com/article/2026/08/28/bc-gold-copper-developer-secures-us-100m-facility-for-ksm-1.html",
+      "date": "2026-12-31"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "gold.org: Gold investment demand is expected to grow through the rest of 2026, led by OTC and Asian buying.",
+      "provider": "gold.org",
+      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/outlook",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "gold.org: Central banks are expected to remain significant gold buyers through the rest of 2026.",
+      "provider": "gold.org",
+      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/outlook",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "gold.org: Gold ETFs saw selling pressure in Q2 2026, with outflows of 45 tonnes.",
+      "provider": "gold.org",
+      "url": "https://www.gold.org/download/file/20967/GDT-Q2-2026-Executive-Summary.pdf",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "gold.org: Central banks made significant gold purchases in Q2 2026, totaling 289 tonnes.",
+      "provider": "gold.org",
+      "url": "https://www.gold.org/download/file/20967/GDT-Q2-2026-Executive-Summary.pdf",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "jpmorgan.com: J.P. Morgan expects gold to reach $6,000/oz by end of 2026 and $6,300/oz in 2027.",
+      "provider": "jpmorgan.com",
+      "url": "https://www.jpmorgan.com/insights/global-research/commodities/gold-prices",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "S46",
+      "kind": "options",
+      "ref": "options",
+      "label": "SA listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SA/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 30.95,
+    "market_cap": "3.34B",
+    "fwd_pe": -199.0,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": null,
+    "eps_trend": "sharply up over the last 7 days",
+    "eps_revisions": "no revisions over last 30 days",
+    "extra": []
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 32.0,
+        "qty": 14,
+        "underlying": 30.95,
+        "multiplier": 100,
+        "price": 3.05,
+        "total": 4270.0,
+        "open_interest": 163
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 32.0,
+        "qty": 3,
+        "underlying": 30.95,
+        "multiplier": 100,
+        "price": 1.77,
+        "total": -531.0,
+        "open_interest": 487
+      }
+    ],
+    "thesis_target": "Targets the 2026-11-11 report, with the long leg expiring 2026-11-20, which gives the thesis time to show up.",
+    "reflection": "The 11.4% conservative credit clears the floor, but the short 32 call expires 2026-10-16, a month before the 2026-11-11 print, so the position is a naked long call into the catalyst -- the credit pays for event risk, not a hedge. Selling more short contracts would fatten it and cap the upside the thesis is built on."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 44,
+        "errors": 2,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 10,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 7,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "remove",
+          "seabridge",
+          "secured",
+          "strategic",
+          "through"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "forecasts",
+          "morgan"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "below",
+          "morgan",
+          "resource",
+          "source"
+        ]
+      }
+    ]
+  }
+}

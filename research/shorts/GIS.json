@@ -1,0 +1,494 @@
+{
+  "ticker": "GIS",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Packaged food maker: cereal, snacks, meals, pet food, and ice cream.",
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 3,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.71775,
+      "eps_low": 0.68,
+      "eps_high": 0.76,
+      "revenue_avg": 4346502720
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-01",
+        "eps_estimate": 0.8,
+        "eps_actual": 0.95,
+        "surprise_pct": 19.21,
+        "beat": true
+      },
+      {
+        "date": "2026-03-18",
+        "eps_estimate": 0.73,
+        "eps_actual": 0.64,
+        "surprise_pct": -12.14,
+        "beat": false
+      },
+      {
+        "date": "2025-12-17",
+        "eps_estimate": 1.03,
+        "eps_actual": 1.1,
+        "surprise_pct": 7.09,
+        "beat": true
+      },
+      {
+        "date": "2025-09-17",
+        "eps_estimate": 0.82,
+        "eps_actual": 0.86,
+        "surprise_pct": 5.45,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-23 (Wednesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 0.72.",
+    "why": "For the short to work, volumes must stay negative and cost savings must fail to offset; a volume inflection breaks it."
+  },
+  "reasons": [
+    "Three years of pricing-led growth left underlying volumes declining, so revenue now depends on price rises consumers resist, and GLP-1 [appetite-suppressing drugs] spreads because suppressed appetite leads to smaller food volumes.",
+    "Last quarter beat consensus by 19.2% (0.95 vs 0.80), so the bar is high, and analysts cut FY [fiscal year] EPS [earnings per share] estimates because that beat cannot repeat -- 0 up / 2 down over 30 days.",
+    "Mondelez raised its 2026 organic growth outlook while GIS only reaffirmed guidance, because pet and snack volumes stay subdued -- North America Pet sales remain under pressure and the Blue Buffalo revamp is unproven."
+  ],
+  "quants": {
+    "price": 36.32,
+    "market_cap": "19.42B",
+    "fwd_pe": 11.8,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.1,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 2 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 562% quarter over quarter (5/31/2026)",
+      "Last quarter earnings before interest and tax increasing 449% quarter over quarter (5/31/2026)",
+      "EPS increased year over year, 0.74 -> 0.95"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 35.0,
+        "qty": 20,
+        "underlying": 36.32,
+        "multiplier": 100,
+        "price": 2.2,
+        "total": 4400.0,
+        "open_interest": 3095
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 35.0,
+        "qty": 6,
+        "underlying": 36.32,
+        "multiplier": 100,
+        "price": 0.95,
+        "total": -569.9999999999999,
+        "open_interest": 5190
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "The 11.2% conservative credit clears the 10% floor, but the short put expires about three weeks after earnings, so the position is a bet on the print. The long put carries the thesis; the risk is a beat that squeezes the near-dated leg."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 57,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 5,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "consumer",
+          "declining",
+          "drugs",
+          "guidance",
+          "organic",
+          "snack",
+          "spread",
+          "subdued",
+          "three",
+          "underlying",
+          "volume",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 3,
+        "trends_available": 4,
+        "trends_used": [
+          "general",
+          "mills",
+          "returned",
+          "share"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "label",
+          "meals",
+          "prices",
+          "private",
+          "snack",
+          "snacks",
+          "sugar",
+          "sugary",
+          "users"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S20",
+        "kind": "research",
+        "label": "freedoniagroup.com: In the 2026 food market outlook, GLP-1 users may eat less overall and less high-fat, sugary, and ultra-processed foods.",
+        "provider": "freedoniagroup.com",
+        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+        "date": null
+      },
+      {
+        "id": "S21",
+        "kind": "research",
+        "label": "freedoniagroup.com: In the 2026 food market outlook, increasing food prices will continue to benefit private label store brands.",
+        "provider": "freedoniagroup.com",
+        "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+        "date": null
+      },
+      {
+        "id": "S22",
+        "kind": "research",
+        "label": "nielseniq.com: As of May 2026, snack demand is shifting toward function, value, and restraint.",
+        "provider": "nielseniq.com",
+        "url": "https://nielseniq.com/wp-content/uploads/sites/4/2026/05/NA-US-NIQ-Perspective-Snacking-Trends-May-2026.pdf",
+        "date": "2026-05-01"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "label": "Analyst EPS estimates and revision counts for GIS",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/GIS/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "label": "GIS earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/gis/earnings",
+        "date": "2026-09-23"
+      }
+    ],
+    [
+      {
+        "id": "S10",
+        "kind": "nasdaq",
+        "label": "RTTNews: General Mills Backs Annual Guidance",
+        "provider": null,
+        "url": "/articles/general-mills-backs-annual-guidance",
+        "date": "Sep 8, 202"
+      },
+      {
+        "id": "S11",
+        "kind": "nasdaq",
+        "label": "Zacks: MDLZ Q2 Sales Beat and Higher 2026 Growth View Put Margins in Focus",
+        "provider": null,
+        "url": "/articles/mdlz-q2-sales-beat-and-higher-2026-growth-view-put-margins-focus",
+        "date": "Aug 19, 20"
+      },
+      {
+        "id": "S14",
+        "kind": "nasdaq",
+        "label": "Zacks: Can General Mills' Pet Strategy Put Blue Buffalo Back on Growth Track?",
+        "provider": null,
+        "url": "/articles/can-general-mills-pet-strategy-put-blue-buffalo-back-growth-track",
+        "date": "Aug 25, 20"
+      },
+      {
+        "id": "S22",
+        "kind": "research",
+        "label": "nielseniq.com: As of May 2026, snack demand is shifting toward function, value, and restraint.",
+        "provider": "nielseniq.com",
+        "url": "https://nielseniq.com/wp-content/uploads/sites/4/2026/05/NA-US-NIQ-Perspective-Snacking-Trends-May-2026.pdf",
+        "date": "2026-05-01"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for GIS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GIS/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for GIS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GIS/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "GIS quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/gis/financials",
+      "date": "5/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "GIS earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/gis/earnings",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "Zacks: General Mills (GIS) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-gis-q1-earnings-131504664.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: General Mills (GIS) Looks Fully Valued After Its Portfolio Shake Up",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-gis-looks-fully-141332430.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: General Mills (GIS) Stock Looks About Right Despite Sugar Pricing Lawsuit",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-mills-gis-stock-looks-041814097.html",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "label": "BNK Invest: Bullish Two Hundred Day Moving Average Cross - GIS",
+      "provider": null,
+      "url": "/articles/bullish-two-hundred-day-moving-average-cross-gis",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "label": "Zacks: General Mills (GIS) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+      "provider": null,
+      "url": "/articles/general-mills-gis-expected-beat-earnings-estimates-can-stock-move-higher",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "label": "RTTNews: General Mills Backs Annual Guidance",
+      "provider": null,
+      "url": "/articles/general-mills-backs-annual-guidance",
+      "date": "Sep 8, 202"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "label": "Zacks: MDLZ Q2 Sales Beat and Higher 2026 Growth View Put Margins in Focus",
+      "provider": null,
+      "url": "/articles/mdlz-q2-sales-beat-and-higher-2026-growth-view-put-margins-focus",
+      "date": "Aug 19, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "Zacks: Is MDLZ Worth Buying as Growth Improves but Valuation Stays Rich?",
+      "provider": null,
+      "url": "/articles/mdlz-worth-buying-growth-improves-valuation-stays-rich",
+      "date": "Aug 19, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "Zacks: Post Holdings Stock Plunges 11.8% in 1 Month: Is It a Buy Now?",
+      "provider": null,
+      "url": "/articles/post-holdings-stock-plunges-118-1-month-it-buy-now",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "Zacks: Can General Mills' Pet Strategy Put Blue Buffalo Back on Growth Track?",
+      "provider": null,
+      "url": "/articles/can-general-mills-pet-strategy-put-blue-buffalo-back-growth-track",
+      "date": "Aug 25, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "circlfi.com: GIS Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/gis-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: General Mills Stock: Heading Into FY27, The Setup Worries Me (NYSE:GIS) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4916649-general-mills-heading-into-fy27-the-setup-worries-me-earnings-preview",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "flash.stocksentinel.ai: General Mills, Inc. (GIS) Stock Research Report | Flash",
+      "provider": "flash.stocksentinel.ai",
+      "url": "https://flash.stocksentinel.ai/research/GIS",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "tickernerd.com: GIS Stock Forecast 2026-2027 - General Mills, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/gis-forecast/",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "marketbeat.com: General Mills (NYSE:GIS) Issues FY 2027 Earnings Guidance",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/guidance-general-mills-nyse-gis-issues-fy-2027-earnings-guidance-2026-09-08/",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "freedoniagroup.com: In the 2026 food market outlook, GLP-1 users may eat less overall and less high-fat, sugary, and ultra-processed foods.",
+      "provider": "freedoniagroup.com",
+      "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "freedoniagroup.com: In the 2026 food market outlook, increasing food prices will continue to benefit private label store brands.",
+      "provider": "freedoniagroup.com",
+      "url": "https://www.freedoniagroup.com/packaged-facts/food-market-outlook",
+      "date": null
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "nielseniq.com: As of May 2026, snack demand is shifting toward function, value, and restraint.",
+      "provider": "nielseniq.com",
+      "url": "https://nielseniq.com/wp-content/uploads/sites/4/2026/05/NA-US-NIQ-Perspective-Snacking-Trends-May-2026.pdf",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "store.mintel.com: In the 2026 cereal market report, consumers are highly influenced by high fiber, high protein, and added vitamins/minerals.",
+      "provider": "store.mintel.com",
+      "url": "https://store.mintel.com/report/us-hot-and-cold-cereal-market-report",
+      "date": null
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "store.mintel.com: In the 2026 cereal market report, brands must balance sweetness with less sugar to retain relevance.",
+      "provider": "store.mintel.com",
+      "url": "https://store.mintel.com/report/us-hot-and-cold-cereal-market-report",
+      "date": null
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "GIS listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GIS/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+  "symbol": "UBER",
+  "researched_on": "2026-09-20",
+  "model": "deepseek-v4.1-flash",
+  "gates": {
+    "max_price": 100.0,
+    "min_market_cap": 1000000000.0
+  },
+  "profile": {
+    "symbol": "UBER",
+    "name": "Uber Technologies, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "country": "United States",
+    "website": "https://www.uber.com",
+    "employees": 36600,
+    "summary": "Uber Technologies, Inc. develops and operates proprietary technology applications in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. The company operates through three segments: Mobility, Delivery, and Freight. The Mobility segment connects consumers with a range of transportation modalities, such as ridesharing, carsharing, micromobility, rentals, public transit, taxis, and other modalities; and offers riders in a variety of vehicle types, as well as financial partnerships products and advertising services. The Delivery segment allows consumers to search for and discover restaurants to grocery, alcohol, convenience, and other retailers, as well as order a meal or other items, and either pick-up at the restaurant or have it delivered; and provides Uber direct, a white-label delivery-as-a-service for retailers and restaurants, as well as advertising services. The Freight segment manages transportation and logistics networks, which connects shippers and carriers in digital marketplace, including carriers upfronts, pricing, and shipment booking; and offers on-demand platform to automate logistics end-to-end transactions for small-and medium-sized businesses to global enterprises. Uber Technologies, Inc. has staetegic partnership with Mews to embed ride booking, real-time tracking and integrated billing directly into the Mews platform. The company was formerly known as Ubercab, Inc. and changed its name to Uber Technologies, Inc. in February 2011. Uber Technologies, Inc. was founded in 2009 and is headquartered in San Francisco, California.",
+    "summary_words": 223,
+    "price": 70.5,
+    "market_cap": 144000483328,
+    "market_cap_human": "144B",
+    "exchange": "NYSE",
+    "nasdaq_price": 70.5,
+    "nasdaq_market_cap": 144000488531.0,
+    "gate_conflicts": [],
+    "passes_price_gate": true,
+    "passes_cap_gate": true
+  },
+  "streams": {
+    "queries": [
+      "Uber Technologies, Inc. (UBER) revenue by segment product line breakdown annual report 10-K",
+      "Uber Technologies, Inc. how it makes money revenue streams Software - Application 2026",
+      "Uber Technologies, Inc. (UBER) segment revenue percentage of total latest quarter results",
+      "UBER stock revenue by segment breakdown percentage of total revenue"
+    ],
+    "results": [
+      {
+        "title": "uber-20251231",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-03-15",
+        "age_days": 189,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "2025 Annual Report",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278126000148/e26089_uber-ars.pdf",
+        "publisher": "sec.gov",
+        "source_date": "2026-03-15",
+        "age_days": 189,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "uber-20241231",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-03-16",
+        "age_days": 188,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Uber - 10-K annual report 2025",
+        "url": "https://companiesmarketcap.com/aud/uber/sec-reports-10k/0001543151-26-000015/",
+        "publisher": "companiesmarketcap.com",
+        "source_date": "2026-03-15",
+        "age_days": 189,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Uber Technologies, Inc.  - Uber Announces Results for Second Quarter 2026",
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+        "publisher": "investor.uber.com",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. how it makes money revenue streams Software - Application 2026"
+      },
+      {
+        "title": "Uber Technologies, Inc (UBER) 10-K Annual Report February 2026",
+        "url": "https://last10k.com/sec-filings/uber/0001543151-26-000015.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-02-13",
+        "age_days": 219,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. how it makes money revenue streams Software - Application 2026"
+      },
+      {
+        "title": "How Uber Makes Money: Take Rates, Marketplace Economics, and the Path from Loss to Profit - PitchGrade",
+        "url": "https://pitchgrade.com/research/how-uber-makes-money",
+        "publisher": "pitchgrade.com",
+        "source_date": "2026-03-12",
+        "age_days": 192,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. how it makes money revenue streams Software - Application 2026"
+      },
+      {
+        "title": "Uber Technologies, Inc (UBER) 10-Q Quarterly Report August 2026",
+        "url": "https://last10k.com/sec-filings/uber/0001543151-26-000032.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. how it makes money revenue streams Software - Application 2026"
+      },
+      {
+        "title": "How Uber makes money: Building the super app of the driverless future",
+        "url": "https://www.revenuememo.com/p/how-does-uber-make-money",
+        "publisher": "revenuememo.com",
+        "source_date": "2026-06-21",
+        "age_days": 91,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. how it makes money revenue streams Software - Application 2026"
+      },
+      {
+        "title": "Uber Technologies, Inc.  - Uber Announces Results for Second Quarter 2026",
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+        "publisher": "investor.uber.com",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Uber Technologies (UBER) Q2 FY2026 Earnings: $14.19B Revenue",
+        "url": "https://www.earningslens.ai/report/uber/2026-Q2",
+        "publisher": "earningslens.ai",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Uber Technologies, Inc (UBER) 10-Q Quarterly Report August 2026",
+        "url": "https://last10k.com/sec-filings/uber/0001543151-26-000032.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Uber Technologies, Inc.",
+        "url": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q2/supplemental-info/Uber-Q2-26-Earnings-Supplemental-Data.pdf",
+        "publisher": "s23.q4cdn.com",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Uber Technologies (UBER) Form 10-Q SEC Filing - Q2 FY2026",
+        "url": "https://www.opencapital.sh/filings/0001543151-26-000032",
+        "publisher": "opencapital.sh",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "Uber Technologies, Inc. (UBER) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Uber Technologies, Inc.",
+        "url": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q2/supplemental-info/Uber-Q2-26-Earnings-Supplemental-Data.pdf",
+        "publisher": "s23.q4cdn.com",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "UBER stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Uber Technologies (UBER) Revenue by Segment (2019-2025 10-K) | edgar.tools",
+        "url": "https://app.edgar.tools/companies/UBER/disclosures/segments",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-02-13",
+        "age_days": 219,
+        "lens": null,
+        "stream": null,
+        "query": "UBER stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Uber Technologies, Inc (UBER) 10-Q Quarterly Report August 2026",
+        "url": "https://last10k.com/sec-filings/uber/0001543151-26-000032.htm",
+        "publisher": "last10k.com",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "UBER stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Uber Technologies (UBER) Q2 FY2026 Earnings: $14.19B Revenue",
+        "url": "https://www.earningslens.ai/report/uber/2026-Q2",
+        "publisher": "earningslens.ai",
+        "source_date": "2026-08-05",
+        "age_days": 46,
+        "lens": null,
+        "stream": null,
+        "query": "UBER stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Uber Technologies (UBER) Revenue by Business Segments",
+        "url": "https://www.opencapital.sh/stocks/uber/metrics/segment/business/revenue",
+        "publisher": "opencapital.sh",
+        "source_date": null,
+        "age_days": null,
+        "lens": null,
+        "stream": null,
+        "query": "UBER stock revenue by segment breakdown percentage of total revenue"
+      }
+    ],
+    "results_count": 19,
+    "streams": [
+      {
+        "name": "Mobility",
+        "what_it_is": "Connects consumers with drivers for rides in various vehicles; includes financial partnerships and advertising.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Consumers",
+        "quote": "Mobility products connect consumers with Drivers who provide rides in a variety of vehicles",
+        "url": "https://app.edgar.tools/companies/UBER/disclosures/segments",
+        "publisher": "app.edgar.tools",
+        "as_of": "2026-03-15",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Delivery",
+        "what_it_is": "Lets consumers order meals and groceries from restaurants and retailers for pickup or delivery.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": "Consumers",
+        "quote": "Delivery offerings allow consumers to search for and discover local restaurants, order a meal, and either pick-up at the restaurant or have the meal delivered.",
+        "url": "https://app.edgar.tools/companies/UBER/disclosures/segments",
+        "publisher": "app.edgar.tools",
+        "as_of": "2026-03-15",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Freight",
+        "what_it_is": "Provides freight transportation and brokerage services.",
+        "revenue_share": null,
+        "revenue_share_basis": null,
+        "amount": null,
+        "customer": null,
+        "quote": "offering services that include peer-to-peer ridesharing, ride hailing, food delivery and freight transportation.",
+        "url": "https://companiesmarketcap.com/aud/uber/sec-reports-10k/0001543151-26-000015/",
+        "publisher": "companiesmarketcap.com",
+        "as_of": "2026-03-15",
+        "grounded_by": "search"
+      }
+    ],
+    "dropped": [],
+    "description": "Uber operates a platform that connects consumers with drivers for rides and with restaurants and retailers for delivery, and connects shippers and carriers for freight. It earns money by taking a cut of transactions on its marketplace, and also from advertising and financial partnerships. The company reports three segments: Mobility, Delivery, and Freight.",
+    "customer_concentration": null,
+    "notes": "Advertising is described as an emerging high-margin layer, while freight brokerage is described as struggling.",
+    "split_basis": "business_segment",
+    "geography": null
+  },
+  "trends": {
+    "queries": [
+      {
+        "q": "rideshare market size forecast 2026 2029 urban mobility demand report",
+        "lens": "demand",
+        "stream": "Mobility"
+      },
+      {
+        "q": "online food delivery and grocery delivery market growth 2026 2029 consumer demand",
+        "lens": "demand",
+        "stream": "Delivery"
+      },
+      {
+        "q": "digital freight brokerage market outlook 2026 2029 shipper demand",
+        "lens": "demand",
+        "stream": "Freight"
+      },
+      {
+        "q": "corporate travel ground transportation procurement rideshare contracts 2026",
+        "lens": "sold",
+        "stream": "Mobility"
+      },
+      {
+        "q": "restaurant delivery platform commission rates pricing models 2026 merchant contracts",
+        "lens": "sold",
+        "stream": "Delivery"
+      },
+      {
+        "q": "freight brokerage pricing models 2026 shipper carrier contracts digital marketplace",
+        "lens": "sold",
+        "stream": "Freight"
+      },
+      {
+        "q": "gig worker classification regulation and insurance costs 2026 rideshare delivery",
+        "lens": "made",
+        "stream": null
+      },
+      {
+        "q": "trucking capacity driver shortage 2026 freight logistics costs",
+        "lens": "made",
+        "stream": "Freight"
+      },
+      {
+        "q": "Mobility Software - Application market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Mobility"
+      },
+      {
+        "q": "Delivery Software - Application market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Delivery"
+      },
+      {
+        "q": "Freight Software - Application market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Freight"
+      }
+    ],
+    "searched": [
+      {
+        "query": "rideshare market size forecast 2026 2029 urban mobility demand report",
+        "lens": "demand",
+        "stream": "Mobility",
+        "results": 5
+      },
+      {
+        "query": "online food delivery and grocery delivery market growth 2026 2029 consumer demand",
+        "lens": "demand",
+        "stream": "Delivery",
+        "results": 5
+      },
+      {
+        "query": "digital freight brokerage market outlook 2026 2029 shipper demand",
+        "lens": "demand",
+        "stream": "Freight",
+        "results": 5
+      },
+      {
+        "query": "corporate travel ground transportation procurement rideshare contracts 2026",
+        "lens": "sold",
+        "stream": "Mobility",
+        "results": 5
+      },
+      {
+        "query": "restaurant delivery platform commission rates pricing models 2026 merchant contracts",
+        "lens": "sold",
+        "stream": "Delivery",
+        "results": 5
+      },
+      {
+        "query": "freight brokerage pricing models 2026 shipper carrier contracts digital marketplace",
+        "lens": "sold",
+        "stream": "Freight",
+        "results": 5
+      },
+      {
+        "query": "gig worker classification regulation and insurance costs 2026 rideshare delivery",
+        "lens": "made",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "trucking capacity driver shortage 2026 freight logistics costs",
+        "lens": "made",
+        "stream": "Freight",
+        "results": 5
+      },
+      {
+        "query": "Mobility Software - Application market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Mobility",
+        "results": 5
+      },
+      {
+        "query": "Delivery Software - Application market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Delivery",
+        "results": 5
+      },
+      {
+        "query": "Freight Software - Application market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Freight",
+        "results": 5
+      }
+    ],
+    "results": [
+      {
+        "title": "Ridesharing Market Growth | Industry Analysis, Size & Outlook Report",
+        "url": "https://www.mordorintelligence.com/industry-reports/ridesharing-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-06-16",
+        "age_days": 96,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "rideshare market size forecast 2026 2029 urban mobility demand report"
+      },
+      {
+        "title": "Ride-Hailing Market Size & Share Analysis - Growth Trends and Forecast (2026 - 2031)",
+        "url": "https://www.mordorintelligence.com/industry-reports/ride-hailing-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-08-12",
+        "age_days": 39,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "rideshare market size forecast 2026 2029 urban mobility demand report"
+      },
+      {
+        "title": "Ride Hailing Services Market Size | Industry Report, 2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/ride-hailing-services-market",
+        "publisher": "grandviewresearch.com",
+        "source_date": "2025-12-01",
+        "age_days": 293,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "rideshare market size forecast 2026 2029 urban mobility demand report"
+      },
+      {
+        "title": "Global Ridesharing - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts 2019 - 2029",
+        "url": "https://www.marketresearch.com/Mordor-Intelligence-LLP-v4018/Global-Ridesharing-Share-Trends-Statistics-36227830/",
+        "publisher": "marketresearch.com",
+        "source_date": "2024-02-17",
+        "age_days": 946,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "rideshare market size forecast 2026 2029 urban mobility demand report"
+      },
+      {
+        "title": "Global Ride-Hailing Market Size, Share & Forecast 2026 \u2013 2030",
+        "url": "https://marqstats.com/reports/global-ride-hailing-market/",
+        "publisher": "marqstats.com",
+        "source_date": "2026-08-06",
+        "age_days": 45,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "rideshare market size forecast 2026 2029 urban mobility demand report"
+      },
+      {
+        "title": "Online Food Delivery - Worldwide | Statista Market Forecast",
+        "url": "https://www.statista.com/outlook/emo/online-food-delivery/worldwide/",
+        "publisher": "statista.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "online food delivery and grocery delivery market growth 2026 2029 consumer demand"
+      },
+      {
+        "title": "Online Food and Grocery Delivery Market Size, Share & Growth Report | 2031",
+        "url": "https://deepmarketinsights.com/report/online-food-and-grocery-delivery-market-research-report",
+        "publisher": "deepmarketinsights.com",
+        "source_date": "2026-03-25",
+        "age_days": 179,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "online food delivery and grocery delivery market growth 2026 2029 consumer demand"
+      },
+      {
+        "title": "Online Grocery Market Size, Share & 2031 Growth Outlook",
+        "url": "https://www.mordorintelligence.com/industry-reports/online-grocery-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-08-14",
+        "age_days": 37,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "online food delivery and grocery delivery market growth 2026 2029 consumer demand"
+      },
+      {
+        "title": "Online Food & Grocery Delivery Market to See Rise in Competition",
+        "url": "https://www.htfmarketintelligence.com/report/global-online-food-grocery-delivery-market",
+        "publisher": "htfmarketintelligence.com",
+        "source_date": "2026-02-09",
+        "age_days": 223,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "online food delivery and grocery delivery market growth 2026 2029 consumer demand"
+      },
+      {
+        "title": "Explore the Global Online Food Delivery Services Market \u2014 analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036",
+        "url": "https://www.futuremarketinsights.com/reports/online-food-delivery-services-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-06-04",
+        "age_days": 108,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "online food delivery and grocery delivery market growth 2026 2029 consumer demand"
+      },
+      {
+        "title": "Global Digital Freight Brokerage Market Size, Share & Trends | Industry Report 2035",
+        "url": "https://www.emergenresearch.com/industry-report/digital-freight-brokerage-market",
+        "publisher": "emergenresearch.com",
+        "source_date": "2026-08-06",
+        "age_days": 45,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "digital freight brokerage market outlook 2026 2029 shipper demand"
+      },
+      {
+        "title": "Digital Freight Brokerage Market Size to Hit USD 78.32 Billion by 2035",
+        "url": "https://www.precedenceresearch.com/digital-freight-brokerage-market",
+        "publisher": "precedenceresearch.com",
+        "source_date": "2026-01-22",
+        "age_days": 241,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "digital freight brokerage market outlook 2026 2029 shipper demand"
+      },
+      {
+        "title": "Digital Freight Brokerage Market Size, Share, and Industry Trends Forecast 2026-2036 | MarkWide Research",
+        "url": "https://markwideresearch.com/digital-freight-brokerage-market",
+        "publisher": "markwideresearch.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "digital freight brokerage market outlook 2026 2029 shipper demand"
+      },
+      {
+        "title": "Digital Freight Brokerage Market Size, Analysis 2026-2035",
+        "url": "https://www.expertmarketresearch.com/reports/digital-freight-brokerage-market",
+        "publisher": "expertmarketresearch.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "digital freight brokerage market outlook 2026 2029 shipper demand"
+      },
+      {
+        "title": "United States Freight Brokerage Market Size, 2034",
+        "url": "https://www.marketdataforecast.com/market-reports/united-states-freight-brokerage",
+        "publisher": "marketdataforecast.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "digital freight brokerage market outlook 2026 2029 shipper demand"
+      },
+      {
+        "title": "The 2026 Corporate Travel Manager's Procurement RFP Guide | BCJ",
+        "url": "https://www.businessclassjournal.com/corporate/corporate-travel-rfp-guide-2026/",
+        "publisher": "businessclassjournal.com",
+        "source_date": "2026-05-31",
+        "age_days": 112,
+        "lens": "sold",
+        "stream": "Mobility",
+        "query": "corporate travel ground transportation procurement rideshare contracts 2026"
+      },
+      {
+        "title": "Corporate Ground Transportation: The 2026 Global Buyer\u2019s Guide",
+        "url": "https://app.wazup.com/blog/corporate-ground-transportation-the-2026-global-buyers-guide",
+        "publisher": "app.wazup.com",
+        "source_date": "2026-09-18",
+        "age_days": 2,
+        "lens": "sold",
+        "stream": "Mobility",
+        "query": "corporate travel ground transportation procurement rideshare contracts 2026"
+      },
+      {
+        "title": "Travel Category - 2025 Rideshare BPA Award - Success Story | Acquisition Gateway",
+        "url": "https://acquisitiongateway.gov/success-stories-center/resources/36528",
+        "publisher": "acquisitiongateway.gov",
+        "source_date": "2025-04-01",
+        "age_days": 537,
+        "lens": "sold",
+        "stream": "Mobility",
+        "query": "corporate travel ground transportation procurement rideshare contracts 2026"
+      },
+      {
+        "title": "Ground transportation trends 2026: corporate planning guide",
+        "url": "https://www.ridescouts.com/ground-transportation-trends-2026-corporate-planning-guide/",
+        "publisher": "ridescouts.com",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": "sold",
+        "stream": "Mobility",
+        "query": "corporate travel ground transportation procurement rideshare contracts 2026"
+      },
+      {
+        "title": "GovTravels NDTA: GSA OneGov Rideshare Program Guide",
+        "url": "https://www.ndtahq.com/gsa-onegov-rideshare-program-guide/",
+        "publisher": "ndtahq.com",
+        "source_date": "2026-03-24",
+        "age_days": 180,
+        "lens": "sold",
+        "stream": "Mobility",
+        "query": "corporate travel ground transportation procurement rideshare contracts 2026"
+      },
+      {
+        "title": "DoorDash Merchant Fees & Pricing",
+        "url": "https://merchants.doordash.com/en-us/pricing",
+        "publisher": "merchants.doordash.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Delivery",
+        "query": "restaurant delivery platform commission rates pricing models 2026 merchant contracts"
+      },
+      {
+        "title": "Pricing That Works for Your Business | Uber Eats",
+        "url": "https://merchants.ubereats.com/us/en/pricing/",
+        "publisher": "merchants.ubereats.com",
+        "source_date": "2025-12-31",
+        "age_days": 263,
+        "lens": "sold",
+        "stream": "Delivery",
+        "query": "restaurant delivery platform commission rates pricing models 2026 merchant contracts"
+      },
+      {
+        "title": "Delivery App Commission Rates 2026: Every Platform Compared | DirectOrders",
+        "url": "https://www.directorders.com/blog/delivery-app-commission-rates-2026",
+        "publisher": "directorders.com",
+        "source_date": "2026-08-18",
+        "age_days": 33,
+        "lens": "sold",
+        "stream": "Delivery",
+        "query": "restaurant delivery platform commission rates pricing models 2026 merchant contracts"
+      },
+      {
+        "title": "How Much Do Delivery Apps Take From Restaurants? (2026 Rates) | Zay Revenue Group",
+        "url": "https://www.zayrev.com/blog/how-much-do-delivery-apps-take-from-restaurants",
+        "publisher": "zayrev.com",
+        "source_date": "2026-07-16",
+        "age_days": 66,
+        "lens": "sold",
+        "stream": "Delivery",
+        "query": "restaurant delivery platform commission rates pricing models 2026 merchant contracts"
+      },
+      {
+        "title": "Restaurant Delivery Fee Benchmarking: What Multi-Unit Operators Actually Pay in 2026<!-- --> \u2014 OPA! Blog",
+        "url": "https://opalink.com/blog/restaurant-delivery-fee-benchmarking-what-multi-unit-operators-actually-pay-in-2026",
+        "publisher": "opalink.com",
+        "source_date": "2026-04-06",
+        "age_days": 167,
+        "lens": "sold",
+        "stream": "Delivery",
+        "query": "restaurant delivery platform commission rates pricing models 2026 merchant contracts"
+      },
+      {
+        "title": "White Paper: Q3 2026 Freight Brokerage Rate Report - FreightWaves",
+        "url": "https://www.freightwaves.com/news/white-paper-q3-2026-freight-brokerage-rate-report",
+        "publisher": "freightwaves.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Freight",
+        "query": "freight brokerage pricing models 2026 shipper carrier contracts digital marketplace"
+      },
+      {
+        "title": "How US Freight Brokerages Earn Margin (Load Boards, Contracts, and Risk)",
+        "url": "https://amc.imporinfo.com/2026/06/how-us-freight-brokerages-earn-margin.html",
+        "publisher": "amc.imporinfo.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "sold",
+        "stream": "Freight",
+        "query": "freight brokerage pricing models 2026 shipper carrier contracts digital marketplace"
+      },
+      {
+        "title": "Using Market Intelligence for Your RFP Advantage - SONAR",
+        "url": "https://gosonar.com/freight-market-blog/bid-season-2026-what-the-data-says-before-you-lock-in-rates",
+        "publisher": "gosonar.com",
+        "source_date": "2026-09-04",
+        "age_days": 16,
+        "lens": "sold",
+        "stream": "Freight",
+        "query": "freight brokerage pricing models 2026 shipper carrier contracts digital marketplace"
+      },
+      {
+        "title": "Freight Broker Margin Compression: 2026 Pricing Playbook | ARK TMS",
+        "url": "https://arktms.com/blog/freight-broker-margin-compression-purchased-transportation-costs-2026",
+        "publisher": "arktms.com",
+        "source_date": "2026-07-16",
+        "age_days": 66,
+        "lens": "sold",
+        "stream": "Freight",
+        "query": "freight brokerage pricing models 2026 shipper carrier contracts digital marketplace"
+      },
+      {
+        "title": "2026 Q3 Market Update Report",
+        "url": "https://insights.uberfreight.com/hubfs/UberFreight%5FMarket%5FUpdate%5FReport.pdf",
+        "publisher": "insights.uberfreight.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "sold",
+        "stream": "Freight",
+        "query": "freight brokerage pricing models 2026 shipper carrier contracts digital marketplace"
+      },
+      {
+        "title": "How Insurance Fees Shape Gig Mobility Economics",
+        "url": "https://7021468.fs1.hubspotusercontent-na1.net/hubfs/7021468/Delivery%20and%20Rideshare%20Insurance%20Fee%20Report.pdf",
+        "publisher": "7021468.fs1.hubspotusercontent-na1.net",
+        "source_date": "2026-01-01",
+        "age_days": 262,
+        "lens": "made",
+        "stream": null,
+        "query": "gig worker classification regulation and insurance costs 2026 rideshare delivery"
+      },
+      {
+        "title": "Gig Platforms Gain as Insurance Costs Fall - by Jonah Bliss",
+        "url": "https://www.thecurbivore.com/p/gig-platforms-gain-as-insurance-costs",
+        "publisher": "thecurbivore.com",
+        "source_date": "2026-07-23",
+        "age_days": 59,
+        "lens": "made",
+        "stream": null,
+        "query": "gig worker classification regulation and insurance costs 2026 rideshare delivery"
+      },
+      {
+        "title": "Misclassifying workers as independent contractors is costly for workers and social insurance systems | Economic Policy Institute",
+        "url": "https://docs.house.gov/meetings/SM/SM00/20260421/119194/HHRG-119-SM00-20260421-SD005.pdf",
+        "publisher": "docs.house.gov",
+        "source_date": "2026-04-15",
+        "age_days": 158,
+        "lens": "made",
+        "stream": null,
+        "query": "gig worker classification regulation and insurance costs 2026 rideshare delivery"
+      },
+      {
+        "title": "Rideshare Insurance Requirements by State 2026 | TNC Laws | Coverage Criteria",
+        "url": "https://coveragecriteria.com/articles/rideshare-insurance-requirements-by-state",
+        "publisher": "coveragecriteria.com",
+        "source_date": "2026-07-30",
+        "age_days": 52,
+        "lens": "made",
+        "stream": null,
+        "query": "gig worker classification regulation and insurance costs 2026 rideshare delivery"
+      },
+      {
+        "title": "Gig Worker Classification FAQ: Employee vs Independent Contractor (2026)",
+        "url": "https://terms.law/FAQ/gig-economy/gig-worker-classification-faq.html",
+        "publisher": "terms.law",
+        "source_date": "2020-11-01",
+        "age_days": 2149,
+        "lens": "made",
+        "stream": null,
+        "query": "gig worker classification regulation and insurance costs 2026 rideshare delivery"
+      },
+      {
+        "title": "2026 Trucking Industry Forecast & Market Outlook | ACT Research | ACT Research",
+        "url": "https://www.actresearch.net/resources/blog/trucking-industry-forecast-for-2026",
+        "publisher": "actresearch.net",
+        "source_date": "2026-08-28",
+        "age_days": 23,
+        "lens": "made",
+        "stream": "Freight",
+        "query": "trucking capacity driver shortage 2026 freight logistics costs"
+      },
+      {
+        "title": "Truckload carriers: Capacity exodus growing, not slowing - FreightWaves",
+        "url": "https://www.freightwaves.com/news/carriers-tl-capacity-exodus-growing-not-slowing",
+        "publisher": "freightwaves.com",
+        "source_date": "2026-09-17",
+        "age_days": 3,
+        "lens": "made",
+        "stream": "Freight",
+        "query": "trucking capacity driver shortage 2026 freight logistics costs"
+      },
+      {
+        "title": "North America Truckload Freight Market Update | C.H. Robinson",
+        "url": "https://www.chrobinson.com/en-gb/resources/insights-and-advisories/north-america-freight-insights/sep-2026-freight-market-update/na-truckload/",
+        "publisher": "chrobinson.com",
+        "source_date": "2026-09-03",
+        "age_days": 17,
+        "lens": "made",
+        "stream": "Freight",
+        "query": "trucking capacity driver shortage 2026 freight logistics costs"
+      },
+      {
+        "title": "Analysis of the Operational Costs of Trucking: 2026 Update",
+        "url": "https://truckingresearch.org/wp-content/uploads/2026/07/ATRI-Operational-Costs-of-Trucking-07-2026.pdf",
+        "publisher": "truckingresearch.org",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "made",
+        "stream": "Freight",
+        "query": "trucking capacity driver shortage 2026 freight logistics costs"
+      },
+      {
+        "title": "The freight recession is over. Is your supply chain ready? | AlixPartners",
+        "url": "https://www.alixpartners.com/insights/102nznu/the-freight-recession-is-over-is-your-supply-chain-ready/",
+        "publisher": "alixpartners.com",
+        "source_date": "2026-08-28",
+        "age_days": 23,
+        "lens": "made",
+        "stream": "Freight",
+        "query": "trucking capacity driver shortage 2026 freight logistics costs"
+      },
+      {
+        "title": "Mobility Software Market: $39.2B (2022), 17% CAGR Growth",
+        "url": "https://www.datainsightsmarket.com/reports/mobility-software-1387982",
+        "publisher": "datainsightsmarket.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "Mobility Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Explore the Global Mobile Application Market \u2014 analysis of key trends, regional growth, top players, and a 10-year forecast from 2026 to 2036.",
+        "url": "https://www.futuremarketinsights.com/reports/global-mobile-application-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "Mobility Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "The global Mobility Software market size will be USD 19642.5 million in 2024: Revenue, Volume, Market Size, Share, CAGR, Growth Trends, Competitor Analysis, Historic Data, and Forecast to 2034",
+        "url": "https://www.cognitivemarketresearch.com/mobility-software-market-report",
+        "publisher": "cognitivemarketresearch.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "Mobility Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Mobile Software Market Size, Trends & Outlook Report 2035",
+        "url": "https://www.precisionreports.co/market-reports/mobile-software-market-605005",
+        "publisher": "precisionreports.co",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "Mobility Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Mobility Management Software Market Size, Growth & Trends by 2034",
+        "url": "https://www.theinsightpartners.com/reports/mobility-management-software-market",
+        "publisher": "theinsightpartners.com",
+        "source_date": "2026-04-24",
+        "age_days": 149,
+        "lens": "demand",
+        "stream": "Mobility",
+        "query": "Mobility Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Delivery Management Software Market Size, Trends Report 2026",
+        "url": "https://www.thebusinessresearchcompany.com/report/delivery-management-software-global-market-report",
+        "publisher": "thebusinessresearchcompany.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "Delivery Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Last-Mile Delivery Software Market Size Report 2026-2030",
+        "url": "https://www.thebusinessresearchcompany.com/report/last-mile-delivery-software-global-market-report",
+        "publisher": "thebusinessresearchcompany.com",
+        "source_date": "2026-07-01",
+        "age_days": 81,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "Delivery Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Worldwide On-Demand Delivery Software Market 2026 \u2013 PW Consulting",
+        "url": "https://pmarketresearch.com/worldwide-on-demand-delivery-software-market-research/",
+        "publisher": "pmarketresearch.com",
+        "source_date": "2026-06-11",
+        "age_days": 101,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "Delivery Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Global Cloud-Based Delivery Management Software Market Growth (Status and Outlook) 2026-2032 - LP Information",
+        "url": "https://www.lpinformationdata.com/reports/1814186/cloud-based-delivery-management-software",
+        "publisher": "lpinformationdata.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "Delivery Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Application Delivery Software Market Outlook 2026 Highlights",
+        "url": "https://www.openpr.com/news/4635137/application-delivery-software-market-outlook-2026-highlights",
+        "publisher": "openpr.com",
+        "source_date": "2026-03-01",
+        "age_days": 203,
+        "lens": "demand",
+        "stream": "Delivery",
+        "query": "Delivery Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Global Freight Software Market Size, Share, and Industry Trends Forecast 2026-2036 | MarkWide Research",
+        "url": "https://markwideresearch.com/global-freight-software-market",
+        "publisher": "markwideresearch.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "Freight Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Freight Software Soars to 4088.4 million , witnessing a CAGR of 7.5 during the forecast period 2025-2033",
+        "url": "https://www.marketresearchforecast.com/reports/freight-software-533197",
+        "publisher": "marketresearchforecast.com",
+        "source_date": "2026-01-30",
+        "age_days": 233,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "Freight Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Global Freight Software Market Competitors, Segment Types and Downstream Applications Research Report 2026",
+        "url": "https://www.wenkhresearch.com/reports/freight-software-1914653575981686784",
+        "publisher": "wenkhresearch.com",
+        "source_date": "2026-01-25",
+        "age_days": 238,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "Freight Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Freight Management Software Market | Global Market Analysis Report - 2035",
+        "url": "https://www.futuremarketinsights.com/reports/freight-management-software-market",
+        "publisher": "futuremarketinsights.com",
+        "source_date": "2025-12-01",
+        "age_days": 293,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "Freight Software - Application market growth demand outlook 2026"
+      },
+      {
+        "title": "Freight Management System Market Size, Growth Report 2026-2030",
+        "url": "https://www.thebusinessresearchcompany.com/report/freight-management-system-global-market-report",
+        "publisher": "thebusinessresearchcompany.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "demand",
+        "stream": "Freight",
+        "query": "Freight Software - Application market growth demand outlook 2026"
+      }
+    ],
+    "results_count": 55,
+    "trends": [
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "Global ride-hailing market is forecast to reach USD 513.77 billion by 2031, growing at 14.05% CAGR from 2026.",
+        "direction": "tailwind",
+        "why": "Expanding ride-hailing demand lifts Uber Mobility bookings and revenue over the forecast period.",
+        "quote": "Market Size (2031) | USD 513.77 Billion",
+        "url": "https://www.mordorintelligence.com/industry-reports/ride-hailing-market",
+        "source_type": "market_research",
+        "size": 5,
+        "size_basis": "USD 513.77bn by 2031",
+        "speed": 3,
+        "speed_basis": "forecast period 2026-2031",
+        "impact": 5,
+        "impact_basis": "Mobility is core stream; market forecast covers ride-hailing",
+        "theme_key": "ride-hailing-demand-growth",
+        "theme_label": "Ride-hailing demand growth",
+        "theme_definition": "Global demand for app-based ride-hailing expands, lifting trip volumes and platform revenue.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-08-12",
+        "age_days": 39,
+        "stale": false,
+        "publisher": "mordorintelligence.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "Online food delivery revenue is projected to reach US$1.51tn in 2026 and grow 6.24% annually to 2031.",
+        "direction": "tailwind",
+        "why": "Growing online food delivery orders expand Uber Eats Delivery gross bookings and revenue.",
+        "quote": "Revenue in the Online Food Delivery market is projected to reach US$1.51tn in 2026.",
+        "url": "https://www.statista.com/outlook/emo/online-food-delivery/worldwide/",
+        "source_type": "market_research",
+        "size": 5,
+        "size_basis": "US$1.51tn in 2026",
+        "speed": 3,
+        "speed_basis": "CAGR 2026-2031",
+        "impact": 4,
+        "impact_basis": "Delivery stream; market growth supports order volume",
+        "theme_key": "online-food-delivery-growth",
+        "theme_label": "Online food delivery growth",
+        "theme_definition": "Consumers keep shifting meal ordering online, expanding delivery platform order volumes.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-06-01",
+        "age_days": 111,
+        "stale": false,
+        "publisher": "statista.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "Grocery delivery revenue is expected to grow 9.8% in 2027, with market volume US$1.04tn in 2026.",
+        "direction": "tailwind",
+        "why": "Grocery delivery growth adds a large adjacent category to Uber Eats Delivery.",
+        "quote": "The Grocery Delivery market is expected to show a revenue growth of 9.8% in 2027.",
+        "url": "https://www.statista.com/outlook/emo/online-food-delivery/worldwide/",
+        "source_type": "market_research",
+        "size": 5,
+        "size_basis": "US$1.04tn projected market volume in 2026",
+        "speed": 3,
+        "speed_basis": "growth cited for 2027",
+        "impact": 4,
+        "impact_basis": "Delivery stream; grocery is expansion category",
+        "theme_key": "online-grocery-delivery-growth",
+        "theme_label": "Online grocery delivery growth",
+        "theme_definition": "Grocery ordering shifts online, adding a large adjacent delivery category.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-06-01",
+        "age_days": 111,
+        "stale": false,
+        "publisher": "statista.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "Digital freight brokerage market is forecast to grow from USD 4.90 billion in 2025 to USD 8.60 billion by 2035 at 5.8% CAGR.",
+        "direction": "tailwind",
+        "why": "Digital brokerage adoption expands Uber Freight's addressable market and load volume.",
+        "quote": "The global digital freight brokerage market size was USD 4.90 Billion in 2025",
+        "url": "https://www.emergenresearch.com/industry-report/digital-freight-brokerage-market",
+        "source_type": "market_research",
+        "size": 3,
+        "size_basis": "USD 4.90bn in 2025",
+        "speed": 3,
+        "speed_basis": "forecast 2026-2035",
+        "impact": 3,
+        "impact_basis": "Freight stream; digital brokerage is Uber Freight's category",
+        "theme_key": "digital-freight-brokerage-growth",
+        "theme_label": "Digital freight brokerage growth",
+        "theme_definition": "Freight procurement shifts to digital brokerage platforms, expanding the addressable market.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-08-06",
+        "age_days": 45,
+        "stale": false,
+        "publisher": "emergenresearch.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "GSA's five-year governmentwide Rideshare BPA awarded to Uber in 2025 expands to over 70 countries and 115,000 cities as of March 2026.",
+        "direction": "tailwind",
+        "why": "Government channel expansion adds pre-negotiated rideshare demand for Uber Mobility.",
+        "quote": "It also broadens geographic coverage to more than 70 countries and 115,000 cities",
+        "url": "https://www.ndtahq.com/gsa-onegov-rideshare-program-guide/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "no magnitude in evidence",
+        "speed": 4,
+        "speed_basis": "BPA awarded 2025; updated March 2026",
+        "impact": 3,
+        "impact_basis": "Mobility stream; government channel is minority but expanding",
+        "theme_key": "government-rideshare-procurement",
+        "theme_label": "Government rideshare procurement expands",
+        "theme_definition": "Government agencies centralize ground transport buying into rideshare contracts, opening a public-sector channel.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-03-24",
+        "age_days": 180,
+        "stale": false,
+        "publisher": "ndtahq.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "As of July 2026, Uber Eats charges restaurants 20%, 25%, or 30% commission on delivery orders and 7% on pickup.",
+        "direction": "two-sided",
+        "why": "High take rates lift Delivery revenue but risk merchant churn to direct ordering channels.",
+        "quote": "Uber Eats charges 20%, 25%, or 30% for delivery and 7% for pickup.",
+        "url": "https://www.directorders.com/blog/delivery-app-commission-rates-2026",
+        "source_type": "general",
+        "size": 4,
+        "size_basis": "commission rates on delivery orders; no total magnitude",
+        "speed": 5,
+        "speed_basis": "rates verified July 2026",
+        "impact": 4,
+        "impact_basis": "Delivery stream; take rate directly drives revenue",
+        "theme_key": "delivery-platform-commission-pressure",
+        "theme_label": "Delivery platform commission pressure",
+        "theme_definition": "Restaurants face high delivery app commissions, pushing some toward direct ordering.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-08-18",
+        "age_days": 33,
+        "stale": false,
+        "publisher": "directorders.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "the business overall",
+        "claim": "Online food and grocery delivery competition is rising among Amazon Fresh, Walmart, DoorDash, Uber Eats, Instacart and Meituan as of February 2026.",
+        "direction": "headwind",
+        "why": "More platforms and retailers compete for the same delivery wallet, pressuring Uber Eats share and fees.",
+        "quote": "Online Food & Grocery Delivery Market to See Rise in Competition",
+        "url": "https://www.htfmarketintelligence.com/report/global-online-food-grocery-delivery-market",
+        "source_type": "market_research",
+        "size": 5,
+        "size_basis": "global online food and grocery delivery market",
+        "speed": 3,
+        "speed_basis": "2026-2033 study",
+        "impact": 4,
+        "impact_basis": "Delivery stream; competition for same wallet",
+        "theme_key": "online-delivery-competition",
+        "theme_label": "Online delivery competition rises",
+        "theme_definition": "More platforms and retailers compete for food and grocery delivery orders, pressuring share and fees.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-02-09",
+        "age_days": 223,
+        "stale": false,
+        "publisher": "htfmarketintelligence.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "From Q1 2025 to Q1 2026, average insurance expense per Uber ride fell 5.1%, easing a cost that is 21% of fare.",
+        "direction": "tailwind",
+        "why": "Lower insurance expense per ride improves Uber Mobility contribution margin.",
+        "quote": "From Q1 2025 to Q1 2026, average insurance expense per ride fell 5.1% on Uber rides",
+        "url": "https://www.thecurbivore.com/p/gig-platforms-gain-as-insurance-costs",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "insurance is 21% of customer price; 5.1% per-ride decline",
+        "speed": 5,
+        "speed_basis": "Q1 2025 to Q1 2026 data",
+        "impact": 4,
+        "impact_basis": "Mobility cost base; insurance is major fare component",
+        "theme_key": "gig-platform-insurance-cost-decline",
+        "theme_label": "Gig insurance costs decline",
+        "theme_definition": "Insurance expense per gig trip falls, lowering a major platform cost layer.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-07-23",
+        "age_days": 59,
+        "stale": false,
+        "publisher": "thecurbivore.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "In July 2026, dry van, reefer, and flatbed spot rates excluding fuel were 41% to 47% higher year over year.",
+        "direction": "headwind",
+        "why": "Higher carrier spot rates raise Uber Freight purchased transportation costs and squeeze margins.",
+        "quote": "dry van, reefer, and flatbed spot rates, excluding fuel, were 41% to 47% higher year over year in July",
+        "url": "https://www.actresearch.net/resources/blog/trucking-industry-forecast-for-2026",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "41-47% YoY spot rate increase",
+        "speed": 5,
+        "speed_basis": "July 2026 data",
+        "impact": 4,
+        "impact_basis": "Freight stream; purchased transportation is main cost",
+        "theme_key": "truckload-capacity-tightness",
+        "theme_label": "Truckload capacity tightness",
+        "theme_definition": "Truckload capacity exits and regulatory pressure raise carrier rates and broker purchase costs.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-08-28",
+        "age_days": 23,
+        "stale": false,
+        "publisher": "actresearch.net",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "the business overall",
+        "claim": "In Q2 2026, J.B. Hunt brokerage revenue rose 49% but purchased transportation expense rose 54%, cutting gross margin to 12.5%.",
+        "direction": "headwind",
+        "why": "Rising carrier costs outpace customer pricing, compressing Uber Freight gross margin.",
+        "quote": "revenue increased 49% and loads increased 19%, but purchased transportation expense increased 54% and gross margin fell from 15.5% to 12.5%",
+        "url": "https://arktms.com/blog/freight-broker-margin-compression-purchased-transportation-costs-2026",
+        "source_type": "general",
+        "size": 4,
+        "size_basis": "J.B. Hunt brokerage Q2 2026 margin fell 300 bps",
+        "speed": 5,
+        "speed_basis": "Q2 2026 reported",
+        "impact": 4,
+        "impact_basis": "Freight stream; margin compression directly hits profitability",
+        "theme_key": "freight-broker-margin-compression",
+        "theme_label": "Freight broker margin compression",
+        "theme_definition": "Rising carrier costs outpace customer pricing, squeezing freight brokerage gross margins.",
+        "stream_note": "attached stream was not one of the extracted streams",
+        "as_of": "2026-07-16",
+        "age_days": 66,
+        "stale": false,
+        "publisher": "arktms.com",
+        "lens_label": "How it's made"
+      }
+    ],
+    "dropped": [],
+    "by_lens": {
+      "demand": 4,
+      "sold": 3,
+      "made": 3
+    },
+    "coverage": {
+      "demand": 4,
+      "sold": 3,
+      "made": 3
+    },
+    "stale_dropped": 0
+  },
+  "errors": []
+}

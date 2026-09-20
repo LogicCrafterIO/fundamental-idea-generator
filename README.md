@@ -28,9 +28,36 @@ consensus, confirming the deterioration.                         <- the reasonin
 
 Reasons
 1) Nonprime consumer loans are likely to worsen as job losses increase due to AI
+   Source: [S17] csoonline.com (2026-09-17) https://www.csoonline.com/...
 2) If NCO [net charge offs] go from 7% now to 10% in Feb or March earnings then
    it could rerate significantly to a PE of 4-5 as earnings get hit.
+   Source: [S3] Nasdaq company financials (6/30/2026) https://www.nasdaq.com/...
 ```
+
+Every reason names the evidence behind it, and the note is filed under the side it
+argues: `research/longs/` or `research/shorts/`.
+
+---
+
+## The other screener: pure qualitative themes
+
+This repo also holds a **second, independent screener** in
+[`qualitative/`](qualitative/), which asks a different question and shares only the
+plumbing (Nasdaq for the listed names, yfinance for market cap, the same Ollama key
+for search and generation).
+
+It screens for a **story**, not a trade. Its only two quantitative inputs are a
+**$100 share-price cap** and a **$1B market-cap floor** — no multiple, no estimate
+revision, no momentum, no catalyst. For each name it extracts the **exact revenue
+streams**, researches trends through the **three parts of a business** (trending
+demand, how it's sold, how it's made), and aggregates those trends into **themes**
+ranked by size, speed and impact, listing the tickers each theme helps and hurts.
+
+Its two outputs are [`qualitative/themes/THEMES.md`](qualitative/themes/THEMES.md)
+(the master theme file) and one writeup per ticker in
+[`qualitative/tickers/`](qualitative/tickers/). See
+[`qualitative/README.md`](qualitative/README.md) for the framework, the rubric and
+the limits.
 
 ---
 
@@ -45,14 +72,186 @@ echo 'OLLAMA_API_KEY=...' > .env                # enables search + generation
 .venv/bin/fig demo                             # verify the engine vs the references
 .venv/bin/fig themes                           # what stories are live right now
 .venv/bin/fig screen --watchlist ORCL OMF      # triage candidates, ranked
+.venv/bin/fig screen --max-price 75 --min-market-cap 1b   # a tighter universe
 .venv/bin/fig search "regional bank credit"    # web search via the same key
 .venv/bin/fig generate OMF --directions short  # write a finished note
-.venv/bin/fig lint ideas/orcl.json             # enforce brevity/plain language
-.venv/bin/fig render ideas/orcl.json           # print in reference layout
+.venv/bin/fig lint research/shorts/omf.json    # enforce brevity/plain language
+.venv/bin/fig render research/shorts/omf.json  # print in reference layout
+.venv/bin/fig organize                         # file flat notes under longs/shorts
+.venv/bin/fig attribute                        # backfill sources on older notes
 ```
 
 `fig demo` is the regression test: it rebuilds the ORCL and OMF option legs from
 live chains and fails if they no longer match the references.
+
+---
+
+## Every reason names its source
+
+The note's promise is that its reasoning is checkable at a glance, and a claim with
+nothing behind it cannot be checked at all. So each reason carries the evidence it
+rests on, printed directly under it:
+
+```
+1) Investment banking and capital markets revenue rose 35% quarter-over-quarter
+   to $2.2B in Q2, so the fee engine is already running; the stock fell only
+   because asset management lost money.
+   Source: [S19] seekingalpha.com (2026-06-26) https://seekingalpha.com/article/...
+```
+
+The mechanism is the same one that keeps numbers honest, applied to provenance:
+
+- **The tool numbers the evidence.** `packet.source_catalogue` registers every block
+  of evidence with an id, a provider, a date and a real URL -- the fundamentals
+  (`S1`), the consensus (`S2`), the statements (`S3`), the catalyst (`S4`), each
+  headline, each end-market trend, the chain. `to_prompt_context` tags every line
+  with its id and prints the register at the end. The register and the prompt are
+  built from one list with one limit, so the evidence the writer was shown and the
+  evidence a citation can resolve against cannot drift apart; a packet carries 17-25
+  feed headlines and 12-15 search results, and all of them are citable.
+- **The model cites ids, never links.** It returns `reason_sources`, aligned to the
+  reasons. Provider, date and URL are resolved from the packet, so **a URL that the
+  evidence does not contain cannot reach a note**: an unknown id is dropped and
+  recorded, and a URL written into the prose is removed and recorded. That is the
+  one failure a reader cannot detect -- a fabricated link under a real-looking
+  claim -- so it is not left to the prompt.
+- **A reason with no source is an error**, so the repair loop has to fix it.
+- **A figure must be found in the source it cites** (`lint.check_source_grounding`).
+  "In the packet somewhere" is weaker than it sounds once a reason names its
+  evidence: the reader sent to `S7` has to find the number in `S7`. The check reports
+  only figures that are **in the packet but in a different source**, and names that
+  source -- `Reason 3: "3.8%" is cited to S2 but appears in S4, S18`. A figure in no
+  source at all is left to `check_grounding`, because a derived figure has no home
+  and reporting those would bury the miscitations. Warning, not error: a reason may
+  lean on a source for its claim and not for its figure.
+- **A figure has to be earned.** `check_grounding` harvested numbers from dates and
+  URLs, so a bare `25` inside `Jun 25, 2026` or in a link's path could vouch for a
+  `25.38%` that the packet never contained -- which is exactly how the invented
+  figure in the BB note below passed the check for a week. Dates, URLs and the
+  three-digit heads of four-digit years are now excluded, and rounding tolerance runs
+  one way only: a note may round 43.2 down to "43", but "6.8" is not grounded by an
+  unrelated 7.0 market cap.
+
+`fig attribute` backfills this onto notes written before the format had it. The
+reasons are **not** rewritten -- re-rolling the prose to attach a citation would
+change the thing being cited -- so it asks one question per existing reason (which
+of this packet's sources does it rest on?) and verifies the answer. Notes it cannot
+attribute honestly are listed as left uncited rather than given a plausible source.
+
+### A revision count is not a revision of the number
+
+The format's most expensive reading error, found in its own BB note:
+
+> "five analysts raised estimates in 30 days with none cutting, the 0.19 FY number is stale"
+
+Those are the same fact read twice. Five analysts raising means 0.19 is the number
+they raised *to*, which makes it the freshest estimate there is. The packet agreed
+with the opposite conclusion: the FY level was 0.18857 thirty days earlier and
+0.18857 on the day, so the raises were smaller than the rounding of the level --
+nothing had moved. And the beat streak cited alongside it was already *in* the
+number: the last four quarters' actuals (0.04 + 0.06 + 0.05 + 0.04) sum to 0.19,
+against a 0.18857 consensus.
+
+Two facts are now stated in the evidence rather than left to be inferred:
+
+- **`LEVEL READING`** sits under the quants: how many analysts moved, and whether
+  the *level* moved. Where the level is unchanged and the counts are up, it says
+  outright that the consensus is current rather than stale.
+- **`TRAILING CHECK`** compares the last four reported quarters against the
+  current-FY consensus whenever the two are comparable, and says when the streak is
+  already in the number.
+
+And `fig lint` errors on the conjunction -- a staleness claim plus revision-count
+evidence plus a level that did not fall (`reason_stale_consensus_on_counts`). Each
+half alone is legitimate, so only the conjunction fires; BB's reason 3 is the only
+reason in the committed batch it flags, and it is now visible as an error in the
+index rather than reading as evidence.
+
+### What pointing the checks at the existing notes found
+
+`fig attribute` was run over the thirteen committed notes, then `fig index` re-linted
+and re-grounded every one of them against the evidence on disk. Both checks found real
+defects, which is the point of running them:
+
+| note | finding | what it means |
+|---|---|---|
+| BB | reason 2 cites nothing, and its `25.38%` is unsupported | the figure is not in the packet at all -- the note asserts a UEM growth rate its own evidence never contained |
+| ORCL | reasons 1 and 2 cite nothing; `209` unsupported | the $664B backlog is in a headline, but the $209B year-over-year rise the reason leans on is not |
+| C | reason 3 cites nothing; `127` unsupported | "127 banks exited emerging-market correspondent relationships" has no home in the evidence |
+| FUL | reason 3 cites nothing | the reason stands on the packet's statements without saying so |
+| CSX, OMF | two figures each cited to a source that does not contain them | `3.8%` cited to the consensus but present in the catalyst; `6.8%` cited to a headline but present in the catalyst |
+| MRK, JEF, MNST | one each | `128` cited to a headline but present in the catalyst, and so on -- the citations are real and point at the wrong entry |
+
+Eight misfiled citations, three figures with no support anywhere in the packet, and
+five reasons with no citation at all, across thirteen notes -- which is roughly what
+careful hand-checking finds, and is the reason these run on every rebuild rather than
+once. The counts are printed in `research/README.md`, and each note's own footer says
+what its numbers rest on.
+
+The BB case is worth naming because it is the same failure as the staleness claim
+above, in a different disguise: an assertion that reads as evidence. It also exposed
+the defect underneath it -- the note quotes research from a *different sample run*
+than the one whose packet was saved beside it, and until the register was rebuilt per
+sample, a citation from one sample could resolve to another sample's URL. The saved
+packet is now the one the chosen note was written from, and every sample's research is
+kept.
+
+The notes are left as they are: the errors are the honest state of those notes, and
+the index and each note's footer now say so. Fixing them means rewriting the thesis,
+which is a generation decision rather than a linting one -- `fig generate BB` will
+produce a fresh note with the repaired evidence in hand.
+
+### A sequential move is not a trend, and a deal is not organic growth
+
+The PAYX short note is the case that produced the next four checks. Its second reason:
+
+> "The May quarter showed revenue down 11.2% and net income down 24.9% sequentially,
+> while the stock trades at 19.5x forward earnings -- the market is pricing a recovery
+> the latest numbers do not show."
+
+Every figure was correct, every figure was sourced, and the conclusion was backwards.
+The same quarter grew **12.5% in revenue and 41.5% in net income** year over year. A
+payroll processor's fiscal year ends in May, so the February quarter is the seasonal
+peak and the decline into May is the calendar. Worse, the note's whole frame -- that
+weak small-business hiring must show up as weak Paychex revenue -- ignored that
+**Paycor** had just added most of the year's growth: FY26 revenue grew 16.9% while net
+income grew 6.2%, because the deal lifted selling, general and administrative costs
+27.6% and interest expense 155.7%.
+
+Four defects, four fixes, each of which is evidence the writer is now shown and a
+check that fires when the note ignores it:
+
+| defect | evidence added | check |
+|---|---|---|
+| a sequential fall read as deterioration | `QUARTER: SEQUENTIAL vs SAME QUARTER A YEAR AGO`, one line per statement line, plus `ANNUAL` for the fiscal year; the Quants panel leads with the pair where the two disagree | `reason_sequential_without_year` (**error**): a sequential move quoted without the year-earlier comparison, when the two point opposite ways |
+| acquired growth treated as demand | `DEAL ACTIVITY`, derived from a goodwill or intangibles step change on the balance sheet -- not from the writer remembering the deal | `reason_ignores_deal` (**error**): a deal landed in the period and no reason names one |
+| a long chain that no single report can settle | nothing: the fix is to cut the chain | `reason_long_horizon` and `reason_chain_too_long` (warnings) |
+| two survey questions presented as one trend, and the older reading used | `Superseded readings`, from the packet's own dated readings of the same driver | reported in the note's footer when a later reading from the same provider reverses the cited one |
+
+The note that came back is a different argument for the same idea, built on the
+figures the first one did not have:
+
+> 1) FY2026 revenue grew 16.9% but net income only 6.2%, because the Paycor deal lifted
+> SG&A [selling, general and administrative costs] 27.6% and interest expense 155.7%
+> -- growth that costs more than it earns.
+> 2) Small-business hiring cooled in August 2026 to the slowest pace of a seven-month
+> growth streak, from 38,200 jobs added in July, because payroll revenue tracks client
+> headcount -- and Paycor's bought revenue hides that.
+
+The `Watch` block is the other half of the same lesson. The critique that prompted all
+of this ended with a ranked list of what to check at the print; that list is now a
+required section of the note whenever the catalyst is within 21 days, with the reading
+that confirms and the reading that breaks:
+
+```
+Watch
+- Organic revenue excluding Paycor: confirms if it grows below the 16.9% FY rate; breaks if it reaccelerates.
+- Client worksite employees and PEO [professional employer organisation] headcount: confirms if growth slows from the July pace; breaks if it reaccelerates.
+- FY27 EPS guidance: confirms if below the 5.96 consensus; breaks if above.
+```
+
+Section 3d-3g of `references/FORMAT.md` carries the rules, the evidence blocks and the
+reason each one exists.
 
 ---
 
@@ -65,23 +264,30 @@ prose**:
 .venv/bin/fig generate COST JEF ORCL OMF GIS PAYX --directions long,long,long,short,short,short
 ```
 
-Output lands in `research/`: a `.md` note in reference layout, its `.json` source,
-and a `.packet.json` holding every piece of evidence used, plus an index.
+Output lands in `research/` under the side the note argues -- `research/longs/` or
+`research/shorts/` -- as a `.md` note in reference layout, its `.json` source, and a
+`.packet.json` holding every piece of evidence used, plus an index at
+`research/README.md` with a table per side. The folder is derived from the note's own
+`direction`, so a note cannot be filed against the side it argues; `fig organize`
+files notes written before the folders existed and corrects any misfiled one.
 
 ### The safety property: the model writes prose, the tool owns every number
 
 This is the core design decision, and it is enforced structurally rather than
-requested in the prompt. The model returns only `description`, `reasons` and
-`reflection`; `generate.assemble_writeup` then fills the Quants block and the
-option legs from the packet, which came from live sources. A hallucinated price,
-multiple or premium therefore **cannot reach a note** — the worst a bad generation
-can do is write weak prose, which the linter then catches.
+requested in the prompt. The model returns only `description`, `reasons`,
+`reason_sources` and `reflection`; `generate.assemble_writeup` then fills the Quants
+block, the option legs and every citation from the packet, which came from live
+sources. A hallucinated price, multiple, premium **or URL** therefore cannot reach a
+note — the worst a bad generation can do is write weak prose, which the linter then
+catches.
 
 Because reason prose is the one remaining place a figure could be smuggled in
 from the model's memory, `fig lint` also **grounds** the numbers: every figure
 written in the Description and Reasons is checked against the evidence text, and
 anything unsupported is reported in the note footer. On the committed batch all
-63 figures across 8 notes traced back to the packet.
+63 figures across 8 notes traced back to the packet. A second check goes further
+and asks whether the figure is in the *source that reason cites* — being in the
+packet somewhere is not the same as being in the page the reader is sent to.
 
 ### The catalyst is dated and justified
 
@@ -178,7 +384,7 @@ Screening is cheap and model-free by design: `screen_symbol` pulls only light fa
 (no option chains), so dozens of names can be triaged before paying for a full
 packet on the survivors.
 
-### The share-price cap
+### The share-price cap, and the pool floor
 
 Ideas are capped at **$150 per share**, enforced in the screen and again before any
 research is done (`--max-price`, or `0` to disable). The reason is arithmetic
@@ -189,6 +395,66 @@ It is not a judgement on expensive companies. AZO at ~$2,855 needed $13,275 for 
 single option contract -- three times the unit -- and COST at $895 needed $3,785.
 Rejected names are listed in the index with the price that excluded them, so the
 policy's effect stays visible instead of silently shrinking the universe.
+
+The cap is available on `fig screen`, not only on `fig generate`, together with the
+pool's market-cap floor (`--min-market-cap`, accepting `1b`/`1000m`/`2e9`, default
+`2b`, `0` to disable). The two rules jointly decide the size of the universe and
+therefore the runtime:
+
+```bash
+.venv/bin/fig screen --max-price 75 --min-market-cap 1b --limit 250 --top 60
+```
+
+The floor is a *pool* filter rather than a ranking input -- a name below it is never
+added, so it cannot appear as "gated" either -- and it exists to keep the option
+requirement satisfiable, because microcaps rarely have listed strikes worth trading.
+Unlike generation, screening is model-free: a screen run costs time and no quota.
+Measured numbers are in "what a run costs" below.
+
+### What a run costs
+
+The pipeline is deliberately split into a cheap model-free half and an expensive
+model-bound one, so the two costs are separable.
+
+| stage | cost | measured |
+|---|---|---|
+| pool + triage (`fig screen`) | time only | **~5-7s per name** screened serially: 144 names in 728s, 149 names in 1030s |
+| packet build (per name) | time only | ~2 min: 1 profile + 1 quants panel + news + 4 searches + chains |
+| generation (per name) | API calls | ~19s per round, 3-7 rounds, plus 1 plan + 1 synthesis chat call and 4 searches per sample |
+| whole batch | — | 8 tickers at `--jobs 8 --samples 3`: **9.6 min wall** (packets built 01:03:39, notes saved 01:13:18) |
+
+So the dominant term is not the model but **how many names get screened and how many
+samples each survivor gets**. The screen is model-free and cached on disk for 6h, so
+a repeat run inside that window is roughly three times faster.
+
+#### The $75 / $1B universe, measured
+
+```bash
+.venv/bin/fig screen --max-price 75 --min-market-cap 1b --limit 250 --top 80
+# pool 149 names -> screened 149 -> ranked 29        (17m10s, cold cache)
+# gated out: 113 at or above the $75 cap, 5 below the triage score floor
+```
+
+Against the $150 run on the same universe -- 144 names, 83 price-capped, 53 passed,
+728s -- the tighter cap does two things and only one of them is obvious:
+
+- **It rejects more names, not fewer.** 113 of 149 are at or above $75, so the cap
+  removes ~30 ideas the $150 cap admits (including half the top ten: COST, AZO, MU,
+  ASML, META and most of the semis are nowhere near $75).
+- **It barely grows the pool.** Lowering the floor from $2B to $1B added 5 names
+  (144 -> 149), because the Nasdaq screener returns the most active 60 per exchange
+  and those are large caps already. The floor binds on the *earnings calendar*, which
+  is where the mid-caps (CNXC, MLKN, ANAB, IDT, TBN, WOR) came from.
+
+Budget **~17 min** for the screen and **~10-12 min** to generate the top 8-10 of the
+29 survivors at `--jobs 8 --samples 3`, so **~25-30 min end to end** on a cold cache
+and ~15 min warm. The model spend scales with survivors generated, not with the
+universe screened, which is what makes a wide net affordable: screening 149 names
+costs no quota at all.
+
+Note the direction hint is not a recommendation: this screen returns 29 names across
+both sides (MNST, CSX, BB, FUL long; CNXC, WOR, VZ, GIS short), and the end-market
+sampling later contradicted the screener's own top-ranked name.
 
 ### Ranking, and what it is not
 
@@ -329,21 +595,24 @@ screen_symbol()     yfinance quants, consensus revisions, 30/90d price move,
       |             news themes, and whether an option structure is even possible
       v
 rank_candidates()   divergence score -> direction hint (long/short)
-      |
+      |             $150 price cap is the only gate still on by default
       v
 build_packet()      full evidence bundle: profile, quants, statement deltas,
       |             EPS YoY, headlines, live themes, peers, structures
+      |             + source_catalogue(): every source numbered, with its URL
       v
-to_prompt_context() + prompts.py     <- the distillation instructions
-      |
+to_prompt_context() + prompts.py     <- the distillation instructions,
+      |                                 evidence tagged with its source ids
       +--> fig prompt    -> a model or a human writes the prose
       |
       v
 writeup JSON  ->  lint.py  ->  render.py  ->  reference-layout note
-                    |
+                    |                            (reasons, each with its Source line)
                     +--> generate.py drives this loop end to end:
-                         ollama.chat -> assemble (tool owns numbers)
+                         ollama.chat -> assemble (tool owns numbers AND citations)
                          -> lint -> feed complaints back -> revise
+                    |
+                    +--> save_idea() -> research/longs/ | research/shorts/
 ```
 
 ### The core screen: revision-versus-price divergence
@@ -359,6 +628,11 @@ between consensus EPS revisions and price — which both references happen to be
 It is measurable from free data, it is inherently non-consensus, and it yields a
 *direction* rather than just a ranking. It is a triage filter, not an answer:
 `score_components` is returned for every candidate so a rank can be argued with.
+
+The one thing the divergence does *not* license is the reading that produced the BB
+note's worst reason: "5 up and 0 down" is a count of analysts moving, not a move in
+the consensus level, and the packet states which of the two happened. See "a
+revision count is not a revision of the number" above.
 
 ### The story layer
 
@@ -397,15 +671,19 @@ Both reference structures are reproduced exactly. See `references/FORMAT.md` §7
 | command | purpose |
 |---|---|
 | `fig themes` | live themes from market-wide news |
-| `fig screen` | triage a universe; ranked with direction hints |
+| `fig screen` | triage a universe; ranked with direction hints (`--max-price`, `--min-market-cap`) |
 | `fig packet SYM` | evidence packet (text, or `--json`) |
 | `fig prompt SYM` | packet + distillation instructions, ready for a model |
 | `fig structure SYM --direction long\|short` | build and stress the spread |
 | `fig quants SYM` | the Quants block plus statement deltas |
-| `fig lint FILE` | check a writeup against the house style |
+| `fig lint FILE` | check a writeup against the house style, its citations included |
 | `fig render FILE` | print a writeup in reference layout |
 | `fig search Q` | web search via the Ollama key (`--models` lists models) |
-| `fig generate SYM...` | build packet, search, write, lint, revise, save to `research/` |
+| `fig generate SYM...` | build packet, search, write, lint, revise, save under `longs/`\|`shorts/` |
+| `fig organize` | file flat notes under their side's folder (`--dry-run` to preview) |
+| `fig attribute` | backfill the sources behind each reason on notes written before sources |
+| `fig index` | rebuild the index from the notes on disk, re-linting them |
+| `fig rank` | rank a folder of notes by conviction, per side |
 | `fig demo` | assert the engine still reproduces the references |
 
 ---
@@ -429,6 +707,13 @@ two reference trades from **today's** live data (useful for checking the loop
 end-to-end), and `jef.json` is a fresh name the screener surfaced on its own.
 `ideas/README.md` is the generated index. Editing the JSON and re-running
 `fig render` is the intended workflow.
+
+`research/` holds the working batch, filed as `research/longs/` and
+`research/shorts/` with `research/README.md` indexing both sides. The `.md` is the
+note; the `.json` is what you edit; the `.packet.json` is the evidence, including
+the source register every citation in the note resolves against. The notes written
+before the format had sources were backfilled with `fig attribute` rather than
+regenerated, so their prose is the original and only their citations are new.
 
 ## Caveats
 
@@ -456,9 +741,16 @@ end-to-end), and `jef.json` is a fresh name the screener surfaced on its own.
 ```bash
 .venv/bin/python -m unittest discover -s tests   # offline: parsing, maths, lint, render
 .venv/bin/fig demo                               # online: reproduces the reference legs
+
+# the qualitative screener's own offline suite (gates, grounding, quantum, rendering)
+PYTHONPATH=qualitative .venv/bin/python -m unittest discover -s qualitative/tests
 ```
 
 The offline suite locks in the reverse-engineered maths (the credit-ratio
 definition and both references' dollar totals), the wording generators, the
-word-boundary matching rules, and the lint budgets. `fig demo` covers the part
-that depends on live chains.
+word-boundary matching rules, and the lint budgets. It also locks in the two failure
+modes found in production and described above: a fabricated source id is dropped
+rather than printed, a URL written into a reason is removed, a figure outside the
+source it cites is reported, and the BB counts-versus-level reason is caught -- while
+the four reasons next to it that only *look* similar are not. `fig demo` covers the
+part that depends on live chains.

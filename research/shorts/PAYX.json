@@ -1,0 +1,810 @@
+{
+  "ticker": "PAYX",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Payroll, benefits and HR outsourcing for small and midsize businesses; growth now leans on the Paycor acquisition.",
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 3,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.32011,
+      "eps_low": 1.29,
+      "eps_high": 1.34,
+      "revenue_avg": 1626363210
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-24",
+        "eps_estimate": 1.31,
+        "eps_actual": 1.32,
+        "surprise_pct": 0.91,
+        "beat": true
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 1.67,
+        "eps_actual": 1.71,
+        "surprise_pct": 2.31,
+        "beat": true
+      },
+      {
+        "date": "2025-12-19",
+        "eps_estimate": 1.23,
+        "eps_actual": 1.26,
+        "surprise_pct": 2.4,
+        "beat": true
+      },
+      {
+        "date": "2025-09-30",
+        "eps_estimate": 1.2,
+        "eps_actual": 1.22,
+        "surprise_pct": 1.42,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-23 (Wednesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 1.32.",
+    "why": "Q1 must show slowing client headcount or a cut to FY27 guidance, not another one-cent beat."
+  },
+  "reasons": [
+    "FY2026 revenue grew 16.9% but net income only 6.2%, because the Paycor deal lifted SG&A [selling, general and administrative costs] 27.6% and interest expense 155.7% -- growth that costs more than it earns.",
+    "Small-business hiring cooled in August 2026 to the slowest pace of a seven-month growth streak, from 38,200 jobs added in July, because payroll revenue tracks client headcount -- and Paycor's bought revenue hides that.",
+    "Because the last four quarters' actual EPS total 5.51 against a 5.96 full-year consensus, the beat streak is already priced, and 3 of 3 recent revisions are cuts with the FY level down 0.36%."
+  ],
+  "watch": [
+    "Organic revenue excluding Paycor: confirms if it grows below the 16.9% FY rate; breaks if it reaccelerates.",
+    "Client worksite employees and PEO [professional employer organisation] headcount: confirms if growth slows from the July pace; breaks if it reaccelerates.",
+    "FY27 EPS guidance: confirms if below the 5.96 consensus; breaks if above.",
+    "Interest expense: confirms if it keeps rising above the 155.7% FY pace; breaks if it flattens."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "PAYX quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/payx/financials",
+        "date": "5/31/2026"
+      },
+      {
+        "id": "S4",
+        "kind": "statements",
+        "ref": "deal",
+        "label": "PAYX balance sheet: acquisition footprint",
+        "provider": "Yahoo Finance (via yfinance) statements",
+        "url": "https://www.nasdaq.com/market-activity/stocks/payx/financials",
+        "date": "2025-05-31"
+      }
+    ],
+    [
+      {
+        "id": "S38",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "prnewswire.com: In August 2026, small-business hiring cooled to the slowest pace of a seven-month growth streak.",
+        "provider": "prnewswire.com",
+        "url": "https://www.prnewswire.com/news-releases/gusto-small-business-jobs-report-small-businesses-add-29-500-jobs-in-august-marking-seventh-straight-month-of-growth-302866443.html",
+        "date": "2026-09-01"
+      },
+      {
+        "id": "S39",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "prnewswire.com: In July 2026, small businesses added 38,200 jobs, the sixth straight month of growth.",
+        "provider": "prnewswire.com",
+        "url": "https://www.prnewswire.com/news-releases/gusto-small-business-jobs-report-small-businesses-add-38-200-jobs-in-july-marking-sixth-straight-month-of-growth-302841838.html",
+        "date": "2026-08-04"
+      },
+      {
+        "id": "S4",
+        "kind": "statements",
+        "ref": "deal",
+        "label": "PAYX balance sheet: acquisition footprint",
+        "provider": "Yahoo Finance (via yfinance) statements",
+        "url": "https://www.nasdaq.com/market-activity/stocks/payx/financials",
+        "date": "2025-05-31"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for PAYX",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/PAYX/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S5",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "PAYX earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/payx/earnings",
+        "date": "2026-09-23"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for PAYX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PAYX/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for PAYX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PAYX/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "PAYX quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/payx/financials",
+      "date": "5/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "PAYX balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/payx/financials",
+      "date": "2025-05-31"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "PAYX earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/payx/earnings",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Zacks: Paychex (PAYX) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paychex-payx-q1-earnings-preview-131504289.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Here's Why You Should Hold PAYX Stock in Your Portfolio Now",
+      "provider": null,
+      "url": "/articles/heres-why-you-should-hold-payx-stock-your-portfolio-now",
+      "date": "Aug 20, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Nasdaq Index Insights Team: Nasdaq-100\u00ae Inside the Index: Paychex Inc. (PAYX)",
+      "provider": null,
+      "url": "/articles/global-indexes/inside-the-index/payx",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Why Paychex (PAYX) is a Top Growth Stock for the Long-Term",
+      "provider": null,
+      "url": "/articles/why-paychex-payx-top-growth-stock-long-term-0",
+      "date": "Sep 3, 202"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: PAYX Stock Rises 30% in 6 Months: Here's What You Should Know",
+      "provider": null,
+      "url": "/articles/payx-stock-rises-30-6-months-heres-what-you-should-know",
+      "date": "Sep 4, 202"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Intuit Q4 Revenues Rise: Can Double-Digit Growth Continue?",
+      "provider": null,
+      "url": "/articles/intuit-q4-revenues-rise-can-double-digit-growth-continue",
+      "date": "Aug 26, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Intuit's QuickBooks Free Push: Can This Lift Customer Growth?",
+      "provider": null,
+      "url": "/articles/intuits-quickbooks-free-push-can-lift-customer-growth",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: INTU Doubles Down on AI: Can Intelligence Drive the Next Growth Wave?",
+      "provider": null,
+      "url": "/articles/intu-doubles-down-ai-can-intelligence-drive-next-growth-wave",
+      "date": "Sep 18, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Planet Labs PBC (PL) Tops Q2 Earnings and Revenue Estimates",
+      "provider": null,
+      "url": "/articles/planet-labs-pbc-pl-tops-q2-earnings-and-revenue-estimates",
+      "date": "Sep 3, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Beat the Market Like Zacks: Amgen, FirstCash, Delek in Focus",
+      "provider": null,
+      "url": "/articles/beat-market-zacks-amgen-firstcash-delek-focus",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Beat the Market the Zacks Way: FIGS, Microsoft, Amphenol in Focus",
+      "provider": null,
+      "url": "/articles/beat-market-zacks-way-figs-microsoft-amphenol-focus",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "yahoo",
+      "ref": "news:11",
+      "label": "StockStory: 1 Growth Stock to Add to Your Roster and 2 We Turn Down",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-add-roster-161518441.html",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S18",
+      "kind": "yahoo",
+      "ref": "news:12",
+      "label": "Zacks: ServiceTitan Inc. (TTAN) Q2 Earnings and Revenues Surpass Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/servicetitan-inc-ttan-q2-earnings-213002813.html",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S19",
+      "kind": "yahoo",
+      "ref": "news:13",
+      "label": "Barchart: Is Paychex Stock Underperforming the S&P 500?",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/4509481/is-paychex-stock-underperforming-the-s-p-500",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:14",
+      "label": "Zacks: Cognyte Software Ltd. (CGNT) Q2 Earnings and Revenues Surpass Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cognyte-software-ltd-cgnt-q2-124002309.html",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "Zacks: LightPath Technologies, Inc. (LPTH) Reports Q4 Loss, Beats Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lightpath-technologies-inc-lpth-reports-212502838.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "24/7 Wall St.: Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Airbnb, Booking Holdings, Credicorp, Dutch Bros, Expedia, Hartford Financial Services, Group, Meritage Homes, Patchex, Yum! Brands, and More",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/16/here-are-wednesdays-top-wall-street-analyst-research-calls-airbnb-booking-holdings-credicorp-dutch-bros-expedia-hartford-financial-services-group-meritage-homes-patchex-yum-brands/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "The Fly: Starbucks initiated, Expedia downgraded: Wall Street's top analyst calls",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-initiated-expedia-downgraded-wall-134246447.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Zacks: Paychex Gears Up to Report Q1 Earnings: What's in Store?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paychex-gears-report-q1-earnings-141400441.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Investor's Business Daily: Darden Restaurants, Costco In Earnings Spotlight, Along With This IT Distributor",
+      "provider": "investors.com",
+      "url": "https://www.investors.com/research/earnings-preview/darden-stock-costco-earnings-td-synnex-ai-infrastructure/?src=A00220&yptr=yahoo",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: Paychex: Moderate Growth, Better Price, Still A Buy (NASDAQ:PAYX) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4947367-paychex-moderate-growth-better-price-still-a-buy",
+      "date": null
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "incrementalreturns.co: The Paychex (PAYX) Bear Case - Incremental Returns",
+      "provider": "incrementalreturns.co",
+      "url": "https://www.incrementalreturns.co/p/paychex-payx-bear-case",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "circlfi.com: PAYX Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/payx-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "chartmill.com: PAYX Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/PAYX/analyst-ratings",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "rockflow.ai: PAYX Stock Forecast & Price Target 2026 | Is PAYX a Good Stock to Buy? | RockFlow",
+      "provider": "rockflow.ai",
+      "url": "https://rockflow.ai/stocks/payx",
+      "date": "2026-07-08"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "tickernerd.com: PAYX Stock Forecast 2026-2027 - Paychex, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/payx-forecast/",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "tradestie.com: PAYX Earnings Sep 23: $1.32 EPS Consensus, Key Levels to Watch",
+      "provider": "tradestie.com",
+      "url": "https://tradestie.com/news/payx-earnings-sep-23-132-eps-consensus-key-levels-to-watch-20260923/",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "investor.paychex.com: First Quarter Fiscal 2027 Earnings Release Conference Call :: Paychex, Inc. (PAYX)",
+      "provider": "investor.paychex.com",
+      "url": "https://investor.paychex.com/news-events/ir-calendar/detail/8205/first-quarter-fiscal-2027-earnings-release-conference-call",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "investor.paychex.com: 8-K - 06/24/2026 - Paychex, Inc.",
+      "provider": "investor.paychex.com",
+      "url": "https://investor.paychex.com/sec-filings/all-sec-filings/content/0001193125-26-280314/0001193125-26-280314.pdf",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "ainvest.com: Paychex's \"38% Undervalued After AI\" Story Doesn't Survive the Cash-Flow Check",
+      "provider": "ainvest.com",
+      "url": "https://www.ainvest.com/news/paychex-38-undervalued-ai-story-doesn-survive-cash-flow-check-2609/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "scanx.trade: Paychex Q1FY27 Results: Analysts raise price targets ahead of Sept 23 report",
+      "provider": "scanx.trade",
+      "url": "https://scanx.trade/stock-market-news/companies/paychex-q1fy27-results-analysts-raise-price-targets-ahead-sept-23/51109413",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "globenewswire.com: Paychex Schedules First Quarter Fiscal 2027 Earnings",
+      "provider": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/09/09/3358778/0/en/paychex-schedules-first-quarter-fiscal-2027-earnings-conference-call-on-september-23-2026.html",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "prnewswire.com: In August 2026, small-business hiring cooled to the slowest pace of a seven-month growth streak.",
+      "provider": "prnewswire.com",
+      "url": "https://www.prnewswire.com/news-releases/gusto-small-business-jobs-report-small-businesses-add-29-500-jobs-in-august-marking-seventh-straight-month-of-growth-302866443.html",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "prnewswire.com: In July 2026, small businesses added 38,200 jobs, the sixth straight month of growth.",
+      "provider": "prnewswire.com",
+      "url": "https://www.prnewswire.com/news-releases/gusto-small-business-jobs-report-small-businesses-add-38-200-jobs-in-july-marking-sixth-straight-month-of-growth-302841838.html",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "growthcentr.com: As of August 2026, companies spend $204 per employee yearly on HR software and run nine systems.",
+      "provider": "growthcentr.com",
+      "url": "https://www.growthcentr.com/2026-hr-tech-spending-report/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "stealthagents.com: As of June 2026, SMBs using PEOs cut HR administrative costs by 27.2% versus in-house.",
+      "provider": "stealthagents.com",
+      "url": "https://stealthagents.com/research/small-business-hr-costs-statistics-2026",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "softwareadvice.com: In 2026, 62% of organizations expect to grow their headcount this year.",
+      "provider": "softwareadvice.com",
+      "url": "https://www.softwareadvice.com/resources/hr-and-people-trends-2026/",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "S43",
+      "kind": "options",
+      "ref": "options",
+      "label": "PAYX listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PAYX/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 116.14,
+    "market_cap": "41.34B",
+    "fwd_pe": 19.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 6.3,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 3 down over last 30 days",
+    "extra": [
+      "Total Revenue -11% quarter over quarter but +12% year over year (2026-05-31)",
+      "Last quarter cash and cash equivalents decreasing 36% quarter over quarter (5/31/2026)",
+      "Last quarter total liabilities decreasing 8% quarter over quarter (5/31/2026)",
+      "EPS increased year over year, 1.19 -> 1.32"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": -11.2,
+        "yoy_pct": 12.5,
+        "conflict": true,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": -24.9,
+        "yoy_pct": 41.5,
+        "conflict": true,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "qoq_pct": -24.9,
+        "yoy_pct": 41.5,
+        "conflict": true,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": -23.3,
+        "yoy_pct": 36.6,
+        "conflict": true,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": -20.3,
+        "yoy_pct": 35.9,
+        "conflict": true,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": -23.6,
+        "yoy_pct": 40.3,
+        "conflict": true,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": -13.8,
+        "yoy_pct": 15.0,
+        "conflict": true,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": -5.0,
+        "yoy_pct": 1.6,
+        "conflict": true,
+        "period": "2026-05-31"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 16.9,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 6.2,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": -532.2,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Interest Expense",
+        "change_pct": 155.7,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "Selling General And Administration",
+        "change_pct": 27.6,
+        "period": "2026-05-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 21.4,
+        "period": "2026-05-31"
+      }
+    ],
+    "deal": [
+      {
+        "label": "Other Intangible Assets",
+        "basis": "fiscal year",
+        "period": "2025-05-31",
+        "prior_period": "2024-05-31",
+        "current": 1947300000.0,
+        "prior": 194500000.0,
+        "change_pct": 901.2
+      }
+    ],
+    "catalyst_days": 3,
+    "bar": {
+      "date": "2026-09-23",
+      "eps_avg": 1.32011,
+      "eps_low": 1.29,
+      "eps_high": 1.34,
+      "revenue_avg": 1626363210
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 110.0,
+        "qty": 7,
+        "underlying": 116.14,
+        "multiplier": 100,
+        "price": 5.65,
+        "total": 3955.0000000000005,
+        "open_interest": 217
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 110.0,
+        "qty": 3,
+        "underlying": 116.14,
+        "multiplier": 100,
+        "price": 2.17,
+        "total": -651.0,
+        "open_interest": 72
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "The 11.2% conservative credit clears the floor, but this is a net debit of $3,304, so the payoff needs the stock under 110 by October, not merely a soft print. The short put expires 2026-10-16, three weeks after the report; if the stock holds 110 into that date, the January long put carries the whole cost alone."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": [
+          "\"5.8%\""
+        ]
+      },
+      {
+        "round": 0,
+        "score": 44,
+        "errors": 2,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": [
+          "\"5.8%\""
+        ]
+      }
+    ],
+    "grounding": {
+      "checked": 11,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 8,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "advisory",
+          "agents",
+          "august",
+          "building",
+          "bundle",
+          "client",
+          "cooled",
+          "embedded",
+          "improved",
+          "month",
+          "paychex",
+          "platform",
+          "platforms",
+          "reproduce",
+          "slowest",
+          "straight",
+          "streak",
+          "volumes",
+          "without"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "added",
+          "administrative",
+          "august",
+          "cooled",
+          "headcount",
+          "hiring",
+          "month",
+          "slowest",
+          "streak"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": []
+      }
+    ]
+  }
+}

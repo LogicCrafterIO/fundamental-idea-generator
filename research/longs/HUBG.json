@@ -1,0 +1,706 @@
+{
+  "ticker": "HUBG",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "North American freight and logistics provider: intermodal and dedicated trucking plus brokerage, now restating three years of accounts.",
+  "catalyst": {
+    "date": "2026-09-28",
+    "weekday": "Monday",
+    "session": null,
+    "days_out": 8,
+    "basis": "estimated",
+    "consensus": {},
+    "recent_reports": [
+      {
+        "date": "2026-03-30",
+        "eps_estimate": 0.44,
+        "eps_actual": null,
+        "surprise_pct": null,
+        "beat": false
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 0.49,
+        "eps_actual": 0.49,
+        "surprise_pct": 0.43,
+        "beat": true
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 0.44,
+        "eps_actual": 0.45,
+        "surprise_pct": 2.08,
+        "beat": true
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 0.43,
+        "eps_actual": 0.44,
+        "surprise_pct": 3.31,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-28 (Monday), 8 days out -- estimated from the reporting pattern, a median gap of 91 days; no scheduled date is published yet.",
+    "why": "The print must show the first-half loss is restatement cost, not freight economics, and that intermodal revenue per load is rising."
+  },
+  "reasons": [
+    "The first-half 2026 operating loss is restatement cost, not freight: preliminary revenue of $1.7-1.8B was near management's expectations, and the company blames the cost of restating three years of accounts.",
+    "Dry van spot cost per mile is forecast up 30% in 2026, pushing truckload freight to rail; intermodal volumes already run above the five-year average and intermodal service pricing is rising.",
+    "The Nasdaq notice is a missed filing deadline, not insolvency: the company has amended its credit agreement to extend deadlines and will appeal the delisting."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S21",
+        "kind": "yahoo",
+        "ref": "news:16",
+        "label": "Insider Monkey: Hub Group (HUBG) Expects an Operating Loss. Can Pricing Catch Up with Freight Costs?",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hub-group-hubg-expects-operating-212854510.html",
+        "date": "2026-09-17"
+      },
+      {
+        "id": "S26",
+        "kind": "yahoo",
+        "ref": "news:21",
+        "label": "Trucking Dive: Hub Group anticipates operating loss for H1 2026",
+        "provider": "truckingdive.com",
+        "url": "https://www.truckingdive.com/news/hub-group-anticipates-operating-loss-for-h1-2026/830476/",
+        "date": "2026-09-17"
+      },
+      {
+        "id": "S37",
+        "kind": "ollama_search",
+        "ref": "web:8",
+        "label": "globenewswire.com: Hub Group Announces Select Preliminary First and Second",
+        "provider": "globenewswire.com",
+        "url": "https://www.globenewswire.com/news-release/2026/09/14/3360965/0/en/hub-group-announces-select-preliminary-first-and-second-quarter-2026-financial-results-and-provides-update-on-restatement-process.html",
+        "date": "2026-09-14"
+      }
+    ],
+    [
+      {
+        "id": "S39",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "chrobinson.com: As of August 2026, U.S. intermodal demand is growing, with volumes consistently above the five-year average.",
+        "provider": "chrobinson.com",
+        "url": "https://www.chrobinson.com/en-gb/resources/insights-and-advisories/north-america-freight-insights/aug-2026-freight-market-update/intermodal/",
+        "date": "2026-08-06"
+      },
+      {
+        "id": "S41",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "freightwaves.com: As of September 2026, tight truck capacity is spilling into record LTL pricing and more expensive intermodal service.",
+        "provider": "freightwaves.com",
+        "url": "https://www.freightwaves.com/news/uber-freight-warns-tight-capacity-could-fuel-q4-freight-rate-surge",
+        "date": "2026-09-11"
+      },
+      {
+        "id": "S42",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "chrobinson.com: For 2026, U.S. dry van spot market cost per mile is forecast to rise 30% year-over-year, with 10% growth in 2027.",
+        "provider": "chrobinson.com",
+        "url": "https://www.chrobinson.com/en-us/-/media/chrglobal/resources/fmu-monthly/sep-2026/chrobinson-edge-sep-2026.pdf",
+        "date": "2026-09-01"
+      }
+    ],
+    [
+      {
+        "id": "S5",
+        "kind": "yahoo",
+        "ref": "news:0",
+        "label": "Simply Wall St.: How Investors Are Reacting To Hub Group (HUBG) Leadership Shake-Up And New 2026 Revenue Guidance",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-hub-group-hubg-131136254.html",
+        "date": "2026-09-15"
+      },
+      {
+        "id": "S28",
+        "kind": "yahoo",
+        "ref": "news:23",
+        "label": "FreightWaves: Hub Group receives Nasdaq delisting notice, plans to appeal",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hub-group-receives-nasdaq-delisting-130639246.html",
+        "date": "2026-09-18"
+      },
+      {
+        "id": "S35",
+        "kind": "ollama_search",
+        "ref": "web:6",
+        "label": "stocktitan.net: Hub Group expects 1H loss, Nasdaq delisting notice | HUBG 8-K Filing",
+        "provider": "stocktitan.net",
+        "url": "https://www.stocktitan.net/sec-filings/HUBG/8-k-hub-group-inc-reports-material-event-b9ce258f44af.html",
+        "date": "2026-06-30"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for HUBG",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HUBG/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for HUBG",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HUBG/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "HUBG quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hubg/financials",
+      "date": "9/30/2025"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "HUBG earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hubg/earnings",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: How Investors Are Reacting To Hub Group (HUBG) Leadership Shake-Up And New 2026 Revenue Guidance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-hub-group-hubg-131136254.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "BNK Invest: HUBG Crosses Above Average Analyst Target",
+      "provider": null,
+      "url": "/articles/hubg-crosses-above-average-analyst-target",
+      "date": "Apr 28, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "BNK Invest: Notable Wednesday Option Activity: HUBG, AMD, SPCX",
+      "provider": null,
+      "url": "/articles/notable-wednesday-option-activity-hubg-amd-spcx",
+      "date": "Aug 12, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Hub Group (HUBG) Surges 7.6%: Is This an Indication of Further Gains?",
+      "provider": null,
+      "url": "/articles/hub-group-hubg-surges-76-indication-further-gains",
+      "date": "Jul 17, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: Noteworthy Friday Option Activity: HUBG, NFLX, AI",
+      "provider": null,
+      "url": "/articles/noteworthy-friday-option-activity-hubg-nflx-ai",
+      "date": "Jun 12, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Logistics Stock Drops 34% After Accounting Error as $30 Million Stake Emerges",
+      "provider": null,
+      "url": "/articles/logistics-stock-drops-34-after-accounting-error-30-million-stake-emerges",
+      "date": "Mar 20, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "BNK Invest: HUBG Makes Notable Cross Below Critical Moving Average",
+      "provider": null,
+      "url": "/articles/hubg-makes-notable-cross-below-critical-moving-average",
+      "date": "Mar 9, 202"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: HUBG vs. RXO: Which Stock Is the Better Value Option?",
+      "provider": null,
+      "url": "/articles/hubg-vs-rxo-which-stock-better-value-option",
+      "date": "May 26, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "RTTNews: Hub Group To Post Operating Loss In H1 Before One-time Charges; Names David Yeager Chairman & CEO",
+      "provider": null,
+      "url": "/articles/hub-group-post-operating-loss-h1-one-time-charges-names-david-yeager-chairman-ceo",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Proficient Auto Logistics, Inc. (PAL) Reports Break-Even Earnings for Q2",
+      "provider": null,
+      "url": "/articles/proficient-auto-logistics-inc-pal-reports-break-even-earnings-q2",
+      "date": "Aug 10, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is JBHT Stock too Expensive or Still Attractive After Its Rally?",
+      "provider": null,
+      "url": "/articles/jbht-stock-too-expensive-or-still-attractive-after-its-rally",
+      "date": "Jul 17, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Universal Logistics (ULH) Reports Q1 Loss, Misses Revenue Estimates",
+      "provider": null,
+      "url": "/articles/universal-logistics-ulh-reports-q1-loss-misses-revenue-estimates",
+      "date": "May 1, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Corporacion America Airports S.A. (CAAP) Misses Q1 Earnings Estimates",
+      "provider": null,
+      "url": "/articles/corporacion-america-airports-sa-caap-misses-q1-earnings-estimates",
+      "date": "May 13, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: RXO (RXO) Reports Q1 Loss, Tops Revenue Estimates",
+      "provider": null,
+      "url": "/articles/rxo-rxo-reports-q1-loss-tops-revenue-estimates",
+      "date": "May 7, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: Heidmar Maritime Holdings Corp. (HMR) Q2 Earnings Miss Estimates",
+      "provider": null,
+      "url": "/articles/heidmar-maritime-holdings-corp-hmr-q2-earnings-miss-estimates",
+      "date": "Sep 1, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "Stocktwits: HUBG Stock Tanks After Firm Says It Expects To Receive Nasdaq Delisting Letter \u2014 Here\u2019s Everything To Know About Its New Leadership",
+      "provider": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/hubg-stock-tanks-after-firm-says-it-expects-to-receive-nasdaq-delisting-letter-here-s-everything-to-know-about-its-new-leadership/cZtm58NRBRA",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "Insider Monkey: Hub Group (HUBG) Expects an Operating Loss. Can Pricing Catch Up with Freight Costs?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hub-group-hubg-expects-operating-212854510.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "FreightWaves: Hub Group warns of Nasdaq delisting notice; flags H1 operating loss",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hub-group-warns-nasdaq-delisting-142643603.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "CFO Dive: Hub Group names new CFO: provides accounting error update",
+      "provider": "cfodive.com",
+      "url": "https://www.cfodive.com/news/hub-group-names-new-cfo-provides-accounting-error-update/830323/",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Trucking Dive: Hub Group brings back David Yeager as CEO",
+      "provider": "truckingdive.com",
+      "url": "https://www.truckingdive.com/news/hub-group-brings-back-david-yeager-as-ceo/830401/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "CFO Dive: Hub Group hands incoming CFO $1.3M stock award",
+      "provider": "cfodive.com",
+      "url": "https://www.cfodive.com/news/hub-group-hands-incoming-cfo-13m-stock-award-comp-accounting/830576/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Trucking Dive: Hub Group anticipates operating loss for H1 2026",
+      "provider": "truckingdive.com",
+      "url": "https://www.truckingdive.com/news/hub-group-anticipates-operating-loss-for-h1-2026/830476/",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S27",
+      "kind": "yahoo",
+      "ref": "news:22",
+      "label": "CFO.com: CFOs On the Move: Week ending Sept. 18",
+      "provider": "cfo.com",
+      "url": "https://www.cfo.com/news/cfos-on-the-move-sept-18-Waymo-Wayve-Hub-Group-Flowserve-Flex/830732/",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S28",
+      "kind": "yahoo",
+      "ref": "news:23",
+      "label": "FreightWaves: Hub Group receives Nasdaq delisting notice, plans to appeal",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hub-group-receives-nasdaq-delisting-130639246.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "twelvedata.com: Hub Group Inc. (HUBG) - Analysis",
+      "provider": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/527303/stock/nasdaq/hubg/analysis",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "simplywall.st: Hub Group (NasdaqGS:HUBG) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/transportation/nasdaq-hubg/hub-group/future",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "circlfi.com: HUBG Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/hubg-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "tickernerd.com: HUBG Stock Forecast 2026-2027 - Hub Group, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/hubg-forecast/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "jcapitalresearch.substack.com: Hub Group Inc (HUBG) - The Equity Dispatch",
+      "provider": "jcapitalresearch.substack.com",
+      "url": "https://jcapitalresearch.substack.com/p/hub-group-inc-hubg",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "simplywall.st: Hub Group (HUBG) Could Be 21% Below Fair Value On 2026 Loss Warning - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/transportation/nasdaq-hubg/hub-group/news/hub-group-hubg-could-be-21-below-fair-value-on-2026-loss-war",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stocktitan.net: Hub Group expects 1H loss, Nasdaq delisting notice | HUBG 8-K Filing",
+      "provider": "stocktitan.net",
+      "url": "https://www.stocktitan.net/sec-filings/HUBG/8-k-hub-group-inc-reports-material-event-b9ce258f44af.html",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "marketscreener.com: Ratings Hub Group, Inc.",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/HUB-GROUP-INC-9594/ratings/",
+      "date": "2025-05-14"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "globenewswire.com: Hub Group Announces Select Preliminary First and Second",
+      "provider": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/09/14/3360965/0/en/hub-group-announces-select-preliminary-first-and-second-quarter-2026-financial-results-and-provides-update-on-restatement-process.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "ttnews.com: Hub Group updates guidance, braces for stock delisting letter - TT",
+      "provider": "ttnews.com",
+      "url": "https://www.ttnews.com/articles/hub-group-delisting-letter",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "chrobinson.com: As of August 2026, U.S. intermodal demand is growing, with volumes consistently above the five-year average.",
+      "provider": "chrobinson.com",
+      "url": "https://www.chrobinson.com/en-gb/resources/insights-and-advisories/north-america-freight-insights/aug-2026-freight-market-update/intermodal/",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "apreologistics.com: In July 2026, rising truckload spot rates are driving more freight to rail and intermodal demand is strengthening.",
+      "provider": "apreologistics.com",
+      "url": "https://www.apreologistics.com/en-gb/chrglobal/resources/insights-and-advisories/north-america-freight-insights/jul-2026-freight-market-update/intermodal/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "freightwaves.com: As of September 2026, tight truck capacity is spilling into record LTL pricing and more expensive intermodal service.",
+      "provider": "freightwaves.com",
+      "url": "https://www.freightwaves.com/news/uber-freight-warns-tight-capacity-could-fuel-q4-freight-rate-surge",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "chrobinson.com: For 2026, U.S. dry van spot market cost per mile is forecast to rise 30% year-over-year, with 10% growth in 2027.",
+      "provider": "chrobinson.com",
+      "url": "https://www.chrobinson.com/en-us/-/media/chrglobal/resources/fmu-monthly/sep-2026/chrobinson-edge-sep-2026.pdf",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "logisticsmgmt.com: As of Q3 2026, the freight brokerage market continues recovering, with truckload at 72% of Q2 broker activity.",
+      "provider": "logisticsmgmt.com",
+      "url": "https://www.logisticsmgmt.com/article/tia_report_signals_continued_recovery_in_freight_brokerage_market",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "S44",
+      "kind": "options",
+      "ref": "options",
+      "label": "HUBG listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HUBG/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 32.72,
+    "market_cap": "2.0B",
+    "fwd_pe": 17.9,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.5,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "evenly split, with 1 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter earnings before interest and tax increasing 15% quarter over quarter (9/30/2025)",
+      "Last quarter net income increasing 13% quarter over quarter (9/30/2025)",
+      "EPS declined year over year, 0.52 -> 0.49"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "15-Jan-27",
+        "strike": 35.0,
+        "qty": 12,
+        "underlying": 32.72,
+        "multiplier": 100,
+        "price": 3.6,
+        "total": 4320.0,
+        "open_interest": 31
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 35.0,
+        "qty": 2,
+        "underlying": 32.72,
+        "multiplier": 100,
+        "price": 2.95,
+        "total": -590.0,
+        "open_interest": 204
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-28 report, with the long leg expiring 2027-01-15, which gives the thesis time to show up.",
+    "reflection": "This is a net debit, not a credit: $590 of short premium against $4,320 paid for the long calls, so the conservative credit ratio is 0.0% and the floor test fails. The short leg expires 18 days after the projected print, capping the payoff exactly when the thesis is decided. I would roll it past the filing, or cut size to what a $3,730 debit justifies."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 3,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 3,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "contradicts"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "average",
+          "broker",
+          "forecast",
+          "modal",
+          "pricing",
+          "service",
+          "truck",
+          "truckload",
+          "volume",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "deadlines",
+          "delisting",
+          "impair",
+          "investment",
+          "mexico",
+          "notice",
+          "record",
+          "refrigerated",
+          "restatement",
+          "review",
+          "strong",
+          "usmca"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "decline",
+          "drayage",
+          "earlier",
+          "first",
+          "forecast",
+          "import",
+          "imports",
+          "management",
+          "nasdaq",
+          "notice",
+          "projected",
+          "restatement",
+          "reversing",
+          "september",
+          "volumes"
+        ]
+      }
+    ]
+  }
+}

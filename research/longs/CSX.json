@@ -1,0 +1,459 @@
+{
+  "ticker": "CSX",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Rail-based freight carrier: intermodal containers, coal, chemicals, autos and agricultural products across ~20,000 route miles in the US and Canada.",
+  "catalyst": {
+    "date": "2026-10-22",
+    "weekday": "Thursday",
+    "session": "after the close",
+    "days_out": 32,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.54
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-22",
+        "eps_estimate": 0.52,
+        "eps_actual": 0.54,
+        "surprise_pct": 4.19,
+        "beat": true
+      },
+      {
+        "date": "2026-04-22",
+        "eps_estimate": 0.39,
+        "eps_actual": 0.43,
+        "surprise_pct": 10.6,
+        "beat": true
+      },
+      {
+        "date": "2026-01-22",
+        "eps_estimate": 0.41,
+        "eps_actual": 0.39,
+        "surprise_pct": -5.32,
+        "beat": false
+      },
+      {
+        "date": "2025-10-16",
+        "eps_estimate": 0.42,
+        "eps_actual": 0.44,
+        "surprise_pct": 3.79,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-22 (Thursday, after the close), 32 days out -- from the earnings calendar, consensus EPS 0.54.",
+    "why": "Q3 must show intermodal volume still growing and margin holding near 38%, or the 23 upward revisions are wrong."
+  },
+  "reasons": [
+    "Record US diesel at $6.31 a gallon makes trucking costlier per mile, pushing freight to rail; CSX's Q2 intermodal volume already grew 9% and total volume 6%.",
+    "Coal is the known drag -- EIA sees US coal-fired generation down 8% in 2026 -- yet Q2 revenue still hit a record $3.94B, up 10%, with operating margin up 240bps to 38.3%.",
+    "NAM's Q3 survey expects manufacturing production to grow 3.8% over the next 12 months, feeding industrial carloads that consensus FY EPS of 2.00572, flat for 30 days, does not yet reflect."
+  ],
+  "quants": {
+    "price": 47.1,
+    "market_cap": "87.25B",
+    "fwd_pe": 23.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 6.0,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all up, with 23 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 24% quarter over quarter (6/30/2026)",
+      "Last quarter earnings before interest and tax increasing 20% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.44 -> 0.54"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 50.0,
+        "qty": 38,
+        "underlying": 47.1,
+        "multiplier": 100,
+        "price": 1.18,
+        "total": 4484.0,
+        "open_interest": 2450
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 50.0,
+        "qty": 14,
+        "underlying": 47.1,
+        "multiplier": 100,
+        "price": 0.4,
+        "total": -560.0,
+        "open_interest": 918
+      }
+    ],
+    "thesis_target": "Targets the 2026-10-22 report, with the long leg expiring 2026-11-20, which gives the thesis time to show up.",
+    "reflection": "The short 50 call dies on 10/16, six days before the print, so the position is naked long into the catalyst -- that is the intent, but it means the 9.6% credit is a discount on a directional bet, not income. Selling one more short contract clears the floor; I would rather pay the extra debit than add a leg that expires before the news."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 13,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "below",
+          "cargo",
+          "decline",
+          "displace",
+          "domestic",
+          "falls",
+          "forecast",
+          "inbound",
+          "international",
+          "levels",
+          "prior",
+          "projected",
+          "reversing",
+          "september",
+          "solar",
+          "truck",
+          "truckload",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 3,
+        "trends_available": 4,
+        "trends_used": [
+          "carloads",
+          "expects",
+          "generation",
+          "industrial",
+          "manufacturing",
+          "months",
+          "production",
+          "pushing",
+          "survey"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "august",
+          "containerized",
+          "freight",
+          "import",
+          "imports",
+          "rates",
+          "reached",
+          "terminals",
+          "through",
+          "tighter",
+          "truck",
+          "truckload",
+          "volume"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S10",
+        "kind": "yahoo",
+        "label": "Simply Wall St.: Why CSX Stock And U.S. Railroads Are Back In Focus As Diesel Hits Records",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-csx-stock-u-railroads-221721653.html",
+        "date": "2026-09-17"
+      },
+      {
+        "id": "S19",
+        "kind": "ollama_search",
+        "label": "globenewswire.com: CSX Corp. Announces Second Quarter 2026 Results",
+        "provider": "globenewswire.com",
+        "url": "https://www.globenewswire.com/news-release/2026/07/22/3331689/0/en/CSX-Corp-Announces-Second-Quarter-2026-Results.html",
+        "date": "2026-07-22"
+      }
+    ],
+    [
+      {
+        "id": "S19",
+        "kind": "ollama_search",
+        "label": "globenewswire.com: CSX Corp. Announces Second Quarter 2026 Results",
+        "provider": "globenewswire.com",
+        "url": "https://www.globenewswire.com/news-release/2026/07/22/3331689/0/en/CSX-Corp-Announces-Second-Quarter-2026-Results.html",
+        "date": "2026-07-22"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "label": "Analyst EPS estimates and revision counts for CSX",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/CSX/analysis/",
+        "date": "2026-09-20"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for CSX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CSX/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for CSX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CSX/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "CSX quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/csx/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "CSX earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/csx/earnings",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "GuruFocus.com: CSX Corp's Dividend Analysis",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-corps-dividend-analysis-110108397.html",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "label": "Barchart: CSX Corporation Stock: Is CSX Outperforming the Industrial Sector?",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/4443832/csx-corporation-stock-is-csx-outperforming-the-industrial-sector",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "label": "Insider Monkey: Steady Volumes and Pricing Lift CSX Corp (CSX)",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/steady-volumes-pricing-lift-csx-131615008.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: CSX (CSX), What Is Putting It Back In The Spotlight?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-csx-putting-back-spotlight-151107938.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: CSX (CSX) Plans Broad Rail Access Push If Transcontinental Merger Is Approved",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-csx-plans-broad-rail-211449636.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: Why CSX Stock And U.S. Railroads Are Back In Focus As Diesel Hits Records",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-csx-stock-u-railroads-221721653.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "label": "BNK Invest: JEPQ, CSX, TER, MNST: Large Inflows Detected at ETF",
+      "provider": null,
+      "url": "/articles/jepq-csx-ter-mnst-large-inflows-detected-etf",
+      "date": "Aug 12, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "BNK Invest: IFRA, CSX, NSC, URI: ETF Outflow Alert",
+      "provider": null,
+      "url": "/articles/ifra-csx-nsc-uri-etf-outflow-alert",
+      "date": "Aug 20, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "Zacks: Are Transportation Stocks Lagging  CSX (CSX) This Year?",
+      "provider": null,
+      "url": "/articles/are-transportation-stocks-lagging-csx-csx-year-0",
+      "date": "Aug 21, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "BNK Invest: Cash Dividend On The Way From CSX",
+      "provider": null,
+      "url": "/articles/cash-dividend-way-csx",
+      "date": "Aug 27, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: CSX Corporation Stock Is Getting Better, But The Stock Already Knows It (NASDAQ:CSX) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4919825-csx-is-getting-better-but-the-stock-already-knows-it",
+      "date": null
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "bellwetherbrief.com: CSX Corporation (CSX) stock report | Bellwether Brief",
+      "provider": "bellwetherbrief.com",
+      "url": "https://bellwetherbrief.com/stock/csx",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "circlfi.com: CSX Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/csx-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "finance.yahoo.com: CSX Corporation (CSX) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/CSX/analysis/",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "globenewswire.com: CSX Corp. Announces Second Quarter 2026 Results",
+      "provider": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/07/22/3331689/0/en/CSX-Corp-Announces-Second-Quarter-2026-Results.html",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "chrobinson.ca: As of August 2026, U.S. intermodal demand continues to grow, with volumes above the five-year average.",
+      "provider": "chrobinson.ca",
+      "url": "https://www.chrobinson.ca/en-au/chrglobal/resources/insights-and-advisories/north-america-freight-insights/aug-2026-freight-market-update/intermodal/",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "descartes.com: In August 2026, U.S. containerized imports reached their third-highest monthly level, supporting intermodal demand.",
+      "provider": "descartes.com",
+      "url": "https://www.descartes.com/resources/knowledge-center/descartes-releases-september-global-shipping-report-august-us",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "descartes.com: Through July 2026, U.S. containerized imports were down 0.9% year-over-year, a headwind for intermodal.",
+      "provider": "descartes.com",
+      "url": "https://www.descartes.com/resources/knowledge-center/global-shipping-report-july-2026-container-imports-rise-seasonally",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "chrobinson.ca: As of August 2026, truckload spot rates remain tighter than intermodal, favoring rail conversion.",
+      "provider": "chrobinson.ca",
+      "url": "https://www.chrobinson.ca/en-au/chrglobal/resources/insights-and-advisories/north-america-freight-insights/aug-2026-freight-market-update/intermodal/",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "thecoalhub.com: As of August 2026, stronger metallurgical coal shipments and improving international demand have lifted the U.S. coal export outlook.",
+      "provider": "thecoalhub.com",
+      "url": "https://thecoalhub.com/report-presentation/u-s-coal-exports-strengthen-as-domestic-coal-generation-declines/",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "CSX listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CSX/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

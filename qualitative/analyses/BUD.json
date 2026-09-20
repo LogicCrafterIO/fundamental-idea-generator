@@ -1,0 +1,1183 @@
+{
+  "symbol": "BUD",
+  "researched_on": "2026-09-20",
+  "model": "deepseek-v4.1-flash",
+  "gates": {
+    "max_price": 100.0,
+    "min_market_cap": 1000000000.0
+  },
+  "profile": {
+    "symbol": "BUD",
+    "name": "Anheuser-Busch InBev SA/NV",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Brewers",
+    "country": "Belgium",
+    "website": "https://www.ab-inbev.com",
+    "employees": 137000,
+    "summary": "Anheuser-Busch InBev SA/NV produces and sells beer in North America, Middle Americas, South America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through North America, Middle Americas, South America, EMEA, Asia Pacific, and Global Export and Holding Companies segments. The company also offers flavored malt beverages, soft drinks, spirit-based ready-to-drink cocktails and beverages, and energy drinks. In addition, it operates BEES, a business-to-business digital commerce platform; on-demand delivery platforms under the Z\u00e9 Delivery and TaDa Delivery brands; and premium at-home draft system under the PerfectDraft brand. The company provides a portfolio of approximately 500 beer brands, which primarily include Budweiser, Corona Extra, Michelob Ultra, and Stella Artois; Aguila, Brahma, Carling Black Label, Cass Fresh, Jupiler, Quilmes, SKOL, and Victoria; Beck's, Hoegaarden, and Leffe; Antarctica, Bud Light, Castle, Castle Lite, Cristal, Harbin, Modelo Especial, Sedrin, and Skol brands, as well as non-beer brands comprising Brutal Fruit, Cutwater, and N\u00dcTRL brands. The company was formerly known as InBev SA and changed its name to Anheuser-Busch InBev SA/NV in November 2008. Anheuser-Busch InBev SA/NV was founded in 1366 and is headquartered in Leuven, Belgium.",
+    "summary_words": 184,
+    "price": 77.73,
+    "market_cap": 153060392960,
+    "market_cap_human": "153.06B",
+    "exchange": "NYSE",
+    "nasdaq_price": 77.73,
+    "nasdaq_market_cap": 153293902287.0,
+    "gate_conflicts": [],
+    "passes_price_gate": true,
+    "passes_cap_gate": true
+  },
+  "streams": {
+    "queries": [
+      "Anheuser-Busch InBev SA/NV (BUD) revenue by segment product line breakdown annual report 10-K",
+      "Anheuser-Busch InBev SA/NV how it makes money revenue streams Beverages - Brewers 2026",
+      "Anheuser-Busch InBev SA/NV (BUD) segment revenue percentage of total latest quarter results",
+      "BUD stock revenue by segment breakdown percentage of total revenue"
+    ],
+    "results": [
+      {
+        "title": "Anheuser-Busch InBev SA/NV",
+        "url": "https://www.bmv.com.mx/docs-pub/10-k/10-k_1539631_2025_1.pdf",
+        "publisher": "bmv.com.mx",
+        "source_date": "2026-07-20",
+        "age_days": 62,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "20-F",
+        "url": "https://app.edgar.tools/filing/1668717/0001193125-25-052976/d899194d20f.htm",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-07-20",
+        "age_days": 62,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Anheuser-Busch InBev SA/NV (BUD) SEC EDGAR Filings, CIK 0001668717 \u2014 10-K, 8-K | edgar.tools",
+        "url": "https://app.edgar.tools/companies/BUD",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-03-03",
+        "age_days": 201,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "AB InBev posts $59.3B 2025 revenue amid FX drag | BUD SEC Filing - Form 20-F",
+        "url": "https://www.stocktitan.net/sec-filings/BUD/20-f-anheuser-busch-in-bev-sa-nv-files-annual-report-foreign-issuer-771fb36914cc.html",
+        "publisher": "stocktitan.net",
+        "source_date": "2026-07-20",
+        "age_days": 62,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "Anheuser-Busch InBev SA/NV (Form: 20-F, Received: 03/03/2026 16:03:45)",
+        "url": "https://www.otcmarkets.com/filing/html?guid=YEj-keMlG3vdiBh&id=19211808",
+        "publisher": "otcmarkets.com",
+        "source_date": "2026-07-20",
+        "age_days": 62,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) revenue by segment product line breakdown annual report 10-K"
+      },
+      {
+        "title": "AB InBev Reports First Quarter 2026 Results",
+        "url": "https://www.businesswire.com/news/home/20260504526109/en/AB-InBev-Reports-First-Quarter-2026-Results",
+        "publisher": "businesswire.com",
+        "source_date": "2026-05-05",
+        "age_days": 138,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV how it makes money revenue streams Beverages - Brewers 2026"
+      },
+      {
+        "title": "EX-99.2",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526326285/d175040dex992.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-07-29",
+        "age_days": 53,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV how it makes money revenue streams Beverages - Brewers 2026"
+      },
+      {
+        "title": "EX-99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526205223/d126875dex991.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-03-31",
+        "age_days": 173,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV how it makes money revenue streams Beverages - Brewers 2026"
+      },
+      {
+        "title": "AB InBev Reports Second Quarter 2026 Results",
+        "url": "https://investor.wedbush.com/wedbush/article/bizwire-2026-7-30-ab-inbev-reports-second-quarter-2026-results",
+        "publisher": "investor.wedbush.com",
+        "source_date": "2026-07-30",
+        "age_days": 52,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV how it makes money revenue streams Beverages - Brewers 2026"
+      },
+      {
+        "title": "AB InBev Reports Full Year and Fourth Quarter 2025 Results | Nasdaq",
+        "url": "https://www.nasdaq.com/press-release/ab-inbev-reports-full-year-and-fourth-quarter-2025-results-2026-02-12",
+        "publisher": "nasdaq.com",
+        "source_date": "2026-06-05",
+        "age_days": 107,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV how it makes money revenue streams Beverages - Brewers 2026"
+      },
+      {
+        "title": "EX-99.1",
+        "url": "https://app.edgar.tools/filing/1668717/0001193125-26-326285/d175040dex991.htm",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-07-30",
+        "age_days": 52,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "EX-99.2",
+        "url": "https://app.edgar.tools/filing/1668717/0001193125-26-326285/d175040dex992.htm",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-07-29",
+        "age_days": 53,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "AB InBev Reports Second Quarter 2026 Results | AFP.com",
+        "url": "https://www.afp.com/en/infos/ab-inbev-reports-second-quarter-2026-results",
+        "publisher": "afp.com",
+        "source_date": "2026-07-30",
+        "age_days": 52,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "EX-99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526205223/d126875dex991.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-03-31",
+        "age_days": 173,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "AB InBev Reports First Quarter 2026 Results",
+        "url": "https://www.businesswire.com/news/home/20260504526109/en/AB-InBev-Reports-First-Quarter-2026-Results",
+        "publisher": "businesswire.com",
+        "source_date": "2026-05-05",
+        "age_days": 138,
+        "lens": null,
+        "stream": null,
+        "query": "Anheuser-Busch InBev SA/NV (BUD) segment revenue percentage of total latest quarter results"
+      },
+      {
+        "title": "Anheuser Busch Inbev Sa (BUD) Quarterly and Annual Segment Results by Country and Region - CSIMarket",
+        "url": "https://csimarket.com/stocks/BUD-Business-Segments",
+        "publisher": "csimarket.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": null,
+        "stream": null,
+        "query": "BUD stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Anheuser-Busch InBev SA/NV (BUD) Revenue Breakdown by Segments [axis] & Consolidated and separate financial statements [axis]",
+        "url": "https://businessquant.com/stocks/bud/revenue-breakdown/",
+        "publisher": "businessquant.com",
+        "source_date": "2026-09-15",
+        "age_days": 5,
+        "lens": null,
+        "stream": null,
+        "query": "BUD stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Anheuser-Busch Inbev SA (BUD) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution \u2014 TradingKey",
+        "url": "https://www.tradingkey.com/markets/stocks/bud/revenue",
+        "publisher": "tradingkey.com",
+        "source_date": "2026-06-30",
+        "age_days": 82,
+        "lens": null,
+        "stream": null,
+        "query": "BUD stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Anheuser-Busch InBev (BUD) Financials Overview",
+        "url": "https://stockanalysis.com/stocks/bud/financials/",
+        "publisher": "stockanalysis.com",
+        "source_date": "2026-08-28",
+        "age_days": 23,
+        "lens": null,
+        "stream": null,
+        "query": "BUD stock revenue by segment breakdown percentage of total revenue"
+      },
+      {
+        "title": "Anheuser-Busch Inbev Sa/Nv (BUD) Revenue By Segment % (2016 - 2025) | Business Quant",
+        "url": "https://businessquant.com/metrics/bud/revenue-by-segment-pct",
+        "publisher": "businessquant.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": null,
+        "stream": null,
+        "query": "BUD stock revenue by segment breakdown percentage of total revenue"
+      }
+    ],
+    "results_count": 20,
+    "streams": [
+      {
+        "name": "Beer Business",
+        "what_it_is": "Beer sold under a portfolio of beer brands to consumers.",
+        "revenue_share": 0.89,
+        "revenue_share_basis": "stated",
+        "amount": "$53.05B in FY2025",
+        "customer": null,
+        "quote": "Beer Business was the largest of Anheuser-Busch InBev SA/NV\u2019s 2 reported lines in fiscal 2025, at $53.05B \u2014 89% of $59.32B.",
+        "url": "https://businessquant.com/stocks/bud/revenue-breakdown/",
+        "publisher": "businessquant.com",
+        "as_of": "2026-09-15",
+        "grounded_by": "search"
+      },
+      {
+        "name": "Non-beer Business",
+        "what_it_is": "Non-beer beverages including flavored malt beverages, soft drinks, ready-to-drink cocktails, and energy drinks sold to consumers.",
+        "revenue_share": 0.1057,
+        "revenue_share_basis": "stated",
+        "amount": null,
+        "customer": null,
+        "quote": "Non-beer business | 10.57 % | of total Revenue",
+        "url": "https://csimarket.com/stocks/BUD-Business-Segments",
+        "publisher": "csimarket.com",
+        "as_of": null,
+        "grounded_by": "search"
+      }
+    ],
+    "dropped": [],
+    "description": "Anheuser-Busch InBev produces and sells beer and non-beer beverages across North America, Middle Americas, South America, EMEA, and Asia Pacific. It earns money primarily from its Beer Business, which is the largest reported line, and from a smaller Non-beer Business. The company also offers flavored malt beverages, soft drinks, spirit-based ready-to-drink cocktails, and energy drinks. Revenue is geographically diversified, with significant exposure to developing markets and non-U.S. dollar currencies.",
+    "customer_concentration": null,
+    "notes": "In 1Q26, no-alcohol beer revenue grew 27% and Beyond Beer revenue grew 37%, faster than total revenue growth of 5.8%.",
+    "split_basis": "product_line",
+    "geography": "By segment: Middle America 29.29%, North America 23.95%, South America 20.15%, EMEA 16.02%, Asia Pacific 9.6%, and Global export and holding companies 0.99% of total revenue."
+  },
+  "trends": {
+    "queries": [
+      {
+        "q": "global beer market volume forecast 2026-2028 IWSR Euromonitor",
+        "lens": "demand",
+        "stream": "Beer Business"
+      },
+      {
+        "q": "RTD cocktail and flavored malt beverage market growth 2026-2028 IWSR",
+        "lens": "demand",
+        "stream": "Non-beer Business"
+      },
+      {
+        "q": "AB InBev beer volume trends key markets 2026 industry report",
+        "lens": "demand",
+        "stream": "Beer Business"
+      },
+      {
+        "q": "beer wholesale distribution channel trends 2026 National Beer Wholesalers Association",
+        "lens": "sold",
+        "stream": "Beer Business"
+      },
+      {
+        "q": "RTD cocktail retail shelf space and distributor procurement trends 2026 Beverage Marketing Corporation",
+        "lens": "sold",
+        "stream": "Non-beer Business"
+      },
+      {
+        "q": "aluminum can and glass bottle supply chain costs brewing industry 2026 report",
+        "lens": "made",
+        "stream": "Beer Business"
+      },
+      {
+        "q": "AB InBev brewing supply chain aluminum can cost 2026 industry analysis",
+        "lens": "made",
+        "stream": "Beer Business"
+      },
+      {
+        "q": "beverage manufacturing capacity utilization logistics freight labor shortages regulation 2026 trade press",
+        "lens": "made",
+        "stream": null
+      },
+      {
+        "q": "Beer Business Beverages - Brewers market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Beer Business"
+      },
+      {
+        "q": "Non-beer Business Beverages - Brewers market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Non-beer Business"
+      }
+    ],
+    "searched": [
+      {
+        "query": "global beer market volume forecast 2026-2028 IWSR Euromonitor",
+        "lens": "demand",
+        "stream": "Beer Business",
+        "results": 5
+      },
+      {
+        "query": "RTD cocktail and flavored malt beverage market growth 2026-2028 IWSR",
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "results": 5
+      },
+      {
+        "query": "AB InBev beer volume trends key markets 2026 industry report",
+        "lens": "demand",
+        "stream": "Beer Business",
+        "results": 4
+      },
+      {
+        "query": "beer wholesale distribution channel trends 2026 National Beer Wholesalers Association",
+        "lens": "sold",
+        "stream": "Beer Business",
+        "results": 5
+      },
+      {
+        "query": "RTD cocktail retail shelf space and distributor procurement trends 2026 Beverage Marketing Corporation",
+        "lens": "sold",
+        "stream": "Non-beer Business",
+        "results": 5
+      },
+      {
+        "query": "aluminum can and glass bottle supply chain costs brewing industry 2026 report",
+        "lens": "made",
+        "stream": "Beer Business",
+        "results": 5
+      },
+      {
+        "query": "AB InBev brewing supply chain aluminum can cost 2026 industry analysis",
+        "lens": "made",
+        "stream": "Beer Business",
+        "results": 5
+      },
+      {
+        "query": "beverage manufacturing capacity utilization logistics freight labor shortages regulation 2026 trade press",
+        "lens": "made",
+        "stream": null,
+        "results": 5
+      },
+      {
+        "query": "Beer Business Beverages - Brewers market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Beer Business",
+        "results": 5
+      },
+      {
+        "query": "Non-beer Business Beverages - Brewers market growth demand outlook 2026",
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "results": 5
+      }
+    ],
+    "results": [
+      {
+        "title": "Under pressure, but not out of options: beer in 2026 - IWSR",
+        "url": "https://www.theiwsr.com/insight/under-pressure-but-not-out-of-options-beer-in-2026/",
+        "publisher": "theiwsr.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "global beer market volume forecast 2026-2028 IWSR Euromonitor"
+      },
+      {
+        "title": "Global beverage alcohol to drop further before recovering\u00a0 - IWSR",
+        "url": "https://www.theiwsr.com/insight/press-release/global-beverage-alcohol-to-drop-further-before-recovering/",
+        "publisher": "theiwsr.com",
+        "source_date": "2026-06-11",
+        "age_days": 101,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "global beer market volume forecast 2026-2028 IWSR Euromonitor"
+      },
+      {
+        "title": "Beer - Worldwide | Statista Market Forecast",
+        "url": "https://www.statista.com/outlook/cmo/alcoholic-drinks/beer/worldwide/",
+        "publisher": "statista.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "global beer market volume forecast 2026-2028 IWSR Euromonitor"
+      },
+      {
+        "title": "Forecasting tools for the beverage alcohol market",
+        "url": "https://www.theiwsr.com/expertise/products/forecasting/",
+        "publisher": "theiwsr.com",
+        "source_date": "2024-11-01",
+        "age_days": 688,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "global beer market volume forecast 2026-2028 IWSR Euromonitor"
+      },
+      {
+        "title": "A focus on value over volume will drive growth across beverage alcohol - IWSR",
+        "url": "https://www.theiwsr.com/insight/a-focus-on-value-over-volume-will-drive-growth-across-beverage-alcohol/",
+        "publisher": "theiwsr.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "global beer market volume forecast 2026-2028 IWSR Euromonitor"
+      },
+      {
+        "title": "Maturing RTD category poised for sustained growth - IWSR",
+        "url": "https://www.theiwsr.com/insight/maturing-rtd-category-poised-for-sustained-growth/",
+        "publisher": "theiwsr.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail and flavored malt beverage market growth 2026-2028 IWSR"
+      },
+      {
+        "title": "Dynamic RTDs \u2018a beacon of hope\u2019 for beverage alcohol - IWSR",
+        "url": "https://www.theiwsr.com/insight/dynamic-rtds-a-beacon-of-hope-for-beverage-alcohol/",
+        "publisher": "theiwsr.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail and flavored malt beverage market growth 2026-2028 IWSR"
+      },
+      {
+        "title": "The RTD Opportunity Report 2026: Where the genuine RTD growth sits",
+        "url": "https://refinedrinks.com/the-rtd-opportunity-report-2026/",
+        "publisher": "refinedrinks.com",
+        "source_date": "2026-07-07",
+        "age_days": 75,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail and flavored malt beverage market growth 2026-2028 IWSR"
+      },
+      {
+        "title": "What\u2019s driving the RTD boom? - The Spirits Business",
+        "url": "https://www.thespiritsbusiness.com/2025/05/whats-driving-the-rtd-boom/",
+        "publisher": "thespiritsbusiness.com",
+        "source_date": "2025-05-01",
+        "age_days": 507,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail and flavored malt beverage market growth 2026-2028 IWSR"
+      },
+      {
+        "title": "RTDs overtake vodka in global value - The Spirits Business",
+        "url": "https://www.thespiritsbusiness.com/2026/06/rtds-overtake-vodka-in-global-value/",
+        "publisher": "thespiritsbusiness.com",
+        "source_date": "2026-06-01",
+        "age_days": 111,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail and flavored malt beverage market growth 2026-2028 IWSR"
+      },
+      {
+        "title": "AB InBev Reports First Quarter 2026 Results",
+        "url": "https://www.businesswire.com/news/home/20260504526109/en/AB-InBev-Reports-First-Quarter-2026-Results",
+        "publisher": "businesswire.com",
+        "source_date": "2026-05-05",
+        "age_days": 138,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "AB InBev beer volume trends key markets 2026 industry report"
+      },
+      {
+        "title": "EX-99.2",
+        "url": "https://app.edgar.tools/filing/1668717/0001193125-26-326285/d175040dex992.htm",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-07-29",
+        "age_days": 53,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "AB InBev beer volume trends key markets 2026 industry report"
+      },
+      {
+        "title": "EX-99.1",
+        "url": "https://app.edgar.tools/filing/1668717/0001193125-26-326285/d175040dex991.htm",
+        "publisher": "app.edgar.tools",
+        "source_date": "2026-07-30",
+        "age_days": 52,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "AB InBev beer volume trends key markets 2026 industry report"
+      },
+      {
+        "title": "EX-99.1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526205213/d126873dex991.htm",
+        "publisher": "sec.gov",
+        "source_date": "2026-05-05",
+        "age_days": 138,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "AB InBev beer volume trends key markets 2026 industry report"
+      },
+      {
+        "title": "Beer Wholesaling in the US Industry Analysis, 2026",
+        "url": "https://www.ibisworld.com/united-states/industry/beer-wholesaling/991/",
+        "publisher": "ibisworld.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "sold",
+        "stream": "Beer Business",
+        "query": "beer wholesale distribution channel trends 2026 National Beer Wholesalers Association"
+      },
+      {
+        "title": "NBWA Survey: Beer Expected to be 67% of Distributors\u2019 Portfolios in 5 Years, Down from 76% in 2025 | Brewbound",
+        "url": "https://www.brewbound.com/news/nbwa-survey-beer-expected-to-be-67-of-distributors-portfolios-in-5-years-down-from-76-in-2025/",
+        "publisher": "brewbound.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Beer Business",
+        "query": "beer wholesale distribution channel trends 2026 National Beer Wholesalers Association"
+      },
+      {
+        "title": "Modern Distribution, Same Fundamentals: Why a Hybrid Model is the Growth Strategy for Beer - NBWA: America's Beer and Beverage Distributors",
+        "url": "https://nbwa.org/blog-post/modern-distribution-same-fundamentals-why-a-hybrid-model-is-the-growth-strategy-for-beer/",
+        "publisher": "nbwa.org",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Beer Business",
+        "query": "beer wholesale distribution channel trends 2026 National Beer Wholesalers Association"
+      },
+      {
+        "title": "Data Flows in Wholesale Distribution \u2013 Turning What We Collect into Real-Time Wins - NBWA: America's Beer and Beverage Distributors",
+        "url": "https://nbwa.org/blog-post/data-flows-in-wholesale-distribution-turning-what-we-collect-into-real-time-wins/",
+        "publisher": "nbwa.org",
+        "source_date": "2026-04-09",
+        "age_days": 164,
+        "lens": "sold",
+        "stream": "Beer Business",
+        "query": "beer wholesale distribution channel trends 2026 National Beer Wholesalers Association"
+      },
+      {
+        "title": "Beer Industry Maintains Expansionary Footing - NBWA: America's Beer and Beverage Distributors",
+        "url": "https://nbwa.org/press-release/beer-industry-maintains-expansionary-footing/",
+        "publisher": "nbwa.org",
+        "source_date": "2026-07-30",
+        "age_days": 52,
+        "lens": "sold",
+        "stream": "Beer Business",
+        "query": "beer wholesale distribution channel trends 2026 National Beer Wholesalers Association"
+      },
+      {
+        "title": "Beyond the Industry's Bright Spot: What\u2019s Driving RTDs in 2026? - BevNET.com",
+        "url": "https://www.bevnet.com/magazine/issue/2026/beyond-the-industrys-bright-spot-whats-driving-rtds-in-2026/",
+        "publisher": "bevnet.com",
+        "source_date": "2026-02-19",
+        "age_days": 213,
+        "lens": "sold",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail retail shelf space and distributor procurement trends 2026 Beverage Marketing Corporation"
+      },
+      {
+        "title": "Spirits-Based Ready-to-Drink Cocktails in the U.S. 2025 edition - report details, sample text, data and infographics",
+        "url": "https://www.beveragemarketing.com/shop/assets/PDFs/SpiritsBasedRTDCocktails25.pdf",
+        "publisher": "beveragemarketing.com",
+        "source_date": "2025-09-01",
+        "age_days": 384,
+        "lens": "sold",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail retail shelf space and distributor procurement trends 2026 Beverage Marketing Corporation"
+      },
+      {
+        "title": "Southern Glazer's Report Finds 5 Growth Areas As Alcohol Resets",
+        "url": "https://theshelbyreport.com/2026/09/09/southern-glazers-report-finds-5-growth-areas-as-alcohol-resets/",
+        "publisher": "theshelbyreport.com",
+        "source_date": "2026-09-09",
+        "age_days": 11,
+        "lens": "sold",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail retail shelf space and distributor procurement trends 2026 Beverage Marketing Corporation"
+      },
+      {
+        "title": "Spirits-Based RTDs Expand Horizons \u2013",
+        "url": "https://www.marketwatchmag.com/spirits-based-rtds-expand-horizons/",
+        "publisher": "marketwatchmag.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "sold",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail retail shelf space and distributor procurement trends 2026 Beverage Marketing Corporation"
+      },
+      {
+        "title": "RTDs Take Center Stage as C-Store Alcohol Category Evolves - CStore Decisions",
+        "url": "https://cstoredecisions.com/rtds-take-center-stage-as-c-store-alcohol-category-evolves/",
+        "publisher": "cstoredecisions.com",
+        "source_date": "2026-09-02",
+        "age_days": 18,
+        "lens": "sold",
+        "stream": "Non-beer Business",
+        "query": "RTD cocktail retail shelf space and distributor procurement trends 2026 Beverage Marketing Corporation"
+      },
+      {
+        "title": "Packaging cost squeeze 2026: glass +44%, aluminum cans +39%, corrugated +30% since 2020 | Eightx",
+        "url": "https://eightx.co/blog/packaging-cost-squeeze-2026",
+        "publisher": "eightx.co",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "aluminum can and glass bottle supply chain costs brewing industry 2026 report"
+      },
+      {
+        "title": "Beer Packaging Market | Global Market Analysis Report - 2036",
+        "url": "https://www.factmr.com/report/beer-packaging-market",
+        "publisher": "factmr.com",
+        "source_date": "2026-05-13",
+        "age_days": 130,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "aluminum can and glass bottle supply chain costs brewing industry 2026 report"
+      },
+      {
+        "title": "Glass, PET keep spirits high amid can shortage - The Economic Times",
+        "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/glass-pet-keep-spirits-high-amid-can-shortage/articleshow/133848577.cms",
+        "publisher": "economictimes.indiatimes.com",
+        "source_date": "2026-09-07",
+        "age_days": 13,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "aluminum can and glass bottle supply chain costs brewing industry 2026 report"
+      },
+      {
+        "title": "Visit international-aluminium.org for more information. ion.",
+        "url": "https://international-aluminium.org/wp-content/uploads/2024/04/Cost-competitiveness-of-PET-aluminium-and-glass-beverage-containers-1.pdf",
+        "publisher": "international-aluminium.org",
+        "source_date": "2024-04-01",
+        "age_days": 902,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "aluminum can and glass bottle supply chain costs brewing industry 2026 report"
+      },
+      {
+        "title": "The Iran War Is Reshaping The Aluminum Supply Chain",
+        "url": "https://case-studies.cask.com/the-aluminum-report/iran-war-aluminum-impact?hs_amp=true",
+        "publisher": "case-studies.cask.com",
+        "source_date": "2026-04-06",
+        "age_days": 167,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "aluminum can and glass bottle supply chain costs brewing industry 2026 report"
+      },
+      {
+        "title": "AB InBev repurchases minority stake in US metal can operations - Aluminum Market Update",
+        "url": "https://www.aluminummarketupdate.crugroup.com/global-trade/ab-inbev-repurchases-minority-stake-in-us-metal-can-operations/",
+        "publisher": "aluminummarketupdate.crugroup.com",
+        "source_date": "2026-01-09",
+        "age_days": 254,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "AB InBev brewing supply chain aluminum can cost 2026 industry analysis"
+      },
+      {
+        "title": "USA: AB InBev Reclaims US Packaging Assets in USD 3 Billion Deal | inside.beer - International beverage news from Munich",
+        "url": "https://www.inside.beer/news/detail/usa-ab-inbev-reclaims-us-packaging-assets-in-usd-3-billion-deal",
+        "publisher": "inside.beer",
+        "source_date": null,
+        "age_days": null,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "AB InBev brewing supply chain aluminum can cost 2026 industry analysis"
+      },
+      {
+        "title": "How The Iran War Is Reshaping Aluminum Can Costs",
+        "url": "https://case-studies.cask.com/the-aluminum-report/iran-war-aluminum-impact",
+        "publisher": "case-studies.cask.com",
+        "source_date": "2026-04-08",
+        "age_days": 165,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "AB InBev brewing supply chain aluminum can cost 2026 industry analysis"
+      },
+      {
+        "title": "Aluminum prices are surging. Here's how companies are handling the costs",
+        "url": "https://www.cnbc.com/2026/05/05/aluminum-prices-hormuz-ford-molson-coors.html",
+        "publisher": "cnbc.com",
+        "source_date": "2026-05-05",
+        "age_days": 138,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "AB InBev brewing supply chain aluminum can cost 2026 industry analysis"
+      },
+      {
+        "title": "AB InBev Buys Back Stake in US Metal Packaging Plants for ...",
+        "url": "https://ground.news/article/ab-inbev-buys-back-stake-in-us-based-metal-container-plants_aea5d1",
+        "publisher": "ground.news",
+        "source_date": "2026-01-06",
+        "age_days": 257,
+        "lens": "made",
+        "stream": "Beer Business",
+        "query": "AB InBev brewing supply chain aluminum can cost 2026 industry analysis"
+      },
+      {
+        "title": "Uber Freight warns tight capacity could fuel Q4 freight rate surge\u00a0 - FreightWaves",
+        "url": "https://www.freightwaves.com/news/uber-freight-warns-tight-capacity-could-fuel-q4-freight-rate-surge",
+        "publisher": "freightwaves.com",
+        "source_date": "2026-09-11",
+        "age_days": 9,
+        "lens": "made",
+        "stream": null,
+        "query": "beverage manufacturing capacity utilization logistics freight labor shortages regulation 2026 trade press"
+      },
+      {
+        "title": "From Washington to the Taproom: How Trump\u2019s Trade Policies Are Affecting American Craft Beer - The Beer Thrillers",
+        "url": "https://thebeerthrillers.com/2026/09/17/from-washington-to-the-taproom-how-trumps-trade-policies-are-affecting-american-craft-beer/",
+        "publisher": "thebeerthrillers.com",
+        "source_date": "2026-09-17",
+        "age_days": 3,
+        "lens": "made",
+        "stream": null,
+        "query": "beverage manufacturing capacity utilization logistics freight labor shortages regulation 2026 trade press"
+      },
+      {
+        "title": "SEPTEMBER 2026 REPORT",
+        "url": "https://www.apreologistics.com/-/media/chrglobal/resources/fmu-monthly/sep-2026/chrobinson-edge-sep-2026.pdf",
+        "publisher": "apreologistics.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "made",
+        "stream": null,
+        "query": "beverage manufacturing capacity utilization logistics freight labor shortages regulation 2026 trade press"
+      },
+      {
+        "title": "Calm Markets, Loud Headlines: Agrowgate Q3 2026 Supply Chain Update - Nombase Data Hub",
+        "url": "https://www.nombase.com/datahub/calm-markets-loud-headlines-agrowgate-q3-2026-supply-chain-update",
+        "publisher": "nombase.com",
+        "source_date": null,
+        "age_days": null,
+        "lens": "made",
+        "stream": null,
+        "query": "beverage manufacturing capacity utilization logistics freight labor shortages regulation 2026 trade press"
+      },
+      {
+        "title": "2026 Q3 Market Update Report",
+        "url": "https://insights.uberfreight.com/hubfs/UberFreight%5FMarket%5FUpdate%5FReport.pdf",
+        "publisher": "insights.uberfreight.com",
+        "source_date": "2026-09-01",
+        "age_days": 19,
+        "lens": "made",
+        "stream": null,
+        "query": "beverage manufacturing capacity utilization logistics freight labor shortages regulation 2026 trade press"
+      },
+      {
+        "title": "Beer Market Size, Share & 2031 Growth Analysis Outlook",
+        "url": "https://www.mordorintelligence.com/industry-reports/beer-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-09-11",
+        "age_days": 9,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "Beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "2026 Beer Market Report: Craft beer faces continued declines | Beverage Industry",
+        "url": "https://www.bevindustry.com/articles/98129-2026-beer-market-report-craft-beer-faces-continued-declines",
+        "publisher": "bevindustry.com",
+        "source_date": "2026-03-02",
+        "age_days": 202,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "Beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "BarthHaas Report 2025/2026 \u2013 Beer Market Trending Downward Worldwide",
+        "url": "https://www.beerguild.co.uk/news/barthhaas-report-2025-2026-beer-market-trending-downward-worldwide",
+        "publisher": "beerguild.co.uk",
+        "source_date": "2026-07-21",
+        "age_days": 61,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "Beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "Beer Market Size, Share And Trends | Industry Report, 2030",
+        "url": "https://www.grandviewresearch.com/industry-analysis/beer-market",
+        "publisher": "grandviewresearch.com",
+        "source_date": "2025-01-01",
+        "age_days": 627,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "Beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "Beer Global Market Report 2026",
+        "url": "https://www.giiresearch.com/report/tbrc1997547-beer-global-market-report.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-03-25",
+        "age_days": 179,
+        "lens": "demand",
+        "stream": "Beer Business",
+        "query": "Beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-alcoholic Beverages Market Size, Growth & Industry Analysis\u00a0| 2031",
+        "url": "https://www.mordorintelligence.com/industry-reports/non-alcoholic-beverage-market",
+        "publisher": "mordorintelligence.com",
+        "source_date": "2026-08-01",
+        "age_days": 50,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "Non-beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-Alcoholic Beverages Market Size | Industry Report, 2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/nonalcoholic-beverage-market",
+        "publisher": "grandviewresearch.com",
+        "source_date": "2026-05-01",
+        "age_days": 142,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "Non-beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-Alcoholic Beer Global Market Report 2026",
+        "url": "https://www.giiresearch.com/report/tbrc1997991-non-alcoholic-beer-global-market-report.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-07-08",
+        "age_days": 74,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "Non-beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "Non Alcoholic - Beverages Global Market Report 2026",
+        "url": "https://www.giiresearch.com/report/tbrc1997988-non-alcoholic-beverages-global-market-report.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-03-25",
+        "age_days": 179,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "Non-beer Business Beverages - Brewers market growth demand outlook 2026"
+      },
+      {
+        "title": "Non-Alcoholic Beverages Market - Strategic Insights and Forecasts (2026-2031)",
+        "url": "https://www.giiresearch.com/report/ksi2020818-non-alcoholic-beverages-market-strategic-insights.html",
+        "publisher": "giiresearch.com",
+        "source_date": "2026-03-19",
+        "age_days": 185,
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "query": "Non-beer Business Beverages - Brewers market growth demand outlook 2026"
+      }
+    ],
+    "results_count": 49,
+    "trends": [
+      {
+        "lens": "demand",
+        "stream": "Beer Business",
+        "claim": "Global beer volumes fell 1% in 2025, but value grew on premium-plus and no-alcohol demand.",
+        "direction": "two-sided",
+        "why": "Volume decline pressures beer revenue, while premium mix lifts revenue per hectoliter.",
+        "quote": "total beer volumes (in the world\u2019s leading 21 markets/T21) fell by -1%, but value* grew slightly",
+        "url": "https://www.theiwsr.com/insight/under-pressure-but-not-out-of-options-beer-in-2026/",
+        "source_type": "trade",
+        "size": 5,
+        "size_basis": "global beer volumes in 21 leading markets",
+        "speed": 5,
+        "speed_basis": "2025 preliminary data",
+        "impact": 4,
+        "impact_basis": "Beer Business is 89% of revenue; volume/mix drives it",
+        "theme_key": "beer-volume-decline-premium-mix",
+        "theme_label": "Beer volume decline offset by premium mix",
+        "theme_definition": "Global beer volumes fall while premium and no-alcohol products lift value per serving.",
+        "as_of": null,
+        "age_days": null,
+        "stale": false,
+        "publisher": "theiwsr.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "the business overall",
+        "claim": "IWSR forecasts global beverage alcohol volume to decline for six more years before recovering in 2031, as of June 2026.",
+        "direction": "headwind",
+        "why": "Long volume decline pressures total beverage alcohol demand, weighing on beer and non-beer volumes.",
+        "quote": "IWSR forecasts global beverage alcohol consumption volume to decline for a further six years before resuming growth in 2031.",
+        "url": "https://www.theiwsr.com/insight/press-release/global-beverage-alcohol-to-drop-further-before-recovering/",
+        "source_type": "trade",
+        "size": 5,
+        "size_basis": "global beverage alcohol consumption across 160 markets",
+        "speed": 5,
+        "speed_basis": "confirmed 2025 data; forecast to 2031",
+        "impact": 4,
+        "impact_basis": "Beer Business is 89% of revenue; total alcohol demand",
+        "theme_key": "global-beverage-alcohol-volume-decline",
+        "theme_label": "Global beverage alcohol volume decline",
+        "theme_definition": "Global alcohol consumption volumes fall for years before recovering, shifting demand across regions.",
+        "as_of": "2026-06-11",
+        "age_days": 101,
+        "stale": false,
+        "publisher": "theiwsr.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "Non-beer Business",
+        "claim": "RTD volumes grew 3% globally in 2025 and are forecast at 2% CAGR to 2030.",
+        "direction": "tailwind",
+        "why": "RTD growth lifts AB InBev's Beyond Beer and non-beer revenue stream.",
+        "quote": "total RTD volumes were up by 3% in 2025",
+        "url": "https://www.thespiritsbusiness.com/2026/06/rtds-overtake-vodka-in-global-value/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "one billion nine-litre cases; no dollar size",
+        "speed": 5,
+        "speed_basis": "2025 growth and 2026 forecasts",
+        "impact": 3,
+        "impact_basis": "Non-beer Business is 10.57% of revenue; Beyond Beer growing",
+        "theme_key": "rtd-beverage-alcohol-growth",
+        "theme_label": "RTD beverage alcohol growth",
+        "theme_definition": "Ready-to-drink alcohol products grow faster than other beverage alcohol categories.",
+        "as_of": "2026-06-01",
+        "age_days": 111,
+        "stale": false,
+        "publisher": "thespiritsbusiness.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "demand",
+        "stream": "Beer Business",
+        "claim": "AB InBev's no-alcohol beer revenue rose 27% in Q1 2026.",
+        "direction": "tailwind",
+        "why": "No-alcohol beer lifts revenue per hectoliter and offsets declining alcohol volumes.",
+        "quote": "27% increase in revenue of no-alcohol beer",
+        "url": "https://www.businesswire.com/news/home/20260504526109/en/AB-InBev-Reports-First-Quarter-2026-Results",
+        "source_type": "company",
+        "size": 3,
+        "size_basis": "27% revenue increase in Q1 2026; no absolute size",
+        "speed": 5,
+        "speed_basis": "Q1 2026 reported results",
+        "impact": 3,
+        "impact_basis": "No-alcohol beer is a small but growing part of Beer Business",
+        "theme_key": "health-wellness-beverage-reformulation",
+        "theme_label": "Health-driven beverage reformulation",
+        "theme_definition": "Consumers shift to healthier beverage formulations, including no- and low-alcohol options.",
+        "as_of": "2026-05-05",
+        "age_days": 138,
+        "stale": false,
+        "publisher": "businesswire.com",
+        "lens_label": "Trending demand"
+      },
+      {
+        "lens": "sold",
+        "stream": "Beer Business",
+        "claim": "US beer wholesaling revenue grew just 0.9% in 2026 to $92.0bn as volumes soften and costs climb.",
+        "direction": "headwind",
+        "why": "Weak wholesaler economics can slow distribution and pressure AB InBev's US beer volumes.",
+        "quote": "Revenue has been climbing at a CAGR of just 0.3% over the past five years, expanding 0.9% in 2026 to total $92.0 billion.",
+        "url": "https://www.ibisworld.com/united-states/industry/beer-wholesaling/991/",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "$92.0 billion US beer wholesaling revenue in 2026",
+        "speed": 5,
+        "speed_basis": "2026 industry report",
+        "impact": 3,
+        "impact_basis": "US channel for Beer Business; 89% of revenue",
+        "theme_key": "beer-wholesale-channel-pressure",
+        "theme_label": "Beer wholesale channel pressure",
+        "theme_definition": "Beer wholesalers face soft volumes, rising costs, and competition from other beverages.",
+        "as_of": "2026-05-01",
+        "age_days": 142,
+        "stale": false,
+        "publisher": "ibisworld.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "Beer Business",
+        "claim": "NBWA survey expects beer to fall to 67% of distributors' portfolios in five years, down from 76% in 2025.",
+        "direction": "headwind",
+        "why": "Distributors allocating less to beer can reduce shelf space and push for AB InBev.",
+        "quote": "Beer Expected to be 67% of Distributors\u2019 Portfolios in 5 Years, Down from 76% in 2025",
+        "url": "https://www.brewbound.com/news/nbwa-survey-beer-expected-to-be-67-of-distributors-portfolios-in-5-years-down-from-76-in-2025/",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "no magnitude in evidence; portfolio share shift",
+        "speed": 3,
+        "speed_basis": "five-year survey horizon",
+        "impact": 3,
+        "impact_basis": "US distributor portfolios; beer is 89% of revenue",
+        "theme_key": "beer-distributor-portfolio-diversification",
+        "theme_label": "Beer distributor portfolio diversification",
+        "theme_definition": "Beer distributors add non-beer products, reducing beer's share of their portfolios.",
+        "as_of": null,
+        "age_days": null,
+        "stale": false,
+        "publisher": "brewbound.com",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "sold",
+        "stream": "Beer Business",
+        "claim": "NBWA Beer Purchasers' Index was 51 in July 2026, fifth consecutive month at or above 50, signaling expansion.",
+        "direction": "tailwind",
+        "why": "Stronger distributor purchasing supports AB InBev's US beer volumes and channel sell-through.",
+        "quote": "The July reading of 51 marks the fifth consecutive reading at or above 50",
+        "url": "https://nbwa.org/press-release/beer-industry-maintains-expansionary-footing/",
+        "source_type": "trade",
+        "size": 4,
+        "size_basis": "US beer wholesaling $92bn in 2026; BPI 51",
+        "speed": 5,
+        "speed_basis": "July 2026 reading",
+        "impact": 4,
+        "impact_basis": "US beer channel; Beer Business is 89% of revenue",
+        "theme_key": "us-beer-demand-expansion",
+        "theme_label": "US beer demand expansion",
+        "theme_definition": "US beer distributor purchasing rises above expansion threshold, signaling demand recovery.",
+        "as_of": "2026-07-30",
+        "age_days": 52,
+        "stale": false,
+        "publisher": "nbwa.org",
+        "lens_label": "How it's sold"
+      },
+      {
+        "lens": "made",
+        "stream": "Beer Business",
+        "claim": "Packaging costs have risen sharply since 2020, with aluminum cans up 10.8% year-over-year through April 2026.",
+        "direction": "headwind",
+        "why": "Higher packaging costs raise AB InBev's cost of goods sold and pressure beer margins.",
+        "quote": "Aluminum cans jumped 10.8% year-over-year through April 2026, the steepest YoY move of any packaging substrate.",
+        "url": "https://eightx.co/blog/packaging-cost-squeeze-2026",
+        "source_type": "general",
+        "size": 4,
+        "size_basis": "beer packaging market $27.7bn in 2026; aluminum cans +10.8% YoY",
+        "speed": 5,
+        "speed_basis": "through April 2026",
+        "impact": 4,
+        "impact_basis": "Packaging is a major input for Beer Business",
+        "theme_key": "beverage-packaging-input-inflation",
+        "theme_label": "Beverage packaging input inflation",
+        "theme_definition": "Costs for glass, aluminum, and paper packaging rise, squeezing beverage margins.",
+        "as_of": "2026-08-01",
+        "age_days": 50,
+        "stale": false,
+        "publisher": "eightx.co",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "Beer Business",
+        "claim": "Aluminum prices surged more than 13% after U.S.-Israeli strikes on Iran in February 2026, raising can costs.",
+        "direction": "headwind",
+        "why": "Higher aluminum costs raise can prices and AB InBev's packaging cost base.",
+        "quote": "Aluminum on the London Metal Exchange has surged more than 13% since the U.S.-Israeli strikes on Iran on Feb. 28.",
+        "url": "https://www.cnbc.com/2026/05/05/aluminum-prices-hormuz-ford-molson-coors.html",
+        "source_type": "general",
+        "size": 3,
+        "size_basis": "3.2 million tons offline; aluminum up >13%; no dollar size",
+        "speed": 5,
+        "speed_basis": "2026 price surge",
+        "impact": 4,
+        "impact_basis": "Aluminum cans are key packaging for Beer Business",
+        "theme_key": "gulf-energy-shock-metals-costs",
+        "theme_label": "Gulf energy shock raises metals costs",
+        "theme_definition": "Middle East conflict disrupts energy and metals supply, raising input costs for manufacturers.",
+        "as_of": "2026-05-05",
+        "age_days": 138,
+        "stale": false,
+        "publisher": "cnbc.com",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "Beer Business",
+        "claim": "AB InBev repurchased 49.9% of its US metal container plants for ~$3bn, closing Q1 2026, to secure supply.",
+        "direction": "tailwind",
+        "why": "Full ownership of can plants improves cost efficiency and supply security for US beer.",
+        "quote": "AB InBev has announced the reacquisition of the remaining 49.9% minority stake in its U.S. metal container plant operations",
+        "url": "https://www.inside.beer/news/detail/usa-ab-inbev-reclaims-us-packaging-assets-in-usd-3-billion-deal",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "~$3 billion transaction value",
+        "speed": 5,
+        "speed_basis": "closing anticipated Q1 2026",
+        "impact": 3,
+        "impact_basis": "US packaging supply for Beer Business; cost efficiency",
+        "theme_key": "beverage-system-capex",
+        "theme_label": "Beverage system capacity investment",
+        "theme_definition": "Beverage makers invest in production and packaging assets to secure supply and cut costs.",
+        "as_of": null,
+        "age_days": null,
+        "stale": false,
+        "publisher": "inside.beer",
+        "lens_label": "How it's made"
+      },
+      {
+        "lens": "made",
+        "stream": "Beer Business",
+        "claim": "US truckload contract rates rose 18% year-over-year in July 2026 amid tight capacity and diesel volatility.",
+        "direction": "headwind",
+        "why": "Higher freight rates raise AB InBev's distribution costs and pressure beer margins.",
+        "quote": "Truckload contract rates are up 18% year over year as driver losses, diesel volatility and tighter capacity reshape the market",
+        "url": "https://www.freightwaves.com/news/uber-freight-warns-tight-capacity-could-fuel-q4-freight-rate-surge",
+        "source_type": "trade",
+        "size": 3,
+        "size_basis": "truckload contract rates up 18% YoY; no market size",
+        "speed": 5,
+        "speed_basis": "July 2026 data",
+        "impact": 3,
+        "impact_basis": "Logistics is a material cost for Beer Business distribution",
+        "theme_key": "freight-rate-inflation",
+        "theme_label": "Freight rate inflation",
+        "theme_definition": "Trucking capacity tightness raises freight rates, increasing distribution costs for shippers.",
+        "as_of": "2026-09-11",
+        "age_days": 9,
+        "stale": false,
+        "publisher": "freightwaves.com",
+        "lens_label": "How it's made"
+      }
+    ],
+    "dropped": [
+      {
+        "lens": "demand",
+        "stream": "Beer Business",
+        "claim": "AB InBev's megabrand revenue rose 6.2% in Q2 2026, led by Corona up 17% outside its home market.",
+        "direction": "tailwind",
+        "why": "Premium megabrand growth lifts revenue per hectoliter and offsets volume softness.",
+        "quote": "6.2% increase in combined revenues of megabrands in 2Q26, led by Corona, which grew by 17% outside of its home market.",
+        "url": "https://app.edgar.tools/filing/1668717/0001193125-26-326285/d175040dex991.htm",
+        "source_type": "company",
+        "size": 3,
+        "size_basis": "6.2% increase in combined megabrand revenues; no absolute size",
+        "speed": 5,
+        "speed_basis": "2Q26 reported results",
+        "impact": 4,
+        "impact_basis": "Megabrands are a major part of Beer Business revenue",
+        "theme_key": "beer-premiumization",
+        "theme_label": "Beer premiumization",
+        "theme_definition": "Consumers trade up to premium beer brands, lifting value per serving.",
+        "drop_reason": "quote_not_found_in_retrieved_results"
+      }
+    ],
+    "by_lens": {
+      "demand": 4,
+      "sold": 3,
+      "made": 4
+    },
+    "coverage": {
+      "demand": 4,
+      "sold": 3,
+      "made": 4
+    },
+    "stale_dropped": 0
+  },
+  "errors": []
+}

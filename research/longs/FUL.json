@@ -1,0 +1,480 @@
+{
+  "ticker": "FUL",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Adhesives and sealants maker for packaging, hygiene, engineering and construction.",
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "session": "after the close",
+    "days_out": 3,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.46
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-24",
+        "eps_estimate": 1.38,
+        "eps_actual": 1.41,
+        "surprise_pct": 2.45,
+        "beat": true
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 0.55,
+        "eps_actual": 0.57,
+        "surprise_pct": 2.72,
+        "beat": true
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 1.21,
+        "eps_actual": 1.28,
+        "surprise_pct": 5.72,
+        "beat": true
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": 1.24,
+        "eps_actual": 1.26,
+        "surprise_pct": 1.87,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-23 (Wednesday, after the close), 3 days out -- from the earnings calendar, consensus EPS 1.46.",
+    "why": "Must prove pricing holds margins against soft packaging and auto volumes."
+  },
+  "reasons": [
+    "Because the board rejected Ancora's $1.2B bid for Building Adhesives as too low, the $2.66B market cap values the other two segments at about $1.5B, so the market is missing that the bid sets a floor.",
+    "Pricing gains across the portfolio plus the medical adhesives push lifted Q2 adjusted EPS [earnings per share] 19% and adjusted EBITDA [earnings before interest, tax, depreciation and amortisation] 9% year-on-year, even as packaging and auto volumes stayed soft.",
+    "Because 300mm fab equipment spending is forecast to grow 18% in 2026 and 14% in 2027, demand for FUL's electronic adhesives rises, an end market not yet visible in reported volumes."
+  ],
+  "quants": {
+    "price": 49.41,
+    "market_cap": "2.66B",
+    "fwd_pe": 10.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.8,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "all up, with 7 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 222% quarter over quarter (5/30/2026)",
+      "Last quarter earnings before interest and tax increasing 107% quarter over quarter (5/30/2026)",
+      "EPS increased year over year, 1.18 -> 1.41"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Feb-27",
+        "strike": 55.0,
+        "qty": 10,
+        "underlying": 49.41,
+        "multiplier": 100,
+        "price": 4.25,
+        "total": 4250.0,
+        "open_interest": 0
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 55.0,
+        "qty": 10,
+        "underlying": 49.41,
+        "multiplier": 100,
+        "price": 0.42,
+        "total": -420.0,
+        "open_interest": 3
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-24 report, with the long leg expiring 2027-02-19, which gives the thesis time to show up.",
+    "reflection": "The short leg sits 11% above spot with three weeks to run and pays almost nothing, so the credit ratio is 1.5% against a 10% floor. Selling ~55 more shorts clears the floor but caps the whole position at 55 just as the rejected bid is being repriced. Is the floor worth that ceiling?"
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 72,
+        "errors": 1,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 49,
+        "errors": 2,
+        "warnings": 4,
+        "unsupported_figures": [
+          "\"750000\""
+        ]
+      },
+      {
+        "round": 1,
+        "score": 49,
+        "errors": 2,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 10,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "adhesive",
+          "electronic",
+          "equipment",
+          "forecast",
+          "gains",
+          "medical",
+          "portfolio",
+          "pricing",
+          "volume",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "adhesive",
+          "build",
+          "electronic",
+          "nonwoven",
+          "rates",
+          "structural",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "adhesive",
+          "adjusted",
+          "ebitda",
+          "forecast",
+          "health",
+          "management",
+          "material",
+          "midpoint",
+          "nonwoven",
+          "output",
+          "packaging",
+          "pricing",
+          "raise",
+          "through",
+          "volumes"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for FUL",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/FUL/key-statistics/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S10",
+        "kind": "yahoo",
+        "label": "Insider Monkey: H.B. Fuller (FUL) Tells Ancora its $1.2 Billion Offer isn\u2019t Enough",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-ful-tells-204640998.html",
+        "date": "2026-09-06"
+      }
+    ],
+    [
+      {
+        "id": "S15",
+        "kind": "ollama_search",
+        "label": "newsroom.hbfuller.com: H.B. Fuller Reports Second Quarter 2026 Results | H.B. Fuller",
+        "provider": "newsroom.hbfuller.com",
+        "url": "https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx",
+        "date": "2026-05-30"
+      },
+      {
+        "id": "S20",
+        "kind": "research",
+        "label": "theglobeandmail.com: As of Q2 2026, FUL says pricing is gaining traction and medical adhesives are its next portfolio shift.",
+        "provider": "theglobeandmail.com",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/FUL/pressreleases/3048055/hb-fuller-q2-earnings-call-flags-pricing-ams-ambitions/",
+        "date": null
+      }
+    ],
+    []
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for FUL",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/FUL/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for FUL",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/FUL/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "FUL quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/ful/financials",
+      "date": "5/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "FUL earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/ful/earnings",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: H.B. Fuller (FUL) Weighs Offer For Building Adhesives Unit After Unsolicited Approach",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-ful-weighs-151110754.html",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "label": "InvestorsHub: H.B. Fuller Shares Flat After Board Rejects Ancora\u2019s $1.2 Billion Adhesives Bid",
+      "provider": "investorshub.advfn.com",
+      "url": "https://investorshub.advfn.com/market-news/article/34915/h-b-fuller-shares-flat-after-board-rejects-ancoras-1-2-billion-adhesives-bid",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "label": "Zacks: FUL or NVZMY: Which Is the Better Value Stock Right Now?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ful-nvzmy-better-value-stock-154003706.html",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "label": "MT Newswires: H.B. Fuller Rejects Ancora's $1.2 Billion Offer for Building Adhesives Business",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-rejects-ancora-174730890.html",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "label": "Zacks: Should Value Investors Buy H. B. Fuller (FUL) Stock?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-h-b-134003638.html",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "label": "Insider Monkey: H.B. Fuller (FUL) Tells Ancora its $1.2 Billion Offer isn\u2019t Enough",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/h-b-fuller-ful-tells-204640998.html",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "label": "Zacks: Stay Ahead of the Game With H. B. Fuller (FUL) Q3 Earnings: Wall Street's Insights on Key Metrics",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stay-ahead-game-h-b-131505226.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "Zacks: Are Investors Undervaluing H. B. Fuller (FUL) Right Now?",
+      "provider": null,
+      "url": "/articles/are-investors-undervaluing-h-b-fuller-ful-right-now-0",
+      "date": "Aug 12, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "Zacks: Here's Why H. B. Fuller (FUL) is a Strong Value Stock",
+      "provider": null,
+      "url": "/articles/heres-why-h-b-fuller-ful-strong-value-stock",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "RTTNews: H.B. Fuller Rejects Proposal From Ancora For Building Adhesives Solutions Business",
+      "provider": null,
+      "url": "/articles/hb-fuller-rejects-proposal-ancora-building-adhesives-solutions-business",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "newsroom.hbfuller.com: H.B. Fuller Reports Second Quarter 2026 Results | H.B. Fuller",
+      "provider": "newsroom.hbfuller.com",
+      "url": "https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "circlfi.com: FUL Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/ful-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "news.alphastreet.com: H.B. Fuller (FUL) Q2 2026 Preview: EPS Est. $1.38, Reports June 25 - Alphastreet",
+      "provider": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/h-b-fuller-ful-q2-2026-preview-eps-est-1-38-reports-june-25/",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: H.B. Fuller: Overreaction, Or Proof Of Slowdown (NYSE:FUL) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4917999-hb-fuller-overreaction-or-proof-of-slowdown",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: H.B. Fuller Company's Complexity Offers Potential (NYSE:FUL) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4936462-hb-fuller-companys-complexity-offers-potential",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "theglobeandmail.com: As of Q2 2026, FUL says pricing is gaining traction and medical adhesives are its next portfolio shift.",
+      "provider": "theglobeandmail.com",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/FUL/pressreleases/3048055/hb-fuller-q2-earnings-call-flags-pricing-ams-ambitions/",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "theglobeandmail.com: In Q2 2026, FUL executives defended the durability of pricing and raw material assumptions.",
+      "provider": "theglobeandmail.com",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/FUL/pressreleases/3048055/hb-fuller-q2-earnings-call-flags-pricing-ams-ambitions/",
+      "date": null
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "newsroom.hbfuller.com: FUL increased its full-year adjusted EBITDA and adjusted EPS guidance midpoint in Q2 2026.",
+      "provider": "newsroom.hbfuller.com",
+      "url": "https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "factmr.com: Nonwoven fabric sales are forecast to grow at 3.9% CAGR through 2036, with hygiene leading in 2026.",
+      "provider": "factmr.com",
+      "url": "https://www.factmr.com/report/nonwoven-fabric-market",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "emergenresearch.com: Health and hygiene packaging is forecast to grow at a 6.4% CAGR from 2026 to 2035.",
+      "provider": "emergenresearch.com",
+      "url": "https://www.emergenresearch.com/industry-report/health-and-hygiene-packaging-market",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "FUL listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/FUL/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "ticker": "OMF",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Nonprime consumer lender: personal loans, auto finance, credit cards, and optional credit insurance.",
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "session": "before the open",
+    "days_out": 40,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.87559,
+      "eps_low": 1.73,
+      "eps_high": 2.07,
+      "revenue_avg": 1346903600
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 1.26,
+        "eps_actual": 1.31,
+        "surprise_pct": 3.92,
+        "beat": true
+      },
+      {
+        "date": "2026-05-01",
+        "eps_estimate": 1.86,
+        "eps_actual": 1.95,
+        "surprise_pct": 4.91,
+        "beat": true
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 1.54,
+        "eps_actual": 1.59,
+        "surprise_pct": 3.3,
+        "beat": true
+      },
+      {
+        "date": "2025-10-31",
+        "eps_estimate": 1.6,
+        "eps_actual": 1.9,
+        "surprise_pct": 18.54,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-30 (Friday, before the open), 40 days out -- from the earnings calendar, consensus EPS 1.88.",
+    "why": "Report must show credit costs contained; a miss on provisions or EPS [earnings per share] would confirm late-stage delinquency is reaching the income statement."
+  },
+  "reasons": [
+    "Subprime auto loan delinquencies hit 6.8% at the start of 2026, the worst in 32 years, and OMF's auto book is scaling \u2014 losses follow originations with a lag.",
+    "Personal loan 60+ day delinquency jumped to 3.99% in Q4 2025, the largest yearly rise since early 2023, while OMF's net income fell 32.7% quarter-over-quarter.",
+    "Consensus FY EPS [earnings per share] fell from 7.13 to 7.09 over 30 days with 8 downward revisions against 6 up, and the stock has beaten four straight quarters \u2014 the bar is high and estimates are rolling over."
+  ],
+  "quants": {
+    "price": 60.81,
+    "market_cap": "7.0B",
+    "fwd_pe": 8.6,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.3,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted lower, with 6 up and 8 down over last 30 days",
+    "extra": [
+      "Last quarter net income decreasing 33% quarter over quarter (6/30/2026)",
+      "Last quarter other operating items increasing 31% quarter over quarter (6/30/2026)",
+      "EPS declined year over year, 1.45 -> 1.31"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 57.5,
+        "qty": 19,
+        "underlying": 60.81,
+        "multiplier": 100,
+        "price": 2.33,
+        "total": 4427.0,
+        "open_interest": 160
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 57.5,
+        "qty": 7,
+        "underlying": 60.81,
+        "multiplier": 100,
+        "price": 0.77,
+        "total": -539.0,
+        "open_interest": 133
+      }
+    ],
+    "thesis_target": "Targets the 2026-10-30 report, with the long leg expiring 2026-11-20, which gives the deterioration time to show up.",
+    "reflection": "The credit is too thin at 7.9%; selling two more October 57.5 puts brings it over the 10% floor. The short leg expires five weeks before the long, so the trade needs the drop to happen before mid-October or the hedge costs carry."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 11,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "confirms",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "delinquencies",
+          "delinquency",
+          "early",
+          "jumped",
+          "largest",
+          "origination",
+          "originations",
+          "since"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "adults",
+          "august",
+          "bills",
+          "borrowers",
+          "captured",
+          "cooled",
+          "delinquencies",
+          "difficulty",
+          "fintech",
+          "fintechs",
+          "mounting",
+          "onemain",
+          "originations",
+          "paying",
+          "points",
+          "pricing",
+          "prime",
+          "single",
+          "slowest",
+          "spend",
+          "strain",
+          "structural",
+          "subprime",
+          "transunion"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "borrowers",
+          "delinquencies",
+          "losses",
+          "mounting",
+          "onemain"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S7",
+        "kind": "yahoo",
+        "label": "Motley Fool: OneMain (OMF) Q2 2026 Earnings Call Transcript",
+        "provider": "fool.com",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/onemain-holdings-omf-q2-2026-earnings-call-transcript/",
+        "date": "2026-08-08"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "label": "OMF quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/omf/financials",
+        "date": "6/30/2026"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "label": "Analyst EPS estimates and revision counts for OMF",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/OMF/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "label": "OMF earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/omf/earnings",
+        "date": "2026-10-30"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for OMF",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/OMF/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for OMF",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/OMF/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "OMF quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/omf/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "OMF earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/omf/earnings",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "StockStory: OMF Q2 Deep Dive: Product Innovation and Credit Quality Drive Growth",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/omf-q2-deep-dive-product-053322059.html",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: Is OneMain Holdings (OMF) Below Fair Value Following Its Q2 Revenue Beat?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onemain-holdings-omf-below-fair-161027161.html",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "label": "Motley Fool: OneMain (OMF) Q2 2026 Earnings Call Transcript",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/onemain-holdings-omf-q2-2026-earnings-call-transcript/",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "label": "StockStory: 3 Reasons to Avoid OMF and 1 Stock to Buy Instead",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-omf-1-165518295.html",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "label": "StockStory: Personal Loan Stocks Q2 Teardown: OneMain (NYSE:OMF) Vs The Rest",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/personal-loan-stocks-q2-teardown-134331668.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "label": "MarketBeat: OneMain\u2019s Yield Comes With a Catch",
+      "provider": null,
+      "url": "/articles/onemains-yield-comes-catch",
+      "date": "Aug 30, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "label": "Zacks: OneMain (OMF) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "provider": null,
+      "url": "/articles/onemain-omf-q2-earnings-taking-look-key-metrics-versus-estimates",
+      "date": "Jul 29, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "Zacks: OneMain Holdings (OMF) Q2 Earnings Meet Estimates",
+      "provider": null,
+      "url": "/articles/onemain-holdings-omf-q2-earnings-meet-estimates",
+      "date": "Jul 29, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "MarketBeat: OneMain Q2 Earnings Call Highlights",
+      "provider": null,
+      "url": "/articles/onemain-q2-earnings-call-highlights",
+      "date": "Jul 30, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: OneMain vs. Upstart: Which Consumer Loan Stock Is a Better Buy in 2026?",
+      "provider": null,
+      "url": "/articles/onemain-vs-upstart-which-consumer-loan-stock-better-buy-2026",
+      "date": "Jun 17, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "circlfi.com: OMF Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/omf-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "stockanalysis.com: OneMain Holdings (OMF) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/omf/forecast/",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "simplywall.st: OneMain Holdings (OMF) Completes $1.1b Note Offering, Is The Stock Still Trading At A Discount? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-omf/onemain-holdings/news/onemain-holdings-omf-completes-11b-note-offering-is-the-stoc",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: OneMain Stock: Well Positioned Given Tightened Credit Standards (Downgrade) (NYSE:OMF) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4940208-onemain-holdings-well-positioned-given-tightened-credit-standards-downgrade",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "tickernerd.com: OMF Stock Forecast 2026-2027 - OneMain Holdings, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/omf-forecast/",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "newsroom.transunion.com: In Q2 2026, credit access kept expanding, with just under 262 million consumers carrying balances.",
+      "provider": "newsroom.transunion.com",
+      "url": "https://newsroom.transunion.com/Q2-2026-CIIR/",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "caseforcredit.com: In Q1 2026, consumer lenders' six-month business outlook remained positive on balance.",
+      "provider": "caseforcredit.com",
+      "url": "https://www.caseforcredit.com/wp-content/uploads/2026/05/AFSA-Consumer-Credit-Conditions-Index-2026-Q1.pdf",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "caseforcredit.com: In Q1 2026, current consumer-lending conditions worsened even as lenders stayed upbeat.",
+      "provider": "caseforcredit.com",
+      "url": "https://www.caseforcredit.com/wp-content/uploads/2026/05/AFSA-Consumer-Credit-Conditions-Index-2026-Q1.pdf",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "newsroom.transunion.com: In Q1 2026, non-prime consumers faced mounting debt pressures as the market split K-shaped.",
+      "provider": "newsroom.transunion.com",
+      "url": "https://newsroom.transunion.com/k-shaped-q1-2026-ciir/",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "newsroom.transunion.com: In Q1 2026, overall credit conditions stayed stable and improved for many consumers.",
+      "provider": "newsroom.transunion.com",
+      "url": "https://newsroom.transunion.com/k-shaped-q1-2026-ciir/",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "OMF listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/OMF/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

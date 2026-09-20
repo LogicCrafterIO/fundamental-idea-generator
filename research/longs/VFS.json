@@ -1,0 +1,648 @@
+{
+  "ticker": "VFS",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Vietnamese maker of electric cars, e-scooters and e-buses; now asset-light after selling its Vietnam manufacturing assets.",
+  "catalyst": {
+    "date": "2026-09-21",
+    "weekday": "Monday",
+    "session": "before the open",
+    "days_out": 1,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": -0.33,
+      "eps_low": -0.41,
+      "eps_high": -0.26,
+      "revenue_avg": 30213945297500
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-08",
+        "eps_estimate": -0.29,
+        "eps_actual": -0.48,
+        "surprise_pct": -63.64,
+        "beat": false
+      },
+      {
+        "date": "2026-03-16",
+        "eps_estimate": -0.36,
+        "eps_actual": -0.6,
+        "surprise_pct": -66.67,
+        "beat": false
+      },
+      {
+        "date": "2025-11-21",
+        "eps_estimate": -0.29,
+        "eps_actual": -0.41,
+        "surprise_pct": -42.61,
+        "beat": false
+      },
+      {
+        "date": "2025-09-04",
+        "eps_estimate": -0.26,
+        "eps_actual": -0.35,
+        "surprise_pct": -32.08,
+        "beat": false
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 84,
+    "facts_line": "2026-09-21 (Monday, before the open), 1 days out -- from the earnings calendar, consensus EPS -0.33.",
+    "why": "The quarter must show loss per vehicle narrowing on Vietnam volume, or the asset-light reset is just a smaller loss."
+  },
+  "reasons": [
+    "VinFast delivered 154,073 EVs in Vietnam in the first eight months of 2026, with August at 20,161, up 12% on July, into a market forecast to grow 18.95% a year through 2031.",
+    "The $530 million sale of its Vietnam manufacturing assets moves capital intensity off its own books, so each extra Vietnam delivery costs less cash than the loss run-rate implies.",
+    "Three US dealership agreements signed in September 2026 and a certified pre-owned [used cars reconditioned and warrantied by the maker] program at 2.99% APR [annual percentage rate] open a US retail channel the reported loss does not yet carry."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S31",
+        "kind": "ollama_search",
+        "ref": "web:7",
+        "label": "stocktitan.net: VinFast logs 20,161 August EVs in Vietnam, up 12% | VFS SEC Filing - Form 6-K",
+        "provider": "stocktitan.net",
+        "url": "https://www.stocktitan.net/sec-filings/VFS/6-k-vin-fast-auto-ltd-current-report-foreign-issuer-633c2d088cfd.html",
+        "date": "2026-08-03"
+      },
+      {
+        "id": "S38",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "mordorintelligence.com: For 2026-2031, Vietnam's EV market is forecast to grow at 18.95% CAGR.",
+        "provider": "mordorintelligence.com",
+        "url": "https://www.mordorintelligence.com/industry-reports/vietnam-electric-vehicle-market",
+        "date": "2026-08-11"
+      }
+    ],
+    [
+      {
+        "id": "S28",
+        "kind": "ollama_search",
+        "ref": "web:4",
+        "label": "everyticker.com: VinFast Auto Reports Q1\u202f2026 Earnings: Revenue Misses Estimates, Gross Margin Deepens Losses - VFS News - EveryTicker",
+        "provider": "everyticker.com",
+        "url": "https://everyticker.com/quote/VFS/news/vinfast-auto-reports-q1-2026-earnings-revenue-misses-estimates-gross-margin-deepens-losses",
+        "date": "2026-06-08"
+      }
+    ],
+    [
+      {
+        "id": "S40",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "prnewswire.com: As of September 2026, VinFast finalized three US dealership agreements in California and Pennsylvania.",
+        "provider": "prnewswire.com",
+        "url": "https://www.prnewswire.com/news-releases/vinfast-expands-dealership-network-reinforcing-long-term-commitment-to-the-us-market-302881154.html",
+        "date": "2026-09-17"
+      },
+      {
+        "id": "S34",
+        "kind": "ollama_search",
+        "ref": "web:10",
+        "label": "simplywall.st: Did CPO Launch Just Shift VinFast (VFS) Investment Narrative? - Simply Wall St News",
+        "provider": "simplywall.st",
+        "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-vfs/vinfast-auto/news/did-cpo-launch-just-shift-vinfast-vfs-investment-narrative",
+        "date": "2026-09-16"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for VFS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VFS/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for VFS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VFS/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "VFS quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vfs/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "VFS earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vfs/earnings",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: How VinFast\u2019s Record Vietnam EV Deliveries and New U.S. CPO Program Will Impact VinFast Auto (VFS) Investors",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vinfast-record-vietnam-ev-deliveries-211009655.html",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Simply Wall St.: VinFast Auto (VFS) Draws Fresh Canada Attention, Is The Stock Still Cheap?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vinfast-auto-vfs-draws-fresh-141206693.html",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Simply Wall St.: VinFast Auto (VFS) Stock Looks Cheap After An 82% Fall Yet Rich On Sales",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vinfast-auto-vfs-stock-looks-081332930.html",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Insider Monkey: VinFast Auto (VFS) Quietly Pumps the Brakes on Its India Manufacturing Plans",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vinfast-auto-vfs-quietly-pumps-005526359.html",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "ref": "news:4",
+      "label": "Insider Monkey: VinFast (VFS)-Backed Taxi Firm GSM Plots a US and European Push ahead of its Hong Kong IPO",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vinfast-vfs-backed-taxi-firm-150001467.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: VinFast Auto Makes a Big Splash but Might Be More of a Sell Than Ever",
+      "provider": null,
+      "url": "/articles/vinfast-auto-makes-big-splash-might-be-more-sell-ever",
+      "date": "Apr 11, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Why VinFast Auto Stock Motored Higher Today",
+      "provider": null,
+      "url": "/articles/why-vinfast-auto-stock-motored-higher-today",
+      "date": "Dec 15, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: VinFast Auto Ltd. (VFS) Reports Q1 Loss, Misses Revenue Estimates",
+      "provider": null,
+      "url": "/articles/vinfast-auto-ltd-vfs-reports-q1-loss-misses-revenue-estimates",
+      "date": "Jun 8, 202"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "MarketBeat: VinFast Auto Q1 Earnings Call Highlights",
+      "provider": null,
+      "url": "/articles/vinfast-auto-q1-earnings-call-highlights",
+      "date": "Jun 8, 202"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "RTTNews: VinFast Announces Preliminary Q4 Results, Stock Drops",
+      "provider": null,
+      "url": "/articles/vinfast-announces-preliminary-q4-results-stock-drops",
+      "date": "Mar 16, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "The Motley Fool: EV Stocks Have Massive Upside, but Investors Need to Avoid This Profit Blackhole",
+      "provider": null,
+      "url": "/articles/ev-stocks-have-massive-upside-investors-need-avoid-profit-blackhole",
+      "date": "Mar 21, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Why VinFast Auto Stock Just Crashed",
+      "provider": null,
+      "url": "/articles/why-vinfast-auto-stock-just-crashed",
+      "date": "Nov 21, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Fintel: Wedbush Reiterates VinFast Auto (VFS) Outperform Recommendation",
+      "provider": null,
+      "url": "/articles/wedbush-reiterates-vinfast-auto-vfs-outperform-recommendation",
+      "date": "Nov 24, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: VinFast's Q1 Earnings Call Focuses on Asia Growth & Reset",
+      "provider": null,
+      "url": "/articles/vinfasts-q1-earnings-call-focuses-asia-growth-reset",
+      "date": "Jun 9, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "yahoo",
+      "ref": "news:14",
+      "label": "Zacks: Goodyear (GT) Reports Q2 Loss, Tops Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goodyear-gt-reports-q2-loss-221017134.html",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "Zacks: Fox Factory Holding (FOXF) Beats Q2 Earnings and Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fox-factory-holding-foxf-beats-231019147.html",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "Zacks: Aebi Schmidt Holding AG (AEBI) Q2 Earnings and Revenues Beat Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aebi-schmidt-holding-ag-aebi-130001120.html",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Investor's Business Daily: Vietnamese Rival To Uber, Lyft Plans To Enter U.S. Market This Year",
+      "provider": "investors.com",
+      "url": "https://www.investors.com/news/uber-lyft-vinfast-gsm-rideshare-app-robotaxi/?src=A00220&yptr=yahoo",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "MT Newswires: Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: VinFast Auto: Cash Burn Concerns Outweigh Robust Deliveries Growth (NASDAQ:VFS) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4878884-vinfast-auto-cash-burn-concerns-outweigh-robust-deliveries-growth",
+      "date": null
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "seekingalpha.com: VinFast's Developing Market Strategy Playing Out As I Expected (NASDAQ:VFS) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4924313-vinfast-stock-developing-market-strategy-playing-out",
+      "date": null
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "flash.stocksentinel.ai: VinFast Auto Ltd. (VFS) Stock Research Report | Flash",
+      "provider": "flash.stocksentinel.ai",
+      "url": "https://flash.stocksentinel.ai/research/VFS",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "circlfi.com: VFS Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/vfs-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "everyticker.com: VinFast Auto Reports Q1\u202f2026 Earnings: Revenue Misses Estimates, Gross Margin Deepens Losses - VFS News - EveryTicker",
+      "provider": "everyticker.com",
+      "url": "https://everyticker.com/quote/VFS/news/vinfast-auto-reports-q1-2026-earnings-revenue-misses-estimates-gross-margin-deepens-losses",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "chartmill.com: VFS Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/VFS/analyst-ratings",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: VinFast Auto (VFS) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/vfs/forecast/",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stocktitan.net: VinFast logs 20,161 August EVs in Vietnam, up 12% | VFS SEC Filing - Form 6-K",
+      "provider": "stocktitan.net",
+      "url": "https://www.stocktitan.net/sec-filings/VFS/6-k-vin-fast-auto-ltd-current-report-foreign-issuer-633c2d088cfd.html",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketscreener.com: VinFast Auto Ltd.: Target Price Consensus and Analysts Recommendations | VFS | SGXZ55111462 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/VINFAST-AUTO-LTD-158128320/consensus/",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "gngresearch.com: VFS - VinFast Auto Ltd. Ordinary Stock Analysis | GNG Research",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/VFS/",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "simplywall.st: Did CPO Launch Just Shift VinFast (VFS) Investment Narrative? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-vfs/vinfast-auto/news/did-cpo-launch-just-shift-vinfast-vfs-investment-narrative",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "equibles.com: VFS Stock \u2014 VinFast Auto Ltd.: Analyst Estimates - Equibles",
+      "provider": "equibles.com",
+      "url": "https://equibles.com/stocks/vfs/analyst-estimates",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "vinfastauto.us: VinFast Reports Preliminary and Unaudited Fourth Quarter and Full Year 2025 Financial Results | VinFast",
+      "provider": "vinfastauto.us",
+      "url": "https://vinfastauto.us/investor-relations/news/vinfast-reports-preliminary-and-unaudited-fourth-quarter-and-full-year-2025",
+      "date": "2026-03-16"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "vinfastauto.us: VINFAST CONTINUES STRONG GLOBAL DELIVERY MOMENTUM IN 2Q26 | VinFast",
+      "provider": "vinfastauto.us",
+      "url": "https://vinfastauto.us/newsroom/press-release/vinfast-continues-strong-global-delivery-momentum-in-2q26",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "mordorintelligence.com: For 2026-2031, Vietnam's EV market is forecast to grow at 18.95% CAGR.",
+      "provider": "mordorintelligence.com",
+      "url": "https://www.mordorintelligence.com/industry-reports/vietnam-electric-vehicle-market",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "evinfo.net: In July 2026, VinFast delivered 21,781 EVs in Vietnam, up 21% from June.",
+      "provider": "evinfo.net",
+      "url": "https://evinfo.net/2026/08/vinfast-evs-selling-well-in-its-home-country-vietnam-but-what-about-the-united-states/",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "prnewswire.com: As of September 2026, VinFast finalized three US dealership agreements in California and Pennsylvania.",
+      "provider": "prnewswire.com",
+      "url": "https://www.prnewswire.com/news-releases/vinfast-expands-dealership-network-reinforcing-long-term-commitment-to-the-us-market-302881154.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "vietnam.vn: In the first half of 2026, Honda, Yamaha, and VinFast cut electric motorcycle prices significantly in Vietnam.",
+      "provider": "vietnam.vn",
+      "url": "https://www.vietnam.vn/en/thi-truong-xe-may-dien-viet-nam-2026-cuoc-dua-giam-gia-niem-yet-va-bung-no-cong-nghe",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "vietnam.vn: Experts predict strong growth for Vietnam's electric motorcycle market in 2026 as cities tighten emissions rules.",
+      "provider": "vietnam.vn",
+      "url": "https://www.vietnam.vn/en/xe-may-dien-bung-no-trong-3-5-nam-toi-honda-tap-trung-phan-khuc-cao",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "S43",
+      "kind": "options",
+      "ref": "options",
+      "label": "VFS listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VFS/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 3.23,
+    "market_cap": "7.56B",
+    "fwd_pe": -2.1,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": null,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all up, with 1 up and 0 down over last 30 days",
+    "extra": [
+      "EPS declined year over year, -0.3 -> -0.48"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "18-Dec-26",
+        "strike": 4.0,
+        "qty": 160,
+        "underlying": 3.23,
+        "multiplier": 100,
+        "price": 0.28,
+        "total": 4480.0,
+        "open_interest": 530
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 4.0,
+        "qty": 54,
+        "underlying": 3.23,
+        "multiplier": 100,
+        "price": 0.1,
+        "total": -540.0,
+        "open_interest": 563
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-14 report, with the long leg expiring 2026-12-18, which gives the thesis time to show up.",
+    "reflection": "The short October 4-strike call covers only 54 of the 160 December longs, so this is mostly outright premium paid for a one-day event. Selling the ~11 extra October calls clears the 10% floor and cuts the debit, but the position still needs the September print to stop the miss streak, not just narrow it."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 6,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 6,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "agreements",
+          "dealership",
+          "delivered",
+          "first",
+          "forecast",
+          "september",
+          "three",
+          "vinfast"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "domestic",
+          "exemptions",
+          "hanoi",
+          "million",
+          "registration",
+          "toward",
+          "vehicles",
+          "vinfast"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "expansion",
+          "fleet",
+          "global",
+          "manufacturing",
+          "vinfast",
+          "volume"
+        ]
+      }
+    ]
+  }
+}

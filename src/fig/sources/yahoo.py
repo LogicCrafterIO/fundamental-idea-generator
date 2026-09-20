@@ -49,6 +49,7 @@ from ..util import cached_json
 TTL_QUOTE = 60 * 30
 TTL_STATIC = 60 * 60 * 24  # business summary, sector: rarely changes
 TTL_CHAIN = 60 * 15
+TTL_STATEMENTS = 60 * 60 * 6  # a filing lands a few times a year
 
 
 def _clean(value: Any) -> Any:
@@ -77,6 +78,27 @@ def _frame_records(frame) -> list[dict]:
         record.update({str(k): _clean(v) for k, v in row.items()})
         out.append(record)
     return out
+
+
+def _series(frame) -> dict[str, list]:
+    """Statement frame -> ``{line item: [value per period]}``, newest period first.
+
+    Kept as a series rather than a row-per-period frame because every question asked
+    of it is "how did this one line move" -- against the prior quarter, and against
+    the same quarter a year earlier.
+    """
+    if frame is None or getattr(frame, "empty", True):
+        return {}
+    out: dict[str, list] = {}
+    for idx, row in frame.iterrows():
+        out[str(idx)] = [_clean(v) for v in row.tolist()]
+    return out
+
+
+def _periods(frame) -> list[str]:
+    if frame is None or getattr(frame, "empty", True):
+        return []
+    return [str(col)[:10] for col in frame.columns]
 
 
 def _ticker(symbol: str) -> yf.Ticker:
@@ -272,6 +294,35 @@ def next_earnings(symbol: str) -> dict | None:
     return payload or None
 
 
+def statements(symbol: str, *, quarterly: bool = True) -> dict:
+    """Income statement and balance sheet as line-item series.
+
+    Two extra columns are the whole point. The Nasdaq tables stop at four quarters,
+    so they can only compare a quarter with the one immediately before it -- and a
+    note built on that reported "revenue down 11.2% sequentially" about Paychex's May
+    quarter, which grew 12.5% year over year. yfinance carries five quarters and four
+    fiscal years, so every line can also be compared with the same period a year
+    earlier, and a goodwill step change is visible at all.
+    """
+    symbol = symbol.upper()
+
+    def build() -> dict:
+        ticker = _ticker(symbol)
+        income = ticker.quarterly_income_stmt if quarterly else ticker.income_stmt
+        balance = ticker.quarterly_balance_sheet if quarterly else ticker.balance_sheet
+        return {
+            "quarterly": quarterly,
+            "income_periods": _periods(income),
+            "income": _series(income),
+            "balance_periods": _periods(balance),
+            "balance": _series(balance),
+        }
+
+    return cached_json(
+        f"yf:statements:{symbol}:{int(bool(quarterly))}", build, TTL_STATEMENTS
+    )
+
+
 def _as_date(value: Any) -> date:
     if isinstance(value, datetime):
         return value.date()
@@ -328,13 +379,19 @@ def news(symbol: str, limit: int = 12) -> list[dict]:
 
 
 def expiries(symbol: str) -> list[str]:
-    """Listed option expiries, ascending ISO dates."""
+    """Listed option expiries, ascending ISO dates.
 
-    def build() -> dict:
-        try:
-            return {"items": list(_ticker(symbol).options or [])}
-        except Exception:
-            return {"items": []}
+    An empty result is returned as ``None`` so it is **not cached**. A transient
+    Yahoo failure was being stored for the full chain TTL, after which the tool
+    believed a name with a full chain had none -- and the note silently lost its
+    Structuring block, which reads as "no legs available" rather than "the fetch
+    failed". Not caching it also lets ``cached_json`` fall back to a stale non-empty
+    list instead of an empty one.
+    """
+
+    def build() -> dict | None:
+        items = list(_ticker(symbol).options or [])
+        return {"items": items} if items else None
 
     return cached_json(f"yf:expiries:{symbol.upper()}", build, TTL_CHAIN).get("items", [])
 
@@ -347,11 +404,11 @@ def chain(symbol: str, expiry: str) -> dict:
     """
     symbol = symbol.upper()
 
-    def build() -> dict:
-        try:
-            ch = _ticker(symbol).option_chain(expiry)
-        except Exception:
-            return {"calls": [], "puts": []}
+    def build() -> dict | None:
+        # No try/except: swallowing the failure would cache an empty chain, and an
+        # empty chain is indistinguishable from an illiquid strike to everything
+        # downstream. Letting it raise keeps the stale entry usable instead.
+        ch = _ticker(symbol).option_chain(expiry)
 
         def rows(frame) -> list[dict]:
             out = []

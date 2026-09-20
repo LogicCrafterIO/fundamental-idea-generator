@@ -1,0 +1,713 @@
+{
+  "ticker": "BAC",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Diversified US bank: consumer deposits, cards and mortgages, wealth management, corporate lending, and trading.",
+  "catalyst": {
+    "date": "2026-10-14",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 24,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.18379,
+      "eps_low": 1.12,
+      "eps_high": 1.25,
+      "revenue_avg": 31236505450
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-14",
+        "eps_estimate": 1.12,
+        "eps_actual": 1.21,
+        "surprise_pct": 7.74,
+        "beat": true
+      },
+      {
+        "date": "2026-04-15",
+        "eps_estimate": 1.02,
+        "eps_actual": 1.11,
+        "surprise_pct": 8.78,
+        "beat": true
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 0.95,
+        "eps_actual": 0.98,
+        "surprise_pct": 2.69,
+        "beat": true
+      },
+      {
+        "date": "2025-10-15",
+        "eps_estimate": 0.95,
+        "eps_actual": 1.06,
+        "surprise_pct": 11.43,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-14 (Wednesday, before the open), 24 days out -- from the earnings calendar, consensus EPS 1.18.",
+    "why": "The fee line decides it: investment banking fees must fall near the guided 10% and trading stall, breaking a four-quarter beat streak."
+  },
+  "reasons": [
+    "BAC guides Q3 investment banking fees down 10% while JPMorgan guides mid-to-high teens growth in the same fees, and U.S. IPOs raised a record $146B year-to-date, so the gap is share, not market.",
+    "The last four quarters (1.21, 1.11, 0.98, 1.06) total 4.36 against FY consensus of 4.66415, so the beat streak is already in the number and only a miss moves the stock.",
+    "Roughly $90B of unrealized bond losses deepen as yields rise, and BofA's own strategists flag Fed rates above 5%; EPS shows the reinvestment gain, not the loss."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S46",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "earningscalls.dev: In September 2026, BAC projects investment banking fees to decline 10%, a headwind to noninterest income.",
+        "provider": "earningscalls.dev",
+        "url": "https://earningscalls.dev/transcripts/bank-of-america-corporation_bac_earnings_call_transcript_2026-09-14",
+        "date": "2026-09-14"
+      },
+      {
+        "id": "S15",
+        "kind": "nasdaq",
+        "ref": "news:10",
+        "label": "Zacks: Can JPM's Strong Q3 Capital Markets Outlook Help Sustain Fee Growth?",
+        "provider": null,
+        "url": "/articles/can-jpms-strong-q3-capital-markets-outlook-help-sustain-fee-growth",
+        "date": "Sep 17, 20"
+      },
+      {
+        "id": "S47",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "renaissancecapital.com: As of September 2026, U.S. IPOs raised a record $146 billion year-to-date, supporting equity underwriting.",
+        "provider": "renaissancecapital.com",
+        "url": "https://www.renaissancecapital.com/review/US_Fall_Preview_2026_Public.pdf",
+        "date": "2026-09-08"
+      }
+    ],
+    [
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "BAC earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/bac/earnings",
+        "date": "2026-10-14"
+      }
+    ],
+    [
+      {
+        "id": "S26",
+        "kind": "yahoo",
+        "ref": "news:21",
+        "label": "GuruFocus.com: Bank of America Slips as Bond Losses Threaten $90 Billion",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-slips-bond-losses-202116710.html",
+        "date": "2026-09-18"
+      },
+      {
+        "id": "S32",
+        "kind": "ollama_search",
+        "ref": "web:3",
+        "label": "marketsupplychain.com: Is BAC a buy at the top of its own range: Bank of America's deposit moat, the $81B bond overhang, and the bull/base/bear from 6 months to 5 years | Market Supply Chain",
+        "provider": "marketsupplychain.com",
+        "url": "https://marketsupplychain.com/posts/bac/",
+        "date": "2026-06-29"
+      },
+      {
+        "id": "S22",
+        "kind": "yahoo",
+        "ref": "news:17",
+        "label": "Bloomberg: BofA Warns of Warsh\u2019s Fed Raising Rates Above 5% in 2022 Redux",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/economy/policy/articles/bofa-warns-warsh-fed-raising-152120842.html",
+        "date": "2026-09-18"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for BAC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BAC/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for BAC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BAC/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "BAC quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bac/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "BAC earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bac/earnings",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Investor's Business Daily: Stock Market Falls On AI Fears, Hawkish Fed But Bounces Back: Weekly Review",
+      "provider": "investors.com",
+      "url": "https://www.investors.com/news/stock-market-falls-on-ai-fears-hawkish-fed-bounces-back/?src=A00220&yptr=yahoo",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "The Motley Fool: Is Bank of America Stock a Buy, Sell, or Hold After a 25% Run Off Its 52-Week Low?",
+      "provider": null,
+      "url": "/articles/bank-america-stock-buy-sell-or-hold-after-25-run-its-52-week-low",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: BAC Warns of Q3 Capital Markets Weakness: Will Fee Income Take a Hit?",
+      "provider": null,
+      "url": "/articles/bac-warns-q3-capital-markets-weakness-will-fee-income-take-hit",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "BNK Invest: RSI Alert: Bank of America (BAC) Now Oversold",
+      "provider": null,
+      "url": "/articles/rsi-alert-bank-america-bac-now-oversold",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Prediction: Warren Buffett's Successor, Greg Abel, Will Dispose of One of Berkshire Hathaway's Largest Holdings",
+      "provider": null,
+      "url": "/articles/prediction-warren-buffetts-successor-greg-abel-will-dispose-one-berkshire-hathaways",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "NASDAQ.com: After Hours Most Active for Sep 17, 2026 :  NU, NVDA, INTC, NOK, T, PFE, PGEN, AAL, BAC, GRAB, CZR, PCG",
+      "provider": null,
+      "url": "/articles/after-hours-most-active-sep-17-2026-nu-nvda-intc-nok-t-pfe-pgen-aal-bac-grab-czr-pcg",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: If Zero Rates Are Gone for Good, What Is a Checking Account Worth to a Bank?",
+      "provider": null,
+      "url": "/articles/if-zero-rates-are-gone-good-what-checking-account-worth-bank",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "BNK Invest: Bank of America's Preferred Stock, Series GG Shares Cross 6.5% Yield Mark",
+      "provider": null,
+      "url": "/articles/bank-americas-preferred-stock-series-gg-shares-cross-65-yield-mark",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: Why Arm Stock Popped Today",
+      "provider": null,
+      "url": "/articles/why-arm-stock-popped-today",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "The Motley Fool: Why Investors Were Hitting the Brakes on J.B. Hunt Stock This Week",
+      "provider": null,
+      "url": "/articles/why-investors-were-hitting-brakes-jb-hunt-stock-week",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Can JPM's Strong Q3 Capital Markets Outlook Help Sustain Fee Growth?",
+      "provider": null,
+      "url": "/articles/can-jpms-strong-q3-capital-markets-outlook-help-sustain-fee-growth",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Anthropic Is Expected to Go Public in October. The Brokerages Get Paid Either Way.",
+      "provider": null,
+      "url": "/articles/anthropic-expected-go-public-october-brokerages-get-paid-either-way",
+      "date": "Sep 18, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Settle Lower as AI Slowdown Fears Weigh on Chipmakers",
+      "provider": null,
+      "url": "/articles/stocks-settle-lower-ai-slowdown-fears-weigh-chipmakers",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "The Motley Fool: Did Greg Abel Already Make His First Big Mistake as Berkshire Hathaway CEO?",
+      "provider": null,
+      "url": "/articles/did-greg-abel-already-make-his-first-big-mistake-berkshire-hathaway-ceo",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: Greg Abel Has 75% of Berkshire Hathaway's Portfolio Invested in Just 8 Stocks. Is the 1 That's Lagging Behind the S&P 500 the Best Buy Now?",
+      "provider": null,
+      "url": "/articles/greg-abel-has-75-berkshire-hathaways-portfolio-invested-just-8-stocks-1-thats-lagging",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "MT Newswires: Jefferies to Benefit From Increased Investment Banking Momentum, Oppenheimer Says",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-benefit-increased-investment-banking-211629164.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "Zacks: BofA Sees Global Chip Market Nearly Doubling: Semiconductor ETFs to Buy",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/bofa-sees-global-chip-market-133800638.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Bloomberg: BofA Warns of Warsh\u2019s Fed Raising Rates Above 5% in 2022 Redux",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/bofa-warns-warsh-fed-raising-152120842.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "TheStreet: Bank of America resets Costco stock target ahead of earnings",
+      "provider": "thestreet.com",
+      "url": "https://www.thestreet.com/investing/costco-stock-lower-price-target-bank-of-america-earnings",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Simply Wall St.: Sodexo (ENXTPA:SW) Stock Gets Fair Value Bump After Analyst Target Increases",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sodexo-enxtpa-sw-stock-gets-181206286.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "Investing.com: Investing.com\u2019s stocks of the week",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investing-com-stocks-week-182842541.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "GuruFocus.com: Bank of America Slips as Bond Losses Threaten $90 Billion",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-slips-bond-losses-202116710.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S27",
+      "kind": "yahoo",
+      "ref": "news:22",
+      "label": "InvestorsHub: Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside",
+      "provider": "investorshub.advfn.com",
+      "url": "https://investorshub.advfn.com/market-news/article/36524/bank-of-america-sets-12-month-sp-500-target-at-7800-sees-2-upside",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S28",
+      "kind": "yahoo",
+      "ref": "news:23",
+      "label": "TheStreet: BofA drops stunning warning about Fed rate hikes",
+      "provider": "thestreet.com",
+      "url": "https://www.thestreet.com/fed/bofa-fed-rate-hikes-inflation",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "alcapitaladvisory.com: Bank of America (BAC) Stock Analysis August 2026",
+      "provider": "alcapitaladvisory.com",
+      "url": "https://alcapitaladvisory.com/research/equities/bac.html",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "circlfi.com: BAC Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/bac-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "clearthesis.ai: BAC Stock Analysis 2026: Is Bank of America a Buy? Moat, Valuation & Forecast | Clearthesis",
+      "provider": "clearthesis.ai",
+      "url": "https://www.clearthesis.ai/thesis/BAC",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "marketsupplychain.com: Is BAC a buy at the top of its own range: Bank of America's deposit moat, the $81B bond overhang, and the bull/base/bear from 6 months to 5 years | Market Supply Chain",
+      "provider": "marketsupplychain.com",
+      "url": "https://marketsupplychain.com/posts/bac/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketscreener.com: Bank of America Corporation: Target Price Consensus and Analysts Recommendations | BAC | US0605051046 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/BANK-OF-AMERICA-CORPORATI-11751/consensus/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "finance.yahoo.com: Bank of America Corporation (BAC) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/BAC/analysis/",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "marketwatch.com: BAC | Bank of America Corp. Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/bac/analystestimates",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: Bank of America (BAC) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/bac/forecast/",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "earningscalls.dev: Bank of America Corporation (BAC) Earnings Call Transcript & Summary",
+      "provider": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/bank-of-america-corporation_bac_earnings_call_transcript_2026-09-14",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "tickernerd.com: BAC Stock Forecast 2026-2027 - Bank of America Corp. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/bac-forecast/",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "reuters.com: BofA rides market whiplash to trading records, deal activity shines | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/finance/bank-america-profit-rises-trading-boost-2026-07-14/",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "ainvest.com: Bank of America Slides 5% as Trading Outlook Overshadows Stronger NII and Credit Trends",
+      "provider": "ainvest.com",
+      "url": "https://www.ainvest.com/news/bank-america-slides-5-trading-outlook-overshadows-stronger-nii-credit-trends-2609/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "247wallst.com: Bank of America CFO Claims All Is Well as Stock Slides 7% in a Month - 24/7 Wall St.",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/16/bank-of-america-cfo-claims-all-is-well-as-stock-slides-7-in-a-month/",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S42",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "thestockobserver.com: Bank of America Sees Resilient Consumers, Strong Loan Growth and Rising NII - Stock Observer",
+      "provider": "thestockobserver.com",
+      "url": "https://www.thestockobserver.com/2026/09/14/bank-of-america-sees-resilient-consumers-strong-loan-growth-and-rising-nii.html",
+      "date": "2027-07-04"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "institute.bankofamerica.com: In August 2026, BAC card spending per household rose 4.5% year-over-year, supporting consumer revenue.",
+      "provider": "institute.bankofamerica.com",
+      "url": "https://institute.bankofamerica.com/content/dam/economic-insights/consumer-checkpoint-september-2026.pdf",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "quartr.com: As of September 2026, credit quality is stable across consumer and commercial segments.",
+      "provider": "quartr.com",
+      "url": "https://quartr.com/events/bank-of-america-corporation-bac-barclays-24th-annual-global-financial-services-conference_3ehnOsF9",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "earningscalls.dev: As of September 2026, BAC guides fiscal-year NII growth of 6% to 8%, supporting revenue.",
+      "provider": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/bank-of-america-corporation_bac_earnings_call_transcript_2026-09-14",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "earningscalls.dev: In September 2026, BAC projects investment banking fees to decline 10%, a headwind to noninterest income.",
+      "provider": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/bank-of-america-corporation_bac_earnings_call_transcript_2026-09-14",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S47",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "renaissancecapital.com: As of September 2026, U.S. IPOs raised a record $146 billion year-to-date, supporting equity underwriting.",
+      "provider": "renaissancecapital.com",
+      "url": "https://www.renaissancecapital.com/review/US_Fall_Preview_2026_Public.pdf",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S48",
+      "kind": "options",
+      "ref": "options",
+      "label": "BAC listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BAC/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 57.73,
+    "market_cap": "403.69B",
+    "fwd_pe": 12.4,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 3.5,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter net receivables increasing 11% quarter over quarter (6/30/2026)",
+      "Last quarter net income applicable to common shareholders increasing 7% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.89 -> 1.21"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 55.0,
+        "qty": 22,
+        "underlying": 57.73,
+        "multiplier": 100,
+        "price": 2.04,
+        "total": 4488.0,
+        "open_interest": 70722
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 55.0,
+        "qty": 9,
+        "underlying": 57.73,
+        "multiplier": 100,
+        "price": 0.61,
+        "total": -549.0,
+        "open_interest": 8821
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-13 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "The short put expires two days after the print, so the event itself pays for the position. At 11.6% conservative the credit clears the floor, but the strike sits only 4.7% below spot, so a gap up on 14 October is the loss case and the January put is left to decay."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 10,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 9,
+      "mismatches": [
+        "Reason 2: \"4.66415\" is cited to S4 but appears in S2"
+      ],
+      "ok": false,
+      "ratio": 0.889
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "no-evidence",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 1,
+      "contradicted": 1,
+      "mixed": 1,
+      "majority": "confirms",
+      "agreement": 0.33
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "no-evidence",
+        "supportive": 0,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "banking",
+          "deposit",
+          "guides",
+          "investment",
+          "raised",
+          "record"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "decline",
+          "deposit",
+          "fiscal",
+          "guides"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "august",
+          "boost",
+          "cooled",
+          "interchange",
+          "larger",
+          "obbba",
+          "refunds",
+          "slowest",
+          "spend",
+          "total"
+        ]
+      }
+    ]
+  }
+}

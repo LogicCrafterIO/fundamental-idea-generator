@@ -501,10 +501,16 @@ def evidence_verdict(trends: list[dict], direction: str) -> dict:
     return {"verdict": verdict, "supportive": supportive, "adverse": adverse}
 
 
-def trends_for_prompt(research: dict) -> list[str]:
-    """Compact lines for the evidence block."""
+def trends_for_prompt(research: dict, *, ids: list[str] | None = None) -> list[str]:
+    """Compact lines for the evidence block.
+
+    ``ids`` are the source-catalogue ids for the same trends, in the same order, so
+    each line can name the source a writer should cite. Trends are the only
+    evidence here whose supporting quote was verified against the retrieved text,
+    which makes them the strongest thing in the packet and worth citing precisely.
+    """
     lines = []
-    for trend in research.get("trends") or []:
+    for index, trend in enumerate(research.get("trends") or []):
         stance = trend.get("stance")
         tag = f"[{stance}] " if stance and stance != "unspecified" else ""
         when = trend.get("as_of")
@@ -518,5 +524,7 @@ def trends_for_prompt(research: dict) -> list[str]:
             line += f" (reaches the company because: {trend['why']})"
         if trend.get("publisher"):
             line += f" [{trend['publisher']}]"
+        if ids and index < len(ids):
+            line += f"  [{ids[index]}]"
         lines.append(line)
     return lines

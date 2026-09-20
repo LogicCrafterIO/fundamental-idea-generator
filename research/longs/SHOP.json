@@ -1,0 +1,501 @@
+{
+  "ticker": "SHOP",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Commerce software and payments for merchants: online storefronts, physical retail, payment processing, shipping, and merchant financing.",
+  "catalyst": {
+    "date": "2026-11-03",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 44,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.45955,
+      "eps_low": 0.39,
+      "eps_high": 0.52483,
+      "revenue_avg": 3740937650
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 0.4,
+        "eps_actual": 0.42,
+        "surprise_pct": 5.05,
+        "beat": true
+      },
+      {
+        "date": "2026-05-05",
+        "eps_estimate": 0.33,
+        "eps_actual": 0.36,
+        "surprise_pct": 8.56,
+        "beat": true
+      },
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 0.51,
+        "eps_actual": 0.48,
+        "surprise_pct": -5.71,
+        "beat": false
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 0.34,
+        "eps_actual": 0.34,
+        "surprise_pct": 0.61,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "median_gap_days": 91,
+    "facts_line": "2026-11-03 (Tuesday, before the open), 44 days out -- from the earnings calendar, consensus EPS 0.46.",
+    "why": "Must show merchant solutions revenue and holiday GMV still growing above 30% without AI spending compressing margins."
+  },
+  "reasons": [
+    "Because Shopify earned 43% of 2025 operating income in the fourth quarter, Deloitte's 7.5%-8.4% US holiday e-commerce growth forecast leads straight into merchant solutions revenue in the quarter that decides the year.",
+    "The SMB [small and medium business] squeeze flagged for Q4 2026 has not reached the reported figures because AI marketing use jumped to 73% from 41%: revenue rose 13% and EBIT [earnings before interest and tax] 180% quarter-over-quarter.",
+    "Analysts raised FY [full year] estimates 29 times against 6 cuts in 30 days, so if the 2026-11-03 print confirms that pace, the AI-cost margin fear behind the 25% drawdown breaks and revisions pull the price up."
+  ],
+  "quants": {
+    "price": 128.5,
+    "market_cap": "166.75B",
+    "fwd_pe": 67.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 12.6,
+    "eps_trend": "slightly up over the last 7 days",
+    "eps_revisions": "tilted higher, with 29 up and 6 down over last 30 days",
+    "extra": [
+      "Last quarter earnings before interest and tax increasing 180% quarter over quarter (6/30/2026)",
+      "Last quarter net income increasing 158% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.35 -> 0.42"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 135.0,
+        "qty": 4,
+        "underlying": 128.5,
+        "multiplier": 100,
+        "price": 9.8,
+        "total": 3920.0000000000005,
+        "open_interest": 857
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 135.0,
+        "qty": 2,
+        "underlying": 128.5,
+        "multiplier": 100,
+        "price": 3.85,
+        "total": -770.0,
+        "open_interest": 46335
+      }
+    ],
+    "thesis_target": "Targets the 2026-11-03 report, with the long leg expiring 2026-11-20, which gives the thesis time to show up.",
+    "reflection": "The near call expires 18 days before the long one, so the credit is collected into the 2026-11-03 print while the long leg carries the event -- but a move above 135 before 16 October turns the short leg against us. At 16.2% conservative credit against a 10% floor the cushion is thin; the trade needs the stock to stay under 135 into mid-October and then break it."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 64,
+        "errors": 2,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 13,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "accounts",
+          "adobe",
+          "bigcommerce",
+          "cloud",
+          "merchant",
+          "migrate",
+          "shopify",
+          "standalone",
+          "storefront",
+          "traffic"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "buyer",
+          "ceiling",
+          "digital",
+          "ecommerce",
+          "forecast",
+          "holiday",
+          "merchant",
+          "recovery",
+          "shopify"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "forecast",
+          "holiday",
+          "marketing",
+          "reach",
+          "shopify",
+          "solutions"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S10",
+        "kind": "nasdaq",
+        "label": "The Motley Fool: The E-Commerce Stocks to Buy Before the Holiday Quarter",
+        "provider": null,
+        "url": "/articles/e-commerce-stocks-buy-holiday-quarter",
+        "date": "Sep 16, 20"
+      },
+      {
+        "id": "S20",
+        "kind": "research",
+        "label": "deloitte.com: For the 2026-2027 holiday season, US e-commerce sales are forecast to grow 7.5% to 8.4% year-over-year.",
+        "provider": "deloitte.com",
+        "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-forecasts-holiday-retail-sales.html",
+        "date": "2026-09-10"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "label": "SHOP quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/shop/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S23",
+        "kind": "research",
+        "label": "pymnts.com: Entering Q4 2026, the smallest SMBs have almost no revenue growth cushion versus larger peers.",
+        "provider": "pymnts.com",
+        "url": "https://www.pymnts.com/smbs/2026/smallest-businesses-fall-behind-as-main-street-goes-digital/",
+        "date": "2026-09-07"
+      },
+      {
+        "id": "S24",
+        "kind": "research",
+        "label": "designloud.com: In 2026, 73% of small businesses use AI marketing tools, up from 41% in 2025.",
+        "provider": "designloud.com",
+        "url": "https://designloud.com/state-of-small-business-marketing-2026/",
+        "date": "2026-07-01"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "label": "Analyst EPS estimates and revision counts for SHOP",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/SHOP/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "label": "SHOP earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings",
+        "date": "2026-11-03"
+      },
+      {
+        "id": "S12",
+        "kind": "nasdaq",
+        "label": "The Motley Fool: Down 25%, Is Shopify Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in September?",
+        "provider": null,
+        "url": "/articles/down-25-shopify-stock-better-buy-spacex-and-magnificent-seven-stocks-september",
+        "date": "Sep 16, 20"
+      },
+      {
+        "id": "S15",
+        "kind": "ollama_search",
+        "label": "investors.com: Shopify Stock Soars As Q2 Operating Profit, Revenue Top Expectations | Investor's Business Daily",
+        "provider": "investors.com",
+        "url": "https://www.investors.com/news/technology/shopify-stock-shop-shopify-earnings-q22026/",
+        "date": null
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SHOP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SHOP/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SHOP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SHOP/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "SHOP quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/shop/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "SHOP earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/shop/earnings",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "American Banker: How Shopify and Meta are diving deeper into banking",
+      "provider": "americanbanker.com",
+      "url": "https://www.americanbanker.com/payments/news/shopify-adds-meta-muse-to-agentic-ai-strategy",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "label": "Motley Fool: A $10,000 Stake in Shopify Is Worth About $311,000 a Decade Later. The Business Grew Almost as Much as the Stock.",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/investing/2026/09/19/a-usd10-000-stake-in-shopify-is-worth-about-usd311-000-a-decade-later-the-business-grew-almost-as-much-as-the-stock/",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: Not Amazon, Not Shopify. No Other Company Has Done What MercadoLibre Just Did",
+      "provider": null,
+      "url": "/articles/not-amazon-not-shopify-no-other-company-has-done-what-mercadolibre-just-did",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "label": "Zacks: Shopify Inc. (SHOP) is Attracting Investor Attention: Here is What You Should Know",
+      "provider": null,
+      "url": "/articles/shopify-inc-shop-attracting-investor-attention-here-what-you-should-know",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "label": "Zacks: Shopify (SHOP) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "provider": null,
+      "url": "/articles/shopify-shop-registers-bigger-fall-market-important-facts-note",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: The E-Commerce Stocks to Buy Before the Holiday Quarter",
+      "provider": null,
+      "url": "/articles/e-commerce-stocks-buy-holiday-quarter",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "label": "Zacks: Shopify Plunges 13% in a Month: Buy, Sell or Hold the Stock?",
+      "provider": null,
+      "url": "/articles/shopify-plunges-13-month-buy-sell-or-hold-stock",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: Down 25%, Is Shopify Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in September?",
+      "provider": null,
+      "url": "/articles/down-25-shopify-stock-better-buy-spacex-and-magnificent-seven-stocks-september",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "Zacks: The Zacks Analyst Blog Highlights Shopify, Amazon, Wix.com and Commerce.com",
+      "provider": null,
+      "url": "/articles/zacks-analyst-blog-highlights-shopify-amazon-wixcom-and-commercecom",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "Zacks: Shopify (SHOP) Suffers a Larger Drop Than the General Market: Key Insights",
+      "provider": null,
+      "url": "/articles/shopify-shop-suffers-larger-drop-general-market-key-insights",
+      "date": "Sep 9, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "investors.com: Shopify Stock Soars As Q2 Operating Profit, Revenue Top Expectations | Investor's Business Daily",
+      "provider": "investors.com",
+      "url": "https://www.investors.com/news/technology/shopify-stock-shop-shopify-earnings-q22026/",
+      "date": null
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "seekingalpha.com: Shopify Q2: More Risks Than Opportunities (NASDAQ:SHOP) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4931797-shopify-q2-more-risks-than-opportunities",
+      "date": null
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "trefis.com: What Shopify Stock Really Asks You To Pay For Its Growth | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/shop/articles/609194/what-shopify-stock-really-asks-you-to-pay-for-its-growth/2026-07-28",
+      "date": null
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "blog.mexc.com: Shopify Stock Outlook 2026: Bull Vs Bear Case For SHOP | MEXC",
+      "provider": "blog.mexc.com",
+      "url": "https://blog.mexc.com/finance/shopify-stock-outlook-bull-vs-bear-case-shop/",
+      "date": "2026-03-28"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "chartmill.com: SHOP Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/SHOP/analyst-ratings",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "deloitte.com: For the 2026-2027 holiday season, US e-commerce sales are forecast to grow 7.5% to 8.4% year-over-year.",
+      "provider": "deloitte.com",
+      "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-forecasts-holiday-retail-sales.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "zipdo.co: In 2026, small business ecommerce revenue is projected to reach $750 billion, driven by mobile and email.",
+      "provider": "zipdo.co",
+      "url": "https://zipdo.co/small-business-ecommerce-statistics/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "pmarketresearch.com: The small business ecommerce software market is projected to grow at a 12.8% CAGR through 2032.",
+      "provider": "pmarketresearch.com",
+      "url": "https://pmarketresearch.com/worldwide-small-business-ecommerce-software-market-research/",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "pymnts.com: Entering Q4 2026, the smallest SMBs have almost no revenue growth cushion versus larger peers.",
+      "provider": "pymnts.com",
+      "url": "https://www.pymnts.com/smbs/2026/smallest-businesses-fall-behind-as-main-street-goes-digital/",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "designloud.com: In 2026, 73% of small businesses use AI marketing tools, up from 41% in 2025.",
+      "provider": "designloud.com",
+      "url": "https://designloud.com/state-of-small-business-marketing-2026/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "SHOP listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SHOP/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

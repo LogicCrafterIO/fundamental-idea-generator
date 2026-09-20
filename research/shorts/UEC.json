@@ -1,0 +1,659 @@
+{
+  "ticker": "UEC",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "US uranium producer using ISR [in-situ recovery] mining, running two of three processing hubs and building a refining and conversion chain.",
+  "catalyst": {
+    "date": "2026-09-24",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 4,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": -0.01,
+      "eps_low": -0.01,
+      "eps_high": -0.01,
+      "revenue_avg": 9000000
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-09",
+        "eps_estimate": -0.01,
+        "eps_actual": -0.07,
+        "surprise_pct": -575.0,
+        "beat": false
+      },
+      {
+        "date": "2026-03-10",
+        "eps_estimate": -0.01,
+        "eps_actual": -0.04,
+        "surprise_pct": -272.0,
+        "beat": false
+      },
+      {
+        "date": "2025-12-10",
+        "eps_estimate": -0.01,
+        "eps_actual": -0.05,
+        "surprise_pct": -262.0,
+        "beat": false
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": -0.04,
+        "eps_actual": -0.07,
+        "surprise_pct": -79.0,
+        "beat": false
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-24 (Thursday, before the open), 4 days out -- from the earnings calendar, consensus EPS -0.01.",
+    "why": "Must show the Burke Hollow ramp turning into revenue; four straight misses say the cost of that ramp is not in the -0.01 consensus."
+  },
+  "reasons": [
+    "Consensus EPS of -0.01 has not been met in any of the last four quarters; the June report missed by 575%.",
+    "At $9.81 the stock pays 240.3x sales for a business with negative EBITDA [earnings before interest, tax, depreciation and amortisation] and a forward PE of -53.51.",
+    "Utilities are short billions of pounds of uranium, yet UEC's EPS is flat year over year at -0.07 and SG&A [selling, general and administrative costs] rose 22.2% quarter over quarter."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "UEC earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/uec/earnings",
+        "date": "2026-09-24"
+      }
+    ],
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for UEC",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/UEC/key-statistics/",
+        "date": "2026-09-20"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "UEC quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/uec/financials",
+        "date": "4/30/2026"
+      },
+      {
+        "id": "S40",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "stifel.wallst.com: As of Sept 2026, utilities are short billions of pounds of uranium they have not bought yet, and the math is getting harder.",
+        "provider": "stifel.wallst.com",
+        "url": "https://www.stifel.wallst.com/research/company/companyNews.asp?docKey=100-246b2837-1&symbol=UEC",
+        "date": "2026-09-03"
+      },
+      {
+        "id": "S41",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "stifel.wallst.com: As of Sept 2026, nuclear fuel demand is climbing at a pace not seen in a generation.",
+        "provider": "stifel.wallst.com",
+        "url": "https://www.stifel.wallst.com/research/company/companyNews.asp?docKey=100-246b2837-1&symbol=UEC",
+        "date": "2026-09-03"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for UEC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/UEC/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for UEC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/UEC/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "UEC quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/uec/financials",
+      "date": "4/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "UEC earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/uec/earnings",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: Is Uranium Energy (UEC) Still Undervalued After Its Nuclear Stock Rebound?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uranium-energy-uec-still-undervalued-130829325.html",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Simply Wall St.: Is Uranium Energy (UEC) Too Pricey After A 413% Five Year Run?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uranium-energy-uec-too-pricey-150618664.html",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Zacks: Is Uranium Energy (UEC) a Buy as Wall Street Analysts Look Optimistic?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uranium-energy-uec-buy-wall-133004333.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Zacks: UEC Gears Up to Report Q4 Earnings: What's in Store for the Stock?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uec-gears-report-q4-earnings-163200407.html",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Prediction: $1,000 in Uranium Energy Corp Will Be Worth This Much in 5 Years",
+      "provider": null,
+      "url": "/articles/prediction-1000-uranium-energy-corp-will-be-worth-much-5-years",
+      "date": "Aug 10, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Uranium Energy vs. Oklo: Which Nuclear Fuel Play Wins in 2026?",
+      "provider": null,
+      "url": "/articles/uranium-energy-vs-oklo-which-nuclear-fuel-play-wins-2026",
+      "date": "Aug 10, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Insider Sheds Over 55,000 Shares of North American Uranium Stock",
+      "provider": null,
+      "url": "/articles/insider-sheds-over-55000-shares-north-american-uranium-stock",
+      "date": "Aug 11, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: 2 Nuclear Energy Stocks to Buy Before 2026 Ends",
+      "provider": null,
+      "url": "/articles/2-nuclear-energy-stocks-buy-2026-ends",
+      "date": "Sep 8, 202"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: Cameco vs. Uranium Energy: Which Uranium Stock Wins the Nuclear Restart?",
+      "provider": null,
+      "url": "/articles/cameco-vs-uranium-energy-which-uranium-stock-wins-nuclear-restart",
+      "date": "Aug 10, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "The Motley Fool: 2 Nuclear Stocks to Buy and What Each One Needs to Go Right",
+      "provider": null,
+      "url": "/articles/2-nuclear-stocks-buy-and-what-each-one-needs-go-right",
+      "date": "Aug 19, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "The Motley Fool: 2 Uranium Stocks to Buy Before the Next Nuclear Supercycle",
+      "provider": null,
+      "url": "/articles/2-uranium-stocks-buy-next-nuclear-supercycle",
+      "date": "Aug 26, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: NuScale Power Deploys AI to Accelerate Next-Generation Nuclear SMRs",
+      "provider": null,
+      "url": "/articles/nuscale-power-deploys-ai-accelerate-next-generation-nuclear-smrs",
+      "date": "Aug 26, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "BNK Invest: Friday's ETF Movers: PABU, URA",
+      "provider": null,
+      "url": "/articles/fridays-etf-movers-pabu-ura",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: LEU's Q2 Earnings Beat, Revenues up Y/Y on Strong Uranium Sales",
+      "provider": null,
+      "url": "/articles/leus-q2-earnings-beat-revenues-y-y-strong-uranium-sales",
+      "date": "Aug 6, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: The Best 3 Nuclear Energy Stocks to Buy and Hold for 2030 and Beyond",
+      "provider": null,
+      "url": "/articles/best-3-nuclear-energy-stocks-buy-and-hold-2030-and-beyond",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Fintel: Jefferies Initiates Coverage of Uranium Energy (UEC) at Hold",
+      "provider": null,
+      "url": "/articles/jefferies-initiates-coverage-uranium-energy-uec-hold",
+      "date": "Sep 3, 202"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "24/7 Wall St.: NuScale Power Tumbles 7% Despite Deploying AI Tools, Oklo Slides 6%, Uranium Energy Dips",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/08/26/nuscale-power-tumbles-7-despite-deploying-ai-tools-oklo-slides-6-uranium-energy-dips/",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "24/7 Wall St.: NuScale Power Rises 4%, Oklo Climbs 3% as Risk Appetite Returns, Uranium Energy Ticks Up",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/08/27/nuscale-power-rises-4-oklo-climbs-3-as-risk-appetite-returns-uranium-energy-ticks-up/",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Zacks: NuScale Advances Key Safety Component Toward SMR Commercialization",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/nuscale-advances-key-safety-component-163000127.html",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "GuruFocus.com: Uranium Energy Rose as Jefferies Started Coverage",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uranium-energy-rose-jefferies-started-121900247.html",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "Motley Fool: BWX Technologies Already Builds Reactors for the Navy. Why Is It Still the Cheapest Nuclear Stock?",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/investing/2026/09/06/bwx-technologies-already-builds-reactors-for-the-n/",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Investing.com: Russia accuses Ukraine of Zaporizhzhia fuel attack as Odesa strikes continue",
+      "provider": "yahoo.com",
+      "url": "https://www.yahoo.com/news/world/articles/russia-accuses-ukraine-zaporizhzhia-fuel-090755823.html",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "au.investing.com: Uranium Energy Price Forecast & Price Prediction (UEC) - Investing.com AU",
+      "provider": "au.investing.com",
+      "url": "https://au.investing.com/equities/uranium-energy-corp-consensus-estimates",
+      "date": null
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "everyticker.com: UEC's American Uranium Gambit: Vertical Integration Dreams Meet Operational Reality (NYSE:UEC) - UEC Analysis - EveryTicker",
+      "provider": "everyticker.com",
+      "url": "https://everyticker.com/quote/UEC/analysis/uec-s-american-uranium-gambit-vertical-integration-dreams-meet-operational-reality-nyse-uec",
+      "date": null
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "flash.stocksentinel.ai: Uranium Energy Corp. (UEC) Stock Research Report | Flash",
+      "provider": "flash.stocksentinel.ai",
+      "url": "https://flash.stocksentinel.ai/research/UEC",
+      "date": "2021-12-01"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "quartr.com: Uranium Energy (UEC) Q3 2026 Summary | Quartr",
+      "provider": "quartr.com",
+      "url": "https://quartr.com/events/uranium-energy-corp-uec-q3-2026_F4mvHoRt",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "merlintrader.com: Uranium Energy Corp. (NYSE American: $UEC): America's ISR Uranium Restart, Burke Hollow, Christensen Ranch And The Nuclear Fuel Chain Bet - Merlintrader Trading Pub",
+      "provider": "merlintrader.com",
+      "url": "https://www.merlintrader.com/uranium-energy-corp-uec-deep-dive-2026/",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "circlfi.com: UEC Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/uec-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "tipranks.com: Uranium Energy (UEC) Set for Near 9% Move After Q4 Earnings, Say Option Traders - TipRanks.com",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/news/uranium-energy-uec-set-for-near-9-move-after-q4-earnings-say-option-traders",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: Uranium Energy (UEC) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/uec/forecast/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "rockflow.ai: UEC Stock Forecast & Price Target 2026 | Is UEC a Good Stock to Buy? | RockFlow",
+      "provider": "rockflow.ai",
+      "url": "https://rockflow.ai/stocks/uec",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "simplywall.st: Uranium Energy (UEC) Pushes Its US Refining Narrative, Is The Stock Still Cheap? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/energy/nysemkt-uec/uranium-energy/news/uranium-energy-uec-pushes-its-us-refining-narrative-is-the-s",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "tickernerd.com: UEC Stock Forecast 2026-2027 - Uranium Energy Corp. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/uec-forecast/",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "defenseworld.net: Uranium Energy (UEC) to Post Earnings on Thursday - Defense World",
+      "provider": "defenseworld.net",
+      "url": "https://www.defenseworld.net/2026/09/17/uranium-energy-uec-to-post-earnings-on-thursday.html",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "sec.gov: ex_974249.htm",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1334933/000143774926020021/ex_974249.htm",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "stifel.wallst.com: As of Sept 2026, utilities are short billions of pounds of uranium they have not bought yet, and the math is getting harder.",
+      "provider": "stifel.wallst.com",
+      "url": "https://www.stifel.wallst.com/research/company/companyNews.asp?docKey=100-246b2837-1&symbol=UEC",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "stifel.wallst.com: As of Sept 2026, nuclear fuel demand is climbing at a pace not seen in a generation.",
+      "provider": "stifel.wallst.com",
+      "url": "https://www.stifel.wallst.com/research/company/companyNews.asp?docKey=100-246b2837-1&symbol=UEC",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "stifel.wallst.com: As of Sept 2026, the global uranium market is projected to reach $13.59 billion by 2033.",
+      "provider": "stifel.wallst.com",
+      "url": "https://www.stifel.wallst.com/research/company/companyNews.asp?docKey=100-246b2837-1&symbol=UEC",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "world-nuclear.org: As of Sept 2026, nuclear energy entered 2026 with renewed growth and stronger policy support.",
+      "provider": "world-nuclear.org",
+      "url": "https://world-nuclear.org/our-association/publications/world-nuclear-outlook-report/world-nuclear-outlook-report-2026-full-document",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "woodmac.com: As of Aug 2026, AI-driven 24/7 power demand is set to rapidly expand the nuclear industry.",
+      "provider": "woodmac.com",
+      "url": "https://www.woodmac.com/news/opinion/rising-demand-for-nuclear-fuels-security-supply-and-the-ai-power-boom/",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "S45",
+      "kind": "options",
+      "ref": "options",
+      "label": "UEC listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/UEC/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 9.81,
+    "market_cap": "4.85B",
+    "fwd_pe": -53.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 240.3,
+    "eps_trend": "up over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 2 down over last 30 days",
+    "extra": [
+      "Last quarter earnings before interest and tax increasing 291% quarter over quarter (4/30/2026)",
+      "Last quarter net income increasing 276% quarter over quarter (4/30/2026)",
+      "EPS flat year over year, -0.07 -> -0.07"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 9.0,
+        "qty": 44,
+        "underlying": 9.81,
+        "multiplier": 100,
+        "price": 1.01,
+        "total": 4444.0,
+        "open_interest": 380
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 9.0,
+        "qty": 16,
+        "underlying": 9.81,
+        "multiplier": 100,
+        "price": 0.34,
+        "total": -544.0,
+        "open_interest": 3347
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-24 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "Conservative credit ratio is 8.3%, under the 10% floor, so sell about four more October puts to clear it. That still leaves 44 long puts against roughly 20 short, so the position stays long the downside. The risk is a bid for the stock on the print, which option traders are pricing at a near 9% move."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 7,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 0,
+      "contradicted": 3,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 0,
+        "adverse": 5,
+        "trends_available": 5,
+        "trends_used": [
+          "billion",
+          "billions",
+          "pounds",
+          "short",
+          "utilities"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 0,
+        "adverse": 5,
+        "trends_available": 5,
+        "trends_used": []
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "buildout",
+          "burke",
+          "capping",
+          "hollow",
+          "nearly",
+          "offset",
+          "reactor",
+          "retirements",
+          "startups"
+        ]
+      }
+    ]
+  }
+}

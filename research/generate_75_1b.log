@@ -1,0 +1,34 @@
+2026-09-20T09:42:35+08:00
+cmd: fig generate 23 tickers (screen list, under $75 and >= $1B), --jobs 8 --samples 3
+generating 23 ticker(s) with 8 parallel jobs
+[NFLX] research/longs/NFLX.md  score 90/100
+[KBH] research/longs/KBH.md  score 95/100
+[MLKN] research/longs/MLKN.md  score 100/100
+[KMX] research/longs/KMX.md  score 95/100
+[SNY] research/longs/SNY.md  score 100/100
+[SA] research/longs/SA.md  score 100/100
+[SAN] research/longs/SAN.md  score 100/100
+[T] research/longs/T.md  score 100/100
+[NVO] research/longs/NVO.md  score 95/100
+[HUBG] research/longs/HUBG.md  score 85/100
+[VFS] research/longs/VFS.md  score 85/100
+[IDT] research/longs/IDT.md  score 100/100
+[MUFG] research/longs/MUFG.md  score 85/100
+[CNXC] research/shorts/CNXC.md  score 100/100
+[WOR] research/shorts/WOR.md  score 85/100
+[VZ] research/shorts/VZ.md  score 100/100
+[CCL] research/shorts/CCL.md  score 100/100
+[MANU] research/shorts/MANU.md  score 90/100
+[THO] research/shorts/THO.md  score 85/100
+[BAC] research/shorts/BAC.md  score 85/100
+[ANAB] research/shorts/ANAB.md  score 85/100
+[UEC] research/shorts/UEC.md  score 85/100
+[TBN] research/shorts/TBN.md  score 95/100
+
+index: research/README.md
+
+real	61m43.237s
+user	0m30.029s
+sys	0m1.015s
+EXIT=0
+2026-09-20T10:44:18+08:00

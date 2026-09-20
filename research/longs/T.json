@@ -1,0 +1,754 @@
+{
+  "ticker": "T",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "US telecom: wireless, fiber broadband and legacy phone lines, now growing through closed fiber and spectrum deals.",
+  "catalyst": {
+    "date": "2026-10-21",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 31,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.60352,
+      "eps_low": 0.565,
+      "eps_high": 0.64,
+      "revenue_avg": 31666838610
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-22",
+        "eps_estimate": 0.59,
+        "eps_actual": 0.65,
+        "surprise_pct": 10.49,
+        "beat": true
+      },
+      {
+        "date": "2026-04-22",
+        "eps_estimate": 0.55,
+        "eps_actual": 0.57,
+        "surprise_pct": 3.42,
+        "beat": true
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.52,
+        "surprise_pct": 11.58,
+        "beat": true
+      },
+      {
+        "date": "2025-10-22",
+        "eps_estimate": 0.54,
+        "eps_actual": 0.54,
+        "surprise_pct": 0.45,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-21 (Wednesday, before the open), 31 days out -- from the earnings calendar, consensus EPS 0.6.",
+    "why": "Q3 must show wireless service revenue growing and margins holding at Q2's record level, not the Q1 negative-growth, high-churn reading."
+  },
+  "reasons": [
+    "Because industry postpaid service revenue fell in Q1 2026 and churn stayed above normal, AT&T's Q2 EPS rising to 0.65 from 0.54 and net income rising 21% shows the pressure has not reached reported numbers.",
+    "Because US operators cut device subsidies in Q2 2026 and posted record margins while growing volume, with service revenue growth the strongest of the 5G cycle, AT&T's wireless margin gets the same lift.",
+    "The market prices it as shrinking -- 8.2 times earnings against an S&P 500 median of 23.0 -- and that gap closes only if the closed fiber and spectrum deals show up as revenue growth rather than integration cost."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S43",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "chetansharma.com: In Q1 2026, US postpaid service revenues saw negative growth for the first time in the 5G cycle.",
+        "provider": "chetansharma.com",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+        "date": null
+      },
+      {
+        "id": "S44",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "chetansharma.com: In Q1 2026, US wireless churn remained stubbornly high above the old normal threshold.",
+        "provider": "chetansharma.com",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+        "date": null
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "T quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/t/financials",
+        "date": "6/30/2026"
+      }
+    ],
+    [
+      {
+        "id": "S46",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "chetansharma.com: In Q2 2026, US operators cut device subsidies and posted record margins while growing volume.",
+        "provider": "chetansharma.com",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+        "date": null
+      },
+      {
+        "id": "S47",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "chetansharma.com: In Q2 2026, US wireless service revenue growth returned to the strongest reading of the 5G cycle.",
+        "provider": "chetansharma.com",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S40",
+        "kind": "ollama_search",
+        "ref": "web:12",
+        "label": "trefis.com: Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis",
+        "provider": "trefis.com",
+        "url": "https://www.trefis.com/stock/t/articles/614687/why-does-att-stock-still-trade-like-it-is-shrinking/2026-09-09",
+        "date": "2026-12-01"
+      },
+      {
+        "id": "S26",
+        "kind": "nasdaq",
+        "ref": "news:21",
+        "label": "MarketBeat: AT&T Sees Fiber, Spectrum Deals Fueling Accelerated Growth and Shareholder Returns",
+        "provider": null,
+        "url": "/articles/att-sees-fiber-spectrum-deals-fueling-accelerated-growth-and-shareholder-returns",
+        "date": "Sep 10, 20"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for T",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/T/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for T",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/T/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "T quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/t/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "T earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/t/earnings",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: AT&T (T) Could Be 13% Undervalued Following Plan Price Hikes And New Perks",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-t-could-13-undervalued-221708077.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Stocktwits: ASTS Retail Sentiment Nears 1-Year Low As SpaceX Turns Up The Heat In Global Mobile Race",
+      "provider": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/asts-retail-sentiment-1-year-low-spacex-turns-up-heat-global-mobile-race/cZtulTMRB33",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "24/7 Wall St.: T-Mobile\u2019s $85 Billion Debt Load Won\u2019t Feel the Fed\u2019s Rate Hike the Way Wall Street Thinks",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/18/t-mobiles-85-billion-debt-load-wont-feel-the-feds-rate-hike-the-way-wall-street-thinks/",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Trefis: How Much Further Can T-Mobile Stock Fall From Here?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615852/how-much-further-can-t-mobile-stock-fall-from-here/2026-09-18",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "ref": "news:4",
+      "label": "Trefis: Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615856/is-verizon-stock-cheap-or-is-its-cash-already-spoken-for/2026-09-18",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "ref": "news:5",
+      "label": "Barrons.com: The 3 Tech Laggards Are Top Stock Picks, UBS Says",
+      "provider": "barrons.com",
+      "url": "https://www.barrons.com/articles/palantir-at-t-spotify-stocks-ubs-b8b42890?siteid=yhoof2&yptr=yahoo",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "ref": "news:6",
+      "label": "TheStreet: AT&T launches free healthcare perk for customers",
+      "provider": "thestreet.com",
+      "url": "https://www.thestreet.com/retail/att-launches-free-lifemd-healthcare-perk-for-customers",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S12",
+      "kind": "yahoo",
+      "ref": "news:7",
+      "label": "Simply Wall St.: 3 Stocks Linked To California Wealth Tax Spending Investors Should Watch",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-linked-california-wealth-181043824.html",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: AT&T (T) Ascends While Market Falls: Some Facts to Note",
+      "provider": null,
+      "url": "/articles/att-t-ascends-while-market-falls-some-facts-note",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "NASDAQ.com: After Hours Most Active for Sep 11, 2026 :  KHC, ACWX, PATH, TSLL, GRAB, F, LEGN, AAPL, XPEV, KVUE, T, BMNR",
+      "provider": null,
+      "url": "/articles/after-hours-most-active-sep-11-2026-khc-acwx-path-tsll-grab-f-legn-aapl-xpev-kvue-t-bmnr",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: AST SpaceMobile vs. Jabil: Which Connectivity Stock is a Better Buy?",
+      "provider": null,
+      "url": "/articles/ast-spacemobile-vs-jabil-which-connectivity-stock-better-buy",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "BNK Invest: Notable ETF Outflow Detected - PWV, T, PEP, F",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-pwv-t-pep-f",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: AT&T vs. Nokia: Which Telecom Stock Is the Better Buy Now?",
+      "provider": null,
+      "url": "/articles/att-vs-nokia-which-telecom-stock-better-buy-now",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "The Motley Fool: Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These 3 Fantastic Dividend Stocks Yielding 3.3% to 5.5%.",
+      "provider": null,
+      "url": "/articles/forget-president-donald-trumps-5000-dividend-promise-investors-can-start-earning-passive",
+      "date": "Sep 13, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: Here's Why I Think AT&T Stock Could Be a No-Brainer Buy Right Now",
+      "provider": null,
+      "url": "/articles/heres-why-i-think-att-stock-could-be-no-brainer-buy-right-now",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Zacks: Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth?",
+      "provider": null,
+      "url": "/articles/can-verizons-6g-acceleration-initiatives-and-ai-trials-drive-growth",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S21",
+      "kind": "nasdaq",
+      "ref": "news:16",
+      "label": "Zacks: Is Most-Watched Stock AT&T Inc. (T) Worth Betting on Now?",
+      "provider": null,
+      "url": "/articles/most-watched-stock-att-inc-t-worth-betting-now-0",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S22",
+      "kind": "nasdaq",
+      "ref": "news:17",
+      "label": "The Motley Fool: The Simple Reason AT&T Isn't Too Concerned About SpaceX's Starlink Business",
+      "provider": null,
+      "url": "/articles/simple-reason-att-isnt-too-concerned-about-spacexs-starlink-business",
+      "date": "Sep 15, 20"
+    },
+    {
+      "id": "S23",
+      "kind": "nasdaq",
+      "ref": "news:18",
+      "label": "Zacks: AT&T Teams Up With LifeMD for Virtual Health Care: Can it Aid Shares?",
+      "provider": null,
+      "url": "/articles/att-teams-lifemd-virtual-health-care-can-it-aid-shares",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S24",
+      "kind": "nasdaq",
+      "ref": "news:19",
+      "label": "NASDAQ.com: After Hours Most Active for Sep 17, 2026 :  NU, NVDA, INTC, NOK, T, PFE, PGEN, AAL, BAC, GRAB, CZR, PCG",
+      "provider": null,
+      "url": "/articles/after-hours-most-active-sep-17-2026-nu-nvda-intc-nok-t-pfe-pgen-aal-bac-grab-czr-pcg",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S25",
+      "kind": "nasdaq",
+      "ref": "news:20",
+      "label": "Barchart: Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall",
+      "provider": null,
+      "url": "/articles/stocks-settle-sharply-higher-crude-oil-and-bond-yields-fall",
+      "date": "Sep 18, 20"
+    },
+    {
+      "id": "S26",
+      "kind": "nasdaq",
+      "ref": "news:21",
+      "label": "MarketBeat: AT&T Sees Fiber, Spectrum Deals Fueling Accelerated Growth and Shareholder Returns",
+      "provider": null,
+      "url": "/articles/att-sees-fiber-spectrum-deals-fueling-accelerated-growth-and-shareholder-returns",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S27",
+      "kind": "nasdaq",
+      "ref": "news:22",
+      "label": "Zacks: AT&T (T) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "provider": null,
+      "url": "/articles/att-t-sees-more-significant-dip-broader-market-some-facts-know",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "au.finance.yahoo.com: AT&T Inc. (T) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "au.finance.yahoo.com",
+      "url": "https://au.finance.yahoo.com/quote/T/analysis/",
+      "date": null
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "businessquant.com: At&T Inc. (T) Analyst Estimates - Revenue & EPS",
+      "provider": "businessquant.com",
+      "url": "https://businessquant.com/stocks/t/estimates/",
+      "date": null
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "247wallst.com: AT&T Stock Price Prediction: Bull and Bear Case - 24/7 Wall St.",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/04/20/att-stock-price-prediction-bull-and-bear-case/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "sec.gov: t-20260630",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000297/t-20260630.htm",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "sec.gov: Document",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000294/t-2q2026exhibit991.htm",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "morningstar.com: AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260722da09771/att-delivers-strong-second-quarter-results-as-investment-led-strategy-gains-momentum",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "morningstar.com: After Earnings, Is AT&T Stock a Buy, a Sell, or Fairly Valued? | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/after-earnings-is-att-stock-buy-sell-or-fairly-valued-10",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "deepresearchglobal.com: AT&T (T) - Fundamental Analysis Report 2026",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/att-t-fundamental-analysis-report",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "everyticker.com: AT&T Reports Q2\u202f2026 Earnings, Beats Estimates on Strong Subscriber Growth - T News - EveryTicker",
+      "provider": "everyticker.com",
+      "url": "https://everyticker.com/quote/T/news/att-reports-q2-2026-earnings-beats-estimates-on-strong-subscriber-growth",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "stockanalysis.com: AT&T Inc. (T) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/t/forecast/",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "tickernerd.com: T Stock Forecast 2026-2027 - AT&T, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/t-forecast/",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "earningscalls.dev: AT&T Inc. (T) Earnings Call Transcript & Summary",
+      "provider": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/atandt-inc_t_earnings_call_transcript_2026-09-09",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "trefis.com: Why Does AT&T Stock Still Trade Like It Is Shrinking? | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/t/articles/614687/why-does-att-stock-still-trade-like-it-is-shrinking/2026-09-09",
+      "date": "2026-12-01"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "trefis.com: What Could Go Wrong For AT & T Stock | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/t/articles/608736/what-could-go-wrong-for-at-t-stock/2026-07-24",
+      "date": "2026-12-01"
+    },
+    {
+      "id": "S42",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "investing.com: AT&T (T) Stock Forecast & Price Target - Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/equities/at-t-consensus-estimates",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "chetansharma.com: In Q1 2026, US postpaid service revenues saw negative growth for the first time in the 5G cycle.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+      "date": null
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "chetansharma.com: In Q1 2026, US wireless churn remained stubbornly high above the old normal threshold.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+      "date": null
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "chetansharma.com: In Q1 2026, US wireless promotional discipline was holding but incentives to break it remained.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+      "date": null
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "chetansharma.com: In Q2 2026, US operators cut device subsidies and posted record margins while growing volume.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+      "date": null
+    },
+    {
+      "id": "S47",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "chetansharma.com: In Q2 2026, US wireless service revenue growth returned to the strongest reading of the 5G cycle.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+      "date": null
+    },
+    {
+      "id": "S48",
+      "kind": "options",
+      "ref": "options",
+      "label": "T listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/T/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 25.4,
+    "market_cap": "174.05B",
+    "fwd_pe": 10.9,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.4,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 15 up and 3 down over last 30 days",
+    "extra": [
+      "Last quarter cash and cash equivalents increasing 47% quarter over quarter (6/30/2026)",
+      "Last quarter net income applicable to common shareholders increasing 21% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.54 -> 0.65"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 26.0,
+        "qty": 55,
+        "underlying": 25.4,
+        "multiplier": 100,
+        "price": 0.81,
+        "total": 4455.0,
+        "open_interest": 4043
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 26.0,
+        "qty": 16,
+        "underlying": 25.4,
+        "multiplier": 100,
+        "price": 0.35,
+        "total": -560.0,
+        "open_interest": 15636
+      }
+    ],
+    "thesis_target": "Targets the 2026-10-21 report, with the long leg expiring 2026-11-20, which gives the thesis time to show up.",
+    "reflection": "The short call expires 2026-10-16, five days before the print, so the 11.6% credit is banked before the event and the long call carries the whole position through it. That is a clean way to be paid to hold the catalyst, but it means the floor test is about the long call's premium, not the spread."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 64,
+        "errors": 2,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 49,
+        "errors": 2,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 59,
+        "errors": 2,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 6,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 6,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "churn",
+          "cycle",
+          "device",
+          "normal",
+          "operators",
+          "posted",
+          "postpaid",
+          "record",
+          "service",
+          "strongest",
+          "subsidies",
+          "volume"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "competition",
+          "starlink",
+          "subscriber",
+          "subscribers"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 82,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "build",
+          "discipline",
+          "disciplined",
+          "economics",
+          "integration",
+          "lumen",
+          "morningstar",
+          "pricing",
+          "subscriber",
+          "supporting",
+          "targets"
+        ]
+      }
+    ]
+  }
+}

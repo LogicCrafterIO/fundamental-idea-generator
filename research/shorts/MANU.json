@@ -1,0 +1,695 @@
+{
+  "ticker": "MANU",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Owns and runs Manchester United football club; revenue from Premier League broadcast, sponsorship, apparel and matchday.",
+  "catalyst": {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 3,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": -0.3,
+      "eps_low": -0.3,
+      "eps_high": -0.3,
+      "revenue_avg": 145000000
+    },
+    "recent_reports": [
+      {
+        "date": "2026-05-27",
+        "eps_estimate": -0.04,
+        "eps_actual": 0.03,
+        "surprise_pct": 173.5,
+        "beat": true
+      },
+      {
+        "date": "2026-02-25",
+        "eps_estimate": 0.07,
+        "eps_actual": 0.02,
+        "surprise_pct": -65.86,
+        "beat": false
+      },
+      {
+        "date": "2025-12-11",
+        "eps_estimate": 0.06,
+        "eps_actual": -0.01,
+        "surprise_pct": -124.67,
+        "beat": false
+      },
+      {
+        "date": "2025-09-17",
+        "eps_estimate": -0.07,
+        "eps_actual": -0.03,
+        "surprise_pct": 54.86,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-23 (Wednesday, before the open), 3 days out -- from the earnings calendar, consensus EPS -0.3.",
+    "why": "The report must show cost cuts and Champions League money failing to reach the bottom line; another loss is what the short needs."
+  },
+  "reasons": [
+    "Because the 2025-29 UK TV deal halted domestic rights growth, the central distributions that fund the club are capped, so the 179x next-year earnings multiple has nothing to grow into.",
+    "The Q3 beat came against a bar of -\u00a30.04, and the two quarters before missed by 65.9% and 124.7%, so the beat streak is noise and FY consensus is still a loss of -0.26.",
+    "The stock is up 31.5% in a year, but the cash rebound comes from selling future transfer fees, so the improvement cannot repeat and the next accounts give it back."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for MANU",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/MANU/key-statistics/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S43",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "football-finance.com: Premier League central distributions in 2026/27 remain about \u00a33bn, supporting Manchester United's broadcast revenue.",
+        "provider": "football-finance.com",
+        "url": "https://football-finance.com/how-premier-league-tv-money-is-distributed-in-2026-27/",
+        "date": "2026-08-03"
+      },
+      {
+        "id": "S44",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "footballbenchmark.com: The 2025-29 UK TV deal, announced in 2023, shows a halt in domestic rights growth, pressuring future media revenue.",
+        "provider": "footballbenchmark.com",
+        "url": "https://footballbenchmark.com/w/tv-rights-behind-the-premier-league-s-latest-deal",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for MANU",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/MANU/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "MANU earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/manu/earnings",
+        "date": "2026-09-23"
+      }
+    ],
+    [
+      {
+        "id": "S41",
+        "kind": "ollama_search",
+        "ref": "web:12",
+        "label": "ts2.tech: Manchester United Stock Gains 32%, but Cash Rebound Taps Future Transfer Fees",
+        "provider": "ts2.tech",
+        "url": "https://ts2.tech/en/manchester-united-stock-gains-32-but-cash-rebound-taps-future-transfer-fees/",
+        "date": "2026-09-06"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for MANU",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MANU/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for MANU",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MANU/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "MANU quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/manu/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "MANU earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/manu/earnings",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Insider Monkey: Why Gabelli\u2019s International Small Cap Fund Likes Manchester United plc (MANU)",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-gabelli-international-small-cap-133513161.html",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Simply Wall St.: Manchester United (MANU) Stock Looks Fully Valued As Shares Climb 32%",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/manchester-united-manu-stock-looks-001455890.html",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Simply Wall St.: What Is Drawing Fresh Attention To Manchester United (MANU)?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/drawing-fresh-attention-manchester-united-050620346.html",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "RTTNews: Manchester United Slips To Loss Q1; Reiterates Full-year Outlook",
+      "provider": null,
+      "url": "/articles/manchester-united-slips-loss-q1-reiterates-full-year-outlook",
+      "date": "Dec 11, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Wall Street Analysts Believe Manchester United (MANU) Could Rally 29.31%: Here's is How to Trade",
+      "provider": null,
+      "url": "/articles/wall-street-analysts-believe-manchester-united-manu-could-rally-2931-heres-how-trade",
+      "date": "Jul 2, 202"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "RTTNews: Manchester United Q3 Adj. EBITDA Rises; Increases FY26 Guidance",
+      "provider": null,
+      "url": "/articles/manchester-united-q3-adj-ebitda-rises-increases-fy26-guidance",
+      "date": "May 27, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "RTTNews: Manchester United Q4 Loss Sharply Narrows",
+      "provider": null,
+      "url": "/articles/manchester-united-q4-loss-sharply-narrows",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: 1 Spectacular Growth Stock Down 50% to Buy Hand Over Fist",
+      "provider": null,
+      "url": "/articles/1-spectacular-growth-stock-down-50-buy-hand-over-fist",
+      "date": "Aug 9, 202"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: LiveOne Teams Up With Synervoz to Boost Voice AI and Expand B2B Deals",
+      "provider": null,
+      "url": "/articles/liveone-teams-synervoz-boost-voice-ai-and-expand-b2b-deals",
+      "date": "Jul 4, 202"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Buy 5 Leisure and Recreation Stocks Amid Solid Short-Term Price Upside",
+      "provider": null,
+      "url": "/articles/buy-5-leisure-and-recreation-stocks-amid-solid-short-term-price-upside",
+      "date": "Jul 8, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: LiveOne's Slacker Radio Taps Intuizi to Drive Subscriber Growth",
+      "provider": null,
+      "url": "/articles/liveones-slacker-radio-taps-intuizi-drive-subscriber-growth",
+      "date": "Jul 9, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: The Zacks Analyst Blog Highlights Carnival, Manchester United, Marcus, Madison Square Garden Sports and Pursuit Attractions and Hospitality",
+      "provider": null,
+      "url": "/articles/zacks-analyst-blog-highlights-carnival-manchester-united-marcus-madison-square-garden",
+      "date": "Jul 9, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "BNK Invest: Tuesday Sector Laggards: Agriculture & Farm Products, Sporting Goods & Activities",
+      "provider": null,
+      "url": "/articles/tuesday-sector-laggards-agriculture-farm-products-sporting-goods-activities",
+      "date": "Sep 2, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Narrowly Mixed Ahead of FOMC Decision",
+      "provider": null,
+      "url": "/articles/stocks-narrowly-mixed-ahead-fomc-decision",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Barchart: The Federal Reserve Cuts Interest Rate by a Quarter-Percentage-Point, Signals 2 More Before the End of the Year",
+      "provider": null,
+      "url": "/articles/federal-reserve-cuts-interest-rate-quarter-percentage-point-signals-2-more-end-year",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Barchart: Stocks Settle Mixed on Hawkish Fed Chair Powell Comments",
+      "provider": null,
+      "url": "/articles/stocks-settle-mixed-hawkish-fed-chair-powell-comments",
+      "date": "Sep 18, 20"
+    },
+    {
+      "id": "S21",
+      "kind": "nasdaq",
+      "ref": "news:16",
+      "label": "Fintel: Manchester United (MANU) Price Target Increased by 15.32% to 23.29",
+      "provider": null,
+      "url": "/articles/manchester-united-manu-price-target-increased-1532-2329",
+      "date": "Sep 30, 20"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Proactive: Manchester United secures majority of land for planned stadium in major de-risking step, says Jefferies",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1094287/manchester-united-secures-majority-of-land-for-planned-stadium-in-major-de-risking-step-says-jefferies-1094287.html",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Barchart: World Cup Mayhem Makes Manchester United Options Investors Go Wild",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/3003810/world-cup-mayhem-makes-manchester-united-options-investors-go-wild",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "MarketBeat: Manchester United\u2019s Stock Rally Faces a Test Beyond Old Trafford",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/articles/manchester-uniteds-stock-rally-faces-a-test-beyond-old-trafford/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "MarketBeat: MarketBeat Week in Review \u2013 06/29 - 07/03",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/articles/marketbeat-week-in-review-06-29-07-03/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Benzinga Private Markets: Elon Musk Joked About Buying Manchester United \u2014 Now Jeff Bezos Is Buying Into Its Biggest Rival",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/news/sports/26/08/61083632/elon-musk-joked-about-buying-manchester-united-now-jeff-bezos-is-buying-into-its-biggest-rival?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "S27",
+      "kind": "yahoo",
+      "ref": "news:22",
+      "label": "Exec Edge: Enhanced Games Reinforce Audience & Sponsorship, Focus Shifts to Live Enhanced Conversion \u2013 Quarterly Update Report",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/media-advertising/articles/enhanced-games-reinforce-audience-sponsorship-222428625.html",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "S28",
+      "kind": "yahoo",
+      "ref": "news:23",
+      "label": "Barchart: Dear Manchester United Stock Fans, Mark Your Calendars for August 21",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/3913367/dear-manchester-united-stock-fans-mark-your-calendars-for-august-21",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "nz.finance.yahoo.com: Manchester United plc (MANU) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "nz.finance.yahoo.com",
+      "url": "https://nz.finance.yahoo.com/quote/MANU/analysis/",
+      "date": null
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "chartmill.com: MANU Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/MANU/analyst-ratings",
+      "date": "2024-12-17"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "koalagains.com: Manchester United plc (MANU) Future Performance Analysis (2026)",
+      "provider": "koalagains.com",
+      "url": "https://koalagains.com/stocks/NYSE/MANU/future-performance",
+      "date": "2025-11-04"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "everyticker.com: Manchester United's $7 Billion Stadium Gamble: Can Commercial Resilience Offset Sporting Risk? (NYSE:MANU) - MANU Analysis - EveryTicker",
+      "provider": "everyticker.com",
+      "url": "https://everyticker.com/quote/MANU/analysis/manchester-united-s-7-billion-stadium-gamble-can-commercial-resilience-offset-sporting-risk-nyse-manu",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "investorshub.advfn.com: Manchester United Shares Climb After Earnings Beat and Upgraded Outlook (MANU)",
+      "provider": "investorshub.advfn.com",
+      "url": "https://investorshub.advfn.com/market-news/article/29012/manchester-united-shares-climb-after-earnings-beat-and-upgraded-outlook-manu",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "circlfi.com: MANU Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/manu-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "seekingalpha.com: Manchester United Stock: Recovery Is Already Priced In (NYSE:MANU) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4932873-manchester-united-recovery-is-already-priced-in",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: Manchester United (MANU) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/manu/forecast/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketwatch.com: MANU | Manchester United Ltd. Cl A Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/manu/analystestimates",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "marketscreener.com: (MANU) Manchester United Expects Fiscal 2026 Revenue Range 655M British Pounds to 665M Pounds, vs. FactSet Est of 653.4M Pounds | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/manu-manchester-united-expects-fiscal-2026-revenue-range-655m-british-pounds-to-665m-pounds-vs-f-ce7f5ad3d989f223",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "gabgrowth.com: Manchester United (Deep Dive) - GabGrowth",
+      "provider": "gabgrowth.com",
+      "url": "https://gabgrowth.com/p/manchester-united-deep-dive",
+      "date": "1880-11-20"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "ir.manutd.com: Third Quarter Fiscal 2026 Results",
+      "provider": "ir.manutd.com",
+      "url": "https://ir.manutd.com/~/media/Files/M/Manutd-IR/Governance%20Document/3q-2026-earnings-release.pdf",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "ts2.tech: Manchester United Stock Gains 32%, but Cash Rebound Taps Future Transfer Fees",
+      "provider": "ts2.tech",
+      "url": "https://ts2.tech/en/manchester-united-stock-gains-32-but-cash-rebound-taps-future-transfer-fees/",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "premierleague.com: UK Premier League live rights are locked in through 2028/29 under record deals, supporting club media revenue.",
+      "provider": "premierleague.com",
+      "url": "https://www.premierleague.com/en/news/3807882",
+      "date": null
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "football-finance.com: Premier League central distributions in 2026/27 remain about \u00a33bn, supporting Manchester United's broadcast revenue.",
+      "provider": "football-finance.com",
+      "url": "https://football-finance.com/how-premier-league-tv-money-is-distributed-in-2026-27/",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "footballbenchmark.com: The 2025-29 UK TV deal, announced in 2023, shows a halt in domestic rights growth, pressuring future media revenue.",
+      "provider": "footballbenchmark.com",
+      "url": "https://footballbenchmark.com/w/tv-rights-behind-the-premier-league-s-latest-deal",
+      "date": null
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "mordorintelligence.com: Global sponsorship market is forecast to grow at 5.73% CAGR from 2026 to 2031.",
+      "provider": "mordorintelligence.com",
+      "url": "https://www.mordorintelligence.com/industry-reports/sponsorship-market",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "deloitte.com: By 2026, the sports industry is expanding into a global entertainment, culture and commerce platform.",
+      "provider": "deloitte.com",
+      "url": "https://www.deloitte.com/ca/en/Industries/telecom-media-entertainment/perspectives/2026-global-sports-industry-outlook.html",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "S47",
+      "kind": "options",
+      "ref": "options",
+      "label": "MANU listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MANU/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 19.69,
+    "market_cap": "3.4B",
+    "fwd_pe": -75.7,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 5.0,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 1 down over last 30 days",
+    "extra": [
+      "EPS increased year over year, -0.03 -> 0.03"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 19.0,
+        "qty": 36,
+        "underlying": 19.69,
+        "multiplier": 100,
+        "price": 1.25,
+        "total": 4500.0,
+        "open_interest": 8
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 19.0,
+        "qty": 5,
+        "underlying": 19.69,
+        "multiplier": 100,
+        "price": 1.15,
+        "total": -575.0,
+        "open_interest": 7
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-23 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "Both legs sit at $19, so the spread pays only if the October put expires worthless and the stock then falls before January -- a path, not a direction. Selling two more October puts clears the 10% floor but doubles that path risk."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 57,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 6,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "no-evidence",
+        "contradicts"
+      ],
+      "confirmed": 0,
+      "contradicted": 2,
+      "mixed": 1,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "distribution",
+          "media",
+          "piracy",
+          "service",
+          "threatens"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "no-evidence",
+        "supportive": 0,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "central",
+          "distributions",
+          "domestic",
+          "future",
+          "rights"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 0,
+        "adverse": 5,
+        "trends_available": 5,
+        "trends_used": [
+          "domestic",
+          "future",
+          "locked",
+          "media",
+          "rights",
+          "share",
+          "through"
+        ]
+      }
+    ]
+  }
+}

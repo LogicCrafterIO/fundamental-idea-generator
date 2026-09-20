@@ -1,0 +1,719 @@
+{
+  "ticker": "CNXC",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Outsourced customer service and CX [customer experience] operations for enterprises, now selling AI software alongside the call centres.",
+  "catalyst": {
+    "date": "2026-09-29",
+    "weekday": "Tuesday",
+    "session": "after the close",
+    "days_out": 9,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 2.81
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-29",
+        "eps_estimate": 2.64,
+        "eps_actual": 2.63,
+        "surprise_pct": -0.28,
+        "beat": false
+      },
+      {
+        "date": "2026-03-24",
+        "eps_estimate": 2.65,
+        "eps_actual": 2.61,
+        "surprise_pct": -1.32,
+        "beat": false
+      },
+      {
+        "date": "2026-01-13",
+        "eps_estimate": 2.91,
+        "eps_actual": 2.95,
+        "surprise_pct": 1.37,
+        "beat": true
+      },
+      {
+        "date": "2025-09-25",
+        "eps_estimate": 2.87,
+        "eps_actual": 2.78,
+        "surprise_pct": -3.07,
+        "beat": false
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-29 (Tuesday, after the close), 9 days out -- from the earnings calendar, consensus EPS 2.81.",
+    "why": "Must show AI bookings turning into revenue and margin, not just deal counts, or the shrinking headcount base keeps missing."
+  },
+  "reasons": [
+    "Because 56% of customer service is shifting to agentic AI [AI that acts without a human], and buyers now pay for completed work rather than staffed seats, the billable headcount revenue is built on shrinks.",
+    "Because three of the last four quarters missed consensus and those four total 10.97 EPS against a full-year consensus of 11.2, the bar needs a beat the company delivers once in four tries.",
+    "Because the 2.49 forward PE [price to earnings] is on non-GAAP [adjusted] profit while EV/EBITDA [enterprise value to earnings before interest, tax, depreciation and amortisation] is 5.45, the gap is debt and GAAP profit is lower."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S44",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "syncsoft.ai: In 2026, 56% of customer service is shifting to agentic AI.",
+        "provider": "syncsoft.ai",
+        "url": "https://www.syncsoft.ai/en/blog/generative-ai-bpo-paradox-spending-more-not-less-2026",
+        "date": "2026-04-23"
+      },
+      {
+        "id": "S45",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "hfsresearch.com: By 2026, BPO buying is shifting from staffed capacity to completed work.",
+        "provider": "hfsresearch.com",
+        "url": "https://www.hfsresearch.com/research/bpo-sas-creating-market/",
+        "date": "2026-08-31"
+      },
+      {
+        "id": "S46",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "mascallnet.ai: As of September 2026, enterprise buyers evaluate CX providers on business outcomes, not just labor cost.",
+        "provider": "mascallnet.ai",
+        "url": "https://mascallnet.ai/global-customer-experience-outsourcing-report-2026-ai-bpo-trends-benchmarks-market-insights/",
+        "date": "2026-09-17"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for CNXC",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/CNXC/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S28",
+        "kind": "ollama_search",
+        "ref": "web:1",
+        "label": "finance.yahoo.com: Concentrix Corporation (CNXC) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/quote/CNXC/analysis/",
+        "date": "2026-03-02"
+      }
+    ],
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for CNXC",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/CNXC/key-statistics/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S27",
+        "kind": "ollama_search",
+        "ref": "web:0",
+        "label": "seekingalpha.com: Why I'm Not Buying Concentrix Even At Less Than 3x Earnings (NASDAQ:CNXC) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4885639-concentrix-why-im-not-buying-stock-even-at-less-than-3x-earnings",
+        "date": null
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for CNXC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CNXC/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for CNXC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CNXC/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "CNXC quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/cnxc/financials",
+      "date": "5/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "CNXC earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/cnxc/earnings",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "StockStory: 3 Reasons to Avoid CNXC and 1 Stock to Buy Instead",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-cnxc-1-195700568.html",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "StockStory: Business Process Outsourcing & Consulting Stocks Q2 In Review: Concentrix (NASDAQ:CNXC) Vs Peers",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/business-process-outsourcing-consulting-stocks-093333868.html",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Insider Monkey: Concentrix (CNXC): Can AI Turnaround This Cheap Customer Experience Stock?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/concentrix-cnxc-ai-turnaround-cheap-171001758.html",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "BNK Invest: YieldBoost Concentrix To 36.1% Using Options",
+      "provider": null,
+      "url": "/articles/yieldboost-concentrix-361-using-options",
+      "date": "Aug 3, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: 4 Discounted Dividends Paying Up to 12.6%",
+      "provider": null,
+      "url": "/articles/4-discounted-dividends-paying-126",
+      "date": "Aug 7, 202"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "BNK Invest: Friday 7/10 Insider Buying Report: MWA, CNXC",
+      "provider": null,
+      "url": "/articles/friday-7-10-insider-buying-report-mwa-cnxc",
+      "date": "Jul 10, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "BNK Invest: Daily Dividend Report: GWRS,PBHC,RGCO,CNXC",
+      "provider": null,
+      "url": "/articles/daily-dividend-report-gwrspbhcrgcocnxc",
+      "date": "Jun 30, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Company News for July 1, 2026",
+      "provider": null,
+      "url": "/articles/company-news-july-1-2026",
+      "date": "Jul 1, 202"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Does Innodata's 47% Margin Signal Stronger AI Economics?",
+      "provider": null,
+      "url": "/articles/does-innodatas-47-margin-signal-stronger-ai-economics",
+      "date": "Jul 2, 202"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Can Innodata Ride the Trillion-Dollar AI Spending Wave?",
+      "provider": null,
+      "url": "/articles/can-innodata-ride-trillion-dollar-ai-spending-wave",
+      "date": "Jul 9, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Concentrix Q2 Earnings Call Focuses on AI Push, Margin Path",
+      "provider": null,
+      "url": "/articles/concentrix-q2-earnings-call-focuses-ai-push-margin-path",
+      "date": "Jun 30, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: ABM Industries (ABM) Q3 Earnings and Revenues Beat Estimates",
+      "provider": null,
+      "url": "/articles/abm-industries-abm-q3-earnings-and-revenues-beat-estimates",
+      "date": "Sep 8, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Settle Higher as Chipmakers Rally",
+      "provider": null,
+      "url": "/articles/stocks-settle-higher-chipmakers-rally",
+      "date": "Jul 1, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stock Indexes Supported by Strong Demand for Technology Stocks",
+      "provider": null,
+      "url": "/articles/stock-indexes-supported-strong-demand-technology-stocks",
+      "date": "Jun 30, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Barchart: Signs of Economic Resilience Boost Stocks",
+      "provider": null,
+      "url": "/articles/signs-economic-resilience-boost-stocks",
+      "date": "Jun 30, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "StockStory: 1 Surging  Stock with Impressive Fundamentals and 2 We Question",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-surging-stock-impressive-fundamentals-124500119.html",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "MarketBeat: Concentrix Conference: AI Bookings Surge 400% as Offshoring Pressures Sales",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/concentrix-conference-ai-bookings-surge-400-as-offshoring-pressures-sales-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "StockStory: 3 Unprofitable Stocks with Questionable Fundamentals",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-unprofitable-stocks-questionable-fundamentals-111044571.html",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "StockStory: 3 Russell 2000 Stocks with Open Questions",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-open-221410275.html",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Zacks: Copart, Inc. (CPRT) Lags Q4 Earnings Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/copart-inc-cprt-lags-q4-212501092.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "StockStory: 3 of Wall Street\u2019s Favorite Stocks That Concern Us",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-wall-street-favorite-stocks-231505937.html",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Zacks: SPS Commerce (SPSC) Surges 7.1%: Is This an Indication of Further Gains?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sps-commerce-spsc-surges-7-121100585.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: Why I'm Not Buying Concentrix Even At Less Than 3x Earnings (NASDAQ:CNXC) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4885639-concentrix-why-im-not-buying-stock-even-at-less-than-3x-earnings",
+      "date": null
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "finance.yahoo.com: Concentrix Corporation (CNXC) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/CNXC/analysis/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "benzinga.com: These Analysts Cut Their Forecasts On Concentrix Following Q1 Results - Concentrix (NASDAQ:CNXC) - Benzinga",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/03/51469599/these-analysts-cut-their-forecasts-on-concentrix-following-q1-results",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "simplywall.st: Concentrix (NasdaqGS:CNXC) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-cnxc/concentrix/future",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "circlfi.com: CNXC Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/cnxc-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "seekingalpha.com: Concentrix: Too Cheap To Sell, Too Weak To Buy (NASDAQ:CNXC) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4913153-concentrix-stock-too-cheap-to-sell-too-weak-to-buy",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "finance.yahoo.com: Concentrix Corp (CNXC) Q2 2026 Earnings Call Highlights: Record Cash Flow and Strategic Growth ...",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/concentrix-corp-cnxc-q2-2026-050022341.html",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "news.alphastreet.com: Concentrix (CNXC) Q2 2026 Preview: EPS Est. $2.63, Reports June 29 - Alphastreet",
+      "provider": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/concentrix-cnxc-q2-2026-preview-eps-est-2-63-reports-june-29/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: Concentrix: I'm Not Buying The Dip Following Weak Q2 Earnings (NASDAQ:CNXC) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4918880-concentrix-im-not-buying-the-dip-following-weak-q2-earnings",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "stockanalysis.com: Concentrix (CNXC) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/cnxc/forecast/",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "simplywall.st: Is Concentrix (CNXC) Undervalued After Its Share Price Rebound? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-cnxc/concentrix/news/is-concentrix-cnxc-undervalued-after-its-share-price-rebound",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "stocktitan.net: Concentrix Schedules Sept. 29 Q3 Results, Call | CNXC Stock News",
+      "provider": "stocktitan.net",
+      "url": "https://www.stocktitan.net/news/CNXC/concentrix-schedules-release-of-third-quarter-2026-financial-results-rnn2caapb7qk.html",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "ir.concentrix.com: Concentrix Corporation - Concentrix Reports First Quarter 2026 Results",
+      "provider": "ir.concentrix.com",
+      "url": "https://ir.concentrix.com/news/news-details/2026/Concentrix-Reports-First-Quarter-2026-Results/default.aspx",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "sec.gov: Document",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1803599/000180359926000133/exhibit991q22026.htm",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "marketscreener.com: Concentrix : Second Quarter 2026 Concentrix Reports Second Quarter 2026 Results | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/concentrix-second-quarter-2026-concentrix-reports-second-quarter-2026-results-ce7f5fdfdd8bf324",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "mordorintelligence.com: In 2026-2031, the contact center outsourcing market is forecast to grow at 8.55% CAGR.",
+      "provider": "mordorintelligence.com",
+      "url": "https://www.mordorintelligence.com/industry-reports/contact-center-outsourcing-market",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "syncsoft.ai: In 2026, the BPO market is growing 9.7% to $358B despite rising AI spend.",
+      "provider": "syncsoft.ai",
+      "url": "https://www.syncsoft.ai/en/blog/generative-ai-bpo-paradox-spending-more-not-less-2026",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "syncsoft.ai: In 2026, 56% of customer service is shifting to agentic AI.",
+      "provider": "syncsoft.ai",
+      "url": "https://www.syncsoft.ai/en/blog/generative-ai-bpo-paradox-spending-more-not-less-2026",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "hfsresearch.com: By 2026, BPO buying is shifting from staffed capacity to completed work.",
+      "provider": "hfsresearch.com",
+      "url": "https://www.hfsresearch.com/research/bpo-sas-creating-market/",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "mascallnet.ai: As of September 2026, enterprise buyers evaluate CX providers on business outcomes, not just labor cost.",
+      "provider": "mascallnet.ai",
+      "url": "https://mascallnet.ai/global-customer-experience-outsourcing-report-2026-ai-bpo-trends-benchmarks-market-insights/",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S47",
+      "kind": "options",
+      "ref": "options",
+      "label": "CNXC listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CNXC/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 27.87,
+    "market_cap": "1.7B",
+    "fwd_pe": 2.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.2,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 3 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 156% quarter over quarter (5/31/2026)",
+      "Last quarter earnings before interest and tax increasing 32% quarter over quarter (5/31/2026)",
+      "EPS declined year over year, 2.7 -> 2.63"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "15-Jan-27",
+        "strike": 25.0,
+        "qty": 13,
+        "underlying": 27.87,
+        "multiplier": 100,
+        "price": 3.33,
+        "total": 4329.0,
+        "open_interest": 61
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "16-Oct-26",
+        "strike": 25.0,
+        "qty": 4,
+        "underlying": 27.87,
+        "multiplier": 100,
+        "price": 1.52,
+        "total": -608.0,
+        "open_interest": 684
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-30 report, with the long leg expiring 2027-01-15, which gives the deterioration time to show up.",
+    "reflection": "The 6.8% conservative credit sits under the 10% floor, so sell the two extra October 25 puts to clear it. The short leg expires 17 days after the print, which makes this a bet on the quarter, not on the calendar."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 5,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 5,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "agent",
+          "agentic",
+          "billable",
+          "buyers",
+          "completed",
+          "enterprise",
+          "headcount",
+          "human",
+          "shifting",
+          "staffed",
+          "three"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "center",
+          "contact",
+          "drains",
+          "guidance",
+          "offshoring",
+          "service",
+          "share"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "client",
+          "deployments",
+          "management",
+          "seats",
+          "september",
+          "service",
+          "shifting",
+          "spend"
+        ]
+      }
+    ]
+  }
+}

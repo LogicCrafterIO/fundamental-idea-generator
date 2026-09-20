@@ -1,0 +1,2716 @@
+{
+  "symbol": "VZ",
+  "as_of": "2026-09-20",
+  "generated_at": "2026-09-20T10:18:04",
+  "profile": {
+    "symbol": "VZ",
+    "name": "Verizon Communications Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "summary": "Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and streaming products and services to consumers, businesses, and governmental entities worldwide. It operates in two segments, Verizon Consumer Group (Consumer) and Verizon Business Group (Business). The Consumer segment provides wireless services across the wireless networks in the United States under the Verizon and TracFone brands and through wholesale and other arrangements; and fixed wireless access (FWA) broadband through its wireless networks, as well as related equipment and devices, such as smartphones, tablets, smartwatches, and other wireless-enabled connected devices. The segment also offers wireline services in the Mid-Atlantic and Northeastern United States, as well as Washington D.C. through its fiber-optic network, Verizon Fios product portfolio, and a copper-based network. The Business segment provides wireless and wireline communications services and products, including FWA and wireline broadband, advanced communication services, corporate networking, security and managed network, local and long-distance voice, and network access services to deliver various IoT services and products to businesses, government customers, and wireless and wireline carriers in the United States and internationally. The company distributes its products and services through direct channels, company-operated stores, digital and omnichannel platforms, indirect agents, business solution resellers, and national retailers. The company was formerly known as Bell Atlantic Corporation and changed its name to Verizon Communications Inc. in June 2000. Verizon Communications Inc. was incorporated in 1983 and is headquartered in New York, New York.",
+    "employees": 97600,
+    "country": "United States",
+    "website": "https://www.verizon.com"
+  },
+  "quants": {
+    "symbol": "VZ",
+    "name": "Verizon Communications Inc.",
+    "price": 48.09,
+    "market_cap": 199803142144,
+    "market_cap_human": "199.8B",
+    "fwd_pe": 9.57,
+    "fwd_pe_1y": 9.11,
+    "fwd_pe_yahoo": 9.108507,
+    "trailing_pe": 12.5234375,
+    "ps": 1.4385194,
+    "ev_ebitda": 7.692,
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "eps_fy_current": 5.02629,
+    "eps_fy_next": 5.27968,
+    "eps_trend": {
+      "change_7d_pct": 0.29,
+      "change_30d_pct": 0.28,
+      "current": 5.02629,
+      "7d_ago": 5.01171,
+      "30d_ago": 5.01242,
+      "text": "slightly up over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 0,
+      "down_7d": 0,
+      "up_30d": 0,
+      "down_30d": 1,
+      "net_30d": -1,
+      "text": "all down, with 0 up and 1 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "next_date": "2026-10-20",
+      "eps_avg": 1.28333,
+      "eps_low": 1.23,
+      "eps_high": 1.38,
+      "revenue_avg": 34819579620
+    },
+    "as_of": "2026-09-20"
+  },
+  "quants_lines": [
+    "Price: 48.09 USD",
+    "Market Cap: 199.8B",
+    "Fwd PE: 9.57",
+    "P/S: 1.4",
+    "EPS trends: slightly up over the last 7 days",
+    "EPS revisions: all down, with 0 up and 1 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1752000.0,
+      "prior": 8366000.0,
+      "change_pct": -79.1,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 3835000.0,
+      "prior": 5045000.0,
+      "change_pct": -24.0,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 8982000.0,
+      "prior": 7633000.0,
+      "change_pct": 17.7,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 7259000.0,
+      "prior": 8724000.0,
+      "change_pct": -16.8,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Long-Term Investments",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 783000.0,
+      "prior": 730000.0,
+      "change_pct": 7.3,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-24T07:00:00-04:00",
+    "current": 1.3,
+    "year_ago": 1.22,
+    "year_ago_period": "2025-07-21T06:00:00-04:00",
+    "change": 0.08,
+    "direction": "increased"
+  },
+  "news": [
+    {
+      "title": "The Cash Machine The Market Put On Sale: VZ | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/vz/articles/611964/the-cash-machine-the-market-put-on-sale-vz-2/2026-08-19",
+      "summary": "The Cash Machine The Market Put On Sale: VZ | Trefis\n\n# The Cash Machine The Market Put On Sale: VZ\n\nAugust 19th, 2026 \u00b7 by Trefis Team\n\nThe market sees a slow-growth telecom giant, but the numbers show a cash-printing machine on sale. Here\u2019s the offer, the risk, and the one number that will settle the debate.\n\nVerizon Communications (VZ) generates free cash equal to 10.0% of its market value each year, while the median S&P 500 company produces just 4.3%. Yet despite that large cash flow, Verizon\u2019s stock has underperformed the broader market over the last twelve months. The question for invest",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi",
+      "publisher": "techi.com",
+      "url": "https://www.techi.com/quote/VZ/forecast/",
+      "summary": "VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi\n\n# Verizon Communications Inc (VZ) Stock Forecast & Analyst Ratings\n\nMedian target, high/low range, buy/hold/sell mix, conviction spread, and bull/base/bear scenarios from the latest analyst data.\n\nSection freshness\n\nPrice Sep 4, 4:00 PM EDT \u00b7 Statements Jun 29, 8:00 PM EDT\n\n## VZ target implies +2.71% from current.\n\nUse this dashboard to see whether Wall Street expects VZ to grow, stall, or drop before you dive into the raw financial data.\n\nPrice target map\n\nToday to 12 months out\n\nData last updated: Sep 4, 2026, 4:00 PM EDT\n\nCurren",
+      "published": "2006-09-06",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Verizon Just Tore Up Its Pricing Playbook. Where VZ Stock Could Go in 2026 | TIKR.com",
+      "publisher": "tikr.com",
+      "url": "https://www.tikr.com/blog/verizon-just-tore-up-its-pricing-playbook-where-vz-stock-could-go-in-2026",
+      "summary": "Verizon Just Tore Up Its Pricing Playbook. Where VZ Stock Could Go in 2026 | TIKR.com\n\n# Verizon Just Tore Up Its Pricing Playbook. Where VZ Stock Could Go in 2026\n\nWiltone Asuncion \u2022 7 minute read\n\nReviewed by: David Hanson\n\nLast updated Jun 23, 2026\n\n@9comeback from Getty Images via Canva \n\n### K ey Stats for Verizon Stock\n\n- Current Price: $45.36\n- Target Price (Mid): ~$70\n- Street Target: ~$52\n- Potential Total Return: ~54%\n- Annualized IRR: ~10% / year\n- Earnings Reaction: +0.30% (April 27, 2026)\n\n## What Happened?\n\nVerizon Communications Inc. (VZ) has spent years asking investors to wait",
+      "published": "2026-06-23",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)",
+      "publisher": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/verizon-vz-fundamental-analysis-report",
+      "summary": "Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)\n\n# Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)\n\nDeep Research Global\n\nJun 26, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nExecutive TL;DR\n\n- Verizon (VZ) closed 2025 with $138.2 billion in revenue, a record dividend streak extending to 19 straight years, and the strongest fourth-quarter postpaid phone net additions in a decade under its newly installed CEO.\n- A leadership reset, the closing of the $20 billion Frontier deal, and a refocused capex plan have reframed the bull case from a slow-growth dividend",
+      "published": "2026-06-26",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "mna"
+      ]
+    },
+    {
+      "title": "Verizon (VZ) Earnings Report Q2 2026 | Beat, EPS & Revenue | 24/7 Wall St.",
+      "publisher": "247wallst.com",
+      "url": "https://247wallst.com/companies/vz/earnings",
+      "summary": "Verizon (VZ) Earnings Report Q2 2026 | Beat, EPS & Revenue | 24/7 Wall St.\n\nNikkei 225 66,125.20 +1.17% \n\n Earnings \n\n Reported Jul 24, 2026 at 7:00 AM ET \u00b7 SEC Source \n\n Q2 26 EPS \n\n $1.30 \n\n BEAT +2.36% \n\n Est. $1.27 \n\n Q2 26 Revenue \n\n $34.25B \n\n vs S&P Since Q2 26 \n\n +11.0% \n\n BEATING MARKET \n\n VZ +14.3% vs S&P +3.3% \n\n## Market Reaction \n\n## Did VZ Beat Earnings? Q2 2026 Results\n\n Verizon Communications delivered a clean beat in Q2 2026, posting adjusted EPS of $1.30 against a consensus estimate of $1.27, a 2.36% positive surprise that extends the telecom giant's winning streak to six con",
+      "published": "2026-07-24",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/vz/transcripts/545470-q2-2026/",
+      "summary": "Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio\n\n# Earnings Call: Q2 2026\n\nJul 24, 2026\n\n Summary\n\nQ2 saw strong growth in mobility and broadband, with improved churn, record adjusted EBITDA margin, and raised guidance for revenue, EPS, and free cash flow. New customer-centric offerings and AI infrastructure deals position the company for multi-year growth.\n\nOperator\n\n Good morning, welcome to Verizon's second quarter 2026 earnings conference call. At this time, all participants have been placed in listen-only mode, the call will be opened for questions following the presentation. Today'",
+      "published": "2026-07-24",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "VZ | Verizon Communications Inc. Analyst Estimates | MarketWatch",
+      "publisher": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/vz/analystestimates",
+      "summary": "VZ | Verizon Communications Inc. Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDow\n-0.51%\n\nS&P 500\n-0.38%\n\nNasdaq\n-0.29%\n\nVIX\n1.47%\n\nGold\n-0.40%\n\nOil\n1.16%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|Dow|53,414.25|-271.86|-0.51%|\n|**|S&P 500|7,718.60|-29.11|-0.38%|\n|**|Nasdaq|26,506.99|-77.07|-0.29%|\n|**|VIX|14.53|0.21|1.47%|\n|**|Gold|4,458.70|-17.90|-0.40%|\n|**|Oil|92.54|1.06|1.16%|\nCreated with Highstock 2.1.810am12pm2pm4pm53,25053,50053,750\nS&P 500 Movers\n* SNDK\n11.9\n\n* KLAC\n7.3\n\n* MRVL\n7.0\n\n* COHR\n6.6\n",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "VZ Stock Forecast 2026-2027 - Verizon Communications, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/vz-forecast/",
+      "summary": "VZ Stock Forecast 2026-2027 - Verizon Communications, Inc. Price Targets & Predictions\n\n# VZ Stock Forecast: Verizon Communications, Inc. Price Predictions for 2026-2027\n\nLast close, 4 Sept 2026\n\n$50\n\n\u22120.89% on the day\n\nThe 25 Wall Street analysts covering Verizon Communications, Inc. hold a median 12-month price target of $52 \u2014 +2.7% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 56 of 100 as at 5 Sept 2026 \u2014 in the upper half.\n\nMarket cap\n\n$208.3B\n\nTicker Nerd rank\n\n56 / 100\n\nMedian analyst target\n\n$52\n\nAnalysts covering\n\n25\n\nRevenue$34.3B\u22120",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Verizon Firing On All Cylinders - Focus On Service Convergence (NYSE:VZ) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4945546-verizon-firing-on-all-cylinders-focus-on-service-convergence",
+      "summary": "Verizon Firing On All Cylinders - Focus On Service Convergence (NYSE:VZ) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# Verizon Firing On All Cylinders - Focus On Service Convergence\nSep 11, 2026, 11:20 AM ETVerizon Communications Inc. (VZ) Stock, VZ:CA Stock1 Comment\n\nJuxtaposed Ideas\n16.2K Followers\nFollow\n## Summary\n* The $20B Frontier acquisition accelerates Verizon",
+      "published": "2026-09-11",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "VZ - Verizon Communications Inc Stock Analysis | GNG Research",
+      "publisher": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/VZ/",
+      "summary": "VZ - Verizon Communications Inc Stock Analysis | GNG Research\n\n# Verizon Communications Inc (VZ)\n\nCOMMUNICATION SERVICES \u2022 TELECOM SERVICES \u2022 NYSE\n\n$48.12\n\n-0.21 (-0.43%)\n\nMarket Cap: $200.80B\n\nLast updated: Sep 18, 2026 at 5:00 PM ET\n\n### Earnings\n\nQuarterly Annual\n\n1Y 3Y 5Y 10Y All\n\n#### Performance (10Y)\n\nBeat Rate\n\n88%(35/40)\n\nAvg Surprise\n\n+1.87%\n\nStreak\n\n16 Q\n\n#### Upcoming Estimates\n\nPeriod ending Sep 30, 2026\n\nEPS Consensus$1.28 Range$1.23 - $1.38 17 analysts\n\nEPS Revisions\n\n4\n\n0\n\n7d\n\n5\n\n9\n\n30d\n\nEPS Estimate Drift\n\n90d ago$1.29+0.7% 60d ago$1.29+0.7% 30d ago$1.29+0.1% 7d ago$1.28-0.0% ",
+      "published": "2026-09-18",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Verizon Communications (VZ) Debuts A Mission Critical 5G Push To Talk Handset",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-19T01:12:29Z",
+      "summary": "Verizon Communications (NYSE:VZ) and Siyata announced a new 5G mission-critical Push-to-Talk handset for frontline workers. The device is aimed at users in public safety, security, education, and construction who need simple and reliable field communications. The handset is built for challenging environments where traditional smartphones may not offer the same level of durability or usability. The Verizon and Siyata Push-to-Talk launch is important, but the full story is in how this shapes...",
+      "url": "https://finance.yahoo.com/technology/articles/verizon-communications-vz-debuts-mission-011229416.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Why Verizon Communications (VZ) Outpaced the Stock Market Today",
+      "publisher": "Zacks",
+      "created": "Sep 11, 2026",
+      "ago": "Sep 11, 2026",
+      "url": "/articles/why-verizon-communications-vz-outpaced-stock-market-today",
+      "primary_symbol": null,
+      "related_symbols": [
+        "VZ"
+      ],
+      "summary": "Verizon Communications (VZ) concluded the recent trading session at $50.61, signifying a +1.28% move from its prior day's close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Here is What to Know Beyond Why Verizon Communications Inc. (VZ) is a Trending Stock",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/here-what-know-beyond-why-verizon-communications-inc-vz-trending-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "VZ"
+      ],
+      "summary": "Zacks.com users have recently been watching Verizon (VZ) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Verizon Communications (VZ) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "publisher": "Zacks",
+      "created": "Sep 17, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/verizon-communications-vz-stock-falls-amid-market-uptick-what-investors-need-know-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "VZ"
+      ],
+      "summary": "Verizon Communications (VZ) concluded the recent trading session at $48.33, signifying a -2.87% move from its prior day's close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "XLC, VZ, DIS, TMUS: Large Outflows Detected at ETF",
+      "publisher": "BNK Invest",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/xlc-vz-dis-tmus-large-outflows-detected-etf",
+      "primary_symbol": "XLC",
+      "related_symbols": [
+        "XLC",
+        "VZ",
+        "DIS",
+        "TMUS"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Communication Services Select Sector SPDR ETF (Symbol: XLC) where we have detected an approximate $185.4 million dollar outflow -- that",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "3 High-Yield Dividend Stocks I'd Buy in September With No Hesitation",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/3-high-yield-dividend-stocks-id-buy-september-no-hesitation",
+      "primary_symbol": "VZ",
+      "related_symbols": [
+        "VZ",
+        "MO",
+        "O"
+      ],
+      "summary": "Key PointsAltria pays the highest yield of the three, backed mainly by pricing power even as cigarette volumes keep falling.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Is Verizon the Year's Best Telecom Stock?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/verizon-years-best-telecom-stock",
+      "primary_symbol": "VZ",
+      "related_symbols": [
+        "VZ"
+      ],
+      "summary": "Key PointsVerizon's new CEO, Dan Schulman, has led the company's turnaround since taking the helm in October of last year.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "5 Dividend Stocks to Hold for the Next 5 Years",
+      "publisher": "The Motley Fool",
+      "created": "Sep 13, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/5-dividend-stocks-hold-next-5-years",
+      "primary_symbol": "O",
+      "related_symbols": [
+        "O",
+        "VZ",
+        "AGNC",
+        "EPD",
+        "ET"
+      ],
+      "summary": "Key PointsRealty Income and AGNC are very different types of REITs, but both give investors attractive monthly payouts.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth?",
+      "publisher": "Zacks",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/can-verizons-6g-acceleration-initiatives-and-ai-trials-drive-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "VZ",
+        "T",
+        "TMUS"
+      ],
+      "summary": "VZ is advancing 6G with AI-native networks, real-world sensing trials and smart technologies, targeting the 2028 Olympics as a key test.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "4 High-Yield Dividend Stocks to Own for the Next Decade",
+      "publisher": "The Motley Fool",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/4-high-yield-dividend-stocks-own-next-decade",
+      "primary_symbol": "ET",
+      "related_symbols": [
+        "ET",
+        "VZ",
+        "O",
+        "BTI"
+      ],
+      "summary": "Key PointsBritish American Tobacco and Verizon both have high yields and are growing their dividends.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "AT&T Teams Up With LifeMD for Virtual Health Care: Can it Aid Shares?",
+      "publisher": "Zacks",
+      "created": "Sep 16, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/att-teams-lifemd-virtual-health-care-can-it-aid-shares",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T",
+        "VZ",
+        "TMUS",
+        "LFMD"
+      ],
+      "summary": "T expands customer benefits with complimentary LifeMD memberships, offering virtual care, prescriptions and pharmacy services.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Thursday's ETF Movers: ARKG, SIXA",
+      "publisher": "BNK Invest",
+      "created": "Sep 17, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/thursdays-etf-movers-arkg-sixa",
+      "primary_symbol": "ABSI",
+      "related_symbols": [
+        "ABSI",
+        "SDGR",
+        "LMT",
+        "VZ",
+        "SIXA",
+        "ARKG"
+      ],
+      "summary": "In trading on Thursday, the ARK Genomic Revolution ETF is outperforming other ETFs, up about 8.5% on the day.  Components of that ETF showing particular strength include shares of Absci, up about 18.9% and shares of Schrodinger, up about 17.3% on the day.\n\nAnd underperforming ot",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Nike Is Being Deleted From the S&P 100. Is Its Seat in the Dow Jones Industrial Average in Jeopardy?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 12, 2026",
+      "ago": "Sep 12, 2026",
+      "url": "/articles/nike-being-deleted-sp-100-its-seat-dow-jones-industrial-average-jeopardy",
+      "primary_symbol": "NKE",
+      "related_symbols": [
+        "NKE",
+        "META",
+        "GOOGL",
+        "TSLA",
+        "AMZN",
+        "VZ",
+        "NVDA",
+        "SPGI",
+        "AVGO",
+        "CL",
+        "PANW",
+        "GOOG",
+        "ANET",
+        "OEF",
+        "DELL",
+        "SNDK",
+        "HONA"
+      ],
+      "summary": "Key PointsNike's turnaround is progressing at a sluggish pace.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "3 Unstoppable Dow Stocks Worth Buying Right Now",
+      "publisher": "The Motley Fool",
+      "created": "Sep 13, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/3-unstoppable-dow-stocks-worth-buying-right-now",
+      "primary_symbol": "NVDA",
+      "related_symbols": [
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "AAPL",
+        "AXP",
+        "AMZN",
+        "VZ",
+        "V",
+        "MA",
+        "PG",
+        "NKE",
+        "GOOG"
+      ],
+      "summary": "Key PointsNvidia expects revenue to increased 70% next year, on top of higher growth this year,",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall",
+      "publisher": "Barchart",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stocks-settle-sharply-higher-crude-oil-and-bond-yields-fall",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GOOGL",
+        "AAPL",
+        "AVGO",
+        "SNDK",
+        "VZ",
+        "VICR",
+        "MSFT",
+        "CRWV",
+        "ALAB",
+        "TSLA",
+        "T",
+        "PSKY",
+        "QCOM",
+        "STX",
+        "AMD",
+        "QGEN",
+        "FLNC",
+        "SPY",
+        "DIA",
+        "NVDA",
+        "META",
+        "NXPI",
+        "MU",
+        "QQQ",
+        "TMUS",
+        "CMCSA",
+        "INTC",
+        "GNRC",
+        "SOXX",
+        "ARM",
+        "CHTR",
+        "AMZN",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +1.14% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.61%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.73%.  September E-mini S&P futures (ESU26 ) rose +1.10%, and September E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Verizon Stock Forecast",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/vz/forecast/",
+      "summary": "Verizon Communications (VZ) Stock Forecast & Price Targets\n\nVerizon Communications Inc. (VZ)\n\nNYSE: VZ \u00b7 Real-Time Price \u00b7 USD\n\n40.95\n\n-0.30 (-0.73%)\n\nAt close: Jul 17, 2025, 4:00 PM\n\n41.03\n\n+0.08 (0.20%)\n\nPre-market: Jul 18, 2025, 7:00 AM EDT\n\n# Verizon Stock Forecast\n\nAll Analysts Top Analysts\n\n## Stock Price Forecast\n\nThe 15 analysts that cover Verizon stock have a consensus rating of \"Buy\" and an average price target of $47.43, which forecasts a 15.82% increase in the stock price over the next year. The lowest target is $43 and the highest is $56.\n\nPrice Target: $47.43 (+15.82%)\n\nAnalyst C",
+      "published": "2025-07-17",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites",
+      "publisher": "verizon.com",
+      "url": "https://www.verizon.com/about/news/verizon-delivers-record-2q26-results",
+      "summary": "Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites\n\n# Verizon delivers record 2Q26 results as strategic transformation ignites accelerated growth\n\nCompany achieves strong growth on key metrics and raises full-year guidance for the second consecutive quarter.\n\nPublished Jul 24, 2026\n\nMedia contact: Katie Magnotta, Jamie Serino\n\nPublished Jul 24, 2026\n\n## Key highlights\n\n- Mobility and broadband service revenue grew by 2.8 percent in second-quarter 2026, and forecasted to rise to approximately 4.0 percent growth in fourth-quarter 2026\n- Delivered 184,000 postpaid phone net ",
+      "published": "2026-07-24",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "2026 Q2 Exhibit 99",
+      "publisher": "verizon.com",
+      "url": "https://www.verizon.com/about/sites/default/files/verizon-2Q26-earnings-press-release.pdf",
+      "summary": "## News Release\n\nFOR IMMEDIATE RELEASE Media contacts: \nJuly 24, 2026 Katie Magnotta \n201-602-9235 \nkatie.magnotta@verizon.com \nJamie Serino \n201-401-5460 \njamie.serino@verizon.com \n\n### Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites Accelerated Growth\n\n#### Company Achieves Strong Growth on Key Metrics and Raises Full-Year Guidance for the Second Consecutive Quarter\n\n##### Key Highlights:\n\n\u2022 Mobility and broadband service revenue grew by 2.8 percent in second-quarter 2026, and forecasted to rise to approximately 4.0 percent growth in fourth-quarter 2026 \n\u2022 Delivered ",
+      "published": "2026-07-24",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "2Q26 Earnings Presentation",
+      "publisher": "verizon.com",
+      "url": "https://www.verizon.com/about/sites/default/files/2026-07/vz_2q2026_presentation_072426.pdf",
+      "summary": "July 24, 2026\n\n\u201cSafe Harbor\u201d Statement\n\nAs required by SEC rules, we have provided a reconciliation of the non-GAAP financial measures included in this presentation to the most directly comparable GAAP measures in materials on our website at www.verizon.com/about/investors.\n\nIn this presentation we have made forward-looking statements. These statements are based on our estimates and assumptions and are subject to risks and uncertainties. Forward-looking statements include the information concerning our possible or assumed future results of operations. Forward-looking statements also include th",
+      "published": "2026-07-24",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Verizon Stock Is Near a 52-Week High. Here\u2019s Why I\u2019m Still Bullish. - 24/7 Wall St.",
+      "publisher": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/08/verizon-stock-is-near-a-52-week-high-heres-why-im-still-bullish/",
+      "summary": "Verizon Stock Is Near a 52-Week High. Here\u2019s Why I\u2019m Still Bullish. - 24/7 Wall St.\nSkip to content\n\nAuthoritative Financial News \u00b7 Since 2006\n\nAI Investor Podcast \n\u275a\u275a\nAt close\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nD",
+      "published": "2026-09-08",
+      "source": "ollama_search",
+      "query": "Verizon Communications Inc. (VZ) bull bear case risks",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "How Much Further Can T-Mobile Stock Fall From Here?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T15:32:56Z",
+      "summary": "T-Mobile US (TMUS) stock fell 5.6% on 17 September to about $166, the lowest it has traded in a year. One session is not the problem: over the past twelve months the stock returned -28.5% while the S&P 500 returned 17.0%, and the year is what matters. A rising market did not do that. What changed is inside the business, and part of it is deliberate.",
+      "url": "https://www.trefis.com/articles/615852/how-much-further-can-t-mobile-stock-fall-from-here/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T16:04:00Z",
+      "summary": "Verizon Communications (VZ) trades near $48 a share and generated free cash worth 10.0% of its market value over the last twelve months. The median S&P 500 company manages 4.5%. A gap that wide usually means one of two things: a bargain, or a business the market expects to shrink. Verizon is neither, quite. The cash is real, and it is not all yours.",
+      "url": "https://www.trefis.com/articles/615856/is-verizon-stock-cheap-or-is-its-cash-already-spoken-for/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Verizon\u2019s Dividend Story: Reliable Income with Gradual Growth",
+      "publisher": "Insider Monkey",
+      "published": "2026-09-18T16:45:07Z",
+      "summary": "Verizon Communications Inc. (NYSE:VZ) is sticking with its $0.7075 quarterly dividend per share, with the next payment due on November 2, 2026. There is no new increase this time, as the company has already raised the payout earlier this year. At $2.83 per share on an annualized basis, Verizon offers a dividend yield of about [\u2026]",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-dividend-story-reliable-income-164507682.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "What Are You Really Buying When You Buy Samsara?",
+      "publisher": "Trefis",
+      "published": "2026-09-18T17:00:29Z",
+      "summary": "Samsara (IOT) trades near $40, about 88% of its 52-week high. Over the past year the stock has gone nowhere, up 1.3% against 17% for the S&P 500. The easy read is that the AI that analysts keep asking about is not showing up in the money. It is showing up. It arrives bolted to hardware, and paying upfront for more of that hardware as growth accelerates is why Samsara now expects a thinner cash margin and a fatter operating margin for fiscal 2027.",
+      "url": "https://www.trefis.com/articles/615889/what-are-you-really-buying-when-you-buy-samsara/2026-09-18",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Corning Stock: The $2 Billion Dilution Scare Is Fading. Here\u2019s What Matters Now.",
+      "publisher": "Barchart",
+      "published": "2026-09-18T18:09:23Z",
+      "summary": "Corning stock\u2019s AI story just got bigger with a multibillion-dollar fiber deal.",
+      "url": "https://www.barchart.com/story/news/4684717/corning-stock-the-2-billion-dilution-scare-is-fading-heres-what-matters-now",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "2 High-Yield Dividend Stocks to Buy and 1 to Avoid",
+      "publisher": "Motley Fool",
+      "published": "2026-09-18T20:50:00Z",
+      "summary": "I'd buy Energy Transfer and Verizon stocks, and avoid Pfizer.",
+      "url": "https://www.fool.com/investing/2026/09/18/2-high-yield-dividend-stocks-to-buy-and-1-to-avoid/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Verizon Stock And Other Dividend Payers Facing Higher Bond Yields",
+      "publisher": "Simply Wall St.",
+      "published": "2026-09-19T00:22:12Z",
+      "summary": "Bond yields are racing higher as the U.S. Treasury and corporate issuers flood the market with new debt, and that shift is quietly rewriting the playbook for income investors. Cash-rich, high-dividend stocks in non-cyclical sectors can suddenly look more or less attractive depending on how they handle this funding squeeze. This article walks through 3 stocks exposed to these forces and shows where higher yields may help or hurt. The three stocks below are just a sample pulled from this idea,...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-stock-other-dividend-payers-002212619.html",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "mna",
+        "positioning"
+      ]
+    },
+    {
+      "title": "AT&T launches free healthcare perk for customers",
+      "publisher": "TheStreet",
+      "published": "2026-09-19T13:03:00Z",
+      "summary": "AT&T is branching beyond its usual telecom offerings with a benefit that could catch some customers off guard.",
+      "url": "https://www.thestreet.com/retail/att-launches-free-lifemd-healthcare-perk-for-customers",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Dividends vs. an Annuity: Which Turns $590,000 Into More Monthly Income for Life?",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-09-19T18:12:14Z",
+      "summary": "An insurance agent and a dividend investor can both make a convincing case for turning $590,000 into a lifetime income stream, and they are describing completely different outcomes for your money, your heirs, and your financial flexibility.",
+      "url": "https://247wallst.com/personal-finance/2026/09/19/dividends-vs-an-annuity-which-turns-590000-into-more-monthly-income-for-life/",
+      "type": "STORY",
+      "source": "yahoo",
+      "relevance": 0,
+      "themes": [
+        "mna"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 10,
+        "share": 0.286,
+        "evidence": [
+          {
+            "title": "VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi",
+            "publisher": "techi.com",
+            "published": "2006-09-06",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "Verizon (VZ) Earnings Report Q2 2026 | Beat, EPS & Revenue | 24/7 Wall St.",
+            "publisher": "247wallst.com",
+            "published": "2026-07-24",
+            "matched": [
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio",
+            "publisher": "stockanalysis.com",
+            "published": "2026-07-24",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "VZ | Verizon Communications Inc. Analyst Estimates | MarketWatch",
+            "publisher": "marketwatch.com",
+            "published": "2026-09-04",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 9,
+        "share": 0.257,
+        "evidence": [
+          {
+            "title": "Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)",
+            "publisher": "deepresearchglobal.com",
+            "published": "2026-06-26",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Verizon Firing On All Cylinders - Focus On Service Convergence (NYSE:VZ) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-11",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "3 High-Yield Dividend Stocks I'd Buy in September With No Hesitation",
+            "publisher": "The Motley Fool",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "5 Dividend Stocks to Hold for the Next 5 Years",
+            "publisher": "The Motley Fool",
+            "published": "Sep 13, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 7,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi",
+            "publisher": "techi.com",
+            "published": "2006-09-06",
+            "matched": [
+              "spread"
+            ]
+          },
+          {
+            "title": "3 High-Yield Dividend Stocks I'd Buy in September With No Hesitation",
+            "publisher": "The Motley Fool",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "4 High-Yield Dividend Stocks to Own for the Next Decade",
+            "publisher": "The Motley Fool",
+            "published": "Sep 16, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall",
+            "publisher": "Barchart",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.114,
+        "evidence": [
+          {
+            "title": "VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi",
+            "publisher": "techi.com",
+            "published": "2006-09-06",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "VZ Stock Forecast 2026-2027 - Verizon Communications, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-09-04",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Verizon Stock Forecast",
+            "publisher": "stockanalysis.com",
+            "published": "2025-07-17",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Verizon Stock And Other Dividend Payers Facing Higher Bond Yields",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-19T00:22:12Z",
+            "matched": [
+              "squeeze"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 2,
+        "share": 0.057,
+        "evidence": [
+          {
+            "title": "Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)",
+            "publisher": "deepresearchglobal.com",
+            "published": "2026-06-26",
+            "matched": [
+              "capex"
+            ]
+          },
+          {
+            "title": "Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio",
+            "publisher": "stockanalysis.com",
+            "published": "2026-07-24",
+            "matched": [
+              "ai infrastructure"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 2,
+        "share": 0.057,
+        "evidence": [
+          {
+            "title": "Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio",
+            "publisher": "stockanalysis.com",
+            "published": "2026-07-24",
+            "matched": [
+              "free cash flow"
+            ]
+          },
+          {
+            "title": "Verizon Stock And Other Dividend Payers Facing Higher Bond Yields",
+            "publisher": "Simply Wall St.",
+            "published": "2026-09-19T00:22:12Z",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 1,
+        "share": 0.029,
+        "evidence": [
+          {
+            "title": "Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For?",
+            "publisher": "Trefis",
+            "published": "2026-09-18T16:04:00Z",
+            "matched": [
+              "cheap"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-10-20"
+    ],
+    "next_date": "2026-10-20",
+    "eps_avg": 1.28333,
+    "eps_low": 1.23,
+    "eps_high": 1.38,
+    "revenue_avg": 34819579620
+  },
+  "catalyst": {
+    "date": "2026-10-20",
+    "weekday": "Tuesday",
+    "days_out": 30,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 1.28333,
+      "eps_low": 1.23,
+      "eps_high": 1.38,
+      "revenue_avg": 34819579620
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-24",
+        "eps_estimate": 1.27,
+        "eps_actual": 1.3,
+        "surprise_pct": 2.71,
+        "beat": true
+      },
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 1.21,
+        "eps_actual": 1.28,
+        "surprise_pct": 5.81,
+        "beat": true
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 1.06,
+        "eps_actual": 1.09,
+        "surprise_pct": 3.28,
+        "beat": true
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 1.19,
+        "eps_actual": 1.21,
+        "surprise_pct": 1.53,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-20 (Tuesday, before the open), 30 days out -- from the earnings calendar, consensus EPS 1.28."
+  },
+  "forward_trends": {
+    "queries": [
+      "Verizon VZ 2026 2027 consumer wireless broadband competition cable satellite direct-to-cell pressures",
+      "US wireless industry 2026 2027 market saturation price competition cable MVNO fixed wireless access growth outlook",
+      "enterprise IT telecom spending 2026 2027 budgets SD-WAN SASE private 5G managed network services outlook",
+      "US broadband market 2026 2027 fiber overbuild satellite broadband BEAD funding fixed wireless competition wireline voice decline"
+    ],
+    "results_count": 20,
+    "results_dated": 17,
+    "trends": [
+      {
+        "claim": "Cable MVNO pricing pressure is intensifying in 2026, threatening Verizon's subscriber growth.",
+        "stance": "pressure",
+        "why": "It can slow postpaid net adds and force price cuts, pressuring service revenue.",
+        "quote": "Competitive pricing \u2014 particularly from cable MVNOs \u2014 is intensifying",
+        "url": "https://tbri.com/webinars/u-s-wireless-market-outlook-for-2026/",
+        "publisher": "tbri.com",
+        "as_of": "2026-09-01",
+        "age_days": 19,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, spectrum auctions, regulatory scrutiny, and MVNO expansion are constraining wireless pricing power.",
+        "stance": "pressure",
+        "why": "Constrained pricing power can limit Verizon's service revenue growth despite rising data usage.",
+        "quote": "mounting pressure from aggressive spectrum auctions, regulatory scrutiny and MVNO expansion, which have constrained pricing power",
+        "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+        "publisher": "script.ibisworld.com",
+        "as_of": "2026-05-01",
+        "age_days": 142,
+        "undated": false
+      },
+      {
+        "claim": "As 5G deployment has scaled, carriers have absorbed heavy spectrum and network capex in 2026.",
+        "stance": "pressure",
+        "why": "High capex can pressure Verizon's free cash flow and returns.",
+        "quote": "carriers have absorbed heavy spectrum and network capex",
+        "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+        "publisher": "script.ibisworld.com",
+        "as_of": "2026-05-01",
+        "age_days": 142,
+        "undated": false
+      },
+      {
+        "claim": "Carriers are using hyperscaler partnerships to move into edge, cloud, and AI-enabled enterprise solutions in 2026.",
+        "stance": "support",
+        "why": "This can open new enterprise revenue streams for Verizon beyond connectivity.",
+        "quote": "using partnerships with hyperscalers and industry specialists to move beyond basic connectivity into edge, cloud and AI\u2011enabled vertical solutions",
+        "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+        "publisher": "script.ibisworld.com",
+        "as_of": "2026-05-01",
+        "age_days": 142,
+        "undated": false
+      },
+      {
+        "claim": "The device-subsidy war did not persist into Q2 2026.",
+        "stance": "support",
+        "why": "Reduced subsidy intensity can lower customer acquisition costs and support margins.",
+        "quote": "whether the device-subsidy war would persist. It didn\u2019t.",
+        "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+        "publisher": "chetansharma.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "Cable companies captured 45% of new wireless customers in 2025, intensifying competition into 2026.",
+        "stance": "pressure",
+        "why": "This share shift can pressure Verizon's postpaid net adds and pricing.",
+        "quote": "cable companies captured 45% of new wireless customers in 2025",
+        "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+        "publisher": "lightreading.com",
+        "as_of": "2026-02-06",
+        "age_days": 226,
+        "undated": false,
+        "drop_reason": "stale (226 days old)"
+      },
+      {
+        "claim": "As of February 2026, the three major US wireless carriers compete on razor-thin profit margins.",
+        "stance": "pressure",
+        "why": "Thin margins can limit Verizon's ability to absorb pricing pressure and invest.",
+        "quote": "The three major wireless carriers now compete on razor-thin profit margins",
+        "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+        "publisher": "lightreading.com",
+        "as_of": "2026-02-06",
+        "age_days": 226,
+        "undated": false,
+        "drop_reason": "stale (226 days old)"
+      }
+    ],
+    "stale_dropped": 2,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "VZ",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 48.09,
+      "catalyst": "2026-10-20",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 50.0,
+        "premium": 0.98,
+        "bid": 0.94,
+        "ask": 1.02,
+        "mid": 0.98,
+        "last": 0.98,
+        "open_interest": 3419,
+        "volume": 533.0,
+        "implied_vol": 0.225593681640625,
+        "qty": 45
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 50.0,
+        "premium": 0.33,
+        "bid": 0.3,
+        "ask": 0.36,
+        "mid": 0.33,
+        "last": 0.33,
+        "open_interest": 11018,
+        "volume": 1340,
+        "implied_vol": 0.19727365234375,
+        "qty": 17
+      },
+      "long_total": 4410.0,
+      "short_total": 561.0,
+      "net_debit": 3849.0,
+      "credit_ratio_mid": 0.1272,
+      "credit_ratio_conservative": 0.1111,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 50.0,
+          "qty": 45,
+          "underlying": 48.09,
+          "multiplier": 100,
+          "price": 0.98,
+          "total": 4410.0,
+          "open_interest": 3419
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "16-Oct-26",
+          "strike": 50.0,
+          "qty": 17,
+          "underlying": 48.09,
+          "multiplier": 100,
+          "price": 0.33,
+          "total": -561.0,
+          "open_interest": 11018
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-20 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 50, 49, 52.5, 55"
+      ],
+      "advice": "Credit ratio 11.1% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0075,
+          "credit_ratio_conservative": 0.0065,
+          "passes_floor": false,
+          "cash_collected": 33.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.015,
+          "credit_ratio_conservative": 0.0131,
+          "passes_floor": false,
+          "cash_collected": 66.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0224,
+          "credit_ratio_conservative": 0.0196,
+          "passes_floor": false,
+          "cash_collected": 99.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0299,
+          "credit_ratio_conservative": 0.0261,
+          "passes_floor": false,
+          "cash_collected": 132.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0374,
+          "credit_ratio_conservative": 0.0327,
+          "passes_floor": false,
+          "cash_collected": 165.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0449,
+          "credit_ratio_conservative": 0.0392,
+          "passes_floor": false,
+          "cash_collected": 198.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.0524,
+          "credit_ratio_conservative": 0.0458,
+          "passes_floor": false,
+          "cash_collected": 231.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0599,
+          "credit_ratio_conservative": 0.0523,
+          "passes_floor": false,
+          "cash_collected": 264.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.0673,
+          "credit_ratio_conservative": 0.0588,
+          "passes_floor": false,
+          "cash_collected": 297.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.0748,
+          "credit_ratio_conservative": 0.0654,
+          "passes_floor": false,
+          "cash_collected": 330.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.0823,
+          "credit_ratio_conservative": 0.0719,
+          "passes_floor": false,
+          "cash_collected": 363.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.0898,
+          "credit_ratio_conservative": 0.0784,
+          "passes_floor": false,
+          "cash_collected": 396.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.0973,
+          "credit_ratio_conservative": 0.085,
+          "passes_floor": false,
+          "cash_collected": 429.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.1048,
+          "credit_ratio_conservative": 0.0915,
+          "passes_floor": false,
+          "cash_collected": 462.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.1122,
+          "credit_ratio_conservative": 0.098,
+          "passes_floor": false,
+          "cash_collected": 495.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.1197,
+          "credit_ratio_conservative": 0.1046,
+          "passes_floor": true,
+          "cash_collected": 528.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.1272,
+          "credit_ratio_conservative": 0.1111,
+          "passes_floor": true,
+          "cash_collected": 561.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.1347,
+          "credit_ratio_conservative": 0.1176,
+          "passes_floor": true,
+          "cash_collected": 594.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.1422,
+          "credit_ratio_conservative": 0.1242,
+          "passes_floor": true,
+          "cash_collected": 627.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.1497,
+          "credit_ratio_conservative": 0.1307,
+          "passes_floor": true,
+          "cash_collected": 660.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.1571,
+          "credit_ratio_conservative": 0.1373,
+          "passes_floor": true,
+          "cash_collected": 693.0
+        },
+        {
+          "short_qty": 22,
+          "credit_ratio_mid": 0.1646,
+          "credit_ratio_conservative": 0.1438,
+          "passes_floor": true,
+          "cash_collected": 726.0
+        },
+        {
+          "short_qty": 23,
+          "credit_ratio_mid": 0.1721,
+          "credit_ratio_conservative": 0.1503,
+          "passes_floor": true,
+          "cash_collected": 759.0
+        },
+        {
+          "short_qty": 24,
+          "credit_ratio_mid": 0.1796,
+          "credit_ratio_conservative": 0.1569,
+          "passes_floor": true,
+          "cash_collected": 792.0
+        },
+        {
+          "short_qty": 25,
+          "credit_ratio_mid": 0.1871,
+          "credit_ratio_conservative": 0.1634,
+          "passes_floor": true,
+          "cash_collected": 825.0
+        },
+        {
+          "short_qty": 26,
+          "credit_ratio_mid": 0.1946,
+          "credit_ratio_conservative": 0.1699,
+          "passes_floor": true,
+          "cash_collected": 858.0
+        },
+        {
+          "short_qty": 27,
+          "credit_ratio_mid": 0.202,
+          "credit_ratio_conservative": 0.1765,
+          "passes_floor": true,
+          "cash_collected": 891.0
+        },
+        {
+          "short_qty": 28,
+          "credit_ratio_mid": 0.2095,
+          "credit_ratio_conservative": 0.183,
+          "passes_floor": true,
+          "cash_collected": 924.0
+        },
+        {
+          "short_qty": 29,
+          "credit_ratio_mid": 0.217,
+          "credit_ratio_conservative": 0.1895,
+          "passes_floor": true,
+          "cash_collected": 957.0
+        },
+        {
+          "short_qty": 30,
+          "credit_ratio_mid": 0.2245,
+          "credit_ratio_conservative": 0.1961,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 31,
+          "credit_ratio_mid": 0.232,
+          "credit_ratio_conservative": 0.2026,
+          "passes_floor": true,
+          "cash_collected": 1023.0
+        },
+        {
+          "short_qty": 32,
+          "credit_ratio_mid": 0.2395,
+          "credit_ratio_conservative": 0.2092,
+          "passes_floor": true,
+          "cash_collected": 1056.0
+        },
+        {
+          "short_qty": 33,
+          "credit_ratio_mid": 0.2469,
+          "credit_ratio_conservative": 0.2157,
+          "passes_floor": true,
+          "cash_collected": 1089.0
+        },
+        {
+          "short_qty": 34,
+          "credit_ratio_mid": 0.2544,
+          "credit_ratio_conservative": 0.2222,
+          "passes_floor": true,
+          "cash_collected": 1122.0
+        },
+        {
+          "short_qty": 35,
+          "credit_ratio_mid": 0.2619,
+          "credit_ratio_conservative": 0.2288,
+          "passes_floor": true,
+          "cash_collected": 1155.0
+        },
+        {
+          "short_qty": 36,
+          "credit_ratio_mid": 0.2694,
+          "credit_ratio_conservative": 0.2353,
+          "passes_floor": true,
+          "cash_collected": 1188.0
+        },
+        {
+          "short_qty": 37,
+          "credit_ratio_mid": 0.2769,
+          "credit_ratio_conservative": 0.2418,
+          "passes_floor": true,
+          "cash_collected": 1221.0
+        },
+        {
+          "short_qty": 38,
+          "credit_ratio_mid": 0.2844,
+          "credit_ratio_conservative": 0.2484,
+          "passes_floor": true,
+          "cash_collected": 1254.0
+        },
+        {
+          "short_qty": 39,
+          "credit_ratio_mid": 0.2918,
+          "credit_ratio_conservative": 0.2549,
+          "passes_floor": true,
+          "cash_collected": 1287.0
+        },
+        {
+          "short_qty": 40,
+          "credit_ratio_mid": 0.2993,
+          "credit_ratio_conservative": 0.2614,
+          "passes_floor": true,
+          "cash_collected": 1320.0
+        },
+        {
+          "short_qty": 41,
+          "credit_ratio_mid": 0.3068,
+          "credit_ratio_conservative": 0.268,
+          "passes_floor": true,
+          "cash_collected": 1353.0
+        },
+        {
+          "short_qty": 42,
+          "credit_ratio_mid": 0.3143,
+          "credit_ratio_conservative": 0.2745,
+          "passes_floor": true,
+          "cash_collected": 1386.0
+        },
+        {
+          "short_qty": 43,
+          "credit_ratio_mid": 0.3218,
+          "credit_ratio_conservative": 0.281,
+          "passes_floor": true,
+          "cash_collected": 1419.0
+        },
+        {
+          "short_qty": 44,
+          "credit_ratio_mid": 0.3293,
+          "credit_ratio_conservative": 0.2876,
+          "passes_floor": true,
+          "cash_collected": 1452.0
+        },
+        {
+          "short_qty": 45,
+          "credit_ratio_mid": 0.3367,
+          "credit_ratio_conservative": 0.2941,
+          "passes_floor": true,
+          "cash_collected": 1485.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "VZ",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 48.09,
+      "catalyst": "2026-10-20",
+      "long_leg": {
+        "expiry": "2026-11-20",
+        "strike": 46.0,
+        "premium": 1.17,
+        "bid": 1.08,
+        "ask": 1.25,
+        "mid": 1.17,
+        "last": 1.17,
+        "open_interest": 1328,
+        "volume": 148.0,
+        "implied_vol": 0.2761302856445312,
+        "qty": 38
+      },
+      "short_leg": {
+        "expiry": "2026-10-16",
+        "strike": 46.0,
+        "premium": 0.52,
+        "bid": 0.47,
+        "ask": 0.58,
+        "mid": 0.52,
+        "last": 0.52,
+        "open_interest": 8235,
+        "volume": 1155,
+        "implied_vol": 0.270515107421875,
+        "qty": 11
+      },
+      "long_total": 4446.0,
+      "short_total": 572.0,
+      "net_debit": 3874.0,
+      "credit_ratio_mid": 0.1287,
+      "credit_ratio_conservative": 0.1088,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 46.0,
+          "qty": 38,
+          "underlying": 48.09,
+          "multiplier": 100,
+          "price": 1.17,
+          "total": 4445.999999999999,
+          "open_interest": 1328
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "16-Oct-26",
+          "strike": 46.0,
+          "qty": 11,
+          "underlying": 48.09,
+          "multiplier": 100,
+          "price": 0.52,
+          "total": -572.0000000000001,
+          "open_interest": 8235
+        }
+      ],
+      "notes": [
+        "short expires 16-Oct-26, before the 2026-10-20 catalyst; long expires 20-Nov-26, after it",
+        "alternative strikes: 46, 47, 45, 48"
+      ],
+      "advice": "Credit ratio 10.9% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0117,
+          "credit_ratio_conservative": 0.0099,
+          "passes_floor": false,
+          "cash_collected": 52.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0234,
+          "credit_ratio_conservative": 0.0198,
+          "passes_floor": false,
+          "cash_collected": 104.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0351,
+          "credit_ratio_conservative": 0.0297,
+          "passes_floor": false,
+          "cash_collected": 156.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0468,
+          "credit_ratio_conservative": 0.0396,
+          "passes_floor": false,
+          "cash_collected": 208.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0585,
+          "credit_ratio_conservative": 0.0495,
+          "passes_floor": false,
+          "cash_collected": 260.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0702,
+          "credit_ratio_conservative": 0.0594,
+          "passes_floor": false,
+          "cash_collected": 312.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.0819,
+          "credit_ratio_conservative": 0.0693,
+          "passes_floor": false,
+          "cash_collected": 364.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0936,
+          "credit_ratio_conservative": 0.0792,
+          "passes_floor": false,
+          "cash_collected": 416.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.1053,
+          "credit_ratio_conservative": 0.0891,
+          "passes_floor": false,
+          "cash_collected": 468.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.117,
+          "credit_ratio_conservative": 0.0989,
+          "passes_floor": false,
+          "cash_collected": 520.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.1287,
+          "credit_ratio_conservative": 0.1088,
+          "passes_floor": true,
+          "cash_collected": 572.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.1404,
+          "credit_ratio_conservative": 0.1187,
+          "passes_floor": true,
+          "cash_collected": 624.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.152,
+          "credit_ratio_conservative": 0.1286,
+          "passes_floor": true,
+          "cash_collected": 676.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.1637,
+          "credit_ratio_conservative": 0.1385,
+          "passes_floor": true,
+          "cash_collected": 728.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.1754,
+          "credit_ratio_conservative": 0.1484,
+          "passes_floor": true,
+          "cash_collected": 780.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.1871,
+          "credit_ratio_conservative": 0.1583,
+          "passes_floor": true,
+          "cash_collected": 832.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.1988,
+          "credit_ratio_conservative": 0.1682,
+          "passes_floor": true,
+          "cash_collected": 884.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.2105,
+          "credit_ratio_conservative": 0.1781,
+          "passes_floor": true,
+          "cash_collected": 936.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.2222,
+          "credit_ratio_conservative": 0.188,
+          "passes_floor": true,
+          "cash_collected": 988.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.2339,
+          "credit_ratio_conservative": 0.1979,
+          "passes_floor": true,
+          "cash_collected": 1040.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.2456,
+          "credit_ratio_conservative": 0.2078,
+          "passes_floor": true,
+          "cash_collected": 1092.0
+        },
+        {
+          "short_qty": 22,
+          "credit_ratio_mid": 0.2573,
+          "credit_ratio_conservative": 0.2177,
+          "passes_floor": true,
+          "cash_collected": 1144.0
+        },
+        {
+          "short_qty": 23,
+          "credit_ratio_mid": 0.269,
+          "credit_ratio_conservative": 0.2276,
+          "passes_floor": true,
+          "cash_collected": 1196.0
+        },
+        {
+          "short_qty": 24,
+          "credit_ratio_mid": 0.2807,
+          "credit_ratio_conservative": 0.2375,
+          "passes_floor": true,
+          "cash_collected": 1248.0
+        },
+        {
+          "short_qty": 25,
+          "credit_ratio_mid": 0.2924,
+          "credit_ratio_conservative": 0.2474,
+          "passes_floor": true,
+          "cash_collected": 1300.0
+        },
+        {
+          "short_qty": 26,
+          "credit_ratio_mid": 0.3041,
+          "credit_ratio_conservative": 0.2573,
+          "passes_floor": true,
+          "cash_collected": 1352.0
+        },
+        {
+          "short_qty": 27,
+          "credit_ratio_mid": 0.3158,
+          "credit_ratio_conservative": 0.2672,
+          "passes_floor": true,
+          "cash_collected": 1404.0
+        },
+        {
+          "short_qty": 28,
+          "credit_ratio_mid": 0.3275,
+          "credit_ratio_conservative": 0.2771,
+          "passes_floor": true,
+          "cash_collected": 1456.0
+        },
+        {
+          "short_qty": 29,
+          "credit_ratio_mid": 0.3392,
+          "credit_ratio_conservative": 0.2869,
+          "passes_floor": true,
+          "cash_collected": 1508.0
+        },
+        {
+          "short_qty": 30,
+          "credit_ratio_mid": 0.3509,
+          "credit_ratio_conservative": 0.2968,
+          "passes_floor": true,
+          "cash_collected": 1560.0
+        },
+        {
+          "short_qty": 31,
+          "credit_ratio_mid": 0.3626,
+          "credit_ratio_conservative": 0.3067,
+          "passes_floor": true,
+          "cash_collected": 1612.0
+        },
+        {
+          "short_qty": 32,
+          "credit_ratio_mid": 0.3743,
+          "credit_ratio_conservative": 0.3166,
+          "passes_floor": true,
+          "cash_collected": 1664.0
+        },
+        {
+          "short_qty": 33,
+          "credit_ratio_mid": 0.386,
+          "credit_ratio_conservative": 0.3265,
+          "passes_floor": true,
+          "cash_collected": 1716.0
+        },
+        {
+          "short_qty": 34,
+          "credit_ratio_mid": 0.3977,
+          "credit_ratio_conservative": 0.3364,
+          "passes_floor": true,
+          "cash_collected": 1768.0
+        },
+        {
+          "short_qty": 35,
+          "credit_ratio_mid": 0.4094,
+          "credit_ratio_conservative": 0.3463,
+          "passes_floor": true,
+          "cash_collected": 1820.0
+        },
+        {
+          "short_qty": 36,
+          "credit_ratio_mid": 0.4211,
+          "credit_ratio_conservative": 0.3562,
+          "passes_floor": true,
+          "cash_collected": 1872.0
+        },
+        {
+          "short_qty": 37,
+          "credit_ratio_mid": 0.4327,
+          "credit_ratio_conservative": 0.3661,
+          "passes_floor": true,
+          "cash_collected": 1924.0
+        },
+        {
+          "short_qty": 38,
+          "credit_ratio_mid": 0.4444,
+          "credit_ratio_conservative": 0.376,
+          "passes_floor": true,
+          "cash_collected": 1976.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for VZ",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VZ/key-statistics/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "Price: 48.09 USD Market Cap: 199.8B Fwd PE: 9.57 P/S: 1.4 EPS trends: slightly up over the last 7 days EPS revisions: all down, with 0 up and 1 down over last 30 days price 48.09 market cap 199.8B forward PE 9.57 forward PE next FY 9.11 trailing PE 12.5234375 P/S 1.4385194 EV/EBITDA 7.692"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for VZ",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VZ/analysis/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "FY consensus 5.02629 now, 5.01171 7 days ago, 5.01242 30 days ago, change over 30 days 0.28%; EPS revisions 0 up and 1 down over 30 days, 0 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "VZ quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vz/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Cash and Cash Equivalents decreasing 79.1% (3/31/2026 to 6/30/2026) Net Income decreasing 24.0% (3/31/2026 to 6/30/2026) Sales, General and Admin. increasing 17.7% (3/31/2026 to 6/30/2026) Earnings Before Interest and Tax decreasing 16.8% (3/31/2026 to 6/30/2026) Long-Term Investments increasing 7.3% (3/31/2026 to 6/30/2026) EPS increased year over year 1.22 to 1.3"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "VZ earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vz/earnings",
+      "date": "2026-10-20",
+      "weight": null,
+      "text": "2026-10-20 (Tuesday, before the open), 30 days out -- from the earnings calendar, consensus EPS 1.28. beat streak 4 median gap 91 days 2026-07-24 estimate 1.27 actual 1.3 surprise 2.71% 2026-04-27 estimate 1.21 actual 1.28 surprise 5.81% 2026-01-30 estimate 1.06 actual 1.09 surprise 3.28% 2025-10-29 estimate 1.19 actual 1.21 surprise 1.53%"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: Verizon Communications (VZ) Debuts A Mission Critical 5G Push To Talk Handset",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/technology/articles/verizon-communications-vz-debuts-mission-011229416.html",
+      "date": "2026-09-19",
+      "weight": 3,
+      "text": "Verizon Communications (VZ) Debuts A Mission Critical 5G Push To Talk Handset Verizon Communications (NYSE:VZ) and Siyata announced a new 5G mission-critical Push-to-Talk handset for frontline workers. The device is aimed at users in public safety, security, education, and construction who need simple and reliable field communications. The handset is built for challenging environments where traditional smartphones may not offer the same level of durability or usability. The Verizon and Siyata Push-to-Talk launch is important, but the full story is in how this shapes..."
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Why Verizon Communications (VZ) Outpaced the Stock Market Today",
+      "provider": null,
+      "url": "/articles/why-verizon-communications-vz-outpaced-stock-market-today",
+      "date": "Sep 11, 20",
+      "weight": 3,
+      "text": "Why Verizon Communications (VZ) Outpaced the Stock Market Today Verizon Communications (VZ) concluded the recent trading session at $50.61, signifying a +1.28% move from its prior day's close."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Here is What to Know Beyond Why Verizon Communications Inc. (VZ) is a Trending Stock",
+      "provider": null,
+      "url": "/articles/here-what-know-beyond-why-verizon-communications-inc-vz-trending-stock",
+      "date": "Sep 15, 20",
+      "weight": 3,
+      "text": "Here is What to Know Beyond Why Verizon Communications Inc. (VZ) is a Trending Stock Zacks.com users have recently been watching Verizon (VZ) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Verizon Communications (VZ) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "provider": null,
+      "url": "/articles/verizon-communications-vz-stock-falls-amid-market-uptick-what-investors-need-know-0",
+      "date": "Sep 17, 20",
+      "weight": 3,
+      "text": "Verizon Communications (VZ) Stock Falls Amid Market Uptick: What Investors Need to Know Verizon Communications (VZ) concluded the recent trading session at $48.33, signifying a -2.87% move from its prior day's close."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: XLC, VZ, DIS, TMUS: Large Outflows Detected at ETF",
+      "provider": null,
+      "url": "/articles/xlc-vz-dis-tmus-large-outflows-detected-etf",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "XLC, VZ, DIS, TMUS: Large Outflows Detected at ETF Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Communication Services Select Sector SPDR ETF (Symbol: XLC) where we have detected an approximate $185.4 million dollar outflow -- that"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: 3 High-Yield Dividend Stocks I'd Buy in September With No Hesitation",
+      "provider": null,
+      "url": "/articles/3-high-yield-dividend-stocks-id-buy-september-no-hesitation",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "3 High-Yield Dividend Stocks I'd Buy in September With No Hesitation Key PointsAltria pays the highest yield of the three, backed mainly by pricing power even as cigarette volumes keep falling."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Is Verizon the Year's Best Telecom Stock?",
+      "provider": null,
+      "url": "/articles/verizon-years-best-telecom-stock",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "Is Verizon the Year's Best Telecom Stock? Key PointsVerizon's new CEO, Dan Schulman, has led the company's turnaround since taking the helm in October of last year."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: 5 Dividend Stocks to Hold for the Next 5 Years",
+      "provider": null,
+      "url": "/articles/5-dividend-stocks-hold-next-5-years",
+      "date": "Sep 13, 20",
+      "weight": 2,
+      "text": "5 Dividend Stocks to Hold for the Next 5 Years Key PointsRealty Income and AGNC are very different types of REITs, but both give investors attractive monthly payouts."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth?",
+      "provider": null,
+      "url": "/articles/can-verizons-6g-acceleration-initiatives-and-ai-trials-drive-growth",
+      "date": "Sep 15, 20",
+      "weight": 2,
+      "text": "Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth? VZ is advancing 6G with AI-native networks, real-world sensing trials and smart technologies, targeting the 2028 Olympics as a key test."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "The Motley Fool: 4 High-Yield Dividend Stocks to Own for the Next Decade",
+      "provider": null,
+      "url": "/articles/4-high-yield-dividend-stocks-own-next-decade",
+      "date": "Sep 16, 20",
+      "weight": 2,
+      "text": "4 High-Yield Dividend Stocks to Own for the Next Decade Key PointsBritish American Tobacco and Verizon both have high yields and are growing their dividends."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: AT&T Teams Up With LifeMD for Virtual Health Care: Can it Aid Shares?",
+      "provider": null,
+      "url": "/articles/att-teams-lifemd-virtual-health-care-can-it-aid-shares",
+      "date": "Sep 16, 20",
+      "weight": 2,
+      "text": "AT&T Teams Up With LifeMD for Virtual Health Care: Can it Aid Shares? T expands customer benefits with complimentary LifeMD memberships, offering virtual care, prescriptions and pharmacy services."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "BNK Invest: Thursday's ETF Movers: ARKG, SIXA",
+      "provider": null,
+      "url": "/articles/thursdays-etf-movers-arkg-sixa",
+      "date": "Sep 17, 20",
+      "weight": 2,
+      "text": "Thursday's ETF Movers: ARKG, SIXA In trading on Thursday, the ARK Genomic Revolution ETF is outperforming other ETFs, up about 8.5% on the day.  Components of that ETF showing particular strength include shares of Absci, up about 18.9% and shares of Schrodinger, up about 17.3% on the day.\n\nAnd underperforming ot"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: Nike Is Being Deleted From the S&P 100. Is Its Seat in the Dow Jones Industrial Average in Jeopardy?",
+      "provider": null,
+      "url": "/articles/nike-being-deleted-sp-100-its-seat-dow-jones-industrial-average-jeopardy",
+      "date": "Sep 12, 20",
+      "weight": 1,
+      "text": "Nike Is Being Deleted From the S&P 100. Is Its Seat in the Dow Jones Industrial Average in Jeopardy? Key PointsNike's turnaround is progressing at a sluggish pace."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "The Motley Fool: 3 Unstoppable Dow Stocks Worth Buying Right Now",
+      "provider": null,
+      "url": "/articles/3-unstoppable-dow-stocks-worth-buying-right-now",
+      "date": "Sep 13, 20",
+      "weight": 1,
+      "text": "3 Unstoppable Dow Stocks Worth Buying Right Now Key PointsNvidia expects revenue to increased 70% next year, on top of higher growth this year,"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Barchart: Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall",
+      "provider": null,
+      "url": "/articles/stocks-settle-sharply-higher-crude-oil-and-bond-yields-fall",
+      "date": "Sep 18, 20",
+      "weight": 1,
+      "text": "Stocks Settle Sharply Higher as Crude Oil and Bond Yields Fall The S&P 500 Index ($SPX ) (SPY ) closed up by +1.14% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.61%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.73%.  September E-mini S&P futures (ESU26 ) rose +1.10%, and September E-mini..."
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "Trefis: How Much Further Can T-Mobile Stock Fall From Here?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615852/how-much-further-can-t-mobile-stock-fall-from-here/2026-09-18",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "How Much Further Can T-Mobile Stock Fall From Here? T-Mobile US (TMUS) stock fell 5.6% on 17 September to about $166, the lowest it has traded in a year. One session is not the problem: over the past twelve months the stock returned -28.5% while the S&P 500 returned 17.0%, and the year is what matters. A rising market did not do that. What changed is inside the business, and part of it is deliberate."
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "Trefis: Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615856/is-verizon-stock-cheap-or-is-its-cash-already-spoken-for/2026-09-18",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "Is Verizon Stock Cheap, Or Is Its Cash Already Spoken For? Verizon Communications (VZ) trades near $48 a share and generated free cash worth 10.0% of its market value over the last twelve months. The median S&P 500 company manages 4.5%. A gap that wide usually means one of two things: a bargain, or a business the market expects to shrink. Verizon is neither, quite. The cash is real, and it is not all yours."
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Insider Monkey: Verizon\u2019s Dividend Story: Reliable Income with Gradual Growth",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-dividend-story-reliable-income-164507682.html",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "Verizon\u2019s Dividend Story: Reliable Income with Gradual Growth Verizon Communications Inc. (NYSE:VZ) is sticking with its $0.7075 quarterly dividend per share, with the next payment due on November 2, 2026. There is no new increase this time, as the company has already raised the payout earlier this year. At $2.83 per share on an annualized basis, Verizon offers a dividend yield of about [\u2026]"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Trefis: What Are You Really Buying When You Buy Samsara?",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/articles/615889/what-are-you-really-buying-when-you-buy-samsara/2026-09-18",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "What Are You Really Buying When You Buy Samsara? Samsara (IOT) trades near $40, about 88% of its 52-week high. Over the past year the stock has gone nowhere, up 1.3% against 17% for the S&P 500. The easy read is that the AI that analysts keep asking about is not showing up in the money. It is showing up. It arrives bolted to hardware, and paying upfront for more of that hardware as growth accelerates is why Samsara now expects a thinner cash margin and a fatter operating margin for fiscal 2027."
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Barchart: Corning Stock: The $2 Billion Dilution Scare Is Fading. Here\u2019s What Matters Now.",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/4684717/corning-stock-the-2-billion-dilution-scare-is-fading-heres-what-matters-now",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "Corning Stock: The $2 Billion Dilution Scare Is Fading. Here\u2019s What Matters Now. Corning stock\u2019s AI story just got bigger with a multibillion-dollar fiber deal."
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "Motley Fool: 2 High-Yield Dividend Stocks to Buy and 1 to Avoid",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/investing/2026/09/18/2-high-yield-dividend-stocks-to-buy-and-1-to-avoid/",
+      "date": "2026-09-18",
+      "weight": 0,
+      "text": "2 High-Yield Dividend Stocks to Buy and 1 to Avoid I'd buy Energy Transfer and Verizon stocks, and avoid Pfizer."
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Simply Wall St.: Verizon Stock And Other Dividend Payers Facing Higher Bond Yields",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-stock-other-dividend-payers-002212619.html",
+      "date": "2026-09-19",
+      "weight": 0,
+      "text": "Verizon Stock And Other Dividend Payers Facing Higher Bond Yields Bond yields are racing higher as the U.S. Treasury and corporate issuers flood the market with new debt, and that shift is quietly rewriting the playbook for income investors. Cash-rich, high-dividend stocks in non-cyclical sectors can suddenly look more or less attractive depending on how they handle this funding squeeze. This article walks through 3 stocks exposed to these forces and shows where higher yields may help or hurt. The three stocks below are just a sample pulled from this idea,..."
+    },
+    {
+      "id": "S27",
+      "kind": "yahoo",
+      "ref": "news:22",
+      "label": "TheStreet: AT&T launches free healthcare perk for customers",
+      "provider": "thestreet.com",
+      "url": "https://www.thestreet.com/retail/att-launches-free-lifemd-healthcare-perk-for-customers",
+      "date": "2026-09-19",
+      "weight": 0,
+      "text": "AT&T launches free healthcare perk for customers AT&T is branching beyond its usual telecom offerings with a benefit that could catch some customers off guard."
+    },
+    {
+      "id": "S28",
+      "kind": "yahoo",
+      "ref": "news:23",
+      "label": "24/7 Wall St.: Dividends vs. an Annuity: Which Turns $590,000 Into More Monthly Income for Life?",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/personal-finance/2026/09/19/dividends-vs-an-annuity-which-turns-590000-into-more-monthly-income-for-life/",
+      "date": "2026-09-19",
+      "weight": 0,
+      "text": "Dividends vs. an Annuity: Which Turns $590,000 Into More Monthly Income for Life? An insurance agent and a dividend investor can both make a convincing case for turning $590,000 into a lifetime income stream, and they are describing completely different outcomes for your money, your heirs, and your financial flexibility."
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "trefis.com: The Cash Machine The Market Put On Sale: VZ | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/vz/articles/611964/the-cash-machine-the-market-put-on-sale-vz-2/2026-08-19",
+      "date": null,
+      "weight": 3,
+      "text": "The Cash Machine The Market Put On Sale: VZ | Trefis The Cash Machine The Market Put On Sale: VZ | Trefis\n\n# The Cash Machine The Market Put On Sale: VZ\n\nAugust 19th, 2026 \u00b7 by Trefis Team\n\nThe market sees a slow-growth telecom giant, but the numbers show a cash-printing machine on sale. Here\u2019s the offer, the risk, and the one number that will settle the debate.\n\nVerizon Communications (VZ) generates free cash equal to 10.0% of its market value each year, while the median S&P 500 company produces just 4.3%. Yet despite that large cash flow, Verizon\u2019s stock has underperformed the broader market over the last twelve months. The question for invest"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "techi.com: VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi",
+      "provider": "techi.com",
+      "url": "https://www.techi.com/quote/VZ/forecast/",
+      "date": "2006-09-06",
+      "weight": 3,
+      "text": "VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi VZ Stock Forecast & Analyst Ratings - September 2026 | TECHi\n\n# Verizon Communications Inc (VZ) Stock Forecast & Analyst Ratings\n\nMedian target, high/low range, buy/hold/sell mix, conviction spread, and bull/base/bear scenarios from the latest analyst data.\n\nSection freshness\n\nPrice Sep 4, 4:00 PM EDT \u00b7 Statements Jun 29, 8:00 PM EDT\n\n## VZ target implies +2.71% from current.\n\nUse this dashboard to see whether Wall Street expects VZ to grow, stall, or drop before you dive into the raw financial data.\n\nPrice target map\n\nToday to 12 months out\n\nData last updated: Sep 4, 2026, 4:00 PM EDT\n\nCurren"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "tikr.com: Verizon Just Tore Up Its Pricing Playbook. Where VZ Stock Could Go in 2026 | TIKR.com",
+      "provider": "tikr.com",
+      "url": "https://www.tikr.com/blog/verizon-just-tore-up-its-pricing-playbook-where-vz-stock-could-go-in-2026",
+      "date": "2026-06-23",
+      "weight": 3,
+      "text": "Verizon Just Tore Up Its Pricing Playbook. Where VZ Stock Could Go in 2026 | TIKR.com Verizon Just Tore Up Its Pricing Playbook. Where VZ Stock Could Go in 2026 | TIKR.com\n\n# Verizon Just Tore Up Its Pricing Playbook. Where VZ Stock Could Go in 2026\n\nWiltone Asuncion \u2022 7 minute read\n\nReviewed by: David Hanson\n\nLast updated Jun 23, 2026\n\n@9comeback from Getty Images via Canva \n\n### K ey Stats for Verizon Stock\n\n- Current Price: $45.36\n- Target Price (Mid): ~$70\n- Street Target: ~$52\n- Potential Total Return: ~54%\n- Annualized IRR: ~10% / year\n- Earnings Reaction: +0.30% (April 27, 2026)\n\n## What Happened?\n\nVerizon Communications Inc. (VZ) has spent years asking investors to wait"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "deepresearchglobal.com: Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/verizon-vz-fundamental-analysis-report",
+      "date": "2026-06-26",
+      "weight": 3,
+      "text": "Verizon (VZ) - Fundamental Analysis Report 2026 (Updated) Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)\n\n# Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)\n\nDeep Research Global\n\nJun 26, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nExecutive TL;DR\n\n- Verizon (VZ) closed 2025 with $138.2 billion in revenue, a record dividend streak extending to 19 straight years, and the strongest fourth-quarter postpaid phone net additions in a decade under its newly installed CEO.\n- A leadership reset, the closing of the $20 billion Frontier deal, and a refocused capex plan have reframed the bull case from a slow-growth dividend"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "247wallst.com: Verizon (VZ) Earnings Report Q2 2026 | Beat, EPS & Revenue | 24/7 Wall St.",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/companies/vz/earnings",
+      "date": "2026-07-24",
+      "weight": 3,
+      "text": "Verizon (VZ) Earnings Report Q2 2026 | Beat, EPS & Revenue | 24/7 Wall St. Verizon (VZ) Earnings Report Q2 2026 | Beat, EPS & Revenue | 24/7 Wall St.\n\nNikkei 225 66,125.20 +1.17% \n\n Earnings \n\n Reported Jul 24, 2026 at 7:00 AM ET \u00b7 SEC Source \n\n Q2 26 EPS \n\n $1.30 \n\n BEAT +2.36% \n\n Est. $1.27 \n\n Q2 26 Revenue \n\n $34.25B \n\n vs S&P Since Q2 26 \n\n +11.0% \n\n BEATING MARKET \n\n VZ +14.3% vs S&P +3.3% \n\n## Market Reaction \n\n## Did VZ Beat Earnings? Q2 2026 Results\n\n Verizon Communications delivered a clean beat in Q2 2026, posting adjusted EPS of $1.30 against a consensus estimate of $1.27, a 2.36% positive surprise that extends the telecom giant's winning streak to six con"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "stockanalysis.com: Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/vz/transcripts/545470-q2-2026/",
+      "date": "2026-07-24",
+      "weight": 3,
+      "text": "Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio Verizon (VZ) Q2 2026 Earnings Call Transcript & Audio\n\n# Earnings Call: Q2 2026\n\nJul 24, 2026\n\n Summary\n\nQ2 saw strong growth in mobility and broadband, with improved churn, record adjusted EBITDA margin, and raised guidance for revenue, EPS, and free cash flow. New customer-centric offerings and AI infrastructure deals position the company for multi-year growth.\n\nOperator\n\n Good morning, welcome to Verizon's second quarter 2026 earnings conference call. At this time, all participants have been placed in listen-only mode, the call will be opened for questions following the presentation. Today'"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "marketwatch.com: VZ | Verizon Communications Inc. Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/vz/analystestimates",
+      "date": "2026-09-04",
+      "weight": 3,
+      "text": "VZ | Verizon Communications Inc. Analyst Estimates | MarketWatch VZ | Verizon Communications Inc. Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDow\n-0.51%\n\nS&P 500\n-0.38%\n\nNasdaq\n-0.29%\n\nVIX\n1.47%\n\nGold\n-0.40%\n\nOil\n1.16%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|Dow|53,414.25|-271.86|-0.51%|\n|**|S&P 500|7,718.60|-29.11|-0.38%|\n|**|Nasdaq|26,506.99|-77.07|-0.29%|\n|**|VIX|14.53|0.21|1.47%|\n|**|Gold|4,458.70|-17.90|-0.40%|\n|**|Oil|92.54|1.06|1.16%|\nCreated with Highstock 2.1.810am12pm2pm4pm53,25053,50053,750\nS&P 500 Movers\n* SNDK\n11.9\n\n* KLAC\n7.3\n\n* MRVL\n7.0\n\n* COHR\n6.6"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "tickernerd.com: VZ Stock Forecast 2026-2027 - Verizon Communications, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/vz-forecast/",
+      "date": "2026-09-04",
+      "weight": 3,
+      "text": "VZ Stock Forecast 2026-2027 - Verizon Communications, Inc. Price Targets & Predictions VZ Stock Forecast 2026-2027 - Verizon Communications, Inc. Price Targets & Predictions\n\n# VZ Stock Forecast: Verizon Communications, Inc. Price Predictions for 2026-2027\n\nLast close, 4 Sept 2026\n\n$50\n\n\u22120.89% on the day\n\nThe 25 Wall Street analysts covering Verizon Communications, Inc. hold a median 12-month price target of $52 \u2014 +2.7% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 56 of 100 as at 5 Sept 2026 \u2014 in the upper half.\n\nMarket cap\n\n$208.3B\n\nTicker Nerd rank\n\n56 / 100\n\nMedian analyst target\n\n$52\n\nAnalysts covering\n\n25\n\nRevenue$34.3B\u22120"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: Verizon Firing On All Cylinders - Focus On Service Convergence (NYSE:VZ) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4945546-verizon-firing-on-all-cylinders-focus-on-service-convergence",
+      "date": "2026-09-11",
+      "weight": 3,
+      "text": "Verizon Firing On All Cylinders - Focus On Service Convergence (NYSE:VZ) | Seeking Alpha Verizon Firing On All Cylinders - Focus On Service Convergence (NYSE:VZ) | Seeking Alpha\nSkip to content\nHome page Seeking Alpha - Power to Investors\nSearch field\nEntering text into the input field will update the search result below\nHome page Seeking Alpha - Power to Investors\nCreate free account\nSearch for Symbols, analysts, keywords\nLog in\n\n# Verizon Firing On All Cylinders - Focus On Service Convergence\nSep 11, 2026, 11:20 AM ETVerizon Communications Inc. (VZ) Stock, VZ:CA Stock1 Comment\n\nJuxtaposed Ideas\n16.2K Followers\nFollow\n## Summary\n* The $20B Frontier acquisition accelerates Verizon"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "gngresearch.com: VZ - Verizon Communications Inc Stock Analysis | GNG Research",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/VZ/",
+      "date": "2026-09-18",
+      "weight": 3,
+      "text": "VZ - Verizon Communications Inc Stock Analysis | GNG Research VZ - Verizon Communications Inc Stock Analysis | GNG Research\n\n# Verizon Communications Inc (VZ)\n\nCOMMUNICATION SERVICES \u2022 TELECOM SERVICES \u2022 NYSE\n\n$48.12\n\n-0.21 (-0.43%)\n\nMarket Cap: $200.80B\n\nLast updated: Sep 18, 2026 at 5:00 PM ET\n\n### Earnings\n\nQuarterly Annual\n\n1Y 3Y 5Y 10Y All\n\n#### Performance (10Y)\n\nBeat Rate\n\n88%(35/40)\n\nAvg Surprise\n\n+1.87%\n\nStreak\n\n16 Q\n\n#### Upcoming Estimates\n\nPeriod ending Sep 30, 2026\n\nEPS Consensus$1.28 Range$1.23 - $1.38 17 analysts\n\nEPS Revisions\n\n4\n\n0\n\n7d\n\n5\n\n9\n\n30d\n\nEPS Estimate Drift\n\n90d ago$1.29+0.7% 60d ago$1.29+0.7% 30d ago$1.29+0.1% 7d ago$1.28-0.0%"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "stockanalysis.com: Verizon Stock Forecast",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/vz/forecast/",
+      "date": "2025-07-17",
+      "weight": 0,
+      "text": "Verizon Stock Forecast Verizon Communications (VZ) Stock Forecast & Price Targets\n\nVerizon Communications Inc. (VZ)\n\nNYSE: VZ \u00b7 Real-Time Price \u00b7 USD\n\n40.95\n\n-0.30 (-0.73%)\n\nAt close: Jul 17, 2025, 4:00 PM\n\n41.03\n\n+0.08 (0.20%)\n\nPre-market: Jul 18, 2025, 7:00 AM EDT\n\n# Verizon Stock Forecast\n\nAll Analysts Top Analysts\n\n## Stock Price Forecast\n\nThe 15 analysts that cover Verizon stock have a consensus rating of \"Buy\" and an average price target of $47.43, which forecasts a 15.82% increase in the stock price over the next year. The lowest target is $43 and the highest is $56.\n\nPrice Target: $47.43 (+15.82%)\n\nAnalyst C"
+    },
+    {
+      "id": "S40",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "verizon.com: Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites",
+      "provider": "verizon.com",
+      "url": "https://www.verizon.com/about/news/verizon-delivers-record-2q26-results",
+      "date": "2026-07-24",
+      "weight": 0,
+      "text": "Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites\n\n# Verizon delivers record 2Q26 results as strategic transformation ignites accelerated growth\n\nCompany achieves strong growth on key metrics and raises full-year guidance for the second consecutive quarter.\n\nPublished Jul 24, 2026\n\nMedia contact: Katie Magnotta, Jamie Serino\n\nPublished Jul 24, 2026\n\n## Key highlights\n\n- Mobility and broadband service revenue grew by 2.8 percent in second-quarter 2026, and forecasted to rise to approximately 4.0 percent growth in fourth-quarter 2026\n- Delivered 184,000 postpaid phone net"
+    },
+    {
+      "id": "S41",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "verizon.com: 2026 Q2 Exhibit 99",
+      "provider": "verizon.com",
+      "url": "https://www.verizon.com/about/sites/default/files/verizon-2Q26-earnings-press-release.pdf",
+      "date": "2026-07-24",
+      "weight": 0,
+      "text": "2026 Q2 Exhibit 99 ## News Release\n\nFOR IMMEDIATE RELEASE Media contacts: \nJuly 24, 2026 Katie Magnotta \n201-602-9235 \nkatie.magnotta@verizon.com \nJamie Serino \n201-401-5460 \njamie.serino@verizon.com \n\n### Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites Accelerated Growth\n\n#### Company Achieves Strong Growth on Key Metrics and Raises Full-Year Guidance for the Second Consecutive Quarter\n\n##### Key Highlights:\n\n\u2022 Mobility and broadband service revenue grew by 2.8 percent in second-quarter 2026, and forecasted to rise to approximately 4.0 percent growth in fourth-quarter 2026 \n\u2022 Delivered"
+    },
+    {
+      "id": "S42",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "verizon.com: 2Q26 Earnings Presentation",
+      "provider": "verizon.com",
+      "url": "https://www.verizon.com/about/sites/default/files/2026-07/vz_2q2026_presentation_072426.pdf",
+      "date": "2026-07-24",
+      "weight": 0,
+      "text": "2Q26 Earnings Presentation July 24, 2026\n\n\u201cSafe Harbor\u201d Statement\n\nAs required by SEC rules, we have provided a reconciliation of the non-GAAP financial measures included in this presentation to the most directly comparable GAAP measures in materials on our website at www.verizon.com/about/investors.\n\nIn this presentation we have made forward-looking statements. These statements are based on our estimates and assumptions and are subject to risks and uncertainties. Forward-looking statements include the information concerning our possible or assumed future results of operations. Forward-looking statements also include th"
+    },
+    {
+      "id": "S43",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "247wallst.com: Verizon Stock Is Near a 52-Week High. Here\u2019s Why I\u2019m Still Bullish. - 24/7 Wall St.",
+      "provider": "247wallst.com",
+      "url": "https://247wallst.com/investing/2026/09/08/verizon-stock-is-near-a-52-week-high-heres-why-im-still-bullish/",
+      "date": "2026-09-08",
+      "weight": 0,
+      "text": "Verizon Stock Is Near a 52-Week High. Here\u2019s Why I\u2019m Still Bullish. - 24/7 Wall St. Verizon Stock Is Near a 52-Week High. Here\u2019s Why I\u2019m Still Bullish. - 24/7 Wall St.\nSkip to content\n\nAuthoritative Financial News \u00b7 Since 2006\n\nAI Investor Podcast \n\u275a\u275a\nAt close\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nDow Jones52,887.60\u22120.32%\nNasdaq 10029,569.20\u22120.01%\nRussell 20002,957.35\u22120.30%\nS&P 5007,686.10\u22120.21%\nD"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "tbri.com: Cable MVNO pricing pressure is intensifying in 2026, threatening Verizon's subscriber growth.",
+      "provider": "tbri.com",
+      "url": "https://tbri.com/webinars/u-s-wireless-market-outlook-for-2026/",
+      "date": "2026-09-01",
+      "weight": null,
+      "text": "Cable MVNO pricing pressure is intensifying in 2026, threatening Verizon's subscriber growth. It can slow postpaid net adds and force price cuts, pressuring service revenue. \"Competitive pricing \u2014 particularly from cable MVNOs \u2014 is intensifying\""
+    },
+    {
+      "id": "S45",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "script.ibisworld.com: In 2026, spectrum auctions, regulatory scrutiny, and MVNO expansion are constraining wireless pricing power.",
+      "provider": "script.ibisworld.com",
+      "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+      "date": "2026-05-01",
+      "weight": null,
+      "text": "In 2026, spectrum auctions, regulatory scrutiny, and MVNO expansion are constraining wireless pricing power. Constrained pricing power can limit Verizon's service revenue growth despite rising data usage. \"mounting pressure from aggressive spectrum auctions, regulatory scrutiny and MVNO expansion, which have constrained pricing power\""
+    },
+    {
+      "id": "S46",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "script.ibisworld.com: As 5G deployment has scaled, carriers have absorbed heavy spectrum and network capex in 2026.",
+      "provider": "script.ibisworld.com",
+      "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+      "date": "2026-05-01",
+      "weight": null,
+      "text": "As 5G deployment has scaled, carriers have absorbed heavy spectrum and network capex in 2026. High capex can pressure Verizon's free cash flow and returns. \"carriers have absorbed heavy spectrum and network capex\""
+    },
+    {
+      "id": "S47",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "script.ibisworld.com: Carriers are using hyperscaler partnerships to move into edge, cloud, and AI-enabled enterprise solutions in 2026.",
+      "provider": "script.ibisworld.com",
+      "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+      "date": "2026-05-01",
+      "weight": null,
+      "text": "Carriers are using hyperscaler partnerships to move into edge, cloud, and AI-enabled enterprise solutions in 2026. This can open new enterprise revenue streams for Verizon beyond connectivity. \"using partnerships with hyperscalers and industry specialists to move beyond basic connectivity into edge, cloud and AI\u2011enabled vertical solutions\""
+    },
+    {
+      "id": "S48",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "chetansharma.com: The device-subsidy war did not persist into Q2 2026.",
+      "provider": "chetansharma.com",
+      "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+      "date": null,
+      "weight": null,
+      "text": "The device-subsidy war did not persist into Q2 2026. Reduced subsidy intensity can lower customer acquisition costs and support margins. \"whether the device-subsidy war would persist. It didn\u2019t.\""
+    },
+    {
+      "id": "S49",
+      "kind": "options",
+      "ref": "options",
+      "label": "VZ listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VZ/options/",
+      "date": "2026-09-20",
+      "weight": null,
+      "text": "long CALL strike 50.0 expiry 2026-11-20 premium 0.98 short PUT strike 46.0 expiry 2026-11-20 premium 1.17"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 4.88,
+    "fy_consensus": 5.02629,
+    "ratio": 0.971,
+    "beats": 4,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (1.3 + 1.28 + 1.09 + 1.21) total 4.88, against a current-FY consensus of 5.02629 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "Verizon VZ 2026 2027 wireless broadband competition fixed wireless cable satellite fiber outlook",
+        "US enterprise telecom and IT spending forecast 2026 2027 networking security budgets",
+        "US broadband market 2026 2027 fixed wireless access cable fiber satellite competition subscriber growth",
+        "US consumer wireless spending 2026 2027 household budgets smartphone upgrade postpaid churn"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "In 2026, Verizon is pursuing cost efficiency and a model that reduces device subsidies.",
+          "stance": "support",
+          "why": "Lower costs and subsidies can lift margins and cash flow as the turnaround reaches reported results.",
+          "quote": "A comprehensive operational and financial turnaround is underway, marked by a shift to customer-centricity, cost efficiency, and a new business model that reduces subsidies.",
+          "url": "https://stockanalysis.com/stocks/vz/transcripts/737230-goldman-sachs-communacopia-technology-conference-2026/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-09-09",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, fiber-on-fiber broadband competition continues to intensify.",
+          "stance": "pressure",
+          "why": "Overlapping fiber networks can pressure Verizon's broadband pricing and subscriber growth.",
+          "quote": "Fiber-on-Fiber Competition Continues to Intensify",
+          "url": "https://www.costquest.com/wp-content/uploads/2026/08/Broadband-in-America-Competition-August-2026.pdf",
+          "publisher": "costquest.com",
+          "as_of": "2026-08-01",
+          "age_days": 50,
+          "undated": false
+        },
+        {
+          "claim": "As of March 2026, fixed wireless access is seen as supply-constrained and temporary.",
+          "stance": "pressure",
+          "why": "Capacity limits can constrain Verizon's FWA broadband growth as demand rises.",
+          "quote": "FWA Camp: Mobile relationship convenience on borrowed spectrum capacity. Inherently supply-constrained and temporary.",
+          "url": "https://www.lightreading.com/broadband/fiber-castles-cable-forts-fwa-camps-and-satellite-warbands",
+          "publisher": "lightreading.com",
+          "as_of": "2026-03-31",
+          "age_days": 173,
+          "undated": false
+        },
+        {
+          "claim": "In mid-2026, the US broadband market is becoming increasingly competitive.",
+          "stance": "pressure",
+          "why": "More competition can pressure Verizon's broadband pricing and subscriber growth.",
+          "quote": "The US broadband market is becoming increasingly competitive in 2026.",
+          "url": "https://www.mobilewalla.com/blog/what-broadband-switching-data-reveals-about-the-market-q22026?hs_amp=true",
+          "publisher": "mobilewalla.com",
+          "as_of": "2026-06-24",
+          "age_days": 88,
+          "undated": false
+        },
+        {
+          "claim": "In Q2 2026, cable broadband subscriber losses are slowing, easing share gains for Verizon.",
+          "stance": "pressure",
+          "why": "If cable stops bleeding subscribers, Verizon's broadband net adds may face tougher comparisons.",
+          "quote": "While cable providers are still losing subscribers, the pace of decline appears to be slowing.",
+          "url": "https://www.mobilewalla.com/blog/what-broadband-switching-data-reveals-about-the-market-q22026?hs_amp=true",
+          "publisher": "mobilewalla.com",
+          "as_of": "2026-06-24",
+          "age_days": 88,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, US tech spending is forecast to grow 8.3% to $2.9 trillion.",
+          "stance": "support",
+          "why": "Higher enterprise tech budgets can lift demand for Verizon Business connectivity and services.",
+          "quote": "US tech spending, including CIO staff spending, will grow at a robust 8.3% to reach $2.9 trillion",
+          "url": "https://www.forrester.com/report/us-tech-market-forecast-2025-to-2030/RES189933",
+          "publisher": "forrester.com",
+          "as_of": "2026-01-27",
+          "age_days": 236,
+          "undated": false,
+          "drop_reason": "stale (236 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Verizon VZ 2026 2027 US wireless broadband market competition fixed wireless fiber outlook",
+        "US wireless industry 2026 2027 subscriber growth competition cable MVNO satellite direct-to-cell",
+        "enterprise and government telecom networking spending 2026 2027 budgets AI security connectivity",
+        "US broadband market 2026 2027 fiber buildout BEAD funding fixed wireless access competition"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "U.S. fiber broadband competition is intensifying as all three major wireless operators commit material capital in 2026.",
+          "stance": "pressure",
+          "why": "This pressures Verizon's broadband pricing and subscriber growth as rivals build fiber.",
+          "quote": "Competition in the U.S. fiber broadband market is intensifying",
+          "url": "https://insight.factset.com/u.s.-wireless-operators-increase-focus-on-fiber",
+          "publisher": "insight.factset.com",
+          "as_of": "2026-09-01",
+          "age_days": 19,
+          "undated": false
+        },
+        {
+          "claim": "T-Mobile is expanding fiber through JVs without owning assets, intensifying competition in 2026.",
+          "stance": "pressure",
+          "why": "This could pressure Verizon's fiber broadband share and pricing.",
+          "quote": "Unlike AT&T and Verizon, T-Mobile does not hold wholly owned fiber assets, keeping fiber off its balance sheet entirely and accessing the market through JVs",
+          "url": "https://insight.factset.com/u.s.-wireless-operators-increase-focus-on-fiber",
+          "publisher": "insight.factset.com",
+          "as_of": "2026-09-01",
+          "age_days": 19,
+          "undated": false
+        },
+        {
+          "claim": "In Q1 2026, U.S. postpaid service revenue saw negative growth for the first time in the 5G cycle.",
+          "stance": "pressure",
+          "why": "This pressures Verizon's wireless service revenue growth.",
+          "quote": "For the first time in the 5G cycle, postpaid service revenues saw negative growth.",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of Q1 2026, U.S. wireless churn remains stubbornly high above the old normal.",
+          "stance": "pressure",
+          "why": "Higher churn pressures Verizon's retention costs and subscriber growth.",
+          "quote": "Churn remains stubbornly high above the threshold that defined the old normal.",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of Q1 2026, promotional truce is holding but incentives to break it remain.",
+          "stance": "pressure",
+          "why": "A return to promotions would pressure Verizon's margins and ARPU.",
+          "quote": "The truce is holding \u2014 for now \u2014 but the incentives to break it are still very much in place.",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q1-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "As of February 2026, major wireless carriers compete on razor-thin margins while cable captured 45% of new wireless customers in 2025.",
+          "stance": "pressure",
+          "why": "Cable's share of new wireless customers pressures Verizon's subscriber growth and pricing.",
+          "quote": "The three major wireless carriers now compete on razor-thin profit margins, while cable companies captured 45% of new wireless customers in 2025.",
+          "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+          "publisher": "lightreading.com",
+          "as_of": "2026-02-06",
+          "age_days": 226,
+          "undated": false,
+          "drop_reason": "stale (226 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Verizon VZ 2026 2027 consumer wireless broadband competition cable satellite direct-to-cell pressures",
+        "US wireless industry 2026 2027 market saturation price competition cable MVNO fixed wireless access growth outlook",
+        "enterprise IT telecom spending 2026 2027 budgets SD-WAN SASE private 5G managed network services outlook",
+        "US broadband market 2026 2027 fiber overbuild satellite broadband BEAD funding fixed wireless competition wireline voice decline"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "Cable MVNO pricing pressure is intensifying in 2026, threatening Verizon's subscriber growth.",
+          "stance": "pressure",
+          "why": "It can slow postpaid net adds and force price cuts, pressuring service revenue.",
+          "quote": "Competitive pricing \u2014 particularly from cable MVNOs \u2014 is intensifying",
+          "url": "https://tbri.com/webinars/u-s-wireless-market-outlook-for-2026/",
+          "publisher": "tbri.com",
+          "as_of": "2026-09-01",
+          "age_days": 19,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, spectrum auctions, regulatory scrutiny, and MVNO expansion are constraining wireless pricing power.",
+          "stance": "pressure",
+          "why": "Constrained pricing power can limit Verizon's service revenue growth despite rising data usage.",
+          "quote": "mounting pressure from aggressive spectrum auctions, regulatory scrutiny and MVNO expansion, which have constrained pricing power",
+          "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+          "publisher": "script.ibisworld.com",
+          "as_of": "2026-05-01",
+          "age_days": 142,
+          "undated": false
+        },
+        {
+          "claim": "As 5G deployment has scaled, carriers have absorbed heavy spectrum and network capex in 2026.",
+          "stance": "pressure",
+          "why": "High capex can pressure Verizon's free cash flow and returns.",
+          "quote": "carriers have absorbed heavy spectrum and network capex",
+          "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+          "publisher": "script.ibisworld.com",
+          "as_of": "2026-05-01",
+          "age_days": 142,
+          "undated": false
+        },
+        {
+          "claim": "Carriers are using hyperscaler partnerships to move into edge, cloud, and AI-enabled enterprise solutions in 2026.",
+          "stance": "support",
+          "why": "This can open new enterprise revenue streams for Verizon beyond connectivity.",
+          "quote": "using partnerships with hyperscalers and industry specialists to move beyond basic connectivity into edge, cloud and AI\u2011enabled vertical solutions",
+          "url": "https://script.ibisworld.com/united-states/industry/wireless-telecommunications-carriers/1267/",
+          "publisher": "script.ibisworld.com",
+          "as_of": "2026-05-01",
+          "age_days": 142,
+          "undated": false
+        },
+        {
+          "claim": "The device-subsidy war did not persist into Q2 2026.",
+          "stance": "support",
+          "why": "Reduced subsidy intensity can lower customer acquisition costs and support margins.",
+          "quote": "whether the device-subsidy war would persist. It didn\u2019t.",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "Cable companies captured 45% of new wireless customers in 2025, intensifying competition into 2026.",
+          "stance": "pressure",
+          "why": "This share shift can pressure Verizon's postpaid net adds and pricing.",
+          "quote": "cable companies captured 45% of new wireless customers in 2025",
+          "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+          "publisher": "lightreading.com",
+          "as_of": "2026-02-06",
+          "age_days": 226,
+          "undated": false,
+          "drop_reason": "stale (226 days old)"
+        },
+        {
+          "claim": "As of February 2026, the three major US wireless carriers compete on razor-thin profit margins.",
+          "stance": "pressure",
+          "why": "Thin margins can limit Verizon's ability to absorb pricing pressure and invest.",
+          "quote": "The three major wireless carriers now compete on razor-thin profit margins",
+          "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+          "publisher": "lightreading.com",
+          "as_of": "2026-02-06",
+          "age_days": 226,
+          "undated": false,
+          "drop_reason": "stale (226 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    }
+  ]
+}

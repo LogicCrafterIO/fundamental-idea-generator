@@ -1,0 +1,665 @@
+{
+  "ticker": "TBN",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Pre-revenue natural gas developer in Australia's Beetaloo Basin; first gas sales began September 2026.",
+  "catalyst": {
+    "date": "2026-09-25",
+    "weekday": "Friday",
+    "session": "before the open",
+    "days_out": 5,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": -0.31,
+      "eps_low": -0.31,
+      "eps_high": -0.31,
+      "revenue_avg": 3821750
+    },
+    "recent_reports": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": -0.34,
+        "eps_actual": -0.39,
+        "surprise_pct": -14.91,
+        "beat": false
+      },
+      {
+        "date": "2026-02-11",
+        "eps_estimate": -0.36,
+        "eps_actual": -0.27,
+        "surprise_pct": 24.39,
+        "beat": true
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": -0.29,
+        "eps_actual": -0.36,
+        "surprise_pct": -25.17,
+        "beat": false
+      },
+      {
+        "date": "2025-09-25",
+        "eps_estimate": -0.28,
+        "eps_actual": -0.6,
+        "surprise_pct": -110.56,
+        "beat": false
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-25 (Friday, before the open), 5 days out -- from the earnings calendar, consensus EPS -0.31.",
+    "why": "2026-09-25 (Friday, before the open), 5 days out -- from the earnings calendar, consensus EPS -0.31. First gas revenue must shrink the loss."
+  },
+  "reasons": [
+    "Because commissioning gas sells at a discounted, interruptible price, first revenue is a token sum until volumes reach the full 40 TJ/d [terajoules per day] in early 2027.",
+    "Because the ACCC [Australian Competition and Consumer Commission] sees a 13 PJ [petajoule] east coast surplus in Q4 2026, spot prices soften just as TBN's first volumes land, so the tightness case slips to winter 2027.",
+    "Because TBN holds US$101.9m of cash and lost US$9.41m last quarter with no revenue, the FY26 report is a going-concern test."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S39",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "ir.tamboran.com: First Beetaloo gas sales began Sept 2026, with volumes expected to reach full 40 TJ/d by early 2027.",
+        "provider": "ir.tamboran.com",
+        "url": "https://ir.tamboran.com/news-events/press-releases/detail/49/tamboran-delivers-first-gas-sales-from-the-beetaloo-basin",
+        "date": "2026-09-08"
+      },
+      {
+        "id": "S40",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "ir.tamboran.com: In commissioning after Sept 2026, Beetaloo gas sales earn a discounted price due to interruptible supply.",
+        "provider": "ir.tamboran.com",
+        "url": "https://ir.tamboran.com/news-events/press-releases/detail/49/tamboran-delivers-first-gas-sales-from-the-beetaloo-basin",
+        "date": "2026-09-08"
+      }
+    ],
+    [
+      {
+        "id": "S42",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "accc.gov.au: ACCC sees east coast gas well supplied in Q4 2026 with a 13 PJ surplus.",
+        "provider": "accc.gov.au",
+        "url": "https://www.accc.gov.au/media-release/east-coast-gas-market-to-be-well-supplied-in-q4-2026-but-more-investment-needed-to-meet-long-term-demand",
+        "date": "2026-09-01"
+      },
+      {
+        "id": "S43",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "accc.gov.au: ACCC forecasts tight east coast gas supply and shortfall risk in winter 2027.",
+        "provider": "accc.gov.au",
+        "url": "https://www.accc.gov.au/media-release/east-coast-gas-market-to-be-well-supplied-in-q4-2026-but-more-investment-needed-to-meet-long-term-demand",
+        "date": "2026-09-01"
+      }
+    ],
+    [
+      {
+        "id": "S33",
+        "kind": "ollama_search",
+        "ref": "web:6",
+        "label": "drillr.ai: [TBN] Tamboran Resources: First Beetaloo Gas and the FY2026 Going-Concern Test | drillr",
+        "provider": "drillr.ai",
+        "url": "https://drillr.ai/article/tbn-tamboran-resources-first-beetaloo-gas-fy2026-going-concern",
+        "date": "2026-09-24"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for TBN",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TBN/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for TBN",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TBN/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "TBN quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tbn/financials",
+      "date": "3/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "TBN earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tbn/earnings",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Insider Monkey: Tamboran (TBN) Sells First Beetaloo Gas. Can Take-or-Pay Demand Support Scale?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/tamboran-tbn-sells-first-beetaloo-201936612.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "BNK Invest: Monday 4/13 Insider Buying Report: AYI, TBN",
+      "provider": null,
+      "url": "/articles/monday-4-13-insider-buying-report-ayi-tbn",
+      "date": "Apr 13, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "RTTNews: Tamboran Resources Appoints Todd Abbott As CEO",
+      "provider": null,
+      "url": "/articles/tamboran-resources-appoints-todd-abbott-ceo",
+      "date": "Jan 12, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "BNK Invest: Wednesday Sector Leaders: Gas Utilities, Oil & Gas Exploration & Production Stocks",
+      "provider": null,
+      "url": "/articles/wednesday-sector-leaders-gas-utilities-oil-gas-exploration-production-stocks",
+      "date": "Jun 3, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: TBN Crosses Above Average Analyst Target",
+      "provider": null,
+      "url": "/articles/tbn-crosses-above-average-analyst-target",
+      "date": "Mar 30, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "MarketBeat: Tamboran Resources Q3 Earnings Call Highlights",
+      "provider": null,
+      "url": "/articles/tamboran-resources-q3-earnings-call-highlights",
+      "date": "May 15, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "NASDAQ.com: After-Hours Earnings Report for November 13, 2025 :  AMAT, BAP, STN, GLOB, TMC, TRVI, PGEN, BZH, OMER, TBN, TOI, AIRJ",
+      "provider": null,
+      "url": "/articles/after-hours-earnings-report-november-13-2025-amat-bap-stn-glob-tmc-trvi-pgen-bzh-omer-tbn",
+      "date": "Nov 13, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Fintel: RBC Capital Maintains Tamboran Resources (TBN) Sector Perform Recommendation",
+      "provider": null,
+      "url": "/articles/rbc-capital-maintains-tamboran-resources-tbn-sector-perform-recommendation",
+      "date": "Oct 24, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Tamboran Resources Corporation (TBN) Upgraded to Buy: What Does It Mean for the Stock?",
+      "provider": null,
+      "url": "/articles/tamboran-resources-corporation-tbn-upgraded-buy-what-does-it-mean-stock",
+      "date": "Oct 27, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Wall Street Analysts Think Tamboran Resources Corporation (TBN) Could Surge 42.8%: Read This Before Placing a Bet",
+      "provider": null,
+      "url": "/articles/wall-street-analysts-think-tamboran-resources-corporation-tbn-could-surge-428-read-placing",
+      "date": "Oct 27, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Wall Street Analysts Believe Tamboran Resources Corporation (TBN) Could Rally 29.83%: Here's is How to Trade",
+      "provider": null,
+      "url": "/articles/wall-street-analysts-believe-tamboran-resources-corporation-tbn-could-rally-2983-heres-how",
+      "date": "Oct 8, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "BNK Invest: Monday Sector Laggards: Gas Utilities, Consumer Services",
+      "provider": null,
+      "url": "/articles/monday-sector-laggards-gas-utilities-consumer-services",
+      "date": "Apr 6, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Fintel: RBC Capital Upgrades Tamboran Resources (TBN)",
+      "provider": null,
+      "url": "/articles/rbc-capital-upgrades-tamboran-resources-tbn",
+      "date": "Apr 29, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Fintel: Tamboran Resources (TBN) Price Target Increased by 41.87% to 59.33",
+      "provider": null,
+      "url": "/articles/tamboran-resources-tbn-price-target-increased-4187-5933",
+      "date": "Apr 9, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Fintel: Wells Fargo Initiates Coverage of Tamboran Resources (TBN) with Overweight Recommendation",
+      "provider": null,
+      "url": "/articles/wells-fargo-initiates-coverage-tamboran-resources-tbn-overweight-recommendation",
+      "date": "Dec 2, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Fintel: Roth Capital Initiates Coverage of Tamboran Resources (TBN) with Buy Recommendation",
+      "provider": null,
+      "url": "/articles/roth-capital-initiates-coverage-tamboran-resources-tbn-buy-recommendation",
+      "date": "May 21, 20"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "Proactive: Tamboran completes Largest Beetaloo stimulation campaign as first gas target nears",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1095664/tamboran-completes-largest-beetaloo-stimulation-campaign-as-first-gas-target-nears-1095664.html",
+      "date": "2026-07-19"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Proactive: Tamboran Resources receives 113% upside valuation from H&P Research",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1095737/tamboran-resources-receives-113-upside-valuation-from-h-p-research-1095737.html",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Proactive: Tamboran Resources approaches production inflection point as Australia\u2019s gas squeeze deepens",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1097840/tamboran-resources-approaches-production-inflection-point-as-australia-s-gas-squeeze-deepens-1097840.html",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Proactive: Tamboran Resources starts Beetaloo gas commissioning and moves to extend Liberty Energy partnership",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1097943/tamboran-resources-starts-beetaloo-gas-commissioning-and-moves-to-extend-liberty-energy-partnership-1097943.html",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "Proactive: Tamboran Resources delivers first Beetaloo gas sales as Shenandoah South enters commissioning",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1098142/tamboran-resources-delivers-first-beetaloo-gas-sales-as-shenandoah-south-enters-commissioning-1098142.html",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "MT Newswires: Sector Update: Energy Stocks Rise Tuesday Afternoon",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-tuesday-175256522.html",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "simplywall.st: Tamboran Resources (NYSE:TBN) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/energy/nyse-tbn/tamboran-resources/future",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "circlfi.com: TBN Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/tbn-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "rankalpha.io: TBN - Tamboran Resources - Grade F - RankAlpha",
+      "provider": "rankalpha.io",
+      "url": "https://rankalpha.io/ticker/TBN",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "ir.tamboran.com: Tamboran Delivers First Gas Sales From the Beetaloo Basin :: Tamboran Resources Corporation (TBN)",
+      "provider": "ir.tamboran.com",
+      "url": "https://ir.tamboran.com/news-events/press-releases/detail/49/tamboran-delivers-first-gas-sales-from-the-beetaloo-basin",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketbeat.com: Tamboran Resources (TBN) Projected to Release Earnings on Thursday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-tamboran-resources-tbn-projected-to-release-earnings-on-thursday-2026-09-17/",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "stockanalysis.com: Tamboran Resources (TBN) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/tbn/forecast/",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "drillr.ai: [TBN] Tamboran Resources: First Beetaloo Gas and the FY2026 Going-Concern Test | drillr",
+      "provider": "drillr.ai",
+      "url": "https://drillr.ai/article/tbn-tamboran-resources-first-beetaloo-gas-fy2026-going-concern",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "wallstreetzen.com: Tamboran Resources Stock Forecast & Predictions: 1Y Price Target $58.50 | Buy or Sell NYSE: TBN 2026 | WallStreetZen",
+      "provider": "wallstreetzen.com",
+      "url": "https://www.wallstreetzen.com/stocks/us/nyse/tbn/stock-forecast",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "sec.gov: a260513tamboran3qfy26res",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1997652/000162828026034591/a260513tamboran3qfy26res.htm",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "seekingalpha.com: Tamboran Resources: First Gas Turns Beetaloo Basin Into A Paid Appraisal Platform | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4938064-tamboran-resources-first-gas-turns-beetaloo-basin-into-a-paid-appraisal-platform",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "marketscreener.com: RBC Upgrades Tamboran Resources to Outperform From Sector Perform, Raises Price Target to $55 From $38, Keeps Speculative Risk | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/rbc-upgrades-tamboran-resources-to-outperform-from-sector-perform-raises-price-target-to-55-from--ce7f59d3d18af520",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "kalkine.com.au: Tamboran Resources  Schedules Fourth Quarter FY26 Earnings Release and Webcast for 25 September 2026",
+      "provider": "kalkine.com.au",
+      "url": "https://kalkine.com.au/news/announcements/tamboran-resources-schedules-fourth-quarter-fy26-earnings-release-and-webcast-for-25-september-2026",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "ir.tamboran.com: First Beetaloo gas sales began Sept 2026, with volumes expected to reach full 40 TJ/d by early 2027.",
+      "provider": "ir.tamboran.com",
+      "url": "https://ir.tamboran.com/news-events/press-releases/detail/49/tamboran-delivers-first-gas-sales-from-the-beetaloo-basin",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "ir.tamboran.com: In commissioning after Sept 2026, Beetaloo gas sales earn a discounted price due to interruptible supply.",
+      "provider": "ir.tamboran.com",
+      "url": "https://ir.tamboran.com/news-events/press-releases/detail/49/tamboran-delivers-first-gas-sales-from-the-beetaloo-basin",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "proactiveinvestors.com: AEMO sees southern gas supply risks from 2030, making northern gas like Beetaloo a potential solution.",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1097840/tamboran-resources-approaches-production-inflection-point-as-australia-s-gas-squeeze-deepens-1097840.html",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "accc.gov.au: ACCC sees east coast gas well supplied in Q4 2026 with a 13 PJ surplus.",
+      "provider": "accc.gov.au",
+      "url": "https://www.accc.gov.au/media-release/east-coast-gas-market-to-be-well-supplied-in-q4-2026-but-more-investment-needed-to-meet-long-term-demand",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "accc.gov.au: ACCC forecasts tight east coast gas supply and shortfall risk in winter 2027.",
+      "provider": "accc.gov.au",
+      "url": "https://www.accc.gov.au/media-release/east-coast-gas-market-to-be-well-supplied-in-q4-2026-but-more-investment-needed-to-meet-long-term-demand",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S44",
+      "kind": "options",
+      "ref": "options",
+      "label": "TBN listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TBN/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 38.25,
+    "market_cap": "1.33B",
+    "fwd_pe": -34.7,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": null,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter other operating items increasing 100% quarter over quarter (3/31/2026)",
+      "Last quarter net receivables increasing 66% quarter over quarter (3/31/2026)",
+      "EPS declined year over year, -0.32 -> -0.39"
+    ]
+  },
+  "structure_error": "ValueError: no listed options for TBN",
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 75,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 4,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 2,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "capacity",
+          "coast",
+          "commissioning",
+          "contract",
+          "early",
+          "government",
+          "pipeline",
+          "plateau",
+          "pricing",
+          "process",
+          "starts",
+          "sturt",
+          "unresolved",
+          "until"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 95,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "coast",
+          "commissioning",
+          "discounted",
+          "early",
+          "interruptible",
+          "prices",
+          "reach",
+          "soften",
+          "surplus",
+          "tight",
+          "tightness",
+          "until",
+          "volumes",
+          "winter"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 75,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "capacity",
+          "coast",
+          "contract",
+          "early",
+          "easing",
+          "forecast",
+          "northern",
+          "pipeline",
+          "pricing",
+          "starts",
+          "surplus",
+          "territory",
+          "tightness",
+          "unresolved",
+          "until"
+        ]
+      }
+    ]
+  }
+}

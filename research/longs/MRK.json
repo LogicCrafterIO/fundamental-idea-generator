@@ -1,0 +1,479 @@
+{
+  "ticker": "MRK",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Drugmaker whose profit rests on Keytruda, an immune-oncology cancer drug, plus vaccines and animal health.",
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 39,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 2.21073,
+      "eps_low": 2.01,
+      "eps_high": 2.41,
+      "revenue_avg": 17354898980
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": -0.26,
+        "eps_actual": -0.13,
+        "surprise_pct": 49.43,
+        "beat": true
+      },
+      {
+        "date": "2026-04-30",
+        "eps_estimate": -1.47,
+        "eps_actual": -1.28,
+        "surprise_pct": 13.15,
+        "beat": true
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 2.01,
+        "eps_actual": 2.04,
+        "surprise_pct": 1.47,
+        "beat": true
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 2.35,
+        "eps_actual": 2.58,
+        "surprise_pct": 9.85,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 93,
+    "facts_line": "2026-10-29 (Thursday, before the open), 39 days out -- from the earnings calendar, consensus EPS 2.21.",
+    "why": "Q3 must show QLEX [subcutaneous Keytruda] and new launches covering Januvia's generic decline, with no further cut to profit guidance."
+  },
+  "reasons": [
+    "The 53.5x forward PE [price/earnings] is inflated because last quarter's loss came from a one-off acquisition charge, so on next-FY consensus the stock is 15.4x -- the market is reading a charge as a run-rate.",
+    "Because QLEX [subcutaneous Keytruda] is a form biosimilars cannot copy, patients shifting onto it took sales from $128M in Q1 to $463M in Q2, defending revenue before 2028.",
+    "Because no US pembrolizumab biosimilar is licensed and IV [intravenous drip form] Keytruda exclusivity runs to 2028, the revenue base holds while the checkpoint inhibitor market grows from $68B in 2026 toward $150B."
+  ],
+  "quants": {
+    "price": 146.87,
+    "market_cap": "362.35B",
+    "fwd_pe": 53.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 5.4,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 11 up and 4 down over last 30 days",
+    "extra": [
+      "Last quarter earnings before interest and tax decreasing 81% quarter over quarter (6/30/2026)",
+      "Last quarter net income decreasing 68% quarter over quarter (6/30/2026)",
+      "EPS declined year over year, 2.13 -> -0.13"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 155.0,
+        "qty": 10,
+        "underlying": 146.87,
+        "multiplier": 100,
+        "price": 4.5,
+        "total": 4500.0,
+        "open_interest": 1056
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 155.0,
+        "qty": 4,
+        "underlying": 146.87,
+        "multiplier": 100,
+        "price": 1.43,
+        "total": -572.0,
+        "open_interest": 3891
+      }
+    ],
+    "thesis_target": "Targets the 2026-10-29 report, with the long leg expiring 2026-11-20, which gives the thesis time to show up.",
+    "reflection": "The short October call dies 13 days before the print, so the November long carries the event alone -- clean, but a 10.6% credit is thin for a name that has beaten four quarters running. The 155 strike needs a 5.5% move from 146.87; the question is whether a beat gets it there."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 72,
+        "errors": 1,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 9,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "biosimilar",
+          "checkpoint",
+          "defend",
+          "exclusivity",
+          "inhibitor",
+          "licensed",
+          "pembrolizumab",
+          "subcutaneous"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 80,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "merck"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "august",
+          "guidance",
+          "medicines",
+          "merck"
+        ]
+      }
+    ]
+  },
+  "reason_sources": [
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for MRK",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/MRK/key-statistics/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "label": "MRK quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/mrk/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S18",
+        "kind": "ollama_search",
+        "label": "deepresearchglobal.com: Merck (MRK) - Fundamental Analysis Report 2026 (Updated)",
+        "provider": "deepresearchglobal.com",
+        "url": "https://www.deepresearchglobal.com/p/merck-mrk-fundamental-analysis-report",
+        "date": "2026-06-26"
+      }
+    ],
+    [
+      {
+        "id": "S17",
+        "kind": "ollama_search",
+        "label": "alcapitaladvisory.com: Merck & Co. (MRK) Stock Analysis August 2026 - DCF Valuation",
+        "provider": "alcapitaladvisory.com",
+        "url": "https://alcapitaladvisory.com/research/equities/mrk.html",
+        "date": "2026-05-04"
+      },
+      {
+        "id": "S6",
+        "kind": "nasdaq",
+        "label": "Zacks: MRK Banks on Growing Pipeline & New Drugs to Offset Keytruda LOE",
+        "provider": null,
+        "url": "/articles/mrk-banks-growing-pipeline-new-drugs-offset-keytruda-loe",
+        "date": "Sep 11, 20"
+      }
+    ],
+    [
+      {
+        "id": "S6",
+        "kind": "nasdaq",
+        "label": "Zacks: MRK Banks on Growing Pipeline & New Drugs to Offset Keytruda LOE",
+        "provider": null,
+        "url": "/articles/mrk-banks-growing-pipeline-new-drugs-offset-keytruda-loe",
+        "date": "Sep 11, 20"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for MRK",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MRK/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "label": "Analyst EPS estimates and revision counts for MRK",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MRK/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "label": "MRK quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mrk/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "label": "MRK earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mrk/earnings",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "label": "Simply Wall St.: What Does Merck (MRK) Mean For EU Bladder Cancer Treatment After CHMP Support?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/does-merck-mrk-mean-eu-231204521.html",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "label": "Zacks: MRK Banks on Growing Pipeline & New Drugs to Offset Keytruda LOE",
+      "provider": null,
+      "url": "/articles/mrk-banks-growing-pipeline-new-drugs-offset-keytruda-loe",
+      "date": "Sep 11, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "label": "Zacks: Merck (MRK) Outperforms Broader Market: What You Need to Know",
+      "provider": null,
+      "url": "/articles/merck-mrk-outperforms-broader-market-what-you-need-know-0",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "label": "BNK Invest: SSO, INTC, MRK, KO: Large Outflows Detected at ETF",
+      "provider": null,
+      "url": "/articles/sso-intc-mrk-ko-large-outflows-detected-etf",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "label": "RTTNews: Merck Gets Positive EU CHMP Opinion For KEYTRUDA Plus Padcev To Treat Resectable MIBC",
+      "provider": null,
+      "url": "/articles/merck-gets-positive-eu-chmp-opinion-keytruda-plus-padcev-treat-resectable-mibc",
+      "date": "Sep 18, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: 2 Outstanding Dividend Stocks to Buy and Hold for 10 Years",
+      "provider": null,
+      "url": "/articles/2-outstanding-dividend-stocks-buy-and-hold-10-years",
+      "date": "Sep 12, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "label": "The Motley Fool: Moderna's COVID Vaccine Was a Historic Success. Could Its Cancer Vaccine Be Even Bigger?",
+      "provider": null,
+      "url": "/articles/modernas-covid-vaccine-was-historic-success-could-its-cancer-vaccine-be-even-bigger",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "label": "Zacks: Precigen Gains 43% in 3 Months: Is It an Indication to Buy the Stock?",
+      "provider": null,
+      "url": "/articles/precigen-gains-43-3-months-it-indication-buy-stock",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "label": "Zacks: Can Pfizer Overcome Its COVID and Patent Cliff Headwinds?",
+      "provider": null,
+      "url": "/articles/can-pfizer-overcome-its-covid-and-patent-cliff-headwinds",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "label": "MarketBeat: Blue-Chip Stocks Are Looking Anything But Boring With Dividends and Big 2026 Gains",
+      "provider": null,
+      "url": "/articles/blue-chip-stocks-are-looking-anything-boring-dividends-and-big-2026-gains",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "label": "americanbankingnews.com: Erste Group Bank Has Positive Outlook of MRK FY2026 Earnings - American Market News",
+      "provider": "americanbankingnews.com",
+      "url": "https://www.americanbankingnews.com/2026/08/14/erste-group-bank-has-positive-outlook-of-mrk-fy2026-earnings.html",
+      "date": null
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "label": "trefis.com: The Open Questions On MRK Stock | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/mrk/articles/611963/the-open-questions-on-mrk-stock/2026-08-19",
+      "date": null
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "label": "alcapitaladvisory.com: Merck & Co. (MRK) Stock Analysis August 2026 - DCF Valuation",
+      "provider": "alcapitaladvisory.com",
+      "url": "https://alcapitaladvisory.com/research/equities/mrk.html",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "label": "deepresearchglobal.com: Merck (MRK) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/merck-mrk-fundamental-analysis-report",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "label": "marketsupplychain.com: Merck (MRK) stock: bull, base, and bear case from 6 months to 5 years | Market Supply Chain",
+      "provider": "marketsupplychain.com",
+      "url": "https://marketsupplychain.com/posts/mrk/",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "label": "cms.gov: CMS issued final Medicare drug price negotiation guidance for 2027 and maximum fair price effectuation in 2026-2027.",
+      "provider": "cms.gov",
+      "url": "https://www.cms.gov/files/document/medicare-drug-price-negotiation-final-guidance-ipay-2027-and-manufacturer-effectuation-mfp-2026-2027.pdf",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "label": "everyticker.com: Court dismissed Merck's Medicare negotiation challenge in August 2026, leaving excise-tax risk.",
+      "provider": "everyticker.com",
+      "url": "https://everyticker.com/quote/MRK/news/court-dismisses-mercks-challenge-to-medicare-drug-price-negotiation-program",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "label": "earningscalls.dev: Merck expects generic competition on JANUVIA and Adempas to create headwinds into 2027.",
+      "provider": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/merck-and-co-inc_mrk_earnings_call_transcript_2026-09-09",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "label": "earningscalls.dev: Merck projects modest 2027 revenue growth and continued pipeline/new product investment as of September 2026.",
+      "provider": "earningscalls.dev",
+      "url": "https://earningscalls.dev/transcripts/merck-and-co-inc_mrk_earnings_call_transcript_2026-09-09",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "label": "doi.org: U.S. drug spending is projected to grow in 2026, supporting pharmaceutical demand.",
+      "provider": "doi.org",
+      "url": "https://doi.org/10.1093/ajhp/zxag115",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "label": "MRK listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MRK/options/",
+      "date": "2026-09-20"
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "ticker": "MLKN",
+  "direction": "long",
+  "as_of": "2026-09-20",
+  "description": "Office and home furniture maker selling contract furnishings to businesses through dealers and its own retail brands.",
+  "catalyst": {
+    "date": "2026-09-22",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 2,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.355,
+      "eps_low": 0.34,
+      "eps_high": 0.36,
+      "revenue_avg": 943300000
+    },
+    "recent_reports": [
+      {
+        "date": "2026-06-24",
+        "eps_estimate": 0.52,
+        "eps_actual": 0.55,
+        "surprise_pct": 6.8,
+        "beat": true
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 0.45,
+        "eps_actual": 0.43,
+        "surprise_pct": -4.44,
+        "beat": false
+      },
+      {
+        "date": "2025-12-17",
+        "eps_estimate": 0.41,
+        "eps_actual": 0.43,
+        "surprise_pct": 5.74,
+        "beat": true
+      },
+      {
+        "date": "2025-09-23",
+        "eps_estimate": 0.34,
+        "eps_actual": 0.45,
+        "surprise_pct": 31.07,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "median_gap_days": 91,
+    "facts_line": "2026-09-22 (Tuesday, before the open), 2 days out -- from the earnings calendar, consensus EPS 0.35.",
+    "why": "Q1 must show contract orders converting into revenue, not just cost cuts, to hold FY27's 5% sales growth guidance."
+  },
+  "reasons": [
+    "Because revenue grew 8.4% quarter-over-quarter while SG&A [selling, general and administrative costs] grew 5.3%, EBIT [earnings before interest and tax] rose 16.8% -- the market prices a decline this margin math contradicts.",
+    "Because corporate refurbishments are accelerating demand for ergonomic seating and modular workstations, and modular demand is forecast to grow 7.16% a year to 2031, contract orders should lift revenue.",
+    "Because EU Green Deal and LEED [a building materials standard] rules raise input costs, the earnings gain must come from the FY27 plan's debt reduction, which lifts EPS without extra sales."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "MLKN quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/mlkn/financials",
+        "date": "5/30/2026"
+      }
+    ],
+    [
+      {
+        "id": "S41",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "markwideresearch.com: In 2026, corporate office refurbishments are accelerating demand for ergonomic seating and modular workstations.",
+        "provider": "markwideresearch.com",
+        "url": "https://markwideresearch.com/office-furniture-market",
+        "date": "2026-05-01"
+      },
+      {
+        "id": "S43",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "mordorintelligence.com: From 2026 to 2031, modular office furniture demand is forecast to grow at 7.16% CAGR.",
+        "provider": "mordorintelligence.com",
+        "url": "https://www.mordorintelligence.com/industry-reports/modular-office-furniture-market",
+        "date": "2026-06-27"
+      },
+      {
+        "id": "S44",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "mordorintelligence.com: From 2026 to 2031, Asia-Pacific is the fastest growing modular office furniture market.",
+        "provider": "mordorintelligence.com",
+        "url": "https://www.mordorintelligence.com/industry-reports/modular-office-furniture-market",
+        "date": "2026-06-27"
+      }
+    ],
+    [
+      {
+        "id": "S42",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "markwideresearch.com: In 2026, EU Green Deal and LEED standards are forcing office furniture makers to change materials.",
+        "provider": "markwideresearch.com",
+        "url": "https://markwideresearch.com/office-furniture-market",
+        "date": "2026-05-01"
+      },
+      {
+        "id": "S15",
+        "kind": "nasdaq",
+        "ref": "news:10",
+        "label": "Zacks: MillerKnoll Q4 Earnings Call Puts Focus on Retail Discipline",
+        "provider": null,
+        "url": "/articles/millerknoll-q4-earnings-call-puts-focus-retail-discipline",
+        "date": "Jun 25, 20"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for MLKN",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MLKN/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for MLKN",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MLKN/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "MLKN quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mlkn/financials",
+      "date": "5/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "MLKN earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mlkn/earnings",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "StockStory: 3 Reasons to Avoid MLKN and 1 Stock to Buy Instead",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-mlkn-1-171722861.html",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "StockStory: Unpacking Q2 Earnings: MillerKnoll (NASDAQ:MLKN) In The Context Of Other Business Services & Supplies Stocks",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/unpacking-q2-earnings-millerknoll-nasdaq-131131415.html",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "BNK Invest: Reminder - MillerKnoll (MLKN) Goes Ex-Dividend Soon",
+      "provider": null,
+      "url": "/articles/reminder-millerknoll-mlkn-goes-ex-dividend-soon",
+      "date": "Aug 26, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: MillerKnoll (MLKN) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "provider": null,
+      "url": "/articles/millerknoll-mlkn-q4-earnings-taking-look-key-metrics-versus-estimates",
+      "date": "Jun 24, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: MillerKnoll (MLKN) Q4 Earnings and Revenues Surpass Estimates",
+      "provider": null,
+      "url": "/articles/millerknoll-mlkn-q4-earnings-and-revenues-surpass-estimates",
+      "date": "Jun 24, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "NASDAQ.com: After-Hours Earnings Report for June 24, 2026 :  MU, TCOM, JEF, FUL, WS, MLKN, MEI",
+      "provider": null,
+      "url": "/articles/after-hours-earnings-report-june-24-2026-mu-tcom-jef-ful-ws-mlkn-mei",
+      "date": "Jun 24, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Why MillerKnoll Stock Crashed Today",
+      "provider": null,
+      "url": "/articles/why-millerknoll-stock-crashed-today",
+      "date": "Mar 26, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: New Strong Sell Stocks for April 20th",
+      "provider": null,
+      "url": "/articles/new-strong-sell-stocks-april-20th",
+      "date": "Apr 20, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: 2 Furniture Stocks Showing Resilience Amid Industry Headwinds",
+      "provider": null,
+      "url": "/articles/2-furniture-stocks-showing-resilience-amid-industry-headwinds",
+      "date": "Jun 12, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: La-Z-Boy (LZB) Tops Q4 Earnings and Revenue Estimates",
+      "provider": null,
+      "url": "/articles/la-z-boy-lzb-tops-q4-earnings-and-revenue-estimates",
+      "date": "Jun 16, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: MillerKnoll Q4 Earnings Call Puts Focus on Retail Discipline",
+      "provider": null,
+      "url": "/articles/millerknoll-q4-earnings-call-puts-focus-retail-discipline",
+      "date": "Jun 25, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Iran Ceasefire Skepticism Weighs on Stocks",
+      "provider": null,
+      "url": "/articles/iran-ceasefire-skepticism-weighs-stocks",
+      "date": "Mar 26, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Fall as Crude Oil Jumps on Doubts About a Ceasefire in Iran",
+      "provider": null,
+      "url": "/articles/stocks-fall-crude-oil-jumps-doubts-about-ceasefire-iran",
+      "date": "Mar 26, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Slump on Iran War and Weakness in Chipmakers",
+      "provider": null,
+      "url": "/articles/stocks-slump-iran-war-and-weakness-chipmakers",
+      "date": "Mar 27, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "yahoo",
+      "ref": "news:14",
+      "label": "StockStory: 1 of Wall Street\u2019s Favorite Stocks on Our Buy List and 2 Facing Challenges",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-wall-street-favorite-stocks-050922085.html",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "S20",
+      "kind": "yahoo",
+      "ref": "news:15",
+      "label": "StockStory: 3 Inflated  Stocks with Questionable Fundamentals",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-inflated-stocks-questionable-fundamentals-020500854.html",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "S21",
+      "kind": "yahoo",
+      "ref": "news:16",
+      "label": "StockStory: 3 Small-Cap Stocks with Warning Signs",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-warning-141147609.html",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Zacks: Culp, Inc. (CULP) Q1 Earnings and Revenues Beat Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/culp-inc-culp-q1-earnings-212002776.html",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Zacks: MasterCraft Boat Holdings, Inc. (MCFT) Beats Q4 Earnings and Revenue Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercraft-boat-holdings-inc-mcft-124501407.html",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Zacks: Hooker Furniture (HOFT) Surpasses Q2 Earnings Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hooker-furniture-hoft-surpasses-q2-111501375.html",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S25",
+      "kind": "yahoo",
+      "ref": "news:20",
+      "label": "Benzinga: How To Earn $500 A Month From MillerKnoll Stock Ahead Of Q1 Earnings",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-millerknoll-stock-013006316.html",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S26",
+      "kind": "yahoo",
+      "ref": "news:21",
+      "label": "Kiplinger: Earnings Calendar and Analysis for This Week (September 21-25)",
+      "provider": "kiplinger.com",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "circlfi.com: MLKN Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/mlkn-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "stockanalysis.com: MillerKnoll (MLKN) Q4 2026 Earnings Call Transcript & Audio",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/mlkn/transcripts/617686-q4-2026/",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: MillerKnoll Q4 Review: Needs A Radical Change (Downgrade) (NASDAQ:MLKN) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4917687-millerknoll-q4-review-needs-a-radical-change-downgrade",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "tickernerd.com: MLKN Stock Forecast 2026-2027 - MillerKnoll, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/mlkn-forecast/",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "trendmatrix.com: Should you buy MLKN? \u2014 Verdict & fair-value range | TrendMatrix",
+      "provider": "trendmatrix.com",
+      "url": "https://trendmatrix.com/stocks/mlkn/buy-or-sell",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "simplywall.st: Is MillerKnoll (MLKN) Still Undervalued After A 40% Five Year Fall? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-mlkn/millerknoll/news/is-millerknoll-mlkn-still-undervalued-after-a-40-five-year-f",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "seekingalpha.com: MillerKnoll: $210M More In Sales And $26M Less In EBITDA In Two Years (NASDAQ:MLKN) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946433-millerknoll-210m-more-in-sales-and-26m-less-in-ebitda-in-two-years",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "americanbankingnews.com: MillerKnoll (MLKN) to Release Earnings on Tuesday - American Market News",
+      "provider": "americanbankingnews.com",
+      "url": "https://www.americanbankingnews.com/2026/09/15/millerknoll-mlkn-to-release-earnings-on-tuesday.html",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "themarketsdaily.com: Sidoti Issues Pessimistic Forecast for MillerKnoll Earnings - Markets Daily",
+      "provider": "themarketsdaily.com",
+      "url": "https://www.themarketsdaily.com/2026/06/26/sidoti-issues-pessimistic-forecast-for-millerknoll-earnings.html",
+      "date": null
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "millerknoll.gcs-web.com: Earnings Estimates | MillerKnoll",
+      "provider": "millerknoll.gcs-web.com",
+      "url": "https://millerknoll.gcs-web.com/investor-relations/financials-filings/earnings-estimates",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "news.millerknoll.com: MillerKnoll, Inc. Reports Fourth Quarter and Full Fiscal Year 2026 Results - Jun 24, 2026",
+      "provider": "news.millerknoll.com",
+      "url": "https://news.millerknoll.com/2026-06-24-MillerKnoll,-Inc-Reports-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "sec.gov: Document",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/66382/000006638226000064/mlkn8k_05302026ex991.htm",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "S39",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "news.alphastreet.com: MillerKnoll Q1 2027 Earnings Preview \u2014 September 22, Street Expects $0.35 EPS - Alphastreet",
+      "provider": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/millerknoll-q1-2027-earnings-preview-september-22-street-expects-0-35-eps/amp/",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "enjoycaster.com: In H2 2026, global office furniture B2B order opportunity is expected to materialize.",
+      "provider": "enjoycaster.com",
+      "url": "https://www.enjoycaster.com/en/news/industry-news/2026-h2-office-furniture-market-b2b-procurement",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "markwideresearch.com: In 2026, corporate office refurbishments are accelerating demand for ergonomic seating and modular workstations.",
+      "provider": "markwideresearch.com",
+      "url": "https://markwideresearch.com/office-furniture-market",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "markwideresearch.com: In 2026, EU Green Deal and LEED standards are forcing office furniture makers to change materials.",
+      "provider": "markwideresearch.com",
+      "url": "https://markwideresearch.com/office-furniture-market",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "mordorintelligence.com: From 2026 to 2031, modular office furniture demand is forecast to grow at 7.16% CAGR.",
+      "provider": "mordorintelligence.com",
+      "url": "https://www.mordorintelligence.com/industry-reports/modular-office-furniture-market",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "S44",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "mordorintelligence.com: From 2026 to 2031, Asia-Pacific is the fastest growing modular office furniture market.",
+      "provider": "mordorintelligence.com",
+      "url": "https://www.mordorintelligence.com/industry-reports/modular-office-furniture-market",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "S45",
+      "kind": "options",
+      "ref": "options",
+      "label": "MLKN listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MLKN/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 20.66,
+    "market_cap": "1.42B",
+    "fwd_pe": 10.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.4,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 2 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter earnings before interest and tax increasing 17% quarter over quarter (5/30/2026)",
+      "Last quarter net receivables increasing 9% quarter over quarter (5/30/2026)",
+      "EPS declined year over year, 0.6 -> 0.55"
+    ]
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Feb-27",
+        "strike": 25.0,
+        "qty": 26,
+        "underlying": 20.66,
+        "multiplier": 100,
+        "price": 1.72,
+        "total": 4472.0,
+        "open_interest": 5
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "16-Oct-26",
+        "strike": 25.0,
+        "qty": 11,
+        "underlying": 20.66,
+        "multiplier": 100,
+        "price": 0.5,
+        "total": -550.0,
+        "open_interest": 2
+      }
+    ],
+    "thesis_target": "Targets the 2026-12-22 report, with the long leg expiring 2027-02-19, which gives the thesis time to show up.",
+    "reflection": "Conservative credit of 0.0% means the October short is not funding the February long at all -- this is a straight debit bet on a move through $25. Selling the ~7 extra October calls clears the floor, but that short expires after the 22 September print, so a good quarter assigns you before the long has done its work."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 44,
+        "errors": 2,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 72,
+        "errors": 1,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 4,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 4,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "accelerating",
+          "corporate",
+          "ergonomic",
+          "forecast",
+          "green",
+          "input",
+          "lifts",
+          "materials",
+          "modular",
+          "order",
+          "orders",
+          "refurbishments",
+          "seating",
+          "workstation",
+          "workstations"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "america",
+          "cycles",
+          "driving",
+          "forecast",
+          "hospital",
+          "institutional",
+          "material",
+          "north",
+          "orders",
+          "renovation",
+          "replacement",
+          "school",
+          "segment",
+          "standards",
+          "tightening"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "america",
+          "corporate",
+          "entered",
+          "north",
+          "order",
+          "orders",
+          "recovery",
+          "relocations",
+          "structural",
+          "texas"
+        ]
+      }
+    ]
+  }
+}

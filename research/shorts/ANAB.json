@@ -1,0 +1,632 @@
+{
+  "ticker": "ANAB",
+  "direction": "short",
+  "as_of": "2026-09-20",
+  "description": "Royalty collector on GSK's Jemperli; spun off its drug pipeline into First Tracks Biotherapeutics in April 2026.",
+  "catalyst": {
+    "date": "2026-09-21",
+    "weekday": "Monday",
+    "session": "after the close",
+    "days_out": 1,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.14
+    },
+    "recent_reports": [
+      {
+        "date": "2026-03-03",
+        "eps_estimate": 0.93,
+        "eps_actual": 1.58,
+        "surprise_pct": 69.26,
+        "beat": true
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": -1.25,
+        "eps_actual": 0.52,
+        "surprise_pct": 141.58,
+        "beat": true
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": -1.58,
+        "eps_actual": -1.34,
+        "surprise_pct": 15.27,
+        "beat": true
+      },
+      {
+        "date": "2025-05-05",
+        "eps_estimate": -1.46,
+        "eps_actual": -1.28,
+        "surprise_pct": 12.53,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 92,
+    "facts_line": "2026-09-21 (Monday, after the close), 1 days out -- from the earnings calendar, consensus EPS 0.14.",
+    "why": "Report must show royalty cash still swept to Sagard and a miss against a bar set by four straight beats."
+  },
+  "reasons": [
+    "Anaptys booked $24.6 million of Jemperli royalty in Q1 2026 and sweeps every dollar to Sagard until $600 million is repaid, so the royalty growth buyers pay for does not reach shareholders.",
+    "Four analysts cut FY estimates in 30 days and none raised, with the FY level unchanged at -0.23072, so the consensus already assumes the four-quarter beat streak continues.",
+    "The whole equity value rests on one drug Anaptys does not sell, and GSK litigation could reduce or delay the royalty stream that is its only cash flow."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S35",
+        "kind": "ollama_search",
+        "ref": "web:10",
+        "label": "drillr.ai: [ANAB] Anaptys: Jemperli Royalty Math and the Sagard Cash Crossover | drillr",
+        "provider": "drillr.ai",
+        "url": "https://drillr.ai/article/anab-anaptys-jemperli-royalty-sagard-crossover-2026",
+        "date": "2026-09-23"
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for ANAB",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/ANAB/analysis/",
+        "date": "2026-09-20"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "ANAB earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/anab/earnings",
+        "date": "2026-09-21"
+      }
+    ],
+    [
+      {
+        "id": "S39",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "stockanalysis.com: As of March 2026, Jemperli royalties are set to grow rapidly, supporting AnaptysBio's royalty-focused parent.",
+        "provider": "stockanalysis.com",
+        "url": "https://stockanalysis.com/stocks/anab/transcripts/553586-leerink-global-healthcare-conference-2026/",
+        "date": "2026-07-23"
+      },
+      {
+        "id": "S40",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "stockanalysis.com: As of March 2026, GSK litigation could impact future royalty streams for AnaptysBio.",
+        "provider": "stockanalysis.com",
+        "url": "https://stockanalysis.com/stocks/anab/transcripts/553586-leerink-global-healthcare-conference-2026/",
+        "date": "2026-07-23"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for ANAB",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ANAB/key-statistics/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for ANAB",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ANAB/analysis/",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "ANAB quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/anab/financials",
+      "date": "3/31/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "ANAB earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/anab/earnings",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "S5",
+      "kind": "yahoo",
+      "ref": "news:0",
+      "label": "Simply Wall St.: Assessing AnaptysBio (ANAB) Valuation After Royalty Pivot Spinoff And Legal Outcome",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-anaptysbio-anab-valuation-royalty-011019247.html",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "S6",
+      "kind": "yahoo",
+      "ref": "news:1",
+      "label": "Zacks: AnaptysBio (ANAB) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anaptysbio-anab-may-bottom-soon-135502132.html",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "S7",
+      "kind": "yahoo",
+      "ref": "news:2",
+      "label": "Zacks: Wall Street Analysts See a 38.75% Upside in AnaptysBio (ANAB): Can the Stock Really Move This High?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-see-38-135502178.html",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "S8",
+      "kind": "yahoo",
+      "ref": "news:3",
+      "label": "Zacks: Is AnaptysBio (ANAB) Outperforming Other Medical Stocks This Year?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anaptysbio-anab-outperforming-other-medical-134003007.html",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "S9",
+      "kind": "yahoo",
+      "ref": "news:4",
+      "label": "Insider Monkey: What Makes AnaptysBio (ANAB) an Investment Bet?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/makes-anaptysbio-anab-investment-bet-145640838.html",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "S10",
+      "kind": "yahoo",
+      "ref": "news:5",
+      "label": "Insider Monkey: GSK Eyes AnaptysBio (ANAB) Acquisition to Secure Drug Control",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/gsk-eyes-anaptysbio-anab-acquisition-150348750.html",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "S11",
+      "kind": "yahoo",
+      "ref": "news:6",
+      "label": "Insider Monkey: Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB)",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: AnaptysBio, Inc. (ANAB) May Report Negative Earnings: Know the Trend Ahead of Q1 Release",
+      "provider": null,
+      "url": "/articles/anaptysbio-inc-anab-may-report-negative-earnings-know-trend-ahead-q1-release",
+      "date": "Apr 27, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: AnaptysBio, Inc. (ANAB) is a Great Momentum Stock: Should You Buy?",
+      "provider": null,
+      "url": "/articles/anaptysbio-inc-anab-great-momentum-stock-should-you-buy",
+      "date": "May 6, 202"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Arcus Biosciences, Inc. (RCUS) May Report Negative Earnings: Know the Trend Ahead of Next Week's Release",
+      "provider": null,
+      "url": "/articles/arcus-biosciences-inc-rcus-may-report-negative-earnings-know-trend-ahead-next-weeks",
+      "date": "Apr 28, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: GSK's sBLA for Jemperli Gets FDA Priority Tag in Rectal Cancer",
+      "provider": null,
+      "url": "/articles/gsks-sbla-jemperli-gets-fda-priority-tag-rectal-cancer",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: GSK's Jemperli Delivers Promising Interim Data in Rectal Cancer",
+      "provider": null,
+      "url": "/articles/gsks-jemperli-delivers-promising-interim-data-rectal-cancer",
+      "date": "Jul 14, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Zoetis Q1 Earnings Lag Estimates, 2026 View Cut, Stock Down",
+      "provider": null,
+      "url": "/articles/zoetis-q1-earnings-lag-estimates-2026-view-cut-stock-down",
+      "date": "May 7, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: TGTX Q1 Earnings Miss, Sales Rise Y/Y, Stock Up on Raised 2026 View",
+      "provider": null,
+      "url": "/articles/tgtx-q1-earnings-miss-sales-rise-y-y-stock-raised-2026-view",
+      "date": "May 7, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: Mirum's Q1 Earnings & Revenues Beat Estimates, 2026 View Raised",
+      "provider": null,
+      "url": "/articles/mirums-q1-earnings-revenues-beat-estimates-2026-view-raised",
+      "date": "May 7, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:15",
+      "label": "Zacks: Nektar Q1 Earnings & Revenues Lag Estimates, Pipeline in Focus",
+      "provider": null,
+      "url": "/articles/nektar-q1-earnings-revenues-lag-estimates-pipeline-focus",
+      "date": "May 8, 202"
+    },
+    {
+      "id": "S21",
+      "kind": "nasdaq",
+      "ref": "news:16",
+      "label": "Zacks: PBYI Q1 Earnings & Sales Beat Estimates, 2026 Guidance Raised",
+      "provider": null,
+      "url": "/articles/pbyi-q1-earnings-sales-beat-estimates-2026-guidance-raised",
+      "date": "May 8, 202"
+    },
+    {
+      "id": "S22",
+      "kind": "yahoo",
+      "ref": "news:17",
+      "label": "Zacks: RCKT Stock Down on Q1 Earnings Miss, Kresladi Launch in Focus",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rckt-stock-down-q1-earnings-155000556.html",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "S23",
+      "kind": "yahoo",
+      "ref": "news:18",
+      "label": "Simply Wall St.: How The Grupo Traxi\u00f3n (BMV:TRAXION A) Story Is Shifting With Cautious New Analyst Targets",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/grupo-traxi-n-bmv-traxion-141845435.html",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "S24",
+      "kind": "yahoo",
+      "ref": "news:19",
+      "label": "Zacks: CorMedix (CRMD) Q2 Earnings and Revenues Top Estimates",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/cormedix-crmd-q2-earnings-revenues-124502853.html",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "marketscreener.com: AnaptysBio, Inc.: Target Price Consensus and Analysts Recommendations | ANAB * | US0327241065 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/ANAPTYSBIO-INC-59968111/consensus/",
+      "date": "2025-11-05"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "ainvest.com: AnaptysBio (ANAB): The Royalty Waterfall Is Reversing. Is $56 the Tail or the Middle?",
+      "provider": "ainvest.com",
+      "url": "https://www.ainvest.com/news/anaptysbio-anab-royalty-waterfall-reversing-56-tail-middle-2609/",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "everyticker.com: AnaptysBio's Royalty Gambit: A Binary Bet on Two Antibodies and a Courtroom (NASDAQ:ANAB) - ANAB Analysis - EveryTicker",
+      "provider": "everyticker.com",
+      "url": "https://everyticker.com/quote/ANAB/analysis/anaptysbio-s-royalty-gambit-a-binary-bet-on-two-antibodies-and-a-courtroom-nasdaq-anab",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "chartmill.com: ANAB Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/ANAB/analyst-ratings",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "triplesinvesting.substack.com: AnaptysBio (ANAB) - by TripleS Special Situations",
+      "provider": "triplesinvesting.substack.com",
+      "url": "https://triplesinvesting.substack.com/p/anaptysbio-anab",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "frontierpicks.com: ANAB stock analysis \u2014 AnaptysBio, Inc. \u2014 FrontierPicks",
+      "provider": "frontierpicks.com",
+      "url": "https://frontierpicks.com/dossiers/ANAB/",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "seekingalpha.com: AnaptysBio Stock: The Royalty Waterfall Is About To Reverse (NASDAQ:ANAB) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4926643-anaptysbio-stock-royalty-waterfall-is-about-to-reverse-buy",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: AnaptysBio (ANAB) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/anab/forecast/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "tickernerd.com: ANAB Stock Forecast 2026-2027 - AnaptysBio, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/anab-forecast/",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "stockanalysis.com: AnaptysBio (ANAB) FY 2026 Earnings Call Transcript & Audio",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/anab/transcripts/745252-h-c-wainwright-28th-annual-global-investment-conference/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "drillr.ai: [ANAB] Anaptys: Jemperli Royalty Math and the Sagard Cash Crossover | drillr",
+      "provider": "drillr.ai",
+      "url": "https://drillr.ai/article/anab-anaptys-jemperli-royalty-sagard-crossover-2026",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S36",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "anaptysbio.gcs-web.com: Anaptys Provides Update on Business Separation and Announces Fourth Quarter and Full Year 2025 Financial Results | AnaptysBio, Inc.",
+      "provider": "anaptysbio.gcs-web.com",
+      "url": "https://anaptysbio.gcs-web.com/news-releases/news-release-details/anaptys-provides-update-business-separation-and-announces-fourth",
+      "date": "2026-03-03"
+    },
+    {
+      "id": "S37",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "barchart.com: AnaptysBio's First Full Quarter as a Royalty Company Arrives With Quality Warnings Still Active",
+      "provider": "barchart.com",
+      "url": "https://www.barchart.com/story/news/4033731/anaptysbio-s-first-full-quarter-as-a-royalty-company-arrives-with-quality-warnings-still-active",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "S38",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "marketbeat.com: AnaptysBio Q2 2026 Earnings Report",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-9-2-anaptysbio-inc-stock/",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "stockanalysis.com: As of March 2026, Jemperli royalties are set to grow rapidly, supporting AnaptysBio's royalty-focused parent.",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/anab/transcripts/553586-leerink-global-healthcare-conference-2026/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "stockanalysis.com: As of March 2026, GSK litigation could impact future royalty streams for AnaptysBio.",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/anab/transcripts/553586-leerink-global-healthcare-conference-2026/",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "S41",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "quartr.com: As of September 2026, post-spin-out AnaptysBio operates with under 10 FTEs and less than $10 million OPEX.",
+      "provider": "quartr.com",
+      "url": "https://quartr.com/events/anaptysbio-inc-anab-h-c-wainwright-28th-annual-global-investment-conference_F90YfLqh",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S42",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "stockanalysis.com: As of September 2026, AnaptysBio sees a potential second royalty stream from imsidolimab.",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/anab/transcripts/745252-h-c-wainwright-28th-annual-global-investment-conference/",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "S43",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "giiresearch.com: As of August 2026, the autoimmune therapeutics market is projected to reach $254.60 billion by 2034.",
+      "provider": "giiresearch.com",
+      "url": "https://www.giiresearch.com/report/del2109016-autoimmune-disease-therapeutics-market-insights.html",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "S44",
+      "kind": "options",
+      "ref": "options",
+      "label": "ANAB listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/ANAB/options/",
+      "date": "2026-09-20"
+    }
+  ],
+  "quants": {
+    "price": 55.2,
+    "market_cap": "1.63B",
+    "fwd_pe": -239.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 7.0,
+    "eps_trend": "sharply up over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 4 down over last 30 days",
+    "extra": [
+      "Last quarter total revenue decreasing 76% quarter over quarter (3/31/2026)",
+      "Last quarter sales, general and admin. increasing 66% quarter over quarter (3/31/2026)",
+      "EPS increased year over year, -0.72 -> 1.58"
+    ]
+  },
+  "structure_error": "ValueError: no common strikes between 2026-10-16 and 2027-02-19 for ANAB",
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 4,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 3,
+      "mismatches": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 0,
+      "contradicted": 3,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "delay",
+          "litigation",
+          "million",
+          "reach",
+          "reduce",
+          "stream",
+          "therapeutics"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 77,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "against",
+          "share"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "adverse",
+          "anaptys",
+          "delay",
+          "litigation"
+        ]
+      }
+    ]
+  }
+}

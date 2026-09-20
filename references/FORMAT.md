@@ -23,7 +23,11 @@ Catalyst
 
 Reasons
 1) <one sentence: why the price is wrong>
+   Source: [S3] <provider> (<date>) <url>          <- see §3b
 2) ...
+
+Watch
+- <variable>: <reading that confirms>; <reading that breaks it>   <- see §3e
 
 Quants
 <the numbers, uneditorialised>
@@ -32,11 +36,11 @@ Structuring
 <the option legs, then 1–3 sentences of reflection. OPTIONAL>
 ```
 
-The first four sections never reorder. **Structuring is optional**: in the two
-references the trade construction matters because it says how to express the idea,
-but the idea itself is the Description, the Catalyst and the Reasons. A note with
-no usable option chain is still a note; `fig generate` writes it and states the
-omission rather than failing.
+The first four sections never reorder, and Watch follows the reasons it tests.
+**Structuring is optional**: in the two references the trade construction matters
+because it says how to express the idea, but the idea itself is the Description, the
+Catalyst and the Reasons. A note with no usable option chain is still a note;
+`fig generate` writes it and states the omission rather than failing.
 
 ---
 
@@ -138,6 +142,204 @@ distinguishes nothing. It reads like a finding and is not one.
 Short theses are exempt. A high multiple on a business whose numbers are
 deteriorating is a standard short argument, not this fallacy -- see the GIS and
 OMF notes, where the multiple is evaluated *against* a named change.
+
+## 3b. Every reason names its source
+
+A reason the reader cannot check is a reason the reader has to take on trust, and
+this format exists to be checkable at a glance. So each reason carries the evidence
+it rests on, printed directly beneath it:
+
+```
+3) Because QNX royalties are contracted before the cars ship, the 0.19 FY
+   consensus already reflects the last four quarters' actuals.
+   Source: [S3] Nasdaq company financials (5/31/2026) https://www.nasdaq.com/market-activity/stocks/bb/financials
+```
+
+The rules, all enforced (`fig lint`, `fig generate`):
+
+- **The writer cites ids, never URLs.** The packet numbers every piece of evidence
+  (`S1`, `S2`, ...) and prints the register. An id resolves against that register,
+  so a source the packet cannot vouch for is *dropped* rather than printed -- which
+  is the difference between a citation and a plausible-looking link.
+- **The tool owns the metadata.** Provider, date and URL come from the packet. The
+  model chooses *which* evidence supports *which* reason; nothing else about the
+  citation passes through it.
+- **A reason with no source is an error**, whenever the packet registered any. If
+  the tool supplied no sources it has no standing to demand them, which is why the
+  offline fixtures and the pre-source notes are unaffected.
+- **A URL in the reason prose is an error.** It spends the 40-word budget on a link
+  that belongs in the source line, and it is the one place a fabricated URL can
+  look like evidence. Any URL the packet does not contain is removed on the way in
+  and recorded.
+- **A figure must be in the source it cites.** A warning, not an error -- a reason
+  may legitimately lean on a source for its claim and not for its number -- but it
+  never passes silently. "In the packet somewhere" is weaker than it sounds: the
+  reader being sent to `S7` has to find the figure in `S7`. The check reports only a
+  figure that is in the packet but under a **different** id, and names that id, so
+  what it prints is a miscitation rather than a rounding artefact.
+- **A figure has to be earned.** Digits inside a date or a URL are not evidence that
+  a number is supported ("25" from `Jun 25, 2026` should not vouch for `25.38%`), and
+  rounding is allowed only in the writer's direction: a note may round 43.2 to "43",
+  but a note that writes "6.8" is not grounded by an unrelated 7.0.
+
+The note's footer states both verdicts, so a reader does not have to run anything:
+
+```
+Grounding: all 12 figures in the prose appear in the evidence.
+Source grounding: 2 figure(s) are in the packet but not in the source cited for
+them -- Reason 2: "8%" is cited to S19 but appears in S10, S17; ...
+```
+
+## 3c. A revision count is not a revision of the number
+
+The most expensive reading error this format has actually produced, from the BB
+note:
+
+> "five analysts raised estimates in 30 days with none cutting, the 0.19 FY number
+> is stale"
+
+The two halves are the same fact read twice. If five analysts raised, then 0.19 is
+the number they raised **to** -- which makes it the freshest estimate available, not
+a stale one. The packet agreed: the FY level was 0.18857 thirty days earlier and
+0.18857 on the day, so the raises were smaller than the rounding of the level and
+nothing had moved.
+
+Two mechanical defences, because the prose failure is predictable:
+
+1. **`LEVEL READING`** is stated in the evidence next to the counts: how many
+   analysts moved, and whether the *level* moved. Where the level is unchanged and
+   the counts are up, the line says outright that the consensus is current.
+2. **`TRAILING CHECK`** compares the last four reported quarters' EPS with the
+   current-FY consensus, when the two are comparable. On BB they were equal --
+   0.04 + 0.06 + 0.05 + 0.04 = 0.19 against a 0.18857 consensus -- so the beat
+   streak was already *in* the number, and citing it as evidence that the number is
+   wrong inverts what it shows.
+
+`fig lint` errors on the conjunction: a staleness claim (`stale`, `out of date`,
+`too low`, `hasn't caught up`) plus revision-count evidence plus a level that did
+not fall. Each half alone is legitimate -- "the consensus is too low" is an ordinary
+long argument and "5 up and 0 down" is an ordinary fact -- so only the conjunction
+is flagged, and short theses are unaffected.
+
+---
+
+## 3d. A sequential move is not a trend
+
+The note that prompted this section said Paychex's May 2026 quarter showed revenue
+down 11.2% and net income down 24.9% "sequentially", and concluded the market was
+pricing a recovery the numbers did not show. Every figure was right and every figure
+was sourced. The same quarter grew **12.5% in revenue and 41.5% in net income** year
+over year.
+
+A payroll processor's fiscal year ends in May: the February quarter is the seasonal
+peak (year-end tax filing), so a decline into the May quarter is the calendar, not a
+business. And the sequential comparison cannot see a mid-year acquisition, a rate move
+or a divestiture at all. The rule is therefore not "never quote a sequential move" --
+it is that the pair is the fact:
+
+```
+QUARTER: SEQUENTIAL vs SAME QUARTER A YEAR AGO                       [S3] [S2]
+  Total Revenue: 1.61B in 2026-05-31 (-11.2% QoQ) vs 1.43B in 2025-05-31 (+12.5% YoY)
+  Net Income: 420.6M in 2026-05-31 (-24.9% QoQ) vs 297.2M in 2025-05-31 (+41.5% YoY)
+  ...
+  NOTE: Total Revenue, Net Income, Operating Income move in opposite directions
+  sequentially and on the year. A sequential move is NOT a trend here -- quote the
+  year-over-year comparison with it, and do not present the sequential fall as
+  deterioration.
+```
+
+Three mechanical defences, again because the prose failure is predictable:
+
+1. **`QUARTER: SEQUENTIAL vs SAME QUARTER A YEAR AGO`** puts both comparisons on one
+   line per statement line, so the writer cannot see one without the other. The Nasdaq
+   tables stop at four quarters and cannot support this; the year-earlier column comes
+   from the yfinance statement series (`fig.quants.yoy_deltas`).
+2. **`ANNUAL`** gives the fiscal-year comparison, which is the one a deal, a rate move
+   or a calendar cannot flatter on its own. Paychex FY26 revenue: 5.57B to 6.51B, +16.9%.
+3. **The Quants panel leads with the pair** where the two disagree: `Total Revenue -11%
+   quarter over quarter but +12% year over year (2026-05-31)`. The half-line it
+   replaces -- "net income decreasing 25% quarter over quarter" -- is suppressed,
+   because on its own it is true and misleading.
+
+`fig lint` errors on `reason_sequential_without_year`: a reason that quotes a
+sequential move for a line whose year-earlier comparison moves the other way, without
+stating the annual figure. Where the two agree the sequential move is only flagged as
+`reason_sequential_unpaired`, a warning.
+
+---
+
+## 3e. Watch: what would prove the note wrong
+
+A reason says why the price is wrong. Watch says which numbers at the catalyst decide
+whether that is true, and it is required when the print is within 21 days
+(`WATCH_REQUIRED_WITHIN_DAYS`), because that is when a reader can act on it:
+
+```
+Watch
+- Organic revenue excluding Paycor: confirms if it grows below the 16.9% FY rate; breaks if it reaccelerates.
+- Client worksite employees and PEO [professional employer organisation] headcount: confirms if growth slows from the July pace; breaks if it reaccelerates.
+- FY27 EPS guidance: confirms if below the 5.96 consensus; breaks if above.
+- Interest expense: confirms if it keeps rising above the 155.7% FY pace; breaks if it flattens.
+```
+
+2-4 lines, each one a *variable* plus both readings, ranked by information value.
+The useful order is: organic versus acquired growth, revenue excluding the
+acquisition, client or volume counts, revenue per client, the rate-linked line, the
+guidance range, the post-deal margin, and only then the end-market commentary. A line
+that restates a reason is not a test; a line with only one reading is not a test
+either (`watch_no_test`). A note with no dated catalyst omits the section entirely.
+
+The section is checked, not trusted: `watch_missing` is an error when the catalyst is
+close, `watch_too_long` and `watch_count` are warnings, and the figures in it are
+grounded like any other prose.
+
+---
+
+## 3f. An acquisition is not organic growth
+
+Reported growth in a period a deal landed in is partly bought, and a thesis that
+treats it as demand is measuring the wrong thing. Paycor supplied roughly 12% of
+Paychex's FY26 revenue growth; a note arguing "declining small-business hiring means
+declining Paychex revenue" was arguing from a number that mostly reflected an
+acquisition.
+
+The evidence does not depend on the writer remembering the deal. `DEAL ACTIVITY` is
+derived from the balance sheet, where a step change in goodwill or intangibles is the
+footprint of an acquisition:
+
+```
+DEAL ACTIVITY (an acquisition landed in these periods)                       [S4]
+  Other Intangible Assets: 194.5M -> 1.95B (2024-05-31 to 2025-05-31, fiscal year, +901.2%)
+  Any growth in the periods at or after 2025-05-31 includes acquired revenue, so it is
+  NOT organic growth. If a reason argues from growth, say how much of it is acquired;
+  if it argues from a decline, check whether the deal year flatters the comparison.
+```
+
+`fig lint` errors on `reason_ignores_deal` when the balance sheet shows a deal and no
+reason mentions one. The detector reads both the annual and the quarterly series
+(`fig.quants.deal_activity`), and only steps within the most recent periods count, so
+an acquisition from years ago is not raised as today's news.
+
+---
+
+## 3g. One metric per claim, and the latest reading of it
+
+Two survey questions are two metrics even when they share a theme. The PAYX note's
+lead reason joined "job openings fell to 29%, the lowest since May 2020" (the NFIB
+May *job openings* question) to "51% report few or no qualified workers" (the NFIB
+June *qualified workers* question) as if they were one trend. Both figures were
+correctly cited. The packet also held a July reading in the opposite direction
+(employment plans up 9 points to a net 20%), and a June reading of hiring difficulty
+at its highest since 2024 -- neither appeared.
+
+So `fig lint` (via `check_source_grounding`) reports
+**`Superseded readings`**: a reason that rests on a dated reading of a recurring
+series, when the packet holds a later reading from the same provider whose direction
+is the opposite. The pair must be about the *same subject* -- wording overlap of at
+least 25% on content words -- so two unrelated articles from one site are not treated
+as one series. The direction is read from the claim's first sentence rather than the
+whole entry, because the second sentence is a note-style gloss written in the
+direction of the thesis and counting it turns a reversal into a tie.
 
 ---
 
