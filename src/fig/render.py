@@ -88,6 +88,19 @@ def render_writeup(
     """
     out: list[str] = [f"Ticker: {writeup.get('ticker','')}", ""]
 
+    # A feed that was down when the packet was built is stated before anything else,
+    # because it changes the weight a reader should put on the reasons below. It sits
+    # here rather than in a footnote for the same reason the structure's absence is
+    # printed: evidence that is missing should be visible, not inferred from a short
+    # source list. The note is still published -- one feed's outage is not a claim
+    # about the company.
+    for failure in writeup.get("news_failures") or []:
+        out.append(
+            f"[news: {failure.get('source')} feed unavailable when this note was "
+            f"built ({failure.get('error')}) -- the reasons rest on the feeds that answered]"
+        )
+        out.append("")
+
     out.append("Description")
     out.append((writeup.get("description") or "").strip())
     out.append("")

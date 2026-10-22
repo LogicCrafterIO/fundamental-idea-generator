@@ -451,6 +451,13 @@ def assemble_writeup(packet: dict, model_output: dict, direction: str) -> dict:
 
     if packet.get("peers"):
         writeup["peers"] = packet["peers"]
+
+    # Feeds that were down when the packet was built. Carried into the writeup so the
+    # rendered note can state it: a note whose evidence came from one feed instead of
+    # three is still worth publishing, but not worth publishing as though nothing was
+    # missing.
+    if packet.get("news_failures"):
+        writeup["news_failures"] = packet["news_failures"]
     return writeup
 
 

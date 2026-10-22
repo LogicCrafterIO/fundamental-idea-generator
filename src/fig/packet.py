@@ -68,12 +68,21 @@ def collect_news(
     nasdaq_limit: int = 15,
     include_web: bool = False,
     web_per_query: int = 5,
-) -> list[dict]:
+) -> tuple[list[dict], list[dict]]:
     """Merge Yahoo's per-symbol feed with Nasdaq's topic feed.
 
-    Yahoo gives genuine per-name coverage; Nasdaq adds market-wide context that
-    merely touches the ticker. Both are kept and tagged with a ``relevance``
-    score so the writer can tell a company-specific story from a sector ripple.
+    Returns ``(items, failures)``. Yahoo gives genuine per-name coverage; Nasdaq
+    adds market-wide context that merely touches the ticker. Both are kept and
+    tagged with a ``relevance`` score so the writer can tell a company-specific
+    story from a sector ripple.
+
+    A feed that errors is recorded in ``failures`` and the note is built from the
+    feeds that answered. The asymmetry is deliberate: a 403 from one free endpoint
+    is a condition of *that endpoint* -- it carries no claim about the company --
+    so letting it drop the name loses a note over an outage. A real run lost six
+    of ten names exactly that way, on Nasdaq's news feed alone. The failure is
+    carried on the packet and printed by the renderer, so the thinner evidence is
+    visible rather than left to be inferred from a short source list.
 
     ``include_web`` adds Ollama web-search results. It is **off by default**
     because screening calls this once per candidate, and three searches per name
@@ -87,20 +96,32 @@ def collect_news(
         company_name = None
 
     items: list[dict] = []
-    for item in yahoo.news(symbol, limit=yahoo_limit):
-        items.append({**item, "relevance": _relevance(symbol, item, company_name)})
-    for item in nasdaq.news_for_symbol(symbol, limit=nasdaq_limit):
-        items.append({**item, "relevance": _relevance(symbol, item, company_name)})
+    failures: list[dict] = []
+
+    def _add(source: str, fetch) -> None:
+        try:
+            found = fetch()
+        except Exception as exc:  # noqa: BLE001 - one feed's outage is not the note's
+            failures.append({"source": source, "error": f"{type(exc).__name__}: {exc}"})
+            return
+        for item in found or []:
+            items.append({**item, "relevance": _relevance(symbol, item, company_name)})
+
+    _add("yahoo", lambda: yahoo.news(symbol, limit=yahoo_limit))
+    _add("nasdaq", lambda: nasdaq.news_for_symbol(symbol, limit=nasdaq_limit))
 
     if include_web:
-        items.extend(web_stories(symbol, company_name, per_query=web_per_query))
+        try:
+            items.extend(web_stories(symbol, company_name, per_query=web_per_query))
+        except Exception as exc:  # noqa: BLE001 - search is additive, as elsewhere
+            failures.append({"source": "ollama_search", "error": f"{type(exc).__name__}: {exc}"})
 
     merged = _dedupe_news(items)
     for item in merged:
         item["themes"] = themes.tag_text(f"{item.get('title','')} {item.get('summary','')}")
     # Most relevant first, then most recent.
     merged.sort(key=lambda i: (-i.get("relevance", 0), _recency_key(i)), reverse=False)
-    return merged
+    return merged, failures
 
 
 # Phrases that put a company in the *analyst* role rather than making it the
@@ -306,7 +327,7 @@ def build_packet(
         profile = {"symbol": symbol}
 
     panel = quants.quants_panel(symbol)
-    news = collect_news(symbol, include_web=include_web)
+    news, news_failures = collect_news(symbol, include_web=include_web)
     story = themes.score_stories(news)
 
     packet: dict = {
@@ -327,6 +348,10 @@ def build_packet(
         "deal_activity": quants.deal_activity(symbol),
         "consensus_bar": quants.consensus_bar(panel),
         "news": news,
+        # Which feeds were down when this packet was built. Kept on the packet so a
+        # note written from a partial feed is auditable after the fact, and so the
+        # renderer can say so in the note rather than leaving it to be noticed.
+        "news_failures": news_failures,
         "story": story,
         "peer_pairings": themes.theme_pairing([t["key"] for t in story["themes"]]),
         "next_earnings": panel.get("next_earnings"),

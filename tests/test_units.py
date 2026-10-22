@@ -1871,5 +1871,81 @@ class TestReferencesPresent(unittest.TestCase):
                 self.assertIn(needle, text)
 
 
+class TestNewsFeedOutage(unittest.TestCase):
+    """A dead free feed must not cost the note -- and must not vanish either.
+
+    Nasdaq's news endpoint returned 403 across a whole run (six of ten names), and
+    ``collect_news`` used to raise, so each of those notes was dropped entirely.
+    One endpoint's condition says nothing about the company, so the note is now
+    built from the feeds that answered and the outage is recorded on the packet.
+    """
+
+    _ITEM = {
+        "title": "Test Co raises guidance",
+        "url": "https://example.com/test-co-guidance",
+        "publisher": "example.com",
+        "summary": "Test Co raised full-year guidance.",
+    }
+
+    def _collect(self, *, nasdaq_dies: bool = True, yahoo_dies: bool = False):
+        from unittest.mock import patch
+
+        from fig import packet
+
+        def yahoo_news(symbol, limit=12):
+            if yahoo_dies:
+                raise RuntimeError("HTTP 403 for https://yahoo/news")
+            return [self._ITEM]
+
+        def nasdaq_news(symbol, limit=15):
+            if nasdaq_dies:
+                raise RuntimeError("GET failed after 3 attempts: nasdaq articlebysymbol")
+            return [self._ITEM]
+
+        with (
+            patch.object(packet.yahoo, "profile", lambda s: {"name": "Test Co"}),
+            patch.object(packet.yahoo, "news", yahoo_news),
+            patch.object(packet.nasdaq, "news_for_symbol", nasdaq_news),
+        ):
+            return packet.collect_news("TEST")
+
+    def test_a_dead_feed_is_recorded_and_the_surviving_feed_is_kept(self):
+        items, failures = self._collect()
+
+        self.assertEqual([f["source"] for f in failures], ["nasdaq"])
+        self.assertIn("articlebysymbol", failures[0]["error"])
+        self.assertTrue(items, "the note must still carry the yahoo coverage")
+        self.assertEqual(items[0]["title"], self._ITEM["title"])
+
+    def test_both_feeds_down_still_returns_rather_than_raising(self):
+        items, failures = self._collect(yahoo_dies=True)
+
+        self.assertEqual(items, [])
+        self.assertEqual([f["source"] for f in failures], ["yahoo", "nasdaq"])
+
+    def test_healthy_feeds_record_no_failure(self):
+        items, failures = self._collect(nasdaq_dies=False)
+
+        self.assertEqual(failures, [])
+        self.assertTrue(items)
+
+    def test_the_outage_is_printed_in_the_note(self):
+        text = render.render_writeup(
+            {
+                "ticker": "TEST",
+                "description": "Test Co.",
+                "news_failures": [{"source": "nasdaq", "error": "RuntimeError: HTTP 403"}],
+            }
+        )
+
+        self.assertIn("nasdaq feed unavailable when this note was built", text)
+        self.assertIn("HTTP 403", text)
+
+    def test_a_healthy_note_prints_no_outage_line(self):
+        text = render.render_writeup({"ticker": "TEST", "description": "Test Co."})
+
+        self.assertNotIn("feed unavailable", text)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

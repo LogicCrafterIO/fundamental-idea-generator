@@ -185,7 +185,9 @@ def screen_symbol(symbol: str) -> dict:
     try:
         from .packet import collect_news
 
-        news = collect_news(symbol, yahoo_limit=8, nasdaq_limit=8)
+        # A feed outage is already recorded inside the packet, not raised here; the
+        # screen only wants the headlines it did get.
+        news, _failures = collect_news(symbol, yahoo_limit=8, nasdaq_limit=8)
         story = themes.score_stories(news)
         out["news_count"] = len(news)
         out["news_specific"] = sum(1 for n in news if n.get("relevance", 0) >= 3)
