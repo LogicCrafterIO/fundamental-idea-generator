@@ -434,7 +434,6 @@ def cmd_generate(args) -> int:
     # --screen N closes a loop that was left open: the screener produced ranked
     # candidates that nothing ever generated from, so its survivors sat un-written
     # unless someone retyped the tickers by hand.
-    hint: dict[str, str] = {}
     screen_n = int(getattr(args, "screen", 0) or 0)
     planned: dict | None = None
     work: list[dict] = []
@@ -498,8 +497,6 @@ def cmd_generate(args) -> int:
                 sides = ", ".join(f"{v}={d}" for d, v in sorted(clash["directions"].items()))
                 print(f"  disagreement: {clash['symbol']} ({sides}) -- both notes written")
         work = planned["work"]
-        for item in work:
-            hint[item["symbol"]] = item["direction"]
 
     # Typed tickers: one note each, no screening, so no variants to plan -- the
     # direction comes from --directions or defaults to long.
@@ -599,8 +596,7 @@ def cmd_generate(args) -> int:
         results.append(outcome)
         print(
             f"[{symbol}] {note_path}  score {score}/100"
-            f"{'' if note_path else ''}"
-            f"{'' if not item.get('variants') or len(item['variants']) < 2 else ' (copied to both)'}"
+            f"{'  (copied to both)' if len(item.get('variants') or []) > 1 else ''}"
         )
 
     if results or excluded:
