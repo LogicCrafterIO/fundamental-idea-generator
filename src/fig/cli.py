@@ -501,6 +501,22 @@ def cmd_generate(args) -> int:
     # Typed tickers: one note each, no screening, so no variants to plan -- the
     # direction comes from --directions or defaults to long.
     if not work:
+        if screen_n:
+            # A screen that ran correctly and ranked nothing is not a usage error, so
+            # it exits 0. The old message told the caller to "give one or more
+            # tickers, or --screen N" even though --screen had been given; what
+            # actually happened is that nothing cleared the score floor.
+            print(
+                f"the screen ranked nothing from {outcome['screened']} name(s) screened: "
+                "no candidate cleared the score floor",
+                file=sys.stderr,
+            )
+            print(
+                "  widen it with a larger --screen-limit (more names screened) or "
+                "looser --max-price / --min-market-cap; --strict only removes more",
+                file=sys.stderr,
+            )
+            return 0
         if not symbols:
             print("give one or more tickers, or --screen N", file=sys.stderr)
             return 1
