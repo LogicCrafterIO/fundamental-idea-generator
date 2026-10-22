@@ -1049,13 +1049,23 @@ def register_for(data: dict, packet: dict) -> list[dict]:
     return merged
 
 
-def rebuild_index(out_dir: str | Path = "research") -> dict:
+def rebuild_index(
+    out_dir: str | Path = "research",
+    *,
+    scoring: str | None = None,
+    disagreements: list[dict] | None = None,
+) -> dict:
     """Rebuild the index from the notes on disk.
 
     Everything needed is inside each ``.json``: the writeup itself plus the
     ``generation`` block recording model, rounds and scores. Notes are re-linted
     rather than trusted, so the index reflects the current linter -- which means
     ``fig index`` also doubles as "did my rules change under these notes?".
+
+    ``scoring`` names the screen this folder is one of (see
+    :data:`fig.discover.SCORING_MODES`) and ``disagreements`` carries the tickers the
+    two screens split on, so a two-variant run produces two indexes that say what
+    each one ranked by and, where it applies, that the other folder contradicts it.
     """
     out = Path(out_dir)
     results = []
@@ -1122,6 +1132,8 @@ def rebuild_index(out_dir: str | Path = "research") -> dict:
             out,
             excluded=_read_excluded(out),
             settings=_read_settings(out),
+            scoring=scoring,
+            disagreements=disagreements,
         )
     return {
         "index": str(out / "README.md"),
@@ -1314,12 +1326,80 @@ def _selection_groups(
     return groups, len(on_disk - attributed)
 
 
+def _scoring_lines(scoring: str | None, disagreements: list[dict] | None) -> list[str]:
+    """What ranked this folder, and where the companion folder contradicts it.
+
+    A two-variant run publishes siblings that can rank the same name on opposite
+    sides. That fact belongs in both indexes: a reader holding one folder has no way
+    to discover the other's disagreement, and of everything this pipeline prints,
+    a genuine contradiction between two of its own screens is the thing most likely
+    to be mistaken for agreement by omission.
+    """
+    from . import variants as variants_mod  # local: only the index needs the titles
+
+    lines: list[str] = []
+    if scoring:
+        title = variants_mod.VARIANT_TITLES.get(scoring, scoring)
+        if scoring == "divergence":
+            what = (
+                "A name scores high here when the consensus revision and the 30-day "
+                "price move point opposite ways -- improving estimates into a falling "
+                "tape, or deteriorating estimates into a rising one -- and collapses "
+                "to at most 12 when the two agree. That selects for a name the crowd "
+                "has taken the other side of, at the cost that the price leg supplies "
+                "much of the order."
+            )
+        else:
+            what = (
+                "The consensus revision alone sets this order: its size is the score "
+                "and its sign is the side. The price move is shown on the screen table "
+                "as context and does not enter the score, which makes the ranking "
+                "closer to consensus than a revision-versus-price gap was -- the "
+                "non-consensus argument has to come from the reasons."
+            )
+        others = [v for v in variants_mod.VARIANTS if v != scoring]
+        lines.append("### Ranking signal")
+        lines.append("")
+        lines.append(f"This folder was ranked by **{title}** (`--variants {scoring}`). {what}")
+        if others:
+            links = ", ".join(f"[`{v}/`](../{v}/)" for v in others)
+            lines.append(
+                f"The same screen ran under {links} beside this folder -- the same "
+                f"screened rows, one different term -- so the two orderings can be "
+                f"compared on identical evidence."
+            )
+        lines.append("")
+
+    if disagreements:
+        lines.append("### Screen disagreements")
+        lines.append("")
+        lines.append(
+            "These tickers were picked by both screens on **opposite sides**. Both "
+            "notes were written, one per folder, because a long and a short differ "
+            "in the catalyst argument, the watch lines and the structure -- they are "
+            "not two copies of one idea. Which screen is right is a judgement about "
+            "the company, and the disagreement is reported rather than reconciled."
+        )
+        lines.append("")
+        for clash in disagreements:
+            sides = ", ".join(
+                f"**{variant}** says {direction}"
+                for direction, variant in sorted(clash.get("directions", {}).items())
+            )
+            lines.append(f"- **{clash.get('symbol')}** -- {sides}.")
+        lines.append("")
+
+    return lines
+
+
 def write_index(
     results: list[dict],
     out_dir: str | Path = "research",
     *,
     excluded: list[tuple[str, str]] | None = None,
     settings: list[dict] | None = None,
+    scoring: str | None = None,
+    disagreements: list[dict] | None = None,
 ) -> str:
     """A scannable index of a batch, with the two sides apart and provenance kept.
 
@@ -1431,6 +1511,7 @@ def write_index(
         "with `fig index`. Every note is re-linted as it is indexed, so the scores "
         "here reflect the current linter rather than the state at generation time.",
         "",
+        *_scoring_lines(scoring, disagreements),
         "## Ranking",
         "",
         "Ordered by conviction, within each side. **This is not a prediction and not "

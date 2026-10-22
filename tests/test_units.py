@@ -1986,5 +1986,185 @@ class TestNewsFeedOutage(unittest.TestCase):
         self.assertNotIn("feed unavailable", text)
 
 
+class TestDivergenceMode(unittest.TestCase):
+    """The restored screen: rank on the revision-versus-price gap.
+
+    Kept alongside the revision-only screen rather than instead of it, so a run can
+    publish both rankings over the same screened rows and the difference between them
+    can be read off one packet's worth of evidence.
+    """
+
+    def _row(self, **over):
+        base = {
+            "revisions_net_30d": None,
+            "price_change_30d": None,
+            "price_change_90d": None,
+            "news_specific": 0,
+            "structure_available": False,
+        }
+        base.update(over)
+        return base
+
+    def test_long_dislocation_takes_the_full_gap(self):
+        from fig import discover
+
+        direction, _total, comps = discover._score(
+            self._row(revisions_net_30d=4, price_change_30d=-25), mode="divergence"
+        )
+        self.assertEqual(direction, "long")
+        # 8*4 + 0.6*25 = 47, capped at 40.
+        self.assertEqual(comps["divergence"], 40.0)
+
+    def test_short_dislocation_is_valued_symmetrically(self):
+        from fig import discover
+
+        direction, _total, comps = discover._score(
+            self._row(revisions_net_30d=-3, price_change_30d=20), mode="divergence"
+        )
+        self.assertEqual(direction, "short")
+        self.assertEqual(comps["divergence"], 36.0)
+
+    def test_aligned_names_collapse_to_the_small_branch(self):
+        from fig import discover
+
+        _d, _t, comps = discover._score(
+            self._row(revisions_net_30d=2, price_change_30d=5), mode="divergence"
+        )
+        # 0.15 * 5 = 0.75, rounded to one decimal as the scorer reports it.
+        self.assertEqual(comps["divergence"], 0.8)
+
+    def test_a_confirming_90_day_move_adds_six_and_stays_capped(self):
+        from fig import discover
+
+        _d, _t, comps = discover._score(
+            self._row(revisions_net_30d=4, price_change_30d=-25, price_change_90d=-10),
+            mode="divergence",
+        )
+        self.assertEqual(comps["divergence"], 45.0)
+
+    def test_a_stretched_but_agreeing_90_day_move_is_its_own_term(self):
+        from fig import discover
+
+        _d, _t, comps = discover._score(
+            self._row(revisions_net_30d=2, price_change_30d=5, price_change_90d=50),
+            mode="divergence",
+        )
+        self.assertAlmostEqual(comps["extended_move"], 2.0, places=2)
+
+    def test_the_two_modes_score_the_same_row_differently(self):
+        """One row, two screens: 32 on the revision alone, 40 on the gap."""
+        from fig import discover
+
+        row = self._row(revisions_net_30d=4, price_change_30d=-25)
+        self.assertEqual(discover._score(row)[2]["revisions"], 32.0)
+        self.assertEqual(discover._score(row, mode="divergence")[2]["divergence"], 40.0)
+
+    def test_rescore_does_not_touch_the_rows_it_reads(self):
+        """The same row is ranked twice, so the copies must be independent.
+
+        ``rank_candidates`` writes ``gated``/``caveats`` onto the rows it judges; if
+        ``rescore`` handed back the originals, one variant's gates would appear in
+        the other's ranking.
+        """
+        from fig import discover
+
+        rows = [self._row(symbol="PEP", revisions_net_30d=4, price_change_30d=-25)]
+        scored = discover.rescore(rows, mode="divergence")
+
+        self.assertEqual(scored[0]["scoring"], "divergence")
+        self.assertNotIn("score", rows[0])
+        self.assertNotIn("scoring", rows[0])
+        self.assertIsNot(scored[0], rows[0])
+
+
+class TestVariantPlan(unittest.TestCase):
+    """Two screens, one screening pass: what gets generated, and how often."""
+
+    def _picks(self, revisions, divergence):
+        return {
+            "revisions": [
+                {"symbol": s, "direction_hint": d, "score": score}
+                for s, d, score in revisions
+            ],
+            "divergence": [
+                {"symbol": s, "direction_hint": d, "score": score}
+                for s, d, score in divergence
+            ],
+        }
+
+    def test_a_name_both_screens_pick_on_the_same_side_is_generated_once(self):
+        from fig import variants
+
+        planned = variants.plan(
+            self._picks(
+                [("MNST", "long", 31.0)],
+                [("MNST", "long", 12.0)],
+            )
+        )
+        self.assertEqual(len(planned["work"]), 1)
+        item = planned["work"][0]
+        self.assertEqual(item["symbol"], "MNST")
+        self.assertEqual(item["variants"], ["revisions", "divergence"])
+        self.assertEqual(item["scores"], {"revisions": 31.0, "divergence": 12.0})
+        self.assertEqual(planned["disagreements"], [])
+        # Both folders still publish it -- one generation, two copies.
+        self.assertEqual(planned["membership"]["revisions"], ["MNST"])
+        self.assertEqual(planned["membership"]["divergence"], ["MNST"])
+
+    def test_opposite_sides_are_two_notes_and_a_reported_disagreement(self):
+        from fig import variants
+
+        planned = variants.plan(
+            self._picks(
+                [("PEP", "short", 74.0)],
+                [("PEP", "long", 55.0)],
+            )
+        )
+        self.assertEqual(len(planned["work"]), 2)
+        sides = {(w["symbol"], w["direction"]) for w in planned["work"]}
+        self.assertEqual(sides, {("PEP", "short"), ("PEP", "long")})
+        self.assertEqual(
+            planned["disagreements"],
+            [
+                {
+                    "symbol": "PEP",
+                    "directions": {"short": "revisions", "long": "divergence"},
+                    "variants": ["divergence", "revisions"],
+                }
+            ],
+        )
+
+    def test_names_picked_by_one_screen_only_stay_in_that_folder(self):
+        from fig import variants
+
+        planned = variants.plan(
+            self._picks(
+                [("HOOD", "long", 71.0)],
+                [("NFLX", "short", 43.2)],
+            )
+        )
+        self.assertEqual(len(planned["work"]), 2)
+        self.assertEqual(planned["membership"]["revisions"], ["HOOD"])
+        self.assertEqual(planned["membership"]["divergence"], ["NFLX"])
+        for item in planned["work"]:
+            self.assertEqual(len(item["variants"]), 1)
+
+    def test_a_single_variant_run_plans_its_own_folder_only(self):
+        from fig import variants
+
+        planned = variants.plan({"revisions": [{"symbol": "HOOD", "direction_hint": "long"}]})
+
+        self.assertEqual(planned["variants"], ["revisions"])
+        # Only requested variants get a membership entry; the run publishes one folder.
+        self.assertEqual(list(planned["membership"]), ["revisions"])
+        self.assertEqual(len(planned["work"]), 1)
+
+    def test_an_unknown_variant_is_refused(self):
+        from fig import variants
+
+        with self.assertRaises(ValueError):
+            variants.plan({"momentum": []})
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

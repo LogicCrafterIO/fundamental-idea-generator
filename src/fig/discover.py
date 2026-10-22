@@ -67,6 +67,23 @@ DEFAULT_MAX_PRICE = 150.0
 # it; the owner's tighter scans use $1B.
 DEFAULT_MIN_MARKET_CAP = 2e9
 
+# The two core signals a screened row can be ranked by. The screen itself (one
+# pool, one pass of network calls per name) is identical for both, so a run can
+# produce both rankings from a single screening pass -- ``rescore`` re-scores the
+# rows already in hand. They differ only in the core term:
+#
+#   revisions   the consensus EPS revision alone. Ranks on the estimates. Closer
+#               to consensus by construction, which is why the reasons have to
+#               carry the non-consensus argument.
+#   divergence  the revision against the 30/90-day price move. Selects for names
+#               the crowd has taken the other side of, but lets the tape decide
+#               much of the order.
+#
+# Neither is right in general, which is why both are kept and labelled rather than
+# one being chosen: the disagreement between them is itself information.
+SCORING_MODES = ("revisions", "divergence")
+DEFAULT_SCORING = "revisions"
+
 
 # --------------------------------------------------------------------------
 # universe
@@ -228,40 +245,104 @@ def screen_symbol(symbol: str) -> dict:
     return out
 
 
-def _score(row: dict) -> tuple[str, float, dict]:
+def _revision_signal(row: dict) -> tuple[float, str, dict]:
+    """The core signal of the ``revisions`` screen: the consensus revision alone.
+
+    Rank on the SIZE of the revision; take the side from its sign. Price
+    deliberately does not enter.
+    """
+    rev = row.get("revisions_net_30d")
+    revisions = 0.0
+    direction = "long"
+    if rev is not None:
+        # Saturates at 5 net revisions -- the same term, and so the same ceiling,
+        # the divergence formula's revision half uses.
+        revisions = min(40.0, 8.0 * min(abs(rev), 5))
+        direction = "long" if rev >= 0 else "short"
+    return round(revisions, 1), direction, {}
+
+
+def _divergence_signal(row: dict) -> tuple[float, str, dict]:
+    """The core signal of the ``divergence`` screen: revisions *versus* price.
+
+    Restored verbatim from before the revision-only change, because the two
+    screens now run side by side and this one's ranking is the thing being kept
+    for comparison. A revision move earns its full weight only when the tape
+    disagrees with it -- estimates rising into a falling price is the long
+    dislocation, estimates falling into a rising price the short -- and collapses
+    to at most 12 when the two agree.
+
+    That collapse is exactly the property that made it attractive (it selects for
+    a crowd on the other side) and exactly the property that got it demoted (half a
+    universe lands in that branch, and the price leg, not the estimates, decides
+    the order). Both are true; keeping the screen and labelling which is which is
+    more useful than picking one and discarding the evidence.
+    """
+    rev = row.get("revisions_net_30d")
+    price_30 = row.get("price_change_30d")
+    price_90 = row.get("price_change_90d")
+
+    divergence = 0.0
+    direction = "long"
+    if rev is not None and price_30 is not None:
+        if rev > 0 and price_30 < 0:
+            # Estimates rising, price falling: the classic long dislocation.
+            divergence = min(40.0, 8.0 * min(rev, 5) + 0.6 * min(abs(price_30), 35))
+            direction = "long"
+        elif rev < 0 and price_30 > 0:
+            # Estimates falling, price rising: the short dislocation.
+            divergence = min(40.0, 8.0 * min(abs(rev), 5) + 0.6 * min(abs(price_30), 35))
+            direction = "short"
+        else:
+            # Aligned, but a big move still means something is happening.
+            divergence = min(12.0, 0.15 * abs(price_30))
+            direction = "long" if rev >= 0 else "short"
+    elif price_30 is not None:
+        divergence = min(10.0, 0.15 * abs(price_30))
+
+    extra: dict[str, float] = {}
+    # A bigger 90-day move strengthens or weakens the same reading.
+    if price_90 is not None and rev is not None:
+        if (rev > 0 and price_90 < 0) or (rev < 0 and price_90 > 0):
+            divergence = round(min(45.0, divergence + 6.0), 1)
+        elif abs(price_90) > 40:
+            extra["extended_move"] = round(min(8.0, (abs(price_90) - 40) * 0.2), 1)
+    return round(divergence, 1), direction, extra
+
+
+def _score(
+    row: dict, *, mode: str = DEFAULT_SCORING
+) -> tuple[str, float, dict]:
     """Additive, inspectable triage score with a direction hint.
+
+    ``mode`` picks the core signal -- ``revisions`` (default) or ``divergence``.
+    The other components are shared, so the two screens differ in exactly one term
+    and the difference in their rankings can be read off ``score_components``.
 
     Components (all bounded, all free-data derivable):
 
     ``revisions``    the consensus EPS revision -- the core signal, and the side.
+    ``divergence``   (``divergence`` mode) revisions against the 30/90-day move.
     ``catalyst``     an earnings report inside a tradeable window.
     ``salience``     how much name-specific news there is.
     ``tradeable``    options exist with a usable expiry pair.
     ``valuation_fragility``  multiple extremes, as a mild tilt only.
     """
+    if mode not in SCORING_MODES:
+        raise ValueError(f"unknown scoring mode {mode!r}; expected one of {SCORING_MODES}")
+
     components: dict[str, float] = {}
 
     rev = row.get("revisions_net_30d")
 
-    # ---- revisions -------------------------------------------------------
-    # Rank on the SIZE of the consensus revision; take the side from its sign.
-    # Price deliberately does not enter the score.
-    #
-    # This used to reward a revision-versus-price *gap* and collapse to <=12 when
-    # the two agreed. That made the rank a bet on the price leg rather than on the
-    # estimates: two names with identical revision moves scored ~30 points apart
-    # purely because one had the tape going its way, and half a screened universe
-    # sat in the collapsed branch. The revision term below is the same one the old
-    # formula used; only the price term and the branch structure are gone.
-    revisions = 0.0
-    direction = "long"
-    if rev is not None:
-        # Saturates at 5 net revisions -- the same term, and so the same ceiling,
-        # the old formula's revision half used. (The 45 cap that used to sit here
-        # was only reachable via the +6 price confirmation, which is gone.)
-        revisions = min(40.0, 8.0 * min(abs(rev), 5))
-        direction = "long" if rev >= 0 else "short"
-    components["revisions"] = round(revisions, 1)
+    # ---- the core signal -------------------------------------------------
+    if mode == "divergence":
+        core, direction, extra = _divergence_signal(row)
+        components["divergence"] = core
+        components.update(extra)
+    else:
+        core, direction, _extra = _revision_signal(row)
+        components["revisions"] = core
 
     # ---- catalyst --------------------------------------------------------
     catalyst = 0.0
@@ -320,6 +401,32 @@ def _score(row: dict) -> tuple[str, float, dict]:
 # --------------------------------------------------------------------------
 # ranking
 # --------------------------------------------------------------------------
+
+
+def rescore(rows: list[dict], *, mode: str = DEFAULT_SCORING) -> list[dict]:
+    """Re-score already-screened rows under another scoring mode.
+
+    Returns **copies**: the same row object is ranked twice in a two-variant run,
+    and ``rank_candidates`` writes ``gated``/``caveats`` onto the rows it judges, so
+    sharing them would let one variant's gates leak into the other's.
+
+    This is what makes the second screen nearly free: the expensive half of a screen
+    is the network calls behind each row, and those are done once. Only the
+    arithmetic changes.
+    """
+    if mode not in SCORING_MODES:
+        raise ValueError(f"unknown scoring mode {mode!r}; expected one of {SCORING_MODES}")
+
+    out: list[dict] = []
+    for row in rows:
+        copy = dict(row)
+        if not copy.get("error"):
+            copy["direction_hint"], copy["score"], copy["score_components"] = _score(
+                copy, mode=mode
+            )
+            copy["scoring"] = mode
+        out.append(copy)
+    return out
 
 
 def rank_candidates(
@@ -416,8 +523,13 @@ def scan(
     require_positive_pe: bool = False,
     max_price: float | None = DEFAULT_MAX_PRICE,
     min_market_cap: float = DEFAULT_MIN_MARKET_CAP,
+    mode: str = DEFAULT_SCORING,
 ) -> dict:
-    """End-to-end triage: build a universe, screen it, rank it.
+    """End-to-end triage: build a universe, screen it once, rank it.
+
+    ``mode`` picks the core signal (see :data:`SCORING_MODES`). The screen is the
+    same either way, so ``all_rows`` comes back already scored under ``mode`` and a
+    two-variant run re-scores it with :func:`rescore` rather than screening twice.
 
     ``limit`` caps how many names get screened, since each screen costs several
     network calls. Names from an explicit watchlist are always screened first.
@@ -444,6 +556,8 @@ def scan(
         row["sources"] = candidate["sources"]
         rows.append(row)
 
+    rows = rescore(rows, mode=mode)
+
     ranked = rank_candidates(
         rows,
         top=top,
@@ -462,6 +576,7 @@ def scan(
         # The rules the pool was built under, so a run's coverage is auditable
         # rather than inferred from the numbers it happened to produce.
         "settings": {
+            "scoring": mode,
             "max_price": max_price,
             "min_market_cap": min_market_cap,
             "earnings_days": earnings_days,

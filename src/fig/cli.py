@@ -19,7 +19,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from . import discover, lint, options, packet, quants, render, themes
+from . import discover, lint, options, packet, quants, render, themes, variants as variants_mod
 from .sources import nasdaq
 from .util import human_money
 
@@ -49,6 +49,26 @@ def _write(path: str | None, text: str) -> None:
         print(f"wrote {target}", file=sys.stderr)
     else:
         print(text)
+
+
+def _variant_list(value: str | None) -> list[str]:
+    """Expand ``--variants`` into the variants this run publishes, in order.
+
+    ``both`` is the default for a ``--screen`` run: the two screens read the same
+    pool, share the expensive half (screening), and differ only in how the rows are
+    ranked, so running one and then the other is nearly free. ``revisions`` first so
+    the order matches :data:`fig.discover.SCORING_MODES` and the primary folder is
+    the one the tool has been publishing.
+    """
+    choice = (value or "both").strip().lower()
+    if choice == "both":
+        return list(variants_mod.VARIANTS)
+    if choice not in variants_mod.VARIANTS:
+        raise SystemExit(
+            f"unknown --variants {value!r}; expected one of both, "
+            + ", ".join(variants_mod.VARIANTS)
+        )
+    return [choice]
 
 
 def _parse_money_arg(value: str | None, default: float | None) -> float | None:
@@ -127,13 +147,15 @@ def cmd_screen(args) -> int:
         include_screener=not args.no_screener,
         max_price=max_price,
         min_market_cap=min_market_cap if min_market_cap is not None else 0.0,
+        mode=getattr(args, "scoring", discover.DEFAULT_SCORING) or discover.DEFAULT_SCORING,
     )
     cap_text = f"${max_price:,.0f}" if max_price is not None else "none"
     print(
         f"rules: share price under {cap_text}, market cap at least "
         f"{human_money(min_market_cap) if min_market_cap else 'none'}, "
         f"earnings within {args.earnings_days}d, screener "
-        f"{'on' if not args.no_screener else 'off'}\n"
+        f"{'on' if not args.no_screener else 'off'}, "
+        f"scoring {getattr(args, 'scoring', discover.DEFAULT_SCORING) or discover.DEFAULT_SCORING}\n"
     )
     print(
         f"pool {result['pool_size']} names -> screened {result['screened']} -> "
@@ -414,10 +436,18 @@ def cmd_generate(args) -> int:
     # unless someone retyped the tickers by hand.
     hint: dict[str, str] = {}
     screen_n = int(getattr(args, "screen", 0) or 0)
+    planned: dict | None = None
+    work: list[dict] = []
+
     if screen_n:
         min_market_cap = _parse_money_arg(
             getattr(args, "min_market_cap", None), discover.DEFAULT_MIN_MARKET_CAP
         )
+        variants = _variant_list(getattr(args, "variants", "both"))
+
+        # One screening pass, however many variants are published. The screen is the
+        # expensive half (several network calls per name); rescoring rows already in
+        # hand is arithmetic, so the second variant costs no network time at all.
         outcome = discover.scan(
             top=screen_n,
             limit=int(getattr(args, "screen_limit", 60) or 60),
@@ -425,15 +455,23 @@ def cmd_generate(args) -> int:
             min_market_cap=min_market_cap if min_market_cap is not None else 0.0,
             require_structure=bool(getattr(args, "strict", False)),
             require_positive_pe=bool(getattr(args, "strict", False)),
+            mode=variants[0],
         )
-        for row in outcome["ranked"]:
-            hint[row["symbol"]] = row.get("direction_hint") or "long"
-        for row in outcome["ranked"]:
-            if row["symbol"] not in symbols:
-                symbols.append(row["symbol"])
+
+        picks: dict[str, list[dict]] = {}
+        for variant in variants:
+            picks[variant] = discover.rank_candidates(
+                discover.rescore(outcome["all_rows"], mode=variant),
+                top=screen_n,
+                require_structure=bool(getattr(args, "strict", False)),
+                require_positive_pe=bool(getattr(args, "strict", False)),
+                max_price=max_price,
+            )
+
         print(
-            f"screener: {outcome['pool_size']} in pool, {outcome['screened']} screened, "
-            f"{len(outcome['ranked'])} passed -> {len(hint)} to generate"
+            f"screener: {outcome['pool_size']} in pool, {outcome['screened']} screened "
+            f"-> {sum(len(v) for v in picks.values())} pick(s) across "
+            f"{len(variants)} screen(s)"
         )
         print(
             f"  rules: share price under "
@@ -441,46 +479,78 @@ def cmd_generate(args) -> int:
             f"market cap at least "
             f"{human_money(min_market_cap) if min_market_cap else 'none'}"
         )
-        for row in outcome["ranked"]:
+        for variant in variants:
             print(
-                f"  {row['symbol']:6} {row.get('direction_hint','?'):5} "
-                f"score {row['score']:5.1f}"
-                + (f"  caveats: {'; '.join(row['caveats'])}" if row.get("caveats") else "")
+                f"\n  {variant} ({variants_mod.VARIANT_TITLES.get(variant, variant)}):"
             )
+            for row in picks[variant]:
+                print(
+                    f"    {row['symbol']:6} {row.get('direction_hint','?'):5} "
+                    f"score {row['score']:5.1f}"
+                    + (f"  caveats: {'; '.join(row['caveats'])}" if row.get("caveats") else "")
+                )
 
-    if not symbols:
-        print("give one or more tickers, or --screen N", file=sys.stderr)
-        return 1
+        planned = variants_mod.plan(picks)
+        if len(variants) > 1:
+            for line in variants_mod.describe(planned):
+                print(line)
+            for clash in planned["disagreements"]:
+                sides = ", ".join(f"{v}={d}" for d, v in sorted(clash["directions"].items()))
+                print(f"  disagreement: {clash['symbol']} ({sides}) -- both notes written")
+        work = planned["work"]
+        for item in work:
+            hint[item["symbol"]] = item["direction"]
 
-    # --directions is a comma-separated string; directions are lowercase. With
-    # --screen and no explicit flag, the screener's own hint is the better default:
-    # it comes from the sign of the consensus revision that put the name on the
-    # list in the first place.
-    if getattr(args, "directions", None):
-        directions = [d.strip().lower() for d in args.directions.split(",") if d.strip()]
-    elif hint:
-        directions = [hint.get(symbol, "long") for symbol in symbols]
-    else:
-        directions = ["long"]
-    if not directions:
-        directions = ["long"]
+    # Typed tickers: one note each, no screening, so no variants to plan -- the
+    # direction comes from --directions or defaults to long.
+    if not work:
+        if not symbols:
+            print("give one or more tickers, or --screen N", file=sys.stderr)
+            return 1
+
+        # --directions is a comma-separated string; directions are lowercase.
+        if getattr(args, "directions", None):
+            directions = [d.strip().lower() for d in args.directions.split(",") if d.strip()]
+        else:
+            directions = ["long"]
+        if not directions:
+            directions = ["long"]
+        work = [
+            {
+                "symbol": symbol,
+                "direction": directions[i] if i < len(directions) else directions[-1],
+                "variants": [],
+                "scores": {},
+            }
+            for i, symbol in enumerate(symbols)
+        ]
 
     results = []
     failures = []
     excluded = []
+    by_target: dict[Path, list[dict]] = {}
+
+    def targets_for(item: dict) -> list[Path]:
+        """Which folders this note is published into.
+
+        A two-variant run publishes into ``<out>/<variant>/``; a single-variant run
+        keeps writing straight into ``--out``, which is the layout every note in the
+        repo's history already has.
+        """
+        if item.get("variants") and len((planned or {}).get("variants") or []) > 1:
+            return [Path(args.out) / variants_mod.folder_name(v) for v in item["variants"]]
+        return [Path(args.out)]
 
     # Tickers are independent, and generation is almost entirely network wait, so
     # a batch runs concurrently. This is the single biggest speed win available:
     # 9 tickers at ~1.5 min each is 13 min serially and ~2 min at 8 jobs.
-    jobs = max(1, min(int(getattr(args, "jobs", 1) or 1), len(symbols)))
+    jobs = max(1, min(int(getattr(args, "jobs", 1) or 1), len(work)))
 
-    def work(item: tuple[int, str]) -> tuple[str, object]:
-        index, symbol = item
-        direction = directions[index] if index < len(directions) else directions[-1]
+    def run(item: dict) -> tuple[dict, object]:
         try:
-            return symbol, generate.generate_idea(
-                symbol,
-                direction=direction,
+            return item, generate.generate_idea(
+                item["symbol"],
+                direction=item["direction"],
                 peers=_split_symbols(args.peers),
                 model=args.model,
                 use_search=not args.no_search,
@@ -493,22 +563,19 @@ def cmd_generate(args) -> int:
                 verbose=jobs == 1,
             )
         except generate.PriceCapError as exc:
-            return symbol, exc
+            return item, exc
         except Exception as exc:  # noqa: BLE001 - reported per symbol, batch continues
-            return symbol, exc
+            return item, exc
 
-    indexed = list(enumerate(symbols))
     if jobs == 1:
-        outcomes = [work(item) for item in indexed]
+        outcomes = [run(item) for item in work]
     else:
-        print(f"generating {len(symbols)} ticker(s) with {jobs} parallel jobs")
+        print(f"\ngenerating {len(work)} note(s) with {jobs} parallel jobs")
         with ThreadPoolExecutor(max_workers=jobs) as pool:
-            outcomes = [
-                outcome
-                for outcome in pool.map(work, indexed)
-            ]
+            outcomes = list(pool.map(run, work))
 
-    for symbol, outcome in outcomes:
+    for item, outcome in outcomes:
+        symbol = item["symbol"]
         if isinstance(outcome, generate.PriceCapError):
             print(f"[{symbol}] SKIPPED: {outcome}")
             excluded.append((symbol, str(outcome)))
@@ -517,39 +584,62 @@ def cmd_generate(args) -> int:
             print(f"[{symbol}] FAILED: {type(outcome).__name__}: {outcome}", file=sys.stderr)
             failures.append((symbol, str(outcome)))
             continue
-        paths = generate.save_idea(outcome, args.out)
+
+        # Written into every folder this note belongs to. When both screens pick the
+        # same name on the same side there is one generation and two copies, which is
+        # the whole saving: a second generation would spend tokens to reproduce text
+        # that could differ between the folders.
+        note_path = ""
+        score = 0
+        for target in targets_for(item):
+            paths = generate.save_idea(outcome, target)
+            by_target.setdefault(target, []).append(outcome)
+            note_path = note_path or paths["note"]
+            score = paths["score"]
         results.append(outcome)
         print(
-            f"[{symbol}] {paths['note']}  score {paths['score']}/100"
-            f"{'' if paths['ok'] else '  (still has lint errors)'}"
+            f"[{symbol}] {note_path}  score {score}/100"
+            f"{'' if note_path else ''}"
+            f"{'' if not item.get('variants') or len(item['variants']) < 2 else ' (copied to both)'}"
         )
 
     if results or excluded:
-        generate.write_excluded(excluded, args.out)
-        # Rebuilt from every note on disk rather than written from this batch alone:
-        # a 23-note batch that wrote its own index would silently drop every note
-        # from the runs before it. The rebuild re-lints and re-grounds each note, so
-        # the index is an audit of the whole folder, not a report on one batch.
-        # The rules this batch ran under are recorded beside the notes, so a later
-        # rebuild states the cap the folder was actually built under rather than the
-        # tool's default.
-        generate.record_settings(
-            args.out,
-            tickers=[r["writeup"]["ticker"] for r in results],
-            max_price=max_price,
-            min_market_cap=(
-                _parse_money_arg(getattr(args, "min_market_cap", None), None)
-                if getattr(args, "min_market_cap", None)
-                else None
-            ),
-        )
-        rebuilt = generate.rebuild_index(args.out)
-        print(f"\nindex: {rebuilt['index']} ({rebuilt['notes']} note(s))")
+        if not by_target:
+            by_target[Path(args.out)] = list(results)
+        scored_disagreements = (planned or {}).get("disagreements") or []
+        for target, target_results in by_target.items():
+            generate.write_excluded(excluded, target)
+            # Rebuilt from every note on disk rather than written from this batch
+            # alone: a batch that wrote its own index would silently drop every note
+            # from the runs before it. The rebuild re-lints and re-grounds each note,
+            # so the index is an audit of the whole folder, not a report on one batch.
+            #
+            # The rules this batch ran under are recorded beside the notes, so a later
+            # rebuild states the cap the folder was actually built under rather than
+            # the tool's default.
+            generate.record_settings(
+                target,
+                tickers=[r["writeup"]["ticker"] for r in target_results],
+                max_price=max_price,
+                min_market_cap=(
+                    _parse_money_arg(getattr(args, "min_market_cap", None), None)
+                    if getattr(args, "min_market_cap", None)
+                    else None
+                ),
+            )
+            scoring = target.name if target.name in variants_mod.VARIANTS else None
+            rebuilt = generate.rebuild_index(
+                target,
+                scoring=scoring,
+                disagreements=scored_disagreements if len(variants_mod.VARIANTS) else None,
+            )
+            print(f"\nindex: {rebuilt['index']} ({rebuilt['notes']} note(s))")
     if failures:
         print(f"\n{len(failures)} failed:", file=sys.stderr)
         for symbol, error in failures:
             print(f"  {symbol}: {error}", file=sys.stderr)
     return 1 if failures and not results else 0
+
 
 
 def cmd_rank(args) -> int:
@@ -711,6 +801,13 @@ def build_parser() -> argparse.ArgumentParser:
         help="pool floor, accepts 1b / 1000m / 2e9 (default 2b)",
     )
     p.add_argument("--no-screener", action="store_true")
+    p.add_argument(
+        "--scoring",
+        default="revisions",
+        choices=["revisions", "divergence"],
+        help="core signal to rank on: revisions (consensus EPS revision alone, the "
+        "default) or divergence (revisions versus the 30-day price move)",
+    )
     p.set_defaults(func=cmd_screen)
 
     p = sub.add_parser("packet", help="evidence packet for one name")
@@ -771,6 +868,13 @@ def build_parser() -> argparse.ArgumentParser:
         type=int,
         default=60,
         help="how many names the screener screens before ranking (default 60)",
+    )
+    p.add_argument(
+        "--variants",
+        default="both",
+        help="which screens a --screen run publishes: both (default), revisions, or "
+        "divergence. Both read the same pool, so the second costs only arithmetic, "
+        "and a name both pick on the same side is generated once and copied",
     )
     p.add_argument(
         "--min-market-cap",

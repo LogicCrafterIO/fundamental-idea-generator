@@ -594,7 +594,8 @@ universe()          Nasdaq earnings calendar + screener + watchlist
 screen_symbol()     yfinance quants, consensus revisions, 30/90d price move,
       |             news themes, and whether an option structure is even possible
       v
-rank_candidates()   revision score -> direction hint (long/short)
+rank_candidates()   revision score -> direction hint (long/short); --variants both
+      |             re-ranks the same rows on the divergence term too
       |             $150 price cap is the only gate still on by default
       v
 build_packet()      full evidence bundle: profile, quants, statement deltas,
@@ -646,6 +647,32 @@ Neither signal licenses the reading that produced the BB note's worst reason: "5
 and 0 down" is a count of analysts moving, not a move in the consensus *level*, and
 the packet states which of the two happened. See "a revision count is not a
 revision of the number" above.
+
+### Both screens run, and the overlap is paid for once
+
+Since neither signal is right in general, a `--screen` run publishes **both** rather
+than choosing between them: `--variants both` (the default) writes
+`<out>/revisions/` and `<out>/divergence/`, while `--variants revisions` or
+`--variants divergence` publishes one of them straight into `<out>` as before.
+
+The economy is that the two screens share everything expensive:
+
+- **One screening pass.** The pool is built and every candidate screened once; the
+  variants differ by a single term in `_score`, so `discover.rescore()` re-ranks the
+  rows already in hand. The price moves the divergence term needs are fetched for
+  every row anyway, so the second screen costs no network calls at all.
+- **One generation per `(ticker, direction)`.** A name both screens pick on the same
+  side is generated once and **copied** into both folders — not regenerated, which
+  would spend tokens to reproduce text that could come back different on a sampled
+  run, making two folders disagree for no reason.
+- **Two notes when the sides differ.** A ticker one screen ranks long and the other
+  short is two genuinely different notes (different catalyst argument, watch lines
+  and structure), so both are written — and the ticker is reported as a **screen
+  disagreement** in both indexes rather than reconciled. That contradiction is the
+  most useful thing the two screens produce, so it is never left silent.
+
+Each folder's `README.md` states which signal ranked it and links to its sibling, so
+the two orderings can be compared on identical evidence.
 
 ### The story layer
 
