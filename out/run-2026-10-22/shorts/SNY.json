@@ -1,0 +1,697 @@
+{
+  "ticker": "SNY",
+  "direction": "short",
+  "as_of": "2026-10-22",
+  "description": "Vaccines and prescription drugs, led by Dupixent for asthma and eczema, plus rare disease and oncology.",
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "session": "before the open",
+    "days_out": 8,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.5105,
+      "eps_low": 1.489,
+      "eps_high": 1.532,
+      "revenue_avg": 13281433400
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.14,
+        "eps_actual": 1.2,
+        "surprise_pct": 5.59,
+        "beat": true
+      },
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 1.03,
+        "eps_actual": 1.1,
+        "surprise_pct": 7.26,
+        "beat": true
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 0.85,
+        "eps_actual": 0.91,
+        "surprise_pct": 7.38,
+        "beat": true
+      },
+      {
+        "date": "2025-10-24",
+        "eps_estimate": 1.57,
+        "eps_actual": 1.69,
+        "surprise_pct": 8.14,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 92,
+    "facts_line": "2026-10-30 (Friday, before the open), 8 days out -- from the earnings calendar, consensus EPS 1.51.",
+    "why": "Q3 must show revenue growth converting into reported profit; another quarter of 90%-plus net income decline with sales up double digits confirms the gap."
+  },
+  "reasons": [
+    "June-quarter revenue rose 14.6% year over year to 12.3B while net income fell 91.3% to 343M and EBIT fell 28.5% to 1.12B, so the top line is not converting.",
+    "Consensus FY EPS was cut 1.67% in 30 days (5.01756 to 4.93362) with 0 up and 4 down; RBC says consensus mis-models Dupixent partnership expenses and reimbursements and sits about 4% too high on EPS.",
+    "PBM [pharmacy benefit manager]-affiliated specialty pharmacies can steer patients into their own networks, an access friction on Dupixent that has not yet reached the sales line."
+  ],
+  "watch": [
+    "Reported net income: confirms if the year-over-year decline stays near -91%; breaks if reported profit returns to growth.",
+    "Gap between business EPS and reported net income: confirms if it widens again; breaks if the two converge.",
+    "Revenue against the 13.28B consensus: a beat with flat profit confirms; a beat with margin recovery breaks.",
+    "Vaccine tenders: confirms if donor funding cuts shrink public orders; breaks if Kenya's 130% budget rise lifts volumes."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "SNY quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/sny/financials",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for SNY",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/SNY/analysis/",
+        "date": "2026-10-22"
+      },
+      {
+        "id": "S29",
+        "kind": "ollama_search",
+        "ref": "web:9",
+        "label": "markets.businessinsider.com: Sanofi price target lowered to EUR 75 from EUR 800 at RBC Capital",
+        "provider": "markets.businessinsider.com",
+        "url": "https://markets.businessinsider.com/news/stocks/sanofi-price-target-lowered-to-eur-75-from-eur-800-at-rbc-capital-1036635711",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "sanofi.us: In Sanofi's 2026 policy perspective, PBM-affiliated specialty pharmacies can steer patients into their networks.",
+        "provider": "sanofi.us",
+        "url": "https://www.sanofi.us/assets/dot-us/pages/images/our-company/Social-impact/responsible-business-values/pricing-principles/Sanofi-Policy-Perspective-2026-Navigating-the-Complexities-of-Accessing-Specialty-Medicines.pdf",
+        "date": null
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SNY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/key-statistics/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SNY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/analysis/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "SNY quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sny/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "SNY earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: SNY Stock Trading Above 50- & 200-Day SMAs: Buy, Hold or Sell?",
+      "provider": null,
+      "url": "/articles/sny-stock-trading-above-50-200-day-smas-buy-hold-or-sell",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Top Stock Reports for NVIDIA, ExxonMobil & HSBC",
+      "provider": null,
+      "url": "/articles/top-stock-reports-nvidia-exxonmobil-hsbc",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "RTTNews: Novavax's XFG-Adapted Nuvaxovid Approved In U.S., EU, Japan For 2026-2027 Season",
+      "provider": null,
+      "url": "/articles/novavaxs-xfg-adapted-nuvaxovid-approved-us-eu-japan-2026-2027-season",
+      "date": "Aug 28, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Eli Lilly to Buy Immunology Biotech Merida Biosciences in $2.9B Deal",
+      "provider": null,
+      "url": "/articles/eli-lilly-buy-immunology-biotech-merida-biosciences-29b-deal",
+      "date": "Sep 1, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: AbbVie's Immunology Franchise: From Skyrizi & Rinvoq to What's Next",
+      "provider": null,
+      "url": "/articles/abbvies-immunology-franchise-skyrizi-rinvoq-whats-next",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: GSK's Specialty Medicines Drive Growth Amid Looming HIV Patent Cliff",
+      "provider": null,
+      "url": "/articles/gsks-specialty-medicines-drive-growth-amid-looming-hiv-patent-cliff",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "RTTNews: Sanofi Partners With USA Pickleball On COVID-19 Protection Campaign",
+      "provider": null,
+      "url": "/articles/sanofi-partners-usa-pickleball-covid-19-protection-campaign",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Here's Why You Should Add NRIX Stock to Your Portfolio Now",
+      "provider": null,
+      "url": "/articles/heres-why-you-should-add-nrix-stock-your-portfolio-now",
+      "date": "Sep 10, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "RTTNews: Sanofi To Receive 26.4% Stake In Cheplapharm For Mature Medicines",
+      "provider": null,
+      "url": "/articles/sanofi-receive-264-stake-cheplapharm-mature-medicines",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "RTTNews: Sanofi's C$925M Facility To Support 2027-28 Flu Vaccine Season",
+      "provider": null,
+      "url": "/articles/sanofis-c-925m-facility-support-2027-28-flu-vaccine-season",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is CRBP a Good Cannabis Investment After Positive Obesity Study Data?",
+      "provider": null,
+      "url": "/articles/crbp-good-cannabis-investment-after-positive-obesity-study-data",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "RTTNews: Bavarian Nordic Appoints Stenvall As President & CEO",
+      "provider": null,
+      "url": "/articles/bavarian-nordic-appoints-stenvall-president-ceo",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "RTTNews: Owkin Licenses K Pro AI Scientist And Multimodal Data To Boehringer Ingelheim",
+      "provider": null,
+      "url": "/articles/owkin-licenses-k-pro-ai-scientist-and-multimodal-data-boehringer-ingelheim",
+      "date": "Sep 2, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Does Moderna's mRNA Flu Shot Face a New Challenge From GSK?",
+      "provider": null,
+      "url": "/articles/does-modernas-mrna-flu-shot-face-new-challenge-gsk",
+      "date": "Sep 3, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
+      "provider": null,
+      "url": "/articles/vertex-vs-regeneron-which-biotech-giant-better-buy-right-now",
+      "date": "Sep 4, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "circlfi.com: SNY Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/sny-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "chartmill.com: SNY Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/SNY/analyst-ratings",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "vcpscanner.com: Sanofi (SNY) Stock Price, Financials & Analysis | VCP Scanner",
+      "provider": "vcpscanner.com",
+      "url": "https://vcpscanner.com/stock/sny",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "tickerspark.ai: Sanofi (SNY): Dupixent Growth Supports a Hold | TickerSpark",
+      "provider": "tickerspark.ai",
+      "url": "https://tickerspark.ai/research/sny",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "wsj.com: SNY | Sanofi ADR Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/SNY/research-ratings",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "walnutinvest.com: Is SNY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/sny/is-it-a-buy-or-sell",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Sanofi (SNY) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/sny/forecast/",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "tipranks.com: Sanofi (SNY) Price & Analysis",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/stocks/sny",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "quotelinks.com: Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks",
+      "provider": "quotelinks.com",
+      "url": "https://www.quotelinks.com/forecast/sny.html",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "markets.businessinsider.com: Sanofi price target lowered to EUR 75 from EUR 800 at RBC Capital",
+      "provider": "markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/sanofi-price-target-lowered-to-eur-75-from-eur-800-at-rbc-capital-1036635711",
+      "date": null
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "sanofi.com: Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "benzinga.com: Full Transcript: Sanofi Q2 2026 Earnings Call",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/news/26/09/61860657/full-transcript-sanofi-q2-2026-earnings-call",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "sanofi.com: 2026_10_06 Sanofi Q3 2026 Aide-m\u00e9moire",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2026/2026-q3-2026-results/20261006-Sanofi-Q3-2026-Aide-memoire.pdf",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "sanofi.com: Investor News & Events | Sanofi",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/en/investors/news-events",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "sanofi.us: In Sanofi's 2026 policy perspective, PBM-affiliated specialty pharmacies can steer patients into their networks.",
+      "provider": "sanofi.us",
+      "url": "https://www.sanofi.us/assets/dot-us/pages/images/our-company/Social-impact/responsible-business-values/pricing-principles/Sanofi-Policy-Perspective-2026-Navigating-the-Complexities-of-Accessing-Specialty-Medicines.pdf",
+      "date": null
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "businessdailyafrica.com: In mid-2026, donor funding cuts are pressuring public vaccine purchases in Kenya.",
+      "provider": "businessdailyafrica.com",
+      "url": "https://www.businessdailyafrica.com/bd/corporate/health/treasury-reserves-sh4-6bn-to-avert-vaccines-shortage-5455510",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "businessdailyafrica.com: Kenya's FY2026 vaccine budget rises 130% to Sh4.6bn to prevent shortages.",
+      "provider": "businessdailyafrica.com",
+      "url": "https://www.businessdailyafrica.com/bd/corporate/health/treasury-reserves-sh4-6bn-to-avert-vaccines-shortage-5455510",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S37",
+      "kind": "options",
+      "ref": "options",
+      "label": "SNY listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/options/",
+      "date": "2026-10-22"
+    }
+  ],
+  "quants": {
+    "price": 40.97,
+    "market_cap": "98.17B",
+    "fwd_pe": 8.3,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.0,
+    "eps_trend": "down over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 4 down over last 30 days",
+    "extra": [
+      "Interest Income +28% quarter over quarter but -21% year over year (2026-06-30)",
+      "EPS increased year over year, 0.91 -> 1.2"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 9.4,
+        "yoy_pct": 14.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": -78.7,
+        "yoy_pct": -91.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": -48.5,
+        "yoy_pct": -28.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": -38.3,
+        "yoy_pct": -14.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 5.1,
+        "yoy_pct": 22.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 14.5,
+        "yoy_pct": 19.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 61.2,
+        "yoy_pct": 93.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": 28.3,
+        "yoy_pct": -21.4,
+        "conflict": true,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 5.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 40.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": 73.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 40.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Income",
+        "change_pct": -24.4,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 13.6,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 8,
+    "bar": {
+      "date": "2026-10-30",
+      "eps_avg": 1.5105,
+      "eps_low": 1.489,
+      "eps_high": 1.532,
+      "revenue_avg": 13281433400
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Mar-27",
+        "strike": 40.0,
+        "qty": 24,
+        "underlying": 40.97,
+        "multiplier": 100,
+        "price": 1.85,
+        "total": 4440.000000000001,
+        "open_interest": 349
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 40.0,
+        "qty": 7,
+        "underlying": 40.97,
+        "multiplier": 100,
+        "price": 0.85,
+        "total": -595.0,
+        "open_interest": 2670
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-30 report, with the long leg expiring 2027-03-19, which gives the deterioration time to show up.",
+    "reflection": "Seven short puts against 24 long ones leaves a net debit of $3,845 and a 0% credit ratio, well under the floor, so the position is not funded. Selling more November 40 puts fixes the ratio but puts assignment risk on a strike 2% below spot into an 8-day print."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": [
+          "\"13.5\""
+        ]
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 14,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 10,
+      "mismatches": [
+        "Reason 1: \"1.12\" is cited to S3 but appears in S4, S24"
+      ],
+      "superseded": [],
+      "ok": false,
+      "ratio": 0.9
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "mixed",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 1,
+      "mixed": 1,
+      "majority": "confirms",
+      "agreement": 0.33
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 2,
+        "adverse": 1,
+        "trends_available": 3,
+        "trends_used": [
+          "access",
+          "friction",
+          "networks",
+          "patients",
+          "pharmacies",
+          "specialty",
+          "steer",
+          "vaccine"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "mixed",
+        "supportive": 1,
+        "adverse": 1,
+        "trends_available": 2,
+        "trends_used": [
+          "networks",
+          "patients",
+          "pharmacies",
+          "specialty",
+          "steer",
+          "uptake"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 2,
+        "trends_available": 3,
+        "trends_used": [
+          "access",
+          "controls",
+          "payer",
+          "policy",
+          "pricing",
+          "tightening",
+          "volatility"
+        ]
+      }
+    ]
+  }
+}

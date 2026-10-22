@@ -454,8 +454,8 @@ def cmd_generate(args) -> int:
 
     # --directions is a comma-separated string; directions are lowercase. With
     # --screen and no explicit flag, the screener's own hint is the better default:
-    # it is derived from the revision-versus-price divergence that put the name on
-    # the list in the first place.
+    # it comes from the sign of the consensus revision that put the name on the
+    # list in the first place.
     if getattr(args, "directions", None):
         directions = [d.strip().lower() for d in args.directions.split(",") if d.strip()]
     elif hint:
@@ -487,6 +487,7 @@ def cmd_generate(args) -> int:
                 catalyst_index=args.catalyst_index,
                 credit_target=args.credit_target,
                 repairs=args.repairs,
+                structure_legs=not getattr(args, "no_legs", False),
                 samples=getattr(args, "samples", 1),
                 max_price=max_price,
                 verbose=jobs == 1,
@@ -820,6 +821,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--catalyst-index", type=int, default=0)
     p.add_argument("--credit-target", type=float, default=options.DEFAULT_CREDIT_TARGET)
     p.add_argument("--repairs", type=int, default=2, help="lint-driven revision rounds")
+    p.add_argument(
+        "--no-legs",
+        action="store_true",
+        help="skip option structuring; the note is written without a spread "
+        "(the legs are a second-order detail and the chain fetch is the slow part)",
+    )
     p.set_defaults(func=cmd_generate)
 
     p = sub.add_parser("rank", help="rank a folder of generated ideas")

@@ -594,7 +594,7 @@ universe()          Nasdaq earnings calendar + screener + watchlist
 screen_symbol()     yfinance quants, consensus revisions, 30/90d price move,
       |             news themes, and whether an option structure is even possible
       v
-rank_candidates()   divergence score -> direction hint (long/short)
+rank_candidates()   revision score -> direction hint (long/short)
       |             $150 price cap is the only gate still on by default
       v
 build_packet()      full evidence bundle: profile, quants, statement deltas,
@@ -615,24 +615,37 @@ writeup JSON  ->  lint.py  ->  render.py  ->  reference-layout note
                     +--> save_idea() -> research/longs/ | research/shorts/
 ```
 
-### The core screen: revision-versus-price divergence
+### The core screen: the consensus EPS revision
 
-Screening on "cheap" or "expensive" alone yields consensus ideas, and the ORCL
-reference explicitly rejects consensus. So the primary signal is a **divergence**
-between consensus EPS revisions and price — which both references happen to be:
+The primary signal is the **consensus EPS revision**: the size of the net revision
+sets the rank, and its sign sets the side.
 
-- **ORCL** — revisions *up* (4 up, 0 down over 30d), price down >20% → **long**
+- **ORCL** — revisions *up* (4 up, 0 down over 30d) → **long**
 - **OMF** — revisions *tilted lower* (6 up, 8 down), thesis expects worsening
   charge-offs → **short**
 
-It is measurable from free data, it is inherently non-consensus, and it yields a
-*direction* rather than just a ranking. It is a triage filter, not an answer:
-`score_components` is returned for every candidate so a rank can be argued with.
+It is measurable from free data and it yields a *direction* rather than just a
+ranking. It is a triage filter, not an answer: `score_components` is returned for
+every candidate so a rank can be argued with.
 
-The one thing the divergence does *not* license is the reading that produced the BB
-note's worst reason: "5 up and 0 down" is a count of analysts moving, not a move in
-the consensus level, and the packet states which of the two happened. See "a
-revision count is not a revision of the number" above.
+**This used to be a divergence against price**, so that improving estimates into a
+falling tape outscored estimates and price agreeing. It was removed because the
+price leg was doing much of the ranking rather than the revisions: two names with
+identical revision moves scored ~30 points apart depending only on the direction of
+the tape, and **24 of 50 names in a real screen sat in the collapsed "aligned"
+branch** — including 16 of the 19 shorts, which were "estimates falling *with* the
+price", i.e. trend-following rather than a dislocation.
+
+The cost of that removal is worth stating plainly: **a revision-following rank is
+closer to consensus than a gap was.** The non-consensus character of an idea now has
+to come from the reasons, not from the screen — which the format already demands,
+since a reason that merely restates the screen signal as a conclusion is rejected
+(see "a discount is not a thesis" above).
+
+Neither signal licenses the reading that produced the BB note's worst reason: "5 up
+and 0 down" is a count of analysts moving, not a move in the consensus *level*, and
+the packet states which of the two happened. See "a revision count is not a
+revision of the number" above.
 
 ### The story layer
 

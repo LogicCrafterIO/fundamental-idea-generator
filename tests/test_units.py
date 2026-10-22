@@ -1037,6 +1037,238 @@ class TestCatalystLint(unittest.TestCase):
         self.assertTrue(result["ok"], result["issues"])
 
 
+class TestCatalystFallback(unittest.TestCase):
+    """The measured fallback has to satisfy the note's own linter.
+
+    Regression, found on ORCL: the fallback joined *every* justification fact into
+    one line, which is 51 words against a 25-word budget. The breach is an error,
+    and the repair round could never clear it because the revision's required shape
+    omitted ``catalyst_why`` and so erased the writer's own sentence on every retry.
+    """
+
+    def _catalyst(self, **over):
+        base = {
+            "date": "2026-12-10",
+            "basis": "scheduled",
+            "same_slot_last_year": True,
+            "median_gap_days": 91,
+            "beat_streak": 4,
+        }
+        base.update(over)
+        return base
+
+    def test_the_old_join_really_did_blow_the_budget(self):
+        """Keep the bug's signature honest: this is what ORCL shipped with."""
+        from fig import catalyst as catalyst_mod
+        from fig.prompts import WORD_BUDGET
+
+        joined = "; ".join(catalyst_mod.justification_facts(self._catalyst()))
+        self.assertEqual(lint.word_count(joined), 51)
+        self.assertGreater(lint.word_count(joined), WORD_BUDGET["catalyst_why"])
+
+    def test_fallback_fits_the_budget_when_every_fact_fires(self):
+        from fig import catalyst as catalyst_mod
+        from fig.prompts import WORD_BUDGET
+
+        why = catalyst_mod.fallback_why(self._catalyst())
+        self.assertLessEqual(lint.word_count(why), WORD_BUDGET["catalyst_why"], why)
+
+    def test_fallback_is_one_clean_sentence(self):
+        from fig import catalyst as catalyst_mod
+
+        why = catalyst_mod.fallback_why(self._catalyst())
+        self.assertEqual(why.count("."), 1, why)
+        self.assertNotIn(".;", why)
+        self.assertNotIn("; ", why)
+
+    def test_fallback_prefers_the_beat_record(self):
+        """The fact naming the bar the print must clear, not the one dating it."""
+        from fig import catalyst as catalyst_mod
+
+        why = catalyst_mod.fallback_why(self._catalyst())
+        self.assertIn("Beat consensus", why)
+        self.assertIn("moves the stock", why)
+
+    def test_fallback_truncates_rather_than_exceeding_the_budget(self):
+        from fig import catalyst as catalyst_mod
+
+        why = catalyst_mod.fallback_why(self._catalyst(beat_streak=1234), max_words=5)
+        self.assertLessEqual(lint.word_count(why), 5, why)
+
+    def test_fallback_is_empty_without_a_catalyst(self):
+        from fig import catalyst as catalyst_mod
+
+        self.assertEqual(catalyst_mod.fallback_why({}), "")
+
+    def test_a_note_with_no_written_why_still_lints_clean(self):
+        """No catalyst_why from the model: the fallback must still be acceptable."""
+        from fig.generate import assemble_writeup
+
+        writeup = assemble_writeup(
+            _fake_packet(),
+            {
+                "description": "Nonprime consumer loan lender",
+                "reasons": ["Provisions rose 31% quarter over quarter, so losses accelerate."],
+            },
+            "short",
+        )
+        joined = " ".join(lint.lint_writeup(writeup)["issues"])
+        self.assertNotIn("catalyst_no_justification", joined)
+        self.assertNotIn("catalyst_why_too_long", joined)
+
+    def test_repair_round_is_asked_to_keep_catalyst_why(self):
+        """The shape that erased it is the half of the bug that made it permanent."""
+        from fig.generate import _repair_messages
+
+        messages = _repair_messages([], {"description": "x"}, ["[error] something"])
+        self.assertIn("catalyst_why", messages[-1]["content"])
+
+
+class TestNoLegs(unittest.TestCase):
+    """`--no-legs` skips structuring without making the note look broken."""
+
+    def test_parser_accepts_no_legs(self):
+        from fig.cli import build_parser
+
+        self.assertTrue(build_parser().parse_args(["generate", "ORCL", "--no-legs"]).no_legs)
+        self.assertFalse(build_parser().parse_args(["generate", "ORCL"]).no_legs)
+
+    def test_a_skipped_structure_says_so_in_the_note(self):
+        from fig.generate import assemble_writeup
+
+        packet = _fake_packet()
+        packet["structures"] = {"short": {"error": "structuring skipped (--no-legs)"}}
+        writeup = assemble_writeup(
+            packet,
+            {
+                "description": "Nonprime consumer loan lender",
+                "reasons": ["Provisions rose 31% quarter over quarter, so losses accelerate."],
+            },
+            "short",
+        )
+        self.assertNotIn("structuring", writeup)
+        self.assertEqual(writeup["structure_error"], "structuring skipped (--no-legs)")
+        self.assertIn(
+            "[no option structure: structuring skipped (--no-legs)]",
+            render.render_writeup(writeup),
+        )
+
+
+class TestSelectionPhrase(unittest.TestCase):
+    """The index's selection sentence has to read as English in every combination.
+
+    Regression: the no-floor case interpolated the number 1 and rendered
+    "under a $150 share price and a no 1 floor floor".
+    """
+
+    def test_no_floor_disabled_reads_correctly(self):
+        from fig.generate import _selection_phrase
+
+        phrase = _selection_phrase(150.0, None, 3)
+        self.assertEqual(
+            phrase, "3 note(s) under a **$150** share price and **no market-cap floor**"
+        )
+        self.assertNotIn("no 1", phrase)
+        self.assertNotIn("floor floor", phrase)
+
+    def test_a_real_floor_is_named(self):
+        from fig.generate import _selection_phrase
+
+        self.assertEqual(
+            _selection_phrase(150.0, 2e9, 3),
+            "3 note(s) under a **$150** share price and a **$2.0B** floor",
+        )
+
+    def test_disabled_cap_reads_correctly(self):
+        from fig.generate import _selection_phrase
+
+        phrase = _selection_phrase(None, 2e9, 1)
+        self.assertNotIn("no cap** share", phrase)
+        self.assertIn("**no share-price cap**", phrase)
+
+
+class TestRevisionScore(unittest.TestCase):
+    """The screen ranks on the consensus revision, and price does not enter.
+
+    Regression for the change that removed the revision-versus-price divergence:
+    identical revision moves used to score ~30 points apart depending only on the
+    direction of the price move, and 24 of 50 names in a real screen sat in the
+    collapsed "aligned" branch.
+    """
+
+    def _row(self, **over):
+        base = {
+            "revisions_net_30d": None,
+            "price_change_30d": None,
+            "price_change_90d": None,
+            "news_specific": 0,
+            "structure_available": False,
+        }
+        base.update(over)
+        return base
+
+    def test_price_direction_no_longer_changes_anything(self):
+        from fig import discover
+
+        # Same revisions, opposite tapes: the old code scored these ~30 apart.
+        falling = discover._score(self._row(revisions_net_30d=4, price_change_30d=-10))
+        rising = discover._score(self._row(revisions_net_30d=4, price_change_30d=+10))
+        self.assertEqual(falling[0], rising[0])
+        self.assertEqual(falling[1], rising[1])
+        self.assertEqual(falling[2], rising[2])
+
+    def test_the_old_alignment_penalty_is_gone(self):
+        """A name whose estimates and price agree now ties a dislocation of the same size."""
+        from fig import discover
+
+        aligned_short = discover._score(
+            self._row(revisions_net_30d=-6, price_change_30d=-5)   # BABA's real shape
+        )
+        divergent_short = discover._score(
+            self._row(revisions_net_30d=-6, price_change_30d=+15)  # same revisions, dislocation
+        )
+        self.assertEqual(aligned_short[1], divergent_short[1])
+        self.assertEqual(aligned_short[2]["revisions"], 40.0)
+
+    def test_side_comes_from_the_revision_sign(self):
+        from fig import discover
+
+        self.assertEqual(discover._score(self._row(revisions_net_30d=4))[0], "long")
+        self.assertEqual(discover._score(self._row(revisions_net_30d=-4))[0], "short")
+        # Flat estimates carry no side, so the long fallback stands.
+        self.assertEqual(discover._score(self._row(revisions_net_30d=0))[0], "long")
+
+    def test_no_price_component_remains(self):
+        from fig import discover
+
+        components = discover._score(
+            self._row(revisions_net_30d=-3, price_change_30d=+9, price_change_90d=+55)
+        )[2]
+        self.assertIn("revisions", components)
+        self.assertNotIn("divergence", components)
+        # extended_move was pure price and is gone with it, however stretched the 90d.
+        self.assertNotIn("extended_move", components)
+
+    def test_magnitude_scales_then_saturates(self):
+        from fig import discover
+
+        for net, expected in ((1, 8.0), (3, 24.0), (5, 40.0), (22, 40.0)):
+            got = discover._score(self._row(revisions_net_30d=net))[2]["revisions"]
+            self.assertEqual(got, expected, f"net {net}")
+            # The sign must not matter to the magnitude, only to the side.
+            self.assertEqual(
+                discover._score(self._row(revisions_net_30d=-net))[2]["revisions"], expected
+            )
+
+    def test_missing_revisions_scores_nothing_on_price(self):
+        from fig import discover
+
+        direction, score, components = discover._score(self._row(price_change_30d=-25))
+        self.assertEqual(direction, "long")
+        self.assertEqual(components.get("revisions"), 0.0)
+        self.assertEqual(score, 0.0)
+
+
 class TestValuationBias(unittest.TestCase):
     """A discount is not a thesis; premium multiples usually exist for a reason."""
 

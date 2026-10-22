@@ -6,8 +6,8 @@ that answers a different question:
 > **What is happening to these businesses, and which tickers does the same force
 > help and hurt?**
 
-The parent tool screens for a *trade*: it looks for a divergence between
-consensus estimates and price, dates a catalyst, and writes a terse note. This
+The parent tool screens for a *trade*: it ranks the consensus EPS revision, dates a
+catalyst, and writes a terse note. This
 one screens for a *story*. It has no view on valuation, no estimate revisions, no
 catalyst, and no option leg. It builds a list of tickers, finds out what each one
 sells, researches the trends acting on each part of the business, and then

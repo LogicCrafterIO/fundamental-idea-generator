@@ -31,6 +31,7 @@ from __future__ import annotations
 import statistics
 from datetime import date, datetime, timedelta
 
+from .prompts import WORD_BUDGET
 from .sources import yahoo
 
 # A report at or before 09:00 ET is before the open; at or after 16:00 is after
@@ -228,32 +229,92 @@ def facts_line(catalyst: dict) -> str:
     return "".join(parts) + "."
 
 
-def justification_facts(catalyst: dict) -> list[str]:
-    """Plain facts a writer can use to justify the date. No conclusions."""
-    facts: list[str] = []
+def _justification_facts_keyed(catalyst: dict) -> list[tuple[str, str]]:
+    """The justification facts, each tagged with a stable key.
+
+    The key exists so :func:`fallback_why` can prefer the fact that speaks to what
+    the print has to *prove* over the ones that only date it. Callers that just
+    want the sentences use :func:`justification_facts`.
+    """
+    facts: list[tuple[str, str]] = []
     if not catalyst.get("date"):
         return facts
 
     if catalyst.get("same_slot_last_year"):
-        facts.append("The company reported in about the same calendar slot a year ago.")
+        facts.append(
+            ("same_slot", "The company reported in about the same calendar slot a year ago.")
+        )
     if catalyst.get("median_gap_days"):
         facts.append(
-            f"Reports roughly every {catalyst['median_gap_days']} days "
-            "(one quarter), so the date is consistent with its own cadence."
+            (
+                "cadence",
+                f"Reports roughly every {catalyst['median_gap_days']} days "
+                "(one quarter), so the date is consistent with its own cadence.",
+            )
         )
     streak = catalyst.get("beat_streak")
     if streak:
         facts.append(
-            f"Beat consensus in each of the last {streak} reports, so the bar is "
-            "already high and a miss is what moves the stock."
+            (
+                "beat_streak",
+                f"Beat consensus in each of the last {streak} reports, so the bar is "
+                "already high and a miss is what moves the stock.",
+            )
         )
     rate = catalyst.get("beat_rate")
     if rate is not None and not streak:
-        facts.append(f"Beat consensus in {rate:.0%} of the last few reports.")
+        facts.append(("beat_rate", f"Beat consensus in {rate:.0%} of the last few reports."))
 
     if catalyst.get("basis") == "estimated":
         facts.append(
-            "No date is published yet, so this is projected from the historical "
-            "reporting gap -- treat it as approximate."
+            (
+                "estimated",
+                "No date is published yet, so this is projected from the historical "
+                "reporting gap -- treat it as approximate.",
+            )
         )
     return facts
+
+
+def justification_facts(catalyst: dict) -> list[str]:
+    """Plain facts a writer can use to justify the date. No conclusions."""
+    return [text for _key, text in _justification_facts_keyed(catalyst)]
+
+
+# Preference order for the fallback sentence: the beat record first, because it
+# names the bar the print has to clear, then the facts that only date the report.
+_FALLBACK_PRIORITY = ("beat_streak", "beat_rate", "cadence", "estimated", "same_slot")
+
+
+def fallback_why(catalyst: dict, max_words: int | None = None) -> str:
+    """One budget-safe sentence, used only when the writer supplied no ``why``.
+
+    A note must never assert a catalyst without justifying it, so something has to
+    fill the block. The filler also has to be a line this repo's own linter accepts:
+    the previous fallback joined **every** fact that fired into one line, which
+    produced 51 words against a 25-word budget as soon as two of them applied. That
+    breach is an *error*, so the note could never converge -- and the repair round
+    made it permanent, because the revision's required shape omitted ``catalyst_why``
+    and so erased the writer's own line on every retry (see
+    :func:`fig.generate._repair_messages`). ORCL shipped with exactly that defect.
+
+    So: pick the single most useful fact that fits, and truncate to the budget as a
+    last resort rather than ever returning an over-long line.
+    """
+    from .lint import word_count  # local: the linter's own notion of a word
+
+    budget = WORD_BUDGET["catalyst_why"] if max_words is None else max_words
+    keyed = _justification_facts_keyed(catalyst)
+    if not keyed:
+        return ""
+
+    rank = {key: index for index, key in enumerate(_FALLBACK_PRIORITY)}
+    ordered = sorted(keyed, key=lambda pair: rank.get(pair[0], len(rank)))
+    for _key, text in ordered:
+        if word_count(text) <= budget:
+            return text
+
+    # Nothing fits, so keep the most useful fact and cut it to the budget.
+    words = ordered[0][1].split()
+    return " ".join(words[:budget]).rstrip(" ,;:-") + "."
+

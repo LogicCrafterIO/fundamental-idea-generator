@@ -366,8 +366,11 @@ def assemble_writeup(packet: dict, model_output: dict, direction: str) -> dict:
     why = (model_output.get("catalyst_why") or "").strip()
     if not why:
         # A note must never assert a catalyst without justifying it, so fall back
-        # to the measured justification rather than leaving the block bare.
-        why = "; ".join(catalyst_mod.justification_facts(catalyst)) or ""
+        # to the measured justification rather than leaving the block bare. The
+        # fallback returns ONE sentence that fits the word budget: joining every
+        # fact produced a 51-word line the linter rejects as an error, which no
+        # repair round could clear.
+        why = catalyst_mod.fallback_why(catalyst)
 
     # Sources are resolved against the catalogue the writer was shown. The model
     # chose which evidence supports which reason; the tool owns the id, the
@@ -500,8 +503,11 @@ def _repair_messages(
                 "the source that actually contains it.\n\n"
                 f"{bullets}\n\n"
                 "Return the corrected JSON only, in exactly the same shape: "
-                '{"description": str, "reasons": [str], "watch": [str], '
-                '"reason_sources": [[str]], "reflection": str}'
+                '{"description": str, "catalyst_why": str (<=25 words, what the '
+                'report must prove), "reasons": [str], "watch": [str], '
+                '"reason_sources": [[str]], "reflection": str}. '
+                "Keep catalyst_why: a revision that drops it silently erases the "
+                "justification the note is required to carry."
             ),
         },
     ]
@@ -547,6 +553,7 @@ def generate_idea(
     catalyst_index: int = 0,
     credit_target: float = options.DEFAULT_CREDIT_TARGET,
     repairs: int = 2,
+    structure_legs: bool = True,
     samples: int = 1,
     max_price: float | None = discover.DEFAULT_MAX_PRICE,
     verbose: bool = True,
@@ -585,20 +592,30 @@ def generate_idea(
     # Structuring is optional: if no usable chain exists the note is still worth
     # writing, because the catalyst and the reasons carry the idea. The failure is
     # recorded so the omission is visible.
-    try:
-        structure = options.build_structure(
-            symbol, direction, catalyst_index=catalyst_index, credit_target=credit_target
-        )
+    if not structure_legs:
+        # Structuring is a second-order detail on top of the idea, and the chain
+        # fetch is the slowest part of packet building. The omission is recorded
+        # through the same path a failed chain takes, so the note says so in
+        # render rather than looking like a chain that happened to be missing.
+        say(f"[{symbol}] structuring skipped (--no-legs) -- writing the note without legs")
         pack.setdefault("structures", {})[direction] = {
-            **structure.as_dict(),
-            "advice": options.suggest_short_adjustment(structure),
-            "credit_ladder": options.credit_ladder(structure),
+            "error": "structuring skipped (--no-legs)"
         }
-    except Exception as exc:
-        say(f"[{symbol}] no {direction} structure ({type(exc).__name__}: {exc}) -- writing the note without legs")
-        pack.setdefault("structures", {})[direction] = {
-            "error": f"{type(exc).__name__}: {exc}"
-        }
+    else:
+        try:
+            structure = options.build_structure(
+                symbol, direction, catalyst_index=catalyst_index, credit_target=credit_target
+            )
+            pack.setdefault("structures", {})[direction] = {
+                **structure.as_dict(),
+                "advice": options.suggest_short_adjustment(structure),
+                "credit_ladder": options.credit_ladder(structure),
+            }
+        except Exception as exc:
+            say(f"[{symbol}] no {direction} structure ({type(exc).__name__}: {exc}) -- writing the note without legs")
+            pack.setdefault("structures", {})[direction] = {
+                "error": f"{type(exc).__name__}: {exc}"
+            }
 
     samples = max(1, int(samples))
 
@@ -650,9 +667,18 @@ def generate_idea(
         model_output: dict = {}
         writeup: dict = {}
         result: dict = {}
+        last_why: str = ""
 
         for round_index in range(repairs + 1):
             model_output, reply = _chat_json(symbol, messages, model=model, say=say)
+
+            if (model_output.get("catalyst_why") or "").strip():
+                last_why = model_output["catalyst_why"].strip()
+            elif round_index and last_why:
+                # A revision can still drop catalyst_why even though the required
+                # shape asks for it. Carrying the earlier line forward is better
+                # than replacing a written justification with the measured fallback.
+                model_output["catalyst_why"] = last_why
 
             writeup = assemble_writeup(pack, model_output, direction)
             result = lint.lint_writeup(writeup)
@@ -1238,6 +1264,20 @@ def _side_section(
     lines.append("")
 
 
+def _selection_phrase(cap: float | None, mcap: float | None, count: int) -> str:
+    """How one run's selection rules read in the index.
+
+    Built here rather than inline because the disabled cases have to read as English:
+    the previous version interpolated the *number* 1 into the no-floor case and
+    produced "under a $150 share price and a no 1 floor floor".
+    """
+    cap_text = f"a **${cap:,.0f}** share price" if cap is not None else "**no share-price cap**"
+    floor_text = (
+        f"a **${human_money(mcap)}** floor" if mcap else "**no market-cap floor**"
+    )
+    return f"{count} note(s) under {cap_text} and {floor_text}"
+
+
 def write_index(
     results: list[dict],
     out_dir: str | Path = "research",
@@ -1301,11 +1341,7 @@ def write_index(
     def _rules_sentence() -> str:
         parts = []
         for cap, mcap, count in groups:
-            cap_text = f"**${cap:,.0f}**" if cap is not None else "**no cap**"
-            floor_text = (
-                f"**${human_money(mcap)}**" if mcap else f"**no {human_money(1)} floor**"
-            )
-            parts.append(f"{count} note(s) under a {cap_text} share price and a {floor_text} floor")
+            parts.append(_selection_phrase(cap, mcap, count))
         if not parts:
             # Nothing on disk says how these were chosen. Naming the defaults is still
             # better than silence, but it is labelled as the default rather than as a

@@ -1,0 +1,2127 @@
+{
+  "symbol": "CSX",
+  "as_of": "2026-10-22",
+  "generated_at": "2026-10-22T20:04:02",
+  "profile": {
+    "symbol": "CSX",
+    "name": "CSX Corporation",
+    "sector": "Industrials",
+    "industry": "Railroads",
+    "summary": "CSX Corporation, together with its subsidiaries, provides rail-based freight transportation services in the United States and Canada. It operates through two segments: rail and trucking. The company offers rail services; and transportation of intermodal containers and trailers, as well as other transportation services, such as rail-to-truck transfers and bulk commodity operations. It also transports chemicals, agricultural and food products, minerals, automotive, forest products, fertilizers, and metals and equipment; and coal, coke, and iron ore to electricity-generating power plants, steel manufacturers, and industrial plants, as well as exports coal to deep-water port facilities. In addition, the company provides intermodal services through a network of approximately 30 terminals transporting manufactured consumer goods in containers; and drayage services, including the pickup and delivery of intermodal shipments. It serves the automotive industry with distribution centers and storage locations, as well as connects non-rail served customers through transferring products, such as plastics and ethanol from rail to trucks. The company operates approximately 20,000 route mile rail network, which serves various population centers in 26 states east of the Mississippi River, the District of Columbia, and the Canadian provinces of Ontario and Quebec, as well as owns 3400 locomotives. It serves production and distribution facilities through track connections. CSX Corporation was incorporated in 1978 and is headquartered in Jacksonville, Florida.",
+    "employees": 22200,
+    "country": "United States",
+    "website": "https://www.csx.com"
+  },
+  "quants": {
+    "symbol": "CSX",
+    "name": "CSX Corporation",
+    "price": 48.4,
+    "market_cap": 89659785216,
+    "market_cap_human": "89.66B",
+    "fwd_pe": 24.26,
+    "fwd_pe_1y": 21.14,
+    "fwd_pe_yahoo": 20.914085,
+    "trailing_pe": 25.208334,
+    "ps": 6.1783204,
+    "ev_ebitda": 15.769,
+    "sector": "Industrials",
+    "industry": "Railroads",
+    "eps_fy_current": 1.99521,
+    "eps_fy_next": 2.28964,
+    "eps_trend": {
+      "change_7d_pct": -0.28,
+      "change_30d_pct": -0.68,
+      "current": 1.99521,
+      "7d_ago": 2.00086,
+      "30d_ago": 2.00882,
+      "text": "slightly down over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 3,
+      "down_7d": 4,
+      "up_30d": 3,
+      "down_30d": 5,
+      "net_30d": -2,
+      "text": "tilted lower, with 3 up and 5 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-22"
+      ],
+      "next_date": "2026-10-22",
+      "eps_avg": 0.53063,
+      "eps_low": 0.5,
+      "eps_high": 0.5579,
+      "revenue_avg": 3963329460
+    },
+    "as_of": "2026-10-22"
+  },
+  "quants_lines": [
+    "Price: 48.40 USD",
+    "Market Cap: 89.66B",
+    "Fwd PE: 24.26",
+    "P/S: 6.2",
+    "EPS trends: slightly down over the last 7 days",
+    "EPS revisions: tilted lower, with 3 up and 5 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1002000.0,
+      "prior": 807000.0,
+      "change_pct": 24.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1531000.0,
+      "prior": 1276000.0,
+      "change_pct": 20.0,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 3935000.0,
+      "prior": 3482000.0,
+      "change_pct": 13.0,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-10-21T16:00:00-04:00",
+    "current": 0.57,
+    "year_ago": 0.44,
+    "year_ago_period": "2025-10-16T16:00:00-04:00",
+    "change": 0.13,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3935000000.0,
+      "prior": 3482000000.0,
+      "qoq_pct": 13.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3574000000.0,
+      "yoy_pct": 10.1,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1002000000.0,
+      "prior": 807000000.0,
+      "qoq_pct": 24.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 829000000.0,
+      "yoy_pct": 20.9,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1531000000.0,
+      "prior": 1276000000.0,
+      "qoq_pct": 20.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1305000000.0,
+      "yoy_pct": 17.3,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1942000000.0,
+      "prior": 1691000000.0,
+      "qoq_pct": 14.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1732000000.0,
+      "yoy_pct": 12.1,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1506000000.0,
+      "prior": 1253000000.0,
+      "qoq_pct": 20.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1283000000.0,
+      "yoy_pct": 17.4,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 211000000.0,
+      "prior": 213000000.0,
+      "qoq_pct": -0.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 212000000.0,
+      "yoy_pct": -0.5,
+      "conflict": false
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": -211000000.0,
+      "prior": -213000000.0,
+      "qoq_pct": 0.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": -212000000.0,
+      "yoy_pct": 0.5,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 14092000000.0,
+      "prior": 14540000000.0,
+      "change_pct": -3.1,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 2889000000.0,
+      "prior": 3470000000.0,
+      "change_pct": -16.7,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 45000000.0,
+      "prior": 85000000.0,
+      "change_pct": -47.1,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Selling General And Administration",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": -33000000.0,
+      "prior": -50000000.0,
+      "change_pct": 34.0,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 2889000000.0,
+      "prior": 3470000000.0,
+      "change_pct": -16.7,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 4613000000.0,
+      "prior": 5387000000.0,
+      "change_pct": -14.4,
+      "direction": "decreasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-22",
+    "eps_avg": 0.53063,
+    "eps_low": 0.5,
+    "eps_high": 0.5579,
+    "revenue_avg": 3963329460
+  },
+  "news": [
+    {
+      "title": "CSX (CSX) | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/data/companies/CSX",
+      "summary": "CSX (CSX) | Trefis\n\n#### Market Price (10/22/2026): $49.6 | Market Cap: $91.7 Bil Investor Relations \u2197 Sector: Industrials | Industry: Rail Transportation\n\n#### Market Price (10/22/2026): $49.6 Market Cap: $91.7 Bil Sector: Industrials Industry: Rail Transportation\n\n# Investment Highlights Why It Matters Detailed financial logic regarding cash flow yields vs trend-riding momentum. \n\n Attractive yield Total Yield Total Yield = Earnings Yield + Dividend Yield, Earnings Yield = Net Income / Market Cap Dividend Yield = Total Dividends / Market Cap is 5.1%\n\n Attractive operating margins Op Mgn LTM ",
+      "published": "2025-09-28",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4888924-csx-corporation-valuation-premium-faces-pressure-from-weak-results",
+      "summary": "CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha\n\n# CSX Corporation: Valuation Premium Faces Pressure From Weak Results\n\nApr 07, 2026, 10:31 AM ET CSX Corporation (CSX) Stock\n\nNarek Hovhannisyan\n\n## Summary\n\n- CSX Corporation is downgraded from Buy to Hold as shares now trade at sector premiums and lack undervaluation.\n- Q4 results disappointed, with revenue down 1% yoy and adjusted net income falling 12% yoy, highlighting core segment weakness.\n- Future performance hinges on macroeconomic recovery, intermodal growth, and easing Fed policy, with ",
+      "published": "2026-04-07",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "CSX Stock: Buy or Avoid in 2026? | CirclFi",
+      "publisher": "circlfi.com",
+      "url": "https://circlfi.com/blog/csx-stock-analysis/",
+      "summary": "CSX Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy CSX Corporation Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-10-07 \u00b7 11/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, CSX Corporation (CSX) scores a robust 7.6/10 on our 32-signal Quality of Company framework. At the current market price of $47.50 and a $88.0B market cap, our analysis maps this fundamental strength against 13 institutional-grade models to determine if a sufficient margin of safety exists.\n\nThe short answer: 1 of 11 CirclFi valuation models project upside for CSX Cor",
+      "published": "2026-06-03",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Is CSX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "publisher": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/csx/is-it-a-buy-or-sell",
+      "summary": "Is CSX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is CSX a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for CSX Corporation (CSX) rests on Margin and Service Recovery: CSX returned to form in the first quarter of 2026, growing operating income 20% year over year to $1.25 billion and lifting earnings per share 26% to $0.43, as recovering network fluidity and merchandise pricing flowed through. The bear case rests on cSX carries the cyclical risk c",
+      "published": "2026-10-16",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "CSX Corp. Announces Third Quarter 2026 Results - CSX.com",
+      "publisher": "csx.com",
+      "url": "https://www.csx.com/index.cfm/about-us/media/press-releases/csx-corp-announces-third-quarter-2026-results/",
+      "summary": "CSX Corp. Announces Third Quarter 2026 Results - CSX.com\n\n# CSX Corp. Announces Third Quarter 2026 Results\n\n- Record quarterly revenue of $4.02 billion, up 12% year-over-year; diluted EPS of $0.57, up 54%\n- Operating income of $1.57 billion, up 44%; operating margin expanded 880 bps to 39.1%\n- Total volume up 5%, with intermodal volume increasing by 7%\n\nJACKSONVILLE, Fla. \u2013 October 21, 2026 \u2013 CSX Corp. (NASDAQ: CSX) today announced third quarter 2026 operating income of $1.57 billion and net earnings of $1.05 billion, or $0.57 per diluted share. In the third quarter of 2025, the company report",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "CSX (CSX) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "publisher": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/21/csx-csx-q3-2026-earnings-call-transcript/",
+      "summary": "CSX (CSX) Q3 2026 Earnings Call Transcript | The Motley Fool\n\nImage source: The Motley Fool.\n\n## DATE\n\nWednesday, Oct. 21, 2026\n\n## CALL PARTICIPANTS\n\n- President and Chief Executive Officer - Stephen F. Angel\n- Executive Vice President and Chief Financial Officer - Kevin S. Boone\n- Senior Vice President and Chief Commercial Officer - Maryclare Kenney\n- Head of Investor Relations and Corporate Communications - Matthew James Korn\n\n## TAKEAWAYS\n\n- Revenue -- $4.02 billion, a 12% increase year over year driven by higher fuel surcharge revenue, 5% volume growth, and pricing gains across all major ",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "CSX: Q3 Earnings Snapshot",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-q3-earnings-snapshot-201727572.html",
+      "summary": "CSX: Q3 Earnings Snapshot\n\n# CSX: Q3 Earnings Snapshot\n\n Associated Press Wed, October 21, 2026 at 4:17 PM EDT 1 min read\n\n## Trading disclosure \n\nJACKSONVILLE, Fla. (AP) \u2014 JACKSONVILLE, Fla. (AP) \u2014 CSX Corp. (CSX) on Wednesday reported third-quarter profit of $1.05 billion. \n\nOn a per-share basis, the Jacksonville, Florida-based company said it had net income of 57 cents. \n\nThe results surpassed Wall Street expectations. The average estimate of eight analysts surveyed by Zacks Investment Research was for earnings of 52 cents per share. \n\nThe freight railroad posted revenue of $4.02 billion in",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "CSX earnings beat by $0.04, revenue topped estimates By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/earnings/csx-earnings-beat-by-004-revenue-topped-estimates-4963909",
+      "summary": "CSX earnings beat by $0.04, revenue topped estimates By Investing.com\n\n# CSX earnings beat by $0.04, revenue topped estimates\n\nPublished Oct 21, 2026, 04:06 PM\n\nInvesting.com - CSX (NASDAQ: CSX) reported third quarter EPS of $0.57, $0.04 better than the analyst estimate of $0.53. Revenue for the quarter came in at $4.02B versus the consensus estimate of $3.95B.\n\nCSX\u2019s stock price closed at $48.40. It is down -9.07% in the last 3 months and up 34.74% in the last 12 months.\n\nCSX saw 12 positive EPS revisions and 4 negative EPS revisions in the last 90 days. See CSX\u2019s stock price\u2019s past reactions",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "CSX Corporation (CSX) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/csx/forecast/",
+      "summary": "CSX Corporation (CSX) Stock Forecast & Analyst Price Targets\n\n48.40 +0.32 (0.67%) At close: Oct 21, 2026, 4:00 PM EDT\n\n50.17 +1.77 (3.66%) After-hours: Oct 21, 2026, 7:59 PM EDT\n\n# CSX Corporation Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 25 analysts polled by S&P Global, CSX Corporation stock has a consensus rating of \"Buy\" and an average price target of $52.67. The average 1-year stock price forecast is 8.82% higher than the current stock price, while the lowest is $32 (-33.88%) and the highest is $60 (+23.97%).\n\nPrice Target: $52.67 (+8.82%)\n\nAnalyst Consensus: Buy\n\n## Price Tar",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why is CSX stock climbing today? By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-csx-stock-climbing-today-93CH-4965005",
+      "summary": "Why is CSX stock climbing today? By Investing.com\n\n# Why is CSX stock climbing today?\n\nEditor Maria Ponnezhath Stock Markets\n\nEditor Maria Ponnezhath\n\nPublished Oct 22, 2026, 04:37 AM\n\nInvesting.com -- CSX Corporation stock climbed 2.4% in pre-open trading after the freight railroad posted a standout third-quarter 2026 earnings report the prior evening, with adjusted earnings of $0.57 per share topping Wall Street\u2019s estimate of $0.53, while revenue rose to $4.02 billion from the expected $3.95 billion. \n\nOperating income reached $1.57 billion and net earnings came in at $1.05 billion, or $0.57",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "CSX Corporation (CSX) \u2014 MCH Analysis Research",
+      "publisher": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/csx-research-2026.html",
+      "summary": "CSX Corporation (CSX) \u2014 MCH Analysis Research\n\n# CSX Corporation (CSX)\n\nHOLD. Scenario value $46 (-5% vs spot), inputs set 27 June 2026. P/E Multiple explains 73% of Monte Carlo outcome variance.\n\n HOLD RESEARCH mature cash generator 22 October 2026 \n\n$48.40 \u2192 $45.95 (-5% vs spot \u00b7 12m PWEV) -5% probability-weighted scenario value \u00b7 inputs set 27 June 2026\n\nWhen the inputs were set. Scenario inputs set 27 June 2026 at $47.66; the price has moved +1.6% since. The scenario value is not re-estimated between authorings, so until the inputs are next set the rating moves with the price. The value is",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "JEPQ, CSX, TER, MNST: Large Inflows Detected at ETF",
+      "publisher": "BNK Invest",
+      "created": "Aug 12, 2026",
+      "ago": "Aug 12, 2026",
+      "url": "/articles/jepq-csx-ter-mnst-large-inflows-detected-etf",
+      "primary_symbol": "JEPQ",
+      "related_symbols": [
+        "JEPQ",
+        "CSX",
+        "TER",
+        "MNST"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the JPMorgan Nasdaq Equity Premium Income ETF (Symbol: JEPQ) where we have detected an approximate $481.7 million dollar inflow -- that's a 1.2% increase",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "IFRA, CSX, NSC, URI: ETF Outflow Alert",
+      "publisher": "BNK Invest",
+      "created": "Aug 20, 2026",
+      "ago": "Aug 20, 2026",
+      "url": "/articles/ifra-csx-nsc-uri-etf-outflow-alert",
+      "primary_symbol": "IFRA",
+      "related_symbols": [
+        "IFRA",
+        "CSX",
+        "NSC",
+        "URI"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares U.S. Infrastructure ETF (Symbol: IFRA) where we have detected an approximate $267.7 million dollar outflow -- that's a 5.8% decrease week ov",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Are Transportation Stocks Lagging  CSX (CSX) This Year?",
+      "publisher": "Zacks",
+      "created": "Aug 21, 2026",
+      "ago": "Aug 21, 2026",
+      "url": "/articles/are-transportation-stocks-lagging-csx-csx-year-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CSX",
+        "EDRY"
+      ],
+      "summary": "Here is how CSX (CSX) and EuroDry (EDRY) have performed compared to their sector so far this year.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Cash Dividend On The Way From CSX",
+      "publisher": "BNK Invest",
+      "created": "Aug 27, 2026",
+      "ago": "Aug 27, 2026",
+      "url": "/articles/cash-dividend-way-csx",
+      "primary_symbol": "CSX",
+      "related_symbols": [
+        "CSX",
+        "IYT"
+      ],
+      "summary": "Looking at the universe of stocks we cover at Dividend Channel, on 8/31/26, CSX Corp (Symbol: CSX) will trade ex-dividend, for its quarterly dividend of $0.14, payable on 9/15/26.  As a percentage of CSX's recent stock price of $51.50, this dividend works out to approximately 0.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Here's Why Investors Should Add CSX Stock to Their Portfolio",
+      "publisher": "Zacks",
+      "created": "Aug 27, 2026",
+      "ago": "Aug 27, 2026",
+      "url": "/articles/heres-why-investors-should-add-csx-stock-their-portfolio",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CSX",
+        "EXPD",
+        "SHIP"
+      ],
+      "summary": "With CSX shares moving north, we assess the current positioning of the stock to determine if it's a good investment at this juncture.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Is CSX (CSX) Stock Outpacing Its Transportation Peers This Year?",
+      "publisher": "Zacks",
+      "created": "Aug 5, 2026",
+      "ago": "Aug 5, 2026",
+      "url": "/articles/csx-csx-stock-outpacing-its-transportation-peers-year-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CSX",
+        "EDRY"
+      ],
+      "summary": "Here is how CSX (CSX) and EuroDry (EDRY) have performed compared to their sector so far this year.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "CSX (CSX) Is Up 2.71% in One Week: What You Should Know",
+      "publisher": "Zacks",
+      "created": "Jul 24, 2026",
+      "ago": "Jul 24, 2026",
+      "url": "/articles/csx-csx-271-one-week-what-you-should-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CSX"
+      ],
+      "summary": "Does CSX (CSX) have what it takes to be a top stock pick for momentum investors? Let's find out.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Cadence Design Systems Now #120 Largest Company, Surpassing CSX",
+      "publisher": "BNK Invest",
+      "created": "Jul 29, 2026",
+      "ago": "Jul 29, 2026",
+      "url": "/articles/cadence-design-systems-now-120-largest-company-surpassing-csx",
+      "primary_symbol": "CDNS",
+      "related_symbols": [
+        "CDNS",
+        "CSX"
+      ],
+      "summary": "In the latest look at the underlying components of the S&P 500 ordered by largest market capitalization, Cadence Design Systems Inc (Symbol: CDNS) has taken over the #120 spot from CSX Corp (Symbol: CSX), according to The Online Investor.  \n\n\tMarket capitalization is an impo",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "This Corner of the Market Is Outperforming the Benchmark\u2014And It's Not AI",
+      "publisher": "MarketBeat",
+      "created": "Sep 10, 2026",
+      "ago": "Sep 10, 2026",
+      "url": "/articles/corner-market-outperforming-benchmark-and-its-not-ai",
+      "primary_symbol": "CSX",
+      "related_symbols": [
+        "CSX",
+        "UNP",
+        "NSC",
+        "WAB"
+      ],
+      "summary": "While most headlines this year have fixated on artificial intelligence, one of the market's quietest and oldest industries has been posting numbers that would make most tech investors jealous. Railroad stocks, the literal backbone of the American economy since the 1800s, are out",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Notable ETF Outflow Detected - XLI, CSX, MMM, EMR",
+      "publisher": "BNK Invest",
+      "created": "Sep 4, 2026",
+      "ago": "Sep 4, 2026",
+      "url": "/articles/notable-etf-outflow-detected-xli-csx-mmm-emr",
+      "primary_symbol": "XLI",
+      "related_symbols": [
+        "XLI",
+        "CSX",
+        "MMM",
+        "EMR"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Industrial Select Sector SPDR ETF (Symbol: XLI) where we have detected an approximate $305.4 million dollar outflow -- that's a 0.9% de",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "3 Railroad Stocks to Buy From the Prospering Industry",
+      "publisher": "Zacks",
+      "created": "Aug 10, 2026",
+      "ago": "Aug 10, 2026",
+      "url": "/articles/3-railroad-stocks-buy-prospering-industry",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CSX",
+        "UNP",
+        "NSC"
+      ],
+      "summary": "Headwinds, including high fuel costs, tariff-related tensions, and lingering supply-chain disruptions, hurt the Zacks Transportation -Railroad industry. UNP, CSX and NSC are likely to stand out.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Global X U.S. Infrastructure Development ETF Experiences Big Inflow",
+      "publisher": "BNK Invest",
+      "created": "Aug 3, 2026",
+      "ago": "Aug 3, 2026",
+      "url": "/articles/global-x-us-infrastructure-development-etf-experiences-big-inflow",
+      "primary_symbol": "PAVE",
+      "related_symbols": [
+        "PAVE",
+        "CSX",
+        "PWR",
+        "NSC"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Global X U.S. Infrastructure Development ETF (Symbol: PAVE) where we have detected an approximate $669.0 million dollar inflow -- that's a 4.8% incre",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Thursday Sector Leaders: Defense, Railroads",
+      "publisher": "BNK Invest",
+      "created": "Jul 23, 2026",
+      "ago": "Jul 23, 2026",
+      "url": "/articles/thursday-sector-leaders-defense-railroads",
+      "primary_symbol": "LMT",
+      "related_symbols": [
+        "LMT",
+        "LHX",
+        "CSX",
+        "NSC"
+      ],
+      "summary": "In trading on Thursday, defense shares were relative leaders, up on the day by about 2.9%.  Leading the group were shares of Lockheed Martin, up about 8.9% and shares of L3Harris Technologies up about 3.9% on the day.\n\nAlso showing relative strength are railroads shares, up on t",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Company News for July 24, 2026",
+      "publisher": "Zacks",
+      "created": "Jul 24, 2026",
+      "ago": "Jul 24, 2026",
+      "url": "/articles/company-news-july-24-2026",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CSX",
+        "UNP",
+        "TMO",
+        "TSLA"
+      ],
+      "summary": "Companies in The News Are: TMO, TSLA, UNP, CSX",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Dimensional US Core Equity 2 ETF Experiences Big Inflow",
+      "publisher": "BNK Invest",
+      "created": "Sep 15, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/dimensional-us-core-equity-2-etf-experiences-big-inflow",
+      "primary_symbol": "DFAC",
+      "related_symbols": [
+        "DFAC",
+        "GM",
+        "CSX",
+        "ROST"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Dimensional US Core Equity 2 ETF (Symbol: DFAC) where we have detected an approximate $215.8 million dollar inflow -- that's a 0.4% increase week ove",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "CSX price target raised to $56 from $53 at BofA",
+      "publisher": "tipranks.com",
+      "url": "https://www.tipranks.com/news/the-fly/csx-price-target-raised-to-56-from-53-at-bofa-thefly-news",
+      "summary": "Advertisement\n\n# CSX price target raised to $56 from $53 at BofA\n\nTheFly\n\nAnalyze\n\nA+\n\nA-\n\nBofA analyst Ken Hoexter raised the firm\u2019s price target on CSX (CSX) to $56 from $53 and keeps a Buy rating on the shares. CSX increased its FY26 targets and expects revenue growth with fuel of mid- to high-single digits, notes the analyst, who raised the firm\u2019s 2026 and 2027 EPS estimates 2% each.\n\nPublished first on TheFly \u2013 the ultimate source for real-time, market-moving breaking financial news. Try Now>>\n\nSee Insiders\u2019 Hot Stocks on TipRanks >>\n\nPromotion\n\n55% Off TipRanks\n\n- Unlock powerful investi",
+      "published": "2026-07-22",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "CSX (CSX) Reports Next Week: Wall Street Expects Earnings Growth",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-csx-reports-next-week-130012819.html",
+      "summary": "CSX (CSX) Reports Next Week: Wall Street Expects Earnings Growth\n\n# CSX (CSX) Reports Next Week: Wall Street Expects Earnings Growth\n\n Zacks Equity Research Wed, October 14, 2026 at 8:00 AM CDT 4 min read\n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nWall Street expects a year-over-year increase in earnings on higher revenues when CSX (CSX) reports results for ",
+      "published": "2026-10-14",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "RBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating | MarketScreener Canada",
+      "publisher": "ca.marketscreener.com",
+      "url": "https://ca.marketscreener.com/news/rbc-lifts-price-target-on-csx-to-54-from-53-keeps-outperform-rating-ce785cded981f627",
+      "summary": "# RBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating | MarketScreener Canada\n\nAuthor: MT Newswires\nPublished: 2026-10-22T07:19:39-04:00\nSource: ca.marketscreener.com (ca.marketscreener.com)\nLanguage: en\n\n## Story\n\nRBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating | MarketScreener Canada\n## Ground Freight & Logistics\n| Market Closed - Nasdaq 16:00:00 2026-10-21 EDT | 5-day change | 1st Jan Change |\n| 48.40 USD| +0.67% || +0.25% | +33.52% |\n# RBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating\nPublished on 10/22/2026 at 07:19 am EDT\n###",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "CSX Corporation (CSX) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "positioning"
+      ]
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 6,
+        "share": 0.286,
+        "evidence": [
+          {
+            "title": "CSX: Q3 Earnings Snapshot",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-10-21",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "CSX earnings beat by $0.04, revenue topped estimates By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-21",
+            "matched": [
+              "revis",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "CSX Corporation (CSX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-21",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Why is CSX stock climbing today? By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-22",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 5,
+        "share": 0.238,
+        "evidence": [
+          {
+            "title": "CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-07",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "CSX Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "institutional"
+            ]
+          },
+          {
+            "title": "CSX Corporation (CSX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-21",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "CSX price target raised to $56 from $53 at BofA",
+            "publisher": "tipranks.com",
+            "published": "2026-07-22",
+            "matched": [
+              "insider",
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 4,
+        "share": 0.19,
+        "evidence": [
+          {
+            "title": "CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-07",
+            "matched": [
+              "valuation",
+              "premium"
+            ]
+          },
+          {
+            "title": "CSX Stock: Buy or Avoid in 2026? | CirclFi",
+            "publisher": "circlfi.com",
+            "published": "2026-06-03",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "CSX Corporation (CSX) \u2014 MCH Analysis Research",
+            "publisher": "mchanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "multiple",
+              "p/e"
+            ]
+          },
+          {
+            "title": "JEPQ, CSX, TER, MNST: Large Inflows Detected at ETF",
+            "publisher": "BNK Invest",
+            "published": "Aug 12, 2026",
+            "matched": [
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 2,
+        "share": 0.095,
+        "evidence": [
+          {
+            "title": "CSX (CSX) | Trefis",
+            "publisher": "trefis.com",
+            "published": "2025-09-28",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-07",
+            "matched": [
+              "fed"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 2,
+        "share": 0.095,
+        "evidence": [
+          {
+            "title": "CSX (CSX) | Trefis",
+            "publisher": "trefis.com",
+            "published": "2025-09-28",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Cash Dividend On The Way From CSX",
+            "publisher": "BNK Invest",
+            "published": "Aug 27, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.048,
+        "evidence": [
+          {
+            "title": "CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-07",
+            "matched": [
+              "downgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.048,
+        "evidence": [
+          {
+            "title": "3 Railroad Stocks to Buy From the Prospering Industry",
+            "publisher": "Zacks",
+            "published": "Aug 10, 2026",
+            "matched": [
+              "tariff"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-22"
+    ],
+    "next_date": "2026-10-22",
+    "eps_avg": 0.53063,
+    "eps_low": 0.5,
+    "eps_high": 0.5579,
+    "revenue_avg": 3963329460
+  },
+  "catalyst": {
+    "date": "2027-01-28",
+    "weekday": "Thursday",
+    "days_out": 98,
+    "basis": "scheduled",
+    "session": null,
+    "consensus": {
+      "eps_avg": 0.5
+    },
+    "recent_reports": [
+      {
+        "date": "2026-10-21",
+        "eps_estimate": 0.53,
+        "eps_actual": 0.57,
+        "surprise_pct": 7.25,
+        "beat": true
+      },
+      {
+        "date": "2026-07-22",
+        "eps_estimate": 0.52,
+        "eps_actual": 0.54,
+        "surprise_pct": 4.19,
+        "beat": true
+      },
+      {
+        "date": "2026-04-22",
+        "eps_estimate": 0.39,
+        "eps_actual": 0.43,
+        "surprise_pct": 10.6,
+        "beat": true
+      },
+      {
+        "date": "2026-01-22",
+        "eps_estimate": 0.41,
+        "eps_actual": 0.39,
+        "surprise_pct": -5.32,
+        "beat": false
+      }
+    ],
+    "beat_streak": 3,
+    "beat_rate": 0.75,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2027-01-28 (Thursday), 98 days out -- from the earnings calendar, consensus EPS 0.5."
+  },
+  "forward_trends": {
+    "queries": [
+      "CSX Corporation CSX 2026 end market rail volume outlook intermodal coal chemicals agriculture automotive",
+      "2026 US intermodal container volume outlook retail inventories imports consumer goods demand",
+      "2026 autonomous trucking electric trucks intermodal freight rail competition outlook",
+      "2026 US coal power plant retirements steel production rail shipments outlook"
+    ],
+    "results_count": 20,
+    "results_dated": 20,
+    "trends": [
+      {
+        "claim": "In October 2026, intermodal momentum remains very strong, with a 5.5% annual volume gain forecast.",
+        "stance": "support",
+        "why": "Strong intermodal volumes can support CSX's intermodal revenue and volume growth.",
+        "quote": "October volume forecast points to 5.5% annual gain",
+        "url": "https://www.supplychain247.com/article/intermodal_momentum_continues_as_october_volume_forecast_points_to_5.5_annual_gain_reports_iana",
+        "publisher": "supplychain247.com",
+        "as_of": "2026-10-09",
+        "age_days": 13,
+        "undated": false
+      },
+      {
+        "claim": "As of October 2026, the U.S. container import peak season is winding down after an unusually long stretch.",
+        "stance": "pressure",
+        "why": "Lower import volumes could reduce intermodal rail demand in late 2026.",
+        "quote": "The peak shipping season for U.S. container imports is winding down after an unusually long stretch of elevated volumes",
+        "url": "https://www.freightwaves.com/news/retailers-say-extended-peak-shipping-season-winding-down",
+        "publisher": "freightwaves.com",
+        "as_of": "2026-10-09",
+        "age_days": 13,
+        "undated": false
+      },
+      {
+        "claim": "In September 2026, U.S. container imports reached a record for September, extending an unusually prolonged peak.",
+        "stance": "support",
+        "why": "Elevated import volumes support intermodal rail demand into the fourth quarter.",
+        "quote": "U.S. container imports reached a record for September, extending an unusually prolonged peak shipping season",
+        "url": "https://finance.yahoo.com/economy/policy/articles/likely-past-busiest-part-nrf-154955057.html",
+        "publisher": "finance.yahoo.com",
+        "as_of": "2026-10-09",
+        "age_days": 13,
+        "undated": false
+      },
+      {
+        "claim": "As of October 2026, retailers anticipate a gradual slowdown in cargo volumes heading into the final months.",
+        "stance": "pressure",
+        "why": "Slowing cargo volumes could soften CSX intermodal demand late in 2026.",
+        "quote": "retailers anticipate a gradual slowdown in cargo volumes heading into the final months of the year",
+        "url": "https://finance.yahoo.com/economy/policy/articles/likely-past-busiest-part-nrf-154955057.html",
+        "publisher": "finance.yahoo.com",
+        "as_of": "2026-10-09",
+        "age_days": 13,
+        "undated": false
+      },
+      {
+        "claim": "As of August 2026, coal rail volumes are forecast to post slight year-on-year gains in Q4 2026.",
+        "stance": "support",
+        "why": "Higher coal volumes could lift CSX's coal revenue in the fourth quarter.",
+        "quote": "Coal rail volumes, in secular decline for more than a decade, are forecast to post slight year-on-year gains in the fourth quarter",
+        "url": "https://www.freightwaves.com/news/rail-freight-forecast-coal-volumes-set-for-shocking-q4-uptick",
+        "publisher": "freightwaves.com",
+        "as_of": "2026-08-31",
+        "age_days": 52,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "CSX",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 48.4,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 50.0,
+        "premium": 2.45,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 2.45,
+        "open_interest": 112,
+        "volume": 10.0,
+        "implied_vol": 0.015634843750000002,
+        "qty": 18
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 50.0,
+        "premium": 1.1,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 1.1,
+        "open_interest": 4322,
+        "volume": 307,
+        "implied_vol": 0.0312596875,
+        "qty": 5
+      },
+      "long_total": 4410.0,
+      "short_total": 550.0,
+      "net_debit": 3860.0,
+      "credit_ratio_mid": 0.1247,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Feb-27",
+          "strike": 50.0,
+          "qty": 18,
+          "underlying": 48.4,
+          "multiplier": 100,
+          "price": 2.45,
+          "total": 4410.0,
+          "open_interest": 112
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 50.0,
+          "qty": 5,
+          "underlying": 48.4,
+          "multiplier": 100,
+          "price": 1.1,
+          "total": -550.0,
+          "open_interest": 4322
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Feb-27, after it",
+        "targets report #2 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 50, 52.5, 55, 57.5"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0249,
+          "credit_ratio_conservative": 0.0249,
+          "passes_floor": false,
+          "cash_collected": 110.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0499,
+          "credit_ratio_conservative": 0.0499,
+          "passes_floor": false,
+          "cash_collected": 220.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0748,
+          "credit_ratio_conservative": 0.0748,
+          "passes_floor": false,
+          "cash_collected": 330.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0998,
+          "credit_ratio_conservative": 0.0998,
+          "passes_floor": false,
+          "cash_collected": 440.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1247,
+          "credit_ratio_conservative": 0.1247,
+          "passes_floor": true,
+          "cash_collected": 550.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1497,
+          "credit_ratio_conservative": 0.1497,
+          "passes_floor": true,
+          "cash_collected": 660.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1746,
+          "credit_ratio_conservative": 0.1746,
+          "passes_floor": true,
+          "cash_collected": 770.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1995,
+          "credit_ratio_conservative": 0.1995,
+          "passes_floor": true,
+          "cash_collected": 880.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2245,
+          "credit_ratio_conservative": 0.2245,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2494,
+          "credit_ratio_conservative": 0.2494,
+          "passes_floor": true,
+          "cash_collected": 1100.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2744,
+          "credit_ratio_conservative": 0.2744,
+          "passes_floor": true,
+          "cash_collected": 1210.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.2993,
+          "credit_ratio_conservative": 0.2993,
+          "passes_floor": true,
+          "cash_collected": 1320.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.3243,
+          "credit_ratio_conservative": 0.3243,
+          "passes_floor": true,
+          "cash_collected": 1430.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3492,
+          "credit_ratio_conservative": 0.3492,
+          "passes_floor": true,
+          "cash_collected": 1540.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.3741,
+          "credit_ratio_conservative": 0.3741,
+          "passes_floor": true,
+          "cash_collected": 1650.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.3991,
+          "credit_ratio_conservative": 0.3991,
+          "passes_floor": true,
+          "cash_collected": 1760.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.424,
+          "credit_ratio_conservative": 0.424,
+          "passes_floor": true,
+          "cash_collected": 1870.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.449,
+          "credit_ratio_conservative": 0.449,
+          "passes_floor": true,
+          "cash_collected": 1980.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "CSX",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 48.4,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 47.5,
+        "premium": 2.45,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 2.45,
+        "open_interest": 33,
+        "volume": 5.0,
+        "implied_vol": 0.007822421875,
+        "qty": 18
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 47.5,
+        "premium": 1.1,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 1.1,
+        "open_interest": 905,
+        "volume": 45.0,
+        "implied_vol": 0.015634843750000002,
+        "qty": 5
+      },
+      "long_total": 4410.0,
+      "short_total": 550.0,
+      "net_debit": 3860.0,
+      "credit_ratio_mid": 0.1247,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Feb-27",
+          "strike": 47.5,
+          "qty": 18,
+          "underlying": 48.4,
+          "multiplier": 100,
+          "price": 2.45,
+          "total": 4410.0,
+          "open_interest": 33
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 47.5,
+          "qty": 5,
+          "underlying": 48.4,
+          "multiplier": 100,
+          "price": 1.1,
+          "total": -550.0,
+          "open_interest": 905
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Feb-27, after it",
+        "targets report #2 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 47.5, 45, 42.5, 40"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0249,
+          "credit_ratio_conservative": 0.0249,
+          "passes_floor": false,
+          "cash_collected": 110.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0499,
+          "credit_ratio_conservative": 0.0499,
+          "passes_floor": false,
+          "cash_collected": 220.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0748,
+          "credit_ratio_conservative": 0.0748,
+          "passes_floor": false,
+          "cash_collected": 330.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0998,
+          "credit_ratio_conservative": 0.0998,
+          "passes_floor": false,
+          "cash_collected": 440.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1247,
+          "credit_ratio_conservative": 0.1247,
+          "passes_floor": true,
+          "cash_collected": 550.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1497,
+          "credit_ratio_conservative": 0.1497,
+          "passes_floor": true,
+          "cash_collected": 660.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1746,
+          "credit_ratio_conservative": 0.1746,
+          "passes_floor": true,
+          "cash_collected": 770.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1995,
+          "credit_ratio_conservative": 0.1995,
+          "passes_floor": true,
+          "cash_collected": 880.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2245,
+          "credit_ratio_conservative": 0.2245,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2494,
+          "credit_ratio_conservative": 0.2494,
+          "passes_floor": true,
+          "cash_collected": 1100.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2744,
+          "credit_ratio_conservative": 0.2744,
+          "passes_floor": true,
+          "cash_collected": 1210.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.2993,
+          "credit_ratio_conservative": 0.2993,
+          "passes_floor": true,
+          "cash_collected": 1320.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.3243,
+          "credit_ratio_conservative": 0.3243,
+          "passes_floor": true,
+          "cash_collected": 1430.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3492,
+          "credit_ratio_conservative": 0.3492,
+          "passes_floor": true,
+          "cash_collected": 1540.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.3741,
+          "credit_ratio_conservative": 0.3741,
+          "passes_floor": true,
+          "cash_collected": 1650.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.3991,
+          "credit_ratio_conservative": 0.3991,
+          "passes_floor": true,
+          "cash_collected": 1760.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.424,
+          "credit_ratio_conservative": 0.424,
+          "passes_floor": true,
+          "cash_collected": 1870.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.449,
+          "credit_ratio_conservative": 0.449,
+          "passes_floor": true,
+          "cash_collected": 1980.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for CSX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CSX/key-statistics/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "Price: 48.40 USD Market Cap: 89.66B Fwd PE: 24.26 P/S: 6.2 EPS trends: slightly down over the last 7 days EPS revisions: tilted lower, with 3 up and 5 down over last 30 days price 48.4 market cap 89.66B forward PE 24.26 forward PE next FY 21.14 trailing PE 25.208334 P/S 6.1783204 EV/EBITDA 15.769"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for CSX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CSX/analysis/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "FY consensus 1.99521 now, 2.00086 7 days ago, 2.00882 30 days ago, change over 30 days -0.68%; EPS revisions 3 up and 5 down over 30 days, 3 up and 4 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "CSX quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/csx/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Net Income increasing 24.2% (3/31/2026 to 6/30/2026) Earnings Before Interest and Tax increasing 20.0% (3/31/2026 to 6/30/2026) Total Revenue increasing 13.0% (3/31/2026 to 6/30/2026) EPS increased year over year 0.44 to 0.57 Total Revenue 13.0% quarter over quarter and 10.1% year over year to 2026-06-30 Net Income 24.2% quarter over quarter and 20.9% year over year to 2026-06-30 EBIT 20.0% quarter over quarter and 17.3% year over year to 2026-06-30 EBITDA 14.8% quarter over quarter and 12.1% year over year to 2026-06-30 Operating Income 20.2% quarter over quarter and 17.4% year over year to 2026-06-30 Interest Expense -0.9% quarter over quarter and -0.5% year over year to 2026-06-30 Net Interest Income 0.9% quarter over quarter and 0.5% year over year to 2026-06-30 Total Revenue decreasing 3.1% in fiscal 2025-12-31 vs 2024-12-31 Net Income decreasing 16.7% in fiscal 2025-12-31 vs 2024-12-31 Interest Income decreasing 47.1% in fiscal 2025-12-31 vs 2024-12-31 Selling General And Administration increasing 34.0% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders decreasing 16.7% in fiscal 2025-12-31 vs 2024-12-31 EBIT decreasing 14.4% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "CSX earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/csx/earnings",
+      "date": "2027-01-28",
+      "weight": null,
+      "text": "2027-01-28 (Thursday), 98 days out -- from the earnings calendar, consensus EPS 0.5. beat streak 3 median gap 91 days 2026-10-21 estimate 0.53 actual 0.57 surprise 7.25% 2026-07-22 estimate 0.52 actual 0.54 surprise 4.19% 2026-04-22 estimate 0.39 actual 0.43 surprise 10.6% 2026-01-22 estimate 0.41 actual 0.39 surprise -5.32%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: JEPQ, CSX, TER, MNST: Large Inflows Detected at ETF",
+      "provider": null,
+      "url": "/articles/jepq-csx-ter-mnst-large-inflows-detected-etf",
+      "date": "Aug 12, 20",
+      "weight": 3,
+      "text": "JEPQ, CSX, TER, MNST: Large Inflows Detected at ETF Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the JPMorgan Nasdaq Equity Premium Income ETF (Symbol: JEPQ) where we have detected an approximate $481.7 million dollar inflow -- that's a 1.2% increase"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "BNK Invest: IFRA, CSX, NSC, URI: ETF Outflow Alert",
+      "provider": null,
+      "url": "/articles/ifra-csx-nsc-uri-etf-outflow-alert",
+      "date": "Aug 20, 20",
+      "weight": 3,
+      "text": "IFRA, CSX, NSC, URI: ETF Outflow Alert Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares U.S. Infrastructure ETF (Symbol: IFRA) where we have detected an approximate $267.7 million dollar outflow -- that's a 5.8% decrease week ov"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Are Transportation Stocks Lagging  CSX (CSX) This Year?",
+      "provider": null,
+      "url": "/articles/are-transportation-stocks-lagging-csx-csx-year-0",
+      "date": "Aug 21, 20",
+      "weight": 3,
+      "text": "Are Transportation Stocks Lagging  CSX (CSX) This Year? Here is how CSX (CSX) and EuroDry (EDRY) have performed compared to their sector so far this year."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "BNK Invest: Cash Dividend On The Way From CSX",
+      "provider": null,
+      "url": "/articles/cash-dividend-way-csx",
+      "date": "Aug 27, 20",
+      "weight": 3,
+      "text": "Cash Dividend On The Way From CSX Looking at the universe of stocks we cover at Dividend Channel, on 8/31/26, CSX Corp (Symbol: CSX) will trade ex-dividend, for its quarterly dividend of $0.14, payable on 9/15/26.  As a percentage of CSX's recent stock price of $51.50, this dividend works out to approximately 0."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Here's Why Investors Should Add CSX Stock to Their Portfolio",
+      "provider": null,
+      "url": "/articles/heres-why-investors-should-add-csx-stock-their-portfolio",
+      "date": "Aug 27, 20",
+      "weight": 3,
+      "text": "Here's Why Investors Should Add CSX Stock to Their Portfolio With CSX shares moving north, we assess the current positioning of the stock to determine if it's a good investment at this juncture."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Is CSX (CSX) Stock Outpacing Its Transportation Peers This Year?",
+      "provider": null,
+      "url": "/articles/csx-csx-stock-outpacing-its-transportation-peers-year-0",
+      "date": "Aug 5, 202",
+      "weight": 3,
+      "text": "Is CSX (CSX) Stock Outpacing Its Transportation Peers This Year? Here is how CSX (CSX) and EuroDry (EDRY) have performed compared to their sector so far this year."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: CSX (CSX) Is Up 2.71% in One Week: What You Should Know",
+      "provider": null,
+      "url": "/articles/csx-csx-271-one-week-what-you-should-know",
+      "date": "Jul 24, 20",
+      "weight": 3,
+      "text": "CSX (CSX) Is Up 2.71% in One Week: What You Should Know Does CSX (CSX) have what it takes to be a top stock pick for momentum investors? Let's find out."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "BNK Invest: Cadence Design Systems Now #120 Largest Company, Surpassing CSX",
+      "provider": null,
+      "url": "/articles/cadence-design-systems-now-120-largest-company-surpassing-csx",
+      "date": "Jul 29, 20",
+      "weight": 3,
+      "text": "Cadence Design Systems Now #120 Largest Company, Surpassing CSX In the latest look at the underlying components of the S&P 500 ordered by largest market capitalization, Cadence Design Systems Inc (Symbol: CDNS) has taken over the #120 spot from CSX Corp (Symbol: CSX), according to The Online Investor.  \n\n\tMarket capitalization is an impo"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "MarketBeat: This Corner of the Market Is Outperforming the Benchmark\u2014And It's Not AI",
+      "provider": null,
+      "url": "/articles/corner-market-outperforming-benchmark-and-its-not-ai",
+      "date": "Sep 10, 20",
+      "weight": 3,
+      "text": "This Corner of the Market Is Outperforming the Benchmark\u2014And It's Not AI While most headlines this year have fixated on artificial intelligence, one of the market's quietest and oldest industries has been posting numbers that would make most tech investors jealous. Railroad stocks, the literal backbone of the American economy since the 1800s, are out"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "BNK Invest: Notable ETF Outflow Detected - XLI, CSX, MMM, EMR",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-xli-csx-mmm-emr",
+      "date": "Sep 4, 202",
+      "weight": 3,
+      "text": "Notable ETF Outflow Detected - XLI, CSX, MMM, EMR Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Industrial Select Sector SPDR ETF (Symbol: XLI) where we have detected an approximate $305.4 million dollar outflow -- that's a 0.9% de"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: 3 Railroad Stocks to Buy From the Prospering Industry",
+      "provider": null,
+      "url": "/articles/3-railroad-stocks-buy-prospering-industry",
+      "date": "Aug 10, 20",
+      "weight": 2,
+      "text": "3 Railroad Stocks to Buy From the Prospering Industry Headwinds, including high fuel costs, tariff-related tensions, and lingering supply-chain disruptions, hurt the Zacks Transportation -Railroad industry. UNP, CSX and NSC are likely to stand out."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "BNK Invest: Global X U.S. Infrastructure Development ETF Experiences Big Inflow",
+      "provider": null,
+      "url": "/articles/global-x-us-infrastructure-development-etf-experiences-big-inflow",
+      "date": "Aug 3, 202",
+      "weight": 2,
+      "text": "Global X U.S. Infrastructure Development ETF Experiences Big Inflow Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Global X U.S. Infrastructure Development ETF (Symbol: PAVE) where we have detected an approximate $669.0 million dollar inflow -- that's a 4.8% incre"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "BNK Invest: Thursday Sector Leaders: Defense, Railroads",
+      "provider": null,
+      "url": "/articles/thursday-sector-leaders-defense-railroads",
+      "date": "Jul 23, 20",
+      "weight": 2,
+      "text": "Thursday Sector Leaders: Defense, Railroads In trading on Thursday, defense shares were relative leaders, up on the day by about 2.9%.  Leading the group were shares of Lockheed Martin, up about 8.9% and shares of L3Harris Technologies up about 3.9% on the day.\n\nAlso showing relative strength are railroads shares, up on t"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Company News for July 24, 2026",
+      "provider": null,
+      "url": "/articles/company-news-july-24-2026",
+      "date": "Jul 24, 20",
+      "weight": 2,
+      "text": "Company News for July 24, 2026 Companies in The News Are: TMO, TSLA, UNP, CSX"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "BNK Invest: Dimensional US Core Equity 2 ETF Experiences Big Inflow",
+      "provider": null,
+      "url": "/articles/dimensional-us-core-equity-2-etf-experiences-big-inflow",
+      "date": "Sep 15, 20",
+      "weight": 2,
+      "text": "Dimensional US Core Equity 2 ETF Experiences Big Inflow Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Dimensional US Core Equity 2 ETF (Symbol: DFAC) where we have detected an approximate $215.8 million dollar inflow -- that's a 0.4% increase week ove"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "trefis.com: CSX (CSX) | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/data/companies/CSX",
+      "date": "2025-09-28",
+      "weight": 3,
+      "text": "CSX (CSX) | Trefis CSX (CSX) | Trefis\n\n#### Market Price (10/22/2026): $49.6 | Market Cap: $91.7 Bil Investor Relations \u2197 Sector: Industrials | Industry: Rail Transportation\n\n#### Market Price (10/22/2026): $49.6 Market Cap: $91.7 Bil Sector: Industrials Industry: Rail Transportation\n\n# Investment Highlights Why It Matters Detailed financial logic regarding cash flow yields vs trend-riding momentum. \n\n Attractive yield Total Yield Total Yield = Earnings Yield + Dividend Yield, Earnings Yield = Net Income / Market Cap Dividend Yield = Total Dividends / Market Cap is 5.1%\n\n Attractive operating margins Op Mgn LTM"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "seekingalpha.com: CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4888924-csx-corporation-valuation-premium-faces-pressure-from-weak-results",
+      "date": "2026-04-07",
+      "weight": 3,
+      "text": "CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha CSX Corporation: Valuation Premium Faces Pressure From Weak Results (NASDAQ:CSX) | Seeking Alpha\n\n# CSX Corporation: Valuation Premium Faces Pressure From Weak Results\n\nApr 07, 2026, 10:31 AM ET CSX Corporation (CSX) Stock\n\nNarek Hovhannisyan\n\n## Summary\n\n- CSX Corporation is downgraded from Buy to Hold as shares now trade at sector premiums and lack undervaluation.\n- Q4 results disappointed, with revenue down 1% yoy and adjusted net income falling 12% yoy, highlighting core segment weakness.\n- Future performance hinges on macroeconomic recovery, intermodal growth, and easing Fed policy, with"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "circlfi.com: CSX Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/csx-stock-analysis/",
+      "date": "2026-06-03",
+      "weight": 3,
+      "text": "CSX Stock: Buy or Avoid in 2026? | CirclFi CSX Stock: Buy or Avoid in 2026? | CirclFi\n\n# Should You Buy CSX Corporation Stock in 2026?\n\n By CirclFi Research Team \u00b7 2026-06-03 \u00b7 Updated 2026-10-07 \u00b7 11/13 models active \n\nAccording to the CirclFi Deep Alpha Valuation Engine, CSX Corporation (CSX) scores a robust 7.6/10 on our 32-signal Quality of Company framework. At the current market price of $47.50 and a $88.0B market cap, our analysis maps this fundamental strength against 13 institutional-grade models to determine if a sufficient margin of safety exists.\n\nThe short answer: 1 of 11 CirclFi valuation models project upside for CSX Cor"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "walnutinvest.com: Is CSX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/csx/is-it-a-buy-or-sell",
+      "date": "2026-10-16",
+      "weight": 3,
+      "text": "Is CSX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App Is CSX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is CSX a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for CSX Corporation (CSX) rests on Margin and Service Recovery: CSX returned to form in the first quarter of 2026, growing operating income 20% year over year to $1.25 billion and lifting earnings per share 26% to $0.43, as recovering network fluidity and merchandise pricing flowed through. The bear case rests on cSX carries the cyclical risk c"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "csx.com: CSX Corp. Announces Third Quarter 2026 Results - CSX.com",
+      "provider": "csx.com",
+      "url": "https://www.csx.com/index.cfm/about-us/media/press-releases/csx-corp-announces-third-quarter-2026-results/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "CSX Corp. Announces Third Quarter 2026 Results - CSX.com CSX Corp. Announces Third Quarter 2026 Results - CSX.com\n\n# CSX Corp. Announces Third Quarter 2026 Results\n\n- Record quarterly revenue of $4.02 billion, up 12% year-over-year; diluted EPS of $0.57, up 54%\n- Operating income of $1.57 billion, up 44%; operating margin expanded 880 bps to 39.1%\n- Total volume up 5%, with intermodal volume increasing by 7%\n\nJACKSONVILLE, Fla. \u2013 October 21, 2026 \u2013 CSX Corp. (NASDAQ: CSX) today announced third quarter 2026 operating income of $1.57 billion and net earnings of $1.05 billion, or $0.57 per diluted share. In the third quarter of 2025, the company report"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "fool.com: CSX (CSX) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/21/csx-csx-q3-2026-earnings-call-transcript/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "CSX (CSX) Q3 2026 Earnings Call Transcript | The Motley Fool CSX (CSX) Q3 2026 Earnings Call Transcript | The Motley Fool\n\nImage source: The Motley Fool.\n\n## DATE\n\nWednesday, Oct. 21, 2026\n\n## CALL PARTICIPANTS\n\n- President and Chief Executive Officer - Stephen F. Angel\n- Executive Vice President and Chief Financial Officer - Kevin S. Boone\n- Senior Vice President and Chief Commercial Officer - Maryclare Kenney\n- Head of Investor Relations and Corporate Communications - Matthew James Korn\n\n## TAKEAWAYS\n\n- Revenue -- $4.02 billion, a 12% increase year over year driven by higher fuel surcharge revenue, 5% volume growth, and pricing gains across all major"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "finance.yahoo.com: CSX: Q3 Earnings Snapshot",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-q3-earnings-snapshot-201727572.html",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "CSX: Q3 Earnings Snapshot CSX: Q3 Earnings Snapshot\n\n# CSX: Q3 Earnings Snapshot\n\n Associated Press Wed, October 21, 2026 at 4:17 PM EDT 1 min read\n\n## Trading disclosure \n\nJACKSONVILLE, Fla. (AP) \u2014 JACKSONVILLE, Fla. (AP) \u2014 CSX Corp. (CSX) on Wednesday reported third-quarter profit of $1.05 billion. \n\nOn a per-share basis, the Jacksonville, Florida-based company said it had net income of 57 cents. \n\nThe results surpassed Wall Street expectations. The average estimate of eight analysts surveyed by Zacks Investment Research was for earnings of 52 cents per share. \n\nThe freight railroad posted revenue of $4.02 billion in"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "investing.com: CSX earnings beat by $0.04, revenue topped estimates By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/earnings/csx-earnings-beat-by-004-revenue-topped-estimates-4963909",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "CSX earnings beat by $0.04, revenue topped estimates By Investing.com CSX earnings beat by $0.04, revenue topped estimates By Investing.com\n\n# CSX earnings beat by $0.04, revenue topped estimates\n\nPublished Oct 21, 2026, 04:06 PM\n\nInvesting.com - CSX (NASDAQ: CSX) reported third quarter EPS of $0.57, $0.04 better than the analyst estimate of $0.53. Revenue for the quarter came in at $4.02B versus the consensus estimate of $3.95B.\n\nCSX\u2019s stock price closed at $48.40. It is down -9.07% in the last 3 months and up 34.74% in the last 12 months.\n\nCSX saw 12 positive EPS revisions and 4 negative EPS revisions in the last 90 days. See CSX\u2019s stock price\u2019s past reactions"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "stockanalysis.com: CSX Corporation (CSX) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/csx/forecast/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "CSX Corporation (CSX) Stock Forecast & Analyst Price Targets CSX Corporation (CSX) Stock Forecast & Analyst Price Targets\n\n48.40 +0.32 (0.67%) At close: Oct 21, 2026, 4:00 PM EDT\n\n50.17 +1.77 (3.66%) After-hours: Oct 21, 2026, 7:59 PM EDT\n\n# CSX Corporation Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 25 analysts polled by S&P Global, CSX Corporation stock has a consensus rating of \"Buy\" and an average price target of $52.67. The average 1-year stock price forecast is 8.82% higher than the current stock price, while the lowest is $32 (-33.88%) and the highest is $60 (+23.97%).\n\nPrice Target: $52.67 (+8.82%)\n\nAnalyst Consensus: Buy\n\n## Price Tar"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investing.com: Why is CSX stock climbing today? By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-csx-stock-climbing-today-93CH-4965005",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Why is CSX stock climbing today? By Investing.com Why is CSX stock climbing today? By Investing.com\n\n# Why is CSX stock climbing today?\n\nEditor Maria Ponnezhath Stock Markets\n\nEditor Maria Ponnezhath\n\nPublished Oct 22, 2026, 04:37 AM\n\nInvesting.com -- CSX Corporation stock climbed 2.4% in pre-open trading after the freight railroad posted a standout third-quarter 2026 earnings report the prior evening, with adjusted earnings of $0.57 per share topping Wall Street\u2019s estimate of $0.53, while revenue rose to $4.02 billion from the expected $3.95 billion. \n\nOperating income reached $1.57 billion and net earnings came in at $1.05 billion, or $0.57"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "mchanalysis.com: CSX Corporation (CSX) \u2014 MCH Analysis Research",
+      "provider": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/csx-research-2026.html",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "CSX Corporation (CSX) \u2014 MCH Analysis Research CSX Corporation (CSX) \u2014 MCH Analysis Research\n\n# CSX Corporation (CSX)\n\nHOLD. Scenario value $46 (-5% vs spot), inputs set 27 June 2026. P/E Multiple explains 73% of Monte Carlo outcome variance.\n\n HOLD RESEARCH mature cash generator 22 October 2026 \n\n$48.40 \u2192 $45.95 (-5% vs spot \u00b7 12m PWEV) -5% probability-weighted scenario value \u00b7 inputs set 27 June 2026\n\nWhen the inputs were set. Scenario inputs set 27 June 2026 at $47.66; the price has moved +1.6% since. The scenario value is not re-estimated between authorings, so until the inputs are next set the rating moves with the price. The value is"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "tipranks.com: CSX price target raised to $56 from $53 at BofA",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/news/the-fly/csx-price-target-raised-to-56-from-53-at-bofa-thefly-news",
+      "date": "2026-07-22",
+      "weight": 1,
+      "text": "CSX price target raised to $56 from $53 at BofA Advertisement\n\n# CSX price target raised to $56 from $53 at BofA\n\nTheFly\n\nAnalyze\n\nA+\n\nA-\n\nBofA analyst Ken Hoexter raised the firm\u2019s price target on CSX (CSX) to $56 from $53 and keeps a Buy rating on the shares. CSX increased its FY26 targets and expects revenue growth with fuel of mid- to high-single digits, notes the analyst, who raised the firm\u2019s 2026 and 2027 EPS estimates 2% each.\n\nPublished first on TheFly \u2013 the ultimate source for real-time, market-moving breaking financial news. Try Now>>\n\nSee Insiders\u2019 Hot Stocks on TipRanks >>\n\nPromotion\n\n55% Off TipRanks\n\n- Unlock powerful investi"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "finance.yahoo.com: CSX (CSX) Reports Next Week: Wall Street Expects Earnings Growth",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-csx-reports-next-week-130012819.html",
+      "date": "2026-10-14",
+      "weight": 1,
+      "text": "CSX (CSX) Reports Next Week: Wall Street Expects Earnings Growth CSX (CSX) Reports Next Week: Wall Street Expects Earnings Growth\n\n# CSX (CSX) Reports Next Week: Wall Street Expects Earnings Growth\n\n Zacks Equity Research Wed, October 14, 2026 at 8:00 AM CDT 4 min read\n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nWall Street expects a year-over-year increase in earnings on higher revenues when CSX (CSX) reports results for"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "ca.marketscreener.com: RBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating | MarketScreener Canada",
+      "provider": "ca.marketscreener.com",
+      "url": "https://ca.marketscreener.com/news/rbc-lifts-price-target-on-csx-to-54-from-53-keeps-outperform-rating-ce785cded981f627",
+      "date": "2026-10-21",
+      "weight": 1,
+      "text": "RBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating | MarketScreener Canada # RBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating | MarketScreener Canada\n\nAuthor: MT Newswires\nPublished: 2026-10-22T07:19:39-04:00\nSource: ca.marketscreener.com (ca.marketscreener.com)\nLanguage: en\n\n## Story\n\nRBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating | MarketScreener Canada\n## Ground Freight & Logistics\n| Market Closed - Nasdaq 16:00:00 2026-10-21 EDT | 5-day change | 1st Jan Change |\n| 48.40 USD| +0.67% || +0.25% | +33.52% |\n# RBC Lifts Price Target on CSX to $54 From $53, Keeps Outperform Rating\nPublished on 10/22/2026 at 07:19 am EDT\n###"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "supplychain247.com: In October 2026, intermodal momentum remains very strong, with a 5.5% annual volume gain forecast.",
+      "provider": "supplychain247.com",
+      "url": "https://www.supplychain247.com/article/intermodal_momentum_continues_as_october_volume_forecast_points_to_5.5_annual_gain_reports_iana",
+      "date": "2026-10-09",
+      "weight": null,
+      "text": "In October 2026, intermodal momentum remains very strong, with a 5.5% annual volume gain forecast. Strong intermodal volumes can support CSX's intermodal revenue and volume growth. \"October volume forecast points to 5.5% annual gain\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "freightwaves.com: As of October 2026, the U.S. container import peak season is winding down after an unusually long stretch.",
+      "provider": "freightwaves.com",
+      "url": "https://www.freightwaves.com/news/retailers-say-extended-peak-shipping-season-winding-down",
+      "date": "2026-10-09",
+      "weight": null,
+      "text": "As of October 2026, the U.S. container import peak season is winding down after an unusually long stretch. Lower import volumes could reduce intermodal rail demand in late 2026. \"The peak shipping season for U.S. container imports is winding down after an unusually long stretch of elevated volumes\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "finance.yahoo.com: In September 2026, U.S. container imports reached a record for September, extending an unusually prolonged peak.",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/likely-past-busiest-part-nrf-154955057.html",
+      "date": "2026-10-09",
+      "weight": null,
+      "text": "In September 2026, U.S. container imports reached a record for September, extending an unusually prolonged peak. Elevated import volumes support intermodal rail demand into the fourth quarter. \"U.S. container imports reached a record for September, extending an unusually prolonged peak shipping season\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "finance.yahoo.com: As of October 2026, retailers anticipate a gradual slowdown in cargo volumes heading into the final months.",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/economy/policy/articles/likely-past-busiest-part-nrf-154955057.html",
+      "date": "2026-10-09",
+      "weight": null,
+      "text": "As of October 2026, retailers anticipate a gradual slowdown in cargo volumes heading into the final months. Slowing cargo volumes could soften CSX intermodal demand late in 2026. \"retailers anticipate a gradual slowdown in cargo volumes heading into the final months of the year\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "freightwaves.com: As of August 2026, coal rail volumes are forecast to post slight year-on-year gains in Q4 2026.",
+      "provider": "freightwaves.com",
+      "url": "https://www.freightwaves.com/news/rail-freight-forecast-coal-volumes-set-for-shocking-q4-uptick",
+      "date": "2026-08-31",
+      "weight": null,
+      "text": "As of August 2026, coal rail volumes are forecast to post slight year-on-year gains in Q4 2026. Higher coal volumes could lift CSX's coal revenue in the fourth quarter. \"Coal rail volumes, in secular decline for more than a decade, are forecast to post slight year-on-year gains in the fourth quarter\""
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "CSX listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/CSX/options/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "long CALL strike 50.0 expiry 2027-02-19 premium 2.45 short PUT strike 47.5 expiry 2027-02-19 premium 2.45"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 1.93,
+    "fy_consensus": 1.99521,
+    "ratio": 0.967,
+    "beats": 3,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.57 + 0.54 + 0.43 + 0.39) total 1.93, against a current-FY consensus of 1.99521 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "CSX Corporation CSX 2026 end market rail volume outlook intermodal coal chemicals agriculture automotive",
+        "2026 US intermodal container volume outlook retail inventories imports consumer goods demand",
+        "2026 autonomous trucking electric trucks intermodal freight rail competition outlook",
+        "2026 US coal power plant retirements steel production rail shipments outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "In October 2026, intermodal momentum remains very strong, with a 5.5% annual volume gain forecast.",
+          "stance": "support",
+          "why": "Strong intermodal volumes can support CSX's intermodal revenue and volume growth.",
+          "quote": "October volume forecast points to 5.5% annual gain",
+          "url": "https://www.supplychain247.com/article/intermodal_momentum_continues_as_october_volume_forecast_points_to_5.5_annual_gain_reports_iana",
+          "publisher": "supplychain247.com",
+          "as_of": "2026-10-09",
+          "age_days": 13,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, the U.S. container import peak season is winding down after an unusually long stretch.",
+          "stance": "pressure",
+          "why": "Lower import volumes could reduce intermodal rail demand in late 2026.",
+          "quote": "The peak shipping season for U.S. container imports is winding down after an unusually long stretch of elevated volumes",
+          "url": "https://www.freightwaves.com/news/retailers-say-extended-peak-shipping-season-winding-down",
+          "publisher": "freightwaves.com",
+          "as_of": "2026-10-09",
+          "age_days": 13,
+          "undated": false
+        },
+        {
+          "claim": "In September 2026, U.S. container imports reached a record for September, extending an unusually prolonged peak.",
+          "stance": "support",
+          "why": "Elevated import volumes support intermodal rail demand into the fourth quarter.",
+          "quote": "U.S. container imports reached a record for September, extending an unusually prolonged peak shipping season",
+          "url": "https://finance.yahoo.com/economy/policy/articles/likely-past-busiest-part-nrf-154955057.html",
+          "publisher": "finance.yahoo.com",
+          "as_of": "2026-10-09",
+          "age_days": 13,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, retailers anticipate a gradual slowdown in cargo volumes heading into the final months.",
+          "stance": "pressure",
+          "why": "Slowing cargo volumes could soften CSX intermodal demand late in 2026.",
+          "quote": "retailers anticipate a gradual slowdown in cargo volumes heading into the final months of the year",
+          "url": "https://finance.yahoo.com/economy/policy/articles/likely-past-busiest-part-nrf-154955057.html",
+          "publisher": "finance.yahoo.com",
+          "as_of": "2026-10-09",
+          "age_days": 13,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, coal rail volumes are forecast to post slight year-on-year gains in Q4 2026.",
+          "stance": "support",
+          "why": "Higher coal volumes could lift CSX's coal revenue in the fourth quarter.",
+          "quote": "Coal rail volumes, in secular decline for more than a decade, are forecast to post slight year-on-year gains in the fourth quarter",
+          "url": "https://www.freightwaves.com/news/rail-freight-forecast-coal-volumes-set-for-shocking-q4-uptick",
+          "publisher": "freightwaves.com",
+          "as_of": "2026-08-31",
+          "age_days": 52,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 2027 U.S. intermodal freight demand outlook retail inventories imports truckload competition",
+        "2026 2027 North America automotive production outlook EV transition supplier capex",
+        "2026 2027 U.S. coal power plant retirements coal export demand steel production outlook",
+        "CSX Corporation CSX Q3 2026 end market outlook intermodal coal automotive chemicals agriculture"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "Intermodal momentum remains strong into October 2026, with IANA forecasting a 5.5% annual volume gain.",
+          "stance": "support",
+          "why": "Higher intermodal volume lifts CSX's largest segment revenue and network utilization.",
+          "quote": "Intermodal momentum continues as October volume forecast points to 5.5% annual gain",
+          "url": "https://www.logisticsmgmt.com/article/intermodal_momentum_continues_as_october_volume_forecast_points_to_5.5_annual_gain_reports_iana",
+          "publisher": "logisticsmgmt.com",
+          "as_of": "2026-10-09",
+          "age_days": 13,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, shippers were again looking to escape elevated trucking costs by using rails.",
+          "stance": "support",
+          "why": "This mode conversion adds intermodal container volume for CSX.",
+          "quote": "shippers are once again looking to escape the elevated costs and challenges of the trucking space by utilizing the rails",
+          "url": "https://www.freightwaves.com/news/modal-shift-dampens-trucking-market",
+          "publisher": "freightwaves.com",
+          "as_of": "2026-08-08",
+          "age_days": 75,
+          "undated": false
+        },
+        {
+          "claim": "By September 2026, tightening trucking conditions made intermodal a strategic capacity solution, not just a cheap alternative.",
+          "stance": "support",
+          "why": "Shippers securing rail capacity supports CSX intermodal volumes and pricing.",
+          "quote": "Intermodal is becoming a strategic capacity solution rather than simply a lower-cost alternative.",
+          "url": "https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/oct-2026-freight-market-update/intermodal/",
+          "publisher": "chrobinson.com",
+          "as_of": "2026-10-01",
+          "age_days": 21,
+          "undated": false
+        },
+        {
+          "claim": "In 2027, retail inventory growth is expected to come more from higher merchandise costs than from increased volume.",
+          "stance": "pressure",
+          "why": "Weak retail inventory volume limits restocking freight for CSX intermodal.",
+          "quote": "A significant portion will come from higher merchandise costs rather than increased volume.",
+          "url": "https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/sep-2026-freight-market-update/industry-insights/retail/",
+          "publisher": "chrobinson.com",
+          "as_of": "2026-09-03",
+          "age_days": 49,
+          "undated": false
+        },
+        {
+          "claim": "EIA's October 2026 outlook projects U.S. coal supply falling from 467.7 million short tons in 2025 to 405.1 in 2027.",
+          "stance": "pressure",
+          "why": "Lower coal supply reduces available rail coal volumes for CSX.",
+          "quote": "467.7 | 434.7 | 405.1",
+          "url": "https://www.eia.gov/outlooks/steo/tables/pdf/6tab.pdf",
+          "publisher": "eia.gov",
+          "as_of": "2026-10-01",
+          "age_days": 21,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 U.S. intermodal container volume outlook retail inventory imports trucking competition",
+        "2026 North American automotive production outlook vehicle inventory supplier budgets",
+        "2026 U.S. coal demand power plant retirements export coal steel outlook",
+        "CSX Corporation CSX 2026 rail volume outlook chemicals agriculture fertilizer metals construction demand"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "In October 2026, IANA's intermodal volume forecast pointed to a 5.5% annual gain.",
+          "stance": "support",
+          "why": "Higher intermodal volumes support CSX's intermodal revenue and network utilization.",
+          "quote": "October volume forecast points to 5.5% annual gain",
+          "url": "https://www.supplychain247.com/article/intermodal_momentum_continues_as_october_volume_forecast_points_to_5.5_annual_gain_reports_iana",
+          "publisher": "supplychain247.com",
+          "as_of": "2026-10-09",
+          "age_days": 13,
+          "undated": false
+        },
+        {
+          "claim": "Through September 2026, intermodal demand strengthened as trucking capacity tightened, making rail a strategic capacity solution.",
+          "stance": "support",
+          "why": "Sustained mode conversion supports CSX intermodal volumes beyond temporary fuel-cost savings.",
+          "quote": "Intermodal is becoming a strategic capacity solution rather than simply a lower-cost alternative.",
+          "url": "https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/oct-2026-freight-market-update/intermodal/",
+          "publisher": "chrobinson.com",
+          "as_of": "2026-10-01",
+          "age_days": 21,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, domestic rail container volumes were above each of the past six years, with June growth near 13%.",
+          "stance": "support",
+          "why": "Strong domestic intermodal demand supports CSX volume and revenue growth into peak season.",
+          "quote": "Domestic rail container volumes are running above each of the past 6 years",
+          "url": "https://www.freightwaves.com/news/intermodals-historic-growth",
+          "publisher": "freightwaves.com",
+          "as_of": "2026-07-18",
+          "age_days": 96,
+          "undated": false
+        },
+        {
+          "claim": "In October 2026, the NRF said the extended peak container-import season was winding down and lowered its September import forecast.",
+          "stance": "pressure",
+          "why": "Lower import volumes can reduce CSX international intermodal and port-related rail traffic.",
+          "quote": "The peak shipping season for U.S. container imports is winding down after an unusually long stretch of elevated volumes",
+          "url": "https://www.freightwaves.com/news/retailers-say-extended-peak-shipping-season-winding-down",
+          "publisher": "freightwaves.com",
+          "as_of": "2026-10-09",
+          "age_days": 13,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, U.S. import bookings were averaging below the prior two years amid tight inventory management.",
+          "stance": "pressure",
+          "why": "Weaker import flows can reduce CSX intermodal and merchandise rail volumes.",
+          "quote": "Import bookings (IOTI) have been averaging lower than the previous two years",
+          "url": "https://www.freightwaves.com/news/imports-and-inventories-stabilize-in-2026-but-for-how-long",
+          "publisher": "freightwaves.com",
+          "as_of": "2026-09-12",
+          "age_days": 40,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

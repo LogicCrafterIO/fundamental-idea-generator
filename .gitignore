@@ -19,5 +19,9 @@ dist/
 data/
 out/
 
+# macOS archive/extraction junk
+__MACOSX/
+.DS_Store
+
 # keep the hand-written references
 !references/

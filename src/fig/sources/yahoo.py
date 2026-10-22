@@ -436,9 +436,10 @@ def chain(symbol: str, expiry: str) -> dict:
 def price_change_pct(symbol: str, days: int = 30) -> float | None:
     """Percent price change over roughly ``days`` calendar days.
 
-    Feeds the revision-versus-price divergence signal in :mod:`fig.discover`. The
-    horizon is padded because markets close at weekends and on holidays: asking
-    for exactly ``days`` bars would silently measure a different window.
+    No longer feeds the score in :mod:`fig.discover`, which ranks on the consensus
+    revision alone; it is still shown on the screen table as context. The horizon is
+    padded because markets close at weekends and on holidays: asking for exactly
+    ``days`` bars would silently measure a different window.
     """
     symbol = symbol.upper()
 

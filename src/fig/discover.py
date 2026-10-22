@@ -2,25 +2,33 @@
 
 The core signal
 ---------------
-Screening on "cheap" or "expensive" alone produces consensus ideas, and the
-reference writeups are explicitly *not* consensus -- the ORCL note says so
-outright ("I find it a bit hard to find non-consensus longs, stuff is getting
-stupid expensive"). So the primary screen here is a **divergence**:
+The primary screen is the **consensus EPS revision** itself:
 
-    fundamentals (consensus EPS revisions)  versus  price
+* **ORCL** -- revisions *up* (4 up, 0 down over 30d) argues **long**.
+* **OMF** -- revisions *tilted lower* (6 up, 8 down) argues **short**.
 
-Both references are exactly this shape:
+The magnitude of the net revision sets the rank and its sign sets the side. It is
+measurable from free data and it produces a *direction* rather than just a
+ranking. It is a triage filter, not an answer -- the packet is what a human or
+model then reasons over.
 
-* **ORCL** -- consensus EPS revisions *up* (4 up, 0 down over 30d) while the
-  price is down more than 20%. Improving estimates into a falling price is the
-  dislocation, and it argues **long**.
-* **OMF** -- revisions *tilted lower* (6 up, 8 down) while the thesis expects
-  charge-offs to worsen. Deteriorating estimates argue **short**.
+What this signal no longer does
+-------------------------------
+It used to be a **divergence** -- consensus revisions *versus* price -- so that a
+name whose estimates improved into a falling tape, or deteriorated into a rising
+one, outscored a name whose estimates and price agreed. That rewarded a
+dislocation the crowd was on the other side of, which is what made the screen
+non-consensus by construction.
 
-Divergence is measurable from free data, it is inherently non-consensus (the
-crowd is doing the opposite on one side of it), and it produces a *direction*
-rather than just a ranking. It is a triage filter, not an answer -- the packet is
-what a human or model then reasons over.
+It was removed because the price leg, not the revisions, was doing much of the
+ranking: identical revision moves scored ~30 points apart depending only on the
+direction of the tape, and 24 of 50 names in a real screen sat in the collapsed
+"aligned" branch. **The cost is real and should be stated: a revision-following
+rank is closer to consensus than a gap was.** The non-consensus character of an
+idea now has to come from the reasons, not from the screen -- which the format
+already demands, since `fig lint` rejects a reason that merely restates the screen
+signal as a conclusion (`reason_valuation_only`, and the README's "a discount is
+not a thesis").
 
 The second screen is **catalyst proximity**: an idea needs an event that forces
 the market to re-rate. OMF's author is explicit -- "if NCO go from 7% now to 10%
@@ -223,45 +231,35 @@ def _score(row: dict) -> tuple[str, float, dict]:
 
     Components (all bounded, all free-data derivable):
 
-    ``divergence``   consensus revisions vs price move -- the core signal.
+    ``revisions``    the consensus EPS revision -- the core signal, and the side.
     ``catalyst``     an earnings report inside a tradeable window.
     ``salience``     how much name-specific news there is.
     ``tradeable``    options exist with a usable expiry pair.
-    ``valuation``    multiple extremes, as a mild tilt only.
+    ``valuation_fragility``  multiple extremes, as a mild tilt only.
     """
     components: dict[str, float] = {}
 
     rev = row.get("revisions_net_30d")
-    price_30 = row.get("price_change_30d")
-    price_90 = row.get("price_change_90d")
 
-    # ---- divergence ------------------------------------------------------
-    divergence = 0.0
+    # ---- revisions -------------------------------------------------------
+    # Rank on the SIZE of the consensus revision; take the side from its sign.
+    # Price deliberately does not enter the score.
+    #
+    # This used to reward a revision-versus-price *gap* and collapse to <=12 when
+    # the two agreed. That made the rank a bet on the price leg rather than on the
+    # estimates: two names with identical revision moves scored ~30 points apart
+    # purely because one had the tape going its way, and half a screened universe
+    # sat in the collapsed branch. The revision term below is the same one the old
+    # formula used; only the price term and the branch structure are gone.
+    revisions = 0.0
     direction = "long"
-    if rev is not None and price_30 is not None:
-        if rev > 0 and price_30 < 0:
-            # Estimates rising, price falling: the classic long dislocation.
-            divergence = min(40.0, 8.0 * min(rev, 5) + 0.6 * min(abs(price_30), 35))
-            direction = "long"
-        elif rev < 0 and price_30 > 0:
-            # Estimates falling, price rising: the short dislocation.
-            divergence = min(40.0, 8.0 * min(abs(rev), 5) + 0.6 * min(abs(price_30), 35))
-            direction = "short"
-        else:
-            # Aligned, but a big move still means something is happening.
-            divergence = min(12.0, 0.15 * abs(price_30))
-            direction = "long" if rev >= 0 else "short"
-    elif price_30 is not None:
-        divergence = min(10.0, 0.15 * abs(price_30))
-    components["divergence"] = round(divergence, 1)
-
-    # A bigger 90-day move strengthens or weakens the same reading.
-    if price_90 is not None and rev is not None:
-        if (rev > 0 and price_90 < 0) or (rev < 0 and price_90 > 0):
-            components["divergence"] += 6.0
-            components["divergence"] = round(min(45.0, components["divergence"]), 1)
-        elif abs(price_90) > 40:
-            components["extended_move"] = round(min(8.0, (abs(price_90) - 40) * 0.2), 1)
+    if rev is not None:
+        # Saturates at 5 net revisions -- the same term, and so the same ceiling,
+        # the old formula's revision half used. (The 45 cap that used to sit here
+        # was only reachable via the +6 price confirmation, which is gone.)
+        revisions = min(40.0, 8.0 * min(abs(rev), 5))
+        direction = "long" if rev >= 0 else "short"
+    components["revisions"] = round(revisions, 1)
 
     # ---- catalyst --------------------------------------------------------
     catalyst = 0.0
@@ -298,7 +296,7 @@ def _score(row: dict) -> tuple[str, float, dict]:
     #   rising  + either -> no bonus; a cheap name that is rising needs a stated
     #                       mechanism before it is worth writing up
     #
-    # The ceiling is low so valuation can never outrank the divergence signal.
+    # The ceiling is low so valuation can never outrank the revisions signal.
     valuation = 0.0
     fwd_pe = row.get("fwd_pe")
     falling = (rev or 0) < 0

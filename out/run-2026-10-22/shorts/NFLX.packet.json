@@ -1,0 +1,2243 @@
+{
+  "symbol": "NFLX",
+  "as_of": "2026-10-22",
+  "generated_at": "2026-10-22T20:04:01",
+  "profile": {
+    "symbol": "NFLX",
+    "name": "Netflix, Inc.",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "summary": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming across various genres and languages. It also provides members the ability to receive streaming content through a host of internet-connected devices, including TVs, digital video players, TV set-top boxes, and mobile devices. Netflix, Inc. was incorporated in 1997 and is headquartered in Los Gatos, California.",
+    "employees": 16000,
+    "country": "United States",
+    "website": "https://www.netflix.com"
+  },
+  "quants": {
+    "symbol": "NFLX",
+    "name": "Netflix, Inc.",
+    "price": 65.04,
+    "market_cap": 270822637568,
+    "market_cap_human": "270.82B",
+    "fwd_pe": 18.17,
+    "fwd_pe_1y": 17.24,
+    "fwd_pe_yahoo": 17.214365,
+    "trailing_pe": 18.797688,
+    "ps": 5.445353,
+    "ev_ebitda": 17.285,
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "eps_fy_current": 3.57932,
+    "eps_fy_next": 3.77348,
+    "eps_trend": {
+      "change_7d_pct": -0.1,
+      "change_30d_pct": -0.14,
+      "current": 3.57932,
+      "7d_ago": 3.58305,
+      "30d_ago": 3.58437,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 2,
+      "up_30d": 2,
+      "down_30d": 3,
+      "net_30d": -1,
+      "text": "tilted lower, with 2 up and 3 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2027-01-20"
+      ],
+      "next_date": "2027-01-20",
+      "eps_avg": 0.67752,
+      "eps_low": 0.66,
+      "eps_high": 0.72,
+      "revenue_avg": 13447928130
+    },
+    "as_of": "2026-10-22"
+  },
+  "quants_lines": [
+    "Price: 65.04 USD",
+    "Market Cap: 270.82B",
+    "Fwd PE: 18.17",
+    "P/S: 5.4",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted lower, with 2 up and 3 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 4244271.0,
+      "prior": 6809163.0,
+      "change_pct": -37.7,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 3401414.0,
+      "prior": 5282791.0,
+      "change_pct": -35.6,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 9099232.0,
+      "prior": 12259772.0,
+      "change_pct": -25.8,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1322688.0,
+      "prior": 1444826.0,
+      "change_pct": -8.5,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Liabilities",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 28298389.0,
+      "prior": 29889515.0,
+      "change_pct": -5.3,
+      "direction": "decreasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-10-20T16:00:00-04:00",
+    "current": 0.87,
+    "year_ago": 0.59,
+    "year_ago_period": "2025-10-21T16:00:00-04:00",
+    "change": 0.28,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 12559938000.0,
+      "prior": 12249757000.0,
+      "qoq_pct": 2.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 11079166000.0,
+      "yoy_pct": 13.4,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3401414000.0,
+      "prior": 5282791000.0,
+      "qoq_pct": -35.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3125413000.0,
+      "yoy_pct": 8.8,
+      "conflict": true
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 4244271000.0,
+      "prior": 6809163000.0,
+      "qoq_pct": -37.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3814324000.0,
+      "yoy_pct": 11.3,
+      "conflict": true
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 8656110000.0,
+      "prior": 11125638000.0,
+      "qoq_pct": -22.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 7726411000.0,
+      "yoy_pct": 12.0,
+      "conflict": true
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 4192610000.0,
+      "prior": 3956997000.0,
+      "qoq_pct": 6.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3774694000.0,
+      "yoy_pct": 11.1,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 6522973000.0,
+      "prior": 6361519000.0,
+      "qoq_pct": 2.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 5753855000.0,
+      "yoy_pct": 13.4,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 175685000.0,
+      "prior": 262077000.0,
+      "qoq_pct": -33.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 182649000.0,
+      "yoy_pct": -3.8,
+      "conflict": false
+    },
+    {
+      "label": "Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 51661000.0,
+      "prior": 2852166000.0,
+      "qoq_pct": -98.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 39630000.0,
+      "yoy_pct": 30.4,
+      "conflict": true
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 45183036000.0,
+      "prior": 39000966000.0,
+      "change_pct": 15.9,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 10981201000.0,
+      "prior": 8711631000.0,
+      "change_pct": 26.1,
+      "direction": "increasing"
+    },
+    {
+      "label": "Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 172459000.0,
+      "prior": 266776000.0,
+      "change_pct": -35.4,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": -604051000.0,
+      "prior": -451957000.0,
+      "change_pct": -33.7,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 13326603000.0,
+      "prior": 10417614000.0,
+      "change_pct": 27.9,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 13499062000.0,
+      "prior": 10684390000.0,
+      "change_pct": 26.3,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2027-01-20",
+    "eps_avg": 0.67752,
+    "eps_low": 0.66,
+    "eps_high": 0.72,
+    "revenue_avg": 13447928130
+  },
+  "news": [
+    {
+      "title": "Netflix (NFLX) earnings Q3 2026",
+      "publisher": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+      "summary": "# Netflix (NFLX) earnings Q3 2026\n\nAuthor: Sarah Whitten\nPublished: 2026-10-20T16:00:01Z\nSource: cnbc.com\nLanguage: en",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "These Analysts Slash Their Forecasts On Netflix After Q3 Results - Netflix (NASDAQ:NFLX)",
+      "publisher": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62491675/these-analysts-slash-their-forecasts-on-netflix-after-q3-results",
+      "summary": "# These Analysts Slash Their Forecasts On Netflix After Q3 Results - Netflix (NASDAQ:NFLX)\n\nPublished: 2026-10-21T07:59:51-04:00\nSource: benzinga.com (benzinga.com)\nLanguage: en\n\n## Story\n\nNetflix Inc. (NASDAQ:NFLX) on Tuesday reported mixed results for the third quarter and narrowed its FY26 sales guidance below estimates. Also, the company issued its weak fourth-quarter sales guidance.\n\nNetflix reported third-quarter revenue of $12.874 billion, up 12% year-over-year. The revenue total narrowly missed a Street consensus estimate of $12.876 billion, according to data from Benzinga Pro. The com",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Netflix, Inc. (NFLX)",
+      "publisher": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2025-11/f25_NFLX.pdf",
+      "summary": "The Henry Fund\n\nHenry B. Tippie College of Business Dominic Corpolongo [dominic-corpolongo@uiowa.edu]\n\nNetflix, Inc. (NFLX) November 20, 2025\n\nCommunication Services \u2013 Media & Entertainment Stock Rating: SELL\n\nDrivers of Thesis\n\nRisks to Thesis\n\n| | | Investment Thesis | | | | Price Target: $105 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Investor sentiment has deteriorated following the Q3 earnings miss driven by a $619 million one-time tax charge in Brazil negative reaction tier growth accelerating as consumers manage the rising costs of holding multiple subscriptions. production and a d",
+      "published": "2025-11-20",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "positioning"
+      ]
+    },
+    {
+      "title": "NFLX.US | Netflix Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/US/XNAS/NFLX/research-ratings",
+      "summary": "NFLX.US | Netflix Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# Netflix Inc. NFLX (U.S.: Nasdaq) \n\n- ##### AT CLOSE 4:00 PM EDT 10/21/26 \n- $ 65.04 USD \n- -3.65 -5.31% \n- ##### Volume 410,090 \n\n- ##### PRE MARKET 6:47 AM EDT 10/22/26\n- $ 64.95 -0.09 -0.14% \n- ##### PRE MARKET Vol 410,090\n\n- Volume 101,393,282 \n- 65 Day Avg Vol 35,392,998 \n- 1 Day Range 64.10 - 67.12 \n- 52 Week Range 64.10 - 116.733 (10/21/26 - 11/13/25) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 15 Oct 16 Oct 19 Oct 20 Oct 21 Oct 22 $60$65$70$75\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Media",
+      "published": "2026-03-06",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener",
+      "publisher": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/NETFLIX-INC-44292425/consensus-revisions/",
+      "summary": "Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener\n\n## Internet Services \n\n| Market Closed - Nasdaq 04:00:00 2026-09-04 pm EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 78.25 USD | -5.35% | | -4.25% | -16.54% |\n\n| Sep. 04 | Netflix Raises UK Premium Subscription Above 20 Pounds For First Time | MT |\n| --- | --- | --- |\n| Sep. 04 | Summer box office tops $4.6 billion, marking post-pandemic comeback | RE |\n\n### Turnover - Evolution of Analysts' Estimates\n\n### Dividend / Share (DPS) - Evolution of Analysts' Estimat",
+      "published": "2026-09-04",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Netflix (NFLX) Equity Research Report October 2026 PDF | Moschovakis Capital",
+      "publisher": "moschovakiscapital.com",
+      "url": "https://moschovakiscapital.com/wp-content/uploads/2026/10/NFLX_research.pdf",
+      "summary": "## Netflix, Inc.\n\n#### NFLX\n\n##### EQUITY RESEARCH REPORT\n\nOctober 13, 2026\n\nCONFIDENTIAL \u2014 FOR INFORMATIONAL PURPOSES ONLY | NOT INVESTMENT ADVICE\n\nNETFLIX, INC. (NFLX) \u2014 MOSCHOVAKIS CAPITAL WEALTH PRESERVATION REPORT \nReport Date: 2026-10-13 \nAnalyst: Moschovakis Capital Research \n\nEXECUTIVE SUMMARY\n\n| Metric | Value |\n| --- | --- |\n| Recommendation | AVOID |\n| Current Price | $70.61 USD (\u20ac63.14 EUR) |\n| Fair Value (Base Case) | $90.10 USD (\u20ac80.55 EUR) |\n| Margin of Safety | +27.6% |\n| Target Entry (if HOLD) | N/A \u2014 AVOID |\n| | |\n| Return Profile | Value |\n| Dividend Yield | 0.0% |\n| Expecte",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "nflx-20261020",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
+      "summary": "nflx-20261020\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nCURRENT REPORT\n\nPursuant to Section 13 OR 15(d) of the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported):\n\nOctober 20, 2026\n\nNETFLIX, INC.\n\n(Exact name of registrant as specified in its charter)\n\n| Delaware | 001-35727 | 77-0467272 |\n| --- | --- | --- |\n| (State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.) |\n| 121 Albright Way, Los Gatos, California | | 95032 |\n| (Address of principal executive offices) | | (Zip Code) |\n\n(408) 5",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Netflix (NFLX) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/nflx/forecast/",
+      "summary": "Netflix (NFLX) Stock Forecast & Analyst Price Targets\n\n65.04 -3.65 (-5.31%) At close: Oct 21, 2026, 4:00 PM EDT\n\n64.97 -0.07 (-0.11%) Pre-market: Oct 22, 2026, 7:18 AM EDT\n\n# Netflix Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 52 analysts polled by S&P Global, Netflix stock has a consensus rating of \"Buy\" and an average price target of $91.39. The average 1-year stock price forecast is 40.51% higher than the current stock price, while the lowest is $57 (-12.36%) and the highest is $126 (+93.73%).\n\nPrice Target: $91.39 (+40.51%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Target | Low",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Netflix Inc (NFLX) \u2014 MCH Analysis Research",
+      "publisher": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/nflx-research-2026.html",
+      "summary": "Netflix Inc (NFLX) \u2014 MCH Analysis Research\n\n NFLX HOLD REF $65.04 SCENARIO VALUE $68.47 (+5% vs spot \u00b7 12m PWEV) +5% Single-name research \u00b7 22 October 2026 \n\n# Netflix Inc (NFLX)\n\nHOLD. Scenario value $68 (+5% vs spot), inputs set 26 June 2026. P/E Multiple explains 83% of Monte Carlo outcome variance.\n\n HOLD RESEARCH cyclical compounder 22 October 2026 \n\n$65.04 \u2192 $68.47 (+5% vs spot \u00b7 12m PWEV) +5% probability-weighted scenario value \u00b7 inputs set 26 June 2026\n\nWhen the inputs were set. Scenario inputs set 26 June 2026 at $70.90; the price has moved -8.3% since. The scenario value is not re-es",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Does Netflix\u2019s New 2036 Bond and Record Buyback Shift the Bull Case for NFLX? - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/media/nasdaq-nflx/netflix/news/does-netflixs-new-2036-bond-and-record-buyback-shift-the-bul",
+      "summary": "Does Netflix\u2019s New 2036 Bond and Record Buyback Shift the Bull Case for NFLX? - Simply Wall St News\n\nSimply Wall St Homepage\n\nAdvertisement\n\n- Earlier this month, Netflix completed a US$992.55 million fixed\u2011income offering of 5.250% senior unsecured notes due August 15, 2036, while also reporting Q2 2026 results that showed higher sales and earnings compared with a year ago.\n- The company paired this bond issuance with its largest quarterly share buyback on record, suggesting an active approach to balancing growth investment, capital structure, and shareholder returns.\n- With that backdrop, we",
+      "published": "2036-08-15",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Why Netflix Stock Dropped Today",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "23 hours ago",
+      "url": "/articles/why-netflix-stock-dropped-today",
+      "primary_symbol": "NFLX",
+      "related_symbols": [
+        "NFLX",
+        "WFC",
+        "WBD",
+        "PSKY"
+      ],
+      "summary": "Key PointsWells Fargo thinks Netflix's shares could fall 20%.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Netflix Has $27 Billion Left to Buy Back Its Own Stock -- About 8% of the Whole Company",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/netflix-has-27-billion-left-buy-back-its-own-stock-about-8-whole-company",
+      "primary_symbol": "NFLX",
+      "related_symbols": [
+        "NFLX"
+      ],
+      "summary": "Key PointsNetflix bought back a record $4.7 billion of stock in the second quarter and ended it with $27.1 billion of authorization left.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stock-market-today-sept-18-netflix-falls-analyst-downgrade-and-slashed-price-target",
+      "primary_symbol": "NFLX",
+      "related_symbols": [
+        "NFLX"
+      ],
+      "summary": "Netflix (NASDAQ:NFLX), a global subscription streaming platform with live content and originals, closed at $71.79, down 4.67%. Wells Fargo (NYSE:WFC) downgraded the stock and cut its target, citing weaker engagement and content concerns. Investors are next watching for earnings,",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "positioning"
+      ]
+    },
+    {
+      "title": "1 of Billionaire Investor Bill Ackman's Newest Positions Is Down Roughly 21% This Year. A Wall Street Analyst Thinks Another 21% Decline Is Coming. Should Investors Sell the Stock?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/1-billionaire-investor-bill-ackmans-newest-positions-down-roughly-21-year-wall-street",
+      "primary_symbol": "NFLX",
+      "related_symbols": [
+        "NFLX"
+      ],
+      "summary": "Key PointsOne new tech position Ackman and his team initiated is the streaming platform Netflix.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Nasdaq 100 Movers: NFLX, HONIV",
+      "publisher": "BNK Invest",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/nasdaq-100-movers-nflx-honiv-0",
+      "primary_symbol": "NFLX",
+      "related_symbols": [
+        "NFLX",
+        "RKLB",
+        "MSTR"
+      ],
+      "summary": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the Nasdaq 100 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Nasdaq 100 component thus far",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/netflix-inc-nflx-trending-stock-facts-know-betting-it-1",
+      "primary_symbol": null,
+      "related_symbols": [
+        "NFLX"
+      ],
+      "summary": "Netflix (NFLX) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Netflix vs. Disney: Which Streaming Stock Has an Edge Right Now?",
+      "publisher": "Zacks",
+      "created": "Sep 17, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/netflix-vs-disney-which-streaming-stock-has-edge-right-now",
+      "primary_symbol": null,
+      "related_symbols": [
+        "NFLX",
+        "DIS"
+      ],
+      "summary": "DIS' diversified growth, streaming profitability and rich content slate give it an edge over NFLX as investors weigh valuations.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Stock Market Midday, Sept. 18: Stocks Slip, Crypto Gains",
+      "publisher": "The Motley Fool",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stock-market-midday-sept-18-stocks-slip-crypto-gains",
+      "primary_symbol": null,
+      "related_symbols": [
+        "QQQ",
+        "NFLX"
+      ],
+      "summary": "As of 11:44 AM ET, the S&P 500 (SNPINDEX:^GSPC) is down 0.19% to 7,623, the Nasdaq Composite (NASDAQINDEX:^IXIC) has slipped 0.13% to 26,384, and the Dow Jones Industrial Average (DJINDICES:^DJI) is trading 0.42% lower at 51,561 as indexes retreated.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Friday's ETF with Unusual Volume: QGRW",
+      "publisher": "BNK Invest",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/fridays-etf-unusual-volume-qgrw",
+      "primary_symbol": "QGRW",
+      "related_symbols": [
+        "QGRW",
+        "NVDA",
+        "NFLX",
+        "LRCX",
+        "QCOM"
+      ],
+      "summary": "The WisdomTree U.S. Quality Growth Fund ETF is seeing unusually high volume in afternoon trading Friday, with over 1.2 million shares traded versus three month average volume of about 217,000.  Shares of QGRW were down about 0.2% on the day.\n\nComponents of that ETF with the high",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Apple TV's Emmy Sweep Adds Momentum to AAPL's Services Business",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/apple-tvs-emmy-sweep-adds-momentum-aapls-services-business",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AAPL",
+        "NFLX",
+        "DIS"
+      ],
+      "summary": "Apple TV's 29 Emmy wins, record viewership and strong video revenue growth add momentum to Apple's expanding Services business.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Is Walt Disney Stock a Buy, Sell, or Hold 47% Below Its All-Time High?",
+      "publisher": "The Motley Fool",
+      "created": "Sep 19, 2026",
+      "ago": "13 hours ago",
+      "url": "/articles/walt-disney-stock-buy-sell-or-hold-47-below-its-all-time-high",
+      "primary_symbol": "DIS",
+      "related_symbols": [
+        "DIS",
+        "NFLX",
+        "GOOGL",
+        "GOOG"
+      ],
+      "summary": "Key PointsThe ongoing fall of the cable-TV industry has been a significant headwind that Disney continues to face.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Stocks Waver as Bond Yields Climb",
+      "publisher": "Barchart",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stocks-waver-bond-yields-climb",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "SNDK",
+        "ADI",
+        "GLXY",
+        "TRI",
+        "COIN",
+        "STX",
+        "WDC",
+        "MTSI",
+        "SPY",
+        "MU",
+        "YETI",
+        "ORCL",
+        "QQQ",
+        "IREN",
+        "FTNT",
+        "NOW",
+        "ADBE",
+        "ZS",
+        "ARM",
+        "HOOD",
+        "CRM",
+        "AMAT",
+        "AVGO",
+        "INTU",
+        "DDOG",
+        "TXN",
+        "XENE",
+        "ASML",
+        "S",
+        "IBM",
+        "LRCX",
+        "DIA",
+        "PANW",
+        "NUE",
+        "KLAC",
+        "MARA",
+        "NFLX",
+        "CRWD",
+        "OKTA",
+        "WDAY",
+        "SOXX",
+        "RIOT",
+        "NET"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.11% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.39%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.09%.  December E-mini S&P futures (ESZ26 ) are down -0.15%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Mixed as Crude Oil Prices and Bond Yields Rise",
+      "publisher": "Barchart",
+      "created": "Sep 18, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stocks-mixed-crude-oil-prices-and-bond-yields-rise",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "SNDK",
+        "ADI",
+        "GLXY",
+        "TRI",
+        "COIN",
+        "STX",
+        "WDC",
+        "MTSI",
+        "SPY",
+        "MU",
+        "YETI",
+        "ORCL",
+        "QQQ",
+        "IREN",
+        "FTNT",
+        "NOW",
+        "ADBE",
+        "ZS",
+        "HOOD",
+        "CRM",
+        "AMAT",
+        "AVGO",
+        "INTU",
+        "DDOG",
+        "TXN",
+        "XENE",
+        "S",
+        "IBM",
+        "LRCX",
+        "DIA",
+        "PLTR",
+        "PANW",
+        "NUE",
+        "KLAC",
+        "MARA",
+        "NFLX",
+        "CRWD",
+        "OKTA",
+        "WDAY",
+        "SOXX",
+        "RIOT",
+        "NET"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.03% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.20%.  December E-mini S&P futures (ESZ26 ) are down -0.05%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+      "publisher": "Barchart",
+      "created": "Sep 19, 2026",
+      "ago": "4 minutes ago",
+      "url": "/articles/stocks-finish-mostly-higher-crude-prices-fall",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "SNDK",
+        "ADI",
+        "GLXY",
+        "TRI",
+        "COIN",
+        "STX",
+        "WDC",
+        "AMD",
+        "MTSI",
+        "SPY",
+        "MU",
+        "YETI",
+        "ORCL",
+        "QQQ",
+        "IREN",
+        "FTNT",
+        "ADBE",
+        "MCHP",
+        "ARM",
+        "HOOD",
+        "STLD",
+        "AMAT",
+        "AVGO",
+        "TXN",
+        "XENE",
+        "ASML",
+        "S",
+        "IBM",
+        "LRCX",
+        "DIA",
+        "PANW",
+        "NUE",
+        "KLAC",
+        "MARA",
+        "NFLX",
+        "CRWD",
+        "OKTA",
+        "SOXX",
+        "RIOT",
+        "NET"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.67%.  December E-mini S&P futures (ESZ26 ) rose +0.20%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Netflix issues weak fourth-quarter forecast as company seeks to kick-start growth By Reuters",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/netflix-issues-weak-fourthquarter-forecast-as-company-seeks-to-kickstart-growth-4960954",
+      "summary": "# Netflix issues weak fourth-quarter forecast as company seeks to kick-start growth By Reuters\n\nPublished: 2026-10-20T20:05:46Z\nSource: investing.com\nLanguage: en",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Netflix Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "publisher": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62432791/netflix-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+      "summary": "SPY770.80+0.23% QQQ723.12+0.77% BTC/USD84,614.99+2.02% DIA524.44+0.02% GLD378.41+0.20% TLT80.20+0.09%\n\nBenzinga Edge Benzinga Pro Benzinga Edge\n\nUS\n\nSign inRegister\n\nMy Account\n\nBenzinga\n\nPremium\n\nPremium Services\n\nAll sections\n\nOctober 19, 2026 6:10 AM2 min read\n\n# Netflix Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts\n\nNetflix, Inc. (NASDAQ: NFLX) will release earnings for its third quarter after the closing bell on Tuesday, Oct. 20.\n\nAnalysts expect the Los Gatos, California-based company to report quarterly earnings of 82 cents per sha",
+      "published": "2026-10-19",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Netflix\u2019s ad stumble deepens fears its growth is hitting a wall By Reuters",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/netflix-slides-as-weak-profit-ad-outlook-intensify-investor-anxiety-4962151",
+      "summary": "Netflix\u2019s ad stumble deepens fears its growth is hitting a wall By Reuters\n\n# Netflix\u2019s ad stumble deepens fears its growth is hitting a wall\n\nBy\n\nPublished Oct 21, 2026, 05:41 AM\n\nUpdated Oct 21, 2026, 01:18 PM\n\n\u00a9 Reuters.\n\nBy Aditya Soni and Kanishka Ajmera\n\nOct 21 (Reuters) - Netflix\u2019s cut to its advertising sales forecast is fuelling concerns that its growth engine is losing steam, threatening the edge that made it a model for the media industry.\n\nShares of the company fell nearly 5% in Wednesday afternoon trading after Netflix forecast a fourth consecutive quarter of slowing revenue growt",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Netflix is sliding after earnings. Analysts say buy the dip",
+      "publisher": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/21/netflix-is-sliding-after-earnings-analysts-say-buy-the-dip.html",
+      "summary": "Netflix is sliding after earnings. Analysts say buy the dip\n\n# Netflix is sliding after earnings. Analysts say buy the dip\n\nPublished Wed, Oct 21 2026 8:56 AM EDT\n\nLiz Napolitano@LizKNapolitano\n\nNetflix 's shares took a hit following its latest quarterly report, falling about 7% early Wednesday. But the stock is likely to bounce back over the long run, so investors should buy the dip, many Wall Street analysts said. On Tuesday, Netflix posted earnings of 87 cents per share for the third quarter versus the 82 cents per share expected by analysts polled by LSEG. Revenue came in at $12.87 billion",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "Netflix, Inc. (NFLX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 7,
+        "share": 0.304,
+        "evidence": [
+          {
+            "title": "These Analysts Slash Their Forecasts On Netflix After Q3 Results - Netflix (NASDAQ:NFLX)",
+            "publisher": "benzinga.com",
+            "published": null,
+            "matched": [
+              "guidance",
+              "forecast",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "NFLX.US | Netflix Inc. Analyst Estimates & Ratings \u2013 WSJ",
+            "publisher": "wsj.com",
+            "published": "2026-03-06",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-09-04",
+            "matched": [
+              "forecast",
+              "revis",
+              "estimate"
+            ]
+          },
+          {
+            "title": "Netflix (NFLX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-21",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.217,
+        "evidence": [
+          {
+            "title": "Netflix, Inc. (NFLX)",
+            "publisher": "henryfund.tippie.uiowa.edu",
+            "published": "2025-11-20",
+            "matched": [
+              "multiple"
+            ]
+          },
+          {
+            "title": "Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-09-04",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "Netflix Inc (NFLX) \u2014 MCH Analysis Research",
+            "publisher": "mchanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "multiple",
+              "p/e"
+            ]
+          },
+          {
+            "title": "Netflix vs. Disney: Which Streaming Stock Has an Edge Right Now?",
+            "publisher": "Zacks",
+            "published": "Sep 17, 2026",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 3,
+        "share": 0.13,
+        "evidence": [
+          {
+            "title": "Netflix, Inc. (NFLX)",
+            "publisher": "henryfund.tippie.uiowa.edu",
+            "published": "2025-11-20",
+            "matched": [
+              "sentiment",
+              "price target"
+            ]
+          },
+          {
+            "title": "Netflix (NFLX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-21",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target",
+            "publisher": "The Motley Fool",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "downgrade",
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 3,
+        "share": 0.13,
+        "evidence": [
+          {
+            "title": "Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-09-04",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Netflix (NFLX) Equity Research Report October 2026 PDF | Moschovakis Capital",
+            "publisher": "moschovakiscapital.com",
+            "published": "2026-10-13",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Does Netflix\u2019s New 2036 Bond and Record Buyback Shift the Bull Case for NFLX? - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2036-08-15",
+            "matched": [
+              "buyback"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 3,
+        "share": 0.13,
+        "evidence": [
+          {
+            "title": "Netflix (NFLX) Equity Research Report October 2026 PDF | Moschovakis Capital",
+            "publisher": "moschovakiscapital.com",
+            "published": "2026-10-13",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Stocks Waver as Bond Yields Climb",
+            "publisher": "Barchart",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Stocks Mixed as Crude Oil Prices and Bond Yields Rise",
+            "publisher": "Barchart",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.043,
+        "evidence": [
+          {
+            "title": "nflx-20261020",
+            "publisher": "sec.gov",
+            "published": "2026-10-20",
+            "matched": [
+              "securities and exchange"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.043,
+        "evidence": [
+          {
+            "title": "Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target",
+            "publisher": "The Motley Fool",
+            "published": "Sep 18, 2026",
+            "matched": [
+              "downgrade"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2027-01-20"
+    ],
+    "next_date": "2027-01-20",
+    "eps_avg": 0.67752,
+    "eps_low": 0.66,
+    "eps_high": 0.72,
+    "revenue_avg": 13447928130
+  },
+  "catalyst": {
+    "date": "2027-01-19",
+    "weekday": "Tuesday",
+    "days_out": 89,
+    "basis": "scheduled",
+    "session": null,
+    "consensus": {
+      "eps_avg": 0.68
+    },
+    "recent_reports": [
+      {
+        "date": "2026-10-20",
+        "eps_estimate": 0.82,
+        "eps_actual": 0.87,
+        "surprise_pct": 5.75,
+        "beat": true
+      },
+      {
+        "date": "2026-07-16",
+        "eps_estimate": 0.79,
+        "eps_actual": 0.8,
+        "surprise_pct": 1.45,
+        "beat": true
+      },
+      {
+        "date": "2026-04-16",
+        "eps_estimate": 1.32,
+        "eps_actual": 1.23,
+        "surprise_pct": -6.93,
+        "beat": false
+      },
+      {
+        "date": "2026-01-20",
+        "eps_estimate": 0.55,
+        "eps_actual": 0.56,
+        "surprise_pct": 1.43,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "beat_rate": 0.75,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2027-01-19 (Tuesday), 89 days out -- from the earnings calendar, consensus EPS 0.68."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 2027 consumer entertainment spending streaming subscription fatigue household budgets",
+      "2026 2027 connected TV advertising budgets growth ad-supported streaming market",
+      "2026 2027 YouTube TikTok gaming short-form video competition streaming watch time",
+      "2026 2027 live sports streaming rights costs pay TV cord cutting media industry"
+    ],
+    "results_count": 20,
+    "results_dated": 18,
+    "trends": [
+      {
+        "claim": "In July 2026, subscription spending rose 7.7% YoY, outpacing overall card spending.",
+        "stance": "support",
+        "why": "Sustained subscription demand supports Netflix subscriber and revenue growth.",
+        "quote": "Subscription spending rose 7.7% year-over-year (YoY) in July 2026",
+        "url": "https://institute.bankofamerica.com/content/dam/economic-insights/consumer-subscription-spending.pdf",
+        "publisher": "institute.bankofamerica.com",
+        "as_of": "2026-09-02",
+        "age_days": 50,
+        "undated": false
+      },
+      {
+        "claim": "As of October 2026, 7 in 10 Americans say they cut back spending on extras.",
+        "stance": "pressure",
+        "why": "This consumer pullback can pressure Netflix subscription and revenue growth.",
+        "quote": "7 in 10 Americans say they cut back spending on extras",
+        "url": "https://www.pewresearch.org/chart/7-in-10-americans-say-they-cut-back-spending-on-extras/",
+        "publisher": "pewresearch.org",
+        "as_of": "2026-10-14",
+        "age_days": 8,
+        "undated": false
+      },
+      {
+        "claim": "In Q3 2026, average household subscription spending rose 14.5% YoY to $176.44.",
+        "stance": "support",
+        "why": "Price-led spending growth supports Netflix revenue if churn stays contained.",
+        "quote": "Estimated average monthly spending reached $176.44, up 14.5% year over year",
+        "url": "https://digitalcontentnext.org/blog/2026/10/12/higher-prices-lift-spending-as-subscription-habits-shift/",
+        "publisher": "digitalcontentnext.org",
+        "as_of": "2026-10-12",
+        "age_days": 10,
+        "undated": false
+      },
+      {
+        "claim": "In Q3 2026, ad-supported streaming is becoming more popular in household subscription mix.",
+        "stance": "support",
+        "why": "Rising ad-tier adoption supports Netflix's advertising revenue growth.",
+        "quote": "ad-supported streaming becoming more popular",
+        "url": "https://digitalcontentnext.org/blog/2026/10/12/higher-prices-lift-spending-as-subscription-habits-shift/",
+        "publisher": "digitalcontentnext.org",
+        "as_of": "2026-10-12",
+        "age_days": 10,
+        "undated": false
+      },
+      {
+        "claim": "In the 2026-27 upfront, streaming captured more primetime ad dollars than linear TV for the first time.",
+        "stance": "support",
+        "why": "Advertiser budgets shifting to streaming support Netflix's ad-supported tier revenue.",
+        "quote": "for the first time, streaming captured more primetime upfront ad dollars than linear TV",
+        "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-d3w.pdf",
+        "publisher": "mediadynamicsinc.com",
+        "as_of": "2026-08-11",
+        "age_days": 72,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "NFLX",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 65.04,
+      "catalyst": "2027-01-19",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 67.5,
+        "premium": 5.33,
+        "bid": 3.15,
+        "ask": 7.5,
+        "mid": 5.33,
+        "last": 5.25,
+        "open_interest": 1656,
+        "volume": 1261,
+        "implied_vol": 0.5158739819335938,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 67.5,
+        "premium": 1.79,
+        "bid": 0.29,
+        "ask": 3.3,
+        "mid": 1.79,
+        "last": 1.54,
+        "open_interest": 3206,
+        "volume": 1301,
+        "implied_vol": 0.5839885351562499,
+        "qty": 3
+      },
+      "long_total": 4264.0,
+      "short_total": 537.0,
+      "net_debit": 3727.0,
+      "credit_ratio_mid": 0.1259,
+      "credit_ratio_conservative": 0.0145,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 67.5,
+          "qty": 8,
+          "underlying": 65.04,
+          "multiplier": 100,
+          "price": 5.33,
+          "total": 4264.0,
+          "open_interest": 1656
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 67.5,
+          "qty": 3,
+          "underlying": 65.04,
+          "multiplier": 100,
+          "price": 1.79,
+          "total": -537.0,
+          "open_interest": 3206
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-19 catalyst; long expires 19-Mar-27, after it",
+        "alternative strikes: 67.5, 70, 72.5, 75"
+      ],
+      "advice": "Credit ratio 1.4% is below the 10% floor; sell ~18 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.042,
+          "credit_ratio_conservative": 0.0048,
+          "passes_floor": false,
+          "cash_collected": 179.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.084,
+          "credit_ratio_conservative": 0.0097,
+          "passes_floor": false,
+          "cash_collected": 358.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1259,
+          "credit_ratio_conservative": 0.0145,
+          "passes_floor": false,
+          "cash_collected": 537.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1679,
+          "credit_ratio_conservative": 0.0193,
+          "passes_floor": false,
+          "cash_collected": 716.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2099,
+          "credit_ratio_conservative": 0.0242,
+          "passes_floor": false,
+          "cash_collected": 895.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2519,
+          "credit_ratio_conservative": 0.029,
+          "passes_floor": false,
+          "cash_collected": 1074.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2939,
+          "credit_ratio_conservative": 0.0338,
+          "passes_floor": false,
+          "cash_collected": 1253.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.3358,
+          "credit_ratio_conservative": 0.0387,
+          "passes_floor": false,
+          "cash_collected": 1432.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "NFLX",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 65.04,
+      "catalyst": "2027-01-19",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 62.5,
+        "premium": 4.11,
+        "bid": 1.97,
+        "ask": 6.25,
+        "mid": 4.11,
+        "last": 4.04,
+        "open_interest": 10981,
+        "volume": 2205.0,
+        "implied_vol": 0.4602104760742188,
+        "qty": 10
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 62.5,
+        "premium": 1.65,
+        "bid": 0.25,
+        "ask": 3.05,
+        "mid": 1.65,
+        "last": 1.09,
+        "open_interest": 6242,
+        "volume": 734.0,
+        "implied_vol": 0.5764202514648438,
+        "qty": 3
+      },
+      "long_total": 4110.0,
+      "short_total": 495.0,
+      "net_debit": 3615.0,
+      "credit_ratio_mid": 0.1204,
+      "credit_ratio_conservative": 0.012,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 62.5,
+          "qty": 10,
+          "underlying": 65.04,
+          "multiplier": 100,
+          "price": 4.11,
+          "total": 4110.0,
+          "open_interest": 10981
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 62.5,
+          "qty": 3,
+          "underlying": 65.04,
+          "multiplier": 100,
+          "price": 1.65,
+          "total": -494.99999999999994,
+          "open_interest": 6242
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-19 catalyst; long expires 19-Mar-27, after it",
+        "alternative strikes: 62.5, 60, 65, 57.5"
+      ],
+      "advice": "Credit ratio 1.2% is below the 10% floor; sell ~22 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0401,
+          "credit_ratio_conservative": 0.004,
+          "passes_floor": false,
+          "cash_collected": 165.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0803,
+          "credit_ratio_conservative": 0.008,
+          "passes_floor": false,
+          "cash_collected": 330.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1204,
+          "credit_ratio_conservative": 0.012,
+          "passes_floor": false,
+          "cash_collected": 495.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1606,
+          "credit_ratio_conservative": 0.016,
+          "passes_floor": false,
+          "cash_collected": 660.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2007,
+          "credit_ratio_conservative": 0.02,
+          "passes_floor": false,
+          "cash_collected": 825.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2409,
+          "credit_ratio_conservative": 0.024,
+          "passes_floor": false,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.281,
+          "credit_ratio_conservative": 0.028,
+          "passes_floor": false,
+          "cash_collected": 1155.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.3212,
+          "credit_ratio_conservative": 0.032,
+          "passes_floor": false,
+          "cash_collected": 1320.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3613,
+          "credit_ratio_conservative": 0.036,
+          "passes_floor": false,
+          "cash_collected": 1485.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.4015,
+          "credit_ratio_conservative": 0.04,
+          "passes_floor": false,
+          "cash_collected": 1650.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for NFLX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NFLX/key-statistics/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "Price: 65.04 USD Market Cap: 270.82B Fwd PE: 18.17 P/S: 5.4 EPS trends: flat over the last 7 days EPS revisions: tilted lower, with 2 up and 3 down over last 30 days price 65.04 market cap 270.82B forward PE 18.17 forward PE next FY 17.24 trailing PE 18.797688 P/S 5.445353 EV/EBITDA 17.285"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for NFLX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NFLX/analysis/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "FY consensus 3.57932 now, 3.58305 7 days ago, 3.58437 30 days ago, change over 30 days -0.14%; EPS revisions 2 up and 3 down over 30 days, 1 up and 2 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "NFLX quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/nflx/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Earnings Before Interest and Tax decreasing 37.7% (3/31/2026 to 6/30/2026) Net Income decreasing 35.6% (3/31/2026 to 6/30/2026) Cash and Cash Equivalents decreasing 25.8% (3/31/2026 to 6/30/2026) Sales, General and Admin. decreasing 8.5% (3/31/2026 to 6/30/2026) Total Liabilities decreasing 5.3% (3/31/2026 to 6/30/2026) EPS increased year over year 0.59 to 0.87 Total Revenue 2.5% quarter over quarter and 13.4% year over year to 2026-06-30 Net Income -35.6% quarter over quarter and 8.8% year over year to 2026-06-30 EBIT -37.7% quarter over quarter and 11.3% year over year to 2026-06-30 EBITDA -22.2% quarter over quarter and 12.0% year over year to 2026-06-30 Operating Income 6.0% quarter over quarter and 11.1% year over year to 2026-06-30 Gross Profit 2.5% quarter over quarter and 13.4% year over year to 2026-06-30 Interest Expense -33.0% quarter over quarter and -3.8% year over year to 2026-06-30 Interest Income -98.2% quarter over quarter and 30.4% year over year to 2026-06-30 Total Revenue increasing 15.9% in fiscal 2025-12-31 vs 2024-12-31 Net Income increasing 26.1% in fiscal 2025-12-31 vs 2024-12-31 Interest Income decreasing 35.4% in fiscal 2025-12-31 vs 2024-12-31 Net Interest Income decreasing 33.7% in fiscal 2025-12-31 vs 2024-12-31 Operating Income increasing 27.9% in fiscal 2025-12-31 vs 2024-12-31 EBIT increasing 26.3% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "NFLX earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/nflx/earnings",
+      "date": "2027-01-19",
+      "weight": null,
+      "text": "2027-01-19 (Tuesday), 89 days out -- from the earnings calendar, consensus EPS 0.68. beat streak 2 median gap 91 days 2026-10-20 estimate 0.82 actual 0.87 surprise 5.75% 2026-07-16 estimate 0.79 actual 0.8 surprise 1.45% 2026-04-16 estimate 1.32 actual 1.23 surprise -6.93% 2026-01-20 estimate 0.55 actual 0.56 surprise 1.43%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "The Motley Fool: Why Netflix Stock Dropped Today",
+      "provider": null,
+      "url": "/articles/why-netflix-stock-dropped-today",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "Why Netflix Stock Dropped Today Key PointsWells Fargo thinks Netflix's shares could fall 20%."
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "The Motley Fool: Netflix Has $27 Billion Left to Buy Back Its Own Stock -- About 8% of the Whole Company",
+      "provider": null,
+      "url": "/articles/netflix-has-27-billion-left-buy-back-its-own-stock-about-8-whole-company",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "Netflix Has $27 Billion Left to Buy Back Its Own Stock -- About 8% of the Whole Company Key PointsNetflix bought back a record $4.7 billion of stock in the second quarter and ended it with $27.1 billion of authorization left."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "The Motley Fool: Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target",
+      "provider": null,
+      "url": "/articles/stock-market-today-sept-18-netflix-falls-analyst-downgrade-and-slashed-price-target",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target Netflix (NASDAQ:NFLX), a global subscription streaming platform with live content and originals, closed at $71.79, down 4.67%. Wells Fargo (NYSE:WFC) downgraded the stock and cut its target, citing weaker engagement and content concerns. Investors are next watching for earnings,"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "The Motley Fool: 1 of Billionaire Investor Bill Ackman's Newest Positions Is Down Roughly 21% This Year. A Wall Street Analyst Thinks Another 21% Decline Is Coming. Should Investors Sell the Stock?",
+      "provider": null,
+      "url": "/articles/1-billionaire-investor-bill-ackmans-newest-positions-down-roughly-21-year-wall-street",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "1 of Billionaire Investor Bill Ackman's Newest Positions Is Down Roughly 21% This Year. A Wall Street Analyst Thinks Another 21% Decline Is Coming. Should Investors Sell the Stock? Key PointsOne new tech position Ackman and his team initiated is the streaming platform Netflix."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: Nasdaq 100 Movers: NFLX, HONIV",
+      "provider": null,
+      "url": "/articles/nasdaq-100-movers-nflx-honiv-0",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "Nasdaq 100 Movers: NFLX, HONIV In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the Nasdaq 100 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Nasdaq 100 component thus far"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+      "provider": null,
+      "url": "/articles/netflix-inc-nflx-trending-stock-facts-know-betting-it-1",
+      "date": "Sep 18, 20",
+      "weight": 3,
+      "text": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It Netflix (NFLX) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Netflix vs. Disney: Which Streaming Stock Has an Edge Right Now?",
+      "provider": null,
+      "url": "/articles/netflix-vs-disney-which-streaming-stock-has-edge-right-now",
+      "date": "Sep 17, 20",
+      "weight": 2,
+      "text": "Netflix vs. Disney: Which Streaming Stock Has an Edge Right Now? DIS' diversified growth, streaming profitability and rich content slate give it an edge over NFLX as investors weigh valuations."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: Stock Market Midday, Sept. 18: Stocks Slip, Crypto Gains",
+      "provider": null,
+      "url": "/articles/stock-market-midday-sept-18-stocks-slip-crypto-gains",
+      "date": "Sep 18, 20",
+      "weight": 2,
+      "text": "Stock Market Midday, Sept. 18: Stocks Slip, Crypto Gains As of 11:44 AM ET, the S&P 500 (SNPINDEX:^GSPC) is down 0.19% to 7,623, the Nasdaq Composite (NASDAQINDEX:^IXIC) has slipped 0.13% to 26,384, and the Dow Jones Industrial Average (DJINDICES:^DJI) is trading 0.42% lower at 51,561 as indexes retreated."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "BNK Invest: Friday's ETF with Unusual Volume: QGRW",
+      "provider": null,
+      "url": "/articles/fridays-etf-unusual-volume-qgrw",
+      "date": "Sep 18, 20",
+      "weight": 2,
+      "text": "Friday's ETF with Unusual Volume: QGRW The WisdomTree U.S. Quality Growth Fund ETF is seeing unusually high volume in afternoon trading Friday, with over 1.2 million shares traded versus three month average volume of about 217,000.  Shares of QGRW were down about 0.2% on the day.\n\nComponents of that ETF with the high"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Apple TV's Emmy Sweep Adds Momentum to AAPL's Services Business",
+      "provider": null,
+      "url": "/articles/apple-tvs-emmy-sweep-adds-momentum-aapls-services-business",
+      "date": "Sep 18, 20",
+      "weight": 2,
+      "text": "Apple TV's Emmy Sweep Adds Momentum to AAPL's Services Business Apple TV's 29 Emmy wins, record viewership and strong video revenue growth add momentum to Apple's expanding Services business."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "The Motley Fool: Is Walt Disney Stock a Buy, Sell, or Hold 47% Below Its All-Time High?",
+      "provider": null,
+      "url": "/articles/walt-disney-stock-buy-sell-or-hold-47-below-its-all-time-high",
+      "date": "Sep 19, 20",
+      "weight": 2,
+      "text": "Is Walt Disney Stock a Buy, Sell, or Hold 47% Below Its All-Time High? Key PointsThe ongoing fall of the cable-TV industry has been a significant headwind that Disney continues to face."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Stocks Waver as Bond Yields Climb",
+      "provider": null,
+      "url": "/articles/stocks-waver-bond-yields-climb",
+      "date": "Sep 18, 20",
+      "weight": 1,
+      "text": "Stocks Waver as Bond Yields Climb The S&P 500 Index ($SPX ) (SPY ) is down by -0.11% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.39%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.09%.  December E-mini S&P futures (ESZ26 ) are down -0.15%, and December E-mini..."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Mixed as Crude Oil Prices and Bond Yields Rise",
+      "provider": null,
+      "url": "/articles/stocks-mixed-crude-oil-prices-and-bond-yields-rise",
+      "date": "Sep 18, 20",
+      "weight": 1,
+      "text": "Stocks Mixed as Crude Oil Prices and Bond Yields Rise The S&P 500 Index ($SPX ) (SPY ) is down by -0.03% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.20%.  December E-mini S&P futures (ESZ26 ) are down -0.05%, and December E-mini..."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Finish Mostly Higher as Crude Prices Fall",
+      "provider": null,
+      "url": "/articles/stocks-finish-mostly-higher-crude-prices-fall",
+      "date": "Sep 19, 20",
+      "weight": 1,
+      "text": "Stocks Finish Mostly Higher as Crude Prices Fall The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +0.67%.  December E-mini S&P futures (ESZ26 ) rose +0.20%, and December E-mini..."
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "cnbc.com: Netflix (NFLX) earnings Q3 2026",
+      "provider": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+      "date": null,
+      "weight": 3,
+      "text": "Netflix (NFLX) earnings Q3 2026 # Netflix (NFLX) earnings Q3 2026\n\nAuthor: Sarah Whitten\nPublished: 2026-10-20T16:00:01Z\nSource: cnbc.com\nLanguage: en"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "benzinga.com: These Analysts Slash Their Forecasts On Netflix After Q3 Results - Netflix (NASDAQ:NFLX)",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62491675/these-analysts-slash-their-forecasts-on-netflix-after-q3-results",
+      "date": null,
+      "weight": 3,
+      "text": "These Analysts Slash Their Forecasts On Netflix After Q3 Results - Netflix (NASDAQ:NFLX) # These Analysts Slash Their Forecasts On Netflix After Q3 Results - Netflix (NASDAQ:NFLX)\n\nPublished: 2026-10-21T07:59:51-04:00\nSource: benzinga.com (benzinga.com)\nLanguage: en\n\n## Story\n\nNetflix Inc. (NASDAQ:NFLX) on Tuesday reported mixed results for the third quarter and narrowed its FY26 sales guidance below estimates. Also, the company issued its weak fourth-quarter sales guidance.\n\nNetflix reported third-quarter revenue of $12.874 billion, up 12% year-over-year. The revenue total narrowly missed a Street consensus estimate of $12.876 billion, according to data from Benzinga Pro. The com"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "henryfund.tippie.uiowa.edu: Netflix, Inc. (NFLX)",
+      "provider": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2025-11/f25_NFLX.pdf",
+      "date": "2025-11-20",
+      "weight": 3,
+      "text": "Netflix, Inc. (NFLX) The Henry Fund\n\nHenry B. Tippie College of Business Dominic Corpolongo [dominic-corpolongo@uiowa.edu]\n\nNetflix, Inc. (NFLX) November 20, 2025\n\nCommunication Services \u2013 Media & Entertainment Stock Rating: SELL\n\nDrivers of Thesis\n\nRisks to Thesis\n\n| | | Investment Thesis | | | | Price Target: $105 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Investor sentiment has deteriorated following the Q3 earnings miss driven by a $619 million one-time tax charge in Brazil negative reaction tier growth accelerating as consumers manage the rising costs of holding multiple subscriptions. production and a d"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "wsj.com: NFLX.US | Netflix Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/US/XNAS/NFLX/research-ratings",
+      "date": "2026-03-06",
+      "weight": 3,
+      "text": "NFLX.US | Netflix Inc. Analyst Estimates & Ratings \u2013 WSJ NFLX.US | Netflix Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# Netflix Inc. NFLX (U.S.: Nasdaq) \n\n- ##### AT CLOSE 4:00 PM EDT 10/21/26 \n- $ 65.04 USD \n- -3.65 -5.31% \n- ##### Volume 410,090 \n\n- ##### PRE MARKET 6:47 AM EDT 10/22/26\n- $ 64.95 -0.09 -0.14% \n- ##### PRE MARKET Vol 410,090\n\n- Volume 101,393,282 \n- 65 Day Avg Vol 35,392,998 \n- 1 Day Range 64.10 - 67.12 \n- 52 Week Range 64.10 - 116.733 (10/21/26 - 11/13/25) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 15 Oct 16 Oct 19 Oct 20 Oct 21 Oct 22 $60$65$70$75\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Media"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketscreener.com: Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/NETFLIX-INC-44292425/consensus-revisions/",
+      "date": "2026-09-04",
+      "weight": 3,
+      "text": "Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener Netflix, Inc.: Revenue and Earnings Analysts Forecasts Revisions | NFLX | US64110L1061 | MarketScreener\n\n## Internet Services \n\n| Market Closed - Nasdaq 04:00:00 2026-09-04 pm EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 78.25 USD | -5.35% | | -4.25% | -16.54% |\n\n| Sep. 04 | Netflix Raises UK Premium Subscription Above 20 Pounds For First Time | MT |\n| --- | --- | --- |\n| Sep. 04 | Summer box office tops $4.6 billion, marking post-pandemic comeback | RE |\n\n### Turnover - Evolution of Analysts' Estimates\n\n### Dividend / Share (DPS) - Evolution of Analysts' Estimat"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "moschovakiscapital.com: Netflix (NFLX) Equity Research Report October 2026 PDF | Moschovakis Capital",
+      "provider": "moschovakiscapital.com",
+      "url": "https://moschovakiscapital.com/wp-content/uploads/2026/10/NFLX_research.pdf",
+      "date": "2026-10-13",
+      "weight": 3,
+      "text": "Netflix (NFLX) Equity Research Report October 2026 PDF | Moschovakis Capital ## Netflix, Inc.\n\n#### NFLX\n\n##### EQUITY RESEARCH REPORT\n\nOctober 13, 2026\n\nCONFIDENTIAL \u2014 FOR INFORMATIONAL PURPOSES ONLY | NOT INVESTMENT ADVICE\n\nNETFLIX, INC. (NFLX) \u2014 MOSCHOVAKIS CAPITAL WEALTH PRESERVATION REPORT \nReport Date: 2026-10-13 \nAnalyst: Moschovakis Capital Research \n\nEXECUTIVE SUMMARY\n\n| Metric | Value |\n| --- | --- |\n| Recommendation | AVOID |\n| Current Price | $70.61 USD (\u20ac63.14 EUR) |\n| Fair Value (Base Case) | $90.10 USD (\u20ac80.55 EUR) |\n| Margin of Safety | +27.6% |\n| Target Entry (if HOLD) | N/A \u2014 AVOID |\n| | |\n| Return Profile | Value |\n| Dividend Yield | 0.0% |\n| Expecte"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "sec.gov: nflx-20261020",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
+      "date": "2026-10-20",
+      "weight": 3,
+      "text": "nflx-20261020 nflx-20261020\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nCURRENT REPORT\n\nPursuant to Section 13 OR 15(d) of the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported):\n\nOctober 20, 2026\n\nNETFLIX, INC.\n\n(Exact name of registrant as specified in its charter)\n\n| Delaware | 001-35727 | 77-0467272 |\n| --- | --- | --- |\n| (State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.) |\n| 121 Albright Way, Los Gatos, California | | 95032 |\n| (Address of principal executive offices) | | (Zip Code) |\n\n(408) 5"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: Netflix (NFLX) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/nflx/forecast/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "Netflix (NFLX) Stock Forecast & Analyst Price Targets Netflix (NFLX) Stock Forecast & Analyst Price Targets\n\n65.04 -3.65 (-5.31%) At close: Oct 21, 2026, 4:00 PM EDT\n\n64.97 -0.07 (-0.11%) Pre-market: Oct 22, 2026, 7:18 AM EDT\n\n# Netflix Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 52 analysts polled by S&P Global, Netflix stock has a consensus rating of \"Buy\" and an average price target of $91.39. The average 1-year stock price forecast is 40.51% higher than the current stock price, while the lowest is $57 (-12.36%) and the highest is $126 (+93.73%).\n\nPrice Target: $91.39 (+40.51%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Target | Low"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "mchanalysis.com: Netflix Inc (NFLX) \u2014 MCH Analysis Research",
+      "provider": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/nflx-research-2026.html",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Netflix Inc (NFLX) \u2014 MCH Analysis Research Netflix Inc (NFLX) \u2014 MCH Analysis Research\n\n NFLX HOLD REF $65.04 SCENARIO VALUE $68.47 (+5% vs spot \u00b7 12m PWEV) +5% Single-name research \u00b7 22 October 2026 \n\n# Netflix Inc (NFLX)\n\nHOLD. Scenario value $68 (+5% vs spot), inputs set 26 June 2026. P/E Multiple explains 83% of Monte Carlo outcome variance.\n\n HOLD RESEARCH cyclical compounder 22 October 2026 \n\n$65.04 \u2192 $68.47 (+5% vs spot \u00b7 12m PWEV) +5% probability-weighted scenario value \u00b7 inputs set 26 June 2026\n\nWhen the inputs were set. Scenario inputs set 26 June 2026 at $70.90; the price has moved -8.3% since. The scenario value is not re-es"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "simplywall.st: Does Netflix\u2019s New 2036 Bond and Record Buyback Shift the Bull Case for NFLX? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/media/nasdaq-nflx/netflix/news/does-netflixs-new-2036-bond-and-record-buyback-shift-the-bul",
+      "date": "2036-08-15",
+      "weight": 3,
+      "text": "Does Netflix\u2019s New 2036 Bond and Record Buyback Shift the Bull Case for NFLX? - Simply Wall St News Does Netflix\u2019s New 2036 Bond and Record Buyback Shift the Bull Case for NFLX? - Simply Wall St News\n\nSimply Wall St Homepage\n\nAdvertisement\n\n- Earlier this month, Netflix completed a US$992.55 million fixed\u2011income offering of 5.250% senior unsecured notes due August 15, 2036, while also reporting Q2 2026 results that showed higher sales and earnings compared with a year ago.\n- The company paired this bond issuance with its largest quarterly share buyback on record, suggesting an active approach to balancing growth investment, capital structure, and shareholder returns.\n- With that backdrop, we"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investing.com: Netflix issues weak fourth-quarter forecast as company seeks to kick-start growth By Reuters",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/netflix-issues-weak-fourthquarter-forecast-as-company-seeks-to-kickstart-growth-4960954",
+      "date": null,
+      "weight": 0,
+      "text": "Netflix issues weak fourth-quarter forecast as company seeks to kick-start growth By Reuters # Netflix issues weak fourth-quarter forecast as company seeks to kick-start growth By Reuters\n\nPublished: 2026-10-20T20:05:46Z\nSource: investing.com\nLanguage: en"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "benzinga.com: Netflix Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62432791/netflix-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+      "date": "2026-10-19",
+      "weight": 0,
+      "text": "Netflix Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts SPY770.80+0.23% QQQ723.12+0.77% BTC/USD84,614.99+2.02% DIA524.44+0.02% GLD378.41+0.20% TLT80.20+0.09%\n\nBenzinga Edge Benzinga Pro Benzinga Edge\n\nUS\n\nSign inRegister\n\nMy Account\n\nBenzinga\n\nPremium\n\nPremium Services\n\nAll sections\n\nOctober 19, 2026 6:10 AM2 min read\n\n# Netflix Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts\n\nNetflix, Inc. (NASDAQ: NFLX) will release earnings for its third quarter after the closing bell on Tuesday, Oct. 20.\n\nAnalysts expect the Los Gatos, California-based company to report quarterly earnings of 82 cents per sha"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: Netflix\u2019s ad stumble deepens fears its growth is hitting a wall By Reuters",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/netflix-slides-as-weak-profit-ad-outlook-intensify-investor-anxiety-4962151",
+      "date": "2026-10-21",
+      "weight": 0,
+      "text": "Netflix\u2019s ad stumble deepens fears its growth is hitting a wall By Reuters Netflix\u2019s ad stumble deepens fears its growth is hitting a wall By Reuters\n\n# Netflix\u2019s ad stumble deepens fears its growth is hitting a wall\n\nBy\n\nPublished Oct 21, 2026, 05:41 AM\n\nUpdated Oct 21, 2026, 01:18 PM\n\n\u00a9 Reuters.\n\nBy Aditya Soni and Kanishka Ajmera\n\nOct 21 (Reuters) - Netflix\u2019s cut to its advertising sales forecast is fuelling concerns that its growth engine is losing steam, threatening the edge that made it a model for the media industry.\n\nShares of the company fell nearly 5% in Wednesday afternoon trading after Netflix forecast a fourth consecutive quarter of slowing revenue growt"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "cnbc.com: Netflix is sliding after earnings. Analysts say buy the dip",
+      "provider": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/21/netflix-is-sliding-after-earnings-analysts-say-buy-the-dip.html",
+      "date": "2026-10-21",
+      "weight": 0,
+      "text": "Netflix is sliding after earnings. Analysts say buy the dip Netflix is sliding after earnings. Analysts say buy the dip\n\n# Netflix is sliding after earnings. Analysts say buy the dip\n\nPublished Wed, Oct 21 2026 8:56 AM EDT\n\nLiz Napolitano@LizKNapolitano\n\nNetflix 's shares took a hit following its latest quarterly report, falling about 7% early Wednesday. But the stock is likely to bounce back over the long run, so investors should buy the dip, many Wall Street analysts said. On Tuesday, Netflix posted earnings of 87 cents per share for the third quarter versus the 82 cents per share expected by analysts polled by LSEG. Revenue came in at $12.87 billion"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "institute.bankofamerica.com: In July 2026, subscription spending rose 7.7% YoY, outpacing overall card spending.",
+      "provider": "institute.bankofamerica.com",
+      "url": "https://institute.bankofamerica.com/content/dam/economic-insights/consumer-subscription-spending.pdf",
+      "date": "2026-09-02",
+      "weight": null,
+      "text": "In July 2026, subscription spending rose 7.7% YoY, outpacing overall card spending. Sustained subscription demand supports Netflix subscriber and revenue growth. \"Subscription spending rose 7.7% year-over-year (YoY) in July 2026\""
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "pewresearch.org: As of October 2026, 7 in 10 Americans say they cut back spending on extras.",
+      "provider": "pewresearch.org",
+      "url": "https://www.pewresearch.org/chart/7-in-10-americans-say-they-cut-back-spending-on-extras/",
+      "date": "2026-10-14",
+      "weight": null,
+      "text": "As of October 2026, 7 in 10 Americans say they cut back spending on extras. This consumer pullback can pressure Netflix subscription and revenue growth. \"7 in 10 Americans say they cut back spending on extras\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "digitalcontentnext.org: In Q3 2026, average household subscription spending rose 14.5% YoY to $176.44.",
+      "provider": "digitalcontentnext.org",
+      "url": "https://digitalcontentnext.org/blog/2026/10/12/higher-prices-lift-spending-as-subscription-habits-shift/",
+      "date": "2026-10-12",
+      "weight": null,
+      "text": "In Q3 2026, average household subscription spending rose 14.5% YoY to $176.44. Price-led spending growth supports Netflix revenue if churn stays contained. \"Estimated average monthly spending reached $176.44, up 14.5% year over year\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "digitalcontentnext.org: In Q3 2026, ad-supported streaming is becoming more popular in household subscription mix.",
+      "provider": "digitalcontentnext.org",
+      "url": "https://digitalcontentnext.org/blog/2026/10/12/higher-prices-lift-spending-as-subscription-habits-shift/",
+      "date": "2026-10-12",
+      "weight": null,
+      "text": "In Q3 2026, ad-supported streaming is becoming more popular in household subscription mix. Rising ad-tier adoption supports Netflix's advertising revenue growth. \"ad-supported streaming becoming more popular\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "mediadynamicsinc.com: In the 2026-27 upfront, streaming captured more primetime ad dollars than linear TV for the first time.",
+      "provider": "mediadynamicsinc.com",
+      "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-d3w.pdf",
+      "date": "2026-08-11",
+      "weight": null,
+      "text": "In the 2026-27 upfront, streaming captured more primetime ad dollars than linear TV for the first time. Advertiser budgets shifting to streaming support Netflix's ad-supported tier revenue. \"for the first time, streaming captured more primetime upfront ad dollars than linear TV\""
+    },
+    {
+      "id": "S38",
+      "kind": "options",
+      "ref": "options",
+      "label": "NFLX listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/NFLX/options/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "long CALL strike 67.5 expiry 2027-03-19 premium 5.33 short PUT strike 62.5 expiry 2027-03-19 premium 4.11"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 3.46,
+    "fy_consensus": 3.57932,
+    "ratio": 0.967,
+    "beats": 3,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.87 + 0.8 + 1.23 + 0.56) total 3.46, against a current-FY consensus of 3.57932 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "2026 2027 streaming video subscriber growth forecast subscription fatigue US households",
+        "2026 2027 connected TV advertising spend forecast streaming ad budgets",
+        "2026 2027 short-form video TikTok YouTube competition streaming engagement time spent",
+        "Netflix NFLX 2026 2027 live sports streaming rights costs competition"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In 2026, US CTV ad spend will reach $36.95 billion, expanding Netflix's ad-tier revenue pool.",
+          "stance": "support",
+          "why": "Higher CTV ad demand can lift Netflix ad revenue as it scales its ad-supported tier.",
+          "quote": "US connected TV (CTV) ad spend will top the global charts in 2026 at $36.95 billion",
+          "url": "https://www.emarketer.com/content/exclusive-forecast-global-ctv-ad-spend-accelerates-emerging-markets-scale-",
+          "publisher": "emarketer.com",
+          "as_of": "2026-08-21",
+          "age_days": 62,
+          "undated": false
+        },
+        {
+          "claim": "In the 2026-27 upfront, streaming captured more primetime ad dollars than linear TV for the first time.",
+          "stance": "support",
+          "why": "More upfront ad dollars flowing to streaming can support Netflix's ad-tier revenue growth.",
+          "quote": "for the first time, streaming captured more primetime upfront ad dollars than linear TV",
+          "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-d3w.pdf",
+          "publisher": "mediadynamicsinc.com",
+          "as_of": "2026-08-11",
+          "age_days": 72,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, TikTok and Instagram are quickly closing in on traditional streamers for young viewers.",
+          "stance": "pressure",
+          "why": "Younger audience attention shifting to social could pressure Netflix engagement and subscriber growth.",
+          "quote": "social platforms like TikTok and Instagram are quickly closing in on traditional streamers",
+          "url": "https://www.ypulse.com/report/2026/09/10/media-consumption-report-15/",
+          "publisher": "ypulse.com",
+          "as_of": "2026-09-10",
+          "age_days": 42,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, Netflix remains a top weekly video draw for Gen Z and Millennials.",
+          "stance": "support",
+          "why": "Continued young-viewer engagement supports Netflix's subscriber retention.",
+          "quote": "YouTube and Netflix are still the biggest draw for weekly video watching",
+          "url": "https://www.ypulse.com/report/2026/09/10/media-consumption-report-15/",
+          "publisher": "ypulse.com",
+          "as_of": "2026-09-10",
+          "age_days": 42,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, Netflix expects live programming to absorb just over 5% of content spend but generate only about 1% of view hours.",
+          "stance": "pressure",
+          "why": "The mismatch can pressure content ROI and margins as live sports spending grows.",
+          "quote": "Netflix expects live programming to absorb just over 5% of 2026 content spend while generating only about 1% of view hours.",
+          "url": "https://finance.yahoo.com/media-advertising/articles/rising-live-sports-costs-margin-141200448.html",
+          "publisher": "finance.yahoo.com",
+          "as_of": "2026-10-06",
+          "age_days": 16,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In Q1 2026, price hikes are slowing subscription revenue gains.",
+          "stance": "pressure",
+          "why": "Slower subscription revenue growth can pressure Netflix's top line as price increases meet consumer resistance.",
+          "quote": "Price hikes are slowing subscription revenue gains",
+          "url": "https://www.emarketer.com/content/digital-video-forecast-trends-q1-2026",
+          "publisher": "emarketer.com",
+          "as_of": "2026-02-10",
+          "age_days": 254,
+          "undated": false,
+          "drop_reason": "stale (254 days old)"
+        },
+        {
+          "claim": "In Q1 2026, streaming services are leaning less on subscriptions as ad-supported viewing grows.",
+          "stance": "support",
+          "why": "Netflix's ad tier can become a larger revenue contributor as subscription growth slows.",
+          "quote": "Streaming services are leaning less on subscriptions as price hikes test consumer tolerance and ad-supported viewing grows.",
+          "url": "https://www.emarketer.com/content/digital-video-forecast-trends-q1-2026",
+          "publisher": "emarketer.com",
+          "as_of": "2026-02-10",
+          "age_days": 254,
+          "undated": false,
+          "drop_reason": "stale (254 days old)"
+        },
+        {
+          "claim": "In 2026, YouTube is flourishing on connected TV, intensifying competition for Netflix's living-room viewing.",
+          "stance": "pressure",
+          "why": "CTV viewer time and ad dollars may shift toward YouTube, pressuring Netflix engagement and ad revenue.",
+          "quote": "YouTube is flourishing on CTV",
+          "url": "https://www.emarketer.com/content/us-ott-and-pay-tv-viewers-forecast-2026",
+          "publisher": "emarketer.com",
+          "as_of": "2026-04-01",
+          "age_days": 204,
+          "undated": false,
+          "drop_reason": "stale (204 days old)"
+        },
+        {
+          "claim": "As of February 2026, US mobile users spend more daily time on microdramas than on Netflix mobile.",
+          "stance": "pressure",
+          "why": "Attention shifting to microdramas could pressure Netflix engagement and mobile viewing.",
+          "quote": "users now spend more time per day watching microdramas on mobile apps than they do watching Netflix",
+          "url": "https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia",
+          "publisher": "omdia.tech.informa.com",
+          "as_of": "2026-02-23",
+          "age_days": 241,
+          "undated": false,
+          "drop_reason": "stale (241 days old)"
+        },
+        {
+          "claim": "In a December 2025 survey, 59% of viewers 13-24 discover TV shows via social video clips.",
+          "stance": "pressure",
+          "why": "Social platforms becoming discovery gatekeepers could pressure Netflix's ability to launch new titles.",
+          "quote": "59% of viewers 13-24 said they often discover new TV show and movies by watching clips on social video platforms",
+          "url": "https://www.streamtvinsider.com/content/social-video-presents-competition-opportunity-streamers-hub",
+          "publisher": "streamtvinsider.com",
+          "as_of": "2026-01-27",
+          "age_days": 268,
+          "undated": false,
+          "drop_reason": "stale (268 days old)"
+        }
+      ],
+      "stale_dropped": 5,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "streaming video subscription fatigue household entertainment budgets 2026 survey",
+        "connected TV advertising market 2026 2027 spending forecast",
+        "short-form video competition streaming engagement 2026 TikTok YouTube",
+        "Netflix NFLX live sports rights costs streaming competition 2026"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In 2026, U.S. CTV ad spend is forecast to reach $36.95 billion, the global top market.",
+          "stance": "support",
+          "why": "A larger CTV ad pool supports Netflix's ad-tier monetization as it scales.",
+          "quote": "US connected TV (CTV) ad spend will top the global charts in 2026 at $36.95 billion",
+          "url": "https://www.emarketer.com/content/exclusive-forecast-global-ctv-ad-spend-accelerates-emerging-markets-scale-",
+          "publisher": "emarketer.com",
+          "as_of": "2026-08-21",
+          "age_days": 62,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, Netflix says live programming helps draw in new subscribers.",
+          "stance": "support",
+          "why": "If live events add subscribers, sports costs may be offset by acquisition and retention.",
+          "quote": "live programming helps draw in new subscribers",
+          "url": "https://www.marketwatch.com/story/netflix-is-paying-up-for-costly-sports-rights-is-the-company-making-the-right-bets-9ce54df7",
+          "publisher": "marketwatch.com",
+          "as_of": "2026-07-18",
+          "age_days": 96,
+          "undated": false
+        },
+        {
+          "claim": "For 2026, Netflix expects live programming to take over 5% of content spend but generate about 1% of view hours.",
+          "stance": "pressure",
+          "why": "The mismatch can pressure content margins if live sports costs rise faster than engagement.",
+          "quote": "Netflix expects live programming to absorb just over 5% of 2026 content spend while generating only about 1% of view hours.",
+          "url": "https://finance.yahoo.com/media-advertising/articles/rising-live-sports-costs-margin-141200448.html",
+          "publisher": "finance.yahoo.com",
+          "as_of": "2026-10-06",
+          "age_days": 16,
+          "undated": false
+        },
+        {
+          "claim": "In October 2026, Netflix announced it acquired Spanish rights to the 2030 World Cup.",
+          "stance": "pressure",
+          "why": "Adding long-term regional sports rights raises future content-cost commitments.",
+          "quote": "Netflix last week announced it had acquired Spanish rights to 2030 World Cup",
+          "url": "https://www.irishtimes.com/media/2026/10/20/more-market-disruption-ahead-as-streamers-go-after-live-sports/",
+          "publisher": "irishtimes.com",
+          "as_of": "2026-10-20",
+          "age_days": 2,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2025, U.S. household streaming spend stayed flat at $69 per month, limiting room for price increases.",
+          "stance": "pressure",
+          "why": "Flat budgets can cap Netflix's ability to raise prices without triggering more churn.",
+          "quote": "American households on average spent $69 per month in 2025 on streaming video services \u2014 the same as they did the year prior",
+          "url": "https://variety.com/2026/tv/news/how-much-us-households-spend-streaming-video-deloitte-study-1236694151/",
+          "publisher": "variety.com",
+          "as_of": "2026-03-25",
+          "age_days": 211,
+          "undated": false,
+          "drop_reason": "stale (211 days old)"
+        },
+        {
+          "claim": "As of the March 2026 report, 68% of U.S. streaming subscribers paid for ad tiers, up from 54% in 2024.",
+          "stance": "support",
+          "why": "Higher ad-tier adoption expands Netflix's advertising inventory and revenue per subscriber.",
+          "quote": "Around two-thirds (68%) of U.S. streaming subscribers now pay for an ad tier, up from 54% in 2024 and 46% the year prior.",
+          "url": "https://variety.com/2026/tv/news/how-much-us-households-spend-streaming-video-deloitte-study-1236694151/",
+          "publisher": "variety.com",
+          "as_of": "2026-03-25",
+          "age_days": 211,
+          "undated": false,
+          "drop_reason": "stale (211 days old)"
+        },
+        {
+          "claim": "In 2025, 30% of consumers cited household expenses as the top reason for canceling streaming, up from 26% in 2020.",
+          "stance": "pressure",
+          "why": "Affordability-driven churn pressures Netflix subscriber retention and pricing power.",
+          "quote": "in 2025, 30% of consumers cite cutting household expenses as the top reason for canceling a streaming service, up from 26% in 2020.",
+          "url": "https://www.tvtechnology.com/insights/analysis/parks-budget-pressures-force-30-percent-of-consumers-to-cancel-streaming-services",
+          "publisher": "tvtechnology.com",
+          "as_of": "2026-02-11",
+          "age_days": 253,
+          "undated": false,
+          "drop_reason": "stale (253 days old)"
+        },
+        {
+          "claim": "In late 2025, surveyed streamers were gravitating toward free platforms and larger screens.",
+          "stance": "pressure",
+          "why": "Free-platform competition can divert viewing time and ad dollars from Netflix's paid tiers.",
+          "quote": "gravitating toward larger screens, free platforms, and fandom-driven programming",
+          "url": "https://www.netinfluencer.com/streaming-audiences-gravitate-toward-bigger-screens-free-platforms-as-viewing-habits-shift-survey-finds/",
+          "publisher": "netinfluencer.com",
+          "as_of": "2026-03-17",
+          "age_days": 219,
+          "undated": false,
+          "drop_reason": "stale (219 days old)"
+        },
+        {
+          "claim": "In 2026, 70% of CTV advertisers plan to raise spending by an average of 17%.",
+          "stance": "support",
+          "why": "Higher advertiser budgets can lift Netflix's ad-tier revenue and CPMs.",
+          "quote": "Seven in ten connected TV advertisers plan to increase their CTV spending this year by an average of 17%",
+          "url": "https://www.adworldnews.com/news/ctv-advertisers-increase-spending-2026",
+          "publisher": "adworldnews.com",
+          "as_of": "2026-03-25",
+          "age_days": 211,
+          "undated": false,
+          "drop_reason": "stale (211 days old)"
+        }
+      ],
+      "stale_dropped": 5,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 2027 consumer entertainment spending streaming subscription fatigue household budgets",
+        "2026 2027 connected TV advertising budgets growth ad-supported streaming market",
+        "2026 2027 YouTube TikTok gaming short-form video competition streaming watch time",
+        "2026 2027 live sports streaming rights costs pay TV cord cutting media industry"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In July 2026, subscription spending rose 7.7% YoY, outpacing overall card spending.",
+          "stance": "support",
+          "why": "Sustained subscription demand supports Netflix subscriber and revenue growth.",
+          "quote": "Subscription spending rose 7.7% year-over-year (YoY) in July 2026",
+          "url": "https://institute.bankofamerica.com/content/dam/economic-insights/consumer-subscription-spending.pdf",
+          "publisher": "institute.bankofamerica.com",
+          "as_of": "2026-09-02",
+          "age_days": 50,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, 7 in 10 Americans say they cut back spending on extras.",
+          "stance": "pressure",
+          "why": "This consumer pullback can pressure Netflix subscription and revenue growth.",
+          "quote": "7 in 10 Americans say they cut back spending on extras",
+          "url": "https://www.pewresearch.org/chart/7-in-10-americans-say-they-cut-back-spending-on-extras/",
+          "publisher": "pewresearch.org",
+          "as_of": "2026-10-14",
+          "age_days": 8,
+          "undated": false
+        },
+        {
+          "claim": "In Q3 2026, average household subscription spending rose 14.5% YoY to $176.44.",
+          "stance": "support",
+          "why": "Price-led spending growth supports Netflix revenue if churn stays contained.",
+          "quote": "Estimated average monthly spending reached $176.44, up 14.5% year over year",
+          "url": "https://digitalcontentnext.org/blog/2026/10/12/higher-prices-lift-spending-as-subscription-habits-shift/",
+          "publisher": "digitalcontentnext.org",
+          "as_of": "2026-10-12",
+          "age_days": 10,
+          "undated": false
+        },
+        {
+          "claim": "In Q3 2026, ad-supported streaming is becoming more popular in household subscription mix.",
+          "stance": "support",
+          "why": "Rising ad-tier adoption supports Netflix's advertising revenue growth.",
+          "quote": "ad-supported streaming becoming more popular",
+          "url": "https://digitalcontentnext.org/blog/2026/10/12/higher-prices-lift-spending-as-subscription-habits-shift/",
+          "publisher": "digitalcontentnext.org",
+          "as_of": "2026-10-12",
+          "age_days": 10,
+          "undated": false
+        },
+        {
+          "claim": "In the 2026-27 upfront, streaming captured more primetime ad dollars than linear TV for the first time.",
+          "stance": "support",
+          "why": "Advertiser budgets shifting to streaming support Netflix's ad-supported tier revenue.",
+          "quote": "for the first time, streaming captured more primetime upfront ad dollars than linear TV",
+          "url": "https://www.mediadynamicsinc.com/uploads/files/UPFRONT-PRESS-RELEASE-d3w.pdf",
+          "publisher": "mediadynamicsinc.com",
+          "as_of": "2026-08-11",
+          "age_days": 72,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

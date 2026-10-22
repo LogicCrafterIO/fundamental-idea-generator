@@ -1,0 +1,767 @@
+{
+  "ticker": "MNST",
+  "direction": "long",
+  "as_of": "2026-10-22",
+  "description": "Energy drink company; Monster, Reign, Bang and NOS brands, distributed mainly through Coca-Cola's bottling network in the US and abroad.",
+  "catalyst": {
+    "date": "2026-11-05",
+    "weekday": "Thursday",
+    "session": null,
+    "days_out": 14,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.3
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 0.29,
+        "eps_actual": 0.3,
+        "surprise_pct": 1.84,
+        "beat": true
+      },
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 0.26,
+        "eps_actual": 0.29,
+        "surprise_pct": 10.16,
+        "beat": true
+      },
+      {
+        "date": "2026-02-26",
+        "eps_estimate": 0.24,
+        "eps_actual": 0.23,
+        "surprise_pct": -4.5,
+        "beat": false
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 0.24,
+        "eps_actual": 0.27,
+        "surprise_pct": 9.22,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "median_gap_days": 91,
+    "facts_line": "2026-11-05 (Thursday), 14 days out -- from the earnings calendar, consensus EPS 0.3.",
+    "why": "The 2026-11-05 report must show international growth near 30% and gross profit still outgrowing revenue."
+  },
+  "reasons": [
+    "International sales grew 35% in Q2 against 20.2% for the group, so the new-entrant fight with Phorm sits in the slower half of the business.",
+    "US caffeinated beverage spending is projected to grow 6% a year through 2030, and consumers are adding caffeine occasions rather than swapping coffee, so volume is not a fixed pool.",
+    "Gross profit rose 20.7% year over year against 20.2% revenue growth in Q2 \u2014 neither Phorm's launch nor sweetener skepticism has cost gross margin yet."
+  ],
+  "watch": [
+    "International sales growth: confirms at 30%-plus (Q2: 35%); breaks if it converges toward the 20.2% group rate.",
+    "Gross profit versus revenue: confirms at or above parity (Q2: 20.7% vs 20.2%); breaks on any gross margin contraction.",
+    "US volume: confirms growth with Phorm on shelf; breaks if North American case volume turns negative.",
+    "Q3 EPS against 0.30029 and revenue against 2.49B; a miss ends the two-quarter beat streak."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S9",
+        "kind": "nasdaq",
+        "ref": "news:4",
+        "label": "Zacks: MNST's International Sales Surge 35%: Is Global Expansion Paying Off?",
+        "provider": null,
+        "url": "/articles/mnsts-international-sales-surge-35-global-expansion-paying",
+        "date": "Sep 17, 20"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "MNST quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/mnst/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S31",
+        "kind": "ollama_search",
+        "ref": "web:11",
+        "label": "investors.monsterbevcorp.com: Monster Beverage Reports 2026 Second Quarter Financial Results | Monster Energy Company",
+        "provider": "investors.monsterbevcorp.com",
+        "url": "https://investors.monsterbevcorp.com/news-releases/news-release-details/monster-beverage-reports-2026-second-quarter-financial-results",
+        "date": "2026-08-06"
+      },
+      {
+        "id": "S38",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "nacsmagazine.com: In Jan 2026, Anheuser-Busch's Phorm Energy became a top-15 brand less than a year after launch.",
+        "provider": "nacsmagazine.com",
+        "url": "https://www.nacsmagazine.com/Issues/May-2026/What%E2%80%99s-Trending-in-Energy-Drinks",
+        "date": "2026-05-01"
+      }
+    ],
+    [
+      {
+        "id": "S35",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "morganstanley.com: As of Sep 2026, U.S. caffeinated beverage spending is projected to grow 6% annually through 2030.",
+        "provider": "morganstanley.com",
+        "url": "https://www.morganstanley.com/insights/articles/caffeine-market-outlook-outpace-industry-2026",
+        "date": "2026-09-02"
+      },
+      {
+        "id": "S36",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "morganstanley.com: As of Sep 2026, most consumers are adding new caffeine occasions rather than replacing coffee.",
+        "provider": "morganstanley.com",
+        "url": "https://www.morganstanley.com/insights/articles/caffeine-market-outlook-outpace-industry-2026",
+        "date": "2026-09-02"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "MNST quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/mnst/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S38",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "nacsmagazine.com: In Jan 2026, Anheuser-Busch's Phorm Energy became a top-15 brand less than a year after launch.",
+        "provider": "nacsmagazine.com",
+        "url": "https://www.nacsmagazine.com/Issues/May-2026/What%E2%80%99s-Trending-in-Energy-Drinks",
+        "date": "2026-05-01"
+      },
+      {
+        "id": "S39",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "store.mintel.com: In 2026, rising consumer skepticism is making artificial sweeteners a liability in U.S. energy drinks.",
+        "provider": "store.mintel.com",
+        "url": "https://store.mintel.com/report/us-energy-drinks-market-report",
+        "date": null
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for MNST",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MNST/key-statistics/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for MNST",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MNST/analysis/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "MNST quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mnst/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "MNST earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mnst/earnings",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "NASDAQ.com: After Hours Most Active for Aug 24, 2026 :  NVDA, PLTR, HAL, AAPL, MNST, GOOGL, SLB, SAN, OGG, T, F, INTC",
+      "provider": null,
+      "url": "/articles/after-hours-most-active-aug-24-2026-nvda-pltr-hal-aapl-mnst-googl-slb-san-ogg-t-f-intc",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "The Motley Fool: Monster Beverage's 2-for-1 Stock Split Is Now Complete. Here's What Comes Next for Investors.",
+      "provider": null,
+      "url": "/articles/monster-beverages-2-1-stock-split-now-complete-heres-what-comes-next-investors",
+      "date": "Aug 25, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "The Motley Fool: If You'd Invested $1,000 in Monster Beverage Stock 20 Years Ago, Here's How Much You'd Have Today",
+      "provider": null,
+      "url": "/articles/if-youd-invested-1000-monster-beverage-stock-20-years-ago-heres-how-much-youd-have-today",
+      "date": "Sep 12, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "The Motley Fool: Where Will Monster Beverage Stock Be in 1 Year?",
+      "provider": null,
+      "url": "/articles/where-will-monster-beverage-stock-be-1-year",
+      "date": "Sep 12, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: MNST's International Sales Surge 35%: Is Global Expansion Paying Off?",
+      "provider": null,
+      "url": "/articles/mnsts-international-sales-surge-35-global-expansion-paying",
+      "date": "Sep 17, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Should You Avoid Monster Beverage Stock, Even With Revenue Growing at 20%?",
+      "provider": null,
+      "url": "/articles/should-you-avoid-monster-beverage-stock-even-revenue-growing-20",
+      "date": "Sep 7, 202"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Monster Beverage Trading Above 200 & 50-Day SMA: Is it Time to Buy?",
+      "provider": null,
+      "url": "/articles/monster-beverage-trading-above-200-50-day-sma-it-time-buy",
+      "date": "Aug 25, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Will Monster Beverage's Expansion and Innovation Fuel Growth?",
+      "provider": null,
+      "url": "/articles/will-monster-beverages-expansion-and-innovation-fuel-growth",
+      "date": "Aug 31, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Coca-Cola Margin Outlook: Pricing Power or Cost Relief Driving Gains?",
+      "provider": null,
+      "url": "/articles/coca-cola-margin-outlook-pricing-power-or-cost-relief-driving-gains",
+      "date": "Aug 31, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: PepsiCo's North America Challenge: Temporary or Structural?",
+      "provider": null,
+      "url": "/articles/pepsicos-north-america-challenge-temporary-or-structural",
+      "date": "Sep 1, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Coca-Cola's Digital Strategy: Driving Sales or Just Hype?",
+      "provider": null,
+      "url": "/articles/coca-colas-digital-strategy-driving-sales-or-just-hype",
+      "date": "Sep 14, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: PepsiCo Trades Below 50-Day SMA: Opportunity or Warning Sign?",
+      "provider": null,
+      "url": "/articles/pepsico-trades-below-50-day-sma-opportunity-or-warning-sign",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Is Coca-Cola Stock Worth Buying After 11% Rally in 3 Months?",
+      "provider": null,
+      "url": "/articles/coca-cola-stock-worth-buying-after-11-rally-3-months",
+      "date": "Sep 16, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Coca-Cola's Premiumization Push: Smart Strategy or Risky Move?",
+      "provider": null,
+      "url": "/articles/coca-colas-premiumization-push-smart-strategy-or-risky-move",
+      "date": "Sep 8, 202"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: My Top Dividend Growth Stock to Buy in September and Hold Forever",
+      "provider": null,
+      "url": "/articles/my-top-dividend-growth-stock-buy-september-and-hold-forever",
+      "date": "Sep 9, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "eightx.co: Monster (MNST) Teardown: The Margin and Share Test | Eightx",
+      "provider": "eightx.co",
+      "url": "https://eightx.co/blog/monster-beverage-teardown",
+      "date": "2026-02-27"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "wsj.com: MNST | Monster Beverage Corp. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/MNST/research-ratings",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "xxquant.com: Monster Beverage Corp. (MNST.US): Q2 Results Beat Expectations Across the Board, with Monster Beverage\u2019s Global Volume Growth and Innovation Momentum Continuing to Strengthen | Report Interpretation | Hilo Research",
+      "provider": "xxquant.com",
+      "url": "https://www.xxquant.com/en/institution/institutional-research/e00a3b326011c0176546dfa0a7524b6a",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Monster Beverage: Fairly Valued While A Consumer Storm Keeps Brewing (NASDAQ:MNST) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4946969-monster-beverage-fairly-valued-while-a-consumer-storm-keeps-brewing",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "chartmill.com: MNST Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/MNST/analyst-ratings",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "tickernerd.com: MNST Stock Forecast 2026-2027 - Monster Beverage Corp. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/mnst-forecast/",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Monster Beverage (MNST) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/mnst/forecast/",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "investing.com: Monster Beverage (MNST) Stock Forecast & Price Target - Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/equities/monster-beverage-consensus-estimates",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "investing.com: Piper Sandler reiterates Monster Beverage stock rating on category growth By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-reiterates-monster-beverage-stock-rating-on-category-growth-93CH-4957866",
+      "date": null
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "sec.gov: Monster Beverage Corp_September 30, 2025",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465925107944/mnst-20250930x10q.htm",
+      "date": "2025-09-30"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investors.monsterbevcorp.com: Form 10-K for Monster Beverage Corp filed 02/27/2026",
+      "provider": "investors.monsterbevcorp.com",
+      "url": "https://investors.monsterbevcorp.com/static-files/e2ef44ea-49de-450f-9347-a0e790a51703",
+      "date": "2025-12-31"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "investors.monsterbevcorp.com: Monster Beverage Reports 2026 Second Quarter Financial Results | Monster Energy Company",
+      "provider": "investors.monsterbevcorp.com",
+      "url": "https://investors.monsterbevcorp.com/news-releases/news-release-details/monster-beverage-reports-2026-second-quarter-financial-results",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: Earnings call transcript: Monster Beverage tops Q2 2026 forecasts as sales hit record By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-monster-beverage-tops-q2-2026-forecasts-as-sales-hit-record-93CH-4844692",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "finance.yahoo.com: Monster Beverage Beats Q2 Earnings on Broad-Based Sales Growth",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/monster-beverage-beats-q2-earnings-164300309.html",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "ad-hoc-news.de: Citi raises Monster Beverage target from USD 56.50 to USD 57.00 for Monster Beverage stock",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/citi-raises-monster-beverage-target-from-usd-56-50-to-usd-57-00-for-monster-beverage-stock/70326532",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "morganstanley.com: As of Sep 2026, U.S. caffeinated beverage spending is projected to grow 6% annually through 2030.",
+      "provider": "morganstanley.com",
+      "url": "https://www.morganstanley.com/insights/articles/caffeine-market-outlook-outpace-industry-2026",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "morganstanley.com: As of Sep 2026, most consumers are adding new caffeine occasions rather than replacing coffee.",
+      "provider": "morganstanley.com",
+      "url": "https://www.morganstanley.com/insights/articles/caffeine-market-outlook-outpace-industry-2026",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "morganstanley.com: As of Sep 2026, U.S. consumers are drinking energy drinks more frequently, and Millennials and older Gen Z maintain consumption as they age.",
+      "provider": "morganstanley.com",
+      "url": "https://www.morganstanley.com/insights/articles/caffeine-market-outlook-outpace-industry-2026",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "nacsmagazine.com: In Jan 2026, Anheuser-Busch's Phorm Energy became a top-15 brand less than a year after launch.",
+      "provider": "nacsmagazine.com",
+      "url": "https://www.nacsmagazine.com/Issues/May-2026/What%E2%80%99s-Trending-in-Energy-Drinks",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "store.mintel.com: In 2026, rising consumer skepticism is making artificial sweeteners a liability in U.S. energy drinks.",
+      "provider": "store.mintel.com",
+      "url": "https://store.mintel.com/report/us-energy-drinks-market-report",
+      "date": null
+    },
+    {
+      "id": "S40",
+      "kind": "options",
+      "ref": "options",
+      "label": "MNST listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MNST/options/",
+      "date": "2026-10-22"
+    }
+  ],
+  "quants": {
+    "price": 46.63,
+    "market_cap": "91.35B",
+    "fwd_pe": 40.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 9.9,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "evenly split, with 1 up and 1 down over last 30 days",
+    "extra": [
+      "Interest Expense +33% quarter over quarter but -56% year over year (2026-06-30)",
+      "Last quarter total revenue increasing 8% quarter over quarter (6/30/2026)",
+      "Last quarter total equity increasing 7% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.25 -> 0.3"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 7.8,
+        "yoy_pct": 20.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 2.6,
+        "yoy_pct": 19.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 2.4,
+        "yoy_pct": 18.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 2.5,
+        "yoy_pct": 18.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 1.4,
+        "yoy_pct": 17.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 9.8,
+        "yoy_pct": 20.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 33.3,
+        "yoy_pct": -55.6,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": 25.9,
+        "yoy_pct": 98.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 10.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 26.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 26.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 26.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 25.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 25.3,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 14,
+    "bar": {
+      "date": "2026-11-06",
+      "eps_avg": 0.30029,
+      "eps_low": 0.29,
+      "eps_high": 0.34,
+      "revenue_avg": 2492065030
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Mar-27",
+        "strike": 50.0,
+        "qty": 16,
+        "underlying": 46.63,
+        "multiplier": 100,
+        "price": 2.71,
+        "total": 4336.0,
+        "open_interest": 192.0
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 50.0,
+        "qty": 8,
+        "underlying": 46.63,
+        "multiplier": 100,
+        "price": 0.7,
+        "total": -560.0,
+        "open_interest": 1454
+      }
+    ],
+    "thesis_target": "Targets the 2027-02-05 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
+    "reflection": "The short 50s expire 2026-11-20, two weeks after the print, so the structure sells the catalyst and caps a move the $49.85 average target barely reaches. Credit ratio is 0% against a 10% floor \u2014 this is a debit spread, and the $3,776 is the whole risk."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 12,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 5,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "april",
+          "beverage",
+          "category",
+          "forecast",
+          "retailers",
+          "store",
+          "traffic"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 80,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "accelerated",
+          "beverage",
+          "channel",
+          "trade"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "beverage",
+          "brand",
+          "caffeinated",
+          "caffeine",
+          "coffee",
+          "consumer",
+          "consumers",
+          "launch",
+          "occasions",
+          "phorm",
+          "projected",
+          "rather",
+          "skepticism"
+        ]
+      }
+    ]
+  }
+}
