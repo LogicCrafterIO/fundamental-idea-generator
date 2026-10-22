@@ -1,0 +1,1599 @@
+{
+  "symbol": "PDD",
+  "as_of": "2026-10-22",
+  "generated_at": "2026-10-22T20:23:12",
+  "profile": {
+    "symbol": "PDD",
+    "name": "PDD Holdings Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "summary": "PDD Holdings Inc., a multinational commerce group that owns and operates a portfolio of businesses. The company operates Pinduoduo platform, which provides various product categories and interactive shopping experiences; and Temu, an online platform, which enables merchants to streamline their manufacturing and commercial operations. The company was formerly known as Pinduoduo Inc. and changed its name to PDD Holdings Inc. in February 2023. PDD Holdings Inc. was incorporated in 2015 and is based in Dublin, Ireland.",
+    "employees": 25474,
+    "country": "Ireland",
+    "website": "https://www.pddholdings.com"
+  },
+  "quants": {
+    "symbol": "PDD",
+    "name": "PDD Holdings Inc.",
+    "price": 78.72,
+    "market_cap": 112049774592,
+    "market_cap_human": "112.05B",
+    "fwd_pe": 1.15,
+    "fwd_pe_1y": 0.95,
+    "fwd_pe_yahoo": 6.36627,
+    "trailing_pe": 8.854893,
+    "ps": 0.24857101,
+    "ev_ebitda": -3.439,
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "eps_fy_current": 68.5721,
+    "eps_fy_next": 82.57704,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": 0.0,
+      "current": 68.5721,
+      "7d_ago": 68.5721,
+      "30d_ago": 68.5721,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 0,
+      "down_7d": 2,
+      "up_30d": 12,
+      "down_30d": 13,
+      "net_30d": -1,
+      "text": "evenly split, with 12 up and 13 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-11-18"
+      ],
+      "next_date": "2026-11-18",
+      "eps_avg": 18.84143,
+      "eps_low": 16.789,
+      "eps_high": 21.22954,
+      "revenue_avg": 115643262410
+    },
+    "as_of": "2026-10-22"
+  },
+  "quants_lines": [
+    "Price: 78.72 USD",
+    "Market Cap: 112.05B",
+    "Fwd PE: 1.15",
+    "P/S: 0.2",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: evenly split, with 12 up and 13 down over last 30 days"
+  ],
+  "fundamental_deltas": [],
+  "eps_yoy": {
+    "period": "2026-05-27T06:00:00-04:00",
+    "current": 9.51,
+    "year_ago": 11.41,
+    "year_ago_period": "2025-05-27T06:00:00-04:00",
+    "change": -1.9,
+    "direction": "declined"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 112358000000.0,
+      "prior": 106229000000.0,
+      "qoq_pct": 5.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 103985000000.0,
+      "yoy_pct": 8.1,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 27182000000.0,
+      "prior": 12547000000.0,
+      "qoq_pct": 116.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 30754000000.0,
+      "yoy_pct": -11.6,
+      "conflict": true
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 27764000000.0,
+      "prior": 17390000000.0,
+      "qoq_pct": 59.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 25793000000.0,
+      "yoy_pct": 7.6,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 27764000000.0,
+      "prior": 19566000000.0,
+      "qoq_pct": 41.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 25793000000.0,
+      "yoy_pct": 7.6,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 64341000000.0,
+      "prior": 59336000000.0,
+      "qoq_pct": 8.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 58126000000.0,
+      "yoy_pct": 10.7,
+      "conflict": false
+    },
+    {
+      "label": "Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 13505000000.0,
+      "prior": null,
+      "qoq_pct": null,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 10423000000.0,
+      "yoy_pct": 29.6,
+      "conflict": false
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 13505000000.0,
+      "prior": -632000000.0,
+      "qoq_pct": 2236.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 10423000000.0,
+      "yoy_pct": 29.6,
+      "conflict": false
+    },
+    {
+      "label": "Selling General And Administration",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 32010000000.0,
+      "prior": 35352000000.0,
+      "qoq_pct": -9.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 28742000000.0,
+      "yoy_pct": 11.4,
+      "conflict": true
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 431845713000.0,
+      "prior": 393836097000.0,
+      "change_pct": 9.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 97842539000.0,
+      "prior": 112434512000.0,
+      "change_pct": -13.0,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 25583848000.0,
+      "prior": 20553493000.0,
+      "change_pct": 24.5,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 25583848000.0,
+      "prior": 20553493000.0,
+      "change_pct": 24.5,
+      "direction": "increasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 93102131000.0,
+      "prior": 108422862000.0,
+      "change_pct": -14.1,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 97842539000.0,
+      "prior": 112434512000.0,
+      "change_pct": -13.0,
+      "direction": "decreasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-11-18",
+    "eps_avg": 18.84143,
+    "eps_low": 16.789,
+    "eps_high": 21.22954,
+    "revenue_avg": 115643262410
+  },
+  "news": [
+    {
+      "title": "PDD Holdings Inc. (PDD) Stock Analysis | MarketStory",
+      "publisher": "marketstory.com",
+      "url": "https://marketstory.com/stock/pdd",
+      "summary": "PDD Holdings Inc. (PDD) Stock Analysis | MarketStory\n\n# PDD Holdings Inc.\n\nPDD operates an e-commerce platform for group buying and social shopping of discounted products.\n\nThe Story So Far: Investors are weighing a business with about half its market value in cash and single-digit earnings multiples against slowing growth and compressing margins. The bull argument rests on balance-sheet safety and Temu's rapid expansion, while the bear argument centers on Temu's buildout costs, tariffs, and China-related structural and geopolitical risk.\n\nNot investment advice, not affiliated with any investo",
+      "published": null,
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "valuation_dispersion",
+        "regulation"
+      ]
+    },
+    {
+      "title": "PDD: Has the Maverick Gone Mediocre?--- | Longbridge",
+      "publisher": "longbridge.com",
+      "url": "https://longbridge.com/dolphin/post/39520874",
+      "summary": "PDD: Has the Maverick Gone Mediocre?--- | Longbridge\n\nMar 25 at 10:57 AM\n\n# PDD: Has the Maverick Gone Mediocre?---\n\nPre-mkt on Mar 25,$PDD(PDD.US) (PDD) released Q4 2025 results, marking a second straight quarter broadly in line with the Street. The company now looks like the most focused and value-oriented e-comm player in China. Performance highlights:\n\n1) Top-line recovery, domestic soft, overseas strong: Total revenue was approx. RMB 123.9bn (+12% YoY), essentially in line. Growth accelerated vs. last quarter. The mix skewed weaker domestically in a tough 4Q for China e-comm, while Temu o",
+      "published": "2025-10-01",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4940306-pdd-holdings-downgrade-to-hold-core-ad-deceleration-and-1p-pivot-cloud-risk-reward",
+      "summary": "PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha\n\n# PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade)\n\nAug 26, 2026, 7:47 AM ET PDD Holdings Inc. (PDD) Stock 1 Comment 1 Like\n\nAstrada Advisors\n\n## Summary\n\n- PDD Holdings is downgraded to Hold following Q2 2026 results that missed consensus, with online marketing revenue moderating and regulatory risks rising.\n- PDD's shift from an asset-light to asset-heavy model, uncertain ROI on its RMB100bn supply chain investment, and intensifying competition are w",
+      "published": "2026-04-21",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "regulation",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-cuts-pt-pdd-holdings-121521572.html",
+      "summary": "BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why\n\n# BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why\n\n Noor Ul Ain Rehman June 24, 2026 2 min read\n\nPDD Holdings Inc. (NASDAQ: PDD) is one of the top high-conviction stocks to buy according to hedge funds. BofA cut the price target on PDD Holdings Inc. (NASDAQ:PDD) to $113 from $140 on June 15 and maintained a Neutral rating on the shares. The firm told investors that it lowered its 2026-27 revenue forecasts by 6% and adjusted its net profit view by 21%-22% to take into account the increased ecosystem investments, which include commission rebates, ",
+      "published": "2026-06-24",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "PDD Holdings Inc.: Target Price Consensus and Analysts Recommendations | PDD | US7223041028 | MarketScreener",
+      "publisher": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/PDD-HOLDINGS-INC-45049866/consensus/",
+      "summary": "PDD Holdings Inc.: Target Price Consensus and Analysts Recommendations | PDD | US7223041028 | MarketScreener\n\n## Internet Services \n\n| Market Closed - Nasdaq Other stock markets 04:00:00 2026-08-07 pm EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 91.76 USD | +1.00% | | +3.61% | -19.08% |\n\n| Aug. 03 | EU Accuses Temu of Obstructing Inspection | MT |\n| --- | --- | --- |\n| Jul. 31 | Temu hit with EU charges for not cooperating in December raid | RE |\n\n### Evolution of the Average Target: PDD Holdings Inc.\n\n### Changes in Analyst Recommendations: PDD Holdings Inc.\n\n3b",
+      "published": "2026-08-07",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results | PDD Holdings",
+      "publisher": "investor.pddholdings.com",
+      "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-second-quarter-2026-unaudited-financial/",
+      "summary": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results | PDD Holdings\n\nPDD Holdings Announces Second Quarter 2026 Unaudited Financial Results\n\nAugust 24, 2026 \n\nDUBLIN and SHANGHAI, Aug. 24, 2026 (GLOBE NEWSWIRE) -- PDD Holdings Inc. (\u201cPDD Holdings\u201d or the \u201cCompany\u201d) (NASDAQ: PDD), today announced its unaudited financial results for the second quarter ended June 30, 2026.\n\nSecond Quarter 2026 Highlights\n\n- Total revenues in the quarter were RMB112.4 billion (US$ 1 16.6 billion), an increase of 8% from RMB104.0 billion in the same quarter of 2025. \n- Operating profit in the quar",
+      "published": "2026-08-24",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition | Reuters",
+      "publisher": "reuters.com",
+      "url": "https://www.reuters.com/business/retail-consumer/temu-owner-pdd-misses-quarterly-revenue-estimates-2026-08-24/",
+      "summary": "Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition | Reuters\n\n# Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition\n\nBy Harshita Mary Varghese and Casey Hall\n\nAugust 24, 2026 10:36 AM UTC Updated August 24, 2026\n\nTemu logo is seen in this illustration taken, Bosnia and Herzegovina May 4, 2025. REUTERS/Dado Ruvic/Illustration Purchase Licensing Rights, opens new tab\n\n- Quarterly revenue totals 112.36 billion yuan\n- Misses 116.35 billion yuan analyst estimate from LSEG\n- Net income attributable to ordinary shareholders falls 12% ",
+      "published": "2026-08-24",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4939618-pdd-holdings-inc-pdd-q2-2026-earnings-call-transcript",
+      "summary": "PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript | Seeking Alpha\n\n# PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript\n\nAug 24, 2026, 1:11 PM ET PDD Holdings Inc. (PDD) Stock\n\n> ### Q2: 2026-08-24 Earnings Summary\n> \n> Play Call Play Call\n> \n> PR\n> \n> EPS of $2.88 beats by $0.15 \n> \n> | Revenue of $16.72B (14.95% Y/Y) misses by $221.06M\n\nPDD Holdings Inc. (PDD) Q2 2026 Earnings Call August 24, 2026 7:30 AM EDT\n\nCompany Participants\n\nJiazhen Zhao - Co-CEO & Co-Chairman of the Board Lei Chen - General Counsel, Co-CEO & Co-Chairman of the Board Jun Liu - Vice President of Finance \n\n",
+      "published": "2026-08-24",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PDD Q2 Earnings Call Highlights",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/pdd-q2-earnings-call-highlights-2026-08-24/?.tsrc=rss",
+      "summary": "Skip to main content\n\n\u2192 Bank of America: 'Digital Dollar Inevitable' (From Decentralized Masters) (Ad)\n\n# PDD Q2 Earnings Call Highlights\n\nWritten by MarketBeat\n\nAugust 24, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- PDD\u2019s Q2 revenue rose 8% to RMB112.4 billion, led by a 13% increase in transaction-services revenue to RMB54.7 billion. Net inc",
+      "published": "2026-08-24",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "PDD After Q2: The Market Is Pricing In a Collapse | GNG Research",
+      "publisher": "gngresearch.com",
+      "url": "https://www.gngresearch.com/articles/pdd-after-q2-the-market-is-pricing-in-a-collapse-the-numbers/",
+      "summary": "PDD After Q2: The Market Is Pricing In a Collapse | GNG Research\n\n# PDD After Q2: The Market Is Pricing In a Collapse the Numbers Don't Show\n\n- Earnings decline driven by discretionary opex, not gross margin - R&D +40%, G&A >2x, S&M +10% and 26% of revenue, operating margin recovered to 24.7%\n- Q2 revenue RMB112.4bn, up 8% but below RMB114-115bn est; net income -12% to RMB27.2bn, non-GAAP EPS RMB19.33 per ADS vs est RMB18.35\n- Demand signals weakening - transaction services +13% to RMB54.7bn, online marketing +3.4% to RMB57.6bn; transaction growth slowed from 20% in Q1 to 13%\n- EU low-value cr",
+      "published": "2026-09-01",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "PDDN.MX | PDD Holdings Inc. ADR Analyst Estimates & Ratings \u2013 WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/MX/XMEX/PDDN/research-ratings",
+      "summary": "PDDN.MX | PDD Holdings Inc. ADR Analyst Estimates & Ratings \u2013 WSJ\n\n# PDD Holdings Inc. ADR PDDN (Mexico) \n\n- ##### 2:23 PM CST 10/16/26 \n- 1,496.87 MXN \n- -23.57 -1.55% \n- ##### Volume 285 \n\n- Volume 285 \n- 65 Day Avg Vol 1,422 \n- 1 Day Range 1,497.00 - 1,510.00 \n- 52 Week Range 1,314.00 - 2,555.00 (06/29/26 - 10/30/25) \n\n- $\n- %\n\nOct 12 Oct 13 Oct 14 Oct 15 Oct 16 $1 475$1 500$1 525$1 550\n\n- Open 1,510.00\n- Prior Close 1,520.44 (10/15/26)\n\n- 1 Day\n- PDDN -1.55% \n- DJIA -0.34% \n- S&P 500 -1.09% \n- Retail/Wholesale -0.47% \n\n### Per-Share Earnings, Actuals & Estimates PDD Holdings Inc. ADR\n\n Act",
+      "published": "2026-10-12",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PDD Holdings (NasdaqGS:PDD) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-pdd/pdd-holdings/future",
+      "summary": "PDD Holdings (NasdaqGS:PDD) Stock Forecast & Analyst Predictions - Simply Wall St\n\n## Future criteria checks 1/6\n\nPDD Holdings is forecast to grow earnings and revenue by 13.1% and 8% per annum respectively. EPS is expected to grow by 12% per annum. Return on equity is forecast to be 16.9% in 3 years.\n\n## Key information\n\n13.1%\n\nEarnings growth rate\n\n12.03%\n\nEPS growth rate\n\n| Multiline Retail earnings growth | 10.5% |\n| --- | --- |\n| Revenue growth rate | 8.0% |\n| Future return on equity | 16.94% |\n| Analyst coverage | Good |\n| Last updated | 12 Oct 2026 |\n\n## Recent future growth updates\n\nAn",
+      "published": "2026-10-12",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-pdd/pdd-holdings/news/should-earnings-forecast-cut-require-action-from-pdd-holding",
+      "summary": "Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News\n\n# Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors?\n\n October 13, 2026\n\nSimply Wall St Reviewed by Sasha Jovanovic\n\n- PDD Holdings is in focus after analysts projected current quarter earnings of $2.77 per share with a 6.4% year over year decline and consensus sales estimates that point to 13.4% growth, alongside a recent downgrade in its blue chip ranking.\n- The mix of softer earnings expectations, ongoing top line expansion and ecosystem spending, plus new tokeni",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954834-pdd-holdings-cheap-for-a-reason-but-has-x-factor-upside",
+      "summary": "# PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha\n\nAuthor: Broken Moats\nPublished: 2026-10-16T17:00:52+00:00\nSource: seekingalpha.com (seekingalpha.com)\nLanguage: en\n\n## Story\n\nPDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha\n# PDD Holdings: Cheap For A Reason, But Has X-Factor Upside\nOct 16, 2026, 1:00 PM ET PDD Holdings Inc. (PDD) Stock\n## Summary\n* PDD Holdings faces growth and profit slowdowns as its core China business matures and overseas expansion encounters regulatory headwinds.\n* PDD's Q2 2026 revenue rose 8%",
+      "published": "2026-10-16",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "regulation"
+      ]
+    },
+    {
+      "title": "PDD Holdings (PDD) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/pdd/forecast/",
+      "summary": "PDD Holdings (PDD) Stock Forecast & Analyst Price Targets\n\n78.72 -2.91 (-3.56%) At close: Oct 21, 2026, 4:00 PM EDT\n\n76.86 -1.86 (-2.36%) Pre-market: Oct 22, 2026, 5:52 AM EDT\n\n# PDD Holdings Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 37 analysts polled by S&P Global, PDD Holdings stock has a consensus rating of \"Buy\" and an average price target of $114.82. The average 1-year stock price forecast is 45.86% higher than the current stock price, while the lowest is $85.41 (+8.50%) and the highest is $150.68 (+91.41%).\n\nPrice Target: $114.82 (+45.86%)\n\nAnalyst Consensus: Buy\n\n## Price T",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "PDD Holdings Inc. (PDD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    }
+  ],
+  "news_failures": [
+    {
+      "source": "nasdaq",
+      "error": "RuntimeError: GET failed after 3 attempts: https://api.nasdaq.com/api/news/topic/articlebysymbol?q=PDD|stocks&offset=0&limit=15"
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 9,
+        "share": 0.429,
+        "evidence": [
+          {
+            "title": "PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-21",
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-06-24",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "PDD Holdings Inc.: Target Price Consensus and Analysts Recommendations | PDD | US7223041028 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-08-07",
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition | Reuters",
+            "publisher": "reuters.com",
+            "published": "2026-08-24",
+            "matched": [
+              "estimate",
+              "misses"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.19,
+        "evidence": [
+          {
+            "title": "PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-21",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-06-24",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2026-10-13",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "PDD Holdings (PDD) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-21",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 3,
+        "share": 0.143,
+        "evidence": [
+          {
+            "title": "PDD Holdings Inc. (PDD) Stock Analysis | MarketStory",
+            "publisher": "marketstory.com",
+            "published": null,
+            "matched": [
+              "tariff"
+            ]
+          },
+          {
+            "title": "PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-21",
+            "matched": [
+              "regulat"
+            ]
+          },
+          {
+            "title": "PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-16",
+            "matched": [
+              "regulat"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 2,
+        "share": 0.095,
+        "evidence": [
+          {
+            "title": "PDD Holdings Inc. (PDD) Stock Analysis | MarketStory",
+            "publisher": "marketstory.com",
+            "published": null,
+            "matched": [
+              "multiple",
+              "discount"
+            ]
+          },
+          {
+            "title": "PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-16",
+            "matched": [
+              "cheap"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 2,
+        "share": 0.095,
+        "evidence": [
+          {
+            "title": "PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-04-21",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2026-10-13",
+            "matched": [
+              "downgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 1,
+        "share": 0.048,
+        "evidence": [
+          {
+            "title": "PDD Holdings Inc. (PDD) Stock Analysis | MarketStory",
+            "publisher": "marketstory.com",
+            "published": null,
+            "matched": [
+              "buildout"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-11-18"
+    ],
+    "next_date": "2026-11-18",
+    "eps_avg": 18.84143,
+    "eps_low": 16.789,
+    "eps_high": 21.22954,
+    "revenue_avg": 115643262410
+  },
+  "catalyst": {
+    "date": "2026-11-18",
+    "weekday": "Wednesday",
+    "days_out": 27,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 18.84143,
+      "eps_low": 16.789,
+      "eps_high": 21.22954,
+      "revenue_avg": 115643262410
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-25",
+        "eps_estimate": 18.35,
+        "eps_actual": null,
+        "surprise_pct": null,
+        "beat": false
+      },
+      {
+        "date": "2026-05-27",
+        "eps_estimate": 16.37,
+        "eps_actual": 9.51,
+        "surprise_pct": -41.89,
+        "beat": false
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 21.02,
+        "eps_actual": 17.69,
+        "surprise_pct": -15.84,
+        "beat": false
+      },
+      {
+        "date": "2025-11-18",
+        "eps_estimate": 16.57,
+        "eps_actual": 21.08,
+        "surprise_pct": 27.22,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "beat_rate": 0.25,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-11-18 (Wednesday, before the open), 27 days out -- from the earnings calendar, consensus EPS 18.84."
+  },
+  "forward_trends": {
+    "queries": [
+      "China online retail sales consumer confidence 2026 value-conscious shoppers discount e-commerce outlook",
+      "cross-border e-commerce de minimis tariff changes 2026 US EU discount marketplaces",
+      "AI shopping agents e-commerce disruption 2026 consumer product search marketplaces",
+      "PDD Holdings PDD 2026 Temu cross-border e-commerce competition tariffs consumer spending"
+    ],
+    "results_count": 20,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "In the 2026 618 festival, China ecommerce GMV grew only 0.9% year over year.",
+        "stance": "pressure",
+        "why": "Slower online shopping growth limits PDD\u2019s domestic transaction and advertising revenue.",
+        "quote": "Ecommerce gross merchandise value (GMV) rose just 0.9% YoY to RMB 863.6 billion",
+        "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+        "publisher": "emarketer.com",
+        "as_of": "2026-06-22",
+        "age_days": 122,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, Beijing is increasing scrutiny of misleading marketing tactics.",
+        "stance": "pressure",
+        "why": "PDD may need to alter subsidy promotions, raising customer acquisition costs.",
+        "quote": "growing scrutiny from Beijing into misleading marketing tactics",
+        "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+        "publisher": "emarketer.com",
+        "as_of": "2026-06-22",
+        "age_days": 122,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, Chinese shoppers increasingly prioritize value for money.",
+        "stance": "support",
+        "why": "This supports PDD\u2019s discount marketplace and Temu\u2019s low-price positioning.",
+        "quote": "shoppers increasingly prioritize value for money",
+        "url": "https://www.yicaiglobal.com/news/chinas-consumer-market-to-maintain-low-growth-this-year-as-shoppers-seek-better-value-report-says",
+        "publisher": "yicaiglobal.com",
+        "as_of": "2026-06-18",
+        "age_days": 126,
+        "undated": false
+      },
+      {
+        "claim": "From July 1, 2026, the EU charges \u20ac3 per low-value item, ending duty-free parcels.",
+        "stance": "pressure",
+        "why": "Higher per-parcel costs erode Temu\u2019s low-price advantage and cross-border margins.",
+        "quote": "From 1 July 2026, the EU will apply a temporary \u20ac3 customs duty per item on low-value consignments",
+        "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+        "publisher": "taxation-customs.ec.europa.eu",
+        "as_of": "2026-07-20",
+        "age_days": 94,
+        "undated": false
+      },
+      {
+        "claim": "From November 1, 2026, EU low-value B2C shipments require additional PID data.",
+        "stance": "pressure",
+        "why": "Compliance and data errors may raise Temu\u2019s fulfillment costs and cause delays.",
+        "quote": "Additional data requirements \u2013 PIDs (mandatory from November 1, 2026)",
+        "url": "https://www.fedex.com/content/dam/fedex/us-united-states/International/FedEx_DeMinimis_Customer_Guide_US.pdf",
+        "publisher": "fedex.com",
+        "as_of": "2026-10-06",
+        "age_days": 16,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In 2026, Chinese shoppers have swung from 2025 optimism to a clear spending pullback.",
+        "stance": "pressure",
+        "why": "Lower consumer demand weighs on PDD\u2019s domestic marketplace GMV and merchant ad spending.",
+        "quote": "Consumers have swung from outlier optimism in 2025 to a clear spending pullback.",
+        "url": "https://www.alixpartners.com/insights/102mk5l/good-disruption-chinese-retails-opportunity-mindset-in-2026/",
+        "publisher": "alixpartners.com",
+        "as_of": "2026-02-24",
+        "age_days": 240,
+        "undated": false,
+        "drop_reason": "stale (240 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "PDD",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 78.72,
+      "catalyst": "2027-02-17",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 80.0,
+        "premium": 7.01,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 7.01,
+        "open_interest": 1388,
+        "volume": 7,
+        "implied_vol": 0.007822421875,
+        "qty": 6
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 80.0,
+        "premium": 2.7,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 2.7,
+        "open_interest": 6472,
+        "volume": 1812.0,
+        "implied_vol": 0.015634843750000002,
+        "qty": 2
+      },
+      "long_total": 4206.0,
+      "short_total": 540.0,
+      "net_debit": 3666.0,
+      "credit_ratio_mid": 0.1284,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 80.0,
+          "qty": 6,
+          "underlying": 78.72,
+          "multiplier": 100,
+          "price": 7.01,
+          "total": 4206.0,
+          "open_interest": 1388
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 80.0,
+          "qty": 2,
+          "underlying": 78.72,
+          "multiplier": 100,
+          "price": 2.7,
+          "total": -540.0,
+          "open_interest": 6472
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-02-17 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-02-17); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 80, 85, 90, 95"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0642,
+          "credit_ratio_conservative": 0.0642,
+          "passes_floor": false,
+          "cash_collected": 270.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1284,
+          "credit_ratio_conservative": 0.1284,
+          "passes_floor": true,
+          "cash_collected": 540.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1926,
+          "credit_ratio_conservative": 0.1926,
+          "passes_floor": true,
+          "cash_collected": 810.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.2568,
+          "credit_ratio_conservative": 0.2568,
+          "passes_floor": true,
+          "cash_collected": 1080.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.321,
+          "credit_ratio_conservative": 0.321,
+          "passes_floor": true,
+          "cash_collected": 1350.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.3852,
+          "credit_ratio_conservative": 0.3852,
+          "passes_floor": true,
+          "cash_collected": 1620.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "PDD",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 78.72,
+      "catalyst": "2027-02-17",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 75.0,
+        "premium": 4.64,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 4.64,
+        "open_interest": 4513,
+        "volume": 52,
+        "implied_vol": 0.015634843750000002,
+        "qty": 9
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 75.0,
+        "premium": 1.77,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 1.77,
+        "open_interest": 8585,
+        "volume": 190.0,
+        "implied_vol": 0.0312596875,
+        "qty": 3
+      },
+      "long_total": 4176.0,
+      "short_total": 531.0,
+      "net_debit": 3645.0,
+      "credit_ratio_mid": 0.1272,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 75.0,
+          "qty": 9,
+          "underlying": 78.72,
+          "multiplier": 100,
+          "price": 4.64,
+          "total": 4176.0,
+          "open_interest": 4513
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 75.0,
+          "qty": 3,
+          "underlying": 78.72,
+          "multiplier": 100,
+          "price": 1.77,
+          "total": -531.0,
+          "open_interest": 8585
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-02-17 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-02-17); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 75, 70, 65, 60"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0424,
+          "credit_ratio_conservative": 0.0424,
+          "passes_floor": false,
+          "cash_collected": 177.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0848,
+          "credit_ratio_conservative": 0.0848,
+          "passes_floor": false,
+          "cash_collected": 354.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1272,
+          "credit_ratio_conservative": 0.1272,
+          "passes_floor": true,
+          "cash_collected": 531.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1695,
+          "credit_ratio_conservative": 0.1695,
+          "passes_floor": true,
+          "cash_collected": 708.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2119,
+          "credit_ratio_conservative": 0.2119,
+          "passes_floor": true,
+          "cash_collected": 885.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2543,
+          "credit_ratio_conservative": 0.2543,
+          "passes_floor": true,
+          "cash_collected": 1062.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2967,
+          "credit_ratio_conservative": 0.2967,
+          "passes_floor": true,
+          "cash_collected": 1239.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.3391,
+          "credit_ratio_conservative": 0.3391,
+          "passes_floor": true,
+          "cash_collected": 1416.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3815,
+          "credit_ratio_conservative": 0.3815,
+          "passes_floor": true,
+          "cash_collected": 1593.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for PDD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PDD/key-statistics/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "Price: 78.72 USD Market Cap: 112.05B Fwd PE: 1.15 P/S: 0.2 EPS trends: flat over the last 7 days EPS revisions: evenly split, with 12 up and 13 down over last 30 days price 78.72 market cap 112.05B forward PE 1.15 forward PE next FY 0.95 trailing PE 8.854893 P/S 0.24857101 EV/EBITDA -3.439"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for PDD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "FY consensus 68.5721 now, 68.5721 7 days ago, 68.5721 30 days ago, change over 30 days 0.0%; EPS revisions 12 up and 13 down over 30 days, 0 up and 2 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "PDD quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pdd/financials",
+      "date": null,
+      "weight": null,
+      "text": "EPS declined year over year 11.41 to 9.51 Total Revenue 5.8% quarter over quarter and 8.1% year over year to 2026-06-30 Net Income 116.6% quarter over quarter and -11.6% year over year to 2026-06-30 EBIT 59.7% quarter over quarter and 7.6% year over year to 2026-06-30 Operating Income 41.9% quarter over quarter and 7.6% year over year to 2026-06-30 Gross Profit 8.4% quarter over quarter and 10.7% year over year to 2026-06-30 Interest Income None% quarter over quarter and 29.6% year over year to 2026-06-30 Net Interest Income 2236.9% quarter over quarter and 29.6% year over year to 2026-06-30 Selling General And Administration -9.5% quarter over quarter and 11.4% year over year to 2026-06-30 Total Revenue increasing 9.7% in fiscal 2025-12-31 vs 2024-12-31 Net Income decreasing 13.0% in fiscal 2025-12-31 vs 2024-12-31 Interest Income increasing 24.5% in fiscal 2025-12-31 vs 2024-12-31 Net Interest Income increasing 24.5% in fiscal 2025-12-31 vs 2024-12-31 Operating Income decreasing 14.1% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders decreasing 13.0% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "PDD earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings",
+      "date": "2026-11-18",
+      "weight": null,
+      "text": "2026-11-18 (Wednesday, before the open), 27 days out -- from the earnings calendar, consensus EPS 18.84. beat streak 0 median gap 91 days 2026-08-25 estimate 18.35 actual None surprise None% 2026-05-27 estimate 16.37 actual 9.51 surprise -41.89% 2026-03-25 estimate 21.02 actual 17.69 surprise -15.84% 2025-11-18 estimate 16.57 actual 21.08 surprise 27.22%"
+    },
+    {
+      "id": "S5",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "marketstory.com: PDD Holdings Inc. (PDD) Stock Analysis | MarketStory",
+      "provider": "marketstory.com",
+      "url": "https://marketstory.com/stock/pdd",
+      "date": null,
+      "weight": 3,
+      "text": "PDD Holdings Inc. (PDD) Stock Analysis | MarketStory PDD Holdings Inc. (PDD) Stock Analysis | MarketStory\n\n# PDD Holdings Inc.\n\nPDD operates an e-commerce platform for group buying and social shopping of discounted products.\n\nThe Story So Far: Investors are weighing a business with about half its market value in cash and single-digit earnings multiples against slowing growth and compressing margins. The bull argument rests on balance-sheet safety and Temu's rapid expansion, while the bear argument centers on Temu's buildout costs, tariffs, and China-related structural and geopolitical risk.\n\nNot investment advice, not affiliated with any investo"
+    },
+    {
+      "id": "S6",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "longbridge.com: PDD: Has the Maverick Gone Mediocre?--- | Longbridge",
+      "provider": "longbridge.com",
+      "url": "https://longbridge.com/dolphin/post/39520874",
+      "date": "2025-10-01",
+      "weight": 3,
+      "text": "PDD: Has the Maverick Gone Mediocre?--- | Longbridge PDD: Has the Maverick Gone Mediocre?--- | Longbridge\n\nMar 25 at 10:57 AM\n\n# PDD: Has the Maverick Gone Mediocre?---\n\nPre-mkt on Mar 25,$PDD(PDD.US) (PDD) released Q4 2025 results, marking a second straight quarter broadly in line with the Street. The company now looks like the most focused and value-oriented e-comm player in China. Performance highlights:\n\n1) Top-line recovery, domestic soft, overseas strong: Total revenue was approx. RMB 123.9bn (+12% YoY), essentially in line. Growth accelerated vs. last quarter. The mix skewed weaker domestically in a tough 4Q for China e-comm, while Temu o"
+    },
+    {
+      "id": "S7",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4940306-pdd-holdings-downgrade-to-hold-core-ad-deceleration-and-1p-pivot-cloud-risk-reward",
+      "date": "2026-04-21",
+      "weight": 3,
+      "text": "PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha\n\n# PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade)\n\nAug 26, 2026, 7:47 AM ET PDD Holdings Inc. (PDD) Stock 1 Comment 1 Like\n\nAstrada Advisors\n\n## Summary\n\n- PDD Holdings is downgraded to Hold following Q2 2026 results that missed consensus, with online marketing revenue moderating and regulatory risks rising.\n- PDD's shift from an asset-light to asset-heavy model, uncertain ROI on its RMB100bn supply chain investment, and intensifying competition are w"
+    },
+    {
+      "id": "S8",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "finance.yahoo.com: BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-cuts-pt-pdd-holdings-121521572.html",
+      "date": "2026-06-24",
+      "weight": 3,
+      "text": "BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why\n\n# BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why\n\n Noor Ul Ain Rehman June 24, 2026 2 min read\n\nPDD Holdings Inc. (NASDAQ: PDD) is one of the top high-conviction stocks to buy according to hedge funds. BofA cut the price target on PDD Holdings Inc. (NASDAQ:PDD) to $113 from $140 on June 15 and maintained a Neutral rating on the shares. The firm told investors that it lowered its 2026-27 revenue forecasts by 6% and adjusted its net profit view by 21%-22% to take into account the increased ecosystem investments, which include commission rebates,"
+    },
+    {
+      "id": "S9",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketscreener.com: PDD Holdings Inc.: Target Price Consensus and Analysts Recommendations | PDD | US7223041028 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/PDD-HOLDINGS-INC-45049866/consensus/",
+      "date": "2026-08-07",
+      "weight": 3,
+      "text": "PDD Holdings Inc.: Target Price Consensus and Analysts Recommendations | PDD | US7223041028 | MarketScreener PDD Holdings Inc.: Target Price Consensus and Analysts Recommendations | PDD | US7223041028 | MarketScreener\n\n## Internet Services \n\n| Market Closed - Nasdaq Other stock markets 04:00:00 2026-08-07 pm EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 91.76 USD | +1.00% | | +3.61% | -19.08% |\n\n| Aug. 03 | EU Accuses Temu of Obstructing Inspection | MT |\n| --- | --- | --- |\n| Jul. 31 | Temu hit with EU charges for not cooperating in December raid | RE |\n\n### Evolution of the Average Target: PDD Holdings Inc.\n\n### Changes in Analyst Recommendations: PDD Holdings Inc.\n\n3b"
+    },
+    {
+      "id": "S10",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "investor.pddholdings.com: PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results | PDD Holdings",
+      "provider": "investor.pddholdings.com",
+      "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-second-quarter-2026-unaudited-financial/",
+      "date": "2026-08-24",
+      "weight": 3,
+      "text": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results | PDD Holdings PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results | PDD Holdings\n\nPDD Holdings Announces Second Quarter 2026 Unaudited Financial Results\n\nAugust 24, 2026 \n\nDUBLIN and SHANGHAI, Aug. 24, 2026 (GLOBE NEWSWIRE) -- PDD Holdings Inc. (\u201cPDD Holdings\u201d or the \u201cCompany\u201d) (NASDAQ: PDD), today announced its unaudited financial results for the second quarter ended June 30, 2026.\n\nSecond Quarter 2026 Highlights\n\n- Total revenues in the quarter were RMB112.4 billion (US$ 1 16.6 billion), an increase of 8% from RMB104.0 billion in the same quarter of 2025. \n- Operating profit in the quar"
+    },
+    {
+      "id": "S11",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "reuters.com: Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/retail-consumer/temu-owner-pdd-misses-quarterly-revenue-estimates-2026-08-24/",
+      "date": "2026-08-24",
+      "weight": 3,
+      "text": "Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition | Reuters Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition | Reuters\n\n# Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition\n\nBy Harshita Mary Varghese and Casey Hall\n\nAugust 24, 2026 10:36 AM UTC Updated August 24, 2026\n\nTemu logo is seen in this illustration taken, Bosnia and Herzegovina May 4, 2025. REUTERS/Dado Ruvic/Illustration Purchase Licensing Rights, opens new tab\n\n- Quarterly revenue totals 112.36 billion yuan\n- Misses 116.35 billion yuan analyst estimate from LSEG\n- Net income attributable to ordinary shareholders falls 12%"
+    },
+    {
+      "id": "S12",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "seekingalpha.com: PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4939618-pdd-holdings-inc-pdd-q2-2026-earnings-call-transcript",
+      "date": "2026-08-24",
+      "weight": 3,
+      "text": "PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript | Seeking Alpha PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript | Seeking Alpha\n\n# PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript\n\nAug 24, 2026, 1:11 PM ET PDD Holdings Inc. (PDD) Stock\n\n> ### Q2: 2026-08-24 Earnings Summary\n> \n> Play Call Play Call\n> \n> PR\n> \n> EPS of $2.88 beats by $0.15 \n> \n> | Revenue of $16.72B (14.95% Y/Y) misses by $221.06M\n\nPDD Holdings Inc. (PDD) Q2 2026 Earnings Call August 24, 2026 7:30 AM EDT\n\nCompany Participants\n\nJiazhen Zhao - Co-CEO & Co-Chairman of the Board Lei Chen - General Counsel, Co-CEO & Co-Chairman of the Board Jun Liu - Vice President of Finance"
+    },
+    {
+      "id": "S13",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketbeat.com: PDD Q2 Earnings Call Highlights",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/pdd-q2-earnings-call-highlights-2026-08-24/?.tsrc=rss",
+      "date": "2026-08-24",
+      "weight": 3,
+      "text": "PDD Q2 Earnings Call Highlights Skip to main content\n\n\u2192 Bank of America: 'Digital Dollar Inevitable' (From Decentralized Masters) (Ad)\n\n# PDD Q2 Earnings Call Highlights\n\nWritten by MarketBeat\n\nAugust 24, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- PDD\u2019s Q2 revenue rose 8% to RMB112.4 billion, led by a 13% increase in transaction-services revenue to RMB54.7 billion. Net inc"
+    },
+    {
+      "id": "S14",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "gngresearch.com: PDD After Q2: The Market Is Pricing In a Collapse | GNG Research",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/articles/pdd-after-q2-the-market-is-pricing-in-a-collapse-the-numbers/",
+      "date": "2026-09-01",
+      "weight": 3,
+      "text": "PDD After Q2: The Market Is Pricing In a Collapse | GNG Research PDD After Q2: The Market Is Pricing In a Collapse | GNG Research\n\n# PDD After Q2: The Market Is Pricing In a Collapse the Numbers Don't Show\n\n- Earnings decline driven by discretionary opex, not gross margin - R&D +40%, G&A >2x, S&M +10% and 26% of revenue, operating margin recovered to 24.7%\n- Q2 revenue RMB112.4bn, up 8% but below RMB114-115bn est; net income -12% to RMB27.2bn, non-GAAP EPS RMB19.33 per ADS vs est RMB18.35\n- Demand signals weakening - transaction services +13% to RMB54.7bn, online marketing +3.4% to RMB57.6bn; transaction growth slowed from 20% in Q1 to 13%\n- EU low-value cr"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "wsj.com: PDDN.MX | PDD Holdings Inc. ADR Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/MX/XMEX/PDDN/research-ratings",
+      "date": "2026-10-12",
+      "weight": 3,
+      "text": "PDDN.MX | PDD Holdings Inc. ADR Analyst Estimates & Ratings \u2013 WSJ PDDN.MX | PDD Holdings Inc. ADR Analyst Estimates & Ratings \u2013 WSJ\n\n# PDD Holdings Inc. ADR PDDN (Mexico) \n\n- ##### 2:23 PM CST 10/16/26 \n- 1,496.87 MXN \n- -23.57 -1.55% \n- ##### Volume 285 \n\n- Volume 285 \n- 65 Day Avg Vol 1,422 \n- 1 Day Range 1,497.00 - 1,510.00 \n- 52 Week Range 1,314.00 - 2,555.00 (06/29/26 - 10/30/25) \n\n- $\n- %\n\nOct 12 Oct 13 Oct 14 Oct 15 Oct 16 $1 475$1 500$1 525$1 550\n\n- Open 1,510.00\n- Prior Close 1,520.44 (10/15/26)\n\n- 1 Day\n- PDDN -1.55% \n- DJIA -0.34% \n- S&P 500 -1.09% \n- Retail/Wholesale -0.47% \n\n### Per-Share Earnings, Actuals & Estimates PDD Holdings Inc. ADR\n\n Act"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "simplywall.st: PDD Holdings (NasdaqGS:PDD) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-pdd/pdd-holdings/future",
+      "date": "2026-10-12",
+      "weight": 3,
+      "text": "PDD Holdings (NasdaqGS:PDD) Stock Forecast & Analyst Predictions - Simply Wall St PDD Holdings (NasdaqGS:PDD) Stock Forecast & Analyst Predictions - Simply Wall St\n\n## Future criteria checks 1/6\n\nPDD Holdings is forecast to grow earnings and revenue by 13.1% and 8% per annum respectively. EPS is expected to grow by 12% per annum. Return on equity is forecast to be 16.9% in 3 years.\n\n## Key information\n\n13.1%\n\nEarnings growth rate\n\n12.03%\n\nEPS growth rate\n\n| Multiline Retail earnings growth | 10.5% |\n| --- | --- |\n| Revenue growth rate | 8.0% |\n| Future return on equity | 16.94% |\n| Analyst coverage | Good |\n| Last updated | 12 Oct 2026 |\n\n## Recent future growth updates\n\nAn"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "simplywall.st: Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-pdd/pdd-holdings/news/should-earnings-forecast-cut-require-action-from-pdd-holding",
+      "date": "2026-10-13",
+      "weight": 3,
+      "text": "Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News\n\n# Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors?\n\n October 13, 2026\n\nSimply Wall St Reviewed by Sasha Jovanovic\n\n- PDD Holdings is in focus after analysts projected current quarter earnings of $2.77 per share with a 6.4% year over year decline and consensus sales estimates that point to 13.4% growth, alongside a recent downgrade in its blue chip ranking.\n- The mix of softer earnings expectations, ongoing top line expansion and ecosystem spending, plus new tokeni"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "seekingalpha.com: PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954834-pdd-holdings-cheap-for-a-reason-but-has-x-factor-upside",
+      "date": "2026-10-16",
+      "weight": 3,
+      "text": "PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha # PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha\n\nAuthor: Broken Moats\nPublished: 2026-10-16T17:00:52+00:00\nSource: seekingalpha.com (seekingalpha.com)\nLanguage: en\n\n## Story\n\nPDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha\n# PDD Holdings: Cheap For A Reason, But Has X-Factor Upside\nOct 16, 2026, 1:00 PM ET PDD Holdings Inc. (PDD) Stock\n## Summary\n* PDD Holdings faces growth and profit slowdowns as its core China business matures and overseas expansion encounters regulatory headwinds.\n* PDD's Q2 2026 revenue rose 8%"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "stockanalysis.com: PDD Holdings (PDD) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/pdd/forecast/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "PDD Holdings (PDD) Stock Forecast & Analyst Price Targets PDD Holdings (PDD) Stock Forecast & Analyst Price Targets\n\n78.72 -2.91 (-3.56%) At close: Oct 21, 2026, 4:00 PM EDT\n\n76.86 -1.86 (-2.36%) Pre-market: Oct 22, 2026, 5:52 AM EDT\n\n# PDD Holdings Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 37 analysts polled by S&P Global, PDD Holdings stock has a consensus rating of \"Buy\" and an average price target of $114.82. The average 1-year stock price forecast is 45.86% higher than the current stock price, while the lowest is $85.41 (+8.50%) and the highest is $150.68 (+91.41%).\n\nPrice Target: $114.82 (+45.86%)\n\nAnalyst Consensus: Buy\n\n## Price T"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "emarketer.com: In the 2026 618 festival, China ecommerce GMV grew only 0.9% year over year.",
+      "provider": "emarketer.com",
+      "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+      "date": "2026-06-22",
+      "weight": null,
+      "text": "In the 2026 618 festival, China ecommerce GMV grew only 0.9% year over year. Slower online shopping growth limits PDD\u2019s domestic transaction and advertising revenue. \"Ecommerce gross merchandise value (GMV) rose just 0.9% YoY to RMB 863.6 billion\""
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "emarketer.com: In 2026, Beijing is increasing scrutiny of misleading marketing tactics.",
+      "provider": "emarketer.com",
+      "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+      "date": "2026-06-22",
+      "weight": null,
+      "text": "In 2026, Beijing is increasing scrutiny of misleading marketing tactics. PDD may need to alter subsidy promotions, raising customer acquisition costs. \"growing scrutiny from Beijing into misleading marketing tactics\""
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "yicaiglobal.com: In 2026, Chinese shoppers increasingly prioritize value for money.",
+      "provider": "yicaiglobal.com",
+      "url": "https://www.yicaiglobal.com/news/chinas-consumer-market-to-maintain-low-growth-this-year-as-shoppers-seek-better-value-report-says",
+      "date": "2026-06-18",
+      "weight": null,
+      "text": "In 2026, Chinese shoppers increasingly prioritize value for money. This supports PDD\u2019s discount marketplace and Temu\u2019s low-price positioning. \"shoppers increasingly prioritize value for money\""
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "taxation-customs.ec.europa.eu: From July 1, 2026, the EU charges \u20ac3 per low-value item, ending duty-free parcels.",
+      "provider": "taxation-customs.ec.europa.eu",
+      "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+      "date": "2026-07-20",
+      "weight": null,
+      "text": "From July 1, 2026, the EU charges \u20ac3 per low-value item, ending duty-free parcels. Higher per-parcel costs erode Temu\u2019s low-price advantage and cross-border margins. \"From 1 July 2026, the EU will apply a temporary \u20ac3 customs duty per item on low-value consignments\""
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "fedex.com: From November 1, 2026, EU low-value B2C shipments require additional PID data.",
+      "provider": "fedex.com",
+      "url": "https://www.fedex.com/content/dam/fedex/us-united-states/International/FedEx_DeMinimis_Customer_Guide_US.pdf",
+      "date": "2026-10-06",
+      "weight": null,
+      "text": "From November 1, 2026, EU low-value B2C shipments require additional PID data. Compliance and data errors may raise Temu\u2019s fulfillment costs and cause delays. \"Additional data requirements \u2013 PIDs (mandatory from November 1, 2026)\""
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "ref": "options",
+      "label": "PDD listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PDD/options/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "long CALL strike 80.0 expiry 2027-03-19 premium 7.01 short PUT strike 75.0 expiry 2027-03-19 premium 4.64"
+    }
+  ],
+  "trailing_vs_consensus": null,
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "PDD Holdings PDD 2026 Temu cross-border e-commerce tariff de minimis regulatory pressure",
+        "China discount e-commerce consumer spending outlook 2026 2027 value retail",
+        "cross-border e-commerce competition 2026 Shein Amazon TikTok Shop low-cost retail market share",
+        "China small manufacturers export orders 2026 cross-border e-commerce demand"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "EU customs duties on low-value goods from July 2026 are forcing Temu to rework fulfillment, with cost impact still building.",
+          "stance": "pressure",
+          "why": "Higher duty and fulfillment costs can compress Temu's overseas margins or require price increases.",
+          "quote": "Temu owner PDD Holdings is adjusting its supply chain and fulfillment processes to limit the impact of European Union customs duties on lower-value goods",
+          "url": "https://www.supplychaindive.com/news/temu-owner-invests-in-local-fulfillment-in-face-of-de-minimis-changes/829446/",
+          "publisher": "supplychaindive.com",
+          "as_of": "2026-09-03",
+          "age_days": 49,
+          "undated": false
+        },
+        {
+          "claim": "As de minimis exemptions disappear and trade rules tighten in 2026, low-price cross-border models face higher costs.",
+          "stance": "pressure",
+          "why": "Temu must absorb duties or shift to local fulfillment, pressuring margins and delivery economics.",
+          "quote": "as de minimis exemptions disappear and global trade rules tighten",
+          "url": "https://coresight.com/research/behind-the-low-prices-assessing-cross-border-competition-between-shein-temu-and-amazon-haul/",
+          "publisher": "coresight.com",
+          "as_of": "2026-06-23",
+          "age_days": 121,
+          "undated": false
+        },
+        {
+          "claim": "In its April 2026 20-F, PDD flags potential EU fines and restrictions under the Digital Services Act.",
+          "stance": "pressure",
+          "why": "Compliance costs or penalties could raise overseas operating costs and constrain Temu's EU expansion.",
+          "quote": "potential fines and restrictions due to non-compliance with EU regulations",
+          "url": "https://tradingstar.io/en/filings/PDD",
+          "publisher": "tradingstar.io",
+          "as_of": "2026-04-29",
+          "age_days": 176,
+          "undated": false
+        },
+        {
+          "claim": "In May 2026 China's retail sales fell 0.6% year on year, turning negative.",
+          "stance": "pressure",
+          "why": "Weaker consumer spending can slow PDD's China GMV and advertising revenue growth.",
+          "quote": "2026\u5e745\u6708\u793e\u4f1a\u6d88\u8d39\u54c1\u96f6\u552e\u603b\u989d41090\u4ebf\u5143\uff0c\u540c\u6bd4\u4e0b\u964d0.6%\uff0c\u589e\u901f\u7531\u6b63\u8f6c\u8d1f",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202607031826682255_1.pdf?1783067485000.pdf=",
+          "publisher": "pdf.dfcfw.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "During the 2026 618 festival, GMV growth slowed and discount returns diverged.",
+          "stance": "pressure",
+          "why": "Heavier promotions may lift sales but reduce PDD's marketing efficiency and margins.",
+          "quote": "GSV growth slowed and returns on discount investment diverged",
+          "url": "https://www.xxquant.com/en/institution/institutional-research/237edf4c78a1488565c9b999b02efd11",
+          "publisher": "xxquant.com",
+          "as_of": "2026-06-23",
+          "age_days": 121,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In March 2026 PDD warned increasing competition at home would continue to impact its business.",
+          "stance": "pressure",
+          "why": "Sustained domestic price wars can keep discounting pressure on PDD's China commerce margins.",
+          "quote": "increasing competition at home",
+          "url": "https://www.reuters.com/world/asia-pacific/temu-owner-pdd-misses-revenue-estimates-2026-03-25/",
+          "publisher": "reuters.com",
+          "as_of": "2026-03-25",
+          "age_days": 211,
+          "undated": false,
+          "drop_reason": "stale (211 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "China online retail sales consumer confidence 2026 value-conscious shoppers discount e-commerce outlook",
+        "cross-border e-commerce de minimis tariff changes 2026 US EU discount marketplaces",
+        "AI shopping agents e-commerce disruption 2026 consumer product search marketplaces",
+        "PDD Holdings PDD 2026 Temu cross-border e-commerce competition tariffs consumer spending"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In the 2026 618 festival, China ecommerce GMV grew only 0.9% year over year.",
+          "stance": "pressure",
+          "why": "Slower online shopping growth limits PDD\u2019s domestic transaction and advertising revenue.",
+          "quote": "Ecommerce gross merchandise value (GMV) rose just 0.9% YoY to RMB 863.6 billion",
+          "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+          "publisher": "emarketer.com",
+          "as_of": "2026-06-22",
+          "age_days": 122,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, Beijing is increasing scrutiny of misleading marketing tactics.",
+          "stance": "pressure",
+          "why": "PDD may need to alter subsidy promotions, raising customer acquisition costs.",
+          "quote": "growing scrutiny from Beijing into misleading marketing tactics",
+          "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+          "publisher": "emarketer.com",
+          "as_of": "2026-06-22",
+          "age_days": 122,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, Chinese shoppers increasingly prioritize value for money.",
+          "stance": "support",
+          "why": "This supports PDD\u2019s discount marketplace and Temu\u2019s low-price positioning.",
+          "quote": "shoppers increasingly prioritize value for money",
+          "url": "https://www.yicaiglobal.com/news/chinas-consumer-market-to-maintain-low-growth-this-year-as-shoppers-seek-better-value-report-says",
+          "publisher": "yicaiglobal.com",
+          "as_of": "2026-06-18",
+          "age_days": 126,
+          "undated": false
+        },
+        {
+          "claim": "From July 1, 2026, the EU charges \u20ac3 per low-value item, ending duty-free parcels.",
+          "stance": "pressure",
+          "why": "Higher per-parcel costs erode Temu\u2019s low-price advantage and cross-border margins.",
+          "quote": "From 1 July 2026, the EU will apply a temporary \u20ac3 customs duty per item on low-value consignments",
+          "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+          "publisher": "taxation-customs.ec.europa.eu",
+          "as_of": "2026-07-20",
+          "age_days": 94,
+          "undated": false
+        },
+        {
+          "claim": "From November 1, 2026, EU low-value B2C shipments require additional PID data.",
+          "stance": "pressure",
+          "why": "Compliance and data errors may raise Temu\u2019s fulfillment costs and cause delays.",
+          "quote": "Additional data requirements \u2013 PIDs (mandatory from November 1, 2026)",
+          "url": "https://www.fedex.com/content/dam/fedex/us-united-states/International/FedEx_DeMinimis_Customer_Guide_US.pdf",
+          "publisher": "fedex.com",
+          "as_of": "2026-10-06",
+          "age_days": 16,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, Chinese shoppers have swung from 2025 optimism to a clear spending pullback.",
+          "stance": "pressure",
+          "why": "Lower consumer demand weighs on PDD\u2019s domestic marketplace GMV and merchant ad spending.",
+          "quote": "Consumers have swung from outlier optimism in 2025 to a clear spending pullback.",
+          "url": "https://www.alixpartners.com/insights/102mk5l/good-disruption-chinese-retails-opportunity-mindset-in-2026/",
+          "publisher": "alixpartners.com",
+          "as_of": "2026-02-24",
+          "age_days": 240,
+          "undated": false,
+          "drop_reason": "stale (240 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "PDD Holdings PDD Temu cross-border e-commerce tariff de minimis changes 2026 seller impact",
+        "China online retail consumer spending outlook 2026 2027 value-conscious discount e-commerce",
+        "China SME manufacturers export orders 2026 e-commerce merchant advertising budgets",
+        "agentic AI shopping assistants impact online marketplaces 2026 2027 consumer search behavior"
+      ],
+      "results_count": 20,
+      "results_dated": 15,
+      "trends": [
+        {
+          "claim": "In 2026 EU customs duties on low-value goods are forcing PDD to adjust Temu\u2019s supply chain and fulfillment.",
+          "stance": "pressure",
+          "why": "Local fulfillment rebuilds can raise costs and pressure transaction-services margins as they scale.",
+          "quote": "PDD Holdings is adjusting its supply chain and fulfillment processes to limit the impact of European Union customs duties on lower-value goods",
+          "url": "https://www.supplychaindive.com/news/temu-owner-invests-in-local-fulfillment-in-face-of-de-minimis-changes/829446/",
+          "publisher": "supplychaindive.com",
+          "as_of": "2026-09-03",
+          "age_days": 49,
+          "undated": false
+        },
+        {
+          "claim": "In May 2026 China retail sales fell 0.6% year over year, the first negative since December 2022.",
+          "stance": "pressure",
+          "why": "Weaker domestic retail demand can slow Pinduoduo\u2019s order and ad revenue growth.",
+          "quote": "5\u6708\u5355\u6708\u793e\u4f1a\u6d88\u8d39\u54c1\u96f6\u552e\u603b\u989d41,090\u4ebf\u5143\uff0c\u540c\u6bd4\u4e0b\u964d0.6%",
+          "url": "https://www.cbndata.com/information/295491",
+          "publisher": "cbndata.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of June 2026 value-seeking Chinese consumers are reshaping the FMCG market.",
+          "stance": "support",
+          "why": "This can support Pinduoduo\u2019s low-price positioning and user engagement.",
+          "quote": "\u8ffd\u6c42\u9ad8\u6027\u4ef7\u6bd4\u7684\u6d88\u8d39\u8005\u91cd\u5851\u4e2d\u56fd\u5feb\u6d88\u54c1\u5e02\u573a",
+          "url": "https://zh.worldpanelbynumerator.com/insights/china-shopper-report-2026-vol-1",
+          "publisher": "zh.worldpanelbynumerator.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "April 2026 data showed China FMCG sales returning to positive growth after a weak first quarter.",
+          "stance": "support",
+          "why": "A demand rebound could support Pinduoduo\u2019s order volume and ad revenue.",
+          "quote": "\u5feb\u6d88\u54c1\u9500\u552e\u989d\u51fa\u73b0\u91cd\u56de\u6b63\u589e\u957f\u7684\u8ff9\u8c61",
+          "url": "https://zh.worldpanelbynumerator.com/insights/china-shopper-report-2026-vol-1",
+          "publisher": "zh.worldpanelbynumerator.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "By September 2026 Chinese manufacturers are increasingly using cross-border e-commerce to reach overseas buyers directly.",
+          "stance": "support",
+          "why": "This can expand Temu\u2019s seller supply and product assortment.",
+          "quote": "annual sales on a cross-border e-commerce platform surge from over 4 million U.S. dollars to more than 60 million U.S. dollars",
+          "url": "https://english.news.cn/20260901/683a357c71ef4e8faf3614d41aeb99f4/c.html",
+          "publisher": "english.news.cn",
+          "as_of": "2026-09-01",
+          "age_days": 51,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "The 2025 U.S. de minimis revocation continues to pressure China-affiliated cross-border marketplaces into 2026.",
+          "stance": "pressure",
+          "why": "It raises landed costs for low-value parcels, challenging Temu\u2019s cross-border economics.",
+          "quote": "2025 revocation of the de minimis tariff exemption for imports from all countries",
+          "url": "https://www.euromonitor.com/tariff-turbulence-and-the-next-generation-of-marketplaces/report",
+          "publisher": "euromonitor.com",
+          "as_of": "2026-01-01",
+          "age_days": 294,
+          "undated": false,
+          "drop_reason": "stale (294 days old)"
+        },
+        {
+          "claim": "In 2026 Chinese shoppers are pulling back, weakening demand for PDD\u2019s domestic e-commerce.",
+          "stance": "pressure",
+          "why": "Lower consumer spending can slow Pinduoduo\u2019s GMV and advertising revenue growth.",
+          "quote": "China\u2019s shoppers are pulling back, and the market is braced for weaker demand",
+          "url": "https://www.alixpartners.com/insights/102mk5l/good-disruption-chinese-retails-opportunity-mindset-in-2026/",
+          "publisher": "alixpartners.com",
+          "as_of": "2026-02-24",
+          "age_days": 240,
+          "undated": false,
+          "drop_reason": "stale (240 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    }
+  ]
+}

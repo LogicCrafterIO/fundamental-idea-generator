@@ -1,0 +1,1597 @@
+{
+  "symbol": "PEP",
+  "as_of": "2026-10-22",
+  "generated_at": "2026-10-22T20:19:56",
+  "profile": {
+    "symbol": "PEP",
+    "name": "PepsiCo, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic",
+    "summary": "PepsiCo, Inc. engages in the manufacture, marketing, distribution, and sale of various beverages and convenient foods worldwide. The company operates through six segments: PepsiCo Foods North America; PepsiCo Beverages North America; International Beverages Franchise; Europe, Middle East and Africa; Latin America Foods; and Asia Pacific Foods. It offers cereals, chips, dips, granola bars, oatmeal, pasta, rice, and syrups and mixes; refrigerated dips and spreads; beverage concentrates, fountain syrups, and finished goods; and ready-to-drink tea and coffee products. The company also provides SodaStream sparkling water makers and related products, as well as various dairy products under the Agusha, Chudo, and Domik v Derevne brands. It serves wholesale and other distributors, foodservice customers, grocery stores, drug stores, convenience stores, discount/dollar stores, mass merchandisers, membership stores, hard discounters, e-commerce retailers and authorized independent bottlers, and others through a network of direct-store-delivery, customer warehouse, and distributor networks, as well as directly to consumers through e-commerce platforms and retailers. PepsiCo, Inc. was founded in 1898 and is based in Purchase, New York.",
+    "employees": 306000,
+    "country": "United States",
+    "website": "https://www.pepsico.com"
+  },
+  "quants": {
+    "symbol": "PEP",
+    "name": "PepsiCo, Inc.",
+    "price": 134.7,
+    "market_cap": 183561224192,
+    "market_cap_human": "183.56B",
+    "fwd_pe": 16.05,
+    "fwd_pe_1y": 15.59,
+    "fwd_pe_yahoo": 15.592588,
+    "trailing_pe": 16.943396,
+    "ps": 1.8684788,
+    "ev_ebitda": 11.709,
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic",
+    "eps_fy_current": 8.39504,
+    "eps_fy_next": 8.63872,
+    "eps_trend": {
+      "change_7d_pct": -0.06,
+      "change_30d_pct": -1.91,
+      "current": 8.39504,
+      "7d_ago": 8.39993,
+      "30d_ago": 8.55878,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 15,
+      "up_30d": 1,
+      "down_30d": 15,
+      "net_30d": -14,
+      "text": "tilted lower, with 1 up and 15 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "next_date": null,
+      "eps_avg": 2.23796,
+      "eps_low": 2.19,
+      "eps_high": 2.32,
+      "revenue_avg": 30430699710
+    },
+    "as_of": "2026-10-22"
+  },
+  "quants_lines": [
+    "Price: 134.70 USD",
+    "Market Cap: 183.56B",
+    "Fwd PE: 16.05",
+    "P/S: 1.9",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted lower, with 1 up and 15 down over last 30 days"
+  ],
+  "fundamental_deltas": [],
+  "eps_yoy": {
+    "period": "2026-10-08T06:00:00-04:00",
+    "current": 2.34,
+    "year_ago": 2.29,
+    "year_ago_period": "2025-10-09T06:00:00-04:00",
+    "change": 0.05,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 24181000000.0,
+      "prior": 19443000000.0,
+      "qoq_pct": 24.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 22726000000.0,
+      "yoy_pct": 6.4,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2981000000.0,
+      "prior": 2327000000.0,
+      "qoq_pct": 28.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1263000000.0,
+      "yoy_pct": 136.0,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 4082000000.0,
+      "prior": 3271000000.0,
+      "qoq_pct": 24.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1831000000.0,
+      "yoy_pct": 122.9,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 5164000000.0,
+      "prior": 4175000000.0,
+      "qoq_pct": 23.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2808000000.0,
+      "yoy_pct": 83.9,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 4023000000.0,
+      "prior": 3213000000.0,
+      "qoq_pct": 25.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3649000000.0,
+      "yoy_pct": 10.2,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 13111000000.0,
+      "prior": 10731000000.0,
+      "qoq_pct": 22.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 12422000000.0,
+      "yoy_pct": 5.5,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 230000000.0,
+      "prior": 301000000.0,
+      "qoq_pct": -23.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 260000000.0,
+      "yoy_pct": -11.5,
+      "conflict": false
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": -230000000.0,
+      "prior": -301000000.0,
+      "qoq_pct": 23.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": -260000000.0,
+      "yoy_pct": 11.5,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 93925000000.0,
+      "prior": 91854000000.0,
+      "change_pct": 2.3,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 8240000000.0,
+      "prior": 9578000000.0,
+      "change_pct": -14.0,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 1121000000.0,
+      "prior": 919000000.0,
+      "change_pct": 22.0,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": -1121000000.0,
+      "prior": -919000000.0,
+      "change_pct": -22.0,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 8240000000.0,
+      "prior": 9578000000.0,
+      "change_pct": -14.0,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 11365000000.0,
+      "prior": 12865000000.0,
+      "change_pct": -11.7,
+      "direction": "decreasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-08",
+    "eps_avg": 2.23796,
+    "eps_low": 2.19,
+    "eps_high": 2.32,
+    "revenue_avg": 30430699710
+  },
+  "news": [
+    {
+      "title": "PepsiCo Risk Factors: What the 10-K Says About Demand, Margins, Regulation, and Execution",
+      "publisher": "holdingschannel.com",
+      "url": "https://www.holdingschannel.com/article/202605/pepsico-risk-factors-what-the-10-k-says-about-demand-margins-regulation-and-PEP05212026risks.htm/",
+      "summary": "PepsiCo Risk Factors: What the 10-K Says About Demand, Margins, Regulation, and Execution",
+      "published": null,
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)",
+      "publisher": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/pepsico-pep-fundamental-analysis-report",
+      "summary": "PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)\n\n# PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)\n\nMay 22, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nLet\u2019s analyze the topic in detail.\n\nExecutive TL;DR\n\n- PepsiCo (PEP) delivered $93.9B in FY2025 net revenue with full-year organic revenue growth of 1.7% and core EPS of $8.14, then opened 2026 with stronger momentum (Q1 net revenue +8.5% to $19.4B and core EPS +9%).\n- The board approved a 4% dividend hike to $5.92 per share, marking the 54th consecutive annual increase, alongside a fresh $10 billion buyb",
+      "published": "2026-05-22",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies By Reuters",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+      "summary": "PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies By Reuters\n\n# PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies\n\nBy\n\nPublished Oct 07, 2026, 07:16 AM\n\nUpdated Oct 07, 2026, 11:19 AM\n\n(Refiles to fix dateline)\n\nBy Alexander Marrow and Anuja Bharat Mistry\n\nOct 7 (Reuters) - PepsiCo is running out of time to deliver on the growth and margin targets it set out after activist investor Elliott Investment Management took a roughly $4 billion stake a year ago, as the threat of GLP-1 weight-loss drugs to salty snacks and su",
+      "published": "2026-10-07",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "PepsiCo (PEP) Q3 2026 earnings",
+      "publisher": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
+      "summary": "PepsiCo (PEP) Q3 2026 earnings\n\n# PepsiCo cuts earnings forecast as North American turnaround takes longer than expected\n\nPublished Thu, Oct 8 2026 6:06 AM EDT Updated Thu, Oct 8 2026 10:43 AM EDT\n\nAmelia Lucas@Thxamelian\n\nKey Points\n\n- PepsiCo earnings and revenue topped Wall Street's estimates.\n- The food and beverage company lowered its full-year forecast for earnings.\n- Pepsi's North American business continues to lag behind its international markets.\n\nVIDEO 1:21 01:21\n\nPepsiCo Add To Watchlist on Thursday reported quarterly earnings and revenue that topped analysts' expectations, fueled b",
+      "published": "2026-10-08",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PepsiCo Cuts Earnings Outlook Over Inflation and Higher Advertising Costs - WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/business/retail/pepsico-posts-higher-profit-sales-as-turnaround-continues-aa219b31",
+      "summary": "PepsiCo Cuts Earnings Outlook Over Inflation and Higher Advertising Costs - WSJ\n\n# PepsiCo Trims Outlook as North American Unit Underperforms\n\n## The snacks and soda maker\u2019s net revenue climbed 5.6% to $25.27 billion in the fiscal third quarter\n\nBy \n\nConnor Hart\n\nUpdated Oct. 8, 2026 10:08 am ET\n\nPepsiCo reported higher profit and revenue in its fiscal third quarter.\n\nSergio Flores/\n\nBloomberg News\n\nPepsiCo PEP 0.51% increase; up pointing triangle cut its full-year earnings outlook as it faces inflation, higher advertising costs and continued weakness in its North American business, even as th",
+      "published": "2026-10-08",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags",
+      "publisher": "streetinsider.com",
+      "url": "https://www.streetinsider.com/Reuters/PepsiCo+slashes+forecast%2C+deepens+cost+cuts+as+N.America+recovery+drags/27163141.html",
+      "summary": "PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags\n\n# PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags\n\nOctober 8, 2026 6:05 AM EDT\n\nFILE PHOTO: Bottles of Pepsi are displayed on a shelf in a supermarket in Sarajevo, Bosnia and Herzegovina October 29, 2024. REUTERS/Dado Ruvic/File Photo\n\nBy Anuja Bharat Mistry and Alexander Marrow\n\nOct 8 (Reuters) - \u200cPepsiCo warned on Thursday \u200bthat growth \u200band margin recovery in its key North American market was taking longer than planned and said it would pursue additional cost cuts to offset sluggish demand for it",
+      "published": "2026-10-08",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PepsiCo CFO touts cost discipline, slashes guidance | CFO Dive",
+      "publisher": "cfodive.com",
+      "url": "https://www.cfodive.com/news/pepsico-cfo-touts-cost-discipline-slashes-guidance-beverage-pricing/832649/",
+      "summary": "PepsiCo CFO touts cost discipline, slashes guidance | CFO Dive\n\n# PepsiCo CFO touts cost discipline, slashes guidance \n\nThe beverage giant is focused on cutting costs as it navigates rising food prices and changing consumer habits which have impacted its North American business.\n\n Published Oct. 9, 2026 \n\n \n\n Grace Noto Senior Editor \n\n \n\n Pepsi products are displayed for sale in a Target store on March 8, 2022 in Los Angeles, California. Mario Tama via Getty Images \n\n### Dive Brief:\n\n- PepsiCo is targeting strategic cost reductions and continued momentum in its international business as growt",
+      "published": "2026-10-09",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook",
+      "publisher": "openbookanalytics.com",
+      "url": "https://www.openbookanalytics.com/news/insights/pepsico-pep-stock-analysis-latest-results-earnings-share-price-2026",
+      "summary": "PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook\n\n# PepsiCo Stock Analysis: What the Latest PEP Results Mean for Investors\n\nPepsiCo cut full-year core EPS guidance to 2.5-3.5% growth and the shares still rose 3.73% to USD 128.34. Why the market chose to buy a downgrade.\n\n9 October 2026\u00b7\n\nJack Green\n\nPepsiCo cut its full-year earnings guidance on Thursday 8 October 2026 and the shares went up 3.73%, closing at USD 128.34 from a prior close of USD 123.73. The cut was not marginal: full-year core constant-currency earnings per share growth was reduced to 1% to 2%, from a 4% to 6% range",
+      "published": "2026-10-09",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4953687-pepsico-15x-earnings-and-a-4-6-percent-yield-still-arent-cheap-enough",
+      "summary": "PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha\n\n# PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough\n\nOct 13, 2026, 5:26 AM ET PepsiCo, Inc. (PEP) Stock, PEP:CA Stock 41 Comments 2 Likes\n\nLee Bailey\n\n## Summary\n\n- PepsiCo, Inc. is rated Hold at $126, trading near the fair value of $124 with a 4.6% yield.\n- North American volumes are weak, Frito-Lay is sacrificing margin, and GLP-1 drugs pose long-term demand risks.\n- Cash conversion is improving, international growth is strong, but acquisition spending and $41 billion in net debt rem",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "PEP | PepsiCo Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/PEP/research-ratings",
+      "summary": "PEP | PepsiCo Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# PepsiCo Inc. PEP (U.S.: Nasdaq) \n\n- ##### AT CLOSE 4:00 PM EDT 10/21/26 \n- $ 134.70 USD \n- 0.68 0.51% \n- ##### Volume 9,066,003 \n\n- ##### AFTER HOURS 7:20 PM EDT 10/21/26\n- $ 134.70 0.00 0.00% \n- ##### AFTER HOURS Vol 710,486\n\n- Volume 9,066,003 \n- 65 Day Avg Vol 8,551,019 \n- 1 Day Range 133.14 - 135.48 \n- 52 Week Range 123.47 - 171.48 (10/07/26 - 02/12/26) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 15 Oct 16 Oct 19 Oct 20 Oct 21 $125.0$127.5$130.0$132.5$135.0$137.5\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- N",
+      "published": "2026-10-15",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "PepsiCo Stock Earnings Estimates Decreased by Zacks Research",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-pepsico-stock-earnings-estimates-decreased-by-zacks-research-2026-10-19/",
+      "summary": "Skip to main content\n\nYour Rate Never Goes Up! Save $100 a Year on MarketBeat All Access\n\nUpgrade Now \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# PepsiCo Stock Earnings Estimates Decreased by Zacks Research\n\nWritten by MarketBeat\n\nOctober 19, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Zacks Research lowered PepsiCo\u2019s FY2026 EPS estima",
+      "published": "2026-10-19",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "PepsiCo (PEP) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/pep/forecast/",
+      "summary": "PepsiCo (PEP) Stock Forecast & Analyst Price Targets\n\n134.70 +0.68 (0.51%) At close: Oct 21, 2026, 4:00 PM EDT\n\n136.04 +1.34 (0.99%) Pre-market: Oct 22, 2026, 5:53 AM EDT\n\n# PepsiCo Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 24 analysts polled by S&P Global, PepsiCo stock has a consensus rating of \"Hold\" and an average price target of $141.59. The average 1-year stock price forecast is 5.12% higher than the current stock price, while the lowest is $106 (-21.31%) and the highest is $169 (+25.46%).\n\nPrice Target: $141.59 (+5.12%)\n\nAnalyst Consensus: Hold\n\n## Price Target\n\n| Target | L",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News",
+      "publisher": "tradingview.com",
+      "url": "https://www.tradingview.com/news/tradingview:4f98dea9e5546:0-pepsico-inc-stock-12-month-price-target-cut-to-139-47-implies-4-upside/",
+      "summary": "# PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News\n\nPublished: 2026-10-21T04:20:00Z\nSource: tradingview.com\nLanguage: en\n\n## Story\n\nPepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News\n# PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside\nPEP\n* According to estimates from 19 analysts, PepsiCo, Inc. stock's average price target has fallen from $140.25 to $139.47, with forecasts ranging from $106 to $165 per share\n* Based on the Oct. 20 closing price, the updated target implies approxi",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Q3 2026 8-K - Exhibit 99.1",
+      "publisher": "investor.pepsico.com",
+      "url": "https://investor.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-earnings-release.pdf",
+      "summary": "## PepsiCo Reports Third-Quarter 2026 Results Third-Quarter and Year-to-Date Results1\n\n\u2022 Net revenue increased 5.6% and 6.7%, respectively \n\u2022 Organic revenue2 increased 3.1% and 2.7%, respectively \n\u2022 Earnings per share (EPS) increased 17% and 47%, respectively \n\u2022 Core2 EPS increased 2% and 5%, respectively \n\u2022 Core constant currency2 EPS increased 1.5% and 2%, respectively Guidance \n\u2022 Company updates fiscal 2026 financial guidance2 \nPURCHASE, N.Y. - October 8, 2026 - PepsiCo, Inc. (NASDAQ: PEP) today reported results for \nthird-quarter 2026. \n\u201cOur third-quarter results featured strong net reven",
+      "published": "2026-10-08",
+      "source": "ollama_search",
+      "query": "PepsiCo, Inc. (PEP) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    }
+  ],
+  "news_failures": [
+    {
+      "source": "nasdaq",
+      "error": "RuntimeError: GET failed after 3 attempts: https://api.nasdaq.com/api/news/topic/articlebysymbol?q=PEP|stocks&offset=0&limit=15"
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 10,
+        "share": 0.455,
+        "evidence": [
+          {
+            "title": "PepsiCo (PEP) Q3 2026 earnings",
+            "publisher": "cnbc.com",
+            "published": "2026-10-08",
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "PepsiCo Cuts Earnings Outlook Over Inflation and Higher Advertising Costs - WSJ",
+            "publisher": "wsj.com",
+            "published": "2026-10-08",
+            "matched": [
+              "outlook"
+            ]
+          },
+          {
+            "title": "PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags",
+            "publisher": "streetinsider.com",
+            "published": "2026-10-08",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "PepsiCo CFO touts cost discipline, slashes guidance | CFO Dive",
+            "publisher": "cfodive.com",
+            "published": "2026-10-09",
+            "matched": [
+              "guidance"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.182,
+        "evidence": [
+          {
+            "title": "PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook",
+            "publisher": "openbookanalytics.com",
+            "published": "2026-10-09",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "PepsiCo Stock Earnings Estimates Decreased by Zacks Research",
+            "publisher": "marketbeat.com",
+            "published": "2026-10-19",
+            "matched": [
+              "upgrade"
+            ]
+          },
+          {
+            "title": "PepsiCo (PEP) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-21",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News",
+            "publisher": "tradingview.com",
+            "published": "2026-10-20",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 3,
+        "share": 0.136,
+        "evidence": [
+          {
+            "title": "PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)",
+            "publisher": "deepresearchglobal.com",
+            "published": "2026-05-22",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies By Reuters",
+            "publisher": "investing.com",
+            "published": "2026-10-07",
+            "matched": [
+              "stake"
+            ]
+          },
+          {
+            "title": "PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-13",
+            "matched": [
+              "acquisition"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 2,
+        "share": 0.091,
+        "evidence": [
+          {
+            "title": "PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook",
+            "publisher": "openbookanalytics.com",
+            "published": "2026-10-09",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-13",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.045,
+        "evidence": [
+          {
+            "title": "PepsiCo Risk Factors: What the 10-K Says About Demand, Margins, Regulation, and Execution",
+            "publisher": "holdingschannel.com",
+            "published": null,
+            "matched": [
+              "regulat"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 1,
+        "share": 0.045,
+        "evidence": [
+          {
+            "title": "PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-13",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 1,
+        "share": 0.045,
+        "evidence": [
+          {
+            "title": "PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-13",
+            "matched": [
+              "cheap"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-08"
+    ],
+    "next_date": null,
+    "eps_avg": 2.23796,
+    "eps_low": 2.19,
+    "eps_high": 2.32,
+    "revenue_avg": 30430699710
+  },
+  "catalyst": {
+    "date": "2027-02-02",
+    "weekday": "Tuesday",
+    "days_out": 103,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 2.24
+    },
+    "recent_reports": [
+      {
+        "date": "2026-10-08",
+        "eps_estimate": 2.3,
+        "eps_actual": 2.34,
+        "surprise_pct": 1.95,
+        "beat": true
+      },
+      {
+        "date": "2026-07-09",
+        "eps_estimate": 2.21,
+        "eps_actual": 2.2,
+        "surprise_pct": -0.37,
+        "beat": false
+      },
+      {
+        "date": "2026-04-16",
+        "eps_estimate": 1.55,
+        "eps_actual": 1.61,
+        "surprise_pct": 3.75,
+        "beat": true
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 2.24,
+        "eps_actual": 2.26,
+        "surprise_pct": 1.02,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "beat_rate": 0.75,
+    "median_gap_days": 84,
+    "same_slot_last_year": true,
+    "facts_line": "2027-02-02 (Tuesday, before the open), 103 days out -- from the earnings calendar, consensus EPS 2.24."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 2027 US packaged snacks and beverages industry outlook volume growth private label GLP-1 health trends",
+      "2026 US grocery convenience store foodservice consumer spending traffic hiring outlook packaged food beverage demand",
+      "2026 functional beverages energy drinks private label snacks new entrants disruption US market",
+      "PepsiCo PEP 2026 2027 North America snack beverage demand GLP-1 retail channel pressures"
+    ],
+    "results_count": 20,
+    "results_dated": 18,
+    "trends": [
+      {
+        "claim": "As of October 2026, GLP-1 weight-loss drugs are intensifying pressure on salty snacks and sugary drinks.",
+        "stance": "pressure",
+        "why": "This can further reduce PepsiCo's snack and beverage demand in North America.",
+        "quote": "as the threat of GLP-1 weight-loss drugs to salty snacks and sugary drinks intensifies.",
+        "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+        "publisher": "investing.com",
+        "as_of": "2026-10-21",
+        "age_days": 1,
+        "undated": false
+      },
+      {
+        "claim": "As of July 2026, global snack sales are surging past record levels.",
+        "stance": "support",
+        "why": "This supports PepsiCo's snack volumes even as health-related pressures build.",
+        "quote": "Global Sales Surge Past Record Levels",
+        "url": "https://www.circana.com/post/snacking-enters-a-new-era-of-function-fuel-and-fun-as-global-sales-surge-past-record-levels-circa",
+        "publisher": "circana.com",
+        "as_of": "2026-07-21",
+        "age_days": 93,
+        "undated": false
+      },
+      {
+        "claim": "As of August 2026, private label manufacturers are benefiting as consumers turn to functional beverages.",
+        "stance": "pressure",
+        "why": "This pressures PepsiCo's branded beverage share in functional categories.",
+        "quote": "private label manufacturers are benefiting from the trend by helping their clients succeed in the category.",
+        "url": "https://www.foodbusinessnews.net/articles/30893-private-labels-rising-role-in-beverage-innovation",
+        "publisher": "foodbusinessnews.net",
+        "as_of": "2026-08-25",
+        "age_days": 58,
+        "undated": false
+      },
+      {
+        "claim": "In July 2026, weakening consumer spending power is reshaping the snack industry.",
+        "stance": "pressure",
+        "why": "This pressures PepsiCo's snack volumes and pricing.",
+        "quote": "As consumer spending power weakens and expectations increase, the snack industry continues to evolve.",
+        "url": "https://www.snackandbakery.com/articles/116077-state-of-the-industry-2026-snack-industry-answers-consumer-cravings",
+        "publisher": "snackandbakery.com",
+        "as_of": "2026-07-24",
+        "age_days": 90,
+        "undated": false
+      },
+      {
+        "claim": "In Q3 2026, 41% of c-store retailers cite customers reducing spend per visit.",
+        "stance": "pressure",
+        "why": "Lower convenience-channel spend can pressure PepsiCo's immediate-consumption sales.",
+        "quote": "customers reducing how much they spend per visit (41%)",
+        "url": "https://cstoredecisions.com/foodservice-faces-rising-labor-food-costs-as-retailers-prioritize-staffing/",
+        "publisher": "cstoredecisions.com",
+        "as_of": "2026-09-01",
+        "age_days": 51,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "As of January 2026, CPG growth continues to decelerate in most categories.",
+        "stance": "pressure",
+        "why": "This pressures PepsiCo's established brands as category growth slows.",
+        "quote": "growth continues to decelerate, and in most categories it\u2019s slowing rapidly.",
+        "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/what-consumer-packaged-goods-companies-can-learn-from-disruptor-brands",
+        "publisher": "mckinsey.com",
+        "as_of": "2026-01-26",
+        "age_days": 269,
+        "undated": false,
+        "drop_reason": "stale (269 days old)"
+      },
+      {
+        "claim": "The US convenience-store foodservice market is projected to reach $78.1 billion in 2026.",
+        "stance": "support",
+        "why": "This supports PepsiCo's foodservice and immediate-consumption channel volumes.",
+        "quote": "The US convenience store foodservice market is projected to reach $78.1 billion in 2026, continuing steady year-over-year growth.",
+        "url": "https://store.mintel.com/report/us-convenience-store-foodservice-market-report",
+        "publisher": "store.mintel.com",
+        "as_of": "2025-11-01",
+        "age_days": 355,
+        "undated": false,
+        "drop_reason": "stale (355 days old)"
+      }
+    ],
+    "stale_dropped": 2,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "PEP",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 134.7,
+      "catalyst": "2027-02-02",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 140.0,
+        "premium": 5.55,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 5.55,
+        "open_interest": 1144,
+        "volume": 57.0,
+        "implied_vol": 0.015634843750000002,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 140.0,
+        "premium": 1.45,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 1.45,
+        "open_interest": 3752,
+        "volume": 506.0,
+        "implied_vol": 0.0312596875,
+        "qty": 4
+      },
+      "long_total": 4440.0,
+      "short_total": 580.0,
+      "net_debit": 3860.0,
+      "credit_ratio_mid": 0.1306,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 140.0,
+          "qty": 8,
+          "underlying": 134.7,
+          "multiplier": 100,
+          "price": 5.55,
+          "total": 4440.0,
+          "open_interest": 1144
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 140.0,
+          "qty": 4,
+          "underlying": 134.7,
+          "multiplier": 100,
+          "price": 1.45,
+          "total": -580.0,
+          "open_interest": 3752
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-02-02 catalyst; long expires 19-Mar-27, after it",
+        "alternative strikes: 140, 145, 135, 150"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0327,
+          "credit_ratio_conservative": 0.0327,
+          "passes_floor": false,
+          "cash_collected": 145.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0653,
+          "credit_ratio_conservative": 0.0653,
+          "passes_floor": false,
+          "cash_collected": 290.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.098,
+          "credit_ratio_conservative": 0.098,
+          "passes_floor": false,
+          "cash_collected": 435.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1306,
+          "credit_ratio_conservative": 0.1306,
+          "passes_floor": true,
+          "cash_collected": 580.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1633,
+          "credit_ratio_conservative": 0.1633,
+          "passes_floor": true,
+          "cash_collected": 725.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1959,
+          "credit_ratio_conservative": 0.1959,
+          "passes_floor": true,
+          "cash_collected": 870.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2286,
+          "credit_ratio_conservative": 0.2286,
+          "passes_floor": true,
+          "cash_collected": 1015.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2613,
+          "credit_ratio_conservative": 0.2613,
+          "passes_floor": true,
+          "cash_collected": 1160.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "PEP",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 134.7,
+      "catalyst": "2027-02-02",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 130.0,
+        "premium": 5.81,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 5.81,
+        "open_interest": 1197,
+        "volume": 15.0,
+        "implied_vol": 0.015634843750000002,
+        "qty": 7
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 130.0,
+        "premium": 1.33,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 1.33,
+        "open_interest": 2189,
+        "volume": 114.0,
+        "implied_vol": 0.0312596875,
+        "qty": 4
+      },
+      "long_total": 4067.0,
+      "short_total": 532.0,
+      "net_debit": 3535.0,
+      "credit_ratio_mid": 0.1308,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 130.0,
+          "qty": 7,
+          "underlying": 134.7,
+          "multiplier": 100,
+          "price": 5.81,
+          "total": 4066.9999999999995,
+          "open_interest": 1197
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 130.0,
+          "qty": 4,
+          "underlying": 134.7,
+          "multiplier": 100,
+          "price": 1.33,
+          "total": -532.0,
+          "open_interest": 2189
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-02-02 catalyst; long expires 19-Mar-27, after it",
+        "alternative strikes: 130, 125, 120, 115"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0327,
+          "credit_ratio_conservative": 0.0327,
+          "passes_floor": false,
+          "cash_collected": 133.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0654,
+          "credit_ratio_conservative": 0.0654,
+          "passes_floor": false,
+          "cash_collected": 266.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0981,
+          "credit_ratio_conservative": 0.0981,
+          "passes_floor": false,
+          "cash_collected": 399.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1308,
+          "credit_ratio_conservative": 0.1308,
+          "passes_floor": true,
+          "cash_collected": 532.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1635,
+          "credit_ratio_conservative": 0.1635,
+          "passes_floor": true,
+          "cash_collected": 665.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1962,
+          "credit_ratio_conservative": 0.1962,
+          "passes_floor": true,
+          "cash_collected": 798.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2289,
+          "credit_ratio_conservative": 0.2289,
+          "passes_floor": true,
+          "cash_collected": 931.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for PEP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PEP/key-statistics/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "Price: 134.70 USD Market Cap: 183.56B Fwd PE: 16.05 P/S: 1.9 EPS trends: flat over the last 7 days EPS revisions: tilted lower, with 1 up and 15 down over last 30 days price 134.7 market cap 183.56B forward PE 16.05 forward PE next FY 15.59 trailing PE 16.943396 P/S 1.8684788 EV/EBITDA 11.709"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for PEP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PEP/analysis/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "FY consensus 8.39504 now, 8.39993 7 days ago, 8.55878 30 days ago, change over 30 days -1.91%; EPS revisions 1 up and 15 down over 30 days, 1 up and 15 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "PEP quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pep/financials",
+      "date": null,
+      "weight": null,
+      "text": "EPS increased year over year 2.29 to 2.34 Total Revenue 24.4% quarter over quarter and 6.4% year over year to 2026-06-30 Net Income 28.1% quarter over quarter and 136.0% year over year to 2026-06-30 EBIT 24.8% quarter over quarter and 122.9% year over year to 2026-06-30 EBITDA 23.7% quarter over quarter and 83.9% year over year to 2026-06-30 Operating Income 25.2% quarter over quarter and 10.2% year over year to 2026-06-30 Gross Profit 22.2% quarter over quarter and 5.5% year over year to 2026-06-30 Interest Expense -23.6% quarter over quarter and -11.5% year over year to 2026-06-30 Net Interest Income 23.6% quarter over quarter and 11.5% year over year to 2026-06-30 Total Revenue increasing 2.3% in fiscal 2025-12-31 vs 2024-12-31 Net Income decreasing 14.0% in fiscal 2025-12-31 vs 2024-12-31 Interest Expense increasing 22.0% in fiscal 2025-12-31 vs 2024-12-31 Net Interest Income decreasing 22.0% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders decreasing 14.0% in fiscal 2025-12-31 vs 2024-12-31 EBIT decreasing 11.7% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "PEP earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pep/earnings",
+      "date": "2027-02-02",
+      "weight": null,
+      "text": "2027-02-02 (Tuesday, before the open), 103 days out -- from the earnings calendar, consensus EPS 2.24. beat streak 1 median gap 84 days 2026-10-08 estimate 2.3 actual 2.34 surprise 1.95% 2026-07-09 estimate 2.21 actual 2.2 surprise -0.37% 2026-04-16 estimate 1.55 actual 1.61 surprise 3.75% 2026-02-03 estimate 2.24 actual 2.26 surprise 1.02%"
+    },
+    {
+      "id": "S5",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "holdingschannel.com: PepsiCo Risk Factors: What the 10-K Says About Demand, Margins, Regulation, and Execution",
+      "provider": "holdingschannel.com",
+      "url": "https://www.holdingschannel.com/article/202605/pepsico-risk-factors-what-the-10-k-says-about-demand-margins-regulation-and-PEP05212026risks.htm/",
+      "date": null,
+      "weight": 3,
+      "text": "PepsiCo Risk Factors: What the 10-K Says About Demand, Margins, Regulation, and Execution PepsiCo Risk Factors: What the 10-K Says About Demand, Margins, Regulation, and Execution"
+    },
+    {
+      "id": "S6",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "deepresearchglobal.com: PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/pepsico-pep-fundamental-analysis-report",
+      "date": "2026-05-22",
+      "weight": 3,
+      "text": "PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated) PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)\n\n# PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)\n\nMay 22, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nLet\u2019s analyze the topic in detail.\n\nExecutive TL;DR\n\n- PepsiCo (PEP) delivered $93.9B in FY2025 net revenue with full-year organic revenue growth of 1.7% and core EPS of $8.14, then opened 2026 with stronger momentum (Q1 net revenue +8.5% to $19.4B and core EPS +9%).\n- The board approved a 4% dividend hike to $5.92 per share, marking the 54th consecutive annual increase, alongside a fresh $10 billion buyb"
+    },
+    {
+      "id": "S7",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "investing.com: PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies By Reuters",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+      "date": "2026-10-07",
+      "weight": 3,
+      "text": "PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies By Reuters PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies By Reuters\n\n# PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies\n\nBy\n\nPublished Oct 07, 2026, 07:16 AM\n\nUpdated Oct 07, 2026, 11:19 AM\n\n(Refiles to fix dateline)\n\nBy Alexander Marrow and Anuja Bharat Mistry\n\nOct 7 (Reuters) - PepsiCo is running out of time to deliver on the growth and margin targets it set out after activist investor Elliott Investment Management took a roughly $4 billion stake a year ago, as the threat of GLP-1 weight-loss drugs to salty snacks and su"
+    },
+    {
+      "id": "S8",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "cnbc.com: PepsiCo (PEP) Q3 2026 earnings",
+      "provider": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
+      "date": "2026-10-08",
+      "weight": 3,
+      "text": "PepsiCo (PEP) Q3 2026 earnings PepsiCo (PEP) Q3 2026 earnings\n\n# PepsiCo cuts earnings forecast as North American turnaround takes longer than expected\n\nPublished Thu, Oct 8 2026 6:06 AM EDT Updated Thu, Oct 8 2026 10:43 AM EDT\n\nAmelia Lucas@Thxamelian\n\nKey Points\n\n- PepsiCo earnings and revenue topped Wall Street's estimates.\n- The food and beverage company lowered its full-year forecast for earnings.\n- Pepsi's North American business continues to lag behind its international markets.\n\nVIDEO 1:21 01:21\n\nPepsiCo Add To Watchlist on Thursday reported quarterly earnings and revenue that topped analysts' expectations, fueled b"
+    },
+    {
+      "id": "S9",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "wsj.com: PepsiCo Cuts Earnings Outlook Over Inflation and Higher Advertising Costs - WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/business/retail/pepsico-posts-higher-profit-sales-as-turnaround-continues-aa219b31",
+      "date": "2026-10-08",
+      "weight": 3,
+      "text": "PepsiCo Cuts Earnings Outlook Over Inflation and Higher Advertising Costs - WSJ PepsiCo Cuts Earnings Outlook Over Inflation and Higher Advertising Costs - WSJ\n\n# PepsiCo Trims Outlook as North American Unit Underperforms\n\n## The snacks and soda maker\u2019s net revenue climbed 5.6% to $25.27 billion in the fiscal third quarter\n\nBy \n\nConnor Hart\n\nUpdated Oct. 8, 2026 10:08 am ET\n\nPepsiCo reported higher profit and revenue in its fiscal third quarter.\n\nSergio Flores/\n\nBloomberg News\n\nPepsiCo PEP 0.51% increase; up pointing triangle cut its full-year earnings outlook as it faces inflation, higher advertising costs and continued weakness in its North American business, even as th"
+    },
+    {
+      "id": "S10",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "streetinsider.com: PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags",
+      "provider": "streetinsider.com",
+      "url": "https://www.streetinsider.com/Reuters/PepsiCo+slashes+forecast%2C+deepens+cost+cuts+as+N.America+recovery+drags/27163141.html",
+      "date": "2026-10-08",
+      "weight": 3,
+      "text": "PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags\n\n# PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags\n\nOctober 8, 2026 6:05 AM EDT\n\nFILE PHOTO: Bottles of Pepsi are displayed on a shelf in a supermarket in Sarajevo, Bosnia and Herzegovina October 29, 2024. REUTERS/Dado Ruvic/File Photo\n\nBy Anuja Bharat Mistry and Alexander Marrow\n\nOct 8 (Reuters) - \u200cPepsiCo warned on Thursday \u200bthat growth \u200band margin recovery in its key North American market was taking longer than planned and said it would pursue additional cost cuts to offset sluggish demand for it"
+    },
+    {
+      "id": "S11",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "cfodive.com: PepsiCo CFO touts cost discipline, slashes guidance | CFO Dive",
+      "provider": "cfodive.com",
+      "url": "https://www.cfodive.com/news/pepsico-cfo-touts-cost-discipline-slashes-guidance-beverage-pricing/832649/",
+      "date": "2026-10-09",
+      "weight": 3,
+      "text": "PepsiCo CFO touts cost discipline, slashes guidance | CFO Dive PepsiCo CFO touts cost discipline, slashes guidance | CFO Dive\n\n# PepsiCo CFO touts cost discipline, slashes guidance \n\nThe beverage giant is focused on cutting costs as it navigates rising food prices and changing consumer habits which have impacted its North American business.\n\n Published Oct. 9, 2026 \n\n \n\n Grace Noto Senior Editor \n\n \n\n Pepsi products are displayed for sale in a Target store on March 8, 2022 in Los Angeles, California. Mario Tama via Getty Images \n\n### Dive Brief:\n\n- PepsiCo is targeting strategic cost reductions and continued momentum in its international business as growt"
+    },
+    {
+      "id": "S12",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "openbookanalytics.com: PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook",
+      "provider": "openbookanalytics.com",
+      "url": "https://www.openbookanalytics.com/news/insights/pepsico-pep-stock-analysis-latest-results-earnings-share-price-2026",
+      "date": "2026-10-09",
+      "weight": 3,
+      "text": "PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook\n\n# PepsiCo Stock Analysis: What the Latest PEP Results Mean for Investors\n\nPepsiCo cut full-year core EPS guidance to 2.5-3.5% growth and the shares still rose 3.73% to USD 128.34. Why the market chose to buy a downgrade.\n\n9 October 2026\u00b7\n\nJack Green\n\nPepsiCo cut its full-year earnings guidance on Thursday 8 October 2026 and the shares went up 3.73%, closing at USD 128.34 from a prior close of USD 123.73. The cut was not marginal: full-year core constant-currency earnings per share growth was reduced to 1% to 2%, from a 4% to 6% range"
+    },
+    {
+      "id": "S13",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4953687-pepsico-15x-earnings-and-a-4-6-percent-yield-still-arent-cheap-enough",
+      "date": "2026-10-13",
+      "weight": 3,
+      "text": "PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha\n\n# PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough\n\nOct 13, 2026, 5:26 AM ET PepsiCo, Inc. (PEP) Stock, PEP:CA Stock 41 Comments 2 Likes\n\nLee Bailey\n\n## Summary\n\n- PepsiCo, Inc. is rated Hold at $126, trading near the fair value of $124 with a 4.6% yield.\n- North American volumes are weak, Frito-Lay is sacrificing margin, and GLP-1 drugs pose long-term demand risks.\n- Cash conversion is improving, international growth is strong, but acquisition spending and $41 billion in net debt rem"
+    },
+    {
+      "id": "S14",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "wsj.com: PEP | PepsiCo Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/PEP/research-ratings",
+      "date": "2026-10-15",
+      "weight": 3,
+      "text": "PEP | PepsiCo Inc. Analyst Estimates & Ratings \u2013 WSJ PEP | PepsiCo Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# PepsiCo Inc. PEP (U.S.: Nasdaq) \n\n- ##### AT CLOSE 4:00 PM EDT 10/21/26 \n- $ 134.70 USD \n- 0.68 0.51% \n- ##### Volume 9,066,003 \n\n- ##### AFTER HOURS 7:20 PM EDT 10/21/26\n- $ 134.70 0.00 0.00% \n- ##### AFTER HOURS Vol 710,486\n\n- Volume 9,066,003 \n- 65 Day Avg Vol 8,551,019 \n- 1 Day Range 133.14 - 135.48 \n- 52 Week Range 123.47 - 171.48 (10/07/26 - 02/12/26) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 15 Oct 16 Oct 19 Oct 20 Oct 21 $125.0$127.5$130.0$132.5$135.0$137.5\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- N"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "marketbeat.com: PepsiCo Stock Earnings Estimates Decreased by Zacks Research",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-pepsico-stock-earnings-estimates-decreased-by-zacks-research-2026-10-19/",
+      "date": "2026-10-19",
+      "weight": 3,
+      "text": "PepsiCo Stock Earnings Estimates Decreased by Zacks Research Skip to main content\n\nYour Rate Never Goes Up! Save $100 a Year on MarketBeat All Access\n\nUpgrade Now \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# PepsiCo Stock Earnings Estimates Decreased by Zacks Research\n\nWritten by MarketBeat\n\nOctober 19, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Zacks Research lowered PepsiCo\u2019s FY2026 EPS estima"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "stockanalysis.com: PepsiCo (PEP) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/pep/forecast/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "PepsiCo (PEP) Stock Forecast & Analyst Price Targets PepsiCo (PEP) Stock Forecast & Analyst Price Targets\n\n134.70 +0.68 (0.51%) At close: Oct 21, 2026, 4:00 PM EDT\n\n136.04 +1.34 (0.99%) Pre-market: Oct 22, 2026, 5:53 AM EDT\n\n# PepsiCo Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 24 analysts polled by S&P Global, PepsiCo stock has a consensus rating of \"Hold\" and an average price target of $141.59. The average 1-year stock price forecast is 5.12% higher than the current stock price, while the lowest is $106 (-21.31%) and the highest is $169 (+25.46%).\n\nPrice Target: $141.59 (+5.12%)\n\nAnalyst Consensus: Hold\n\n## Price Target\n\n| Target | L"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "tradingview.com: PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News",
+      "provider": "tradingview.com",
+      "url": "https://www.tradingview.com/news/tradingview:4f98dea9e5546:0-pepsico-inc-stock-12-month-price-target-cut-to-139-47-implies-4-upside/",
+      "date": "2026-10-20",
+      "weight": 1,
+      "text": "PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News # PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News\n\nPublished: 2026-10-21T04:20:00Z\nSource: tradingview.com\nLanguage: en\n\n## Story\n\nPepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News\n# PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside\nPEP\n* According to estimates from 19 analysts, PepsiCo, Inc. stock's average price target has fallen from $140.25 to $139.47, with forecasts ranging from $106 to $165 per share\n* Based on the Oct. 20 closing price, the updated target implies approxi"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "investor.pepsico.com: Q3 2026 8-K - Exhibit 99.1",
+      "provider": "investor.pepsico.com",
+      "url": "https://investor.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-earnings-release.pdf",
+      "date": "2026-10-08",
+      "weight": 0,
+      "text": "Q3 2026 8-K - Exhibit 99.1 ## PepsiCo Reports Third-Quarter 2026 Results Third-Quarter and Year-to-Date Results1\n\n\u2022 Net revenue increased 5.6% and 6.7%, respectively \n\u2022 Organic revenue2 increased 3.1% and 2.7%, respectively \n\u2022 Earnings per share (EPS) increased 17% and 47%, respectively \n\u2022 Core2 EPS increased 2% and 5%, respectively \n\u2022 Core constant currency2 EPS increased 1.5% and 2%, respectively Guidance \n\u2022 Company updates fiscal 2026 financial guidance2 \nPURCHASE, N.Y. - October 8, 2026 - PepsiCo, Inc. (NASDAQ: PEP) today reported results for \nthird-quarter 2026. \n\u201cOur third-quarter results featured strong net reven"
+    },
+    {
+      "id": "S19",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "investing.com: As of October 2026, GLP-1 weight-loss drugs are intensifying pressure on salty snacks and sugary drinks.",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+      "date": "2026-10-21",
+      "weight": null,
+      "text": "As of October 2026, GLP-1 weight-loss drugs are intensifying pressure on salty snacks and sugary drinks. This can further reduce PepsiCo's snack and beverage demand in North America. \"as the threat of GLP-1 weight-loss drugs to salty snacks and sugary drinks intensifies.\""
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "circana.com: As of July 2026, global snack sales are surging past record levels.",
+      "provider": "circana.com",
+      "url": "https://www.circana.com/post/snacking-enters-a-new-era-of-function-fuel-and-fun-as-global-sales-surge-past-record-levels-circa",
+      "date": "2026-07-21",
+      "weight": null,
+      "text": "As of July 2026, global snack sales are surging past record levels. This supports PepsiCo's snack volumes even as health-related pressures build. \"Global Sales Surge Past Record Levels\""
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "foodbusinessnews.net: As of August 2026, private label manufacturers are benefiting as consumers turn to functional beverages.",
+      "provider": "foodbusinessnews.net",
+      "url": "https://www.foodbusinessnews.net/articles/30893-private-labels-rising-role-in-beverage-innovation",
+      "date": "2026-08-25",
+      "weight": null,
+      "text": "As of August 2026, private label manufacturers are benefiting as consumers turn to functional beverages. This pressures PepsiCo's branded beverage share in functional categories. \"private label manufacturers are benefiting from the trend by helping their clients succeed in the category.\""
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "snackandbakery.com: In July 2026, weakening consumer spending power is reshaping the snack industry.",
+      "provider": "snackandbakery.com",
+      "url": "https://www.snackandbakery.com/articles/116077-state-of-the-industry-2026-snack-industry-answers-consumer-cravings",
+      "date": "2026-07-24",
+      "weight": null,
+      "text": "In July 2026, weakening consumer spending power is reshaping the snack industry. This pressures PepsiCo's snack volumes and pricing. \"As consumer spending power weakens and expectations increase, the snack industry continues to evolve.\""
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "cstoredecisions.com: In Q3 2026, 41% of c-store retailers cite customers reducing spend per visit.",
+      "provider": "cstoredecisions.com",
+      "url": "https://cstoredecisions.com/foodservice-faces-rising-labor-food-costs-as-retailers-prioritize-staffing/",
+      "date": "2026-09-01",
+      "weight": null,
+      "text": "In Q3 2026, 41% of c-store retailers cite customers reducing spend per visit. Lower convenience-channel spend can pressure PepsiCo's immediate-consumption sales. \"customers reducing how much they spend per visit (41%)\""
+    },
+    {
+      "id": "S24",
+      "kind": "options",
+      "ref": "options",
+      "label": "PEP listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PEP/options/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "long CALL strike 140.0 expiry 2027-03-19 premium 5.55 short PUT strike 130.0 expiry 2027-03-19 premium 5.81"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 8.41,
+    "fy_consensus": 8.39504,
+    "ratio": 1.002,
+    "beats": 3,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (2.34 + 2.2 + 1.61 + 2.26) total 8.41, against a current-FY consensus of 8.39504 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "2026 2027 US packaged snacks and beverages industry outlook volume growth private label GLP-1 health trends",
+        "2026 US grocery convenience store foodservice consumer spending traffic hiring outlook packaged food beverage demand",
+        "2026 functional beverages energy drinks private label snacks new entrants disruption US market",
+        "PepsiCo PEP 2026 2027 North America snack beverage demand GLP-1 retail channel pressures"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "As of October 2026, GLP-1 weight-loss drugs are intensifying pressure on salty snacks and sugary drinks.",
+          "stance": "pressure",
+          "why": "This can further reduce PepsiCo's snack and beverage demand in North America.",
+          "quote": "as the threat of GLP-1 weight-loss drugs to salty snacks and sugary drinks intensifies.",
+          "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+          "publisher": "investing.com",
+          "as_of": "2026-10-21",
+          "age_days": 1,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, global snack sales are surging past record levels.",
+          "stance": "support",
+          "why": "This supports PepsiCo's snack volumes even as health-related pressures build.",
+          "quote": "Global Sales Surge Past Record Levels",
+          "url": "https://www.circana.com/post/snacking-enters-a-new-era-of-function-fuel-and-fun-as-global-sales-surge-past-record-levels-circa",
+          "publisher": "circana.com",
+          "as_of": "2026-07-21",
+          "age_days": 93,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, private label manufacturers are benefiting as consumers turn to functional beverages.",
+          "stance": "pressure",
+          "why": "This pressures PepsiCo's branded beverage share in functional categories.",
+          "quote": "private label manufacturers are benefiting from the trend by helping their clients succeed in the category.",
+          "url": "https://www.foodbusinessnews.net/articles/30893-private-labels-rising-role-in-beverage-innovation",
+          "publisher": "foodbusinessnews.net",
+          "as_of": "2026-08-25",
+          "age_days": 58,
+          "undated": false
+        },
+        {
+          "claim": "In July 2026, weakening consumer spending power is reshaping the snack industry.",
+          "stance": "pressure",
+          "why": "This pressures PepsiCo's snack volumes and pricing.",
+          "quote": "As consumer spending power weakens and expectations increase, the snack industry continues to evolve.",
+          "url": "https://www.snackandbakery.com/articles/116077-state-of-the-industry-2026-snack-industry-answers-consumer-cravings",
+          "publisher": "snackandbakery.com",
+          "as_of": "2026-07-24",
+          "age_days": 90,
+          "undated": false
+        },
+        {
+          "claim": "In Q3 2026, 41% of c-store retailers cite customers reducing spend per visit.",
+          "stance": "pressure",
+          "why": "Lower convenience-channel spend can pressure PepsiCo's immediate-consumption sales.",
+          "quote": "customers reducing how much they spend per visit (41%)",
+          "url": "https://cstoredecisions.com/foodservice-faces-rising-labor-food-costs-as-retailers-prioritize-staffing/",
+          "publisher": "cstoredecisions.com",
+          "as_of": "2026-09-01",
+          "age_days": 51,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "As of January 2026, CPG growth continues to decelerate in most categories.",
+          "stance": "pressure",
+          "why": "This pressures PepsiCo's established brands as category growth slows.",
+          "quote": "growth continues to decelerate, and in most categories it\u2019s slowing rapidly.",
+          "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/what-consumer-packaged-goods-companies-can-learn-from-disruptor-brands",
+          "publisher": "mckinsey.com",
+          "as_of": "2026-01-26",
+          "age_days": 269,
+          "undated": false,
+          "drop_reason": "stale (269 days old)"
+        },
+        {
+          "claim": "The US convenience-store foodservice market is projected to reach $78.1 billion in 2026.",
+          "stance": "support",
+          "why": "This supports PepsiCo's foodservice and immediate-consumption channel volumes.",
+          "quote": "The US convenience store foodservice market is projected to reach $78.1 billion in 2026, continuing steady year-over-year growth.",
+          "url": "https://store.mintel.com/report/us-convenience-store-foodservice-market-report",
+          "publisher": "store.mintel.com",
+          "as_of": "2025-11-01",
+          "age_days": 355,
+          "undated": false,
+          "drop_reason": "stale (355 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 2027 US carbonated soft drinks consumption decline GLP-1 sugar reduction private label pressure",
+        "2026 2027 functional beverages energy drinks better-for-you snacks new competitors market share",
+        "2026 2027 convenience store grocery foodservice consumer spending traffic hiring outlook",
+        "PepsiCo PEP 2026 2027 snack beverage demand retailer inventory convenience store traffic"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "US per-capita soft drink consumption is declining in 2026 as consumers choose healthier beverages.",
+          "stance": "pressure",
+          "why": "Lower soda volumes pressure PepsiCo's beverage revenue and product mix.",
+          "quote": "declining per capita soft drink consumption is pressuring soda producers' performance",
+          "url": "https://www.ibisworld.com/united-states/industry/soft-drink-manufacturing/285/",
+          "publisher": "ibisworld.com",
+          "as_of": "2026-06-01",
+          "age_days": 143,
+          "undated": false
+        },
+        {
+          "claim": "Zero-sugar and diet soda extensions are driving CSD growth in 2026 while full-sugar colas stay flat.",
+          "stance": "support",
+          "why": "PepsiCo's no-sugar portfolio can offset flat traditional cola volumes.",
+          "quote": "the real growth is happening in zero-sugar and diet extensions",
+          "url": "https://www.bevindustry.com/articles/98501-2026-state-of-the-beverage-industry-carbonated-soft-drink-market-meets-consumer-trends",
+          "publisher": "bevindustry.com",
+          "as_of": "2026-07-06",
+          "age_days": 108,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, private-label soda commands 5.3% market share.",
+          "stance": "pressure",
+          "why": "Value-seeking shoppers can shift volume from PepsiCo brands to cheaper private label.",
+          "quote": "private label brands now commanding a respectable 5.3% market share",
+          "url": "https://simporter.com/trends/soda/",
+          "publisher": "simporter.com",
+          "as_of": "2026-10-02",
+          "age_days": 20,
+          "undated": false
+        },
+        {
+          "claim": "Food-away-from-home operator spending is forecast to grow only 0.9% real in 2027.",
+          "stance": "pressure",
+          "why": "Weak restaurant traffic can slow PepsiCo's foodservice beverage and snack volumes.",
+          "quote": "For 2027, total operator spending across all food-away-from-home segments is expected to grow at an actual rate of 0.9%",
+          "url": "https://foodaway.org/IFMA/IFMA/Resources/News/2026/2027-Forecast.aspx",
+          "publisher": "foodaway.org",
+          "as_of": "2026-08-13",
+          "age_days": 70,
+          "undated": false
+        },
+        {
+          "claim": "In Q3 2026, 59% of c-store retailers cite rising labor and food costs as top challenges.",
+          "stance": "pressure",
+          "why": "Higher c-store costs and weaker traffic can reduce PepsiCo impulse purchases.",
+          "quote": "59% of respondents saying that these were their top operational challenges",
+          "url": "https://cstoredecisions.com/foodservice-faces-rising-labor-food-costs-as-retailers-prioritize-staffing/",
+          "publisher": "cstoredecisions.com",
+          "as_of": "2026-09-01",
+          "age_days": 51,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "Global functional drink demand is rising in 2026, led by health-conscious young consumers.",
+          "stance": "support",
+          "why": "PepsiCo needs functional launches to capture growth beyond traditional soda.",
+          "quote": "The $160 billion global functional drinks market reflects demand from health-conscious young consumers.",
+          "url": "https://www.cnbc.com/2026/06/28/protein-coffee-cbd-soda-starbucks-functional-beverage-boom.html",
+          "publisher": "cnbc.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true,
+          "drop_reason": "quote_not_found_in_results"
+        }
+      ],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "PepsiCo PEP 2026 GLP-1 snacks soda demand private label competition",
+        "US packaged food and beverage volume outlook 2026 2027 consumer health trends",
+        "convenience store grocery foodservice traffic 2026 low-income consumer budgets",
+        "functional beverages protein snacks energy drinks market growth 2026 new entrants"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "As of Oct 2026, the GLP-1 threat to salty snacks and sugary drinks is intensifying.",
+          "stance": "pressure",
+          "why": "It pressures North America volumes and makes PepsiCo's Elliott-era growth targets harder to hit.",
+          "quote": "the threat of GLP-1 weight-loss drugs to salty snacks and sugary drinks intensifies.",
+          "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+          "publisher": "investing.com",
+          "as_of": "2026-10-21",
+          "age_days": 1,
+          "undated": false
+        },
+        {
+          "claim": "In Oct 2026, Iran-war input costs and sticky inflation are curbing North America consumer demand.",
+          "stance": "pressure",
+          "why": "Higher costs and weaker demand squeeze margins and volumes in PepsiCo's largest segment.",
+          "quote": "higher input costs stemming from the Iran war and sticky inflation curbing consumer demand.",
+          "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+          "publisher": "investing.com",
+          "as_of": "2026-10-21",
+          "age_days": 1,
+          "undated": false
+        },
+        {
+          "claim": "Circana's 2026/2027 outlook predicts slow-to-moderate food and beverage growth as the market rationalizes.",
+          "stance": "pressure",
+          "why": "Slower category growth makes PepsiCo's volume recovery harder without taking share.",
+          "quote": "Circana\u2019s 2026/2027 Global Food and Beverage Outlook Predicts Slow-to-Moderate Growth as Market Enters Period of Rationalization",
+          "url": "https://www.circana.com/post/circana-s-2026-2027-global-food-and-beverage-outlook-predicts-slow-to-moderate-growth-as-market-ente",
+          "publisher": "circana.com",
+          "as_of": "2026-07-13",
+          "age_days": 101,
+          "undated": false
+        },
+        {
+          "claim": "As of Sept 2026, wages have mostly kept up with food prices and food's income share is near multi-decade lows.",
+          "stance": "support",
+          "why": "Improved affordability may support PepsiCo's food and beverage volumes.",
+          "quote": "Wages have mostly kept up with food prices, and food\u2019s share of disposable income is near multi-decade lows",
+          "url": "https://www.wellsfargo.com/assets/pdf/commercial/insights/agri-food-intelligence/q3-2026-industry-update.pdf",
+          "publisher": "wellsfargo.com",
+          "as_of": "2026-09-01",
+          "age_days": 51,
+          "undated": false
+        },
+        {
+          "claim": "Functional drinks are projected to grow at an 8.5% CAGR from 2026 to 2033.",
+          "stance": "support",
+          "why": "This growing category could support PepsiCo beverage volumes if it shifts portfolio toward function.",
+          "quote": "projected to grow from USD 178.9 billion in 2026 to USD 315.9 billion by 2033, at a CAGR of 8.5%",
+          "url": "https://www.grandviewresearch.com/industry-analysis/functional-drinks-market",
+          "publisher": "grandviewresearch.com",
+          "as_of": "2026-06-01",
+          "age_days": 143,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, industry forecasts see minimal food and beverage volume growth, if any.",
+          "stance": "pressure",
+          "why": "Weak category volumes make PepsiCo's growth depend on pricing and mix, which may not last.",
+          "quote": "the food and beverage sector will see minimal volume growth in 2026, if any",
+          "url": "https://alvarezandmarsal-crg.com/wp-content/uploads/2026/03/Food-and-Beverage-Market-Perspective-White-Paper.pdf",
+          "publisher": "alvarezandmarsal-crg.com",
+          "as_of": "2026-03-01",
+          "age_days": 235,
+          "undated": false,
+          "drop_reason": "stale (235 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    }
+  ]
+}

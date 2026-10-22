@@ -1,0 +1,617 @@
+{
+  "ticker": "PEP",
+  "direction": "short",
+  "as_of": "2026-10-22",
+  "description": "Global snacks and soft-drink maker; North America food and beverage is both the profit centre and the laggard.",
+  "catalyst": {
+    "date": "2027-02-02",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 103,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 2.24
+    },
+    "recent_reports": [
+      {
+        "date": "2026-10-08",
+        "eps_estimate": 2.3,
+        "eps_actual": 2.34,
+        "surprise_pct": 1.95,
+        "beat": true
+      },
+      {
+        "date": "2026-07-09",
+        "eps_estimate": 2.21,
+        "eps_actual": 2.2,
+        "surprise_pct": -0.37,
+        "beat": false
+      },
+      {
+        "date": "2026-04-16",
+        "eps_estimate": 1.55,
+        "eps_actual": 1.61,
+        "surprise_pct": 3.75,
+        "beat": true
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 2.24,
+        "eps_actual": 2.26,
+        "surprise_pct": 1.02,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "median_gap_days": 84,
+    "facts_line": "2027-02-02 (Tuesday, before the open), 103 days out -- from the earnings calendar, consensus EPS 2.24.",
+    "why": "Q4 must show North America volumes growing and the 2.5-3.5% earnings guidance held; another cut proves the recovery slipped again."
+  },
+  "reasons": [
+    "The estimate level is still falling, not stabilising: 15 of 16 analysts cut in 30 days and FY [full year] consensus EPS [earnings per share] fell 1.91% to 8.395, after the October guidance cut.",
+    "The beat streak is already in the number: the last four quarters' EPS [earnings per share] actuals total 8.41 against 8.395 consensus, so Q4 needs a beat just to hold the level.",
+    "At 16.05x forward earnings for 2% core earnings growth, the price assumes a North America recovery the company just pushed out, while 41% of c-store [convenience store] retailers report customers cutting spend per visit."
+  ],
+  "watch": [
+    "Organic revenue growth: 3.1% or better with North America positive confirms the recovery; below 3% or another North America decline breaks it.",
+    "Full-year earnings guidance: held at 2.5-3.5% growth confirms; a second cut inside four months breaks the thesis.",
+    "Q4 EPS against the 2.24 consensus: a beat with guidance held confirms; a miss ends the beat streak the multiple rests on."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for PEP",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/PEP/analysis/",
+        "date": "2026-10-22"
+      },
+      {
+        "id": "S12",
+        "kind": "ollama_search",
+        "ref": "web:7",
+        "label": "openbookanalytics.com: PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook",
+        "provider": "openbookanalytics.com",
+        "url": "https://www.openbookanalytics.com/news/insights/pepsico-pep-stock-analysis-latest-results-earnings-share-price-2026",
+        "date": "2026-10-09"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "PEP quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/pep/financials",
+        "date": null
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "PEP earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/pep/earnings",
+        "date": "2027-02-02"
+      }
+    ],
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for PEP",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/PEP/key-statistics/",
+        "date": "2026-10-22"
+      },
+      {
+        "id": "S18",
+        "kind": "ollama_search",
+        "ref": "web:13",
+        "label": "investor.pepsico.com: Q3 2026 8-K - Exhibit 99.1",
+        "provider": "investor.pepsico.com",
+        "url": "https://investor.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-earnings-release.pdf",
+        "date": "2026-10-08"
+      },
+      {
+        "id": "S23",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "cstoredecisions.com: In Q3 2026, 41% of c-store retailers cite customers reducing spend per visit.",
+        "provider": "cstoredecisions.com",
+        "url": "https://cstoredecisions.com/foodservice-faces-rising-labor-food-costs-as-retailers-prioritize-staffing/",
+        "date": "2026-09-01"
+      },
+      {
+        "id": "S10",
+        "kind": "ollama_search",
+        "ref": "web:5",
+        "label": "streetinsider.com: PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags",
+        "provider": "streetinsider.com",
+        "url": "https://www.streetinsider.com/Reuters/PepsiCo+slashes+forecast%2C+deepens+cost+cuts+as+N.America+recovery+drags/27163141.html",
+        "date": "2026-10-08"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for PEP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PEP/key-statistics/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for PEP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PEP/analysis/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "PEP quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pep/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "PEP earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pep/earnings",
+      "date": "2027-02-02"
+    },
+    {
+      "id": "S5",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "holdingschannel.com: PepsiCo Risk Factors: What the 10-K Says About Demand, Margins, Regulation, and Execution",
+      "provider": "holdingschannel.com",
+      "url": "https://www.holdingschannel.com/article/202605/pepsico-risk-factors-what-the-10-k-says-about-demand-margins-regulation-and-PEP05212026risks.htm/",
+      "date": null
+    },
+    {
+      "id": "S6",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "deepresearchglobal.com: PepsiCo (PEP) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/pepsico-pep-fundamental-analysis-report",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "S7",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "investing.com: PepsiCo running out of time to meet Elliott-inspired targets as GLP-1 threat intensifies By Reuters",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "S8",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "cnbc.com: PepsiCo (PEP) Q3 2026 earnings",
+      "provider": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "S9",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "wsj.com: PepsiCo Cuts Earnings Outlook Over Inflation and Higher Advertising Costs - WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/business/retail/pepsico-posts-higher-profit-sales-as-turnaround-continues-aa219b31",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "S10",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "streetinsider.com: PepsiCo slashes forecast, deepens cost cuts as N.America recovery drags",
+      "provider": "streetinsider.com",
+      "url": "https://www.streetinsider.com/Reuters/PepsiCo+slashes+forecast%2C+deepens+cost+cuts+as+N.America+recovery+drags/27163141.html",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "S11",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "cfodive.com: PepsiCo CFO touts cost discipline, slashes guidance | CFO Dive",
+      "provider": "cfodive.com",
+      "url": "https://www.cfodive.com/news/pepsico-cfo-touts-cost-discipline-slashes-guidance-beverage-pricing/832649/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "S12",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "openbookanalytics.com: PepsiCo Stock Analysis 2026: PEP Q3 Guidance Cut | Openbook",
+      "provider": "openbookanalytics.com",
+      "url": "https://www.openbookanalytics.com/news/insights/pepsico-pep-stock-analysis-latest-results-earnings-share-price-2026",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "S13",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: PepsiCo: 15x Earnings And A 4.6% Yield Still Aren't Cheap Enough (NASDAQ:PEP) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4953687-pepsico-15x-earnings-and-a-4-6-percent-yield-still-arent-cheap-enough",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "wsj.com: PEP | PepsiCo Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/PEP/research-ratings",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "marketbeat.com: PepsiCo Stock Earnings Estimates Decreased by Zacks Research",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-pepsico-stock-earnings-estimates-decreased-by-zacks-research-2026-10-19/",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "stockanalysis.com: PepsiCo (PEP) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/pep/forecast/",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "tradingview.com: PepsiCo, Inc. Stock 12\u2011Month Price Target Cut to $139.47, Implies 4% Upside \u2014 TradingView News",
+      "provider": "tradingview.com",
+      "url": "https://www.tradingview.com/news/tradingview:4f98dea9e5546:0-pepsico-inc-stock-12-month-price-target-cut-to-139-47-implies-4-upside/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "investor.pepsico.com: Q3 2026 8-K - Exhibit 99.1",
+      "provider": "investor.pepsico.com",
+      "url": "https://investor.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-earnings-release.pdf",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "S19",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "investing.com: As of October 2026, GLP-1 weight-loss drugs are intensifying pressure on salty snacks and sugary drinks.",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/pepsico-running-out-of-time-to-meet-elliottinspired-targets-as-glp1-threat-intensifies-4936335",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "circana.com: As of July 2026, global snack sales are surging past record levels.",
+      "provider": "circana.com",
+      "url": "https://www.circana.com/post/snacking-enters-a-new-era-of-function-fuel-and-fun-as-global-sales-surge-past-record-levels-circa",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "foodbusinessnews.net: As of August 2026, private label manufacturers are benefiting as consumers turn to functional beverages.",
+      "provider": "foodbusinessnews.net",
+      "url": "https://www.foodbusinessnews.net/articles/30893-private-labels-rising-role-in-beverage-innovation",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "snackandbakery.com: In July 2026, weakening consumer spending power is reshaping the snack industry.",
+      "provider": "snackandbakery.com",
+      "url": "https://www.snackandbakery.com/articles/116077-state-of-the-industry-2026-snack-industry-answers-consumer-cravings",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "cstoredecisions.com: In Q3 2026, 41% of c-store retailers cite customers reducing spend per visit.",
+      "provider": "cstoredecisions.com",
+      "url": "https://cstoredecisions.com/foodservice-faces-rising-labor-food-costs-as-retailers-prioritize-staffing/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S24",
+      "kind": "options",
+      "ref": "options",
+      "label": "PEP listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PEP/options/",
+      "date": "2026-10-22"
+    }
+  ],
+  "quants": {
+    "price": 134.7,
+    "market_cap": "183.56B",
+    "fwd_pe": 16.1,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.9,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted lower, with 1 up and 15 down over last 30 days",
+    "extra": [
+      "EPS increased year over year, 2.29 -> 2.34"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 24.4,
+        "yoy_pct": 6.4,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 28.1,
+        "yoy_pct": 136.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 24.8,
+        "yoy_pct": 122.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 23.7,
+        "yoy_pct": 83.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 25.2,
+        "yoy_pct": 10.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 22.2,
+        "yoy_pct": 5.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": -23.6,
+        "yoy_pct": -11.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Interest Income",
+        "qoq_pct": 23.6,
+        "yoy_pct": 11.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 2.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": -14.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Expense",
+        "change_pct": 22.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": -22.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": -14.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": -11.7,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 103,
+    "bar": {
+      "date": "2026-10-08",
+      "eps_avg": 2.23796,
+      "eps_low": 2.19,
+      "eps_high": 2.32,
+      "revenue_avg": 30430699710
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Mar-27",
+        "strike": 130.0,
+        "qty": 7,
+        "underlying": 134.7,
+        "multiplier": 100,
+        "price": 5.81,
+        "total": 4066.9999999999995,
+        "open_interest": 1197
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 130.0,
+        "qty": 4,
+        "underlying": 134.7,
+        "multiplier": 100,
+        "price": 1.33,
+        "total": -532.0,
+        "open_interest": 2189
+      }
+    ],
+    "thesis_target": "Targets the 2027-02-02 report, with the long leg expiring 2027-03-19, which gives the deterioration time to show up.",
+    "reflection": "The short leg expires 2026-11-20, ten weeks before the print, so the position pays for its protection and collects nothing into the catalyst. At a 0.0% conservative credit ratio against a 10% floor this is a debit spread, not premium sold -- size it as a directional put and treat the 130 strike as the line where the thesis is already working."
+  },
+  "news_failures": [
+    {
+      "source": "nasdaq",
+      "error": "RuntimeError: GET failed after 3 attempts: https://api.nasdaq.com/api/news/topic/articlebysymbol?q=PEP|stocks&offset=0&limit=15"
+    }
+  ],
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 15,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 7,
+      "mismatches": [
+        "Reason 2: \"8.41\" is cited to S3, S4 but appears in S2",
+        "Reason 2: \"8.395\" is cited to S3, S4 but appears in S2"
+      ],
+      "superseded": [],
+      "ok": false,
+      "ratio": 0.714
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "october",
+          "retailers",
+          "share",
+          "snack",
+          "spend",
+          "visit"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "consumption",
+          "drink",
+          "label",
+          "october",
+          "private",
+          "share",
+          "snack",
+          "volume"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "drinks",
+          "intensifying",
+          "salty",
+          "slower",
+          "sugary",
+          "targets",
+          "volume",
+          "volumes"
+        ]
+      }
+    ]
+  }
+}

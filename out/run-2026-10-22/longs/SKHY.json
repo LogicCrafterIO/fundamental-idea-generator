@@ -1,0 +1,583 @@
+{
+  "ticker": "SKHY",
+  "direction": "long",
+  "as_of": "2026-10-22",
+  "description": "Memory chip maker: DRAM [working memory], NAND [storage flash] and HBM [high-bandwidth memory stacked for AI chips].",
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "session": "after the close",
+    "days_out": 5,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 6.25
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 4.87,
+        "eps_actual": 90.62,
+        "surprise_pct": 1760.69,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "median_gap_days": null,
+    "facts_line": "2026-10-27 (Tuesday, after the close), 5 days out -- from the earnings calendar, consensus EPS 6.25.",
+    "why": "Q3 must show DRAM prices rising again after Q2's shortfall and revenue above the 99.68T consensus, or the tight-supply case stays a forecast."
+  },
+  "reasons": [
+    "Because DRAM tight supply is expected to persist into 2028, pricing holds and Q2's 76% operating margin runs for years rather than one quarter.",
+    "Because cloud capex rises 98% in 2026 and 50% in 2027 while memory's share goes from 47% to 68%, memory spend grows faster than the capex funding it.",
+    "Because long-term supply agreements now lock volumes and prices, the earnings behind the 5.37x forward PE are contracted rather than spot, so the market is discounting a spot-cycle peak that no longer exists."
+  ],
+  "watch": [
+    "Revenue vs the 99.68T consensus: confirm above; break if DRAM average selling prices fall short again as they did in Q2.",
+    "Operating margin vs Q2's 76%: confirm at or above; break on compression from won strength or DRAM price give-back.",
+    "HBM4 [fourth-generation high-bandwidth memory] timing: confirm a Q4 sales ramp is guided; break if it slips into 2027.",
+    "Q4 guidance on memory pricing: confirm prices still rising into year-end; break if management flags oversupply or lockup selling."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S22",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "trendforce.com: As of October 2026, DRAM tight supply is expected to persist into 2028.",
+        "provider": "trendforce.com",
+        "url": "https://www.trendforce.com/research/download/RP260929AN",
+        "date": "2026-10-01"
+      },
+      {
+        "id": "S6",
+        "kind": "ollama_search",
+        "ref": "web:2",
+        "label": "seekingalpha.com: SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4956032-sk-hynix-q3-micron-already-told-us-whats-coming",
+        "date": "2026-10-21"
+      }
+    ],
+    [
+      {
+        "id": "S19",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "trendforce.com: CSP capex is projected to surge 98% in 2026 and another 50% in 2027.",
+        "provider": "trendforce.com",
+        "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+        "date": "2026-08-25"
+      },
+      {
+        "id": "S20",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "trendforce.com: Memory is forecast to rise from 47% of CSP capex in 2026 to 68% in 2027.",
+        "provider": "trendforce.com",
+        "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+        "date": "2026-08-25"
+      }
+    ],
+    [
+      {
+        "id": "S18",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "securities.miraeasset.com: As of June 2026, long-term memory supply agreements are moving into full swing.",
+        "provider": "securities.miraeasset.com",
+        "url": "https://securities.miraeasset.com/newir/view/pc/en/investor/researchReportsView.jsp?messageId=2340335",
+        "date": null
+      },
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for SKHY",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/SKHY/key-statistics/",
+        "date": "2026-10-22"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SKHY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SKHY/key-statistics/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SKHY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SKHY/analysis/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S3",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "SKHY earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/skhy/earnings",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "S4",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4922361-sk-hynix-cheap-with-robust-ai-monetization-prospects-lockup-oversupply-risks-loom",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "S5",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "ca.finance.yahoo.com: SK hynix Inc. (SKHY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/quote/SKHY/analysis/",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S6",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4956032-sk-hynix-q3-micron-already-told-us-whats-coming",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S7",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "en.sedaily.com: Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag - Seoul Economic Daily",
+      "provider": "en.sedaily.com",
+      "url": "https://en.sedaily.com/news/2026/09/03/citi-trims-price-targets-for-samsung-electronics-sk-hynix",
+      "date": null
+    },
+    {
+      "id": "S8",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "en.sedaily.com: DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4 - Seoul Economic Daily",
+      "provider": "en.sedaily.com",
+      "url": "https://en.sedaily.com/finance/2026/09/29/ds-securities-cuts-sk-hynix-target-on-won-strength-eyes",
+      "date": null
+    },
+    {
+      "id": "S9",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "en.sedaily.com: SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily",
+      "provider": "en.sedaily.com",
+      "url": "https://en.sedaily.com/finance/2026/06/26/sk-hynix-lists-20-risk-factors-ahead-of-nasdaq-debut",
+      "date": null
+    },
+    {
+      "id": "S10",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "deepresearchglobal.com: SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/sk-hynix-fundamental-analysis-report",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "S11",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "snowballhare.com: SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks",
+      "provider": "snowballhare.com",
+      "url": "https://snowballhare.com/deep-research/sk-hynix-000660-hbm-deep-research",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "S12",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "asiae.co.kr: [Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive) - The Asia Business Daily",
+      "provider": "asiae.co.kr",
+      "url": "https://www.asiae.co.kr/en/article/2026072910433140202",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S13",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "koreaherald.com: SK hynix posts record profit, maps out W40tr-plus spending - The Korea Herald",
+      "provider": "koreaherald.com",
+      "url": "https://www.koreaherald.com/article/10823621",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S14",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "securities.miraeasset.com: SK Hynix",
+      "provider": "securities.miraeasset.com",
+      "url": "https://securities.miraeasset.com/bbs/download/2147612.pdf?attachmentId=2147612",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "asiae.co.kr: Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily",
+      "provider": "asiae.co.kr",
+      "url": "https://www.asiae.co.kr/en/article/2026101214550156886",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "stockhub.kr: Hana Securities Forecasts SK Hynix 3Q26 to Meet Consensus | StockHub",
+      "provider": "stockhub.kr",
+      "url": "https://stockhub.kr/en/news/news_cbde2e53d2ee",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "koreatimes.co.kr: Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts - The Korea Times",
+      "provider": "koreatimes.co.kr",
+      "url": "https://www.koreatimes.co.kr/economy/20261016/samsung-sk-hynix-sell-off-excessive-as-memory-outlook-stays-strong-analysts",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "S18",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "securities.miraeasset.com: As of June 2026, long-term memory supply agreements are moving into full swing.",
+      "provider": "securities.miraeasset.com",
+      "url": "https://securities.miraeasset.com/newir/view/pc/en/investor/researchReportsView.jsp?messageId=2340335",
+      "date": null
+    },
+    {
+      "id": "S19",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "trendforce.com: CSP capex is projected to surge 98% in 2026 and another 50% in 2027.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "trendforce.com: Memory is forecast to rise from 47% of CSP capex in 2026 to 68% in 2027.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "trendforce.com: In 2026, AI server shipments are forecast to grow nearly 31% YoY.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20260803-13161.html",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "trendforce.com: As of October 2026, DRAM tight supply is expected to persist into 2028.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/research/download/RP260929AN",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "S23",
+      "kind": "options",
+      "ref": "options",
+      "label": "SKHY listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SKHY/options/",
+      "date": "2026-10-22"
+    }
+  ],
+  "quants": {
+    "price": 143.25,
+    "market_cap": "1.04T",
+    "fwd_pe": 5.4,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.0,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 2 up and 1 down over last 30 days",
+    "extra": []
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 50.9,
+        "yoy_pct": 256.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 132.6,
+        "yoy_pct": 1240.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 137.3,
+        "yoy_pct": 1273.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 128.6,
+        "yoy_pct": 923.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 61.0,
+        "yoy_pct": 557.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 58.3,
+        "yoy_pct": 450.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": -7.6,
+        "yoy_pct": -30.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": 61.3,
+        "yoy_pct": 233.4,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 46.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 116.9,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": 1660.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 116.9,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 103.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 101.2,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 5,
+    "bar": {
+      "date": "2026-10-28",
+      "eps_avg": 6.25287,
+      "eps_low": 5.7586,
+      "eps_high": 6.772,
+      "revenue_avg": 99678538450000
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Feb-27",
+        "strike": 150.0,
+        "qty": 2,
+        "underlying": 143.25,
+        "multiplier": 100,
+        "price": 16.92,
+        "total": 3384.0000000000005,
+        "open_interest": 372
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 150.0,
+        "qty": 1,
+        "underlying": 143.25,
+        "multiplier": 100,
+        "price": 7.9,
+        "total": -790.0,
+        "open_interest": 4055
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-27 report, with the long leg expiring 2027-02-19, which gives the thesis time to show up.",
+    "reflection": "Net debit $2,594 for two February 150 calls with one November 150 sold against them; the short strike sits 4.7% above spot and expires 24 days after the print, so this pays on a pop that then stalls. The conservative credit ratio is 0.0% against a 10% floor and selling more at that strike cannot clear it, so the debit is the price of the calendar."
+  },
+  "news_failures": [
+    {
+      "source": "nasdaq",
+      "error": "RuntimeError: GET failed after 3 attempts: https://api.nasdaq.com/api/news/topic/articlebysymbol?q=SKHY|stocks&offset=0&limit=15"
+    }
+  ],
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 8,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 6,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "contracts",
+          "prices",
+          "roughly",
+          "volume"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "capacity",
+          "capex",
+          "cloud",
+          "forecast",
+          "hynix",
+          "largest",
+          "prices",
+          "reach",
+          "server",
+          "supply",
+          "through",
+          "tight",
+          "until"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "agreements",
+          "capex",
+          "cloud",
+          "persist",
+          "pricing",
+          "share",
+          "supply",
+          "tight",
+          "volumes"
+        ]
+      }
+    ]
+  }
+}

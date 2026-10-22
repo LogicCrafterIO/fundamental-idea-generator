@@ -1,0 +1,1403 @@
+{
+  "symbol": "SKHY",
+  "as_of": "2026-10-22",
+  "generated_at": "2026-10-22T20:23:48",
+  "profile": {
+    "symbol": "SKHY",
+    "name": "SK hynix Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "summary": "SK hynix Inc. through its subsidiaries, engages in research, develops, manufactures, distributes, and sells semiconductor devices in Korea, China, rest of Asia, the United States, Europe, and internationally. It offers DRAM, such as server memory, graphics memory, mobile memory, PC memory, consumer memory; NAND flash memory; SSD; and MCP products. It also engages in foundry business, produces non-memory semiconductors. The company serves its products for server, networking, mobile, personal computer, consumer, and automotive applications. The company was formerly known as Hynix Semiconductor Inc. and changed its name to SK hynix Inc. in March 2012. SK hynix Inc. was incorporated in 1949 and is headquartered in Icheon-si, South Korea.",
+    "employees": 36042,
+    "country": "South Korea",
+    "website": "https://www.skhynix.com"
+  },
+  "quants": {
+    "symbol": "SKHY",
+    "name": "SK hynix Inc.",
+    "price": 143.25,
+    "market_cap": 1044101398528,
+    "market_cap_human": "1.04T",
+    "fwd_pe": 5.37,
+    "fwd_pe_1y": 4.16,
+    "fwd_pe_yahoo": 4.155067,
+    "trailing_pe": 9.135841,
+    "ps": 0.0055193636,
+    "ev_ebitda": -0.456,
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "eps_fy_current": 26.68399,
+    "eps_fy_next": 34.47598,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": 0.91,
+      "current": 26.68399,
+      "7d_ago": 26.68399,
+      "30d_ago": 26.44219,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 0,
+      "up_30d": 2,
+      "down_30d": 1,
+      "net_30d": 1,
+      "text": "tilted higher, with 2 up and 1 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-28"
+      ],
+      "next_date": "2026-10-28",
+      "eps_avg": 6.25287,
+      "eps_low": 5.7586,
+      "eps_high": 6.772,
+      "revenue_avg": 99678538450000
+    },
+    "as_of": "2026-10-22"
+  },
+  "quants_lines": [
+    "Price: 143.25 USD",
+    "Market Cap: 1.04T",
+    "Fwd PE: 5.37",
+    "P/S: 0.0",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted higher, with 2 up and 1 down over last 30 days"
+  ],
+  "fundamental_deltas": [],
+  "eps_yoy": null,
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 79318746000000.0,
+      "prior": 52576287000000.0,
+      "qoq_pct": 50.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 22231952000000.0,
+      "yoy_pct": 256.8,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 93820236000000.0,
+      "prior": 40330176000000.0,
+      "qoq_pct": 132.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 6997228000000.0,
+      "yoy_pct": 1240.8,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 122862689000000.0,
+      "prior": 51783801000000.0,
+      "qoq_pct": 137.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 8943034000000.0,
+      "yoy_pct": 1273.8,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 126892911000000.0,
+      "prior": 55512868000000.0,
+      "qoq_pct": 128.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 12397456000000.0,
+      "yoy_pct": 923.5,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 60542608000000.0,
+      "prior": 37610283000000.0,
+      "qoq_pct": 61.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 9212851000000.0,
+      "yoy_pct": 557.2,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 65991356000000.0,
+      "prior": 41679414000000.0,
+      "qoq_pct": 58.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 11983324000000.0,
+      "yoy_pct": 450.7,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 154334000000.0,
+      "prior": 166943000000.0,
+      "qoq_pct": -7.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 220451000000.0,
+      "yoy_pct": -30.0,
+      "conflict": false
+    },
+    {
+      "label": "Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 304478000000.0,
+      "prior": 188779000000.0,
+      "qoq_pct": 61.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 91330000000.0,
+      "yoy_pct": 233.4,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 97146675000000.0,
+      "prior": 66192960000000.0,
+      "change_pct": 46.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 42919287000000.0,
+      "prior": 19788681000000.0,
+      "change_pct": 116.9,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 11770064000000.0,
+      "prior": -754106000000.0,
+      "change_pct": 1660.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 42919287000000.0,
+      "prior": 19788681000000.0,
+      "change_pct": 116.9,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 51389255000000.0,
+      "prior": 25230589000000.0,
+      "change_pct": 103.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 47206319000000.0,
+      "prior": 23467319000000.0,
+      "change_pct": 101.2,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-28",
+    "eps_avg": 6.25287,
+    "eps_low": 5.7586,
+    "eps_high": 6.772,
+    "revenue_avg": 99678538450000
+  },
+  "news": [
+    {
+      "title": "SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4922361-sk-hynix-cheap-with-robust-ai-monetization-prospects-lockup-oversupply-risks-loom",
+      "summary": "SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha\n\n# SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom\n\nJul 15, 2026, 1:15 PM ET SK hynix Inc. (SKHY) Stock 16 Comments\n\nJuxtaposed Ideas\n\n## Summary\n\n- SK hynix's successful US debut is powered by surging DRAM/HBM prices and aggressive hyperscaler capex trends, with it contributing to the outsized, multi-year top-line growth and margin expansion prospects.\n- The FQ2'26 earnings call may also benefit from the retooling of some of the HBM3E capacity for DRAM",
+      "published": "2026-07-15",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "ai_monetisation",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "SK hynix Inc. (SKHY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "publisher": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/quote/SKHY/analysis/",
+      "summary": "SK hynix Inc. (SKHY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\nSK hynix Inc.\n\n127.21 -2.27% \n\nNasdaqGS - BOATS Real Time Price \u2022 USD \n\n# SK hynix Inc. (SKHY)\n\n 130.17 -12.85 (-8.98%) \n\n At close: July 28 at 4:00:00 p.m. EDT \n\n 127.21 -2.96 (-2.27%) \n\nOvernight: 9:41:59 p.m. EDT\n\nThis price reflects trading activity during the overnight session on the Blue Ocean ATS, available 8 PM to 4 AM ET, Sunday through Thursday, when regular markets are closed. \n\n SKHY Q2 2026 earnings call Replay the call for the latest insights. \n\n### Earnings Per Share \n\nNo Earnings Per Share available fo",
+      "published": "2026-07-28",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4956032-sk-hynix-q3-micron-already-told-us-whats-coming",
+      "summary": "SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha\n\n# SK hynix Q3: Micron Already Told Us What's Coming\n\nOct 21, 2026, 2:44 PM ET SK hynix Inc. (SKHY) Stock MU, MU:CA, ZMIC:CA 11 Comments 1 Like\n\nJulia Ostian\n\n## Summary\n\n- SK hynix Inc. reports Q3 on October 28, a month after Micron, whose results already show memory prices and demand still rising.\n- In Q2, revenue grew 257% YoY to KRW 79.3 trillion with a 76% operating margin, but DRAM prices came in below expectations.\n- Consensus expects KRW 98.5 trillion in revenue and a 78% margin, but my estimate based on pr",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag - Seoul Economic Daily",
+      "publisher": "en.sedaily.com",
+      "url": "https://en.sedaily.com/news/2026/09/03/citi-trims-price-targets-for-samsung-electronics-sk-hynix",
+      "summary": "Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag - Seoul Economic Daily\n\n# Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag\n\nSamsung Electronics: 450,000 Won to 430,000 Won SK hynix: 3.1 Million Won to 3 Million Won Fundamentals Still Positive, 'Buy' Ratings Kept\n\nPublished 2026.09.03. 15:55:09\n\nBy Lee Young-ho ylee@sedaily.com\n\nSamsung Electronics and SK Hynix. Yonhap News\n\nCitigroup lowered its price targets for both Samsung Electronics (005930) and SK hynix (000660), citing currency pressure that it expects to erode third-quarter earning",
+      "published": null,
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4 - Seoul Economic Daily",
+      "publisher": "en.sedaily.com",
+      "url": "https://en.sedaily.com/finance/2026/09/29/ds-securities-cuts-sk-hynix-target-on-won-strength-eyes",
+      "summary": "DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4 - Seoul Economic Daily\n\n# DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4\n\nDS Securities lowers target price to 2.64 million won, implying 49% upside Third-quarter operating profit seen at 70.1 trillion won on weaker exchange rate HBM4 sales growth and rising memory prices expected in the fourth quarter\n\nPublished 2026.09.29. 09:08:26\n\nBy Jang Moon-hang jmh@sedaily.com\n\nYonhap News\n\nDS Investment & Securities lowered both its third-quarter earnings estimates and its target price for SK hynix (000660), citin",
+      "published": null,
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily",
+      "publisher": "en.sedaily.com",
+      "url": "https://en.sedaily.com/finance/2026/06/26/sk-hynix-lists-20-risk-factors-ahead-of-nasdaq-debut",
+      "summary": "SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily\n\n# SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut\n\nPublished 2026.06.26. 11:44:09\n\nBy Kim Yeo-jin\n\nSK hynix. Yonhap News\n\nSK hynix (000660.KS) has disclosed 20 business risk factors in a securities registration statement to be filed with the U.S. Securities and Exchange Commission (SEC) ahead of its listing on the Nasdaq market. While the company continues a record-breaking earnings streak driven by the artificial intelligence (AI) boom, the assessment warns that its business environment could waver at any time i",
+      "published": null,
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "regulation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)",
+      "publisher": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/sk-hynix-fundamental-analysis-report",
+      "summary": "SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)\n\n# SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)\n\nMay 29, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nLet\u2019s analyze the topic in detail.\n\nExecutive TL;DR\n\n- SK hynix booked record Q1 2026 revenue of KRW 52.58 trillion with a 72% operating margin and a 198% YoY revenue jump, lifted by HBM, server DRAM and enterprise SSD demand.\n- The company has sold out 2026 output across DRAM, HBM and NAND, with HBM4 sampling to Nvidia and 16-layer 48GB stacks already shown publicly.\n- Net cash flipped from",
+      "published": "2026-05-29",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks",
+      "publisher": "snowballhare.com",
+      "url": "https://snowballhare.com/deep-research/sk-hynix-000660-hbm-deep-research",
+      "summary": "SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks\n\nDeep Research \u00b7 Long-form deep research \u00b7 Published 2026-06-15 \u00b7 37 min\n\nBy Jessalyn Wanda\n\n# SK hynix (000660.KS) Deep Research: HBM Leadership, Earnings Power, Valuation, and Risks\n\nA source-backed SK hynix stock analysis covering HBM3E, HBM4, HBM4E, NVIDIA exposure, financial performance, valuation, catalysts, capex, competition, and memory-cycle risks.\n\n Research map 000660.KS SK Hynix \n\n 01 Target SK Hynix \n\n 02 System layer HBM \n\n 03 Valuation lens SK hynix has credible advantages in HBM execution, advanced packaging, custo",
+      "published": "2026-06-15",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "ai_capex",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "[Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive) - The Asia Business Daily",
+      "publisher": "asiae.co.kr",
+      "url": "https://www.asiae.co.kr/en/article/2026072910433140202",
+      "summary": "[Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive) - The Asia Business Daily\n\n# [Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive)\n\nby Park Joonyi\n\nby Kim Jinyeong\n\nPublished 29 Jul.2026 10:43(KST) \n\nUpdated 29 Jul.2026 11:25(KST) \n\n## DRAM and NAND Shipments to Expand Further in Q3 Compared to Q2 On AI Investment Slowdown Concerns: \"Moving Into Full-Fledged Monetization Phase\" LTA: \"Will Operate at Appropriate Level Considering Market and Environment\" \"Reviewing Ad\n\nSK h",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_monetisation"
+      ]
+    },
+    {
+      "title": "SK hynix posts record profit, maps out W40tr-plus spending - The Korea Herald",
+      "publisher": "koreaherald.com",
+      "url": "https://www.koreaherald.com/article/10823621",
+      "summary": "SK hynix posts record profit, maps out W40tr-plus spending - The Korea Herald\n\n# SK hynix posts record profit, maps out W40tr-plus spending\n\nPublished : July 29, 2026 - 08:20:37 Updated : July 29, 2026 - 17:00:35 \n\n Moon Joon-hyun \n\n Tech Reporter Covers Korean companies at the center of global chips, AI and consumer technology, from Samsung and SK hynix to Apple suppliers \n\nChipmaker secures five-year supply deals as HBM demand drives capacity expansion\n\nSK hynix's headquarters in Icheon, Gyeonggi Province, in May, when the company's market value first surpassed $1 trillion (Yonhap)\n\nSK hynix",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "SK Hynix",
+      "publisher": "securities.miraeasset.com",
+      "url": "https://securities.miraeasset.com/bbs/download/2147612.pdf?attachmentId=2147612",
+      "summary": "Analysts who prepared this report are registered as research analysts in Korea but not in any other jurisdiction, including the US. \nPlease see analyst certifications and important disclosures & disclaimers in Appendix 1 at the end of the report. \n\nEquity Research October 6, 2026 (Maintain) Buy Target price W3,100,000 Current price (10/2/26) W1,841,000 Upside 68.4%\n\nOP (26F, Wbn) 261,358 \nConsensus OP (26F, Wbn) 263,886 \nEPS growth (26F, %) 579.1 \nMarket EPS growth (26F, %) 281.0 \nP/E (26F, x) 4.6 \nMarket P/E (26F, x) 6.8 \nKOSPI 7,003.74 \nMarket cap (Wbn) 1,344,836 \nShares (mn) 730 \nFree float",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily",
+      "publisher": "asiae.co.kr",
+      "url": "https://www.asiae.co.kr/en/article/2026101214550156886",
+      "summary": "# Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily\n\nAuthor: Lim Chunhan\nPublished: 2026-10-12T22:10:00Z\nSource: asiae.co.kr\nLanguage: en\n\n## Story\n\nWhy SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily\n# Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock]\nby *Lim Chunhan*\nPublished 13 Oct.2026 07:10(KST)\nSK Securities maintained its target price of 4 million won and its \u201cBuy\u201d rating on SK hynix on Octob",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Hana Securities Forecasts SK Hynix 3Q26 to Meet Consensus | StockHub",
+      "publisher": "stockhub.kr",
+      "url": "https://stockhub.kr/en/news/news_cbde2e53d2ee",
+      "summary": "Hana Securities Forecasts SK Hynix 3Q26 to Meet Consensus | StockHub\n\nHana Securities Oct 13, 2026, 10:23 AM KST\n\n## AI Summary\n\nHana Securities Buy \u00b7 Target 3,600,000 won \u2022 Hana Securities presented an investment rating of Buy and a target price of 3.6 million won for SK Hynix, forecasting that 3Q26 earnings will meet lowered market consensus. \u2022 3Q26 revenue is estimated at 99.2 trillion won (YoY +306%, QoQ +25%) and operating profit at 77.9 trillion won (YoY +584%, QoQ +29%). \u2022 Although foreign exchange rate assumptions were lowered by 5% compared to previous levels, the DRAM price increase ",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts - The Korea Times",
+      "publisher": "koreatimes.co.kr",
+      "url": "https://www.koreatimes.co.kr/economy/20261016/samsung-sk-hynix-sell-off-excessive-as-memory-outlook-stays-strong-analysts",
+      "summary": "Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts - The Korea Times\n\n# Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts\n\n## Summary\n\nSamsung Electronics and SK hynix shares plunged in Korea over seven consecutive trading sessions starting Oct. 6, despite rising earnings forecasts driven by strong artificial intelligence demand and tightening memory supply. Analysts said the sell-off reflected weak buying support and investor confidence rather than deteriorating fundamentals. The two stocks rebounded Friday as the KOSPI ended a seven-sess",
+      "published": "2026-10-16",
+      "source": "ollama_search",
+      "query": "SK hynix Inc. (SKHY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    }
+  ],
+  "news_failures": [
+    {
+      "source": "nasdaq",
+      "error": "RuntimeError: GET failed after 3 attempts: https://api.nasdaq.com/api/news/topic/articlebysymbol?q=SKHY|stocks&offset=0&limit=15"
+    }
+  ],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 7,
+        "share": 0.412,
+        "evidence": [
+          {
+            "title": "SK hynix Inc. (SKHY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+            "publisher": "ca.finance.yahoo.com",
+            "published": "2026-07-28",
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-21",
+            "matched": [
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4 - Seoul Economic Daily",
+            "publisher": "en.sedaily.com",
+            "published": null,
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily",
+            "publisher": "en.sedaily.com",
+            "published": null,
+            "matched": [
+              "warns"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 3,
+        "share": 0.176,
+        "evidence": [
+          {
+            "title": "SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-07-15",
+            "matched": [
+              "capex",
+              "hyperscaler"
+            ]
+          },
+          {
+            "title": "SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)",
+            "publisher": "deepresearchglobal.com",
+            "published": "2026-05-29",
+            "matched": [
+              "nvidia"
+            ]
+          },
+          {
+            "title": "SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks",
+            "publisher": "snowballhare.com",
+            "published": "2026-06-15",
+            "matched": [
+              "capex",
+              "nvidia"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 3,
+        "share": 0.176,
+        "evidence": [
+          {
+            "title": "SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-07-15",
+            "matched": [
+              "cheap"
+            ]
+          },
+          {
+            "title": "SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks",
+            "publisher": "snowballhare.com",
+            "published": "2026-06-15",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "SK Hynix",
+            "publisher": "securities.miraeasset.com",
+            "published": "2026-10-06",
+            "matched": [
+              "p/e"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 2,
+        "share": 0.118,
+        "evidence": [
+          {
+            "title": "SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-07-15",
+            "matched": [
+              "monetiz"
+            ]
+          },
+          {
+            "title": "[Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive) - The Asia Business Daily",
+            "publisher": "asiae.co.kr",
+            "published": "2026-07-29",
+            "matched": [
+              "monetiz"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 1,
+        "share": 0.059,
+        "evidence": [
+          {
+            "title": "Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag - Seoul Economic Daily",
+            "publisher": "en.sedaily.com",
+            "published": null,
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.059,
+        "evidence": [
+          {
+            "title": "SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily",
+            "publisher": "en.sedaily.com",
+            "published": null,
+            "matched": [
+              "securities and exchange"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-10-28"
+    ],
+    "next_date": "2026-10-28",
+    "eps_avg": 6.25287,
+    "eps_low": 5.7586,
+    "eps_high": 6.772,
+    "revenue_avg": 99678538450000
+  },
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "days_out": 5,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 6.25
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 4.87,
+        "eps_actual": 90.62,
+        "surprise_pct": 1760.69,
+        "beat": true
+      }
+    ],
+    "beat_streak": 1,
+    "beat_rate": 1.0,
+    "median_gap_days": null,
+    "same_slot_last_year": null,
+    "facts_line": "2026-10-27 (Tuesday, after the close), 5 days out -- from the earnings calendar, consensus EPS 6.25."
+  },
+  "forward_trends": {
+    "queries": [
+      "SK hynix 000660.KS HBM DRAM NAND demand outlook 2026 2027 AI server smartphone PC automotive",
+      "hyperscaler cloud data center capex 2026 2027 AI server memory spending budgets",
+      "DRAM NAND enterprise SSD supply demand outlook 2026 2027 CXMT capacity expansion competition",
+      "smartphone PC automotive semiconductor demand forecast 2026 2027 memory content growth"
+    ],
+    "results_count": 20,
+    "results_dated": 16,
+    "trends": [
+      {
+        "claim": "As of June 2026, long-term memory supply agreements are moving into full swing.",
+        "stance": "support",
+        "why": "They lock in volumes and pricing, improving revenue visibility and cushioning future downturns.",
+        "quote": "Long-term supply agreements move into full swing",
+        "url": "https://securities.miraeasset.com/newir/view/pc/en/investor/researchReportsView.jsp?messageId=2340335",
+        "publisher": "securities.miraeasset.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "CSP capex is projected to surge 98% in 2026 and another 50% in 2027.",
+        "stance": "support",
+        "why": "Accelerating cloud capex supports AI memory demand through 2027.",
+        "quote": "total CapEx projected to surge 98% YoY in 2026 and rise another 50% in 2027",
+        "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+        "publisher": "trendforce.com",
+        "as_of": "2026-08-25",
+        "age_days": 58,
+        "undated": false
+      },
+      {
+        "claim": "Memory is forecast to rise from 47% of CSP capex in 2026 to 68% in 2027.",
+        "stance": "support",
+        "why": "Rising memory share of cloud capex supports server DRAM and NAND demand.",
+        "quote": "DRAM and NAND Flash combined will account for 47% of CSPs\u2019 total CapEx in 2026, with their share rising further to 68% in 2027.",
+        "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+        "publisher": "trendforce.com",
+        "as_of": "2026-08-25",
+        "age_days": 58,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, AI server shipments are forecast to grow nearly 31% YoY.",
+        "stance": "support",
+        "why": "Higher AI server shipments increase HBM and server DRAM content.",
+        "quote": "AI Server Shipments Forecast Raised to Nearly 31% YoY in 2026",
+        "url": "https://www.trendforce.com/presscenter/news/20260803-13161.html",
+        "publisher": "trendforce.com",
+        "as_of": "2026-08-03",
+        "age_days": 80,
+        "undated": false
+      },
+      {
+        "claim": "As of October 2026, DRAM tight supply is expected to persist into 2028.",
+        "stance": "support",
+        "why": "Prolonged tightness supports pricing and margins beyond current reported results.",
+        "quote": "tight supply expected to persist into the year after next",
+        "url": "https://www.trendforce.com/research/download/RP260929AN",
+        "publisher": "trendforce.com",
+        "as_of": "2026-10-01",
+        "age_days": 21,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In 1Q26, demand is broadening and the memory supply shortage may persist longer.",
+        "stance": "support",
+        "why": "A prolonged shortage supports pricing and volumes into 2027.",
+        "quote": "\uc218\uc694 \uc804\ubc29\uc704 \ud655\ub300. \uacf5\uae09\ubd80\uc871 \uc7a5\uae30\ud654 \uac00\ub2a5\uc131.",
+        "url": "https://www.sks.co.kr/data1/research/qna_file/20260423104853253_0_ko.pdf",
+        "publisher": "sks.co.kr",
+        "as_of": "2026-04-23",
+        "age_days": 182,
+        "undated": false,
+        "drop_reason": "stale (182 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "SKHY",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 143.25,
+      "catalyst": "2027-01-27",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 150.0,
+        "premium": 16.92,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 16.92,
+        "open_interest": 372,
+        "volume": 1.0,
+        "implied_vol": 0.015634843750000002,
+        "qty": 2
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 150.0,
+        "premium": 7.9,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 7.9,
+        "open_interest": 4055,
+        "volume": 416.0,
+        "implied_vol": 0.0312596875,
+        "qty": 1
+      },
+      "long_total": 3384.0,
+      "short_total": 790.0,
+      "net_debit": 2594.0,
+      "credit_ratio_mid": 0.2335,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Feb-27",
+          "strike": 150.0,
+          "qty": 2,
+          "underlying": 143.25,
+          "multiplier": 100,
+          "price": 16.92,
+          "total": 3384.0000000000005,
+          "open_interest": 372
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 150.0,
+          "qty": 1,
+          "underlying": 143.25,
+          "multiplier": 100,
+          "price": 7.9,
+          "total": -790.0,
+          "open_interest": 4055
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-27 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 150, 145, 155, 160"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.2335,
+          "credit_ratio_conservative": 0.2335,
+          "passes_floor": true,
+          "cash_collected": 790.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.4669,
+          "credit_ratio_conservative": 0.4669,
+          "passes_floor": true,
+          "cash_collected": 1580.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "SKHY",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 143.25,
+      "catalyst": "2027-01-27",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 140.0,
+        "premium": 16.5,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 16.5,
+        "open_interest": 1408,
+        "volume": 4.0,
+        "implied_vol": 0.007822421875,
+        "qty": 2
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 140.0,
+        "premium": 8.6,
+        "bid": 0.0,
+        "ask": 0.0,
+        "mid": 0.0,
+        "last": 8.6,
+        "open_interest": 7719,
+        "volume": 130.0,
+        "implied_vol": 0.015634843750000002,
+        "qty": 1
+      },
+      "long_total": 3300.0,
+      "short_total": 860.0,
+      "net_debit": 2440.0,
+      "credit_ratio_mid": 0.2606,
+      "credit_ratio_conservative": null,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Feb-27",
+          "strike": 140.0,
+          "qty": 2,
+          "underlying": 143.25,
+          "multiplier": 100,
+          "price": 16.5,
+          "total": 3300.0,
+          "open_interest": 1408
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 140.0,
+          "qty": 1,
+          "underlying": 143.25,
+          "multiplier": 100,
+          "price": 8.6,
+          "total": -860.0,
+          "open_interest": 7719
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-27 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 140, 135, 130, 125"
+      ],
+      "advice": "Credit ratio 0.0% is below the 10% floor; sell ~0 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.2606,
+          "credit_ratio_conservative": 0.2606,
+          "passes_floor": true,
+          "cash_collected": 860.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.5212,
+          "credit_ratio_conservative": 0.5212,
+          "passes_floor": true,
+          "cash_collected": 1720.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SKHY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SKHY/key-statistics/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "Price: 143.25 USD Market Cap: 1.04T Fwd PE: 5.37 P/S: 0.0 EPS trends: flat over the last 7 days EPS revisions: tilted higher, with 2 up and 1 down over last 30 days price 143.25 market cap 1.04T forward PE 5.37 forward PE next FY 4.16 trailing PE 9.135841 P/S 0.0055193636 EV/EBITDA -0.456"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SKHY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SKHY/analysis/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "FY consensus 26.68399 now, 26.68399 7 days ago, 26.44219 30 days ago, change over 30 days 0.91%; EPS revisions 2 up and 1 down over 30 days, 1 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "SKHY earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/skhy/earnings",
+      "date": "2026-10-27",
+      "weight": null,
+      "text": "2026-10-27 (Tuesday, after the close), 5 days out -- from the earnings calendar, consensus EPS 6.25. beat streak 1 median gap None days 2026-07-28 estimate 4.87 actual 90.62 surprise 1760.69%"
+    },
+    {
+      "id": "S4",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4922361-sk-hynix-cheap-with-robust-ai-monetization-prospects-lockup-oversupply-risks-loom",
+      "date": "2026-07-15",
+      "weight": 3,
+      "text": "SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom (SKHY) | Seeking Alpha\n\n# SK hynix: Cheap With Robust AI Monetization Prospects, Lockup/Oversupply Risks Loom\n\nJul 15, 2026, 1:15 PM ET SK hynix Inc. (SKHY) Stock 16 Comments\n\nJuxtaposed Ideas\n\n## Summary\n\n- SK hynix's successful US debut is powered by surging DRAM/HBM prices and aggressive hyperscaler capex trends, with it contributing to the outsized, multi-year top-line growth and margin expansion prospects.\n- The FQ2'26 earnings call may also benefit from the retooling of some of the HBM3E capacity for DRAM"
+    },
+    {
+      "id": "S5",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "ca.finance.yahoo.com: SK hynix Inc. (SKHY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/quote/SKHY/analysis/",
+      "date": "2026-07-28",
+      "weight": 3,
+      "text": "SK hynix Inc. (SKHY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance SK hynix Inc. (SKHY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\nSK hynix Inc.\n\n127.21 -2.27% \n\nNasdaqGS - BOATS Real Time Price \u2022 USD \n\n# SK hynix Inc. (SKHY)\n\n 130.17 -12.85 (-8.98%) \n\n At close: July 28 at 4:00:00 p.m. EDT \n\n 127.21 -2.96 (-2.27%) \n\nOvernight: 9:41:59 p.m. EDT\n\nThis price reflects trading activity during the overnight session on the Blue Ocean ATS, available 8 PM to 4 AM ET, Sunday through Thursday, when regular markets are closed. \n\n SKHY Q2 2026 earnings call Replay the call for the latest insights. \n\n### Earnings Per Share \n\nNo Earnings Per Share available fo"
+    },
+    {
+      "id": "S6",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4956032-sk-hynix-q3-micron-already-told-us-whats-coming",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha SK hynix Q3: Micron Already Told Us What's Coming (NASDAQ:SKHY) | Seeking Alpha\n\n# SK hynix Q3: Micron Already Told Us What's Coming\n\nOct 21, 2026, 2:44 PM ET SK hynix Inc. (SKHY) Stock MU, MU:CA, ZMIC:CA 11 Comments 1 Like\n\nJulia Ostian\n\n## Summary\n\n- SK hynix Inc. reports Q3 on October 28, a month after Micron, whose results already show memory prices and demand still rising.\n- In Q2, revenue grew 257% YoY to KRW 79.3 trillion with a 76% operating margin, but DRAM prices came in below expectations.\n- Consensus expects KRW 98.5 trillion in revenue and a 78% margin, but my estimate based on pr"
+    },
+    {
+      "id": "S7",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "en.sedaily.com: Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag - Seoul Economic Daily",
+      "provider": "en.sedaily.com",
+      "url": "https://en.sedaily.com/news/2026/09/03/citi-trims-price-targets-for-samsung-electronics-sk-hynix",
+      "date": null,
+      "weight": 0,
+      "text": "Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag - Seoul Economic Daily Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag - Seoul Economic Daily\n\n# Citi Trims Price Targets for Samsung Electronics, SK hynix on Currency Drag\n\nSamsung Electronics: 450,000 Won to 430,000 Won SK hynix: 3.1 Million Won to 3 Million Won Fundamentals Still Positive, 'Buy' Ratings Kept\n\nPublished 2026.09.03. 15:55:09\n\nBy Lee Young-ho ylee@sedaily.com\n\nSamsung Electronics and SK Hynix. Yonhap News\n\nCitigroup lowered its price targets for both Samsung Electronics (005930) and SK hynix (000660), citing currency pressure that it expects to erode third-quarter earning"
+    },
+    {
+      "id": "S8",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "en.sedaily.com: DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4 - Seoul Economic Daily",
+      "provider": "en.sedaily.com",
+      "url": "https://en.sedaily.com/finance/2026/09/29/ds-securities-cuts-sk-hynix-target-on-won-strength-eyes",
+      "date": null,
+      "weight": 0,
+      "text": "DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4 - Seoul Economic Daily DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4 - Seoul Economic Daily\n\n# DS Securities Cuts SK hynix Target on Won Strength, Eyes HBM4 in Q4\n\nDS Securities lowers target price to 2.64 million won, implying 49% upside Third-quarter operating profit seen at 70.1 trillion won on weaker exchange rate HBM4 sales growth and rising memory prices expected in the fourth quarter\n\nPublished 2026.09.29. 09:08:26\n\nBy Jang Moon-hang jmh@sedaily.com\n\nYonhap News\n\nDS Investment & Securities lowered both its third-quarter earnings estimates and its target price for SK hynix (000660), citin"
+    },
+    {
+      "id": "S9",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "en.sedaily.com: SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily",
+      "provider": "en.sedaily.com",
+      "url": "https://en.sedaily.com/finance/2026/06/26/sk-hynix-lists-20-risk-factors-ahead-of-nasdaq-debut",
+      "date": null,
+      "weight": 0,
+      "text": "SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut - Seoul Economic Daily\n\n# SK hynix Lists 20 Risk Factors Ahead of Nasdaq Debut\n\nPublished 2026.06.26. 11:44:09\n\nBy Kim Yeo-jin\n\nSK hynix. Yonhap News\n\nSK hynix (000660.KS) has disclosed 20 business risk factors in a securities registration statement to be filed with the U.S. Securities and Exchange Commission (SEC) ahead of its listing on the Nasdaq market. While the company continues a record-breaking earnings streak driven by the artificial intelligence (AI) boom, the assessment warns that its business environment could waver at any time i"
+    },
+    {
+      "id": "S10",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "deepresearchglobal.com: SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/sk-hynix-fundamental-analysis-report",
+      "date": "2026-05-29",
+      "weight": 0,
+      "text": "SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated) SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)\n\n# SK Hynix (000660.KS) - Fundamental Analysis Report 2026 (Updated)\n\nMay 29, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nLet\u2019s analyze the topic in detail.\n\nExecutive TL;DR\n\n- SK hynix booked record Q1 2026 revenue of KRW 52.58 trillion with a 72% operating margin and a 198% YoY revenue jump, lifted by HBM, server DRAM and enterprise SSD demand.\n- The company has sold out 2026 output across DRAM, HBM and NAND, with HBM4 sampling to Nvidia and 16-layer 48GB stacks already shown publicly.\n- Net cash flipped from"
+    },
+    {
+      "id": "S11",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "snowballhare.com: SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks",
+      "provider": "snowballhare.com",
+      "url": "https://snowballhare.com/deep-research/sk-hynix-000660-hbm-deep-research",
+      "date": "2026-06-15",
+      "weight": 0,
+      "text": "SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks SK hynix Stock Analysis 2026: HBM4, Earnings, Valuation & Risks\n\nDeep Research \u00b7 Long-form deep research \u00b7 Published 2026-06-15 \u00b7 37 min\n\nBy Jessalyn Wanda\n\n# SK hynix (000660.KS) Deep Research: HBM Leadership, Earnings Power, Valuation, and Risks\n\nA source-backed SK hynix stock analysis covering HBM3E, HBM4, HBM4E, NVIDIA exposure, financial performance, valuation, catalysts, capex, competition, and memory-cycle risks.\n\n Research map 000660.KS SK Hynix \n\n 01 Target SK Hynix \n\n 02 System layer HBM \n\n 03 Valuation lens SK hynix has credible advantages in HBM execution, advanced packaging, custo"
+    },
+    {
+      "id": "S12",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "asiae.co.kr: [Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive) - The Asia Business Daily",
+      "provider": "asiae.co.kr",
+      "url": "https://www.asiae.co.kr/en/article/2026072910433140202",
+      "date": "2026-07-29",
+      "weight": 0,
+      "text": "[Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive) - The Asia Business Daily [Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive) - The Asia Business Daily\n\n# [Conference Call] SK hynix Rebuts 'AI Investment Slowdown' Concerns... \"Supply Surplus Unlikely\" (Comprehensive)\n\nby Park Joonyi\n\nby Kim Jinyeong\n\nPublished 29 Jul.2026 10:43(KST) \n\nUpdated 29 Jul.2026 11:25(KST) \n\n## DRAM and NAND Shipments to Expand Further in Q3 Compared to Q2 On AI Investment Slowdown Concerns: \"Moving Into Full-Fledged Monetization Phase\" LTA: \"Will Operate at Appropriate Level Considering Market and Environment\" \"Reviewing Ad\n\nSK h"
+    },
+    {
+      "id": "S13",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "koreaherald.com: SK hynix posts record profit, maps out W40tr-plus spending - The Korea Herald",
+      "provider": "koreaherald.com",
+      "url": "https://www.koreaherald.com/article/10823621",
+      "date": "2026-07-29",
+      "weight": 0,
+      "text": "SK hynix posts record profit, maps out W40tr-plus spending - The Korea Herald SK hynix posts record profit, maps out W40tr-plus spending - The Korea Herald\n\n# SK hynix posts record profit, maps out W40tr-plus spending\n\nPublished : July 29, 2026 - 08:20:37 Updated : July 29, 2026 - 17:00:35 \n\n Moon Joon-hyun \n\n Tech Reporter Covers Korean companies at the center of global chips, AI and consumer technology, from Samsung and SK hynix to Apple suppliers \n\nChipmaker secures five-year supply deals as HBM demand drives capacity expansion\n\nSK hynix's headquarters in Icheon, Gyeonggi Province, in May, when the company's market value first surpassed $1 trillion (Yonhap)\n\nSK hynix"
+    },
+    {
+      "id": "S14",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "securities.miraeasset.com: SK Hynix",
+      "provider": "securities.miraeasset.com",
+      "url": "https://securities.miraeasset.com/bbs/download/2147612.pdf?attachmentId=2147612",
+      "date": "2026-10-06",
+      "weight": 0,
+      "text": "SK Hynix Analysts who prepared this report are registered as research analysts in Korea but not in any other jurisdiction, including the US. \nPlease see analyst certifications and important disclosures & disclaimers in Appendix 1 at the end of the report. \n\nEquity Research October 6, 2026 (Maintain) Buy Target price W3,100,000 Current price (10/2/26) W1,841,000 Upside 68.4%\n\nOP (26F, Wbn) 261,358 \nConsensus OP (26F, Wbn) 263,886 \nEPS growth (26F, %) 579.1 \nMarket EPS growth (26F, %) 281.0 \nP/E (26F, x) 4.6 \nMarket P/E (26F, x) 6.8 \nKOSPI 7,003.74 \nMarket cap (Wbn) 1,344,836 \nShares (mn) 730 \nFree float"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "asiae.co.kr: Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily",
+      "provider": "asiae.co.kr",
+      "url": "https://www.asiae.co.kr/en/article/2026101214550156886",
+      "date": "2026-10-13",
+      "weight": 0,
+      "text": "Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily # Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily\n\nAuthor: Lim Chunhan\nPublished: 2026-10-12T22:10:00Z\nSource: asiae.co.kr\nLanguage: en\n\n## Story\n\nWhy SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock] - The Asia Business Daily\n# Why SK hynix Maintains Its 4 Million Won Target Price: \"Earnings Beat FX Headwinds\" [Click eStock]\nby *Lim Chunhan*\nPublished 13 Oct.2026 07:10(KST)\nSK Securities maintained its target price of 4 million won and its \u201cBuy\u201d rating on SK hynix on Octob"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "stockhub.kr: Hana Securities Forecasts SK Hynix 3Q26 to Meet Consensus | StockHub",
+      "provider": "stockhub.kr",
+      "url": "https://stockhub.kr/en/news/news_cbde2e53d2ee",
+      "date": "2026-10-13",
+      "weight": 0,
+      "text": "Hana Securities Forecasts SK Hynix 3Q26 to Meet Consensus | StockHub Hana Securities Forecasts SK Hynix 3Q26 to Meet Consensus | StockHub\n\nHana Securities Oct 13, 2026, 10:23 AM KST\n\n## AI Summary\n\nHana Securities Buy \u00b7 Target 3,600,000 won \u2022 Hana Securities presented an investment rating of Buy and a target price of 3.6 million won for SK Hynix, forecasting that 3Q26 earnings will meet lowered market consensus. \u2022 3Q26 revenue is estimated at 99.2 trillion won (YoY +306%, QoQ +25%) and operating profit at 77.9 trillion won (YoY +584%, QoQ +29%). \u2022 Although foreign exchange rate assumptions were lowered by 5% compared to previous levels, the DRAM price increase"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "koreatimes.co.kr: Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts - The Korea Times",
+      "provider": "koreatimes.co.kr",
+      "url": "https://www.koreatimes.co.kr/economy/20261016/samsung-sk-hynix-sell-off-excessive-as-memory-outlook-stays-strong-analysts",
+      "date": "2026-10-16",
+      "weight": 0,
+      "text": "Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts - The Korea Times Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts - The Korea Times\n\n# Samsung, SK hynix sell-off excessive as memory outlook stays strong: analysts\n\n## Summary\n\nSamsung Electronics and SK hynix shares plunged in Korea over seven consecutive trading sessions starting Oct. 6, despite rising earnings forecasts driven by strong artificial intelligence demand and tightening memory supply. Analysts said the sell-off reflected weak buying support and investor confidence rather than deteriorating fundamentals. The two stocks rebounded Friday as the KOSPI ended a seven-sess"
+    },
+    {
+      "id": "S18",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "securities.miraeasset.com: As of June 2026, long-term memory supply agreements are moving into full swing.",
+      "provider": "securities.miraeasset.com",
+      "url": "https://securities.miraeasset.com/newir/view/pc/en/investor/researchReportsView.jsp?messageId=2340335",
+      "date": null,
+      "weight": null,
+      "text": "As of June 2026, long-term memory supply agreements are moving into full swing. They lock in volumes and pricing, improving revenue visibility and cushioning future downturns. \"Long-term supply agreements move into full swing\""
+    },
+    {
+      "id": "S19",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "trendforce.com: CSP capex is projected to surge 98% in 2026 and another 50% in 2027.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+      "date": "2026-08-25",
+      "weight": null,
+      "text": "CSP capex is projected to surge 98% in 2026 and another 50% in 2027. Accelerating cloud capex supports AI memory demand through 2027. \"total CapEx projected to surge 98% YoY in 2026 and rise another 50% in 2027\""
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "trendforce.com: Memory is forecast to rise from 47% of CSP capex in 2026 to 68% in 2027.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+      "date": "2026-08-25",
+      "weight": null,
+      "text": "Memory is forecast to rise from 47% of CSP capex in 2026 to 68% in 2027. Rising memory share of cloud capex supports server DRAM and NAND demand. \"DRAM and NAND Flash combined will account for 47% of CSPs\u2019 total CapEx in 2026, with their share rising further to 68% in 2027.\""
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "trendforce.com: In 2026, AI server shipments are forecast to grow nearly 31% YoY.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20260803-13161.html",
+      "date": "2026-08-03",
+      "weight": null,
+      "text": "In 2026, AI server shipments are forecast to grow nearly 31% YoY. Higher AI server shipments increase HBM and server DRAM content. \"AI Server Shipments Forecast Raised to Nearly 31% YoY in 2026\""
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "trendforce.com: As of October 2026, DRAM tight supply is expected to persist into 2028.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/research/download/RP260929AN",
+      "date": "2026-10-01",
+      "weight": null,
+      "text": "As of October 2026, DRAM tight supply is expected to persist into 2028. Prolonged tightness supports pricing and margins beyond current reported results. \"tight supply expected to persist into the year after next\""
+    },
+    {
+      "id": "S23",
+      "kind": "options",
+      "ref": "options",
+      "label": "SKHY listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SKHY/options/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "long CALL strike 150.0 expiry 2027-02-19 premium 16.92 short PUT strike 140.0 expiry 2027-02-19 premium 16.5"
+    }
+  ],
+  "trailing_vs_consensus": null,
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "SK hynix SKHY 2026 2027 HBM AI server customer demand hyperscaler capex",
+        "2026 2027 DRAM HBM competition Samsung Micron CXMT capacity expansion technology roadmap",
+        "2026 2027 smartphone PC automotive semiconductor demand outlook memory content per device",
+        "2026 2027 NAND flash SSD enterprise storage demand oversupply QLC China YMTC capacity"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "As of July 2026, over 10 customers have roughly five-year LTAs, supporting AI memory demand into 2027.",
+          "stance": "support",
+          "why": "Locked-in multi-year orders reduce volume risk and help keep SK hynix capacity utilized.",
+          "quote": "more than 10 customers have signed long-term supply agreements (LTAs) covering roughly five years",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=12631",
+          "publisher": "thelec.net",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In Q2 2026, HBM4 mass shipments began as SK hynix expands long-term contracts and capacity.",
+          "stance": "support",
+          "why": "HBM4 ramp can extend SK hynix's premium AI memory revenue growth into 2027.",
+          "quote": "HBM4 mass shipments began as the firm expands long-term contracts and capacity.",
+          "url": "https://news.skhynix.com/en/q2-2026-business-results/",
+          "publisher": "news.skhynix.com",
+          "as_of": "2026-07-29",
+          "age_days": 85,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, HBM pricing pauses and ASPs dip, a near-term pressure on SK hynix's HBM revenue.",
+          "stance": "pressure",
+          "why": "Lower HBM prices can slow revenue growth from SK hynix's leading HBM mix despite higher volumes.",
+          "quote": "2026 pauses, ASP dips; 2027 surges as HBM4 share rises.",
+          "url": "https://www.trendforce.com/research/download/RP260805KC3",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-05",
+          "age_days": 78,
+          "undated": false
+        },
+        {
+          "claim": "For 2027, HBM ASPs are forecast to surge sharply as HBM4 share rises.",
+          "stance": "support",
+          "why": "Higher HBM4 pricing can lift SK hynix's memory revenue and margins as product mix shifts.",
+          "quote": "2027 brings a sharp ASP surge as HBM4 rises.",
+          "url": "https://www.trendforce.com/research/download/RP260805KC3",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-05",
+          "age_days": 78,
+          "undated": false
+        },
+        {
+          "claim": "In 3Q26, Samsung's HBM supply is surging while SK hynix leads, intensifying competition.",
+          "stance": "pressure",
+          "why": "Faster rival HBM supply growth could pressure SK hynix's share and pricing in 2027.",
+          "quote": "Supply: SK hynix leads, Samsung surges, Micron steady, TSV capacity grows.",
+          "url": "https://www.trendforce.com/research/download/RP260805KC3",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-05",
+          "age_days": 78,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "hyperscaler AI data center capex 2026 2027 server memory demand outlook",
+        "DRAM NAND HBM memory market 2026 2027 supply demand technology competition outlook",
+        "smartphone PC automotive foundry semiconductor demand 2026 2027 inventory spending outlook",
+        "SK hynix 2026 HBM customer demand AI server capex outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In 2027, DRAM and NAND are forecast to reach 68% of major CSP capex.",
+          "stance": "support",
+          "why": "A rising memory share of cloud spending supports SK hynix server memory pricing and mix.",
+          "quote": "DRAM and NAND Flash combined will account for 47% of CSPs\u2019 total CapEx in 2026, with their share rising further to 68% in 2027.",
+          "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-25",
+          "age_days": 58,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, combined capex of the nine largest CSPs is expected to rise about 90% YoY.",
+          "stance": "support",
+          "why": "Higher cloud capex drives AI server and HBM demand for SK hynix.",
+          "quote": "combined CapEx of the world\u2019s nine largest CSPs up by approximately 90% YoY in 2026",
+          "url": "https://www.trendforce.com/presscenter/news/20260803-13161.html",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-03",
+          "age_days": 80,
+          "undated": false
+        },
+        {
+          "claim": "AI server DRAM costs roughly doubled in Q1 2026 and are expected to quadruple for the full year.",
+          "stance": "support",
+          "why": "Higher DRAM prices lift SK hynix revenue and margins.",
+          "quote": "costs for AI server dynamic random-access memory (DRAM) roughly doubled during the first quarter of 2026",
+          "url": "https://www.deloitte.com/us/en/insights/industry/technology/why-memory-chip-crunch-is-greater-than-expected.html",
+          "publisher": "deloitte.com",
+          "as_of": "2026-07-28",
+          "age_days": 86,
+          "undated": false
+        },
+        {
+          "claim": "New memory supply is not expected to come online until 2029 or 2030.",
+          "stance": "support",
+          "why": "Delayed capacity additions keep memory supply tight for SK hynix through 2027.",
+          "quote": "that new supply isn\u2019t expected to come online until 2029 or 2030",
+          "url": "https://www.deloitte.com/us/en/insights/industry/technology/why-memory-chip-crunch-is-greater-than-expected.html",
+          "publisher": "deloitte.com",
+          "as_of": "2026-07-28",
+          "age_days": 86,
+          "undated": false
+        },
+        {
+          "claim": "HBM supply constraints are expected to keep memory supply tight through 2027.",
+          "stance": "support",
+          "why": "Tight HBM supply supports higher HBM prices and SK hynix margins.",
+          "quote": "keeping memory supply tight through 2027",
+          "url": "https://www.trendforce.com/presscenter/news/20260929-13255.html",
+          "publisher": "trendforce.com",
+          "as_of": "2026-09-29",
+          "age_days": 23,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "SK hynix 000660.KS HBM DRAM NAND demand outlook 2026 2027 AI server smartphone PC automotive",
+        "hyperscaler cloud data center capex 2026 2027 AI server memory spending budgets",
+        "DRAM NAND enterprise SSD supply demand outlook 2026 2027 CXMT capacity expansion competition",
+        "smartphone PC automotive semiconductor demand forecast 2026 2027 memory content growth"
+      ],
+      "results_count": 20,
+      "results_dated": 16,
+      "trends": [
+        {
+          "claim": "As of June 2026, long-term memory supply agreements are moving into full swing.",
+          "stance": "support",
+          "why": "They lock in volumes and pricing, improving revenue visibility and cushioning future downturns.",
+          "quote": "Long-term supply agreements move into full swing",
+          "url": "https://securities.miraeasset.com/newir/view/pc/en/investor/researchReportsView.jsp?messageId=2340335",
+          "publisher": "securities.miraeasset.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "CSP capex is projected to surge 98% in 2026 and another 50% in 2027.",
+          "stance": "support",
+          "why": "Accelerating cloud capex supports AI memory demand through 2027.",
+          "quote": "total CapEx projected to surge 98% YoY in 2026 and rise another 50% in 2027",
+          "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-25",
+          "age_days": 58,
+          "undated": false
+        },
+        {
+          "claim": "Memory is forecast to rise from 47% of CSP capex in 2026 to 68% in 2027.",
+          "stance": "support",
+          "why": "Rising memory share of cloud capex supports server DRAM and NAND demand.",
+          "quote": "DRAM and NAND Flash combined will account for 47% of CSPs\u2019 total CapEx in 2026, with their share rising further to 68% in 2027.",
+          "url": "https://www.trendforce.com/presscenter/news/20260825-13198.html",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-25",
+          "age_days": 58,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, AI server shipments are forecast to grow nearly 31% YoY.",
+          "stance": "support",
+          "why": "Higher AI server shipments increase HBM and server DRAM content.",
+          "quote": "AI Server Shipments Forecast Raised to Nearly 31% YoY in 2026",
+          "url": "https://www.trendforce.com/presscenter/news/20260803-13161.html",
+          "publisher": "trendforce.com",
+          "as_of": "2026-08-03",
+          "age_days": 80,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, DRAM tight supply is expected to persist into 2028.",
+          "stance": "support",
+          "why": "Prolonged tightness supports pricing and margins beyond current reported results.",
+          "quote": "tight supply expected to persist into the year after next",
+          "url": "https://www.trendforce.com/research/download/RP260929AN",
+          "publisher": "trendforce.com",
+          "as_of": "2026-10-01",
+          "age_days": 21,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 1Q26, demand is broadening and the memory supply shortage may persist longer.",
+          "stance": "support",
+          "why": "A prolonged shortage supports pricing and volumes into 2027.",
+          "quote": "\uc218\uc694 \uc804\ubc29\uc704 \ud655\ub300. \uacf5\uae09\ubd80\uc871 \uc7a5\uae30\ud654 \uac00\ub2a5\uc131.",
+          "url": "https://www.sks.co.kr/data1/research/qna_file/20260423104853253_0_ko.pdf",
+          "publisher": "sks.co.kr",
+          "as_of": "2026-04-23",
+          "age_days": 182,
+          "undated": false,
+          "drop_reason": "stale (182 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    }
+  ]
+}

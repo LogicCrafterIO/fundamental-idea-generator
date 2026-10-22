@@ -1,0 +1,641 @@
+{
+  "ticker": "WMT",
+  "direction": "long",
+  "as_of": "2026-10-22",
+  "description": "World's largest retailer: supercenters and Sam's Club warehouse clubs, plus fast-growing eCommerce and advertising.",
+  "catalyst": {
+    "date": "2026-11-19",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 28,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.63582,
+      "eps_low": 0.62,
+      "eps_high": 0.67,
+      "revenue_avg": 187190411600
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-20",
+        "eps_estimate": 0.74,
+        "eps_actual": null,
+        "surprise_pct": null,
+        "beat": false
+      },
+      {
+        "date": "2026-05-21",
+        "eps_estimate": 0.66,
+        "eps_actual": 0.66,
+        "surprise_pct": 0.19,
+        "beat": true
+      },
+      {
+        "date": "2026-02-19",
+        "eps_estimate": 0.73,
+        "eps_actual": 0.74,
+        "surprise_pct": 1.79,
+        "beat": true
+      },
+      {
+        "date": "2025-11-20",
+        "eps_estimate": 0.6,
+        "eps_actual": 0.62,
+        "surprise_pct": 3.11,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-11-19 (Thursday, before the open), 28 days out -- from the earnings calendar, consensus EPS 0.64.",
+    "why": "Needs U.S. comps holding, advertising and eCommerce above 20%, and FY27 sales guidance of 4-5% held \u2014 proving August's miss was ticket, not demand."
+  },
+  "reasons": [
+    "Because advertising grew 43% and U.S. eCommerce 24% against 5.9% total revenue growth, operating income rose 28.8% year over year \u2014 though $2.9 billion of tariff refunds flattered that.",
+    "Because average ticket growth slowed to 1.1%, shares fell 8% on 20 August \u2014 yet lower-income shoppers increased spending in 2026, so the demand rollover the price implies has not reached the customer data.",
+    "Because the 19 November bar is 0.64, only 3% above last year's 0.62, a routine beat keeps FY consensus of 2.886 intact, so the 36.5x next-FY multiple holds without a re-rating."
+  ],
+  "watch": [
+    "Q3 EPS against the 0.64 consensus: confirms at or above; breaks on a miss, given the 36.5x next-FY multiple.",
+    "Average ticket, +1.1% last quarter: confirms at or above; breaks if it turns negative.",
+    "FY27 sales growth guidance of 4-5%: confirms if held or raised; breaks if cut.",
+    "Advertising and eCommerce growth: confirms above 20%; breaks below 15%."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S7",
+        "kind": "ollama_search",
+        "ref": "web:2",
+        "label": "stock.walmart.com: August 20, 2026 - EX-99.1 - 8-K: Current report | Walmart Inc. (WMT)",
+        "provider": "stock.walmart.com",
+        "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm",
+        "date": "2026-08-20"
+      },
+      {
+        "id": "S8",
+        "kind": "ollama_search",
+        "ref": "web:3",
+        "label": "thesischeck.io: Walmart (WMT) Stock: Can Margin Growth Last?",
+        "provider": "thesischeck.io",
+        "url": "https://thesischeck.io/teardown/wmt-ecommerce-advertising-margin-durability-2026-10",
+        "date": "2026-08-20"
+      },
+      {
+        "id": "S16",
+        "kind": "ollama_search",
+        "ref": "web:11",
+        "label": "reuters.com: Walmart sales growth slowdown tests consumer resilience, shares slide 9% | Reuters",
+        "provider": "reuters.com",
+        "url": "https://www.reuters.com/business/walmart-reports-rare-comparable-sales-miss-consumers-pare-back-spending-2026-08-20/",
+        "date": "2026-08-20"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "WMT quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/wmt/financials",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S16",
+        "kind": "ollama_search",
+        "ref": "web:11",
+        "label": "reuters.com: Walmart sales growth slowdown tests consumer resilience, shares slide 9% | Reuters",
+        "provider": "reuters.com",
+        "url": "https://www.reuters.com/business/walmart-reports-rare-comparable-sales-miss-consumers-pare-back-spending-2026-08-20/",
+        "date": "2026-08-20"
+      },
+      {
+        "id": "S18",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "nrf.com: In 2026, lower-income consumers have increased spending versus last year, supporting Walmart's core customer.",
+        "provider": "nrf.com",
+        "url": "https://nrf.com/blog/the-k-shaped-consumer-looks-different-this-time",
+        "date": "2026-07-28"
+      }
+    ],
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for WMT",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/WMT/key-statistics/",
+        "date": "2026-10-22"
+      },
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for WMT",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/WMT/analysis/",
+        "date": "2026-10-22"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "WMT quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/wmt/financials",
+        "date": null
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "WMT earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings",
+        "date": "2026-11-19"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for WMT",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/WMT/key-statistics/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for WMT",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/WMT/analysis/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "WMT quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/wmt/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "WMT earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "S5",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "henryfund.tippie.uiowa.edu: Walmart (WMT)",
+      "provider": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2026-04/WMT-S26.pdf",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "S6",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "stock.walmart.com: Financial Results :: Walmart Inc. (WMT)",
+      "provider": "stock.walmart.com",
+      "url": "https://stock.walmart.com/financial-information/financial-results",
+      "date": "2026-07-31"
+    },
+    {
+      "id": "S7",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "stock.walmart.com: August 20, 2026 - EX-99.1 - 8-K: Current report | Walmart Inc. (WMT)",
+      "provider": "stock.walmart.com",
+      "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "S8",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "thesischeck.io: Walmart (WMT) Stock: Can Margin Growth Last?",
+      "provider": "thesischeck.io",
+      "url": "https://thesischeck.io/teardown/wmt-ecommerce-advertising-margin-durability-2026-10",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "S9",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "ca.finance.yahoo.com: Walmart (WMT) Stock Fair Value Falls After Softer U.S. Comps Prompt Analyst Resets",
+      "provider": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/news/walmart-wmt-stock-fair-value-230925822.html",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "S10",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "finance.yahoo.com: Walmart\u2019s (WMT) Growth Engine Hums, But Warning Lights Flicker",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-growth-engine-hums-143002735.html",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "S11",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "farstarcap.com: Walmart Inc. (WMT) \u2014 The Price of Certainty | Farstar Capital",
+      "provider": "farstarcap.com",
+      "url": "https://www.farstarcap.com/reports/walmart.html",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "S12",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "equibles.com: WMT Stock \u2014 Walmart Inc.: Analyst Estimates - Equibles",
+      "provider": "equibles.com",
+      "url": "https://equibles.com/stocks/wmt/analyst-estimates",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S13",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "stockanalysis.com: Walmart (WMT) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/wmt/forecast/",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S14",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "cnbc.com: Walmart stock upgraded to buy by Deutsche Bank",
+      "provider": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/15/walmart-deutsche-bank-upgrade.html",
+      "date": null
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "apnews.com: Walmart cautionary with 2026 expectations after sales growth slows | AP News",
+      "provider": "apnews.com",
+      "url": "https://apnews.com/article/walmart-quarter-earnings-inflation-tariffs-955945e03ffcc111389d62fa3103a051",
+      "date": "2025-08-14"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "reuters.com: Walmart sales growth slowdown tests consumer resilience, shares slide 9% | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/walmart-reports-rare-comparable-sales-miss-consumers-pare-back-spending-2026-08-20/",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "benzinga.com: These Analysts Slash Their Forecasts On Walmart After Q2 Earnings",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61352902/these-analysts-slash-their-forecasts-on-walmart-after-q2-earnings",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "S18",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "nrf.com: In 2026, lower-income consumers have increased spending versus last year, supporting Walmart's core customer.",
+      "provider": "nrf.com",
+      "url": "https://nrf.com/blog/the-k-shaped-consumer-looks-different-this-time",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S19",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "nrf.com: NRF warns consumer spending pressure could build in the second half of 2026.",
+      "provider": "nrf.com",
+      "url": "https://nrf.com/blog/the-k-shaped-consumer-looks-different-this-time",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "retaildive.com: Holiday retail sales are forecast to grow 4.2% year over year in 2026.",
+      "provider": "retaildive.com",
+      "url": "https://www.retaildive.com/news/nrf-forecasts-2026-holiday-sales-growth-seasonal-hiring/833239/",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "coresight.com: US grocery competition is intensifying via quick commerce and AI in 2026.",
+      "provider": "coresight.com",
+      "url": "https://coresight.com/downloads/market-navigator-us-grocery-retailing-how-quick-commerce-ai-and-polarized-consumer-needs-are-shaping-competition/",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "reuters.com: In August 2026, Walmart warned high gasoline prices are squeezing shoppers.",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/walmart-reports-rare-comparable-sales-miss-consumers-pare-back-spending-2026-08-20/",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "S23",
+      "kind": "options",
+      "ref": "options",
+      "label": "WMT listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/WMT/options/",
+      "date": "2026-10-22"
+    }
+  ],
+  "quants": {
+    "price": 117.8,
+    "market_cap": "937.46B",
+    "fwd_pe": 40.8,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.3,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 3 up and 2 down over last 30 days",
+    "extra": [
+      "Net Income +19% quarter over quarter but -9% year over year (2026-07-31)",
+      "EPS increased year over year, 0.61 -> 0.66"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 5.7,
+        "yoy_pct": 5.9,
+        "conflict": false,
+        "period": "2026-07-31"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 19.4,
+        "yoy_pct": -9.4,
+        "conflict": true,
+        "period": "2026-07-31"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 5.5,
+        "yoy_pct": -18.0,
+        "conflict": true,
+        "period": "2026-07-31"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 4.6,
+        "yoy_pct": -10.1,
+        "conflict": true,
+        "period": "2026-07-31"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 25.2,
+        "yoy_pct": 28.8,
+        "conflict": false,
+        "period": "2026-07-31"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 9.9,
+        "yoy_pct": 10.1,
+        "conflict": false,
+        "period": "2026-07-31"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": -62.4,
+        "yoy_pct": -65.8,
+        "conflict": false,
+        "period": "2026-07-31"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": 16.5,
+        "yoy_pct": -2.1,
+        "conflict": true,
+        "period": "2026-07-31"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 4.7,
+        "period": "2026-01-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 12.6,
+        "period": "2026-01-31"
+      },
+      {
+        "label": "Interest Income",
+        "change_pct": -23.8,
+        "period": "2026-01-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 12.6,
+        "period": "2026-01-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 11.1,
+        "period": "2026-01-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 10.6,
+        "period": "2026-01-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 28,
+    "bar": {
+      "date": "2026-11-19",
+      "eps_avg": 0.63582,
+      "eps_low": 0.62,
+      "eps_high": 0.67,
+      "revenue_avg": 187190411600
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Mar-27",
+        "strike": 125.0,
+        "qty": 7,
+        "underlying": 117.8,
+        "multiplier": 100,
+        "price": 5.88,
+        "total": 4116.0,
+        "open_interest": 7590
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 125.0,
+        "qty": 4,
+        "underlying": 117.8,
+        "multiplier": 100,
+        "price": 1.6,
+        "total": -640.0,
+        "open_interest": 59094
+      }
+    ],
+    "thesis_target": "Targets the 2027-02-18 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
+    "reflection": "The short call expires 20 November, the day after the print, so this is a one-month bet that the report closes the gap to the $127.35 average target. The conservative credit ratio is 0%, so the whole $3,476 debit is at risk and the 125 strike needs a 6% move just to be reached."
+  },
+  "news_failures": [
+    {
+      "source": "nasdaq",
+      "error": "RuntimeError: GET failed after 3 attempts: https://api.nasdaq.com/api/news/topic/articlebysymbol?q=WMT|stocks&offset=0&limit=15"
+    }
+  ],
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 57,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 20,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 12,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 0,
+      "contradicted": 3,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 100,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "august",
+          "commerce",
+          "customer",
+          "retail",
+          "share",
+          "shoppers"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 4,
+        "trends_available": 5,
+        "trends_used": [
+          "basket",
+          "commerce",
+          "grocery",
+          "items",
+          "scale",
+          "share",
+          "shifting",
+          "store",
+          "supermarkets",
+          "toward",
+          "walmart"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "large",
+          "total",
+          "walmart"
+        ]
+      }
+    ]
+  }
+}

@@ -1186,6 +1186,45 @@ class TestSelectionPhrase(unittest.TestCase):
         self.assertNotIn("no cap** share", phrase)
         self.assertIn("**no share-price cap**", phrase)
 
+    def test_a_resumed_batch_states_its_rules_once(self):
+        """Two settings rows with the same rules are one selection sentence.
+
+        A batch continued after the feed outage wrote a second row under the same
+        cap and floor, which rendered "$150 ... ; 6 note(s) under a $150 ...".
+        """
+        from fig.generate import _selection_groups
+
+        recorded = [
+            {"tickers": ["CSX", "MNST"], "max_price": 150.0, "min_market_cap": None},
+            {"tickers": ["PEP", "WMT"], "max_price": 150.0, "min_market_cap": None},
+        ]
+        groups, unrecorded = _selection_groups({"CSX", "MNST", "PEP", "WMT"}, recorded)
+
+        self.assertEqual(groups, [(150.0, None, 4)])
+        self.assertEqual(unrecorded, 0)
+
+    def test_a_name_in_two_rows_is_counted_once(self):
+        from fig.generate import _selection_groups
+
+        recorded = [
+            {"tickers": ["CSX", "MNST"], "max_price": 150.0, "min_market_cap": None},
+            {"tickers": ["MNST", "PEP"], "max_price": 150.0, "min_market_cap": None},
+        ]
+        groups, _ = _selection_groups({"CSX", "MNST", "PEP"}, recorded)
+
+        self.assertEqual(groups, [(150.0, None, 3)])
+
+    def test_different_rules_stay_separate(self):
+        from fig.generate import _selection_groups
+
+        recorded = [
+            {"tickers": ["CSX"], "max_price": 150.0, "min_market_cap": None},
+            {"tickers": ["PEP"], "max_price": 75.0, "min_market_cap": 1e9},
+        ]
+        groups, _ = _selection_groups({"CSX", "PEP"}, recorded)
+
+        self.assertEqual(groups, [(150.0, None, 1), (75.0, 1e9, 1)])
+
 
 class TestRevisionScore(unittest.TestCase):
     """The screen ranks on the consensus revision, and price does not enter.

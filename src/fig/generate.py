@@ -1285,6 +1285,35 @@ def _selection_phrase(cap: float | None, mcap: float | None, count: int) -> str:
     return f"{count} note(s) under {cap_text} and {floor_text}"
 
 
+def _selection_groups(
+    on_disk: set[str], recorded: list[dict]
+) -> tuple[list[tuple[float | None, float | None, int]], int]:
+    """Group the notes on disk by the selection rules that produced them.
+
+    Returns ``(groups, unrecorded)``: one ``(cap, floor, count)`` per distinct rule
+    set, in the order the run records first mention it, and how many notes on disk
+    no record accounts for.
+
+    Grouping is by the *rules*, not by the run that recorded them. A batch resumed
+    after an outage writes a second settings row carrying the same cap and floor,
+    and treating rows as groups rendered the same sentence twice -- "4 note(s) under
+    a $150 share price ...; 6 note(s) under a $150 share price ...". Tickers are
+    gathered per rule so a name appearing in two rows is still counted once.
+    """
+    by_rules: dict[tuple[float | None, float | None], set[str]] = {}
+    attributed: set[str] = set()
+    for row in recorded:
+        members = on_disk & set(row.get("tickers") or [])
+        if not members:
+            continue
+        by_rules.setdefault((row.get("max_price"), row.get("min_market_cap")), set()).update(
+            members
+        )
+        attributed |= members
+    groups = [(cap, floor, len(names)) for (cap, floor), names in by_rules.items()]
+    return groups, len(on_disk - attributed)
+
+
 def write_index(
     results: list[dict],
     out_dir: str | Path = "research",
@@ -1331,14 +1360,7 @@ def write_index(
     # claim about how most of these names were chosen.
     on_disk = {r["writeup"]["ticker"] for r in results}
     recorded = settings if settings is not None else _read_settings(out)
-    groups: list[tuple[float | None, float | None, int]] = []
-    attributed: set[str] = set()
-    for row in recorded:
-        members = on_disk & set(row.get("tickers") or [])
-        if members:
-            groups.append((row.get("max_price"), row.get("min_market_cap"), len(members)))
-            attributed |= members
-    unrecorded = len(on_disk - attributed)
+    groups, unrecorded = _selection_groups(on_disk, recorded)
 
     defaults_text = (
         f"${discover.DEFAULT_MAX_PRICE:,.0f} and "

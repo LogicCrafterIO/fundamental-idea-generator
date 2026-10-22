@@ -1,0 +1,596 @@
+{
+  "ticker": "PDD",
+  "direction": "short",
+  "as_of": "2026-10-22",
+  "description": "Chinese discount e-commerce platform Pinduoduo plus Temu, its cross-border low-price marketplace.",
+  "catalyst": {
+    "date": "2026-11-18",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 27,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 18.84143,
+      "eps_low": 16.789,
+      "eps_high": 21.22954,
+      "revenue_avg": 115643262410
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-25",
+        "eps_estimate": 18.35,
+        "eps_actual": null,
+        "surprise_pct": null,
+        "beat": false
+      },
+      {
+        "date": "2026-05-27",
+        "eps_estimate": 16.37,
+        "eps_actual": 9.51,
+        "surprise_pct": -41.89,
+        "beat": false
+      },
+      {
+        "date": "2026-03-25",
+        "eps_estimate": 21.02,
+        "eps_actual": 17.69,
+        "surprise_pct": -15.84,
+        "beat": false
+      },
+      {
+        "date": "2025-11-18",
+        "eps_estimate": 16.57,
+        "eps_actual": 21.08,
+        "surprise_pct": 27.22,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-11-18 (Wednesday, before the open), 27 days out -- from the earnings calendar, consensus EPS 18.84.",
+    "why": "The first full quarter of the \u20ac3 EU parcel fee must show up as lower transaction-services margin; if it doesn't, the cost thesis is wrong."
+  },
+  "reasons": [
+    "China e-commerce GMV [gross merchandise value] grew 0.9% in the June 618 festival while PDD's SG&A [selling, general and administrative costs] rose 11.4% year over year against revenue up 8.1% \u2014 spending is outrunning demand.",
+    "Consensus wants EPS [earnings per share] of 18.84 on 18 November after 9.51 actual in May; two of the last three reported quarters missed by 15.8% and 41.9%.",
+    "Temu has paid \u20ac3 per low-value parcel into the EU since 1 July, so the September quarter carries the fee for the first time; extra customs data from 1 November lands in Q4 guidance."
+  ],
+  "watch": [
+    "Revenue against the 115.64B consensus: a miss confirms the short; a print above 115.64B breaks it.",
+    "SG&A growth versus revenue growth: still above 8.1% confirms; below it breaks.",
+    "Transaction services revenue (54.7B, +13% year over year in Q2): deceleration confirms the EU fee bite; reacceleration breaks it.",
+    "Q4 guidance on the 1 November EU customs-data rule: any quantified cost confirms; 'no material impact' breaks."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S20",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "emarketer.com: In the 2026 618 festival, China ecommerce GMV grew only 0.9% year over year.",
+        "provider": "emarketer.com",
+        "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+        "date": "2026-06-22"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "PDD quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/pdd/financials",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "PDD earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings",
+        "date": "2026-11-18"
+      }
+    ],
+    [
+      {
+        "id": "S23",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "taxation-customs.ec.europa.eu: From July 1, 2026, the EU charges \u20ac3 per low-value item, ending duty-free parcels.",
+        "provider": "taxation-customs.ec.europa.eu",
+        "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+        "date": "2026-07-20"
+      },
+      {
+        "id": "S24",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "fedex.com: From November 1, 2026, EU low-value B2C shipments require additional PID data.",
+        "provider": "fedex.com",
+        "url": "https://www.fedex.com/content/dam/fedex/us-united-states/International/FedEx_DeMinimis_Customer_Guide_US.pdf",
+        "date": "2026-10-06"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for PDD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PDD/key-statistics/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for PDD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "PDD quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pdd/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "PDD earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pdd/earnings",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "S5",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "marketstory.com: PDD Holdings Inc. (PDD) Stock Analysis | MarketStory",
+      "provider": "marketstory.com",
+      "url": "https://marketstory.com/stock/pdd",
+      "date": null
+    },
+    {
+      "id": "S6",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "longbridge.com: PDD: Has the Maverick Gone Mediocre?--- | Longbridge",
+      "provider": "longbridge.com",
+      "url": "https://longbridge.com/dolphin/post/39520874",
+      "date": "2025-10-01"
+    },
+    {
+      "id": "S7",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: PDD Holdings: Core Ad Deceleration And 1P Pivot Cloud Risk-Reward (Rating Downgrade) (PDD) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4940306-pdd-holdings-downgrade-to-hold-core-ad-deceleration-and-1p-pivot-cloud-risk-reward",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "S8",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "finance.yahoo.com: BofA Cuts PT on PDD Holdings (PDD) \u2013 Here\u2019s Why",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-cuts-pt-pdd-holdings-121521572.html",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "S9",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketscreener.com: PDD Holdings Inc.: Target Price Consensus and Analysts Recommendations | PDD | US7223041028 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/PDD-HOLDINGS-INC-45049866/consensus/",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "S10",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "investor.pddholdings.com: PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results | PDD Holdings",
+      "provider": "investor.pddholdings.com",
+      "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-second-quarter-2026-unaudited-financial/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S11",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "reuters.com: Temu-owner PDD revenue misses estimates, profit falls on 'intense' China competition | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/retail-consumer/temu-owner-pdd-misses-quarterly-revenue-estimates-2026-08-24/",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S12",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "seekingalpha.com: PDD Holdings Inc. (PDD) Q2 2026 Earnings Call Transcript | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4939618-pdd-holdings-inc-pdd-q2-2026-earnings-call-transcript",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S13",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketbeat.com: PDD Q2 Earnings Call Highlights",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/pdd-q2-earnings-call-highlights-2026-08-24/?.tsrc=rss",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "S14",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "gngresearch.com: PDD After Q2: The Market Is Pricing In a Collapse | GNG Research",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/articles/pdd-after-q2-the-market-is-pricing-in-a-collapse-the-numbers/",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "S15",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "wsj.com: PDDN.MX | PDD Holdings Inc. ADR Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/MX/XMEX/PDDN/research-ratings",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "S16",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "simplywall.st: PDD Holdings (NasdaqGS:PDD) Stock Forecast & Analyst Predictions - Simply Wall St",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-pdd/pdd-holdings/future",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "S17",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "simplywall.st: Should Earnings Forecast Cut Require Action From PDD Holdings (PDD) Investors? - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-pdd/pdd-holdings/news/should-earnings-forecast-cut-require-action-from-pdd-holding",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "seekingalpha.com: PDD Holdings: Cheap For A Reason, But Has X-Factor Upside (NASDAQ:PDD) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954834-pdd-holdings-cheap-for-a-reason-but-has-x-factor-upside",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "stockanalysis.com: PDD Holdings (PDD) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/pdd/forecast/",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S20",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "emarketer.com: In the 2026 618 festival, China ecommerce GMV grew only 0.9% year over year.",
+      "provider": "emarketer.com",
+      "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "S21",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "emarketer.com: In 2026, Beijing is increasing scrutiny of misleading marketing tactics.",
+      "provider": "emarketer.com",
+      "url": "https://www.emarketer.com/content/618-slowdown-clouds-outlook-china-retailers",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "S22",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "yicaiglobal.com: In 2026, Chinese shoppers increasingly prioritize value for money.",
+      "provider": "yicaiglobal.com",
+      "url": "https://www.yicaiglobal.com/news/chinas-consumer-market-to-maintain-low-growth-this-year-as-shoppers-seek-better-value-report-says",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "S23",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "taxation-customs.ec.europa.eu: From July 1, 2026, the EU charges \u20ac3 per low-value item, ending duty-free parcels.",
+      "provider": "taxation-customs.ec.europa.eu",
+      "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "S24",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "fedex.com: From November 1, 2026, EU low-value B2C shipments require additional PID data.",
+      "provider": "fedex.com",
+      "url": "https://www.fedex.com/content/dam/fedex/us-united-states/International/FedEx_DeMinimis_Customer_Guide_US.pdf",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S25",
+      "kind": "options",
+      "ref": "options",
+      "label": "PDD listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/PDD/options/",
+      "date": "2026-10-22"
+    }
+  ],
+  "quants": {
+    "price": 78.72,
+    "market_cap": "112.05B",
+    "fwd_pe": 1.1,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.2,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "evenly split, with 12 up and 13 down over last 30 days",
+    "extra": [
+      "Net Income +117% quarter over quarter but -12% year over year (2026-06-30)",
+      "EPS declined year over year, 11.41 -> 9.51"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 5.8,
+        "yoy_pct": 8.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 116.6,
+        "yoy_pct": -11.6,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 59.7,
+        "yoy_pct": 7.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 41.9,
+        "yoy_pct": 7.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 8.4,
+        "yoy_pct": 10.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": null,
+        "yoy_pct": 29.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Interest Income",
+        "qoq_pct": 2236.9,
+        "yoy_pct": 29.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Selling General And Administration",
+        "qoq_pct": -9.5,
+        "yoy_pct": 11.4,
+        "conflict": true,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 9.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": -13.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Income",
+        "change_pct": 24.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": 24.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": -14.1,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": -13.0,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 27,
+    "bar": {
+      "date": "2026-11-18",
+      "eps_avg": 18.84143,
+      "eps_low": 16.789,
+      "eps_high": 21.22954,
+      "revenue_avg": 115643262410
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Mar-27",
+        "strike": 75.0,
+        "qty": 9,
+        "underlying": 78.72,
+        "multiplier": 100,
+        "price": 4.64,
+        "total": 4176.0,
+        "open_interest": 4513
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 75.0,
+        "qty": 3,
+        "underlying": 78.72,
+        "multiplier": 100,
+        "price": 1.77,
+        "total": -531.0,
+        "open_interest": 8585
+      }
+    ],
+    "thesis_target": "Targets the 2027-02-17 report, with the long leg expiring 2027-03-19, which gives the deterioration time to show up.",
+    "reflection": "This is a debit calendar, not a credit trade: the credit ratio sits at 0.0% against a 10% floor, so nine March puts are being financed by only three November ones. Selling more of the 20 November puts would clear the floor and pay for the wait into a print 27 days out."
+  },
+  "news_failures": [
+    {
+      "source": "nasdaq",
+      "error": "RuntimeError: GET failed after 3 attempts: https://api.nasdaq.com/api/news/topic/articlebysymbol?q=PDD|stocks&offset=0&limit=15"
+    }
+  ],
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 90,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": [
+          "\"118\""
+        ]
+      }
+    ],
+    "grounding": {
+      "checked": 14,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 8,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "contradicts"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "building",
+          "customs",
+          "impact",
+          "raise"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "china",
+          "ending",
+          "festival",
+          "november"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "china",
+          "december",
+          "first",
+          "order",
+          "retail",
+          "seller",
+          "since"
+        ]
+      }
+    ]
+  }
+}
