@@ -1,0 +1,2207 @@
+{
+  "symbol": "MO",
+  "as_of": "2026-10-23",
+  "generated_at": "2026-10-23T10:21:46",
+  "profile": {
+    "symbol": "MO",
+    "name": "Altria Group, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Tobacco",
+    "summary": "Altria Group, Inc., through its subsidiaries, manufactures and sells smokeable and oral tobacco products in the United States. It offers cigarettes primarily under the Marlboro brand; large cigars and pipe tobacco under the Black & Mild brand; moist smokeless tobacco and oral tobacco products under the Copenhagen, Skoal, Red Seal, and Husky brands; oral nicotine pouches under the on! brand; and e-vapor products under the NJOY ACE brand. The company sells its products to distributors, as well as large retail organizations, such as chain stores. Altria Group, Inc. was founded in 1822 and is headquartered in Richmond, Virginia.",
+    "employees": 5900,
+    "country": "United States",
+    "website": "https://www.altria.com"
+  },
+  "quants": {
+    "symbol": "MO",
+    "name": "Altria Group, Inc.",
+    "price": 76.07,
+    "market_cap": 127017418752,
+    "market_cap_human": "127.02B",
+    "fwd_pe": 13.4,
+    "fwd_pe_1y": 12.97,
+    "fwd_pe_yahoo": 12.972086,
+    "trailing_pe": 15.556237,
+    "ps": 6.2129436,
+    "ev_ebitda": 11.69,
+    "sector": "Consumer Defensive",
+    "industry": "Tobacco",
+    "eps_fy_current": 5.67737,
+    "eps_fy_next": 5.86413,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": 0.0,
+      "current": 5.67737,
+      "7d_ago": 5.67712,
+      "30d_ago": 5.67712,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 1,
+      "up_30d": 3,
+      "down_30d": 6,
+      "net_30d": -3,
+      "text": "tilted lower, with 3 up and 6 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-29"
+      ],
+      "next_date": "2026-10-29",
+      "eps_avg": 1.5095,
+      "eps_low": 1.48,
+      "eps_high": 1.53,
+      "revenue_avg": 5310311240
+    },
+    "as_of": "2026-10-23"
+  },
+  "quants_lines": [
+    "Price: 76.07 USD",
+    "Market Cap: 127.02B",
+    "Fwd PE: 13.4",
+    "P/S: 6.2",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted lower, with 3 up and 6 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2367000.0,
+      "prior": 3531000.0,
+      "change_pct": -33.0,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 663000.0,
+      "prior": 550000.0,
+      "change_pct": 20.5,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Equity",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2668000.0,
+      "prior": 3211000.0,
+      "change_pct": -16.9,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 6111000.0,
+      "prior": 5428000.0,
+      "change_pct": 12.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 306000.0,
+      "prior": 284000.0,
+      "change_pct": 7.7,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2298000.0,
+      "prior": 2183000.0,
+      "change_pct": 5.3,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-30T07:00:00-04:00",
+    "current": 1.48,
+    "year_ago": 1.44,
+    "year_ago_period": "2025-07-30T07:00:00-04:00",
+    "change": 0.04,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 5356000000.0,
+      "prior": 4758000000.0,
+      "qoq_pct": 12.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 5290000000.0,
+      "yoy_pct": 1.2,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2298000000.0,
+      "prior": 2183000000.0,
+      "qoq_pct": 5.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2378000000.0,
+      "yoy_pct": -3.4,
+      "conflict": true
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2292000000.0,
+      "prior": 2178000000.0,
+      "qoq_pct": 5.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2371000000.0,
+      "yoy_pct": -3.3,
+      "conflict": true
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3224000000.0,
+      "prior": 3117000000.0,
+      "qoq_pct": 3.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3393000000.0,
+      "yoy_pct": -5.0,
+      "conflict": true
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3280000000.0,
+      "prior": 3173000000.0,
+      "qoq_pct": 3.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3464000000.0,
+      "yoy_pct": -5.3,
+      "conflict": true
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3157000000.0,
+      "prior": 2956000000.0,
+      "qoq_pct": 6.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3231000000.0,
+      "yoy_pct": -2.3,
+      "conflict": true
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3820000000.0,
+      "prior": 3506000000.0,
+      "qoq_pct": 9.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3850000000.0,
+      "yoy_pct": -0.8,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 295000000.0,
+      "prior": 258000000.0,
+      "qoq_pct": 14.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 275000000.0,
+      "yoy_pct": 7.3,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 20139000000.0,
+      "prior": 20444000000.0,
+      "change_pct": -1.5,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 6947000000.0,
+      "prior": 11264000000.0,
+      "change_pct": -38.3,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 6927000000.0,
+      "prior": 11236000000.0,
+      "change_pct": -38.3,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 10566000000.0,
+      "prior": 14782000000.0,
+      "change_pct": -28.5,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBITDA",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 10832000000.0,
+      "prior": 15068000000.0,
+      "change_pct": -28.1,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 98000000.0,
+      "prior": 87000000.0,
+      "change_pct": 12.6,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-29",
+    "eps_avg": 1.5095,
+    "eps_low": 1.48,
+    "eps_high": 1.53,
+    "revenue_avg": 5310311240
+  },
+  "news": [
+    {
+      "title": "Is MO a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "publisher": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/mo/is-it-a-buy-or-sell",
+      "summary": "Is MO a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is MO a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated July 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Altria (MO) rests on Pricing power and Marlboro dominance: Marlboro commands a leading share of the US cigarette market, and brand loyalty plus the addictive nature of the product give Altria strong pricing power. The bear case rests on the central risk is the secular decline in US cigarette smoking, which steadily shrinks Altria's core volumes;",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "mo-20250930",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000130/mo-20250930.htm",
+      "summary": "mo-20250930\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM 10-Q\n\n(Mark One)\n\n\u2612 QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the quarterly period ended September 30, 2025\n\nor\n\n\u2610 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the transition period from to \n\nCommission File Number 1-08940\n\nAltria Group, Inc.\n\n(Exact name of registrant as specified in its charter)\n\n| Virginia | | | 13-3260245 |\n| --- | --- | --- | --- |\n| (State or other jurisdiction of incorporation or organization) |",
+      "published": "2025-09-30",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "MO Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "publisher": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/MO/analyst-ratings",
+      "summary": "MO Forecast, Price Target & Analyst Ratings | ChartMill.com\n\n# ALTRIA GROUP INC (MO) Forecast, Price Target & Analyst Ratings \n\nNYSE:MO\n\n## MO Stock Price Today\n\n 67.88 USD \n\n +0.53 (+0.79%) \n\n At close: Oct 5, 2026 \n\n 67.69 USD -0.19 (-0.28%) \n\n After Hours: Oct 5, 2026, 08:19:43 PM EDT \n\n## Analyst forecast overview\n\n View the latest analyst price targets, stock forecast, EPS estimates, revenue projections, revisions, full estimates, rating distribution and upgrades/downgrades for ALTRIA GROUP INC (MO). \n\n### Consensus Price Target\n\nPrice Target\n\n$71.42 + 5.22% Upside \n\n### Next Earnings For",
+      "published": "2026-08-11",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Altria (MO) | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/data/companies/MO",
+      "summary": "Altria (MO) | Trefis\n\n#### Market Price (10/22/2026): $74.36 | Market Cap: $124.2 Bil Investor Relations \u2197 Sector: Consumer Staples | Industry: Tobacco\n\n#### Market Price (10/22/2026): $74.36 Market Cap: $124.2 Bil Sector: Consumer Staples Industry: Tobacco\n\n# Investment Highlights Why It Matters Detailed financial logic regarding cash flow yields vs trend-riding momentum. \n\n Attractive yield Total Yield Total Yield = Earnings Yield + Dividend Yield, Earnings Yield = Net Income / Market Cap Dividend Yield = Total Dividends / Market Cap is 12%, Dividend Yield is 5.7%, ERP Equity Risk Premium (E",
+      "published": "2026-08-27",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "MO.CH | Altria Group Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/CH/MO/research-ratings",
+      "summary": "MO.CH | Altria Group Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# Altria Group Inc. MO (Switzerland: SWX ) \n\n- ##### 5:35 PM CEDT 10/07/26 \n- 57.77 CHF \n- 1.01 1.78% \n- ##### Volume 0 \n\n- Volume 0 \n- 65 Day Avg Vol 6 \n- 1 Day Range 56.48 - 56.48 \n- 52 Week Range 46.30 - 56.48 (02/12/26 - 09/11/26) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 2 Oct 5 Oct 6 Oct 7 Oct 8\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Consumer Goods\n\n- Open 56.48\n- Prior Close 56.76 (09/11/26)\n\n- 1 Day\n- MO 1.78% \n- DJIA -0.66% \n- S&P 500 -0.22% \n- Consumer Goods 0.22% \n\n### Per-Share E",
+      "published": "2026-10-02",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "DYOR HQ - Altria Group Inc (MO) | 2026-10-04",
+      "publisher": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/altriagroupinc",
+      "summary": "DYOR HQ - Altria Group Inc (MO) | 2026-10-04\n\n# MO - Altria Group Inc\n\n## Executive Summary\n\nAltria Group Inc (MO) is the United States parent of Philip Morris USA and the maker of Marlboro, the dominant US cigarette brand, alongside a portfolio of reduced-risk and smoke-free products in development. The company is the leading player in US tobacco, with Marlboro holding the largest share of the domestic cigarette market.\n\nThe investment case rests on the durability of cash generation from the US cigarette franchise, which funds a 6.59% dividend yield, combined with two hard catalysts: a new Ph",
+      "published": "2026-10-04",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "MO Stock Forecast 2026-2027 - Altria Group, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/mo-forecast/",
+      "summary": "MO Stock Forecast 2026-2027 - Altria Group, Inc. Price Targets & Predictions\n\n# MO Stock Forecast: Altria Group, Inc. Price Predictions for 2026-2027\n\nLast close, 20 Oct 2026\n\n$75\n\n+0.74% on the day\n\nThe 14 Wall Street analysts covering Altria Group, Inc. hold a median 12-month price target of $71 \u2014 -4.9% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 94 of 100 as at 19 Oct 2026 \u2014 among the strongest tenth. The factors read stronger than the Street's target implies. That gap is the story on this page.\n\nMarket cap\n\n$123.7B\n\nTicker Nerd rank\n\n94",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Altria Group (MO) Set to Post Earnings on Thursday",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-altria-group-mo-set-to-post-earnings-on-thursday-2026-10-22/",
+      "summary": "Skip to main content\n\n$100 Off. Every Year. Lock In MarketBeat All Access at $149\n\nClaim the Rate Lock \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Altria Group (MO) Set to Post Earnings on Thursday\n\nWritten by MarketBeat\n\nOctober 22, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Altria is expected to report Q3 2026 results before market ",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Altria Group (MO) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/mo/forecast/",
+      "summary": "Altria Group (MO) Stock Forecast & Analyst Price Targets\n\n76.07 +2.24 (3.03%) At close: Oct 22, 2026, 4:00 PM EDT\n\n75.96 -0.11 (-0.14%) After-hours: Oct 22, 2026, 5:29 PM EDT\n\n# Altria Group Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 14 analysts polled by S&P Global, Altria Group stock has a consensus rating of \"Hold\" and an average price target of $70. The average 1-year stock price forecast is 7.98% lower than the current stock price, while the lowest is $58 (-23.75%) and the highest is $82 (+7.80%).\n\nPrice Target: $70 (-7.98%)\n\nAnalyst Consensus: Hold\n\n## Price Target\n\n| Target |",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Altria Group (MO) \u2014 MCH Analysis Research",
+      "publisher": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/mo-research-2026.html",
+      "summary": "Altria Group (MO) \u2014 MCH Analysis Research\n\n MO HOLD REF $73.83 SCENARIO VALUE $72.52 (-2% vs spot \u00b7 12m PWEV) -2% Single-name research \u00b7 22 October 2026 \n\n# Altria Group (MO)\n\nHOLD. Scenario value $73 (-2% vs spot), inputs set 26 June 2026. P/E Multiple explains 91% of Monte Carlo outcome variance.\n\n HOLD RESEARCH income compounder 22 October 2026 \n\n$73.83 \u2192 $72.52 (-2% vs spot \u00b7 12m PWEV) -2% probability-weighted scenario value \u00b7 inputs set 26 June 2026\n\nWhen the inputs were set. Scenario inputs set 26 June 2026 at $73.21; the price has moved +0.8% since. The scenario value is not re-estimate",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results - Altria Group, Inc.",
+      "publisher": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-to-Host-Webcast-of-2026-Third-Quarter-and-Nine-Months-Results/default.aspx",
+      "summary": "Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results - Altria Group, Inc. \n\n## Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results \n\n 10/15/2026 \n\nRICHMOND, Va.--(BUSINESS WIRE)-- Altria Group, Inc. (Altria) (NYSE: MO) will host a live audio webcast on Thursday, October 29, 2026, at 9:00 a.m. Eastern Time to discuss its 2026 third-quarter and nine-months business results. Altria will issue a press release containing its business results at approximately 7:00 a.m. Eastern Time the same day. The webcast can be accessed at altria.com.\n\nDuring the webcast, Sal Manc",
+      "published": "2026-10-29",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Altria (MO) Ascends While Market Falls: Some Facts to Note",
+      "publisher": "Zacks",
+      "created": "Oct 14, 2026",
+      "ago": "Oct 14, 2026",
+      "url": "/articles/altria-mo-ascends-while-market-falls-some-facts-note",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "In the latest trading session, Altria (MO) closed at $73.13, marking a +2.19% move from the previous day.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Investors Heavily Search Altria Group, Inc. (MO): Here is What You Need to Know",
+      "publisher": "Zacks",
+      "created": "Oct 14, 2026",
+      "ago": "Oct 14, 2026",
+      "url": "/articles/investors-heavily-search-altria-group-inc-mo-here-what-you-need-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "Recently, Zacks.com users have been paying close attention to Altria (MO). This makes it worthwhile to examine what the stock has in store.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Altria (MO) Increases Despite Market Slip: Here's What You Need to Know",
+      "publisher": "Zacks",
+      "created": "Oct 16, 2026",
+      "ago": "6 days ago",
+      "url": "/articles/altria-mo-increases-despite-market-slip-heres-what-you-need-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "In the latest trading session, Altria (MO) closed at $75.16, marking a +1.78% move from the previous day.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "If I Had $5,000 to Put Toward Just 1 Dividend Stock, This Would Be It",
+      "publisher": "The Motley Fool",
+      "created": "Oct 16, 2026",
+      "ago": "6 days ago",
+      "url": "/articles/if-i-had-5000-put-toward-just-1-dividend-stock-would-be-it",
+      "primary_symbol": "MO",
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "Key PointsAltria is a Dividend King that pays a 6% yield.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Altria Group (MO) Shares Cross 6% Yield Mark",
+      "publisher": "BNK Invest",
+      "created": "Oct 19, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/altria-group-mo-shares-cross-6-yield-mark",
+      "primary_symbol": "MO",
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "Looking at the universe of stocks we cover at Dividend Channel, in trading on Monday, shares of Altria Group Inc (Symbol: MO) were yielding above the 6% mark based on its quarterly dividend (annualized to $4.44), with the stock changing hands as low as $73.67 on the day.  Divide",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "If You Invested $100 a Month in This High-Yield Dividend Stock, Here's the Dividend Income It Produced Over 10 Years",
+      "publisher": "The Motley Fool",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/if-you-invested-100-month-high-yield-dividend-stock-heres-dividend-income-it-produced-over",
+      "primary_symbol": "MO",
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "Key PointsAltria was a reliable income stock over the past decade.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Philip Morris (PM) Q3 Earnings and Revenues Surpass Estimates",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/philip-morris-pm-q3-earnings-and-revenues-surpass-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "PM",
+        "MO"
+      ],
+      "summary": "Philip Morris (PM) delivered earnings and revenue surprises of +2.61% and +0.26%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Notable ETF Inflow Detected - XLP, MO, CL, MDLZ",
+      "publisher": "BNK Invest",
+      "created": "Oct 22, 2026",
+      "ago": "11 hours ago",
+      "url": "/articles/notable-etf-inflow-detected-xlp-mo-cl-mdlz",
+      "primary_symbol": "XLP",
+      "related_symbols": [
+        "XLP",
+        "MO",
+        "CL",
+        "MDLZ"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Consumer Staples Select Sector SPDR ETF (Symbol: XLP) where we have detected an approximate $296.2 million dollar inflow -- that's a 2.0",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Altria (MO) Earnings Expected to Grow: Should You Buy?",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "13 hours ago",
+      "url": "/articles/altria-mo-earnings-expected-grow-should-you-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "Altria (MO) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Altria (MO) Rises As Market Takes a Dip: Key Facts",
+      "publisher": "Zacks",
+      "created": "Oct 7, 2026",
+      "ago": "Oct 7, 2026",
+      "url": "/articles/altria-mo-rises-market-takes-dip-key-facts",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MO"
+      ],
+      "summary": "Altria (MO) closed the most recent trading day at $69.38, moving +1.21% from the previous trading session.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Notable ETF Outflow Detected - XLP, MO, TGT, CL",
+      "publisher": "BNK Invest",
+      "created": "Oct 9, 2026",
+      "ago": "Oct 9, 2026",
+      "url": "/articles/notable-etf-outflow-detected-xlp-mo-tgt-cl",
+      "primary_symbol": "XLP",
+      "related_symbols": [
+        "XLP",
+        "MO",
+        "TGT",
+        "CL"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Consumer Staples Select Sector SPDR ETF (Symbol: XLP) where we have detected an approximate $412.9 million dollar outflow -- that's a 2",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Buy 5 High-Flying Consumer Staples Stocks for a Stable Portfolio in Q4",
+      "publisher": "Zacks",
+      "created": "Oct 15, 2026",
+      "ago": "Oct 15, 2026",
+      "url": "/articles/buy-5-high-flying-consumer-staples-stocks-stable-portfolio-q4",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KO",
+        "MO",
+        "SJM",
+        "ELF",
+        "LW"
+      ],
+      "summary": "CO, MO, LW, SJM and ELF have delivered over 20% YTD returns, backed by growth strategies and favorable earnings trends.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Here's What $10,000 in Each of These 5 High-Yield Dividend Stocks Could Pay You in a Year",
+      "publisher": "The Motley Fool",
+      "created": "Oct 18, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/heres-what-10000-each-these-5-high-yield-dividend-stocks-could-pay-you-year",
+      "primary_symbol": "PFE",
+      "related_symbols": [
+        "PFE",
+        "MO",
+        "AGNC",
+        "O"
+      ],
+      "summary": "Key PointsSome of the best dividend stocks can be found in consumer staples, healthcare, energy, and REITs.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Buy 5 Stocks to Stay Safe as Volatility Reappears on Wall Street",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/buy-5-stocks-stay-safe-volatility-reappears-wall-street",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KO",
+        "MO",
+        "MET",
+        "SLF",
+        "KDP"
+      ],
+      "summary": "Volatility is back as inflation, geopolitical tensions and AI spending concerns mount. SLF, KO, MO, KDP and MET are five low-beta, high-yield stocks to consider for the rest of 2026.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "The Zacks Analyst Blog Highlights Sun Life Financial, Coca-Cola, Altria, Keurig Dr Pepper and MetLife",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/zacks-analyst-blog-highlights-sun-life-financial-coca-cola-altria-keurig-dr-pepper-and",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KO",
+        "MO",
+        "MET",
+        "SLF",
+        "KDP"
+      ],
+      "summary": "Sun Life Financial, Coca-Cola, Altria, Keurig Dr Pepper and MetLife offer low-beta, dividend-paying profiles as market volatility returns.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance - Altria Group, Inc.",
+      "publisher": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2025-Fourth-Quarter-and-Full-Year-Results-Provides-2026-Earnings-Guidance/default.aspx",
+      "summary": "Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance - Altria Group, Inc. \n\n## Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance \n\n 1/29/2026 \n\nRICHMOND, Va.--(BUSINESS WIRE)-- Altria Group, Inc. (NYSE: MO) today reports our 2025 fourth-quarter and full-year business results and provides our guidance for 2026 full-year adjusted diluted earnings per share (EPS).\n\n\u201c2025 was a year of continued momentum for Altria, marked by strong financial performance, strategic progress across our smoke-free portfolio, new relationshi",
+      "published": "2026-01-29",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Altria Group price target raised to $73 from $72 at BofA",
+      "publisher": "tipranks.com",
+      "url": "https://www.tipranks.com/news/the-fly/altria-group-price-target-raised-to-73-from-72-at-bofa-thefly-news",
+      "summary": "Advertisement\n\n# Altria Group price target raised to $73 from $72 at BofA\n\nTheFly\n\nAnalyze\n\nA+\n\nA-\n\nBofA analyst Lisa Lewandowski raised the firm\u2019s price target on Altria Group (MO) to $73 from $72 and keeps a Buy rating on the shares. For 2026 and 2027, the firm lifted its EPS estimates to $5.60 and $5.84, respectively, as its forecast now anticipates a more moderate cigarette volume decline due to better illicit enforcement, partly offset by continued consumer pressure on volumes.\n\nPublished first on TheFly \u2013 the ultimate source for real-time, market-moving breaking financial news. Try Now>>",
+      "published": "2026-03-29",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance - Altria Group, Inc.",
+      "publisher": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2026-Second-Quarter-and-First-Half-Results-Narrows-2026-Full-Year-Earnings-Guidance/",
+      "summary": "Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance - Altria Group, Inc. \n\n## Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance \n\n 7/30/2026 \n\nRICHMOND, Va.--(BUSINESS WIRE)-- Altria Group, Inc. (NYSE: MO) today reports our 2026 second-quarter and first-half business results and narrows guidance for 2026 full-year adjusted diluted earnings per share (EPS).\n\n\u201cIn the second quarter, our operating companies continued to deliver against the priorities we outlined at the start of the year \u2013 advancing o",
+      "published": "2026-07-30",
+      "source": "ollama_search",
+      "query": "Altria Group, Inc. (MO) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 9,
+        "share": 0.29,
+        "evidence": [
+          {
+            "title": "MO Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-08-11",
+            "matched": [
+              "forecast",
+              "revis",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "MO.CH | Altria Group Inc. Analyst Estimates & Ratings \u2013 WSJ",
+            "publisher": "wsj.com",
+            "published": "2026-10-02",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "MO Stock Forecast 2026-2027 - Altria Group, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-10-20",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "Altria Group (MO) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 7,
+        "share": 0.226,
+        "evidence": [
+          {
+            "title": "Altria (MO) | Trefis",
+            "publisher": "trefis.com",
+            "published": "2026-08-27",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "DYOR HQ - Altria Group Inc (MO) | 2026-10-04",
+            "publisher": "dyorhq.ai",
+            "published": "2026-10-04",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "If I Had $5,000 to Put Toward Just 1 Dividend Stock, This Would Be It",
+            "publisher": "The Motley Fool",
+            "published": "Oct 16, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Altria Group (MO) Shares Cross 6% Yield Mark",
+            "publisher": "BNK Invest",
+            "published": "Oct 19, 2026",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 7,
+        "share": 0.226,
+        "evidence": [
+          {
+            "title": "Altria (MO) | Trefis",
+            "publisher": "trefis.com",
+            "published": "2026-08-27",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "DYOR HQ - Altria Group Inc (MO) | 2026-10-04",
+            "publisher": "dyorhq.ai",
+            "published": "2026-10-04",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "If I Had $5,000 to Put Toward Just 1 Dividend Stock, This Would Be It",
+            "publisher": "The Motley Fool",
+            "published": "Oct 16, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Altria Group (MO) Shares Cross 6% Yield Mark",
+            "publisher": "BNK Invest",
+            "published": "Oct 19, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.129,
+        "evidence": [
+          {
+            "title": "MO Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-08-11",
+            "matched": [
+              "upgrade",
+              "downgrade",
+              "price target"
+            ]
+          },
+          {
+            "title": "MO Stock Forecast 2026-2027 - Altria Group, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-10-20",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Altria Group (MO) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Altria Group price target raised to $73 from $72 at BofA",
+            "publisher": "tipranks.com",
+            "published": "2026-03-29",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 2,
+        "share": 0.065,
+        "evidence": [
+          {
+            "title": "Altria (MO) | Trefis",
+            "publisher": "trefis.com",
+            "published": "2026-08-27",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "Altria Group (MO) \u2014 MCH Analysis Research",
+            "publisher": "mchanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "multiple",
+              "p/e"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.032,
+        "evidence": [
+          {
+            "title": "mo-20250930",
+            "publisher": "sec.gov",
+            "published": "2025-09-30",
+            "matched": [
+              "securities and exchange"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.032,
+        "evidence": [
+          {
+            "title": "MO Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-08-11",
+            "matched": [
+              "downgrade"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-29"
+    ],
+    "next_date": "2026-10-29",
+    "eps_avg": 1.5095,
+    "eps_low": 1.48,
+    "eps_high": 1.53,
+    "revenue_avg": 5310311240
+  },
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "days_out": 6,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 1.5095,
+      "eps_low": 1.48,
+      "eps_high": 1.53,
+      "revenue_avg": 5310311240
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.5,
+        "eps_actual": 1.48,
+        "surprise_pct": -1.17,
+        "beat": false
+      },
+      {
+        "date": "2026-04-30",
+        "eps_estimate": 1.25,
+        "eps_actual": 1.32,
+        "surprise_pct": 5.92,
+        "beat": true
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 1.32,
+        "eps_actual": 1.3,
+        "surprise_pct": -1.33,
+        "beat": false
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 1.45,
+        "eps_actual": 1.45,
+        "surprise_pct": 0.13,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "beat_rate": 0.5,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-29 (Thursday, before the open), 6 days out -- from the earnings calendar, consensus EPS 1.51."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 U.S. adult cigarette smoking prevalence decline CDC",
+      "2026 convenience store tobacco sales trends consumer spending nicotine pouches",
+      "2026 oral nicotine pouch market growth new entrants FDA PMTA",
+      "Altria MO 2026 cigarette volume decline tobacco industry structural outlook"
+    ],
+    "results_count": 20,
+    "results_dated": 18,
+    "trends": [
+      {
+        "claim": "U.S. adult cigarette smoking rate hit another all-time low in 2025.",
+        "stance": "pressure",
+        "why": "Fewer adult smokers shrink Altria's cigarette volume base and accelerate long-term decline.",
+        "quote": "The cigarette smoking rate among U.S. adults dropped to another all-time low last year",
+        "url": "https://apnews.com/article/adult-smoking-cigarette-decline-survey-3dfc9d82fcc106e49a5706819d438239",
+        "publisher": "apnews.com",
+        "as_of": "2026-05-29",
+        "age_days": 147,
+        "undated": false
+      },
+      {
+        "claim": "Weighted average state cigarette excise tax rose to $2.02 per pack in Q2 2026.",
+        "stance": "pressure",
+        "why": "Higher taxes raise retail prices and accelerate cigarette volume declines.",
+        "quote": "Estimated Weighted Average State Excise Tax per pack $2.02 $0.09",
+        "url": "https://edge.sitecorecloud.io/altriaclien9c5f-altriaclien2f33-prod0b41-3d12/media/Project/Altria/Altria/Investors/events-and-presentations/2026/2026-Q2/Altria-Q2-2026-Earnings---Metrics.pdf?sc_lang=en",
+        "publisher": "edge.sitecorecloud.io",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "OTP contributed more in-store gross profit than cigarettes for the first time in 2025.",
+        "stance": "support",
+        "why": "A larger OTP profit pool can offset cigarette profit erosion as Altria shifts smoke-free.",
+        "quote": "contributed more in-store gross profits than cigarettes for the first time (6.7% vs 6.6%, respectively).",
+        "url": "https://www.nacsmagazine.com/issues/august-2026/rebalancing-the-backbar",
+        "publisher": "nacsmagazine.com",
+        "as_of": "2026-08-01",
+        "age_days": 83,
+        "undated": false
+      },
+      {
+        "claim": "U.S. convenience smokeless tobacco sales grew 11.6% year over year to $13.6 billion as of October 2026.",
+        "stance": "support",
+        "why": "Category growth lifts Altria's oral tobacco revenue and unit volumes.",
+        "quote": "U.S. convenience store sales of smokeless tobacco expanded 11.6% year-over-year to $13.6 billion.",
+        "url": "https://tobaccoinsider.com/nicotine-pouches-usa/",
+        "publisher": "tobaccoinsider.com",
+        "as_of": "2026-10-03",
+        "age_days": 20,
+        "undated": false
+      },
+      {
+        "claim": "Altria's on! pouch shipment volume rose 5.1% in the first half of 2026 to 96.1 million cans.",
+        "stance": "support",
+        "why": "Pouch volume growth helps replace declining cigarette sales in Altria's smoke-free mix.",
+        "quote": "on!\u00ae brand went from 91.4 million cans in the first half of 2025 to 96.1 million",
+        "url": "https://www.convenience.org/stay-current/news/2026/october/6/promising-pouches",
+        "publisher": "convenience.org",
+        "as_of": "2026-10-06",
+        "age_days": 17,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "Cigarette share of convenience-store inside sales fell to 18.8% in 2024 from 30.9% in 2015.",
+        "stance": "pressure",
+        "why": "Shrinking shelf space and traffic reduce Altria's cigarette distribution and volume.",
+        "quote": "cigarette category\u2019s share of inside sales has declined from 30.9% in 2015 to 18.8% in 2024",
+        "url": "https://www.convenience.org/stay-current/news/2026/march/9/3-decade-tobacco-nicotine-data_research",
+        "publisher": "convenience.org",
+        "as_of": "2026-03-09",
+        "age_days": 228,
+        "undated": false,
+        "drop_reason": "stale (228 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "MO",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 76.07,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 80.0,
+        "premium": 3.0,
+        "bid": 2.85,
+        "ask": 3.15,
+        "mid": 3.0,
+        "last": 3.0,
+        "open_interest": 1859,
+        "volume": 38.0,
+        "implied_vol": 0.2456130126953125,
+        "qty": 15
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 80.0,
+        "premium": 0.99,
+        "bid": 0.93,
+        "ask": 1.04,
+        "mid": 0.99,
+        "last": 0.98,
+        "open_interest": 881,
+        "volume": 111.0,
+        "implied_vol": 0.2890696093749999,
+        "qty": 6
+      },
+      "long_total": 4500.0,
+      "short_total": 594.0,
+      "net_debit": 3906.0,
+      "credit_ratio_mid": 0.132,
+      "credit_ratio_conservative": 0.1181,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 80.0,
+          "qty": 15,
+          "underlying": 76.07,
+          "multiplier": 100,
+          "price": 3.0,
+          "total": 4500.0,
+          "open_interest": 1859
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 80.0,
+          "qty": 6,
+          "underlying": 76.07,
+          "multiplier": 100,
+          "price": 0.99,
+          "total": -594.0,
+          "open_interest": 881
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 80, 77.5, 85, 90"
+      ],
+      "advice": "Credit ratio 11.8% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.022,
+          "credit_ratio_conservative": 0.0197,
+          "passes_floor": false,
+          "cash_collected": 99.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.044,
+          "credit_ratio_conservative": 0.0394,
+          "passes_floor": false,
+          "cash_collected": 198.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.066,
+          "credit_ratio_conservative": 0.059,
+          "passes_floor": false,
+          "cash_collected": 297.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.088,
+          "credit_ratio_conservative": 0.0787,
+          "passes_floor": false,
+          "cash_collected": 396.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.11,
+          "credit_ratio_conservative": 0.0984,
+          "passes_floor": false,
+          "cash_collected": 495.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.132,
+          "credit_ratio_conservative": 0.1181,
+          "passes_floor": true,
+          "cash_collected": 594.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.154,
+          "credit_ratio_conservative": 0.1378,
+          "passes_floor": true,
+          "cash_collected": 693.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.176,
+          "credit_ratio_conservative": 0.1575,
+          "passes_floor": true,
+          "cash_collected": 792.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.198,
+          "credit_ratio_conservative": 0.1771,
+          "passes_floor": true,
+          "cash_collected": 891.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.22,
+          "credit_ratio_conservative": 0.1968,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.242,
+          "credit_ratio_conservative": 0.2165,
+          "passes_floor": true,
+          "cash_collected": 1089.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.264,
+          "credit_ratio_conservative": 0.2362,
+          "passes_floor": true,
+          "cash_collected": 1188.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.286,
+          "credit_ratio_conservative": 0.2559,
+          "passes_floor": true,
+          "cash_collected": 1287.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.308,
+          "credit_ratio_conservative": 0.2756,
+          "passes_floor": true,
+          "cash_collected": 1386.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.33,
+          "credit_ratio_conservative": 0.2952,
+          "passes_floor": true,
+          "cash_collected": 1485.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "MO",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 76.07,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 72.5,
+        "premium": 3.0,
+        "bid": 2.91,
+        "ask": 3.1,
+        "mid": 3.0,
+        "last": 3.07,
+        "open_interest": 748,
+        "volume": 35.0,
+        "implied_vol": 0.24781025634765624,
+        "qty": 15
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 72.5,
+        "premium": 0.9,
+        "bid": 0.86,
+        "ask": 0.93,
+        "mid": 0.9,
+        "last": 0.94,
+        "open_interest": 894,
+        "volume": 109.0,
+        "implied_vol": 0.27368890380859373,
+        "qty": 6
+      },
+      "long_total": 4500.0,
+      "short_total": 540.0,
+      "net_debit": 3960.0,
+      "credit_ratio_mid": 0.12,
+      "credit_ratio_conservative": 0.111,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 72.5,
+          "qty": 15,
+          "underlying": 76.07,
+          "multiplier": 100,
+          "price": 3.0,
+          "total": 4500.0,
+          "open_interest": 748
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 72.5,
+          "qty": 6,
+          "underlying": 76.07,
+          "multiplier": 100,
+          "price": 0.9,
+          "total": -540.0,
+          "open_interest": 894
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 72.5, 75, 70, 67.5"
+      ],
+      "advice": "Credit ratio 11.1% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.02,
+          "credit_ratio_conservative": 0.0185,
+          "passes_floor": false,
+          "cash_collected": 90.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.04,
+          "credit_ratio_conservative": 0.037,
+          "passes_floor": false,
+          "cash_collected": 180.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.06,
+          "credit_ratio_conservative": 0.0555,
+          "passes_floor": false,
+          "cash_collected": 270.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.08,
+          "credit_ratio_conservative": 0.074,
+          "passes_floor": false,
+          "cash_collected": 360.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1,
+          "credit_ratio_conservative": 0.0925,
+          "passes_floor": false,
+          "cash_collected": 450.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.12,
+          "credit_ratio_conservative": 0.111,
+          "passes_floor": true,
+          "cash_collected": 540.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.14,
+          "credit_ratio_conservative": 0.1295,
+          "passes_floor": true,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.16,
+          "credit_ratio_conservative": 0.148,
+          "passes_floor": true,
+          "cash_collected": 720.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.18,
+          "credit_ratio_conservative": 0.1665,
+          "passes_floor": true,
+          "cash_collected": 810.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2,
+          "credit_ratio_conservative": 0.1849,
+          "passes_floor": true,
+          "cash_collected": 900.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.22,
+          "credit_ratio_conservative": 0.2034,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.24,
+          "credit_ratio_conservative": 0.2219,
+          "passes_floor": true,
+          "cash_collected": 1080.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.26,
+          "credit_ratio_conservative": 0.2404,
+          "passes_floor": true,
+          "cash_collected": 1170.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.28,
+          "credit_ratio_conservative": 0.2589,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.3,
+          "credit_ratio_conservative": 0.2774,
+          "passes_floor": true,
+          "cash_collected": 1350.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for MO",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MO/key-statistics/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "Price: 76.07 USD Market Cap: 127.02B Fwd PE: 13.4 P/S: 6.2 EPS trends: flat over the last 7 days EPS revisions: tilted lower, with 3 up and 6 down over last 30 days price 76.07 market cap 127.02B forward PE 13.4 forward PE next FY 12.97 trailing PE 15.556237 P/S 6.2129436 EV/EBITDA 11.69"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for MO",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MO/analysis/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "FY consensus 5.67737 now, 5.67712 7 days ago, 5.67712 30 days ago, change over 30 days 0.0%; EPS revisions 3 up and 6 down over 30 days, 1 up and 1 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "MO quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mo/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Cash and Cash Equivalents decreasing 33.0% (3/31/2026 to 6/30/2026) Sales, General and Admin. increasing 20.5% (3/31/2026 to 6/30/2026) Total Equity decreasing 16.9% (3/31/2026 to 6/30/2026) Total Revenue increasing 12.6% (3/31/2026 to 6/30/2026) Net Receivables increasing 7.7% (3/31/2026 to 6/30/2026) Net Income increasing 5.3% (3/31/2026 to 6/30/2026) EPS increased year over year 1.44 to 1.48 Total Revenue 12.6% quarter over quarter and 1.2% year over year to 2026-06-30 Net Income 5.3% quarter over quarter and -3.4% year over year to 2026-06-30 Net Income Common Stockholders 5.2% quarter over quarter and -3.3% year over year to 2026-06-30 EBIT 3.4% quarter over quarter and -5.0% year over year to 2026-06-30 EBITDA 3.4% quarter over quarter and -5.3% year over year to 2026-06-30 Operating Income 6.8% quarter over quarter and -2.3% year over year to 2026-06-30 Gross Profit 9.0% quarter over quarter and -0.8% year over year to 2026-06-30 Interest Expense 14.3% quarter over quarter and 7.3% year over year to 2026-06-30 Total Revenue decreasing 1.5% in fiscal 2025-12-31 vs 2024-12-31 Net Income decreasing 38.3% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders decreasing 38.3% in fiscal 2025-12-31 vs 2024-12-31 EBIT decreasing 28.5% in fiscal 2025-12-31 vs 2024-12-31 EBITDA decreasing 28.1% in fiscal 2025-12-31 vs 2024-12-31 Interest Income increasing 12.6% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "MO earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings",
+      "date": "2026-10-29",
+      "weight": null,
+      "text": "2026-10-29 (Thursday, before the open), 6 days out -- from the earnings calendar, consensus EPS 1.51. beat streak 0 median gap 91 days 2026-07-30 estimate 1.5 actual 1.48 surprise -1.17% 2026-04-30 estimate 1.25 actual 1.32 surprise 5.92% 2026-01-29 estimate 1.32 actual 1.3 surprise -1.33% 2025-10-30 estimate 1.45 actual 1.45 surprise 0.13%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: Altria (MO) Ascends While Market Falls: Some Facts to Note",
+      "provider": null,
+      "url": "/articles/altria-mo-ascends-while-market-falls-some-facts-note",
+      "date": "Oct 14, 20",
+      "weight": 3,
+      "text": "Altria (MO) Ascends While Market Falls: Some Facts to Note In the latest trading session, Altria (MO) closed at $73.13, marking a +2.19% move from the previous day."
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Investors Heavily Search Altria Group, Inc. (MO): Here is What You Need to Know",
+      "provider": null,
+      "url": "/articles/investors-heavily-search-altria-group-inc-mo-here-what-you-need-know",
+      "date": "Oct 14, 20",
+      "weight": 3,
+      "text": "Investors Heavily Search Altria Group, Inc. (MO): Here is What You Need to Know Recently, Zacks.com users have been paying close attention to Altria (MO). This makes it worthwhile to examine what the stock has in store."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Altria (MO) Increases Despite Market Slip: Here's What You Need to Know",
+      "provider": null,
+      "url": "/articles/altria-mo-increases-despite-market-slip-heres-what-you-need-know",
+      "date": "Oct 16, 20",
+      "weight": 3,
+      "text": "Altria (MO) Increases Despite Market Slip: Here's What You Need to Know In the latest trading session, Altria (MO) closed at $75.16, marking a +1.78% move from the previous day."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "The Motley Fool: If I Had $5,000 to Put Toward Just 1 Dividend Stock, This Would Be It",
+      "provider": null,
+      "url": "/articles/if-i-had-5000-put-toward-just-1-dividend-stock-would-be-it",
+      "date": "Oct 16, 20",
+      "weight": 3,
+      "text": "If I Had $5,000 to Put Toward Just 1 Dividend Stock, This Would Be It Key PointsAltria is a Dividend King that pays a 6% yield."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: Altria Group (MO) Shares Cross 6% Yield Mark",
+      "provider": null,
+      "url": "/articles/altria-group-mo-shares-cross-6-yield-mark",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "Altria Group (MO) Shares Cross 6% Yield Mark Looking at the universe of stocks we cover at Dividend Channel, in trading on Monday, shares of Altria Group Inc (Symbol: MO) were yielding above the 6% mark based on its quarterly dividend (annualized to $4.44), with the stock changing hands as low as $73.67 on the day.  Divide"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: If You Invested $100 a Month in This High-Yield Dividend Stock, Here's the Dividend Income It Produced Over 10 Years",
+      "provider": null,
+      "url": "/articles/if-you-invested-100-month-high-yield-dividend-stock-heres-dividend-income-it-produced-over",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "If You Invested $100 a Month in This High-Yield Dividend Stock, Here's the Dividend Income It Produced Over 10 Years Key PointsAltria was a reliable income stock over the past decade."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Philip Morris (PM) Q3 Earnings and Revenues Surpass Estimates",
+      "provider": null,
+      "url": "/articles/philip-morris-pm-q3-earnings-and-revenues-surpass-estimates",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "Philip Morris (PM) Q3 Earnings and Revenues Surpass Estimates Philip Morris (PM) delivered earnings and revenue surprises of +2.61% and +0.26%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "BNK Invest: Notable ETF Inflow Detected - XLP, MO, CL, MDLZ",
+      "provider": null,
+      "url": "/articles/notable-etf-inflow-detected-xlp-mo-cl-mdlz",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Notable ETF Inflow Detected - XLP, MO, CL, MDLZ Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Consumer Staples Select Sector SPDR ETF (Symbol: XLP) where we have detected an approximate $296.2 million dollar inflow -- that's a 2.0"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Altria (MO) Earnings Expected to Grow: Should You Buy?",
+      "provider": null,
+      "url": "/articles/altria-mo-earnings-expected-grow-should-you-buy",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Altria (MO) Earnings Expected to Grow: Should You Buy? Altria (MO) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Altria (MO) Rises As Market Takes a Dip: Key Facts",
+      "provider": null,
+      "url": "/articles/altria-mo-rises-market-takes-dip-key-facts",
+      "date": "Oct 7, 202",
+      "weight": 3,
+      "text": "Altria (MO) Rises As Market Takes a Dip: Key Facts Altria (MO) closed the most recent trading day at $69.38, moving +1.21% from the previous trading session."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "BNK Invest: Notable ETF Outflow Detected - XLP, MO, TGT, CL",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-xlp-mo-tgt-cl",
+      "date": "Oct 9, 202",
+      "weight": 3,
+      "text": "Notable ETF Outflow Detected - XLP, MO, TGT, CL Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Consumer Staples Select Sector SPDR ETF (Symbol: XLP) where we have detected an approximate $412.9 million dollar outflow -- that's a 2"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Buy 5 High-Flying Consumer Staples Stocks for a Stable Portfolio in Q4",
+      "provider": null,
+      "url": "/articles/buy-5-high-flying-consumer-staples-stocks-stable-portfolio-q4",
+      "date": "Oct 15, 20",
+      "weight": 2,
+      "text": "Buy 5 High-Flying Consumer Staples Stocks for a Stable Portfolio in Q4 CO, MO, LW, SJM and ELF have delivered over 20% YTD returns, backed by growth strategies and favorable earnings trends."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: Here's What $10,000 in Each of These 5 High-Yield Dividend Stocks Could Pay You in a Year",
+      "provider": null,
+      "url": "/articles/heres-what-10000-each-these-5-high-yield-dividend-stocks-could-pay-you-year",
+      "date": "Oct 18, 20",
+      "weight": 2,
+      "text": "Here's What $10,000 in Each of These 5 High-Yield Dividend Stocks Could Pay You in a Year Key PointsSome of the best dividend stocks can be found in consumer staples, healthcare, energy, and REITs."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Buy 5 Stocks to Stay Safe as Volatility Reappears on Wall Street",
+      "provider": null,
+      "url": "/articles/buy-5-stocks-stay-safe-volatility-reappears-wall-street",
+      "date": "Oct 19, 20",
+      "weight": 2,
+      "text": "Buy 5 Stocks to Stay Safe as Volatility Reappears on Wall Street Volatility is back as inflation, geopolitical tensions and AI spending concerns mount. SLF, KO, MO, KDP and MET are five low-beta, high-yield stocks to consider for the rest of 2026."
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: The Zacks Analyst Blog Highlights Sun Life Financial, Coca-Cola, Altria, Keurig Dr Pepper and MetLife",
+      "provider": null,
+      "url": "/articles/zacks-analyst-blog-highlights-sun-life-financial-coca-cola-altria-keurig-dr-pepper-and",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "The Zacks Analyst Blog Highlights Sun Life Financial, Coca-Cola, Altria, Keurig Dr Pepper and MetLife Sun Life Financial, Coca-Cola, Altria, Keurig Dr Pepper and MetLife offer low-beta, dividend-paying profiles as market volatility returns."
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "walnutinvest.com: Is MO a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/mo/is-it-a-buy-or-sell",
+      "date": null,
+      "weight": 3,
+      "text": "Is MO a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App Is MO a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is MO a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated July 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Altria (MO) rests on Pricing power and Marlboro dominance: Marlboro commands a leading share of the US cigarette market, and brand loyalty plus the addictive nature of the product give Altria strong pricing power. The bear case rests on the central risk is the secular decline in US cigarette smoking, which steadily shrinks Altria's core volumes;"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "sec.gov: mo-20250930",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000130/mo-20250930.htm",
+      "date": "2025-09-30",
+      "weight": 3,
+      "text": "mo-20250930 mo-20250930\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM 10-Q\n\n(Mark One)\n\n\u2612 QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the quarterly period ended September 30, 2025\n\nor\n\n\u2610 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the transition period from to \n\nCommission File Number 1-08940\n\nAltria Group, Inc.\n\n(Exact name of registrant as specified in its charter)\n\n| Virginia | | | 13-3260245 |\n| --- | --- | --- | --- |\n| (State or other jurisdiction of incorporation or organization) |"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "chartmill.com: MO Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/MO/analyst-ratings",
+      "date": "2026-08-11",
+      "weight": 3,
+      "text": "MO Forecast, Price Target & Analyst Ratings | ChartMill.com MO Forecast, Price Target & Analyst Ratings | ChartMill.com\n\n# ALTRIA GROUP INC (MO) Forecast, Price Target & Analyst Ratings \n\nNYSE:MO\n\n## MO Stock Price Today\n\n 67.88 USD \n\n +0.53 (+0.79%) \n\n At close: Oct 5, 2026 \n\n 67.69 USD -0.19 (-0.28%) \n\n After Hours: Oct 5, 2026, 08:19:43 PM EDT \n\n## Analyst forecast overview\n\n View the latest analyst price targets, stock forecast, EPS estimates, revenue projections, revisions, full estimates, rating distribution and upgrades/downgrades for ALTRIA GROUP INC (MO). \n\n### Consensus Price Target\n\nPrice Target\n\n$71.42 + 5.22% Upside \n\n### Next Earnings For"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "trefis.com: Altria (MO) | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/data/companies/MO",
+      "date": "2026-08-27",
+      "weight": 3,
+      "text": "Altria (MO) | Trefis Altria (MO) | Trefis\n\n#### Market Price (10/22/2026): $74.36 | Market Cap: $124.2 Bil Investor Relations \u2197 Sector: Consumer Staples | Industry: Tobacco\n\n#### Market Price (10/22/2026): $74.36 Market Cap: $124.2 Bil Sector: Consumer Staples Industry: Tobacco\n\n# Investment Highlights Why It Matters Detailed financial logic regarding cash flow yields vs trend-riding momentum. \n\n Attractive yield Total Yield Total Yield = Earnings Yield + Dividend Yield, Earnings Yield = Net Income / Market Cap Dividend Yield = Total Dividends / Market Cap is 12%, Dividend Yield is 5.7%, ERP Equity Risk Premium (E"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "wsj.com: MO.CH | Altria Group Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/CH/MO/research-ratings",
+      "date": "2026-10-02",
+      "weight": 3,
+      "text": "MO.CH | Altria Group Inc. Analyst Estimates & Ratings \u2013 WSJ MO.CH | Altria Group Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# Altria Group Inc. MO (Switzerland: SWX ) \n\n- ##### 5:35 PM CEDT 10/07/26 \n- 57.77 CHF \n- 1.01 1.78% \n- ##### Volume 0 \n\n- Volume 0 \n- 65 Day Avg Vol 6 \n- 1 Day Range 56.48 - 56.48 \n- 52 Week Range 46.30 - 56.48 (02/12/26 - 09/11/26) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 2 Oct 5 Oct 6 Oct 7 Oct 8\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Consumer Goods\n\n- Open 56.48\n- Prior Close 56.76 (09/11/26)\n\n- 1 Day\n- MO 1.78% \n- DJIA -0.66% \n- S&P 500 -0.22% \n- Consumer Goods 0.22% \n\n### Per-Share E"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "dyorhq.ai: DYOR HQ - Altria Group Inc (MO) | 2026-10-04",
+      "provider": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/altriagroupinc",
+      "date": "2026-10-04",
+      "weight": 3,
+      "text": "DYOR HQ - Altria Group Inc (MO) | 2026-10-04 DYOR HQ - Altria Group Inc (MO) | 2026-10-04\n\n# MO - Altria Group Inc\n\n## Executive Summary\n\nAltria Group Inc (MO) is the United States parent of Philip Morris USA and the maker of Marlboro, the dominant US cigarette brand, alongside a portfolio of reduced-risk and smoke-free products in development. The company is the leading player in US tobacco, with Marlboro holding the largest share of the domestic cigarette market.\n\nThe investment case rests on the durability of cash generation from the US cigarette franchise, which funds a 6.59% dividend yield, combined with two hard catalysts: a new Ph"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "tickernerd.com: MO Stock Forecast 2026-2027 - Altria Group, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/mo-forecast/",
+      "date": "2026-10-20",
+      "weight": 3,
+      "text": "MO Stock Forecast 2026-2027 - Altria Group, Inc. Price Targets & Predictions MO Stock Forecast 2026-2027 - Altria Group, Inc. Price Targets & Predictions\n\n# MO Stock Forecast: Altria Group, Inc. Price Predictions for 2026-2027\n\nLast close, 20 Oct 2026\n\n$75\n\n+0.74% on the day\n\nThe 14 Wall Street analysts covering Altria Group, Inc. hold a median 12-month price target of $71 \u2014 -4.9% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 94 of 100 as at 19 Oct 2026 \u2014 among the strongest tenth. The factors read stronger than the Street's target implies. That gap is the story on this page.\n\nMarket cap\n\n$123.7B\n\nTicker Nerd rank\n\n94"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "marketbeat.com: Altria Group (MO) Set to Post Earnings on Thursday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-altria-group-mo-set-to-post-earnings-on-thursday-2026-10-22/",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Altria Group (MO) Set to Post Earnings on Thursday Skip to main content\n\n$100 Off. Every Year. Lock In MarketBeat All Access at $149\n\nClaim the Rate Lock \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Altria Group (MO) Set to Post Earnings on Thursday\n\nWritten by MarketBeat\n\nOctober 22, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Altria is expected to report Q3 2026 results before market"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "stockanalysis.com: Altria Group (MO) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/mo/forecast/",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Altria Group (MO) Stock Forecast & Analyst Price Targets Altria Group (MO) Stock Forecast & Analyst Price Targets\n\n76.07 +2.24 (3.03%) At close: Oct 22, 2026, 4:00 PM EDT\n\n75.96 -0.11 (-0.14%) After-hours: Oct 22, 2026, 5:29 PM EDT\n\n# Altria Group Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 14 analysts polled by S&P Global, Altria Group stock has a consensus rating of \"Hold\" and an average price target of $70. The average 1-year stock price forecast is 7.98% lower than the current stock price, while the lowest is $58 (-23.75%) and the highest is $82 (+7.80%).\n\nPrice Target: $70 (-7.98%)\n\nAnalyst Consensus: Hold\n\n## Price Target\n\n| Target |"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "mchanalysis.com: Altria Group (MO) \u2014 MCH Analysis Research",
+      "provider": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/mo-research-2026.html",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Altria Group (MO) \u2014 MCH Analysis Research Altria Group (MO) \u2014 MCH Analysis Research\n\n MO HOLD REF $73.83 SCENARIO VALUE $72.52 (-2% vs spot \u00b7 12m PWEV) -2% Single-name research \u00b7 22 October 2026 \n\n# Altria Group (MO)\n\nHOLD. Scenario value $73 (-2% vs spot), inputs set 26 June 2026. P/E Multiple explains 91% of Monte Carlo outcome variance.\n\n HOLD RESEARCH income compounder 22 October 2026 \n\n$73.83 \u2192 $72.52 (-2% vs spot \u00b7 12m PWEV) -2% probability-weighted scenario value \u00b7 inputs set 26 June 2026\n\nWhen the inputs were set. Scenario inputs set 26 June 2026 at $73.21; the price has moved +0.8% since. The scenario value is not re-estimate"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investor.altria.com: Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results - Altria Group, Inc.",
+      "provider": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-to-Host-Webcast-of-2026-Third-Quarter-and-Nine-Months-Results/default.aspx",
+      "date": "2026-10-29",
+      "weight": 3,
+      "text": "Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results - Altria Group, Inc. Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results - Altria Group, Inc. \n\n## Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results \n\n 10/15/2026 \n\nRICHMOND, Va.--(BUSINESS WIRE)-- Altria Group, Inc. (Altria) (NYSE: MO) will host a live audio webcast on Thursday, October 29, 2026, at 9:00 a.m. Eastern Time to discuss its 2026 third-quarter and nine-months business results. Altria will issue a press release containing its business results at approximately 7:00 a.m. Eastern Time the same day. The webcast can be accessed at altria.com.\n\nDuring the webcast, Sal Manc"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "investor.altria.com: Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance - Altria Group, Inc.",
+      "provider": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2025-Fourth-Quarter-and-Full-Year-Results-Provides-2026-Earnings-Guidance/default.aspx",
+      "date": "2026-01-29",
+      "weight": 0,
+      "text": "Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance - Altria Group, Inc. Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance - Altria Group, Inc. \n\n## Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance \n\n 1/29/2026 \n\nRICHMOND, Va.--(BUSINESS WIRE)-- Altria Group, Inc. (NYSE: MO) today reports our 2025 fourth-quarter and full-year business results and provides our guidance for 2026 full-year adjusted diluted earnings per share (EPS).\n\n\u201c2025 was a year of continued momentum for Altria, marked by strong financial performance, strategic progress across our smoke-free portfolio, new relationshi"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "tipranks.com: Altria Group price target raised to $73 from $72 at BofA",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/news/the-fly/altria-group-price-target-raised-to-73-from-72-at-bofa-thefly-news",
+      "date": "2026-03-29",
+      "weight": 0,
+      "text": "Altria Group price target raised to $73 from $72 at BofA Advertisement\n\n# Altria Group price target raised to $73 from $72 at BofA\n\nTheFly\n\nAnalyze\n\nA+\n\nA-\n\nBofA analyst Lisa Lewandowski raised the firm\u2019s price target on Altria Group (MO) to $73 from $72 and keeps a Buy rating on the shares. For 2026 and 2027, the firm lifted its EPS estimates to $5.60 and $5.84, respectively, as its forecast now anticipates a more moderate cigarette volume decline due to better illicit enforcement, partly offset by continued consumer pressure on volumes.\n\nPublished first on TheFly \u2013 the ultimate source for real-time, market-moving breaking financial news. Try Now>>"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "investor.altria.com: Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance - Altria Group, Inc.",
+      "provider": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2026-Second-Quarter-and-First-Half-Results-Narrows-2026-Full-Year-Earnings-Guidance/",
+      "date": "2026-07-30",
+      "weight": 0,
+      "text": "Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance - Altria Group, Inc. Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance - Altria Group, Inc. \n\n## Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance \n\n 7/30/2026 \n\nRICHMOND, Va.--(BUSINESS WIRE)-- Altria Group, Inc. (NYSE: MO) today reports our 2026 second-quarter and first-half business results and narrows guidance for 2026 full-year adjusted diluted earnings per share (EPS).\n\n\u201cIn the second quarter, our operating companies continued to deliver against the priorities we outlined at the start of the year \u2013 advancing o"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "apnews.com: U.S. adult cigarette smoking rate hit another all-time low in 2025.",
+      "provider": "apnews.com",
+      "url": "https://apnews.com/article/adult-smoking-cigarette-decline-survey-3dfc9d82fcc106e49a5706819d438239",
+      "date": "2026-05-29",
+      "weight": null,
+      "text": "U.S. adult cigarette smoking rate hit another all-time low in 2025. Fewer adult smokers shrink Altria's cigarette volume base and accelerate long-term decline. \"The cigarette smoking rate among U.S. adults dropped to another all-time low last year\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "edge.sitecorecloud.io: Weighted average state cigarette excise tax rose to $2.02 per pack in Q2 2026.",
+      "provider": "edge.sitecorecloud.io",
+      "url": "https://edge.sitecorecloud.io/altriaclien9c5f-altriaclien2f33-prod0b41-3d12/media/Project/Altria/Altria/Investors/events-and-presentations/2026/2026-Q2/Altria-Q2-2026-Earnings---Metrics.pdf?sc_lang=en",
+      "date": null,
+      "weight": null,
+      "text": "Weighted average state cigarette excise tax rose to $2.02 per pack in Q2 2026. Higher taxes raise retail prices and accelerate cigarette volume declines. \"Estimated Weighted Average State Excise Tax per pack $2.02 $0.09\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "nacsmagazine.com: OTP contributed more in-store gross profit than cigarettes for the first time in 2025.",
+      "provider": "nacsmagazine.com",
+      "url": "https://www.nacsmagazine.com/issues/august-2026/rebalancing-the-backbar",
+      "date": "2026-08-01",
+      "weight": null,
+      "text": "OTP contributed more in-store gross profit than cigarettes for the first time in 2025. A larger OTP profit pool can offset cigarette profit erosion as Altria shifts smoke-free. \"contributed more in-store gross profits than cigarettes for the first time (6.7% vs 6.6%, respectively).\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "tobaccoinsider.com: U.S. convenience smokeless tobacco sales grew 11.6% year over year to $13.6 billion as of October 2026.",
+      "provider": "tobaccoinsider.com",
+      "url": "https://tobaccoinsider.com/nicotine-pouches-usa/",
+      "date": "2026-10-03",
+      "weight": null,
+      "text": "U.S. convenience smokeless tobacco sales grew 11.6% year over year to $13.6 billion as of October 2026. Category growth lifts Altria's oral tobacco revenue and unit volumes. \"U.S. convenience store sales of smokeless tobacco expanded 11.6% year-over-year to $13.6 billion.\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "convenience.org: Altria's on! pouch shipment volume rose 5.1% in the first half of 2026 to 96.1 million cans.",
+      "provider": "convenience.org",
+      "url": "https://www.convenience.org/stay-current/news/2026/october/6/promising-pouches",
+      "date": "2026-10-06",
+      "weight": null,
+      "text": "Altria's on! pouch shipment volume rose 5.1% in the first half of 2026 to 96.1 million cans. Pouch volume growth helps replace declining cigarette sales in Altria's smoke-free mix. \"on!\u00ae brand went from 91.4 million cans in the first half of 2025 to 96.1 million\""
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "MO listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MO/options/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "long CALL strike 80.0 expiry 2027-03-19 premium 3.0 short PUT strike 72.5 expiry 2027-03-19 premium 3.0"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 5.55,
+    "fy_consensus": 5.67737,
+    "ratio": 0.978,
+    "beats": 2,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (1.48 + 1.32 + 1.3 + 1.45) total 5.55, against a current-FY consensus of 5.67737 -- read it against the streak before treating either as stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "2026 U.S. adult cigarette smoking prevalence decline CDC",
+        "2026 convenience store tobacco sales trends consumer spending nicotine pouches",
+        "2026 oral nicotine pouch market growth new entrants FDA PMTA",
+        "Altria MO 2026 cigarette volume decline tobacco industry structural outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "U.S. adult cigarette smoking rate hit another all-time low in 2025.",
+          "stance": "pressure",
+          "why": "Fewer adult smokers shrink Altria's cigarette volume base and accelerate long-term decline.",
+          "quote": "The cigarette smoking rate among U.S. adults dropped to another all-time low last year",
+          "url": "https://apnews.com/article/adult-smoking-cigarette-decline-survey-3dfc9d82fcc106e49a5706819d438239",
+          "publisher": "apnews.com",
+          "as_of": "2026-05-29",
+          "age_days": 147,
+          "undated": false
+        },
+        {
+          "claim": "Weighted average state cigarette excise tax rose to $2.02 per pack in Q2 2026.",
+          "stance": "pressure",
+          "why": "Higher taxes raise retail prices and accelerate cigarette volume declines.",
+          "quote": "Estimated Weighted Average State Excise Tax per pack $2.02 $0.09",
+          "url": "https://edge.sitecorecloud.io/altriaclien9c5f-altriaclien2f33-prod0b41-3d12/media/Project/Altria/Altria/Investors/events-and-presentations/2026/2026-Q2/Altria-Q2-2026-Earnings---Metrics.pdf?sc_lang=en",
+          "publisher": "edge.sitecorecloud.io",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "OTP contributed more in-store gross profit than cigarettes for the first time in 2025.",
+          "stance": "support",
+          "why": "A larger OTP profit pool can offset cigarette profit erosion as Altria shifts smoke-free.",
+          "quote": "contributed more in-store gross profits than cigarettes for the first time (6.7% vs 6.6%, respectively).",
+          "url": "https://www.nacsmagazine.com/issues/august-2026/rebalancing-the-backbar",
+          "publisher": "nacsmagazine.com",
+          "as_of": "2026-08-01",
+          "age_days": 83,
+          "undated": false
+        },
+        {
+          "claim": "U.S. convenience smokeless tobacco sales grew 11.6% year over year to $13.6 billion as of October 2026.",
+          "stance": "support",
+          "why": "Category growth lifts Altria's oral tobacco revenue and unit volumes.",
+          "quote": "U.S. convenience store sales of smokeless tobacco expanded 11.6% year-over-year to $13.6 billion.",
+          "url": "https://tobaccoinsider.com/nicotine-pouches-usa/",
+          "publisher": "tobaccoinsider.com",
+          "as_of": "2026-10-03",
+          "age_days": 20,
+          "undated": false
+        },
+        {
+          "claim": "Altria's on! pouch shipment volume rose 5.1% in the first half of 2026 to 96.1 million cans.",
+          "stance": "support",
+          "why": "Pouch volume growth helps replace declining cigarette sales in Altria's smoke-free mix.",
+          "quote": "on!\u00ae brand went from 91.4 million cans in the first half of 2025 to 96.1 million",
+          "url": "https://www.convenience.org/stay-current/news/2026/october/6/promising-pouches",
+          "publisher": "convenience.org",
+          "as_of": "2026-10-06",
+          "age_days": 17,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "Cigarette share of convenience-store inside sales fell to 18.8% in 2024 from 30.9% in 2015.",
+          "stance": "pressure",
+          "why": "Shrinking shelf space and traffic reduce Altria's cigarette distribution and volume.",
+          "quote": "cigarette category\u2019s share of inside sales has declined from 30.9% in 2015 to 18.8% in 2024",
+          "url": "https://www.convenience.org/stay-current/news/2026/march/9/3-decade-tobacco-nicotine-data_research",
+          "publisher": "convenience.org",
+          "as_of": "2026-03-09",
+          "age_days": 228,
+          "undated": false,
+          "drop_reason": "stale (228 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Altria MO 2026 US tobacco nicotine market volume decline smoking rates",
+        "US cigarette smoking rate 2026 2027 adult tobacco consumption decline CDC",
+        "nicotine pouch market 2026 2027 growth Zyn competition oral nicotine switching",
+        "convenience store tobacco sales 2026 low-income consumer spending disposable income trends"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In Q2 2026, Altria expanded Helix on! PLUS to 120,000 stores and ran trial-generating activities.",
+          "stance": "support",
+          "why": "Wider distribution and trial can lift smoke-free volumes in coming quarters.",
+          "quote": "Helix expanded on! PLUS to 120,000 stores nationwide, engaged in trial-generating activities",
+          "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2026-Second-Quarter-and-First-Half-Results-Narrows-2026-Full-Year-Earnings-Guidance/default.aspx",
+          "publisher": "investor.altria.com",
+          "as_of": "2026-07-30",
+          "age_days": 85,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, U.S. nicotine pouch sales are projected to grow nearly 25% annually through 2033.",
+          "stance": "support",
+          "why": "Altria is one of three firms with over 90% of smokeless, so pouch growth can offset cigarettes.",
+          "quote": "Grand View Research projects U.S. nicotine pouch sales to grow at a compound annual growth rate of nearly 25% through 2033",
+          "url": "https://tobaccoreporter.com/2026/06/24/smokeless-only-products-growing-in-nicotine-market-report/",
+          "publisher": "tobaccoreporter.com",
+          "as_of": "2026-06-24",
+          "age_days": 121,
+          "undated": false
+        },
+        {
+          "claim": "In 2025, other tobacco products surpassed cigarettes in convenience-store gross profit per store, per month.",
+          "stance": "support",
+          "why": "Altria's OTP portfolio can capture profit as cigarette profit pool shrinks.",
+          "quote": "For the first time, OTP surpassed cigarettes in gross profits per store, per month",
+          "url": "https://www.nacsmagazine.com/issues/august-2026/rebalancing-the-backbar",
+          "publisher": "nacsmagazine.com",
+          "as_of": "2026-08-01",
+          "age_days": 83,
+          "undated": false
+        },
+        {
+          "claim": "By August 2026, nicotine pouches are Big Tobacco's key growth bet beyond cigarettes.",
+          "stance": "support",
+          "why": "Pouch growth is central to replacing declining cigarette revenue.",
+          "quote": "Fast-growing nicotine pouches have emerged as one of Big Tobacco's most important bets on a future beyond cigarettes",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/can-nicotine-pouches-drive-big-tobaccos-future-beyond-cigarettes-2026-08-18/",
+          "publisher": "reuters.com",
+          "as_of": "2026-08-18",
+          "age_days": 66,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, analysts see cultural factors limiting nicotine pouch adoption.",
+          "stance": "pressure",
+          "why": "Slower pouch uptake would leave Altria more exposed to cigarette declines.",
+          "quote": "Analysts say cultural factors a barrier to adoption",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/can-nicotine-pouches-drive-big-tobaccos-future-beyond-cigarettes-2026-08-18/",
+          "publisher": "reuters.com",
+          "as_of": "2026-08-18",
+          "age_days": 66,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "US cigarette smoking prevalence decline 2026 2027 adult tobacco use trends",
+        "US nicotine pouch market growth 2026 Zyn competition oral nicotine sales convenience stores",
+        "convenience store tobacco sales 2026 consumer spending low-income households traffic trends",
+        "Altria MO 2026 cigarette volume decline menthol regulation FDA PMTA illicit disposable vape competition"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "Preliminary CDC data show U.S. adult cigarette smoking fell to 9.1% in 2025 from 9.9% in 2024.",
+          "stance": "pressure",
+          "why": "Lower smoking prevalence feeds cigarette volume declines and pressures Altria's smokeable revenue.",
+          "quote": "adult cigarette smoking rate in the United States fell to 9.1% in 2025 from 9.9% in 2024.",
+          "url": "https://www.tobaccofreekids.org/press-releases/2026_05_29_cdc-survey-shows-u-s-adult-cigarette-smoking-rate-continued-to-fall-in-2025",
+          "publisher": "tobaccofreekids.org",
+          "as_of": "2026-05-29",
+          "age_days": 147,
+          "undated": false
+        },
+        {
+          "claim": "Total U.S. nicotine volume is projected to decline again in 2026, though at a slower rate than recent years.",
+          "stance": "pressure",
+          "why": "A shrinking overall nicotine market limits Altria's ability to grow volume even as pouches gain share.",
+          "quote": "Total nicotine volume is projected to decline again in 2026, although at a slower rate than in recent years",
+          "url": "https://pouchwire.com/2026/09/nicotine-pouches-take-a-greater-share-of-c-store-sales/",
+          "publisher": "pouchwire.com",
+          "as_of": "2026-09-01",
+          "age_days": 52,
+          "undated": false
+        },
+        {
+          "claim": "As of August 2026, tobacco shoppers are more price sensitive than in a decade and are economizing rather than quitting.",
+          "stance": "pressure",
+          "why": "Greater price sensitivity may limit Altria's ability to raise prices without accelerating volume losses.",
+          "quote": "tobacco shoppers are more price sensitive than they have been in a decade, and they are economizing rather than quitting.",
+          "url": "https://5533158.fs1.hubspotusercontent-na1.net/hubfs/5533158/Content/ClearDemand%202026%2B/ClearDemand-Pricing%20Tobacco%20eBook-Aug2026.pdf",
+          "publisher": "5533158.fs1.hubspotusercontent-na1.net",
+          "as_of": "2026-08-01",
+          "age_days": 83,
+          "undated": false
+        },
+        {
+          "claim": "Altria's on! pouch shipments rose to 96.1 million cans in the first half of 2026 from 91.4 million a year earlier.",
+          "stance": "support",
+          "why": "Pouch growth can offset cigarette volume declines and support oral tobacco revenue.",
+          "quote": "on!\u00ae brand went from 91.4 million cans in the first half of 2025 to 96.1 million in the first half of 2026.",
+          "url": "https://www.convenience.org/stay-current/news/2026/october/6/promising-pouches",
+          "publisher": "convenience.org",
+          "as_of": "2026-10-06",
+          "age_days": 17,
+          "undated": false
+        },
+        {
+          "claim": "U.S. nicotine pouch sales are expected to grow at a compound annual growth rate of almost 25% through 2033.",
+          "stance": "support",
+          "why": "Fast pouch growth gives Altria a growing smoke-free segment to offset cigarette declines.",
+          "quote": "sales in the U.S. expected to grow at a compound annual growth rate of almost 25% through 2033",
+          "url": "https://www.cstoredive.com/news/3-charts-dissecting-the-growing-smokeless-nicotine-market/823070/",
+          "publisher": "cstoredive.com",
+          "as_of": "2026-06-22",
+          "age_days": 123,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "The U.S. convenience channel contracted in both dollars and units in 2025 while prices climbed.",
+          "stance": "pressure",
+          "why": "Weaker convenience demand can reduce cigarette and oral tobacco volumes sold through Altria's key channel.",
+          "quote": "In 2025, the convenience channel contracted in both dollars and units while prices climbed\u2014a structurally unhealthy mix that signals weakening demand, not temporary disruption.",
+          "url": "https://nielseniq.com/wp-content/uploads/sites/4/2026/02/NA-US-NIQ-Perspective-Convenience-Channel-February-2026.pdf",
+          "publisher": "nielseniq.com",
+          "as_of": "2026-02-01",
+          "age_days": 264,
+          "undated": false,
+          "drop_reason": "stale (264 days old)"
+        },
+        {
+          "claim": "As of March 2026, higher state excise taxes, lower smoking rates and smoking bans continue to drive cigarette sales declines.",
+          "stance": "pressure",
+          "why": "Excise-tax increases and smoking restrictions pressure Altria's cigarette volumes and pricing.",
+          "quote": "Higher state excise tax rates, lower smoking rates, smoking bans and other regulatory pressures continue to drive the decline of cigarette sales at convenience stores.",
+          "url": "https://www.convenience.org/stay-current/news/2026/march/9/3-decade-tobacco-nicotine-data_research",
+          "publisher": "convenience.org",
+          "as_of": "2026-03-09",
+          "age_days": 228,
+          "undated": false,
+          "drop_reason": "stale (228 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    }
+  ]
+}

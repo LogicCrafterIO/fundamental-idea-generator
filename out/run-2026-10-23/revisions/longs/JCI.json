@@ -1,0 +1,741 @@
+{
+  "ticker": "JCI",
+  "direction": "long",
+  "as_of": "2026-10-23",
+  "description": "Commercial building HVAC [heating, ventilation and air conditioning], controls, fire and security systems \u2014 equipment plus service contracts, after exiting residential HVAC.",
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 4,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.55899,
+      "eps_low": 1.14,
+      "eps_high": 1.65,
+      "revenue_avg": 6999234130
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 1.3,
+        "eps_actual": 1.42,
+        "surprise_pct": 9.01,
+        "beat": true
+      },
+      {
+        "date": "2026-05-06",
+        "eps_estimate": 1.12,
+        "eps_actual": 1.19,
+        "surprise_pct": 6.46,
+        "beat": true
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 0.84,
+        "eps_actual": 0.89,
+        "surprise_pct": 5.7,
+        "beat": true
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 1.2,
+        "eps_actual": 1.26,
+        "surprise_pct": 4.66,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-27 (Tuesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 1.56.",
+    "why": "Q4 must show $21.0B of backlog converting at Q3's margin rate, with orders still growing rather than rolling over."
+  },
+  "reasons": [
+    "Backlog of $21.0B, up 32% organically, equals 89% of FY25's $23.6B revenue \u2014 Q4's $7.0B consensus is conversion of work already won, not a bet on new demand.",
+    "July's read had nonresidential spending growth stalled; September raised the nonresidential outlook on data center starts, and Q3 orders grew 27% organically through it.",
+    "Q3 EBIT rose 28.3% year over year on 9.3% sales growth; Q4 consensus of 1.56 sits 24% above last year's 1.26 actual, so margin rate decides the print."
+  ],
+  "watch": [
+    "Organic sales: Q3 ran +10% against +9% reported. Q4 organic at or above 8% confirms; below 5% breaks.",
+    "Backlog: $21.0B, +32% organic. Q4 growth at or above +20% confirms; below +10% means the pipeline stall has reached orders.",
+    "EBIT: Q3 +28.3% year over year on +9.3% sales. Q4 EBIT growth at or above +20% confirms; below +10% breaks the margin case."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S29",
+        "kind": "ollama_search",
+        "ref": "web:9",
+        "label": "sec.gov: Document",
+        "provider": "sec.gov",
+        "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000083/q3ex991xq3fy26earningsrele.htm",
+        "date": "2026-07-29"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "JCI quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/jci/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "JCI earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/jci/earnings",
+        "date": "2026-10-27"
+      }
+    ],
+    [
+      {
+        "id": "S29",
+        "kind": "ollama_search",
+        "ref": "web:9",
+        "label": "sec.gov: Document",
+        "provider": "sec.gov",
+        "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000083/q3ex991xq3fy26earningsrele.htm",
+        "date": "2026-07-29"
+      },
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "qbe.com: In mid-2026, nonresidential construction spending growth has stalled and forward-looking indicators point to a weaker project pipeline.",
+        "provider": "qbe.com",
+        "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+        "date": "2026-07-01"
+      },
+      {
+        "id": "S32",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "news.constructconnect.com: Data center construction is forecast to surge in 2026, upgrading the nonresidential building outlook.",
+        "provider": "news.constructconnect.com",
+        "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+        "date": "2026-09-08"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "JCI quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/jci/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "JCI earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/jci/earnings",
+        "date": "2026-10-27"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for JCI",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JCI/key-statistics/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for JCI",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JCI/analysis/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "JCI quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/jci/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "JCI earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/jci/earnings",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: Notable ETF Outflow Detected - PKW, SCHW, WFC, JCI",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-pkw-schw-wfc-jci",
+      "date": "Aug 12, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "BNK Invest: Noteworthy ETF Inflows: GRID, JCI, NVT, HUBB",
+      "provider": null,
+      "url": "/articles/noteworthy-etf-inflows-grid-jci-nvt-hubb",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "BNK Invest: Noteworthy Tuesday Option Activity: JCI, HPE, FCX",
+      "provider": null,
+      "url": "/articles/noteworthy-tuesday-option-activity-jci-hpe-fcx",
+      "date": "Aug 4, 202"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "The Motley Fool: Is Johnson Controls Stock Still a Buy After an Insider Offloaded 23,400 Shares?",
+      "provider": null,
+      "url": "/articles/johnson-controls-stock-still-buy-after-insider-offloaded-23400-shares",
+      "date": "Aug 5, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Johnson Controls (JCI) Q3 2026 Earnings Call Transcript",
+      "provider": null,
+      "url": "/articles/johnson-controls-jci-q3-2026-earnings-call-transcript",
+      "date": "Aug 7, 202"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "BNK Invest: Daily Dividend Report: O,SUI,BHE,JCI,USB",
+      "provider": null,
+      "url": "/articles/daily-dividend-report-osuibhejciusb",
+      "date": "Sep 9, 202"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Can TT's Raised 2026 Outlook Hold as HVAC Backlog Reaches a Record?",
+      "provider": null,
+      "url": "/articles/can-tts-raised-2026-outlook-hold-hvac-backlog-reaches-record",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation?",
+      "provider": null,
+      "url": "/articles/tt-stock-worth-buying-growth-runs-premium-valuation",
+      "date": "Aug 24, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
+      "provider": null,
+      "url": "/articles/zackscom-featured-highlights-celestica-zurn-elkay-lam-be-semiconductor-and-johnson",
+      "date": "Aug 5, 202"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Rollins Gears Up to Report Q3 Earnings: What's in the Cards?",
+      "provider": null,
+      "url": "/articles/rollins-gears-report-q3-earnings-whats-cards",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: UFP Industries (UFPI) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+      "provider": null,
+      "url": "/articles/ufp-industries-ufpi-expected-beat-earnings-estimates-can-stock-move-higher",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: How to Boost Your Portfolio with Top Construction Stocks Set to Beat Earnings",
+      "provider": null,
+      "url": "/articles/how-boost-your-portfolio-top-construction-stocks-set-beat-earnings",
+      "date": "Oct 7, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Top Research Reports for AMD, Linde & Amgen",
+      "provider": null,
+      "url": "/articles/top-research-reports-amd-linde-amgen",
+      "date": "Sep 18, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Can Trane Technologies' $12.1B Backlog Fuel Further Growth?",
+      "provider": null,
+      "url": "/articles/can-trane-technologies-121b-backlog-fuel-further-growth",
+      "date": "Sep 25, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Fintel: Wells Fargo Initiates Coverage of Johnson Controls International at Overweight",
+      "provider": null,
+      "url": "/articles/wells-fargo-initiates-coverage-johnson-controls-international-overweight",
+      "date": "Sep 25, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "sec.gov: jci-20250930",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000097/jci-20250930.htm",
+      "date": "2025-09-30"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "sg.finance.yahoo.com: Johnson Controls International plc (JCI) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "sg.finance.yahoo.com",
+      "url": "https://sg.finance.yahoo.com/quote/JCI/analysis/",
+      "date": "2026-03-11"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "walnutinvest.com: Is JCI a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/jci/is-it-a-buy-or-sell",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "research.synthosresearch.com: Johnson Controls International plc (JCI) Stock Analysis \u2014 Fair Value & Verdict | Synthos Research",
+      "provider": "research.synthosresearch.com",
+      "url": "https://research.synthosresearch.com/JCI",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "mchanalysis.com: Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research",
+      "provider": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/jci-research-2026.html",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "equibles.com: JCI Stock: Analyst Estimates \u2014 Johnson Controls - Equibles",
+      "provider": "equibles.com",
+      "url": "https://equibles.com/stocks/jci/analyst-estimates",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Johnson Controls International (JCI) Stock Forecast & Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/jci/forecast/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "students.tippie.uiowa.edu: Johnson Controls Spring 2025",
+      "provider": "students.tippie.uiowa.edu",
+      "url": "https://students.tippie.uiowa.edu/sites/students.tippie.uiowa.edu/files/2026-04/s25_JCI.pdf",
+      "date": "2024-05-03"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "investors.johnsoncontrols.com: Johnson Controls International plc - Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance",
+      "provider": "investors.johnsoncontrols.com",
+      "url": "https://investors.johnsoncontrols.com/news/news-details/2026/Johnson-Controls-Reports-Strong-Q3-Results-Raises-FY26-Guidance/default.aspx",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "sec.gov: Document",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000083/q3ex991xq3fy26earningsrele.htm",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "ad-hoc-news.de: Johnson Controls stock heads into October 27 earnings after Q3 growth",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/johnson-controls-stock-heads-into-october-27-earnings-after-q3-growth/70242842",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "seekingalpha.com: Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4955883-johnson-controls-strong-backlog-margin-expansion-and-potential-for-upward-revision-in-estimates",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S32",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "news.constructconnect.com: Data center construction is forecast to surge in 2026, upgrading the nonresidential building outlook.",
+      "provider": "news.constructconnect.com",
+      "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "qbe.com: Commercial construction growth is increasingly concentrated in AI/data centers, raising exposure to a tech investment slowdown in 2026.",
+      "provider": "qbe.com",
+      "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "qbe.com: In mid-2026, nonresidential construction spending growth has stalled and forward-looking indicators point to a weaker project pipeline.",
+      "provider": "qbe.com",
+      "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "news.constructconnect.com: U.S. construction starts are forecast to rise 2.1% in 2026 after year-to-date June starts rose 6.5%.",
+      "provider": "news.constructconnect.com",
+      "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "abound.carrier.com: Smart-building demand is shifting to autonomous AI platforms in 2026, raising the innovation bar for building automation vendors.",
+      "provider": "abound.carrier.com",
+      "url": "https://abound.carrier.com/en/worldwide/media/Smart%20Building%20Solutions%202026%20-%20Frost%20Radar_tcm1101-302004.pdf",
+      "date": "2026-07-19"
+    },
+    {
+      "id": "S37",
+      "kind": "options",
+      "ref": "options",
+      "label": "JCI listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JCI/options/",
+      "date": "2026-10-23"
+    }
+  ],
+  "quants": {
+    "price": 143.0,
+    "market_cap": "86.62B",
+    "fwd_pe": 28.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 3.5,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all up, with 5 up and 0 down over last 30 days",
+    "extra": [
+      "Interest Expense -3% quarter over quarter but +6% year over year (2026-06-30)",
+      "Last quarter earnings before interest and tax increasing 23% quarter over quarter (6/30/2026)",
+      "Last quarter net income increasing 22% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 1.05 -> 1.42"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 7.7,
+        "yoy_pct": 9.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 22.2,
+        "yoy_pct": 6.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 22.2,
+        "yoy_pct": 28.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 17.6,
+        "yoy_pct": 19.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 23.9,
+        "yoy_pct": 28.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 9.4,
+        "yoy_pct": 10.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": -3.3,
+        "yoy_pct": 5.5,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": 200.0,
+        "yoy_pct": 0.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 2.8,
+        "period": "2025-09-30"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 93.0,
+        "period": "2025-09-30"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 93.0,
+        "period": "2025-09-30"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": 42.8,
+        "period": "2025-09-30"
+      },
+      {
+        "label": "Interest Expense",
+        "change_pct": -40.4,
+        "period": "2025-09-30"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 17.1,
+        "period": "2025-09-30"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 4,
+    "bar": {
+      "date": "2026-10-27",
+      "eps_avg": 1.55899,
+      "eps_low": 1.14,
+      "eps_high": 1.65,
+      "revenue_avg": 6999234130
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Mar-27",
+        "strike": 150.0,
+        "qty": 4,
+        "underlying": 143.0,
+        "multiplier": 100,
+        "price": 10.45,
+        "total": 4180.0,
+        "open_interest": 114
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 150.0,
+        "qty": 2,
+        "underlying": 143.0,
+        "multiplier": 100,
+        "price": 3.65,
+        "total": -730.0,
+        "open_interest": 414
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-26 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
+    "reflection": "Two short November 150s against four long March 150s fund only 14.2% of the $3,450 debit, so this is a directional bet that the print clears 150, not a carry trade. The short leg dies four weeks after the catalyst \u2014 the stock has to move on the report, not drift into it."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 23,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 11,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "backlog",
+          "center",
+          "nonresidential",
+          "order",
+          "orders",
+          "outlook",
+          "stalled",
+          "starts"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "backlog",
+          "center",
+          "construction",
+          "convert",
+          "decline",
+          "forecast",
+          "input",
+          "material",
+          "months",
+          "nonresidential",
+          "orders",
+          "project",
+          "september",
+          "stabilizing",
+          "within"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "backlog",
+          "backlogs",
+          "expects",
+          "orders",
+          "record",
+          "share",
+          "through",
+          "triple",
+          "within"
+        ]
+      }
+    ]
+  }
+}

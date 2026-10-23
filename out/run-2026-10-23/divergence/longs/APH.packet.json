@@ -1,0 +1,2046 @@
+{
+  "symbol": "APH",
+  "as_of": "2026-10-23",
+  "generated_at": "2026-10-23T10:08:26",
+  "profile": {
+    "symbol": "APH",
+    "name": "Amphenol Corporation",
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "summary": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Communications Solutions, Harsh Environment Solutions, and Interconnect and Sensor Systems. The company offers connectors and connector systems, including high speed, radio frequency, power, fiber optic and other interconnect products; busbars and power distribution systems; power interconnect products; and other products. It also provides value-add products, such as backplane interconnect systems, cable assemblies and harnesses, and cable management products; and other products comprising flexible and rigid printed circuit boards, hinges, other mechanical, and production related products. In addition, the company offers consumer device, network infrastructure, and other antennas; coaxial, power, and specialty cables; and sensors and sensor-based products. It sells its products through its sales force, independent representatives, and a network of electronics distributors to original equipment manufacturers, electronic manufacturing services companies, original design manufacturers, and service providers in the automotive, commercial aerospace, communications networks, defense, industrial, information technology and data communications, mobile devices markets. Additionally, the company provides telecommunication and IT networking solutions. The company was founded in 1932 and is headquartered in Wallingford, Connecticut.",
+    "employees": 170000,
+    "country": "United States",
+    "website": "https://www.amphenol.com"
+  },
+  "quants": {
+    "symbol": "APH",
+    "name": "Amphenol Corporation",
+    "price": 73.07,
+    "market_cap": 180188200960,
+    "market_cap_human": "180.19B",
+    "fwd_pe": 27.17,
+    "fwd_pe_1y": 21.91,
+    "fwd_pe_yahoo": 21.91379,
+    "trailing_pe": 39.497295,
+    "ps": 6.210902,
+    "ev_ebitda": 20.469,
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "eps_fy_current": 2.68931,
+    "eps_fy_next": 3.33443,
+    "eps_trend": {
+      "change_7d_pct": 0.1,
+      "change_30d_pct": 0.79,
+      "current": 2.68931,
+      "7d_ago": 2.68662,
+      "30d_ago": 2.66836,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 4,
+      "down_7d": 0,
+      "up_30d": 7,
+      "down_30d": 1,
+      "net_30d": 6,
+      "text": "tilted higher, with 7 up and 1 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-28"
+      ],
+      "next_date": "2026-10-28",
+      "eps_avg": 0.73089,
+      "eps_low": 0.705,
+      "eps_high": 0.78,
+      "revenue_avg": 9493890760
+    },
+    "as_of": "2026-10-23"
+  },
+  "quants_lines": [
+    "Price: 73.07 USD",
+    "Market Cap: 180.19B",
+    "Fwd PE: 27.17",
+    "P/S: 6.2",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted higher, with 7 up and 1 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1769200.0,
+      "prior": 933000.0,
+      "change_pct": 89.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2602000.0,
+      "prior": 1853600.0,
+      "change_pct": 40.4,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 6790100.0,
+      "prior": 5872900.0,
+      "change_pct": 15.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 8758100.0,
+      "prior": 7620100.0,
+      "change_pct": 14.9,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Equity",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 15491600.0,
+      "prior": 13976800.0,
+      "change_pct": 10.8,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 939900.0,
+      "prior": 851500.0,
+      "change_pct": 10.4,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-29T08:00:00-04:00",
+    "current": 0.68,
+    "year_ago": 0.41,
+    "year_ago_period": "2025-07-23T08:00:00-04:00",
+    "change": 0.27,
+    "direction": "increased"
+  },
+  "yoy_deltas": [],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 23094700000.0,
+      "prior": 15222700000.0,
+      "change_pct": 51.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 4270300000.0,
+      "prior": 2424000000.0,
+      "change_pct": 76.2,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 5968500000.0,
+      "prior": 3228900000.0,
+      "change_pct": 84.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 5972000000.0,
+      "prior": 3284300000.0,
+      "change_pct": 81.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBITDA",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 6890900000.0,
+      "prior": 3801400000.0,
+      "change_pct": 81.3,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 4270300000.0,
+      "prior": 2424000000.0,
+      "change_pct": 76.2,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [
+    {
+      "label": "Goodwill",
+      "basis": "fiscal year",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 10575400000.0,
+      "prior": 8236200000.0,
+      "change_pct": 28.4,
+      "confirmed": true,
+      "also": [
+        {
+          "label": "Other Intangible Assets",
+          "basis": "fiscal year",
+          "period": "2025-12-31",
+          "prior_period": "2024-12-31",
+          "current": 2241400000.0,
+          "prior": 1225100000.0,
+          "change_pct": 83.0,
+          "confirmed": false
+        }
+      ]
+    },
+    {
+      "label": "Goodwill",
+      "basis": "quarter",
+      "period": "2026-03-31",
+      "prior_period": "2025-12-31",
+      "current": 17542900000.0,
+      "prior": 10575400000.0,
+      "change_pct": 65.9,
+      "confirmed": true,
+      "also": [
+        {
+          "label": "Other Intangible Assets",
+          "basis": "quarter",
+          "period": "2026-03-31",
+          "prior_period": "2025-12-31",
+          "current": 5401100000.0,
+          "prior": 2241400000.0,
+          "change_pct": 141.0,
+          "confirmed": false
+        }
+      ]
+    }
+  ],
+  "consensus_bar": {
+    "date": "2026-10-28",
+    "eps_avg": 0.73089,
+    "eps_low": 0.705,
+    "eps_high": 0.78,
+    "revenue_avg": 9493890760
+  },
+  "news": [
+    {
+      "title": "Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/symbol/APH/earnings/revisions",
+      "summary": "Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha\n\naph Summary\n\nEarnings Revisions\n\nFollow 27.58K followers\n\nAmphenol Corporation\n\n$73.07-6.13 (-7.74%) 4:00 PM 10/22/26\n\nNYSE | $USD | Post-Market: $73.05 -0.02 (-0.03%) 7:59 PM\n\naph Summary\n\nSummary Ratings Financials Earnings Dividends Valuation Growth Profitability Momentum Peers Options Charting\n\n## Annual Estimates Revisions\n\nUpcoming Fiscal Year End - Revisions for Last 3 Months\n\nEPS # of Up Revisions 15\n\nEPS # of Down Revisions 0\n\nRevenue # of Up Revisions 15\n\nRevenue # of Down Revisions 0\n\nEPS # of Up Revisions\n\n15\n\nEPS # of ",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "mna",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "APH Stock Analysis & Analyst Ratings | VCP Scanner",
+      "publisher": "vcpscanner.com",
+      "url": "https://vcpscanner.com/stock/aph/analysis",
+      "summary": "APH Stock Analysis & Analyst Ratings | VCP Scanner\n\n# Amphenol Corporation (APH) Research Brief\n\nWall Street consensus, price target range, and equity research thesis\n\nBuy 30 Analyst Coverage\n\nConsensus Target\n\n$145+65.7% Upside\n\nCurrent: $87.24\n\nAnalyst Range\n\nLow $99 High $215\n\n12-Month High/Low Spread\n\nRatings Mix\n\n16 Buy\u00b7 13 Hold\u00b7 1 Sell\n\nEarnings & Valuation\n\nEPS Beat 15.3%\n\nForward P/E: 32.7x\n\n### Executive Summary & Research Take\n\nWall Street currently rates APH buy with a 12-month price target of $145 (+65.7% upside). The sections below cover the bull case, key risks, and latest earnin",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "valuation_dispersion",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Earnings Estimates Rising for Amphenol (APH): Will It Gain?",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/earnings-estimates-rising-amphenol-aph-172002569.html",
+      "summary": "Earnings Estimates Rising for Amphenol (APH): Will It Gain?\n\n# Earnings Estimates Rising for Amphenol (APH): Will It Gain?\n\n Zacks Equity Research January 30, 2026 2 min read\n\nInvestors might want to bet on Amphenol (APH), as earnings estimates for this company have been showing solid improvement lately. The stock has already gained solid short-term price momentum, and this trend might continue with its still improving earnings outlook.\n\nAnalysts' growing optimism on the earnings prospects of this maker of fiber-optic products is driving estimates higher, which should get reflected in its stoc",
+      "published": "2026-01-30",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight",
+      "publisher": "app.marginofinsight.com",
+      "url": "https://app.marginofinsight.com/stocks/aph",
+      "summary": "Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight\n\n# Amphenol Corporation\n\nNYSE Free primer \u00b7 Steps 1\u20133 of 21 Updated May 12, 2026 Coverage as of 2026-Q2\n\nMoat Wide\n\nOp Margin 25.4% FY2025\n\nNet Debt $16.2B\n\nLatest Q Revenue $7.6B Q1 2026\n\nTop Holder Vanguard Group 9.7%\n\nBull Case\n\nHyperscaler AI infrastructure investment is a multi-decade capex cycle, sustaining IT Datacom at 35-45% of revenue with 20-30% organic growth and strong earnings expansion.\n\nBear Case\n\nAI monetization disappointment triggers a hyperscaler CapEx pause, causing IT Datacom to contract sharply and organic ",
+      "published": "2026-05-12",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "ai_monetisation",
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "Amphenol (APH) | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/data/companies/APH?from=APH_guidance_momentum_2026-06-18",
+      "summary": "Amphenol (APH) | Trefis\n\n# Amphenol (APH)\n\n#### Market Price (8/23/2026): $157.66 | Market Cap: $194.0 Bil Investor Relations \u2197 Sector: Information Technology | Industry: Electronic Components\n\n# Amphenol (APH)\n\n#### Market Price (8/23/2026): $157.66 Market Cap: $194.0 Bil Sector: Information Technology Industry: Electronic Components\n\n# Investment Highlights Why It Matters Detailed financial logic regarding cash flow yields vs trend-riding momentum. \n\n Strong revenue growth Rev Chg LTM Revenue Change % Last Twelve Months (LTM) is 54%\n\n Attractive operating margins Op Mgn LTM Operating Margin ",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4944334-amphenol-priced-at-a-premium-for-a-reason",
+      "summary": "Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha\n\n# Amphenol: Priced At A Premium For A Reason\n\nSep 09, 2026, 10:02 AM ET Amphenol Corporation (APH) Stock 4 Comments 2 Likes\n\nAnthony Sarkis\n\n## Summary\n\n- Amphenol is rated a BUY, driven by exceptional 55% revenue growth and expanding margins, with Q2 2026 revenue reaching $8.76 billion.\n- APH's premium valuation is justified by superior organic growth, durable operational leverage, and consistent earnings outperformance compared to peers.\n- Order book strength ($10.7 billion) and multi-year AI infrastructure demand u",
+      "published": "2026-09-09",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "depreciation_debt",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "APH.AT | Amphenol Corp. Cl A Analyst Estimates & Ratings \u2013 WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/AT/XWBO/APH/research-ratings",
+      "summary": "APH.AT | Amphenol Corp. Cl A Analyst Estimates & Ratings \u2013 WSJ\n\n# Amphenol Corp. Cl A APH (Austria: Vienna) \n\n- ##### 5:32 PM CEDT 10/14/26 \n- \u20ac 75.48 EUR \n- 0.63 0.84% \n- ##### Volume 0 \n\n- Volume 0 \n- 65 Day Avg Vol 316 \n- 1 Day Range 75.48 - 76.79 \n- 52 Week Range 51.25 - 78.26 (05/19/26 - 10/12/26) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 8 Oct 9 Oct 12 Oct 13 Oct 14 \u20ac74\u20ac76\u20ac78\u20ac80\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Industrial Goods\n\n- Open 76.64\n- Prior Close 74.85 (10/12/26)\n\n- 1 Day\n- APH 0.84% \n- DJIA -0.09% \n- S&P 500 -1.11% \n- Industrial ",
+      "published": "2026-10-08",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954287-amphenol-stock-what-q3-must-show-to-justify-its-premium",
+      "summary": "Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha\n\n# Amphenol: What Q3 Must Show To Justify Its Premium\n\nOct 14, 2026, 11:38 PM ET Amphenol Corporation (APH) Stock 4 Comments\n\nArizona Equity Research\n\n## Summary\n\n- Amphenol delivered strong Q2 FY2026 growth, driven by AI-related demand and successful CCS acquisition integration.\n- IT Datacom, now 43% of sales, grew 63% organically YoY, with AI products as the primary driver.\n- CCS acquisition outperformed expectations, but increased debt and integration execution remain key risks.\n- At 40x trailing adjusted EPS, APH",
+      "published": "2026-10-14",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_monetisation",
+        "depreciation_debt",
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "Amphenol (APH) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/aph/forecast/",
+      "summary": "Amphenol (APH) Stock Forecast & Analyst Price Targets\n\n72.38 -6.83 (-8.62%) Oct 22, 2026, 3:19 PM EDT - Market open\n\n# Amphenol Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 19 analysts polled by S&P Global, Amphenol stock has a consensus rating of \"Strong Buy\" and an average price target of $102.97. The average 1-year stock price forecast is 42.27% higher than the current stock price, while the lowest is $85 (+17.44%) and the highest is $116 (+60.28%).\n\nPrice Target: $102.97 (+42.27%)\n\nAnalyst Consensus: Strong Buy\n\n## Price Target\n\n| Target | Low | Average | Median | High |\n| --- | -",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "VONE, NVDA, TMO, APH: ETF Inflow Alert",
+      "publisher": "BNK Invest",
+      "created": "Oct 12, 2026",
+      "ago": "Oct 12, 2026",
+      "url": "/articles/vone-nvda-tmo-aph-etf-inflow-alert",
+      "primary_symbol": "VONE",
+      "related_symbols": [
+        "VONE",
+        "NVDA",
+        "TMO",
+        "APH"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Vanguard Russell 1000 (Symbol: VONE) where we have detected an approximate $353.4 million dollar inflow -- that's a 4.0% increase week over week in o",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Why Amphenol (APH) is a Top Momentum Stock for the Long-Term",
+      "publisher": "Zacks",
+      "created": "Oct 16, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/why-amphenol-aph-top-momentum-stock-long-term",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH"
+      ],
+      "summary": "Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Is Amphenol (APH) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/amphenol-aph-solid-growth-stock-3-reasons-think-yes",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH"
+      ],
+      "summary": "Amphenol (APH) is well positioned to outperform the market, as it exhibits above-average growth in financials.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "IWY, TXN, MRVL, APH: Large Outflows Detected at ETF",
+      "publisher": "BNK Invest",
+      "created": "Oct 22, 2026",
+      "ago": "11 hours ago",
+      "url": "/articles/iwy-txn-mrvl-aph-large-outflows-detected-etf",
+      "primary_symbol": "IWY",
+      "related_symbols": [
+        "IWY",
+        "TXN",
+        "MRVL",
+        "APH"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares Russell Top 200 Growth ETF (Symbol: IWY) where we have detected an approximate $421.4 million dollar outflow -- that's a 2.6% decrease week",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Here's Why Amphenol (APH) is a Strong Growth Stock",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "13 hours ago",
+      "url": "/articles/heres-why-amphenol-aph-strong-growth-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH"
+      ],
+      "summary": "Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Why Amphenol Stock Topped the Market on Tuesday",
+      "publisher": "The Motley Fool",
+      "created": "Oct 6, 2026",
+      "ago": "Oct 6, 2026",
+      "url": "/articles/why-amphenol-stock-topped-market-tuesday",
+      "primary_symbol": "APH",
+      "related_symbols": [
+        "APH",
+        "GS"
+      ],
+      "summary": "Key PointsOne was from an always-influential investment bank.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Amphenol Gains 12% in Three Months: Buy, Sell, or Hold the Stock?",
+      "publisher": "Zacks",
+      "created": "Oct 12, 2026",
+      "ago": "Oct 12, 2026",
+      "url": "/articles/amphenol-gains-12-three-months-buy-sell-or-hold-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH",
+        "TEL",
+        "BELFB",
+        "VRT"
+      ],
+      "summary": "APH stock rallies 11.8% in the past three months as AI demand and acquisitions fuel growth, but premium valuation and market uncertainties raise concerns.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "Vertiv vs. Amphenol: Which AI Infrastructure Stock Has an Edge Now?",
+      "publisher": "Zacks",
+      "created": "Oct 14, 2026",
+      "ago": "Oct 14, 2026",
+      "url": "/articles/vertiv-vs-amphenol-which-ai-infrastructure-stock-has-edge-now",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH",
+        "VRT"
+      ],
+      "summary": "VRT benefits from surging AI infrastructure demand, but APH's stronger stock performance and diversified portfolio give it an edge.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises",
+      "publisher": "Zacks",
+      "created": "Oct 14, 2026",
+      "ago": "Oct 14, 2026",
+      "url": "/articles/how-find-strong-computer-and-technology-stocks-slated-positive-earnings-surprises-3",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH",
+        "TWLO"
+      ],
+      "summary": "Finding stocks expected to beat quarterly earnings estimates becomes an easier task with our Zacks Earnings ESP.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_capex",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Here's How Much a $1000 Investment in Amphenol Made 10 Years Ago Would Be Worth Today",
+      "publisher": "Zacks",
+      "created": "Oct 15, 2026",
+      "ago": "Oct 15, 2026",
+      "url": "/articles/heres-how-much-1000-investment-amphenol-made-10-years-ago-would-be-worth-today-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH"
+      ],
+      "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Is Credo Technology Group (CRDO) Outperforming Other Computer and Technology Stocks This Year?",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/credo-technology-group-crdo-outperforming-other-computer-and-technology-stocks-year",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CRDO",
+        "APH"
+      ],
+      "summary": "Here is how Credo Technology Group Holding Ltd. (CRDO) and Amphenol (APH) have performed compared to their sector so far this year.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Corning Surges 93% Year to Date: How to Play the Stock",
+      "publisher": "Zacks",
+      "created": "Oct 7, 2026",
+      "ago": "Oct 7, 2026",
+      "url": "/articles/corning-surges-93-year-date-how-play-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GLW",
+        "CIEN",
+        "APH"
+      ],
+      "summary": "GLW's AI-driven optical growth, major data-center deals and surging solar sales are reshaping its outlook despite valuation and profit risks.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "nVent Electric Stock Rises 61% YTD: Time to Hold or Book Profits?",
+      "publisher": "Zacks",
+      "created": "Oct 9, 2026",
+      "ago": "Oct 9, 2026",
+      "url": "/articles/nvent-electric-stock-rises-61-ytd-time-hold-or-book-profits",
+      "primary_symbol": null,
+      "related_symbols": [
+        "NVT",
+        "APH",
+        "SMCI",
+        "HUBB"
+      ],
+      "summary": "NVT surges 60.9% YTD on strong AI data-center demand, but rising tariff costs, premium valuation and intensifying competition raise concerns.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion",
+        "regulation"
+      ]
+    },
+    {
+      "title": "Amphenol (APH) Reports Next Week: Wall Street Expects Earnings Growth",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/amphenol-aph-reports-next-week-wall-street-expects-earnings-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APH"
+      ],
+      "summary": "Amphenol (APH) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results",
+      "publisher": "investor.amphenol.com",
+      "url": "https://investor.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Second-Quarter-2026-Results/default.aspx",
+      "summary": "Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results \n\n### Amphenol Reports Record Second Quarter 2026 Results \n\n Jul 29, 2026 \n\n Second Quarter 2026 Highlights: \n\n- Sales of $8.8 billion, up 55% in U.S. dollars and 30% organically compared to the second quarter of 2025 \n- Orders of $10.7 billion, resulting in a book-to-bill of 1.23:1 \n- GAAP Diluted EPS of $1.37, up 59% compared to prior year \n- Adjusted Diluted EPS of $1.35, up 67% compared to prior year \n- GAAP and Adjusted Operating Margin of 29.5% and 29.8%, respectively \n- GAAP and Adjusted Operating Income include ",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/earnings/amphenol-beats-q2-estimates-raises-q3-outlook-on-aidriven-demand-4820127",
+      "summary": "Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand By Investing.com\n\n# Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand\n\nAuthor Jaiveer Shekhawat\n\nPublished Jul 29, 2026, 08:39 AM\n\nInvesting.com -- Amphenol topped Wall Street expectations for the second quarter and issued stronger-than-expected third-quarter guidance on Wednesday, as robust AI-driven demand for IT datacom products and contributions from acquisitions lifted results. Shares rose about 7% in premarket trading.\n\nThe connector manufacturer reported adjusted earnings per share of $1.35, beating anal",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "When Amphenol\u2019s CEO And The Chart Say The Same Thing, Pay Attention | Trefis",
+      "publisher": "trefis.com",
+      "url": "https://www.trefis.com/stock/aph/articles/617967/when-amphenols-ceo-and-the-chart-say-the-same-thing-pay-attention/2026-10-08",
+      "summary": "When Amphenol\u2019s CEO And The Chart Say The Same Thing, Pay Attention | Trefis\n\n# When Amphenol\u2019s CEO And The Chart Say The Same Thing, Pay Attention\n\nOctober 8th, 2026 \u00b7 by Trefis Team\n\nAPH YTD+17.8% SPY YTD+14.0% QQQ YTD+18.3%\n\nAmphenol (APH) shares have climbed 21.9% since the market close prior to a July 29, 2026, guidance update, easily outpacing the 5.0% gain in the S&P 500 over the same period. Corporate forecasts are currently aligning with a bullish stock chart, offering a combination that appears less frequently than either signal on its own. So what exactly is in Amphenol\u2019s new guidan",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Goldman Sachs raises target to USD 116 for Amphenol stock",
+      "publisher": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/goldman-sachs-raises-target-to-usd-116-for-amphenol-stock/70371081",
+      "summary": "Goldman Sachs raises target to USD 116 for Amphenol stock\n\n# Goldman Sachs raises target to USD 116 for Amphenol stock\n\n Published on 10/20/2026 at 10:50 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nGoldman Sachs lifted its target from USD 102.00 to USD 116.00 on October 6, 2026. Amphenol stock trades at EUR 71.10 on October 20, 2026.\n\n## Target reset and earnings date\n\n- Goldman Sachs lifted its Amphenol target from USD 102.00 to USD 116.00 on October 6, 2026.\n- Second-quarter revenue reached USD 8.76 billion, up 55.00 percent year over year.\n- Amphenol stock trade",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says - Tiger Brokers",
+      "publisher": "itiger.com",
+      "url": "https://www.itiger.com/news/2675363983",
+      "summary": "Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says - Tiger Brokers\n\n# Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says\n\nMT Newswires Live Oct 13\n\n Amphenol (APH) is expected to post strong Q3 earnings on artificial intelligence demand and healthy end markets, BofA Securities said in a note Tuesday.\n\nThe company is scheduled to report the results on Oct. 28.\n\nAmphenol is well positioned to benefit from continued AI infrastructure investments across both GPU-based and custom-accelerator systems, the analysts said, adding that they believe concerns about copp",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "Amphenol Corporation (APH) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "ai_capex"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 9,
+        "share": 0.231,
+        "evidence": [
+          {
+            "title": "Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "APH Stock Analysis & Analyst Ratings | VCP Scanner",
+            "publisher": "vcpscanner.com",
+            "published": null,
+            "matched": [
+              "valuation",
+              "p/e"
+            ]
+          },
+          {
+            "title": "Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-09",
+            "matched": [
+              "valuation",
+              "premium"
+            ]
+          },
+          {
+            "title": "Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-14",
+            "matched": [
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 9,
+        "share": 0.231,
+        "evidence": [
+          {
+            "title": "Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "revis",
+              "estimate"
+            ]
+          },
+          {
+            "title": "APH Stock Analysis & Analyst Ratings | VCP Scanner",
+            "publisher": "vcpscanner.com",
+            "published": null,
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "Earnings Estimates Rising for Amphenol (APH): Will It Gain?",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-01-30",
+            "matched": [
+              "outlook",
+              "estimate"
+            ]
+          },
+          {
+            "title": "APH.AT | Amphenol Corp. Cl A Analyst Estimates & Ratings \u2013 WSJ",
+            "publisher": "wsj.com",
+            "published": "2026-10-08",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 6,
+        "share": 0.154,
+        "evidence": [
+          {
+            "title": "Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight",
+            "publisher": "app.marginofinsight.com",
+            "published": "2026-05-12",
+            "matched": [
+              "capex",
+              "hyperscaler",
+              "ai infrastructure"
+            ]
+          },
+          {
+            "title": "Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-09",
+            "matched": [
+              "ai infrastructure"
+            ]
+          },
+          {
+            "title": "Vertiv vs. Amphenol: Which AI Infrastructure Stock Has an Edge Now?",
+            "publisher": "Zacks",
+            "published": "Oct 14, 2026",
+            "matched": [
+              "ai infrastructure"
+            ]
+          },
+          {
+            "title": "How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises",
+            "publisher": "Zacks",
+            "published": "Oct 14, 2026",
+            "matched": [
+              "compute"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 4,
+        "share": 0.103,
+        "evidence": [
+          {
+            "title": "Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-14",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "Amphenol Gains 12% in Three Months: Buy, Sell, or Hold the Stock?",
+            "publisher": "Zacks",
+            "published": "Oct 12, 2026",
+            "matched": [
+              "acquisition"
+            ]
+          },
+          {
+            "title": "Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-07-29",
+            "matched": [
+              "acquisition"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 3,
+        "share": 0.077,
+        "evidence": [
+          {
+            "title": "Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": null,
+            "matched": [
+              "options"
+            ]
+          },
+          {
+            "title": "APH Stock Analysis & Analyst Ratings | VCP Scanner",
+            "publisher": "vcpscanner.com",
+            "published": null,
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Amphenol (APH) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 3,
+        "share": 0.077,
+        "evidence": [
+          {
+            "title": "Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight",
+            "publisher": "app.marginofinsight.com",
+            "published": "2026-05-12",
+            "matched": [
+              "debt"
+            ]
+          },
+          {
+            "title": "Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-09-09",
+            "matched": [
+              "leverage"
+            ]
+          },
+          {
+            "title": "Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-14",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 2,
+        "share": 0.051,
+        "evidence": [
+          {
+            "title": "APH Stock Analysis & Analyst Ratings | VCP Scanner",
+            "publisher": "vcpscanner.com",
+            "published": null,
+            "matched": [
+              "spread"
+            ]
+          },
+          {
+            "title": "Amphenol (APH) | Trefis",
+            "publisher": "trefis.com",
+            "published": "2026-07-29",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 2,
+        "share": 0.051,
+        "evidence": [
+          {
+            "title": "Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight",
+            "publisher": "app.marginofinsight.com",
+            "published": "2026-05-12",
+            "matched": [
+              "monetiz"
+            ]
+          },
+          {
+            "title": "Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-14",
+            "matched": [
+              "ai product"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.026,
+        "evidence": [
+          {
+            "title": "nVent Electric Stock Rises 61% YTD: Time to Hold or Book Profits?",
+            "publisher": "Zacks",
+            "published": "Oct 9, 2026",
+            "matched": [
+              "tariff"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "valuation_dispersion"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    },
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-10-28"
+    ],
+    "next_date": "2026-10-28",
+    "eps_avg": 0.73089,
+    "eps_low": 0.705,
+    "eps_high": 0.78,
+    "revenue_avg": 9493890760
+  },
+  "catalyst": {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "days_out": 5,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 0.73089,
+      "eps_low": 0.705,
+      "eps_high": 0.78,
+      "revenue_avg": 9493890760
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 0.6,
+        "eps_actual": 0.68,
+        "surprise_pct": 13.19,
+        "beat": true
+      },
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.53,
+        "surprise_pct": 11.96,
+        "beat": true
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.49,
+        "surprise_pct": 3.07,
+        "beat": true
+      },
+      {
+        "date": "2025-10-22",
+        "eps_estimate": 0.4,
+        "eps_actual": 0.47,
+        "surprise_pct": 16.49,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-28 (Wednesday, before the open), 5 days out -- from the earnings calendar, consensus EPS 0.73."
+  },
+  "forward_trends": {
+    "queries": [
+      "Amphenol APH 2026 2027 AI data center interconnect demand copper optical substitution",
+      "2026 2027 automotive connector demand outlook EV production cuts OEM spending",
+      "2026 2027 aerospace defense electronics procurement budget connector demand",
+      "2026 2027 industrial automation capex outlook sensors connectors inventory"
+    ],
+    "results_count": 20,
+    "results_dated": 14,
+    "trends": [
+      {
+        "claim": "As of September 2026, AI is increasing interconnect content across high-speed copper, optics and power.",
+        "stance": "support",
+        "why": "Denser accelerator systems raise connector content per rack, supporting IT Datacom growth.",
+        "quote": "AI is increasing interconnect content across high-speed copper, optics and power as accelerator systems grow denser",
+        "url": "https://convergedigest.com/amphenol-ai-copper-optics-power-interconnect/",
+        "publisher": "convergedigest.com",
+        "as_of": "2026-09-09",
+        "age_days": 44,
+        "undated": false
+      },
+      {
+        "claim": "In Q2 2026, Amphenol reported record orders of $10.7 billion and a 1.23 book-to-bill.",
+        "stance": "support",
+        "why": "A book-to-bill above 1 supports revenue growth in coming quarters.",
+        "quote": "Record Orders -- $10.7 billion, representing 94% growth from the prior year and a book-to-bill ratio of 1.23 to 1.",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/amphenol-aph-q2-2026-earnings-call-transcript/",
+        "publisher": "fool.com",
+        "as_of": "2026-08-07",
+        "age_days": 77,
+        "undated": false
+      },
+      {
+        "claim": "As of June 2026, hybrid copper/optics AI architectures were expected to persist through at least the next two rack generations.",
+        "stance": "support",
+        "why": "This limits near-term risk to Amphenol's copper connector content through CY28/29.",
+        "quote": "hybrid copper/optics architectures persisting through at least next two AI rack generations, implying limited risk to copper content through CY28/29",
+        "url": "https://www.ttieurope.com/content/ttieurope/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+        "publisher": "ttieurope.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "As of April 2026, IP&E bookings were still accelerating month-over-month.",
+        "stance": "support",
+        "why": "Accelerating bookings extend backlog and support Amphenol revenue into 2026.",
+        "quote": "Bookings still accelerating M/M.",
+        "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260407.html",
+        "publisher": "tti.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "As of February 2026, connector industry demand was projected to roughly double in calendar 2026 and possibly double again in 2027.",
+        "stance": "support",
+        "why": "Rising AI connector demand supports Amphenol's order and revenue growth into 2027.",
+        "quote": "AI demand forecast still rising; connector industry demand projected ~2x in CY26, with some projecting doubling again in CY27.",
+        "url": "https://www.ttieurope.com/content/ttieurope/en/resources/marketeye/categories/supply-chain/me-reed-20260213.html",
+        "publisher": "ttieurope.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "APH",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 73.07,
+      "catalyst": "2027-01-27",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 75.0,
+        "premium": 8.6,
+        "bid": 7.5,
+        "ask": 9.7,
+        "mid": 8.6,
+        "last": 7.8,
+        "open_interest": 261.0,
+        "volume": 29.0,
+        "implied_vol": 0.5090991473388673,
+        "qty": 5
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 75.0,
+        "premium": 3.5,
+        "bid": 3.3,
+        "ask": 3.7,
+        "mid": 3.5,
+        "last": 3.2,
+        "open_interest": 477.0,
+        "volume": 72.0,
+        "implied_vol": 0.5288133056640626,
+        "qty": 2
+      },
+      "long_total": 4300.0,
+      "short_total": 700.0,
+      "net_debit": 3600.0,
+      "credit_ratio_mid": 0.1628,
+      "credit_ratio_conservative": 0.1361,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 75.0,
+          "qty": 5,
+          "underlying": 73.07,
+          "multiplier": 100,
+          "price": 8.6,
+          "total": 4300.0,
+          "open_interest": 261.0
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 75.0,
+          "qty": 2,
+          "underlying": 73.07,
+          "multiplier": 100,
+          "price": 3.5,
+          "total": -700.0,
+          "open_interest": 477.0
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-27 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 75, 77.5, 80, 82.5"
+      ],
+      "advice": "Credit ratio 13.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0814,
+          "credit_ratio_conservative": 0.068,
+          "passes_floor": false,
+          "cash_collected": 350.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1628,
+          "credit_ratio_conservative": 0.1361,
+          "passes_floor": true,
+          "cash_collected": 700.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.2442,
+          "credit_ratio_conservative": 0.2041,
+          "passes_floor": true,
+          "cash_collected": 1050.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.3256,
+          "credit_ratio_conservative": 0.2722,
+          "passes_floor": true,
+          "cash_collected": 1400.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.407,
+          "credit_ratio_conservative": 0.3402,
+          "passes_floor": true,
+          "cash_collected": 1750.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "APH",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 73.07,
+      "catalyst": "2027-01-27",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 70.0,
+        "premium": 6.6,
+        "bid": 6.3,
+        "ask": 6.9,
+        "mid": 6.6,
+        "last": 6.54,
+        "open_interest": 975.0,
+        "volume": 6.0,
+        "implied_vol": 0.46106495971679695,
+        "qty": 6
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 70.0,
+        "premium": 2.9,
+        "bid": 2.6,
+        "ask": 3.2,
+        "mid": 2.9,
+        "last": 2.74,
+        "open_interest": 2781.0,
+        "volume": 785.0,
+        "implied_vol": 0.5302781347656251,
+        "qty": 2
+      },
+      "long_total": 3960.0,
+      "short_total": 580.0,
+      "net_debit": 3380.0,
+      "credit_ratio_mid": 0.1465,
+      "credit_ratio_conservative": 0.1256,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 70.0,
+          "qty": 6,
+          "underlying": 73.07,
+          "multiplier": 100,
+          "price": 6.6,
+          "total": 3959.9999999999995,
+          "open_interest": 975.0
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 70.0,
+          "qty": 2,
+          "underlying": 73.07,
+          "multiplier": 100,
+          "price": 2.9,
+          "total": -580.0,
+          "open_interest": 2781.0
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-27 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 70, 72.5, 67.5, 65"
+      ],
+      "advice": "Credit ratio 12.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0732,
+          "credit_ratio_conservative": 0.0628,
+          "passes_floor": false,
+          "cash_collected": 290.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1465,
+          "credit_ratio_conservative": 0.1256,
+          "passes_floor": true,
+          "cash_collected": 580.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.2197,
+          "credit_ratio_conservative": 0.1884,
+          "passes_floor": true,
+          "cash_collected": 870.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.2929,
+          "credit_ratio_conservative": 0.2512,
+          "passes_floor": true,
+          "cash_collected": 1160.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.3662,
+          "credit_ratio_conservative": 0.314,
+          "passes_floor": true,
+          "cash_collected": 1450.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.4394,
+          "credit_ratio_conservative": 0.3768,
+          "passes_floor": true,
+          "cash_collected": 1740.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for APH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/APH/key-statistics/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "Price: 73.07 USD Market Cap: 180.19B Fwd PE: 27.17 P/S: 6.2 EPS trends: flat over the last 7 days EPS revisions: tilted higher, with 7 up and 1 down over last 30 days price 73.07 market cap 180.19B forward PE 27.17 forward PE next FY 21.91 trailing PE 39.497295 P/S 6.210902 EV/EBITDA 20.469"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for APH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/APH/analysis/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "FY consensus 2.68931 now, 2.68662 7 days ago, 2.66836 30 days ago, change over 30 days 0.79%; EPS revisions 7 up and 1 down over 30 days, 4 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "APH quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/aph/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Net Income increasing 89.6% (3/31/2026 to 6/30/2026) Earnings Before Interest and Tax increasing 40.4% (3/31/2026 to 6/30/2026) Net Receivables increasing 15.6% (3/31/2026 to 6/30/2026) Total Revenue increasing 14.9% (3/31/2026 to 6/30/2026) Total Equity increasing 10.8% (3/31/2026 to 6/30/2026) Sales, General and Admin. increasing 10.4% (3/31/2026 to 6/30/2026) EPS increased year over year 0.41 to 0.68 Total Revenue increasing 51.7% in fiscal 2025-12-31 vs 2024-12-31 Net Income increasing 76.2% in fiscal 2025-12-31 vs 2024-12-31 EBIT increasing 84.8% in fiscal 2025-12-31 vs 2024-12-31 Operating Income increasing 81.8% in fiscal 2025-12-31 vs 2024-12-31 EBITDA increasing 81.3% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders increasing 76.2% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "APH balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/aph/financials",
+      "date": "2025-12-31",
+      "weight": null,
+      "text": "Goodwill rose 28.4% from 8236200000.0 in 2024-12-31 to 10575400000.0 in 2025-12-31 (fiscal year), which is an acquisition closing in that periodOther Intangible Assets rose 83.0% in the same period Goodwill rose 65.9% from 10575400000.0 in 2025-12-31 to 17542900000.0 in 2026-03-31 (quarter), which is an acquisition closing in that periodOther Intangible Assets rose 141.0% in the same period"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "APH earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings",
+      "date": "2026-10-28",
+      "weight": null,
+      "text": "2026-10-28 (Wednesday, before the open), 5 days out -- from the earnings calendar, consensus EPS 0.73. beat streak 4 median gap 91 days 2026-07-29 estimate 0.6 actual 0.68 surprise 13.19% 2026-04-29 estimate 0.47 actual 0.53 surprise 11.96% 2026-01-28 estimate 0.47 actual 0.49 surprise 3.07% 2025-10-22 estimate 0.4 actual 0.47 surprise 16.49%"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: VONE, NVDA, TMO, APH: ETF Inflow Alert",
+      "provider": null,
+      "url": "/articles/vone-nvda-tmo-aph-etf-inflow-alert",
+      "date": "Oct 12, 20",
+      "weight": 3,
+      "text": "VONE, NVDA, TMO, APH: ETF Inflow Alert Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Vanguard Russell 1000 (Symbol: VONE) where we have detected an approximate $353.4 million dollar inflow -- that's a 4.0% increase week over week in o"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Why Amphenol (APH) is a Top Momentum Stock for the Long-Term",
+      "provider": null,
+      "url": "/articles/why-amphenol-aph-top-momentum-stock-long-term",
+      "date": "Oct 16, 20",
+      "weight": 3,
+      "text": "Why Amphenol (APH) is a Top Momentum Stock for the Long-Term Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Is Amphenol (APH) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+      "provider": null,
+      "url": "/articles/amphenol-aph-solid-growth-stock-3-reasons-think-yes",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Is Amphenol (APH) a Solid Growth Stock? 3 Reasons to Think \"Yes\" Amphenol (APH) is well positioned to outperform the market, as it exhibits above-average growth in financials."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "BNK Invest: IWY, TXN, MRVL, APH: Large Outflows Detected at ETF",
+      "provider": null,
+      "url": "/articles/iwy-txn-mrvl-aph-large-outflows-detected-etf",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "IWY, TXN, MRVL, APH: Large Outflows Detected at ETF Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares Russell Top 200 Growth ETF (Symbol: IWY) where we have detected an approximate $421.4 million dollar outflow -- that's a 2.6% decrease week"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Here's Why Amphenol (APH) is a Strong Growth Stock",
+      "provider": null,
+      "url": "/articles/heres-why-amphenol-aph-strong-growth-stock",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Here's Why Amphenol (APH) is a Strong Growth Stock Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Why Amphenol Stock Topped the Market on Tuesday",
+      "provider": null,
+      "url": "/articles/why-amphenol-stock-topped-market-tuesday",
+      "date": "Oct 6, 202",
+      "weight": 3,
+      "text": "Why Amphenol Stock Topped the Market on Tuesday Key PointsOne was from an always-influential investment bank."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Amphenol Gains 12% in Three Months: Buy, Sell, or Hold the Stock?",
+      "provider": null,
+      "url": "/articles/amphenol-gains-12-three-months-buy-sell-or-hold-stock",
+      "date": "Oct 12, 20",
+      "weight": 2,
+      "text": "Amphenol Gains 12% in Three Months: Buy, Sell, or Hold the Stock? APH stock rallies 11.8% in the past three months as AI demand and acquisitions fuel growth, but premium valuation and market uncertainties raise concerns."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Vertiv vs. Amphenol: Which AI Infrastructure Stock Has an Edge Now?",
+      "provider": null,
+      "url": "/articles/vertiv-vs-amphenol-which-ai-infrastructure-stock-has-edge-now",
+      "date": "Oct 14, 20",
+      "weight": 2,
+      "text": "Vertiv vs. Amphenol: Which AI Infrastructure Stock Has an Edge Now? VRT benefits from surging AI infrastructure demand, but APH's stronger stock performance and diversified portfolio give it an edge."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises",
+      "provider": null,
+      "url": "/articles/how-find-strong-computer-and-technology-stocks-slated-positive-earnings-surprises-3",
+      "date": "Oct 14, 20",
+      "weight": 2,
+      "text": "How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises Finding stocks expected to beat quarterly earnings estimates becomes an easier task with our Zacks Earnings ESP."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Here's How Much a $1000 Investment in Amphenol Made 10 Years Ago Would Be Worth Today",
+      "provider": null,
+      "url": "/articles/heres-how-much-1000-investment-amphenol-made-10-years-ago-would-be-worth-today-0",
+      "date": "Oct 15, 20",
+      "weight": 2,
+      "text": "Here's How Much a $1000 Investment in Amphenol Made 10 Years Ago Would Be Worth Today Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is Credo Technology Group (CRDO) Outperforming Other Computer and Technology Stocks This Year?",
+      "provider": null,
+      "url": "/articles/credo-technology-group-crdo-outperforming-other-computer-and-technology-stocks-year",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Is Credo Technology Group (CRDO) Outperforming Other Computer and Technology Stocks This Year? Here is how Credo Technology Group Holding Ltd. (CRDO) and Amphenol (APH) have performed compared to their sector so far this year."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Corning Surges 93% Year to Date: How to Play the Stock",
+      "provider": null,
+      "url": "/articles/corning-surges-93-year-date-how-play-stock",
+      "date": "Oct 7, 202",
+      "weight": 2,
+      "text": "Corning Surges 93% Year to Date: How to Play the Stock GLW's AI-driven optical growth, major data-center deals and surging solar sales are reshaping its outlook despite valuation and profit risks."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: nVent Electric Stock Rises 61% YTD: Time to Hold or Book Profits?",
+      "provider": null,
+      "url": "/articles/nvent-electric-stock-rises-61-ytd-time-hold-or-book-profits",
+      "date": "Oct 9, 202",
+      "weight": 2,
+      "text": "nVent Electric Stock Rises 61% YTD: Time to Hold or Book Profits? NVT surges 60.9% YTD on strong AI data-center demand, but rising tariff costs, premium valuation and intensifying competition raise concerns."
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Amphenol (APH) Reports Next Week: Wall Street Expects Earnings Growth",
+      "provider": null,
+      "url": "/articles/amphenol-aph-reports-next-week-wall-street-expects-earnings-growth",
+      "date": "Oct 21, 20",
+      "weight": 1,
+      "text": "Amphenol (APH) Reports Next Week: Wall Street Expects Earnings Growth Amphenol (APH) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/symbol/APH/earnings/revisions",
+      "date": null,
+      "weight": 3,
+      "text": "Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha\n\naph Summary\n\nEarnings Revisions\n\nFollow 27.58K followers\n\nAmphenol Corporation\n\n$73.07-6.13 (-7.74%) 4:00 PM 10/22/26\n\nNYSE | $USD | Post-Market: $73.05 -0.02 (-0.03%) 7:59 PM\n\naph Summary\n\nSummary Ratings Financials Earnings Dividends Valuation Growth Profitability Momentum Peers Options Charting\n\n## Annual Estimates Revisions\n\nUpcoming Fiscal Year End - Revisions for Last 3 Months\n\nEPS # of Up Revisions 15\n\nEPS # of Down Revisions 0\n\nRevenue # of Up Revisions 15\n\nRevenue # of Down Revisions 0\n\nEPS # of Up Revisions\n\n15\n\nEPS # of"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "vcpscanner.com: APH Stock Analysis & Analyst Ratings | VCP Scanner",
+      "provider": "vcpscanner.com",
+      "url": "https://vcpscanner.com/stock/aph/analysis",
+      "date": null,
+      "weight": 3,
+      "text": "APH Stock Analysis & Analyst Ratings | VCP Scanner APH Stock Analysis & Analyst Ratings | VCP Scanner\n\n# Amphenol Corporation (APH) Research Brief\n\nWall Street consensus, price target range, and equity research thesis\n\nBuy 30 Analyst Coverage\n\nConsensus Target\n\n$145+65.7% Upside\n\nCurrent: $87.24\n\nAnalyst Range\n\nLow $99 High $215\n\n12-Month High/Low Spread\n\nRatings Mix\n\n16 Buy\u00b7 13 Hold\u00b7 1 Sell\n\nEarnings & Valuation\n\nEPS Beat 15.3%\n\nForward P/E: 32.7x\n\n### Executive Summary & Research Take\n\nWall Street currently rates APH buy with a 12-month price target of $145 (+65.7% upside). The sections below cover the bull case, key risks, and latest earnin"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "finance.yahoo.com: Earnings Estimates Rising for Amphenol (APH): Will It Gain?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/earnings-estimates-rising-amphenol-aph-172002569.html",
+      "date": "2026-01-30",
+      "weight": 3,
+      "text": "Earnings Estimates Rising for Amphenol (APH): Will It Gain? Earnings Estimates Rising for Amphenol (APH): Will It Gain?\n\n# Earnings Estimates Rising for Amphenol (APH): Will It Gain?\n\n Zacks Equity Research January 30, 2026 2 min read\n\nInvestors might want to bet on Amphenol (APH), as earnings estimates for this company have been showing solid improvement lately. The stock has already gained solid short-term price momentum, and this trend might continue with its still improving earnings outlook.\n\nAnalysts' growing optimism on the earnings prospects of this maker of fiber-optic products is driving estimates higher, which should get reflected in its stoc"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "app.marginofinsight.com: Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight",
+      "provider": "app.marginofinsight.com",
+      "url": "https://app.marginofinsight.com/stocks/aph",
+      "date": "2026-05-12",
+      "weight": 3,
+      "text": "Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight\n\n# Amphenol Corporation\n\nNYSE Free primer \u00b7 Steps 1\u20133 of 21 Updated May 12, 2026 Coverage as of 2026-Q2\n\nMoat Wide\n\nOp Margin 25.4% FY2025\n\nNet Debt $16.2B\n\nLatest Q Revenue $7.6B Q1 2026\n\nTop Holder Vanguard Group 9.7%\n\nBull Case\n\nHyperscaler AI infrastructure investment is a multi-decade capex cycle, sustaining IT Datacom at 35-45% of revenue with 20-30% organic growth and strong earnings expansion.\n\nBear Case\n\nAI monetization disappointment triggers a hyperscaler CapEx pause, causing IT Datacom to contract sharply and organic"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "trefis.com: Amphenol (APH) | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/data/companies/APH?from=APH_guidance_momentum_2026-06-18",
+      "date": "2026-07-29",
+      "weight": 3,
+      "text": "Amphenol (APH) | Trefis Amphenol (APH) | Trefis\n\n# Amphenol (APH)\n\n#### Market Price (8/23/2026): $157.66 | Market Cap: $194.0 Bil Investor Relations \u2197 Sector: Information Technology | Industry: Electronic Components\n\n# Amphenol (APH)\n\n#### Market Price (8/23/2026): $157.66 Market Cap: $194.0 Bil Sector: Information Technology Industry: Electronic Components\n\n# Investment Highlights Why It Matters Detailed financial logic regarding cash flow yields vs trend-riding momentum. \n\n Strong revenue growth Rev Chg LTM Revenue Change % Last Twelve Months (LTM) is 54%\n\n Attractive operating margins Op Mgn LTM Operating Margin"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "seekingalpha.com: Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4944334-amphenol-priced-at-a-premium-for-a-reason",
+      "date": "2026-09-09",
+      "weight": 3,
+      "text": "Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha\n\n# Amphenol: Priced At A Premium For A Reason\n\nSep 09, 2026, 10:02 AM ET Amphenol Corporation (APH) Stock 4 Comments 2 Likes\n\nAnthony Sarkis\n\n## Summary\n\n- Amphenol is rated a BUY, driven by exceptional 55% revenue growth and expanding margins, with Q2 2026 revenue reaching $8.76 billion.\n- APH's premium valuation is justified by superior organic growth, durable operational leverage, and consistent earnings outperformance compared to peers.\n- Order book strength ($10.7 billion) and multi-year AI infrastructure demand u"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "wsj.com: APH.AT | Amphenol Corp. Cl A Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/AT/XWBO/APH/research-ratings",
+      "date": "2026-10-08",
+      "weight": 3,
+      "text": "APH.AT | Amphenol Corp. Cl A Analyst Estimates & Ratings \u2013 WSJ APH.AT | Amphenol Corp. Cl A Analyst Estimates & Ratings \u2013 WSJ\n\n# Amphenol Corp. Cl A APH (Austria: Vienna) \n\n- ##### 5:32 PM CEDT 10/14/26 \n- \u20ac 75.48 EUR \n- 0.63 0.84% \n- ##### Volume 0 \n\n- Volume 0 \n- 65 Day Avg Vol 316 \n- 1 Day Range 75.48 - 76.79 \n- 52 Week Range 51.25 - 78.26 (05/19/26 - 10/12/26) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 8 Oct 9 Oct 12 Oct 13 Oct 14 \u20ac74\u20ac76\u20ac78\u20ac80\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Industrial Goods\n\n- Open 76.64\n- Prior Close 74.85 (10/12/26)\n\n- 1 Day\n- APH 0.84% \n- DJIA -0.09% \n- S&P 500 -1.11% \n- Industrial"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "seekingalpha.com: Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954287-amphenol-stock-what-q3-must-show-to-justify-its-premium",
+      "date": "2026-10-14",
+      "weight": 3,
+      "text": "Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha\n\n# Amphenol: What Q3 Must Show To Justify Its Premium\n\nOct 14, 2026, 11:38 PM ET Amphenol Corporation (APH) Stock 4 Comments\n\nArizona Equity Research\n\n## Summary\n\n- Amphenol delivered strong Q2 FY2026 growth, driven by AI-related demand and successful CCS acquisition integration.\n- IT Datacom, now 43% of sales, grew 63% organically YoY, with AI products as the primary driver.\n- CCS acquisition outperformed expectations, but increased debt and integration execution remain key risks.\n- At 40x trailing adjusted EPS, APH"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "stockanalysis.com: Amphenol (APH) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/aph/forecast/",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Amphenol (APH) Stock Forecast & Analyst Price Targets Amphenol (APH) Stock Forecast & Analyst Price Targets\n\n72.38 -6.83 (-8.62%) Oct 22, 2026, 3:19 PM EDT - Market open\n\n# Amphenol Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 19 analysts polled by S&P Global, Amphenol stock has a consensus rating of \"Strong Buy\" and an average price target of $102.97. The average 1-year stock price forecast is 42.27% higher than the current stock price, while the lowest is $85 (+17.44%) and the highest is $116 (+60.28%).\n\nPrice Target: $102.97 (+42.27%)\n\nAnalyst Consensus: Strong Buy\n\n## Price Target\n\n| Target | Low | Average | Median | High |\n| --- | -"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investor.amphenol.com: Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results",
+      "provider": "investor.amphenol.com",
+      "url": "https://investor.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Second-Quarter-2026-Results/default.aspx",
+      "date": "2026-07-29",
+      "weight": 0,
+      "text": "Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results \n\n### Amphenol Reports Record Second Quarter 2026 Results \n\n Jul 29, 2026 \n\n Second Quarter 2026 Highlights: \n\n- Sales of $8.8 billion, up 55% in U.S. dollars and 30% organically compared to the second quarter of 2025 \n- Orders of $10.7 billion, resulting in a book-to-bill of 1.23:1 \n- GAAP Diluted EPS of $1.37, up 59% compared to prior year \n- Adjusted Diluted EPS of $1.35, up 67% compared to prior year \n- GAAP and Adjusted Operating Margin of 29.5% and 29.8%, respectively \n- GAAP and Adjusted Operating Income include"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investing.com: Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/earnings/amphenol-beats-q2-estimates-raises-q3-outlook-on-aidriven-demand-4820127",
+      "date": "2026-07-29",
+      "weight": 0,
+      "text": "Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand By Investing.com Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand By Investing.com\n\n# Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand\n\nAuthor Jaiveer Shekhawat\n\nPublished Jul 29, 2026, 08:39 AM\n\nInvesting.com -- Amphenol topped Wall Street expectations for the second quarter and issued stronger-than-expected third-quarter guidance on Wednesday, as robust AI-driven demand for IT datacom products and contributions from acquisitions lifted results. Shares rose about 7% in premarket trading.\n\nThe connector manufacturer reported adjusted earnings per share of $1.35, beating anal"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "trefis.com: When Amphenol\u2019s CEO And The Chart Say The Same Thing, Pay Attention | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/stock/aph/articles/617967/when-amphenols-ceo-and-the-chart-say-the-same-thing-pay-attention/2026-10-08",
+      "date": "2026-07-29",
+      "weight": 0,
+      "text": "When Amphenol\u2019s CEO And The Chart Say The Same Thing, Pay Attention | Trefis When Amphenol\u2019s CEO And The Chart Say The Same Thing, Pay Attention | Trefis\n\n# When Amphenol\u2019s CEO And The Chart Say The Same Thing, Pay Attention\n\nOctober 8th, 2026 \u00b7 by Trefis Team\n\nAPH YTD+17.8% SPY YTD+14.0% QQQ YTD+18.3%\n\nAmphenol (APH) shares have climbed 21.9% since the market close prior to a July 29, 2026, guidance update, easily outpacing the 5.0% gain in the S&P 500 over the same period. Corporate forecasts are currently aligning with a bullish stock chart, offering a combination that appears less frequently than either signal on its own. So what exactly is in Amphenol\u2019s new guidan"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "ad-hoc-news.de: Goldman Sachs raises target to USD 116 for Amphenol stock",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/goldman-sachs-raises-target-to-usd-116-for-amphenol-stock/70371081",
+      "date": "2026-10-06",
+      "weight": 0,
+      "text": "Goldman Sachs raises target to USD 116 for Amphenol stock Goldman Sachs raises target to USD 116 for Amphenol stock\n\n# Goldman Sachs raises target to USD 116 for Amphenol stock\n\n Published on 10/20/2026 at 10:50 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nGoldman Sachs lifted its target from USD 102.00 to USD 116.00 on October 6, 2026. Amphenol stock trades at EUR 71.10 on October 20, 2026.\n\n## Target reset and earnings date\n\n- Goldman Sachs lifted its Amphenol target from USD 102.00 to USD 116.00 on October 6, 2026.\n- Second-quarter revenue reached USD 8.76 billion, up 55.00 percent year over year.\n- Amphenol stock trade"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "itiger.com: Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says - Tiger Brokers",
+      "provider": "itiger.com",
+      "url": "https://www.itiger.com/news/2675363983",
+      "date": "2026-10-13",
+      "weight": 0,
+      "text": "Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says - Tiger Brokers Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says - Tiger Brokers\n\n# Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says\n\nMT Newswires Live Oct 13\n\n Amphenol (APH) is expected to post strong Q3 earnings on artificial intelligence demand and healthy end markets, BofA Securities said in a note Tuesday.\n\nThe company is scheduled to report the results on Oct. 28.\n\nAmphenol is well positioned to benefit from continued AI infrastructure investments across both GPU-based and custom-accelerator systems, the analysts said, adding that they believe concerns about copp"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "convergedigest.com: As of September 2026, AI is increasing interconnect content across high-speed copper, optics and power.",
+      "provider": "convergedigest.com",
+      "url": "https://convergedigest.com/amphenol-ai-copper-optics-power-interconnect/",
+      "date": "2026-09-09",
+      "weight": null,
+      "text": "As of September 2026, AI is increasing interconnect content across high-speed copper, optics and power. Denser accelerator systems raise connector content per rack, supporting IT Datacom growth. \"AI is increasing interconnect content across high-speed copper, optics and power as accelerator systems grow denser\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "fool.com: In Q2 2026, Amphenol reported record orders of $10.7 billion and a 1.23 book-to-bill.",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/amphenol-aph-q2-2026-earnings-call-transcript/",
+      "date": "2026-08-07",
+      "weight": null,
+      "text": "In Q2 2026, Amphenol reported record orders of $10.7 billion and a 1.23 book-to-bill. A book-to-bill above 1 supports revenue growth in coming quarters. \"Record Orders -- $10.7 billion, representing 94% growth from the prior year and a book-to-bill ratio of 1.23 to 1.\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "ttieurope.com: As of June 2026, hybrid copper/optics AI architectures were expected to persist through at least the next two rack generations.",
+      "provider": "ttieurope.com",
+      "url": "https://www.ttieurope.com/content/ttieurope/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+      "date": null,
+      "weight": null,
+      "text": "As of June 2026, hybrid copper/optics AI architectures were expected to persist through at least the next two rack generations. This limits near-term risk to Amphenol's copper connector content through CY28/29. \"hybrid copper/optics architectures persisting through at least next two AI rack generations, implying limited risk to copper content through CY28/29\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "tti.com: As of April 2026, IP&E bookings were still accelerating month-over-month.",
+      "provider": "tti.com",
+      "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260407.html",
+      "date": null,
+      "weight": null,
+      "text": "As of April 2026, IP&E bookings were still accelerating month-over-month. Accelerating bookings extend backlog and support Amphenol revenue into 2026. \"Bookings still accelerating M/M.\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "ttieurope.com: As of February 2026, connector industry demand was projected to roughly double in calendar 2026 and possibly double again in 2027.",
+      "provider": "ttieurope.com",
+      "url": "https://www.ttieurope.com/content/ttieurope/en/resources/marketeye/categories/supply-chain/me-reed-20260213.html",
+      "date": null,
+      "weight": null,
+      "text": "As of February 2026, connector industry demand was projected to roughly double in calendar 2026 and possibly double again in 2027. Rising AI connector demand supports Amphenol's order and revenue growth into 2027. \"AI demand forecast still rising; connector industry demand projected ~2x in CY26, with some projecting doubling again in CY27.\""
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "APH listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/APH/options/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "long CALL strike 75.0 expiry 2027-03-19 premium 8.6 short PUT strike 70.0 expiry 2027-03-19 premium 6.6"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 2.17,
+    "fy_consensus": 2.68931,
+    "ratio": 0.807,
+    "beats": 4,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.68 + 0.53 + 0.49 + 0.47) total 2.17, against a current-FY consensus of 2.68931 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "Amphenol APH 2026 data center AI high-speed connector copper optical substitution demand",
+        "2026 2027 global EV production outlook automotive connector sensor demand tariffs Chinese competition",
+        "2026 2027 aerospace defense electronics spending outlook connectors sensors NATO budgets",
+        "2026 2027 industrial automation manufacturing capex sensor connector demand reshoring"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "Record Q2 2026 orders and a 1.23 book-to-bill signal demand outpacing shipments into 2027.",
+          "stance": "support",
+          "why": "Backlog conversion should lift revenue if orders hold before new programs ramp.",
+          "quote": "Record Orders -- $10.7 billion, representing 94% growth from the prior year and a book-to-bill ratio of 1.23 to 1.",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/APH/pressreleases/5233546/amphenol-aph-q2-2026-earnings-call-transcript/",
+          "publisher": "theglobeandmail.com",
+          "as_of": "2026-07-29",
+          "age_days": 86,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, denser AI accelerators are raising copper, optics and power interconnect content per system.",
+          "stance": "support",
+          "why": "Higher content per AI rack expands Amphenol's IT Datacom revenue beyond unit growth.",
+          "quote": "AI is increasing interconnect content across high-speed copper, optics and power as accelerator systems grow denser",
+          "url": "https://convergedigest.com/amphenol-ai-copper-optics-power-interconnect/",
+          "publisher": "convergedigest.com",
+          "as_of": "2026-09-09",
+          "age_days": 44,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, hybrid copper/optics AI rack designs are expected to preserve copper content through 2028-2029.",
+          "stance": "support",
+          "why": "Sustained copper content supports Amphenol's high-speed interconnect sales in AI data centers.",
+          "quote": "hybrid copper/optics architectures persisting through at least next two AI rack generations, implying limited risk to copper content through CY28/29",
+          "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+          "publisher": "tti.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "Full optical scale-up is expected first in AI training systems in 2029 or later, threatening copper content.",
+          "stance": "pressure",
+          "why": "If optics displace copper in training racks, Amphenol's copper-heavy IT Datacom mix could face content pressure.",
+          "quote": "Full optical scale-up still seen as likely emerging first in training systems (in CY29+)",
+          "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+          "publisher": "tti.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of June 2026, stagnating Western auto demand and regionalization are pressuring automotive suppliers.",
+          "stance": "pressure",
+          "why": "Weaker global car volumes could slow Amphenol's automotive interconnect orders.",
+          "quote": "Stagnating demand in Western markets, the end of the \u2018global car,\u2019 and the cost of electrification reset profit margins",
+          "url": "https://www.alixpartners.com/newsroom/press-release-the-23rd-annual-alixpartners-global-automotive-outlook/",
+          "publisher": "alixpartners.com",
+          "as_of": "2026-06-25",
+          "age_days": 120,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Amphenol APH 2026 2027 AI data center interconnect demand copper optical substitution",
+        "2026 2027 automotive connector demand outlook EV production cuts OEM spending",
+        "2026 2027 aerospace defense electronics procurement budget connector demand",
+        "2026 2027 industrial automation capex outlook sensors connectors inventory"
+      ],
+      "results_count": 20,
+      "results_dated": 14,
+      "trends": [
+        {
+          "claim": "As of September 2026, AI is increasing interconnect content across high-speed copper, optics and power.",
+          "stance": "support",
+          "why": "Denser accelerator systems raise connector content per rack, supporting IT Datacom growth.",
+          "quote": "AI is increasing interconnect content across high-speed copper, optics and power as accelerator systems grow denser",
+          "url": "https://convergedigest.com/amphenol-ai-copper-optics-power-interconnect/",
+          "publisher": "convergedigest.com",
+          "as_of": "2026-09-09",
+          "age_days": 44,
+          "undated": false
+        },
+        {
+          "claim": "In Q2 2026, Amphenol reported record orders of $10.7 billion and a 1.23 book-to-bill.",
+          "stance": "support",
+          "why": "A book-to-bill above 1 supports revenue growth in coming quarters.",
+          "quote": "Record Orders -- $10.7 billion, representing 94% growth from the prior year and a book-to-bill ratio of 1.23 to 1.",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/amphenol-aph-q2-2026-earnings-call-transcript/",
+          "publisher": "fool.com",
+          "as_of": "2026-08-07",
+          "age_days": 77,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, hybrid copper/optics AI architectures were expected to persist through at least the next two rack generations.",
+          "stance": "support",
+          "why": "This limits near-term risk to Amphenol's copper connector content through CY28/29.",
+          "quote": "hybrid copper/optics architectures persisting through at least next two AI rack generations, implying limited risk to copper content through CY28/29",
+          "url": "https://www.ttieurope.com/content/ttieurope/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+          "publisher": "ttieurope.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of April 2026, IP&E bookings were still accelerating month-over-month.",
+          "stance": "support",
+          "why": "Accelerating bookings extend backlog and support Amphenol revenue into 2026.",
+          "quote": "Bookings still accelerating M/M.",
+          "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260407.html",
+          "publisher": "tti.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of February 2026, connector industry demand was projected to roughly double in calendar 2026 and possibly double again in 2027.",
+          "stance": "support",
+          "why": "Rising AI connector demand supports Amphenol's order and revenue growth into 2027.",
+          "quote": "AI demand forecast still rising; connector industry demand projected ~2x in CY26, with some projecting doubling again in CY27.",
+          "url": "https://www.ttieurope.com/content/ttieurope/en/resources/marketeye/categories/supply-chain/me-reed-20260213.html",
+          "publisher": "ttieurope.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Amphenol APH 2026 end market demand AI data center automotive defense industrial",
+        "hyperscaler data center capex 2026 2027 AI server interconnect optical copper demand",
+        "global automotive EV production outlook 2026 2027 connectors wiring harness demand",
+        "aerospace defense electronics budget 2026 2027 connector sensor demand"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In Q2 2026, record orders of $10.7B and a 1.23x book-to-bill point to future sales growth.",
+          "stance": "support",
+          "why": "Orders above billings convert into revenue in coming quarters, supporting sales and margins.",
+          "quote": "Orders of $10.7 billion, resulting in a book-to-bill of 1.23:1",
+          "url": "https://investor.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Second-Quarter-2026-Results/default.aspx",
+          "publisher": "investor.amphenol.com",
+          "as_of": "2026-09-30",
+          "age_days": 23,
+          "undated": false
+        },
+        {
+          "claim": "CSP capex is projected to surpass $1.5T in 2027, up 60% YoY, sustaining AI infrastructure demand.",
+          "stance": "support",
+          "why": "Higher hyperscale capex funds servers and networking, driving connector demand for Amphenol.",
+          "quote": "In 2027, this figure is expected to surpass $1.5 trillion, representing a further 60% YoY increase.",
+          "url": "https://www.trendforce.com/presscenter/news/20261014-13269.html",
+          "publisher": "trendforce.com",
+          "as_of": "2026-10-14",
+          "age_days": 9,
+          "undated": false
+        },
+        {
+          "claim": "AI networking market is forecast to reach $269.5B by 2027, with accelerator interconnects growing fastest.",
+          "stance": "support",
+          "why": "Faster interconnects and NICs require high-speed connectors, expanding Amphenol's IT Datacom opportunity.",
+          "quote": "AI networking market will reach US$269.5B by 2027 (92% CAGR from 2024).",
+          "url": "https://www.trendforce.com/research/download/RP261015UU",
+          "publisher": "trendforce.com",
+          "as_of": "2026-10-15",
+          "age_days": 8,
+          "undated": false
+        },
+        {
+          "claim": "Counter-UAS defense electronics is forecast to grow 18-25% annually into the early 2030s.",
+          "stance": "support",
+          "why": "Growing counter-UAS spending increases demand for rugged connectors and connectivity.",
+          "quote": "most forecasts clustering around 18 to 25 percent annual growth into the early 2030s.",
+          "url": "https://fischerconnectors.com/app/uploads/FC_WhitePaper_Connectivity_in_Counter-UAS_Systems_Final.pdf",
+          "publisher": "fischerconnectors.com",
+          "as_of": "2026-08-01",
+          "age_days": 83,
+          "undated": false
+        },
+        {
+          "claim": "EV wiring harness and connector market is forecast to grow 12.83% CAGR from 2026 to 2035.",
+          "stance": "support",
+          "why": "Rising EV production and high-voltage architectures increase connector content per vehicle.",
+          "quote": "projected to reach $29.43 billion by 2035 from $8.53 billion in 2025, growing at a CAGR of 12.83%",
+          "url": "https://www.researchandmarkets.com/reports/5472978/wiring-harnesses-and-connectors-for-electric",
+          "publisher": "researchandmarkets.com",
+          "as_of": "2026-09-01",
+          "age_days": 52,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

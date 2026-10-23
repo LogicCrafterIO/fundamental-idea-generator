@@ -38,6 +38,7 @@ from . import (
     quants,
     render,
     research as research_mod,
+    variants as variants_mod,
 )
 from .sources import ollama, yahoo
 from .util import human_money
@@ -1049,6 +1050,50 @@ def register_for(data: dict, packet: dict) -> list[dict]:
     return merged
 
 
+def _sibling_disagreements(out: Path, scoring: str, results: list[dict]) -> list[dict]:
+    """Tickers this variant ranks on the opposite side to a sibling variant.
+
+    Read back from the siblings' own notes rather than carried in memory, so a
+    rebuild from disk states the same disagreement the generating run printed. A
+    contradiction between the two screens is the last thing that should survive only
+    in a terminal's scrollback.
+    """
+    mine = {
+        (r["writeup"].get("ticker") or "").upper(): (
+            r["writeup"].get("direction") or "long"
+        ).lower()
+        for r in results
+        if r["writeup"].get("ticker")
+    }
+
+    found: list[dict] = []
+    for variant in variants_mod.VARIANTS:
+        if variant == scoring:
+            continue
+        sibling = out.parent / variant
+        if not sibling.is_dir():
+            continue
+        theirs: dict[str, str] = {}
+        for path in note_paths(sibling):
+            data = load_note(path)
+            if data and data.get("reasons"):
+                theirs[(data.get("ticker") or "").upper()] = (
+                    data.get("direction") or "long"
+                ).lower()
+        for ticker, direction in mine.items():
+            other = theirs.get(ticker)
+            if other and other != direction:
+                found.append(
+                    {
+                        "symbol": ticker,
+                        "directions": {direction: scoring, other: variant},
+                        "variants": sorted([scoring, variant]),
+                    }
+                )
+    found.sort(key=lambda d: d["symbol"])
+    return found
+
+
 def rebuild_index(
     out_dir: str | Path = "research",
     *,
@@ -1127,6 +1172,14 @@ def rebuild_index(
         )
 
     if results:
+        # A folder named after a variant says which screen built it, and a sibling
+        # folder named after the other one says what it disagreed about -- both
+        # readable from disk, so `fig index` (or any later rebuild after a linter
+        # change) keeps stating them instead of reverting to an unlabelled batch.
+        if scoring is None and out.name in variants_mod.VARIANTS:
+            scoring = out.name
+        if disagreements is None and scoring:
+            disagreements = _sibling_disagreements(out, scoring, results)
         write_index(
             results,
             out,
@@ -1335,7 +1388,7 @@ def _scoring_lines(scoring: str | None, disagreements: list[dict] | None) -> lis
     a genuine contradiction between two of its own screens is the thing most likely
     to be mistaken for agreement by omission.
     """
-    from . import variants as variants_mod  # local: only the index needs the titles
+
 
     lines: list[str] = []
     if scoring:
@@ -1360,12 +1413,19 @@ def _scoring_lines(scoring: str | None, disagreements: list[dict] | None) -> lis
         others = [v for v in variants_mod.VARIANTS if v != scoring]
         lines.append("### Ranking signal")
         lines.append("")
-        lines.append(f"This folder was ranked by **{title}** (`--variants {scoring}`). {what}")
+        # "selected by", not "ranked by": the table below is ordered by conviction
+        # within each side (see "## Ranking"), while the screen decides only which
+        # names are in the folder. "Ranked by" would read as a claim about that order,
+        # which the index does not make.
+        lines.append(
+            f"The names here were selected by **{title}** (`--variants {scoring}`); "
+            f"the order below is conviction, as always. {what}"
+        )
         if others:
             links = ", ".join(f"[`{v}/`](../{v}/)" for v in others)
             lines.append(
                 f"The same screen ran under {links} beside this folder -- the same "
-                f"screened rows, one different term -- so the two orderings can be "
+                f"screened rows, one different term -- so the two selections can be "
                 f"compared on identical evidence."
             )
         lines.append("")

@@ -1,0 +1,707 @@
+{
+  "ticker": "GSK",
+  "direction": "short",
+  "as_of": "2026-10-23",
+  "description": "Vaccines, specialty and general medicines drugmaker; HIV, oncology and respiratory are the growth lines.",
+  "catalyst": {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 5,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.3275,
+      "eps_low": 1.31322,
+      "eps_high": 1.34179,
+      "revenue_avg": 8805298180
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 1.25,
+        "eps_actual": 1.34,
+        "surprise_pct": 7.24,
+        "beat": true
+      },
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 1.16,
+        "eps_actual": 1.26,
+        "surprise_pct": 7.88,
+        "beat": true
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 0.62,
+        "eps_actual": 0.7,
+        "surprise_pct": 11.93,
+        "beat": true
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 1.26,
+        "eps_actual": 1.46,
+        "surprise_pct": 15.37,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-28 (Wednesday, before the open), 5 days out -- from the earnings calendar, consensus EPS 1.33.",
+    "why": "Q3 must show operating costs no longer outrunning sales; if R&D and restructuring keep Q2's gap in place, the 4.72 FY EPS is unreachable."
+  },
+  "reasons": [
+    "Q2 operating income fell 79.0% QoQ and 76.2% YoY to $481M while revenue rose 10.2% QoQ and 5.3% YoY to $8.41B; costs, not demand, are the problem.",
+    "FY EPS consensus fell 1.52% in 30 days to 4.71989, with 0 analysts up and 3 down; the last four actuals total 4.76, so the beat streak is already in the number.",
+    "GSK expects more than 20 phase III trial starts in 2026, lifting late-stage R&D spend before any launch revenue and keeping the cost gap of Q2 in place."
+  ],
+  "watch": [
+    "Operating income: near Q2's $481M confirms; back above $2.02B, last year's level, breaks.",
+    "FY EPS consensus: a further cut below 4.71989 confirms; a raise back above 4.79253 breaks the high-bar case.",
+    "R&D expense: a step-up tied to the 20+ phase III starts confirms; flat or lower R&D breaks the cost-pressure case."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "GSK quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/gsk/financials",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for GSK",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/GSK/analysis/",
+        "date": "2026-10-23"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "GSK earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/gsk/earnings",
+        "date": "2026-10-28"
+      }
+    ],
+    [
+      {
+        "id": "S38",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "gsk.com: GSK expects more than 20 phase III trial starts in 2026, raising late-stage R&D activity.",
+        "provider": "gsk.com",
+        "url": "https://www.gsk.com/media/jayh41pz/q2-2026-results-announcement.pdf?_sp=",
+        "date": "2026-10-20"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "GSK quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/gsk/financials",
+        "date": null
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for GSK",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GSK/key-statistics/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for GSK",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GSK/analysis/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "GSK quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/gsk/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "GSK earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/gsk/earnings",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "NASDAQ.com: Pre-Market Most Active for Oct 1, 2026 :  SQQQ, TQQQ, INTC, MUU, TLT, GSK, NVDA, ACN, CTVA, NOK, SGOV, INFY",
+      "provider": null,
+      "url": "/articles/pre-market-most-active-oct-1-2026-sqqq-tqqq-intc-muu-tlt-gsk-nvda-acn-ctva-nok-sgov-infy",
+      "date": "Oct 1, 202"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Is the Options Market Predicting a Spike in GSK Plc Stock?",
+      "provider": null,
+      "url": "/articles/options-market-predicting-spike-gsk-plc-stock",
+      "date": "Oct 12, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "RTTNews: Weekly Buzz: RHHBY, TEVA Win FDA Nod; MLAB, GSK Cut Jobs; AZN, VIR Deals; KRYS, ABBV Report Data",
+      "provider": null,
+      "url": "/articles/weekly-buzz-rhhby-teva-win-fda-nod-mlab-gsk-cut-jobs-azn-vir-deals-krys-abbv-report-data",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "RTTNews: Belgian Minister To Closely Monitor GSK Restructuring Plan",
+      "provider": null,
+      "url": "/articles/belgian-minister-closely-monitor-gsk-restructuring-plan",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "RTTNews: GSK's Jemperli Becomes First Approved Immunotherapy For MSI-H/dMMR Locally Advanced Renal Cancer",
+      "provider": null,
+      "url": "/articles/gsks-jemperli-becomes-first-approved-immunotherapy-msi-h-dmmr-locally-advanced-renal",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "RTTNews: GSK Reveals Positive Early Data For Ris-Rez In Extensive-stage Small Cell Lung Cancer",
+      "provider": null,
+      "url": "/articles/gsk-reveals-positive-early-data-ris-rez-extensive-stage-small-cell-lung-cancer",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "RTTNews: FDA Approves GSK's Hibsago For Chronic Hepatitis B In Adults Without Cirrhosis",
+      "provider": null,
+      "url": "/articles/fda-approves-gsks-hibsago-chronic-hepatitis-b-adults-without-cirrhosis",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: GSK's New Drugs and Pipeline Hold the Key to Long-Term Growth",
+      "provider": null,
+      "url": "/articles/gsks-new-drugs-and-pipeline-hold-key-long-term-growth",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Analysts Estimate GSK (GSK) to Report a Decline in Earnings: What to Look Out for",
+      "provider": null,
+      "url": "/articles/analysts-estimate-gsk-gsk-report-decline-earnings-what-look-out",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "RTTNews: Gavi, UNICEF Cut GSK Mosquirix Vaccine Price By 40%",
+      "provider": null,
+      "url": "/articles/gavi-unicef-cut-gsk-mosquirix-vaccine-price-40",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "The Motley Fool: Prediction: These 3 Dividend Stocks Will Raise Their Payouts No Matter What the Market Does",
+      "provider": null,
+      "url": "/articles/prediction-these-3-dividend-stocks-will-raise-their-payouts-no-matter-what-market-does",
+      "date": "Oct 14, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Can Expanding Ivonescimab Development Unlock SMMT's Growth Potential?",
+      "provider": null,
+      "url": "/articles/can-expanding-ivonescimab-development-unlock-smmts-growth-potential",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Moderna's Respiratory Portfolio Expands: Can It Reduce COVID Reliance?",
+      "provider": null,
+      "url": "/articles/modernas-respiratory-portfolio-expands-can-it-reduce-covid-reliance",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Alnylam Pharmaceuticals (ALNY) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+      "provider": null,
+      "url": "/articles/alnylam-pharmaceuticals-alny-expected-beat-earnings-estimates-can-stock-move-higher",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "RTTNews: Weekly Buzz: EW, ABBV, MIRM Score FDA Wins, AZN, NVO Strike Deals; LLY, KOD Report Data",
+      "provider": null,
+      "url": "/articles/weekly-buzz-ew-abbv-mirm-score-fda-wins-azn-nvo-strike-deals-lly-kod-report-data",
+      "date": "Oct 2, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "gsk.com: Analyst consensus | GSK",
+      "provider": "gsk.com",
+      "url": "https://www.gsk.com/en-gb/investors/analyst-consensus/analyst-consensus/",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "uk.finance.yahoo.com: GSK plc (GSK) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "uk.finance.yahoo.com",
+      "url": "https://uk.finance.yahoo.com/quote/GSK/analysis/",
+      "date": null
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "ii.co.uk: ii view: GSK balances R&D spend with cost savings",
+      "provider": "ii.co.uk",
+      "url": "https://www.ii.co.uk/analysis-commentary/ii-view-gsk-balances-rd-spend-cost-savings-ii539817",
+      "date": null
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "calypsocopilot.com: GSK plc (GSK) Q4 2025 Earnings Analysis | Calypso",
+      "provider": "calypsocopilot.com",
+      "url": "https://calypsocopilot.com/blog/gsk-gsk-earnings-q4-2025",
+      "date": "2026-02-04"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "finance.yahoo.com: GSK Q2 2026 earnings beat: \u00a31.9B cost-savings plan launched",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/healthcare/articles/gsk-q2-2026-earnings-beat-120814425.html",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "proactiveinvestors.co.uk: GSK hits three-month high as vaccines help earnings top forecasts | LSE:GSK, NYSE:GSK",
+      "provider": "proactiveinvestors.co.uk",
+      "url": "https://www.proactiveinvestors.co.uk/companies/news/1096150/gsk-hits-three-month-high-as-vaccines-help-earnings-top-forecasts-1096150.html",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "xxquant.com: GSK Plc (GSK): GSK's modest launch momentum tempers expectations ahead of 3Q26 | Report Interpretation | Hilo Research",
+      "provider": "xxquant.com",
+      "url": "https://www.xxquant.com/en/institution/institutional-research/ab5ecfc27cf4395de49721b027e3ffdc",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "factorstoday.com: GlaxoSmithKline PLC ADR (NYSE: GSK) \u2014 The Cliff Is Priced, Replacement Must Pay | FactorsToday",
+      "provider": "factorstoday.com",
+      "url": "https://www.factorstoday.com/research/GSK",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "stockanalysis.com: GSK plc (LON:GSK) Transcript: Bank of America Global Healthcare Conference",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/quote/lon/GSK/transcripts/756159-bank-of-america-global-healthcare-conference/",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "equibles.com: GSK Stock \u2014 GSK plc: Analyst Estimates - Equibles",
+      "provider": "equibles.com",
+      "url": "https://equibles.com/stocks/gsk/analyst-estimates",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "gsk.com: Quarterly results | GSK",
+      "provider": "gsk.com",
+      "url": "https://www.gsk.com/en-gb/investors/quarterly-results/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "quotelinks.com: GSK (GSK) Stock Forecast: Price Target & EPS Estimates | Quotelinks",
+      "provider": "quotelinks.com",
+      "url": "https://www.quotelinks.com/forecast/gsk.html",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "morningstar.com: A Wide-Moat Dividend Stock to Buy That\u2019s 35% Undervalued | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/wide-moat-dividend-stock-buy-thats-35-undervalued",
+      "date": "2023-08-02"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "gsk.com: Q2 2026 Announcement",
+      "provider": "gsk.com",
+      "url": "https://www.gsk.com/media/jayh41pz/q2-2026-results-announcement.pdf",
+      "date": "2025-12-19"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "fiercepharma.com: Shingrix's U.S. Q1 2026 growth was helped by inventory build for a new prefilled syringe.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/gsk-ceo-luke-miels-first-quarter-boosted-shingrix-surge-exdensur-stumbles-switch-trial",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "fiercepharma.com: In Q1 2026, Exdensur's switch trial failed, leaving its asthma launch with only early commercial signals.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/gsk-ceo-luke-miels-first-quarter-boosted-shingrix-surge-exdensur-stumbles-switch-trial",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "msf.org.za: In mid-2026, MSF says ViiV's limited licensing and high LA PrEP pricing restrict access.",
+      "provider": "msf.org.za",
+      "url": "https://www.msf.org.za/sites/default/files/2026-07/Power%20of%20Choice_Operational%20Learnings%20from%20%28MSF%20implementation%20of%20LA%20PrEP_English.pdf",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "msf.org.za: PEPFAR and Global Fund cuts are constraining long-acting HIV prevention rollout in 2026.",
+      "provider": "msf.org.za",
+      "url": "https://www.msf.org.za/sites/default/files/2026-07/Power%20of%20Choice_Operational%20Learnings%20from%20%28MSF%20implementation%20of%20LA%20PrEP_English.pdf",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "gsk.com: GSK expects more than 20 phase III trial starts in 2026, raising late-stage R&D activity.",
+      "provider": "gsk.com",
+      "url": "https://www.gsk.com/media/jayh41pz/q2-2026-results-announcement.pdf?_sp=",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "GSK listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GSK/options/",
+      "date": "2026-10-23"
+    }
+  ],
+  "quants": {
+    "price": 51.21,
+    "market_cap": "102.6B",
+    "fwd_pe": 10.8,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 3.1,
+    "eps_trend": "down over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 3 down over last 30 days",
+    "extra": [
+      "EPS increased year over year, 1.24 -> 1.34"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 10.2,
+        "yoy_pct": 5.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": -75.0,
+        "yoy_pct": -69.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": -76.8,
+        "yoy_pct": -74.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 1.9,
+        "yoy_pct": -12.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": -79.0,
+        "yoy_pct": -76.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 6.8,
+        "yoy_pct": 5.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 9.0,
+        "yoy_pct": -1.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": 163.6,
+        "yoy_pct": 16.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 4.1,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 122.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 122.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 96.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 56.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 50.5,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 5,
+    "bar": {
+      "date": "2026-10-28",
+      "eps_avg": 1.3275,
+      "eps_low": 1.31322,
+      "eps_high": 1.34179,
+      "revenue_avg": 8805298180
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Feb-27",
+        "strike": 50.0,
+        "qty": 17,
+        "underlying": 51.21,
+        "multiplier": 100,
+        "price": 2.6,
+        "total": 4420.0,
+        "open_interest": 1947
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 50.0,
+        "qty": 5,
+        "underlying": 51.21,
+        "multiplier": 100,
+        "price": 1.3,
+        "total": -650.0,
+        "open_interest": 1473
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-27 report, with the long leg expiring 2027-02-19, which gives the deterioration time to show up.",
+    "reflection": "The 13.1% conservative credit is fat enough, but the short 50 put sits just below spot and expires three weeks after the print; a margin rebound on 28 October is the risk."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 16,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 9,
+      "mismatches": [
+        "Reason 1: \"8.41\" is cited to S3 but appears in S22, S25, S33"
+      ],
+      "superseded": [],
+      "ok": false,
+      "ratio": 0.889
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "contradicts"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "expects",
+          "launch",
+          "phase",
+          "starts",
+          "trial"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "share",
+          "vaccine"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "vaccine"
+        ]
+      }
+    ]
+  }
+}

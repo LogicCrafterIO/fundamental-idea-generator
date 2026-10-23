@@ -1,0 +1,2034 @@
+{
+  "symbol": "HOOD",
+  "as_of": "2026-10-23",
+  "generated_at": "2026-10-23T10:15:04",
+  "profile": {
+    "symbol": "HOOD",
+    "name": "Robinhood Markets, Inc.",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "summary": "Robinhood Markets, Inc. operates financial services platform in the United States. The company's platform allows users to invest in stocks, exchange-traded funds (ETFs), and American depository receipts. It offers fractional trading, recurring investments, access to investing on margin, fully-paid securities lending, cash sweep, instant withdrawals, retirement program, around-the-clock trading, joint investing accounts, event contracts, future contract services, and short selling. The company also provides various learning and education solutions comprise Snacks, an accessible digest of business news stories for a new generation of investors; Learn, which is an online collection of guides, feature tutorials, and financial dictionary; Newsfeeds that offer access to free, premium news from sites from various sites, such as Barron's, Reuters, and Dow Jones. In addition, the company offers In-App Education, a resource that covers investing fundamentals, including why people invest, a stock market overview, and tips on how to define investing goals, as well as allows customers to understand the basics of investing before their first trade; and Crypto Learn and Earn, an educational module available to various crypto customers through Robinhood Learn to teach customers the basics related to cryptocurrency. Further, it provides Robinhood credit cards, cash card and spending accounts, and wallets. Robinhood Markets, Inc. was incorporated in 2013 and is headquartered in Menlo Park, California.",
+    "employees": 2900,
+    "country": "United States",
+    "website": "https://robinhood.com"
+  },
+  "quants": {
+    "symbol": "HOOD",
+    "name": "Robinhood Markets, Inc.",
+    "price": 96.58,
+    "market_cap": 86833373184,
+    "market_cap_human": "86.83B",
+    "fwd_pe": 44.55,
+    "fwd_pe_1y": 32.64,
+    "fwd_pe_yahoo": 28.277056,
+    "trailing_pe": 44.92093,
+    "ps": 17.60612,
+    "ev_ebitda": null,
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "eps_fy_current": 2.16791,
+    "eps_fy_next": 2.95859,
+    "eps_trend": {
+      "change_7d_pct": 0.66,
+      "change_30d_pct": 3.82,
+      "current": 2.16791,
+      "7d_ago": 2.15367,
+      "30d_ago": 2.08823,
+      "text": "slightly up over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 4,
+      "down_7d": 1,
+      "up_30d": 11,
+      "down_30d": 3,
+      "net_30d": 8,
+      "text": "tilted higher, with 11 up and 3 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-28"
+      ],
+      "next_date": "2026-10-28",
+      "eps_avg": 0.64417,
+      "eps_low": 0.62,
+      "eps_high": 0.68,
+      "revenue_avg": 1431474300
+    },
+    "as_of": "2026-10-23"
+  },
+  "quants_lines": [
+    "Price: 96.58 USD",
+    "Market Cap: 86.83B",
+    "Fwd PE: 44.55",
+    "P/S: 17.6",
+    "EPS trends: slightly up over the last 7 days",
+    "EPS revisions: tilted higher, with 11 up and 3 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Long-Term Investments",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 6036000.0,
+      "prior": 3355000.0,
+      "change_pct": 79.9,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 709000.0,
+      "prior": 411000.0,
+      "change_pct": 72.5,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 561000.0,
+      "prior": 350000.0,
+      "change_pct": 60.3,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Liabilities",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 47009000.0,
+      "prior": 35786000.0,
+      "change_pct": 31.4,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 24711000.0,
+      "prior": 19293000.0,
+      "change_pct": 28.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1308000.0,
+      "prior": 1067000.0,
+      "change_pct": 22.6,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-29T16:00:00-04:00",
+    "current": 0.62,
+    "year_ago": 0.42,
+    "year_ago_period": "2025-07-30T16:00:00-04:00",
+    "change": 0.2,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1308000000.0,
+      "prior": 1067000000.0,
+      "qoq_pct": 22.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 989000000.0,
+      "yoy_pct": 32.3,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 561000000.0,
+      "prior": 350000000.0,
+      "qoq_pct": 60.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 386000000.0,
+      "yoy_pct": 45.3,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 574000000.0,
+      "prior": 411000000.0,
+      "qoq_pct": 39.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 439000000.0,
+      "yoy_pct": 30.8,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 597000000.0,
+      "prior": 434000000.0,
+      "qoq_pct": 37.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 460000000.0,
+      "yoy_pct": 29.8,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1072000000.0,
+      "prior": 860000000.0,
+      "qoq_pct": 24.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 809000000.0,
+      "yoy_pct": 32.5,
+      "conflict": false
+    },
+    {
+      "label": "Selling General And Administration",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 159000000.0,
+      "prior": 158000000.0,
+      "qoq_pct": 0.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 118000000.0,
+      "yoy_pct": 34.7,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 4473000000.0,
+      "prior": 2951000000.0,
+      "change_pct": 51.6,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 1883000000.0,
+      "prior": 1411000000.0,
+      "change_pct": 33.5,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 2094000000.0,
+      "prior": 1054000000.0,
+      "change_pct": 98.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 2094000000.0,
+      "prior": 1054000000.0,
+      "change_pct": 98.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBITDA",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 2180000000.0,
+      "prior": 1131000000.0,
+      "change_pct": 92.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 3728000000.0,
+      "prior": 2344000000.0,
+      "change_pct": 59.0,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [
+    {
+      "label": "Goodwill",
+      "basis": "fiscal year",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 385000000.0,
+      "prior": 179000000.0,
+      "change_pct": 115.1,
+      "confirmed": true,
+      "also": [
+        {
+          "label": "Other Intangible Assets",
+          "basis": "fiscal year",
+          "period": "2025-12-31",
+          "prior_period": "2024-12-31",
+          "current": 168000000.0,
+          "prior": 38000000.0,
+          "change_pct": 342.1,
+          "confirmed": false
+        }
+      ]
+    },
+    {
+      "label": "Goodwill",
+      "basis": "quarter",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 516000000.0,
+      "prior": 401000000.0,
+      "change_pct": 28.7,
+      "confirmed": true,
+      "also": []
+    }
+  ],
+  "consensus_bar": {
+    "date": "2026-10-28",
+    "eps_avg": 0.64417,
+    "eps_low": 0.62,
+    "eps_high": 0.68,
+    "revenue_avg": 1431474300
+  },
+  "news": [
+    {
+      "title": "ROBINHOOD MARKETS, INC. (HOOD)",
+      "publisher": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2025-09/s25_HOOD.pdf",
+      "summary": "The Henry Fund\n\nHenry B. Tippie College of Business Patrick Clark [pjclrk@uiowa.edu]\n\n## ROBINHOOD MARKETS, INC. (HOOD) April 23, 2025\n\n| Financial Services | \u2013 Brokerage & Investment Services | | Stock Rating | | | BUY | |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| | Investment Thesis | | Target Price | | | $ 50.59 | |\n| | | Henry Fund DCF | | | | | $50.59 |\n| Robinhood\u2019s strong position in fintech, innovative approach to investing, and | | Henry Fund Relative P/E | | | | | $38.24 |\n| appeal to | younger users make it a compelling long-term growth story. With an | Price Data | | | | ",
+      "published": "2025-04-23",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-robinhood-beats-q2-2026-estimates-as-growth-stays-strong-93CH-4821999",
+      "summary": "Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong By Investing.com\n\n# Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong\n\nPublished Jul 29, 2026, 06:36 PM\n\nRobinhood Markets reported stronger-than-expected second-quarter 2026 results, with earnings per share of $0.62 topping Wall Street\u2019s estimate of $0.42 and revenue rising to a record $1.3 billion, above the $1.25 billion forecast. The company said growth was driven by record trading activity, record net deposits and expanding use of its newer products, including banking, credi",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end (NASDAQ:HOOD) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4621130-robinhood-lowers-2026-adjusted-opex-outlook-to-2_675b-2_775b-while-targeting-robinhood-social",
+      "summary": "Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end (NASDAQ:HOOD) | Seeking Alpha\n\n# Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end\n\nJul 29, 2026, 9:44 PM ET Robinhood Markets, Inc. (HOOD) Stock, HOOD:CA Stock, ZHOO:CA Stock AI-Generated Earnings Calls Insights 1 Comment\n\nEarnings Call Insights: Robinhood Markets (HOOD) Q2 2026\n\n### Management View\n\n- \u201cIn Q2, our continued product velocity across these 3 arcs led to a bunch of records... core business is hu",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4620798-robinhood-q2-earnings-revenue-beat-as-equities-options-trading-shine",
+      "summary": "Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) | Seeking Alpha\n\n# Robinhood Q2 earnings, revenue beat as equities, options trading shine\n\nJul 29, 2026, 4:26 PM ET Robinhood Markets, Inc. (HOOD) Stock By: Liz Kiesche, SA News Editor 2 Comments\n\nScott Olson\n\nRobinhood Markets (HOOD) turned in strong Q2 results and reduced the range of expected operating expenses for the full year 2026. \"The business is firing on all cylinders,\" Chief Financial Officer Shiv Verma said.\n\nHowever, the stock dipped 3.8% in Wednesday after-hours\n\n## Quick Insights\n\n- ### How did ",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Robinhood shares edge lower after record quarter for prediction markets business",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/article/robinhood-shares-edge-lower-after-record-quarter-for-prediction-markets-business-121836314.html",
+      "summary": "Robinhood shares edge lower after record quarter for prediction markets business\n\n# Robinhood shares edge lower after record quarter for prediction markets business\n\n \n\n David Hollerith \u00b7 Senior Reporter July 30, 2026 3 min read\n\n## Trading disclosure \n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nRobinhood (HOOD) shares briefly rose Thursday morning before rev",
+      "published": "2026-07-30",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction | TIKR.com",
+      "publisher": "tikr.com",
+      "url": "https://www.tikr.com/blog/robinhood-stock-is-down-5-after-a-crypto-insider-trading-case-heres-whether-the-selloff-is-an-overreaction",
+      "summary": "Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction | TIKR.com\n\n# Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction\n\nWiltone Asuncion \u2022 7 minute read\n\nReviewed by: David Hanson\n\nLast updated Sep 17, 2026\n\n@Mungkhoodstudio's Images via Canva, @\u0417\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430 Lesia Sementsova via Canva\n\n### K ey Stats for Robinhood Stock\n\n- Current Price: $104.42\n- Target Price (Mid): ~$222\n- Street Target: ~$129\n- Potential Total Return: ~112%\n- Annualized IRR: ~19% / year\n\n## What Happe",
+      "published": "2026-09-17",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener",
+      "publisher": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/ROBINHOOD-MARKETS-INC-125228571/consensus/",
+      "summary": "Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener\n\n## Financial Technology (Fintech) \n\n| Real-time Estimate Cboe BZX 11:19:04 2026-10-12 am EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 108.80 USD | -0.20% | | -5.01% | -4.16% |\n\n| 09:29am | Deutsche Bank Adjusts Price Target on Robinhood Markets to $131 From $134 | MT |\n| --- | --- | --- |\n| 05:14am | Evercore ISI Initiates Robinhood Markets at Outperform Rating | MT |\n\n### Evolution of the Average Target: Robinhood Markets, Inc.\n\n### Changes in Ana",
+      "published": "2026-10-12",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Robinhood Markets bull and bear case ahead of Oct 27 earnings By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/robinhood-markets-bull-and-bear-case-ahead-of-oct-27-earnings-93CH-4949672",
+      "summary": "Robinhood Markets bull and bear case ahead of Oct 27 earnings By Investing.com\n\n# Robinhood Markets bull and bear case ahead of Oct 27 earnings\n\nPublished Oct 14, 2026, 10:57 AM\n\nHOOD-5.25%\n\nInvesting.com -- Robinhood Markets Inc (HOOD) trades at $104.81 as of Oct 14, 2026, 10:46 AM EDT, down 5.17% today. The key near-term event is earnings on Oct 27, 2026, after hours.\n\nRobinhood Markets Inc (HOOD): Trading at $104.81 || Market Cap: $99.37B as of Oct 14, 2026 || Next EPS estimate: $0.55 || Next revenue estimate: $1.42B\n\n## Bull Case: Earnings Re-acceleration\n\nRevenue momentum supports the ups",
+      "published": "2026-10-14",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "HOOD | Robinhood Markets Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/HOOD/research-ratings",
+      "summary": "HOOD | Robinhood Markets Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# Robinhood Markets Inc. HOOD (U.S.: Nasdaq) \n\n- ##### REAL TIME 1:22 PM EDT 10/22/26 \n- $ 96.31 USD \n- -5.62 -5.51% \n- ##### Volume 10,921,741 \n\n- Volume 10,921,741 \n- 65 Day Avg Vol 20,304,488 \n- 1 Day Range 95.96 - 101.38 \n- 52 Week Range 63.515 - 150.47 (03/30/26 - 10/31/25) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 16 Oct 19 Oct 20 Oct 21 Oct 22 $95$100$105\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Financial Services\n\n- Open 97.775\n- Prior Close 101.93 (10/21/26)\n\n- 1 Day\n- HOOD -5.51%",
+      "published": "2026-10-16",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Robinhood Markets Inc. Class A Common Stock",
+      "publisher": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/995053/stock/mta/1hood/analysis",
+      "summary": "Now Live: Cboe Europe real-time data for all major European stocks.\n\nData add-ons\n\nUnited States\n\nclosing in 2h 30m\n\n- 0700 382.00 -3.00%\n- EUR/USD 1.12 -0.10%\n- AAPL 346.30 \u00a00.67%\n- TSLA 378.91 -1.96%\n- NESN 84.77 \u00a01.56%\n- 7203 3,093.00 -0.03%\n- USD/JPY 156.95 -0.79%\n- XPT/USD 1,003.20 \u00a00.33%\n- ETH/USD 2,384.14 -3.62%\n- 2330 2,395.00 -1.03%\n- 005930 214,500.00 -4.03%\n- MC 387.80 -0.21%\n- AZN 12,980.00 \u00a02.90%\n- ASML 1,419.60 -4.97%\n\n##### Main market\n\nSTOCKS is currently active.\nClosing in 2 hours 30 minutes\n\n13:29\n\n00:00\n\n09:30\n\n16:00\n\n23:59\n\nTrading Hours (Monday - Friday):\n\nPre-market\n\n04:0",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Robinhood Markets (HOOD) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/hood/forecast/",
+      "summary": "Robinhood Markets (HOOD) Stock Forecast & Analyst Price Targets\n\n96.58 -5.35 (-5.25%) At close: Oct 22, 2026, 4:00 PM EDT\n\n96.34 -0.24 (-0.25%) After-hours: Oct 22, 2026, 7:10 PM EDT\n\n# Robinhood Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 31 analysts polled by S&P Global, Robinhood stock has a consensus rating of \"Buy\" and an average price target of $134.38. The average 1-year stock price forecast is 39.14% higher than the current stock price, while the lowest is $57 (-40.98%) and the highest is $170 (+76.02%).\n\nPrice Target: $134.38 (+39.14%)\n\nAnalyst Consensus: Buy\n\n## Price Targe",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Robinhood Markets, Inc. to Announce Third Quarter 2026",
+      "publisher": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/10/01/3373375/0/en/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026.html",
+      "summary": "Robinhood Markets, Inc. to Announce Third Quarter 2026\n\n# Robinhood Markets, Inc. to Announce Third Quarter 2026 Results on October 27, 2026\n\n October 01, 2026 16:05 ET | Source: Robinhood Markets, Inc. \n\nMENLO PARK, Calif., Oct. 01, 2026 (GLOBE NEWSWIRE) -- Today, Robinhood Markets, Inc. (\u201cRobinhood\u201d) (NASDAQ: HOOD) announced that it will release its third quarter 2026 financial results on Tuesday, October 27, 2026, after market close. Robinhood will host a video call with Chairman & Chief Executive Officer Vlad Tenev and Chief Financial Officer Shiv Verma to discuss its results at 2:00 PM PT",
+      "published": "2026-10-27",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Noteworthy Friday Option Activity: HOOD, TMDX, AA",
+      "publisher": "BNK Invest",
+      "created": "Oct 16, 2026",
+      "ago": "6 days ago",
+      "url": "/articles/noteworthy-friday-option-activity-hood-tmdx-aa",
+      "primary_symbol": "HOOD",
+      "related_symbols": [
+        "HOOD",
+        "TMDX",
+        "AA"
+      ],
+      "summary": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Robinhood Markets Inc (Symbol: HOOD), where a total of 387,037 contracts have traded so far, representing approximately 38.7 million underlying shares.  That amounts to a",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Implied Volatility Surging for Robinhood Stock Options",
+      "publisher": "Zacks",
+      "created": "Oct 16, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/implied-volatility-surging-robinhood-stock-options",
+      "primary_symbol": null,
+      "related_symbols": [
+        "HOOD"
+      ],
+      "summary": "Investors need to pay close attention to HOOD stock based on the movements in the options market lately.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Is Trending Stock Robinhood Markets, Inc. (HOOD) a Buy Now?",
+      "publisher": "Zacks",
+      "created": "Oct 16, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/trending-stock-robinhood-markets-inc-hood-buy-now",
+      "primary_symbol": null,
+      "related_symbols": [
+        "HOOD"
+      ],
+      "summary": "Recently, Zacks.com users have been paying close attention to Robinhood Markets (HOOD). This makes it worthwhile to examine what the stock has in store.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Robinhood Markets, Inc. (HOOD) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/robinhood-markets-inc-hood-stock-falls-amid-market-uptick-what-investors-need-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "HOOD"
+      ],
+      "summary": "Robinhood Markets, Inc. (HOOD) reached $96.52 at the closing of the latest trading day, reflecting a -2.38% change compared to its last close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Robinhood Markets, Inc. (HOOD) Expected to Beat Earnings Estimates: Should You Buy?",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/robinhood-markets-inc-hood-expected-beat-earnings-estimates-should-you-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "HOOD"
+      ],
+      "summary": "Robinhood Markets (HOOD) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Crypto and Beyond? Here's Why Robinhood is a Better Buy Than Coinbase Today",
+      "publisher": "The Motley Fool",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/crypto-and-beyond-heres-why-robinhood-better-buy-coinbase-today",
+      "primary_symbol": "COIN",
+      "related_symbols": [
+        "COIN",
+        "HOOD"
+      ],
+      "summary": "Key PointsCoinbase Global serves as a dominant crypto infrastructure provider with a strong presence in over 100 countries.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "What Analyst Projections for Key Metrics Reveal About Robinhood Markets (HOOD) Q3 Earnings",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "14 hours ago",
+      "url": "/articles/what-analyst-projections-key-metrics-reveal-about-robinhood-markets-hood-q3-earnings",
+      "primary_symbol": null,
+      "related_symbols": [
+        "HOOD"
+      ],
+      "summary": "Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Robinhood Markets (HOOD), delve into some of its key metrics to gain a deeper insight into the company's potential performance for the quarter ended September 2026.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "IBKR Q3 Earnings Match Estimates on Higher Revenues, Dividend Hiked",
+      "publisher": "Zacks",
+      "created": "Oct 16, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/ibkr-q3-earnings-match-estimates-higher-revenues-dividend-hiked",
+      "primary_symbol": null,
+      "related_symbols": [
+        "IBKR",
+        "TW",
+        "HOOD"
+      ],
+      "summary": "Interactive Brokers' Q3 2026 earnings match estimates as higher net interest income, commission revenues and customer growth offset rising expenses.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Synchrony Q3 Earnings Beat Estimates on Improved Purchase Volume",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/synchrony-q3-earnings-beat-estimates-improved-purchase-volume",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SYF",
+        "MCY",
+        "HOOD",
+        "AII"
+      ],
+      "summary": "SYF's Q3 2026 earnings beat estimates, fueled by stronger purchase volume and improved credit performance, as rising expenses weighed on results.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "MSCI Q3 Earnings Surpass Estimates, Revenues Increase Year over Year",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/msci-q3-earnings-surpass-estimates-revenues-increase-year-over-year",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSCI",
+        "STBA",
+        "BUSE",
+        "HOOD"
+      ],
+      "summary": "MSCI's Q3 earnings beat estimates as revenues rose 12.4%, fueled by strong asset-based fees and subscriptions, despite declining free cash flow.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is Raymond James Well-Positioned to Sustain Strong Capital Returns?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/raymond-james-well-positioned-sustain-strong-capital-returns",
+      "primary_symbol": null,
+      "related_symbols": [
+        "RJF",
+        "BGC",
+        "HOOD"
+      ],
+      "summary": "RJF's solid capital position, steady earnings growth and disciplined capital allocation support sustainable dividends and share repurchases.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Raymond James Financial, Inc. (RJF) Reports Next Week: Wall Street Expects Earnings Growth",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/raymond-james-financial-inc-rjf-reports-next-week-wall-street-expects-earnings-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "RJF",
+        "HOOD"
+      ],
+      "summary": "Raymond James Financial (RJF) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Stifel Financial (SF) Q3 Earnings Beat Estimates",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/stifel-financial-sf-q3-earnings-beat-estimates",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SF",
+        "HOOD"
+      ],
+      "summary": "Stifel (SF) delivered earnings and revenue surprises of +2.10% and -1.59%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BofA raises Robinhood stock price target on trading strength By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/bofa-raises-robinhood-stock-price-target-on-trading-strength-93CH-4931754",
+      "summary": "BofA raises Robinhood stock price target on trading strength By Investing.com\n\n# BofA raises Robinhood stock price target on trading strength\n\nPublished Oct 05, 2026, 07:14 AM\n\nBofA raises Robinhood stock price target on trading strength\n\nIn this article:\n\nHOOD+1.75%\n\nInvesting.com - BofA Securities raised its price target on Robinhood Markets (NASDAQ:HOOD) to $156 from $140 while maintaining a Buy rating on the stock.\n\nThe firm increased its earnings estimates for the financial technology company across multiple periods. BofA now projects third-quarter 2026 earnings per share of $0.55, up fro",
+      "published": "2026-10-05",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "valuation_dispersion",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Stocks Pressured as Chipmaker Selloff Deepens",
+      "publisher": "Barchart",
+      "created": "Oct 15, 2026",
+      "ago": "Oct 15, 2026",
+      "url": "/articles/stocks-pressured-chipmaker-selloff-deepens",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "ANET",
+        "SNDK",
+        "GLXY",
+        "TRI",
+        "LITE",
+        "AMGN",
+        "COIN",
+        "PFE",
+        "CRWV",
+        "STX",
+        "WDC",
+        "AMD",
+        "CMC",
+        "SPY",
+        "KMB",
+        "ADSK",
+        "IP",
+        "MU",
+        "ALNY",
+        "QQQ",
+        "IREN",
+        "NOW",
+        "ADBE",
+        "HOOD",
+        "MRVL",
+        "CRM",
+        "BIIB",
+        "WMT",
+        "INTU",
+        "MRK",
+        "RKLB",
+        "BMNR",
+        "IBM",
+        "LRCX",
+        "LLY",
+        "DIA",
+        "FMC",
+        "KLAC",
+        "MARA",
+        "VRTX",
+        "WDAY",
+        "INTC",
+        "PAG",
+        "APLD",
+        "SOXX",
+        "RIOT",
+        "NBIS",
+        "GILD",
+        "REGN"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.57% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.30%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -1.71%.  December E-mini S&P futures (ESZ26 ) are down -0.58%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks Settle Mixed as Broader Market Recovers from Chip Stock Rout",
+      "publisher": "Barchart",
+      "created": "Oct 16, 2026",
+      "ago": "6 days ago",
+      "url": "/articles/stocks-settle-mixed-broader-market-recovers-chip-stock-rout",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "SNDK",
+        "GLXY",
+        "TRI",
+        "AMGN",
+        "COIN",
+        "JAZZ",
+        "STX",
+        "WDC",
+        "AMD",
+        "SPY",
+        "KMB",
+        "ADSK",
+        "IP",
+        "ALNY",
+        "ORCL",
+        "QQQ",
+        "NOW",
+        "ADBE",
+        "HPE",
+        "HOOD",
+        "CRM",
+        "BIIB",
+        "MRVL",
+        "INTU",
+        "IONS",
+        "RKLB",
+        "BMNR",
+        "LLY",
+        "LRCX",
+        "DIA",
+        "FMC",
+        "DELL",
+        "MARA",
+        "KLAC",
+        "NVDA",
+        "VRTX",
+        "WDAY",
+        "INTC",
+        "PAG",
+        "APLD",
+        "TEAM",
+        "RIOT",
+        "GILD",
+        "REGN"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.33% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +1.08%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.05%.  December E-mini S&P futures (ESZ26 ) rose +0.28%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? | Morningstar",
+      "publisher": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/this-1-star-stock-trades-94-premium-is-it-time-sell",
+      "summary": "This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? | Morningstar\n\n# This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? \n\nEven with significant growth potential, the stock\u2019s lofty valuation is difficult to justify.\n\n Sean Dunlop, CFA Oct 15, 2026\n\nRobinhood has built a strong following among young customers, but investors are paying a steep price for its growth. The 1-star stock trades at nearly twice Morningstar\u2019s $57 fair value estimate. On a recent episode of The Morning Filter podcast, 5 Stocks to Sell for Tax-Loss Harvesting, Morningstar Chief US Market Strategist D",
+      "published": "2026-10-15",
+      "source": "ollama_search",
+      "query": "Robinhood Markets, Inc. (HOOD) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 14,
+        "share": 0.519,
+        "evidence": [
+          {
+            "title": "Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-07-29",
+            "matched": [
+              "forecast",
+              "estimate",
+              "beats"
+            ]
+          },
+          {
+            "title": "Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end (NASDAQ:HOOD) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-07-29",
+            "matched": [
+              "outlook"
+            ]
+          },
+          {
+            "title": "Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-10-12",
+            "matched": [
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Robinhood Markets bull and bear case ahead of Oct 27 earnings By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-14",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 7,
+        "share": 0.259,
+        "evidence": [
+          {
+            "title": "Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-07-29",
+            "matched": [
+              "options"
+            ]
+          },
+          {
+            "title": "Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction | TIKR.com",
+            "publisher": "tikr.com",
+            "published": "2026-09-17",
+            "matched": [
+              "insider"
+            ]
+          },
+          {
+            "title": "Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-10-12",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Robinhood Markets (HOOD) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 3,
+        "share": 0.111,
+        "evidence": [
+          {
+            "title": "ROBINHOOD MARKETS, INC. (HOOD)",
+            "publisher": "henryfund.tippie.uiowa.edu",
+            "published": "2025-04-23",
+            "matched": [
+              "p/e"
+            ]
+          },
+          {
+            "title": "BofA raises Robinhood stock price target on trading strength By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-05",
+            "matched": [
+              "multiple"
+            ]
+          },
+          {
+            "title": "This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? | Morningstar",
+            "publisher": "morningstar.com",
+            "published": "2026-10-15",
+            "matched": [
+              "valuation",
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 2,
+        "share": 0.074,
+        "evidence": [
+          {
+            "title": "IBKR Q3 Earnings Match Estimates on Higher Revenues, Dividend Hiked",
+            "publisher": "Zacks",
+            "published": "Oct 16, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Is Raymond James Well-Positioned to Sustain Strong Capital Returns?",
+            "publisher": "Zacks",
+            "published": "Oct 21, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.037,
+        "evidence": [
+          {
+            "title": "MSCI Q3 Earnings Surpass Estimates, Revenues Increase Year over Year",
+            "publisher": "Zacks",
+            "published": "Oct 20, 2026",
+            "matched": [
+              "free cash flow"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-28"
+    ],
+    "next_date": "2026-10-28",
+    "eps_avg": 0.64417,
+    "eps_low": 0.62,
+    "eps_high": 0.68,
+    "revenue_avg": 1431474300
+  },
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "days_out": 4,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 0.55
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 0.43,
+        "eps_actual": 0.62,
+        "surprise_pct": 43.71,
+        "beat": true
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 0.43,
+        "eps_actual": 0.47,
+        "surprise_pct": 8.63,
+        "beat": true
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 0.68,
+        "eps_actual": 0.73,
+        "surprise_pct": 6.26,
+        "beat": true
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 0.54,
+        "eps_actual": 0.61,
+        "surprise_pct": 12.07,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-27 (Tuesday, after the close), 4 days out -- from the earnings calendar, consensus EPS 0.55."
+  },
+  "forward_trends": {
+    "queries": [
+      "retail brokerage industry 2026 2027 trading volume outlook options crypto retail investors",
+      "prediction markets event contracts CFTC regulation 2026 2027 market growth",
+      "retail crypto trading competition 2026 2027 exchanges regulation adoption",
+      "US consumer savings disposable income employment 2026 2027 retail investing participation younger investors"
+    ],
+    "results_count": 20,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "In preliminary June 2026 data, Robinhood event-contract volume ran about 60% above May.",
+        "stance": "support",
+        "why": "Higher event-contract activity should lift transaction-based revenue when the quarter is reported.",
+        "quote": "Event contracts led every Robinhood segment, tracking roughly 60% higher month-over-month",
+        "url": "https://datalab.financemagnates.com/market-insights/retail-s-june-rebound-skipped-crypto",
+        "publisher": "datalab.financemagnates.com",
+        "as_of": "2026-07-09",
+        "age_days": 106,
+        "undated": false
+      },
+      {
+        "claim": "In June 2026, the retail trading rebound bypassed cryptocurrency, a prior cycle driver.",
+        "stance": "pressure",
+        "why": "Lower crypto volumes reduce Robinhood's crypto transaction revenue.",
+        "quote": "The rebound landed unevenly, and it bypassed the asset class that drove previous cycles: cryptocurrency.",
+        "url": "https://www.financemagnates.com/forex/analysis/retail-trading-roared-back-in-june-but-crypto-missed-the-rally/",
+        "publisher": "financemagnates.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "As of August 2026, prediction markets are expanding across sports, culture and economics.",
+        "stance": "support",
+        "why": "Broader event-contract demand supports Robinhood's fast-growing event-contract revenue.",
+        "quote": "Prediction markets have gained momentum and popularity since the 2024 presidential election, expanding across sports, culture and economics.",
+        "url": "https://www.ey.com/en_us/insights/banking-capital-markets/prediction-markets-and-the-current-landscape",
+        "publisher": "ey.com",
+        "as_of": "2026-08-19",
+        "age_days": 65,
+        "undated": false
+      },
+      {
+        "claim": "In June 2026, the CFTC proposed rules defining which event contracts may list on prediction markets.",
+        "stance": "pressure",
+        "why": "New listing limits could slow Robinhood's event-contract volume growth.",
+        "quote": "the Commodity Futures Trading Commission (CFTC) issued a proposed rule regarding the types of event contracts that can be listed",
+        "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11441/LSB11441.1.pdf",
+        "publisher": "congress.gov",
+        "as_of": "2026-06-24",
+        "age_days": 121,
+        "undated": false
+      },
+      {
+        "claim": "As of June 2026, US retail trading regularly exceeds $70 billion a day.",
+        "stance": "support",
+        "why": "Sustained retail participation supports Robinhood's transaction volumes and account growth.",
+        "quote": "Retail trading in the United States now regularly exceeds $70 billion a day.",
+        "url": "https://www.nasdaq.com/newsroom/retail-brokerage-industry-evolving-fast-heres-what-leaders-are-focused-on",
+        "publisher": "nasdaq.com",
+        "as_of": "2026-06-11",
+        "age_days": 134,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "HOOD",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 96.58,
+      "catalyst": "2027-01-27",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 100.0,
+        "premium": 13.02,
+        "bid": 12.95,
+        "ask": 13.1,
+        "mid": 13.02,
+        "last": 12.98,
+        "open_interest": 558,
+        "volume": 102,
+        "implied_vol": 0.6563755065917969,
+        "qty": 3
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 100.0,
+        "premium": 6.2,
+        "bid": 6.15,
+        "ask": 6.25,
+        "mid": 6.2,
+        "last": 6.2,
+        "open_interest": 4818,
+        "volume": 1024,
+        "implied_vol": 0.7060576269531251,
+        "qty": 1
+      },
+      "long_total": 3906.0,
+      "short_total": 620.0,
+      "net_debit": 3286.0,
+      "credit_ratio_mid": 0.1587,
+      "credit_ratio_conservative": 0.1565,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Feb-27",
+          "strike": 100.0,
+          "qty": 3,
+          "underlying": 96.58,
+          "multiplier": 100,
+          "price": 13.02,
+          "total": 3906.0,
+          "open_interest": 558
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 100.0,
+          "qty": 1,
+          "underlying": 96.58,
+          "multiplier": 100,
+          "price": 6.2,
+          "total": -620.0,
+          "open_interest": 4818
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-27 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 100, 105, 110, 115"
+      ],
+      "advice": "Credit ratio 15.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.1587,
+          "credit_ratio_conservative": 0.1565,
+          "passes_floor": true,
+          "cash_collected": 620.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.3175,
+          "credit_ratio_conservative": 0.313,
+          "passes_floor": true,
+          "cash_collected": 1240.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.4762,
+          "credit_ratio_conservative": 0.4695,
+          "passes_floor": true,
+          "cash_collected": 1860.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "HOOD",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 96.58,
+      "catalyst": "2027-01-27",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 95.0,
+        "premium": 12.18,
+        "bid": 12.1,
+        "ask": 12.25,
+        "mid": 12.18,
+        "last": 12.48,
+        "open_interest": 834,
+        "volume": 84.0,
+        "implied_vol": 0.5939371661376953,
+        "qty": 3
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 95.0,
+        "premium": 6.55,
+        "bid": 6.5,
+        "ask": 6.6,
+        "mid": 6.55,
+        "last": 6.6,
+        "open_interest": 9443,
+        "volume": 849.0,
+        "implied_vol": 0.6799348413085939,
+        "qty": 1
+      },
+      "long_total": 3654.0,
+      "short_total": 655.0,
+      "net_debit": 2999.0,
+      "credit_ratio_mid": 0.1793,
+      "credit_ratio_conservative": 0.1769,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Feb-27",
+          "strike": 95.0,
+          "qty": 3,
+          "underlying": 96.58,
+          "multiplier": 100,
+          "price": 12.18,
+          "total": 3654.0,
+          "open_interest": 834
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 95.0,
+          "qty": 1,
+          "underlying": 96.58,
+          "multiplier": 100,
+          "price": 6.55,
+          "total": -655.0,
+          "open_interest": 9443
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-27 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-27); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 95, 90, 85, 80"
+      ],
+      "advice": "Credit ratio 17.7% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.1793,
+          "credit_ratio_conservative": 0.1769,
+          "passes_floor": true,
+          "cash_collected": 655.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.3585,
+          "credit_ratio_conservative": 0.3537,
+          "passes_floor": true,
+          "cash_collected": 1310.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.5378,
+          "credit_ratio_conservative": 0.5306,
+          "passes_floor": true,
+          "cash_collected": 1965.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for HOOD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HOOD/key-statistics/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "Price: 96.58 USD Market Cap: 86.83B Fwd PE: 44.55 P/S: 17.6 EPS trends: slightly up over the last 7 days EPS revisions: tilted higher, with 11 up and 3 down over last 30 days price 96.58 market cap 86.83B forward PE 44.55 forward PE next FY 32.64 trailing PE 44.92093 P/S 17.60612 EV/EBITDA None"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for HOOD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HOOD/analysis/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "FY consensus 2.16791 now, 2.15367 7 days ago, 2.08823 30 days ago, change over 30 days 3.82%; EPS revisions 11 up and 3 down over 30 days, 4 up and 1 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "HOOD quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hood/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Long-Term Investments increasing 79.9% (3/31/2026 to 6/30/2026) Earnings Before Interest and Tax increasing 72.5% (3/31/2026 to 6/30/2026) Net Income increasing 60.3% (3/31/2026 to 6/30/2026) Total Liabilities increasing 31.4% (3/31/2026 to 6/30/2026) Net Receivables increasing 28.1% (3/31/2026 to 6/30/2026) Total Revenue increasing 22.6% (3/31/2026 to 6/30/2026) EPS increased year over year 0.42 to 0.62 Total Revenue 22.6% quarter over quarter and 32.3% year over year to 2026-06-30 Net Income 60.3% quarter over quarter and 45.3% year over year to 2026-06-30 EBIT 39.7% quarter over quarter and 30.8% year over year to 2026-06-30 EBITDA 37.6% quarter over quarter and 29.8% year over year to 2026-06-30 Gross Profit 24.7% quarter over quarter and 32.5% year over year to 2026-06-30 Selling General And Administration 0.6% quarter over quarter and 34.7% year over year to 2026-06-30 Total Revenue increasing 51.6% in fiscal 2025-12-31 vs 2024-12-31 Net Income increasing 33.5% in fiscal 2025-12-31 vs 2024-12-31 EBIT increasing 98.7% in fiscal 2025-12-31 vs 2024-12-31 Operating Income increasing 98.7% in fiscal 2025-12-31 vs 2024-12-31 EBITDA increasing 92.7% in fiscal 2025-12-31 vs 2024-12-31 Gross Profit increasing 59.0% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "HOOD balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hood/financials",
+      "date": "2025-12-31",
+      "weight": null,
+      "text": "Goodwill rose 115.1% from 179000000.0 in 2024-12-31 to 385000000.0 in 2025-12-31 (fiscal year), which is an acquisition closing in that periodOther Intangible Assets rose 342.1% in the same period Goodwill rose 28.7% from 401000000.0 in 2026-03-31 to 516000000.0 in 2026-06-30 (quarter), which is an acquisition closing in that period"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "HOOD earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hood/earnings",
+      "date": "2026-10-27",
+      "weight": null,
+      "text": "2026-10-27 (Tuesday, after the close), 4 days out -- from the earnings calendar, consensus EPS 0.55. beat streak 4 median gap 91 days 2026-07-29 estimate 0.43 actual 0.62 surprise 43.71% 2026-04-28 estimate 0.43 actual 0.47 surprise 8.63% 2026-02-10 estimate 0.68 actual 0.73 surprise 6.26% 2025-11-05 estimate 0.54 actual 0.61 surprise 12.07%"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: Noteworthy Friday Option Activity: HOOD, TMDX, AA",
+      "provider": null,
+      "url": "/articles/noteworthy-friday-option-activity-hood-tmdx-aa",
+      "date": "Oct 16, 20",
+      "weight": 3,
+      "text": "Noteworthy Friday Option Activity: HOOD, TMDX, AA Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Robinhood Markets Inc (Symbol: HOOD), where a total of 387,037 contracts have traded so far, representing approximately 38.7 million underlying shares.  That amounts to a"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Implied Volatility Surging for Robinhood Stock Options",
+      "provider": null,
+      "url": "/articles/implied-volatility-surging-robinhood-stock-options",
+      "date": "Oct 16, 20",
+      "weight": 3,
+      "text": "Implied Volatility Surging for Robinhood Stock Options Investors need to pay close attention to HOOD stock based on the movements in the options market lately."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Is Trending Stock Robinhood Markets, Inc. (HOOD) a Buy Now?",
+      "provider": null,
+      "url": "/articles/trending-stock-robinhood-markets-inc-hood-buy-now",
+      "date": "Oct 16, 20",
+      "weight": 3,
+      "text": "Is Trending Stock Robinhood Markets, Inc. (HOOD) a Buy Now? Recently, Zacks.com users have been paying close attention to Robinhood Markets (HOOD). This makes it worthwhile to examine what the stock has in store."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Robinhood Markets, Inc. (HOOD) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "provider": null,
+      "url": "/articles/robinhood-markets-inc-hood-stock-falls-amid-market-uptick-what-investors-need-know",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "Robinhood Markets, Inc. (HOOD) Stock Falls Amid Market Uptick: What Investors Need to Know Robinhood Markets, Inc. (HOOD) reached $96.52 at the closing of the latest trading day, reflecting a -2.38% change compared to its last close."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Robinhood Markets, Inc. (HOOD) Expected to Beat Earnings Estimates: Should You Buy?",
+      "provider": null,
+      "url": "/articles/robinhood-markets-inc-hood-expected-beat-earnings-estimates-should-you-buy",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Robinhood Markets, Inc. (HOOD) Expected to Beat Earnings Estimates: Should You Buy? Robinhood Markets (HOOD) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Crypto and Beyond? Here's Why Robinhood is a Better Buy Than Coinbase Today",
+      "provider": null,
+      "url": "/articles/crypto-and-beyond-heres-why-robinhood-better-buy-coinbase-today",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "Crypto and Beyond? Here's Why Robinhood is a Better Buy Than Coinbase Today Key PointsCoinbase Global serves as a dominant crypto infrastructure provider with a strong presence in over 100 countries."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: What Analyst Projections for Key Metrics Reveal About Robinhood Markets (HOOD) Q3 Earnings",
+      "provider": null,
+      "url": "/articles/what-analyst-projections-key-metrics-reveal-about-robinhood-markets-hood-q3-earnings",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "What Analyst Projections for Key Metrics Reveal About Robinhood Markets (HOOD) Q3 Earnings Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Robinhood Markets (HOOD), delve into some of its key metrics to gain a deeper insight into the company's potential performance for the quarter ended September 2026."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: IBKR Q3 Earnings Match Estimates on Higher Revenues, Dividend Hiked",
+      "provider": null,
+      "url": "/articles/ibkr-q3-earnings-match-estimates-higher-revenues-dividend-hiked",
+      "date": "Oct 16, 20",
+      "weight": 2,
+      "text": "IBKR Q3 Earnings Match Estimates on Higher Revenues, Dividend Hiked Interactive Brokers' Q3 2026 earnings match estimates as higher net interest income, commission revenues and customer growth offset rising expenses."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Synchrony Q3 Earnings Beat Estimates on Improved Purchase Volume",
+      "provider": null,
+      "url": "/articles/synchrony-q3-earnings-beat-estimates-improved-purchase-volume",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Synchrony Q3 Earnings Beat Estimates on Improved Purchase Volume SYF's Q3 2026 earnings beat estimates, fueled by stronger purchase volume and improved credit performance, as rising expenses weighed on results."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: MSCI Q3 Earnings Surpass Estimates, Revenues Increase Year over Year",
+      "provider": null,
+      "url": "/articles/msci-q3-earnings-surpass-estimates-revenues-increase-year-over-year",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "MSCI Q3 Earnings Surpass Estimates, Revenues Increase Year over Year MSCI's Q3 earnings beat estimates as revenues rose 12.4%, fueled by strong asset-based fees and subscriptions, despite declining free cash flow."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is Raymond James Well-Positioned to Sustain Strong Capital Returns?",
+      "provider": null,
+      "url": "/articles/raymond-james-well-positioned-sustain-strong-capital-returns",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "Is Raymond James Well-Positioned to Sustain Strong Capital Returns? RJF's solid capital position, steady earnings growth and disciplined capital allocation support sustainable dividends and share repurchases."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Raymond James Financial, Inc. (RJF) Reports Next Week: Wall Street Expects Earnings Growth",
+      "provider": null,
+      "url": "/articles/raymond-james-financial-inc-rjf-reports-next-week-wall-street-expects-earnings-growth",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "Raymond James Financial, Inc. (RJF) Reports Next Week: Wall Street Expects Earnings Growth Raymond James Financial (RJF) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Stifel Financial (SF) Q3 Earnings Beat Estimates",
+      "provider": null,
+      "url": "/articles/stifel-financial-sf-q3-earnings-beat-estimates",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "Stifel Financial (SF) Q3 Earnings Beat Estimates Stifel (SF) delivered earnings and revenue surprises of +2.10% and -1.59%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Pressured as Chipmaker Selloff Deepens",
+      "provider": null,
+      "url": "/articles/stocks-pressured-chipmaker-selloff-deepens",
+      "date": "Oct 15, 20",
+      "weight": 1,
+      "text": "Stocks Pressured as Chipmaker Selloff Deepens The S&P 500 Index ($SPX ) (SPY ) is down by -0.57% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.30%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -1.71%.  December E-mini S&P futures (ESZ26 ) are down -0.58%, and December E-mini..."
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Barchart: Stocks Settle Mixed as Broader Market Recovers from Chip Stock Rout",
+      "provider": null,
+      "url": "/articles/stocks-settle-mixed-broader-market-recovers-chip-stock-rout",
+      "date": "Oct 16, 20",
+      "weight": 1,
+      "text": "Stocks Settle Mixed as Broader Market Recovers from Chip Stock Rout The S&P 500 Index ($SPX ) (SPY ) closed up by +0.33% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +1.08%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.05%.  December E-mini S&P futures (ESZ26 ) rose +0.28%, and December E-mini..."
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "henryfund.tippie.uiowa.edu: ROBINHOOD MARKETS, INC. (HOOD)",
+      "provider": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2025-09/s25_HOOD.pdf",
+      "date": "2025-04-23",
+      "weight": 3,
+      "text": "ROBINHOOD MARKETS, INC. (HOOD) The Henry Fund\n\nHenry B. Tippie College of Business Patrick Clark [pjclrk@uiowa.edu]\n\n## ROBINHOOD MARKETS, INC. (HOOD) April 23, 2025\n\n| Financial Services | \u2013 Brokerage & Investment Services | | Stock Rating | | | BUY | |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| | Investment Thesis | | Target Price | | | $ 50.59 | |\n| | | Henry Fund DCF | | | | | $50.59 |\n| Robinhood\u2019s strong position in fintech, innovative approach to investing, and | | Henry Fund Relative P/E | | | | | $38.24 |\n| appeal to | younger users make it a compelling long-term growth story. With an | Price Data | | | |"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "investing.com: Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-robinhood-beats-q2-2026-estimates-as-growth-stays-strong-93CH-4821999",
+      "date": "2026-07-29",
+      "weight": 3,
+      "text": "Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong By Investing.com Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong By Investing.com\n\n# Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong\n\nPublished Jul 29, 2026, 06:36 PM\n\nRobinhood Markets reported stronger-than-expected second-quarter 2026 results, with earnings per share of $0.62 topping Wall Street\u2019s estimate of $0.42 and revenue rising to a record $1.3 billion, above the $1.25 billion forecast. The company said growth was driven by record trading activity, record net deposits and expanding use of its newer products, including banking, credi"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end (NASDAQ:HOOD) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4621130-robinhood-lowers-2026-adjusted-opex-outlook-to-2_675b-2_775b-while-targeting-robinhood-social",
+      "date": "2026-07-29",
+      "weight": 3,
+      "text": "Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end (NASDAQ:HOOD) | Seeking Alpha Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end (NASDAQ:HOOD) | Seeking Alpha\n\n# Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end\n\nJul 29, 2026, 9:44 PM ET Robinhood Markets, Inc. (HOOD) Stock, HOOD:CA Stock, ZHOO:CA Stock AI-Generated Earnings Calls Insights 1 Comment\n\nEarnings Call Insights: Robinhood Markets (HOOD) Q2 2026\n\n### Management View\n\n- \u201cIn Q2, our continued product velocity across these 3 arcs led to a bunch of records... core business is hu"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4620798-robinhood-q2-earnings-revenue-beat-as-equities-options-trading-shine",
+      "date": "2026-07-29",
+      "weight": 3,
+      "text": "Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) | Seeking Alpha Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) | Seeking Alpha\n\n# Robinhood Q2 earnings, revenue beat as equities, options trading shine\n\nJul 29, 2026, 4:26 PM ET Robinhood Markets, Inc. (HOOD) Stock By: Liz Kiesche, SA News Editor 2 Comments\n\nScott Olson\n\nRobinhood Markets (HOOD) turned in strong Q2 results and reduced the range of expected operating expenses for the full year 2026. \"The business is firing on all cylinders,\" Chief Financial Officer Shiv Verma said.\n\nHowever, the stock dipped 3.8% in Wednesday after-hours\n\n## Quick Insights\n\n- ### How did"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "finance.yahoo.com: Robinhood shares edge lower after record quarter for prediction markets business",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/article/robinhood-shares-edge-lower-after-record-quarter-for-prediction-markets-business-121836314.html",
+      "date": "2026-07-30",
+      "weight": 3,
+      "text": "Robinhood shares edge lower after record quarter for prediction markets business Robinhood shares edge lower after record quarter for prediction markets business\n\n# Robinhood shares edge lower after record quarter for prediction markets business\n\n \n\n David Hollerith \u00b7 Senior Reporter July 30, 2026 3 min read\n\n## Trading disclosure \n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nRobinhood (HOOD) shares briefly rose Thursday morning before rev"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "tikr.com: Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction | TIKR.com",
+      "provider": "tikr.com",
+      "url": "https://www.tikr.com/blog/robinhood-stock-is-down-5-after-a-crypto-insider-trading-case-heres-whether-the-selloff-is-an-overreaction",
+      "date": "2026-09-17",
+      "weight": 3,
+      "text": "Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction | TIKR.com Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction | TIKR.com\n\n# Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction\n\nWiltone Asuncion \u2022 7 minute read\n\nReviewed by: David Hanson\n\nLast updated Sep 17, 2026\n\n@Mungkhoodstudio's Images via Canva, @\u0417\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430 Lesia Sementsova via Canva\n\n### K ey Stats for Robinhood Stock\n\n- Current Price: $104.42\n- Target Price (Mid): ~$222\n- Street Target: ~$129\n- Potential Total Return: ~112%\n- Annualized IRR: ~19% / year\n\n## What Happe"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "marketscreener.com: Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/ROBINHOOD-MARKETS-INC-125228571/consensus/",
+      "date": "2026-10-12",
+      "weight": 3,
+      "text": "Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener\n\n## Financial Technology (Fintech) \n\n| Real-time Estimate Cboe BZX 11:19:04 2026-10-12 am EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 108.80 USD | -0.20% | | -5.01% | -4.16% |\n\n| 09:29am | Deutsche Bank Adjusts Price Target on Robinhood Markets to $131 From $134 | MT |\n| --- | --- | --- |\n| 05:14am | Evercore ISI Initiates Robinhood Markets at Outperform Rating | MT |\n\n### Evolution of the Average Target: Robinhood Markets, Inc.\n\n### Changes in Ana"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "investing.com: Robinhood Markets bull and bear case ahead of Oct 27 earnings By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/robinhood-markets-bull-and-bear-case-ahead-of-oct-27-earnings-93CH-4949672",
+      "date": "2026-10-14",
+      "weight": 3,
+      "text": "Robinhood Markets bull and bear case ahead of Oct 27 earnings By Investing.com Robinhood Markets bull and bear case ahead of Oct 27 earnings By Investing.com\n\n# Robinhood Markets bull and bear case ahead of Oct 27 earnings\n\nPublished Oct 14, 2026, 10:57 AM\n\nHOOD-5.25%\n\nInvesting.com -- Robinhood Markets Inc (HOOD) trades at $104.81 as of Oct 14, 2026, 10:46 AM EDT, down 5.17% today. The key near-term event is earnings on Oct 27, 2026, after hours.\n\nRobinhood Markets Inc (HOOD): Trading at $104.81 || Market Cap: $99.37B as of Oct 14, 2026 || Next EPS estimate: $0.55 || Next revenue estimate: $1.42B\n\n## Bull Case: Earnings Re-acceleration\n\nRevenue momentum supports the ups"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "wsj.com: HOOD | Robinhood Markets Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/HOOD/research-ratings",
+      "date": "2026-10-16",
+      "weight": 3,
+      "text": "HOOD | Robinhood Markets Inc. Analyst Estimates & Ratings \u2013 WSJ HOOD | Robinhood Markets Inc. Analyst Estimates & Ratings \u2013 WSJ\n\n# Robinhood Markets Inc. HOOD (U.S.: Nasdaq) \n\n- ##### REAL TIME 1:22 PM EDT 10/22/26 \n- $ 96.31 USD \n- -5.62 -5.51% \n- ##### Volume 10,921,741 \n\n- Volume 10,921,741 \n- 65 Day Avg Vol 20,304,488 \n- 1 Day Range 95.96 - 101.38 \n- 52 Week Range 63.515 - 150.47 (03/30/26 - 10/31/25) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 16 Oct 19 Oct 20 Oct 21 Oct 22 $95$100$105\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Financial Services\n\n- Open 97.775\n- Prior Close 101.93 (10/21/26)\n\n- 1 Day\n- HOOD -5.51%"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "twelvedata.com: Robinhood Markets Inc. Class A Common Stock",
+      "provider": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/995053/stock/mta/1hood/analysis",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "Robinhood Markets Inc. Class A Common Stock Now Live: Cboe Europe real-time data for all major European stocks.\n\nData add-ons\n\nUnited States\n\nclosing in 2h 30m\n\n- 0700 382.00 -3.00%\n- EUR/USD 1.12 -0.10%\n- AAPL 346.30 \u00a00.67%\n- TSLA 378.91 -1.96%\n- NESN 84.77 \u00a01.56%\n- 7203 3,093.00 -0.03%\n- USD/JPY 156.95 -0.79%\n- XPT/USD 1,003.20 \u00a00.33%\n- ETH/USD 2,384.14 -3.62%\n- 2330 2,395.00 -1.03%\n- 005930 214,500.00 -4.03%\n- MC 387.80 -0.21%\n- AZN 12,980.00 \u00a02.90%\n- ASML 1,419.60 -4.97%\n\n##### Main market\n\nSTOCKS is currently active.\nClosing in 2 hours 30 minutes\n\n13:29\n\n00:00\n\n09:30\n\n16:00\n\n23:59\n\nTrading Hours (Monday - Friday):\n\nPre-market\n\n04:0"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "stockanalysis.com: Robinhood Markets (HOOD) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/hood/forecast/",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Robinhood Markets (HOOD) Stock Forecast & Analyst Price Targets Robinhood Markets (HOOD) Stock Forecast & Analyst Price Targets\n\n96.58 -5.35 (-5.25%) At close: Oct 22, 2026, 4:00 PM EDT\n\n96.34 -0.24 (-0.25%) After-hours: Oct 22, 2026, 7:10 PM EDT\n\n# Robinhood Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 31 analysts polled by S&P Global, Robinhood stock has a consensus rating of \"Buy\" and an average price target of $134.38. The average 1-year stock price forecast is 39.14% higher than the current stock price, while the lowest is $57 (-40.98%) and the highest is $170 (+76.02%).\n\nPrice Target: $134.38 (+39.14%)\n\nAnalyst Consensus: Buy\n\n## Price Targe"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "globenewswire.com: Robinhood Markets, Inc. to Announce Third Quarter 2026",
+      "provider": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/10/01/3373375/0/en/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026.html",
+      "date": "2026-10-27",
+      "weight": 3,
+      "text": "Robinhood Markets, Inc. to Announce Third Quarter 2026 Robinhood Markets, Inc. to Announce Third Quarter 2026\n\n# Robinhood Markets, Inc. to Announce Third Quarter 2026 Results on October 27, 2026\n\n October 01, 2026 16:05 ET | Source: Robinhood Markets, Inc. \n\nMENLO PARK, Calif., Oct. 01, 2026 (GLOBE NEWSWIRE) -- Today, Robinhood Markets, Inc. (\u201cRobinhood\u201d) (NASDAQ: HOOD) announced that it will release its third quarter 2026 financial results on Tuesday, October 27, 2026, after market close. Robinhood will host a video call with Chairman & Chief Executive Officer Vlad Tenev and Chief Financial Officer Shiv Verma to discuss its results at 2:00 PM PT"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: BofA raises Robinhood stock price target on trading strength By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/bofa-raises-robinhood-stock-price-target-on-trading-strength-93CH-4931754",
+      "date": "2026-10-05",
+      "weight": 1,
+      "text": "BofA raises Robinhood stock price target on trading strength By Investing.com BofA raises Robinhood stock price target on trading strength By Investing.com\n\n# BofA raises Robinhood stock price target on trading strength\n\nPublished Oct 05, 2026, 07:14 AM\n\nBofA raises Robinhood stock price target on trading strength\n\nIn this article:\n\nHOOD+1.75%\n\nInvesting.com - BofA Securities raised its price target on Robinhood Markets (NASDAQ:HOOD) to $156 from $140 while maintaining a Buy rating on the stock.\n\nThe firm increased its earnings estimates for the financial technology company across multiple periods. BofA now projects third-quarter 2026 earnings per share of $0.55, up fro"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "morningstar.com: This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/this-1-star-stock-trades-94-premium-is-it-time-sell",
+      "date": "2026-10-15",
+      "weight": 0,
+      "text": "This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? | Morningstar This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? | Morningstar\n\n# This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? \n\nEven with significant growth potential, the stock\u2019s lofty valuation is difficult to justify.\n\n Sean Dunlop, CFA Oct 15, 2026\n\nRobinhood has built a strong following among young customers, but investors are paying a steep price for its growth. The 1-star stock trades at nearly twice Morningstar\u2019s $57 fair value estimate. On a recent episode of The Morning Filter podcast, 5 Stocks to Sell for Tax-Loss Harvesting, Morningstar Chief US Market Strategist D"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "datalab.financemagnates.com: In preliminary June 2026 data, Robinhood event-contract volume ran about 60% above May.",
+      "provider": "datalab.financemagnates.com",
+      "url": "https://datalab.financemagnates.com/market-insights/retail-s-june-rebound-skipped-crypto",
+      "date": "2026-07-09",
+      "weight": null,
+      "text": "In preliminary June 2026 data, Robinhood event-contract volume ran about 60% above May. Higher event-contract activity should lift transaction-based revenue when the quarter is reported. \"Event contracts led every Robinhood segment, tracking roughly 60% higher month-over-month\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "financemagnates.com: In June 2026, the retail trading rebound bypassed cryptocurrency, a prior cycle driver.",
+      "provider": "financemagnates.com",
+      "url": "https://www.financemagnates.com/forex/analysis/retail-trading-roared-back-in-june-but-crypto-missed-the-rally/",
+      "date": null,
+      "weight": null,
+      "text": "In June 2026, the retail trading rebound bypassed cryptocurrency, a prior cycle driver. Lower crypto volumes reduce Robinhood's crypto transaction revenue. \"The rebound landed unevenly, and it bypassed the asset class that drove previous cycles: cryptocurrency.\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "ey.com: As of August 2026, prediction markets are expanding across sports, culture and economics.",
+      "provider": "ey.com",
+      "url": "https://www.ey.com/en_us/insights/banking-capital-markets/prediction-markets-and-the-current-landscape",
+      "date": "2026-08-19",
+      "weight": null,
+      "text": "As of August 2026, prediction markets are expanding across sports, culture and economics. Broader event-contract demand supports Robinhood's fast-growing event-contract revenue. \"Prediction markets have gained momentum and popularity since the 2024 presidential election, expanding across sports, culture and economics.\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "congress.gov: In June 2026, the CFTC proposed rules defining which event contracts may list on prediction markets.",
+      "provider": "congress.gov",
+      "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11441/LSB11441.1.pdf",
+      "date": "2026-06-24",
+      "weight": null,
+      "text": "In June 2026, the CFTC proposed rules defining which event contracts may list on prediction markets. New listing limits could slow Robinhood's event-contract volume growth. \"the Commodity Futures Trading Commission (CFTC) issued a proposed rule regarding the types of event contracts that can be listed\""
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "nasdaq.com: As of June 2026, US retail trading regularly exceeds $70 billion a day.",
+      "provider": "nasdaq.com",
+      "url": "https://www.nasdaq.com/newsroom/retail-brokerage-industry-evolving-fast-heres-what-leaders-are-focused-on",
+      "date": "2026-06-11",
+      "weight": null,
+      "text": "As of June 2026, US retail trading regularly exceeds $70 billion a day. Sustained retail participation supports Robinhood's transaction volumes and account growth. \"Retail trading in the United States now regularly exceeds $70 billion a day.\""
+    },
+    {
+      "id": "S40",
+      "kind": "options",
+      "ref": "options",
+      "label": "HOOD listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HOOD/options/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "long CALL strike 100.0 expiry 2027-02-19 premium 13.02 short PUT strike 95.0 expiry 2027-02-19 premium 12.18"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 2.43,
+    "fy_consensus": 2.16791,
+    "ratio": 1.121,
+    "beats": 4,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.62 + 0.47 + 0.73 + 0.61) total 2.43, against a current-FY consensus of 2.16791 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "US retail investor trading activity 2026 options crypto ETF flows outlook",
+        "retail brokerage industry 2026 regulation payment for order flow crypto event contracts outlook",
+        "young adult investors 2026 disposable income employment savings spending trends",
+        "Robinhood HOOD 2026 competition AI investing apps prediction markets crypto regulation"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "As of June 2026, retail participation is at record levels and retail investors are trading more like institutions.",
+          "stance": "support",
+          "why": "Higher engagement and institutional-style trading can support Robinhood's transaction revenue.",
+          "quote": "Retail investors aren\u2019t just back. They\u2019re bigger than they\u2019ve ever been, and they\u2019re starting to trade like institutions.",
+          "url": "https://cryptobriefing.com/citadel-securities-three-key-market-themes/",
+          "publisher": "cryptobriefing.com",
+          "as_of": "2026-06-18",
+          "age_days": 127,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, Robinhood event-contract volume ran about 136% above analyst consensus and 60% above May.",
+          "stance": "support",
+          "why": "Event-contract trading can lift transaction revenue and diversify beyond equities and crypto.",
+          "quote": "Event contracts led every Robinhood segment, tracking roughly 60% higher month-over-month and about 136% above analyst consensus.",
+          "url": "https://datalab.financemagnates.com/market-insights/retail-s-june-rebound-skipped-crypto",
+          "publisher": "datalab.financemagnates.com",
+          "as_of": "2026-07-09",
+          "age_days": 106,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, the retail trading rebound bypassed cryptocurrency.",
+          "stance": "pressure",
+          "why": "Crypto revenue and volumes may lag even as equities and options recover.",
+          "quote": "The rebound landed unevenly, and it bypassed the asset class that drove previous cycles: cryptocurrency.",
+          "url": "https://www.financemagnates.com/forex/analysis/retail-trading-roared-back-in-june-but-crypto-missed-the-rally/",
+          "publisher": "financemagnates.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In July 2026, EU regulators warned some prediction-market event contracts may violate the binary options ban.",
+          "stance": "pressure",
+          "why": "This could restrict Robinhood's event-contract expansion into European markets.",
+          "quote": "ESMA warns that some prediction-market event contracts may violate the EU's binary options ban if they function as financial instruments for retail clients.",
+          "url": "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
+          "publisher": "coindesk.com",
+          "as_of": "2026-07-04",
+          "age_days": 111,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, the UK FCA is set to review its position on payment for order flow.",
+          "stance": "pressure",
+          "why": "Potential PFOF restrictions could pressure Robinhood's transaction revenue.",
+          "quote": "The Financial Conduct Authority (FCA) is set to review its position on payment for order flow (PFOF) in 2026",
+          "url": "https://www.thetradenews.com/fca-eyes-potential-payment-for-order-flow-shake-up/",
+          "publisher": "thetradenews.com",
+          "as_of": "2026-06-30",
+          "age_days": 115,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "US retail investor trading activity outlook 2026 2027 options crypto ETF participation",
+        "CFTC event contracts prediction markets regulation 2026 2027 sports contracts",
+        "crypto trading platform competition retail investors fees 2026 2027 market share",
+        "Robinhood HOOD retail investor cash sweep interest rates 2026 2027 outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "As of June 2026, self-directed investors still favor stocks and ETFs, with crypto interest sustained.",
+          "stance": "support",
+          "why": "Sustained demand supports Robinhood\u2019s trading volumes and asset inflows.",
+          "quote": "traditional investment vehicles such as stocks and exchange-traded funds continue to stand out as the top choices among self-directed investors.",
+          "url": "https://blog.451alliance.com/stocks-and-etfs-are-top-investment-vehicles-while-cryptocurrency-shows-sustained-interest/",
+          "publisher": "blog.451alliance.com",
+          "as_of": "2026-06-23",
+          "age_days": 122,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, rates are higher again and the Fed is comfortable keeping borrowing costs elevated.",
+          "stance": "support",
+          "why": "Elevated rates can support Robinhood\u2019s interest income on cash and margin balances.",
+          "quote": "Interest rates are higher again, inflation is stuck at 3.4%, and the Federal Reserve is openly comfortable keeping borrowing costs elevated for longer.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/higher-rates-keep-robinhood-stock-211136218.html",
+          "publisher": "finance.yahoo.com",
+          "as_of": "2026-09-20",
+          "age_days": 33,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, Robinhood Gold\u2019s 3.6% cash yield is above some peers.",
+          "stance": "support",
+          "why": "A competitive cash yield can attract deposits and support net interest revenue.",
+          "quote": "Brokerage Cash Sweep Rates, October 2026: Schwab and E*TRADE 0.01%, Wealthfront 3.55%, Robinhood Gold 3.6%",
+          "url": "https://dollarsahead.com/brokerage-cash-sweep-rates/",
+          "publisher": "dollarsahead.com",
+          "as_of": "2026-10-01",
+          "age_days": 22,
+          "undated": false
+        },
+        {
+          "claim": "Spot crypto volume on the ten largest exchanges fell 14.2% in Q3 2026.",
+          "stance": "pressure",
+          "why": "Lower industry spot volume pressures Robinhood Crypto transaction revenue.",
+          "quote": "spot volume on the ten largest exchanges fell 14.2%.",
+          "url": "https://www.datawallet.com/crypto/crypto-exchange-statistics",
+          "publisher": "datawallet.com",
+          "as_of": "2026-10-21",
+          "age_days": 2,
+          "undated": false
+        },
+        {
+          "claim": "In July 2026, E*TRADE began offering spot crypto at a 50-basis-point commission.",
+          "stance": "pressure",
+          "why": "Price competition from a large brokerage can pressure Robinhood\u2019s crypto take rates and volumes.",
+          "quote": "E*TRADE clients can now trade Bitcoin, Ethereum and Solana at a 50-basis-point commission through zerohash.",
+          "url": "https://www.financemagnates.com/institutional-forex/morgan-stanley-brings-spot-crypto-to-etrade-undercutting-coinbase-on-price/",
+          "publisher": "financemagnates.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "Retail investors\u2019 market impact is growing as of February 2026, supporting trading engagement.",
+          "stance": "support",
+          "why": "More active retail participation can lift Robinhood\u2019s transaction volumes and revenue.",
+          "quote": "From dabblers to day traders, individual investors\u2019 impact on Wall Street grows",
+          "url": "https://apnews.com/article/retail-investors-stocks-crypto-options-risk-6e5a383001aea67a180fa07896022e93",
+          "publisher": "apnews.com",
+          "as_of": "2026-02-13",
+          "age_days": 252,
+          "undated": false,
+          "drop_reason": "stale (252 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "retail brokerage industry 2026 2027 trading volume outlook options crypto retail investors",
+        "prediction markets event contracts CFTC regulation 2026 2027 market growth",
+        "retail crypto trading competition 2026 2027 exchanges regulation adoption",
+        "US consumer savings disposable income employment 2026 2027 retail investing participation younger investors"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In preliminary June 2026 data, Robinhood event-contract volume ran about 60% above May.",
+          "stance": "support",
+          "why": "Higher event-contract activity should lift transaction-based revenue when the quarter is reported.",
+          "quote": "Event contracts led every Robinhood segment, tracking roughly 60% higher month-over-month",
+          "url": "https://datalab.financemagnates.com/market-insights/retail-s-june-rebound-skipped-crypto",
+          "publisher": "datalab.financemagnates.com",
+          "as_of": "2026-07-09",
+          "age_days": 106,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, the retail trading rebound bypassed cryptocurrency, a prior cycle driver.",
+          "stance": "pressure",
+          "why": "Lower crypto volumes reduce Robinhood's crypto transaction revenue.",
+          "quote": "The rebound landed unevenly, and it bypassed the asset class that drove previous cycles: cryptocurrency.",
+          "url": "https://www.financemagnates.com/forex/analysis/retail-trading-roared-back-in-june-but-crypto-missed-the-rally/",
+          "publisher": "financemagnates.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of August 2026, prediction markets are expanding across sports, culture and economics.",
+          "stance": "support",
+          "why": "Broader event-contract demand supports Robinhood's fast-growing event-contract revenue.",
+          "quote": "Prediction markets have gained momentum and popularity since the 2024 presidential election, expanding across sports, culture and economics.",
+          "url": "https://www.ey.com/en_us/insights/banking-capital-markets/prediction-markets-and-the-current-landscape",
+          "publisher": "ey.com",
+          "as_of": "2026-08-19",
+          "age_days": 65,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, the CFTC proposed rules defining which event contracts may list on prediction markets.",
+          "stance": "pressure",
+          "why": "New listing limits could slow Robinhood's event-contract volume growth.",
+          "quote": "the Commodity Futures Trading Commission (CFTC) issued a proposed rule regarding the types of event contracts that can be listed",
+          "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11441/LSB11441.1.pdf",
+          "publisher": "congress.gov",
+          "as_of": "2026-06-24",
+          "age_days": 121,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, US retail trading regularly exceeds $70 billion a day.",
+          "stance": "support",
+          "why": "Sustained retail participation supports Robinhood's transaction volumes and account growth.",
+          "quote": "Retail trading in the United States now regularly exceeds $70 billion a day.",
+          "url": "https://www.nasdaq.com/newsroom/retail-brokerage-industry-evolving-fast-heres-what-leaders-are-focused-on",
+          "publisher": "nasdaq.com",
+          "as_of": "2026-06-11",
+          "age_days": 134,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "ticker": "BUD",
+  "direction": "short",
+  "as_of": "2026-10-23",
+  "description": "World's largest brewer of beer, flavored malt beverages, soft drinks, ready-to-drink cocktails and energy drinks.",
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 6,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.16653,
+      "eps_low": 1.14,
+      "eps_high": 1.21,
+      "revenue_avg": 16280144300
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.14,
+        "eps_actual": 1.21,
+        "surprise_pct": 6.41,
+        "beat": true
+      },
+      {
+        "date": "2026-05-05",
+        "eps_estimate": 0.91,
+        "eps_actual": 0.97,
+        "surprise_pct": 6.2,
+        "beat": true
+      },
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 0.88,
+        "eps_actual": 0.95,
+        "surprise_pct": 8.42,
+        "beat": true
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 0.95,
+        "eps_actual": 0.99,
+        "surprise_pct": 3.92,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 89,
+    "facts_line": "2026-10-29 (Thursday, before the open), 6 days out -- from the earnings calendar, consensus EPS 1.17.",
+    "why": "Q3 must show volume growth and cost relief beating World Cup marketing, because price alone cannot hold the 19.3x forward multiple."
+  },
+  "reasons": [
+    "Because the last four quarterly EPS [earnings per share] actuals total 4.12 against a full-year consensus of 4.42362, a fifth straight beat is already priced, so only a miss moves the stock.",
+    "Q2 organic revenue rose 5.6% on total volumes up only 0.9% and beer volumes up 1.1%, so price/mix carries growth while global beverage alcohol volume is forecast to fall through 2031.",
+    "Reignite targets 5-9% annual EBIT [earnings before interest and taxes] growth, but because Q3 pits cost relief against World Cup marketing and all six 30-day revisions were cuts, the target is at risk."
+  ],
+  "watch": [
+    "Organic volume: confirms the short if total volumes grow below Q2's +0.9%; breaks it if beer volumes accelerate above +1.1%.",
+    "EBIT growth: confirms if below the 5-9% Reignite target; breaks if cost relief lifts it above 9%.",
+    "Full-year EPS consensus: confirms if guidance holds at or below 4.42362; breaks if management raises EPS guidance.",
+    "Q3 revenue: confirms if below the 16.28B consensus; breaks if a beat comes with volume growth, not just price."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S37",
+        "kind": "options",
+        "ref": "options",
+        "label": "BUD listed option chain",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/BUD/options/",
+        "date": "2026-10-23"
+      },
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for BUD",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/BUD/analysis/",
+        "date": "2026-10-23"
+      }
+    ],
+    [
+      {
+        "id": "S23",
+        "kind": "ollama_search",
+        "ref": "web:4",
+        "label": "stocktitan.net: AB InBev Q2 2026 Earnings: Revenue +5.6%, EPS +23.4% | BUD Stock News",
+        "provider": "stocktitan.net",
+        "url": "https://www.stocktitan.net/news/BUD/ab-in-bev-reports-second-quarter-2026-okxt2um3u9wp.html",
+        "date": "2026-06-30"
+      },
+      {
+        "id": "S32",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "theiwsr.com: As of June 2026, global beverage alcohol volume is forecast to decline for six more years, until 2031.",
+        "provider": "theiwsr.com",
+        "url": "https://www.theiwsr.com/insight/press-release/global-beverage-alcohol-to-drop-further-before-recovering/",
+        "date": "2026-06-11"
+      }
+    ],
+    [
+      {
+        "id": "S8",
+        "kind": "nasdaq",
+        "ref": "news:3",
+        "label": "MarketBeat: Anheuser-Busch InBev Targets 5% to 9% Annual EBIT Growth in Reignite Phase",
+        "provider": null,
+        "url": "/articles/anheuser-busch-inbev-targets-5-9-annual-ebit-growth-reignite-phase",
+        "date": "Sep 23, 20"
+      },
+      {
+        "id": "S29",
+        "kind": "ollama_search",
+        "ref": "web:10",
+        "label": "drillr.ai: [BUD] AB InBev: Q3 2026 earnings preview, cost relief vs. World Cup marketing | drillr",
+        "provider": "drillr.ai",
+        "url": "https://drillr.ai/article/bud-ab-inbev-q3-2026-earnings-preview-cost-relief-world-cup-marketing",
+        "date": "2026-10-29"
+      },
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for BUD",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/BUD/analysis/",
+        "date": "2026-10-23"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for BUD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BUD/key-statistics/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for BUD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BUD/analysis/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "BUD quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bud/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "BUD earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bud/earnings",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: Here's Why Anheuser-Busch Inbev (BUD) is a Strong Value Stock",
+      "provider": null,
+      "url": "/articles/heres-why-anheuser-busch-inbev-bud-strong-value-stock",
+      "date": "Oct 14, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Why Anheuser-Busch Inbev (BUD) is a Top Growth Stock for the Long-Term",
+      "provider": null,
+      "url": "/articles/why-anheuser-busch-inbev-bud-top-growth-stock-long-term",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "MarketBeat: Anheuser-Busch InBev Unveils \u2018Reignite\u2019 Growth Plan at Capital Markets Day",
+      "provider": null,
+      "url": "/articles/anheuser-busch-inbev-unveils-reignite-growth-plan-capital-markets-day",
+      "date": "Sep 22, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "MarketBeat: Anheuser-Busch InBev Targets 5% to 9% Annual EBIT Growth in Reignite Phase",
+      "provider": null,
+      "url": "/articles/anheuser-busch-inbev-targets-5-9-annual-ebit-growth-reignite-phase",
+      "date": "Sep 23, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "MarketBeat: Anheuser-Busch InBev Maps Organic Growth Engine at Capital Markets Day",
+      "provider": null,
+      "url": "/articles/anheuser-busch-inbev-maps-organic-growth-engine-capital-markets-day",
+      "date": "Sep 23, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Is AnheuserBusch InBev (BUD) Stock Outpacing Its Consumer Staples Peers This Year?",
+      "provider": null,
+      "url": "/articles/anheuserbusch-inbev-bud-stock-outpacing-its-consumer-staples-peers-year",
+      "date": "Sep 28, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Constellation Brands' Pre-Q2 Earnings: Is It Poised to Beat Estimates?",
+      "provider": null,
+      "url": "/articles/constellation-brands-pre-q2-earnings-it-poised-beat-estimates",
+      "date": "Oct 1, 202"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: AB InBev's U.S. Beyond Beer Sales Surge in Q2: Can the Momentum Last?",
+      "provider": null,
+      "url": "/articles/ab-inbevs-us-beyond-beer-sales-surge-q2-can-momentum-last",
+      "date": "Oct 13, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Boston Beer's Q3 Earnings on Horizon: What Surprise Awaits Investors?",
+      "provider": null,
+      "url": "/articles/boston-beers-q3-earnings-horizon-what-surprise-awaits-investors",
+      "date": "Oct 15, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: SAM Pushes Innovation: Can New Cocktails & Coolers Gain Traction?",
+      "provider": null,
+      "url": "/articles/sam-pushes-innovation-can-new-cocktails-coolers-gain-traction",
+      "date": "Oct 2, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: 5 Alcohol Stocks to Watch as Innovation Fuels Industry Growth",
+      "provider": null,
+      "url": "/articles/5-alcohol-stocks-watch-innovation-fuels-industry-growth",
+      "date": "Oct 7, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Zacks Industry Outlook Anheuser-Busch InBev, Constellation Brands, Brown-Forman and Molson Coors",
+      "provider": null,
+      "url": "/articles/zacks-industry-outlook-anheuser-busch-inbev-constellation-brands-brown-forman-and-molson",
+      "date": "Oct 8, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Why Investors Need to Take Advantage of These 2 Consumer Staples Stocks Now",
+      "provider": null,
+      "url": "/articles/why-investors-need-take-advantage-these-2-consumer-staples-stocks-now-5",
+      "date": "Sep 29, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Can AB InBev's Zero-Alcohol Push Win Health-Conscious Consumers?",
+      "provider": null,
+      "url": "/articles/can-ab-inbevs-zero-alcohol-push-win-health-conscious-consumers",
+      "date": "Sep 30, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: Anheuser-Busch InBev SA/NV (BUD) Earnings Revisions | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/symbol/BUD/earnings/revisions",
+      "date": null
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "americanbankingnews.com: Erste Group Bank Has Negative Opinion of BUD FY2027 Earnings",
+      "provider": "americanbankingnews.com",
+      "url": "https://www.americanbankingnews.com/2026/10/16/erste-group-bank-has-negative-opinion-of-bud-fy2027-earnings.html",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "walnutinvest.com: Is BUD a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/bud/is-it-a-buy-or-sell",
+      "date": null
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "henryfund.tippie.uiowa.edu: Anheuser-Busch InBev SA/NV (BUD)",
+      "provider": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2026-04/BUD-S26.pdf",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "stocktitan.net: AB InBev Q2 2026 Earnings: Revenue +5.6%, EPS +23.4% | BUD Stock News",
+      "provider": "stocktitan.net",
+      "url": "https://www.stocktitan.net/news/BUD/ab-in-bev-reports-second-quarter-2026-okxt2um3u9wp.html",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "indmoney.com: BUD Stock Outlook 2026: Earnings, Growth and Valuation",
+      "provider": "indmoney.com",
+      "url": "https://www.indmoney.com/blog/us-stocks/bud-stock-ab-inbev-outlook",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "marketwatch.com: BUDFF | Anheuser-Busch InBev S.A. Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/budff/analystestimates",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "marketbeat.com: Erste Group Bank Has Pessimistic View of BUD FY2027 Earnings",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-has-pessimistic-view-of-bud-fy2027-earnings-2026-10-14/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: Anheuser-Busch InBev: Fair Valuation But Long-Term Headwinds (NYSE:BUD) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954201-anheuser-busch-inbev-fair-valuation-but-long-term-headwinds",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "equibles.com: BUD Stock \u2014 Anheuser-Busch InBev SA: Analyst Estimates - Equibles",
+      "provider": "equibles.com",
+      "url": "https://equibles.com/stocks/bud/analyst-estimates",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "drillr.ai: [BUD] AB InBev: Q3 2026 earnings preview, cost relief vs. World Cup marketing | drillr",
+      "provider": "drillr.ai",
+      "url": "https://drillr.ai/article/bud-ab-inbev-q3-2026-earnings-preview-cost-relief-world-cup-marketing",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "hudson-labs.com: Anheuser-Busch InBev Q3 2026 Earnings Preview: ABI Results Preview",
+      "provider": "hudson-labs.com",
+      "url": "https://www.hudson-labs.com/research/anheuser-busch-inbev-q3-2026-earnings-preview-abi-results-preview",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "ad-hoc-news.de: Anheuser-Busch InBev unveils 5 to 9 percent EBIT growth plan for stock",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/anheuser-busch-inbev-unveils-5-to-9-percent-ebit-growth-plan-for-stock/70391745",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S32",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "theiwsr.com: As of June 2026, global beverage alcohol volume is forecast to decline for six more years, until 2031.",
+      "provider": "theiwsr.com",
+      "url": "https://www.theiwsr.com/insight/press-release/global-beverage-alcohol-to-drop-further-before-recovering/",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "theiwsr.com: As of May 2026, the Middle East crisis is casting a shadow over beer's future performance.",
+      "provider": "theiwsr.com",
+      "url": "https://www.theiwsr.com/insight/under-pressure-but-not-out-of-options-beer-in-2026/",
+      "date": null
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "theiwsr.com: As of May 2026, beer value held firm in 2025 thanks to premium+ and no-alcohol despite volume declines.",
+      "provider": "theiwsr.com",
+      "url": "https://www.theiwsr.com/insight/under-pressure-but-not-out-of-options-beer-in-2026/",
+      "date": null
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "theiwsr.com: In 2025, South Africa and India were leading beer growth destinations, per May 2026 IWSR data.",
+      "provider": "theiwsr.com",
+      "url": "https://www.theiwsr.com/insight/under-pressure-but-not-out-of-options-beer-in-2026/",
+      "date": null
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "nombase.com: In YTD 2026, beer remains challenged overall, though super premium and cider are bright spots.",
+      "provider": "nombase.com",
+      "url": "https://www.nombase.com/datahub/ytd-2026-beverage-performance-and-trends---3tier-beverages-via-niq/download",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "S37",
+      "kind": "options",
+      "ref": "options",
+      "label": "BUD listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BUD/options/",
+      "date": "2026-10-23"
+    }
+  ],
+  "quants": {
+    "price": 85.49,
+    "market_cap": "168.34B",
+    "fwd_pe": 19.3,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.7,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all down, with 0 up and 6 down over last 30 days",
+    "extra": [
+      "EPS increased year over year, 0.98 -> 1.21"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 9.1,
+        "yoy_pct": 11.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 46.4,
+        "yoy_pct": 123.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 25.9,
+        "yoy_pct": 60.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 13.0,
+        "yoy_pct": 14.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 10.8,
+        "yoy_pct": 13.4,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": -6.0,
+        "yoy_pct": -8.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Interest Income",
+        "qoq_pct": -0.8,
+        "yoy_pct": 0.4,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Selling General And Administration",
+        "qoq_pct": 9.1,
+        "yoy_pct": 11.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": -0.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 16.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 16.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Income",
+        "change_pct": -14.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": 8.1,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Expense",
+        "change_pct": -6.5,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 6,
+    "bar": {
+      "date": "2026-10-29",
+      "eps_avg": 1.16653,
+      "eps_low": 1.14,
+      "eps_high": 1.21,
+      "revenue_avg": 16280144300
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Mar-27",
+        "strike": 80.0,
+        "qty": 16,
+        "underlying": 85.49,
+        "multiplier": 100,
+        "price": 2.77,
+        "total": 4432.0,
+        "open_interest": 99
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 80.0,
+        "qty": 6,
+        "underlying": 85.49,
+        "multiplier": 100,
+        "price": 0.98,
+        "total": -588.0,
+        "open_interest": 95
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-26 report, with the long leg expiring 2027-03-19, which gives the deterioration time to show up.",
+    "reflection": "The 11.6% conservative credit clears the 10% floor, but the short put expires four months before the long one, so the trade needs the miss by late November, not just eventually. Selling more of the front put would fatten the credit and shorten the runway further."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 62,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 13,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 6,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": []
+      },
+      {
+        "sample": 1,
+        "score": 95,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "alcohol",
+          "beverage",
+          "forecast",
+          "gains",
+          "global",
+          "share",
+          "through",
+          "total",
+          "volume",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "alcohol",
+          "beverage",
+          "decline",
+          "forecast",
+          "global",
+          "share",
+          "steady",
+          "through",
+          "volume"
+        ]
+      }
+    ]
+  }
+}

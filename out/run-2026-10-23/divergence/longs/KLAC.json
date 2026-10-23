@@ -1,0 +1,734 @@
+{
+  "ticker": "KLAC",
+  "direction": "long",
+  "as_of": "2026-10-23",
+  "description": "Process-control equipment for chipmaking: defect inspection, metrology and reticle inspection tools sold to wafer fabs.",
+  "catalyst": {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "session": "after the close",
+    "days_out": 5,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.18
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 1.0,
+        "eps_actual": 1.05,
+        "surprise_pct": 5.14,
+        "beat": true
+      },
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 0.92,
+        "eps_actual": 0.94,
+        "surprise_pct": 2.5,
+        "beat": true
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 0.88,
+        "eps_actual": 0.89,
+        "surprise_pct": 0.59,
+        "beat": true
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 0.86,
+        "eps_actual": 0.88,
+        "surprise_pct": 2.24,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-28 (Wednesday, after the close), 5 days out -- from the earnings calendar, consensus EPS 1.18.",
+    "why": "December-quarter guidance must show the fourth wafer-fab-equipment upgrade turning into orders, not just a higher forecast number."
+  },
+  "reasons": [
+    "Because TSMC raised 2026 capex 52% and SK Hynix 45%, tool orders follow, so the 9.55% fall to 147.83 on 22 October prices a roll-over the spending does not show.",
+    "Because 300mm [300-millimeter wafer] fab equipment spending grows at double-digit rates to $227 billion by 2029 and memory investment tops $50 billion in 2026, each new fab adds inspection tools KLAC sells.",
+    "Advanced packaging pushes inspection into the back end, and KLAC's June quarter revenue already rose 15.2% year over year to 3.66B, so the new demand lands on a growing base."
+  ],
+  "watch": [
+    "December-quarter revenue guide: above $4.2B confirms capex converting into orders; below $4.0B breaks it.",
+    "Gross profit: at or above the June quarter's $2.24B confirms mix; a fall means volume is being bought with price.",
+    "2026 wafer fab equipment outlook: holding July's low-$150B range confirms demand; any cut breaks the thesis."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S24",
+        "kind": "ollama_search",
+        "ref": "web:5",
+        "label": "finance.yahoo.com: KLA Corporation (KLAC) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/quote/KLAC/analysis/",
+        "date": "2026-10-22"
+      },
+      {
+        "id": "S37",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "gate.com: As of Aug 2026, major chipmakers sharply raised 2026 capex, with TSMC up 52% and SK Hynix up 45%.",
+        "provider": "gate.com",
+        "url": "https://www.gate.com/news/detail/jpmorgan-semiconductor-capex-surge-drives-wfe-outlook-higher-tsmc-raises-23529858",
+        "date": "2026-08-18"
+      }
+    ],
+    [
+      {
+        "id": "S33",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "semi.org: As of Oct 2026, global 300mm fab equipment spending is projected to grow at double-digit rates through 2029, reaching $227 billion.",
+        "provider": "semi.org",
+        "url": "https://www.semi.org/en/semi-press-release/global-300mm-fab-equipment-spending-to-reach-227-billion-in-2029-as-buildout-accelerates-semi-projects",
+        "date": "2026-10-13"
+      },
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "semi.org: As of June 2026, 300mm memory equipment investment is projected to surpass $50 billion in 2026 and rise again in 2027.",
+        "provider": "semi.org",
+        "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+        "date": "2026-06-29"
+      }
+    ],
+    [
+      {
+        "id": "S36",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "trendforce.com: As of Oct 2026, metrology and inspection demand is extending from front-end to back-end due to advanced packaging.",
+        "provider": "trendforce.com",
+        "url": "https://www.trendforce.com/research/download/RP261013WG3",
+        "date": "2026-10-13"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "KLAC quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/klac/financials",
+        "date": "6/30/2026"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for KLAC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KLAC/key-statistics/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for KLAC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KLAC/analysis/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "KLAC quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/klac/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "KLAC earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: KLA (KLAC) Stock Sinks As Market Gains: Here's Why",
+      "provider": null,
+      "url": "/articles/kla-klac-stock-sinks-market-gains-heres-why-0",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: KLA (KLAC) Earnings Expected to Grow: Should You Buy?",
+      "provider": null,
+      "url": "/articles/kla-klac-earnings-expected-grow-should-you-buy",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: AEIS Rides on Strong Semiconductor Growth: Can It Beat KLAC and MKSI?",
+      "provider": null,
+      "url": "/articles/aeis-rides-strong-semiconductor-growth-can-it-beat-klac-and-mksi",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: LRCX to Report Q1 Earnings: Should You Buy, Hold or Sell the Stock?",
+      "provider": null,
+      "url": "/articles/lrcx-report-q1-earnings-should-you-buy-hold-or-sell-stock",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Can Semiconductor Systems Drive AMAT's Next Growth Phase?",
+      "provider": null,
+      "url": "/articles/can-semiconductor-systems-drive-amats-next-growth-phase",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Barchart: Stock Indexes Mostly Lower as Chipmaker Weakness Persists",
+      "provider": null,
+      "url": "/articles/stock-indexes-mostly-lower-chipmaker-weakness-persists",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Barchart: Stocks are Mixed on Rotation Out of Chipmakers and AI Stocks",
+      "provider": null,
+      "url": "/articles/stocks-are-mixed-rotation-out-chipmakers-and-ai-stocks",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Barchart: Stocks Settle Mixed as Broader Market Recovers from Chip Stock Rout",
+      "provider": null,
+      "url": "/articles/stocks-settle-mixed-broader-market-recovers-chip-stock-rout",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Barchart: Strength in Chipmakers and AI-Infrastructure Stocks Lead the Broader Market Higher",
+      "provider": null,
+      "url": "/articles/strength-chipmakers-and-ai-infrastructure-stocks-lead-broader-market-higher",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Barchart: Stocks Supported by a Rebound in Chipmakers and AI-Infrastructure Companies",
+      "provider": null,
+      "url": "/articles/stocks-supported-rebound-chipmakers-and-ai-infrastructure-companies",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Barchart: Stock Indexes Finish Sharply Lower as Tech Stocks Plunge",
+      "provider": null,
+      "url": "/articles/stock-indexes-finish-sharply-lower-tech-stocks-plunge",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Stocks Pressured by Tech Stock Weakness and Higher Crude Oil Prices",
+      "provider": null,
+      "url": "/articles/stocks-pressured-tech-stock-weakness-and-higher-crude-oil-prices",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks Fall Sharply on Risk-Off as Meta Slides -7%",
+      "provider": null,
+      "url": "/articles/stocks-fall-sharply-risk-meta-slides-7",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Tech Stocks Lead Broad Market Lower as Meta Slides -6%",
+      "provider": null,
+      "url": "/articles/tech-stocks-lead-broad-market-lower-meta-slides-6",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "sectally.com: KLAC \u2014 KLA Corporation \u2014 sectally",
+      "provider": "sectally.com",
+      "url": "https://sectally.com/reports/klac/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "ir.kla.com: KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS :: KLA Corporation (KLAC)",
+      "provider": "ir.kla.com",
+      "url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "simplywall.st: What KLA (KLAC)'s Revenue Outlook Means For Shareholders - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-klac/kla/news/what-kla-klacs-revenue-outlook-means-for-shareholders",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "dyorhq.ai: DYOR HQ - KLA Corp (KLAC) | 2026-10-04",
+      "provider": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/klacorp",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "finance.yahoo.com: The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-kla-klac-could-201313827.html",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "finance.yahoo.com: KLA Corporation (KLAC) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/KLAC/analysis/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "gngresearch.com: KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/KLAC/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "henryfund.tippie.uiowa.edu: Combined PDF",
+      "provider": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2026-04/KLAC-S26.pdf",
+      "date": "2026-01-29"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "finance.yahoo.com: KLA Benefits From Higher Process Control Intensity, Double-Digit Growth in Services, RBC Says",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-benefits-higher-process-control-162634796.html",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investing.com: Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-kla-stock-price-target-on-valuation-concerns-93CH-4934052",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "twelvedata.com: KLA Corporation",
+      "provider": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/871432/stock/bmv/klac/analysis",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "finviz.com: KLA Must Prove Its Fourth WFE Upgrade Stuck As Stock Sinks Toward Lows",
+      "provider": "finviz.com",
+      "url": "https://finviz.com/news/405234/kla-must-prove-its-fourth-wfe-upgrade-stuck-as-stock-sinks-toward-lows",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: KLA Corp. stock may move 5.7% on earnings next week By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/kla-corp-stock-may-move-57-on-earnings-next-week-93CH-4963473",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "finance.yahoo.com: KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-stock-near-earnings-chip-011417381.html",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "semi.org: As of Oct 2026, global 300mm fab equipment spending is projected to grow at double-digit rates through 2029, reaching $227 billion.",
+      "provider": "semi.org",
+      "url": "https://www.semi.org/en/semi-press-release/global-300mm-fab-equipment-spending-to-reach-227-billion-in-2029-as-buildout-accelerates-semi-projects",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "semi.org: As of June 2026, 300mm memory equipment investment is projected to surpass $50 billion in 2026 and rise again in 2027.",
+      "provider": "semi.org",
+      "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "trendforce.com: As of Oct 2026, AI and advanced nodes are driving a structural paradigm shift in process control.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/research/download/RP261013WG3",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "trendforce.com: As of Oct 2026, metrology and inspection demand is extending from front-end to back-end due to advanced packaging.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/research/download/RP261013WG3",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "gate.com: As of Aug 2026, major chipmakers sharply raised 2026 capex, with TSMC up 52% and SK Hynix up 45%.",
+      "provider": "gate.com",
+      "url": "https://www.gate.com/news/detail/jpmorgan-semiconductor-capex-surge-drives-wfe-outlook-higher-tsmc-raises-23529858",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "S38",
+      "kind": "options",
+      "ref": "options",
+      "label": "KLAC listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KLAC/options/",
+      "date": "2026-10-23"
+    }
+  ],
+  "quants": {
+    "price": 147.83,
+    "market_cap": "192.92B",
+    "fwd_pe": 27.2,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 14.2,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "all up, with 2 up and 0 down over last 30 days",
+    "extra": [
+      "Net Interest Income +247% quarter over quarter but -3% year over year (2026-06-30)",
+      "Last quarter net receivables increasing 25% quarter over quarter (6/30/2026)",
+      "Last quarter net income increasing 14% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.94 -> 1.05"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 7.1,
+        "yoy_pct": 15.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 13.5,
+        "yoy_pct": 13.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 9.1,
+        "yoy_pct": 15.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 8.5,
+        "yoy_pct": 14.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 10.4,
+        "yoy_pct": 15.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 7.5,
+        "yoy_pct": 14.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 4.0,
+        "yoy_pct": 0.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Interest Income",
+        "qoq_pct": 247.4,
+        "yoy_pct": -3.1,
+        "conflict": true,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 11.7,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 18.9,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 19.1,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 18.9,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 17.7,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 12.9,
+        "period": "2026-06-30"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 5,
+    "bar": {
+      "date": "2026-10-29",
+      "eps_avg": 1.17822,
+      "eps_low": 1.15,
+      "eps_high": 1.25,
+      "revenue_avg": 4038223450
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Mar-27",
+        "strike": 154.0,
+        "qty": 2,
+        "underlying": 147.83,
+        "multiplier": 100,
+        "price": 19.7,
+        "total": 3940.0,
+        "open_interest": 11.0
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 154.0,
+        "qty": 1,
+        "underlying": 147.83,
+        "multiplier": 100,
+        "price": 8.0,
+        "total": -800.0,
+        "open_interest": 130
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-28 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
+    "reflection": "The short 154 call dies on 20 November, so this is a five-week bet that the print carries spot from 147.83 through 154; the March call only pays if it does. At 18.4% conservative the credit is fat enough to sell more than one; the open question is whether 154 is the right strike for a five-day catalyst."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 57,
+        "errors": 1,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 100,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 15,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 9,
+      "mismatches": [
+        "Reason 3: \"3.66\" is cited to S36, S3 but appears in S20, S21, S29"
+      ],
+      "superseded": [],
+      "ok": false,
+      "ratio": 0.889
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "allocation",
+          "began",
+          "cheongju",
+          "equips",
+          "forecast",
+          "hynix",
+          "investment",
+          "memory",
+          "orders",
+          "plant",
+          "wafer"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 100,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "advanced",
+          "billion",
+          "capex",
+          "control",
+          "hynix",
+          "investment",
+          "memory",
+          "orders",
+          "packaging",
+          "process",
+          "raised",
+          "rates"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 5,
+        "adverse": 0,
+        "trends_available": 5,
+        "trends_used": [
+          "control",
+          "forecast",
+          "october",
+          "process",
+          "wafer"
+        ]
+      }
+    ]
+  }
+}

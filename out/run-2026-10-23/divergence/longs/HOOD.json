@@ -1,0 +1,810 @@
+{
+  "ticker": "HOOD",
+  "direction": "long",
+  "as_of": "2026-10-23",
+  "description": "Online brokerage app: stock, option and event-contract trading plus crypto, mostly for retail customers.",
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "session": "after the close",
+    "days_out": 4,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.55
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 0.43,
+        "eps_actual": 0.62,
+        "surprise_pct": 43.71,
+        "beat": true
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 0.43,
+        "eps_actual": 0.47,
+        "surprise_pct": 8.63,
+        "beat": true
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 0.68,
+        "eps_actual": 0.73,
+        "surprise_pct": 6.26,
+        "beat": true
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 0.54,
+        "eps_actual": 0.61,
+        "surprise_pct": 12.07,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-27 (Tuesday, after the close), 4 days out -- from the earnings calendar, consensus EPS 0.55.",
+    "why": "Event-contract and options revenue must carry the quarter while crypto stays weak \u2014 that mix is what the multiple is paying for."
+  },
+  "reasons": [
+    "Because event-contract volume ran about 60% above May in preliminary June 2026 data and prediction markets keep widening into sports and culture, the newest revenue line can beat without crypto.",
+    "The June 2026 retail rebound bypassed crypto, but US retail trading runs above $70 billion a day, so equities and options volume \u2014 where Robinhood earns more per trade \u2014 carries the quarter.",
+    "Goodwill rose 115% in 2025, so part of the base is bought; but SG&A [selling, general and administrative costs] rose 0.6% QoQ while revenue rose 22.6% QoQ (32.3% YoY), and bought revenue cannot widen that gap."
+  ],
+  "watch": [
+    "Event-contract revenue: confirms if it grows again off Q2's record; breaks if the June surge faded or CFTC listing rules bite.",
+    "Crypto transaction revenue: confirms if the decline is contained; breaks if it drags total transaction revenue below the $1.43B consensus.",
+    "EPS against $0.64417: confirms at or above; breaks on any miss, because four straight beats have set the bar high.",
+    "Adjusted OpEx: confirms at or below $2.775B; breaks above the top of the $2.675B-$2.775B range."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S35",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "datalab.financemagnates.com: In preliminary June 2026 data, Robinhood event-contract volume ran about 60% above May.",
+        "provider": "datalab.financemagnates.com",
+        "url": "https://datalab.financemagnates.com/market-insights/retail-s-june-rebound-skipped-crypto",
+        "date": "2026-07-09"
+      },
+      {
+        "id": "S37",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "ey.com: As of August 2026, prediction markets are expanding across sports, culture and economics.",
+        "provider": "ey.com",
+        "url": "https://www.ey.com/en_us/insights/banking-capital-markets/prediction-markets-and-the-current-landscape",
+        "date": "2026-08-19"
+      },
+      {
+        "id": "S25",
+        "kind": "ollama_search",
+        "ref": "web:4",
+        "label": "finance.yahoo.com: Robinhood shares edge lower after record quarter for prediction markets business",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/article/robinhood-shares-edge-lower-after-record-quarter-for-prediction-markets-business-121836314.html",
+        "date": "2026-07-30"
+      }
+    ],
+    [
+      {
+        "id": "S36",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "financemagnates.com: In June 2026, the retail trading rebound bypassed cryptocurrency, a prior cycle driver.",
+        "provider": "financemagnates.com",
+        "url": "https://www.financemagnates.com/forex/analysis/retail-trading-roared-back-in-june-but-crypto-missed-the-rally/",
+        "date": null
+      },
+      {
+        "id": "S39",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "nasdaq.com: As of June 2026, US retail trading regularly exceeds $70 billion a day.",
+        "provider": "nasdaq.com",
+        "url": "https://www.nasdaq.com/newsroom/retail-brokerage-industry-evolving-fast-heres-what-leaders-are-focused-on",
+        "date": "2026-06-11"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "HOOD quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/hood/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S4",
+        "kind": "statements",
+        "ref": "deal",
+        "label": "HOOD balance sheet: acquisition footprint",
+        "provider": "Yahoo Finance (via yfinance) statements",
+        "url": "https://www.nasdaq.com/market-activity/stocks/hood/financials",
+        "date": "2025-12-31"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for HOOD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HOOD/key-statistics/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for HOOD",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HOOD/analysis/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "HOOD quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hood/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "HOOD balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hood/financials",
+      "date": "2025-12-31"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "HOOD earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/hood/earnings",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: Noteworthy Friday Option Activity: HOOD, TMDX, AA",
+      "provider": null,
+      "url": "/articles/noteworthy-friday-option-activity-hood-tmdx-aa",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Implied Volatility Surging for Robinhood Stock Options",
+      "provider": null,
+      "url": "/articles/implied-volatility-surging-robinhood-stock-options",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Is Trending Stock Robinhood Markets, Inc. (HOOD) a Buy Now?",
+      "provider": null,
+      "url": "/articles/trending-stock-robinhood-markets-inc-hood-buy-now",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Robinhood Markets, Inc. (HOOD) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "provider": null,
+      "url": "/articles/robinhood-markets-inc-hood-stock-falls-amid-market-uptick-what-investors-need-know",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Robinhood Markets, Inc. (HOOD) Expected to Beat Earnings Estimates: Should You Buy?",
+      "provider": null,
+      "url": "/articles/robinhood-markets-inc-hood-expected-beat-earnings-estimates-should-you-buy",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Crypto and Beyond? Here's Why Robinhood is a Better Buy Than Coinbase Today",
+      "provider": null,
+      "url": "/articles/crypto-and-beyond-heres-why-robinhood-better-buy-coinbase-today",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: What Analyst Projections for Key Metrics Reveal About Robinhood Markets (HOOD) Q3 Earnings",
+      "provider": null,
+      "url": "/articles/what-analyst-projections-key-metrics-reveal-about-robinhood-markets-hood-q3-earnings",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: IBKR Q3 Earnings Match Estimates on Higher Revenues, Dividend Hiked",
+      "provider": null,
+      "url": "/articles/ibkr-q3-earnings-match-estimates-higher-revenues-dividend-hiked",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Synchrony Q3 Earnings Beat Estimates on Improved Purchase Volume",
+      "provider": null,
+      "url": "/articles/synchrony-q3-earnings-beat-estimates-improved-purchase-volume",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: MSCI Q3 Earnings Surpass Estimates, Revenues Increase Year over Year",
+      "provider": null,
+      "url": "/articles/msci-q3-earnings-surpass-estimates-revenues-increase-year-over-year",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is Raymond James Well-Positioned to Sustain Strong Capital Returns?",
+      "provider": null,
+      "url": "/articles/raymond-james-well-positioned-sustain-strong-capital-returns",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Raymond James Financial, Inc. (RJF) Reports Next Week: Wall Street Expects Earnings Growth",
+      "provider": null,
+      "url": "/articles/raymond-james-financial-inc-rjf-reports-next-week-wall-street-expects-earnings-growth",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Stifel Financial (SF) Q3 Earnings Beat Estimates",
+      "provider": null,
+      "url": "/articles/stifel-financial-sf-q3-earnings-beat-estimates",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Pressured as Chipmaker Selloff Deepens",
+      "provider": null,
+      "url": "/articles/stocks-pressured-chipmaker-selloff-deepens",
+      "date": "Oct 15, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Barchart: Stocks Settle Mixed as Broader Market Recovers from Chip Stock Rout",
+      "provider": null,
+      "url": "/articles/stocks-settle-mixed-broader-market-recovers-chip-stock-rout",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "henryfund.tippie.uiowa.edu: ROBINHOOD MARKETS, INC. (HOOD)",
+      "provider": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2025-09/s25_HOOD.pdf",
+      "date": "2025-04-23"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "investing.com: Earnings call transcript: Robinhood beats Q2 2026 estimates as growth stays strong By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-robinhood-beats-q2-2026-estimates-as-growth-stays-strong-93CH-4821999",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: Robinhood lowers 2026 adjusted OpEx outlook to $2.675B-$2.775B while targeting Robinhood Social rollout by quarter-end (NASDAQ:HOOD) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4621130-robinhood-lowers-2026-adjusted-opex-outlook-to-2_675b-2_775b-while-targeting-robinhood-social",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4620798-robinhood-q2-earnings-revenue-beat-as-equities-options-trading-shine",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "finance.yahoo.com: Robinhood shares edge lower after record quarter for prediction markets business",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/article/robinhood-shares-edge-lower-after-record-quarter-for-prediction-markets-business-121836314.html",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "tikr.com: Robinhood Stock Is Down 5% After a Crypto Insider-Trading Case. Here\u2019s Whether the Selloff is an Overreaction | TIKR.com",
+      "provider": "tikr.com",
+      "url": "https://www.tikr.com/blog/robinhood-stock-is-down-5-after-a-crypto-insider-trading-case-heres-whether-the-selloff-is-an-overreaction",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "marketscreener.com: Robinhood Markets, Inc.: Target Price Consensus and Analysts Recommendations | HOOD | US7707001027 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/ROBINHOOD-MARKETS-INC-125228571/consensus/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "investing.com: Robinhood Markets bull and bear case ahead of Oct 27 earnings By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/robinhood-markets-bull-and-bear-case-ahead-of-oct-27-earnings-93CH-4949672",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "wsj.com: HOOD | Robinhood Markets Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/HOOD/research-ratings",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "twelvedata.com: Robinhood Markets Inc. Class A Common Stock",
+      "provider": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/995053/stock/mta/1hood/analysis",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "stockanalysis.com: Robinhood Markets (HOOD) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/hood/forecast/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "globenewswire.com: Robinhood Markets, Inc. to Announce Third Quarter 2026",
+      "provider": "globenewswire.com",
+      "url": "https://www.globenewswire.com/news-release/2026/10/01/3373375/0/en/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026.html",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: BofA raises Robinhood stock price target on trading strength By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/bofa-raises-robinhood-stock-price-target-on-trading-strength-93CH-4931754",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "morningstar.com: This 1-Star Stock Trades at a 94% Premium. Is It Time to Sell? | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/this-1-star-stock-trades-94-premium-is-it-time-sell",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "datalab.financemagnates.com: In preliminary June 2026 data, Robinhood event-contract volume ran about 60% above May.",
+      "provider": "datalab.financemagnates.com",
+      "url": "https://datalab.financemagnates.com/market-insights/retail-s-june-rebound-skipped-crypto",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "financemagnates.com: In June 2026, the retail trading rebound bypassed cryptocurrency, a prior cycle driver.",
+      "provider": "financemagnates.com",
+      "url": "https://www.financemagnates.com/forex/analysis/retail-trading-roared-back-in-june-but-crypto-missed-the-rally/",
+      "date": null
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "ey.com: As of August 2026, prediction markets are expanding across sports, culture and economics.",
+      "provider": "ey.com",
+      "url": "https://www.ey.com/en_us/insights/banking-capital-markets/prediction-markets-and-the-current-landscape",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "congress.gov: In June 2026, the CFTC proposed rules defining which event contracts may list on prediction markets.",
+      "provider": "congress.gov",
+      "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11441/LSB11441.1.pdf",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "nasdaq.com: As of June 2026, US retail trading regularly exceeds $70 billion a day.",
+      "provider": "nasdaq.com",
+      "url": "https://www.nasdaq.com/newsroom/retail-brokerage-industry-evolving-fast-heres-what-leaders-are-focused-on",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "S40",
+      "kind": "options",
+      "ref": "options",
+      "label": "HOOD listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/HOOD/options/",
+      "date": "2026-10-23"
+    }
+  ],
+  "quants": {
+    "price": 96.58,
+    "market_cap": "86.83B",
+    "fwd_pe": 44.5,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 17.6,
+    "eps_trend": "slightly up over the last 7 days",
+    "eps_revisions": "tilted higher, with 11 up and 3 down over last 30 days",
+    "extra": [
+      "Last quarter long-term investments increasing 80% quarter over quarter (6/30/2026)",
+      "Last quarter earnings before interest and tax increasing 72% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.42 -> 0.62"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 22.6,
+        "yoy_pct": 32.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 60.3,
+        "yoy_pct": 45.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 39.7,
+        "yoy_pct": 30.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 37.6,
+        "yoy_pct": 29.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 24.7,
+        "yoy_pct": 32.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Selling General And Administration",
+        "qoq_pct": 0.6,
+        "yoy_pct": 34.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 51.6,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 33.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 98.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 98.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 92.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Gross Profit",
+        "change_pct": 59.0,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [
+      {
+        "label": "Goodwill",
+        "basis": "fiscal year",
+        "period": "2025-12-31",
+        "prior_period": "2024-12-31",
+        "current": 385000000.0,
+        "prior": 179000000.0,
+        "change_pct": 115.1,
+        "confirmed": true,
+        "also": [
+          {
+            "label": "Other Intangible Assets",
+            "basis": "fiscal year",
+            "period": "2025-12-31",
+            "prior_period": "2024-12-31",
+            "current": 168000000.0,
+            "prior": 38000000.0,
+            "change_pct": 342.1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "label": "Goodwill",
+        "basis": "quarter",
+        "period": "2026-06-30",
+        "prior_period": "2026-03-31",
+        "current": 516000000.0,
+        "prior": 401000000.0,
+        "change_pct": 28.7,
+        "confirmed": true,
+        "also": []
+      }
+    ],
+    "catalyst_days": 4,
+    "bar": {
+      "date": "2026-10-28",
+      "eps_avg": 0.64417,
+      "eps_low": 0.62,
+      "eps_high": 0.68,
+      "revenue_avg": 1431474300
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Feb-27",
+        "strike": 100.0,
+        "qty": 3,
+        "underlying": 96.58,
+        "multiplier": 100,
+        "price": 13.02,
+        "total": 3906.0,
+        "open_interest": 558
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 100.0,
+        "qty": 1,
+        "underlying": 96.58,
+        "multiplier": 100,
+        "price": 6.2,
+        "total": -620.0,
+        "open_interest": 4818
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-27 report, with the long leg expiring 2027-02-19, which gives the thesis time to show up.",
+    "reflection": "The 15.6% credit is thin for a spread that sells a four-week call against a February long \u2014 the short leg harvests the print and little else. At a $3,286 net debit a second unit is affordable if $100 holds into November."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 44,
+        "errors": 2,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 82,
+        "errors": 1,
+        "warnings": 0,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 77,
+        "errors": 1,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 44,
+        "errors": 2,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 67,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 2,
+        "score": 54,
+        "errors": 2,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 11,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 5,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 2,
+      "contradicted": 1,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 77,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "analyst",
+          "bypassed",
+          "consensus",
+          "event",
+          "rebound",
+          "record",
+          "recover",
+          "retail",
+          "transaction",
+          "volume"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 54,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "borrowing",
+          "deposits",
+          "interest",
+          "peers",
+          "rates",
+          "trade",
+          "volume",
+          "yield"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "billion",
+          "bypassed",
+          "culture",
+          "event",
+          "prediction",
+          "preliminary",
+          "rebound",
+          "robinhood",
+          "sports",
+          "volume"
+        ]
+      }
+    ]
+  }
+}

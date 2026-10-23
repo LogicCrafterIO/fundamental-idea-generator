@@ -1,0 +1,2038 @@
+{
+  "symbol": "JCI",
+  "as_of": "2026-10-23",
+  "generated_at": "2026-10-23T10:21:13",
+  "profile": {
+    "symbol": "JCI",
+    "name": "Johnson Controls International plc",
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment",
+    "summary": "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company designs, manufactures, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and digital solutions. It also provides energy solutions and technical services, including inspection, scheduled maintenance, and repair and replacement of mechanical and control systems, as well as data-driven building solutions. It sells its products and services to commercial, residential security, institutional, industrial, data center, marine, and governmental customers. Johnson Controls International plc was incorporated in 1885 and is based in Cork, Ireland.",
+    "employees": 87000,
+    "country": "Ireland",
+    "website": "https://www.johnsoncontrols.com"
+  },
+  "quants": {
+    "symbol": "JCI",
+    "name": "Johnson Controls International plc",
+    "price": 143.0,
+    "market_cap": 86621028352,
+    "market_cap_human": "86.62B",
+    "fwd_pe": 28.2,
+    "fwd_pe_1y": 23.33,
+    "fwd_pe_yahoo": 23.33429,
+    "trailing_pe": 42.68657,
+    "ps": 3.4655342,
+    "ev_ebitda": 22.078,
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment",
+    "eps_fy_current": 5.07064,
+    "eps_fy_next": 6.12832,
+    "eps_trend": {
+      "change_7d_pct": 0.06,
+      "change_30d_pct": 0.13,
+      "current": 5.07064,
+      "7d_ago": 5.06779,
+      "30d_ago": 5.06407,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 3,
+      "down_7d": 0,
+      "up_30d": 5,
+      "down_30d": 0,
+      "net_30d": 5,
+      "text": "all up, with 5 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "next_date": "2026-10-27",
+      "eps_avg": 1.55899,
+      "eps_low": 1.14,
+      "eps_high": 1.65,
+      "revenue_avg": 6999234130
+    },
+    "as_of": "2026-10-23"
+  },
+  "quants_lines": [
+    "Price: 143.00 USD",
+    "Market Cap: 86.62B",
+    "Fwd PE: 28.2",
+    "P/S: 3.5",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: all up, with 5 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 988000.0,
+      "prior": 805000.0,
+      "change_pct": 22.7,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 749000.0,
+      "prior": 613000.0,
+      "change_pct": 22.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 641000.0,
+      "prior": 698000.0,
+      "change_pct": -8.2,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 6970000.0,
+      "prior": 6614000.0,
+      "change_pct": 5.4,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-29T06:00:00-04:00",
+    "current": 1.42,
+    "year_ago": 1.05,
+    "year_ago_period": "2025-07-29T06:00:00-04:00",
+    "change": 0.37,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 6614000000.0,
+      "prior": 6142000000.0,
+      "qoq_pct": 7.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 6052000000.0,
+      "yoy_pct": 9.3,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 749000000.0,
+      "prior": 613000000.0,
+      "qoq_pct": 22.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 701000000.0,
+      "yoy_pct": 6.8,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 975000000.0,
+      "prior": 798000000.0,
+      "qoq_pct": 22.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 760000000.0,
+      "yoy_pct": 28.3,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1137000000.0,
+      "prior": 967000000.0,
+      "qoq_pct": 17.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 950000000.0,
+      "yoy_pct": 19.7,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1067000000.0,
+      "prior": 861000000.0,
+      "qoq_pct": 23.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 829000000.0,
+      "yoy_pct": 28.7,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2474000000.0,
+      "prior": 2262000000.0,
+      "qoq_pct": 9.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2246000000.0,
+      "yoy_pct": 10.2,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 58000000.0,
+      "prior": 60000000.0,
+      "qoq_pct": -3.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 55000000.0,
+      "yoy_pct": 5.5,
+      "conflict": true
+    },
+    {
+      "label": "Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3000000.0,
+      "prior": 1000000.0,
+      "qoq_pct": 200.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3000000.0,
+      "yoy_pct": 0.0,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 23596000000.0,
+      "prior": 22952000000.0,
+      "change_pct": 2.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 3291000000.0,
+      "prior": 1705000000.0,
+      "change_pct": 93.0,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 3291000000.0,
+      "prior": 1705000000.0,
+      "change_pct": 93.0,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": -230000000.0,
+      "prior": -402000000.0,
+      "change_pct": 42.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 227000000.0,
+      "prior": 381000000.0,
+      "change_pct": -40.4,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 2828000000.0,
+      "prior": 2416000000.0,
+      "change_pct": 17.1,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-27",
+    "eps_avg": 1.55899,
+    "eps_low": 1.14,
+    "eps_high": 1.65,
+    "revenue_avg": 6999234130
+  },
+  "news": [
+    {
+      "title": "jci-20250930",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000097/jci-20250930.htm",
+      "summary": "jci-20250930\n\nWASHINGTON, D.C. 20549\n\nFORM 10-K \n\n\u2611 ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the Fiscal Year Ended September 30, 2025\n\n\u2610 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the Transition Period From _____ To _____\n\nCommission File Number 001-13836 \n\nJOHNSON CONTROLS INTERNATIONAL PLC \n\n(Exact name of registrant as specified in its charter)\n\n| Ireland | 98-0390500 |\n| --- | --- |\n| (Jurisdiction of Incorporation) | (IRS Employer Identification No.) |\n| One Albert Quay, Cork, Ireland, T12 ",
+      "published": "2025-09-30",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Johnson Controls International plc (JCI) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "publisher": "sg.finance.yahoo.com",
+      "url": "https://sg.finance.yahoo.com/quote/JCI/analysis/",
+      "summary": "Johnson Controls International plc (JCI) analyst ratings, estimates and forecasts \u2013 Yahoo Finance\n\nJCI\n\nJohnson Controls International plc\n\n145.10 -4.81% \n\nNYSE - Nasdaq Real Time Price \u2022 USD \n\n# Johnson Controls International plc (JCI)\n\n 145.10 -7.34 (-4.81%) \n\n As of 2:00:32 pm GMT-4. Market open. \n\n### Revenue vs. Earnings \n\nQ3 FY26\n\nRevenue 6.61B\n\nEarnings 749M\n\nProfit margin 11.32%\n\nQ4\n\nFY25\n\nQ1\n\nFY26\n\nQ2\n\nFY26\n\nQ3\n\nFY26\n\n2B \n\n4B \n\n6B \n\n10.0% \n\n15.0% \n\n20.0% \n\n25.0% \n\n### Revenue estimate\n\n| Currency in USD | Current qtr. (Sept 2026) | Next qtr. (Dec 2026) | Current year (2026) | Next yea",
+      "published": "2026-03-11",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is JCI a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "publisher": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/jci/is-it-a-buy-or-sell",
+      "summary": "Is JCI a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is JCI a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Johnson Controls International plc (JCI) rests on Data-center and AI cooling demand: JCI supplies chillers and thermal-management systems for hyperscale and AI data centers, a segment growing far faster than the general construction market. The bear case rests on demand for large HVAC and building systems is tied to commercial construction ",
+      "published": "2026-06-30",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Johnson Controls International plc (JCI) Stock Analysis \u2014 Fair Value & Verdict | Synthos Research",
+      "publisher": "research.synthosresearch.com",
+      "url": "https://research.synthosresearch.com/JCI",
+      "summary": "Johnson Controls International plc (JCI) Stock Analysis \u2014 Fair Value & Verdict | Synthos Research\n\n## The 20-second read\n\nWhat it doesJohnson Controls International plc (NYSE: JCI) is a ~140-year-old global buildings-technology company, now headquartered in Cork, Ireland (an Irish domicile from the 2016 Tyco merger). After a multi-year portfolio cleanup \u2014 exiting the Power Solutions (automotive batteries) business years ago and, most recently, divesting its residential & light-commercial HVAC and the Global Products segment \u2026Where it stands$140.76 \u00b7 Watch \u00b7 fair value ~$152 (+8% vs price) \u00b7 Ri",
+      "published": "2026-07-02",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research",
+      "publisher": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/jci-research-2026.html",
+      "summary": "Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research\n\n# Johnson Controls International PLC (JCI)\n\nHOLD. Scenario value $134 (-8% vs spot), inputs set 27 June 2026. P/E Multiple explains 58% of Monte Carlo outcome variance.\n\n HOLD RESEARCH cyclical compounder 18 October 2026 \n\n$145 \u2192 $134 (-8% vs spot \u00b7 12m PWEV) -8% probability-weighted scenario value \u00b7 inputs set 27 June 2026\n\nWhen the inputs were set. Scenario inputs set 27 June 2026 at $138; the price has moved +5.3% since. The scenario value is not re-estimated between authorings, so until the inputs are next set the rating mov",
+      "published": "2026-10-18",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "JCI Stock: Analyst Estimates \u2014 Johnson Controls - Equibles",
+      "publisher": "equibles.com",
+      "url": "https://equibles.com/stocks/jci/analyst-estimates",
+      "summary": "JCI Stock: Analyst Estimates \u2014 Johnson Controls - Equibles\n\n# JCI \u00b7 Johnson Controls International plc \u00b7 Analyst Estimates \n\n### Use JCI with AI\n\n Add company filings, earnings and prices to ChatGPT or Claude, then ask questions in your own chat. \n\n Choose your app for step-by-step connection instructions. Sign in with Equibles when asked; no code or API key is needed. \n\nAfter connecting, ask your AI to use Equibles to research JCI.\n\nOther apps & server URL\n\n `https://mcp.equibles.com/mcp` Copy the MCP server URL \n\nGemini CLI setup\n\n$143.00-8.02 (-5.31%) At close \u00b7 Oct 22\n\n Return incl. divide",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Johnson Controls International (JCI) Stock Forecast & Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/jci/forecast/",
+      "summary": "Johnson Controls International (JCI) Stock Forecast & Price Targets\n\n143.00 -8.02 (-5.31%) At close: Oct 22, 2026, 4:00 PM EDT\n\n143.11 +0.11 (0.08%) After-hours: Oct 22, 2026, 4:50 PM EDT\n\n# JCI Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 22 analysts polled by S&P Global, JCI stock has a consensus rating of \"Buy\" and an average price target of $168.5. The average 1-year stock price forecast is 17.83% higher than the current stock price, while the lowest is $129 (-9.79%) and the highest is $193 (+34.97%).\n\nPrice Target: $168.5 (+17.83%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Targ",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Notable ETF Outflow Detected - PKW, SCHW, WFC, JCI",
+      "publisher": "BNK Invest",
+      "created": "Aug 12, 2026",
+      "ago": "Aug 12, 2026",
+      "url": "/articles/notable-etf-outflow-detected-pkw-schw-wfc-jci",
+      "primary_symbol": "PKW",
+      "related_symbols": [
+        "PKW",
+        "SCHW",
+        "WFC",
+        "JCI"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Invesco BuyBack Achievers ETF (Symbol: PKW) where we have detected an approximate $542.0 million dollar outflow -- that's a 23.4% decrease week over",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Noteworthy ETF Inflows: GRID, JCI, NVT, HUBB",
+      "publisher": "BNK Invest",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/noteworthy-etf-inflows-grid-jci-nvt-hubb",
+      "primary_symbol": "GRID",
+      "related_symbols": [
+        "GRID",
+        "JCI",
+        "NVT",
+        "HUBB"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund (Symbol: GRID) where we have detected an approximate $226.2 million dollar inflow",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Noteworthy Tuesday Option Activity: JCI, HPE, FCX",
+      "publisher": "BNK Invest",
+      "created": "Aug 4, 2026",
+      "ago": "Aug 4, 2026",
+      "url": "/articles/noteworthy-tuesday-option-activity-jci-hpe-fcx",
+      "primary_symbol": "JCI",
+      "related_symbols": [
+        "JCI",
+        "HPE",
+        "FCX"
+      ],
+      "summary": "Looking at options trading activity among components of the S&P 500 index, there is noteworthy activity today in Johnson Controls International plc (Symbol: JCI), where a total volume of 20,038 contracts has been traded thus far today, a contract volume which is representati",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Is Johnson Controls Stock Still a Buy After an Insider Offloaded 23,400 Shares?",
+      "publisher": "The Motley Fool",
+      "created": "Aug 5, 2026",
+      "ago": "Aug 5, 2026",
+      "url": "/articles/johnson-controls-stock-still-buy-after-insider-offloaded-23400-shares",
+      "primary_symbol": "JCI",
+      "related_symbols": [
+        "JCI"
+      ],
+      "summary": "Key PointsThe disposition involved 23,417 shares executed at a weighted average price of $153.07 on August 4, 2026, totaling ~$3.6 million.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Johnson Controls (JCI) Q3 2026 Earnings Call Transcript",
+      "publisher": "The Motley Fool",
+      "created": "Aug 7, 2026",
+      "ago": "Aug 7, 2026",
+      "url": "/articles/johnson-controls-jci-q3-2026-earnings-call-transcript",
+      "primary_symbol": "JCI",
+      "related_symbols": [
+        "JCI"
+      ],
+      "summary": "@media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Daily Dividend Report: O,SUI,BHE,JCI,USB",
+      "publisher": "BNK Invest",
+      "created": "Sep 9, 2026",
+      "ago": "Sep 9, 2026",
+      "url": "/articles/daily-dividend-report-osuibhejciusb",
+      "primary_symbol": "O",
+      "related_symbols": [
+        "O",
+        "SUI",
+        "BHE",
+        "JCI",
+        "USB"
+      ],
+      "summary": "Realty Income, The Monthly Dividend Company\u2014, declared an increase in its common stock monthly cash dividend to $0.2715 per share from $0.2710 per share. The dividend is payable on October 15, 2026, to stockholders of record as of September 30, 2026. The new monthly dividend rep",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Can TT's Raised 2026 Outlook Hold as HVAC Backlog Reaches a Record?",
+      "publisher": "Zacks",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/can-tts-raised-2026-outlook-hold-hvac-backlog-reaches-record",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TT",
+        "JCI",
+        "CARR"
+      ],
+      "summary": "Trane Technologies raises its 2026 outlook as record HVAC backlog boosts visibility, but inflation and EMEA weakness test profit conversion.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation?",
+      "publisher": "Zacks",
+      "created": "Aug 24, 2026",
+      "ago": "Aug 24, 2026",
+      "url": "/articles/tt-stock-worth-buying-growth-runs-premium-valuation",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TT",
+        "JCI",
+        "CARR"
+      ],
+      "summary": "Trane Technologies has record bookings, a $12.1B backlog and rising earnings estimates, but premium valuation and margin pressure temper the buy case.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_monetisation",
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
+      "publisher": "Zacks",
+      "created": "Aug 5, 2026",
+      "ago": "Aug 5, 2026",
+      "url": "/articles/zackscom-featured-highlights-celestica-zurn-elkay-lam-be-semiconductor-and-johnson",
+      "primary_symbol": null,
+      "related_symbols": [
+        "JCI",
+        "LRCX",
+        "CLS",
+        "ZWS"
+      ],
+      "summary": "Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls have been highlighted in this Screen of The Week article.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Rollins Gears Up to Report Q3 Earnings: What's in the Cards?",
+      "publisher": "Zacks",
+      "created": "Oct 16, 2026",
+      "ago": "7 days ago",
+      "url": "/articles/rollins-gears-report-q3-earnings-whats-cards",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ROL",
+        "JCI",
+        "URI"
+      ],
+      "summary": "ROL is set to report Q3 2026 earnings, with revenues expected to rise 9.6% while EPS remains flat amid higher buyout and integration costs.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "UFP Industries (UFPI) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/ufp-industries-ufpi-expected-beat-earnings-estimates-can-stock-move-higher",
+      "primary_symbol": null,
+      "related_symbols": [
+        "UFPI",
+        "JCI"
+      ],
+      "summary": "UFP Industries (UFPI) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "How to Boost Your Portfolio with Top Construction Stocks Set to Beat Earnings",
+      "publisher": "Zacks",
+      "created": "Oct 7, 2026",
+      "ago": "Oct 7, 2026",
+      "url": "/articles/how-boost-your-portfolio-top-construction-stocks-set-beat-earnings",
+      "primary_symbol": null,
+      "related_symbols": [
+        "URI",
+        "JCI"
+      ],
+      "summary": "The Zacks Earnings ESP is a great way to find potential earnings surprises. Why investors should take advantage now.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Top Research Reports for AMD, Linde & Amgen",
+      "publisher": "Zacks",
+      "created": "Sep 18, 2026",
+      "ago": "Sep 18, 2026",
+      "url": "/articles/top-research-reports-amd-linde-amgen",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMD",
+        "AMGN",
+        "LIN",
+        "VATE",
+        "JCI",
+        "AON",
+        "PSX"
+      ],
+      "summary": "AMD, Linde and Amgen highlight AI demand, contracted growth and drug launches, while supply, margin and pipeline risks remain key factors.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Can Trane Technologies' $12.1B Backlog Fuel Further Growth?",
+      "publisher": "Zacks",
+      "created": "Sep 25, 2026",
+      "ago": "Sep 25, 2026",
+      "url": "/articles/can-trane-technologies-121b-backlog-fuel-further-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TT",
+        "JCI",
+        "CARR"
+      ],
+      "summary": "TT's $12.1B backlog, surging bookings and higher 2026 outlook signal strong demand visibility and momentum through the rest of the year.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Wells Fargo Initiates Coverage of Johnson Controls International at Overweight",
+      "publisher": "Fintel",
+      "created": "Sep 25, 2026",
+      "ago": "Sep 25, 2026",
+      "url": "/articles/wells-fargo-initiates-coverage-johnson-controls-international-overweight",
+      "primary_symbol": "JCI",
+      "related_symbols": [
+        "JCI"
+      ],
+      "summary": "Fintel reports that on September 25, 2026, Wells Fargo initiated coverage of Johnson Controls International (NYSE:JCI) (LSE:0Y7S) with a Overweight recommendation.Previously, Wells Fargo maintained an Overweight rating on May 7, 2026. In other recent analyst activity, Morgan Stan",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Johnson Controls Spring 2025",
+      "publisher": "students.tippie.uiowa.edu",
+      "url": "https://students.tippie.uiowa.edu/sites/students.tippie.uiowa.edu/files/2026-04/s25_JCI.pdf",
+      "summary": "Krause Fund Research Spring 2025 | April 21, 2025 Analysts Jack Kuehl | jack-kuehl@uiowa.edu Wyatt Wunder | wyatt-wunder@uiowa.edu\n\n## Johnson Controls (NYSE: JCI)\n\n| Eric Jensen | eric-jensen@uiowa.edu Haoran Wu | haoran-wu@uiowa.edu Commercial Building Systems Industrials \u2013 | | | Stock Rating BUY |\n| --- | --- | --- | --- |\n| Headquartered in Cork, solutions. The company systems, building automation, Controls has evolved through technologies market, serving employees. | Ireland, Johnson Controls provides a broad portfolio fire and security strategic innovation customers across | is a global ",
+      "published": "2024-05-03",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) bull bear case risks",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Johnson Controls International plc - Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance",
+      "publisher": "investors.johnsoncontrols.com",
+      "url": "https://investors.johnsoncontrols.com/news/news-details/2026/Johnson-Controls-Reports-Strong-Q3-Results-Raises-FY26-Guidance/default.aspx",
+      "summary": "Johnson Controls International plc - Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance\n\n### Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance\n\nJuly 29, 2026\n\n- Download (opens in new window)\n\n- Q3 sales increased 9% and organic sales increased 10%*\n- Q3 GAAP EPS of $1.23; Q3 Adjusted EPS* of $1.42\n- Q3 orders +27% organically year-over-year\n- Backlog of $21.0 billion increased 32% organically year-over-year\n\n* This earnings release contains non-GAAP financial measures. Definitions and reconciliations of the non-GAAP financial measures can be found in the attached ",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Document",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000083/q3ex991xq3fy26earningsrele.htm",
+      "summary": "Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance\n\n\u25aa Q3 sales increased 9% and organic sales increased 10%*\n\n\u25aa Q3 GAAP EPS of $1.23; Q3 Adjusted EPS* of $1.42\n\n\u25aa Q3 orders +27% organically year-over-year\n\n\u25aa Backlog of $21.0 billion increased 32% organically year-over-year\n\n* This earnings release contains non-GAAP financial measures. Definitions and reconciliations of the non-GAAP financial measures can be found in the attached footnotes. Non-GAAP measures should be considered in addition to, and not as replacements for, the most comparable GAAP measures. \n\nCORK, Ireland \u2014 July ",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_monetisation",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Johnson Controls stock heads into October 27 earnings after Q3 growth",
+      "publisher": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/johnson-controls-stock-heads-into-october-27-earnings-after-q3-growth/70242842",
+      "summary": "Johnson Controls stock heads into October 27 earnings after Q3 growth\n\n# Johnson Controls stock heads into October 27 earnings after Q3 growth\n\n Published on 10/06/2026 at 15:35 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nJohnson Controls stock traded at USD 158.23 on October 6, 2026, while fiscal Q3 revenue reached USD 6.614 billion. Analysts set a Hold consensus.\n\n \n\n \n\nJohnson Controls Makroaufnahme zeigt hochdetaillierte industrielle Kupferrohr-Armaturen und Messingventile der Geb\u00e4udetechnik IE00BY7QL619, Illustration mit AI erstellt.\n\nJohnson Controls stock (I",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4955883-johnson-controls-strong-backlog-margin-expansion-and-potential-for-upward-revision-in-estimates",
+      "summary": "Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha\n\n# Johnson Controls: Strong Backlog, Margin Expansion, And Potential For Upward Revision In Estimates\n\nOct 21, 2026, 9:53 AM ET Johnson Controls International plc (JCI) Stock 1 Comment\n\nValue Capital Research\n\n## Summary\n\n- Johnson Controls is rated Buy, driven by robust demand, strong order growth, and expanding backlog, especially from data centers.\n- JCI\u2019s margin outlook is attractive, supported by productivity gains, operating leverage, and a $500M annual cost reduction initiative targ",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "Johnson Controls International plc (JCI) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "ai_capex",
+        "ai_monetisation",
+        "depreciation_debt",
+        "guidance"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 12,
+        "share": 0.4,
+        "evidence": [
+          {
+            "title": "Johnson Controls International plc (JCI) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+            "publisher": "sg.finance.yahoo.com",
+            "published": "2026-03-11",
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research",
+            "publisher": "mchanalysis.com",
+            "published": "2026-10-18",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "JCI Stock: Analyst Estimates \u2014 Johnson Controls - Equibles",
+            "publisher": "equibles.com",
+            "published": "2026-10-22",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "Johnson Controls International (JCI) Stock Forecast & Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_monetisation",
+        "label": "AI revenue and monetisation",
+        "description": "Whether AI spending is converting into recognised revenue.",
+        "count": 6,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "Can TT's Raised 2026 Outlook Hold as HVAC Backlog Reaches a Record?",
+            "publisher": "Zacks",
+            "published": "Aug 24, 2026",
+            "matched": [
+              "backlog"
+            ]
+          },
+          {
+            "title": "Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation?",
+            "publisher": "Zacks",
+            "published": "Aug 24, 2026",
+            "matched": [
+              "backlog",
+              "bookings"
+            ]
+          },
+          {
+            "title": "Can Trane Technologies' $12.1B Backlog Fuel Further Growth?",
+            "publisher": "Zacks",
+            "published": "Sep 25, 2026",
+            "matched": [
+              "backlog",
+              "bookings"
+            ]
+          },
+          {
+            "title": "Johnson Controls International plc - Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance",
+            "publisher": "investors.johnsoncontrols.com",
+            "published": "2026-07-29",
+            "matched": [
+              "backlog"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 4,
+        "share": 0.133,
+        "evidence": [
+          {
+            "title": "Johnson Controls International plc (JCI) Stock Analysis \u2014 Fair Value & Verdict | Synthos Research",
+            "publisher": "research.synthosresearch.com",
+            "published": "2026-07-02",
+            "matched": [
+              "merger",
+              "divest"
+            ]
+          },
+          {
+            "title": "Notable ETF Outflow Detected - PKW, SCHW, WFC, JCI",
+            "publisher": "BNK Invest",
+            "published": "Aug 12, 2026",
+            "matched": [
+              "buyback"
+            ]
+          },
+          {
+            "title": "Daily Dividend Report: O,SUI,BHE,JCI,USB",
+            "publisher": "BNK Invest",
+            "published": "Sep 9, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Rollins Gears Up to Report Q3 Earnings: What's in the Cards?",
+            "publisher": "Zacks",
+            "published": "Oct 16, 2026",
+            "matched": [
+              "buyout"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 3,
+        "share": 0.1,
+        "evidence": [
+          {
+            "title": "Johnson Controls International (JCI) Stock Forecast & Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-22",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Noteworthy Tuesday Option Activity: JCI, HPE, FCX",
+            "publisher": "BNK Invest",
+            "published": "Aug 4, 2026",
+            "matched": [
+              "options"
+            ]
+          },
+          {
+            "title": "Is Johnson Controls Stock Still a Buy After an Insider Offloaded 23,400 Shares?",
+            "publisher": "The Motley Fool",
+            "published": "Aug 5, 2026",
+            "matched": [
+              "insider"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 2,
+        "share": 0.067,
+        "evidence": [
+          {
+            "title": "Is JCI a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+            "publisher": "walnutinvest.com",
+            "published": "2026-06-30",
+            "matched": [
+              "data center"
+            ]
+          },
+          {
+            "title": "Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-21",
+            "matched": [
+              "data center"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 2,
+        "share": 0.067,
+        "evidence": [
+          {
+            "title": "Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research",
+            "publisher": "mchanalysis.com",
+            "published": "2026-10-18",
+            "matched": [
+              "multiple",
+              "p/e"
+            ]
+          },
+          {
+            "title": "Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation?",
+            "publisher": "Zacks",
+            "published": "Aug 24, 2026",
+            "matched": [
+              "valuation",
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.033,
+        "evidence": [
+          {
+            "title": "Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-21",
+            "matched": [
+              "leverage"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    },
+    {
+      "story": "Same AI narrative, very different multiples",
+      "long_side": "cheap incumbent with distribution",
+      "short_side": "expensive pure-play on the same story"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-10-27"
+    ],
+    "next_date": "2026-10-27",
+    "eps_avg": 1.55899,
+    "eps_low": 1.14,
+    "eps_high": 1.65,
+    "revenue_avg": 6999234130
+  },
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "days_out": 4,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 1.55899,
+      "eps_low": 1.14,
+      "eps_high": 1.65,
+      "revenue_avg": 6999234130
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 1.3,
+        "eps_actual": 1.42,
+        "surprise_pct": 9.01,
+        "beat": true
+      },
+      {
+        "date": "2026-05-06",
+        "eps_estimate": 1.12,
+        "eps_actual": 1.19,
+        "surprise_pct": 6.46,
+        "beat": true
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 0.84,
+        "eps_actual": 0.89,
+        "surprise_pct": 5.7,
+        "beat": true
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 1.2,
+        "eps_actual": 1.26,
+        "surprise_pct": 4.66,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-27 (Tuesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 1.56."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 nonresidential construction spending outlook commercial institutional industrial data center",
+      "building automation controls market 2026 AI cybersecurity new entrants smart buildings",
+      "2026 commercial building retrofit capex budgets facility management skilled trades spending",
+      "Johnson Controls JCI data center cooling demand 2026 hyperscale capex liquid cooling"
+    ],
+    "results_count": 19,
+    "results_dated": 17,
+    "trends": [
+      {
+        "claim": "Data center construction is forecast to surge in 2026, upgrading the nonresidential building outlook.",
+        "stance": "support",
+        "why": "Stronger data center starts should sustain JCI's systems orders and record backlog into fiscal 2027.",
+        "quote": "The outlook for Total Nonresidential construction has been upgraded, with stronger Data Center activity driven by robust artificial intelligence investment.",
+        "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+        "publisher": "news.constructconnect.com",
+        "as_of": "2026-09-08",
+        "age_days": 45,
+        "undated": false
+      },
+      {
+        "claim": "Commercial construction growth is increasingly concentrated in AI/data centers, raising exposure to a tech investment slowdown in 2026.",
+        "stance": "pressure",
+        "why": "If AI capex slows, JCI's data-center-driven orders and backlog growth could decelerate.",
+        "quote": "increasing dependence on AI-related spending leaves the sector more exposed to a slowdown in technology investmen",
+        "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+        "publisher": "qbe.com",
+        "as_of": "2026-07-01",
+        "age_days": 114,
+        "undated": false
+      },
+      {
+        "claim": "In mid-2026, nonresidential construction spending growth has stalled and forward-looking indicators point to a weaker project pipeline.",
+        "stance": "pressure",
+        "why": "A weaker pipeline could slow JCI's systems and service order intake after current backlog converts.",
+        "quote": "Non-residential construction spending remains near historic highs in mid-2026, but spending growth has stalled and forward-looking indicators point to a weaker project pipeline.",
+        "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+        "publisher": "qbe.com",
+        "as_of": "2026-07-01",
+        "age_days": 114,
+        "undated": false
+      },
+      {
+        "claim": "U.S. construction starts are forecast to rise 2.1% in 2026 after year-to-date June starts rose 6.5%.",
+        "stance": "support",
+        "why": "More starts should feed JCI's installed equipment and service demand over the next 1-3 years.",
+        "quote": "Total U.S. construction starts are forecast to rise 2.1% in 2026, while year-to-date starts through June are up 6.5% from the same period last year.",
+        "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+        "publisher": "news.constructconnect.com",
+        "as_of": "2026-09-08",
+        "age_days": 45,
+        "undated": false
+      },
+      {
+        "claim": "Smart-building demand is shifting to autonomous AI platforms in 2026, raising the innovation bar for building automation vendors.",
+        "stance": "pressure",
+        "why": "JCI must invest to avoid losing digital service attach and retrofit share.",
+        "quote": "The smart buildings market is moving decisively from rule-based, insight-only platforms to AI systems that monitor, analyze, act, and continuously learn without operator intervention, autonom",
+        "url": "https://abound.carrier.com/en/worldwide/media/Smart%20Building%20Solutions%202026%20-%20Frost%20Radar_tcm1101-302004.pdf",
+        "publisher": "abound.carrier.com",
+        "as_of": "2026-07-19",
+        "age_days": 96,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "As of April 2026, data center construction is soaring while other nonresidential categories are flat or declining.",
+        "stance": "pressure",
+        "why": "JCI's growth is increasingly reliant on data centers as broader commercial demand lags.",
+        "quote": "Data center construction is soaring; other nonresidential is flat or declining",
+        "url": "https://www.agc.org/sites/default/files/users/user21902/Construction%20Spending%20April%202026.pdf",
+        "publisher": "agc.org",
+        "as_of": "2026-04-01",
+        "age_days": 205,
+        "undated": false,
+        "drop_reason": "stale (205 days old)"
+      },
+      {
+        "claim": "Open standards and clean APIs are now basic compatibility requirements in building automation as of January 2026.",
+        "stance": "pressure",
+        "why": "JCI must make equipment interoperable, potentially reducing lock-in and service pricing power.",
+        "quote": "Open standards (BACnet, KNX, Modbus, Matter, Zigbee, LoRaWAN) and clean APIs are now basic compatibility requirements.",
+        "url": "https://www.escatec.com/blog/building-automation-companies-to-watch",
+        "publisher": "escatec.com",
+        "as_of": "2026-01-08",
+        "age_days": 288,
+        "undated": false,
+        "drop_reason": "stale (288 days old)"
+      }
+    ],
+    "stale_dropped": 2,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "JCI",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 143.0,
+      "catalyst": "2027-01-26",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 150.0,
+        "premium": 10.45,
+        "bid": 9.6,
+        "ask": 11.3,
+        "mid": 10.45,
+        "last": 10.9,
+        "open_interest": 114,
+        "volume": 2.0,
+        "implied_vol": 0.39148557739257805,
+        "qty": 4
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 150.0,
+        "premium": 3.65,
+        "bid": 3.2,
+        "ask": 4.1,
+        "mid": 3.65,
+        "last": 4.8,
+        "open_interest": 414,
+        "volume": 3.0,
+        "implied_vol": 0.42847251220703125,
+        "qty": 2
+      },
+      "long_total": 4180.0,
+      "short_total": 730.0,
+      "net_debit": 3450.0,
+      "credit_ratio_mid": 0.1746,
+      "credit_ratio_conservative": 0.1416,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 150.0,
+          "qty": 4,
+          "underlying": 143.0,
+          "multiplier": 100,
+          "price": 10.45,
+          "total": 4180.0,
+          "open_interest": 114
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 150.0,
+          "qty": 2,
+          "underlying": 143.0,
+          "multiplier": 100,
+          "price": 3.65,
+          "total": -730.0,
+          "open_interest": 414
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-26 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-26); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 150, 145, 155, 160"
+      ],
+      "advice": "Credit ratio 14.2% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0873,
+          "credit_ratio_conservative": 0.0708,
+          "passes_floor": false,
+          "cash_collected": 365.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1746,
+          "credit_ratio_conservative": 0.1416,
+          "passes_floor": true,
+          "cash_collected": 730.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.262,
+          "credit_ratio_conservative": 0.2124,
+          "passes_floor": true,
+          "cash_collected": 1095.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.3493,
+          "credit_ratio_conservative": 0.2832,
+          "passes_floor": true,
+          "cash_collected": 1460.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "JCI",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 143.0,
+      "catalyst": "2027-01-26",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 135.0,
+        "premium": 8.45,
+        "bid": 7.9,
+        "ask": 9.0,
+        "mid": 8.45,
+        "last": 7.0,
+        "open_interest": 67,
+        "volume": 2.0,
+        "implied_vol": 0.35773347351074214,
+        "qty": 5
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 135.0,
+        "premium": 3.3,
+        "bid": 3.0,
+        "ask": 3.6,
+        "mid": 3.3,
+        "last": 3.1,
+        "open_interest": 780,
+        "volume": 16.0,
+        "implied_vol": 0.44006907592773437,
+        "qty": 2
+      },
+      "long_total": 4225.0,
+      "short_total": 660.0,
+      "net_debit": 3565.0,
+      "credit_ratio_mid": 0.1562,
+      "credit_ratio_conservative": 0.1333,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 135.0,
+          "qty": 5,
+          "underlying": 143.0,
+          "multiplier": 100,
+          "price": 8.45,
+          "total": 4225.0,
+          "open_interest": 67
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 135.0,
+          "qty": 2,
+          "underlying": 143.0,
+          "multiplier": 100,
+          "price": 3.3,
+          "total": -660.0,
+          "open_interest": 780
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-26 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-26); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 135, 140, 130, 125"
+      ],
+      "advice": "Credit ratio 13.3% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0781,
+          "credit_ratio_conservative": 0.0667,
+          "passes_floor": false,
+          "cash_collected": 330.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1562,
+          "credit_ratio_conservative": 0.1333,
+          "passes_floor": true,
+          "cash_collected": 660.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.2343,
+          "credit_ratio_conservative": 0.2,
+          "passes_floor": true,
+          "cash_collected": 990.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.3124,
+          "credit_ratio_conservative": 0.2667,
+          "passes_floor": true,
+          "cash_collected": 1320.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.3905,
+          "credit_ratio_conservative": 0.3333,
+          "passes_floor": true,
+          "cash_collected": 1650.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for JCI",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JCI/key-statistics/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "Price: 143.00 USD Market Cap: 86.62B Fwd PE: 28.2 P/S: 3.5 EPS trends: flat over the last 7 days EPS revisions: all up, with 5 up and 0 down over last 30 days price 143.0 market cap 86.62B forward PE 28.2 forward PE next FY 23.33 trailing PE 42.68657 P/S 3.4655342 EV/EBITDA 22.078"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for JCI",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JCI/analysis/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "FY consensus 5.07064 now, 5.06779 7 days ago, 5.06407 30 days ago, change over 30 days 0.13%; EPS revisions 5 up and 0 down over 30 days, 3 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "JCI quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/jci/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Earnings Before Interest and Tax increasing 22.7% (3/31/2026 to 6/30/2026) Net Income increasing 22.2% (3/31/2026 to 6/30/2026) Cash and Cash Equivalents decreasing 8.2% (3/31/2026 to 6/30/2026) Net Receivables increasing 5.4% (3/31/2026 to 6/30/2026) EPS increased year over year 1.05 to 1.42 Total Revenue 7.7% quarter over quarter and 9.3% year over year to 2026-06-30 Net Income 22.2% quarter over quarter and 6.8% year over year to 2026-06-30 EBIT 22.2% quarter over quarter and 28.3% year over year to 2026-06-30 EBITDA 17.6% quarter over quarter and 19.7% year over year to 2026-06-30 Operating Income 23.9% quarter over quarter and 28.7% year over year to 2026-06-30 Gross Profit 9.4% quarter over quarter and 10.2% year over year to 2026-06-30 Interest Expense -3.3% quarter over quarter and 5.5% year over year to 2026-06-30 Interest Income 200.0% quarter over quarter and 0.0% year over year to 2026-06-30 Total Revenue increasing 2.8% in fiscal 2025-09-30 vs 2024-09-30 Net Income increasing 93.0% in fiscal 2025-09-30 vs 2024-09-30 Net Income Common Stockholders increasing 93.0% in fiscal 2025-09-30 vs 2024-09-30 Net Interest Income increasing 42.8% in fiscal 2025-09-30 vs 2024-09-30 Interest Expense decreasing 40.4% in fiscal 2025-09-30 vs 2024-09-30 Operating Income increasing 17.1% in fiscal 2025-09-30 vs 2024-09-30"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "JCI earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/jci/earnings",
+      "date": "2026-10-27",
+      "weight": null,
+      "text": "2026-10-27 (Tuesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 1.56. beat streak 4 median gap 91 days 2026-07-29 estimate 1.3 actual 1.42 surprise 9.01% 2026-05-06 estimate 1.12 actual 1.19 surprise 6.46% 2026-02-04 estimate 0.84 actual 0.89 surprise 5.7% 2025-11-05 estimate 1.2 actual 1.26 surprise 4.66%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: Notable ETF Outflow Detected - PKW, SCHW, WFC, JCI",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-pkw-schw-wfc-jci",
+      "date": "Aug 12, 20",
+      "weight": 3,
+      "text": "Notable ETF Outflow Detected - PKW, SCHW, WFC, JCI Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Invesco BuyBack Achievers ETF (Symbol: PKW) where we have detected an approximate $542.0 million dollar outflow -- that's a 23.4% decrease week over"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "BNK Invest: Noteworthy ETF Inflows: GRID, JCI, NVT, HUBB",
+      "provider": null,
+      "url": "/articles/noteworthy-etf-inflows-grid-jci-nvt-hubb",
+      "date": "Aug 24, 20",
+      "weight": 3,
+      "text": "Noteworthy ETF Inflows: GRID, JCI, NVT, HUBB Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund (Symbol: GRID) where we have detected an approximate $226.2 million dollar inflow"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "BNK Invest: Noteworthy Tuesday Option Activity: JCI, HPE, FCX",
+      "provider": null,
+      "url": "/articles/noteworthy-tuesday-option-activity-jci-hpe-fcx",
+      "date": "Aug 4, 202",
+      "weight": 3,
+      "text": "Noteworthy Tuesday Option Activity: JCI, HPE, FCX Looking at options trading activity among components of the S&P 500 index, there is noteworthy activity today in Johnson Controls International plc (Symbol: JCI), where a total volume of 20,038 contracts has been traded thus far today, a contract volume which is representati"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "The Motley Fool: Is Johnson Controls Stock Still a Buy After an Insider Offloaded 23,400 Shares?",
+      "provider": null,
+      "url": "/articles/johnson-controls-stock-still-buy-after-insider-offloaded-23400-shares",
+      "date": "Aug 5, 202",
+      "weight": 3,
+      "text": "Is Johnson Controls Stock Still a Buy After an Insider Offloaded 23,400 Shares? Key PointsThe disposition involved 23,417 shares executed at a weighted average price of $153.07 on August 4, 2026, totaling ~$3.6 million."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Johnson Controls (JCI) Q3 2026 Earnings Call Transcript",
+      "provider": null,
+      "url": "/articles/johnson-controls-jci-q3-2026-earnings-call-transcript",
+      "date": "Aug 7, 202",
+      "weight": 3,
+      "text": "Johnson Controls (JCI) Q3 2026 Earnings Call Transcript @media (max-width: 768px) {\n                .image-container {\n                    width: 100% !important;\n                    float: none !important;\n                    margin: 0 0 1rem 0 !important;\n                }\n            }\n        \n\n\n\nImage source: The Mo"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "BNK Invest: Daily Dividend Report: O,SUI,BHE,JCI,USB",
+      "provider": null,
+      "url": "/articles/daily-dividend-report-osuibhejciusb",
+      "date": "Sep 9, 202",
+      "weight": 3,
+      "text": "Daily Dividend Report: O,SUI,BHE,JCI,USB Realty Income, The Monthly Dividend Company\u2014, declared an increase in its common stock monthly cash dividend to $0.2715 per share from $0.2710 per share. The dividend is payable on October 15, 2026, to stockholders of record as of September 30, 2026. The new monthly dividend rep"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Can TT's Raised 2026 Outlook Hold as HVAC Backlog Reaches a Record?",
+      "provider": null,
+      "url": "/articles/can-tts-raised-2026-outlook-hold-hvac-backlog-reaches-record",
+      "date": "Aug 24, 20",
+      "weight": 2,
+      "text": "Can TT's Raised 2026 Outlook Hold as HVAC Backlog Reaches a Record? Trane Technologies raises its 2026 outlook as record HVAC backlog boosts visibility, but inflation and EMEA weakness test profit conversion."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation?",
+      "provider": null,
+      "url": "/articles/tt-stock-worth-buying-growth-runs-premium-valuation",
+      "date": "Aug 24, 20",
+      "weight": 2,
+      "text": "Is TT Stock Worth Buying as Growth Runs Into a Premium Valuation? Trane Technologies has record bookings, a $12.1B backlog and rising earnings estimates, but premium valuation and margin pressure temper the buy case."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
+      "provider": null,
+      "url": "/articles/zackscom-featured-highlights-celestica-zurn-elkay-lam-be-semiconductor-and-johnson",
+      "date": "Aug 5, 202",
+      "weight": 2,
+      "text": "Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls have been highlighted in this Screen of The Week article."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Rollins Gears Up to Report Q3 Earnings: What's in the Cards?",
+      "provider": null,
+      "url": "/articles/rollins-gears-report-q3-earnings-whats-cards",
+      "date": "Oct 16, 20",
+      "weight": 2,
+      "text": "Rollins Gears Up to Report Q3 Earnings: What's in the Cards? ROL is set to report Q3 2026 earnings, with revenues expected to rise 9.6% while EPS remains flat amid higher buyout and integration costs."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: UFP Industries (UFPI) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+      "provider": null,
+      "url": "/articles/ufp-industries-ufpi-expected-beat-earnings-estimates-can-stock-move-higher",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "UFP Industries (UFPI) Expected to Beat Earnings Estimates: Can the Stock Move Higher? UFP Industries (UFPI) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: How to Boost Your Portfolio with Top Construction Stocks Set to Beat Earnings",
+      "provider": null,
+      "url": "/articles/how-boost-your-portfolio-top-construction-stocks-set-beat-earnings",
+      "date": "Oct 7, 202",
+      "weight": 2,
+      "text": "How to Boost Your Portfolio with Top Construction Stocks Set to Beat Earnings The Zacks Earnings ESP is a great way to find potential earnings surprises. Why investors should take advantage now."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Top Research Reports for AMD, Linde & Amgen",
+      "provider": null,
+      "url": "/articles/top-research-reports-amd-linde-amgen",
+      "date": "Sep 18, 20",
+      "weight": 2,
+      "text": "Top Research Reports for AMD, Linde & Amgen AMD, Linde and Amgen highlight AI demand, contracted growth and drug launches, while supply, margin and pipeline risks remain key factors."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Can Trane Technologies' $12.1B Backlog Fuel Further Growth?",
+      "provider": null,
+      "url": "/articles/can-trane-technologies-121b-backlog-fuel-further-growth",
+      "date": "Sep 25, 20",
+      "weight": 2,
+      "text": "Can Trane Technologies' $12.1B Backlog Fuel Further Growth? TT's $12.1B backlog, surging bookings and higher 2026 outlook signal strong demand visibility and momentum through the rest of the year."
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Fintel: Wells Fargo Initiates Coverage of Johnson Controls International at Overweight",
+      "provider": null,
+      "url": "/articles/wells-fargo-initiates-coverage-johnson-controls-international-overweight",
+      "date": "Sep 25, 20",
+      "weight": 1,
+      "text": "Wells Fargo Initiates Coverage of Johnson Controls International at Overweight Fintel reports that on September 25, 2026, Wells Fargo initiated coverage of Johnson Controls International (NYSE:JCI) (LSE:0Y7S) with a Overweight recommendation.Previously, Wells Fargo maintained an Overweight rating on May 7, 2026. In other recent analyst activity, Morgan Stan"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "sec.gov: jci-20250930",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000097/jci-20250930.htm",
+      "date": "2025-09-30",
+      "weight": 3,
+      "text": "jci-20250930 jci-20250930\n\nWASHINGTON, D.C. 20549\n\nFORM 10-K \n\n\u2611 ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the Fiscal Year Ended September 30, 2025\n\n\u2610 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the Transition Period From _____ To _____\n\nCommission File Number 001-13836 \n\nJOHNSON CONTROLS INTERNATIONAL PLC \n\n(Exact name of registrant as specified in its charter)\n\n| Ireland | 98-0390500 |\n| --- | --- |\n| (Jurisdiction of Incorporation) | (IRS Employer Identification No.) |\n| One Albert Quay, Cork, Ireland, T12"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "sg.finance.yahoo.com: Johnson Controls International plc (JCI) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "sg.finance.yahoo.com",
+      "url": "https://sg.finance.yahoo.com/quote/JCI/analysis/",
+      "date": "2026-03-11",
+      "weight": 3,
+      "text": "Johnson Controls International plc (JCI) analyst ratings, estimates and forecasts \u2013 Yahoo Finance Johnson Controls International plc (JCI) analyst ratings, estimates and forecasts \u2013 Yahoo Finance\n\nJCI\n\nJohnson Controls International plc\n\n145.10 -4.81% \n\nNYSE - Nasdaq Real Time Price \u2022 USD \n\n# Johnson Controls International plc (JCI)\n\n 145.10 -7.34 (-4.81%) \n\n As of 2:00:32 pm GMT-4. Market open. \n\n### Revenue vs. Earnings \n\nQ3 FY26\n\nRevenue 6.61B\n\nEarnings 749M\n\nProfit margin 11.32%\n\nQ4\n\nFY25\n\nQ1\n\nFY26\n\nQ2\n\nFY26\n\nQ3\n\nFY26\n\n2B \n\n4B \n\n6B \n\n10.0% \n\n15.0% \n\n20.0% \n\n25.0% \n\n### Revenue estimate\n\n| Currency in USD | Current qtr. (Sept 2026) | Next qtr. (Dec 2026) | Current year (2026) | Next yea"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "walnutinvest.com: Is JCI a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/jci/is-it-a-buy-or-sell",
+      "date": "2026-06-30",
+      "weight": 3,
+      "text": "Is JCI a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App Is JCI a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is JCI a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Johnson Controls International plc (JCI) rests on Data-center and AI cooling demand: JCI supplies chillers and thermal-management systems for hyperscale and AI data centers, a segment growing far faster than the general construction market. The bear case rests on demand for large HVAC and building systems is tied to commercial construction"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "research.synthosresearch.com: Johnson Controls International plc (JCI) Stock Analysis \u2014 Fair Value & Verdict | Synthos Research",
+      "provider": "research.synthosresearch.com",
+      "url": "https://research.synthosresearch.com/JCI",
+      "date": "2026-07-02",
+      "weight": 3,
+      "text": "Johnson Controls International plc (JCI) Stock Analysis \u2014 Fair Value & Verdict | Synthos Research Johnson Controls International plc (JCI) Stock Analysis \u2014 Fair Value & Verdict | Synthos Research\n\n## The 20-second read\n\nWhat it doesJohnson Controls International plc (NYSE: JCI) is a ~140-year-old global buildings-technology company, now headquartered in Cork, Ireland (an Irish domicile from the 2016 Tyco merger). After a multi-year portfolio cleanup \u2014 exiting the Power Solutions (automotive batteries) business years ago and, most recently, divesting its residential & light-commercial HVAC and the Global Products segment \u2026Where it stands$140.76 \u00b7 Watch \u00b7 fair value ~$152 (+8% vs price) \u00b7 Ri"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "mchanalysis.com: Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research",
+      "provider": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/jci-research-2026.html",
+      "date": "2026-10-18",
+      "weight": 3,
+      "text": "Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research Johnson Controls International PLC (JCI) \u2014 MCH Analysis Research\n\n# Johnson Controls International PLC (JCI)\n\nHOLD. Scenario value $134 (-8% vs spot), inputs set 27 June 2026. P/E Multiple explains 58% of Monte Carlo outcome variance.\n\n HOLD RESEARCH cyclical compounder 18 October 2026 \n\n$145 \u2192 $134 (-8% vs spot \u00b7 12m PWEV) -8% probability-weighted scenario value \u00b7 inputs set 27 June 2026\n\nWhen the inputs were set. Scenario inputs set 27 June 2026 at $138; the price has moved +5.3% since. The scenario value is not re-estimated between authorings, so until the inputs are next set the rating mov"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "equibles.com: JCI Stock: Analyst Estimates \u2014 Johnson Controls - Equibles",
+      "provider": "equibles.com",
+      "url": "https://equibles.com/stocks/jci/analyst-estimates",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "JCI Stock: Analyst Estimates \u2014 Johnson Controls - Equibles JCI Stock: Analyst Estimates \u2014 Johnson Controls - Equibles\n\n# JCI \u00b7 Johnson Controls International plc \u00b7 Analyst Estimates \n\n### Use JCI with AI\n\n Add company filings, earnings and prices to ChatGPT or Claude, then ask questions in your own chat. \n\n Choose your app for step-by-step connection instructions. Sign in with Equibles when asked; no code or API key is needed. \n\nAfter connecting, ask your AI to use Equibles to research JCI.\n\nOther apps & server URL\n\n `https://mcp.equibles.com/mcp` Copy the MCP server URL \n\nGemini CLI setup\n\n$143.00-8.02 (-5.31%) At close \u00b7 Oct 22\n\n Return incl. divide"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Johnson Controls International (JCI) Stock Forecast & Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/jci/forecast/",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "Johnson Controls International (JCI) Stock Forecast & Price Targets Johnson Controls International (JCI) Stock Forecast & Price Targets\n\n143.00 -8.02 (-5.31%) At close: Oct 22, 2026, 4:00 PM EDT\n\n143.11 +0.11 (0.08%) After-hours: Oct 22, 2026, 4:50 PM EDT\n\n# JCI Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 22 analysts polled by S&P Global, JCI stock has a consensus rating of \"Buy\" and an average price target of $168.5. The average 1-year stock price forecast is 17.83% higher than the current stock price, while the lowest is $129 (-9.79%) and the highest is $193 (+34.97%).\n\nPrice Target: $168.5 (+17.83%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| Targ"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "students.tippie.uiowa.edu: Johnson Controls Spring 2025",
+      "provider": "students.tippie.uiowa.edu",
+      "url": "https://students.tippie.uiowa.edu/sites/students.tippie.uiowa.edu/files/2026-04/s25_JCI.pdf",
+      "date": "2024-05-03",
+      "weight": 0,
+      "text": "Johnson Controls Spring 2025 Krause Fund Research Spring 2025 | April 21, 2025 Analysts Jack Kuehl | jack-kuehl@uiowa.edu Wyatt Wunder | wyatt-wunder@uiowa.edu\n\n## Johnson Controls (NYSE: JCI)\n\n| Eric Jensen | eric-jensen@uiowa.edu Haoran Wu | haoran-wu@uiowa.edu Commercial Building Systems Industrials \u2013 | | | Stock Rating BUY |\n| --- | --- | --- | --- |\n| Headquartered in Cork, solutions. The company systems, building automation, Controls has evolved through technologies market, serving employees. | Ireland, Johnson Controls provides a broad portfolio fire and security strategic innovation customers across | is a global"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "investors.johnsoncontrols.com: Johnson Controls International plc - Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance",
+      "provider": "investors.johnsoncontrols.com",
+      "url": "https://investors.johnsoncontrols.com/news/news-details/2026/Johnson-Controls-Reports-Strong-Q3-Results-Raises-FY26-Guidance/default.aspx",
+      "date": "2026-07-29",
+      "weight": 0,
+      "text": "Johnson Controls International plc - Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance Johnson Controls International plc - Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance\n\n### Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance\n\nJuly 29, 2026\n\n- Download (opens in new window)\n\n- Q3 sales increased 9% and organic sales increased 10%*\n- Q3 GAAP EPS of $1.23; Q3 Adjusted EPS* of $1.42\n- Q3 orders +27% organically year-over-year\n- Backlog of $21.0 billion increased 32% organically year-over-year\n\n* This earnings release contains non-GAAP financial measures. Definitions and reconciliations of the non-GAAP financial measures can be found in the attached"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "sec.gov: Document",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000083/q3ex991xq3fy26earningsrele.htm",
+      "date": "2026-07-29",
+      "weight": 0,
+      "text": "Document Johnson Controls Reports Strong Q3 Results; Raises FY26 Guidance\n\n\u25aa Q3 sales increased 9% and organic sales increased 10%*\n\n\u25aa Q3 GAAP EPS of $1.23; Q3 Adjusted EPS* of $1.42\n\n\u25aa Q3 orders +27% organically year-over-year\n\n\u25aa Backlog of $21.0 billion increased 32% organically year-over-year\n\n* This earnings release contains non-GAAP financial measures. Definitions and reconciliations of the non-GAAP financial measures can be found in the attached footnotes. Non-GAAP measures should be considered in addition to, and not as replacements for, the most comparable GAAP measures. \n\nCORK, Ireland \u2014 July"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "ad-hoc-news.de: Johnson Controls stock heads into October 27 earnings after Q3 growth",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/johnson-controls-stock-heads-into-october-27-earnings-after-q3-growth/70242842",
+      "date": "2026-10-06",
+      "weight": 0,
+      "text": "Johnson Controls stock heads into October 27 earnings after Q3 growth Johnson Controls stock heads into October 27 earnings after Q3 growth\n\n# Johnson Controls stock heads into October 27 earnings after Q3 growth\n\n Published on 10/06/2026 at 15:35 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nJohnson Controls stock traded at USD 158.23 on October 6, 2026, while fiscal Q3 revenue reached USD 6.614 billion. Analysts set a Hold consensus.\n\n \n\n \n\nJohnson Controls Makroaufnahme zeigt hochdetaillierte industrielle Kupferrohr-Armaturen und Messingventile der Geb\u00e4udetechnik IE00BY7QL619, Illustration mit AI erstellt.\n\nJohnson Controls stock (I"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "seekingalpha.com: Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4955883-johnson-controls-strong-backlog-margin-expansion-and-potential-for-upward-revision-in-estimates",
+      "date": "2026-10-21",
+      "weight": 0,
+      "text": "Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha Johnson Controls: Strong Backlog, Margin Expansion, Potential Upward Revision In Estimate | Seeking Alpha\n\n# Johnson Controls: Strong Backlog, Margin Expansion, And Potential For Upward Revision In Estimates\n\nOct 21, 2026, 9:53 AM ET Johnson Controls International plc (JCI) Stock 1 Comment\n\nValue Capital Research\n\n## Summary\n\n- Johnson Controls is rated Buy, driven by robust demand, strong order growth, and expanding backlog, especially from data centers.\n- JCI\u2019s margin outlook is attractive, supported by productivity gains, operating leverage, and a $500M annual cost reduction initiative targ"
+    },
+    {
+      "id": "S32",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "news.constructconnect.com: Data center construction is forecast to surge in 2026, upgrading the nonresidential building outlook.",
+      "provider": "news.constructconnect.com",
+      "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+      "date": "2026-09-08",
+      "weight": null,
+      "text": "Data center construction is forecast to surge in 2026, upgrading the nonresidential building outlook. Stronger data center starts should sustain JCI's systems orders and record backlog into fiscal 2027. \"The outlook for Total Nonresidential construction has been upgraded, with stronger Data Center activity driven by robust artificial intelligence investment.\""
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "qbe.com: Commercial construction growth is increasingly concentrated in AI/data centers, raising exposure to a tech investment slowdown in 2026.",
+      "provider": "qbe.com",
+      "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+      "date": "2026-07-01",
+      "weight": null,
+      "text": "Commercial construction growth is increasingly concentrated in AI/data centers, raising exposure to a tech investment slowdown in 2026. If AI capex slows, JCI's data-center-driven orders and backlog growth could decelerate. \"increasing dependence on AI-related spending leaves the sector more exposed to a slowdown in technology investmen\""
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "qbe.com: In mid-2026, nonresidential construction spending growth has stalled and forward-looking indicators point to a weaker project pipeline.",
+      "provider": "qbe.com",
+      "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+      "date": "2026-07-01",
+      "weight": null,
+      "text": "In mid-2026, nonresidential construction spending growth has stalled and forward-looking indicators point to a weaker project pipeline. A weaker pipeline could slow JCI's systems and service order intake after current backlog converts. \"Non-residential construction spending remains near historic highs in mid-2026, but spending growth has stalled and forward-looking indicators point to a weaker project pipeline.\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "news.constructconnect.com: U.S. construction starts are forecast to rise 2.1% in 2026 after year-to-date June starts rose 6.5%.",
+      "provider": "news.constructconnect.com",
+      "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+      "date": "2026-09-08",
+      "weight": null,
+      "text": "U.S. construction starts are forecast to rise 2.1% in 2026 after year-to-date June starts rose 6.5%. More starts should feed JCI's installed equipment and service demand over the next 1-3 years. \"Total U.S. construction starts are forecast to rise 2.1% in 2026, while year-to-date starts through June are up 6.5% from the same period last year.\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "abound.carrier.com: Smart-building demand is shifting to autonomous AI platforms in 2026, raising the innovation bar for building automation vendors.",
+      "provider": "abound.carrier.com",
+      "url": "https://abound.carrier.com/en/worldwide/media/Smart%20Building%20Solutions%202026%20-%20Frost%20Radar_tcm1101-302004.pdf",
+      "date": "2026-07-19",
+      "weight": null,
+      "text": "Smart-building demand is shifting to autonomous AI platforms in 2026, raising the innovation bar for building automation vendors. JCI must invest to avoid losing digital service attach and retrofit share. \"The smart buildings market is moving decisively from rule-based, insight-only platforms to AI systems that monitor, analyze, act, and continuously learn without operator intervention, autonom\""
+    },
+    {
+      "id": "S37",
+      "kind": "options",
+      "ref": "options",
+      "label": "JCI listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/JCI/options/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "long CALL strike 150.0 expiry 2027-03-19 premium 10.45 short PUT strike 135.0 expiry 2027-03-19 premium 8.45"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 4.76,
+    "fy_consensus": 5.07064,
+    "ratio": 0.939,
+    "beats": 4,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (1.42 + 1.19 + 0.89 + 1.26) total 4.76, against a current-FY consensus of 5.07064 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "2026 nonresidential construction spending outlook commercial institutional industrial data center",
+        "building automation controls market 2026 AI cybersecurity new entrants smart buildings",
+        "2026 commercial building retrofit capex budgets facility management skilled trades spending",
+        "Johnson Controls JCI data center cooling demand 2026 hyperscale capex liquid cooling"
+      ],
+      "results_count": 19,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "Data center construction is forecast to surge in 2026, upgrading the nonresidential building outlook.",
+          "stance": "support",
+          "why": "Stronger data center starts should sustain JCI's systems orders and record backlog into fiscal 2027.",
+          "quote": "The outlook for Total Nonresidential construction has been upgraded, with stronger Data Center activity driven by robust artificial intelligence investment.",
+          "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+          "publisher": "news.constructconnect.com",
+          "as_of": "2026-09-08",
+          "age_days": 45,
+          "undated": false
+        },
+        {
+          "claim": "Commercial construction growth is increasingly concentrated in AI/data centers, raising exposure to a tech investment slowdown in 2026.",
+          "stance": "pressure",
+          "why": "If AI capex slows, JCI's data-center-driven orders and backlog growth could decelerate.",
+          "quote": "increasing dependence on AI-related spending leaves the sector more exposed to a slowdown in technology investmen",
+          "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+          "publisher": "qbe.com",
+          "as_of": "2026-07-01",
+          "age_days": 114,
+          "undated": false
+        },
+        {
+          "claim": "In mid-2026, nonresidential construction spending growth has stalled and forward-looking indicators point to a weaker project pipeline.",
+          "stance": "pressure",
+          "why": "A weaker pipeline could slow JCI's systems and service order intake after current backlog converts.",
+          "quote": "Non-residential construction spending remains near historic highs in mid-2026, but spending growth has stalled and forward-looking indicators point to a weaker project pipeline.",
+          "url": "https://www.qbe.com/media/qbe/north-america/usa/pdf-files/research-and-insights/2026-construction-outlook.pdf?rev=292df42b6a704b64b2ff5464c1b3cc72",
+          "publisher": "qbe.com",
+          "as_of": "2026-07-01",
+          "age_days": 114,
+          "undated": false
+        },
+        {
+          "claim": "U.S. construction starts are forecast to rise 2.1% in 2026 after year-to-date June starts rose 6.5%.",
+          "stance": "support",
+          "why": "More starts should feed JCI's installed equipment and service demand over the next 1-3 years.",
+          "quote": "Total U.S. construction starts are forecast to rise 2.1% in 2026, while year-to-date starts through June are up 6.5% from the same period last year.",
+          "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+          "publisher": "news.constructconnect.com",
+          "as_of": "2026-09-08",
+          "age_days": 45,
+          "undated": false
+        },
+        {
+          "claim": "Smart-building demand is shifting to autonomous AI platforms in 2026, raising the innovation bar for building automation vendors.",
+          "stance": "pressure",
+          "why": "JCI must invest to avoid losing digital service attach and retrofit share.",
+          "quote": "The smart buildings market is moving decisively from rule-based, insight-only platforms to AI systems that monitor, analyze, act, and continuously learn without operator intervention, autonom",
+          "url": "https://abound.carrier.com/en/worldwide/media/Smart%20Building%20Solutions%202026%20-%20Frost%20Radar_tcm1101-302004.pdf",
+          "publisher": "abound.carrier.com",
+          "as_of": "2026-07-19",
+          "age_days": 96,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "As of April 2026, data center construction is soaring while other nonresidential categories are flat or declining.",
+          "stance": "pressure",
+          "why": "JCI's growth is increasingly reliant on data centers as broader commercial demand lags.",
+          "quote": "Data center construction is soaring; other nonresidential is flat or declining",
+          "url": "https://www.agc.org/sites/default/files/users/user21902/Construction%20Spending%20April%202026.pdf",
+          "publisher": "agc.org",
+          "as_of": "2026-04-01",
+          "age_days": 205,
+          "undated": false,
+          "drop_reason": "stale (205 days old)"
+        },
+        {
+          "claim": "Open standards and clean APIs are now basic compatibility requirements in building automation as of January 2026.",
+          "stance": "pressure",
+          "why": "JCI must make equipment interoperable, potentially reducing lock-in and service pricing power.",
+          "quote": "Open standards (BACnet, KNX, Modbus, Matter, Zigbee, LoRaWAN) and clean APIs are now basic compatibility requirements.",
+          "url": "https://www.escatec.com/blog/building-automation-companies-to-watch",
+          "publisher": "escatec.com",
+          "as_of": "2026-01-08",
+          "age_days": 288,
+          "undated": false,
+          "drop_reason": "stale (288 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "global nonresidential construction spending outlook 2026 2027 commercial institutional data center",
+        "building automation controls market 2026 AI IoT cybersecurity competition new entrants",
+        "commercial building owners capex retrofit energy efficiency incentives 2026 2027",
+        "Johnson Controls JCI data center cooling HVAC fire security demand 2026 2027"
+      ],
+      "results_count": 19,
+      "results_dated": 16,
+      "trends": [
+        {
+          "claim": "By July 2026, AIA had cut its 2026 nonresidential construction spending forecast to a 0.3% decline from a 1.0% January increase.",
+          "stance": "pressure",
+          "why": "The downgrade signals softer non-data-center building activity that could weigh on JCI's systems orders.",
+          "quote": "lowered its 2026 projection from a 1.0 percent increase in spending, forecast in January, to a 0.3 percent decline.",
+          "url": "https://www.aia.org/about-aia/press/uneven-growth-persists-across-nonresidential-construction-economic-uncertainty",
+          "publisher": "aia.org",
+          "as_of": "2026-07-21",
+          "age_days": 94,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, the 2026 total nonresidential construction outlook was upgraded on stronger data center activity.",
+          "stance": "support",
+          "why": "Surging AI data center builds support JCI's systems orders and backlog conversion.",
+          "quote": "The outlook for Total Nonresidential construction has been upgraded, with stronger Data Center activity driven by robust artificial intelligence investment.",
+          "url": "https://news.constructconnect.com/autumn-2026-construction-starts-forecast-nonresidential-building-outlook-raised-as-data-center-buildout-surges",
+          "publisher": "news.constructconnect.com",
+          "as_of": "2026-09-08",
+          "age_days": 45,
+          "undated": false
+        },
+        {
+          "claim": "Total U.S. engineering and construction spending is forecast to be flat in 2026 after a 1.4% decline in 2025.",
+          "stance": "pressure",
+          "why": "Flat overall construction limits broad-based demand for JCI outside data centers.",
+          "quote": "Total U.S. engineering and construction spending is forecasted to remain essentially flat in 2026 at just under $2.2 trillion",
+          "url": "https://fmicorp.com/uploads/media/Q2_Outlook_2026.pdf",
+          "publisher": "fmicorp.com",
+          "as_of": "2026-09-30",
+          "age_days": 23,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, stabilizing construction material and input costs are supporting margin recovery.",
+          "stance": "support",
+          "why": "Stable input costs can help sustain JCI's project margins and profitability.",
+          "quote": "Stabilizing construction material and input costs supporting margin recovery and project profitability.",
+          "url": "https://www.allianz-trade.com/en_global/economic-research/sector-reports/construction.html",
+          "publisher": "allianz-trade.com",
+          "as_of": "2026-09-01",
+          "age_days": 52,
+          "undated": false
+        },
+        {
+          "claim": "As of May 2026, JCI expected 70% of its backlog to convert to revenue within the next 12 months.",
+          "stance": "support",
+          "why": "That backlog conversion supports revenue visibility through the next year.",
+          "quote": "management expects 70% of backlog to convert to revenue within the next 12 months.",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/johnson-controls-jci-q2-2026-earnings-transcript/",
+          "publisher": "fool.com",
+          "as_of": "2026-05-06",
+          "age_days": 170,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "The intelligent building automation market is projected to grow at an 11.8% CAGR from 2026 to 2030.",
+          "stance": "support",
+          "why": "Expanding digital building investment enlarges JCI's building automation and service opportunity.",
+          "quote": "projected to grow from USD 122.49 billion in 2026 to USD 191.14 billion by 2030, at a CAGR of 11.8%",
+          "url": "https://www.marketsandmarkets.com/ResearchInsight/intelligent-building-technology.asp",
+          "publisher": "marketsandmarkets.com",
+          "as_of": "2026-02-01",
+          "age_days": 264,
+          "undated": false,
+          "drop_reason": "stale (264 days old)"
+        },
+        {
+          "claim": "As of March 2026, JCI is named among leading building automation providers dominating with integrated digital service portfolios.",
+          "stance": "support",
+          "why": "Scale and integrated offerings may help JCI defend share as M&A consolidates the market.",
+          "quote": "Leading providers such as Siemens, Johnson Controls, Schneider Electric, and Trane Technologies dominate the market with integrated solutions and digital service portfolios.",
+          "url": "https://www.investec.com/advisory/building-automation-capital-consolidation-and-platform-strategies-as-new-normal/",
+          "publisher": "investec.com",
+          "as_of": "2026-03-17",
+          "age_days": 220,
+          "undated": false,
+          "drop_reason": "stale (220 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "commercial HVAC building automation market outlook 2026 2027 data center cooling retrofit demand",
+        "commercial real estate capex 2026 2027 HVAC energy efficiency retrofit budgets office vacancy",
+        "AI building management systems smart building controls competition 2026 2027 market disruption",
+        "Johnson Controls JCI 2026 commercial HVAC controls data center institutional demand"
+      ],
+      "results_count": 19,
+      "results_dated": 16,
+      "trends": [
+        {
+          "claim": "As of Sep 2026, record data-center demand is creating HVAC backlogs with visibility through 2027.",
+          "stance": "support",
+          "why": "Backlog conversion should lift JCI's HVAC revenue and orders beyond current reported sales.",
+          "quote": "orders significantly outpace organic revenue growth, creating record backlogs that provide strong visibility through 2026 and well into 2027.",
+          "url": "https://dbrs.morningstar.com/insights/commentary/489007/record-data-center-demand-to-fuel-hvac-growth-through-2027",
+          "publisher": "dbrs.morningstar.com",
+          "as_of": "2026-09-15",
+          "age_days": 38,
+          "undated": false
+        },
+        {
+          "claim": "As of Sep 2026, the data-center HVAC market is forecast to grow 11.3% annually from 2026 to 2033.",
+          "stance": "support",
+          "why": "Expanding hyperscale and colocation capacity should raise demand for JCI cooling equipment.",
+          "quote": "projected to grow from USD 4.8 billion in 2026 to USD 10.2 billion by 2033, at a CAGR of 11.3% from 2026 to 2033.",
+          "url": "https://www.grandviewresearch.com/industry-analysis/data-center-hvac-systems-market-report",
+          "publisher": "grandviewresearch.com",
+          "as_of": "2026-09-01",
+          "age_days": 52,
+          "undated": false
+        },
+        {
+          "claim": "As of Aug 2026, data-center thermal cooling requirements are forecast to rise nearly sevenfold by 2035.",
+          "stance": "support",
+          "why": "Sustained AI-driven cooling demand should support JCI's thermal-management orders beyond the current backlog.",
+          "quote": "data center thermal cooling requirements will rise from 28.8 million tons in 2025 to 194.6 million tons in 2035",
+          "url": "https://www.abiresearch.com/press/abi-research-forecasts-data-center-cooling-demand-will-surge-nearly-7x-by-2035-as-ai-reshapes-smart-building-priorities",
+          "publisher": "abiresearch.com",
+          "as_of": "2026-08-27",
+          "age_days": 57,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, JCI expects data-center revenue to triple its share within five years.",
+          "stance": "support",
+          "why": "That mix shift should make data-center cooling a larger, faster-growing revenue driver.",
+          "quote": "data center revenue expected to triple its share within five years.",
+          "url": "https://stockanalysis.com/stocks/jci/transcripts/685854-analyst-day-2026/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-06-01",
+          "age_days": 144,
+          "undated": false
+        },
+        {
+          "claim": "As of May 2026, JCI's Nantum AI deal reflects a shift beyond connected infrastructure to autonomous optimization.",
+          "stance": "support",
+          "why": "Software-led differentiation could raise JCI's service attach and recurring revenue.",
+          "quote": "Johnson Controls\u2019 acquisition of Nantum AI emphasizes a shift in focus throughout the smart buildings ecosystem beyond connected infrastructure",
+          "url": "https://www.abiresearch.com/market-research/insight/7787835-johnson-controls-acquisition-of-nantum-ai-",
+          "publisher": "abiresearch.com",
+          "as_of": "2026-05-06",
+          "age_days": 170,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

@@ -1,0 +1,2184 @@
+{
+  "symbol": "BP",
+  "as_of": "2026-10-23",
+  "generated_at": "2026-10-23T10:11:23",
+  "profile": {
+    "symbol": "BP",
+    "name": "BP p.l.c.",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated",
+    "summary": "BP p.l.c., an integrated energy company, engages in the oil and gas business worldwide. The company operates through Gas & Low Carbon Energy, Oil Production & Operations, and Customers & Products segments. It engages in the production of natural gas, marketing, and trading activities, as well as solar, wind, and hydrogen businesses. The company also offers aviation fuel products and services, such as jet fuel; aviation gasoline; UL91 aviation fuel; and sustainable aviation fuel. In addition, it engages in the convenience and retail fuel; EV charging; Castrol lubricants and fluids; B2B; midstream; crude oil production; refining and oil trading; and bioenergy businesses. The company was founded in 1908 and is headquartered in London, the United Kingdom.",
+    "employees": 93700,
+    "country": "United Kingdom",
+    "website": "https://www.bp.com"
+  },
+  "quants": {
+    "symbol": "BP",
+    "name": "BP p.l.c.",
+    "price": 50.05,
+    "market_cap": 128908345344,
+    "market_cap_human": "128.91B",
+    "fwd_pe": 6.16,
+    "fwd_pe_1y": 8.72,
+    "fwd_pe_yahoo": 8.7152,
+    "trailing_pe": 24.296116,
+    "ps": 0.5982797,
+    "ev_ebitda": 14.577,
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated",
+    "eps_fy_current": 8.12454,
+    "eps_fy_next": 5.74284,
+    "eps_trend": {
+      "change_7d_pct": 9.06,
+      "change_30d_pct": 18.6,
+      "current": 8.12454,
+      "7d_ago": 7.4493,
+      "30d_ago": 6.85048,
+      "text": "sharply up over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 4,
+      "down_7d": 0,
+      "up_30d": 9,
+      "down_30d": 0,
+      "net_30d": 9,
+      "text": "all up, with 9 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-30"
+      ],
+      "next_date": "2026-10-30",
+      "eps_avg": 2.617,
+      "eps_low": 1.5,
+      "eps_high": 3.09,
+      "revenue_avg": 64538252860
+    },
+    "as_of": "2026-10-23"
+  },
+  "quants_lines": [
+    "Price: 50.05 USD",
+    "Market Cap: 128.91B",
+    "Fwd PE: 6.16",
+    "P/S: 0.6",
+    "EPS trends: sharply up over the last 7 days",
+    "EPS revisions: all up, with 9 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [],
+  "eps_yoy": {
+    "period": "2026-08-04T02:00:00-04:00",
+    "current": 2.22,
+    "year_ago": 0.9,
+    "year_ago_period": "2025-08-05T02:00:00-04:00",
+    "change": 1.32,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 69105000000.0,
+      "prior": 52255000000.0,
+      "qoq_pct": 32.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 46627000000.0,
+      "yoy_pct": 48.2,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3911000000.0,
+      "prior": 3842000000.0,
+      "qoq_pct": 1.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1629000000.0,
+      "yoy_pct": 140.1,
+      "conflict": false
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3845000000.0,
+      "prior": 3842000000.0,
+      "qoq_pct": 0.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1628000000.0,
+      "yoy_pct": 136.2,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 8996000000.0,
+      "prior": 8540000000.0,
+      "qoq_pct": 5.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 4112000000.0,
+      "yoy_pct": 118.8,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 13671000000.0,
+      "prior": 12950000000.0,
+      "qoq_pct": 5.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 8835000000.0,
+      "yoy_pct": 54.7,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 9032000000.0,
+      "prior": 7959000000.0,
+      "qoq_pct": 13.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 4163000000.0,
+      "yoy_pct": 117.0,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 14224000000.0,
+      "prior": 12629000000.0,
+      "qoq_pct": 12.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 8544000000.0,
+      "yoy_pct": 66.5,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1175000000.0,
+      "prior": 1175000000.0,
+      "qoq_pct": 0.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1229000000.0,
+      "yoy_pct": -4.4,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 189335000000.0,
+      "prior": 189185000000.0,
+      "change_pct": 0.1,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 55000000.0,
+      "prior": 381000000.0,
+      "change_pct": -85.6,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": -3287000000.0,
+      "prior": -1742000000.0,
+      "change_pct": -88.7,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 54000000.0,
+      "prior": 390000000.0,
+      "change_pct": -86.2,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 1609000000.0,
+      "prior": 2773000000.0,
+      "change_pct": -42.0,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 15808000000.0,
+      "prior": 13615000000.0,
+      "change_pct": 16.1,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [
+    {
+      "label": "Other Intangible Assets",
+      "basis": "fiscal year",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 8197000000.0,
+      "prior": 5208000000.0,
+      "change_pct": 57.4,
+      "confirmed": false,
+      "also": []
+    }
+  ],
+  "consensus_bar": {
+    "date": "2026-10-30",
+    "eps_avg": 2.617,
+    "eps_low": 1.5,
+    "eps_high": 3.09,
+    "revenue_avg": 64538252860
+  },
+  "news": [
+    {
+      "title": "BP p.l.c. (BP-B.L) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/BP-B.L/analysis/",
+      "summary": "BP p.l.c. (BP-B.L) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\n157.50 0.00% \n\n# BP p.l.c. (BP-B.L)\n\n157.50 0.00 (0.00%)\n\n At close: July 10 at 9:21:42 AM GMT+1 \n\n### Earnings Per Share \n\nNo Earnings Per Share available for this ticker\n\n### Revenue vs. Earnings\n\nQ1 FY26\n\nRevenue 52.26B\n\nEarnings 3.2B\n\nQ2\n\nFY25\n\nQ3\n\nFY25\n\nQ4\n\nFY25\n\nQ1\n\nFY26\n\n10B\n\n20B\n\n30B\n\n40B\n\n50B\n\n### Revenue Estimate\n\n| Currency in USD | Current Qtr. (Jun 2026) | Next Qtr. (Sep 2026) | Current Year (2026) | Next Year (2027) |\n| --- | --- | --- | --- | --- |\n| No. of Analysts | 5 | 5 | 13 | 13 |\n| Avg. Estimate | 5",
+      "published": "2026-07-10",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BP (LSE:BP.) prospects rest on measurable operating progress",
+      "publisher": "kalkinemedia.com",
+      "url": "https://kalkinemedia.com/uk/stocks/oil-gas/bp-lsebp-prospects-rest-on-measurable-operating-progress",
+      "summary": "BP (LSE:BP.) prospects rest on measurable operating progress\n\n# BP (LSE:BP.) prospects rest on measurable operating progress \n\n 4 min read | August 29, 2026 09:44 AM BST | By Vivek Singh \n\n Image source: Shutterstock \n\n> ### Highlights\n> \n> - BP should be judged on whether integrated oil, gas, refining and customer operations can support repeatable demand and stronger financial outcomes.\n> - The central risk test covers commodity prices, project returns and transition strategy, rather than relying on broad enthusiasm for oil and gas stocks.\n> - Investors can improve decision-making by comparin",
+      "published": "2026-08-29",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BP Stock Analysis 2026: BP Share Price and Oil | Openbook",
+      "publisher": "openbookanalytics.com",
+      "url": "https://www.openbookanalytics.com/news/insights/bp-uk-stock-analysis-2026-share-price-earnings-fundamentals-outlook",
+      "summary": "BP Stock Analysis 2026: BP Share Price and Oil | Openbook\n\n# BP Stock Analysis 2026: BP Share Price, Earnings and Outlook\n\nBrent settled at USD 100.32 as Middle East exports topped pre-war levels and the G7 freed 100m barrels. BP's deleveraging is the most oil-levered in the UK.\n\n6 October 2026\u00b7\n\nJack Green\n\nBrent crude fell 1.9% on 5 October 2026 to settle at USD 100.32 a barrel, as Middle Eastern crude exports climbed back above pre-war levels and the G7 agreed to release 100m barrels of diesel and crude from emergency reserves. West Texas Intermediate settled at USD 89.43, down about 1.8%. ",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BP p.l.c. (BP) Intrinsic Value & DCF Model 2026 | VCP Scanner",
+      "publisher": "vcpscanner.com",
+      "url": "https://vcpscanner.com/valuation/bp/dcf",
+      "summary": "BP p.l.c. (BP) Intrinsic Value & DCF Model 2026 | VCP Scanner\n\n# BP p.l.c. (BP)\n\nDCF Valuation\u2022 Discounted Cash Flow intrinsic value with Bear, Base & Bull scenarios\n\n## BP p.l.c. trades at a 173% discount to intrinsic value\n\nToday's Price$48.81 DCF Model Value$126.15 Implied Discount+173%\n\nValuation Range\n\nPremium to Value Discount to Value\n\nWide range: intrinsic value is highly sensitive to assumptions \u2014 use the scenario analysis to anchor your view.\n\nToday $48.81\n\nBear$61.07\n\nBase$126.15\n\nBull$156.35\n\nModel Verdict\n\nThe market is pricing in an extremely cautious outcome, assuming worse grow",
+      "published": "2026-10-10",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate",
+      "publisher": "investegate.co.uk",
+      "url": "https://www.investegate.co.uk/announcement/rns/bp--bp./3q26-bp-trading-statement-part-1-of-1/9819131",
+      "summary": "3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate\n\n## Summary by AI BETA Close X\n\n BP PLC has released its third quarter 2026 trading statement, providing updated guidance and financial expectations. Reported upstream production is estimated between 2,190 to 2,240 million barrels of oil equivalent per day, with the gas & low carbon energy segment expected at 775 to 795 mboe/d and oil production & operations at 1,415 to 1,445 mboe/d. The company anticipates a positive impact of $0.1 to $0.3 billion from gas & low carbon energy segment realisations, while oil production ",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP.",
+      "publisher": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1100021",
+      "summary": "BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP.\n\n# BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction\n\n Published: 14:30 13 Oct 2026 BST \n\nBP PLC (LSE:BP.), the FTSE 100 oil and gas group, expects third quarter net debt of $13.5 billion to $14.5 billion, down from $22.3 billion in the second quarter, in a guidance update published on Tuesday.\n\nJefferies, the investment bank, called the reduction the highlight of the update, and rated the shares a 'hold' with a price target of 520p, 12% below Monday\u2019s close of 588p.\n\nThe f",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault",
+      "publisher": "mastermind-x.com",
+      "url": "https://www.mastermind-x.com/research/bp-plc-bp-l-upgrading-our-estimates-following-the-company-s-3q26-stron-c407e7.html",
+      "summary": "BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault\n\n# BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update\n\n Oct 13, 2026 7 pages\u9875 \n\nFrom the report\u62a5\u544a\u6458\u5f55 Estimate Upgrade: Q3 2026 adjusted net income revised to $7.492bn (+18%), Gas & Low Carbon Energy operating profit up $400m to $2.6bn, OCF raised to $12.5bn, capex lowered to $3.0bn.\n\nEquity Research 13 October 2026 | 8:53AM CEST\n\nBP Plc (BP.L): Upgrading our estimates following the company\u2019s 3Q26 strong trading",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "ai_capex",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/bp-lse-bp-8-8-232255930.html",
+      "summary": "BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?\n\n# BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?\n\n Sasha Jovanovic Tue, October 13, 2026 at 7:22 PM EDT 4 min read\n\n- BP p.l.c. has just released its third\u2011quarter 2026 trading update, flagging higher-than-expected upstream production, much stronger refining margins averaging US$46.7 per barrel, and a planned cut in net debt to about US$13.5 billion\u2013US$14.5 billion, alongside net impairments of up to US$4.5 billion in its ",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954368-bp-way-ahead-of-schedule",
+      "summary": "BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha\n\n# BP p.l.c.: Way Ahead Of Schedule\n\nOct 15, 2026, 6:04 AM ET BP p.l.c. (BP) Stock, BPAQF Stock CVX, XOM, SHEL, CVX:CA, ZCVX:CA, ZXOM:CA, RYDAF 6 Comments\n\nLouis Gerard\n\n## Summary\n\n- BP p.l.c. delivered rapid deleveraging, aided by war-driven crude price spikes, but the upside is now capped at current valuations.\n- Q3 refining margins surged to $46.7/bbl, boosting results, yet BP\u2019s leverage to refining is structurally reduced after asset sales.\n- Net debt is set to fall dramatically to $13.5\u2013$14.5B, with further proceeds from Castrol ",
+      "published": "2026-10-15",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "BP PLC ADR (BP): Valuation, Margins, ROIC & Analyst Targets",
+      "publisher": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/BP/",
+      "summary": "BP PLC ADR (BP): Valuation, Margins, ROIC & Analyst Targets\n\n# BP PLC ADR (BP)\n\nENERGY \u2022 OIL & GAS INTEGRATED \u2022 NYSE\n\n$49.40\n\n-0.04 (-0.08%)\n\nMarket Cap: $127.34B\n\nLast updated: Oct 20, 2026 at 5:00 PM ET\n\n### Earnings\n\nQuarterly Annual\n\n1Y 3Y 5Y 10Y All\n\n#### Performance (10Y)\n\nBeat Rate\n\n77%(30/39)\n\nAvg Surprise\n\n+9.23%\n\nStreak\n\n5 Q\n\n#### Upcoming Estimates\n\nPeriod ending Sep 30, 2026\n\nEPS Consensus$2.38 Range$1.40 - $3.09 10 analysts\n\nEPS Revisions\n\n2\n\n0\n\n7d\n\n7\n\n30d\n\nEPS Estimate Drift Change to current\n\n90d ago$1.55+53.3% 60d ago$1.58+50.6% 30d ago$1.77+34.4% 7d ago$2.01+18.6% Current$2.38",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarte",
+      "publisher": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/bank-of-america-lifts-bp-profit-forecast-35-prozent-as-refining-margins-and-debt-paydown-reshape/70355183",
+      "summary": "Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarte\n\n# Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarter\n\n Published on 10/18/2026 at 17:52 | Editorial boerse-global.de \n\nBP stock rose 3.1% to \u20ac7.39 as Brent jumped 3.7% and BofA raised its Q3 earnings estimate over 35%, though it kept an Underperform rating.\n\n \n\n \n\nBP plc GB0007980591 als isometrisches Low-Poly-Raffinerie-Diorama mit Tanks, Rohren und blauen Solarpanels Illustration mit AI erstellt.\n\nBP shares climbed 3.1% on Friday to close at",
+      "published": "2026-10-30",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "BP (BP) Stock Declines While Market Improves: Some Information for Investors",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/bp-bp-stock-declines-while-market-improves-some-information-investors",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP"
+      ],
+      "summary": "BP (BP) reached $49.44 at the closing of the latest trading day, reflecting a -1.53% change compared to its last close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Are You Looking for a Top Momentum Pick? Why BP (BP) is a Great Choice",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/are-you-looking-top-momentum-pick-why-bp-bp-great-choice",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP"
+      ],
+      "summary": "Does BP (BP) have what it takes to be a top stock pick for momentum investors? Let's find out.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Should Value Investors Buy BP (BP) Stock?",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/should-value-investors-buy-bp-bp-stock-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP"
+      ],
+      "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Zacks Market Edge Highlights: Palantir Technologies, BP, Palo Alto Networks, Visa and AbbVie",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/zacks-market-edge-highlights-palantir-technologies-bp-palo-alto-networks-visa-and-abbvie",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP",
+        "V",
+        "PANW",
+        "ABBV",
+        "PLTR"
+      ],
+      "summary": "Palantir, BP, Palo Alto Networks, Visa and AbbVie are defying market gloom with strong share gains, earnings growth forecasts and distinct opportunities across key sectors.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Investors Heavily Search BP p.l.c. (BP): Here is What You Need to Know",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/investors-heavily-search-bp-plc-bp-here-what-you-need-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP"
+      ],
+      "summary": "BP (BP) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "XOM vs. BP: Which Integrated Energy Giant Has the Edge?",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "12 hours ago",
+      "url": "/articles/xom-vs-bp-which-integrated-energy-giant-has-edge",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP",
+        "XOM"
+      ],
+      "summary": "ExxonMobil outpaces BP in stock gains and balance sheet strength, but BP's lower valuation makes the choice between these oil giants worth a closer look.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "TechnipFMC Signs MoU With BP to Support Deepwater Oil Projects",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "12 hours ago",
+      "url": "/articles/technipfmc-signs-mou-bp-support-deepwater-oil-projects",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP",
+        "FTI",
+        "DK",
+        "MPC"
+      ],
+      "summary": "FTI strengthens its BP partnership on standardized 20K subsea systems, building on Kaskida and Tiber projects to pursue future deepwater opportunities.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "This Top Oils and Energy Stock is a #1 (Strong Buy): Why It Should Be on Your Radar",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/top-oils-and-energy-stock-1-strong-buy-why-it-should-be-your-radar-7",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP"
+      ],
+      "summary": "Finding strong, market-beating stocks with a positive earnings outlook becomes easier with the Zacks Rank.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Comcast Gears Up to Report Q3 Earnings: What's in the Cards?",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/comcast-gears-report-q3-earnings-whats-cards",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CMCSA",
+        "BP",
+        "ATI",
+        "PEBO"
+      ],
+      "summary": "CMCSA heads into Q3 earnings with streaming and studio gains facing broadband weakness, softer theme park demand and elevated spending. Can it extend its earnings beat streak?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Can SLB Stock Extend Its Winning Streak With Strong Q3 Earnings?",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/can-slb-stock-extend-its-winning-streak-strong-q3-earnings",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SLB",
+        "BP",
+        "EOG",
+        "BKR"
+      ],
+      "summary": "SLB heads into Q3 earnings with four straight beats and support from rising oil prices, but declining EPS estimates and a negative Earnings ESP raise questions.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now.",
+      "publisher": "The Motley Fool",
+      "created": "Oct 20, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/shells-latest-lng-move-has-me-rethinking-my-oil-major-pecking-order-heres-where-id-rank",
+      "primary_symbol": "SHEL",
+      "related_symbols": [
+        "SHEL",
+        "XOM",
+        "CVX",
+        "BP",
+        "TTE"
+      ],
+      "summary": "Key PointsShell and BP cut their dividends in 2020 amid plans to expand in the clean energy sector.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "HAL Q3 Earnings Beat on Drilling Strength, Revenues Rise Y/Y",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/hal-q3-earnings-beat-drilling-strength-revenues-rise-y-y",
+      "primary_symbol": null,
+      "related_symbols": [
+        "HAL",
+        "BP",
+        "E"
+      ],
+      "summary": "Halliburton's international expansion, deepwater contracts and improving margins support its growth outlook despite persistent North American challenges.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Eni SpA Q3 Earnings Ahead: What's in Store for the Stock?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/eni-spa-q3-earnings-ahead-whats-store-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "E",
+        "BP",
+        "XOM",
+        "EOG"
+      ],
+      "summary": "E gears up for Q3 2026 earnings, with EPS expected to surge 113.3% despite lower revenues. Will stronger oil prices fuel its upstream performance?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Best Growth Stocks to Buy for October 21st",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/best-growth-stocks-buy-october-21st",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BP",
+        "WOOF"
+      ],
+      "summary": "WOOF, ASAIY and BP made it to the Zacks Rank #1 (Strong Buy) growth stocks list on October 21, 2026.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "EQT Gears Up to Report Q3 Earnings: What's in Store for the Stock?",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "14 hours ago",
+      "url": "/articles/eqt-gears-report-q3-earnings-whats-store-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "EQT",
+        "BP",
+        "XOM",
+        "EOG"
+      ],
+      "summary": "EQT heads into Q3 2026 earnings with estimates pointing to lower profits as weaker natural gas prices weigh on results.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "A big upgrade for BP earnings and price target",
+      "publisher": "ii.co.uk",
+      "url": "https://www.ii.co.uk/analysis-commentary/big-upgrade-bp-earnings-and-price-target-ii540644",
+      "summary": "A big upgrade for BP earnings and price target\n\n# A big upgrade for BP earnings and price target\n\nThe oil major has surged since the end of June, but one City analyst has upgraded forecasts and believes the shares can go much further. Graeme Evans explains why.\n\n21st October 2026 15:05\n\nby Graeme Evans from interactive investor\n\n A sign at a BP petrol station in Chicago, Illinois. Photo: Scott Olson/Getty Images.\n\nFurther upside on this week\u2019s 16-year high for BP (LSE:BP.) shares has been forecast after a City bank turned its focus to the oil giant\u2019s next moves in the wake of a rapid reduction",
+      "published": null,
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) stock news earnings guidance",
+      "relevance": 1,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "BP sees refining margin triple, debt target reached, but flags more impairments | live",
+      "publisher": "live.euronext.com",
+      "url": "https://live.euronext.com/en/financial-news/bp-sees-refining-margin-triple-debt-target-reached-flags-more-impairments",
+      "summary": "BP sees refining margin triple, debt target reached, but flags more impairments | live\n\n# BP sees refining margin triple, debt target reached, but flags more impairments \n\n Tue 13/10/2026 - 18:21 \n\nBy Stephanie Kelly and Shadia Nasralla\n\nLONDON, Oct 13 (Reuters) - BP estimated on Tuesday its third-quarter refining margins tripled from last year as the Iran war boosts profits for oil majors, but also flagged $3 billion to $4.5 billion in impairments relating to its gas and low-carbon energy segment.\n\nThis is the second time in a year that the British firm has booked large write-downs in its low",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) stock news earnings guidance",
+      "relevance": 1,
+      "themes": [
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "TD Cowen raises BP stock price target to $49 on stronger earnings By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/td-cowen-raises-bp-stock-price-target-to-49-on-stronger-earnings-93CH-4960448",
+      "summary": "TD Cowen raises BP stock price target to $49 on stronger earnings By Investing.com\n\n# TD Cowen raises BP stock price target to $49 on stronger earnings\n\nPublished Oct 20, 2026, 10:02 AM\n\nLCO-0.13%\n\nInvesting.com - TD Cowen raised its price target on BP (NYSE:BP) to $49 from $47 while maintaining a Hold rating on the stock. The stock currently trades at $49.38, near its 52-week high of $50.27, following a strong year that has seen shares gain 56% over the past twelve months.\n\nThe firm increased its earnings per share estimate by $0.46 to $2.94 following BP\u2019s third-quarter 2026 guidance and an i",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "a6390y",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/a6390y.htm",
+      "summary": "SECURITIES AND EXCHANGE COMMISSION\n\n Report of Foreign Issuer\n\n Pursuant to Rule 13a-16 or 15d-16 of\n\n the Securities Exchange Act of 1934\n\n 13 October, 2026\n\n BP p.l.c.\n\n (Translation of registrant's name into English)\n\n 1 ST JAMES'S SQUARE, LONDON, SW1Y 4PD, ENGLAND\n\n (Address of principal executive offices)\n\n Indicate by check mark whether the registrant files or will file annual\n\n reports under cover Form 20-F or Form 40-F.\n\n Form 20-F |X| Form 40-F\n\n Indicate by check mark whether the registrant by furnishing the information\n\n contained in this Form is also thereby furnishing the informat",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "BP p.l.c. (BP) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "regulation"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 17,
+        "share": 0.515,
+        "evidence": [
+          {
+            "title": "BP p.l.c. (BP-B.L) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-07-10",
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "BP Stock Analysis 2026: BP Share Price and Oil | Openbook",
+            "publisher": "openbookanalytics.com",
+            "published": "2026-10-06",
+            "matched": [
+              "outlook"
+            ]
+          },
+          {
+            "title": "3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate",
+            "publisher": "investegate.co.uk",
+            "published": "2026-10-13",
+            "matched": [
+              "guidance",
+              "estimate"
+            ]
+          },
+          {
+            "title": "BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP.",
+            "publisher": "proactiveinvestors.com",
+            "published": "2026-10-13",
+            "matched": [
+              "guidance"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 5,
+        "share": 0.152,
+        "evidence": [
+          {
+            "title": "BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP.",
+            "publisher": "proactiveinvestors.com",
+            "published": "2026-10-13",
+            "matched": [
+              "debt"
+            ]
+          },
+          {
+            "title": "BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-10-13",
+            "matched": [
+              "impairment",
+              "debt"
+            ]
+          },
+          {
+            "title": "BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-15",
+            "matched": [
+              "debt",
+              "leverage"
+            ]
+          },
+          {
+            "title": "Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarte",
+            "publisher": "ad-hoc-news.de",
+            "published": "2026-10-30",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 4,
+        "share": 0.121,
+        "evidence": [
+          {
+            "title": "BP p.l.c. (BP) Intrinsic Value & DCF Model 2026 | VCP Scanner",
+            "publisher": "vcpscanner.com",
+            "published": "2026-10-10",
+            "matched": [
+              "valuation",
+              "discount",
+              "premium"
+            ]
+          },
+          {
+            "title": "BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-15",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "BP PLC ADR (BP): Valuation, Margins, ROIC & Analyst Targets",
+            "publisher": "gngresearch.com",
+            "published": "2026-10-20",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "XOM vs. BP: Which Integrated Energy Giant Has the Edge?",
+            "publisher": "Zacks",
+            "published": "Oct 22, 2026",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.121,
+        "evidence": [
+          {
+            "title": "BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP.",
+            "publisher": "proactiveinvestors.com",
+            "published": "2026-10-13",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault",
+            "publisher": "mastermind-x.com",
+            "published": "2026-10-13",
+            "matched": [
+              "upgrade"
+            ]
+          },
+          {
+            "title": "A big upgrade for BP earnings and price target",
+            "publisher": "ii.co.uk",
+            "published": null,
+            "matched": [
+              "upgrade",
+              "price target"
+            ]
+          },
+          {
+            "title": "TD Cowen raises BP stock price target to $49 on stronger earnings By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-20",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 1,
+        "share": 0.03,
+        "evidence": [
+          {
+            "title": "BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault",
+            "publisher": "mastermind-x.com",
+            "published": "2026-10-13",
+            "matched": [
+              "capex"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 1,
+        "share": 0.03,
+        "evidence": [
+          {
+            "title": "Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now.",
+            "publisher": "The Motley Fool",
+            "published": "Oct 20, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.03,
+        "evidence": [
+          {
+            "title": "a6390y",
+            "publisher": "sec.gov",
+            "published": "2026-10-13",
+            "matched": [
+              "securities and exchange"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [
+    {
+      "story": "AI capex is real but its accounting is aggressive",
+      "long_side": "asset-light AI software and data owners",
+      "short_side": "debt-funded, depreciation-heavy builders"
+    }
+  ],
+  "next_earnings": {
+    "dates": [
+      "2026-10-30"
+    ],
+    "next_date": "2026-10-30",
+    "eps_avg": 2.617,
+    "eps_low": 1.5,
+    "eps_high": 3.09,
+    "revenue_avg": 64538252860
+  },
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "days_out": 7,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 2.617,
+      "eps_low": 1.5,
+      "eps_high": 3.09,
+      "revenue_avg": 64538252860
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": 1.78,
+        "eps_actual": 2.22,
+        "surprise_pct": 24.64,
+        "beat": true
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 0.93,
+        "eps_actual": 1.24,
+        "surprise_pct": 33.25,
+        "beat": true
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 0.6,
+        "eps_actual": 0.6,
+        "surprise_pct": -0.5,
+        "beat": true
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 0.77,
+        "eps_actual": 0.85,
+        "surprise_pct": 9.88,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-30 (Friday, before the open), 7 days out -- from the earnings calendar, consensus EPS 2.62."
+  },
+  "forward_trends": {
+    "queries": [
+      "global oil demand refining margins outlook 2026 2027 IEA",
+      "airline jet fuel demand forecast 2026 2027 IATA sustainable aviation fuel adoption",
+      "EV charging infrastructure growth 2026 retail fuel demand decline convenience retail spending",
+      "BP p.l.c. BP 2026 Castrol lubricants industrial customer demand manufacturing PMI"
+    ],
+    "results_count": 20,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "In October 2026, IEA forecast world oil demand to fall 2.6 mb/d on average in 2026.",
+        "stance": "pressure",
+        "why": "Lower oil demand reduces BP's upstream volumes and downstream throughput, pressuring revenue and earnings.",
+        "quote": "World oil demand is forecast to fall by 2.5 mb/d y-o-y in 4Q26 and 2.6 mb/d on average in 2026.",
+        "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+        "publisher": "iea.org",
+        "as_of": "2026-10-14",
+        "age_days": 9,
+        "undated": false
+      },
+      {
+        "claim": "IEA's October 2026 outlook sees a 2 mb/d partial recovery leaving 2027 oil use 620 kb/d below 2025.",
+        "stance": "pressure",
+        "why": "Persistently lower demand limits BP's long-term volume growth and refining utilization.",
+        "quote": "A partial recovery, of 2 mb/d, will leave 2027 global oil use 620 kb/d, or 0.6%, below 2025 levels.",
+        "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+        "publisher": "iea.org",
+        "as_of": "2026-10-14",
+        "age_days": 9,
+        "undated": false
+      },
+      {
+        "claim": "The Feb 2026 Strait of Hormuz closure cut crude supply by around 10 million barrels per day.",
+        "stance": "support",
+        "why": "Supply loss supports oil prices and BP's upstream cash flow in 2026-2027.",
+        "quote": "cutting crude oil supply by around 10 million barrels per day",
+        "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/global-outlook-for-air-transport-june-2026",
+        "publisher": "iata.org",
+        "as_of": "2026-10-01",
+        "age_days": 22,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, diesel accounts for 25% of the forecast oil-demand drop, pressuring BP's distillate refining margins.",
+        "stance": "pressure",
+        "why": "Weaker diesel cracks reduce downstream earnings from BP's refining and marketing segment.",
+        "quote": "diesel will register 25% of the drop",
+        "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+        "publisher": "iea.org",
+        "as_of": "2026-10-14",
+        "age_days": 9,
+        "undated": false
+      },
+      {
+        "claim": "SAF output is forecast at only 2.4 million tonnes in 2026, 0.8% of aviation fuel use.",
+        "stance": "support",
+        "why": "Slow SAF substitution keeps conventional jet-fuel demand intact for BP's refining and marketing.",
+        "quote": "global Sustainable Aviation Fuel (SAF) production is expected to reach around 2.4 million tonnes in 2026, representing just 0.8% of aviation fuel use",
+        "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+        "publisher": "iata.org",
+        "as_of": "2026-06-06",
+        "age_days": 139,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "BP",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 50.05,
+      "catalyst": "2027-01-29",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 55.0,
+        "premium": 2.11,
+        "bid": 2.07,
+        "ask": 2.15,
+        "mid": 2.11,
+        "last": 2.13,
+        "open_interest": 1669,
+        "volume": 50,
+        "implied_vol": 0.31287308227539057,
+        "qty": 21
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 55.0,
+        "premium": 0.38,
+        "bid": 0.36,
+        "ask": 0.4,
+        "mid": 0.38,
+        "last": 0.39,
+        "open_interest": 3506,
+        "volume": 6.0,
+        "implied_vol": 0.331061376953125,
+        "qty": 14
+      },
+      "long_total": 4431.0,
+      "short_total": 532.0,
+      "net_debit": 3899.0,
+      "credit_ratio_mid": 0.1201,
+      "credit_ratio_conservative": 0.1116,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 55.0,
+          "qty": 21,
+          "underlying": 50.05,
+          "multiplier": 100,
+          "price": 2.11,
+          "total": 4430.999999999999,
+          "open_interest": 1669
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 55.0,
+          "qty": 14,
+          "underlying": 50.05,
+          "multiplier": 100,
+          "price": 0.38,
+          "total": -532.0,
+          "open_interest": 3506
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-29 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-29); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 55, 60, 65, 70"
+      ],
+      "advice": "Credit ratio 11.2% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0086,
+          "credit_ratio_conservative": 0.008,
+          "passes_floor": false,
+          "cash_collected": 38.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0172,
+          "credit_ratio_conservative": 0.0159,
+          "passes_floor": false,
+          "cash_collected": 76.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0257,
+          "credit_ratio_conservative": 0.0239,
+          "passes_floor": false,
+          "cash_collected": 114.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0343,
+          "credit_ratio_conservative": 0.0319,
+          "passes_floor": false,
+          "cash_collected": 152.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.0429,
+          "credit_ratio_conservative": 0.0399,
+          "passes_floor": false,
+          "cash_collected": 190.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.0515,
+          "credit_ratio_conservative": 0.0478,
+          "passes_floor": false,
+          "cash_collected": 228.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.06,
+          "credit_ratio_conservative": 0.0558,
+          "passes_floor": false,
+          "cash_collected": 266.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.0686,
+          "credit_ratio_conservative": 0.0638,
+          "passes_floor": false,
+          "cash_collected": 304.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.0772,
+          "credit_ratio_conservative": 0.0718,
+          "passes_floor": false,
+          "cash_collected": 342.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.0858,
+          "credit_ratio_conservative": 0.0797,
+          "passes_floor": false,
+          "cash_collected": 380.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.0943,
+          "credit_ratio_conservative": 0.0877,
+          "passes_floor": false,
+          "cash_collected": 418.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.1029,
+          "credit_ratio_conservative": 0.0957,
+          "passes_floor": false,
+          "cash_collected": 456.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.1115,
+          "credit_ratio_conservative": 0.1037,
+          "passes_floor": true,
+          "cash_collected": 494.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.1201,
+          "credit_ratio_conservative": 0.1116,
+          "passes_floor": true,
+          "cash_collected": 532.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.1286,
+          "credit_ratio_conservative": 0.1196,
+          "passes_floor": true,
+          "cash_collected": 570.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.1372,
+          "credit_ratio_conservative": 0.1276,
+          "passes_floor": true,
+          "cash_collected": 608.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.1458,
+          "credit_ratio_conservative": 0.1355,
+          "passes_floor": true,
+          "cash_collected": 646.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.1544,
+          "credit_ratio_conservative": 0.1435,
+          "passes_floor": true,
+          "cash_collected": 684.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.1629,
+          "credit_ratio_conservative": 0.1515,
+          "passes_floor": true,
+          "cash_collected": 722.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.1715,
+          "credit_ratio_conservative": 0.1595,
+          "passes_floor": true,
+          "cash_collected": 760.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.1801,
+          "credit_ratio_conservative": 0.1674,
+          "passes_floor": true,
+          "cash_collected": 798.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "BP",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 50.05,
+      "catalyst": "2027-01-29",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 48.0,
+        "premium": 3.04,
+        "bid": 2.98,
+        "ask": 3.1,
+        "mid": 3.04,
+        "last": 3.15,
+        "open_interest": 217,
+        "volume": 31.0,
+        "implied_vol": 0.32532412963867186,
+        "qty": 14
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 48.0,
+        "premium": 1.12,
+        "bid": 1.07,
+        "ask": 1.17,
+        "mid": 1.12,
+        "last": 1.4,
+        "open_interest": 216,
+        "volume": 4.0,
+        "implied_vol": 0.36914693359375,
+        "qty": 5
+      },
+      "long_total": 4256.0,
+      "short_total": 560.0,
+      "net_debit": 3696.0,
+      "credit_ratio_mid": 0.1316,
+      "credit_ratio_conservative": 0.1233,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 48.0,
+          "qty": 14,
+          "underlying": 50.05,
+          "multiplier": 100,
+          "price": 3.04,
+          "total": 4256.0,
+          "open_interest": 217
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 48.0,
+          "qty": 5,
+          "underlying": 50.05,
+          "multiplier": 100,
+          "price": 1.12,
+          "total": -560.0,
+          "open_interest": 216
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-29 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-29); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 48, 49, 47, 50"
+      ],
+      "advice": "Credit ratio 12.3% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0263,
+          "credit_ratio_conservative": 0.0247,
+          "passes_floor": false,
+          "cash_collected": 112.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0526,
+          "credit_ratio_conservative": 0.0493,
+          "passes_floor": false,
+          "cash_collected": 224.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0789,
+          "credit_ratio_conservative": 0.074,
+          "passes_floor": false,
+          "cash_collected": 336.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1053,
+          "credit_ratio_conservative": 0.0986,
+          "passes_floor": false,
+          "cash_collected": 448.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1316,
+          "credit_ratio_conservative": 0.1233,
+          "passes_floor": true,
+          "cash_collected": 560.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1579,
+          "credit_ratio_conservative": 0.1479,
+          "passes_floor": true,
+          "cash_collected": 672.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1842,
+          "credit_ratio_conservative": 0.1726,
+          "passes_floor": true,
+          "cash_collected": 784.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2105,
+          "credit_ratio_conservative": 0.1972,
+          "passes_floor": true,
+          "cash_collected": 896.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2368,
+          "credit_ratio_conservative": 0.2219,
+          "passes_floor": true,
+          "cash_collected": 1008.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2632,
+          "credit_ratio_conservative": 0.2465,
+          "passes_floor": true,
+          "cash_collected": 1120.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2895,
+          "credit_ratio_conservative": 0.2712,
+          "passes_floor": true,
+          "cash_collected": 1232.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.3158,
+          "credit_ratio_conservative": 0.2959,
+          "passes_floor": true,
+          "cash_collected": 1344.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.3421,
+          "credit_ratio_conservative": 0.3205,
+          "passes_floor": true,
+          "cash_collected": 1456.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3684,
+          "credit_ratio_conservative": 0.3452,
+          "passes_floor": true,
+          "cash_collected": 1568.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for BP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BP/key-statistics/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "Price: 50.05 USD Market Cap: 128.91B Fwd PE: 6.16 P/S: 0.6 EPS trends: sharply up over the last 7 days EPS revisions: all up, with 9 up and 0 down over last 30 days price 50.05 market cap 128.91B forward PE 6.16 forward PE next FY 8.72 trailing PE 24.296116 P/S 0.5982797 EV/EBITDA 14.577"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for BP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BP/analysis/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "FY consensus 8.12454 now, 7.4493 7 days ago, 6.85048 30 days ago, change over 30 days 18.6%; EPS revisions 9 up and 0 down over 30 days, 4 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "BP quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bp/financials",
+      "date": null,
+      "weight": null,
+      "text": "EPS increased year over year 0.9 to 2.22 Total Revenue 32.2% quarter over quarter and 48.2% year over year to 2026-06-30 Net Income 1.8% quarter over quarter and 140.1% year over year to 2026-06-30 Net Income Common Stockholders 0.1% quarter over quarter and 136.2% year over year to 2026-06-30 EBIT 5.3% quarter over quarter and 118.8% year over year to 2026-06-30 EBITDA 5.6% quarter over quarter and 54.7% year over year to 2026-06-30 Operating Income 13.5% quarter over quarter and 117.0% year over year to 2026-06-30 Gross Profit 12.6% quarter over quarter and 66.5% year over year to 2026-06-30 Interest Expense 0.0% quarter over quarter and -4.4% year over year to 2026-06-30 Total Revenue increasing 0.1% in fiscal 2025-12-31 vs 2024-12-31 Net Income decreasing 85.6% in fiscal 2025-12-31 vs 2024-12-31 Net Interest Income decreasing 88.7% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders decreasing 86.2% in fiscal 2025-12-31 vs 2024-12-31 Interest Income decreasing 42.0% in fiscal 2025-12-31 vs 2024-12-31 Operating Income increasing 16.1% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "BP balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bp/financials",
+      "date": "2025-12-31",
+      "weight": null,
+      "text": "Other Intangible Assets rose 57.4% from 5208000000.0 in 2024-12-31 to 8197000000.0 in 2025-12-31 (fiscal year), which is probably an acquisition closing in that period"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "BP earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings",
+      "date": "2026-10-30",
+      "weight": null,
+      "text": "2026-10-30 (Friday, before the open), 7 days out -- from the earnings calendar, consensus EPS 2.62. beat streak 4 median gap 91 days 2026-08-04 estimate 1.78 actual 2.22 surprise 24.64% 2026-04-28 estimate 0.93 actual 1.24 surprise 33.25% 2026-02-10 estimate 0.6 actual 0.6 surprise -0.5% 2025-11-04 estimate 0.77 actual 0.85 surprise 9.88%"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: BP (BP) Stock Declines While Market Improves: Some Information for Investors",
+      "provider": null,
+      "url": "/articles/bp-bp-stock-declines-while-market-improves-some-information-investors",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "BP (BP) Stock Declines While Market Improves: Some Information for Investors BP (BP) reached $49.44 at the closing of the latest trading day, reflecting a -1.53% change compared to its last close."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Are You Looking for a Top Momentum Pick? Why BP (BP) is a Great Choice",
+      "provider": null,
+      "url": "/articles/are-you-looking-top-momentum-pick-why-bp-bp-great-choice",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "Are You Looking for a Top Momentum Pick? Why BP (BP) is a Great Choice Does BP (BP) have what it takes to be a top stock pick for momentum investors? Let's find out."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Should Value Investors Buy BP (BP) Stock?",
+      "provider": null,
+      "url": "/articles/should-value-investors-buy-bp-bp-stock-0",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "Should Value Investors Buy BP (BP) Stock? Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Zacks Market Edge Highlights: Palantir Technologies, BP, Palo Alto Networks, Visa and AbbVie",
+      "provider": null,
+      "url": "/articles/zacks-market-edge-highlights-palantir-technologies-bp-palo-alto-networks-visa-and-abbvie",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "Zacks Market Edge Highlights: Palantir Technologies, BP, Palo Alto Networks, Visa and AbbVie Palantir, BP, Palo Alto Networks, Visa and AbbVie are defying market gloom with strong share gains, earnings growth forecasts and distinct opportunities across key sectors."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Investors Heavily Search BP p.l.c. (BP): Here is What You Need to Know",
+      "provider": null,
+      "url": "/articles/investors-heavily-search-bp-plc-bp-here-what-you-need-know",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "Investors Heavily Search BP p.l.c. (BP): Here is What You Need to Know BP (BP) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: XOM vs. BP: Which Integrated Energy Giant Has the Edge?",
+      "provider": null,
+      "url": "/articles/xom-vs-bp-which-integrated-energy-giant-has-edge",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "XOM vs. BP: Which Integrated Energy Giant Has the Edge? ExxonMobil outpaces BP in stock gains and balance sheet strength, but BP's lower valuation makes the choice between these oil giants worth a closer look."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: TechnipFMC Signs MoU With BP to Support Deepwater Oil Projects",
+      "provider": null,
+      "url": "/articles/technipfmc-signs-mou-bp-support-deepwater-oil-projects",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "TechnipFMC Signs MoU With BP to Support Deepwater Oil Projects FTI strengthens its BP partnership on standardized 20K subsea systems, building on Kaskida and Tiber projects to pursue future deepwater opportunities."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: This Top Oils and Energy Stock is a #1 (Strong Buy): Why It Should Be on Your Radar",
+      "provider": null,
+      "url": "/articles/top-oils-and-energy-stock-1-strong-buy-why-it-should-be-your-radar-7",
+      "date": "Oct 19, 20",
+      "weight": 2,
+      "text": "This Top Oils and Energy Stock is a #1 (Strong Buy): Why It Should Be on Your Radar Finding strong, market-beating stocks with a positive earnings outlook becomes easier with the Zacks Rank."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Comcast Gears Up to Report Q3 Earnings: What's in the Cards?",
+      "provider": null,
+      "url": "/articles/comcast-gears-report-q3-earnings-whats-cards",
+      "date": "Oct 19, 20",
+      "weight": 2,
+      "text": "Comcast Gears Up to Report Q3 Earnings: What's in the Cards? CMCSA heads into Q3 earnings with streaming and studio gains facing broadband weakness, softer theme park demand and elevated spending. Can it extend its earnings beat streak?"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Can SLB Stock Extend Its Winning Streak With Strong Q3 Earnings?",
+      "provider": null,
+      "url": "/articles/can-slb-stock-extend-its-winning-streak-strong-q3-earnings",
+      "date": "Oct 19, 20",
+      "weight": 2,
+      "text": "Can SLB Stock Extend Its Winning Streak With Strong Q3 Earnings? SLB heads into Q3 earnings with four straight beats and support from rising oil prices, but declining EPS estimates and a negative Earnings ESP raise questions."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "The Motley Fool: Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now.",
+      "provider": null,
+      "url": "/articles/shells-latest-lng-move-has-me-rethinking-my-oil-major-pecking-order-heres-where-id-rank",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now. Key PointsShell and BP cut their dividends in 2020 amid plans to expand in the clean energy sector."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: HAL Q3 Earnings Beat on Drilling Strength, Revenues Rise Y/Y",
+      "provider": null,
+      "url": "/articles/hal-q3-earnings-beat-drilling-strength-revenues-rise-y-y",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "HAL Q3 Earnings Beat on Drilling Strength, Revenues Rise Y/Y Halliburton's international expansion, deepwater contracts and improving margins support its growth outlook despite persistent North American challenges."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Eni SpA Q3 Earnings Ahead: What's in Store for the Stock?",
+      "provider": null,
+      "url": "/articles/eni-spa-q3-earnings-ahead-whats-store-stock",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "Eni SpA Q3 Earnings Ahead: What's in Store for the Stock? E gears up for Q3 2026 earnings, with EPS expected to surge 113.3% despite lower revenues. Will stronger oil prices fuel its upstream performance?"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Best Growth Stocks to Buy for October 21st",
+      "provider": null,
+      "url": "/articles/best-growth-stocks-buy-october-21st",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "Best Growth Stocks to Buy for October 21st WOOF, ASAIY and BP made it to the Zacks Rank #1 (Strong Buy) growth stocks list on October 21, 2026."
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: EQT Gears Up to Report Q3 Earnings: What's in Store for the Stock?",
+      "provider": null,
+      "url": "/articles/eqt-gears-report-q3-earnings-whats-store-stock",
+      "date": "Oct 22, 20",
+      "weight": 2,
+      "text": "EQT Gears Up to Report Q3 Earnings: What's in Store for the Stock? EQT heads into Q3 2026 earnings with estimates pointing to lower profits as weaker natural gas prices weigh on results."
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "finance.yahoo.com: BP p.l.c. (BP-B.L) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/BP-B.L/analysis/",
+      "date": "2026-07-10",
+      "weight": 3,
+      "text": "BP p.l.c. (BP-B.L) Analyst Ratings, Estimates & Forecasts - Yahoo Finance BP p.l.c. (BP-B.L) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\n157.50 0.00% \n\n# BP p.l.c. (BP-B.L)\n\n157.50 0.00 (0.00%)\n\n At close: July 10 at 9:21:42 AM GMT+1 \n\n### Earnings Per Share \n\nNo Earnings Per Share available for this ticker\n\n### Revenue vs. Earnings\n\nQ1 FY26\n\nRevenue 52.26B\n\nEarnings 3.2B\n\nQ2\n\nFY25\n\nQ3\n\nFY25\n\nQ4\n\nFY25\n\nQ1\n\nFY26\n\n10B\n\n20B\n\n30B\n\n40B\n\n50B\n\n### Revenue Estimate\n\n| Currency in USD | Current Qtr. (Jun 2026) | Next Qtr. (Sep 2026) | Current Year (2026) | Next Year (2027) |\n| --- | --- | --- | --- | --- |\n| No. of Analysts | 5 | 5 | 13 | 13 |\n| Avg. Estimate | 5"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "kalkinemedia.com: BP (LSE:BP.) prospects rest on measurable operating progress",
+      "provider": "kalkinemedia.com",
+      "url": "https://kalkinemedia.com/uk/stocks/oil-gas/bp-lsebp-prospects-rest-on-measurable-operating-progress",
+      "date": "2026-08-29",
+      "weight": 3,
+      "text": "BP (LSE:BP.) prospects rest on measurable operating progress BP (LSE:BP.) prospects rest on measurable operating progress\n\n# BP (LSE:BP.) prospects rest on measurable operating progress \n\n 4 min read | August 29, 2026 09:44 AM BST | By Vivek Singh \n\n Image source: Shutterstock \n\n> ### Highlights\n> \n> - BP should be judged on whether integrated oil, gas, refining and customer operations can support repeatable demand and stronger financial outcomes.\n> - The central risk test covers commodity prices, project returns and transition strategy, rather than relying on broad enthusiasm for oil and gas stocks.\n> - Investors can improve decision-making by comparin"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "openbookanalytics.com: BP Stock Analysis 2026: BP Share Price and Oil | Openbook",
+      "provider": "openbookanalytics.com",
+      "url": "https://www.openbookanalytics.com/news/insights/bp-uk-stock-analysis-2026-share-price-earnings-fundamentals-outlook",
+      "date": "2026-10-06",
+      "weight": 3,
+      "text": "BP Stock Analysis 2026: BP Share Price and Oil | Openbook BP Stock Analysis 2026: BP Share Price and Oil | Openbook\n\n# BP Stock Analysis 2026: BP Share Price, Earnings and Outlook\n\nBrent settled at USD 100.32 as Middle East exports topped pre-war levels and the G7 freed 100m barrels. BP's deleveraging is the most oil-levered in the UK.\n\n6 October 2026\u00b7\n\nJack Green\n\nBrent crude fell 1.9% on 5 October 2026 to settle at USD 100.32 a barrel, as Middle Eastern crude exports climbed back above pre-war levels and the G7 agreed to release 100m barrels of diesel and crude from emergency reserves. West Texas Intermediate settled at USD 89.43, down about 1.8%."
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "vcpscanner.com: BP p.l.c. (BP) Intrinsic Value & DCF Model 2026 | VCP Scanner",
+      "provider": "vcpscanner.com",
+      "url": "https://vcpscanner.com/valuation/bp/dcf",
+      "date": "2026-10-10",
+      "weight": 3,
+      "text": "BP p.l.c. (BP) Intrinsic Value & DCF Model 2026 | VCP Scanner BP p.l.c. (BP) Intrinsic Value & DCF Model 2026 | VCP Scanner\n\n# BP p.l.c. (BP)\n\nDCF Valuation\u2022 Discounted Cash Flow intrinsic value with Bear, Base & Bull scenarios\n\n## BP p.l.c. trades at a 173% discount to intrinsic value\n\nToday's Price$48.81 DCF Model Value$126.15 Implied Discount+173%\n\nValuation Range\n\nPremium to Value Discount to Value\n\nWide range: intrinsic value is highly sensitive to assumptions \u2014 use the scenario analysis to anchor your view.\n\nToday $48.81\n\nBear$61.07\n\nBase$126.15\n\nBull$156.35\n\nModel Verdict\n\nThe market is pricing in an extremely cautious outcome, assuming worse grow"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "investegate.co.uk: 3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate",
+      "provider": "investegate.co.uk",
+      "url": "https://www.investegate.co.uk/announcement/rns/bp--bp./3q26-bp-trading-statement-part-1-of-1/9819131",
+      "date": "2026-10-13",
+      "weight": 3,
+      "text": "3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate 3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate\n\n## Summary by AI BETA Close X\n\n BP PLC has released its third quarter 2026 trading statement, providing updated guidance and financial expectations. Reported upstream production is estimated between 2,190 to 2,240 million barrels of oil equivalent per day, with the gas & low carbon energy segment expected at 775 to 795 mboe/d and oil production & operations at 1,415 to 1,445 mboe/d. The company anticipates a positive impact of $0.1 to $0.3 billion from gas & low carbon energy segment realisations, while oil production"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "proactiveinvestors.com: BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP.",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1100021",
+      "date": "2026-10-13",
+      "weight": 3,
+      "text": "BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP. BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction | LSE:BP.\n\n# BP\u2019s net debt falls sharply as Jefferies and Panmure Liberum highlight reduction\n\n Published: 14:30 13 Oct 2026 BST \n\nBP PLC (LSE:BP.), the FTSE 100 oil and gas group, expects third quarter net debt of $13.5 billion to $14.5 billion, down from $22.3 billion in the second quarter, in a guidance update published on Tuesday.\n\nJefferies, the investment bank, called the reduction the highlight of the update, and rated the shares a 'hold' with a price target of 520p, 12% below Monday\u2019s close of 588p.\n\nThe f"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "mastermind-x.com: BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault",
+      "provider": "mastermind-x.com",
+      "url": "https://www.mastermind-x.com/research/bp-plc-bp-l-upgrading-our-estimates-following-the-company-s-3q26-stron-c407e7.html",
+      "date": "2026-10-13",
+      "weight": 3,
+      "text": "BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault\n\n# BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update\n\n Oct 13, 2026 7 pages\u9875 \n\nFrom the report\u62a5\u544a\u6458\u5f55 Estimate Upgrade: Q3 2026 adjusted net income revised to $7.492bn (+18%), Gas & Low Carbon Energy operating profit up $400m to $2.6bn, OCF raised to $12.5bn, capex lowered to $3.0bn.\n\nEquity Research 13 October 2026 | 8:53AM CEST\n\nBP Plc (BP.L): Upgrading our estimates following the company\u2019s 3Q26 strong trading"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "finance.yahoo.com: BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/bp-lse-bp-8-8-232255930.html",
+      "date": "2026-10-13",
+      "weight": 3,
+      "text": "BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed? BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?\n\n# BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?\n\n Sasha Jovanovic Tue, October 13, 2026 at 7:22 PM EDT 4 min read\n\n- BP p.l.c. has just released its third\u2011quarter 2026 trading update, flagging higher-than-expected upstream production, much stronger refining margins averaging US$46.7 per barrel, and a planned cut in net debt to about US$13.5 billion\u2013US$14.5 billion, alongside net impairments of up to US$4.5 billion in its"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954368-bp-way-ahead-of-schedule",
+      "date": "2026-10-15",
+      "weight": 3,
+      "text": "BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha\n\n# BP p.l.c.: Way Ahead Of Schedule\n\nOct 15, 2026, 6:04 AM ET BP p.l.c. (BP) Stock, BPAQF Stock CVX, XOM, SHEL, CVX:CA, ZCVX:CA, ZXOM:CA, RYDAF 6 Comments\n\nLouis Gerard\n\n## Summary\n\n- BP p.l.c. delivered rapid deleveraging, aided by war-driven crude price spikes, but the upside is now capped at current valuations.\n- Q3 refining margins surged to $46.7/bbl, boosting results, yet BP\u2019s leverage to refining is structurally reduced after asset sales.\n- Net debt is set to fall dramatically to $13.5\u2013$14.5B, with further proceeds from Castrol"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "gngresearch.com: BP PLC ADR (BP): Valuation, Margins, ROIC & Analyst Targets",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/BP/",
+      "date": "2026-10-20",
+      "weight": 3,
+      "text": "BP PLC ADR (BP): Valuation, Margins, ROIC & Analyst Targets BP PLC ADR (BP): Valuation, Margins, ROIC & Analyst Targets\n\n# BP PLC ADR (BP)\n\nENERGY \u2022 OIL & GAS INTEGRATED \u2022 NYSE\n\n$49.40\n\n-0.04 (-0.08%)\n\nMarket Cap: $127.34B\n\nLast updated: Oct 20, 2026 at 5:00 PM ET\n\n### Earnings\n\nQuarterly Annual\n\n1Y 3Y 5Y 10Y All\n\n#### Performance (10Y)\n\nBeat Rate\n\n77%(30/39)\n\nAvg Surprise\n\n+9.23%\n\nStreak\n\n5 Q\n\n#### Upcoming Estimates\n\nPeriod ending Sep 30, 2026\n\nEPS Consensus$2.38 Range$1.40 - $3.09 10 analysts\n\nEPS Revisions\n\n2\n\n0\n\n7d\n\n7\n\n30d\n\nEPS Estimate Drift Change to current\n\n90d ago$1.55+53.3% 60d ago$1.58+50.6% 30d ago$1.77+34.4% 7d ago$2.01+18.6% Current$2.38"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "ad-hoc-news.de: Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarte",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/bank-of-america-lifts-bp-profit-forecast-35-prozent-as-refining-margins-and-debt-paydown-reshape/70355183",
+      "date": "2026-10-30",
+      "weight": 3,
+      "text": "Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarte Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarte\n\n# Bank of America Lifts BP Profit Forecast 35% as Refining Margins and Debt Paydown Reshape the Quarter\n\n Published on 10/18/2026 at 17:52 | Editorial boerse-global.de \n\nBP stock rose 3.1% to \u20ac7.39 as Brent jumped 3.7% and BofA raised its Q3 earnings estimate over 35%, though it kept an Underperform rating.\n\n \n\n \n\nBP plc GB0007980591 als isometrisches Low-Poly-Raffinerie-Diorama mit Tanks, Rohren und blauen Solarpanels Illustration mit AI erstellt.\n\nBP shares climbed 3.1% on Friday to close at"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "ii.co.uk: A big upgrade for BP earnings and price target",
+      "provider": "ii.co.uk",
+      "url": "https://www.ii.co.uk/analysis-commentary/big-upgrade-bp-earnings-and-price-target-ii540644",
+      "date": null,
+      "weight": 1,
+      "text": "A big upgrade for BP earnings and price target A big upgrade for BP earnings and price target\n\n# A big upgrade for BP earnings and price target\n\nThe oil major has surged since the end of June, but one City analyst has upgraded forecasts and believes the shares can go much further. Graeme Evans explains why.\n\n21st October 2026 15:05\n\nby Graeme Evans from interactive investor\n\n A sign at a BP petrol station in Chicago, Illinois. Photo: Scott Olson/Getty Images.\n\nFurther upside on this week\u2019s 16-year high for BP (LSE:BP.) shares has been forecast after a City bank turned its focus to the oil giant\u2019s next moves in the wake of a rapid reduction"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "live.euronext.com: BP sees refining margin triple, debt target reached, but flags more impairments | live",
+      "provider": "live.euronext.com",
+      "url": "https://live.euronext.com/en/financial-news/bp-sees-refining-margin-triple-debt-target-reached-flags-more-impairments",
+      "date": "2026-10-13",
+      "weight": 1,
+      "text": "BP sees refining margin triple, debt target reached, but flags more impairments | live BP sees refining margin triple, debt target reached, but flags more impairments | live\n\n# BP sees refining margin triple, debt target reached, but flags more impairments \n\n Tue 13/10/2026 - 18:21 \n\nBy Stephanie Kelly and Shadia Nasralla\n\nLONDON, Oct 13 (Reuters) - BP estimated on Tuesday its third-quarter refining margins tripled from last year as the Iran war boosts profits for oil majors, but also flagged $3 billion to $4.5 billion in impairments relating to its gas and low-carbon energy segment.\n\nThis is the second time in a year that the British firm has booked large write-downs in its low"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "investing.com: TD Cowen raises BP stock price target to $49 on stronger earnings By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/td-cowen-raises-bp-stock-price-target-to-49-on-stronger-earnings-93CH-4960448",
+      "date": "2026-10-20",
+      "weight": 1,
+      "text": "TD Cowen raises BP stock price target to $49 on stronger earnings By Investing.com TD Cowen raises BP stock price target to $49 on stronger earnings By Investing.com\n\n# TD Cowen raises BP stock price target to $49 on stronger earnings\n\nPublished Oct 20, 2026, 10:02 AM\n\nLCO-0.13%\n\nInvesting.com - TD Cowen raised its price target on BP (NYSE:BP) to $49 from $47 while maintaining a Hold rating on the stock. The stock currently trades at $49.38, near its 52-week high of $50.27, following a strong year that has seen shares gain 56% over the past twelve months.\n\nThe firm increased its earnings per share estimate by $0.46 to $2.94 following BP\u2019s third-quarter 2026 guidance and an i"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "sec.gov: a6390y",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/a6390y.htm",
+      "date": "2026-10-13",
+      "weight": 0,
+      "text": "a6390y SECURITIES AND EXCHANGE COMMISSION\n\n Report of Foreign Issuer\n\n Pursuant to Rule 13a-16 or 15d-16 of\n\n the Securities Exchange Act of 1934\n\n 13 October, 2026\n\n BP p.l.c.\n\n (Translation of registrant's name into English)\n\n 1 ST JAMES'S SQUARE, LONDON, SW1Y 4PD, ENGLAND\n\n (Address of principal executive offices)\n\n Indicate by check mark whether the registrant files or will file annual\n\n reports under cover Form 20-F or Form 40-F.\n\n Form 20-F |X| Form 40-F\n\n Indicate by check mark whether the registrant by furnishing the information\n\n contained in this Form is also thereby furnishing the informat"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "iea.org: In October 2026, IEA forecast world oil demand to fall 2.6 mb/d on average in 2026.",
+      "provider": "iea.org",
+      "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+      "date": "2026-10-14",
+      "weight": null,
+      "text": "In October 2026, IEA forecast world oil demand to fall 2.6 mb/d on average in 2026. Lower oil demand reduces BP's upstream volumes and downstream throughput, pressuring revenue and earnings. \"World oil demand is forecast to fall by 2.5 mb/d y-o-y in 4Q26 and 2.6 mb/d on average in 2026.\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "iea.org: IEA's October 2026 outlook sees a 2 mb/d partial recovery leaving 2027 oil use 620 kb/d below 2025.",
+      "provider": "iea.org",
+      "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+      "date": "2026-10-14",
+      "weight": null,
+      "text": "IEA's October 2026 outlook sees a 2 mb/d partial recovery leaving 2027 oil use 620 kb/d below 2025. Persistently lower demand limits BP's long-term volume growth and refining utilization. \"A partial recovery, of 2 mb/d, will leave 2027 global oil use 620 kb/d, or 0.6%, below 2025 levels.\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "iata.org: The Feb 2026 Strait of Hormuz closure cut crude supply by around 10 million barrels per day.",
+      "provider": "iata.org",
+      "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/global-outlook-for-air-transport-june-2026",
+      "date": "2026-10-01",
+      "weight": null,
+      "text": "The Feb 2026 Strait of Hormuz closure cut crude supply by around 10 million barrels per day. Supply loss supports oil prices and BP's upstream cash flow in 2026-2027. \"cutting crude oil supply by around 10 million barrels per day\""
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "iea.org: In 2026, diesel accounts for 25% of the forecast oil-demand drop, pressuring BP's distillate refining margins.",
+      "provider": "iea.org",
+      "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+      "date": "2026-10-14",
+      "weight": null,
+      "text": "In 2026, diesel accounts for 25% of the forecast oil-demand drop, pressuring BP's distillate refining margins. Weaker diesel cracks reduce downstream earnings from BP's refining and marketing segment. \"diesel will register 25% of the drop\""
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "iata.org: SAF output is forecast at only 2.4 million tonnes in 2026, 0.8% of aviation fuel use.",
+      "provider": "iata.org",
+      "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+      "date": "2026-06-06",
+      "weight": null,
+      "text": "SAF output is forecast at only 2.4 million tonnes in 2026, 0.8% of aviation fuel use. Slow SAF substitution keeps conventional jet-fuel demand intact for BP's refining and marketing. \"global Sustainable Aviation Fuel (SAF) production is expected to reach around 2.4 million tonnes in 2026, representing just 0.8% of aviation fuel use\""
+    },
+    {
+      "id": "S41",
+      "kind": "options",
+      "ref": "options",
+      "label": "BP listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BP/options/",
+      "date": "2026-10-23",
+      "weight": null,
+      "text": "long CALL strike 55.0 expiry 2027-03-19 premium 2.11 short PUT strike 48.0 expiry 2027-03-19 premium 3.04"
+    }
+  ],
+  "trailing_vs_consensus": null,
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "global oil demand refining margins outlook 2026 2027 IEA",
+        "airline jet fuel demand forecast 2026 2027 IATA sustainable aviation fuel adoption",
+        "EV charging infrastructure growth 2026 retail fuel demand decline convenience retail spending",
+        "BP p.l.c. BP 2026 Castrol lubricants industrial customer demand manufacturing PMI"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In October 2026, IEA forecast world oil demand to fall 2.6 mb/d on average in 2026.",
+          "stance": "pressure",
+          "why": "Lower oil demand reduces BP's upstream volumes and downstream throughput, pressuring revenue and earnings.",
+          "quote": "World oil demand is forecast to fall by 2.5 mb/d y-o-y in 4Q26 and 2.6 mb/d on average in 2026.",
+          "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+          "publisher": "iea.org",
+          "as_of": "2026-10-14",
+          "age_days": 9,
+          "undated": false
+        },
+        {
+          "claim": "IEA's October 2026 outlook sees a 2 mb/d partial recovery leaving 2027 oil use 620 kb/d below 2025.",
+          "stance": "pressure",
+          "why": "Persistently lower demand limits BP's long-term volume growth and refining utilization.",
+          "quote": "A partial recovery, of 2 mb/d, will leave 2027 global oil use 620 kb/d, or 0.6%, below 2025 levels.",
+          "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+          "publisher": "iea.org",
+          "as_of": "2026-10-14",
+          "age_days": 9,
+          "undated": false
+        },
+        {
+          "claim": "The Feb 2026 Strait of Hormuz closure cut crude supply by around 10 million barrels per day.",
+          "stance": "support",
+          "why": "Supply loss supports oil prices and BP's upstream cash flow in 2026-2027.",
+          "quote": "cutting crude oil supply by around 10 million barrels per day",
+          "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/global-outlook-for-air-transport-june-2026",
+          "publisher": "iata.org",
+          "as_of": "2026-10-01",
+          "age_days": 22,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, diesel accounts for 25% of the forecast oil-demand drop, pressuring BP's distillate refining margins.",
+          "stance": "pressure",
+          "why": "Weaker diesel cracks reduce downstream earnings from BP's refining and marketing segment.",
+          "quote": "diesel will register 25% of the drop",
+          "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+          "publisher": "iea.org",
+          "as_of": "2026-10-14",
+          "age_days": 9,
+          "undated": false
+        },
+        {
+          "claim": "SAF output is forecast at only 2.4 million tonnes in 2026, 0.8% of aviation fuel use.",
+          "stance": "support",
+          "why": "Slow SAF substitution keeps conventional jet-fuel demand intact for BP's refining and marketing.",
+          "quote": "global Sustainable Aviation Fuel (SAF) production is expected to reach around 2.4 million tonnes in 2026, representing just 0.8% of aviation fuel use",
+          "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+          "publisher": "iata.org",
+          "as_of": "2026-06-06",
+          "age_days": 139,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "BP p.l.c. BP airline jet fuel demand 2026 2027 sustainable aviation fuel mandates costs",
+        "global upstream oil gas capex 2026 2027 exploration production spending outlook",
+        "EV charging market 2026 2027 utilization competition convenience retail fuel demand",
+        "global refining capacity additions 2026 2027 biofuel mandates refining margins outlook"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "In September 2026, SEB cut its Brent forecasts to USD 75/bbl for 2027 and USD 70/bbl for 2028, warning of surplus.",
+          "stance": "pressure",
+          "why": "Lower crude prices would reduce BP's upstream revenue and cash flow as current hedges roll off.",
+          "quote": "SEB has lowered its average Brent crude oil forecasts to USD 75/bbl for 2027 and USD 70/bbl for 2028",
+          "url": "https://sebgroup.com/press/news/2026/seb-survey-energy-producers-face-a-potential-oil-surplus-by-2028",
+          "publisher": "sebgroup.com",
+          "as_of": "2026-09-10",
+          "age_days": 43,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, global oil demand is forecast to fall 2.6 mb/d on average in 2026, with 4Q26 down 2.5 mb/d.",
+          "stance": "pressure",
+          "why": "Falling demand can pressure BP's refining runs, product cracks and fuel marketing volumes.",
+          "quote": "World oil demand is forecast to fall by 2.5 mb/d y-o-y in 4Q26 and 2.6 mb/d on average in 2026.",
+          "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+          "publisher": "iea.org",
+          "as_of": "2026-10-14",
+          "age_days": 9,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, global net refining capacity is forecast to grow 4.2 mb/d from 2026 through 2030, above product demand growth.",
+          "stance": "pressure",
+          "why": "Capacity additions above demand growth can pressure refining margins and BP's downstream earnings.",
+          "quote": "4.2m b/d: Net oil refining capacity growth worldwide from 2026 through 2030",
+          "url": "https://about.bnef.com/insights/finance/global-oil-refining-outlook/",
+          "publisher": "about.bnef.com",
+          "as_of": "2026-10-01",
+          "age_days": 22,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, upstream portfolio renewal pressures are building even as capital discipline has held.",
+          "stance": "pressure",
+          "why": "BP may need higher capex or M&A to offset reserves, reducing free cash flow.",
+          "quote": "capital discipline has been maintained \u2013 but can that hold as portfolio pressures build?",
+          "url": "https://www.woodmac.com/news/opinion/upstream-oil-and-gas-2026-outlook-half-time-report/",
+          "publisher": "woodmac.com",
+          "as_of": "2026-07-16",
+          "age_days": 99,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, capital discipline remains the overarching rule among energy producers.",
+          "stance": "support",
+          "why": "Restrained industry capex supports BP's free cash flow and shareholder returns.",
+          "quote": "capital discipline remains the overarching rule",
+          "url": "https://sebgroup.com/press/news/2026/seb-survey-energy-producers-face-a-potential-oil-surplus-by-2028",
+          "publisher": "sebgroup.com",
+          "as_of": "2026-09-10",
+          "age_days": 43,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In January 2026, refining margins were expected to normalize in the second half of 2026 as new mega-projects integrate.",
+          "stance": "pressure",
+          "why": "Normalizing margins would reduce BP's downstream earnings after first-half product scarcity.",
+          "quote": "the second half will likely see margins normalize as new mega-projects finally integrate into the global market.",
+          "url": "https://adi-analytics.com/2026/01/08/2026-adi-refining-fuels-outlook/",
+          "publisher": "adi-analytics.com",
+          "as_of": "2026-01-08",
+          "age_days": 288,
+          "undated": false,
+          "drop_reason": "stale (288 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "global oil and gas upstream capex spending outlook 2026 2027",
+        "airline jet fuel demand sustainable aviation fuel adoption outlook 2026 2027",
+        "fuel retail convenience EV charging infrastructure investment trends 2026 2027",
+        "BP BP.L refining margins biofuel mandates hydrogen policy outlook 2026 2027"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In Sep 2026, SEB forecast Brent at $75/bbl for 2027 and $70/bbl for 2028, warning of a potential surplus.",
+          "stance": "pressure",
+          "why": "Lower oil prices would reduce BP's upstream cash flow; BP says each $1/bbl Brent move is $340m pre-tax.",
+          "quote": "SEB has lowered its average Brent crude oil forecasts to USD 75/bbl for 2027 and USD 70/bbl for 2028",
+          "url": "https://sebgroup.com/press/news/2026/seb-survey-energy-producers-face-a-potential-oil-surplus-by-2028",
+          "publisher": "sebgroup.com",
+          "as_of": "2026-09-10",
+          "age_days": 43,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, a US$495bn upstream cash windfall is not triggering a spending surge, supporting free cash flow.",
+          "stance": "support",
+          "why": "Restrained capex means higher oil-linked cash flow can reach BP's free cash flow rather than being spent.",
+          "quote": "global upstream sector could accumulate a cash windfall of US$495 billion this year",
+          "url": "https://www.woodmac.com/press-releases/wood-mackenzie-mid-year-outlook-oil-and-gas-industry-cash-rich-but-capital-cautious-as-nearly-half-a-trillion-dollar-windfall-fails-to-trigger-a-spending-surge/",
+          "publisher": "woodmac.com",
+          "as_of": "2026-07-28",
+          "age_days": 87,
+          "undated": false
+        },
+        {
+          "claim": "In H1 2026, Middle East conflict-driven oil and gas prices delivered a cash windfall to oil and gas companies.",
+          "stance": "support",
+          "why": "Higher realizations boost BP's upstream cash flow before any change in capital spending.",
+          "quote": "Surging oil and gas prices due to the Middle East conflict have delivered a cash windfall for oil and gas companies in H1 2026.",
+          "url": "https://www.woodmac.com/news/opinion/upstream-oil-and-gas-2026-outlook-half-time-report/",
+          "publisher": "woodmac.com",
+          "as_of": "2026-07-16",
+          "age_days": 99,
+          "undated": false
+        },
+        {
+          "claim": "As of mid-2026, portfolio renewal pressures are building and may test maintained capital discipline.",
+          "stance": "pressure",
+          "why": "Rising portfolio renewal needs could pull BP into higher upstream spending, reducing free cash flow.",
+          "quote": "So far, capital discipline has been maintained \u2013 but can that hold as portfolio pressures build?",
+          "url": "https://www.woodmac.com/news/opinion/upstream-oil-and-gas-2026-outlook-half-time-report/",
+          "publisher": "woodmac.com",
+          "as_of": "2026-07-16",
+          "age_days": 99,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, the Strait of Hormuz closure has sent crude prices sharply higher.",
+          "stance": "support",
+          "why": "Higher crude realizations lift BP's upstream revenue and cash flow.",
+          "quote": "Its closure sent prices sharply higher and disrupted the structure of global energy supply chains.",
+          "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet-fuel/",
+          "publisher": "iata.org",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}

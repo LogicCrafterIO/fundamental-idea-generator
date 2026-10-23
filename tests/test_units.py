@@ -2166,5 +2166,84 @@ class TestVariantPlan(unittest.TestCase):
             variants.plan({"momentum": []})
 
 
+class TestSiblingDisagreements(unittest.TestCase):
+    """A rebuild from disk states the same disagreement the generating run printed.
+
+    The disagreements are recomputed by reading the sibling folder's notes rather
+    than held in memory, because ``fig index`` -- and any rebuild after a linter
+    change -- regenerates both indexes with no batch in hand. A contradiction between
+    the two screens is the last output that should survive only in a scrollback.
+    """
+
+    def _write(self, root, variant, direction, ticker="PEP"):
+        import json
+
+        side = "shorts" if direction == "short" else "longs"
+        folder = root / variant / side
+        folder.mkdir(parents=True, exist_ok=True)
+        (folder / f"{ticker}.json").write_text(
+            json.dumps({"ticker": ticker, "direction": direction, "reasons": ["a reason"]})
+        )
+
+    def test_opposite_directions_across_siblings_are_found(self):
+        import tempfile
+
+        from fig import generate
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write(root, "revisions", "short")
+            self._write(root, "divergence", "long")
+            found = generate._sibling_disagreements(
+                root / "revisions",
+                "revisions",
+                [{"writeup": {"ticker": "PEP", "direction": "short"}}],
+            )
+
+        self.assertEqual(
+            found,
+            [
+                {
+                    "symbol": "PEP",
+                    "directions": {"short": "revisions", "long": "divergence"},
+                    "variants": ["divergence", "revisions"],
+                }
+            ],
+        )
+
+    def test_agreement_across_siblings_reports_nothing(self):
+        import tempfile
+
+        from fig import generate
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write(root, "revisions", "long")
+            self._write(root, "divergence", "long")
+            found = generate._sibling_disagreements(
+                root / "revisions",
+                "revisions",
+                [{"writeup": {"ticker": "PEP", "direction": "long"}}],
+            )
+
+        self.assertEqual(found, [])
+
+    def test_a_missing_sibling_is_not_an_error(self):
+        import tempfile
+
+        from fig import generate
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write(root, "revisions", "long")
+            found = generate._sibling_disagreements(
+                root / "revisions",
+                "revisions",
+                [{"writeup": {"ticker": "PEP", "direction": "long"}}],
+            )
+
+        self.assertEqual(found, [])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
