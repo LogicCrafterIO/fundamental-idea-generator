@@ -1,0 +1,740 @@
+{
+  "ticker": "MO",
+  "direction": "short",
+  "as_of": "2026-10-24",
+  "description": "US cigarette and tobacco company: Marlboro cigarettes, Black & Mild cigars, Copenhagen smokeless, on! nicotine pouches, NJOY e-vapor.",
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 5,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.5095,
+      "eps_low": 1.48,
+      "eps_high": 1.53,
+      "revenue_avg": 5310311240
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.5,
+        "eps_actual": 1.48,
+        "surprise_pct": -1.17,
+        "beat": false
+      },
+      {
+        "date": "2026-04-30",
+        "eps_estimate": 1.25,
+        "eps_actual": 1.32,
+        "surprise_pct": 5.92,
+        "beat": true
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 1.32,
+        "eps_actual": 1.3,
+        "surprise_pct": -1.33,
+        "beat": false
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 1.45,
+        "eps_actual": 1.45,
+        "surprise_pct": 0.13,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-29 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 1.51.",
+    "why": "Q3 must deliver 1.51, up 4.1% on last year's 1.45, while Q2 operating profit fell 5.0% -- the print shows whether price still covers volume."
+  },
+  "reasons": [
+    "Consensus needs Q3 EPS of 1.5095, up 4.1% on 1.45, but Q2 EBIT fell 5.0% and EBITDA 5.3% year over year on revenue up just 1.2%, so the step-up has to come from below the operating line.",
+    "Convenience cigarette unit sales fell 5.9% in the 52 weeks to March 22, 2026 while price rose 5.7%, and shoppers are trading down to fourth-tier brands, thinning Marlboro's premium mix.",
+    "At 74.31 the stock sits above the $70 average target of 14 analysts and above MCH's $72.52 scenario value, so the income bid has already paid for the beat."
+  ],
+  "watch": [
+    "Cigarette volume decline: confirms the short if worse than the 5.9% industry rate; breaks it if the decline moderates again year over year.",
+    "Adjusted EPS against 1.5095: confirms below; breaks on a beat driven by price rather than cost.",
+    "Full-year guidance: confirms if narrowed below the 5.677 consensus; breaks if reiterated or raised.",
+    "Marlboro share and premium mix: confirms if downtrading continues; breaks if Marlboro share holds."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "MO quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/mo/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "MO earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings",
+        "date": "2026-10-29"
+      }
+    ],
+    [
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "cstoredecisions.com: Convenience cigarette unit sales fell 5.9% in the 52 weeks ending March 22, 2026, with price up 5.7%.",
+        "provider": "cstoredecisions.com",
+        "url": "https://cstoredecisions.com/cigarette-consumers-shift-to-fourth-tier-brands-amid-rising-prices/",
+        "date": "2026-06-08"
+      },
+      {
+        "id": "S35",
+        "kind": "research",
+        "ref": "trend:2",
+        "label": "cstoredecisions.com: In 2026, cigarette shoppers are trading down to fourth-tier brands or other tobacco segments.",
+        "provider": "cstoredecisions.com",
+        "url": "https://cstoredecisions.com/cigarette-consumers-shift-to-fourth-tier-brands-amid-rising-prices/",
+        "date": "2026-06-08"
+      }
+    ],
+    [
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for MO",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/MO/key-statistics/",
+        "date": "2026-10-24"
+      },
+      {
+        "id": "S26",
+        "kind": "ollama_search",
+        "ref": "web:6",
+        "label": "stockanalysis.com: Altria Group (MO) Stock Forecast & Analyst Price Targets",
+        "provider": "stockanalysis.com",
+        "url": "https://stockanalysis.com/stocks/mo/forecast/",
+        "date": "2026-10-23"
+      },
+      {
+        "id": "S27",
+        "kind": "ollama_search",
+        "ref": "web:7",
+        "label": "mchanalysis.com: Altria Group (MO) \u2014 MCH Analysis Research",
+        "provider": "mchanalysis.com",
+        "url": "https://www.mchanalysis.com/research/mo-research-2026.html",
+        "date": "2026-10-23"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for MO",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MO/key-statistics/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for MO",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MO/analysis/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "MO quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mo/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "MO earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mo/earnings",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: Altria (MO) Ascends While Market Falls: Some Facts to Note",
+      "provider": null,
+      "url": "/articles/altria-mo-ascends-while-market-falls-some-facts-note",
+      "date": "Oct 14, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Investors Heavily Search Altria Group, Inc. (MO): Here is What You Need to Know",
+      "provider": null,
+      "url": "/articles/investors-heavily-search-altria-group-inc-mo-here-what-you-need-know",
+      "date": "Oct 14, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Altria (MO) Increases Despite Market Slip: Here's What You Need to Know",
+      "provider": null,
+      "url": "/articles/altria-mo-increases-despite-market-slip-heres-what-you-need-know",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "The Motley Fool: If I Had $5,000 to Put Toward Just 1 Dividend Stock, This Would Be It",
+      "provider": null,
+      "url": "/articles/if-i-had-5000-put-toward-just-1-dividend-stock-would-be-it",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "BNK Invest: Altria Group (MO) Shares Cross 6% Yield Mark",
+      "provider": null,
+      "url": "/articles/altria-group-mo-shares-cross-6-yield-mark",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: If You Invested $100 a Month in This High-Yield Dividend Stock, Here's the Dividend Income It Produced Over 10 Years",
+      "provider": null,
+      "url": "/articles/if-you-invested-100-month-high-yield-dividend-stock-heres-dividend-income-it-produced-over",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Philip Morris (PM) Q3 Earnings and Revenues Surpass Estimates",
+      "provider": null,
+      "url": "/articles/philip-morris-pm-q3-earnings-and-revenues-surpass-estimates",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "BNK Invest: Notable ETF Inflow Detected - XLP, MO, CL, MDLZ",
+      "provider": null,
+      "url": "/articles/notable-etf-inflow-detected-xlp-mo-cl-mdlz",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Altria (MO) Earnings Expected to Grow: Should You Buy?",
+      "provider": null,
+      "url": "/articles/altria-mo-earnings-expected-grow-should-you-buy",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Altria (MO) Declines More Than Market: Some Information for Investors",
+      "provider": null,
+      "url": "/articles/altria-mo-declines-more-market-some-information-investors",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Buy 5 High-Flying Consumer Staples Stocks for a Stable Portfolio in Q4",
+      "provider": null,
+      "url": "/articles/buy-5-high-flying-consumer-staples-stocks-stable-portfolio-q4",
+      "date": "Oct 15, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Here's What $10,000 in Each of These 5 High-Yield Dividend Stocks Could Pay You in a Year",
+      "provider": null,
+      "url": "/articles/heres-what-10000-each-these-5-high-yield-dividend-stocks-could-pay-you-year",
+      "date": "Oct 18, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: Buy 5 Stocks to Stay Safe as Volatility Reappears on Wall Street",
+      "provider": null,
+      "url": "/articles/buy-5-stocks-stay-safe-volatility-reappears-wall-street",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: The Zacks Analyst Blog Highlights Sun Life Financial, Coca-Cola, Altria, Keurig Dr Pepper and MetLife",
+      "provider": null,
+      "url": "/articles/zacks-analyst-blog-highlights-sun-life-financial-coca-cola-altria-keurig-dr-pepper-and",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: What's in the Cards for Darling Ingredients in Q3 Earnings Release?",
+      "provider": null,
+      "url": "/articles/whats-cards-darling-ingredients-q3-earnings-release",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "walnutinvest.com: Is MO a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/mo/is-it-a-buy-or-sell",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "fool.com: The Major Long-Term Risk Facing Altria Stock in 2026 | The Motley Fool",
+      "provider": "fool.com",
+      "url": "https://www.fool.com/investing/2026/03/31/the-major-long-term-risk-facing-altria-stock-in-20/",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "chartmill.com: MO Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/MO/analyst-ratings",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "wsj.com: MO.CH | Altria Group Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/CH/MO/research-ratings",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "dyorhq.ai: DYOR HQ - Altria Group Inc (MO) | 2026-10-04",
+      "provider": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/altriagroupinc",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "marketbeat.com: Altria Group (MO) Set to Post Earnings on Thursday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-altria-group-mo-set-to-post-earnings-on-thursday-2026-10-22/",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Altria Group (MO) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/mo/forecast/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "mchanalysis.com: Altria Group (MO) \u2014 MCH Analysis Research",
+      "provider": "mchanalysis.com",
+      "url": "https://www.mchanalysis.com/research/mo-research-2026.html",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "finance.yahoo.com: Earnings Beat Hopes Could Matter For Altria Stock (MO)",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-hopes-could-matter-151334920.html",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investor.altria.com: Altria to Host Webcast of 2026 Third-Quarter and Nine-Months Results - Altria Group, Inc.",
+      "provider": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-to-Host-Webcast-of-2026-Third-Quarter-and-Nine-Months-Results/default.aspx",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investor.altria.com: Altria Reports 2025 Fourth-Quarter and Full-Year Results; Provides 2026 Earnings Guidance - Altria Group, Inc.",
+      "provider": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2025-Fourth-Quarter-and-Full-Year-Results-Provides-2026-Earnings-Guidance/default.aspx",
+      "date": "2026-01-29"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "tipranks.com: Altria Group price target raised to $73 from $72 at BofA",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/news/the-fly/altria-group-price-target-raised-to-73-from-72-at-bofa-thefly-news",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investor.altria.com: Altria Reports 2026 Second-Quarter and First-Half Results; Narrows 2026 Full-Year Earnings Guidance - Altria Group, Inc.",
+      "provider": "investor.altria.com",
+      "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2026-Second-Quarter-and-First-Half-Results-Narrows-2026-Full-Year-Earnings-Guidance/default.aspx",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "apnews.com: In 2025, the U.S. adult cigarette smoking rate fell to another all-time low.",
+      "provider": "apnews.com",
+      "url": "https://apnews.com/article/adult-smoking-cigarette-decline-survey-3dfc9d82fcc106e49a5706819d438239",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "cstoredecisions.com: Convenience cigarette unit sales fell 5.9% in the 52 weeks ending March 22, 2026, with price up 5.7%.",
+      "provider": "cstoredecisions.com",
+      "url": "https://cstoredecisions.com/cigarette-consumers-shift-to-fourth-tier-brands-amid-rising-prices/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "cstoredecisions.com: In 2026, cigarette shoppers are trading down to fourth-tier brands or other tobacco segments.",
+      "provider": "cstoredecisions.com",
+      "url": "https://cstoredecisions.com/cigarette-consumers-shift-to-fourth-tier-brands-amid-rising-prices/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "csnews.com: In Q2 2026, cigarette volume declines moderated sequentially.",
+      "provider": "csnews.com",
+      "url": "https://csnews.com/nicotine-pouches-give-tobacco-retailers-cause-optimism",
+      "date": null
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "csnews.com: In Q2 2026, persistent downtrading away from premium cigarettes pressured industry volumes.",
+      "provider": "csnews.com",
+      "url": "https://csnews.com/nicotine-pouches-give-tobacco-retailers-cause-optimism",
+      "date": null
+    },
+    {
+      "id": "S38",
+      "kind": "options",
+      "ref": "options",
+      "label": "MO listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/MO/options/",
+      "date": "2026-10-24"
+    }
+  ],
+  "quants": {
+    "price": 74.31,
+    "market_cap": "124.08B",
+    "fwd_pe": 13.1,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 6.1,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted lower, with 3 up and 6 down over last 30 days",
+    "extra": [
+      "Net Income +5% quarter over quarter but -3% year over year (2026-06-30)",
+      "Last quarter cash and cash equivalents decreasing 33% quarter over quarter (6/30/2026)",
+      "Last quarter sales, general and admin. increasing 20% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 1.44 -> 1.48"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 12.6,
+        "yoy_pct": 1.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 5.3,
+        "yoy_pct": -3.4,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "qoq_pct": 5.2,
+        "yoy_pct": -3.3,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 3.4,
+        "yoy_pct": -5.0,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 3.4,
+        "yoy_pct": -5.3,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 6.8,
+        "yoy_pct": -2.3,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 9.0,
+        "yoy_pct": -0.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 14.3,
+        "yoy_pct": 7.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": -1.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": -38.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": -38.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": -28.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": -28.1,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Income",
+        "change_pct": 12.6,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 5,
+    "bar": {
+      "date": "2026-10-29",
+      "eps_avg": 1.5095,
+      "eps_low": 1.48,
+      "eps_high": 1.53,
+      "revenue_avg": 5310311240
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Mar-27",
+        "strike": 72.5,
+        "qty": 12,
+        "underlying": 74.31,
+        "multiplier": 100,
+        "price": 3.58,
+        "total": 4296.0,
+        "open_interest": 779
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 72.5,
+        "qty": 5,
+        "underlying": 74.31,
+        "multiplier": 100,
+        "price": 1.27,
+        "total": -635.0,
+        "open_interest": 977
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-28 report, with the long leg expiring 2027-03-19, which gives the deterioration time to show up.",
+    "reflection": "A 13.5% credit for five weeks of exposure is fat, but the 72.5 strike sits only 2.4% under spot, so the front leg is nearly at the money into a print the company has beaten half the time. Five short against twelve long leaves room to sell more if it holds above 74 into Thursday."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": [
+          "\"4.1%\""
+        ]
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": [
+          "\"2.75\"",
+          "\"2.88\"",
+          "\"4.6%\""
+        ]
+      }
+    ],
+    "grounding": {
+      "checked": 17,
+      "unsupported": [
+        "\"4.1%\""
+      ],
+      "grounded": false,
+      "ratio": 0.941
+    },
+    "source_grounding": {
+      "checked": 10,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "backbar",
+          "cigarette",
+          "economizing",
+          "pouch",
+          "quitting",
+          "rather",
+          "shoppers",
+          "space",
+          "taking"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "brands",
+          "convenience",
+          "march",
+          "premium",
+          "shoppers",
+          "trading",
+          "weeks"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "again",
+          "dollars",
+          "october",
+          "pouch",
+          "smokeless",
+          "units"
+        ]
+      }
+    ]
+  }
+}

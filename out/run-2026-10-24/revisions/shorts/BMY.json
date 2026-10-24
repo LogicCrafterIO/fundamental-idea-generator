@@ -1,0 +1,729 @@
+{
+  "ticker": "BMY",
+  "direction": "short",
+  "as_of": "2026-10-24",
+  "description": "Biopharma whose newer drugs \u2014 Reblozyl, Breyanzi, Camzyos \u2014 must now replace Eliquis and Opdivo as those patents expire.",
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "session": "before the open",
+    "days_out": 5,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.25161,
+      "eps_low": 0.98,
+      "eps_high": 1.75,
+      "revenue_avg": 12729118640
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.6,
+        "eps_actual": 2.04,
+        "surprise_pct": 27.74,
+        "beat": true
+      },
+      {
+        "date": "2026-04-30",
+        "eps_estimate": 1.42,
+        "eps_actual": 1.58,
+        "surprise_pct": 11.18,
+        "beat": true
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 1.2,
+        "eps_actual": 1.26,
+        "surprise_pct": 4.57,
+        "beat": true
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 1.52,
+        "eps_actual": 1.63,
+        "surprise_pct": 7.55,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-29 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 1.25.",
+    "why": "Revenue at or below 12.73B and EPS at or below 1.25, with guidance held, proves the growth portfolio cannot outrun the generic and patent hits."
+  },
+  "reasons": [
+    "Consensus FY EPS cut 5.5% in 30 days (6.95 to 6.57), 8 of 9 analysts cutting; the 9.36x forward PE sits on a shrinking denominator, not a mispriced one.",
+    "Growth products were $6.2B of $11.5B revenue in Q1 2026, so July's full Revlimid and Pomalyst generics landed on a base where legacy was still nearly half.",
+    "Last four quarters' EPS actuals total 6.51 against FY consensus 6.57, so the beat streak is already in the number; Q3 consensus of 1.25 sits 23% below the 1.63 reported a year ago."
+  ],
+  "watch": [
+    "Revenue vs the 12.73B consensus: at or below confirms; a beat with growth portfolio above Q2's 7.6B breaks it.",
+    "FY guidance: held at 49-50B confirms; a second raise above 50B breaks \u2014 July's raise is what the stock already owns.",
+    "Revlimid and Pomalyst: management quantifying generic erosion confirms; claiming the growth portfolio fully offsets it breaks.",
+    "Camzyos: any sequential decline confirms Cytokinetics is taking share; double-digit growth breaks it."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S2",
+        "kind": "consensus",
+        "ref": "consensus",
+        "label": "Analyst EPS estimates and revision counts for BMY",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/BMY/analysis/",
+        "date": "2026-10-24"
+      },
+      {
+        "id": "S1",
+        "kind": "fundamentals",
+        "ref": "fundamentals",
+        "label": "Yahoo Finance quote and key statistics for BMY",
+        "provider": "Yahoo Finance (via yfinance)",
+        "url": "https://finance.yahoo.com/quote/BMY/key-statistics/",
+        "date": "2026-10-24"
+      }
+    ],
+    [
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "fiercepharma.com: In Q1 2026, BMS growth products pulled ahead, contributing $6.2B of $11.5B revenue.",
+        "provider": "fiercepharma.com",
+        "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+        "date": "2026-04-30"
+      },
+      {
+        "id": "S37",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "quartr.com: As of July 2026, full generics for REVLIMID and POMALYST are headwinds for BMS.",
+        "provider": "quartr.com",
+        "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+        "date": "2026-07-09"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "BMY quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/bmy/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "BMY earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings",
+        "date": "2026-10-29"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for BMY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BMY/key-statistics/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for BMY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BMY/analysis/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "BMY quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bmy/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "BMY earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "The Motley Fool: Have $1,000 to Invest? This Dirt Cheap Pharma Stock Pays You 4.2% to Wait.",
+      "provider": null,
+      "url": "/articles/have-1000-invest-dirt-cheap-pharma-stock-pays-you-42-wait",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Can BMY Navigate Generic Challenges Across Its Key Drug Portfolio?",
+      "provider": null,
+      "url": "/articles/can-bmy-navigate-generic-challenges-across-its-key-drug-portfolio",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "The Motley Fool: Bristol Myers Squibb vs. Pfizer: Consistency vs. Scale in Revenue",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-vs-pfizer-consistency-vs-scale-revenue",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Earnings Preview: Bristol Myers Squibb (BMY) Q3 Earnings Expected to Decline",
+      "provider": null,
+      "url": "/articles/earnings-preview-bristol-myers-squibb-bmy-q3-earnings-expected-decline",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Bristol Myers Squibb vs. Novo Nordisk: Stable Scale vs. GLP-1 Volatility",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-vs-novo-nordisk-stable-scale-vs-glp-1-volatility",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "RTTNews: BioNTech Expands Phase 3 Breast Cancer Trial Through Collaboration With Gilead",
+      "provider": null,
+      "url": "/articles/biontech-expands-phase-3-breast-cancer-trial-through-collaboration-gilead",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Bristol Myers Squibb vs. Eli Lilly: How Long Can Zepbound and Mounjaro Keep Juicing Revenue Results?",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-vs-eli-lilly-how-long-can-zepbound-and-mounjaro-keep-juicing-revenue",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Bristol Myers Squibb (BMY) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-bmy-sees-more-significant-dip-broader-market-some-facts-know",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "RTTNews: Bristol Myers Squibb Moves On Two Fronts: MS Cell Therapy Data And Tempus AI Expansion; Stock Down",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-moves-two-fronts-ms-cell-therapy-data-and-tempus-ai-expansion-stock",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "RTTNews: Bristol Myers Squibb Reports CAR T-Cell Therapy Data In Multiple Sclerosis",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-reports-car-t-cell-therapy-data-multiple-sclerosis",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential?",
+      "provider": null,
+      "url": "/articles/bmy-vs-abbv-which-pharma-biotech-stock-offers-more-upside-potential",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Better Dividend Stock to Buy and Hold: Pfizer or Bristol Myers Squibb?",
+      "provider": null,
+      "url": "/articles/better-dividend-stock-buy-and-hold-pfizer-or-bristol-myers-squibb",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: Amgen vs. Bristol Myers Squibb: Which Healthcare Stock Is a Better Buy in 2026?",
+      "provider": null,
+      "url": "/articles/amgen-vs-bristol-myers-squibb-which-healthcare-stock-better-buy-2026",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Prothena's Partnership Strategy: Growth Driver or Limitation?",
+      "provider": null,
+      "url": "/articles/prothenas-partnership-strategy-growth-driver-or-limitation",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: AbbVie vs. Bristol Myers Squibb: Faster Growth or Steady Revenue?",
+      "provider": null,
+      "url": "/articles/abbvie-vs-bristol-myers-squibb-faster-growth-or-steady-revenue",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "walnutinvest.com: Is BMY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/bmy/is-it-a-buy-or-sell",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "marketbeat.com: Zacks Research Brokers Increase Earnings Estimates for BMY",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/zacks-research-brokers-increase-earnings-estimates-for-bmy-2026-08-17/",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "marketwatch.com: BMY | Bristol Myers Squibb Co. Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/bmy/analystestimates",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Bristol-Myers Squibb: Patent Cliff Is Still A Problem (NYSE:BMY) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4952331-bristol-myers-squibb-patent-cliff-is-still-a-problem",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketbeat.com: Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-has-positive-opinion-of-bmy-fy2027-earnings-2026-10-23/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "openicon.com: Bristol-Myers Squibb (BMY) revenue up % y/y, Q3 2026 analyst conference call summary",
+      "provider": "openicon.com",
+      "url": "https://www.openicon.com/confsums/2026/bmy_10_29_2026.html",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "tipranks.com: Bristol-Myers Squibb (BMY) Price & Analysis",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/stocks/bmy",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "markets.businessinsider.com: Bristol Myers price target lowered to $66 from $71 at BofA",
+      "provider": "markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/bristol-myers-price-target-lowered-to-66-from-71-at-bofa-1036613219",
+      "date": null
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "bms.com: Bristol Myers Squibb Reports Second Quarter Financial Results for 2026 and Raises Full-Year Outlook Strong Performance Underscores Growth Portfolio Momentum and Pipeline Progress",
+      "provider": "bms.com",
+      "url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2026/ghBMY-Q2-2026-Earnings-Press-Release.pdf",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "biospace.com: BMO most bullish on Merck's, bearish on BMS\u2019 plans to contend with patent cliffs - BioSpace",
+      "provider": "biospace.com",
+      "url": "https://www.biospace.com/business/bmo-most-bullish-on-mercks-bearish-on-bms-plans-to-contend-with-patent-cliffs",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "ad-hoc-news.de: RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/rbc-expects-a-third-quarter-revenue-beat-for-bristol-myers-squibb-stock/70371416",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "finviz.com: Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives",
+      "provider": "finviz.com",
+      "url": "https://finviz.com/news/405598/bristol-myers-must-prove-its-guidance-raise-was-real-as-eliquis-tailwind-arrives",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: Bristol-Myers Squibb shares may move 5.3% on earnings report By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/bristolmyers-squibb-shares-may-move-53-on-earnings-report-93CH-4966633",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "morningstar.com: Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/market-may-be-too-pessimistic-about-this-4-star-dividend-stock",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "fiercepharma.com: In Q1 2026, BMS growth products pulled ahead, contributing $6.2B of $11.5B revenue.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "fiercepharma.com: In 2026, BMS's Camzyos faces new competition from Cytokinetics.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "fiercepharma.com: As of April 2026, BMS says it is well prepared for Camzyos competition.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "quartr.com: As of July 2026, full generics for REVLIMID and POMALYST are headwinds for BMS.",
+      "provider": "quartr.com",
+      "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "quartr.com: BMS expects continued momentum into 2026 from growth products like REVLIMID, Breyanzi, and CAMZYOS.",
+      "provider": "quartr.com",
+      "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "BMY listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BMY/options/",
+      "date": "2026-10-24"
+    }
+  ],
+  "quants": {
+    "price": 61.48,
+    "market_cap": "125.59B",
+    "fwd_pe": 9.4,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.6,
+    "eps_trend": "slightly down over the last 7 days",
+    "eps_revisions": "tilted lower, with 1 up and 8 down over last 30 days",
+    "extra": [
+      "Last quarter earnings before interest and tax increasing 26% quarter over quarter (6/30/2026)",
+      "Last quarter net income increasing 24% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 1.46 -> 2.04"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 12.9,
+        "yoy_pct": 5.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 23.9,
+        "yoy_pct": 153.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 23.1,
+        "yoy_pct": 99.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 19.8,
+        "yoy_pct": 55.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 19.6,
+        "yoy_pct": 6.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 14.6,
+        "yoy_pct": 3.9,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": -1.0,
+        "yoy_pct": -16.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Interest Income",
+        "qoq_pct": 1.0,
+        "yoy_pct": 16.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": -0.2,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 178.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 380.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 274.4,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 178.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 133.1,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 5,
+    "bar": {
+      "date": "2026-10-29",
+      "eps_avg": 1.25161,
+      "eps_low": 0.98,
+      "eps_high": 1.75,
+      "revenue_avg": 12729118640
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Mar-27",
+        "strike": 60.0,
+        "qty": 10,
+        "underlying": 61.48,
+        "multiplier": 100,
+        "price": 4.3,
+        "total": 4300.0,
+        "open_interest": 6427
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 60.0,
+        "qty": 4,
+        "underlying": 61.48,
+        "multiplier": 100,
+        "price": 1.57,
+        "total": -628.0,
+        "open_interest": 5392
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-28 report, with the long leg expiring 2027-03-19, which gives the deterioration time to show up.",
+    "reflection": "Twelve percent conservative credit clears the floor with room, and only four near-dated puts are sold against ten longs, so assignment risk is small. The risk is another guidance raise \u2014 July proved management will do it, and that gaps the stock up through the 60 strike."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 17,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 11,
+      "mismatches": [
+        "Reason 3: \"6.57\" is cited to S3, S4 but appears in S2"
+      ],
+      "superseded": [],
+      "ok": false,
+      "ratio": 0.909
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "mixed",
+        "contradicts",
+        "confirms"
+      ],
+      "confirmed": 1,
+      "contradicted": 1,
+      "mixed": 1,
+      "majority": "contradicts",
+      "agreement": 0.33
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "mixed",
+        "supportive": 2,
+        "adverse": 2,
+        "trends_available": 4,
+        "trends_used": [
+          "below",
+          "cobenfy",
+          "hurdles",
+          "neuroscience",
+          "uptake"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "generic",
+          "generics",
+          "legacy",
+          "pomalyst",
+          "product",
+          "products",
+          "revlimid"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 1,
+        "trends_available": 4,
+        "trends_used": [
+          "abecma",
+          "access",
+          "bispecific",
+          "breyanzi",
+          "diseases",
+          "uneven"
+        ]
+      }
+    ]
+  }
+}

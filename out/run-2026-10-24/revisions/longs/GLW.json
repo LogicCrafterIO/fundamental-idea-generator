@@ -1,0 +1,692 @@
+{
+  "ticker": "GLW",
+  "direction": "long",
+  "as_of": "2026-10-24",
+  "description": "Optical fiber, display glass and specialty materials maker; optical communications for AI data centers is now 44% of sales.",
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "session": "before the open",
+    "days_out": 3,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.88003,
+      "eps_low": 0.81,
+      "eps_high": 0.9,
+      "revenue_avg": 5031163250
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 0.75,
+        "eps_actual": 0.78,
+        "surprise_pct": 3.48,
+        "beat": true
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 0.69,
+        "eps_actual": 0.7,
+        "surprise_pct": 1.21,
+        "beat": true
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 0.71,
+        "eps_actual": 0.72,
+        "surprise_pct": 2.08,
+        "beat": true
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 0.66,
+        "eps_actual": 0.67,
+        "surprise_pct": 0.8,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-27 (Tuesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 0.88.",
+    "why": "The print must show AI data-center optical growth outrunning the carrier capex cuts, with Q4 guidance at the high end of the prior range."
+  },
+  "reasons": [
+    "The stock fell 11% in five days on AT&T's 2027-28 capex cut, a period that cannot appear in a September-quarter report.",
+    "Optical communications is 44% of sales and 73% of segment profit, so AI data-center fiber, not display glass, now sets the earnings direction.",
+    "Q2 revenue rose 16.6% year over year while operating income rose 21.8%, so incremental fiber volume is dropping through at better margins than the base business."
+  ],
+  "watch": [
+    "Optical segment sales: confirms if data-center fiber growth outruns carrier weakness; breaks if total revenue misses the 5.03B consensus.",
+    "Q4 guidance: confirms at the high end of the prior range as JPM expects; breaks if the December guide lands below consensus.",
+    "Gross margin: confirms if gross profit again grows faster than revenue (Q2 +17.0% vs +16.6%); breaks if margin slips year over year."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S25",
+        "kind": "ollama_search",
+        "ref": "web:5",
+        "label": "marketscreener.com: Corning Incorporated: Target Price Consensus and Analysts Recommendations | GLW | US2193501051 | MarketScreener",
+        "provider": "marketscreener.com",
+        "url": "https://www.marketscreener.com/quote/stock/CORNING-INCORPORATED-12788/consensus/",
+        "date": "2026-10-20"
+      },
+      {
+        "id": "S35",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "convergedigest.com: In Oct 2026, AT&T lowered its 2027\u20132028 capital investment outlook to $22\u201323 billion annually.",
+        "provider": "convergedigest.com",
+        "url": "https://convergedigest.com/att-lowers-capital-investment-outlook-fiber-q3-2026/",
+        "date": "2026-10-21"
+      }
+    ],
+    [
+      {
+        "id": "S24",
+        "kind": "ollama_search",
+        "ref": "web:4",
+        "label": "seekingalpha.com: Corning: The Right AI Builder, Just Not A Buy Yet (NYSE:GLW) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4955037-corning-stock-right-ai-builder-just-not-buy-yet",
+        "date": "2026-10-18"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "GLW quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/glw/financials",
+        "date": "6/30/2026"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for GLW",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GLW/key-statistics/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for GLW",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GLW/analysis/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "GLW quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/glw/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "GLW earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/glw/earnings",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: Can Corning (GLW) Climb 26.12% to Reach the Level Wall Street Analysts Expect?",
+      "provider": null,
+      "url": "/articles/can-corning-glw-climb-2612-reach-level-wall-street-analysts-expect",
+      "date": "Oct 13, 20"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "The Motley Fool: Corning vs. Honeywell International: Which Stock Is a Better Buy in 2026?",
+      "provider": null,
+      "url": "/articles/corning-vs-honeywell-international-which-stock-better-buy-2026",
+      "date": "Oct 15, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "BNK Invest: Noteworthy Thursday Option Activity: LULU, KEYS, GLW",
+      "provider": null,
+      "url": "/articles/noteworthy-thursday-option-activity-lulu-keys-glw",
+      "date": "Oct 15, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Unlocking Q3 Potential of Corning (GLW): Exploring Wall Street Estimates for Key Metrics",
+      "provider": null,
+      "url": "/articles/unlocking-q3-potential-corning-glw-exploring-wall-street-estimates-key-metrics",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Can Ciena Sustain Margin Gains Despite Rising Component Demand?",
+      "provider": null,
+      "url": "/articles/can-ciena-sustain-margin-gains-despite-rising-component-demand",
+      "date": "Oct 12, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Is AMETEK (AME) Outperforming Other Computer and Technology Stocks This Year?",
+      "provider": null,
+      "url": "/articles/ametek-ame-outperforming-other-computer-and-technology-stocks-year",
+      "date": "Oct 15, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: CIEN Wins Space Norway Cable Deal: Can Subsea Networking Drive Growth?",
+      "provider": null,
+      "url": "/articles/cien-wins-space-norway-cable-deal-can-subsea-networking-drive-growth",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Knowles (KN) Beats Q3 Earnings and Revenue Estimates",
+      "provider": null,
+      "url": "/articles/knowles-kn-beats-q3-earnings-and-revenue-estimates",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Ultra Clean to Report Q3 Earnings: Can Strong Revenues Drive Growth?",
+      "provider": null,
+      "url": "/articles/ultra-clean-report-q3-earnings-can-strong-revenues-drive-growth",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Nokia's Q3 Earnings Beat Estimates on AI & Cloud Strength",
+      "provider": null,
+      "url": "/articles/nokias-q3-earnings-beat-estimates-ai-cloud-strength",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is Corning Stock a Smart Investment Option Before Q3 Earnings Release?",
+      "provider": null,
+      "url": "/articles/corning-stock-smart-investment-option-q3-earnings-release",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Can Healthy Revenue Growth Boost T-Mobile's Q3 Earnings?",
+      "provider": null,
+      "url": "/articles/can-healthy-revenue-growth-boost-t-mobiles-q3-earnings",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: NXPI Gears Up to Report Q3 Earnings: What's in Store for the Stock?",
+      "provider": null,
+      "url": "/articles/nxpi-gears-report-q3-earnings-whats-store-stock",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: These 2 Computer and Technology Stocks Could Beat Earnings: Why They Should Be on Your Radar",
+      "provider": null,
+      "url": "/articles/these-2-computer-and-technology-stocks-could-beat-earnings-why-they-should-be-your-radar-2",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: Corning (GLW) Reports Next Week: Wall Street Expects Earnings Growth",
+      "provider": null,
+      "url": "/articles/corning-glw-reports-next-week-wall-street-expects-earnings-growth",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "tradingview.com: Is GLW Stock Attractive After Its AI Rally and Earnings Momentum? \u2014 TradingView News",
+      "provider": "tradingview.com",
+      "url": "https://www.tradingview.com/news/zacks:3134af438094b:0-is-glw-stock-attractive-after-its-ai-rally-and-earnings-momentum/",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "dyorhq.ai: DYOR HQ - Corning Inc (GLW) | 2026-10-04",
+      "provider": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/corninginc",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "wsj.com: GLW.XE | Corning Inc. Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/XE/GLW/research-ratings",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Corning: Not Worth The AI Risk (NYSE:GLW) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954972-corning-not-worth-the-ai-risk",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "seekingalpha.com: Corning: The Right AI Builder, Just Not A Buy Yet (NYSE:GLW) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4955037-corning-stock-right-ai-builder-just-not-buy-yet",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "marketscreener.com: Corning Incorporated: Target Price Consensus and Analysts Recommendations | GLW | US2193501051 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/CORNING-INCORPORATED-12788/consensus/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Corning (GLW) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/glw/forecast/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "seekingalpha.com: JPM sees Corning posting strong revenue on AI demand (GLW:NYSE) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4655422-jpm-sees-corning-posting-strong-revenue-on-ai-demand",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "morningstar.com: Corning\u2019s AI Fiber Boom is Real, but Its Stock Price May Be Getting Out of Hand | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/cornings-ai-fiber-boom-is-real-its-stock-price-may-be-getting-out-hand",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investor.corning.com: Corning Incorporated - Corning\u2019s Strong Second-Quarter 2026 Financial Results(1) Demonstrate Progress on Recently Upgraded Springboard Plan",
+      "provider": "investor.corning.com",
+      "url": "https://investor.corning.com/news-and-events/news/news-details/2026/Cornings-Strong-Second-Quarter-2026-Financial-Results1-Demonstrate-Progress-on-Recently-Upgraded-Springboard-Plan/default.aspx",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investing.com: Corning at Citi\u2019s 2026 Global TMT Conference: AI demand lifts outlook By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/corning-at-citis-2026-global-tmt-conference-ai-demand-lifts-outlook-93CH-4893656",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "investing.com: JPMorgan cuts Corning stock price target on valuation concerns By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-cuts-corning-stock-price-target-on-valuation-concerns-93CH-4962688",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S32",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "rcrtech.com: As of Aug 2026, AI traffic is triggering a new fiber investment cycle beyond data centers.",
+      "provider": "rcrtech.com",
+      "url": "https://rcrtech.com/rcrtech-trends/ai-traffic-fiber-investment/",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "rcrwireless.com: Verizon's $1 billion Google DCI deal is expected to ramp AI cloud and edge sales in 2027.",
+      "provider": "rcrwireless.com",
+      "url": "https://rcrwireless.com/20260727/carriers/verizon-google-dci-deal-2027-ai-cloud-edge",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "xxquant.com: US telecom and cable capex came in above expectations in 2Q26.",
+      "provider": "xxquant.com",
+      "url": "https://www.xxquant.com/en/institution/institutional-research/e7f36e50581e5687fe2c2d241c168c9a",
+      "date": null
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "convergedigest.com: In Oct 2026, AT&T lowered its 2027\u20132028 capital investment outlook to $22\u201323 billion annually.",
+      "provider": "convergedigest.com",
+      "url": "https://convergedigest.com/att-lowers-capital-investment-outlook-fiber-q3-2026/",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "xxquant.com: Charter's goal of below $8 billion capex in 2028 clouds the medium-term cable outlook.",
+      "provider": "xxquant.com",
+      "url": "https://www.xxquant.com/en/institution/institutional-research/e7f36e50581e5687fe2c2d241c168c9a",
+      "date": null
+    },
+    {
+      "id": "S37",
+      "kind": "options",
+      "ref": "options",
+      "label": "GLW listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/GLW/options/",
+      "date": "2026-10-24"
+    }
+  ],
+  "quants": {
+    "price": 123.69,
+    "market_cap": "106.55B",
+    "fwd_pe": 37.6,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 6.3,
+    "eps_trend": "slightly up over the last 7 days",
+    "eps_revisions": "all up, with 5 up and 0 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 51% quarter over quarter (6/30/2026)",
+      "Last quarter cash and cash equivalents increasing 43% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.6 -> 0.78"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 8.7,
+        "yoy_pct": 16.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 50.7,
+        "yoy_pct": 19.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 19.6,
+        "yoy_pct": 11.4,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 16.0,
+        "yoy_pct": 12.6,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 9.2,
+        "yoy_pct": 21.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 6.5,
+        "yoy_pct": 17.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 2.2,
+        "yoy_pct": 13.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": 33.3,
+        "yoy_pct": 140.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 19.1,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 215.4,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 215.4,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 109.1,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 100.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 49.9,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 3,
+    "bar": {
+      "date": "2026-10-27",
+      "eps_avg": 0.88003,
+      "eps_low": 0.81,
+      "eps_high": 0.9,
+      "revenue_avg": 5031163250
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Feb-27",
+        "strike": 130.0,
+        "qty": 3,
+        "underlying": 123.69,
+        "multiplier": 100,
+        "price": 13.85,
+        "total": 4155.0,
+        "open_interest": 144
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 130.0,
+        "qty": 1,
+        "underlying": 123.69,
+        "multiplier": 100,
+        "price": 6.07,
+        "total": -607.0,
+        "open_interest": 1574
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-26 report, with the long leg expiring 2027-02-19, which gives the thesis time to show up.",
+    "reflection": "The short November 130 only covers one of the three February calls, so two-thirds of the position is naked into a print three days out. The 12.1% credit is thin for that gap risk; selling a second November call would fatten it but caps the upside the thesis needs."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 3,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 10,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 5,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "capex"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "build",
+          "capex",
+          "carrier",
+          "committed",
+          "expectations",
+          "october",
+          "orders",
+          "target"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "capex",
+          "carrier",
+          "communications",
+          "corning",
+          "million",
+          "muted",
+          "outlook",
+          "short",
+          "supply",
+          "through"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "ticker": "BP",
+  "direction": "long",
+  "as_of": "2026-10-24",
+  "description": "Integrated oil and gas major: upstream production, refining and trading, and fuel retail including Castrol lubricants.",
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "session": "before the open",
+    "days_out": 6,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 2.617,
+      "eps_low": 1.5,
+      "eps_high": 3.09,
+      "revenue_avg": 64538252860
+    },
+    "recent_reports": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": 1.78,
+        "eps_actual": 2.22,
+        "surprise_pct": 24.64,
+        "beat": true
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 0.93,
+        "eps_actual": 1.24,
+        "surprise_pct": 33.25,
+        "beat": true
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 0.6,
+        "eps_actual": 0.6,
+        "surprise_pct": -0.5,
+        "beat": true
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 0.77,
+        "eps_actual": 0.85,
+        "surprise_pct": 9.88,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-30 (Friday, before the open), 6 days out -- from the earnings calendar, consensus EPS 2.62.",
+    "why": "Must show operating cash flow near Goldman's $12.5bn and net debt at target, proving next year's 8.94x multiple too pessimistic."
+  },
+  "reasons": [
+    "The 13 October trading statement pre-announced refining margins of $46.7/bbl and output of 2,190-2,240 mboe/d; Goldman lifted Q3 adjusted net income 18% to $7.49bn, and the $3-4.5bn impairment flagged is non-cash.",
+    "BP hit its net debt target ahead of schedule, and interest expense fell 4.4% to $1.18bn in the June quarter \u2014 a saving that survives even if refining margins halve.",
+    "Gas & low carbon is guided at 775-795 mboe/d into an LNG [liquefied natural gas] wave the IEA [International Energy Agency] expects to grow demand in 2026 \u2014 the unit taking the write-down still adds volume."
+  ],
+  "watch": [
+    "Operating cash flow: near Goldman's $12.5bn confirms the cash case; well below breaks it, since reported earnings carry the impairment.",
+    "Impairments: $3-4.5bn non-cash confirms; anything larger, or cash, breaks the book-entry reading.",
+    "Net debt: at or under target confirms deleveraging; an increase breaks the interest-savings reason.",
+    "Upstream output: inside 2,190-2,240 mboe/d confirms; a cut to fourth-quarter guidance breaks the volume case."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S22",
+        "kind": "ollama_search",
+        "ref": "web:1",
+        "label": "investegate.co.uk: 3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate",
+        "provider": "investegate.co.uk",
+        "url": "https://www.investegate.co.uk/announcement/rns/bp--bp./3q26-bp-trading-statement-part-1-of-1/9819131",
+        "date": "2026-10-13"
+      },
+      {
+        "id": "S23",
+        "kind": "ollama_search",
+        "ref": "web:2",
+        "label": "finance.yahoo.com: BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?",
+        "provider": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/energy/articles/bp-lse-bp-8-8-232255930.html",
+        "date": "2026-10-13"
+      },
+      {
+        "id": "S24",
+        "kind": "ollama_search",
+        "ref": "web:3",
+        "label": "mastermind-x.com: BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault",
+        "provider": "mastermind-x.com",
+        "url": "https://www.mastermind-x.com/research/bp-plc-bp-l-upgrading-our-estimates-following-the-company-s-3q26-stron-c407e7.html",
+        "date": "2026-10-13"
+      },
+      {
+        "id": "S31",
+        "kind": "ollama_search",
+        "ref": "web:10",
+        "label": "live.euronext.com: BP sees refining margin triple, debt target reached, but flags more impairments | live",
+        "provider": "live.euronext.com",
+        "url": "https://live.euronext.com/en/financial-news/bp-sees-refining-margin-triple-debt-target-reached-flags-more-impairments",
+        "date": "2026-10-13"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "BP quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/bp/financials",
+        "date": null
+      },
+      {
+        "id": "S25",
+        "kind": "ollama_search",
+        "ref": "web:4",
+        "label": "seekingalpha.com: BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4954368-bp-way-ahead-of-schedule",
+        "date": "2026-10-15"
+      },
+      {
+        "id": "S31",
+        "kind": "ollama_search",
+        "ref": "web:10",
+        "label": "live.euronext.com: BP sees refining margin triple, debt target reached, but flags more impairments | live",
+        "provider": "live.euronext.com",
+        "url": "https://live.euronext.com/en/financial-news/bp-sees-refining-margin-triple-debt-target-reached-flags-more-impairments",
+        "date": "2026-10-13"
+      }
+    ],
+    [
+      {
+        "id": "S22",
+        "kind": "ollama_search",
+        "ref": "web:1",
+        "label": "investegate.co.uk: 3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate",
+        "provider": "investegate.co.uk",
+        "url": "https://www.investegate.co.uk/announcement/rns/bp--bp./3q26-bp-trading-statement-part-1-of-1/9819131",
+        "date": "2026-10-13"
+      },
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "iea.org: In 2026, natural gas is poised for continued growth as a new wave of LNG projects advances.",
+        "provider": "iea.org",
+        "url": "https://www.iea.org/reports/world-energy-investment-2026/sector-highlights?sector=Supply",
+        "date": null
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for BP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BP/key-statistics/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for BP",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BP/analysis/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "BP quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bp/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "BP balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bp/financials",
+      "date": "2025-12-31"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "BP earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bp/earnings",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: BP (BP) Stock Declines While Market Improves: Some Information for Investors",
+      "provider": null,
+      "url": "/articles/bp-bp-stock-declines-while-market-improves-some-information-investors",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Are You Looking for a Top Momentum Pick? Why BP (BP) is a Great Choice",
+      "provider": null,
+      "url": "/articles/are-you-looking-top-momentum-pick-why-bp-bp-great-choice",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Should Value Investors Buy BP (BP) Stock?",
+      "provider": null,
+      "url": "/articles/should-value-investors-buy-bp-bp-stock-0",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Investors Heavily Search BP p.l.c. (BP): Here is What You Need to Know",
+      "provider": null,
+      "url": "/articles/investors-heavily-search-bp-plc-bp-here-what-you-need-know",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: XOM vs. BP: Which Integrated Energy Giant Has the Edge?",
+      "provider": null,
+      "url": "/articles/xom-vs-bp-which-integrated-energy-giant-has-edge",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: TechnipFMC Signs MoU With BP to Support Deepwater Oil Projects",
+      "provider": null,
+      "url": "/articles/technipfmc-signs-mou-bp-support-deepwater-oil-projects",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Do Options Traders Know Something About BP Stock We Don't?",
+      "provider": null,
+      "url": "/articles/do-options-traders-know-something-about-bp-stock-we-dont",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: This Top Oils and Energy Stock is a #1 (Strong Buy): Why It Should Be on Your Radar",
+      "provider": null,
+      "url": "/articles/top-oils-and-energy-stock-1-strong-buy-why-it-should-be-your-radar-7",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: Shell's Latest LNG Move Has Me Rethinking My Oil Major Pecking Order. Here's Where I'd Rank Exxon and Chevron Now.",
+      "provider": null,
+      "url": "/articles/shells-latest-lng-move-has-me-rethinking-my-oil-major-pecking-order-heres-where-id-rank",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: HAL Q3 Earnings Beat on Drilling Strength, Revenues Rise Y/Y",
+      "provider": null,
+      "url": "/articles/hal-q3-earnings-beat-drilling-strength-revenues-rise-y-y",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Eni SpA Q3 Earnings Ahead: What's in Store for the Stock?",
+      "provider": null,
+      "url": "/articles/eni-spa-q3-earnings-ahead-whats-store-stock",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: Best Growth Stocks to Buy for October 21st",
+      "provider": null,
+      "url": "/articles/best-growth-stocks-buy-october-21st",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: EQT Gears Up to Report Q3 Earnings: What's in Store for the Stock?",
+      "provider": null,
+      "url": "/articles/eqt-gears-report-q3-earnings-whats-store-stock",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Oil Stocks: Values or Traps?",
+      "provider": null,
+      "url": "/articles/oil-stocks-values-or-traps",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: Can Baker Hughes Keep Its Winning Streak Alive in Q3 Earnings?",
+      "provider": null,
+      "url": "/articles/can-baker-hughes-keep-its-winning-streak-alive-q3-earnings",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "kalkinemedia.com: BP (LSE:BP.) prospects rest on measurable operating progress",
+      "provider": "kalkinemedia.com",
+      "url": "https://kalkinemedia.com/uk/stocks/oil-gas/bp-lsebp-prospects-rest-on-measurable-operating-progress",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "investegate.co.uk: 3Q26 bp Trading Statement Part 1 of 1 | Company Announcement | Investegate",
+      "provider": "investegate.co.uk",
+      "url": "https://www.investegate.co.uk/announcement/rns/bp--bp./3q26-bp-trading-statement-part-1-of-1/9819131",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "finance.yahoo.com: BP (LSE:BP.) Is Up 8.8% After Strong Q3 Margins And Faster Deleveraging Guidance - Has The Bull Case Changed?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/bp-lse-bp-8-8-232255930.html",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "mastermind-x.com: BP Plc (BP.L) Upgrading our estimates following the company's 3Q26 strong trading update \u2014 Goldman Sachs \u00b7 Oct 13, 2026 | MastermindX Research Vault",
+      "provider": "mastermind-x.com",
+      "url": "https://www.mastermind-x.com/research/bp-plc-bp-l-upgrading-our-estimates-following-the-company-s-3q26-stron-c407e7.html",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "seekingalpha.com: BP p.l.c.: Way Ahead Of Schedule (NYSE:BP) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954368-bp-way-ahead-of-schedule",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "finance.yahoo.com: Updated Output Guidance Change The Bull Case For BP Stock (LSE:BP.)?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/updated-output-guidance-change-bull-232036310.html",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "gngresearch.com: BP PLC ADR (BP): Valuation, Margins, ROIC & Analyst Targets",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/BP/",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "walnutinvest.com: Is BP a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/bp/is-it-a-buy-or-sell",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "ii.co.uk: A big upgrade for BP earnings and price target",
+      "provider": "ii.co.uk",
+      "url": "https://www.ii.co.uk/analysis-commentary/big-upgrade-bp-earnings-and-price-target-ii540644",
+      "date": null
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investing.com: Mizuho raises BP stock price target to $56 on margin strength By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/mizuho-raises-bp-stock-price-target-to-56-on-margin-strength-93CH-4931454",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "live.euronext.com: BP sees refining margin triple, debt target reached, but flags more impairments | live",
+      "provider": "live.euronext.com",
+      "url": "https://live.euronext.com/en/financial-news/bp-sees-refining-margin-triple-debt-target-reached-flags-more-impairments",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "investing.com: TD Cowen raises BP stock price target to $49 on stronger earnings By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/td-cowen-raises-bp-stock-price-target-to-49-on-stronger-earnings-93CH-4960448",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "sec.gov: a6390y",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/a6390y.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "iea.org: In 2026, natural gas is poised for continued growth as a new wave of LNG projects advances.",
+      "provider": "iea.org",
+      "url": "https://www.iea.org/reports/world-energy-investment-2026/sector-highlights?sector=Supply",
+      "date": null
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "bpama.com: In 2025, ICE vehicles still accounted for 92.3% of sales, keeping fuel demand mostly intact.",
+      "provider": "bpama.com",
+      "url": "https://www.bpama.com/docs/BPAMA-John_Eichberger-March_2026.pdf",
+      "date": null
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "blogs.infosys.com: In 2026, electrification and cost inflation are reshaping traditional fuel-retail economics.",
+      "provider": "blogs.infosys.com",
+      "url": "https://blogs.infosys.com/infosys-consulting/wp-content/uploads/2026/05/IC260427-02_The-Strategic-Opportunity-Ahead-for-Global-Fuel-Brands_WEB.pdf",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "blogs.infosys.com: In 2026, new fuel-retail growth pools are emerging in convenience, payments, and services.",
+      "provider": "blogs.infosys.com",
+      "url": "https://blogs.infosys.com/infosys-consulting/wp-content/uploads/2026/05/IC260427-02_The-Strategic-Opportunity-Ahead-for-Global-Fuel-Brands_WEB.pdf",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "marketing.skynrg.com: In 2026, EU and UK SAF mandates are in force, providing long-term demand certainty.",
+      "provider": "marketing.skynrg.com",
+      "url": "https://marketing.skynrg.com/hubfs/SAF%20Market%20Outlook%20-%202026.pdf",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "BP listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BP/options/",
+      "date": "2026-10-24"
+    }
+  ],
+  "quants": {
+    "price": 51.32,
+    "market_cap": "132.18B",
+    "fwd_pe": 6.3,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 0.6,
+    "eps_trend": "sharply up over the last 7 days",
+    "eps_revisions": "all up, with 9 up and 0 down over last 30 days",
+    "extra": [
+      "EPS increased year over year, 0.9 -> 2.22"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": 32.2,
+        "yoy_pct": 48.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": 1.8,
+        "yoy_pct": 140.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "qoq_pct": 0.1,
+        "yoy_pct": 136.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": 5.3,
+        "yoy_pct": 118.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": 5.6,
+        "yoy_pct": 54.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": 13.5,
+        "yoy_pct": 117.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 12.6,
+        "yoy_pct": 66.5,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 0.0,
+        "yoy_pct": -4.4,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 0.1,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": -85.6,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": -88.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": -86.2,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Income",
+        "change_pct": -42.0,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 16.1,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [
+      {
+        "label": "Other Intangible Assets",
+        "basis": "fiscal year",
+        "period": "2025-12-31",
+        "prior_period": "2024-12-31",
+        "current": 8197000000.0,
+        "prior": 5208000000.0,
+        "change_pct": 57.4,
+        "confirmed": false,
+        "also": []
+      }
+    ],
+    "catalyst_days": 6,
+    "bar": {
+      "date": "2026-10-30",
+      "eps_avg": 2.617,
+      "eps_low": 1.5,
+      "eps_high": 3.09,
+      "revenue_avg": 64538252860
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Mar-27",
+        "strike": 55.0,
+        "qty": 17,
+        "underlying": 51.32,
+        "multiplier": 100,
+        "price": 2.51,
+        "total": 4266.999999999999,
+        "open_interest": 1687
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 55.0,
+        "qty": 9,
+        "underlying": 51.32,
+        "multiplier": 100,
+        "price": 0.58,
+        "total": -522.0,
+        "open_interest": 3510
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-29 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
+    "reflection": "The 11.2% conservative credit clears the 10% floor but only just, and the $3,745 net debit means this is paid for, not free. The short 55 call dies 20 November, three weeks after the print, so the trade lives or dies on the Q3 cash line re-rating the stock inside a month."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 75,
+        "errors": 0,
+        "warnings": 6,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 15,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 10,
+      "mismatches": [
+        "Reason 2: \"1.18\" is cited to S3, S25, S31 but appears in S5"
+      ],
+      "superseded": [],
+      "ok": false,
+      "ratio": 0.9
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "natural"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 75,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "report",
+          "volumes"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "above",
+          "barrel",
+          "capacity",
+          "diesel",
+          "forecast",
+          "middle",
+          "prices",
+          "product",
+          "refinery",
+          "russia",
+          "strikes"
+        ]
+      }
+    ]
+  }
+}

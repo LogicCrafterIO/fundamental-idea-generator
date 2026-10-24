@@ -1,0 +1,763 @@
+{
+  "ticker": "VZ",
+  "direction": "short",
+  "as_of": "2026-10-24",
+  "description": "US wireless carrier and home broadband provider, now including Frontier's fiber network.",
+  "catalyst": {
+    "date": "2026-10-26",
+    "weekday": "Monday",
+    "session": "before the open",
+    "days_out": 2,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 1.27431,
+      "eps_low": 1.23,
+      "eps_high": 1.31,
+      "revenue_avg": 34852637740
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-24",
+        "eps_estimate": 1.27,
+        "eps_actual": 1.3,
+        "surprise_pct": 2.71,
+        "beat": true
+      },
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 1.21,
+        "eps_actual": 1.28,
+        "surprise_pct": 5.81,
+        "beat": true
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 1.06,
+        "eps_actual": 1.09,
+        "surprise_pct": 3.28,
+        "beat": true
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 1.19,
+        "eps_actual": 1.21,
+        "surprise_pct": 1.53,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-26 (Monday, before the open), 2 days out -- from the earnings calendar, consensus EPS 1.27.",
+    "why": "Must show service revenue growth excluding Frontier and fixed wireless adds holding; acquired revenue masking a shrinking base is what breaks the stock."
+  },
+  "reasons": [
+    "Frontier's $20B fiber deal closed in the March 2026 quarter, so the 34.85B revenue consensus sits only 1.0% above last year's 34.5B because bought fiber is covering a shrinking base.",
+    "Interest expense rose 21.1% to 1.99B year over year while EBIT [earnings before interest and tax] fell 12.0% to 7.26B, so debt service is eating the earnings the 1.27 consensus needs.",
+    "Fixed wireless growth is slowing and price competition is biting as of October 2026, so the subscriber engine that offsets wireline decline is running down before this print."
+  ],
+  "watch": [
+    "Service revenue excluding Frontier: confirms if reported growth is all acquired; breaks if organic service revenue grows.",
+    "Fixed wireless net additions: confirms if below the year-earlier pace; breaks if they reaccelerate.",
+    "Interest expense: confirms above 1.99B; breaks if it falls.",
+    "Full-year guidance: confirms if cut or narrowed low; breaks if raised."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S22",
+        "kind": "ollama_search",
+        "ref": "web:1",
+        "label": "deepresearchglobal.com: Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)",
+        "provider": "deepresearchglobal.com",
+        "url": "https://www.deepresearchglobal.com/p/verizon-vz-fundamental-analysis-report",
+        "date": "2026-06-26"
+      },
+      {
+        "id": "S28",
+        "kind": "ollama_search",
+        "ref": "web:7",
+        "label": "news.alphastreet.com: Verizon Communications (VZ) Q3 2026 Preview: EPS Est. $1.27, Reports October 26 - Alphastreet",
+        "provider": "news.alphastreet.com",
+        "url": "https://news.alphastreet.com/verizon-communications-vz-q3-2026-preview-eps-est-1-27-reports-october-26/amp/",
+        "date": "2026-10-26"
+      },
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "VZ quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/vz/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S4",
+        "kind": "statements",
+        "ref": "deal",
+        "label": "VZ balance sheet: acquisition footprint",
+        "provider": "Yahoo Finance (via yfinance) statements",
+        "url": "https://www.nasdaq.com/market-activity/stocks/vz/financials",
+        "date": "2026-03-31"
+      }
+    ],
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "VZ quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/vz/financials",
+        "date": "6/30/2026"
+      },
+      {
+        "id": "S30",
+        "kind": "ollama_search",
+        "ref": "web:9",
+        "label": "verizon.com: Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites",
+        "provider": "verizon.com",
+        "url": "https://www.verizon.com/about/news/verizon-delivers-record-2q26-results",
+        "date": "2026-07-24"
+      }
+    ],
+    [
+      {
+        "id": "S36",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "insights.opensignal.com: As of October 2026, US fixed wireless access growth is slowing as easy subscriber opportunities become scarcer.",
+        "provider": "insights.opensignal.com",
+        "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+        "date": "2026-10-01"
+      },
+      {
+        "id": "S37",
+        "kind": "research",
+        "ref": "trend:1",
+        "label": "insights.opensignal.com: As of October 2026, competitive pricing pressures are weighing on FWA growth and customer satisfaction.",
+        "provider": "insights.opensignal.com",
+        "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+        "date": "2026-10-01"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for VZ",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VZ/key-statistics/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for VZ",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VZ/analysis/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "VZ quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vz/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "VZ balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vz/financials",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "VZ earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vz/earnings",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: IWX, DIS, VZ, MCD: ETF Outflow Alert",
+      "provider": null,
+      "url": "/articles/iwx-dis-vz-mcd-etf-outflow-alert",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Verizon Communications (VZ) Stock Sinks As Market Gains: Here's Why",
+      "provider": null,
+      "url": "/articles/verizon-communications-vz-stock-sinks-market-gains-heres-why",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Countdown to Verizon (VZ) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+      "provider": null,
+      "url": "/articles/countdown-verizon-vz-q3-earnings-look-estimates-beyond-revenue-and-eps",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "The Motley Fool: Is Elon Musk Coming for Verizon?",
+      "provider": null,
+      "url": "/articles/elon-musk-coming-verizon",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "MarketBeat: AST SpaceMobile Is Down 67%\u2014Could SpaceX's Mobile Push Deepen the Selloff?",
+      "provider": null,
+      "url": "/articles/ast-spacemobile-down-67-could-spacexs-mobile-push-deepen-selloff",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: SpaceX Is Changing: Here's What You Need to Know",
+      "provider": null,
+      "url": "/articles/spacex-changing-heres-what-you-need-know",
+      "date": "Oct 17, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "MarketBeat: SpaceX's Spectrum Deal Hits Telecom Stocks but Gives Tower REITs a New Opportunity",
+      "provider": null,
+      "url": "/articles/spacexs-spectrum-deal-hits-telecom-stocks-gives-tower-reits-new-opportunity",
+      "date": "Oct 18, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Is It Wise to Retain Crown Castle Stock in Your Portfolio Right Now?",
+      "provider": null,
+      "url": "/articles/it-wise-retain-crown-castle-stock-your-portfolio-right-now",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence.",
+      "provider": null,
+      "url": "/articles/ast-spacemobile-hit-52-week-low-days-after-spacex-spent-8-billion-spectrum-thats-not",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Is Verizon Stock Worth Buying Ahead of Q3 Earnings Release?",
+      "provider": null,
+      "url": "/articles/verizon-stock-worth-buying-ahead-q3-earnings-release",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is AT&T Worth Buying as Fiber Growth Offsets Rising Leverage Risks?",
+      "provider": null,
+      "url": "/articles/att-worth-buying-fiber-growth-offsets-rising-leverage-risks",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: AT&T Stock Falls 13.4% in a Month. Is the Drop a Buying Opportunity?",
+      "provider": null,
+      "url": "/articles/att-stock-falls-134-month-drop-buying-opportunity",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: SpaceX Just Made Cell Towers Cool Again. Verizon, AT&T, and T-Mobile Are Paying the Price",
+      "provider": null,
+      "url": "/articles/spacex-just-made-cell-towers-cool-again-verizon-att-and-t-mobile-are-paying-price",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Verizon Communications (VZ) Reports Next Week: Wall Street Expects Earnings Growth",
+      "provider": null,
+      "url": "/articles/verizon-communications-vz-reports-next-week-wall-street-expects-earnings-growth",
+      "date": "Oct 19, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: ETFs to Capitalize on SpaceX's Wireless Carrier Ambitions",
+      "provider": null,
+      "url": "/articles/etfs-capitalize-spacexs-wireless-carrier-ambitions",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "finviz.com: Does VZ's Solid Q4 Earnings Performance Warrant a Portfolio Re-Look?",
+      "provider": "finviz.com",
+      "url": "https://finviz.com/news/297875/does-vzs-solid-q4-earnings-performance-warrant-a-portfolio-re-look",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "deepresearchglobal.com: Verizon (VZ) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/verizon-vz-fundamental-analysis-report",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "seekingalpha.com: Verizon: Starlink Mobile Threat Gets Real (NYSE:VZ) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4953330-verizon-starlink-mobile-threat-gets-real",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Verizon Q3 Preview: Expecting Continued Momentum In Postpaid, Shares Attractive (NYSE:VZ) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4955437-verizon-q3-preview-expecting-continued-momentum-in-postpaid-shares-attractive",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "seekingalpha.com: AT&T, Verizon face Q3 earnings test as analysts highlight growth potential (VZ:NYSE) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4654220-att-verizon-face-q3-earnings-test-as-analysts-highlight-growth-potential",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "marketbeat.com: Erste Group Bank Has Bearish Outlook for VZ FY2027 Earnings",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-has-bearish-outlook-for-vz-fy2027-earnings-2026-10-23/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Verizon Communications (VZ) Stock Forecast & Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/vz/forecast/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "news.alphastreet.com: Verizon Communications (VZ) Q3 2026 Preview: EPS Est. $1.27, Reports October 26 - Alphastreet",
+      "provider": "news.alphastreet.com",
+      "url": "https://news.alphastreet.com/verizon-communications-vz-q3-2026-preview-eps-est-1-27-reports-october-26/amp/",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "holdingschannel.com: Verizon Risk Factors: What Verizon's 10-K Reveals About Competition, Debt, and Network Spending",
+      "provider": "holdingschannel.com",
+      "url": "https://www.holdingschannel.com/article/202605/verizon-risk-factors-what-verizon-s-10-k-reveals-about-competition-debt-and-VZ05282026risks.htm/",
+      "date": null
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "verizon.com: Verizon Delivers Record 2Q26 Results as Strategic Transformation Ignites",
+      "provider": "verizon.com",
+      "url": "https://www.verizon.com/about/news/verizon-delivers-record-2q26-results",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "benzinga.com: These Analysts Raise Their Forecasts On Verizon Following Better-Than-Expected Q2 Earnings",
+      "provider": "benzinga.com",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60700379/these-analysts-raise-their-forecasts-on-verizon-following-better-than-expected-q2-earnings",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "stockwatch.report: Verizon Communications: Telecom Cash Flow and 5G Fixed",
+      "provider": "stockwatch.report",
+      "url": "https://stockwatch.report/en/coverage/VZ",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "morningstar.com: Verizon Stock Is Up 10% This Year. Is It Still a Buy Ahead of Earnings? | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/verizon-stock-is-up-10-this-year-is-it-still-buy-ahead-earnings",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "S34",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "investing.com: Verizon faces earnings test as SpaceX threat looms By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/earnings/verizon-faces-earnings-test-as-spacex-threat-looms-93CH-4969755",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S35",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "verizon.com: Verizon Q3 2026 earnings report date | About Verizon",
+      "provider": "verizon.com",
+      "url": "https://www.verizon.com/about/news/verizon-q3-2026-earnings-report-date",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "insights.opensignal.com: As of October 2026, US fixed wireless access growth is slowing as easy subscriber opportunities become scarcer.",
+      "provider": "insights.opensignal.com",
+      "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "insights.opensignal.com: As of October 2026, competitive pricing pressures are weighing on FWA growth and customer satisfaction.",
+      "provider": "insights.opensignal.com",
+      "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "sdxcentral.com: As of July 2026, Verizon says satellite broadband is having no impact on its broadband penetration or capabilities.",
+      "provider": "sdxcentral.com",
+      "url": "https://www.sdxcentral.com/news/verizon-ceo-plies-physics-to-baffle-satellite-broadband-declares-no-mvno-backdoor/",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "S39",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "reconanalytics.com: As of June 2026, 14.8 million US households have a phone but no home internet, based on 2024 survey data.",
+      "provider": "reconanalytics.com",
+      "url": "https://www.reconanalytics.com/half-connected-america/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "S40",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "iq.govwin.com: Federal contractor IT spending is forecast to grow from $144.5B in FY2026 to $164.6B in FY2029.",
+      "provider": "iq.govwin.com",
+      "url": "https://iq.govwin.com/neo/marketAnalysis/view/Federal-Information-Technology-Market--2026-2029/70997?researchTypeId=2",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "S41",
+      "kind": "options",
+      "ref": "options",
+      "label": "VZ listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/VZ/options/",
+      "date": "2026-10-24"
+    }
+  ],
+  "quants": {
+    "price": 44.66,
+    "market_cap": "185.55B",
+    "fwd_pe": 8.9,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 1.3,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted lower, with 4 up and 8 down over last 30 days",
+    "extra": [
+      "Interest Income -51% quarter over quarter but +31% year over year (2026-06-30)",
+      "Last quarter cash and cash equivalents decreasing 79% quarter over quarter (6/30/2026)",
+      "Last quarter net income decreasing 24% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 1.22 -> 1.3"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": -0.5,
+        "yoy_pct": -0.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": -24.0,
+        "yoy_pct": -23.3,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBIT",
+        "qoq_pct": -16.8,
+        "yoy_pct": -12.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "EBITDA",
+        "qoq_pct": -9.9,
+        "yoy_pct": -4.8,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Operating Income",
+        "qoq_pct": -12.9,
+        "yoy_pct": -12.2,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Gross Profit",
+        "qoq_pct": 1.9,
+        "yoy_pct": 2.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Expense",
+        "qoq_pct": 2.3,
+        "yoy_pct": 21.1,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": -51.0,
+        "yoy_pct": 30.9,
+        "conflict": true,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 2.5,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": -1.9,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [
+      {
+        "label": "Goodwill",
+        "basis": "quarter",
+        "period": "2026-03-31",
+        "prior_period": "2025-12-31",
+        "current": 30628000000.0,
+        "prior": 22841000000.0,
+        "change_pct": 34.1,
+        "confirmed": true,
+        "also": []
+      }
+    ],
+    "catalyst_days": 2,
+    "bar": {
+      "date": "2026-10-26",
+      "eps_avg": 1.27431,
+      "eps_low": 1.23,
+      "eps_high": 1.31,
+      "revenue_avg": 34852637740
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "PUT",
+        "expiry": "19-Mar-27",
+        "strike": 43.0,
+        "qty": 19,
+        "underlying": 44.66,
+        "multiplier": 100,
+        "price": 2.28,
+        "total": 4331.999999999999,
+        "open_interest": 235
+      },
+      {
+        "side": "Short",
+        "type": "PUT",
+        "expiry": "20-Nov-26",
+        "strike": 43.0,
+        "qty": 7,
+        "underlying": 44.66,
+        "multiplier": 100,
+        "price": 0.84,
+        "total": -588.0,
+        "open_interest": 13875
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-25 report, with the long leg expiring 2027-03-19, which gives the deterioration time to show up.",
+    "reflection": "At 7.6% the credit is under the floor, so sell three more of the November 43 puts to get paid for the wait. The risk is a stock that has beaten four straight quarters popping through 43 before the short leg decays."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 4,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 10,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 8,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "contradicts",
+        "contradicts"
+      ],
+      "confirmed": 1,
+      "contradicted": 2,
+      "mixed": 0,
+      "majority": "contradicts",
+      "agreement": 0.67
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 1,
+        "trends_available": 4,
+        "trends_used": [
+          "cable",
+          "fixed",
+          "offset",
+          "overbuilders",
+          "respond",
+          "slowing",
+          "subscriber"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "contradicts",
+        "supportive": 1,
+        "adverse": 2,
+        "trends_available": 3,
+        "trends_used": [
+          "donor",
+          "lines",
+          "phone",
+          "postpaid",
+          "share",
+          "verizon"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 90,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "competition",
+          "fixed",
+          "october",
+          "slowing",
+          "subscriber"
+        ]
+      }
+    ]
+  }
+}

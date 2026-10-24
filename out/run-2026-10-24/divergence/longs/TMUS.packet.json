@@ -1,0 +1,2155 @@
+{
+  "symbol": "TMUS",
+  "as_of": "2026-10-24",
+  "generated_at": "2026-10-24T14:00:51",
+  "profile": {
+    "symbol": "TMUS",
+    "name": "T-Mobile US, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "summary": "T-Mobile US, Inc., together with its subsidiaries, provides wireless communications services in the United States, Puerto Rico, and the United States Virgin Islands. The company offers voice, messaging, and data services to postpaid, prepaid, and wholesale and other services customers. It also provides wireless devices, including smartphones, wearables, tablets, home broadband gateways, headsets, and other mobile communication devices, as well as accessories; financing through equipment installment plans; reinsurance for device insurance policies and extended warranty contracts. The company offers services under the T-Mobile, Metro by T-Mobile, and Mint Mobile brands through its owned and operated retail stores, customer care channels, national retailers, and its websites, as well as through T-Mobile, Metro by T-Mobile, and Mint Mobile apps. It also sells devices to dealers and other third-party distributors for resale through independent third-party retail outlets and various third-party websites. It has 700 MHz wireless spectrum licenses. The company was founded in 1994 and is headquartered in Bellevue, Washington. T-Mobile US, Inc. operates as a subsidiary of Deutsche Telekom AG.",
+    "employees": 75000,
+    "country": "United States",
+    "website": "https://www.t-mobile.com"
+  },
+  "quants": {
+    "symbol": "TMUS",
+    "name": "T-Mobile US, Inc.",
+    "price": 146.54,
+    "market_cap": 157189292032,
+    "market_cap_human": "157.19B",
+    "fwd_pe": 13.38,
+    "fwd_pe_1y": 10.52,
+    "fwd_pe_yahoo": 10.159273,
+    "trailing_pe": 15.312434,
+    "ps": 1.7050765,
+    "ev_ebitda": 7.995,
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "eps_fy_current": 10.95349,
+    "eps_fy_next": 13.93299,
+    "eps_trend": {
+      "change_7d_pct": 0.08,
+      "change_30d_pct": 0.07,
+      "current": 10.95349,
+      "7d_ago": 10.94449,
+      "30d_ago": 10.94575,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 0,
+      "up_30d": 4,
+      "down_30d": 1,
+      "net_30d": 3,
+      "text": "tilted higher, with 4 up and 1 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-29"
+      ],
+      "next_date": "2026-10-29",
+      "eps_avg": 2.98,
+      "eps_low": 2.66,
+      "eps_high": 3.3,
+      "revenue_avg": 23137877350
+    },
+    "as_of": "2026-10-24"
+  },
+  "quants_lines": [
+    "Price: 146.54 USD",
+    "Market Cap: 157.19B",
+    "Fwd PE: 13.38",
+    "P/S: 1.7",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted higher, with 4 up and 1 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 3239000.0,
+      "prior": 2504000.0,
+      "change_pct": 29.4,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 5383000.0,
+      "prior": 4365000.0,
+      "change_pct": 23.3,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2825000.0,
+      "prior": 3520000.0,
+      "change_pct": -19.7,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Other Operating Items",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 3434000.0,
+      "prior": 3817000.0,
+      "change_pct": -10.0,
+      "direction": "decreasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-23T06:00:00-04:00",
+    "current": 2.99,
+    "year_ago": 2.85,
+    "year_ago_period": "2025-07-23T16:00:00-04:00",
+    "change": 0.14,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 22791000000.0,
+      "prior": 23107000000.0,
+      "qoq_pct": -1.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 21132000000.0,
+      "yoy_pct": 7.9,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3239000000.0,
+      "prior": 2504000000.0,
+      "qoq_pct": 29.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3222000000.0,
+      "yoy_pct": 0.5,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 5383000000.0,
+      "prior": 4365000000.0,
+      "qoq_pct": 23.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 5202000000.0,
+      "yoy_pct": 3.5,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 8817000000.0,
+      "prior": 8182000000.0,
+      "qoq_pct": 7.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 8348000000.0,
+      "yoy_pct": 5.6,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 5490000000.0,
+      "prior": 4497000000.0,
+      "qoq_pct": 22.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 5213000000.0,
+      "yoy_pct": 5.3,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 14758000000.0,
+      "prior": 14280000000.0,
+      "qoq_pct": 3.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 13756000000.0,
+      "yoy_pct": 7.3,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1055000000.0,
+      "prior": 1031000000.0,
+      "qoq_pct": 2.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 922000000.0,
+      "yoy_pct": 14.4,
+      "conflict": false
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": -1055000000.0,
+      "prior": -1031000000.0,
+      "qoq_pct": -2.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": -922000000.0,
+      "yoy_pct": -14.4,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 88309000000.0,
+      "prior": 81400000000.0,
+      "change_pct": 8.5,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 10992000000.0,
+      "prior": 11339000000.0,
+      "change_pct": -3.1,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Selling General And Administration",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 23470000000.0,
+      "prior": 20818000000.0,
+      "change_pct": 12.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 3774000000.0,
+      "prior": 3411000000.0,
+      "change_pct": 10.6,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": -3774000000.0,
+      "prior": -3411000000.0,
+      "change_pct": -10.6,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 55535000000.0,
+      "prior": 51747000000.0,
+      "change_pct": 7.3,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-29",
+    "eps_avg": 2.98,
+    "eps_low": 2.66,
+    "eps_high": 3.3,
+    "revenue_avg": 23137877350
+  },
+  "news": [
+    {
+      "title": "TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tmus-raises-cash-flow-outlook-183100270.html",
+      "summary": "TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter\n\n# TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter\n\n Aritra Chatterjee Tue, August 4, 2026 at 2:31 PM EDT 4 min read\n\nT-Mobile US, Inc. TMUS delivered another solid quarterly performance, driven by healthy subscriber growth, expanding service revenues and improving profitability. Management also raised its adjusted free cash flow guidance for the year, reinforcing confidence in the company's operating momentum. While the stronger outlook supports the long-term investment case, investors should continue moni",
+      "published": "2026-08-04",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4953276-t-mobile-growth-may-be-moderating-but-cash-flows-are-growing",
+      "summary": "T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha\n\n# T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing\n\nOct 10, 2026, 10:13 AM ET T-Mobile US, Inc. (TMUS) Stock, TMUS:CA Stock 17 Comments 1 Like\n\nAbd-Allah Youssef\n\n## Summary\n\n- T-Mobile is rated BUY with Moderate\u2013High Confidence, offering 30\u201340% upside to a $220 YE2028 fair value.\n- TMUS trades at ~9.7x 2026E adj. FCF, with a 2.8% dividend yield and robust share buybacks supporting per-share value creation.\n- Growth is moderating, but TMUS remains the industry leader in cash flow growth,",
+      "published": "2026-10-10",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "mna",
+        "positioning"
+      ]
+    },
+    {
+      "title": "T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-tmus-stock-sees-221712667.html",
+      "summary": "T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition\n\n# T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition\n\n Bailey Pemberton October 14, 2026 5 min read\n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nT-Mobile US is under fresh scrutiny after a modest trim to its Fair Value Estimate, which moves from US",
+      "published": "2026-10-14",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report",
+      "publisher": "kalkine.com",
+      "url": "https://kalkine.com/news/earnings/t-mobile-us-nasdaqtmus-trades-near-14-times-earnings-ahead-of-q3-report",
+      "summary": "T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report\n\n# T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report\n\nNitish Kishor\n\nNitish Kishor is an investment research and global markets professional with over eight years of experience in equity research, valuation, and capital markets. He specializes in assessing company fundamentals, building bottom-up valuation models, analyzing financial statements, and tracking macroeconomic and sector trends to generate data-driven, actionable investment insights. Nitish is a commerce graduate (B.Com Honours) and ",
+      "published": "2026-10-15",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Is TMUS a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "publisher": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/tmus/is-it-a-buy-or-sell",
+      "summary": "Is TMUS a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is TMUS a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for T-Mobile US (TMUS) rests on Postpaid wireless subscriber leadership: T-Mobile's core engine is postpaid wireless, where it has led the industry in phone and account net additions, translating into strong postpaid service revenue growth into 2026; total revenue rose ~8% in the second quarter. The bear case rests on the main risk is intense",
+      "published": "2026-10-16",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "T-Mobile US (TMUS) Projected to Post Earnings on Wednesday",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-t-mobile-us-tmus-projected-to-post-earnings-on-wednesday-2026-10-21/",
+      "summary": "Skip to main content\n\nFall Lock-In Sale! MarketBeat All Access, $149 a Year for Life\n\nLock In $149 \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# T-Mobile US (TMUS) Projected to Post Earnings on Wednesday\n\nWritten by MarketBeat\n\nOctober 21, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- T-Mobile US is expected to report Q3 2026 results befor",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "T-Mobile US, Inc.: Target Price Consensus and Analysts Recommendations | TMUS | US8725901040 | MarketScreener",
+      "publisher": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/T-MOBILE-US-INC-24717887/consensus/",
+      "summary": "T-Mobile US, Inc.: Target Price Consensus and Analysts Recommendations | TMUS | US8725901040 | MarketScreener\n\n## Wireless Telecommunications Services \n\n| Market Closed - Nasdaq 04:00:00 2026-10-21 pm EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 153.75 USD | -2.54% | | +0.01% | -24.28% |\n\n| Oct. 21 | Communications Services Down on SpaceX Competition Fears - Communications Services Roundup | DJ |\n| --- | --- | --- |\n| Oct. 21 | Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment | RE |\n\n### Evolution of the Average Target: T-Mobile US, Inc.\n\n",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "T-Mobile US (TMUS) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/tmus/forecast/",
+      "summary": "T-Mobile US (TMUS) Stock Forecast & Analyst Price Targets\n\n146.54 -12.25 (-7.71%) At close: Oct 23, 2026, 4:00 PM EDT\n\n146.96 +0.42 (0.29%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n# T-Mobile US Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 27 analysts polled by S&P Global, T-Mobile US stock has a consensus rating of \"Buy\" and an average price target of $236.84. The average 1-year stock price forecast is 61.62% higher than the current stock price, while the lowest is $169 (+15.33%) and the highest is $296 (+101.99%).\n\nPrice Target: $236.84 (+61.62%)\n\nAnalyst Consensus: Buy\n\n## Price Tar",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "TMUS Stock Forecast 2026-2027 - T-Mobile US, Inc. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/tmus-forecast/",
+      "summary": "TMUS Stock Forecast 2026-2027 - T-Mobile US, Inc. Price Targets & Predictions\n\n# TMUS Stock Forecast: T-Mobile US, Inc. Price Predictions for 2026-2027\n\nLast close, 23 Oct 2026\n\n$147\n\n\u22127.71% on the day\n\nThe 28 Wall Street analysts covering T-Mobile US, Inc. hold a median 12-month price target of $235 \u2014 +60.4% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 56 of 100 as at 22 Oct 2026 \u2014 in the upper half.\n\nMarket cap\n\n$169.2B\n\nTicker Nerd rank\n\n56/ 100\n\nMedian analyst target\n\n$235\n\nAnalysts covering\n\n28\n\nRevenue$22.8B+7.9% y/y\n\nOperating income$",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Why T-Mobile (TMUS) is a Top Value Stock for the Long-Term",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/why-t-mobile-tmus-top-value-stock-long-term",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TMUS"
+      ],
+      "summary": "Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Why T-Mobile US Stock Dropped Today",
+      "publisher": "The Motley Fool",
+      "created": "Oct 23, 2026",
+      "ago": "14 hours ago",
+      "url": "/articles/why-t-mobile-us-stock-dropped-today",
+      "primary_symbol": "TMUS",
+      "related_symbols": [
+        "TMUS"
+      ],
+      "summary": "Key PointsSpaceX bought extra cellphone spectrum for its satellites earlier this month.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Ahead of T-Mobile (TMUS) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "17 hours ago",
+      "url": "/articles/ahead-t-mobile-tmus-q3-earnings-get-ready-wall-street-estimates-key-metrics",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TMUS"
+      ],
+      "summary": "Beyond analysts' top-and-bottom-line estimates for T-Mobile (TMUS), evaluate projections for some of its key metrics to gain a better insight into how the business might have performed for the quarter ended September 2026.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is It Wise to Retain Crown Castle Stock in Your Portfolio Right Now?",
+      "publisher": "Zacks",
+      "created": "Oct 19, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/it-wise-retain-crown-castle-stock-your-portfolio-right-now",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CCI",
+        "T",
+        "VZ",
+        "TMUS"
+      ],
+      "summary": "CCI's tower growth prospects and $8.4B asset sale strengthen its outlook, but DISH losses, carrier dependence and $17.1B debt cloud the picture.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt",
+        "guidance"
+      ]
+    },
+    {
+      "title": "AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence.",
+      "publisher": "The Motley Fool",
+      "created": "Oct 21, 2026",
+      "ago": "2 days ago",
+      "url": "/articles/ast-spacemobile-hit-52-week-low-days-after-spacex-spent-8-billion-spectrum-thats-not",
+      "primary_symbol": "ASTS",
+      "related_symbols": [
+        "ASTS",
+        "VZ",
+        "T",
+        "TMUS"
+      ],
+      "summary": "Key PointsAST SpaceMobile\u2019s stock hit a 52-week low after SpaceX\u2019s spectrum purchase.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Is Verizon Stock Worth Buying Ahead of Q3 Earnings Release?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/verizon-stock-worth-buying-ahead-q3-earnings-release",
+      "primary_symbol": null,
+      "related_symbols": [
+        "VZ",
+        "T",
+        "TMUS"
+      ],
+      "summary": "VZ heads into Q3 earnings with strong customer metrics, fiber expansion and an attractive valuation, but intense competition and high debt warrant caution.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Is AT&T Worth Buying as Fiber Growth Offsets Rising Leverage Risks?",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/att-worth-buying-fiber-growth-offsets-rising-leverage-risks",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T",
+        "VZ",
+        "TMUS"
+      ],
+      "summary": "T's strong fiber and wireless growth and attractive valuation bolster its investment case, but rising debt, legacy declines and interest costs cloud its outlook.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "AT&T Stock Falls 13.4% in a Month. Is the Drop a Buying Opportunity?",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/att-stock-falls-134-month-drop-buying-opportunity",
+      "primary_symbol": null,
+      "related_symbols": [
+        "T",
+        "VZ",
+        "TMUS"
+      ],
+      "summary": "T shares fall 13.4% in a month despite stronger earnings and fiber growth. Can its discounted valuation outweigh mounting debt and pricing pressures?",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "depreciation_debt",
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "SpaceX Just Made Cell Towers Cool Again. Verizon, AT&T, and T-Mobile Are Paying the Price",
+      "publisher": "The Motley Fool",
+      "created": "Oct 23, 2026",
+      "ago": "11 hours ago",
+      "url": "/articles/spacex-just-made-cell-towers-cool-again-verizon-att-and-t-mobile-are-paying-price",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMT",
+        "VZ",
+        "T",
+        "TMUS",
+        "CCI"
+      ],
+      "summary": "Key PointsA report that SpaceX wants access to 80,000 U.S. cell sites sent tower stocks soaring and telecom stocks down on Friday.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Nasdaq 100 Movers: MRNA, HONIV",
+      "publisher": "BNK Invest",
+      "created": "Oct 23, 2026",
+      "ago": "14 hours ago",
+      "url": "/articles/nasdaq-100-movers-mrna-honiv",
+      "primary_symbol": "MRNA",
+      "related_symbols": [
+        "MRNA",
+        "TMUS"
+      ],
+      "summary": "In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the Nasdaq 100 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Nasdaq 100 component thus far",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Can Healthy Revenue Growth Boost T-Mobile's Q3 Earnings?",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "16 hours ago",
+      "url": "/articles/can-healthy-revenue-growth-boost-t-mobiles-q3-earnings",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TMUS",
+        "INTC",
+        "STX",
+        "GLW"
+      ],
+      "summary": "TMUS Q3 2026 results are expected to reflect subscriber gains, device promotions and broadband growth, but rising costs and fierce competition may pressure profitability.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Stocks Undercut by Oil Prices and Continued AI Anxiety",
+      "publisher": "Barchart",
+      "created": "Oct 23, 2026",
+      "ago": "3 hours ago",
+      "url": "/articles/stocks-undercut-oil-prices-and-continued-ai-anxiety-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "MSTR",
+        "GLXY",
+        "SLB",
+        "MSFT",
+        "TSLA",
+        "T",
+        "GFS",
+        "NCLH",
+        "SPY",
+        "DIA",
+        "MARA",
+        "META",
+        "CCI",
+        "AMT",
+        "MU",
+        "QQQ",
+        "TMUS",
+        "AXP",
+        "SOXX",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) fell by -0.52% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) fell by -1.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) was unchanged.  December E-mini S&P futures (ESZ26 ) fell -0.48%, while December E-mini Nasdaq futures (NQZ26...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks See Continued Downward Pressure from AI Anxiety and Oil Prices",
+      "publisher": "Barchart",
+      "created": "Oct 23, 2026",
+      "ago": "6 hours ago",
+      "url": "/articles/stocks-see-continued-downward-pressure-ai-anxiety-and-oil-prices",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SLB",
+        "TXN",
+        "TSLA",
+        "T",
+        "NCLH",
+        "AMD",
+        "SPY",
+        "DIA",
+        "MARA",
+        "META",
+        "CCI",
+        "AMT",
+        "MU",
+        "QQQ",
+        "TMUS",
+        "IREN",
+        "AXP",
+        "SOXX",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down -0.45%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -1.08%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.08%.  December E-mini S&P futures (ESZ26 ) are down -0.43%, and December E-mini Nasdaq futures (NQZ26...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "ETFs to Capitalize on SpaceX's Wireless Carrier Ambitions",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "17 hours ago",
+      "url": "/articles/etfs-capitalize-spacexs-wireless-carrier-ambitions",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMT",
+        "T",
+        "VZ",
+        "CCI",
+        "TMUS",
+        "ICF",
+        "SRVR",
+        "IDGT",
+        "DTCR",
+        "RONB",
+        "MARS",
+        "NASA"
+      ],
+      "summary": "SpaceX's wireless ambitions could create opportunities for cellular tower operators. Explore ETFs positioned to benefit from its expansion.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Research Update: T-Mobile US Inc. Rating Raised T | S&P Global Ratings",
+      "publisher": "spglobal.com",
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101684310",
+      "summary": "Research Update: T-Mobile US Inc. Rating Raised T | S&P Global Ratings\n\n- 11-May-2026 | 11:57 EDT\n\n# Research Update: T-Mobile US Inc. Rating Raised To 'BBB+' On Strong Earnings, Disciplined Financial Policy; Outlook Stable\n\nTable of Contents+\n\nRating Action Overview\n\nRating Action Rationale \n\nOutlook\n\nCompany Description\n\nOur Base-Case Scenario\n\nLiquidity\n\nRelated Criteria\n\nRelated Research\n\nRatings List\n\n#### Rating Action Overview\n\n- U.S.-based wireless service provider T-Mobile US Inc. has further increased postpaid market share, service revenue, and earnings at a healthy pace despite aggr",
+      "published": "2026-04-24",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Wolfe Research cuts T-Mobile as revenue growth forecast risk tilts negative",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wolfe-research-cuts-t-mobile-124126637.html",
+      "summary": "Wolfe Research cuts T-Mobile as revenue growth forecast risk tilts negative\n\n# Wolfe Research cuts T-Mobile as revenue growth forecast risk tilts negative\n\n Sam Boughedda August 14, 2026 2 min read\n\n## Trading disclosure \n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nInvesting.com -- Wolfe Research downgraded T-Mobile US to Peer Perform from Outperform on Frida",
+      "published": "2026-08-14",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "T-Mobile Stock Slips To More Than Two-Year Low \u2014 JPMorgan Cuts Target Ahead Of Q3 Citing Softer Service Revenue Outlook",
+      "publisher": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/t-mobile-stock-slips-to-more-than-two-year-low-jp-morgan-cuts-target-ahead-of-q3-citing-softer-service-revenue-outlook/cZMRNKzRBIJ",
+      "summary": "T-Mobile Stock Slips To More Than Two-Year Low \u2014 JPMorgan Cuts Target Ahead Of Q3 Citing Softer Service Revenue Outlook\n\n# T-Mobile Stock Slips To More Than Two-Year Low \u2014 JPMorgan Cuts Target Ahead Of Q3 Citing Softer Service Revenue Outlook\n\nJPMorgan cut its TMUS target to $260 from $275 and kept an 'Overweight' rating, per TheFly.\n\nIn this photo illustration, a person holds a smartphone displaying the logo of T-Mobile US Inc. (Photo illustration by Cheng Xin/Getty Images)\n\nHarshita Tyagi\u00b7 Stocktwits\n\nPublished Sep 21, 2026 | 12:18 PM EDT\n\n- The firm maintained its third-quarter postpaid acc",
+      "published": "2026-09-21",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Brokers Offer Predictions for T-Mobile US FY2026 Earnings",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-brokers-offer-predictions-for-t-mobile-us-fy2026-earnings-2026-10-13/",
+      "summary": "Skip to main content\n\n$100 Off. Every Year. Lock In MarketBeat All Access at $149\n\nClaim the Rate Lock \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Brokers Offer Predictions for T-Mobile US FY2026 Earnings\n\nWritten by MarketBeat\n\nOctober 13, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank trimmed T-Mobile US\u2019s FY2026 EPS fo",
+      "published": "2026-10-13",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "T-Mobile's Planned Churn Spike Puts A Bruised Stock's Growth Story To The Test",
+      "publisher": "finviz.com",
+      "url": "https://finviz.com/news/405192/t-mobiles-planned-churn-spike-puts-a-bruised-stocks-growth-story-to-the-test",
+      "summary": "T-Mobile's Planned Churn Spike Puts A Bruised Stock's Growth Story To The Test\n\n# T-Mobile's Planned Churn Spike Puts A Bruised Stock's Growth Story To The Test\n\n By Earnings Whispers | October 20, 2026, 6:32 PM \n\nEarnings Whispers\n\nT-Mobile heads into its third-quarter report having told the market in advance that this would be an ugly quarter on one important measure. Management guided postpaid account net additions to only about 250,000, a sharp drop driven by a deliberate rate-plan modernization that it expected to push churn higher for a while, mostly among smaller-line accounts. The stoc",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Erste Group Bank Lifts Earnings Estimates for T-Mobile US",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-lifts-earnings-estimates-for-t-mobile-us-2026-10-23/",
+      "summary": "Skip to main content\n\nEarnings Season Is Here. MarketBeat All Access for Just $149\n\nGet the Deal \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Erste Group Bank Lifts Earnings Estimates for T-Mobile US\n\nWritten by MarketBeat\n\nOctober 23, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank raised its FY2027 EPS estimate for T-Mobi",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "T-Mobile US, Inc. (TMUS) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 12,
+        "share": 0.387,
+        "evidence": [
+          {
+            "title": "TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-08-04",
+            "matched": [
+              "guidance",
+              "outlook"
+            ]
+          },
+          {
+            "title": "T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-10-14",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "T-Mobile US, Inc.: Target Price Consensus and Analysts Recommendations | TMUS | US8725901040 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-10-21",
+            "matched": [
+              "consensus"
+            ]
+          },
+          {
+            "title": "T-Mobile US (TMUS) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 7,
+        "share": 0.226,
+        "evidence": [
+          {
+            "title": "TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-08-04",
+            "matched": [
+              "free cash flow"
+            ]
+          },
+          {
+            "title": "T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-10",
+            "matched": [
+              "fcf"
+            ]
+          },
+          {
+            "title": "Is It Wise to Retain Crown Castle Stock in Your Portfolio Right Now?",
+            "publisher": "Zacks",
+            "published": "Oct 19, 2026",
+            "matched": [
+              "debt"
+            ]
+          },
+          {
+            "title": "Is Verizon Stock Worth Buying Ahead of Q3 Earnings Release?",
+            "publisher": "Zacks",
+            "published": "Oct 21, 2026",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 5,
+        "share": 0.161,
+        "evidence": [
+          {
+            "title": "T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-10",
+            "matched": [
+              "flows"
+            ]
+          },
+          {
+            "title": "T-Mobile US, Inc.: Target Price Consensus and Analysts Recommendations | TMUS | US8725901040 | MarketScreener",
+            "publisher": "marketscreener.com",
+            "published": "2026-10-21",
+            "matched": [
+              "sentiment"
+            ]
+          },
+          {
+            "title": "T-Mobile US (TMUS) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "TMUS Stock Forecast 2026-2027 - T-Mobile US, Inc. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-10-23",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.161,
+        "evidence": [
+          {
+            "title": "T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report",
+            "publisher": "kalkine.com",
+            "published": "2026-10-15",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Why T-Mobile (TMUS) is a Top Value Stock for the Long-Term",
+            "publisher": "Zacks",
+            "published": "Oct 21, 2026",
+            "matched": [
+              "premium"
+            ]
+          },
+          {
+            "title": "Is Verizon Stock Worth Buying Ahead of Q3 Earnings Release?",
+            "publisher": "Zacks",
+            "published": "Oct 21, 2026",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Is AT&T Worth Buying as Fiber Growth Offsets Rising Leverage Risks?",
+            "publisher": "Zacks",
+            "published": "Oct 22, 2026",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 1,
+        "share": 0.032,
+        "evidence": [
+          {
+            "title": "T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-10",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 1,
+        "share": 0.032,
+        "evidence": [
+          {
+            "title": "T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-10",
+            "matched": [
+              "buyback",
+              "dividend"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-29"
+    ],
+    "next_date": "2026-10-29",
+    "eps_avg": 2.98,
+    "eps_low": 2.66,
+    "eps_high": 3.3,
+    "revenue_avg": 23137877350
+  },
+  "catalyst": {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "days_out": 4,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 2.91
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-23",
+        "eps_estimate": 2.6,
+        "eps_actual": 2.99,
+        "surprise_pct": 14.86,
+        "beat": true
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 2.11,
+        "eps_actual": 2.77,
+        "surprise_pct": 31.07,
+        "beat": true
+      },
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 2.06,
+        "eps_actual": 1.88,
+        "surprise_pct": -8.92,
+        "beat": false
+      },
+      {
+        "date": "2025-10-23",
+        "eps_estimate": 2.57,
+        "eps_actual": 2.77,
+        "surprise_pct": 7.71,
+        "beat": true
+      }
+    ],
+    "beat_streak": 2,
+    "beat_rate": 0.75,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-28 (Wednesday, after the close), 4 days out -- from the earnings calendar, consensus EPS 2.91."
+  },
+  "forward_trends": {
+    "queries": [
+      "US wireless telecom industry outlook 2026 2027 subscriber growth price competition cable MVNO",
+      "US consumer telecom spending 2026 2027 household budgets wireless prepaid postpaid churn",
+      "satellite direct-to-cell fixed wireless access broadband competition 2026 US telecom market",
+      "US enterprise wireless 5G IoT spending 2026 2027 budget survey private networks"
+    ],
+    "results_count": 20,
+    "results_dated": 19,
+    "trends": [
+      {
+        "claim": "As of Oct 2026, U.S. fixed wireless subscriber net additions are slowing amid competitive pricing pressures.",
+        "stance": "pressure",
+        "why": "Slower FWA growth could reduce T-Mobile's broadband revenue contribution.",
+        "quote": "recent lower subscriber net additions suggest that FWA\u2019s growth is slowing",
+        "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+        "publisher": "insights.opensignal.com",
+        "as_of": "2026-10-01",
+        "age_days": 23,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In 2025, cable companies captured 45% of new U.S. wireless customers.",
+        "stance": "pressure",
+        "why": "Cable share gains can limit T-Mobile's subscriber additions and pressure service revenue.",
+        "quote": "cable companies captured 45% of new wireless customers in 2025",
+        "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+        "publisher": "lightreading.com",
+        "as_of": "2026-02-06",
+        "age_days": 260,
+        "undated": false,
+        "drop_reason": "stale (260 days old)"
+      },
+      {
+        "claim": "In Feb 2026, T-Mobile raised its 2027 service revenue and adjusted free cash flow forecast.",
+        "stance": "support",
+        "why": "Premium 5G plan and broadband demand supports revenue and cash flow beyond current periods.",
+        "quote": "raised its forecast for 2027 service revenue and adjusted free cash flow",
+        "url": "https://www.reuters.com/business/media-telecom/t-mobile-adds-fewer-wireless-subscribers-than-expected-amid-intense-competition-2026-02-11/",
+        "publisher": "reuters.com",
+        "as_of": "2026-02-11",
+        "age_days": 255,
+        "undated": false,
+        "drop_reason": "stale (255 days old)"
+      },
+      {
+        "claim": "In 2026, real prices for unlimited wireless plans fell over 10% from last year.",
+        "stance": "pressure",
+        "why": "Falling plan prices can cap T-Mobile's average revenue per user.",
+        "quote": "Real prices for unlimited service plans declined by over 10 percent last year",
+        "url": "https://api.ctia.org/wp-content/uploads/2026/04/2026-Wireless-Affordability-Tracker-Update.pdf",
+        "publisher": "api.ctia.org",
+        "as_of": "2026-04-01",
+        "age_days": 206,
+        "undated": false,
+        "drop_reason": "stale (206 days old)"
+      },
+      {
+        "claim": "In 2026, cable operators are entering enterprise mobility via MVNO deals.",
+        "stance": "pressure",
+        "why": "New enterprise mobility competition could pressure T-Mobile's business segment growth.",
+        "quote": "Cable operators are entering enterprise mobility via MVNO deals",
+        "url": "https://my.idc.com/getdoc.jsp?containerId=US52872926",
+        "publisher": "my.idc.com",
+        "as_of": "2026-03-01",
+        "age_days": 237,
+        "undated": false,
+        "drop_reason": "stale (237 days old)"
+      },
+      {
+        "claim": "In 2026, the Big Three carriers are expanding spectrum and rural coverage.",
+        "stance": "support",
+        "why": "Rural coverage investment can support T-Mobile subscriber growth outside urban areas.",
+        "quote": "the \"Big Three\" carriers expanding spectrum and rural coverage",
+        "url": "https://my.idc.com/getdoc.jsp?containerId=US52872926",
+        "publisher": "my.idc.com",
+        "as_of": "2026-03-01",
+        "age_days": 237,
+        "undated": false,
+        "drop_reason": "stale (237 days old)"
+      },
+      {
+        "claim": "As of Feb 2026, satellite direct-to-device is moving from niche to mainstream.",
+        "stance": "pressure",
+        "why": "New satellite connectivity options could reset customer expectations and pressure carriers at coverage edges.",
+        "quote": "moving from \u201cniche\u201d to more mainstream and relevant at scale",
+        "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/issue-brief-satellite-connectivity",
+        "publisher": "mckinsey.com",
+        "as_of": "2026-02-27",
+        "age_days": 239,
+        "undated": false,
+        "drop_reason": "stale (239 days old)"
+      },
+      {
+        "claim": "As of Dec 2025, convergence is increasing competition among mobile, cable, and satellite providers.",
+        "stance": "pressure",
+        "why": "More substitutable connectivity options can pressure T-Mobile's pricing and customer retention.",
+        "quote": "multi-network operators with overlapping and increasingly substitutable services are spurring reciprocal competition",
+        "url": "https://www.newamerica.org/insights/what-6g-should-be/convergence-more-connectivity-more-competition/",
+        "publisher": "newamerica.org",
+        "as_of": "2025-12-03",
+        "age_days": 325,
+        "undated": false,
+        "drop_reason": "stale (325 days old)"
+      },
+      {
+        "claim": "In 2026, telecom is expected to remain a low-growth industry with solid margins.",
+        "stance": "pressure",
+        "why": "Limited industry growth can constrain T-Mobile's service revenue expansion.",
+        "quote": "Telecom will likely be a low-growth industry and with solid margins",
+        "url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-telecom-outlooks/telecommunications-industry-outlook.html",
+        "publisher": "deloitte.com",
+        "as_of": "2026-02-10",
+        "age_days": 256,
+        "undated": false,
+        "drop_reason": "stale (256 days old)"
+      }
+    ],
+    "stale_dropped": 8,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "TMUS",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 146.54,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 150.0,
+        "premium": 11.7,
+        "bid": 10.4,
+        "ask": 13.0,
+        "mid": 11.7,
+        "last": 12.6,
+        "open_interest": 19,
+        "volume": 1.0,
+        "implied_vol": 0.43530838134765626,
+        "qty": 3
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 150.0,
+        "premium": 5.3,
+        "bid": 5.0,
+        "ask": 5.6,
+        "mid": 5.3,
+        "last": 5.3,
+        "open_interest": 324,
+        "volume": 34.0,
+        "implied_vol": 0.43958079956054685,
+        "qty": 1
+      },
+      "long_total": 3510.0,
+      "short_total": 530.0,
+      "net_debit": 2980.0,
+      "credit_ratio_mid": 0.151,
+      "credit_ratio_conservative": 0.1282,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Feb-27",
+          "strike": 150.0,
+          "qty": 3,
+          "underlying": 146.54,
+          "multiplier": 100,
+          "price": 11.7,
+          "total": 3509.9999999999995,
+          "open_interest": 19
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 150.0,
+          "qty": 1,
+          "underlying": 146.54,
+          "multiplier": 100,
+          "price": 5.3,
+          "total": -530.0,
+          "open_interest": 324
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 150, 155, 160, 165"
+      ],
+      "advice": "Credit ratio 12.8% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.151,
+          "credit_ratio_conservative": 0.1282,
+          "passes_floor": true,
+          "cash_collected": 530.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.302,
+          "credit_ratio_conservative": 0.2564,
+          "passes_floor": true,
+          "cash_collected": 1060.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.453,
+          "credit_ratio_conservative": 0.3846,
+          "passes_floor": true,
+          "cash_collected": 1590.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "TMUS",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 146.54,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 140.0,
+        "premium": 9.1,
+        "bid": 8.2,
+        "ask": 10.0,
+        "mid": 9.1,
+        "last": 7.5,
+        "open_interest": 45,
+        "volume": 4.0,
+        "implied_vol": 0.3996031719970704,
+        "qty": 4
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 140.0,
+        "premium": 3.23,
+        "bid": 2.45,
+        "ask": 4.0,
+        "mid": 3.23,
+        "last": 3.75,
+        "open_interest": 2323,
+        "volume": 63,
+        "implied_vol": 0.4282283740234375,
+        "qty": 2
+      },
+      "long_total": 3640.0,
+      "short_total": 646.0,
+      "net_debit": 2994.0,
+      "credit_ratio_mid": 0.1775,
+      "credit_ratio_conservative": 0.1225,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Feb-27",
+          "strike": 140.0,
+          "qty": 4,
+          "underlying": 146.54,
+          "multiplier": 100,
+          "price": 9.1,
+          "total": 3640.0,
+          "open_interest": 45
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 140.0,
+          "qty": 2,
+          "underlying": 146.54,
+          "multiplier": 100,
+          "price": 3.23,
+          "total": -646.0,
+          "open_interest": 2323
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 140, 145, 135, 130"
+      ],
+      "advice": "Credit ratio 12.3% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0887,
+          "credit_ratio_conservative": 0.0613,
+          "passes_floor": false,
+          "cash_collected": 323.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1775,
+          "credit_ratio_conservative": 0.1225,
+          "passes_floor": true,
+          "cash_collected": 646.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.2662,
+          "credit_ratio_conservative": 0.1837,
+          "passes_floor": true,
+          "cash_collected": 969.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.3549,
+          "credit_ratio_conservative": 0.245,
+          "passes_floor": true,
+          "cash_collected": 1292.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for TMUS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TMUS/key-statistics/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "Price: 146.54 USD Market Cap: 157.19B Fwd PE: 13.38 P/S: 1.7 EPS trends: flat over the last 7 days EPS revisions: tilted higher, with 4 up and 1 down over last 30 days price 146.54 market cap 157.19B forward PE 13.38 forward PE next FY 10.52 trailing PE 15.312434 P/S 1.7050765 EV/EBITDA 7.995"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for TMUS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TMUS/analysis/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "FY consensus 10.95349 now, 10.94449 7 days ago, 10.94575 30 days ago, change over 30 days 0.07%; EPS revisions 4 up and 1 down over 30 days, 1 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "TMUS quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tmus/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Net Income increasing 29.4% (3/31/2026 to 6/30/2026) Earnings Before Interest and Tax increasing 23.3% (3/31/2026 to 6/30/2026) Cash and Cash Equivalents decreasing 19.7% (3/31/2026 to 6/30/2026) Other Operating Items decreasing 10.0% (3/31/2026 to 6/30/2026) EPS increased year over year 2.85 to 2.99 Total Revenue -1.4% quarter over quarter and 7.9% year over year to 2026-06-30 Net Income 29.4% quarter over quarter and 0.5% year over year to 2026-06-30 EBIT 23.3% quarter over quarter and 3.5% year over year to 2026-06-30 EBITDA 7.8% quarter over quarter and 5.6% year over year to 2026-06-30 Operating Income 22.1% quarter over quarter and 5.3% year over year to 2026-06-30 Gross Profit 3.3% quarter over quarter and 7.3% year over year to 2026-06-30 Interest Expense 2.3% quarter over quarter and 14.4% year over year to 2026-06-30 Net Interest Income -2.3% quarter over quarter and -14.4% year over year to 2026-06-30 Total Revenue increasing 8.5% in fiscal 2025-12-31 vs 2024-12-31 Net Income decreasing 3.1% in fiscal 2025-12-31 vs 2024-12-31 Selling General And Administration increasing 12.7% in fiscal 2025-12-31 vs 2024-12-31 Interest Expense increasing 10.6% in fiscal 2025-12-31 vs 2024-12-31 Net Interest Income decreasing 10.6% in fiscal 2025-12-31 vs 2024-12-31 Gross Profit increasing 7.3% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "TMUS earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tmus/earnings",
+      "date": "2026-10-28",
+      "weight": null,
+      "text": "2026-10-28 (Wednesday, after the close), 4 days out -- from the earnings calendar, consensus EPS 2.91. beat streak 2 median gap 91 days 2026-07-23 estimate 2.6 actual 2.99 surprise 14.86% 2026-04-28 estimate 2.11 actual 2.77 surprise 31.07% 2026-02-11 estimate 2.06 actual 1.88 surprise -8.92% 2025-10-23 estimate 2.57 actual 2.77 surprise 7.71%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: Why T-Mobile (TMUS) is a Top Value Stock for the Long-Term",
+      "provider": null,
+      "url": "/articles/why-t-mobile-tmus-top-value-stock-long-term",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "Why T-Mobile (TMUS) is a Top Value Stock for the Long-Term Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service."
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "The Motley Fool: Why T-Mobile US Stock Dropped Today",
+      "provider": null,
+      "url": "/articles/why-t-mobile-us-stock-dropped-today",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Why T-Mobile US Stock Dropped Today Key PointsSpaceX bought extra cellphone spectrum for its satellites earlier this month."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Ahead of T-Mobile (TMUS) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+      "provider": null,
+      "url": "/articles/ahead-t-mobile-tmus-q3-earnings-get-ready-wall-street-estimates-key-metrics",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Ahead of T-Mobile (TMUS) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics Beyond analysts' top-and-bottom-line estimates for T-Mobile (TMUS), evaluate projections for some of its key metrics to gain a better insight into how the business might have performed for the quarter ended September 2026."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Is It Wise to Retain Crown Castle Stock in Your Portfolio Right Now?",
+      "provider": null,
+      "url": "/articles/it-wise-retain-crown-castle-stock-your-portfolio-right-now",
+      "date": "Oct 19, 20",
+      "weight": 2,
+      "text": "Is It Wise to Retain Crown Castle Stock in Your Portfolio Right Now? CCI's tower growth prospects and $8.4B asset sale strengthen its outlook, but DISH losses, carrier dependence and $17.1B debt cloud the picture."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence.",
+      "provider": null,
+      "url": "/articles/ast-spacemobile-hit-52-week-low-days-after-spacex-spent-8-billion-spectrum-thats-not",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence. Key PointsAST SpaceMobile\u2019s stock hit a 52-week low after SpaceX\u2019s spectrum purchase."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Is Verizon Stock Worth Buying Ahead of Q3 Earnings Release?",
+      "provider": null,
+      "url": "/articles/verizon-stock-worth-buying-ahead-q3-earnings-release",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "Is Verizon Stock Worth Buying Ahead of Q3 Earnings Release? VZ heads into Q3 earnings with strong customer metrics, fiber expansion and an attractive valuation, but intense competition and high debt warrant caution."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Is AT&T Worth Buying as Fiber Growth Offsets Rising Leverage Risks?",
+      "provider": null,
+      "url": "/articles/att-worth-buying-fiber-growth-offsets-rising-leverage-risks",
+      "date": "Oct 22, 20",
+      "weight": 2,
+      "text": "Is AT&T Worth Buying as Fiber Growth Offsets Rising Leverage Risks? T's strong fiber and wireless growth and attractive valuation bolster its investment case, but rising debt, legacy declines and interest costs cloud its outlook."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: AT&T Stock Falls 13.4% in a Month. Is the Drop a Buying Opportunity?",
+      "provider": null,
+      "url": "/articles/att-stock-falls-134-month-drop-buying-opportunity",
+      "date": "Oct 22, 20",
+      "weight": 2,
+      "text": "AT&T Stock Falls 13.4% in a Month. Is the Drop a Buying Opportunity? T shares fall 13.4% in a month despite stronger earnings and fiber growth. Can its discounted valuation outweigh mounting debt and pricing pressures?"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: SpaceX Just Made Cell Towers Cool Again. Verizon, AT&T, and T-Mobile Are Paying the Price",
+      "provider": null,
+      "url": "/articles/spacex-just-made-cell-towers-cool-again-verizon-att-and-t-mobile-are-paying-price",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "SpaceX Just Made Cell Towers Cool Again. Verizon, AT&T, and T-Mobile Are Paying the Price Key PointsA report that SpaceX wants access to 80,000 U.S. cell sites sent tower stocks soaring and telecom stocks down on Friday."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "BNK Invest: Nasdaq 100 Movers: MRNA, HONIV",
+      "provider": null,
+      "url": "/articles/nasdaq-100-movers-mrna-honiv",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "Nasdaq 100 Movers: MRNA, HONIV In early trading on Friday, shares of Honeywell International topped the list of the day's best performing components of the Nasdaq 100 index, trading up 7.5%.  Year to date, Honeywell International registers a 42.2% gain.\n\nAnd the worst performing Nasdaq 100 component thus far"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Can Healthy Revenue Growth Boost T-Mobile's Q3 Earnings?",
+      "provider": null,
+      "url": "/articles/can-healthy-revenue-growth-boost-t-mobiles-q3-earnings",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "Can Healthy Revenue Growth Boost T-Mobile's Q3 Earnings? TMUS Q3 2026 results are expected to reflect subscriber gains, device promotions and broadband growth, but rising costs and fierce competition may pressure profitability."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Stocks Undercut by Oil Prices and Continued AI Anxiety",
+      "provider": null,
+      "url": "/articles/stocks-undercut-oil-prices-and-continued-ai-anxiety-0",
+      "date": "Oct 23, 20",
+      "weight": 1,
+      "text": "Stocks Undercut by Oil Prices and Continued AI Anxiety The S&P 500 Index ($SPX ) (SPY ) fell by -0.52% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) fell by -1.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) was unchanged.  December E-mini S&P futures (ESZ26 ) fell -0.48%, while December E-mini Nasdaq futures (NQZ26..."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Stocks See Continued Downward Pressure from AI Anxiety and Oil Prices",
+      "provider": null,
+      "url": "/articles/stocks-see-continued-downward-pressure-ai-anxiety-and-oil-prices",
+      "date": "Oct 23, 20",
+      "weight": 1,
+      "text": "Stocks See Continued Downward Pressure from AI Anxiety and Oil Prices The S&P 500 Index ($SPX ) (SPY ) is down -0.45%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -1.08%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.08%.  December E-mini S&P futures (ESZ26 ) are down -0.43%, and December E-mini Nasdaq futures (NQZ26..."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: ETFs to Capitalize on SpaceX's Wireless Carrier Ambitions",
+      "provider": null,
+      "url": "/articles/etfs-capitalize-spacexs-wireless-carrier-ambitions",
+      "date": "Oct 23, 20",
+      "weight": 1,
+      "text": "ETFs to Capitalize on SpaceX's Wireless Carrier Ambitions SpaceX's wireless ambitions could create opportunities for cellular tower operators. Explore ETFs positioned to benefit from its expansion."
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "finance.yahoo.com: TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tmus-raises-cash-flow-outlook-183100270.html",
+      "date": "2026-08-04",
+      "weight": 3,
+      "text": "TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter\n\n# TMUS Raises Cash Flow Outlook After Another Strong Earnings Quarter\n\n Aritra Chatterjee Tue, August 4, 2026 at 2:31 PM EDT 4 min read\n\nT-Mobile US, Inc. TMUS delivered another solid quarterly performance, driven by healthy subscriber growth, expanding service revenues and improving profitability. Management also raised its adjusted free cash flow guidance for the year, reinforcing confidence in the company's operating momentum. While the stronger outlook supports the long-term investment case, investors should continue moni"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "seekingalpha.com: T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4953276-t-mobile-growth-may-be-moderating-but-cash-flows-are-growing",
+      "date": "2026-10-10",
+      "weight": 3,
+      "text": "T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing (NASDAQ:TMUS) | Seeking Alpha\n\n# T-Mobile: Growth May Be Moderating, But Cash Flows Are Growing\n\nOct 10, 2026, 10:13 AM ET T-Mobile US, Inc. (TMUS) Stock, TMUS:CA Stock 17 Comments 1 Like\n\nAbd-Allah Youssef\n\n## Summary\n\n- T-Mobile is rated BUY with Moderate\u2013High Confidence, offering 30\u201340% upside to a $220 YE2028 fair value.\n- TMUS trades at ~9.7x 2026E adj. FCF, with a 2.8% dividend yield and robust share buybacks supporting per-share value creation.\n- Growth is moderating, but TMUS remains the industry leader in cash flow growth,"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "finance.yahoo.com: T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-tmus-stock-sees-221712667.html",
+      "date": "2026-10-14",
+      "weight": 3,
+      "text": "T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition\n\n# T Mobile (TMUS) Stock Sees Modest Fair Value Cut As Analysts Split On Competition\n\n Bailey Pemberton October 14, 2026 5 min read\n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nT-Mobile US is under fresh scrutiny after a modest trim to its Fair Value Estimate, which moves from US"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "kalkine.com: T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report",
+      "provider": "kalkine.com",
+      "url": "https://kalkine.com/news/earnings/t-mobile-us-nasdaqtmus-trades-near-14-times-earnings-ahead-of-q3-report",
+      "date": "2026-10-15",
+      "weight": 3,
+      "text": "T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report\n\n# T-Mobile US (NASDAQ:TMUS) Trades Near 14 Times Earnings Ahead of Q3 Report\n\nNitish Kishor\n\nNitish Kishor is an investment research and global markets professional with over eight years of experience in equity research, valuation, and capital markets. He specializes in assessing company fundamentals, building bottom-up valuation models, analyzing financial statements, and tracking macroeconomic and sector trends to generate data-driven, actionable investment insights. Nitish is a commerce graduate (B.Com Honours) and"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "walnutinvest.com: Is TMUS a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/tmus/is-it-a-buy-or-sell",
+      "date": "2026-10-16",
+      "weight": 3,
+      "text": "Is TMUS a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App Is TMUS a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is TMUS a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for T-Mobile US (TMUS) rests on Postpaid wireless subscriber leadership: T-Mobile's core engine is postpaid wireless, where it has led the industry in phone and account net additions, translating into strong postpaid service revenue growth into 2026; total revenue rose ~8% in the second quarter. The bear case rests on the main risk is intense"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "marketbeat.com: T-Mobile US (TMUS) Projected to Post Earnings on Wednesday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-t-mobile-us-tmus-projected-to-post-earnings-on-wednesday-2026-10-21/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "T-Mobile US (TMUS) Projected to Post Earnings on Wednesday Skip to main content\n\nFall Lock-In Sale! MarketBeat All Access, $149 a Year for Life\n\nLock In $149 \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# T-Mobile US (TMUS) Projected to Post Earnings on Wednesday\n\nWritten by MarketBeat\n\nOctober 21, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- T-Mobile US is expected to report Q3 2026 results befor"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "marketscreener.com: T-Mobile US, Inc.: Target Price Consensus and Analysts Recommendations | TMUS | US8725901040 | MarketScreener",
+      "provider": "marketscreener.com",
+      "url": "https://www.marketscreener.com/quote/stock/T-MOBILE-US-INC-24717887/consensus/",
+      "date": "2026-10-21",
+      "weight": 3,
+      "text": "T-Mobile US, Inc.: Target Price Consensus and Analysts Recommendations | TMUS | US8725901040 | MarketScreener T-Mobile US, Inc.: Target Price Consensus and Analysts Recommendations | TMUS | US8725901040 | MarketScreener\n\n## Wireless Telecommunications Services \n\n| Market Closed - Nasdaq 04:00:00 2026-10-21 pm EDT | | | 5-day change | 1st Jan Change |\n| --- | --- | --- | --- | --- |\n| 153.75 USD | -2.54% | | +0.01% | -24.28% |\n\n| Oct. 21 | Communications Services Down on SpaceX Competition Fears - Communications Services Roundup | DJ |\n| --- | --- | --- |\n| Oct. 21 | Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment | RE |\n\n### Evolution of the Average Target: T-Mobile US, Inc."
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: T-Mobile US (TMUS) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/tmus/forecast/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "T-Mobile US (TMUS) Stock Forecast & Analyst Price Targets T-Mobile US (TMUS) Stock Forecast & Analyst Price Targets\n\n146.54 -12.25 (-7.71%) At close: Oct 23, 2026, 4:00 PM EDT\n\n146.96 +0.42 (0.29%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n# T-Mobile US Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 27 analysts polled by S&P Global, T-Mobile US stock has a consensus rating of \"Buy\" and an average price target of $236.84. The average 1-year stock price forecast is 61.62% higher than the current stock price, while the lowest is $169 (+15.33%) and the highest is $296 (+101.99%).\n\nPrice Target: $236.84 (+61.62%)\n\nAnalyst Consensus: Buy\n\n## Price Tar"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "tickernerd.com: TMUS Stock Forecast 2026-2027 - T-Mobile US, Inc. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/tmus-forecast/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "TMUS Stock Forecast 2026-2027 - T-Mobile US, Inc. Price Targets & Predictions TMUS Stock Forecast 2026-2027 - T-Mobile US, Inc. Price Targets & Predictions\n\n# TMUS Stock Forecast: T-Mobile US, Inc. Price Predictions for 2026-2027\n\nLast close, 23 Oct 2026\n\n$147\n\n\u22127.71% on the day\n\nThe 28 Wall Street analysts covering T-Mobile US, Inc. hold a median 12-month price target of $235 \u2014 +60.4% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 56 of 100 as at 22 Oct 2026 \u2014 in the upper half.\n\nMarket cap\n\n$169.2B\n\nTicker Nerd rank\n\n56/ 100\n\nMedian analyst target\n\n$235\n\nAnalysts covering\n\n28\n\nRevenue$22.8B+7.9% y/y\n\nOperating income$"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "spglobal.com: Research Update: T-Mobile US Inc. Rating Raised T | S&P Global Ratings",
+      "provider": "spglobal.com",
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101684310",
+      "date": "2026-04-24",
+      "weight": 0,
+      "text": "Research Update: T-Mobile US Inc. Rating Raised T | S&P Global Ratings Research Update: T-Mobile US Inc. Rating Raised T | S&P Global Ratings\n\n- 11-May-2026 | 11:57 EDT\n\n# Research Update: T-Mobile US Inc. Rating Raised To 'BBB+' On Strong Earnings, Disciplined Financial Policy; Outlook Stable\n\nTable of Contents+\n\nRating Action Overview\n\nRating Action Rationale \n\nOutlook\n\nCompany Description\n\nOur Base-Case Scenario\n\nLiquidity\n\nRelated Criteria\n\nRelated Research\n\nRatings List\n\n#### Rating Action Overview\n\n- U.S.-based wireless service provider T-Mobile US Inc. has further increased postpaid market share, service revenue, and earnings at a healthy pace despite aggr"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "finance.yahoo.com: Wolfe Research cuts T-Mobile as revenue growth forecast risk tilts negative",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wolfe-research-cuts-t-mobile-124126637.html",
+      "date": "2026-08-14",
+      "weight": 0,
+      "text": "Wolfe Research cuts T-Mobile as revenue growth forecast risk tilts negative Wolfe Research cuts T-Mobile as revenue growth forecast risk tilts negative\n\n# Wolfe Research cuts T-Mobile as revenue growth forecast risk tilts negative\n\n Sam Boughedda August 14, 2026 2 min read\n\n## Trading disclosure \n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\nInvesting.com -- Wolfe Research downgraded T-Mobile US to Peer Perform from Outperform on Frida"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "stocktwits.com: T-Mobile Stock Slips To More Than Two-Year Low \u2014 JPMorgan Cuts Target Ahead Of Q3 Citing Softer Service Revenue Outlook",
+      "provider": "stocktwits.com",
+      "url": "https://stocktwits.com/news-articles/markets/equity/t-mobile-stock-slips-to-more-than-two-year-low-jp-morgan-cuts-target-ahead-of-q3-citing-softer-service-revenue-outlook/cZMRNKzRBIJ",
+      "date": "2026-09-21",
+      "weight": 0,
+      "text": "T-Mobile Stock Slips To More Than Two-Year Low \u2014 JPMorgan Cuts Target Ahead Of Q3 Citing Softer Service Revenue Outlook T-Mobile Stock Slips To More Than Two-Year Low \u2014 JPMorgan Cuts Target Ahead Of Q3 Citing Softer Service Revenue Outlook\n\n# T-Mobile Stock Slips To More Than Two-Year Low \u2014 JPMorgan Cuts Target Ahead Of Q3 Citing Softer Service Revenue Outlook\n\nJPMorgan cut its TMUS target to $260 from $275 and kept an 'Overweight' rating, per TheFly.\n\nIn this photo illustration, a person holds a smartphone displaying the logo of T-Mobile US Inc. (Photo illustration by Cheng Xin/Getty Images)\n\nHarshita Tyagi\u00b7 Stocktwits\n\nPublished Sep 21, 2026 | 12:18 PM EDT\n\n- The firm maintained its third-quarter postpaid acc"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "marketbeat.com: Brokers Offer Predictions for T-Mobile US FY2026 Earnings",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-brokers-offer-predictions-for-t-mobile-us-fy2026-earnings-2026-10-13/",
+      "date": "2026-10-13",
+      "weight": 0,
+      "text": "Brokers Offer Predictions for T-Mobile US FY2026 Earnings Skip to main content\n\n$100 Off. Every Year. Lock In MarketBeat All Access at $149\n\nClaim the Rate Lock \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Brokers Offer Predictions for T-Mobile US FY2026 Earnings\n\nWritten by MarketBeat\n\nOctober 13, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank trimmed T-Mobile US\u2019s FY2026 EPS fo"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "finviz.com: T-Mobile's Planned Churn Spike Puts A Bruised Stock's Growth Story To The Test",
+      "provider": "finviz.com",
+      "url": "https://finviz.com/news/405192/t-mobiles-planned-churn-spike-puts-a-bruised-stocks-growth-story-to-the-test",
+      "date": "2026-10-20",
+      "weight": 0,
+      "text": "T-Mobile's Planned Churn Spike Puts A Bruised Stock's Growth Story To The Test T-Mobile's Planned Churn Spike Puts A Bruised Stock's Growth Story To The Test\n\n# T-Mobile's Planned Churn Spike Puts A Bruised Stock's Growth Story To The Test\n\n By Earnings Whispers | October 20, 2026, 6:32 PM \n\nEarnings Whispers\n\nT-Mobile heads into its third-quarter report having told the market in advance that this would be an ugly quarter on one important measure. Management guided postpaid account net additions to only about 250,000, a sharp drop driven by a deliberate rate-plan modernization that it expected to push churn higher for a while, mostly among smaller-line accounts. The stoc"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:14",
+      "label": "marketbeat.com: Erste Group Bank Lifts Earnings Estimates for T-Mobile US",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-lifts-earnings-estimates-for-t-mobile-us-2026-10-23/",
+      "date": "2026-10-23",
+      "weight": 0,
+      "text": "Erste Group Bank Lifts Earnings Estimates for T-Mobile US Skip to main content\n\nEarnings Season Is Here. MarketBeat All Access for Just $149\n\nGet the Deal \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Erste Group Bank Lifts Earnings Estimates for T-Mobile US\n\nWritten by MarketBeat\n\nOctober 23, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank raised its FY2027 EPS estimate for T-Mobi"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "insights.opensignal.com: As of Oct 2026, U.S. fixed wireless subscriber net additions are slowing amid competitive pricing pressures.",
+      "provider": "insights.opensignal.com",
+      "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+      "date": "2026-10-01",
+      "weight": null,
+      "text": "As of Oct 2026, U.S. fixed wireless subscriber net additions are slowing amid competitive pricing pressures. Slower FWA growth could reduce T-Mobile's broadband revenue contribution. \"recent lower subscriber net additions suggest that FWA\u2019s growth is slowing\""
+    },
+    {
+      "id": "S35",
+      "kind": "options",
+      "ref": "options",
+      "label": "TMUS listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/TMUS/options/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "long CALL strike 150.0 expiry 2027-02-19 premium 11.7 short PUT strike 140.0 expiry 2027-02-19 premium 9.1"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 10.41,
+    "fy_consensus": 10.95349,
+    "ratio": 0.95,
+    "beats": 3,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (2.99 + 2.77 + 1.88 + 2.77) total 10.41, against a current-FY consensus of 10.9535 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "US wireless telecom industry outlook 2026 2027 postpaid prepaid subscriber growth competition cable mobile satellite direct-to-cell",
+        "US prepaid wireless market 2026 low-income consumer spending employment churn affordability",
+        "US fixed wireless access broadband market 2026 2027 cable fiber competition household demand",
+        "T-Mobile US TMUS 2026 2027 US wireless competitive landscape cable satellite fixed wireless enterprise"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "In 2026, U.S. fixed wireless subscriber growth is slowing as competitors respond and easy prospects become scarcer.",
+          "stance": "pressure",
+          "why": "Slower FWA net additions could curb T-Mobile's broadband subscriber and revenue growth.",
+          "quote": "recent lower subscriber net additions suggest that FWA\u2019s growth is slowing.",
+          "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+          "publisher": "insights.opensignal.com",
+          "as_of": "2026-10-01",
+          "age_days": 23,
+          "undated": false
+        },
+        {
+          "claim": "In Q2 2026, every national operator cut device-subsidy intensity while growing volume, supporting industry margins.",
+          "stance": "support",
+          "why": "Lower subsidy costs could help T-Mobile sustain margins even as subscriber growth slows.",
+          "quote": "Every national operator cut subsidy intensity and grew volume in the same quarter",
+          "url": "https://www.chetansharma.com/publications/us-mobile-market-update-q2-2026/",
+          "publisher": "chetansharma.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of April 2026, U.S. wireless competition is intensifying as rivals roll out bundled offerings to retain and attract subscribers.",
+          "stance": "pressure",
+          "why": "This could pressure T-Mobile's subscriber growth and pricing.",
+          "quote": "intensifying competition in the crowded U.S. wireless market, where rivals are rolling out bundled offerings",
+          "url": "https://www.marketscreener.com/news/t-mobile-rolls-out-broadband-with-starlink-backup-to-expand-business-customer-base-ce7f59d2dd88f427",
+          "publisher": "marketscreener.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In April 2026, T-Mobile launched business internet combining 5G with Starlink satellite backup to expand enterprise reach.",
+          "stance": "support",
+          "why": "This could add enterprise broadband subscribers and revenue in remote locations.",
+          "quote": "launched a new internet offering for businesses, combining its 5G network with Starlink's satellite backup",
+          "url": "https://www.marketscreener.com/news/t-mobile-rolls-out-broadband-with-starlink-backup-to-expand-business-customer-base-ce7f59d2dd88f427",
+          "publisher": "marketscreener.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "As of February 2026, T-Mobile targets 18\u201319 million total broadband customers by 2030, including 15 million 5G broadband.",
+          "stance": "support",
+          "why": "Hitting this target would add broadband subscribers and service revenue beyond the current mobile base.",
+          "quote": "new target of 18\u201319 million total broadband customers by 2030, comprising 15 million 5G broadband and 3\u20134 million T-Fiber customers",
+          "url": "https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026",
+          "publisher": "t-mobile.com",
+          "as_of": "2026-02-11",
+          "age_days": 255,
+          "undated": false,
+          "drop_reason": "stale (255 days old)"
+        },
+        {
+          "claim": "In 2026, U.S. prepaid subscriber counts are declining as pressures compound.",
+          "stance": "pressure",
+          "why": "This could weigh on T-Mobile's prepaid subscriber growth and revenue.",
+          "quote": "Subscriber Counts Decline as Pressures Compound",
+          "url": "https://counterpointresearch.com/en/reports/state-of-us-prepaid-2026-subscriber-counts-decline-as-pressures-compound",
+          "publisher": "counterpointresearch.com",
+          "as_of": "2026-03-10",
+          "age_days": 228,
+          "undated": false,
+          "drop_reason": "stale (228 days old)"
+        },
+        {
+          "claim": "As of April 2026, real prices for unlimited wireless plans fell over 10% last year, continuing a multiyear decline.",
+          "stance": "pressure",
+          "why": "Falling prices could limit T-Mobile's ability to grow ARPU and service revenue.",
+          "quote": "Real prices for unlimited service plans declined by over 10 percent last year",
+          "url": "https://api.ctia.org/wp-content/uploads/2026/04/2026-Wireless-Affordability-Tracker-Update.pdf",
+          "publisher": "api.ctia.org",
+          "as_of": "2026-04-01",
+          "age_days": 206,
+          "undated": false,
+          "drop_reason": "stale (206 days old)"
+        },
+        {
+          "claim": "In 2026, cable operators are entering enterprise mobility via MVNO deals, adding competition in business wireless.",
+          "stance": "pressure",
+          "why": "This could pressure T-Mobile's enterprise subscriber growth and pricing.",
+          "quote": "Cable operators are entering enterprise mobility via MVNO deals",
+          "url": "https://my.idc.com/getdoc.jsp?containerId=US52872926",
+          "publisher": "my.idc.com",
+          "as_of": "2026-03-01",
+          "age_days": 237,
+          "undated": false,
+          "drop_reason": "stale (237 days old)"
+        },
+        {
+          "claim": "In February 2026, T-Mobile raised its 2027 service revenue and free cash flow forecast on premium 5G and broadband demand.",
+          "stance": "support",
+          "why": "Premium plan uptake supports ARPU and cash flow growth.",
+          "quote": "raised its forecast for 2027 service revenue and adjusted free cash flow, encouraged by rising demand for its broadband offerings and premium 5G mobile plans",
+          "url": "https://www.reuters.com/business/media-telecom/t-mobile-adds-fewer-wireless-subscribers-than-expected-amid-intense-competition-2026-02-11/",
+          "publisher": "reuters.com",
+          "as_of": "2026-02-11",
+          "age_days": 255,
+          "undated": false,
+          "drop_reason": "stale (255 days old)"
+        }
+      ],
+      "stale_dropped": 5,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "US wireless telecom industry outlook 2026 2027 subscriber growth price competition cable MVNO",
+        "US consumer telecom spending 2026 2027 household budgets wireless prepaid postpaid churn",
+        "satellite direct-to-cell fixed wireless access broadband competition 2026 US telecom market",
+        "US enterprise wireless 5G IoT spending 2026 2027 budget survey private networks"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "As of Oct 2026, U.S. fixed wireless subscriber net additions are slowing amid competitive pricing pressures.",
+          "stance": "pressure",
+          "why": "Slower FWA growth could reduce T-Mobile's broadband revenue contribution.",
+          "quote": "recent lower subscriber net additions suggest that FWA\u2019s growth is slowing",
+          "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+          "publisher": "insights.opensignal.com",
+          "as_of": "2026-10-01",
+          "age_days": 23,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2025, cable companies captured 45% of new U.S. wireless customers.",
+          "stance": "pressure",
+          "why": "Cable share gains can limit T-Mobile's subscriber additions and pressure service revenue.",
+          "quote": "cable companies captured 45% of new wireless customers in 2025",
+          "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+          "publisher": "lightreading.com",
+          "as_of": "2026-02-06",
+          "age_days": 260,
+          "undated": false,
+          "drop_reason": "stale (260 days old)"
+        },
+        {
+          "claim": "In Feb 2026, T-Mobile raised its 2027 service revenue and adjusted free cash flow forecast.",
+          "stance": "support",
+          "why": "Premium 5G plan and broadband demand supports revenue and cash flow beyond current periods.",
+          "quote": "raised its forecast for 2027 service revenue and adjusted free cash flow",
+          "url": "https://www.reuters.com/business/media-telecom/t-mobile-adds-fewer-wireless-subscribers-than-expected-amid-intense-competition-2026-02-11/",
+          "publisher": "reuters.com",
+          "as_of": "2026-02-11",
+          "age_days": 255,
+          "undated": false,
+          "drop_reason": "stale (255 days old)"
+        },
+        {
+          "claim": "In 2026, real prices for unlimited wireless plans fell over 10% from last year.",
+          "stance": "pressure",
+          "why": "Falling plan prices can cap T-Mobile's average revenue per user.",
+          "quote": "Real prices for unlimited service plans declined by over 10 percent last year",
+          "url": "https://api.ctia.org/wp-content/uploads/2026/04/2026-Wireless-Affordability-Tracker-Update.pdf",
+          "publisher": "api.ctia.org",
+          "as_of": "2026-04-01",
+          "age_days": 206,
+          "undated": false,
+          "drop_reason": "stale (206 days old)"
+        },
+        {
+          "claim": "In 2026, cable operators are entering enterprise mobility via MVNO deals.",
+          "stance": "pressure",
+          "why": "New enterprise mobility competition could pressure T-Mobile's business segment growth.",
+          "quote": "Cable operators are entering enterprise mobility via MVNO deals",
+          "url": "https://my.idc.com/getdoc.jsp?containerId=US52872926",
+          "publisher": "my.idc.com",
+          "as_of": "2026-03-01",
+          "age_days": 237,
+          "undated": false,
+          "drop_reason": "stale (237 days old)"
+        },
+        {
+          "claim": "In 2026, the Big Three carriers are expanding spectrum and rural coverage.",
+          "stance": "support",
+          "why": "Rural coverage investment can support T-Mobile subscriber growth outside urban areas.",
+          "quote": "the \"Big Three\" carriers expanding spectrum and rural coverage",
+          "url": "https://my.idc.com/getdoc.jsp?containerId=US52872926",
+          "publisher": "my.idc.com",
+          "as_of": "2026-03-01",
+          "age_days": 237,
+          "undated": false,
+          "drop_reason": "stale (237 days old)"
+        },
+        {
+          "claim": "As of Feb 2026, satellite direct-to-device is moving from niche to mainstream.",
+          "stance": "pressure",
+          "why": "New satellite connectivity options could reset customer expectations and pressure carriers at coverage edges.",
+          "quote": "moving from \u201cniche\u201d to more mainstream and relevant at scale",
+          "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/issue-brief-satellite-connectivity",
+          "publisher": "mckinsey.com",
+          "as_of": "2026-02-27",
+          "age_days": 239,
+          "undated": false,
+          "drop_reason": "stale (239 days old)"
+        },
+        {
+          "claim": "As of Dec 2025, convergence is increasing competition among mobile, cable, and satellite providers.",
+          "stance": "pressure",
+          "why": "More substitutable connectivity options can pressure T-Mobile's pricing and customer retention.",
+          "quote": "multi-network operators with overlapping and increasingly substitutable services are spurring reciprocal competition",
+          "url": "https://www.newamerica.org/insights/what-6g-should-be/convergence-more-connectivity-more-competition/",
+          "publisher": "newamerica.org",
+          "as_of": "2025-12-03",
+          "age_days": 325,
+          "undated": false,
+          "drop_reason": "stale (325 days old)"
+        },
+        {
+          "claim": "In 2026, telecom is expected to remain a low-growth industry with solid margins.",
+          "stance": "pressure",
+          "why": "Limited industry growth can constrain T-Mobile's service revenue expansion.",
+          "quote": "Telecom will likely be a low-growth industry and with solid margins",
+          "url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-telecom-outlooks/telecommunications-industry-outlook.html",
+          "publisher": "deloitte.com",
+          "as_of": "2026-02-10",
+          "age_days": 256,
+          "undated": false,
+          "drop_reason": "stale (256 days old)"
+        }
+      ],
+      "stale_dropped": 8,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "US wireless telecom market 2026 2027 competitive pressures cable MVNO fixed wireless satellite direct-to-cell",
+        "US consumer wireless spending 2026 2027 prepaid postpaid budgets smartphone upgrade cycle",
+        "US enterprise telecom spending 2026 2027 5G private networks mobility budgets forecast",
+        "T-Mobile US TMUS 2026 2027 home broadband fixed wireless competition cable satellite direct-to-cell"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In October 2026, U.S. FWA subscriber growth is slowing as competitors respond and easy mobile-bundled prospects become scarcer.",
+          "stance": "pressure",
+          "why": "Slower FWA net adds could curb T-Mobile's broadband growth and its 2030 5G broadband target.",
+          "quote": "recent lower subscriber net additions suggest that FWA\u2019s growth is slowing.",
+          "url": "https://insights.opensignal.com/2026/10/fwa-faces-increasing-competitive-pressures-as-growth-slows/dt",
+          "publisher": "insights.opensignal.com",
+          "as_of": "2026-10-01",
+          "age_days": 23,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, U.S. device upgrade rates are at three-year lows as phone lifecycles approach 40+ months.",
+          "stance": "pressure",
+          "why": "Longer device cycles can reduce equipment revenue and upgrade-driven plan changes for T-Mobile.",
+          "quote": "The US market recorded lowest device upgrade rates in last 3 years with the device lifecycle inching closer to 40+ months.",
+          "url": "https://www.reconanalytics.com/5-of-americans-prefer-buying-iphone-directly-from-apple/",
+          "publisher": "reconanalytics.com",
+          "as_of": "2026-07-31",
+          "age_days": 85,
+          "undated": false
+        },
+        {
+          "claim": "In a 2026 survey, eSIM adoption is lowering switching friction and making U.S. mobile customers evaluate providers more often.",
+          "stance": "pressure",
+          "why": "Lower switching barriers can raise churn and pressure T-Mobile's customer retention.",
+          "quote": "switching friction is falling as technologies like eSIM mature",
+          "url": "https://oxio.com/blog/us-mobile-consumer-survey-2026/",
+          "publisher": "oxio.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "As of September 2026, T-Mobile expects mid-single-digit service revenue growth with EBITDA and free cash flow rising faster.",
+          "stance": "support",
+          "why": "Management's growth plan relies on broadband, business services and new technology to sustain results.",
+          "quote": "T-Mobile said it expects mid-single-digit growth in service revenue, with EBITDA and free cash flow rising faster.",
+          "url": "https://www.investing.com/news/transcripts/tmobile-at-citis-2026-global-tmt-conference-growth-bets-widen-93CH-4894116",
+          "publisher": "investing.com",
+          "as_of": "2026-09-09",
+          "age_days": 45,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, Starlink Mobile is seen as unlikely to pose a nationwide mobile threat in the near term.",
+          "stance": "support",
+          "why": "This limits near-term satellite substitution risk to T-Mobile's core wireless subscriber base.",
+          "quote": "Starlink Mobile is unlikely to pose a nationwide mobile threat in the near term.",
+          "url": "https://www.xxquant.com/en/institution/institutional-research/06c97be613d3bb9967a7c2848d9224bc",
+          "publisher": "xxquant.com",
+          "as_of": "2026-07-27",
+          "age_days": 89,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "Cable operators captured 45% of new U.S. wireless customers in 2025, showing competitive pressure on carriers.",
+          "stance": "pressure",
+          "why": "Cable share gains pressure T-Mobile's postpaid net adds and pricing.",
+          "quote": "cable companies captured 45% of new wireless customers in 2025.",
+          "url": "https://www.lightreading.com/wireless/the-great-convergence-the-state-of-u-s-wireless-competition",
+          "publisher": "lightreading.com",
+          "as_of": "2026-02-06",
+          "age_days": 260,
+          "undated": false,
+          "drop_reason": "stale (260 days old)"
+        },
+        {
+          "claim": "As of April 2026, real prices for unlimited wireless plans had fallen over 10% in the prior year.",
+          "stance": "pressure",
+          "why": "Falling plan prices can limit T-Mobile's service revenue growth and ARPU despite subscriber gains.",
+          "quote": "Real prices for unlimited service plans declined by over 10 percent last year",
+          "url": "https://api.ctia.org/wp-content/uploads/2026/04/2026-Wireless-Affordability-Tracker-Update.pdf",
+          "publisher": "api.ctia.org",
+          "as_of": "2026-04-01",
+          "age_days": 206,
+          "undated": false,
+          "drop_reason": "stale (206 days old)"
+        },
+        {
+          "claim": "As of February 2026, U.S. mobile service promotions remain at all-time highs with lots of parity.",
+          "stance": "pressure",
+          "why": "Sustained promotions and device subsidies can raise acquisition costs and pressure T-Mobile's margins.",
+          "quote": "Mobile service promotions remain at all-time highs with lots of parity",
+          "url": "https://counterpointresearch.com/en/reports/state-of-us-postpaid-2026-the-year-of-convergence-and-shrinking-margins-for-us-postpaid-mnos",
+          "publisher": "counterpointresearch.com",
+          "as_of": "2026-02-26",
+          "age_days": 240,
+          "undated": false,
+          "drop_reason": "stale (240 days old)"
+        },
+        {
+          "claim": "In 2026, cable operators are entering enterprise mobility via MVNO deals, broadening competition beyond consumer wireless.",
+          "stance": "pressure",
+          "why": "Enterprise MVNO competition could pressure T-Mobile's business-services growth ambitions.",
+          "quote": "Cable operators are entering enterprise mobility via MVNO deals",
+          "url": "https://my.idc.com/getdoc.jsp?containerId=US52872926",
+          "publisher": "my.idc.com",
+          "as_of": "2026-03-01",
+          "age_days": 237,
+          "undated": false,
+          "drop_reason": "stale (237 days old)"
+        },
+        {
+          "claim": "In February 2026, T-Mobile raised its 2030 broadband target to 18\u201319 million customers, including 15 million 5G broadband.",
+          "stance": "support",
+          "why": "The target implies FWA and fiber growth must accelerate to reach numbers not yet in reported results.",
+          "quote": "a new target of 18\u201319 million total broadband customers by 2030, comprising 15 million 5G broadband and 3\u20134 million T-Fiber customers",
+          "url": "https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026",
+          "publisher": "t-mobile.com",
+          "as_of": "2026-02-11",
+          "age_days": 255,
+          "undated": false,
+          "drop_reason": "stale (255 days old)"
+        }
+      ],
+      "stale_dropped": 5,
+      "max_age_days": 180
+    }
+  ]
+}

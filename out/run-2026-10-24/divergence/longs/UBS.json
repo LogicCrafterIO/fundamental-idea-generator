@@ -1,0 +1,702 @@
+{
+  "ticker": "UBS",
+  "direction": "long",
+  "as_of": "2026-10-24",
+  "description": "Global wealth manager and Swiss retail and corporate bank, plus an investment bank and asset manager.",
+  "catalyst": {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 4,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.96346,
+      "eps_low": 0.96346,
+      "eps_high": 0.96346,
+      "revenue_avg": 10901844250
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 0.98,
+        "eps_actual": 0.93,
+        "surprise_pct": -4.68,
+        "beat": false
+      },
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 0.83,
+        "eps_actual": 0.95,
+        "surprise_pct": 14.89,
+        "beat": true
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 0.67,
+        "eps_actual": 0.67,
+        "surprise_pct": -0.65,
+        "beat": true
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 0.6,
+        "eps_actual": 0.92,
+        "surprise_pct": 51.91,
+        "beat": true
+      }
+    ],
+    "beat_streak": 0,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-28 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.96.",
+    "why": "Revenue must hold at the 10.9B consensus with the investment bank fee line up, showing fees, not cost cuts, carry earnings."
+  },
+  "reasons": [
+    "Q2 2026 revenue rose 15.9% from a year earlier while SG&A [selling, general and administrative costs] rose only 3.7%, so extra revenue reaches profit at roughly four times the rate of costs.",
+    "Industry investment banking fees rose 12% in the first nine months of 2026, so UBS's advisory and underwriting line rises even as wealth and asset management fees compress.",
+    "UBS flagged $3bn of new buybacks in July; fewer shares mean per-share earnings rise even if profit is flat, so the 0.96 consensus is met without revenue growth."
+  ],
+  "watch": [
+    "Revenue against the 10.9B consensus: confirms at or above it; breaks on a miss.",
+    "Investment bank fee line: confirms growth in line with the 12% industry fee pool; breaks if flat or down.",
+    "SG&A [selling, general and administrative costs] against the 8.62B Q2 level: confirms near it; breaks on a jump that outruns revenue.",
+    "Buyback: confirms the $3bn programme continues; breaks if paused pending Swiss CET1 [common equity tier 1 capital] rules."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S3",
+        "kind": "statements",
+        "ref": "statements",
+        "label": "UBS quarterly income statement and EPS history",
+        "provider": "Nasdaq company financials",
+        "url": "https://www.nasdaq.com/market-activity/stocks/ubs/financials",
+        "date": null
+      }
+    ],
+    [
+      {
+        "id": "S37",
+        "kind": "research",
+        "ref": "trend:4",
+        "label": "investmentexecutive.com: Through the first nine months of 2026, global investment banking fees rose 12% on strong underwriting and M&A.",
+        "provider": "investmentexecutive.com",
+        "url": "https://www.investmentexecutive.com/news/markets/strong-markets-boost-bankers-fortunes/",
+        "date": "2026-10-05"
+      },
+      {
+        "id": "S36",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "bcg.com: In 2026, asset managers face falling fees and rising costs as market-driven revenue growth ends.",
+        "provider": "bcg.com",
+        "url": "https://www.bcg.com/publications/2026/an-imperative-for-growth-and-the-new-economics-of-asset-management",
+        "date": "2026-04-28"
+      }
+    ],
+    [
+      {
+        "id": "S27",
+        "kind": "ollama_search",
+        "ref": "web:7",
+        "label": "reuters.com: UBS posts forecast-beating quarterly profit, flags $3 billion in new buybacks | Reuters",
+        "provider": "reuters.com",
+        "url": "https://www.reuters.com/business/finance/ubs-flags-3-billion-new-buybacks-by-end-june-after-forecast-beating-quarter-2026-07-29/",
+        "date": "2026-07-29"
+      },
+      {
+        "id": "S4",
+        "kind": "catalyst",
+        "ref": "catalyst",
+        "label": "UBS earnings calendar and reported results",
+        "provider": "Nasdaq earnings calendar",
+        "url": "https://www.nasdaq.com/market-activity/stocks/ubs/earnings",
+        "date": "2026-10-28"
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for UBS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/UBS/key-statistics/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for UBS",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/UBS/analysis/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "UBS quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/ubs/financials",
+      "date": null
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "UBS earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/ubs/earnings",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "BNK Invest: AVDE, BBVA, UBS, BHP: ETF Inflow Alert",
+      "provider": null,
+      "url": "/articles/avde-bbva-ubs-bhp-etf-inflow-alert",
+      "date": "Oct 1, 202"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: UBS (UBS) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "provider": null,
+      "url": "/articles/ubs-ubs-earnings-expected-grow-what-know-ahead-next-weeks-release-0",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: UBS or TD: Which Is the Better Value Stock Right Now?",
+      "provider": null,
+      "url": "/articles/ubs-or-td-which-better-value-stock-right-now-0",
+      "date": "Oct 5, 202"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: UBS to Deepen NTRS Tie-Up With Credit Suisse Fund Administration Deal",
+      "provider": null,
+      "url": "/articles/ubs-deepen-ntrs-tie-credit-suisse-fund-administration-deal",
+      "date": "Oct 7, 202"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: SpaceX's Terafab Will Be Bigger Than Any Building on Earth. Here's When Investors Will Profit.",
+      "provider": null,
+      "url": "/articles/spacexs-terafab-will-be-bigger-any-building-earth-heres-when-investors-will-profit",
+      "date": "Oct 1, 202"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Soaring Defense Spending Means Great News for These 2 Stocks",
+      "provider": null,
+      "url": "/articles/soaring-defense-spending-means-great-news-these-2-stocks-0",
+      "date": "Oct 1, 202"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Almost 7 Decades' Worth of History.",
+      "provider": null,
+      "url": "/articles/prediction-stock-market-crash-coming-heres-what-investors-should-do-based-almost-7-decades",
+      "date": "Oct 13, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: Will Broadcom Rejoin the $2 Trillion Club in 2027?",
+      "provider": null,
+      "url": "/articles/will-broadcom-rejoin-2-trillion-club-2027",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: Is It Too Late to Buy Micron Technology Stock After Its 12-Month Gain of 500%?",
+      "provider": null,
+      "url": "/articles/it-too-late-buy-micron-technology-stock-after-its-12-month-gain-500",
+      "date": "Oct 4, 202"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Top Analyst Reports for Texas Instruments, RTX & Marvell",
+      "provider": null,
+      "url": "/articles/top-analyst-reports-texas-instruments-rtx-marvell",
+      "date": "Oct 5, 202"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Best Momentum Stocks to Buy for October 5th",
+      "provider": null,
+      "url": "/articles/best-momentum-stocks-buy-october-5th",
+      "date": "Oct 5, 202"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Chainlink Just Released a New Version of Its Blockchain Interoperability Protocol. Here's What It Means for LINK Investors.",
+      "provider": null,
+      "url": "/articles/chainlink-just-released-new-version-its-blockchain-interoperability-protocol-heres-what-it",
+      "date": "Oct 8, 202"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: Had You Bought This Vanguard ETF at the Start of January, You'd be Obliterating the S&P 500 in 2026",
+      "provider": null,
+      "url": "/articles/had-you-bought-vanguard-etf-start-january-youd-be-obliterating-sp-500-2026",
+      "date": "Oct 1, 202"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "The Motley Fool: Nvidia and Micron Technology Just Received Some Very Bad News From an Unlikely Place",
+      "provider": null,
+      "url": "/articles/nvidia-and-micron-technology-just-received-some-very-bad-news-unlikely-place",
+      "date": "Oct 12, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: 10 Wall Street Analysts Think Argenx Stock Is Headed to At Least $1,200 -- Is the Stock a Buy Now?",
+      "provider": null,
+      "url": "/articles/10-wall-street-analysts-think-argenx-stock-headed-least-1200-stock-buy-now",
+      "date": "Oct 5, 202"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "sg.finance.yahoo.com: UBS Group AG (UBSG.SW) analyst ratings, estimates and forecasts \u2013 Yahoo Finance",
+      "provider": "sg.finance.yahoo.com",
+      "url": "https://sg.finance.yahoo.com/quote/UBSG.SW/analysis/",
+      "date": null
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "vcpscanner.com: UBS Stock Analysis & Analyst Ratings | VCP Scanner",
+      "provider": "vcpscanner.com",
+      "url": "https://vcpscanner.com/stock/ubs/analysis",
+      "date": null
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "investing.com: UBS: The Fragile Facade of a Post-Merger Powerhouse | Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/analysis/ubs-the-fragile-facade-of-a-postmerger-powerhouse-200675314",
+      "date": null
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "bloomberg.com: UBS Is Facing More Risk From Credit Suisse\u2019s Past - Bloomberg",
+      "provider": "bloomberg.com",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-02-05/ubs-is-facing-more-risk-from-credit-suisse-s-past",
+      "date": "2026-02-04"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "circlfi.com: UBS Stock: Buy or Avoid in 2026? | CirclFi",
+      "provider": "circlfi.com",
+      "url": "https://circlfi.com/blog/ubs-stock-analysis/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "ubs.com: UBS reports 2Q26 net profit of USD 2.8bn and USD 5.8bn for 1H26 with robust momentum across businesses; Group invested assets at USD 7.3trn",
+      "provider": "ubs.com",
+      "url": "https://www.ubs.com/content/dam/assets/cc/investor-relations/quarterlies/2026/2q26/2q26-media-release-en.pdf",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "ubs.com: Quarterly reporting | UBS Global",
+      "provider": "ubs.com",
+      "url": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting.html",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "reuters.com: UBS posts forecast-beating quarterly profit, flags $3 billion in new buybacks | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/finance/ubs-flags-3-billion-new-buybacks-by-end-june-after-forecast-beating-quarter-2026-07-29/",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketbeat.com: UBS Group Stock Earnings Estimates Cut by Erste Group Bank",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-ubs-group-stock-earnings-estimates-cut-by-erste-group-bank-2026-10-14/",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investing.com: UBS capital rules have Swiss stuck between a rock and a hard place By Reuters",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/ubs-capital-rules-have-swiss-stuck-between-a-rock-and-a-hard-place-4956349",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "nexqual.com: UBS Group AG (UBS) Stock Analysis, October 2026: Insider Selling, Superinvestors & Valuation | Nexqual",
+      "provider": "nexqual.com",
+      "url": "https://nexqual.com/UBS",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "ubs.com: Consensus report EXT",
+      "provider": "ubs.com",
+      "url": "https://www.ubs.com/global/en/investor-relations/investors/shareholder-information/analyst-consensus-report/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/linklist/link.956247188.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3NoYXJlaG9sZGVyLzIwMjYvY29uc2Vuc3VzLXJlcG9ydC5wZGY=/consensus-report.pdf",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "tradingview.com: Weekly Recap: Quarterly results, share drop and Swiss push to raise CET1 \u2014 TradingView News",
+      "provider": "tradingview.com",
+      "url": "https://www.tradingview.com/news/tradingview:4e384f09ba2cc:0-weekly-recap-quarterly-results-share-drop-and-swiss-push-to-raise-cet1/",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "bcg.com: As of May 2026, AI-enabled tax-planning tools are prompting investors to reassess wealth managers' fees and operating leverage.",
+      "provider": "bcg.com",
+      "url": "https://www.bcg.com/assets/2026/white-paper-ai-is-rewiring-the-wealth-management-business-model.pdf",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "bny.com: In 2026, wealthy investors are choosing advisors for their AI advantage, supporting demand for AI-capable wealth platforms.",
+      "provider": "bny.com",
+      "url": "https://www.bny.com/assets/wealth/pdf-library/reports/the-intelligent-investor-insights-on-ai-forward-investing.pdf",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "ropesgray.com: As of August 2026, private markets face record-low management fees and an unprecedented wave of industry M&A.",
+      "provider": "ropesgray.com",
+      "url": "https://www.ropesgray.com/en/insights/alerts/2026/08/the-principal-view-trends-shaping-private-markets-august-2026",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "bcg.com: In 2026, asset managers face falling fees and rising costs as market-driven revenue growth ends.",
+      "provider": "bcg.com",
+      "url": "https://www.bcg.com/publications/2026/an-imperative-for-growth-and-the-new-economics-of-asset-management",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "investmentexecutive.com: Through the first nine months of 2026, global investment banking fees rose 12% on strong underwriting and M&A.",
+      "provider": "investmentexecutive.com",
+      "url": "https://www.investmentexecutive.com/news/markets/strong-markets-boost-bankers-fortunes/",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "S38",
+      "kind": "options",
+      "ref": "options",
+      "label": "UBS listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/UBS/options/",
+      "date": "2026-10-24"
+    }
+  ],
+  "quants": {
+    "price": 46.37,
+    "market_cap": "141.97B",
+    "fwd_pe": 13.6,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 2.7,
+    "eps_trend": "up over the last 7 days",
+    "eps_revisions": "all up, with 1 up and 0 down over last 30 days",
+    "extra": [
+      "Total Revenue -3% quarter over quarter but +16% year over year (2026-06-30)",
+      "EPS increased year over year, 0.82 -> 0.93"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [
+      {
+        "label": "Total Revenue",
+        "qoq_pct": -3.1,
+        "yoy_pct": 15.9,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Income",
+        "qoq_pct": -7.9,
+        "yoy_pct": 16.9,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Interest Income",
+        "qoq_pct": -70.2,
+        "yoy_pct": 22.0,
+        "conflict": true,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Net Interest Income",
+        "qoq_pct": 3.4,
+        "yoy_pct": 22.0,
+        "conflict": false,
+        "period": "2026-06-30"
+      },
+      {
+        "label": "Selling General And Administration",
+        "qoq_pct": 2.9,
+        "yoy_pct": 3.7,
+        "conflict": false,
+        "period": "2026-06-30"
+      }
+    ],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 4.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 52.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 52.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Expense",
+        "change_pct": -26.2,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Interest Income",
+        "change_pct": -20.4,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Interest Income",
+        "change_pct": 9.0,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [],
+    "catalyst_days": 4,
+    "bar": {
+      "date": "2026-10-28",
+      "eps_avg": 0.96346,
+      "eps_low": 0.96346,
+      "eps_high": 0.96346,
+      "revenue_avg": 10901844250
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Feb-27",
+        "strike": 47.5,
+        "qty": 14,
+        "underlying": 46.37,
+        "multiplier": 100,
+        "price": 3.03,
+        "total": 4241.999999999999,
+        "open_interest": 154
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 47.5,
+        "qty": 5,
+        "underlying": 46.37,
+        "multiplier": 100,
+        "price": 1.25,
+        "total": -625.0,
+        "open_interest": 1141
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-27 report, with the long leg expiring 2027-02-19, which gives the thesis time to show up.",
+    "reflection": "The sold 47.5 calls expire three weeks after the print, so the stock has to clear 47.5 quickly or the February leg pays for the credit. At 13.4% conservative the credit is fat enough to sell more near-dated calls; the real risk is a print that lands between 46 and 47.5 and leaves both legs at the money."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 72,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": [
+          "\"10.5\""
+        ]
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 2,
+        "warnings": 5,
+        "unsupported_figures": [
+          "\"10.5\""
+        ]
+      },
+      {
+        "round": 1,
+        "score": 95,
+        "errors": 0,
+        "warnings": 1,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 7,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 4,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "contradicts",
+        "confirms",
+        "mixed"
+      ],
+      "confirmed": 1,
+      "contradicted": 1,
+      "mixed": 1,
+      "majority": "contradicts",
+      "agreement": 0.33
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 95,
+        "verdict": "contradicts",
+        "supportive": 2,
+        "adverse": 3,
+        "trends_available": 5,
+        "trends_used": [
+          "advisory",
+          "banking",
+          "first",
+          "management",
+          "months",
+          "underwriting"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 2,
+        "adverse": 1,
+        "trends_available": 3,
+        "trends_used": [
+          "advisory",
+          "gains",
+          "through"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 95,
+        "verdict": "mixed",
+        "supportive": 1,
+        "adverse": 1,
+        "trends_available": 2,
+        "trends_used": [
+          "among",
+          "fewer",
+          "firms",
+          "flows",
+          "global",
+          "record"
+        ]
+      }
+    ]
+  }
+}

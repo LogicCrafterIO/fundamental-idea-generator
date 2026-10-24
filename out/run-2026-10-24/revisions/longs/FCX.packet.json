@@ -1,0 +1,1901 @@
+{
+  "symbol": "FCX",
+  "as_of": "2026-10-24",
+  "generated_at": "2026-10-24T13:49:40",
+  "profile": {
+    "symbol": "FCX",
+    "name": "Freeport-McMoRan Inc.",
+    "sector": "Basic Materials",
+    "industry": "Copper",
+    "summary": "Freeport-McMoRan Inc. engages in the mining of mineral properties in North America, South America, and Indonesia. The company primarily explores for copper, gold, molybdenum, silver, and other metals. Its assets include the Grasberg minerals district in Indonesia; Morenci, Bagdad, Safford, Sierrita, and Miami in Arizona; Chino and Tyrone in New Mexico; and Henderson and Climax in Colorado, North America, as well as Cerro Verde in Peru and El Abra in Chile. The company was formerly known as Freeport-McMoRan Copper & Gold Inc. and changed its name to Freeport-McMoRan Inc. in July 2014. The company was incorporated in 1987 and is headquartered in Phoenix, Arizona.",
+    "employees": 29000,
+    "country": "United States",
+    "website": "https://fcx.com"
+  },
+  "quants": {
+    "symbol": "FCX",
+    "name": "Freeport-McMoRan Inc.",
+    "price": 65.18,
+    "market_cap": 93599621120,
+    "market_cap_human": "93.6B",
+    "fwd_pe": 20.36,
+    "fwd_pe_1y": 14.97,
+    "fwd_pe_yahoo": 14.966567,
+    "trailing_pe": 32.108376,
+    "ps": 3.6183558,
+    "ev_ebitda": 11.722,
+    "sector": "Basic Materials",
+    "industry": "Copper",
+    "eps_fy_current": 3.20091,
+    "eps_fy_next": 4.35504,
+    "eps_trend": {
+      "change_7d_pct": 0.12,
+      "change_30d_pct": 5.07,
+      "current": 3.20091,
+      "7d_ago": 3.19706,
+      "30d_ago": 3.04643,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 8,
+      "down_7d": 2,
+      "up_30d": 9,
+      "down_30d": 1,
+      "net_30d": 8,
+      "text": "tilted higher, with 9 up and 1 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "next_date": "2026-10-27",
+      "eps_avg": 0.83062,
+      "eps_low": 0.72,
+      "eps_high": 0.94,
+      "revenue_avg": 7399114430
+    },
+    "as_of": "2026-10-24"
+  },
+  "quants_lines": [
+    "Price: 65.18 USD",
+    "Market Cap: 93.6B",
+    "Fwd PE: 20.36",
+    "P/S: 3.6",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: tilted higher, with 9 up and 1 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Sales, General and Admin.",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 135000.0,
+      "prior": 537000.0,
+      "change_pct": -74.9,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1370000.0,
+      "prior": 2046000.0,
+      "change_pct": -33.0,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Long-Term Investments",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1066000.0,
+      "prior": 832000.0,
+      "change_pct": 28.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1002000.0,
+      "prior": 881000.0,
+      "change_pct": 13.7,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 7029000.0,
+      "prior": 6234000.0,
+      "change_pct": 12.8,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income Applicable to Common Shareholders",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 984000.0,
+      "prior": 881000.0,
+      "change_pct": 11.7,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-23T08:00:00-04:00",
+    "current": 0.74,
+    "year_ago": 0.54,
+    "year_ago_period": "2025-07-23T08:00:00-04:00",
+    "change": 0.2,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 7029000000.0,
+      "prior": 6234000000.0,
+      "qoq_pct": 12.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 7582000000.0,
+      "yoy_pct": -7.3,
+      "conflict": true
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 984000000.0,
+      "prior": 881000000.0,
+      "qoq_pct": 11.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 772000000.0,
+      "yoy_pct": 27.5,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2025000000.0,
+      "prior": 2148000000.0,
+      "qoq_pct": -5.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2473000000.0,
+      "yoy_pct": -18.1,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2548000000.0,
+      "prior": 2662000000.0,
+      "qoq_pct": -4.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3141000000.0,
+      "yoy_pct": -18.9,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1985000000.0,
+      "prior": 1438000000.0,
+      "qoq_pct": 38.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2432000000.0,
+      "yoy_pct": -18.4,
+      "conflict": true
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2186000000.0,
+      "prior": 1655000000.0,
+      "qoq_pct": 32.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2632000000.0,
+      "yoy_pct": -16.9,
+      "conflict": true
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 95000000.0,
+      "prior": 114000000.0,
+      "qoq_pct": -16.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 82000000.0,
+      "yoy_pct": 15.9,
+      "conflict": true
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": -95000000.0,
+      "prior": -114000000.0,
+      "qoq_pct": 16.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": -82000000.0,
+      "yoy_pct": -15.9,
+      "conflict": true
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 25915000000.0,
+      "prior": 25455000000.0,
+      "change_pct": 1.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 2204000000.0,
+      "prior": 1889000000.0,
+      "change_pct": 16.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 2204000000.0,
+      "prior": 1889000000.0,
+      "change_pct": 16.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 369000000.0,
+      "prior": 319000000.0,
+      "change_pct": 15.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": -369000000.0,
+      "prior": -319000000.0,
+      "change_pct": -15.7,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 6741000000.0,
+      "prior": 7226000000.0,
+      "change_pct": -6.7,
+      "direction": "decreasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-27",
+    "eps_avg": 0.83062,
+    "eps_low": 0.72,
+    "eps_high": 0.94,
+    "revenue_avg": 7399114430
+  },
+  "news": [
+    {
+      "title": "fcx-20261002",
+      "publisher": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000043/fcx-20261002.htm",
+      "summary": "fcx-20261002\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nCURRENT REPORT\n\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported): October 2, 2026\n\nFreeport-McMoRan Inc. \n\n(Exact name of registrant as specified in its charter)\n\n| Delaware | 001-11307-01 | 74-2480931 |\n| --- | --- | --- |\n| (State or other jurisdiction of incorporation) | (Commission File Number) | (IRS Employer Identification No.) |\n\n| 4340 E. Cotton Center Blvd., Suite 110 | | |\n| --- | --- | --- |\n| Phoenix | AZ | 85040 |\n| (Address of principal",
+      "published": "2026-10-02",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss (FCX:NYSE) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4649829-freeport-mcmoran-hits-q3-copper-targets-copper-futures-head-for-weekly-loss",
+      "summary": "Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss (FCX:NYSE) | Seeking Alpha\n\n# Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss\n\nOct 02, 2026, 9:52 AM ET Freeport-McMoRan Inc. (FCX) Stock COPX, CPER, HG1:COM By: Carl Surran, SA News Editor\n\nSimoneN/iStock via Getty Images\n\nFreeport-McMoRan (FCX) rose 3.3% in early trading Friday after reporting Q3 copper production of 830M lbs, in line with its forecast, saying stronger performance in its international operations offset slightly lower production in the U.S., and gold production of 230K oz",
+      "published": "2026-10-02",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "DYOR HQ - Freeport-McMoRan Inc (FCX) | 2026-10-04",
+      "publisher": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/freeportmcmoraninc",
+      "summary": "DYOR HQ - Freeport-McMoRan Inc (FCX) | 2026-10-04\n\n# FCX - Freeport-McMoRan Inc\n\n## Executive Summary\n\nFreeport-McMoRan Inc is one of the world's largest publicly traded copper producers, headquartered in Phoenix, Arizona, with large, long-lived, geographically diversified mining assets containing proven and probable reserves of copper, gold and molybdenum. The company operates a portfolio of integrated mining and processing operations across the Americas and Indonesia, with the Grasberg complex in Indonesia a flagship contributor to group output and earnings.\n\nThe investment case rests on con",
+      "published": "2026-10-04",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "FCX \u2014 Freeport-McMoRan Inc. | The Trading Hawk",
+      "publisher": "thetradinghawk.com",
+      "url": "https://thetradinghawk.com/Analysis/FCX/FCX_Equity_Report.html",
+      "summary": "FCX \u2014 Freeport-McMoRan Inc. | The Trading Hawk\n\nFreeport-McMoRan Inc.\n\n BUY Materials Copper Mining Gold Production Basic Materials Industrial Metals Energy Transition NYSE \u00b7 S&P 500 \n\nFreeport-McMoRan (NYSE: FCX) represents the world's premier pure-play copper mining producer, positioned at the epicenter of structural secular demand generated by artificial intelligence datacenter power infrastructure, global grid modernization, and clean energy electrification. Anchor assets\u2014principally the crown-jewel Grasberg minerals district in Indonesia alongside premier open-pit operations across Arizon",
+      "published": "2026-10-05",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Erste Group Bank Issues Optimistic Estimate for FCX Earnings",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-issues-optimistic-estimate-for-fcx-earnings-2026-10-14/",
+      "summary": "Skip to main content\n\n$100 Off. Every Year. Lock In MarketBeat All Access at $149\n\nClaim the Rate Lock \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Erste Group Bank Issues Optimistic Estimate for FCX Earnings\n\nWritten by MarketBeat\n\nOctober 14, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank raised its FY2027 EPS forecast f",
+      "published": "2026-10-14",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is FCX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "publisher": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/fcx/is-it-a-buy-or-sell",
+      "summary": "Is FCX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is FCX a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Freeport-McMoRan (FCX) rests on Copper and the energy transition: Copper is essential to electrification: EVs, charging, renewable power, grid expansion, and data centers all use far more copper than legacy alternatives. The bear case rests on freeport is a commodity producer, so its revenue and profits swing sharply with copper and gold pr",
+      "published": "2026-10-16",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "ai_capex"
+      ]
+    },
+    {
+      "title": "Freeport-McMoRan (FCX) Analyst Ratings",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/fcx/ratings/",
+      "summary": "Freeport-McMoRan (FCX) Analyst Ratings\n\n65.18 +0.59 (0.91%) At close: Oct 23, 2026, 4:00 PM EDT\n\n65.30 +0.12 (0.18%) After-hours: Oct 23, 2026, 7:56 PM EDT\n\n# Freeport-McMoRan Analyst Ratings\n\n## Ratings History\n\n| Analyst | Firm | Rating | Rating | Action | Price Target | Upside | Date |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Richard Garchitorena Barclays | Barclays | Buy Maintains $83 \u2192 $84 | Buy | Maintains | $83 \u2192 $84 | +28.87% | Oct 19, 2026 |\n| Daniel Major UBS | UBS | Buy Maintains $77 \u2192 $88 | Buy | Maintains | $77 \u2192 $88 | +35.01% | Oct 8, 2026 |\n| Bill Peterson J.P. Morgan",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Freeport-McMoRan (FCX) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/fcx/forecast/",
+      "summary": "Freeport-McMoRan (FCX) Stock Forecast & Analyst Price Targets\n\n65.18 +0.59 (0.91%) At close: Oct 23, 2026, 4:00 PM EDT\n\n65.56 +0.38 (0.58%) After-hours: Oct 23, 2026, 5:55 PM EDT\n\n# Freeport-McMoRan Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 23 analysts polled by S&P Global, Freeport-McMoRan stock has a consensus rating of \"Buy\" and an average price target of $79.07. The average 1-year stock price forecast is 21.31% higher than the current stock price, while the lowest is $32 (-50.91%) and the highest is $92 (+41.15%).\n\nPrice Target: $79.07 (+21.31%)\n\nAnalyst Consensus: Buy\n\n## Pric",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "4 Charts That Explain the Copper Supply Crunch Investors Should Watch",
+      "publisher": "The Motley Fool",
+      "created": "Oct 17, 2026",
+      "ago": "6 days ago",
+      "url": "/articles/4-charts-explain-copper-supply-crunch-investors-should-watch",
+      "primary_symbol": "FCX",
+      "related_symbols": [
+        "FCX",
+        "SPGI",
+        "COPX"
+      ],
+      "summary": "Key PointsImproving demand and the difficulties inherent in increasing supply favor a rising copper price environment.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Analyst Favorites: Freeport-McMoran Copper & Gold Ranks As a Top Metals Pick",
+      "publisher": "BNK Invest",
+      "created": "Oct 19, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/analyst-favorites-freeport-mcmoran-copper-gold-ranks-top-metals-pick-1",
+      "primary_symbol": "FCX",
+      "related_symbols": [
+        "FCX"
+      ],
+      "summary": "A study of analyst recommendations at the major brokerages shows that Freeport-McMoran Copper & Gold (Symbol: FCX) is the #3 broker analyst pick, on average, out of the 50 stocks making up the Metals Channel Global Mining Titans Index, according to Metals Channel.  The Metal",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Freeport-McMoRan (FCX) Stock Sinks As Market Gains: What You Should Know",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/freeport-mcmoran-fcx-stock-sinks-market-gains-what-you-should-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FCX"
+      ],
+      "summary": "Freeport-McMoRan (FCX) concluded the recent trading session at $68.87, signifying a -1.26% move from its prior day's close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Freeport-McMoRan (FCX) Earnings Expected to Grow: Should You Buy?",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/freeport-mcmoran-fcx-earnings-expected-grow-should-you-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FCX"
+      ],
+      "summary": "Freeport-McMoRan (FCX) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Are Basic Materials Stocks Lagging  FreeportMcMoRan (FCX) This Year?",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/are-basic-materials-stocks-lagging-freeportmcmoran-fcx-year",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FCX",
+        "STLD"
+      ],
+      "summary": "Here is how Freeport-McMoRan (FCX) and Steel Dynamics (STLD) have performed compared to their sector so far this year.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Freeport-McMoRan (FCX) Is Considered a Good Investment by Brokers: Is That True?",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/freeport-mcmoran-fcx-considered-good-investment-brokers-true",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FCX"
+      ],
+      "summary": "Based on the average brokerage recommendation (ABR), Freeport-McMoRan (FCX) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Notable ETF Outflow Detected - XLB, NEM, FCX, ECL",
+      "publisher": "BNK Invest",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/notable-etf-outflow-detected-xlb-nem-fcx-ecl",
+      "primary_symbol": "XLB",
+      "related_symbols": [
+        "XLB",
+        "NEM",
+        "FCX",
+        "ECL"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Materials Select Sector SPDR ETF (Symbol: XLB) where we have detected an approximate $192.4 million dollar outflow -- that's a 2.4% dec",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Countdown to Freeport-McMoRan (FCX) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/countdown-freeport-mcmoran-fcx-q3-earnings-look-estimates-beyond-revenue-and-eps",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FCX"
+      ],
+      "summary": "Get a deeper insight into the potential performance of Freeport-McMoRan (FCX) for the quarter ended September 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Here is What to Know Beyond Why Freeport-McMoRan Inc. (FCX) is a Trending Stock",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/here-what-know-beyond-why-freeport-mcmoran-inc-fcx-trending-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "FCX"
+      ],
+      "summary": "Zacks.com users have recently been watching Freeport-McMoRan (FCX) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Carpenter Technology Set to Report Q1 Earnings: What to Expect?",
+      "publisher": "Zacks",
+      "created": "Oct 16, 2026",
+      "ago": "Oct 16, 2026",
+      "url": "/articles/carpenter-technology-set-report-q1-earnings-what-expect",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CRS",
+        "FCX",
+        "RS",
+        "OR"
+      ],
+      "summary": "CRS's Q1'27 results are expected to reflect aerospace demand, higher prices and productivity gains, but uneven medical trends remain concerning.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "STLD Q3 Earnings Miss Estimates Despite Strong Steel Pricing",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/stld-q3-earnings-miss-estimates-despite-strong-steel-pricing",
+      "primary_symbol": null,
+      "related_symbols": [
+        "STLD",
+        "FCX",
+        "CRS",
+        "ASM"
+      ],
+      "summary": "Steel Dynamics' Q3 2026 earnings surge 92% as record steel shipments and higher prices fuel sales growth.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Rare Earths vs. Copper: Should You Buy MP Materials or Freeport-McMoRan?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/rare-earths-vs-copper-should-you-buy-mp-materials-or-freeport-mcmoran",
+      "primary_symbol": "MP",
+      "related_symbols": [
+        "MP",
+        "FCX"
+      ],
+      "summary": "Key PointsRare-earth elements are crucial for magnets used in many modern technologies, while copper is a key metal in the power grid.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "These 2 Basic Materials Stocks Could Beat Earnings: Why They Should Be on Your Radar",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "17 hours ago",
+      "url": "/articles/these-2-basic-materials-stocks-could-beat-earnings-why-they-should-be-your-radar-2",
+      "primary_symbol": null,
+      "related_symbols": [
+        "APD",
+        "FCX"
+      ],
+      "summary": "Why investors should use the Zacks Earnings ESP tool to help find stocks that are poised to top quarterly earnings estimates.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "NUE to Report Q3 Earnings: What's in the Offing for the Stock?",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "18 hours ago",
+      "url": "/articles/nue-report-q3-earnings-whats-offing-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "NUE",
+        "FCX",
+        "DD",
+        "HUN"
+      ],
+      "summary": "Nucor heads into Q3 earnings with higher steel prices and stronger Steel Mills and Steel Products performance in focus, as sales are expected to rise 23.6% year over year.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Freeport-McMoRan (NYSE:FCX) Price Target Raised to $84.00",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-freeport-mcmoran-nyse-fcx-price-target-raised-to-8400-2026-10-19/",
+      "summary": "Skip to main content\n\nFall Lock-In Sale! MarketBeat All Access, $149 a Year for Life\n\nLock In $149 \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Freeport-McMoRan (NYSE:FCX) Price Target Raised to $84.00\n\nWritten by MarketBeat\n\nOctober 19, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Barclays raised Freeport-McMoRan\u2019s price target from $83",
+      "published": "2026-10-19",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Freeport-McMoRan Inc. - Investors - News Releases",
+      "publisher": "investors.fcx.com",
+      "url": "https://investors.fcx.com/investors/news-releases/",
+      "summary": "Freeport-McMoRan Inc. - Investors - News Releases \n\n# News Releases\n\n 10/02/26 \n\n Freeport Provides Third-Quarter 2026 Operational Update Download PDF format download (opens in new window) \n\n 09/23/26 \n\n Freeport Declares Quarterly Cash Dividends on Common Stock Download PDF format download (opens in new window) \n\n 07/23/26 \n\n Freeport Reports Second-Quarter and Six-Month 2026 Results Download PDF format download (opens in new window) \n\n 06/24/26 \n\n Freeport Declares Quarterly Cash Dividends on Common Stock Download PDF format download (opens in new window) \n\n 04/23/26 \n\n Freeport Reports Firs",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Freeport-McMoRan at jefferies industrials conference: growth bets take shape By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/freeportmcmoran-at-jefferies-industrials-conference-growth-bets-take-shape-93CH-4896429",
+      "summary": "Freeport-McMoRan at jefferies industrials conference: growth bets take shape By Investing.com\n\n# Freeport-McMoRan at jefferies industrials conference: growth bets take shape\n\nPublished Sep 10, 2026, 11:25 AM\n\nOn Thursday, 10 September 2026, Freeport-McMoRan (FCX) used the Jefferies Global Industrials Conference 2026 to outline a business in transition: recovering from a serious incident at Grasberg while leaning into copper growth in the U.S. and other brownfield assets. The company described a stronger long-term position, but also acknowledged operational risk, weather uncertainty in Indonesi",
+      "published": "2026-09-10",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) bull bear case risks",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Freeport-McMoRan Inc. - Freeport Provides Third-Quarter 2026 Operational Update",
+      "publisher": "investors.fcx.com",
+      "url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Provides-Third-Quarter-2026-Operational-Update/default.aspx",
+      "summary": "Freeport-McMoRan Inc. - Freeport Provides Third-Quarter 2026 Operational Update \n\n### Freeport Provides Third-Quarter 2026 Operational Update \n\n October 2, 2026 \n\n- Third-quarter 2026 consolidated copper and gold production approximated expectations\n- Third-quarter 2026 consolidated copper sales expected to approximate July estimates; consolidated gold sales impacted by timing in Indonesia\n- Mining operations in the Grasberg minerals district proceeding in line with expectations\n- Operations at PTFI\u2019s smelter re-commenced in late August 2026\n- Positioned for future growth\n\nPHOENIX--(BUSINESS W",
+      "published": "2026-10-02",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Scotiabank Raises Earnings Estimates for Freeport-McMoRan",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-scotiabank-raises-earnings-estimates-for-freeport-mcmoran-2026-10-14/",
+      "summary": "Skip to main content\n\nEarnings Season Is Here. MarketBeat All Access for Just $149\n\nGet the Deal \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Scotiabank Raises Earnings Estimates for Freeport-McMoRan\n\nWritten by MarketBeat\n\nOctober 14, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Scotiabank raised Freeport-McMoRan\u2019s FY2026 EPS estimate t",
+      "published": "2026-10-14",
+      "source": "ollama_search",
+      "query": "Freeport-McMoRan Inc. (FCX) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 8,
+        "share": 0.533,
+        "evidence": [
+          {
+            "title": "Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss (FCX:NYSE) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-02",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "Erste Group Bank Issues Optimistic Estimate for FCX Earnings",
+            "publisher": "marketbeat.com",
+            "published": "2026-10-14",
+            "matched": [
+              "forecast",
+              "estimate"
+            ]
+          },
+          {
+            "title": "Freeport-McMoRan (FCX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Countdown to Freeport-McMoRan (FCX) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+            "publisher": "Zacks",
+            "published": "Oct 22, 2026",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 3,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "Freeport-McMoRan (FCX) Analyst Ratings",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Freeport-McMoRan (FCX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Freeport-McMoRan (NYSE:FCX) Price Target Raised to $84.00",
+            "publisher": "marketbeat.com",
+            "published": "2026-10-19",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ai_capex",
+        "label": "AI infrastructure capex",
+        "description": "Spending on AI compute and the data centres that house it.",
+        "count": 2,
+        "share": 0.133,
+        "evidence": [
+          {
+            "title": "FCX \u2014 Freeport-McMoRan Inc. | The Trading Hawk",
+            "publisher": "thetradinghawk.com",
+            "published": "2026-10-05",
+            "matched": [
+              "datacenter"
+            ]
+          },
+          {
+            "title": "Is FCX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+            "publisher": "walnutinvest.com",
+            "published": "2026-10-16",
+            "matched": [
+              "data center"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.067,
+        "evidence": [
+          {
+            "title": "fcx-20261002",
+            "publisher": "sec.gov",
+            "published": "2026-10-02",
+            "matched": [
+              "securities and exchange"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 1,
+        "share": 0.067,
+        "evidence": [
+          {
+            "title": "Freeport-McMoRan Inc. - Investors - News Releases",
+            "publisher": "investors.fcx.com",
+            "published": null,
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-27"
+    ],
+    "next_date": "2026-10-27",
+    "eps_avg": 0.83062,
+    "eps_low": 0.72,
+    "eps_high": 0.94,
+    "revenue_avg": 7399114430
+  },
+  "catalyst": {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "days_out": 3,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 0.83062,
+      "eps_low": 0.72,
+      "eps_high": 0.94,
+      "revenue_avg": 7399114430
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-23",
+        "eps_estimate": 0.62,
+        "eps_actual": 0.74,
+        "surprise_pct": 18.7,
+        "beat": true
+      },
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.57,
+        "surprise_pct": 21.95,
+        "beat": true
+      },
+      {
+        "date": "2026-01-22",
+        "eps_estimate": 0.32,
+        "eps_actual": 0.47,
+        "surprise_pct": 46.66,
+        "beat": true
+      },
+      {
+        "date": "2025-10-23",
+        "eps_estimate": 0.41,
+        "eps_actual": 0.5,
+        "surprise_pct": 22.84,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-27 (Tuesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 0.83."
+  },
+  "forward_trends": {
+    "queries": [
+      "Freeport-McMoRan FCX copper molybdenum end-use demand 2026 construction electrical grid data centers",
+      "2026 copper substitution aluminum wiring EV motors solar technology disruption demand",
+      "2026 US construction manufacturing capital spending electrical equipment hiring budgets",
+      "2026 copper industry structural demand growth electrification grid investment supply gap recycling"
+    ],
+    "results_count": 20,
+    "results_dated": 20,
+    "trends": [
+      {
+        "claim": "In Q2 2026, Grasberg is in phased restart and ramp-up after the September 2025 mud rush, supporting future production.",
+        "stance": "support",
+        "why": "As PTFI restores output, FCX should convert deferred ore into sales and improve Indonesia results.",
+        "quote": "phased restart and ramp-up of production and downstream processing following the September 2025 external mud rush incident",
+        "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/fcx2q26cc_final.htm",
+        "publisher": "sec.gov",
+        "as_of": "2026-08-01",
+        "age_days": 84,
+        "undated": false
+      },
+      {
+        "claim": "After Q2 2026, FCX expects higher sales and production in coming periods, supporting revenue growth.",
+        "stance": "support",
+        "why": "Higher volumes would lift revenue and absorb fixed costs, flowing into earnings over 2026-2027.",
+        "quote": "expects higher sales and production in the coming periods",
+        "url": "https://stockanalysis.com/stocks/fcx/transcripts/653699-q2-2026/",
+        "publisher": "stockanalysis.com",
+        "as_of": "2026-07-23",
+        "age_days": 93,
+        "undated": false
+      },
+      {
+        "claim": "In June 2026, Ferrari and BMW joined Tesla and China automakers in switching from copper to aluminum wiring.",
+        "stance": "pressure",
+        "why": "Lost auto wiring demand reduces a growth outlet for FCX copper over the next 1-3 years.",
+        "quote": "Ferrari and BMW join Tesla, China in switch from copper to cheaper aluminium",
+        "url": "https://www.reuters.com/business/autos-transportation/ferrari-bmw-join-tesla-china-switch-copper-cheaper-aluminium-2026-06-30/",
+        "publisher": "reuters.com",
+        "as_of": "2026-06-30",
+        "age_days": 116,
+        "undated": false
+      },
+      {
+        "claim": "As of July 2026, a global backlash against data-centre rollout could hit soaring copper demand.",
+        "stance": "pressure",
+        "why": "Data centres are a key copper demand driver; slower buildout would reduce future FCX sales.",
+        "quote": "Soaring demand for copper could take a hit from a global backlash against the rollout of data centres",
+        "url": "https://www.afr.com/markets/commodities/copper-to-hit-speed-bump-from-data-centre-pushback-and-aluminium-pivot-20260702-p60bz0",
+        "publisher": "afr.com",
+        "as_of": "2026-07-02",
+        "age_days": 114,
+        "undated": false
+      },
+      {
+        "claim": "As of October 2026, aluminum is not replacing copper across the board, limiting substitution pressure.",
+        "stance": "support",
+        "why": "Partial substitution leaves most copper demand intact for FCX over the next 1-3 years.",
+        "quote": "Aluminium isn't replacing copper across the board",
+        "url": "https://www.lmeinsight.com/coppers-expensive-alternative-is-aluminium-substitution-becoming-structural/",
+        "publisher": "lmeinsight.com",
+        "as_of": "2026-10-22",
+        "age_days": 2,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "FCX",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 65.18,
+      "catalyst": "2027-01-26",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 67.5,
+        "premium": 5.97,
+        "bid": 5.7,
+        "ask": 6.25,
+        "mid": 5.97,
+        "last": 6.2,
+        "open_interest": 65,
+        "volume": 12,
+        "implied_vol": 0.4880422290039063,
+        "qty": 7
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 67.5,
+        "premium": 2.65,
+        "bid": 2.41,
+        "ask": 2.89,
+        "mid": 2.65,
+        "last": 2.8,
+        "open_interest": 258,
+        "volume": 21,
+        "implied_vol": 0.5043994873046875,
+        "qty": 2
+      },
+      "long_total": 4179.0,
+      "short_total": 530.0,
+      "net_debit": 3649.0,
+      "credit_ratio_mid": 0.1268,
+      "credit_ratio_conservative": 0.1102,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Feb-27",
+          "strike": 67.5,
+          "qty": 7,
+          "underlying": 65.18,
+          "multiplier": 100,
+          "price": 5.97,
+          "total": 4179.0,
+          "open_interest": 65
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 67.5,
+          "qty": 2,
+          "underlying": 65.18,
+          "multiplier": 100,
+          "price": 2.65,
+          "total": -530.0,
+          "open_interest": 258
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-26 catalyst; long expires 19-Feb-27, after it",
+        "targets report #2 (2027-01-26); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 67.5, 70, 72.5, 75"
+      ],
+      "advice": "Credit ratio 11.0% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0634,
+          "credit_ratio_conservative": 0.0551,
+          "passes_floor": false,
+          "cash_collected": 265.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1268,
+          "credit_ratio_conservative": 0.1102,
+          "passes_floor": true,
+          "cash_collected": 530.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1902,
+          "credit_ratio_conservative": 0.1653,
+          "passes_floor": true,
+          "cash_collected": 795.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.2536,
+          "credit_ratio_conservative": 0.2203,
+          "passes_floor": true,
+          "cash_collected": 1060.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.3171,
+          "credit_ratio_conservative": 0.2754,
+          "passes_floor": true,
+          "cash_collected": 1325.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.3805,
+          "credit_ratio_conservative": 0.3305,
+          "passes_floor": true,
+          "cash_collected": 1590.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.4439,
+          "credit_ratio_conservative": 0.3856,
+          "passes_floor": true,
+          "cash_collected": 1855.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "FCX",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 65.18,
+      "catalyst": "2027-01-26",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 62.5,
+        "premium": 5.12,
+        "bid": 4.6,
+        "ask": 5.65,
+        "mid": 5.12,
+        "last": 4.9,
+        "open_interest": 281,
+        "volume": 20.0,
+        "implied_vol": 0.476567734375,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 62.5,
+        "premium": 2.12,
+        "bid": 1.97,
+        "ask": 2.28,
+        "mid": 2.12,
+        "last": 2.1,
+        "open_interest": 689,
+        "volume": 6,
+        "implied_vol": 0.4904836108398438,
+        "qty": 3
+      },
+      "long_total": 4096.0,
+      "short_total": 636.0,
+      "net_debit": 3460.0,
+      "credit_ratio_mid": 0.1553,
+      "credit_ratio_conservative": 0.1308,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Feb-27",
+          "strike": 62.5,
+          "qty": 8,
+          "underlying": 65.18,
+          "multiplier": 100,
+          "price": 5.12,
+          "total": 4096.0,
+          "open_interest": 281
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 62.5,
+          "qty": 3,
+          "underlying": 65.18,
+          "multiplier": 100,
+          "price": 2.12,
+          "total": -636.0,
+          "open_interest": 689
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-26 catalyst; long expires 19-Feb-27, after it",
+        "targets report #2 (2027-01-26); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 62.5, 65, 60, 55"
+      ],
+      "advice": "Credit ratio 13.1% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0518,
+          "credit_ratio_conservative": 0.0436,
+          "passes_floor": false,
+          "cash_collected": 212.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.1035,
+          "credit_ratio_conservative": 0.0872,
+          "passes_floor": false,
+          "cash_collected": 424.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1553,
+          "credit_ratio_conservative": 0.1308,
+          "passes_floor": true,
+          "cash_collected": 636.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.207,
+          "credit_ratio_conservative": 0.1743,
+          "passes_floor": true,
+          "cash_collected": 848.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2588,
+          "credit_ratio_conservative": 0.2179,
+          "passes_floor": true,
+          "cash_collected": 1060.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.3105,
+          "credit_ratio_conservative": 0.2615,
+          "passes_floor": true,
+          "cash_collected": 1272.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.3623,
+          "credit_ratio_conservative": 0.3051,
+          "passes_floor": true,
+          "cash_collected": 1484.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.4141,
+          "credit_ratio_conservative": 0.3487,
+          "passes_floor": true,
+          "cash_collected": 1696.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for FCX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/FCX/key-statistics/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "Price: 65.18 USD Market Cap: 93.6B Fwd PE: 20.36 P/S: 3.6 EPS trends: flat over the last 7 days EPS revisions: tilted higher, with 9 up and 1 down over last 30 days price 65.18 market cap 93.6B forward PE 20.36 forward PE next FY 14.97 trailing PE 32.108376 P/S 3.6183558 EV/EBITDA 11.722"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for FCX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/FCX/analysis/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "FY consensus 3.20091 now, 3.19706 7 days ago, 3.04643 30 days ago, change over 30 days 5.07%; EPS revisions 9 up and 1 down over 30 days, 8 up and 2 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "FCX quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/fcx/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Sales, General and Admin. decreasing 74.9% (3/31/2026 to 6/30/2026) Net Receivables decreasing 33.0% (3/31/2026 to 6/30/2026) Long-Term Investments increasing 28.1% (3/31/2026 to 6/30/2026) Net Income increasing 13.7% (3/31/2026 to 6/30/2026) Total Revenue increasing 12.8% (3/31/2026 to 6/30/2026) Net Income Applicable to Common Shareholders increasing 11.7% (3/31/2026 to 6/30/2026) EPS increased year over year 0.54 to 0.74 Total Revenue 12.8% quarter over quarter and -7.3% year over year to 2026-06-30 Net Income 11.7% quarter over quarter and 27.5% year over year to 2026-06-30 EBIT -5.7% quarter over quarter and -18.1% year over year to 2026-06-30 EBITDA -4.3% quarter over quarter and -18.9% year over year to 2026-06-30 Operating Income 38.0% quarter over quarter and -18.4% year over year to 2026-06-30 Gross Profit 32.1% quarter over quarter and -16.9% year over year to 2026-06-30 Interest Expense -16.7% quarter over quarter and 15.9% year over year to 2026-06-30 Net Interest Income 16.7% quarter over quarter and -15.9% year over year to 2026-06-30 Total Revenue increasing 1.8% in fiscal 2025-12-31 vs 2024-12-31 Net Income increasing 16.7% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders increasing 16.7% in fiscal 2025-12-31 vs 2024-12-31 Interest Expense increasing 15.7% in fiscal 2025-12-31 vs 2024-12-31 Net Interest Income decreasing 15.7% in fiscal 2025-12-31 vs 2024-12-31 EBIT decreasing 6.7% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "FCX earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/fcx/earnings",
+      "date": "2026-10-27",
+      "weight": null,
+      "text": "2026-10-27 (Tuesday, before the open), 3 days out -- from the earnings calendar, consensus EPS 0.83. beat streak 4 median gap 91 days 2026-07-23 estimate 0.62 actual 0.74 surprise 18.7% 2026-04-23 estimate 0.47 actual 0.57 surprise 21.95% 2026-01-22 estimate 0.32 actual 0.47 surprise 46.66% 2025-10-23 estimate 0.41 actual 0.5 surprise 22.84%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "The Motley Fool: 4 Charts That Explain the Copper Supply Crunch Investors Should Watch",
+      "provider": null,
+      "url": "/articles/4-charts-explain-copper-supply-crunch-investors-should-watch",
+      "date": "Oct 17, 20",
+      "weight": 3,
+      "text": "4 Charts That Explain the Copper Supply Crunch Investors Should Watch Key PointsImproving demand and the difficulties inherent in increasing supply favor a rising copper price environment."
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "BNK Invest: Analyst Favorites: Freeport-McMoran Copper & Gold Ranks As a Top Metals Pick",
+      "provider": null,
+      "url": "/articles/analyst-favorites-freeport-mcmoran-copper-gold-ranks-top-metals-pick-1",
+      "date": "Oct 19, 20",
+      "weight": 3,
+      "text": "Analyst Favorites: Freeport-McMoran Copper & Gold Ranks As a Top Metals Pick A study of analyst recommendations at the major brokerages shows that Freeport-McMoran Copper & Gold (Symbol: FCX) is the #3 broker analyst pick, on average, out of the 50 stocks making up the Metals Channel Global Mining Titans Index, according to Metals Channel.  The Metal"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Freeport-McMoRan (FCX) Stock Sinks As Market Gains: What You Should Know",
+      "provider": null,
+      "url": "/articles/freeport-mcmoran-fcx-stock-sinks-market-gains-what-you-should-know",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Freeport-McMoRan (FCX) Stock Sinks As Market Gains: What You Should Know Freeport-McMoRan (FCX) concluded the recent trading session at $68.87, signifying a -1.26% move from its prior day's close."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Freeport-McMoRan (FCX) Earnings Expected to Grow: Should You Buy?",
+      "provider": null,
+      "url": "/articles/freeport-mcmoran-fcx-earnings-expected-grow-should-you-buy",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Freeport-McMoRan (FCX) Earnings Expected to Grow: Should You Buy? Freeport-McMoRan (FCX) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Are Basic Materials Stocks Lagging  FreeportMcMoRan (FCX) This Year?",
+      "provider": null,
+      "url": "/articles/are-basic-materials-stocks-lagging-freeportmcmoran-fcx-year",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Are Basic Materials Stocks Lagging  FreeportMcMoRan (FCX) This Year? Here is how Freeport-McMoRan (FCX) and Steel Dynamics (STLD) have performed compared to their sector so far this year."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Freeport-McMoRan (FCX) Is Considered a Good Investment by Brokers: Is That True?",
+      "provider": null,
+      "url": "/articles/freeport-mcmoran-fcx-considered-good-investment-brokers-true",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Freeport-McMoRan (FCX) Is Considered a Good Investment by Brokers: Is That True? Based on the average brokerage recommendation (ABR), Freeport-McMoRan (FCX) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "BNK Invest: Notable ETF Outflow Detected - XLB, NEM, FCX, ECL",
+      "provider": null,
+      "url": "/articles/notable-etf-outflow-detected-xlb-nem-fcx-ecl",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Notable ETF Outflow Detected - XLB, NEM, FCX, ECL Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the State Street Materials Select Sector SPDR ETF (Symbol: XLB) where we have detected an approximate $192.4 million dollar outflow -- that's a 2.4% dec"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Countdown to Freeport-McMoRan (FCX) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+      "provider": null,
+      "url": "/articles/countdown-freeport-mcmoran-fcx-q3-earnings-look-estimates-beyond-revenue-and-eps",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Countdown to Freeport-McMoRan (FCX) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS Get a deeper insight into the potential performance of Freeport-McMoRan (FCX) for the quarter ended September 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Here is What to Know Beyond Why Freeport-McMoRan Inc. (FCX) is a Trending Stock",
+      "provider": null,
+      "url": "/articles/here-what-know-beyond-why-freeport-mcmoran-inc-fcx-trending-stock",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Here is What to Know Beyond Why Freeport-McMoRan Inc. (FCX) is a Trending Stock Zacks.com users have recently been watching Freeport-McMoRan (FCX) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Carpenter Technology Set to Report Q1 Earnings: What to Expect?",
+      "provider": null,
+      "url": "/articles/carpenter-technology-set-report-q1-earnings-what-expect",
+      "date": "Oct 16, 20",
+      "weight": 2,
+      "text": "Carpenter Technology Set to Report Q1 Earnings: What to Expect? CRS's Q1'27 results are expected to reflect aerospace demand, higher prices and productivity gains, but uneven medical trends remain concerning."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: STLD Q3 Earnings Miss Estimates Despite Strong Steel Pricing",
+      "provider": null,
+      "url": "/articles/stld-q3-earnings-miss-estimates-despite-strong-steel-pricing",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "STLD Q3 Earnings Miss Estimates Despite Strong Steel Pricing Steel Dynamics' Q3 2026 earnings surge 92% as record steel shipments and higher prices fuel sales growth."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Rare Earths vs. Copper: Should You Buy MP Materials or Freeport-McMoRan?",
+      "provider": null,
+      "url": "/articles/rare-earths-vs-copper-should-you-buy-mp-materials-or-freeport-mcmoran",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "Rare Earths vs. Copper: Should You Buy MP Materials or Freeport-McMoRan? Key PointsRare-earth elements are crucial for magnets used in many modern technologies, while copper is a key metal in the power grid."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: These 2 Basic Materials Stocks Could Beat Earnings: Why They Should Be on Your Radar",
+      "provider": null,
+      "url": "/articles/these-2-basic-materials-stocks-could-beat-earnings-why-they-should-be-your-radar-2",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "These 2 Basic Materials Stocks Could Beat Earnings: Why They Should Be on Your Radar Why investors should use the Zacks Earnings ESP tool to help find stocks that are poised to top quarterly earnings estimates."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: NUE to Report Q3 Earnings: What's in the Offing for the Stock?",
+      "provider": null,
+      "url": "/articles/nue-report-q3-earnings-whats-offing-stock",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "NUE to Report Q3 Earnings: What's in the Offing for the Stock? Nucor heads into Q3 earnings with higher steel prices and stronger Steel Mills and Steel Products performance in focus, as sales are expected to rise 23.6% year over year."
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "sec.gov: fcx-20261002",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000043/fcx-20261002.htm",
+      "date": "2026-10-02",
+      "weight": 3,
+      "text": "fcx-20261002 fcx-20261002\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nCURRENT REPORT\n\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported): October 2, 2026\n\nFreeport-McMoRan Inc. \n\n(Exact name of registrant as specified in its charter)\n\n| Delaware | 001-11307-01 | 74-2480931 |\n| --- | --- | --- |\n| (State or other jurisdiction of incorporation) | (Commission File Number) | (IRS Employer Identification No.) |\n\n| 4340 E. Cotton Center Blvd., Suite 110 | | |\n| --- | --- | --- |\n| Phoenix | AZ | 85040 |\n| (Address of principal"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "seekingalpha.com: Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss (FCX:NYSE) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/news/4649829-freeport-mcmoran-hits-q3-copper-targets-copper-futures-head-for-weekly-loss",
+      "date": "2026-10-02",
+      "weight": 3,
+      "text": "Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss (FCX:NYSE) | Seeking Alpha Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss (FCX:NYSE) | Seeking Alpha\n\n# Freeport-McMoRan hits Q3 copper targets; copper futures head for weekly loss\n\nOct 02, 2026, 9:52 AM ET Freeport-McMoRan Inc. (FCX) Stock COPX, CPER, HG1:COM By: Carl Surran, SA News Editor\n\nSimoneN/iStock via Getty Images\n\nFreeport-McMoRan (FCX) rose 3.3% in early trading Friday after reporting Q3 copper production of 830M lbs, in line with its forecast, saying stronger performance in its international operations offset slightly lower production in the U.S., and gold production of 230K oz"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "dyorhq.ai: DYOR HQ - Freeport-McMoRan Inc (FCX) | 2026-10-04",
+      "provider": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/freeportmcmoraninc",
+      "date": "2026-10-04",
+      "weight": 3,
+      "text": "DYOR HQ - Freeport-McMoRan Inc (FCX) | 2026-10-04 DYOR HQ - Freeport-McMoRan Inc (FCX) | 2026-10-04\n\n# FCX - Freeport-McMoRan Inc\n\n## Executive Summary\n\nFreeport-McMoRan Inc is one of the world's largest publicly traded copper producers, headquartered in Phoenix, Arizona, with large, long-lived, geographically diversified mining assets containing proven and probable reserves of copper, gold and molybdenum. The company operates a portfolio of integrated mining and processing operations across the Americas and Indonesia, with the Grasberg complex in Indonesia a flagship contributor to group output and earnings.\n\nThe investment case rests on con"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "thetradinghawk.com: FCX \u2014 Freeport-McMoRan Inc. | The Trading Hawk",
+      "provider": "thetradinghawk.com",
+      "url": "https://thetradinghawk.com/Analysis/FCX/FCX_Equity_Report.html",
+      "date": "2026-10-05",
+      "weight": 3,
+      "text": "FCX \u2014 Freeport-McMoRan Inc. | The Trading Hawk FCX \u2014 Freeport-McMoRan Inc. | The Trading Hawk\n\nFreeport-McMoRan Inc.\n\n BUY Materials Copper Mining Gold Production Basic Materials Industrial Metals Energy Transition NYSE \u00b7 S&P 500 \n\nFreeport-McMoRan (NYSE: FCX) represents the world's premier pure-play copper mining producer, positioned at the epicenter of structural secular demand generated by artificial intelligence datacenter power infrastructure, global grid modernization, and clean energy electrification. Anchor assets\u2014principally the crown-jewel Grasberg minerals district in Indonesia alongside premier open-pit operations across Arizon"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketbeat.com: Erste Group Bank Issues Optimistic Estimate for FCX Earnings",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-issues-optimistic-estimate-for-fcx-earnings-2026-10-14/",
+      "date": "2026-10-14",
+      "weight": 3,
+      "text": "Erste Group Bank Issues Optimistic Estimate for FCX Earnings Skip to main content\n\n$100 Off. Every Year. Lock In MarketBeat All Access at $149\n\nClaim the Rate Lock \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Erste Group Bank Issues Optimistic Estimate for FCX Earnings\n\nWritten by MarketBeat\n\nOctober 14, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank raised its FY2027 EPS forecast f"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "walnutinvest.com: Is FCX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/fcx/is-it-a-buy-or-sell",
+      "date": "2026-10-16",
+      "weight": 3,
+      "text": "Is FCX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App Is FCX a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is FCX a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Freeport-McMoRan (FCX) rests on Copper and the energy transition: Copper is essential to electrification: EVs, charging, renewable power, grid expansion, and data centers all use far more copper than legacy alternatives. The bear case rests on freeport is a commodity producer, so its revenue and profits swing sharply with copper and gold pr"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Freeport-McMoRan (FCX) Analyst Ratings",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/fcx/ratings/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "Freeport-McMoRan (FCX) Analyst Ratings Freeport-McMoRan (FCX) Analyst Ratings\n\n65.18 +0.59 (0.91%) At close: Oct 23, 2026, 4:00 PM EDT\n\n65.30 +0.12 (0.18%) After-hours: Oct 23, 2026, 7:56 PM EDT\n\n# Freeport-McMoRan Analyst Ratings\n\n## Ratings History\n\n| Analyst | Firm | Rating | Rating | Action | Price Target | Upside | Date |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Richard Garchitorena Barclays | Barclays | Buy Maintains $83 \u2192 $84 | Buy | Maintains | $83 \u2192 $84 | +28.87% | Oct 19, 2026 |\n| Daniel Major UBS | UBS | Buy Maintains $77 \u2192 $88 | Buy | Maintains | $77 \u2192 $88 | +35.01% | Oct 8, 2026 |\n| Bill Peterson J.P. Morgan"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: Freeport-McMoRan (FCX) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/fcx/forecast/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "Freeport-McMoRan (FCX) Stock Forecast & Analyst Price Targets Freeport-McMoRan (FCX) Stock Forecast & Analyst Price Targets\n\n65.18 +0.59 (0.91%) At close: Oct 23, 2026, 4:00 PM EDT\n\n65.56 +0.38 (0.58%) After-hours: Oct 23, 2026, 5:55 PM EDT\n\n# Freeport-McMoRan Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 23 analysts polled by S&P Global, Freeport-McMoRan stock has a consensus rating of \"Buy\" and an average price target of $79.07. The average 1-year stock price forecast is 21.31% higher than the current stock price, while the lowest is $32 (-50.91%) and the highest is $92 (+41.15%).\n\nPrice Target: $79.07 (+21.31%)\n\nAnalyst Consensus: Buy\n\n## Pric"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "marketbeat.com: Freeport-McMoRan (NYSE:FCX) Price Target Raised to $84.00",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-freeport-mcmoran-nyse-fcx-price-target-raised-to-8400-2026-10-19/",
+      "date": "2026-10-19",
+      "weight": 1,
+      "text": "Freeport-McMoRan (NYSE:FCX) Price Target Raised to $84.00 Skip to main content\n\nFall Lock-In Sale! MarketBeat All Access, $149 a Year for Life\n\nLock In $149 \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Freeport-McMoRan (NYSE:FCX) Price Target Raised to $84.00\n\nWritten by MarketBeat\n\nOctober 19, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Barclays raised Freeport-McMoRan\u2019s price target from $83"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investors.fcx.com: Freeport-McMoRan Inc. - Investors - News Releases",
+      "provider": "investors.fcx.com",
+      "url": "https://investors.fcx.com/investors/news-releases/",
+      "date": null,
+      "weight": 0,
+      "text": "Freeport-McMoRan Inc. - Investors - News Releases Freeport-McMoRan Inc. - Investors - News Releases \n\n# News Releases\n\n 10/02/26 \n\n Freeport Provides Third-Quarter 2026 Operational Update Download PDF format download (opens in new window) \n\n 09/23/26 \n\n Freeport Declares Quarterly Cash Dividends on Common Stock Download PDF format download (opens in new window) \n\n 07/23/26 \n\n Freeport Reports Second-Quarter and Six-Month 2026 Results Download PDF format download (opens in new window) \n\n 06/24/26 \n\n Freeport Declares Quarterly Cash Dividends on Common Stock Download PDF format download (opens in new window) \n\n 04/23/26 \n\n Freeport Reports Firs"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investing.com: Freeport-McMoRan at jefferies industrials conference: growth bets take shape By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/freeportmcmoran-at-jefferies-industrials-conference-growth-bets-take-shape-93CH-4896429",
+      "date": "2026-09-10",
+      "weight": 0,
+      "text": "Freeport-McMoRan at jefferies industrials conference: growth bets take shape By Investing.com Freeport-McMoRan at jefferies industrials conference: growth bets take shape By Investing.com\n\n# Freeport-McMoRan at jefferies industrials conference: growth bets take shape\n\nPublished Sep 10, 2026, 11:25 AM\n\nOn Thursday, 10 September 2026, Freeport-McMoRan (FCX) used the Jefferies Global Industrials Conference 2026 to outline a business in transition: recovering from a serious incident at Grasberg while leaning into copper growth in the U.S. and other brownfield assets. The company described a stronger long-term position, but also acknowledged operational risk, weather uncertainty in Indonesi"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "investors.fcx.com: Freeport-McMoRan Inc. - Freeport Provides Third-Quarter 2026 Operational Update",
+      "provider": "investors.fcx.com",
+      "url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Provides-Third-Quarter-2026-Operational-Update/default.aspx",
+      "date": "2026-10-02",
+      "weight": 0,
+      "text": "Freeport-McMoRan Inc. - Freeport Provides Third-Quarter 2026 Operational Update Freeport-McMoRan Inc. - Freeport Provides Third-Quarter 2026 Operational Update \n\n### Freeport Provides Third-Quarter 2026 Operational Update \n\n October 2, 2026 \n\n- Third-quarter 2026 consolidated copper and gold production approximated expectations\n- Third-quarter 2026 consolidated copper sales expected to approximate July estimates; consolidated gold sales impacted by timing in Indonesia\n- Mining operations in the Grasberg minerals district proceeding in line with expectations\n- Operations at PTFI\u2019s smelter re-commenced in late August 2026\n- Positioned for future growth\n\nPHOENIX--(BUSINESS W"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "marketbeat.com: Scotiabank Raises Earnings Estimates for Freeport-McMoRan",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-scotiabank-raises-earnings-estimates-for-freeport-mcmoran-2026-10-14/",
+      "date": "2026-10-14",
+      "weight": 0,
+      "text": "Scotiabank Raises Earnings Estimates for Freeport-McMoRan Skip to main content\n\nEarnings Season Is Here. MarketBeat All Access for Just $149\n\nGet the Deal \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Scotiabank Raises Earnings Estimates for Freeport-McMoRan\n\nWritten by MarketBeat\n\nOctober 14, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Scotiabank raised Freeport-McMoRan\u2019s FY2026 EPS estimate t"
+    },
+    {
+      "id": "S32",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "sec.gov: In Q2 2026, Grasberg is in phased restart and ramp-up after the September 2025 mud rush, supporting future production.",
+      "provider": "sec.gov",
+      "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/fcx2q26cc_final.htm",
+      "date": "2026-08-01",
+      "weight": null,
+      "text": "In Q2 2026, Grasberg is in phased restart and ramp-up after the September 2025 mud rush, supporting future production. As PTFI restores output, FCX should convert deferred ore into sales and improve Indonesia results. \"phased restart and ramp-up of production and downstream processing following the September 2025 external mud rush incident\""
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "stockanalysis.com: After Q2 2026, FCX expects higher sales and production in coming periods, supporting revenue growth.",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/fcx/transcripts/653699-q2-2026/",
+      "date": "2026-07-23",
+      "weight": null,
+      "text": "After Q2 2026, FCX expects higher sales and production in coming periods, supporting revenue growth. Higher volumes would lift revenue and absorb fixed costs, flowing into earnings over 2026-2027. \"expects higher sales and production in the coming periods\""
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "reuters.com: In June 2026, Ferrari and BMW joined Tesla and China automakers in switching from copper to aluminum wiring.",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/business/autos-transportation/ferrari-bmw-join-tesla-china-switch-copper-cheaper-aluminium-2026-06-30/",
+      "date": "2026-06-30",
+      "weight": null,
+      "text": "In June 2026, Ferrari and BMW joined Tesla and China automakers in switching from copper to aluminum wiring. Lost auto wiring demand reduces a growth outlet for FCX copper over the next 1-3 years. \"Ferrari and BMW join Tesla, China in switch from copper to cheaper aluminium\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "afr.com: As of July 2026, a global backlash against data-centre rollout could hit soaring copper demand.",
+      "provider": "afr.com",
+      "url": "https://www.afr.com/markets/commodities/copper-to-hit-speed-bump-from-data-centre-pushback-and-aluminium-pivot-20260702-p60bz0",
+      "date": "2026-07-02",
+      "weight": null,
+      "text": "As of July 2026, a global backlash against data-centre rollout could hit soaring copper demand. Data centres are a key copper demand driver; slower buildout would reduce future FCX sales. \"Soaring demand for copper could take a hit from a global backlash against the rollout of data centres\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "lmeinsight.com: As of October 2026, aluminum is not replacing copper across the board, limiting substitution pressure.",
+      "provider": "lmeinsight.com",
+      "url": "https://www.lmeinsight.com/coppers-expensive-alternative-is-aluminium-substitution-becoming-structural/",
+      "date": "2026-10-22",
+      "weight": null,
+      "text": "As of October 2026, aluminum is not replacing copper across the board, limiting substitution pressure. Partial substitution leaves most copper demand intact for FCX over the next 1-3 years. \"Aluminium isn't replacing copper across the board\""
+    },
+    {
+      "id": "S37",
+      "kind": "options",
+      "ref": "options",
+      "label": "FCX listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/FCX/options/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "long CALL strike 67.5 expiry 2027-02-19 premium 5.97 short PUT strike 62.5 expiry 2027-02-19 premium 5.12"
+    }
+  ],
+  "trailing_vs_consensus": null,
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "copper demand outlook 2026 2027 grid data centers construction electric vehicles",
+        "China property construction copper demand outlook 2026 2027",
+        "copper aluminum substitution electrical wiring equipment 2026 2027",
+        "Freeport-McMoRan FCX copper molybdenum end-use demand 2026 2027"
+      ],
+      "results_count": 20,
+      "results_dated": 15,
+      "trends": [
+        {
+          "claim": "Global copper mine supply growth for 2026 was revised down to 1.3% as of October 2026.",
+          "stance": "support",
+          "why": "Tighter mine supply can support copper prices and FCX's copper realizations.",
+          "quote": "2026 world mine production growth was revised down to 1.3% from the 1.6% anticipated in the Group\u2019s April 2026 forecasts",
+          "url": "https://icsg.org/download/2026-10-14-press-release-icsg-copper-market-forecast-2026-2027/?refresh=6acf881b31a461791985691&wpdmdl=9365",
+          "publisher": "icsg.org",
+          "as_of": "2026-10-14",
+          "age_days": 10,
+          "undated": false
+        },
+        {
+          "claim": "Global copper mine production growth is forecast at about 3.1% in 2027 as of October 2026.",
+          "stance": "pressure",
+          "why": "Faster mine supply growth could ease copper tightness and pressure FCX's realizations.",
+          "quote": "with growth of about 3.1% forecast in 2027",
+          "url": "https://icsg.org/download/2026-10-14-press-release-icsg-copper-market-forecast-2026-2027/?refresh=6acf881b31a461791985691&wpdmdl=9365",
+          "publisher": "icsg.org",
+          "as_of": "2026-10-14",
+          "age_days": 10,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, China's property slump is capping base metals demand despite policy support.",
+          "stance": "pressure",
+          "why": "China is the largest copper market, so weaker construction can soften copper prices and FCX's realizations.",
+          "quote": "China base metals demand now rests on a policy floor rather than a recovery",
+          "url": "https://www.stonex.com/en/insights/china-s-property-slump-caps-base-metals-demand-despite-policy-support/",
+          "publisher": "stonex.com",
+          "as_of": "2026-10-12",
+          "age_days": 12,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, more automakers began switching from copper to aluminium wiring.",
+          "stance": "pressure",
+          "why": "Substitution reduces copper demand in autos, potentially softening prices for FCX.",
+          "quote": "Ferrari joins car makers switching to aluminium wiring",
+          "url": "https://www.reuters.com/business/autos-transportation/ferrari-bmw-join-tesla-china-switch-copper-cheaper-aluminium-2026-06-30/",
+          "publisher": "reuters.com",
+          "as_of": "2026-06-30",
+          "age_days": 116,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, aluminium substitution for copper remains early-stage and unlikely to materially alter copper demand.",
+          "stance": "support",
+          "why": "Limited substitution means copper demand loss may be smaller than feared, supporting FCX volumes.",
+          "quote": "aluminum substitution is still in the early stage of structural replacement",
+          "url": "https://www.mysteel.net/analysis/5129829-trending-aluminum-for-copper-substitution-as-structural-shift-rather-than-turning-point",
+          "publisher": "mysteel.net",
+          "as_of": "2026-06-26",
+          "age_days": 120,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Freeport-McMoRan FCX copper molybdenum end-use demand 2026 construction electrical grid data centers",
+        "2026 copper substitution aluminum wiring EV motors solar technology disruption demand",
+        "2026 US construction manufacturing capital spending electrical equipment hiring budgets",
+        "2026 copper industry structural demand growth electrification grid investment supply gap recycling"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "In Q2 2026, Grasberg is in phased restart and ramp-up after the September 2025 mud rush, supporting future production.",
+          "stance": "support",
+          "why": "As PTFI restores output, FCX should convert deferred ore into sales and improve Indonesia results.",
+          "quote": "phased restart and ramp-up of production and downstream processing following the September 2025 external mud rush incident",
+          "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/fcx2q26cc_final.htm",
+          "publisher": "sec.gov",
+          "as_of": "2026-08-01",
+          "age_days": 84,
+          "undated": false
+        },
+        {
+          "claim": "After Q2 2026, FCX expects higher sales and production in coming periods, supporting revenue growth.",
+          "stance": "support",
+          "why": "Higher volumes would lift revenue and absorb fixed costs, flowing into earnings over 2026-2027.",
+          "quote": "expects higher sales and production in the coming periods",
+          "url": "https://stockanalysis.com/stocks/fcx/transcripts/653699-q2-2026/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-07-23",
+          "age_days": 93,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, Ferrari and BMW joined Tesla and China automakers in switching from copper to aluminum wiring.",
+          "stance": "pressure",
+          "why": "Lost auto wiring demand reduces a growth outlet for FCX copper over the next 1-3 years.",
+          "quote": "Ferrari and BMW join Tesla, China in switch from copper to cheaper aluminium",
+          "url": "https://www.reuters.com/business/autos-transportation/ferrari-bmw-join-tesla-china-switch-copper-cheaper-aluminium-2026-06-30/",
+          "publisher": "reuters.com",
+          "as_of": "2026-06-30",
+          "age_days": 116,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, a global backlash against data-centre rollout could hit soaring copper demand.",
+          "stance": "pressure",
+          "why": "Data centres are a key copper demand driver; slower buildout would reduce future FCX sales.",
+          "quote": "Soaring demand for copper could take a hit from a global backlash against the rollout of data centres",
+          "url": "https://www.afr.com/markets/commodities/copper-to-hit-speed-bump-from-data-centre-pushback-and-aluminium-pivot-20260702-p60bz0",
+          "publisher": "afr.com",
+          "as_of": "2026-07-02",
+          "age_days": 114,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, aluminum is not replacing copper across the board, limiting substitution pressure.",
+          "stance": "support",
+          "why": "Partial substitution leaves most copper demand intact for FCX over the next 1-3 years.",
+          "quote": "Aluminium isn't replacing copper across the board",
+          "url": "https://www.lmeinsight.com/coppers-expensive-alternative-is-aluminium-substitution-becoming-structural/",
+          "publisher": "lmeinsight.com",
+          "as_of": "2026-10-22",
+          "age_days": 2,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 2027 global copper demand outlook construction electrification grid data centers",
+        "2026 2027 copper aluminum substitution EV wiring sodium-ion battery recycling impact",
+        "2026 2027 utility grid capex data center construction spending copper demand",
+        "Freeport-McMoRan FCX gold silver molybdenum end-market demand 2026 2027 jewelry solar steel alloys"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "As of Q2 2026, FCX still faces phased restart and ramp-up after the September 2025 Grasberg mud rush.",
+          "stance": "pressure",
+          "why": "Delayed PTFI production and sales would keep revenue and unit costs under pressure until ramp-up completes.",
+          "quote": "phased restart and ramp-up of production and downstream processing following the September 2025 external mud rush incident",
+          "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000033/fcx2q26cc_final.htm",
+          "publisher": "sec.gov",
+          "as_of": "2026-08-01",
+          "age_days": 84,
+          "undated": false
+        },
+        {
+          "claim": "In October 2026, the 2026 global mine production growth forecast was revised down to 1.3%.",
+          "stance": "support",
+          "why": "Slower mine supply growth tightens the copper market and supports FCX's realizations.",
+          "quote": "2026 world mine production growth was revised down to 1.3% from the 1.6% anticipated in the Group\u2019s April 2026 forecasts",
+          "url": "https://icsg.org/download/2026-10-14-press-release-icsg-copper-market-forecast-2026-2027/?refresh=6acf881b31a461791985691&wpdmdl=9365",
+          "publisher": "icsg.org",
+          "as_of": "2026-10-14",
+          "age_days": 10,
+          "undated": false
+        },
+        {
+          "claim": "In 2026-2027, global copper mine production is still forecast to grow 1.3% and 3.1%, respectively.",
+          "stance": "pressure",
+          "why": "Positive mine supply growth could cap copper prices and limit FCX's revenue upside.",
+          "quote": "World copper mine production is expected to increase by 1.3% in 2026, with growth of about 3.1% forecast in 2027",
+          "url": "https://icsg.org/download/2026-10-14-press-release-icsg-copper-market-forecast-2026-2027/?refresh=6acf881b31a461791985691&wpdmdl=9365",
+          "publisher": "icsg.org",
+          "as_of": "2026-10-14",
+          "age_days": 10,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, large cloud and platform capex is on course for $725\u2013750 billion, up about 70%.",
+          "stance": "support",
+          "why": "Data-center buildout raises copper demand for power and cabling, supporting prices.",
+          "quote": "largest cloud and platform companies are on course to spend roughly $725\u2013750 billion of capital in 2026, up around 70% on the year",
+          "url": "https://www.kpler.com/blog/copper-the-perfect-squeeze",
+          "publisher": "kpler.com",
+          "as_of": "2026-07-17",
+          "age_days": 99,
+          "undated": false
+        },
+        {
+          "claim": "By mid-2026, China's copper demand is cooling even as AI becomes the new marginal buyer.",
+          "stance": "pressure",
+          "why": "Chinese demand weakness could offset AI-driven strength and limit copper price upside.",
+          "quote": "AI is copper's new marginal buyer \u2014 even as China cools",
+          "url": "https://www.kpler.com/blog/copper-the-perfect-squeeze",
+          "publisher": "kpler.com",
+          "as_of": "2026-07-17",
+          "age_days": 99,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026 and beyond, refined copper supply is likely constrained by disruptions and US strategic stockpiling.",
+          "stance": "support",
+          "why": "Constrained refined supply supports copper prices and FCX's revenue.",
+          "quote": "global supply of refined copper is likely to be constrained in 2026 and beyond by a combination of disruptions and strategic stockpiling",
+          "url": "https://www.iiss.org/globalassets/media-library---content--migration/files/publications/strategic-comments-delta/2026/01/sc-32-01-new-constraints-in-the-global-copper-market.pdf",
+          "publisher": "iiss.org",
+          "as_of": "2026-01-01",
+          "age_days": 296,
+          "undated": false,
+          "drop_reason": "stale (296 days old)"
+        },
+        {
+          "claim": "As of January 2026, a severe near-term copper shortfall appears unlikely despite a 2030s structural deficit.",
+          "stance": "pressure",
+          "why": "Less near-term scarcity could limit upside to copper prices and FCX realizations.",
+          "quote": "a severe near-term shortfall appears unlikely",
+          "url": "https://www.iiss.org/globalassets/media-library---content--migration/files/publications/strategic-comments-delta/2026/01/sc-32-01-new-constraints-in-the-global-copper-market.pdf",
+          "publisher": "iiss.org",
+          "as_of": "2026-01-01",
+          "age_days": 296,
+          "undated": false,
+          "drop_reason": "stale (296 days old)"
+        }
+      ],
+      "stale_dropped": 2,
+      "max_age_days": 180
+    }
+  ]
+}

@@ -1,0 +1,2201 @@
+{
+  "symbol": "BMY",
+  "as_of": "2026-10-24",
+  "generated_at": "2026-10-24T13:49:35",
+  "profile": {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "summary": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide. The company offers products for oncology, hematology, immunology, cardiovascular, and neuroscience indications. Its products include Opdivo for anti-cancer indications; Opdivo Qvantig, a subcutaneous PD-1 inhibitor for solid tumors; Orencia for active rheumatoid arthritis and psoriatic arthritis; Yervoy for the treatment of unresectable or metastatic melanoma; Reblozyl to treat anemia; Breyanzi for the treatment of relapsed or refractory large B-cell lymphoma; Opdualag to treat unresectable or metastatic melanoma; and Camzyos for the treatment of symptomatic obstructive HCM. The company also offers Zeposia to treat relapsing forms of multiple sclerosis; Abecma for the treatment of patients with relapsed or refractory multiple myeloma; Sotyktu to treat moderate-to-severe plaque psoriasis; Krazati for the treatment of KRASG12C-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC); and Cobenfy to treat schizophrenia. In addition, it offers Eliquis for the reduction of risk of stroke/systemic embolism and for the treatment of DVT/PE; Revlimid, an oral immunomodulatory drug for multiple myeloma; Pomalyst/Imnovid for multiple myeloma; Sprycel for Philadelphia chromosome-positive chronic myeloid leukemia; and Abraxane to treat breast cancer. Further, the company provides Augtyro for the treatment of locally advanced or metastatic ROS1-positive NSCLC, as well as NSCLC and pancreatic cancer. It sells its products to wholesalers, distributors, specialty pharmacies, retailers, hospitals, clinics, and government agencies. The company has a strategic collaboration with Arcus Biosciences, Inc. to develop a treatment regimen that delivers tumor control in kidney cancer. The company was formerly known as Bristol-Myers Company. The company was founded in 1887 and is headquartered in Princeton, New Jersey.",
+    "employees": 32500,
+    "country": "United States",
+    "website": "https://www.bms.com"
+  },
+  "quants": {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "price": 61.48,
+    "market_cap": 125586096128,
+    "market_cap_human": "125.59B",
+    "fwd_pe": 9.36,
+    "fwd_pe_1y": 9.31,
+    "fwd_pe_yahoo": 9.305465,
+    "trailing_pe": 13.54185,
+    "ps": 2.5532894,
+    "ev_ebitda": 8.43,
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "eps_fy_current": 6.56772,
+    "eps_fy_next": 6.60687,
+    "eps_trend": {
+      "change_7d_pct": -0.77,
+      "change_30d_pct": -5.48,
+      "current": 6.56772,
+      "7d_ago": 6.61865,
+      "30d_ago": 6.94853,
+      "text": "slightly down over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 8,
+      "up_30d": 1,
+      "down_30d": 8,
+      "net_30d": -7,
+      "text": "tilted lower, with 1 up and 8 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-29"
+      ],
+      "next_date": "2026-10-29",
+      "eps_avg": 1.25161,
+      "eps_low": 0.98,
+      "eps_high": 1.75,
+      "revenue_avg": 12729118640
+    },
+    "as_of": "2026-10-24"
+  },
+  "quants_lines": [
+    "Price: 61.48 USD",
+    "Market Cap: 125.59B",
+    "Fwd PE: 9.36",
+    "P/S: 2.6",
+    "EPS trends: slightly down over the last 7 days",
+    "EPS revisions: tilted lower, with 1 up and 8 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 4086000.0,
+      "prior": 3240000.0,
+      "change_pct": 26.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 3317000.0,
+      "prior": 2677000.0,
+      "change_pct": 23.9,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 12973000.0,
+      "prior": 11489000.0,
+      "change_pct": 12.9,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Equity",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 22319000.0,
+      "prior": 20068000.0,
+      "change_pct": 11.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 8722000.0,
+      "prior": 9574000.0,
+      "change_pct": -8.9,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Long-Term Investments",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 397000.0,
+      "prior": 366000.0,
+      "change_pct": 8.5,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-30T07:00:00-04:00",
+    "current": 2.04,
+    "year_ago": 1.46,
+    "year_ago_period": "2025-07-31T07:00:00-04:00",
+    "change": 0.58,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 12973000000.0,
+      "prior": 11489000000.0,
+      "qoq_pct": 12.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 12269000000.0,
+      "yoy_pct": 5.7,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3317000000.0,
+      "prior": 2677000000.0,
+      "qoq_pct": 23.9,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1310000000.0,
+      "yoy_pct": 153.2,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 4493000000.0,
+      "prior": 3651000000.0,
+      "qoq_pct": 23.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2258000000.0,
+      "yoy_pct": 99.0,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 5087000000.0,
+      "prior": 4245000000.0,
+      "qoq_pct": 19.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3269000000.0,
+      "yoy_pct": 55.6,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 4025000000.0,
+      "prior": 3365000000.0,
+      "qoq_pct": 19.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3774000000.0,
+      "yoy_pct": 6.7,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 9247000000.0,
+      "prior": 8068000000.0,
+      "qoq_pct": 14.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 8897000000.0,
+      "yoy_pct": 3.9,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 407000000.0,
+      "prior": 411000000.0,
+      "qoq_pct": -1.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 485000000.0,
+      "yoy_pct": -16.1,
+      "conflict": false
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": -407000000.0,
+      "prior": -411000000.0,
+      "qoq_pct": 1.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": -485000000.0,
+      "yoy_pct": 16.1,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 48195000000.0,
+      "prior": 48300000000.0,
+      "change_pct": -0.2,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 7054000000.0,
+      "prior": -8948000000.0,
+      "change_pct": 178.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBITDA",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 15230000000.0,
+      "prior": 3168000000.0,
+      "change_pct": 380.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 11219000000.0,
+      "prior": -6432000000.0,
+      "change_pct": 274.4,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 7054000000.0,
+      "prior": -8948000000.0,
+      "change_pct": 178.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 13724000000.0,
+      "prior": 5887000000.0,
+      "change_pct": 133.1,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-29",
+    "eps_avg": 1.25161,
+    "eps_low": 0.98,
+    "eps_high": 1.75,
+    "revenue_avg": 12729118640
+  },
+  "news": [
+    {
+      "title": "Is BMY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "publisher": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/bmy/is-it-a-buy-or-sell",
+      "summary": "Is BMY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is BMY a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated July 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Bristol Myers Squibb (BMY) rests on New product portfolio ramp: Bristol Myers is shifting revenue weight toward a newer set of growth drivers including Reblozyl, Opdualag, Camzyos, Breyanzi, Sotyktu, and Cobenfy. The bear case rests on the central risk is the patent cliff: Eliquis, Opdivo, and other large products face loss of exclusivity, and",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Zacks Research Brokers Increase Earnings Estimates for BMY",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/zacks-research-brokers-increase-earnings-estimates-for-bmy-2026-08-17/",
+      "summary": "Skip to main content\n\n\u2192 Jon Najarian's #1 Energy Trade for 2026 (From Banyan Hill Publishing) (Ad)\n\n# Zacks Research Brokers Increase Earnings Estimates for BMY\n\nWritten by MarketBeat\n\nAugust 17, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Zacks Research raised its FY2026 earnings estimate for Bristol Myers Squibb to $6.85 per share, up from $6.27 and slightly below the $6.95 consensus forecast. The firm also initiated a FY2028 estimate of $5.11 per share.\n- Bristol Myers Squibb reported ",
+      "published": "2026-08-17",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BMY | Bristol Myers Squibb Co. Analyst Estimates | MarketWatch",
+      "publisher": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/bmy/analystestimates",
+      "summary": "BMY | Bristol Myers Squibb Co. Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDJIA F\n-0.53%\n\nS&P F\n-0.32%\n\nNASDAQ F\n-0.48%\n\nGold\n0.12%\n\nSilver\n0.03%\n\nCrude Oil\n2.95%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|DJIA F|52,554|-278|-0.53%|\n|**|S&P F|7,656.25|-24.25|-0.32%|\n|**|NASDAQ F|29,397.75|-141.00|-0.48%|\n|**|Gold|4,444.40|5.40|0.12%|\n|**|Silver|67.020|0.020|0.03%|\n|**|Crude Oil|95.77|2.74|2.95%|\nCreated with Highstock 2.1.86pm12am6am12pm$52,250$52,500$52,750$53,000\nS&P 500 Movers\n* LITE\n11.0\n\n* INTC\n9.1",
+      "published": "2026-09-09",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Bristol-Myers Squibb: Patent Cliff Is Still A Problem (NYSE:BMY) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4952331-bristol-myers-squibb-patent-cliff-is-still-a-problem",
+      "summary": "Bristol-Myers Squibb: Patent Cliff Is Still A Problem (NYSE:BMY) | Seeking Alpha\n\n# Bristol-Myers Squibb: Patent Cliff Is Still A Problem\n\nOct 06, 2026, 3:56 PM ET Bristol-Myers Squibb Company (BMY) Stock 5 Comments\n\nDaniel Sch\u00f6nberger\n\n## Summary\n\n- Bristol-Myers Squibb remains a Hold as replacing lost revenue from Eliquis and Opdivo presents a significant challenge.\n- Q2/26 saw 5.7% revenue growth and 153% EPS growth, but analysts expect long-term revenue declines despite a strong growth portfolio.\n- Management raised 2026 revenue guidance to $49\u201350B and EPS to $6.75\u2013$7.00, but patent expiri",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-has-positive-opinion-of-bmy-fy2027-earnings-2026-10-23/",
+      "summary": "Skip to main content\n\nYour Rate Never Goes Up! Save $100 a Year on MarketBeat All Access\n\nUpgrade Now \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings\n\nWritten by MarketBeat\n\nOctober 23, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank raised its FY2027 EPS estimate fo",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Bristol-Myers Squibb (BMY) revenue up % y/y, Q3 2026 analyst conference call summary",
+      "publisher": "openicon.com",
+      "url": "https://www.openicon.com/confsums/2026/bmy_10_29_2026.html",
+      "summary": "Bristol-Myers Squibb (BMY) revenue up % y/y, Q3 2026 analyst conference call summary\n\nbiotechnology\n\n# Bristol-Myers Squibb BMY\n\nconference date: October 29, 2026 @ 5:00 AM Pacific Time for quarter ending: September 30, 2026 (third quarter 2026, Q3)\n\nBasic data (GAAP):\n\nRevenue was $ billion, up % sequentially from $12.97 billion and up % from $ billion year-earlier.\n\nNet income was $ billion, up % sequentially from $3.32 billion and up % from $ billion year-earlier.\n\nEPS (earnings per share), diluted, were $, up % sequentially from $1.62, and up % from $ year-earlier.\n\nConference Highlights:\n",
+      "published": "2026-10-29",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Bristol-Myers Squibb (BMY) Price & Analysis",
+      "publisher": "tipranks.com",
+      "url": "https://www.tipranks.com/stocks/bmy",
+      "summary": "Bristol-Myers Squibb (BMY)\n\nNYSE: BMY\n\nBMY\n\nBristol-Myers Squibb\n\nMore\n\nRESEARCH TOOLSreports\n\nDownload BMY Report\n\nWant to see BMY full AI Analyst Report?\n\nDownload\n\n# Bristol-Myers Squibb (BMY) Price & Analysis\n\nDownload BMY Report\n\nFollow\n\n12,188 Followers\n\n## BMY Stock Chart & Stats\n\n$64.72\n\n$0.57(0.89%)\n\nAt close: Aug 07 4:00 PM EDT\n\n$64.72\n\n$0.57(0.89%)\n\nAnalyze Chart\n\nAnalyze Chart\n\n1d5d3m 2.42%6mYTD1y3y5y\n\nDay\u2019s Range\u2015 - \u2015\n\n52-Week Range$42.52 - $68.64\n\nPrevious Close$64.12\n\nVolume7.21M\n\nAverage Volume (3M)13.09M\n\nMarket Cap\n\n$124.85B\n\nEnterprise Value$151.99B\n\nTotal Cash (Recent Filin",
+      "published": "2026-10-29",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Have $1,000 to Invest? This Dirt Cheap Pharma Stock Pays You 4.2% to Wait.",
+      "publisher": "The Motley Fool",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/have-1000-invest-dirt-cheap-pharma-stock-pays-you-42-wait",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY"
+      ],
+      "summary": "Key PointsBristol Myers Squibb has a moderately high forward dividend yield, but that's not the main appeal with this undervalued pharmaceutical stock.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "Can BMY Navigate Generic Challenges Across Its Key Drug Portfolio?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/can-bmy-navigate-generic-challenges-across-its-key-drug-portfolio",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BMY",
+        "PFE",
+        "MRK"
+      ],
+      "summary": "Bristol Myers faces mounting generic competition across its legacy portfolio, while Eliquis delivers strong growth and Revlimid shows resilience amid pricing and market pressures.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Bristol Myers Squibb vs. Pfizer: Consistency vs. Scale in Revenue",
+      "publisher": "The Motley Fool",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/bristol-myers-squibb-vs-pfizer-consistency-vs-scale-revenue",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY",
+        "PFE"
+      ],
+      "summary": "Key PointsPfizer currently generates a higher volume of absolute revenue, while Bristol Myers Squibb displays a more consistent baseline without the recent negative fluctuations seen by the former.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Earnings Preview: Bristol Myers Squibb (BMY) Q3 Earnings Expected to Decline",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/earnings-preview-bristol-myers-squibb-bmy-q3-earnings-expected-decline",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BMY",
+        "BMRN"
+      ],
+      "summary": "Bristol Myers (BMY) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Bristol Myers Squibb vs. Novo Nordisk: Stable Scale vs. GLP-1 Volatility",
+      "publisher": "The Motley Fool",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/bristol-myers-squibb-vs-novo-nordisk-stable-scale-vs-glp-1-volatility",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY",
+        "NVO"
+      ],
+      "summary": "Key PointsWhen evaluating the current baseline comparison between the two distinct businesses, Bristol Myers Squibb generated higher top-line results throughout seven of the last eight charted periods, establishing a consistent overall lead despite a single isolated revenue spike",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "BioNTech Expands Phase 3 Breast Cancer Trial Through Collaboration With Gilead",
+      "publisher": "RTTNews",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/biontech-expands-phase-3-breast-cancer-trial-through-collaboration-gilead",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY",
+        "BNTX",
+        "GILD"
+      ],
+      "summary": "(RTTNews) - BioNTech SE (BNTX) has entered a clinical trial collaboration with Gilead Sciences (GILD) to evaluate the investigational drug Pumitamig in combination with Trodelvy (sacituzumab govitecan) as a first-line treatment for patients with advanced triple-negative breast ca",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Bristol Myers Squibb vs. Eli Lilly: How Long Can Zepbound and Mounjaro Keep Juicing Revenue Results?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/bristol-myers-squibb-vs-eli-lilly-how-long-can-zepbound-and-mounjaro-keep-juicing-revenue",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY",
+        "LLY"
+      ],
+      "summary": "Key PointsWhen evaluating the two companies based strictly on the most recent quarterly data, Eli Lilly currently shows a higher overall revenue base and a demonstrably faster upward sales trajectory than Bristol Myers Squibb.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Bristol Myers Squibb (BMY) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "9 hours ago",
+      "url": "/articles/bristol-myers-squibb-bmy-sees-more-significant-dip-broader-market-some-facts-know",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BMY"
+      ],
+      "summary": "Bristol Myers Squibb (BMY) reached $61.48 at the closing of the latest trading day, reflecting a -2.41% change compared to its last close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Bristol Myers Squibb Moves On Two Fronts: MS Cell Therapy Data And Tempus AI Expansion; Stock Down",
+      "publisher": "RTTNews",
+      "created": "Oct 23, 2026",
+      "ago": "14 hours ago",
+      "url": "/articles/bristol-myers-squibb-moves-two-fronts-ms-cell-therapy-data-and-tempus-ai-expansion-stock",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY",
+        "TEM"
+      ],
+      "summary": "(RTTNews) - Bristol Myers Squibb (BMY) presented interim results from the Phase 1 Breakfree-2 study of investigational zolacabtagene autoleucel (zola-cel) in patients with highly active relapsing and progressive multiple sclerosis (MS) at MSToronto 2026.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "regulation"
+      ]
+    },
+    {
+      "title": "Bristol Myers Squibb Reports CAR T-Cell Therapy Data In Multiple Sclerosis",
+      "publisher": "RTTNews",
+      "created": "Oct 23, 2026",
+      "ago": "14 hours ago",
+      "url": "/articles/bristol-myers-squibb-reports-car-t-cell-therapy-data-multiple-sclerosis",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY"
+      ],
+      "summary": "(RTTNews) - Bristol Myers Squibb (BMY) reported interim Phase 1 Breakfree-2 study results for investigational CAR T-cell therapy zolacabtagene autoleucel (zola-cel) in 66 patients with highly active relapsing and progressive multiple sclerosis.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "regulation"
+      ]
+    },
+    {
+      "title": "BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential?",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "15 hours ago",
+      "url": "/articles/bmy-vs-abbv-which-pharma-biotech-stock-offers-more-upside-potential",
+      "primary_symbol": null,
+      "related_symbols": [
+        "BMY",
+        "ABBV"
+      ],
+      "summary": "Bristol Myers edges out AbbVie with a cheaper valuation and higher dividend yield, but pipeline execution, legacy drug declines and debt remain key risks.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "depreciation_debt",
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "Better Dividend Stock to Buy and Hold: Pfizer or Bristol Myers Squibb?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 23, 2026",
+      "ago": "19 hours ago",
+      "url": "/articles/better-dividend-stock-buy-and-hold-pfizer-or-bristol-myers-squibb",
+      "primary_symbol": "BMY",
+      "related_symbols": [
+        "BMY",
+        "PFE"
+      ],
+      "summary": "Key PointsPfizer's dividend yield ranks among the highest in the healthcare sector and S&P 500.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    },
+    {
+      "title": "Amgen vs. Bristol Myers Squibb: Which Healthcare Stock Is a Better Buy in 2026?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/amgen-vs-bristol-myers-squibb-which-healthcare-stock-better-buy-2026",
+      "primary_symbol": "AMGN",
+      "related_symbols": [
+        "AMGN",
+        "BMY"
+      ],
+      "summary": "Key PointsAmgen is demonstrating strong top-line growth driven by a diverse portfolio in oncology and rare diseases.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Prothena's Partnership Strategy: Growth Driver or Limitation?",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/prothenas-partnership-strategy-growth-driver-or-limitation",
+      "primary_symbol": null,
+      "related_symbols": [
+        "PRTA",
+        "BMY",
+        "NVO"
+      ],
+      "summary": "PRTA's pharma partnerships offer $3 billion in potential milestone payments plus royalties, but clinical risks and partner control remain key challenges.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "AbbVie vs. Bristol Myers Squibb: Faster Growth or Steady Revenue?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/abbvie-vs-bristol-myers-squibb-faster-growth-or-steady-revenue",
+      "primary_symbol": "ABBV",
+      "related_symbols": [
+        "ABBV",
+        "BMY"
+      ],
+      "summary": "Key PointsAbbVie currently looks stronger on revenue by consistently generating higher overall totals and demonstrating a faster growth trajectory across the measured periods.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Bristol Myers price target lowered to $66 from $71 at BofA",
+      "publisher": "markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/bristol-myers-price-target-lowered-to-66-from-71-at-bofa-1036613219",
+      "summary": "BofA lowered the firm\u2019s price target on Bristol Myers (BMY) to $66 from $71 and keeps a Buy rating on the shares as part of the firm\u2019s Q3 EPS preview for its large-cap pharma and SMID cap biopharma coverage.\n\nPublished first on TheFly \u2013 the ultimate source for real-time, market-moving breaking financial news. Try Now>>",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Bristol Myers Squibb Reports Second Quarter Financial Results for 2026 and Raises Full-Year Outlook Strong Performance Underscores Growth Portfolio Momentum and Pipeline Progress",
+      "publisher": "bms.com",
+      "url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2026/ghBMY-Q2-2026-Earnings-Press-Release.pdf",
+      "summary": "Bristol Myers Squibb Reports Second Quarter Financial Results for 2026 and Raises Full-Year Outlook Strong Performance Underscores Growth Portfolio Momentum and Pipeline Progress\n\n\u2022 Second quarter revenues increased 6% (+5% Ex-FX) to $13.0 billion \n\u25e6 Growth Portfolio revenues increased 15% (+14% Ex-FX) to $7.6 billion \n\u2022 GAAP EPS was $1.62 and non-GAAP EPS was $2.04 \n\u2022 Raising 2026 revenue guidance to a range of ~$49.0 billion to $50.0 billion; Increasing non-GAAP EPS range to $6.75 to $7.00 \n\n(PRINCETON, N.J., July 30, 2026) \u2013 Bristol Myers Squibb (NYSE: BMY) today reports results for the sec",
+      "published": "2026-07-30",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "BMO most bullish on Merck's, bearish on BMS\u2019 plans to contend with patent cliffs - BioSpace",
+      "publisher": "biospace.com",
+      "url": "https://www.biospace.com/business/bmo-most-bullish-on-mercks-bearish-on-bms-plans-to-contend-with-patent-cliffs",
+      "summary": "BMO most bullish on Merck's, bearish on BMS\u2019 plans to contend with patent cliffs - BioSpace\n\n# BMO most bullish on Merck\u2019s, bearish on BMS\u2019 plans to contend with patent cliffs\n\nOctober 2, 2026 | 4 min read | Gabrielle Masson\n\niStock, Narmeen Arshad \n\n## BMO Capital Markets is more impressed by Merck\u2019s plans to replace lost Keytruda revenue than on Bristol Myers Squibb\u2019s efforts to fill the expected void that will come from loss of exclusivity for both Opdivo and Eliquis.\n\nAlmost all big pharmas are contending with patent cliffs right now, putting pressure on pipeline programs and next-gen plan",
+      "published": "2026-10-02",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) bull bear case risks",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock",
+      "publisher": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/rbc-expects-a-third-quarter-revenue-beat-for-bristol-myers-squibb-stock/70371416",
+      "summary": "RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock\n\n# RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock\n\n Published on 10/20/2026 at 11:12 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nRBC kept its USD 64.00 target on October 19, 2026. Bristol Myers Squibb stock has results scheduled for October 29, 2026.\n\n## Quarterly catalyst and valuation\n\n- RBC maintained a USD 64.00 target on October 19, 2026.\n- Second-quarter revenue reached USD 12.97 billion in 2026.\n- Bristol Myers Squibb stock traded at EUR 52.74 at 11:04 a.m. CEST ",
+      "published": "2026-10-19",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives",
+      "publisher": "finviz.com",
+      "url": "https://finviz.com/news/405598/bristol-myers-must-prove-its-guidance-raise-was-real-as-eliquis-tailwind-arrives",
+      "summary": "Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives\n\n# Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives\n\n By Earnings Whispers | October 21, 2026, 11:22 AM \n\nEarnings Whispers\n\nThree months ago Bristol Myers Squibb did something it had not done all year: it raised its outlook outright, rather than merely reaffirming it or hinting at the upper end. The market has largely shrugged. The stock has slipped about 1.6% since that report while the S&P 500 gained roughly 4.5%, and sentiment toward the name has cooled noticeably. That gap betw",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Bristol-Myers Squibb shares may move 5.3% on earnings report By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/bristolmyers-squibb-shares-may-move-53-on-earnings-report-93CH-4966633",
+      "summary": "Bristol-Myers Squibb shares may move 5.3% on earnings report By Investing.com\n\n# Bristol-Myers Squibb shares may move 5.3% on earnings report\n\nEditor Louis Juricic Stock Markets\n\nEditor Louis Juricic\n\nPublished Oct 22, 2026, 10:08 AM\n\nIn this article:\n\nBMY-2.24%\n\nInvesting.com -- Bristol-Myers Squibb Co. shares could move 5.3% when the company releases its earnings report on October 29 before the market opens, according to options data compiled by Bloomberg.\n\nThe pharmaceutical company\u2019s stock has exceeded the implied move in half of its recent earnings announcements. In four of the past eight",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar",
+      "publisher": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/market-may-be-too-pessimistic-about-this-4-star-dividend-stock",
+      "summary": "Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar\n\n# The Market May Be Too Pessimistic About This 4-Star Dividend Stock \n\nDespite a looming patent cliff, a strong drug pipeline and 4.1% yield give investors reasons for optimism.\n\n Karen Andersen, CFA Oct 22, 2026\n\nBristol-Myers Squibb is heading into a difficult stretch, with key patent expirations expected to weigh on revenue and earnings in the years ahead. Still, the stock remains one of Morningstar Chief US Market Strategist Dave Sekera\u2019s go-to pharmaceutical picks. On a recent episode o",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Bristol-Myers Squibb Company (BMY) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "rates",
+        "mna"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 7,
+        "share": 0.25,
+        "evidence": [
+          {
+            "title": "Zacks Research Brokers Increase Earnings Estimates for BMY",
+            "publisher": "marketbeat.com",
+            "published": "2026-08-17",
+            "matched": [
+              "forecast",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "BMY | Bristol Myers Squibb Co. Analyst Estimates | MarketWatch",
+            "publisher": "marketwatch.com",
+            "published": "2026-09-09",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "Bristol-Myers Squibb: Patent Cliff Is Still A Problem (NYSE:BMY) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-06",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings",
+            "publisher": "marketbeat.com",
+            "published": "2026-10-23",
+            "matched": [
+              "estimate"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 5,
+        "share": 0.179,
+        "evidence": [
+          {
+            "title": "Have $1,000 to Invest? This Dirt Cheap Pharma Stock Pays You 4.2% to Wait.",
+            "publisher": "The Motley Fool",
+            "published": "Oct 20, 2026",
+            "matched": [
+              "undervalued",
+              "cheap"
+            ]
+          },
+          {
+            "title": "Bristol Myers Squibb Moves On Two Fronts: MS Cell Therapy Data And Tempus AI Expansion; Stock Down",
+            "publisher": "RTTNews",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "multiple"
+            ]
+          },
+          {
+            "title": "Bristol Myers Squibb Reports CAR T-Cell Therapy Data In Multiple Sclerosis",
+            "publisher": "RTTNews",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "multiple"
+            ]
+          },
+          {
+            "title": "BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential?",
+            "publisher": "Zacks",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "valuation",
+              "cheap"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.143,
+        "evidence": [
+          {
+            "title": "Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings",
+            "publisher": "marketbeat.com",
+            "published": "2026-10-23",
+            "matched": [
+              "upgrade"
+            ]
+          },
+          {
+            "title": "Bristol Myers price target lowered to $66 from $71 at BofA",
+            "publisher": "markets.businessinsider.com",
+            "published": null,
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives",
+            "publisher": "finviz.com",
+            "published": "2026-10-21",
+            "matched": [
+              "sentiment"
+            ]
+          },
+          {
+            "title": "Bristol-Myers Squibb shares may move 5.3% on earnings report By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-22",
+            "matched": [
+              "options"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 4,
+        "share": 0.143,
+        "evidence": [
+          {
+            "title": "Have $1,000 to Invest? This Dirt Cheap Pharma Stock Pays You 4.2% to Wait.",
+            "publisher": "The Motley Fool",
+            "published": "Oct 20, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential?",
+            "publisher": "Zacks",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Better Dividend Stock to Buy and Hold: Pfizer or Bristol Myers Squibb?",
+            "publisher": "The Motley Fool",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "yield"
+            ]
+          },
+          {
+            "title": "Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar",
+            "publisher": "morningstar.com",
+            "published": "2026-10-22",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 4,
+        "share": 0.143,
+        "evidence": [
+          {
+            "title": "Have $1,000 to Invest? This Dirt Cheap Pharma Stock Pays You 4.2% to Wait.",
+            "publisher": "The Motley Fool",
+            "published": "Oct 20, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential?",
+            "publisher": "Zacks",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Better Dividend Stock to Buy and Hold: Pfizer or Bristol Myers Squibb?",
+            "publisher": "The Motley Fool",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar",
+            "publisher": "morningstar.com",
+            "published": "2026-10-22",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 3,
+        "share": 0.107,
+        "evidence": [
+          {
+            "title": "BioNTech Expands Phase 3 Breast Cancer Trial Through Collaboration With Gilead",
+            "publisher": "RTTNews",
+            "published": "Oct 22, 2026",
+            "matched": [
+              "investigation"
+            ]
+          },
+          {
+            "title": "Bristol Myers Squibb Moves On Two Fronts: MS Cell Therapy Data And Tempus AI Expansion; Stock Down",
+            "publisher": "RTTNews",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "investigation"
+            ]
+          },
+          {
+            "title": "Bristol Myers Squibb Reports CAR T-Cell Therapy Data In Multiple Sclerosis",
+            "publisher": "RTTNews",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "investigation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 1,
+        "share": 0.036,
+        "evidence": [
+          {
+            "title": "BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential?",
+            "publisher": "Zacks",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-29"
+    ],
+    "next_date": "2026-10-29",
+    "eps_avg": 1.25161,
+    "eps_low": 0.98,
+    "eps_high": 1.75,
+    "revenue_avg": 12729118640
+  },
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "days_out": 5,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 1.25161,
+      "eps_low": 0.98,
+      "eps_high": 1.75,
+      "revenue_avg": 12729118640
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.6,
+        "eps_actual": 2.04,
+        "surprise_pct": 27.74,
+        "beat": true
+      },
+      {
+        "date": "2026-04-30",
+        "eps_estimate": 1.42,
+        "eps_actual": 1.58,
+        "surprise_pct": 11.18,
+        "beat": true
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 1.2,
+        "eps_actual": 1.26,
+        "surprise_pct": 4.57,
+        "beat": true
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 1.52,
+        "eps_actual": 1.63,
+        "surprise_pct": 7.55,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-29 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 1.25."
+  },
+  "forward_trends": {
+    "queries": [
+      "Bristol-Myers Squibb BMY 2026 Medicare drug price negotiation oncology immunology cardiovascular policy impact",
+      "2026 oncology drug spending trends Medicare negotiation CAR-T competition hospital oncology budgets",
+      "2026 immunology biologics market biosimilar competition payer utilization management rheumatoid arthritis psoriasis",
+      "2026 cardiovascular neuroscience specialty drug market growth HCM schizophrenia payer coverage prescribing trends"
+    ],
+    "results_count": 20,
+    "results_dated": 18,
+    "trends": [
+      {
+        "claim": "In Q1 2026, BMS growth products pulled ahead, contributing $6.2B of $11.5B revenue.",
+        "stance": "support",
+        "why": "Newer products are offsetting legacy declines and supporting BMS revenue mix.",
+        "quote": "growth products are pulling ahead, with $6.2 billion of its total quarterly haul of $11.5 billion",
+        "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+        "publisher": "fiercepharma.com",
+        "as_of": "2026-04-30",
+        "age_days": 177,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, BMS's Camzyos faces new competition from Cytokinetics.",
+        "stance": "pressure",
+        "why": "Competition could slow Camzyos growth and pressure BMS revenue.",
+        "quote": "BMS maintains Camzyos confidence amid Cytokinetics competition",
+        "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+        "publisher": "fiercepharma.com",
+        "as_of": "2026-04-30",
+        "age_days": 177,
+        "undated": false
+      },
+      {
+        "claim": "As of April 2026, BMS says it is well prepared for Camzyos competition.",
+        "stance": "support",
+        "why": "New product revenue mix may cushion competitive pressure on Camzyos.",
+        "quote": "BMS 'well prepared' for Camzyos competition as revenue from new products overtakes legacy portfolio",
+        "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+        "publisher": "fiercepharma.com",
+        "as_of": "2026-04-30",
+        "age_days": 177,
+        "undated": false
+      },
+      {
+        "claim": "As of July 2026, full generics for REVLIMID and POMALYST are headwinds for BMS.",
+        "stance": "pressure",
+        "why": "Generic competition erodes sales of these legacy BMS products.",
+        "quote": "Full generics for REVLIMID and POMALYST present headwinds",
+        "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+        "publisher": "quartr.com",
+        "as_of": "2026-07-09",
+        "age_days": 107,
+        "undated": false
+      },
+      {
+        "claim": "BMS expects continued momentum into 2026 from growth products like REVLIMID, Breyanzi, and CAMZYOS.",
+        "stance": "support",
+        "why": "These products can offset legacy declines and support BMS revenue.",
+        "quote": "Strong 2025 performance driven by growth portfolio products such as REVLIMID, Breyanzi, and CAMZYOS, with continued momentum expected into 2026.",
+        "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+        "publisher": "quartr.com",
+        "as_of": "2026-07-09",
+        "age_days": 107,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In 2026, BMS expects a lower Eliquis list price to help avoid US penalties.",
+        "stance": "support",
+        "why": "Avoiding penalties may stabilize Eliquis net pricing and support 2026 revenue.",
+        "quote": "Lower Eliquis list price will help it avoid US penalties",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/bristol-myers-forecasts-upbeat-2026-expecting-eliquis-price-cut-pay-off-2026-02-05/",
+        "publisher": "reuters.com",
+        "as_of": "2026-02-06",
+        "age_days": 260,
+        "undated": false,
+        "drop_reason": "stale (260 days old)"
+      }
+    ],
+    "stale_dropped": 1,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "BMY",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 61.48,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 65.0,
+        "premium": 4.08,
+        "bid": 3.85,
+        "ask": 4.3,
+        "mid": 4.08,
+        "last": 4.06,
+        "open_interest": 5926,
+        "volume": 44.0,
+        "implied_vol": 0.36902486450195315,
+        "qty": 11
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 65.0,
+        "premium": 1.14,
+        "bid": 0.97,
+        "ask": 1.31,
+        "mid": 1.14,
+        "last": 1.2,
+        "open_interest": 24019,
+        "volume": 65.0,
+        "implied_vol": 0.38867798828125,
+        "qty": 5
+      },
+      "long_total": 4488.0,
+      "short_total": 570.0,
+      "net_debit": 3918.0,
+      "credit_ratio_mid": 0.127,
+      "credit_ratio_conservative": 0.1025,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 65.0,
+          "qty": 11,
+          "underlying": 61.48,
+          "multiplier": 100,
+          "price": 4.08,
+          "total": 4488.0,
+          "open_interest": 5926
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 65.0,
+          "qty": 5,
+          "underlying": 61.48,
+          "multiplier": 100,
+          "price": 1.14,
+          "total": -569.9999999999999,
+          "open_interest": 24019
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 65, 62.5, 67.5, 70"
+      ],
+      "advice": "Credit ratio 10.3% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0254,
+          "credit_ratio_conservative": 0.0205,
+          "passes_floor": false,
+          "cash_collected": 114.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0508,
+          "credit_ratio_conservative": 0.041,
+          "passes_floor": false,
+          "cash_collected": 228.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0762,
+          "credit_ratio_conservative": 0.0615,
+          "passes_floor": false,
+          "cash_collected": 342.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1016,
+          "credit_ratio_conservative": 0.082,
+          "passes_floor": false,
+          "cash_collected": 456.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.127,
+          "credit_ratio_conservative": 0.1025,
+          "passes_floor": true,
+          "cash_collected": 570.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1524,
+          "credit_ratio_conservative": 0.123,
+          "passes_floor": true,
+          "cash_collected": 684.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1778,
+          "credit_ratio_conservative": 0.1436,
+          "passes_floor": true,
+          "cash_collected": 798.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2032,
+          "credit_ratio_conservative": 0.1641,
+          "passes_floor": true,
+          "cash_collected": 912.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2286,
+          "credit_ratio_conservative": 0.1846,
+          "passes_floor": true,
+          "cash_collected": 1026.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.254,
+          "credit_ratio_conservative": 0.2051,
+          "passes_floor": true,
+          "cash_collected": 1140.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2794,
+          "credit_ratio_conservative": 0.2256,
+          "passes_floor": true,
+          "cash_collected": 1254.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "BMY",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 61.48,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 60.0,
+        "premium": 4.3,
+        "bid": 3.9,
+        "ask": 4.7,
+        "mid": 4.3,
+        "last": 3.8,
+        "open_interest": 6427,
+        "volume": 1.0,
+        "implied_vol": 0.352545537109375,
+        "qty": 10
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 60.0,
+        "premium": 1.57,
+        "bid": 1.41,
+        "ask": 1.73,
+        "mid": 1.57,
+        "last": 1.5,
+        "open_interest": 5392,
+        "volume": 1035,
+        "implied_vol": 0.35742830078125,
+        "qty": 4
+      },
+      "long_total": 4300.0,
+      "short_total": 628.0,
+      "net_debit": 3672.0,
+      "credit_ratio_mid": 0.146,
+      "credit_ratio_conservative": 0.12,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 60.0,
+          "qty": 10,
+          "underlying": 61.48,
+          "multiplier": 100,
+          "price": 4.3,
+          "total": 4300.0,
+          "open_interest": 6427
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 60.0,
+          "qty": 4,
+          "underlying": 61.48,
+          "multiplier": 100,
+          "price": 1.57,
+          "total": -628.0,
+          "open_interest": 5392
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 60, 57.5, 55, 52.5"
+      ],
+      "advice": "Credit ratio 12.0% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0365,
+          "credit_ratio_conservative": 0.03,
+          "passes_floor": false,
+          "cash_collected": 157.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.073,
+          "credit_ratio_conservative": 0.06,
+          "passes_floor": false,
+          "cash_collected": 314.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1095,
+          "credit_ratio_conservative": 0.09,
+          "passes_floor": false,
+          "cash_collected": 471.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.146,
+          "credit_ratio_conservative": 0.12,
+          "passes_floor": true,
+          "cash_collected": 628.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1826,
+          "credit_ratio_conservative": 0.15,
+          "passes_floor": true,
+          "cash_collected": 785.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2191,
+          "credit_ratio_conservative": 0.18,
+          "passes_floor": true,
+          "cash_collected": 942.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2556,
+          "credit_ratio_conservative": 0.21,
+          "passes_floor": true,
+          "cash_collected": 1099.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.2921,
+          "credit_ratio_conservative": 0.24,
+          "passes_floor": true,
+          "cash_collected": 1256.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3286,
+          "credit_ratio_conservative": 0.27,
+          "passes_floor": true,
+          "cash_collected": 1413.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.3651,
+          "credit_ratio_conservative": 0.3,
+          "passes_floor": true,
+          "cash_collected": 1570.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for BMY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BMY/key-statistics/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "Price: 61.48 USD Market Cap: 125.59B Fwd PE: 9.36 P/S: 2.6 EPS trends: slightly down over the last 7 days EPS revisions: tilted lower, with 1 up and 8 down over last 30 days price 61.48 market cap 125.59B forward PE 9.36 forward PE next FY 9.31 trailing PE 13.54185 P/S 2.5532894 EV/EBITDA 8.43"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for BMY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BMY/analysis/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "FY consensus 6.56772 now, 6.61865 7 days ago, 6.94853 30 days ago, change over 30 days -5.48%; EPS revisions 1 up and 8 down over 30 days, 1 up and 8 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "BMY quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bmy/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Earnings Before Interest and Tax increasing 26.1% (3/31/2026 to 6/30/2026) Net Income increasing 23.9% (3/31/2026 to 6/30/2026) Total Revenue increasing 12.9% (3/31/2026 to 6/30/2026) Total Equity increasing 11.2% (3/31/2026 to 6/30/2026) Cash and Cash Equivalents decreasing 8.9% (3/31/2026 to 6/30/2026) Long-Term Investments increasing 8.5% (3/31/2026 to 6/30/2026) EPS increased year over year 1.46 to 2.04 Total Revenue 12.9% quarter over quarter and 5.7% year over year to 2026-06-30 Net Income 23.9% quarter over quarter and 153.2% year over year to 2026-06-30 EBIT 23.1% quarter over quarter and 99.0% year over year to 2026-06-30 EBITDA 19.8% quarter over quarter and 55.6% year over year to 2026-06-30 Operating Income 19.6% quarter over quarter and 6.7% year over year to 2026-06-30 Gross Profit 14.6% quarter over quarter and 3.9% year over year to 2026-06-30 Interest Expense -1.0% quarter over quarter and -16.1% year over year to 2026-06-30 Net Interest Income 1.0% quarter over quarter and 16.1% year over year to 2026-06-30 Total Revenue decreasing 0.2% in fiscal 2025-12-31 vs 2024-12-31 Net Income increasing 178.8% in fiscal 2025-12-31 vs 2024-12-31 EBITDA increasing 380.7% in fiscal 2025-12-31 vs 2024-12-31 EBIT increasing 274.4% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders increasing 178.8% in fiscal 2025-12-31 vs 2024-12-31 Operating Income increasing 133.1% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "BMY earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/bmy/earnings",
+      "date": "2026-10-29",
+      "weight": null,
+      "text": "2026-10-29 (Thursday, before the open), 5 days out -- from the earnings calendar, consensus EPS 1.25. beat streak 4 median gap 91 days 2026-07-30 estimate 1.6 actual 2.04 surprise 27.74% 2026-04-30 estimate 1.42 actual 1.58 surprise 11.18% 2026-02-05 estimate 1.2 actual 1.26 surprise 4.57% 2025-10-30 estimate 1.52 actual 1.63 surprise 7.55%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "The Motley Fool: Have $1,000 to Invest? This Dirt Cheap Pharma Stock Pays You 4.2% to Wait.",
+      "provider": null,
+      "url": "/articles/have-1000-invest-dirt-cheap-pharma-stock-pays-you-42-wait",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Have $1,000 to Invest? This Dirt Cheap Pharma Stock Pays You 4.2% to Wait. Key PointsBristol Myers Squibb has a moderately high forward dividend yield, but that's not the main appeal with this undervalued pharmaceutical stock."
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Can BMY Navigate Generic Challenges Across Its Key Drug Portfolio?",
+      "provider": null,
+      "url": "/articles/can-bmy-navigate-generic-challenges-across-its-key-drug-portfolio",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "Can BMY Navigate Generic Challenges Across Its Key Drug Portfolio? Bristol Myers faces mounting generic competition across its legacy portfolio, while Eliquis delivers strong growth and Revlimid shows resilience amid pricing and market pressures."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "The Motley Fool: Bristol Myers Squibb vs. Pfizer: Consistency vs. Scale in Revenue",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-vs-pfizer-consistency-vs-scale-revenue",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Bristol Myers Squibb vs. Pfizer: Consistency vs. Scale in Revenue Key PointsPfizer currently generates a higher volume of absolute revenue, while Bristol Myers Squibb displays a more consistent baseline without the recent negative fluctuations seen by the former."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Earnings Preview: Bristol Myers Squibb (BMY) Q3 Earnings Expected to Decline",
+      "provider": null,
+      "url": "/articles/earnings-preview-bristol-myers-squibb-bmy-q3-earnings-expected-decline",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Earnings Preview: Bristol Myers Squibb (BMY) Q3 Earnings Expected to Decline Bristol Myers (BMY) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Bristol Myers Squibb vs. Novo Nordisk: Stable Scale vs. GLP-1 Volatility",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-vs-novo-nordisk-stable-scale-vs-glp-1-volatility",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Bristol Myers Squibb vs. Novo Nordisk: Stable Scale vs. GLP-1 Volatility Key PointsWhen evaluating the current baseline comparison between the two distinct businesses, Bristol Myers Squibb generated higher top-line results throughout seven of the last eight charted periods, establishing a consistent overall lead despite a single isolated revenue spike"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "RTTNews: BioNTech Expands Phase 3 Breast Cancer Trial Through Collaboration With Gilead",
+      "provider": null,
+      "url": "/articles/biontech-expands-phase-3-breast-cancer-trial-through-collaboration-gilead",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "BioNTech Expands Phase 3 Breast Cancer Trial Through Collaboration With Gilead (RTTNews) - BioNTech SE (BNTX) has entered a clinical trial collaboration with Gilead Sciences (GILD) to evaluate the investigational drug Pumitamig in combination with Trodelvy (sacituzumab govitecan) as a first-line treatment for patients with advanced triple-negative breast ca"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "The Motley Fool: Bristol Myers Squibb vs. Eli Lilly: How Long Can Zepbound and Mounjaro Keep Juicing Revenue Results?",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-vs-eli-lilly-how-long-can-zepbound-and-mounjaro-keep-juicing-revenue",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Bristol Myers Squibb vs. Eli Lilly: How Long Can Zepbound and Mounjaro Keep Juicing Revenue Results? Key PointsWhen evaluating the two companies based strictly on the most recent quarterly data, Eli Lilly currently shows a higher overall revenue base and a demonstrably faster upward sales trajectory than Bristol Myers Squibb."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Bristol Myers Squibb (BMY) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-bmy-sees-more-significant-dip-broader-market-some-facts-know",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Bristol Myers Squibb (BMY) Sees a More Significant Dip Than Broader Market: Some Facts to Know Bristol Myers Squibb (BMY) reached $61.48 at the closing of the latest trading day, reflecting a -2.41% change compared to its last close."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "RTTNews: Bristol Myers Squibb Moves On Two Fronts: MS Cell Therapy Data And Tempus AI Expansion; Stock Down",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-moves-two-fronts-ms-cell-therapy-data-and-tempus-ai-expansion-stock",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Bristol Myers Squibb Moves On Two Fronts: MS Cell Therapy Data And Tempus AI Expansion; Stock Down (RTTNews) - Bristol Myers Squibb (BMY) presented interim results from the Phase 1 Breakfree-2 study of investigational zolacabtagene autoleucel (zola-cel) in patients with highly active relapsing and progressive multiple sclerosis (MS) at MSToronto 2026."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "RTTNews: Bristol Myers Squibb Reports CAR T-Cell Therapy Data In Multiple Sclerosis",
+      "provider": null,
+      "url": "/articles/bristol-myers-squibb-reports-car-t-cell-therapy-data-multiple-sclerosis",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Bristol Myers Squibb Reports CAR T-Cell Therapy Data In Multiple Sclerosis (RTTNews) - Bristol Myers Squibb (BMY) reported interim Phase 1 Breakfree-2 study results for investigational CAR T-cell therapy zolacabtagene autoleucel (zola-cel) in 66 patients with highly active relapsing and progressive multiple sclerosis."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential?",
+      "provider": null,
+      "url": "/articles/bmy-vs-abbv-which-pharma-biotech-stock-offers-more-upside-potential",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "BMY vs. ABBV: Which Pharma/Biotech Stock Offers More Upside Potential? Bristol Myers edges out AbbVie with a cheaper valuation and higher dividend yield, but pipeline execution, legacy drug declines and debt remain key risks."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: Better Dividend Stock to Buy and Hold: Pfizer or Bristol Myers Squibb?",
+      "provider": null,
+      "url": "/articles/better-dividend-stock-buy-and-hold-pfizer-or-bristol-myers-squibb",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Better Dividend Stock to Buy and Hold: Pfizer or Bristol Myers Squibb? Key PointsPfizer's dividend yield ranks among the highest in the healthcare sector and S&P 500."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "The Motley Fool: Amgen vs. Bristol Myers Squibb: Which Healthcare Stock Is a Better Buy in 2026?",
+      "provider": null,
+      "url": "/articles/amgen-vs-bristol-myers-squibb-which-healthcare-stock-better-buy-2026",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Amgen vs. Bristol Myers Squibb: Which Healthcare Stock Is a Better Buy in 2026? Key PointsAmgen is demonstrating strong top-line growth driven by a diverse portfolio in oncology and rare diseases."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Prothena's Partnership Strategy: Growth Driver or Limitation?",
+      "provider": null,
+      "url": "/articles/prothenas-partnership-strategy-growth-driver-or-limitation",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Prothena's Partnership Strategy: Growth Driver or Limitation? PRTA's pharma partnerships offer $3 billion in potential milestone payments plus royalties, but clinical risks and partner control remain key challenges."
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "The Motley Fool: AbbVie vs. Bristol Myers Squibb: Faster Growth or Steady Revenue?",
+      "provider": null,
+      "url": "/articles/abbvie-vs-bristol-myers-squibb-faster-growth-or-steady-revenue",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "AbbVie vs. Bristol Myers Squibb: Faster Growth or Steady Revenue? Key PointsAbbVie currently looks stronger on revenue by consistently generating higher overall totals and demonstrating a faster growth trajectory across the measured periods."
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "walnutinvest.com: Is BMY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/bmy/is-it-a-buy-or-sell",
+      "date": null,
+      "weight": 3,
+      "text": "Is BMY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App Is BMY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is BMY a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated July 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Bristol Myers Squibb (BMY) rests on New product portfolio ramp: Bristol Myers is shifting revenue weight toward a newer set of growth drivers including Reblozyl, Opdualag, Camzyos, Breyanzi, Sotyktu, and Cobenfy. The bear case rests on the central risk is the patent cliff: Eliquis, Opdivo, and other large products face loss of exclusivity, and"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "marketbeat.com: Zacks Research Brokers Increase Earnings Estimates for BMY",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/zacks-research-brokers-increase-earnings-estimates-for-bmy-2026-08-17/",
+      "date": "2026-08-17",
+      "weight": 3,
+      "text": "Zacks Research Brokers Increase Earnings Estimates for BMY Skip to main content\n\n\u2192 Jon Najarian's #1 Energy Trade for 2026 (From Banyan Hill Publishing) (Ad)\n\n# Zacks Research Brokers Increase Earnings Estimates for BMY\n\nWritten by MarketBeat\n\nAugust 17, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Zacks Research raised its FY2026 earnings estimate for Bristol Myers Squibb to $6.85 per share, up from $6.27 and slightly below the $6.95 consensus forecast. The firm also initiated a FY2028 estimate of $5.11 per share.\n- Bristol Myers Squibb reported"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "marketwatch.com: BMY | Bristol Myers Squibb Co. Analyst Estimates | MarketWatch",
+      "provider": "marketwatch.com",
+      "url": "https://www.marketwatch.com/investing/stock/bmy/analystestimates",
+      "date": "2026-09-09",
+      "weight": 3,
+      "text": "BMY | Bristol Myers Squibb Co. Analyst Estimates | MarketWatch BMY | Bristol Myers Squibb Co. Analyst Estimates | MarketWatch\nUS\nEurope\nAsia\nFX\nRates\nFutures\nCrypto\n\nDJIA F\n-0.53%\n\nS&P F\n-0.32%\n\nNASDAQ F\n-0.48%\n\nGold\n0.12%\n\nSilver\n0.03%\n\nCrude Oil\n2.95%\n\n* US\n* Europe\n* Asia\n* FX\n* Rates\n* Futures\n* Crypto\n* Range\n**\nDropdown Markets\n1D\n5D\n1M\n3M\n6M\n1Y\n2Y\n|**|DJIA F|52,554|-278|-0.53%|\n|**|S&P F|7,656.25|-24.25|-0.32%|\n|**|NASDAQ F|29,397.75|-141.00|-0.48%|\n|**|Gold|4,444.40|5.40|0.12%|\n|**|Silver|67.020|0.020|0.03%|\n|**|Crude Oil|95.77|2.74|2.95%|\nCreated with Highstock 2.1.86pm12am6am12pm$52,250$52,500$52,750$53,000\nS&P 500 Movers\n* LITE\n11.0\n\n* INTC\n9.1"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Bristol-Myers Squibb: Patent Cliff Is Still A Problem (NYSE:BMY) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4952331-bristol-myers-squibb-patent-cliff-is-still-a-problem",
+      "date": "2026-10-06",
+      "weight": 3,
+      "text": "Bristol-Myers Squibb: Patent Cliff Is Still A Problem (NYSE:BMY) | Seeking Alpha Bristol-Myers Squibb: Patent Cliff Is Still A Problem (NYSE:BMY) | Seeking Alpha\n\n# Bristol-Myers Squibb: Patent Cliff Is Still A Problem\n\nOct 06, 2026, 3:56 PM ET Bristol-Myers Squibb Company (BMY) Stock 5 Comments\n\nDaniel Sch\u00f6nberger\n\n## Summary\n\n- Bristol-Myers Squibb remains a Hold as replacing lost revenue from Eliquis and Opdivo presents a significant challenge.\n- Q2/26 saw 5.7% revenue growth and 153% EPS growth, but analysts expect long-term revenue declines despite a strong growth portfolio.\n- Management raised 2026 revenue guidance to $49\u201350B and EPS to $6.75\u2013$7.00, but patent expiri"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketbeat.com: Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/estimates-erste-group-bank-has-positive-opinion-of-bmy-fy2027-earnings-2026-10-23/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings Skip to main content\n\nYour Rate Never Goes Up! Save $100 a Year on MarketBeat All Access\n\nUpgrade Now \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Erste Group Bank Has Positive Opinion of BMY FY2027 Earnings\n\nWritten by MarketBeat\n\nOctober 23, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Erste Group Bank raised its FY2027 EPS estimate fo"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "openicon.com: Bristol-Myers Squibb (BMY) revenue up % y/y, Q3 2026 analyst conference call summary",
+      "provider": "openicon.com",
+      "url": "https://www.openicon.com/confsums/2026/bmy_10_29_2026.html",
+      "date": "2026-10-29",
+      "weight": 3,
+      "text": "Bristol-Myers Squibb (BMY) revenue up % y/y, Q3 2026 analyst conference call summary Bristol-Myers Squibb (BMY) revenue up % y/y, Q3 2026 analyst conference call summary\n\nbiotechnology\n\n# Bristol-Myers Squibb BMY\n\nconference date: October 29, 2026 @ 5:00 AM Pacific Time for quarter ending: September 30, 2026 (third quarter 2026, Q3)\n\nBasic data (GAAP):\n\nRevenue was $ billion, up % sequentially from $12.97 billion and up % from $ billion year-earlier.\n\nNet income was $ billion, up % sequentially from $3.32 billion and up % from $ billion year-earlier.\n\nEPS (earnings per share), diluted, were $, up % sequentially from $1.62, and up % from $ year-earlier.\n\nConference Highlights:"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "tipranks.com: Bristol-Myers Squibb (BMY) Price & Analysis",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/stocks/bmy",
+      "date": "2026-10-29",
+      "weight": 3,
+      "text": "Bristol-Myers Squibb (BMY) Price & Analysis Bristol-Myers Squibb (BMY)\n\nNYSE: BMY\n\nBMY\n\nBristol-Myers Squibb\n\nMore\n\nRESEARCH TOOLSreports\n\nDownload BMY Report\n\nWant to see BMY full AI Analyst Report?\n\nDownload\n\n# Bristol-Myers Squibb (BMY) Price & Analysis\n\nDownload BMY Report\n\nFollow\n\n12,188 Followers\n\n## BMY Stock Chart & Stats\n\n$64.72\n\n$0.57(0.89%)\n\nAt close: Aug 07 4:00 PM EDT\n\n$64.72\n\n$0.57(0.89%)\n\nAnalyze Chart\n\nAnalyze Chart\n\n1d5d3m 2.42%6mYTD1y3y5y\n\nDay\u2019s Range\u2015 - \u2015\n\n52-Week Range$42.52 - $68.64\n\nPrevious Close$64.12\n\nVolume7.21M\n\nAverage Volume (3M)13.09M\n\nMarket Cap\n\n$124.85B\n\nEnterprise Value$151.99B\n\nTotal Cash (Recent Filin"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "markets.businessinsider.com: Bristol Myers price target lowered to $66 from $71 at BofA",
+      "provider": "markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/bristol-myers-price-target-lowered-to-66-from-71-at-bofa-1036613219",
+      "date": null,
+      "weight": 0,
+      "text": "Bristol Myers price target lowered to $66 from $71 at BofA BofA lowered the firm\u2019s price target on Bristol Myers (BMY) to $66 from $71 and keeps a Buy rating on the shares as part of the firm\u2019s Q3 EPS preview for its large-cap pharma and SMID cap biopharma coverage.\n\nPublished first on TheFly \u2013 the ultimate source for real-time, market-moving breaking financial news. Try Now>>"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "bms.com: Bristol Myers Squibb Reports Second Quarter Financial Results for 2026 and Raises Full-Year Outlook Strong Performance Underscores Growth Portfolio Momentum and Pipeline Progress",
+      "provider": "bms.com",
+      "url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2026/ghBMY-Q2-2026-Earnings-Press-Release.pdf",
+      "date": "2026-07-30",
+      "weight": 0,
+      "text": "Bristol Myers Squibb Reports Second Quarter Financial Results for 2026 and Raises Full-Year Outlook Strong Performance Underscores Growth Portfolio Momentum and Pipeline Progress Bristol Myers Squibb Reports Second Quarter Financial Results for 2026 and Raises Full-Year Outlook Strong Performance Underscores Growth Portfolio Momentum and Pipeline Progress\n\n\u2022 Second quarter revenues increased 6% (+5% Ex-FX) to $13.0 billion \n\u25e6 Growth Portfolio revenues increased 15% (+14% Ex-FX) to $7.6 billion \n\u2022 GAAP EPS was $1.62 and non-GAAP EPS was $2.04 \n\u2022 Raising 2026 revenue guidance to a range of ~$49.0 billion to $50.0 billion; Increasing non-GAAP EPS range to $6.75 to $7.00 \n\n(PRINCETON, N.J., July 30, 2026) \u2013 Bristol Myers Squibb (NYSE: BMY) today reports results for the sec"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "biospace.com: BMO most bullish on Merck's, bearish on BMS\u2019 plans to contend with patent cliffs - BioSpace",
+      "provider": "biospace.com",
+      "url": "https://www.biospace.com/business/bmo-most-bullish-on-mercks-bearish-on-bms-plans-to-contend-with-patent-cliffs",
+      "date": "2026-10-02",
+      "weight": 0,
+      "text": "BMO most bullish on Merck's, bearish on BMS\u2019 plans to contend with patent cliffs - BioSpace BMO most bullish on Merck's, bearish on BMS\u2019 plans to contend with patent cliffs - BioSpace\n\n# BMO most bullish on Merck\u2019s, bearish on BMS\u2019 plans to contend with patent cliffs\n\nOctober 2, 2026 | 4 min read | Gabrielle Masson\n\niStock, Narmeen Arshad \n\n## BMO Capital Markets is more impressed by Merck\u2019s plans to replace lost Keytruda revenue than on Bristol Myers Squibb\u2019s efforts to fill the expected void that will come from loss of exclusivity for both Opdivo and Eliquis.\n\nAlmost all big pharmas are contending with patent cliffs right now, putting pressure on pipeline programs and next-gen plan"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "ad-hoc-news.de: RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/rbc-expects-a-third-quarter-revenue-beat-for-bristol-myers-squibb-stock/70371416",
+      "date": "2026-10-19",
+      "weight": 0,
+      "text": "RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock\n\n# RBC expects a third-quarter revenue beat for Bristol Myers Squibb stock\n\n Published on 10/20/2026 at 11:12 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nRBC kept its USD 64.00 target on October 19, 2026. Bristol Myers Squibb stock has results scheduled for October 29, 2026.\n\n## Quarterly catalyst and valuation\n\n- RBC maintained a USD 64.00 target on October 19, 2026.\n- Second-quarter revenue reached USD 12.97 billion in 2026.\n- Bristol Myers Squibb stock traded at EUR 52.74 at 11:04 a.m. CEST"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "finviz.com: Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives",
+      "provider": "finviz.com",
+      "url": "https://finviz.com/news/405598/bristol-myers-must-prove-its-guidance-raise-was-real-as-eliquis-tailwind-arrives",
+      "date": "2026-10-21",
+      "weight": 0,
+      "text": "Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives\n\n# Bristol Myers Must Prove Its Guidance Raise Was Real As Eliquis Tailwind Arrives\n\n By Earnings Whispers | October 21, 2026, 11:22 AM \n\nEarnings Whispers\n\nThree months ago Bristol Myers Squibb did something it had not done all year: it raised its outlook outright, rather than merely reaffirming it or hinting at the upper end. The market has largely shrugged. The stock has slipped about 1.6% since that report while the S&P 500 gained roughly 4.5%, and sentiment toward the name has cooled noticeably. That gap betw"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: Bristol-Myers Squibb shares may move 5.3% on earnings report By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/bristolmyers-squibb-shares-may-move-53-on-earnings-report-93CH-4966633",
+      "date": "2026-10-22",
+      "weight": 0,
+      "text": "Bristol-Myers Squibb shares may move 5.3% on earnings report By Investing.com Bristol-Myers Squibb shares may move 5.3% on earnings report By Investing.com\n\n# Bristol-Myers Squibb shares may move 5.3% on earnings report\n\nEditor Louis Juricic Stock Markets\n\nEditor Louis Juricic\n\nPublished Oct 22, 2026, 10:08 AM\n\nIn this article:\n\nBMY-2.24%\n\nInvesting.com -- Bristol-Myers Squibb Co. shares could move 5.3% when the company releases its earnings report on October 29 before the market opens, according to options data compiled by Bloomberg.\n\nThe pharmaceutical company\u2019s stock has exceeded the implied move in half of its recent earnings announcements. In four of the past eight"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "morningstar.com: Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar",
+      "provider": "morningstar.com",
+      "url": "https://www.morningstar.com/stocks/market-may-be-too-pessimistic-about-this-4-star-dividend-stock",
+      "date": "2026-10-22",
+      "weight": 0,
+      "text": "Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock | Morningstar\n\n# The Market May Be Too Pessimistic About This 4-Star Dividend Stock \n\nDespite a looming patent cliff, a strong drug pipeline and 4.1% yield give investors reasons for optimism.\n\n Karen Andersen, CFA Oct 22, 2026\n\nBristol-Myers Squibb is heading into a difficult stretch, with key patent expirations expected to weigh on revenue and earnings in the years ahead. Still, the stock remains one of Morningstar Chief US Market Strategist Dave Sekera\u2019s go-to pharmaceutical picks. On a recent episode o"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "fiercepharma.com: In Q1 2026, BMS growth products pulled ahead, contributing $6.2B of $11.5B revenue.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+      "date": "2026-04-30",
+      "weight": null,
+      "text": "In Q1 2026, BMS growth products pulled ahead, contributing $6.2B of $11.5B revenue. Newer products are offsetting legacy declines and supporting BMS revenue mix. \"growth products are pulling ahead, with $6.2 billion of its total quarterly haul of $11.5 billion\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "fiercepharma.com: In 2026, BMS's Camzyos faces new competition from Cytokinetics.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+      "date": "2026-04-30",
+      "weight": null,
+      "text": "In 2026, BMS's Camzyos faces new competition from Cytokinetics. Competition could slow Camzyos growth and pressure BMS revenue. \"BMS maintains Camzyos confidence amid Cytokinetics competition\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "fiercepharma.com: As of April 2026, BMS says it is well prepared for Camzyos competition.",
+      "provider": "fiercepharma.com",
+      "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+      "date": "2026-04-30",
+      "weight": null,
+      "text": "As of April 2026, BMS says it is well prepared for Camzyos competition. New product revenue mix may cushion competitive pressure on Camzyos. \"BMS 'well prepared' for Camzyos competition as revenue from new products overtakes legacy portfolio\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "quartr.com: As of July 2026, full generics for REVLIMID and POMALYST are headwinds for BMS.",
+      "provider": "quartr.com",
+      "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+      "date": "2026-07-09",
+      "weight": null,
+      "text": "As of July 2026, full generics for REVLIMID and POMALYST are headwinds for BMS. Generic competition erodes sales of these legacy BMS products. \"Full generics for REVLIMID and POMALYST present headwinds\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "quartr.com: BMS expects continued momentum into 2026 from growth products like REVLIMID, Breyanzi, and CAMZYOS.",
+      "provider": "quartr.com",
+      "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+      "date": "2026-07-09",
+      "weight": null,
+      "text": "BMS expects continued momentum into 2026 from growth products like REVLIMID, Breyanzi, and CAMZYOS. These products can offset legacy declines and support BMS revenue. \"Strong 2025 performance driven by growth portfolio products such as REVLIMID, Breyanzi, and CAMZYOS, with continued momentum expected into 2026.\""
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "BMY listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/BMY/options/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "long CALL strike 65.0 expiry 2027-03-19 premium 4.08 short PUT strike 60.0 expiry 2027-03-19 premium 4.3"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 6.51,
+    "fy_consensus": 6.56772,
+    "ratio": 0.991,
+    "beats": 4,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (2.04 + 1.58 + 1.26 + 1.63) total 6.51, against a current-FY consensus of 6.56772 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "2026 oncology immunotherapy market hospital pharmacy budgets competition bispecifics CAR-T 2027",
+        "2026 rheumatology immunology biologics biosimilar payer formulary pressure practice spending",
+        "2026 cardiovascular anticoagulant HCM market Medicare drug price negotiation hospital budgets 2027",
+        "Bristol-Myers Squibb BMY 2026 schizophrenia multiple myeloma cell therapy market payer coverage competition"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "In 2026, insurance prior-authorization hurdles are limiting Cobenfy uptake despite its $23,000 annual list price.",
+          "stance": "pressure",
+          "why": "Delayed patient starts keep Cobenfy sales below the $14 billion neuroscience bet's expectations.",
+          "quote": "insurance has refused to cover the therapy that has a list price of about $23,000 a year",
+          "url": "https://www.bloomberg.com/news/features/2026-04-28/bristol-myers-23-000-a-year-cobenfy-stymied-by-insurance-doctors",
+          "publisher": "bloomberg.com",
+          "as_of": "2026-04-28",
+          "age_days": 179,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, community oncology practices want to deliver CAR-T and bispecifics outpatient, expanding sites of care.",
+          "stance": "support",
+          "why": "Broader outpatient delivery could increase patient volume for BMY's CAR-T therapies.",
+          "quote": "Community oncology wants CAR-T and bispecifics",
+          "url": "https://www.managedhealthcareexecutive.com/view/community-oncology-wants-car-t-bispecifics-infrastructure-itakes-deliver-them-safely-hses-2026",
+          "publisher": "managedhealthcareexecutive.com",
+          "as_of": "2026-10-19",
+          "age_days": 5,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, CAR-T and bispecifics are expanding into overlapping diseases, intensifying competition for BMY's Breyanzi.",
+          "stance": "pressure",
+          "why": "Overlapping treatment settings can shift patient share away from CAR-T.",
+          "quote": "As CAR-T therapies and bispecific antibodies expand into overlapping diseases and treatment settings",
+          "url": "https://www.iqvia.com/locations/united-states/blogs/2026/10/car-t-and-bispecifics-in-a-shared-treatment-landscape",
+          "publisher": "iqvia.com",
+          "as_of": "2026-10-01",
+          "age_days": 23,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, BMY expects new launches and pipeline progress to drive double-digit gains in key products.",
+          "stance": "support",
+          "why": "New product growth can offset older-product declines and support revenue.",
+          "quote": "new launches and robust pipeline progress, with double-digit gains in key products",
+          "url": "https://stockanalysis.com/stocks/bmy/transcripts/662531-bank-of-america-global-healthcare-conference-2026/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-05-14",
+          "age_days": 163,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, CAR-T wholesale prices are rising year-over-year, a reimbursement pressure for BMY's CAR-T business.",
+          "stance": "pressure",
+          "why": "Higher WAC can trigger payer restrictions and limit Breyanzi revenue growth.",
+          "quote": "steady year-over-year increases in wholesale acquisition costs (WAC)",
+          "url": "https://hmpi.org/2026/02/18/car-t-therapy-escalating-costs-in-an-expanding-market/",
+          "publisher": "hmpi.org",
+          "as_of": "2026-02-18",
+          "age_days": 248,
+          "undated": false,
+          "drop_reason": "stale (248 days old)"
+        },
+        {
+          "claim": "In 2026, BMY projected Eliquis sales would grow, supporting its top-selling product.",
+          "stance": "support",
+          "why": "Eliquis growth can offset declines elsewhere and stabilize revenue.",
+          "quote": "BMS projected that Eliquis\u2019 sales would grow",
+          "url": "https://www.biospace.com/business/bms-beats-again-despite-eliquis-and-cobenfy-disappointments",
+          "publisher": "biospace.com",
+          "as_of": "2026-02-05",
+          "age_days": 261,
+          "undated": false,
+          "drop_reason": "stale (261 days old)"
+        },
+        {
+          "claim": "In 2027, Medicare's negotiated lower prices for 15 Part D drugs take effect, pressuring industry pricing.",
+          "stance": "pressure",
+          "why": "Lower Medicare reimbursement can reduce net revenue for selected drugs.",
+          "quote": "new, negotiated lower prices drugs that will go into effect in 2027",
+          "url": "https://www.cms.gov/files/document/infographic-negotiated-prices-ipay-2027.pdf",
+          "publisher": "cms.gov",
+          "as_of": "2025-11-01",
+          "age_days": 357,
+          "undated": false,
+          "drop_reason": "stale (357 days old)"
+        },
+        {
+          "claim": "In 2026, federal and state policies plus payer practices are pressuring the buy-and-bill model for infused drugs.",
+          "stance": "pressure",
+          "why": "Disruption to in-office administration could reduce uptake and reimbursement for BMY's infused therapies.",
+          "quote": "it faces increasing pressure from a convergence of federal and state policy proposals, payer practices, and drug pricing reforms.",
+          "url": "https://rheumatology.org/the-rheum-advocate-march-26-2026",
+          "publisher": "rheumatology.org",
+          "as_of": "2026-03-26",
+          "age_days": 212,
+          "undated": false,
+          "drop_reason": "stale (212 days old)"
+        }
+      ],
+      "stale_dropped": 4,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Bristol-Myers Squibb BMY 2026 Medicare drug price negotiation oncology immunology cardiovascular policy impact",
+        "2026 oncology drug spending trends Medicare negotiation CAR-T competition hospital oncology budgets",
+        "2026 immunology biologics market biosimilar competition payer utilization management rheumatoid arthritis psoriasis",
+        "2026 cardiovascular neuroscience specialty drug market growth HCM schizophrenia payer coverage prescribing trends"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In Q1 2026, BMS growth products pulled ahead, contributing $6.2B of $11.5B revenue.",
+          "stance": "support",
+          "why": "Newer products are offsetting legacy declines and supporting BMS revenue mix.",
+          "quote": "growth products are pulling ahead, with $6.2 billion of its total quarterly haul of $11.5 billion",
+          "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+          "publisher": "fiercepharma.com",
+          "as_of": "2026-04-30",
+          "age_days": 177,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, BMS's Camzyos faces new competition from Cytokinetics.",
+          "stance": "pressure",
+          "why": "Competition could slow Camzyos growth and pressure BMS revenue.",
+          "quote": "BMS maintains Camzyos confidence amid Cytokinetics competition",
+          "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+          "publisher": "fiercepharma.com",
+          "as_of": "2026-04-30",
+          "age_days": 177,
+          "undated": false
+        },
+        {
+          "claim": "As of April 2026, BMS says it is well prepared for Camzyos competition.",
+          "stance": "support",
+          "why": "New product revenue mix may cushion competitive pressure on Camzyos.",
+          "quote": "BMS 'well prepared' for Camzyos competition as revenue from new products overtakes legacy portfolio",
+          "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+          "publisher": "fiercepharma.com",
+          "as_of": "2026-04-30",
+          "age_days": 177,
+          "undated": false
+        },
+        {
+          "claim": "As of July 2026, full generics for REVLIMID and POMALYST are headwinds for BMS.",
+          "stance": "pressure",
+          "why": "Generic competition erodes sales of these legacy BMS products.",
+          "quote": "Full generics for REVLIMID and POMALYST present headwinds",
+          "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+          "publisher": "quartr.com",
+          "as_of": "2026-07-09",
+          "age_days": 107,
+          "undated": false
+        },
+        {
+          "claim": "BMS expects continued momentum into 2026 from growth products like REVLIMID, Breyanzi, and CAMZYOS.",
+          "stance": "support",
+          "why": "These products can offset legacy declines and support BMS revenue.",
+          "quote": "Strong 2025 performance driven by growth portfolio products such as REVLIMID, Breyanzi, and CAMZYOS, with continued momentum expected into 2026.",
+          "url": "https://quartr.com/events/bristol-myers-squibb-company-bmy-td-cowen-46th-annual-health-care-conference_3gjWqNdg",
+          "publisher": "quartr.com",
+          "as_of": "2026-07-09",
+          "age_days": 107,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, BMS expects a lower Eliquis list price to help avoid US penalties.",
+          "stance": "support",
+          "why": "Avoiding penalties may stabilize Eliquis net pricing and support 2026 revenue.",
+          "quote": "Lower Eliquis list price will help it avoid US penalties",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/bristol-myers-forecasts-upbeat-2026-expecting-eliquis-price-cut-pay-off-2026-02-05/",
+          "publisher": "reuters.com",
+          "as_of": "2026-02-06",
+          "age_days": 260,
+          "undated": false,
+          "drop_reason": "stale (260 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 US oncology drug market outlook hospital cancer center spending reimbursement pressures",
+        "2026 immunology biologics market biosimilar competition rheumatology dermatology payer budgets",
+        "2026 CAR-T cell therapy market competition capacity lymphoma myeloma reimbursement",
+        "Bristol-Myers Squibb BMY 2026 Medicare drug price negotiation impact oncology cardiovascular neuroscience"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "U.S. oncology drug spending is projected to exceed $400 billion by 2030, up from near $200 billion in 2025.",
+          "stance": "support",
+          "why": "A growing oncology market can support BMS sales of Opdivo and other cancer therapies.",
+          "quote": "We estimate total U.S. oncology drug spending was near $200 billion as of 2025 and project it to exceed $400 billion by 2030",
+          "url": "https://www.milliman.com/en/insight/oncology-drug-landscape-spend-trends-market-dynamics-2030",
+          "publisher": "milliman.com",
+          "as_of": "2026-10-21",
+          "age_days": 3,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, cancer-care policy pressures are converging at once.",
+          "stance": "pressure",
+          "why": "Cumulative reimbursement and pricing changes can reduce access and revenue for BMS oncology drugs.",
+          "quote": "Drug pricing reforms, biosimilar adoption, site neutrality, Medicaid changes, and reimbursement shifts are converging at once.",
+          "url": "https://journals.healio.com/doi/10.3928/25731777-20260601-10",
+          "publisher": "journals.healio.com",
+          "as_of": "2026-06-15",
+          "age_days": 131,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, CAR-T access and utilization remain uneven nearly a decade after approval.",
+          "stance": "pressure",
+          "why": "Referral, capacity, and reimbursement barriers can limit sales of BMS's Breyanzi and Abecma.",
+          "quote": "access and utilization of CAR T therapy remains uneven nearly a decade later",
+          "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/the-role-of-government-in-optimizing-health-system-readiness-for-car-t--cell-therapies",
+          "publisher": "iqvia.com",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, CAR-T and bispecific therapies are expanding into overlapping diseases and settings.",
+          "stance": "pressure",
+          "why": "Modality competition may pressure BMS's CAR-T franchise as treatment pathways shift.",
+          "quote": "As CAR-T therapies and bispecific antibodies expand into overlapping diseases and treatment settings",
+          "url": "https://www.iqvia.com/locations/united-states/blogs/2026/10/car-t-and-bispecifics-in-a-shared-treatment-landscape",
+          "publisher": "iqvia.com",
+          "as_of": "2026-10-01",
+          "age_days": 23,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "As of April 2026, three BMS drugs face Medicare negotiated maximum fair prices.",
+          "stance": "pressure",
+          "why": "MFP cuts can reduce U.S. net revenue for Eliquis, Pomalyst, and Orencia.",
+          "quote": "three of its products\u2014Eliquis, Pomalyst, and Orencia\u2014selected for Medicare price negotiations under the maximum fair price (MFP) program.",
+          "url": "https://www.bioxconomy.com/pricing-and-contracting/how-bristol-myers-squibb-prepared-for-medicare-price-talks",
+          "publisher": "bioxconomy.com",
+          "as_of": "2026-04-09",
+          "age_days": 198,
+          "undated": false,
+          "drop_reason": "stale (198 days old)"
+        },
+        {
+          "claim": "In February 2026 guidance, BMS said a lower Eliquis list price will help avoid U.S. penalties.",
+          "stance": "support",
+          "why": "Avoiding penalties may offset some negotiated-price pressure in 2026.",
+          "quote": "Lower Eliquis list price will help it avoid US penalties",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/bristol-myers-forecasts-upbeat-2026-expecting-eliquis-price-cut-pay-off-2026-02-05/",
+          "publisher": "reuters.com",
+          "as_of": "2026-02-06",
+          "age_days": 260,
+          "undated": false,
+          "drop_reason": "stale (260 days old)"
+        },
+        {
+          "claim": "Medicare's third negotiation cycle, announced January 2026, includes Part B drugs for the first time.",
+          "stance": "pressure",
+          "why": "This can extend negotiated price cuts to physician-administered BMS drugs from 2028.",
+          "quote": "for the first time, drugs payable under Medicare Part B for the third cycle",
+          "url": "https://www.cms.gov/newsroom/press-releases/cms-announces-selection-drugs-third-cycle-medicare-drug-price-negotiation-program-including-first",
+          "publisher": "cms.gov",
+          "as_of": "2026-02-28",
+          "age_days": 238,
+          "undated": false,
+          "drop_reason": "stale (238 days old)"
+        }
+      ],
+      "stale_dropped": 3,
+      "max_age_days": 180
+    }
+  ]
+}

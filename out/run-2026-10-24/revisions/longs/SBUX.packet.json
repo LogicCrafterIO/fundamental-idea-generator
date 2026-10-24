@@ -1,0 +1,2002 @@
+{
+  "symbol": "SBUX",
+  "as_of": "2026-10-24",
+  "generated_at": "2026-10-24T13:53:08",
+  "profile": {
+    "symbol": "SBUX",
+    "name": "Starbucks Corporation",
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "summary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans and ground coffees, complementary food, packaged coffees, single-serve products, and ready-to-drink beverages; and various food products, such as pastries, breakfast sandwiches, and lunch items. The company also licenses its trademarks through licensed stores, and grocery and foodservice accounts. The company offers its products under the Starbucks Coffee, Teavana, Seattle's Best Coffee, Ethos, and Starbucks Reserve brands. Starbucks Corporation was founded in 1971 and is based in Seattle, Washington.",
+    "employees": 381000,
+    "country": "United States",
+    "website": "https://www.starbucks.com"
+  },
+  "quants": {
+    "symbol": "SBUX",
+    "name": "Starbucks Corporation",
+    "price": 100.8,
+    "market_cap": 114912002048,
+    "market_cap_human": "114.91B",
+    "fwd_pe": 38.66,
+    "fwd_pe_1y": 32.25,
+    "fwd_pe_yahoo": 32.252388,
+    "trailing_pe": 58.265896,
+    "ps": 2.997316,
+    "ev_ebitda": 23.707,
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "eps_fy_current": 2.6074,
+    "eps_fy_next": 3.12535,
+    "eps_trend": {
+      "change_7d_pct": 0.22,
+      "change_30d_pct": 0.56,
+      "current": 2.6074,
+      "7d_ago": 2.60169,
+      "30d_ago": 2.5928,
+      "text": "slightly up over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 2,
+      "down_7d": 0,
+      "up_30d": 4,
+      "down_30d": 0,
+      "net_30d": 4,
+      "text": "all up, with 4 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-30"
+      ],
+      "next_date": "2026-10-30",
+      "eps_avg": 0.70575,
+      "eps_low": 0.49,
+      "eps_high": 0.76473,
+      "revenue_avg": 9237641260
+    },
+    "as_of": "2026-10-24"
+  },
+  "quants_lines": [
+    "Price: 100.80 USD",
+    "Market Cap: 114.91B",
+    "Fwd PE: 38.66",
+    "P/S: 3.0",
+    "EPS trends: slightly up over the last 7 days",
+    "EPS revisions: all up, with 4 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Long-Term Investments",
+      "table": "balanceSheet",
+      "period": "6/28/2026",
+      "prior_period": "3/29/2026",
+      "current": 2013200.0,
+      "prior": 789400.0,
+      "change_pct": 155.0,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/28/2026",
+      "prior_period": "3/29/2026",
+      "current": 3449800.0,
+      "prior": 1532000.0,
+      "change_pct": 125.2,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/28/2026",
+      "prior_period": "3/29/2026",
+      "current": 1045400.0,
+      "prior": 510900.0,
+      "change_pct": 104.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/28/2026",
+      "prior_period": "3/29/2026",
+      "current": 1554000.0,
+      "prior": 865100.0,
+      "change_pct": 79.6,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Equity",
+      "table": "balanceSheet",
+      "period": "6/28/2026",
+      "prior_period": "3/29/2026",
+      "current": 7674300.0,
+      "prior": 8465100.0,
+      "change_pct": -9.3,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Liabilities",
+      "table": "balanceSheet",
+      "period": "6/28/2026",
+      "prior_period": "3/29/2026",
+      "current": 35961800.0,
+      "prior": 39015200.0,
+      "change_pct": -7.8,
+      "direction": "decreasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-29T16:00:00-04:00",
+    "current": 0.85,
+    "year_ago": 0.5,
+    "year_ago_period": "2025-07-29T16:00:00-04:00",
+    "change": 0.35,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 9322700000.0,
+      "prior": 9531500000.0,
+      "qoq_pct": -2.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 9456000000.0,
+      "yoy_pct": -1.4,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1045300000.0,
+      "prior": 510900000.0,
+      "qoq_pct": 104.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 558300000.0,
+      "yoy_pct": 87.2,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1553900000.0,
+      "prior": 865100000.0,
+      "qoq_pct": 79.6,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 961200000.0,
+      "yoy_pct": 61.7,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1943600000.0,
+      "prior": 1254300000.0,
+      "qoq_pct": 55.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1409200000.0,
+      "yoy_pct": 37.9,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1204400000.0,
+      "prior": 802400000.0,
+      "qoq_pct": 50.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 899300000.0,
+      "yoy_pct": 33.9,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2296700000.0,
+      "prior": 1914400000.0,
+      "qoq_pct": 20.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 2155700000.0,
+      "yoy_pct": 6.5,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 134600000.0,
+      "prior": 137000000.0,
+      "qoq_pct": -1.8,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 142300000.0,
+      "yoy_pct": -5.4,
+      "conflict": false
+    },
+    {
+      "label": "Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 37200000.0,
+      "prior": 37000000.0,
+      "qoq_pct": 0.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 25600000.0,
+      "yoy_pct": 45.3,
+      "conflict": false
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 37184400000.0,
+      "prior": 36176200000.0,
+      "change_pct": 2.8,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 1856400000.0,
+      "prior": 3760900000.0,
+      "change_pct": -50.6,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 1856400000.0,
+      "prior": 3760900000.0,
+      "change_pct": -50.6,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 3049900000.0,
+      "prior": 5531600000.0,
+      "change_pct": -44.9,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBITDA",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 4821400000.0,
+      "prior": 7124000000.0,
+      "change_pct": -32.3,
+      "direction": "decreasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 3580800000.0,
+      "prior": 5107600000.0,
+      "change_pct": -29.9,
+      "direction": "decreasing"
+    }
+  ],
+  "deal_activity": [
+    {
+      "label": "Other Intangible Assets",
+      "basis": "fiscal year",
+      "period": "2025-09-30",
+      "prior_period": "2024-09-30",
+      "current": 166800000.0,
+      "prior": 100900000.0,
+      "change_pct": 65.3,
+      "confirmed": false,
+      "also": []
+    }
+  ],
+  "consensus_bar": {
+    "date": "2026-10-30",
+    "eps_avg": 0.70575,
+    "eps_low": 0.49,
+    "eps_high": 0.76473,
+    "revenue_avg": 9237641260
+  },
+  "news": [
+    {
+      "title": "Starbucks (SBUX) - Fundamental Analysis Report 2026 (Updated)",
+      "publisher": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/starbucks-sbux-fundamental-analysis-report",
+      "summary": "Starbucks (SBUX) - Fundamental Analysis Report 2026 (Updated)\n\n# Starbucks (SBUX) - Fundamental Analysis Report 2026 (Updated)\n\nMay 22, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nLet\u2019s analyze the topic in detail.\n\nExecutive TL;DR\n\n- Starbucks (SBUX) delivered the turn in its turnaround during Q2 fiscal 2026, posting a 9% jump in consolidated net revenue to $9.5 billion and global comparable store sales growth of 6.2%, with North America comps rising 7.1% on transaction-led demand.\n- The Back to Starbucks operating playbook from CEO Brian Niccol has restored top-line growth,",
+      "published": "2026-05-22",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Starbucks (SBUX) Q3 2026 earnings",
+      "publisher": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html",
+      "summary": "Starbucks (SBUX) Q3 2026 earnings\n\n# Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty\n\nPublished Wed, Jul 29 2026 3:35 PM EDT Updated Thu, Jul 30 2026 4:31 PM EDT\n\nAmelia Lucas@Thxamelian\n\nKey Points\n\n- Starbucks topped quarterly earnings and revenue estimates and hiked its full-year outlook. \n- The company posted same-store sales growth of 7.9%, topping Wall Street's expectations. \n- The results continue an ongoing turnaround under CEO Brian Niccol, who told CNBC that the brand's image is recovering among consumers.\n\nStarbucks Add To Watchlist on",
+      "published": "2026-07-29",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-starbucks-sbux-could-111107877.html",
+      "summary": "The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review\n\n# The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review\n\n Sasha Jovanovic Sat, September 26, 2026 at 7:11 AM EDT 3 min read\n\n- Earlier this week, Starbucks confirmed it will close about 250 underperforming North American stores, roughly 1% of its regional footprint, as part of a restructuring that includes coffeehouse redesigns and a new technology hub in India. \n- At the same time, Starbucks is weighing a potential majority stake sale of its Japanese busin",
+      "published": "2026-09-26",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Can Starbucks Win Back Traffic and Margins? | SBUX",
+      "publisher": "thesischeck.io",
+      "url": "https://thesischeck.io/teardown/sbux-traffic-margin-turnaround-2026-09",
+      "summary": "Can Starbucks Win Back Traffic and Margins? | SBUX\n\n# Starbucks (SBUX) thesis teardown: same-store traffic and margin recovery checked against dated filings\n\nStarbucks (SBUX) bull vs bear case as of 2026-09-29: North America company-operated comparable sales rose 8.1% in Q3 FY2026, directly supporting the same-store recovery leg of the thesis. The company still expects coffee prices and tariffs to affect future results, so margin durability depends on those costs normalizing.\n\n## SBUX\n\nSTARBUCKS CORP \u00b7 US \u00b7 Nasdaq\n\nThesis ledger \u00b7 Checked through 2026-09-29\n\nThesis checked\n\n\u201cStarbucks same-sto",
+      "published": "2026-09-29",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Starbucks expected to build on US sales momentum as investors eye 2027 outlook  | NASDAQ:SBUX, XETRA:SRB",
+      "publisher": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1100419/starbucks-expected-to-build-on-us-sales-momentum-as-investors-eye-2027-outlook-1100419.html",
+      "summary": "Starbucks expected to build on US sales momentum as investors eye 2027 outlook | NASDAQ:SBUX, XETRA:SRB\n\n# Starbucks expected to build on US sales momentum as investors eye 2027 outlook \n\n Published: 20:13 20 Oct 2026 BST \n\nStarbucks Corp (NASDAQ:SBUX, XETRA:SRB) is expected to deliver another quarter of strong US sales growth when it reports results on October 29, but investors will be looking for signs its turnaround can sustain momentum as recent tailwinds fade, according to UBS. \n\nThe bank forecasts fiscal fourth-quarter North American same-store sales growth of 7.5%, ahead of the consensu",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "SBUX Stock Forecast 2026-2027 - Starbucks Corp. Price Targets & Predictions",
+      "publisher": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/sbux-forecast/",
+      "summary": "SBUX Stock Forecast 2026-2027 - Starbucks Corp. Price Targets & Predictions\n\n# SBUX Stock Forecast: Starbucks Corp. Price Predictions for 2026-2027\n\nLast close, 22 Oct 2026\n\n$102\n\n+2.86% on the day\n\nThe 35 Wall Street analysts covering Starbucks Corp. hold a median 12-month price target of $110 \u2014 +7.9% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 90 of 100 as at 22 Oct 2026 \u2014 among the strongest tenth. Here, the model and the Street point the same way.\n\nMarket cap\n\n$113.0B\n\nTicker Nerd rank\n\n90/ 100\n\nMedian analyst target\n\n$110\n\nAnalysts cov",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Starbucks (SBUX) Stock Forecast & Analyst Price Targets",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/sbux/forecast/",
+      "summary": "Starbucks (SBUX) Stock Forecast & Analyst Price Targets\n\n100.80 -1.11 (-1.09%) At close: Oct 23, 2026, 4:00 PM EDT\n\n100.00 -0.80 (-0.79%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n# Starbucks Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 35 analysts polled by S&P Global, Starbucks stock has a consensus rating of \"Buy\" and an average price target of $110.97. The average 1-year stock price forecast is 10.09% higher than the current stock price, while the lowest is $82 (-18.65%) and the highest is $143 (+41.87%).\n\nPrice Target: $110.97 (+10.09%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| T",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Starbucks (SBUX) Analyst Ratings",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/sbux/ratings/",
+      "summary": "Starbucks (SBUX) Analyst Ratings\n\n100.80 -1.11 (-1.09%) At close: Oct 23, 2026, 4:00 PM EDT\n\n100.00 -0.80 (-0.79%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n## Ratings History\n\n| Analyst | Firm | Rating | Rating | Action | Price Target | Upside | Date |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Nick Setyan Mizuho Securities | Mizuho Securities | Hold Maintains $115 \u2192 $105 | Hold | Maintains | $115 \u2192 $105 | +4.17% | Oct 23, 2026 |\n| Zachary Fadem Wells Fargo | Wells Fargo | Buy Reiterates $125 \u2192 $120 | Buy | Reiterates | $125 \u2192 $120 | +19.05% | Oct 21, 2026 |\n| Jon Tower Citi | Citi | H",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "Starbucks Ditches Chipotle Deal, But Headwinds Still Linger (NASDAQ:SBUX) | Seeking Alpha",
+      "publisher": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4956895-starbucks-ditches-chipotle-deal-but-headwinds-still-linger",
+      "summary": "Starbucks Ditches Chipotle Deal, But Headwinds Still Linger (NASDAQ:SBUX) | Seeking Alpha\n\n# Starbucks Ditches Chipotle Deal, But Headwinds Still Linger\n\nOct 23, 2026, 9:27 AM ET Starbucks Corporation (SBUX) Stock, SBUX:CA Stock CMG, CMGS:CA 1 Comment 1 Like\n\nKevin George\n\n## Summary\n\n- Starbucks remains highly valued at a 43.9x forward P/E, despite operating margin declines and stalled North American store growth.\n- Management wisely abandoned a Chipotle merger, avoiding operational distractions and potential brand disruption, but may pursue other deals to spur growth.\n- Intense competition i",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "mna"
+      ]
+    },
+    {
+      "title": "Starbucks Corporation (SBUX) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/SBUX/analysis/",
+      "summary": "Starbucks Corporation (SBUX) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\n# Starbucks Corporation (SBUX)\n\n 100.80 -1.11 (-1.09%) \n\n At close: October 23 at 4:00:00 PM EDT \n\n 100.80 0.00 (0.00%) \n\nAfter hours: October 23 at 4:20:00 PM EDT \n\n## Trading disclosure \n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\n Dividend \n\n SBUX announced a cash dividend",
+      "published": "2026-11-13",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "mna",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Starbucks (SBUX) Rises Higher Than Market: Key Facts",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/starbucks-sbux-rises-higher-market-key-facts-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SBUX"
+      ],
+      "summary": "The latest trading day saw Starbucks (SBUX) settling at $99.33, representing a +1.49% change from its previous close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Starbucks Corporation (SBUX) Is a Trending Stock: Facts to Know Before Betting on It",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/starbucks-corporation-sbux-trending-stock-facts-know-betting-it-1",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SBUX"
+      ],
+      "summary": "Zacks.com users have recently been watching Starbucks (SBUX) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Is Starbucks (SBUX) Outperforming Other Retail-Wholesale Stocks This Year?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/starbucks-sbux-outperforming-other-retail-wholesale-stocks-year",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SBUX",
+        "URBN"
+      ],
+      "summary": "Here is how Starbucks (SBUX) and Urban Outfitters (URBN) have performed compared to their sector so far this year.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Starbucks (SBUX) Earnings Expected to Grow: Should You Buy?",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/starbucks-sbux-earnings-expected-grow-should-you-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SBUX",
+        "EAT"
+      ],
+      "summary": "Starbucks (SBUX) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Own Starbucks by Nov. 13 to Qualify for Its Nov. 27 Dividend. Here's How Many Shares You'd Need for $500 in Yearly Dividends.",
+      "publisher": "The Motley Fool",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/own-starbucks-nov-13-qualify-its-nov-27-dividend-heres-how-many-shares-youd-need-500",
+      "primary_symbol": "SBUX",
+      "related_symbols": [
+        "SBUX"
+      ],
+      "summary": "Key PointsStarbucks became too transactional, eroding its brand and its role as a \u201cthird place.\u201d",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Is Owning 3,968 Shares of Starbucks Worth It for $10,000 in Yearly Dividend Income?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 23, 2026",
+      "ago": "15 hours ago",
+      "url": "/articles/owning-3968-shares-starbucks-worth-it-10000-yearly-dividend-income",
+      "primary_symbol": "SBUX",
+      "related_symbols": [
+        "SBUX",
+        "KO"
+      ],
+      "summary": "Key PointsStarbucks is slowly but surely pushing its stock into the upper echelon of dividend payers.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Here's Why Starbucks (SBUX) is a Strong Momentum Stock",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "17 hours ago",
+      "url": "/articles/heres-why-starbucks-sbux-strong-momentum-stock",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SBUX"
+      ],
+      "summary": "Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Why Starbucks (SBUX) is a Top Stock for the Long-Term",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "17 hours ago",
+      "url": "/articles/why-starbucks-sbux-top-stock-long-term-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SBUX"
+      ],
+      "summary": "Finding strong, market-beating stocks with a positive earnings outlook becomes easier with the Focus List, a top feature of the Zacks Premium portfolio service.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Dutch Bros Has Lost a Third of Its Value in 2026. Is It Time to Buy?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 16, 2026",
+      "ago": "Oct 16, 2026",
+      "url": "/articles/dutch-bros-has-lost-third-its-value-2026-it-time-buy",
+      "primary_symbol": "BROS",
+      "related_symbols": [
+        "BROS",
+        "SBUX"
+      ],
+      "summary": "Key PointsDutch Bros stock has fallen 33% in 2026, even as the business keeps growing.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Starbucks Eyes FY27 Tech Overhaul: Can It Improve Margins?",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/starbucks-eyes-fy27-tech-overhaul-can-it-improve-margins",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SBUX",
+        "MCD",
+        "BROS"
+      ],
+      "summary": "SBUX plans a fiscal 2027 tech overhaul to boost store efficiency, labor productivity and margins while advancing its $2 billion cost-savings target.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Can Chipotle Win for Long-Term Investors Without Starbucks?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/can-chipotle-win-long-term-investors-without-starbucks",
+      "primary_symbol": "CMG",
+      "related_symbols": [
+        "CMG",
+        "SBUX"
+      ],
+      "summary": "Key PointsReports that Starbucks explored buying Chipotle were denied within days, and the deal's operational logic looks shaky on closer inspection.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "PepsiCo vs. Starbucks: Which Consumer Goods Stock Is a Better Buy in 2026?",
+      "publisher": "The Motley Fool",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/pepsico-vs-starbucks-which-consumer-goods-stock-better-buy-2026",
+      "primary_symbol": "PEP",
+      "related_symbols": [
+        "PEP",
+        "SBUX"
+      ],
+      "summary": "Key PointsPepsiCo manages a globally diversified portfolio of convenient snacks and beverage brands.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Capital Group Dividend Value ETF Experiences Big Inflow",
+      "publisher": "BNK Invest",
+      "created": "Oct 23, 2026",
+      "ago": "14 hours ago",
+      "url": "/articles/capital-group-dividend-value-etf-experiences-big-inflow",
+      "primary_symbol": "CGDV",
+      "related_symbols": [
+        "CGDV",
+        "ORCL",
+        "CMCSA",
+        "SBUX"
+      ],
+      "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Capital Group Dividend Value ETF (Symbol: CGDV) where we have detected an approximate $872.8 million dollar inflow -- that's a 2.3% increase week ove",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "Chipotle Gears Up for Q3 Earnings: Can It Overcome Cost Pressures?",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "15 hours ago",
+      "url": "/articles/chipotle-gears-q3-earnings-can-it-overcome-cost-pressures",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CMG",
+        "SBUX",
+        "EAT",
+        "SG"
+      ],
+      "summary": "CMG heads into Q3 earnings with menu innovation, digital initiatives and pricing supporting sales, but rising food, labor and operating costs threaten margins.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Cheesecake Factory to Post Q3 Earnings: What's in the Cards?",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "16 hours ago",
+      "url": "/articles/cheesecake-factory-post-q3-earnings-whats-cards",
+      "primary_symbol": null,
+      "related_symbols": [
+        "CAKE",
+        "SBUX",
+        "EAT",
+        "SG"
+      ],
+      "summary": "CAKE gears up for Q3 earnings with higher sales, robust guest traffic and expansion, but rising labor and commodity costs may pressure margins.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Starbucks CEO Niccol brought back customers, investors want margins next | Reuters",
+      "publisher": "reuters.com",
+      "url": "https://www.reuters.com/world/china/starbucks-ceo-niccol-brought-back-customers-investors-want-margins-next-2026-09-09/",
+      "summary": "Starbucks CEO Niccol brought back customers, investors want margins next | Reuters\nSkip to main content\nExclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv\n\nSubscribe\n# Starbucks CEO Niccol brought back customers, investors want margins next\nBy Waylon Cunningham\nSeptember 9, 202610:01 AM UTCUpdated ago\nText\n*\nSmall Text\n*\nMedium Text\n*\nLarge Text\n*\nX\n*\nFacebook\n*\nLinkedin\n*\nEmail\n*\nLink\nStarbucks CEO Brian Niccol\nStarbucks CEO Brian Niccol speaks during the Starbucks Investor Day event in New York City, U.S., January 29, 2026. REUTERS/Brendan McDermid",
+      "published": "2026-01-29",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) bull bear case risks",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Starbucks Coffee Company - Starbucks Reports Q3 Fiscal Year 2026 Results",
+      "publisher": "investor.starbucks.com",
+      "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q3-Fiscal-Year-2026-Results/default.aspx",
+      "summary": "Starbucks Coffee Company - Starbucks Reports Q3 Fiscal Year 2026 Results \n\n## Starbucks Reports Q3 Fiscal Year 2026 Results \n\n 07/29/2026 \n\n Company Delivers Four Consecutive Quarters of Comp Growth and Two Consecutive Quarters of Margin Expansion \n\n Global Q3 Comparable Store Sales Up 7.9%, Led by Transaction Growth \n\n Q3 Consolidated Net Revenues Down 1% to $9.3 billion, Reflecting the Starbucks China Transaction \n\n Q3 GAAP EPS $0.91, Non-GAAP EPS $0.85 \n\n Raises Fiscal Year 2026 Guidance \n\nSEATTLE--(BUSINESS WIRE)-- Starbucks Corporation (Nasdaq: SBUX) today reported financial results for i",
+      "published": "2026-06-28",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "UBS maintains Starbucks stock rating ahead of earnings report By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-maintains-starbucks-stock-rating-ahead-of-earnings-report-93CH-4960535",
+      "summary": "UBS maintains Starbucks stock rating ahead of earnings report By Investing.com\n\n# UBS maintains Starbucks stock rating ahead of earnings report\n\nPublished Oct 20, 2026, 10:26 AM\n\nIn this article:\n\nSBUX-1.09%\n\nInvesting.com - UBS reiterated a Neutral rating on Starbucks Corp. (NASDAQ:SBUX) stock with a $105.00 price target ahead of the company\u2019s fourth-quarter earnings report scheduled for October 29.\n\nThe firm expects continued sales momentum supported by progress on the \"Back to Starbucks\" turnaround plan for the fiscal fourth quarter. The plan includes contributions from menu innovation, ser",
+      "published": "2026-10-20",
+      "source": "ollama_search",
+      "query": "Starbucks Corporation (SBUX) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "positioning"
+      ]
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 7,
+        "share": 0.35,
+        "evidence": [
+          {
+            "title": "Starbucks (SBUX) Q3 2026 earnings",
+            "publisher": "cnbc.com",
+            "published": "2026-07-29",
+            "matched": [
+              "outlook",
+              "estimate"
+            ]
+          },
+          {
+            "title": "Starbucks expected to build on US sales momentum as investors eye 2027 outlook  | NASDAQ:SBUX, XETRA:SRB",
+            "publisher": "proactiveinvestors.com",
+            "published": "2026-10-20",
+            "matched": [
+              "outlook",
+              "forecast"
+            ]
+          },
+          {
+            "title": "SBUX Stock Forecast 2026-2027 - Starbucks Corp. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-10-22",
+            "matched": [
+              "forecast"
+            ]
+          },
+          {
+            "title": "Starbucks (SBUX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "forecast",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 6,
+        "share": 0.3,
+        "evidence": [
+          {
+            "title": "The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-09-26",
+            "matched": [
+              "stake"
+            ]
+          },
+          {
+            "title": "Starbucks Ditches Chipotle Deal, But Headwinds Still Linger (NASDAQ:SBUX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-23",
+            "matched": [
+              "merger"
+            ]
+          },
+          {
+            "title": "Starbucks Corporation (SBUX) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+            "publisher": "finance.yahoo.com",
+            "published": "2026-11-13",
+            "matched": [
+              "dividend"
+            ]
+          },
+          {
+            "title": "Own Starbucks by Nov. 13 to Qualify for Its Nov. 27 Dividend. Here's How Many Shares You'd Need for $500 in Yearly Dividends.",
+            "publisher": "The Motley Fool",
+            "published": "Oct 22, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 4,
+        "share": 0.2,
+        "evidence": [
+          {
+            "title": "SBUX Stock Forecast 2026-2027 - Starbucks Corp. Price Targets & Predictions",
+            "publisher": "tickernerd.com",
+            "published": "2026-10-22",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Starbucks (SBUX) Stock Forecast & Analyst Price Targets",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Starbucks (SBUX) Analyst Ratings",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "UBS maintains Starbucks stock rating ahead of earnings report By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-20",
+            "matched": [
+              "price target"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 2,
+        "share": 0.1,
+        "evidence": [
+          {
+            "title": "Starbucks Ditches Chipotle Deal, But Headwinds Still Linger (NASDAQ:SBUX) | Seeking Alpha",
+            "publisher": "seekingalpha.com",
+            "published": "2026-10-23",
+            "matched": [
+              "p/e"
+            ]
+          },
+          {
+            "title": "Why Starbucks (SBUX) is a Top Stock for the Long-Term",
+            "publisher": "Zacks",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "premium"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 1,
+        "share": 0.05,
+        "evidence": [
+          {
+            "title": "Can Starbucks Win Back Traffic and Margins? | SBUX",
+            "publisher": "thesischeck.io",
+            "published": "2026-09-29",
+            "matched": [
+              "tariff"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-30"
+    ],
+    "next_date": "2026-10-30",
+    "eps_avg": 0.70575,
+    "eps_low": 0.49,
+    "eps_high": 0.76473,
+    "revenue_avg": 9237641260
+  },
+  "catalyst": {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "days_out": 5,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 0.71
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 0.65,
+        "eps_actual": 0.85,
+        "surprise_pct": 30.79,
+        "beat": true
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 0.44,
+        "eps_actual": 0.5,
+        "surprise_pct": 14.51,
+        "beat": true
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 0.59,
+        "eps_actual": 0.56,
+        "surprise_pct": -4.59,
+        "beat": false
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 0.56,
+        "eps_actual": 0.52,
+        "surprise_pct": -6.51,
+        "beat": false
+      }
+    ],
+    "beat_streak": 2,
+    "beat_rate": 0.5,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-29 (Thursday, after the close), 5 days out -- from the earnings calendar, consensus EPS 0.71."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 US coffee shop market outlook consumer discretionary spending office return foot traffic",
+      "2026 China coffee market competition Luckin Cotti consumer demand outlook",
+      "2026 ready-to-drink coffee energy drink competition US grocery beverage trends",
+      "Starbucks SBUX 2026 customer traffic mobile ordering value competition coffee"
+    ],
+    "results_count": 20,
+    "results_dated": 17,
+    "trends": [
+      {
+        "claim": "In 2026, US foodservice coffee and tea demand remains resilient despite persistently weak consumer confidence.",
+        "stance": "support",
+        "why": "Routine purchases can keep Starbucks traffic and sales holding up even as sentiment weakens.",
+        "quote": "Despite persistently weak consumer confidence, the US foodservice coffee and tea category continues to show resilience, supported by routine purchases.",
+        "url": "https://store.mintel.com/report/us-foodservice-coffee-and-tea-market-report",
+        "publisher": "store.mintel.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In 2026, weak consumer sentiment is pushing US foodservice coffee buyers toward value.",
+        "stance": "pressure",
+        "why": "Value-seeking could pressure Starbucks pricing, mix, and traffic if it is seen as premium.",
+        "quote": "Weak sentiment pushes foodservice consumers toward value",
+        "url": "https://store.mintel.com/report/us-foodservice-coffee-and-tea-market-report",
+        "publisher": "store.mintel.com",
+        "as_of": null,
+        "age_days": null,
+        "undated": true
+      },
+      {
+        "claim": "In September 2026, restaurant traffic eased across full-service and limited-service in every large state tracked.",
+        "stance": "pressure",
+        "why": "A broad macro traffic slowdown could pressure Starbucks transactions in coming quarters.",
+        "quote": "Restaurant traffic eased in September across both full-service and limited-service, and it did so in every large state we track",
+        "url": "https://advanresearch.com/insights/advans-preview-on-restaurants-q3-26",
+        "publisher": "advanresearch.com",
+        "as_of": "2026-10-08",
+        "age_days": 16,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, US coffee and snack shop revenue is expected to fall 0.2% as higher oil prices deter customers.",
+        "stance": "pressure",
+        "why": "Lower customer frequency and higher operating costs could pressure Starbucks sales and margins.",
+        "quote": "expected 0.2% decline in 2026 alone as the Middle East conflicts have driven up crude oil prices, deterring customers",
+        "url": "https://www.ibisworld.com/united-states/industry/coffee-snack-shops/1973/",
+        "publisher": "ibisworld.com",
+        "as_of": "2026-06-01",
+        "age_days": 145,
+        "undated": false
+      },
+      {
+        "claim": "In 2026, US coffee and snack shop profit is expected to fall as operational costs rise.",
+        "stance": "pressure",
+        "why": "Cost inflation could pressure Starbucks margins even if sales hold up.",
+        "quote": "profit is expected to fall as soaring operational costs eat up profitability",
+        "url": "https://www.ibisworld.com/united-states/industry/coffee-snack-shops/1973/",
+        "publisher": "ibisworld.com",
+        "as_of": "2026-06-01",
+        "age_days": 145,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "SBUX",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 100.8,
+      "catalyst": "2027-01-29",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 105.0,
+        "premium": 5.33,
+        "bid": 4.9,
+        "ask": 5.75,
+        "mid": 5.33,
+        "last": 5.85,
+        "open_interest": 310,
+        "volume": 6,
+        "implied_vol": 0.32758240783691406,
+        "qty": 8
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 105.0,
+        "premium": 2.1,
+        "bid": 1.9,
+        "ask": 2.3,
+        "mid": 2.1,
+        "last": 2.03,
+        "open_interest": 2441,
+        "volume": 39.0,
+        "implied_vol": 0.35718416259765623,
+        "qty": 3
+      },
+      "long_total": 4264.0,
+      "short_total": 630.0,
+      "net_debit": 3634.0,
+      "credit_ratio_mid": 0.1477,
+      "credit_ratio_conservative": 0.1239,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Feb-27",
+          "strike": 105.0,
+          "qty": 8,
+          "underlying": 100.8,
+          "multiplier": 100,
+          "price": 5.33,
+          "total": 4264.0,
+          "open_interest": 310
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 105.0,
+          "qty": 3,
+          "underlying": 100.8,
+          "multiplier": 100,
+          "price": 2.1,
+          "total": -630.0000000000001,
+          "open_interest": 2441
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-29 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-29); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 105, 110, 115, 120"
+      ],
+      "advice": "Credit ratio 12.4% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0492,
+          "credit_ratio_conservative": 0.0413,
+          "passes_floor": false,
+          "cash_collected": 210.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0985,
+          "credit_ratio_conservative": 0.0826,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1477,
+          "credit_ratio_conservative": 0.1239,
+          "passes_floor": true,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.197,
+          "credit_ratio_conservative": 0.1652,
+          "passes_floor": true,
+          "cash_collected": 840.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2462,
+          "credit_ratio_conservative": 0.2065,
+          "passes_floor": true,
+          "cash_collected": 1050.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2955,
+          "credit_ratio_conservative": 0.2478,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.3447,
+          "credit_ratio_conservative": 0.2891,
+          "passes_floor": true,
+          "cash_collected": 1470.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.394,
+          "credit_ratio_conservative": 0.3304,
+          "passes_floor": true,
+          "cash_collected": 1680.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "SBUX",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 100.8,
+      "catalyst": "2027-01-29",
+      "long_leg": {
+        "expiry": "2027-02-19",
+        "strike": 95.0,
+        "premium": 4.15,
+        "bid": 3.05,
+        "ask": 5.25,
+        "mid": 4.15,
+        "last": 4.05,
+        "open_interest": 456,
+        "volume": 44,
+        "implied_vol": 0.35095863891601553,
+        "qty": 10
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 95.0,
+        "premium": 1.74,
+        "bid": 1.55,
+        "ask": 1.93,
+        "mid": 1.74,
+        "last": 1.93,
+        "open_interest": 5620,
+        "volume": 77,
+        "implied_vol": 0.38941040283203127,
+        "qty": 3
+      },
+      "long_total": 4150.0,
+      "short_total": 522.0,
+      "net_debit": 3628.0,
+      "credit_ratio_mid": 0.1258,
+      "credit_ratio_conservative": 0.0886,
+      "passes_floor": false,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Feb-27",
+          "strike": 95.0,
+          "qty": 10,
+          "underlying": 100.8,
+          "multiplier": 100,
+          "price": 4.15,
+          "total": 4150.0,
+          "open_interest": 456
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 95.0,
+          "qty": 3,
+          "underlying": 100.8,
+          "multiplier": 100,
+          "price": 1.74,
+          "total": -522.0,
+          "open_interest": 5620
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-29 catalyst; long expires 19-Feb-27, after it",
+        "targets report #3 (2027-01-29); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 95, 100, 90, 85"
+      ],
+      "advice": "Credit ratio 8.9% is below the 10% floor; sell ~1 more short contract(s) to clear it.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0419,
+          "credit_ratio_conservative": 0.0295,
+          "passes_floor": false,
+          "cash_collected": 174.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0839,
+          "credit_ratio_conservative": 0.059,
+          "passes_floor": false,
+          "cash_collected": 348.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.1258,
+          "credit_ratio_conservative": 0.0886,
+          "passes_floor": false,
+          "cash_collected": 522.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.1677,
+          "credit_ratio_conservative": 0.1181,
+          "passes_floor": true,
+          "cash_collected": 696.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.2096,
+          "credit_ratio_conservative": 0.1476,
+          "passes_floor": true,
+          "cash_collected": 870.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.2516,
+          "credit_ratio_conservative": 0.1771,
+          "passes_floor": true,
+          "cash_collected": 1044.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.2935,
+          "credit_ratio_conservative": 0.2067,
+          "passes_floor": true,
+          "cash_collected": 1218.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.3354,
+          "credit_ratio_conservative": 0.2362,
+          "passes_floor": true,
+          "cash_collected": 1392.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.3773,
+          "credit_ratio_conservative": 0.2657,
+          "passes_floor": true,
+          "cash_collected": 1566.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.4193,
+          "credit_ratio_conservative": 0.2952,
+          "passes_floor": true,
+          "cash_collected": 1740.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SBUX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SBUX/key-statistics/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "Price: 100.80 USD Market Cap: 114.91B Fwd PE: 38.66 P/S: 3.0 EPS trends: slightly up over the last 7 days EPS revisions: all up, with 4 up and 0 down over last 30 days price 100.8 market cap 114.91B forward PE 38.66 forward PE next FY 32.25 trailing PE 58.265896 P/S 2.997316 EV/EBITDA 23.707"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SBUX",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SBUX/analysis/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "FY consensus 2.6074 now, 2.60169 7 days ago, 2.5928 30 days ago, change over 30 days 0.56%; EPS revisions 4 up and 0 down over 30 days, 2 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "SBUX quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sbux/financials",
+      "date": "6/28/2026",
+      "weight": null,
+      "text": "Long-Term Investments increasing 155.0% (3/29/2026 to 6/28/2026) Cash and Cash Equivalents increasing 125.2% (3/29/2026 to 6/28/2026) Net Income increasing 104.6% (3/29/2026 to 6/28/2026) Earnings Before Interest and Tax increasing 79.6% (3/29/2026 to 6/28/2026) Total Equity decreasing 9.3% (3/29/2026 to 6/28/2026) Total Liabilities decreasing 7.8% (3/29/2026 to 6/28/2026) EPS increased year over year 0.5 to 0.85 Total Revenue -2.2% quarter over quarter and -1.4% year over year to 2026-06-30 Net Income 104.6% quarter over quarter and 87.2% year over year to 2026-06-30 EBIT 79.6% quarter over quarter and 61.7% year over year to 2026-06-30 EBITDA 55.0% quarter over quarter and 37.9% year over year to 2026-06-30 Operating Income 50.1% quarter over quarter and 33.9% year over year to 2026-06-30 Gross Profit 20.0% quarter over quarter and 6.5% year over year to 2026-06-30 Interest Expense -1.8% quarter over quarter and -5.4% year over year to 2026-06-30 Interest Income 0.5% quarter over quarter and 45.3% year over year to 2026-06-30 Total Revenue increasing 2.8% in fiscal 2025-09-30 vs 2024-09-30 Net Income decreasing 50.6% in fiscal 2025-09-30 vs 2024-09-30 Net Income Common Stockholders decreasing 50.6% in fiscal 2025-09-30 vs 2024-09-30 EBIT decreasing 44.9% in fiscal 2025-09-30 vs 2024-09-30 EBITDA decreasing 32.3% in fiscal 2025-09-30 vs 2024-09-30 Operating Income decreasing 29.9% in fiscal 2025-09-30 vs 2024-09-30"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "SBUX balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sbux/financials",
+      "date": "2025-09-30",
+      "weight": null,
+      "text": "Other Intangible Assets rose 65.3% from 100900000.0 in 2024-09-30 to 166800000.0 in 2025-09-30 (fiscal year), which is probably an acquisition closing in that period"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "SBUX earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings",
+      "date": "2026-10-29",
+      "weight": null,
+      "text": "2026-10-29 (Thursday, after the close), 5 days out -- from the earnings calendar, consensus EPS 0.71. beat streak 2 median gap 91 days 2026-07-29 estimate 0.65 actual 0.85 surprise 30.79% 2026-04-28 estimate 0.44 actual 0.5 surprise 14.51% 2026-01-28 estimate 0.59 actual 0.56 surprise -4.59% 2025-10-29 estimate 0.56 actual 0.52 surprise -6.51%"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: Starbucks (SBUX) Rises Higher Than Market: Key Facts",
+      "provider": null,
+      "url": "/articles/starbucks-sbux-rises-higher-market-key-facts-0",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Starbucks (SBUX) Rises Higher Than Market: Key Facts The latest trading day saw Starbucks (SBUX) settling at $99.33, representing a +1.49% change from its previous close."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Starbucks Corporation (SBUX) Is a Trending Stock: Facts to Know Before Betting on It",
+      "provider": null,
+      "url": "/articles/starbucks-corporation-sbux-trending-stock-facts-know-betting-it-1",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "Starbucks Corporation (SBUX) Is a Trending Stock: Facts to Know Before Betting on It Zacks.com users have recently been watching Starbucks (SBUX) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Is Starbucks (SBUX) Outperforming Other Retail-Wholesale Stocks This Year?",
+      "provider": null,
+      "url": "/articles/starbucks-sbux-outperforming-other-retail-wholesale-stocks-year",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "Is Starbucks (SBUX) Outperforming Other Retail-Wholesale Stocks This Year? Here is how Starbucks (SBUX) and Urban Outfitters (URBN) have performed compared to their sector so far this year."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Starbucks (SBUX) Earnings Expected to Grow: Should You Buy?",
+      "provider": null,
+      "url": "/articles/starbucks-sbux-earnings-expected-grow-should-you-buy",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Starbucks (SBUX) Earnings Expected to Grow: Should You Buy? Starbucks (SBUX) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "The Motley Fool: Own Starbucks by Nov. 13 to Qualify for Its Nov. 27 Dividend. Here's How Many Shares You'd Need for $500 in Yearly Dividends.",
+      "provider": null,
+      "url": "/articles/own-starbucks-nov-13-qualify-its-nov-27-dividend-heres-how-many-shares-youd-need-500",
+      "date": "Oct 22, 20",
+      "weight": 3,
+      "text": "Own Starbucks by Nov. 13 to Qualify for Its Nov. 27 Dividend. Here's How Many Shares You'd Need for $500 in Yearly Dividends. Key PointsStarbucks became too transactional, eroding its brand and its role as a \u201cthird place.\u201d"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "The Motley Fool: Is Owning 3,968 Shares of Starbucks Worth It for $10,000 in Yearly Dividend Income?",
+      "provider": null,
+      "url": "/articles/owning-3968-shares-starbucks-worth-it-10000-yearly-dividend-income",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Is Owning 3,968 Shares of Starbucks Worth It for $10,000 in Yearly Dividend Income? Key PointsStarbucks is slowly but surely pushing its stock into the upper echelon of dividend payers."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Here's Why Starbucks (SBUX) is a Strong Momentum Stock",
+      "provider": null,
+      "url": "/articles/heres-why-starbucks-sbux-strong-momentum-stock",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Here's Why Starbucks (SBUX) is a Strong Momentum Stock Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Why Starbucks (SBUX) is a Top Stock for the Long-Term",
+      "provider": null,
+      "url": "/articles/why-starbucks-sbux-top-stock-long-term-0",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Why Starbucks (SBUX) is a Top Stock for the Long-Term Finding strong, market-beating stocks with a positive earnings outlook becomes easier with the Focus List, a top feature of the Zacks Premium portfolio service."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "The Motley Fool: Dutch Bros Has Lost a Third of Its Value in 2026. Is It Time to Buy?",
+      "provider": null,
+      "url": "/articles/dutch-bros-has-lost-third-its-value-2026-it-time-buy",
+      "date": "Oct 16, 20",
+      "weight": 2,
+      "text": "Dutch Bros Has Lost a Third of Its Value in 2026. Is It Time to Buy? Key PointsDutch Bros stock has fallen 33% in 2026, even as the business keeps growing."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Starbucks Eyes FY27 Tech Overhaul: Can It Improve Margins?",
+      "provider": null,
+      "url": "/articles/starbucks-eyes-fy27-tech-overhaul-can-it-improve-margins",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Starbucks Eyes FY27 Tech Overhaul: Can It Improve Margins? SBUX plans a fiscal 2027 tech overhaul to boost store efficiency, labor productivity and margins while advancing its $2 billion cost-savings target."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "The Motley Fool: Can Chipotle Win for Long-Term Investors Without Starbucks?",
+      "provider": null,
+      "url": "/articles/can-chipotle-win-long-term-investors-without-starbucks",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Can Chipotle Win for Long-Term Investors Without Starbucks? Key PointsReports that Starbucks explored buying Chipotle were denied within days, and the deal's operational logic looks shaky on closer inspection."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "The Motley Fool: PepsiCo vs. Starbucks: Which Consumer Goods Stock Is a Better Buy in 2026?",
+      "provider": null,
+      "url": "/articles/pepsico-vs-starbucks-which-consumer-goods-stock-better-buy-2026",
+      "date": "Oct 21, 20",
+      "weight": 2,
+      "text": "PepsiCo vs. Starbucks: Which Consumer Goods Stock Is a Better Buy in 2026? Key PointsPepsiCo manages a globally diversified portfolio of convenient snacks and beverage brands."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "BNK Invest: Capital Group Dividend Value ETF Experiences Big Inflow",
+      "provider": null,
+      "url": "/articles/capital-group-dividend-value-etf-experiences-big-inflow",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "Capital Group Dividend Value ETF Experiences Big Inflow Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the Capital Group Dividend Value ETF (Symbol: CGDV) where we have detected an approximate $872.8 million dollar inflow -- that's a 2.3% increase week ove"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: Chipotle Gears Up for Q3 Earnings: Can It Overcome Cost Pressures?",
+      "provider": null,
+      "url": "/articles/chipotle-gears-q3-earnings-can-it-overcome-cost-pressures",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "Chipotle Gears Up for Q3 Earnings: Can It Overcome Cost Pressures? CMG heads into Q3 earnings with menu innovation, digital initiatives and pricing supporting sales, but rising food, labor and operating costs threaten margins."
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: Cheesecake Factory to Post Q3 Earnings: What's in the Cards?",
+      "provider": null,
+      "url": "/articles/cheesecake-factory-post-q3-earnings-whats-cards",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "Cheesecake Factory to Post Q3 Earnings: What's in the Cards? CAKE gears up for Q3 earnings with higher sales, robust guest traffic and expansion, but rising labor and commodity costs may pressure margins."
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "deepresearchglobal.com: Starbucks (SBUX) - Fundamental Analysis Report 2026 (Updated)",
+      "provider": "deepresearchglobal.com",
+      "url": "https://www.deepresearchglobal.com/p/starbucks-sbux-fundamental-analysis-report",
+      "date": "2026-05-22",
+      "weight": 3,
+      "text": "Starbucks (SBUX) - Fundamental Analysis Report 2026 (Updated) Starbucks (SBUX) - Fundamental Analysis Report 2026 (Updated)\n\n# Starbucks (SBUX) - Fundamental Analysis Report 2026 (Updated)\n\nMay 22, 2026 \u2219 Paid\n\nDear Readers, Welcome to Deep Research Global. \n\nLet\u2019s analyze the topic in detail.\n\nExecutive TL;DR\n\n- Starbucks (SBUX) delivered the turn in its turnaround during Q2 fiscal 2026, posting a 9% jump in consolidated net revenue to $9.5 billion and global comparable store sales growth of 6.2%, with North America comps rising 7.1% on transaction-led demand.\n- The Back to Starbucks operating playbook from CEO Brian Niccol has restored top-line growth,"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "cnbc.com: Starbucks (SBUX) Q3 2026 earnings",
+      "provider": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html",
+      "date": "2026-07-29",
+      "weight": 3,
+      "text": "Starbucks (SBUX) Q3 2026 earnings Starbucks (SBUX) Q3 2026 earnings\n\n# Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty\n\nPublished Wed, Jul 29 2026 3:35 PM EDT Updated Thu, Jul 30 2026 4:31 PM EDT\n\nAmelia Lucas@Thxamelian\n\nKey Points\n\n- Starbucks topped quarterly earnings and revenue estimates and hiked its full-year outlook. \n- The company posted same-store sales growth of 7.9%, topping Wall Street's expectations. \n- The results continue an ongoing turnaround under CEO Brian Niccol, who told CNBC that the brand's image is recovering among consumers.\n\nStarbucks Add To Watchlist on"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "finance.yahoo.com: The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-starbucks-sbux-could-111107877.html",
+      "date": "2026-09-26",
+      "weight": 3,
+      "text": "The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review\n\n# The Bull Case For Starbucks (SBUX) Could Change Following Store Closures And Japan Stake Review\n\n Sasha Jovanovic Sat, September 26, 2026 at 7:11 AM EDT 3 min read\n\n- Earlier this week, Starbucks confirmed it will close about 250 underperforming North American stores, roughly 1% of its regional footprint, as part of a restructuring that includes coffeehouse redesigns and a new technology hub in India. \n- At the same time, Starbucks is weighing a potential majority stake sale of its Japanese busin"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "thesischeck.io: Can Starbucks Win Back Traffic and Margins? | SBUX",
+      "provider": "thesischeck.io",
+      "url": "https://thesischeck.io/teardown/sbux-traffic-margin-turnaround-2026-09",
+      "date": "2026-09-29",
+      "weight": 3,
+      "text": "Can Starbucks Win Back Traffic and Margins? | SBUX Can Starbucks Win Back Traffic and Margins? | SBUX\n\n# Starbucks (SBUX) thesis teardown: same-store traffic and margin recovery checked against dated filings\n\nStarbucks (SBUX) bull vs bear case as of 2026-09-29: North America company-operated comparable sales rose 8.1% in Q3 FY2026, directly supporting the same-store recovery leg of the thesis. The company still expects coffee prices and tariffs to affect future results, so margin durability depends on those costs normalizing.\n\n## SBUX\n\nSTARBUCKS CORP \u00b7 US \u00b7 Nasdaq\n\nThesis ledger \u00b7 Checked through 2026-09-29\n\nThesis checked\n\n\u201cStarbucks same-sto"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "proactiveinvestors.com: Starbucks expected to build on US sales momentum as investors eye 2027 outlook  | NASDAQ:SBUX, XETRA:SRB",
+      "provider": "proactiveinvestors.com",
+      "url": "https://www.proactiveinvestors.com/companies/news/1100419/starbucks-expected-to-build-on-us-sales-momentum-as-investors-eye-2027-outlook-1100419.html",
+      "date": "2026-10-20",
+      "weight": 3,
+      "text": "Starbucks expected to build on US sales momentum as investors eye 2027 outlook  | NASDAQ:SBUX, XETRA:SRB Starbucks expected to build on US sales momentum as investors eye 2027 outlook | NASDAQ:SBUX, XETRA:SRB\n\n# Starbucks expected to build on US sales momentum as investors eye 2027 outlook \n\n Published: 20:13 20 Oct 2026 BST \n\nStarbucks Corp (NASDAQ:SBUX, XETRA:SRB) is expected to deliver another quarter of strong US sales growth when it reports results on October 29, but investors will be looking for signs its turnaround can sustain momentum as recent tailwinds fade, according to UBS. \n\nThe bank forecasts fiscal fourth-quarter North American same-store sales growth of 7.5%, ahead of the consensu"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "tickernerd.com: SBUX Stock Forecast 2026-2027 - Starbucks Corp. Price Targets & Predictions",
+      "provider": "tickernerd.com",
+      "url": "https://tickernerd.com/stock/sbux-forecast/",
+      "date": "2026-10-22",
+      "weight": 3,
+      "text": "SBUX Stock Forecast 2026-2027 - Starbucks Corp. Price Targets & Predictions SBUX Stock Forecast 2026-2027 - Starbucks Corp. Price Targets & Predictions\n\n# SBUX Stock Forecast: Starbucks Corp. Price Predictions for 2026-2027\n\nLast close, 22 Oct 2026\n\n$102\n\n+2.86% on the day\n\nThe 35 Wall Street analysts covering Starbucks Corp. hold a median 12-month price target of $110 \u2014 +7.9% from the last close. Ticker Nerd's systematic factor model, run across ~4,600 US stocks, ranks it 90 of 100 as at 22 Oct 2026 \u2014 among the strongest tenth. Here, the model and the Street point the same way.\n\nMarket cap\n\n$113.0B\n\nTicker Nerd rank\n\n90/ 100\n\nMedian analyst target\n\n$110\n\nAnalysts cov"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "stockanalysis.com: Starbucks (SBUX) Stock Forecast & Analyst Price Targets",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/sbux/forecast/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "Starbucks (SBUX) Stock Forecast & Analyst Price Targets Starbucks (SBUX) Stock Forecast & Analyst Price Targets\n\n100.80 -1.11 (-1.09%) At close: Oct 23, 2026, 4:00 PM EDT\n\n100.00 -0.80 (-0.79%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n# Starbucks Stock Forecast\n\n## Stock Price Forecast\n\nAccording to 35 analysts polled by S&P Global, Starbucks stock has a consensus rating of \"Buy\" and an average price target of $110.97. The average 1-year stock price forecast is 10.09% higher than the current stock price, while the lowest is $82 (-18.65%) and the highest is $143 (+41.87%).\n\nPrice Target: $110.97 (+10.09%)\n\nAnalyst Consensus: Buy\n\n## Price Target\n\n| T"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "stockanalysis.com: Starbucks (SBUX) Analyst Ratings",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/sbux/ratings/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "Starbucks (SBUX) Analyst Ratings Starbucks (SBUX) Analyst Ratings\n\n100.80 -1.11 (-1.09%) At close: Oct 23, 2026, 4:00 PM EDT\n\n100.00 -0.80 (-0.79%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n## Ratings History\n\n| Analyst | Firm | Rating | Rating | Action | Price Target | Upside | Date |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Nick Setyan Mizuho Securities | Mizuho Securities | Hold Maintains $115 \u2192 $105 | Hold | Maintains | $115 \u2192 $105 | +4.17% | Oct 23, 2026 |\n| Zachary Fadem Wells Fargo | Wells Fargo | Buy Reiterates $125 \u2192 $120 | Buy | Reiterates | $125 \u2192 $120 | +19.05% | Oct 21, 2026 |\n| Jon Tower Citi | Citi | H"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "seekingalpha.com: Starbucks Ditches Chipotle Deal, But Headwinds Still Linger (NASDAQ:SBUX) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4956895-starbucks-ditches-chipotle-deal-but-headwinds-still-linger",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "Starbucks Ditches Chipotle Deal, But Headwinds Still Linger (NASDAQ:SBUX) | Seeking Alpha Starbucks Ditches Chipotle Deal, But Headwinds Still Linger (NASDAQ:SBUX) | Seeking Alpha\n\n# Starbucks Ditches Chipotle Deal, But Headwinds Still Linger\n\nOct 23, 2026, 9:27 AM ET Starbucks Corporation (SBUX) Stock, SBUX:CA Stock CMG, CMGS:CA 1 Comment 1 Like\n\nKevin George\n\n## Summary\n\n- Starbucks remains highly valued at a 43.9x forward P/E, despite operating margin declines and stalled North American store growth.\n- Management wisely abandoned a Chipotle merger, avoiding operational distractions and potential brand disruption, but may pursue other deals to spur growth.\n- Intense competition i"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "finance.yahoo.com: Starbucks Corporation (SBUX) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/SBUX/analysis/",
+      "date": "2026-11-13",
+      "weight": 3,
+      "text": "Starbucks Corporation (SBUX) Analyst Ratings, Estimates & Forecasts - Yahoo Finance Starbucks Corporation (SBUX) Analyst Ratings, Estimates & Forecasts - Yahoo Finance\n\n# Starbucks Corporation (SBUX)\n\n 100.80 -1.11 (-1.09%) \n\n At close: October 23 at 4:00:00 PM EDT \n\n 100.80 0.00 (0.00%) \n\nAfter hours: October 23 at 4:20:00 PM EDT \n\n## Trading disclosure \n\nThe above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational. \n\n Dividend \n\n SBUX announced a cash dividend"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "reuters.com: Starbucks CEO Niccol brought back customers, investors want margins next | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/world/china/starbucks-ceo-niccol-brought-back-customers-investors-want-margins-next-2026-09-09/",
+      "date": "2026-01-29",
+      "weight": 0,
+      "text": "Starbucks CEO Niccol brought back customers, investors want margins next | Reuters Starbucks CEO Niccol brought back customers, investors want margins next | Reuters\nSkip to main content\nExclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv\n\nSubscribe\n# Starbucks CEO Niccol brought back customers, investors want margins next\nBy Waylon Cunningham\nSeptember 9, 202610:01 AM UTCUpdated ago\nText\n*\nSmall Text\n*\nMedium Text\n*\nLarge Text\n*\nX\n*\nFacebook\n*\nLinkedin\n*\nEmail\n*\nLink\nStarbucks CEO Brian Niccol\nStarbucks CEO Brian Niccol speaks during the Starbucks Investor Day event in New York City, U.S., January 29, 2026. REUTERS/Brendan McDermid"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "investor.starbucks.com: Starbucks Coffee Company - Starbucks Reports Q3 Fiscal Year 2026 Results",
+      "provider": "investor.starbucks.com",
+      "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q3-Fiscal-Year-2026-Results/default.aspx",
+      "date": "2026-06-28",
+      "weight": 0,
+      "text": "Starbucks Coffee Company - Starbucks Reports Q3 Fiscal Year 2026 Results Starbucks Coffee Company - Starbucks Reports Q3 Fiscal Year 2026 Results \n\n## Starbucks Reports Q3 Fiscal Year 2026 Results \n\n 07/29/2026 \n\n Company Delivers Four Consecutive Quarters of Comp Growth and Two Consecutive Quarters of Margin Expansion \n\n Global Q3 Comparable Store Sales Up 7.9%, Led by Transaction Growth \n\n Q3 Consolidated Net Revenues Down 1% to $9.3 billion, Reflecting the Starbucks China Transaction \n\n Q3 GAAP EPS $0.91, Non-GAAP EPS $0.85 \n\n Raises Fiscal Year 2026 Guidance \n\nSEATTLE--(BUSINESS WIRE)-- Starbucks Corporation (Nasdaq: SBUX) today reported financial results for i"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: UBS maintains Starbucks stock rating ahead of earnings report By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-maintains-starbucks-stock-rating-ahead-of-earnings-report-93CH-4960535",
+      "date": "2026-10-20",
+      "weight": 0,
+      "text": "UBS maintains Starbucks stock rating ahead of earnings report By Investing.com UBS maintains Starbucks stock rating ahead of earnings report By Investing.com\n\n# UBS maintains Starbucks stock rating ahead of earnings report\n\nPublished Oct 20, 2026, 10:26 AM\n\nIn this article:\n\nSBUX-1.09%\n\nInvesting.com - UBS reiterated a Neutral rating on Starbucks Corp. (NASDAQ:SBUX) stock with a $105.00 price target ahead of the company\u2019s fourth-quarter earnings report scheduled for October 29.\n\nThe firm expects continued sales momentum supported by progress on the \"Back to Starbucks\" turnaround plan for the fiscal fourth quarter. The plan includes contributions from menu innovation, ser"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "store.mintel.com: In 2026, US foodservice coffee and tea demand remains resilient despite persistently weak consumer confidence.",
+      "provider": "store.mintel.com",
+      "url": "https://store.mintel.com/report/us-foodservice-coffee-and-tea-market-report",
+      "date": null,
+      "weight": null,
+      "text": "In 2026, US foodservice coffee and tea demand remains resilient despite persistently weak consumer confidence. Routine purchases can keep Starbucks traffic and sales holding up even as sentiment weakens. \"Despite persistently weak consumer confidence, the US foodservice coffee and tea category continues to show resilience, supported by routine purchases.\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "store.mintel.com: In 2026, weak consumer sentiment is pushing US foodservice coffee buyers toward value.",
+      "provider": "store.mintel.com",
+      "url": "https://store.mintel.com/report/us-foodservice-coffee-and-tea-market-report",
+      "date": null,
+      "weight": null,
+      "text": "In 2026, weak consumer sentiment is pushing US foodservice coffee buyers toward value. Value-seeking could pressure Starbucks pricing, mix, and traffic if it is seen as premium. \"Weak sentiment pushes foodservice consumers toward value\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "advanresearch.com: In September 2026, restaurant traffic eased across full-service and limited-service in every large state tracked.",
+      "provider": "advanresearch.com",
+      "url": "https://advanresearch.com/insights/advans-preview-on-restaurants-q3-26",
+      "date": "2026-10-08",
+      "weight": null,
+      "text": "In September 2026, restaurant traffic eased across full-service and limited-service in every large state tracked. A broad macro traffic slowdown could pressure Starbucks transactions in coming quarters. \"Restaurant traffic eased in September across both full-service and limited-service, and it did so in every large state we track\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "ibisworld.com: In 2026, US coffee and snack shop revenue is expected to fall 0.2% as higher oil prices deter customers.",
+      "provider": "ibisworld.com",
+      "url": "https://www.ibisworld.com/united-states/industry/coffee-snack-shops/1973/",
+      "date": "2026-06-01",
+      "weight": null,
+      "text": "In 2026, US coffee and snack shop revenue is expected to fall 0.2% as higher oil prices deter customers. Lower customer frequency and higher operating costs could pressure Starbucks sales and margins. \"expected 0.2% decline in 2026 alone as the Middle East conflicts have driven up crude oil prices, deterring customers\""
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "ibisworld.com: In 2026, US coffee and snack shop profit is expected to fall as operational costs rise.",
+      "provider": "ibisworld.com",
+      "url": "https://www.ibisworld.com/united-states/industry/coffee-snack-shops/1973/",
+      "date": "2026-06-01",
+      "weight": null,
+      "text": "In 2026, US coffee and snack shop profit is expected to fall as operational costs rise. Cost inflation could pressure Starbucks margins even if sales hold up. \"profit is expected to fall as soaring operational costs eat up profitability\""
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "SBUX listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SBUX/options/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "long CALL strike 105.0 expiry 2027-02-19 premium 5.33 short PUT strike 95.0 expiry 2027-02-19 premium 4.15"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 2.43,
+    "fy_consensus": 2.6074,
+    "ratio": 0.932,
+    "beats": 2,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (0.85 + 0.5 + 0.56 + 0.52) total 2.43, against a current-FY consensus of 2.6074 -- read it against the streak before treating either as stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "2026 US coffee shop market outlook consumer discretionary spending office return foot traffic",
+        "2026 China coffee market competition Luckin Cotti consumer demand outlook",
+        "2026 ready-to-drink coffee energy drink competition US grocery beverage trends",
+        "Starbucks SBUX 2026 customer traffic mobile ordering value competition coffee"
+      ],
+      "results_count": 20,
+      "results_dated": 17,
+      "trends": [
+        {
+          "claim": "In 2026, US foodservice coffee and tea demand remains resilient despite persistently weak consumer confidence.",
+          "stance": "support",
+          "why": "Routine purchases can keep Starbucks traffic and sales holding up even as sentiment weakens.",
+          "quote": "Despite persistently weak consumer confidence, the US foodservice coffee and tea category continues to show resilience, supported by routine purchases.",
+          "url": "https://store.mintel.com/report/us-foodservice-coffee-and-tea-market-report",
+          "publisher": "store.mintel.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In 2026, weak consumer sentiment is pushing US foodservice coffee buyers toward value.",
+          "stance": "pressure",
+          "why": "Value-seeking could pressure Starbucks pricing, mix, and traffic if it is seen as premium.",
+          "quote": "Weak sentiment pushes foodservice consumers toward value",
+          "url": "https://store.mintel.com/report/us-foodservice-coffee-and-tea-market-report",
+          "publisher": "store.mintel.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "In September 2026, restaurant traffic eased across full-service and limited-service in every large state tracked.",
+          "stance": "pressure",
+          "why": "A broad macro traffic slowdown could pressure Starbucks transactions in coming quarters.",
+          "quote": "Restaurant traffic eased in September across both full-service and limited-service, and it did so in every large state we track",
+          "url": "https://advanresearch.com/insights/advans-preview-on-restaurants-q3-26",
+          "publisher": "advanresearch.com",
+          "as_of": "2026-10-08",
+          "age_days": 16,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, US coffee and snack shop revenue is expected to fall 0.2% as higher oil prices deter customers.",
+          "stance": "pressure",
+          "why": "Lower customer frequency and higher operating costs could pressure Starbucks sales and margins.",
+          "quote": "expected 0.2% decline in 2026 alone as the Middle East conflicts have driven up crude oil prices, deterring customers",
+          "url": "https://www.ibisworld.com/united-states/industry/coffee-snack-shops/1973/",
+          "publisher": "ibisworld.com",
+          "as_of": "2026-06-01",
+          "age_days": 145,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, US coffee and snack shop profit is expected to fall as operational costs rise.",
+          "stance": "pressure",
+          "why": "Cost inflation could pressure Starbucks margins even if sales hold up.",
+          "quote": "profit is expected to fall as soaring operational costs eat up profitability",
+          "url": "https://www.ibisworld.com/united-states/industry/coffee-snack-shops/1973/",
+          "publisher": "ibisworld.com",
+          "as_of": "2026-06-01",
+          "age_days": 145,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 U.S. coffee shop market growth foot traffic forecast",
+        "2026 restaurant industry consumer spending low-income household budgets outlook",
+        "2026 ready-to-drink coffee market competition energy drinks trends",
+        "Starbucks SBUX 2026 customer traffic competition value coffee"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In H1 2026, U.S. coffee shop visits rose 4.1% YoY, outperforming overall dining traffic.",
+          "stance": "support",
+          "why": "Resilient coffee demand supports Starbucks traffic even as broader restaurant visits soften.",
+          "quote": "Coffee visits rose 4.1% YoY in H1 2026, outperforming overall dining traffic, which slipped 0.4%.",
+          "url": "https://www.placer.ai/anchor/articles/placer-top-5-cities-for-coffee-lovers",
+          "publisher": "placer.ai",
+          "as_of": "2026-07-16",
+          "age_days": 100,
+          "undated": false
+        },
+        {
+          "claim": "In H1 2026, consumers continued to splurge on affordable indulgences while cutting pricier outings.",
+          "stance": "support",
+          "why": "Coffee's affordable-indulgence status can support Starbucks demand in a value-conscious environment.",
+          "quote": "consumers continue to splurge on affordable indulgences even while cutting back on pricier outings",
+          "url": "https://www.placer.ai/anchor/articles/placer-top-5-cities-for-coffee-lovers",
+          "publisher": "placer.ai",
+          "as_of": "2026-07-16",
+          "age_days": 100,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, U.S. coffee and snack shop revenue is expected to decline 0.2% as higher oil prices deter visits.",
+          "stance": "pressure",
+          "why": "Weaker industry traffic and higher operating costs can pressure Starbucks sales and margins.",
+          "quote": "an expected 0.2% decline in 2026 alone as the Middle East conflicts have driven up crude oil prices",
+          "url": "https://www.ibisworld.com/united-states/industry/coffee-snack-shops/1973/",
+          "publisher": "ibisworld.com",
+          "as_of": "2026-06-01",
+          "age_days": 145,
+          "undated": false
+        },
+        {
+          "claim": "In Jan-Aug 2026, drive-thru coffee chain 7 Brew's visits jumped 41.6% YoY, intensifying competition for Starbucks.",
+          "stance": "pressure",
+          "why": "Fast-growing drive-thru rivals can capture convenience-seeking coffee customers and pressure Starbucks traffic.",
+          "quote": "Between January and August 2026, visits to 7 Brew jumped 41.6% year over year (YoY) compared with a still-healthy 6.1% increase for Scooter's",
+          "url": "https://www.convenience.org/stay-current/news/2026/september/24/how-are-drive-thru-coffee-chains-performing",
+          "publisher": "convenience.org",
+          "as_of": "2026-09-24",
+          "age_days": 30,
+          "undated": false
+        },
+        {
+          "claim": "In 2026, expanding coffee chains are competing for drive-thru real estate, raising site costs and limiting Starbucks' format options.",
+          "stance": "pressure",
+          "why": "Higher real estate competition can slow Starbucks' drive-thru development and raise occupancy costs.",
+          "quote": "There's a fight out there for real estate from a couple of quickly expanding beverage users",
+          "url": "https://www.bisnow.com/news/national/retail/coffee-chains-drivethru-boiling-point134841-134841",
+          "publisher": "bisnow.com",
+          "as_of": "2026-06-02",
+          "age_days": 144,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 U.S. coffee shop industry outlook traffic discretionary spending morning commute remote work",
+        "2026 specialty coffee consumer trends Gen Z spending ready-to-drink coffee grocery channel",
+        "2026 quick service restaurant breakfast competition convenience store coffee mobile order delivery pricing",
+        "Starbucks SBUX 2026 China coffee market consumer spending outlook competition Luckin"
+      ],
+      "results_count": 20,
+      "results_dated": 19,
+      "trends": [
+        {
+          "claim": "In Jan-Aug 2026, 7 Brew and Scooter\u2019s drive-thru visits grew 41.6% and 6.1% year over year.",
+          "stance": "pressure",
+          "why": "Expanding drive-thru traffic signals share gains that could pressure Starbucks U.S. transactions.",
+          "quote": "Between January and August 2026, visits to 7 Brew jumped 41.6% year over year (YoY) compared with a still-healthy 6.1% increase for Scooter's",
+          "url": "https://www.convenience.org/stay-current/news/2026/september/24/how-are-drive-thru-coffee-chains-performing",
+          "publisher": "convenience.org",
+          "as_of": "2026-09-24",
+          "age_days": 30,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, 7 Brew, Dutch Bros and Scooter\u2019s are expanding small-format drive-thru shops for customizable drinks.",
+          "stance": "pressure",
+          "why": "More convenient, affordable coffee formats could siphon Starbucks customers and slow U.S. traffic.",
+          "quote": "7 Brew, Dutch Bros, and Scooter\u2019s Coffee are expanding through small-format drive-thru shops built to serve customizable drinks quickly.",
+          "url": "https://www.emarketer.com/content/coffee-chains-brew-up-ways-win-consumers",
+          "publisher": "emarketer.com",
+          "as_of": "2026-06-18",
+          "age_days": 128,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, out-of-home coffee consumption reached 38%, the highest since January 2020.",
+          "stance": "support",
+          "why": "Recovering out-of-home demand supports Starbucks traffic and specialty beverage sales.",
+          "quote": "out-of-home consumption among past-day coffee drinkers reached 38% in the survey\u2014the highest level since January 2020",
+          "url": "https://convenience.org/stay-current/news/2026/september/17/nca-specialty-coffee-consumption-hits-record-high",
+          "publisher": "convenience.org",
+          "as_of": "2026-09-17",
+          "age_days": 37,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, specialty coffee consumption hit a new record high.",
+          "stance": "support",
+          "why": "Starbucks\u2019 premium coffee positioning may benefit from sustained specialty coffee demand.",
+          "quote": "specialty coffee consumption hit a new record high",
+          "url": "https://convenience.org/stay-current/news/2026/september/17/nca-specialty-coffee-consumption-hits-record-high",
+          "publisher": "convenience.org",
+          "as_of": "2026-09-17",
+          "age_days": 37,
+          "undated": false
+        },
+        {
+          "claim": "In June 2026, 55% of past-week out-of-home coffee buyers ordered at a drive-thru.",
+          "stance": "support",
+          "why": "Drive-thru demand favors Starbucks locations with drive-thru and pressures cafe-only formats.",
+          "quote": "55% of past-week, out-of-home coffee buyers ordered their drink at a drive-thru",
+          "url": "https://convenience.org/stay-current/news/2026/september/17/nca-specialty-coffee-consumption-hits-record-high",
+          "publisher": "convenience.org",
+          "as_of": "2026-09-17",
+          "age_days": 37,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In April 2026, remote work and price-saving drove U.S. at-home coffee consumption to a 14-year high.",
+          "stance": "pressure",
+          "why": "More at-home coffee drinking can reduce Starbucks\u2019 out-of-home traffic and morning demand.",
+          "quote": "Remote working and the need to save money are leading to an increase in coffee consumption at home in the United States",
+          "url": "https://www.reuters.com/world/us/remote-working-prices-drive-us-home-coffee-consumption-highest-14-years-2026-04-14/",
+          "publisher": "reuters.com",
+          "as_of": "2026-04-14",
+          "age_days": 193,
+          "undated": false,
+          "drop_reason": "stale (193 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    }
+  ]
+}

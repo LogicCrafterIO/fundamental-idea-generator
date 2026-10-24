@@ -1,0 +1,2131 @@
+{
+  "symbol": "SNY",
+  "as_of": "2026-10-24",
+  "generated_at": "2026-10-24T14:01:54",
+  "profile": {
+    "symbol": "SNY",
+    "name": "Sanofi",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "summary": "Sanofi engages in the research, development, manufacture, and marketing of therapeutic solutions. It provides immunology and inflammation, rare diseases neurology, oncology, and other vaccines. It also offers poliomyelitis, pertussis, and haemophilus influenzae type b (Hib) pediatric vaccines; respiratory syncytial virus protection; hexavalent combination vaccines that includes hepatitis A, typhoid, yellow fever, and rabies vaccines; and Fluzone, a flu vaccine. It has a collaboration and license agreement with Exscientia to develop small-molecule for oncology and immunology; ABL Bio, Inc. to develop ABL301 for treatment of alpha-synucleinopathies; and Innate Pharma SA for cell engager program targeting B7-H3. Further, it has a collaboration agreements with Atomwise to use ATOMNET platform and Insilico Medicine to use Pharma.AI, a medicine's AI platform; Kymera Therapeutics, Inc. to develop and commercialize protein degrader therapies targeting IRAK4 in patients with immune-inflammatory diseases; Nurix Therapeutics, Inc. to develop protein degradation therapies; Denali Therapeutics Inc. to treat systemic inflammatory diseases, such as ulcerative colitis; and Adagene Inc. for development of antibody-based therapies. Additionally, it has a collaboration with Scribe Therapeutics Inc. to develop genome editing technologies; Teva Pharmaceuticals to co-develop and co-commercialize TEV'574, for treatment of ulcerative colitis and Crohn's disease; co-promotion service agreement with Provention Bio, Inc. for the commercialization of teplizumab; and antibody collaboration with Regeneron Pharmaceuticals, Inc. to develop antibodies, such as Dupixent (dupilumab) as treatment for diseases driven by type 2 inflammation. manufacturing facility in Germany. The company was formerly known as Sanofi-Aventis and changed its name to Sanofi in May 2011. Sanofi was incorporated in 1994 and is headquartered in Paris, France.",
+    "employees": 74846,
+    "country": "France",
+    "website": "https://www.sanofi.com"
+  },
+  "quants": {
+    "symbol": "SNY",
+    "name": "Sanofi",
+    "price": 41.6,
+    "market_cap": 99679313920,
+    "market_cap_human": "99.68B",
+    "fwd_pe": 8.43,
+    "fwd_pe_1y": 7.88,
+    "fwd_pe_yahoo": 7.87564,
+    "trailing_pe": 21.894737,
+    "ps": 2.03764,
+    "ev_ebitda": 8.659,
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "eps_fy_current": 4.93362,
+    "eps_fy_next": 5.28211,
+    "eps_trend": {
+      "change_7d_pct": -1.65,
+      "change_30d_pct": -1.67,
+      "current": 4.93362,
+      "7d_ago": 5.0163,
+      "30d_ago": 5.01756,
+      "text": "down over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 0,
+      "down_7d": 4,
+      "up_30d": 0,
+      "down_30d": 4,
+      "net_30d": -4,
+      "text": "all down, with 0 up and 4 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-30"
+      ],
+      "next_date": "2026-10-30",
+      "eps_avg": 1.5105,
+      "eps_low": 1.489,
+      "eps_high": 1.532,
+      "revenue_avg": 13261554230
+    },
+    "as_of": "2026-10-24"
+  },
+  "quants_lines": [
+    "Price: 41.60 USD",
+    "Market Cap: 99.68B",
+    "Fwd PE: 8.43",
+    "P/S: 2.0",
+    "EPS trends: down over the last 7 days",
+    "EPS revisions: all down, with 0 up and 4 down over last 30 days"
+  ],
+  "fundamental_deltas": [],
+  "eps_yoy": {
+    "period": "2026-07-30T01:00:00-04:00",
+    "current": 1.2,
+    "year_ago": 0.91,
+    "year_ago_period": "2025-07-30T20:00:00-04:00",
+    "change": 0.29,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 12300000000.0,
+      "prior": 11244000000.0,
+      "qoq_pct": 9.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 10735000000.0,
+      "yoy_pct": 14.6,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 343000000.0,
+      "prior": 1614000000.0,
+      "qoq_pct": -78.7,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3939000000.0,
+      "yoy_pct": -91.3,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1124000000.0,
+      "prior": 2181000000.0,
+      "qoq_pct": -48.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1571000000.0,
+      "yoy_pct": -28.5,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1676000000.0,
+      "prior": 2716000000.0,
+      "qoq_pct": -38.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1949000000.0,
+      "yoy_pct": -14.0,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2384000000.0,
+      "prior": 2269000000.0,
+      "qoq_pct": 5.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1940000000.0,
+      "yoy_pct": 22.9,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 9283000000.0,
+      "prior": 8106000000.0,
+      "qoq_pct": 14.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 7742000000.0,
+      "yoy_pct": 19.9,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 287000000.0,
+      "prior": 178000000.0,
+      "qoq_pct": 61.2,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 148000000.0,
+      "yoy_pct": 93.9,
+      "conflict": false
+    },
+    {
+      "label": "Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 77000000.0,
+      "prior": 60000000.0,
+      "qoq_pct": 28.3,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 98000000.0,
+      "yoy_pct": -21.4,
+      "conflict": true
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 46716000000.0,
+      "prior": 44286000000.0,
+      "change_pct": 5.5,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 7813000000.0,
+      "prior": 5560000000.0,
+      "change_pct": 40.5,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": -129000000.0,
+      "prior": -490000000.0,
+      "change_pct": 73.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 7813000000.0,
+      "prior": 5560000000.0,
+      "change_pct": 40.5,
+      "direction": "increasing"
+    },
+    {
+      "label": "Interest Income",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 331000000.0,
+      "prior": 438000000.0,
+      "change_pct": -24.4,
+      "direction": "decreasing"
+    },
+    {
+      "label": "EBITDA",
+      "period": "2025-12-31",
+      "prior_period": "2024-12-31",
+      "current": 12479000000.0,
+      "prior": 10988000000.0,
+      "change_pct": 13.6,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-30",
+    "eps_avg": 1.5105,
+    "eps_low": 1.489,
+    "eps_high": 1.532,
+    "revenue_avg": 13261554230
+  },
+  "news": [
+    {
+      "title": "Sanofi (SNY) Stock Research Report | Flash",
+      "publisher": "flash.stocksentinel.ai",
+      "url": "https://flash.stocksentinel.ai/research/SNY",
+      "summary": "Sanofi (SNY) Stock Research Report | Flash\n\n## Executive Summary\n\nSanofi SA has completed a strategic shift from a diversified healthcare group into a focused innovative biopharmaceutical company. The April 30, 2025 Opella transaction delivered approximately \u20ac10 billion of net cash while leaving Sanofi with a 48.2% stake, allowing management to concentrate on higher-margin specialty care and vaccines. **Dupixent anchors the model**, generating \u20ac15,714 million in FY2025 and \u20ac5,154 million in Q2 2026, up 37.6% at CER; COPD expansion supports a projected \u20ac25 billion of sales by 2030. Q2 net sales",
+      "published": "2025-04-30",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "SNY Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "publisher": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/SNY/analyst-ratings",
+      "summary": "SNY Forecast, Price Target & Analyst Ratings | ChartMill.com\n\n# SANOFI-ADR (SNY) Forecast, Price Target & Analyst Ratings \n\nNASDAQ:SNY\n\n## SNY Stock Price Today\n\n 39.92 USD \n\n -0.75 (-1.84%) \n\n At close: Oct 2, 2026 \n\n 40.11 USD +0.19 (+0.48%) \n\n Pre-Market: Oct 5, 2026, 07:12:56 AM EDT \n\n## Analyst forecast overview\n\n View the latest analyst price targets, stock forecast, EPS estimates, revenue projections, revisions, full estimates, rating distribution and upgrades/downgrades for SANOFI-ADR (SNY). \n\n### Consensus Price Target\n\nPrice Target\n\n$52.32 + 31.07% Upside \n\n### Next Earnings Forecast",
+      "published": "2026-07-14",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "SNY | Sanofi ADR Analyst Estimates & Ratings \u2013 WSJ",
+      "publisher": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/SNY/research-ratings",
+      "summary": "SNY | Sanofi ADR Analyst Estimates & Ratings \u2013 WSJ\n\n# Sanofi ADR SNY (U.S.: Nasdaq) \n\n- ##### UNOFFICIAL CLOSE 3:59 PM EDT 10/15/26 \n- $ 40.295 USD \n- 0.525 1.32% \n- ##### Volume 4,131,205 \n\n- Volume 4,131,205 \n- 65 Day Avg Vol 2,933,011 \n- 1 Day Range 40.17 - 40.87 \n- 52 Week Range 39.07 - 52.68 (10/13/26 - 11/13/25) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 9 Oct 12 Oct 13 Oct 14 Oct 15 $39$40$41\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Health Care/Life Sciences\n\n- Open 40.64\n- Prior Close 39.77 (10/14/26)\n\n- 1 Day\n- SNY 1.32% \n- DJIA 1.06% \n- S&P 500",
+      "published": "2026-10-09",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Is SNY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "publisher": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/sny/is-it-a-buy-or-sell",
+      "summary": "Is SNY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is SNY a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Sanofi (SNY) rests on Dupixent as the growth engine: Dupixent is the largest driver of Sanofi's growth, with quarterly sales above four billion euros and 30%-plus year-over-year growth in early 2026 across its approved indications in atopic dermatitis, asthma, COPD, and more. The bear case rests on the clearest risk is concentration in Dupi",
+      "published": "2026-10-16",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Sanofi (SNY) Set to Release Quarterly Earnings on Friday",
+      "publisher": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-sanofi-sny-set-to-release-quarterly-earnings-on-friday-2026-10-23/",
+      "summary": "Skip to main content\n\nThe Market Does Not Wait. MarketBeat All Access Alerts for $149\n\nGet the Alerts \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Sanofi (SNY) Set to Release Quarterly Earnings on Friday\n\nWritten by MarketBeat\n\nOctober 23, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Sanofi is expected to report Q3 2026 earnings before t",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) stock news earnings guidance",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Sanofi (SNY) Price & Analysis",
+      "publisher": "tipranks.com",
+      "url": "https://www.tipranks.com/stocks/sny",
+      "summary": "Sanofi (SNY)\n\nNASDAQ: SNY\n\nSNY\n\nSanofi\n\nMore\n\nRESEARCH TOOLSreports\n\nDownload SNY Report\n\nWant to see SNY full AI Analyst Report?\n\nDownload\n\n# Sanofi (SNY) Price & Analysis\n\nDownload SNY Report\n\nFollow\n\n2,252 Followers\n\n## SNY Stock Chart & Stats\n\n$46.02\n\n$1.02(2.35%)\n\nAt close: Jul 27 4:00 PM EDT\n\n$46.02\n\n$1.02(2.35%)\n\nAnalyze Chart\n\nAnalyze Chart\n\n1d5d3m -7.66%6mYTD1y3y5y\n\nDay\u2019s Range\u2015 - \u2015\n\n52-Week Range$39.07 - $52.68\n\nPrevious CloseN/A\n\nVolume449.65K\n\nAverage Volume (3M)3.09M\n\nMarket Cap\n\n$96.91B\n\nEnterprise Value$122.96B\n\nTotal Cash (Recent Filing)$6.35B\n\nTotal Debt (Recent Filing)$23.58B",
+      "published": "2026-10-30",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "depreciation_debt"
+      ]
+    },
+    {
+      "title": "Sanofi, Regeneron Expand DUPIXENT Alliance in Deal Worth Up to \u20ac8 Billion",
+      "publisher": "MarketBeat",
+      "created": "Oct 1, 2026",
+      "ago": "Oct 1, 2026",
+      "url": "/articles/sanofi-regeneron-expand-dupixent-alliance-deal-worth-eu8-billion",
+      "primary_symbol": "SNY",
+      "related_symbols": [
+        "SNY"
+      ],
+      "summary": "Giants Costco, Sanofi, and SAP Raise Dividends by Over 10%Regeneron and Sanofi (NASDAQ:SNY) announced an expanded collaboration focused on developing next-generation medicines for type 2 inflammatory diseases, extending an alliance that has produced the blockbuster therapy DUPIXE",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "mna"
+      ]
+    },
+    {
+      "title": "TEVA Gets FDA Nod for Weltruza as Once-Monthly LAI in Schizophrenia",
+      "publisher": "Zacks",
+      "created": "Oct 12, 2026",
+      "ago": "Oct 12, 2026",
+      "url": "/articles/teva-gets-fda-nod-weltruza-once-monthly-lai-schizophrenia",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TEVA",
+        "SNY",
+        "CRSP",
+        "ACTU"
+      ],
+      "summary": "Teva wins FDA approval for Weltruza, the first once-monthly subcutaneous olanzapine injection for adults with schizophrenia, with a U.S. launch expected soon.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Which Pharma Stock Looks More Attractive: Sanofi or AbbVie?",
+      "publisher": "Zacks",
+      "created": "Oct 14, 2026",
+      "ago": "Oct 14, 2026",
+      "url": "/articles/which-pharma-stock-looks-more-attractive-sanofi-or-abbvie",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SNY",
+        "ABBV",
+        "REGN",
+        "JNJ"
+      ],
+      "summary": "Sanofi's upgraded 2026 outlook, Dupixent growth and attractive valuation give it an edge over AbbVie, despite pipeline setbacks and vaccine sales challenges.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "valuation_dispersion",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "European Commission Accepts Makes Sanofi's Commitments Legally Binding On Flu Vaccine Practices",
+      "publisher": "RTTNews",
+      "created": "Oct 14, 2026",
+      "ago": "Oct 14, 2026",
+      "url": "/articles/european-commission-accepts-makes-sanofis-commitments-legally-binding-flu-vaccine",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SNY"
+      ],
+      "summary": "(RTTNews) - Wednesday, the European Commission has made commitments offered by Sanofi (SNY) legally binding under EU antitrust rules.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Can Nektar's Pipeline Progress Create Long-Term Value Amid Rivalry?",
+      "publisher": "Zacks",
+      "created": "Oct 15, 2026",
+      "ago": "Oct 15, 2026",
+      "url": "/articles/can-nektars-pipeline-progress-create-long-term-value-amid-rivalry",
+      "primary_symbol": null,
+      "related_symbols": [
+        "NKTR",
+        "REGN",
+        "SNY",
+        "LLY"
+      ],
+      "summary": "NKTR advances rezpeg into phase III studies for atopic dermatitis, with additional autoimmune indications offering potential growth amid stiff competition.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Recursion To Receive $10 Mln Milestone Payment As Sanofi Selects Immunology Drug Candidate",
+      "publisher": "RTTNews",
+      "created": "Oct 15, 2026",
+      "ago": "Oct 15, 2026",
+      "url": "/articles/recursion-receive-10-mln-milestone-payment-sanofi-selects-immunology-drug-candidate",
+      "primary_symbol": "RXRX",
+      "related_symbols": [
+        "RXRX",
+        "SNY"
+      ],
+      "summary": "(RTTNews) - Recursion Pharmaceuticals Inc. (RXRX) announced Thursday that Sanofi (SNY) has selected the first development candidate under their research collaboration, triggering a $10 million milestone payment to Recursion.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Sanofi, PCPA Sign LOI For Dupixent Across Four Additional Indications",
+      "publisher": "RTTNews",
+      "created": "Oct 16, 2026",
+      "ago": "Oct 16, 2026",
+      "url": "/articles/sanofi-pcpa-sign-loi-dupixent-across-four-additional-indications",
+      "primary_symbol": "REGN",
+      "related_symbols": [
+        "REGN",
+        "SNY"
+      ],
+      "summary": "(RTTNews) - Sanofi (SNY) said Thursday it has completed negotiations with the pan-Canadian Pharmaceutical Alliance (pCPA) and signed a letter of intent, or LOI for Dupixent across four additional indications in dermatology and respiratory.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Forget Eylea: Regeneron's Real Value May Be Hiding in Its Dupixent Profit Share",
+      "publisher": "The Motley Fool",
+      "created": "Oct 17, 2026",
+      "ago": "6 days ago",
+      "url": "/articles/forget-eylea-regenerons-real-value-may-be-hiding-its-dupixent-profit-share",
+      "primary_symbol": "REGN",
+      "related_symbols": [
+        "REGN",
+        "SNY"
+      ],
+      "summary": "Key PointsRegeneron\u2019s revenue is growing at a good clip despite declining Eylea sales.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Sanofi Commences Construction Of Insulin Facility In Frankfurt, Germany",
+      "publisher": "RTTNews",
+      "created": "Oct 19, 2026",
+      "ago": "5 days ago",
+      "url": "/articles/sanofi-commences-construction-insulin-facility-frankfurt-germany",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SNY"
+      ],
+      "summary": "(RTTNews) - Monday, Sanofi (SNY) commenced construction of a new state-of-the-art insulin manufacturing facility at its BioCampus in Frankfurt, Germany, leveraging advanced digital technologies and artificial intelligence across manufacturing and quality processes.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Sanofi, Regeneron Expand Immunology Alliance With New Antibodies",
+      "publisher": "Zacks",
+      "created": "Oct 2, 2026",
+      "ago": "Oct 2, 2026",
+      "url": "/articles/sanofi-regeneron-expand-immunology-alliance-new-antibodies",
+      "primary_symbol": null,
+      "related_symbols": [
+        "REGN",
+        "SNY",
+        "AZN"
+      ],
+      "summary": "SNY and REGN expand their longstanding alliance to four new antibodies targeting type II inflammation, with billions in potential payments.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Teva, Sanofi Report Sustained Duvakitug Benefits In Phase 2b IBD Study",
+      "publisher": "RTTNews",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/teva-sanofi-report-sustained-duvakitug-benefits-phase-2b-ibd-study",
+      "primary_symbol": null,
+      "related_symbols": [
+        "SNY",
+        "TEVA"
+      ],
+      "summary": "(RTTNews) - Teva Pharmaceutical Industries Ltd. (TEVA) and Sanofi (SNY) announced positive long-term Phase 2b data for investigational duvakitug, showing sustained improvements in ulcerative colitis (UC) and Crohn's disease (CD) through Week 44 of the RELIEVE UCCD long-term exten",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "GSK's New Drugs and Pipeline Hold the Key to Long-Term Growth",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/gsks-new-drugs-and-pipeline-hold-key-long-term-growth",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GSK",
+        "SNY",
+        "AZN",
+        "MRK"
+      ],
+      "summary": "GSK's newer drugs, expanding indications and promising pipeline could drive long-term growth, with sales expected to exceed 40 billion pounds by 2031.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks",
+      "publisher": "quotelinks.com",
+      "url": "https://www.quotelinks.com/forecast/sny.html",
+      "summary": "Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks\n\n# Sanofi (SNY) Stock Forecast\n\nNASDAQ: SNY Analyst ratings, price target and estimates.\n\n## SNY analyst forecast\n\nas of October 18, 2026\n\nAnalyst consensus\n\nBuy\n\n3.91 / 5 from 11 analysts\n\nPrice target\n\n$53.61\n\naverage of analyst targets\n\nUpside to target\n\n+32.0%\n\nfrom the latest close\n\nNext earnings\n\nOctober 30, 2026\n\nEPS estimate $1.63\n\n52-week range\n\n$39.12 \u2013 $52.34\n\n## SNY analyst ratings\n\n11 analysts\n\nStrong buy\n\n5 45%\n\n0 0%\n\nHold\n\n6 55%\n\nSell\n\nStrong sell\n\nNumber of analysts at each rating.\n\n## SNY price target\n\nPric",
+      "published": "2026-10-18",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) analyst estimates revision outlook",
+      "relevance": 1,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Weekly Buzz: EW, ABBV, MIRM Score FDA Wins, AZN, NVO Strike Deals; LLY, KOD Report Data",
+      "publisher": "RTTNews",
+      "created": "Oct 2, 2026",
+      "ago": "Oct 2, 2026",
+      "url": "/articles/weekly-buzz-ew-abbv-mirm-score-fda-wins-azn-nvo-strike-deals-lly-kod-report-data",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ABBV",
+        "AZN",
+        "CBLL",
+        "CDXS",
+        "CV",
+        "EW",
+        "GSK",
+        "IMMX",
+        "INCY",
+        "IVVD",
+        "JNJ",
+        "KALA",
+        "KOD",
+        "LLY",
+        "MIRM",
+        "MRK",
+        "NVO",
+        "REGN",
+        "SIBN",
+        "SMMT",
+        "SNY",
+        "TEM",
+        "TEVA",
+        "WVE"
+      ],
+      "summary": "(RTTNews) - The week brought a fresh round of developments across the biotech and pharma landscape, with companies advancing new therapies through regulatory milestones, clinical studies, strategic deals and corporate activity. Key updates spanned oncology, rare diseases, cardiov",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Weekly Buzz: AZN, ALVO Score FDA Nod; EYPT Cuts Jobs; RHHBY, GEHC Enter Deal; VERA Posts Trial Win",
+      "publisher": "RTTNews",
+      "created": "Oct 23, 2026",
+      "ago": "15 hours ago",
+      "url": "/articles/weekly-buzz-azn-alvo-score-fda-nod-eypt-cuts-jobs-rhhby-gehc-enter-deal-vera-posts-trial",
+      "primary_symbol": null,
+      "related_symbols": [
+        "ABBV",
+        "ABT",
+        "ACHV",
+        "ALVO",
+        "AMGN",
+        "AZN",
+        "BDMD",
+        "CYTK",
+        "ENLV",
+        "EYPT",
+        "GEHC",
+        "IRON",
+        "LLY",
+        "MRK",
+        "MRNA",
+        "NBP",
+        "NVO",
+        "OCS",
+        "PACB",
+        "SNY",
+        "TEVA",
+        "TLX",
+        "VERA",
+        "VTRS"
+      ],
+      "summary": "(RTTNews) - Healthcare and biotech news this week centred on regulatory approvals, strategic deals, and pivotal clinical data.",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": [
+        "regulation"
+      ]
+    },
+    {
+      "title": "Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook",
+      "publisher": "rttnews.com",
+      "url": "https://www.rttnews.com/3672550/sanofi-q2-net-profit-plunges-business-profit-climbs-on-strong-sales-lifts-fy26-outlook.aspx",
+      "summary": "Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook \n\n# Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook \n\n By RTTNews Staff Writer \u2709 (editorial@rttnews.com) | Published: 7/30/2026 2:02 AM ET | Follow Us | Join Us \n\n French drug major Sanofi SA (SNY, SNYNF,SAN.PA) reported Thursday sharply lower net profit in its second quarter, while business earnings climbed from last year with strong sales growth. Further, the firm upgraded its fiscal 2026 outlook.\n\nFor fiscal 2026, the pharmaceutical company now expects sales to g",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Sanofi price target lowered to EUR 75 from EUR 800 at RBC Capital",
+      "publisher": "markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/sanofi-price-target-lowered-to-eur-75-from-eur-800-at-rbc-capital-1036635711",
+      "summary": "RBC Capital lowered the firm\u2019s price target on Sanofi (SNY) to EUR 75 from EUR 800 and keeps a Sector Perform rating on the shares ahead of its Q3 results. The firm notes that it trails consensus on the top-line and is about 4% below on EPS as consensus is mis-modeling certain Dupi related partnership expenses and reimbursements that expired in Q2, though it remains ahead of the Street on Dupi by about 4% given strong script growth, the analyst tells investors in a research note. The recently updated Regeneron (REGN) alliance added to their pipeline, clearing a near-term overhang, but investor",
+      "published": null,
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Sanofi Q2 2026 Earnings Review - Finsee",
+      "publisher": "finsee.ai",
+      "url": "https://finsee.ai/earnings/sny/2026/q2/en/",
+      "summary": "Sanofi Q2 2026 Earnings Review - Finsee\n\n# Sanofi (SNY) Q2 2026 earnings review\n\nPeriod ended Jun 30, 2026 \u00b7 Filed Jul 30, 2026\n\n## Blockbuster Quarter Masked by Massive R&D Failure\n\nSanofi reported a spectacular top-line quarter, with sales up 17.8% (CER) and Dupixent crossing the \u20ac5 billion mark for the first time. The strong operational performance allowed management to upgrade FY26 sales guidance to ~10%. However, beneath the booming revenue lies a devastating failure in the R&D pipeline. Amlitelimab, a candidate management previously touted with 'extremely high confidence,' was abruptly d",
+      "published": "2026-06-30",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded",
+      "publisher": "sanofi.com",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+      "summary": "Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded\n\n# Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded\n\nJuly 30, 2026\n\nQ2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded\n\nJuly 30, 2026\n\nQ2 sales growth of 17.8% at CER 1 and business earnings per share (EPS) 2 of \u20ac2.09\n\n- Pharma launches sales increased by 48.3%, reaching \u20ac1.3 billion, driven mostly by Ayvakit, ALTUVIIIO, and Sarclisa\n- Dupixent sales increased by 37.6% to \u20ac5.2 billion, above \u20ac5 bi",
+      "published": "2026-07-30",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "2026_10_06 Sanofi Q3 2026 Aide-m\u00e9moire",
+      "publisher": "sanofi.com",
+      "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2026/2026-q3-2026-results/20261006-Sanofi-Q3-2026-Aide-memoire.pdf",
+      "summary": "Paris, October 6, 2026. Sanofi (EURONEXT: SAN, NASDAQ: SNY) has compiled the following document, drawing on publicly available information from Sanofi and other sources. It is intended to support financial modelling ahead of Q3 2026 results, due for publication on Friday, October 30, 2026. Sanofi would like to highlight the following:\n\n### Guidance and previous commentary\n\nSanofi\u2019s Q2 2026 results are available here.\n\n### Estimated currency impact\n\nBased on year-to-date currency rate movements (please see the appendix for details), the Q3 2026 currency impact is estimated at around +2% on sale",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Sanofi Faces A Proof Test As Vaccine Slump And Dupixent Slowdown Hit Q3",
+      "publisher": "finviz.com",
+      "url": "https://finviz.com/news/406476/sanofi-faces-a-proof-test-as-vaccine-slump-and-dupixent-slowdown-hit-q3",
+      "summary": "Sanofi Faces A Proof Test As Vaccine Slump And Dupixent Slowdown Hit Q3\n\n# Sanofi Faces A Proof Test As Vaccine Slump And Dupixent Slowdown Hit Q3\n\n By Earnings Whispers | October 22, 2026, 8:29 AM \n\nEarnings Whispers\n\nSanofi heads into its third-quarter report with an odd split personality. On the commercial side, the business has rarely looked better: sales growth accelerated for four straight quarters and management raised its full-year outlook last time out. Yet the stock has slipped since that upbeat call, sentiment has soured sharply, and Wall Street is bracing for earnings to fall from ",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "Investor News & Events | Sanofi",
+      "publisher": "sanofi.com",
+      "url": "https://www.sanofi.com/en/investors/news-events",
+      "summary": "Investor News & Events | Sanofi\n\n## Q3 2026 Results\n\nFriday, October 30, 2026 13:30 - 14:30 CET (8:30am - 9:30am EDT) Management presentation followed by a Q&A session with the financial community. Aide-m\u00e9moire available.\n\n## Press Releases\n\nOctober 20, 2026\n\nMedia Update: UEG Week: Sanofi and Teva\u2019s duvakitug maintained long-term positive outcomes in new phase 2b data for ulcerative colitis and Crohn\u2019s disease\n\nRead the Media Update\n\nOctober 19, 2026\n\nPress Release: Sanofi breaks ground on new state-of-the-art insulin manufacturing facility in Germany\n\nOctober 16, 2026\n\nPress release: Sanofi ",
+      "published": "2026-10-30",
+      "source": "ollama_search",
+      "query": "Sanofi (SNY) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 10,
+        "share": 0.37,
+        "evidence": [
+          {
+            "title": "SNY Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-07-14",
+            "matched": [
+              "forecast",
+              "revis",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "SNY | Sanofi ADR Analyst Estimates & Ratings \u2013 WSJ",
+            "publisher": "wsj.com",
+            "published": "2026-10-09",
+            "matched": [
+              "estimate"
+            ]
+          },
+          {
+            "title": "Which Pharma Stock Looks More Attractive: Sanofi or AbbVie?",
+            "publisher": "Zacks",
+            "published": "Oct 14, 2026",
+            "matched": [
+              "outlook"
+            ]
+          },
+          {
+            "title": "Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks",
+            "publisher": "quotelinks.com",
+            "published": "2026-10-18",
+            "matched": [
+              "forecast",
+              "estimate",
+              "consensus"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 8,
+        "share": 0.296,
+        "evidence": [
+          {
+            "title": "SNY Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-07-14",
+            "matched": [
+              "upgrade",
+              "downgrade",
+              "price target"
+            ]
+          },
+          {
+            "title": "Which Pharma Stock Looks More Attractive: Sanofi or AbbVie?",
+            "publisher": "Zacks",
+            "published": "Oct 14, 2026",
+            "matched": [
+              "upgrade"
+            ]
+          },
+          {
+            "title": "Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks",
+            "publisher": "quotelinks.com",
+            "published": "2026-10-18",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook",
+            "publisher": "rttnews.com",
+            "published": null,
+            "matched": [
+              "upgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation and legal",
+        "description": "Legal and regulatory constraints that change the economics.",
+        "count": 4,
+        "share": 0.148,
+        "evidence": [
+          {
+            "title": "European Commission Accepts Makes Sanofi's Commitments Legally Binding On Flu Vaccine Practices",
+            "publisher": "RTTNews",
+            "published": "Oct 14, 2026",
+            "matched": [
+              "antitrust"
+            ]
+          },
+          {
+            "title": "Teva, Sanofi Report Sustained Duvakitug Benefits In Phase 2b IBD Study",
+            "publisher": "RTTNews",
+            "published": "Oct 20, 2026",
+            "matched": [
+              "investigation"
+            ]
+          },
+          {
+            "title": "Weekly Buzz: EW, ABBV, MIRM Score FDA Wins, AZN, NVO Strike Deals; LLY, KOD Report Data",
+            "publisher": "RTTNews",
+            "published": "Oct 2, 2026",
+            "matched": [
+              "regulat"
+            ]
+          },
+          {
+            "title": "Weekly Buzz: AZN, ALVO Score FDA Nod; EYPT Cuts Jobs; RHHBY, GEHC Enter Deal; VERA Posts Trial Win",
+            "publisher": "RTTNews",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "regulat"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mna",
+        "label": "M&A and capital returns",
+        "description": "Corporate action changing the share count or asset base.",
+        "count": 2,
+        "share": 0.074,
+        "evidence": [
+          {
+            "title": "Sanofi (SNY) Stock Research Report | Flash",
+            "publisher": "flash.stocksentinel.ai",
+            "published": "2025-04-30",
+            "matched": [
+              "stake"
+            ]
+          },
+          {
+            "title": "Sanofi, Regeneron Expand DUPIXENT Alliance in Deal Worth Up to \u20ac8 Billion",
+            "publisher": "MarketBeat",
+            "published": "Oct 1, 2026",
+            "matched": [
+              "dividend"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "depreciation_debt",
+        "label": "Depreciation and balance-sheet strain",
+        "description": "Accounting for ageing assets and the cost of the debt behind them.",
+        "count": 2,
+        "share": 0.074,
+        "evidence": [
+          {
+            "title": "SNY Forecast, Price Target & Analyst Ratings | ChartMill.com",
+            "publisher": "chartmill.com",
+            "published": "2026-07-14",
+            "matched": [
+              "downgrade"
+            ]
+          },
+          {
+            "title": "Sanofi (SNY) Price & Analysis",
+            "publisher": "tipranks.com",
+            "published": "2026-10-30",
+            "matched": [
+              "debt"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 1,
+        "share": 0.037,
+        "evidence": [
+          {
+            "title": "Which Pharma Stock Looks More Attractive: Sanofi or AbbVie?",
+            "publisher": "Zacks",
+            "published": "Oct 14, 2026",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-30"
+    ],
+    "next_date": "2026-10-30",
+    "eps_avg": 1.5105,
+    "eps_low": 1.489,
+    "eps_high": 1.532,
+    "revenue_avg": 13261554230
+  },
+  "catalyst": {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "days_out": 6,
+    "basis": "scheduled",
+    "session": "before the open",
+    "consensus": {
+      "eps_avg": 1.5105,
+      "eps_low": 1.489,
+      "eps_high": 1.532,
+      "revenue_avg": 13261554230
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 1.14,
+        "eps_actual": 1.2,
+        "surprise_pct": 5.59,
+        "beat": true
+      },
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 1.03,
+        "eps_actual": 1.1,
+        "surprise_pct": 7.26,
+        "beat": true
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 0.85,
+        "eps_actual": 0.91,
+        "surprise_pct": 7.38,
+        "beat": true
+      },
+      {
+        "date": "2025-10-24",
+        "eps_estimate": 1.57,
+        "eps_actual": 1.69,
+        "surprise_pct": 8.14,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 92,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-30 (Friday, before the open), 6 days out -- from the earnings calendar, consensus EPS 1.51."
+  },
+  "forward_trends": {
+    "queries": [
+      "2026 2027 global vaccine market outlook government immunization budgets pediatric flu RSV procurement spending",
+      "2026 2027 immunology biologics market biosimilar competition payer reimbursement specialty pharmacy budgets",
+      "2026 2027 rare disease neurology gene therapy market access payer budgets competition",
+      "Sanofi SNY 2026 2027 vaccine immunology oncology pricing reimbursement market access pressures"
+    ],
+    "results_count": 20,
+    "results_dated": 18,
+    "trends": [
+      {
+        "claim": "In September 2026, the Philippines set early procurement for 2027 immunization to avoid delays.",
+        "stance": "support",
+        "why": "Earlier, predictable vaccine orders can support Sanofi\u2019s vaccine revenue in 2027.",
+        "quote": "Early procurement of vaccines for the immunization program of the Department of Health (DOH) has been set for next year to avoid delays",
+        "url": "https://newsinfo.inquirer.net/2300323/doh-starts-early-procurement-of-vaccines-for-2027-immunization",
+        "publisher": "newsinfo.inquirer.net",
+        "as_of": "2026-09-07",
+        "age_days": 47,
+        "undated": false
+      }
+    ],
+    "dropped": [
+      {
+        "claim": "In 2026, the FDA is moving to streamline biosimilar market entry.",
+        "stance": "pressure",
+        "why": "Faster biosimilar approvals can erode U.S. sales of Sanofi\u2019s branded biologics as competition rises.",
+        "quote": "The FDA moves to streamline biosimilar market entry",
+        "url": "https://cardinalhealth.scene7.com/is/content/corpmarketdms7prod/corp/web/documents/Report/cardinal-health-2026-biosimilars-report.pdf",
+        "publisher": "cardinalhealth.scene7.com",
+        "as_of": "2026-01-29",
+        "age_days": 268,
+        "undated": false,
+        "drop_reason": "stale (268 days old)"
+      },
+      {
+        "claim": "In 2026, medical-benefit reimbursement pressures could dampen future biosimilar investment and prompt exits.",
+        "stance": "support",
+        "why": "Less biosimilar competition would help protect Sanofi\u2019s branded biologic pricing and share.",
+        "quote": "Without policy changes, these pressures could dampen future biosimilar investment, prompt market exits",
+        "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/modeling-policy-proposals-for-medical-benefit-biosimilar-reimbursement-in-the-us",
+        "publisher": "iqvia.com",
+        "as_of": "2026-02-26",
+        "age_days": 240,
+        "undated": false,
+        "drop_reason": "stale (240 days old)"
+      },
+      {
+        "claim": "In 2026, U.S. prescription drug pricing and management approaches continue to evolve beyond PBM contracting.",
+        "stance": "pressure",
+        "why": "New reimbursement models can pressure net pricing for Sanofi\u2019s U.S. medicines.",
+        "quote": "As the US healthcare market enters 2026, approaches to prescription drug pricing and management continue to evolve.",
+        "url": "https://biologicshq.com/wp-content/uploads/2026/02/SB-Biosimilar-Market-Report-Q1-2026.pdf",
+        "publisher": "biologicshq.com",
+        "as_of": "2026-02-01",
+        "age_days": 265,
+        "undated": false,
+        "drop_reason": "stale (265 days old)"
+      },
+      {
+        "claim": "Gavi\u2019s 2024 plan for 2026\u20132030 emphasizes health sovereignty and more local production.",
+        "stance": "pressure",
+        "why": "Local production could shift vaccine procurement away from Sanofi\u2019s global supply.",
+        "quote": "which starts with access to the essential health products that are vaccines, which implies much more local production",
+        "url": "https://reliefweb.int/attachments/a548169a-177e-4d2b-aa6e-0626aa34f5a4/Gavi-Investment-Opportunity-2026-2030.pdf",
+        "publisher": "reliefweb.int",
+        "as_of": "2024-06-20",
+        "age_days": 856,
+        "undated": false,
+        "drop_reason": "stale (856 days old)"
+      }
+    ],
+    "stale_dropped": 4,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "SNY",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 41.6,
+      "catalyst": "2027-01-30",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 42.5,
+        "premium": 2.7,
+        "bid": 2.6,
+        "ask": 2.8,
+        "mid": 2.7,
+        "last": 2.73,
+        "open_interest": 190,
+        "volume": 18.0,
+        "implied_vol": 0.30383996948242187,
+        "qty": 16
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 42.5,
+        "premium": 1.05,
+        "bid": 0.95,
+        "ask": 1.15,
+        "mid": 1.05,
+        "last": 1.15,
+        "open_interest": 3573,
+        "volume": 4,
+        "implied_vol": 0.3354558642578125,
+        "qty": 5
+      },
+      "long_total": 4320.0,
+      "short_total": 525.0,
+      "net_debit": 3795.0,
+      "credit_ratio_mid": 0.1215,
+      "credit_ratio_conservative": 0.106,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 42.5,
+          "qty": 16,
+          "underlying": 41.6,
+          "multiplier": 100,
+          "price": 2.7,
+          "total": 4320.0,
+          "open_interest": 190
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 42.5,
+          "qty": 5,
+          "underlying": 41.6,
+          "multiplier": 100,
+          "price": 1.05,
+          "total": -525.0,
+          "open_interest": 3573
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-30 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-30); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 42.5, 45, 47.5, 50"
+      ],
+      "advice": "Credit ratio 10.6% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.0243,
+          "credit_ratio_conservative": 0.0212,
+          "passes_floor": false,
+          "cash_collected": 105.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.0486,
+          "credit_ratio_conservative": 0.0424,
+          "passes_floor": false,
+          "cash_collected": 210.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.0729,
+          "credit_ratio_conservative": 0.0636,
+          "passes_floor": false,
+          "cash_collected": 315.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.0972,
+          "credit_ratio_conservative": 0.0848,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.1215,
+          "credit_ratio_conservative": 0.106,
+          "passes_floor": true,
+          "cash_collected": 525.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.1458,
+          "credit_ratio_conservative": 0.1272,
+          "passes_floor": true,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.1701,
+          "credit_ratio_conservative": 0.1484,
+          "passes_floor": true,
+          "cash_collected": 735.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.1944,
+          "credit_ratio_conservative": 0.1696,
+          "passes_floor": true,
+          "cash_collected": 840.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.2188,
+          "credit_ratio_conservative": 0.1908,
+          "passes_floor": true,
+          "cash_collected": 945.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.2431,
+          "credit_ratio_conservative": 0.2121,
+          "passes_floor": true,
+          "cash_collected": 1050.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.2674,
+          "credit_ratio_conservative": 0.2333,
+          "passes_floor": true,
+          "cash_collected": 1155.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.2917,
+          "credit_ratio_conservative": 0.2545,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.316,
+          "credit_ratio_conservative": 0.2757,
+          "passes_floor": true,
+          "cash_collected": 1365.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.3403,
+          "credit_ratio_conservative": 0.2969,
+          "passes_floor": true,
+          "cash_collected": 1470.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.3646,
+          "credit_ratio_conservative": 0.3181,
+          "passes_floor": true,
+          "cash_collected": 1575.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.3889,
+          "credit_ratio_conservative": 0.3393,
+          "passes_floor": true,
+          "cash_collected": 1680.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "SNY",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 41.6,
+      "catalyst": "2027-01-30",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 40.0,
+        "premium": 1.75,
+        "bid": 1.65,
+        "ask": 1.85,
+        "mid": 1.75,
+        "last": 1.85,
+        "open_interest": 349,
+        "volume": 2,
+        "implied_vol": 0.24927508544921873,
+        "qty": 25
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 40.0,
+        "premium": 0.7,
+        "bid": 0.6,
+        "ask": 0.8,
+        "mid": 0.7,
+        "last": 0.72,
+        "open_interest": 2606,
+        "volume": 11,
+        "implied_vol": 0.32471378417968744,
+        "qty": 8
+      },
+      "long_total": 4375.0,
+      "short_total": 560.0,
+      "net_debit": 3815.0,
+      "credit_ratio_mid": 0.128,
+      "credit_ratio_conservative": 0.1038,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 40.0,
+          "qty": 25,
+          "underlying": 41.6,
+          "multiplier": 100,
+          "price": 1.75,
+          "total": 4375.0,
+          "open_interest": 349
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 40.0,
+          "qty": 8,
+          "underlying": 41.6,
+          "multiplier": 100,
+          "price": 0.7,
+          "total": -560.0,
+          "open_interest": 2606
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-30 catalyst; long expires 19-Mar-27, after it",
+        "targets report #2 (2027-01-30); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 40, 37.5, 35, 32.5"
+      ],
+      "advice": "Credit ratio 10.4% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.016,
+          "credit_ratio_conservative": 0.013,
+          "passes_floor": false,
+          "cash_collected": 70.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.032,
+          "credit_ratio_conservative": 0.0259,
+          "passes_floor": false,
+          "cash_collected": 140.0
+        },
+        {
+          "short_qty": 3,
+          "credit_ratio_mid": 0.048,
+          "credit_ratio_conservative": 0.0389,
+          "passes_floor": false,
+          "cash_collected": 210.0
+        },
+        {
+          "short_qty": 4,
+          "credit_ratio_mid": 0.064,
+          "credit_ratio_conservative": 0.0519,
+          "passes_floor": false,
+          "cash_collected": 280.0
+        },
+        {
+          "short_qty": 5,
+          "credit_ratio_mid": 0.08,
+          "credit_ratio_conservative": 0.0649,
+          "passes_floor": false,
+          "cash_collected": 350.0
+        },
+        {
+          "short_qty": 6,
+          "credit_ratio_mid": 0.096,
+          "credit_ratio_conservative": 0.0778,
+          "passes_floor": false,
+          "cash_collected": 420.0
+        },
+        {
+          "short_qty": 7,
+          "credit_ratio_mid": 0.112,
+          "credit_ratio_conservative": 0.0908,
+          "passes_floor": false,
+          "cash_collected": 490.0
+        },
+        {
+          "short_qty": 8,
+          "credit_ratio_mid": 0.128,
+          "credit_ratio_conservative": 0.1038,
+          "passes_floor": true,
+          "cash_collected": 560.0
+        },
+        {
+          "short_qty": 9,
+          "credit_ratio_mid": 0.144,
+          "credit_ratio_conservative": 0.1168,
+          "passes_floor": true,
+          "cash_collected": 630.0
+        },
+        {
+          "short_qty": 10,
+          "credit_ratio_mid": 0.16,
+          "credit_ratio_conservative": 0.1297,
+          "passes_floor": true,
+          "cash_collected": 700.0
+        },
+        {
+          "short_qty": 11,
+          "credit_ratio_mid": 0.176,
+          "credit_ratio_conservative": 0.1427,
+          "passes_floor": true,
+          "cash_collected": 770.0
+        },
+        {
+          "short_qty": 12,
+          "credit_ratio_mid": 0.192,
+          "credit_ratio_conservative": 0.1557,
+          "passes_floor": true,
+          "cash_collected": 840.0
+        },
+        {
+          "short_qty": 13,
+          "credit_ratio_mid": 0.208,
+          "credit_ratio_conservative": 0.1686,
+          "passes_floor": true,
+          "cash_collected": 910.0
+        },
+        {
+          "short_qty": 14,
+          "credit_ratio_mid": 0.224,
+          "credit_ratio_conservative": 0.1816,
+          "passes_floor": true,
+          "cash_collected": 980.0
+        },
+        {
+          "short_qty": 15,
+          "credit_ratio_mid": 0.24,
+          "credit_ratio_conservative": 0.1946,
+          "passes_floor": true,
+          "cash_collected": 1050.0
+        },
+        {
+          "short_qty": 16,
+          "credit_ratio_mid": 0.256,
+          "credit_ratio_conservative": 0.2076,
+          "passes_floor": true,
+          "cash_collected": 1120.0
+        },
+        {
+          "short_qty": 17,
+          "credit_ratio_mid": 0.272,
+          "credit_ratio_conservative": 0.2205,
+          "passes_floor": true,
+          "cash_collected": 1190.0
+        },
+        {
+          "short_qty": 18,
+          "credit_ratio_mid": 0.288,
+          "credit_ratio_conservative": 0.2335,
+          "passes_floor": true,
+          "cash_collected": 1260.0
+        },
+        {
+          "short_qty": 19,
+          "credit_ratio_mid": 0.304,
+          "credit_ratio_conservative": 0.2465,
+          "passes_floor": true,
+          "cash_collected": 1330.0
+        },
+        {
+          "short_qty": 20,
+          "credit_ratio_mid": 0.32,
+          "credit_ratio_conservative": 0.2595,
+          "passes_floor": true,
+          "cash_collected": 1400.0
+        },
+        {
+          "short_qty": 21,
+          "credit_ratio_mid": 0.336,
+          "credit_ratio_conservative": 0.2724,
+          "passes_floor": true,
+          "cash_collected": 1470.0
+        },
+        {
+          "short_qty": 22,
+          "credit_ratio_mid": 0.352,
+          "credit_ratio_conservative": 0.2854,
+          "passes_floor": true,
+          "cash_collected": 1540.0
+        },
+        {
+          "short_qty": 23,
+          "credit_ratio_mid": 0.368,
+          "credit_ratio_conservative": 0.2984,
+          "passes_floor": true,
+          "cash_collected": 1610.0
+        },
+        {
+          "short_qty": 24,
+          "credit_ratio_mid": 0.384,
+          "credit_ratio_conservative": 0.3114,
+          "passes_floor": true,
+          "cash_collected": 1680.0
+        },
+        {
+          "short_qty": 25,
+          "credit_ratio_mid": 0.4,
+          "credit_ratio_conservative": 0.3243,
+          "passes_floor": true,
+          "cash_collected": 1750.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for SNY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/key-statistics/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "Price: 41.60 USD Market Cap: 99.68B Fwd PE: 8.43 P/S: 2.0 EPS trends: down over the last 7 days EPS revisions: all down, with 0 up and 4 down over last 30 days price 41.6 market cap 99.68B forward PE 8.43 forward PE next FY 7.88 trailing PE 21.894737 P/S 2.03764 EV/EBITDA 8.659"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for SNY",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/analysis/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "FY consensus 4.93362 now, 5.0163 7 days ago, 5.01756 30 days ago, change over 30 days -1.67%; EPS revisions 0 up and 4 down over 30 days, 0 up and 4 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "SNY quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sny/financials",
+      "date": null,
+      "weight": null,
+      "text": "EPS increased year over year 0.91 to 1.2 Total Revenue 9.4% quarter over quarter and 14.6% year over year to 2026-06-30 Net Income -78.7% quarter over quarter and -91.3% year over year to 2026-06-30 EBIT -48.5% quarter over quarter and -28.5% year over year to 2026-06-30 EBITDA -38.3% quarter over quarter and -14.0% year over year to 2026-06-30 Operating Income 5.1% quarter over quarter and 22.9% year over year to 2026-06-30 Gross Profit 14.5% quarter over quarter and 19.9% year over year to 2026-06-30 Interest Expense 61.2% quarter over quarter and 93.9% year over year to 2026-06-30 Interest Income 28.3% quarter over quarter and -21.4% year over year to 2026-06-30 Total Revenue increasing 5.5% in fiscal 2025-12-31 vs 2024-12-31 Net Income increasing 40.5% in fiscal 2025-12-31 vs 2024-12-31 Net Interest Income increasing 73.7% in fiscal 2025-12-31 vs 2024-12-31 Net Income Common Stockholders increasing 40.5% in fiscal 2025-12-31 vs 2024-12-31 Interest Income decreasing 24.4% in fiscal 2025-12-31 vs 2024-12-31 EBITDA increasing 13.6% in fiscal 2025-12-31 vs 2024-12-31"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "SNY earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/sny/earnings",
+      "date": "2026-10-30",
+      "weight": null,
+      "text": "2026-10-30 (Friday, before the open), 6 days out -- from the earnings calendar, consensus EPS 1.51. beat streak 4 median gap 92 days 2026-07-30 estimate 1.14 actual 1.2 surprise 5.59% 2026-04-23 estimate 1.03 actual 1.1 surprise 7.26% 2026-01-29 estimate 0.85 actual 0.91 surprise 7.38% 2025-10-24 estimate 1.57 actual 1.69 surprise 8.14%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "MarketBeat: Sanofi, Regeneron Expand DUPIXENT Alliance in Deal Worth Up to \u20ac8 Billion",
+      "provider": null,
+      "url": "/articles/sanofi-regeneron-expand-dupixent-alliance-deal-worth-eu8-billion",
+      "date": "Oct 1, 202",
+      "weight": 3,
+      "text": "Sanofi, Regeneron Expand DUPIXENT Alliance in Deal Worth Up to \u20ac8 Billion Giants Costco, Sanofi, and SAP Raise Dividends by Over 10%Regeneron and Sanofi (NASDAQ:SNY) announced an expanded collaboration focused on developing next-generation medicines for type 2 inflammatory diseases, extending an alliance that has produced the blockbuster therapy DUPIXE"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: TEVA Gets FDA Nod for Weltruza as Once-Monthly LAI in Schizophrenia",
+      "provider": null,
+      "url": "/articles/teva-gets-fda-nod-weltruza-once-monthly-lai-schizophrenia",
+      "date": "Oct 12, 20",
+      "weight": 2,
+      "text": "TEVA Gets FDA Nod for Weltruza as Once-Monthly LAI in Schizophrenia Teva wins FDA approval for Weltruza, the first once-monthly subcutaneous olanzapine injection for adults with schizophrenia, with a U.S. launch expected soon."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: Which Pharma Stock Looks More Attractive: Sanofi or AbbVie?",
+      "provider": null,
+      "url": "/articles/which-pharma-stock-looks-more-attractive-sanofi-or-abbvie",
+      "date": "Oct 14, 20",
+      "weight": 2,
+      "text": "Which Pharma Stock Looks More Attractive: Sanofi or AbbVie? Sanofi's upgraded 2026 outlook, Dupixent growth and attractive valuation give it an edge over AbbVie, despite pipeline setbacks and vaccine sales challenges."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "RTTNews: European Commission Accepts Makes Sanofi's Commitments Legally Binding On Flu Vaccine Practices",
+      "provider": null,
+      "url": "/articles/european-commission-accepts-makes-sanofis-commitments-legally-binding-flu-vaccine",
+      "date": "Oct 14, 20",
+      "weight": 2,
+      "text": "European Commission Accepts Makes Sanofi's Commitments Legally Binding On Flu Vaccine Practices (RTTNews) - Wednesday, the European Commission has made commitments offered by Sanofi (SNY) legally binding under EU antitrust rules."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Can Nektar's Pipeline Progress Create Long-Term Value Amid Rivalry?",
+      "provider": null,
+      "url": "/articles/can-nektars-pipeline-progress-create-long-term-value-amid-rivalry",
+      "date": "Oct 15, 20",
+      "weight": 2,
+      "text": "Can Nektar's Pipeline Progress Create Long-Term Value Amid Rivalry? NKTR advances rezpeg into phase III studies for atopic dermatitis, with additional autoimmune indications offering potential growth amid stiff competition."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "RTTNews: Recursion To Receive $10 Mln Milestone Payment As Sanofi Selects Immunology Drug Candidate",
+      "provider": null,
+      "url": "/articles/recursion-receive-10-mln-milestone-payment-sanofi-selects-immunology-drug-candidate",
+      "date": "Oct 15, 20",
+      "weight": 2,
+      "text": "Recursion To Receive $10 Mln Milestone Payment As Sanofi Selects Immunology Drug Candidate (RTTNews) - Recursion Pharmaceuticals Inc. (RXRX) announced Thursday that Sanofi (SNY) has selected the first development candidate under their research collaboration, triggering a $10 million milestone payment to Recursion."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "RTTNews: Sanofi, PCPA Sign LOI For Dupixent Across Four Additional Indications",
+      "provider": null,
+      "url": "/articles/sanofi-pcpa-sign-loi-dupixent-across-four-additional-indications",
+      "date": "Oct 16, 20",
+      "weight": 2,
+      "text": "Sanofi, PCPA Sign LOI For Dupixent Across Four Additional Indications (RTTNews) - Sanofi (SNY) said Thursday it has completed negotiations with the pan-Canadian Pharmaceutical Alliance (pCPA) and signed a letter of intent, or LOI for Dupixent across four additional indications in dermatology and respiratory."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "The Motley Fool: Forget Eylea: Regeneron's Real Value May Be Hiding in Its Dupixent Profit Share",
+      "provider": null,
+      "url": "/articles/forget-eylea-regenerons-real-value-may-be-hiding-its-dupixent-profit-share",
+      "date": "Oct 17, 20",
+      "weight": 2,
+      "text": "Forget Eylea: Regeneron's Real Value May Be Hiding in Its Dupixent Profit Share Key PointsRegeneron\u2019s revenue is growing at a good clip despite declining Eylea sales."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "RTTNews: Sanofi Commences Construction Of Insulin Facility In Frankfurt, Germany",
+      "provider": null,
+      "url": "/articles/sanofi-commences-construction-insulin-facility-frankfurt-germany",
+      "date": "Oct 19, 20",
+      "weight": 2,
+      "text": "Sanofi Commences Construction Of Insulin Facility In Frankfurt, Germany (RTTNews) - Monday, Sanofi (SNY) commenced construction of a new state-of-the-art insulin manufacturing facility at its BioCampus in Frankfurt, Germany, leveraging advanced digital technologies and artificial intelligence across manufacturing and quality processes."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: Sanofi, Regeneron Expand Immunology Alliance With New Antibodies",
+      "provider": null,
+      "url": "/articles/sanofi-regeneron-expand-immunology-alliance-new-antibodies",
+      "date": "Oct 2, 202",
+      "weight": 2,
+      "text": "Sanofi, Regeneron Expand Immunology Alliance With New Antibodies SNY and REGN expand their longstanding alliance to four new antibodies targeting type II inflammation, with billions in potential payments."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "RTTNews: Teva, Sanofi Report Sustained Duvakitug Benefits In Phase 2b IBD Study",
+      "provider": null,
+      "url": "/articles/teva-sanofi-report-sustained-duvakitug-benefits-phase-2b-ibd-study",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "Teva, Sanofi Report Sustained Duvakitug Benefits In Phase 2b IBD Study (RTTNews) - Teva Pharmaceutical Industries Ltd. (TEVA) and Sanofi (SNY) announced positive long-term Phase 2b data for investigational duvakitug, showing sustained improvements in ulcerative colitis (UC) and Crohn's disease (CD) through Week 44 of the RELIEVE UCCD long-term exten"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: GSK's New Drugs and Pipeline Hold the Key to Long-Term Growth",
+      "provider": null,
+      "url": "/articles/gsks-new-drugs-and-pipeline-hold-key-long-term-growth",
+      "date": "Oct 20, 20",
+      "weight": 2,
+      "text": "GSK's New Drugs and Pipeline Hold the Key to Long-Term Growth GSK's newer drugs, expanding indications and promising pipeline could drive long-term growth, with sales expected to exceed 40 billion pounds by 2031."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "RTTNews: Weekly Buzz: EW, ABBV, MIRM Score FDA Wins, AZN, NVO Strike Deals; LLY, KOD Report Data",
+      "provider": null,
+      "url": "/articles/weekly-buzz-ew-abbv-mirm-score-fda-wins-azn-nvo-strike-deals-lly-kod-report-data",
+      "date": "Oct 2, 202",
+      "weight": 1,
+      "text": "Weekly Buzz: EW, ABBV, MIRM Score FDA Wins, AZN, NVO Strike Deals; LLY, KOD Report Data (RTTNews) - The week brought a fresh round of developments across the biotech and pharma landscape, with companies advancing new therapies through regulatory milestones, clinical studies, strategic deals and corporate activity. Key updates spanned oncology, rare diseases, cardiov"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "RTTNews: Weekly Buzz: AZN, ALVO Score FDA Nod; EYPT Cuts Jobs; RHHBY, GEHC Enter Deal; VERA Posts Trial Win",
+      "provider": null,
+      "url": "/articles/weekly-buzz-azn-alvo-score-fda-nod-eypt-cuts-jobs-rhhby-gehc-enter-deal-vera-posts-trial",
+      "date": "Oct 23, 20",
+      "weight": 1,
+      "text": "Weekly Buzz: AZN, ALVO Score FDA Nod; EYPT Cuts Jobs; RHHBY, GEHC Enter Deal; VERA Posts Trial Win (RTTNews) - Healthcare and biotech news this week centred on regulatory approvals, strategic deals, and pivotal clinical data."
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "flash.stocksentinel.ai: Sanofi (SNY) Stock Research Report | Flash",
+      "provider": "flash.stocksentinel.ai",
+      "url": "https://flash.stocksentinel.ai/research/SNY",
+      "date": "2025-04-30",
+      "weight": 3,
+      "text": "Sanofi (SNY) Stock Research Report | Flash Sanofi (SNY) Stock Research Report | Flash\n\n## Executive Summary\n\nSanofi SA has completed a strategic shift from a diversified healthcare group into a focused innovative biopharmaceutical company. The April 30, 2025 Opella transaction delivered approximately \u20ac10 billion of net cash while leaving Sanofi with a 48.2% stake, allowing management to concentrate on higher-margin specialty care and vaccines. **Dupixent anchors the model**, generating \u20ac15,714 million in FY2025 and \u20ac5,154 million in Q2 2026, up 37.6% at CER; COPD expansion supports a projected \u20ac25 billion of sales by 2030. Q2 net sales"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "chartmill.com: SNY Forecast, Price Target & Analyst Ratings | ChartMill.com",
+      "provider": "chartmill.com",
+      "url": "https://www.chartmill.com/stock/quote/SNY/analyst-ratings",
+      "date": "2026-07-14",
+      "weight": 3,
+      "text": "SNY Forecast, Price Target & Analyst Ratings | ChartMill.com SNY Forecast, Price Target & Analyst Ratings | ChartMill.com\n\n# SANOFI-ADR (SNY) Forecast, Price Target & Analyst Ratings \n\nNASDAQ:SNY\n\n## SNY Stock Price Today\n\n 39.92 USD \n\n -0.75 (-1.84%) \n\n At close: Oct 2, 2026 \n\n 40.11 USD +0.19 (+0.48%) \n\n Pre-Market: Oct 5, 2026, 07:12:56 AM EDT \n\n## Analyst forecast overview\n\n View the latest analyst price targets, stock forecast, EPS estimates, revenue projections, revisions, full estimates, rating distribution and upgrades/downgrades for SANOFI-ADR (SNY). \n\n### Consensus Price Target\n\nPrice Target\n\n$52.32 + 31.07% Upside \n\n### Next Earnings Forecast"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "wsj.com: SNY | Sanofi ADR Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/SNY/research-ratings",
+      "date": "2026-10-09",
+      "weight": 3,
+      "text": "SNY | Sanofi ADR Analyst Estimates & Ratings \u2013 WSJ SNY | Sanofi ADR Analyst Estimates & Ratings \u2013 WSJ\n\n# Sanofi ADR SNY (U.S.: Nasdaq) \n\n- ##### UNOFFICIAL CLOSE 3:59 PM EDT 10/15/26 \n- $ 40.295 USD \n- 0.525 1.32% \n- ##### Volume 4,131,205 \n\n- Volume 4,131,205 \n- 65 Day Avg Vol 2,933,011 \n- 1 Day Range 40.17 - 40.87 \n- 52 Week Range 39.07 - 52.68 (10/13/26 - 11/13/25) \n\n- 1 D\n- 5 D\n- 1 M\n- 3 M\n- YTD\n- 1 Y\n- 3 Y\n\n- $\n- %\n\nOct 9 Oct 12 Oct 13 Oct 14 Oct 15 $39$40$41\n\n- Compare to Benchmark:\n- DJIA\n- S&P 500\n- GLOBAL DOW\n- NASDAQ\n- Health Care/Life Sciences\n\n- Open 40.64\n- Prior Close 39.77 (10/14/26)\n\n- 1 Day\n- SNY 1.32% \n- DJIA 1.06% \n- S&P 500"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "walnutinvest.com: Is SNY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/sny/is-it-a-buy-or-sell",
+      "date": "2026-10-16",
+      "weight": 3,
+      "text": "Is SNY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App Is SNY a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App\n\n# Is SNY a Buy or a Sell? The Bull and Bear Case (2026)\n\nLast updated October 2026\n\nShort answer\n\nBoth cases are real, which is why the question is contested. The bull case for Sanofi (SNY) rests on Dupixent as the growth engine: Dupixent is the largest driver of Sanofi's growth, with quarterly sales above four billion euros and 30%-plus year-over-year growth in early 2026 across its approved indications in atopic dermatitis, asthma, COPD, and more. The bear case rests on the clearest risk is concentration in Dupi"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "marketbeat.com: Sanofi (SNY) Set to Release Quarterly Earnings on Friday",
+      "provider": "marketbeat.com",
+      "url": "https://www.marketbeat.com/instant-alerts/upcoming-sanofi-sny-set-to-release-quarterly-earnings-on-friday-2026-10-23/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "Sanofi (SNY) Set to Release Quarterly Earnings on Friday Skip to main content\n\nThe Market Does Not Wait. MarketBeat All Access Alerts for $149\n\nGet the Alerts \n\nClaim MarketBeat All Access Sale Promotion\n\n\u2716\n\n# Sanofi (SNY) Set to Release Quarterly Earnings on Friday\n\nWritten by MarketBeat\n\nOctober 23, 2026\n\nAdd As Preferred Source\n\nShare\n\nShare\n\nShare This Article\n\nShare on Facebook Share on Twitter Share on LinkedIn Share on StockTwits Print this page Email this page Copy the URL of this page to the clipboard\n\nLink copied to clipboard.\n\nClose\n\nImage from MarketBeat Media, LLC.\n\n## Key Points\n\n- Sanofi is expected to report Q3 2026 earnings before t"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "tipranks.com: Sanofi (SNY) Price & Analysis",
+      "provider": "tipranks.com",
+      "url": "https://www.tipranks.com/stocks/sny",
+      "date": "2026-10-30",
+      "weight": 3,
+      "text": "Sanofi (SNY) Price & Analysis Sanofi (SNY)\n\nNASDAQ: SNY\n\nSNY\n\nSanofi\n\nMore\n\nRESEARCH TOOLSreports\n\nDownload SNY Report\n\nWant to see SNY full AI Analyst Report?\n\nDownload\n\n# Sanofi (SNY) Price & Analysis\n\nDownload SNY Report\n\nFollow\n\n2,252 Followers\n\n## SNY Stock Chart & Stats\n\n$46.02\n\n$1.02(2.35%)\n\nAt close: Jul 27 4:00 PM EDT\n\n$46.02\n\n$1.02(2.35%)\n\nAnalyze Chart\n\nAnalyze Chart\n\n1d5d3m -7.66%6mYTD1y3y5y\n\nDay\u2019s Range\u2015 - \u2015\n\n52-Week Range$39.07 - $52.68\n\nPrevious CloseN/A\n\nVolume449.65K\n\nAverage Volume (3M)3.09M\n\nMarket Cap\n\n$96.91B\n\nEnterprise Value$122.96B\n\nTotal Cash (Recent Filing)$6.35B\n\nTotal Debt (Recent Filing)$23.58B"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "quotelinks.com: Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks",
+      "provider": "quotelinks.com",
+      "url": "https://www.quotelinks.com/forecast/sny.html",
+      "date": "2026-10-18",
+      "weight": 1,
+      "text": "Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks Sanofi (SNY) Stock Forecast: Price Target & EPS Estimates | Quotelinks\n\n# Sanofi (SNY) Stock Forecast\n\nNASDAQ: SNY Analyst ratings, price target and estimates.\n\n## SNY analyst forecast\n\nas of October 18, 2026\n\nAnalyst consensus\n\nBuy\n\n3.91 / 5 from 11 analysts\n\nPrice target\n\n$53.61\n\naverage of analyst targets\n\nUpside to target\n\n+32.0%\n\nfrom the latest close\n\nNext earnings\n\nOctober 30, 2026\n\nEPS estimate $1.63\n\n52-week range\n\n$39.12 \u2013 $52.34\n\n## SNY analyst ratings\n\n11 analysts\n\nStrong buy\n\n5 45%\n\n0 0%\n\nHold\n\n6 55%\n\nSell\n\nStrong sell\n\nNumber of analysts at each rating.\n\n## SNY price target\n\nPric"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "rttnews.com: Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook",
+      "provider": "rttnews.com",
+      "url": "https://www.rttnews.com/3672550/sanofi-q2-net-profit-plunges-business-profit-climbs-on-strong-sales-lifts-fy26-outlook.aspx",
+      "date": null,
+      "weight": 0,
+      "text": "Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook \n\n# Sanofi Q2 Net Profit Plunges, Business Profit Climbs On Strong Sales; Lifts FY26 Outlook \n\n By RTTNews Staff Writer \u2709 (editorial@rttnews.com) | Published: 7/30/2026 2:02 AM ET | Follow Us | Join Us \n\n French drug major Sanofi SA (SNY, SNYNF,SAN.PA) reported Thursday sharply lower net profit in its second quarter, while business earnings climbed from last year with strong sales growth. Further, the firm upgraded its fiscal 2026 outlook.\n\nFor fiscal 2026, the pharmaceutical company now expects sales to g"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "markets.businessinsider.com: Sanofi price target lowered to EUR 75 from EUR 800 at RBC Capital",
+      "provider": "markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/sanofi-price-target-lowered-to-eur-75-from-eur-800-at-rbc-capital-1036635711",
+      "date": null,
+      "weight": 0,
+      "text": "Sanofi price target lowered to EUR 75 from EUR 800 at RBC Capital RBC Capital lowered the firm\u2019s price target on Sanofi (SNY) to EUR 75 from EUR 800 and keeps a Sector Perform rating on the shares ahead of its Q3 results. The firm notes that it trails consensus on the top-line and is about 4% below on EPS as consensus is mis-modeling certain Dupi related partnership expenses and reimbursements that expired in Q2, though it remains ahead of the Street on Dupi by about 4% given strong script growth, the analyst tells investors in a research note. The recently updated Regeneron (REGN) alliance added to their pipeline, clearing a near-term overhang, but investor"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "finsee.ai: Sanofi Q2 2026 Earnings Review - Finsee",
+      "provider": "finsee.ai",
+      "url": "https://finsee.ai/earnings/sny/2026/q2/en/",
+      "date": "2026-06-30",
+      "weight": 0,
+      "text": "Sanofi Q2 2026 Earnings Review - Finsee Sanofi Q2 2026 Earnings Review - Finsee\n\n# Sanofi (SNY) Q2 2026 earnings review\n\nPeriod ended Jun 30, 2026 \u00b7 Filed Jul 30, 2026\n\n## Blockbuster Quarter Masked by Massive R&D Failure\n\nSanofi reported a spectacular top-line quarter, with sales up 17.8% (CER) and Dupixent crossing the \u20ac5 billion mark for the first time. The strong operational performance allowed management to upgrade FY26 sales guidance to ~10%. However, beneath the booming revenue lies a devastating failure in the R&D pipeline. Amlitelimab, a candidate management previously touted with 'extremely high confidence,' was abruptly d"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "sanofi.com: Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+      "date": "2026-07-30",
+      "weight": 0,
+      "text": "Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded\n\n# Press Release: Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded\n\nJuly 30, 2026\n\nQ2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded\n\nJuly 30, 2026\n\nQ2 sales growth of 17.8% at CER 1 and business earnings per share (EPS) 2 of \u20ac2.09\n\n- Pharma launches sales increased by 48.3%, reaching \u20ac1.3 billion, driven mostly by Ayvakit, ALTUVIIIO, and Sarclisa\n- Dupixent sales increased by 37.6% to \u20ac5.2 billion, above \u20ac5 bi"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "sanofi.com: 2026_10_06 Sanofi Q3 2026 Aide-m\u00e9moire",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2026/2026-q3-2026-results/20261006-Sanofi-Q3-2026-Aide-memoire.pdf",
+      "date": "2026-10-06",
+      "weight": 0,
+      "text": "2026_10_06 Sanofi Q3 2026 Aide-m\u00e9moire Paris, October 6, 2026. Sanofi (EURONEXT: SAN, NASDAQ: SNY) has compiled the following document, drawing on publicly available information from Sanofi and other sources. It is intended to support financial modelling ahead of Q3 2026 results, due for publication on Friday, October 30, 2026. Sanofi would like to highlight the following:\n\n### Guidance and previous commentary\n\nSanofi\u2019s Q2 2026 results are available here.\n\n### Estimated currency impact\n\nBased on year-to-date currency rate movements (please see the appendix for details), the Q3 2026 currency impact is estimated at around +2% on sale"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "finviz.com: Sanofi Faces A Proof Test As Vaccine Slump And Dupixent Slowdown Hit Q3",
+      "provider": "finviz.com",
+      "url": "https://finviz.com/news/406476/sanofi-faces-a-proof-test-as-vaccine-slump-and-dupixent-slowdown-hit-q3",
+      "date": "2026-10-22",
+      "weight": 0,
+      "text": "Sanofi Faces A Proof Test As Vaccine Slump And Dupixent Slowdown Hit Q3 Sanofi Faces A Proof Test As Vaccine Slump And Dupixent Slowdown Hit Q3\n\n# Sanofi Faces A Proof Test As Vaccine Slump And Dupixent Slowdown Hit Q3\n\n By Earnings Whispers | October 22, 2026, 8:29 AM \n\nEarnings Whispers\n\nSanofi heads into its third-quarter report with an odd split personality. On the commercial side, the business has rarely looked better: sales growth accelerated for four straight quarters and management raised its full-year outlook last time out. Yet the stock has slipped since that upbeat call, sentiment has soured sharply, and Wall Street is bracing for earnings to fall from"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "sanofi.com: Investor News & Events | Sanofi",
+      "provider": "sanofi.com",
+      "url": "https://www.sanofi.com/en/investors/news-events",
+      "date": "2026-10-30",
+      "weight": 0,
+      "text": "Investor News & Events | Sanofi Investor News & Events | Sanofi\n\n## Q3 2026 Results\n\nFriday, October 30, 2026 13:30 - 14:30 CET (8:30am - 9:30am EDT) Management presentation followed by a Q&A session with the financial community. Aide-m\u00e9moire available.\n\n## Press Releases\n\nOctober 20, 2026\n\nMedia Update: UEG Week: Sanofi and Teva\u2019s duvakitug maintained long-term positive outcomes in new phase 2b data for ulcerative colitis and Crohn\u2019s disease\n\nRead the Media Update\n\nOctober 19, 2026\n\nPress Release: Sanofi breaks ground on new state-of-the-art insulin manufacturing facility in Germany\n\nOctober 16, 2026\n\nPress release: Sanofi"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "newsinfo.inquirer.net: In September 2026, the Philippines set early procurement for 2027 immunization to avoid delays.",
+      "provider": "newsinfo.inquirer.net",
+      "url": "https://newsinfo.inquirer.net/2300323/doh-starts-early-procurement-of-vaccines-for-2027-immunization",
+      "date": "2026-09-07",
+      "weight": null,
+      "text": "In September 2026, the Philippines set early procurement for 2027 immunization to avoid delays. Earlier, predictable vaccine orders can support Sanofi\u2019s vaccine revenue in 2027. \"Early procurement of vaccines for the immunization program of the Department of Health (DOH) has been set for next year to avoid delays\""
+    },
+    {
+      "id": "S34",
+      "kind": "options",
+      "ref": "options",
+      "label": "SNY listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/SNY/options/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "long CALL strike 42.5 expiry 2027-03-19 premium 2.7 short PUT strike 40.0 expiry 2027-03-19 premium 1.75"
+    }
+  ],
+  "trailing_vs_consensus": {
+    "trailing_sum": 4.9,
+    "fy_consensus": 4.93362,
+    "ratio": 0.993,
+    "beats": 4,
+    "quarters": 4,
+    "line": "TRAILING CHECK: the last 4 reported quarters' EPS actuals (1.2 + 1.1 + 0.91 + 1.69) total 4.9, against a current-FY consensus of 4.93362 -- the streak is already in the consensus, so a trailing beat cannot by itself make that number stale."
+  },
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "2026 2027 global vaccine market outlook government immunization budgets pediatric flu RSV procurement spending",
+        "2026 2027 immunology biologics market biosimilar competition payer reimbursement specialty pharmacy budgets",
+        "2026 2027 rare disease neurology gene therapy market access payer budgets competition",
+        "Sanofi SNY 2026 2027 vaccine immunology oncology pricing reimbursement market access pressures"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "In September 2026, the Philippines set early procurement for 2027 immunization to avoid delays.",
+          "stance": "support",
+          "why": "Earlier, predictable vaccine orders can support Sanofi\u2019s vaccine revenue in 2027.",
+          "quote": "Early procurement of vaccines for the immunization program of the Department of Health (DOH) has been set for next year to avoid delays",
+          "url": "https://newsinfo.inquirer.net/2300323/doh-starts-early-procurement-of-vaccines-for-2027-immunization",
+          "publisher": "newsinfo.inquirer.net",
+          "as_of": "2026-09-07",
+          "age_days": 47,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In 2026, the FDA is moving to streamline biosimilar market entry.",
+          "stance": "pressure",
+          "why": "Faster biosimilar approvals can erode U.S. sales of Sanofi\u2019s branded biologics as competition rises.",
+          "quote": "The FDA moves to streamline biosimilar market entry",
+          "url": "https://cardinalhealth.scene7.com/is/content/corpmarketdms7prod/corp/web/documents/Report/cardinal-health-2026-biosimilars-report.pdf",
+          "publisher": "cardinalhealth.scene7.com",
+          "as_of": "2026-01-29",
+          "age_days": 268,
+          "undated": false,
+          "drop_reason": "stale (268 days old)"
+        },
+        {
+          "claim": "In 2026, medical-benefit reimbursement pressures could dampen future biosimilar investment and prompt exits.",
+          "stance": "support",
+          "why": "Less biosimilar competition would help protect Sanofi\u2019s branded biologic pricing and share.",
+          "quote": "Without policy changes, these pressures could dampen future biosimilar investment, prompt market exits",
+          "url": "https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/modeling-policy-proposals-for-medical-benefit-biosimilar-reimbursement-in-the-us",
+          "publisher": "iqvia.com",
+          "as_of": "2026-02-26",
+          "age_days": 240,
+          "undated": false,
+          "drop_reason": "stale (240 days old)"
+        },
+        {
+          "claim": "In 2026, U.S. prescription drug pricing and management approaches continue to evolve beyond PBM contracting.",
+          "stance": "pressure",
+          "why": "New reimbursement models can pressure net pricing for Sanofi\u2019s U.S. medicines.",
+          "quote": "As the US healthcare market enters 2026, approaches to prescription drug pricing and management continue to evolve.",
+          "url": "https://biologicshq.com/wp-content/uploads/2026/02/SB-Biosimilar-Market-Report-Q1-2026.pdf",
+          "publisher": "biologicshq.com",
+          "as_of": "2026-02-01",
+          "age_days": 265,
+          "undated": false,
+          "drop_reason": "stale (265 days old)"
+        },
+        {
+          "claim": "Gavi\u2019s 2024 plan for 2026\u20132030 emphasizes health sovereignty and more local production.",
+          "stance": "pressure",
+          "why": "Local production could shift vaccine procurement away from Sanofi\u2019s global supply.",
+          "quote": "which starts with access to the essential health products that are vaccines, which implies much more local production",
+          "url": "https://reliefweb.int/attachments/a548169a-177e-4d2b-aa6e-0626aa34f5a4/Gavi-Investment-Opportunity-2026-2030.pdf",
+          "publisher": "reliefweb.int",
+          "as_of": "2024-06-20",
+          "age_days": 856,
+          "undated": false,
+          "drop_reason": "stale (856 days old)"
+        }
+      ],
+      "stale_dropped": 4,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "Sanofi SNY 2026 Dupixent Medicare price negotiation biosimilar competition immunology market",
+        "2026 global vaccine procurement budgets immunization programs pediatric flu RSV demand",
+        "2026 hospital pharmacy budgets biologics oncology reimbursement spending trends",
+        "2026 rare disease neurology gene therapy competition payer reimbursement hospital spending"
+      ],
+      "results_count": 20,
+      "results_dated": 20,
+      "trends": [
+        {
+          "claim": "In 2025, 340B drug purchases crossed $100B, a roughly 23% increase over 2024.",
+          "stance": "pressure",
+          "why": "More discounted 340B purchases can lower Sanofi's net US drug revenue.",
+          "quote": "crossed the $100 billion mark across 2025, a roughly 23% increase over the $81.4 billion of 2024",
+          "url": "https://www.fiercehealthcare.com/providers/340b-drug-purchases-hit-least-100b-2025-administrator-reports",
+          "publisher": "fiercehealthcare.com",
+          "as_of": "2026-07-15",
+          "age_days": 101,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "In Q1 2026, Dupixent accounted for 40% of Sanofi sales, concentrating exposure before US exclusivity loss.",
+          "stance": "pressure",
+          "why": "A patent cliff or pricing pressure on Dupixent would disproportionately hit total company revenue.",
+          "quote": "The immunology blockbuster accounted for 40% of the company's sales in Q1.",
+          "url": "https://www.fiercepharma.com/pharma/sanofi-expects-extend-its-loe-dupixent-beyond-2031",
+          "publisher": "fiercepharma.com",
+          "as_of": "2026-04-23",
+          "age_days": 184,
+          "undated": false,
+          "drop_reason": "stale (184 days old)"
+        },
+        {
+          "claim": "In Q1 2026, Sanofi was pursuing patent extensions to defend Dupixent's US exclusivity.",
+          "stance": "support",
+          "why": "If successful, delayed loss of exclusivity would support Dupixent revenue beyond current patent term.",
+          "quote": "Sanofi highlighted its effort to extend its patent protection for Regeneron-partnered Dupixent.",
+          "url": "https://www.fiercepharma.com/pharma/sanofi-expects-extend-its-loe-dupixent-beyond-2031",
+          "publisher": "fiercepharma.com",
+          "as_of": "2026-04-23",
+          "age_days": 184,
+          "undated": false,
+          "drop_reason": "stale (184 days old)"
+        },
+        {
+          "claim": "In 2026, more than 800 originator molecules still posted US list-price increases.",
+          "stance": "support",
+          "why": "List-price increases can support Sanofi's US revenue before rebates and discounts.",
+          "quote": "more than 800 originator molecules still posted price hikes to their WACs and AWPs.",
+          "url": "https://www.pharmaceutical-technology.com/analyst-comment/originator-medicines-list-prices-us/",
+          "publisher": "pharmaceutical-technology.com",
+          "as_of": "2026-02-06",
+          "age_days": 260,
+          "undated": false,
+          "drop_reason": "stale (260 days old)"
+        },
+        {
+          "claim": "As of February 2026, deeper Medicare Part D negotiated discounts may signal future pricing pressure.",
+          "stance": "pressure",
+          "why": "Lower negotiated prices can reduce Sanofi's realized US revenue for affected drugs.",
+          "quote": "Deeper discounts in the latest round of negotiated prices for Part D drugs may indicate how future negotiations will play out.",
+          "url": "https://integrate.milliman.com/en/insight/medicare-drug-price-negotiation-part-b-dynamics",
+          "publisher": "integrate.milliman.com",
+          "as_of": "2026-02-18",
+          "age_days": 248,
+          "undated": false,
+          "drop_reason": "stale (248 days old)"
+        }
+      ],
+      "stale_dropped": 4,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 global vaccine market outlook government immunization budgets procurement pressures",
+        "2026 immunology inflammation biologics pricing pressure payer formulary biosimilar competition",
+        "2026 oncology hospital pharmacy spending budgets staffing clinical trial capacity outlook",
+        "Sanofi SNY 2026 rare disease neurology vaccine market access competition pipeline pressures"
+      ],
+      "results_count": 20,
+      "results_dated": 16,
+      "trends": [
+        {
+          "claim": "Sanofi upgraded its 2026 guidance after Q2 2026 double-digit sales growth.",
+          "stance": "support",
+          "why": "The upgrade signals Dupixent and new launches are expected to sustain growth.",
+          "quote": "Q2 2026: double-digit sales growth and strong business EPS growth; 2026 guidance upgraded",
+          "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+          "publisher": "sanofi.com",
+          "as_of": "2026-07-30",
+          "age_days": 86,
+          "undated": false
+        },
+        {
+          "claim": "From 2026, African governments must finance a larger share of vaccine programmes under Gavi's new framework.",
+          "stance": "pressure",
+          "why": "Tighter public budgets could slow or reduce vaccine purchases from companies like Sanofi.",
+          "quote": "African countries will begin financing a larger share of their vaccine programmes from 2026 under Gavi\u2019s new co-financing framework",
+          "url": "https://www.ecofinagency.com/news-services/0705-55351-africa-s-vaccine-gains-face-funding-pressure-as-governments-take-on-rising-immunization-costs",
+          "publisher": "ecofinagency.com",
+          "as_of": "2026-05-07",
+          "age_days": 170,
+          "undated": false
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "US policy shifts are expected to make Sanofi vaccine sales slightly negative in 2026.",
+          "stance": "pressure",
+          "why": "Lower vaccine revenue would offset growth from Dupixent and new launches.",
+          "quote": "Vaccine sales likely 'slightly negative' this year on US weakness",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/sanofi-targets-high-single-digit-sales-growth-2026-plans-share-buyback-2026-01-29/",
+          "publisher": "reuters.com",
+          "as_of": "2026-01-29",
+          "age_days": 268,
+          "undated": false,
+          "drop_reason": "stale (268 days old)"
+        },
+        {
+          "claim": "Dupixent has become so large that any weakness cannot be fully mitigated, Sanofi's CFO says.",
+          "stance": "pressure",
+          "why": "A slowdown in Dupixent would materially hit Sanofi's overall growth.",
+          "quote": "Blockbuster drug Dupixent too big to be mitigated, CFO says",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/sanofi-targets-high-single-digit-sales-growth-2026-plans-share-buyback-2026-01-29/",
+          "publisher": "reuters.com",
+          "as_of": "2026-01-29",
+          "age_days": 268,
+          "undated": false,
+          "drop_reason": "stale (268 days old)"
+        },
+        {
+          "claim": "In Q2 2026, biosimilars and IRA are compressing the bottom of the immunology market.",
+          "stance": "pressure",
+          "why": "Payer cost controls could pressure pricing across Sanofi's immunology portfolio.",
+          "quote": "Despite biosimilars and the IRA compressing the bottom of the immunology market",
+          "url": "https://www.mmitnetwork.com/thought-leadership/novel-moas-new-payer-standard/",
+          "publisher": "mmitnetwork.com",
+          "as_of": "2026-03-01",
+          "age_days": 237,
+          "undated": false,
+          "drop_reason": "stale (237 days old)"
+        },
+        {
+          "claim": "In Q2 2026, payers report durable demand for differentiated immunology therapies.",
+          "stance": "support",
+          "why": "This supports continued access and pricing for Sanofi's differentiated immunology drugs.",
+          "quote": "This is creating durable demand for differentiated therapies that can move past that therapeutic ceiling.",
+          "url": "https://www.mmitnetwork.com/thought-leadership/novel-moas-new-payer-standard/",
+          "publisher": "mmitnetwork.com",
+          "as_of": "2026-03-01",
+          "age_days": 237,
+          "undated": false,
+          "drop_reason": "stale (237 days old)"
+        }
+      ],
+      "stale_dropped": 4,
+      "max_age_days": 180
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "ticker": "APH",
+  "direction": "long",
+  "as_of": "2026-10-24",
+  "description": "Makes high-speed connectors, cable assemblies and sensors for AI data centres, defense and industrial equipment.",
+  "catalyst": {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "session": "before the open",
+    "days_out": 4,
+    "basis": "scheduled",
+    "consensus": {
+      "eps_avg": 0.73089,
+      "eps_low": 0.705,
+      "eps_high": 0.78,
+      "revenue_avg": 9493890760
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 0.6,
+        "eps_actual": 0.68,
+        "surprise_pct": 13.19,
+        "beat": true
+      },
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.53,
+        "surprise_pct": 11.96,
+        "beat": true
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.49,
+        "surprise_pct": 3.07,
+        "beat": true
+      },
+      {
+        "date": "2025-10-22",
+        "eps_estimate": 0.4,
+        "eps_actual": 0.47,
+        "surprise_pct": 16.49,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "median_gap_days": 91,
+    "facts_line": "2026-10-28 (Wednesday, before the open), 4 days out -- from the earnings calendar, consensus EPS 0.73.",
+    "why": "Q3 must show organic IT Datacom growth near Q2's 63% and Q4 guidance above the 9.49B bar; a deal-supported beat alone will not hold 27.5x."
+  },
+  "reasons": [
+    "Orders of $10.7B against $8.8B of sales, a 1.23:1 book-to-bill, mean demand already exceeds what the October quarter can ship, so Q3 revenue clears the 9.49B bar.",
+    "Q2 sales rose 55% reported but 30% organically \u2014 the CCS acquisition is the gap \u2014 and IT Datacom, 43% of sales, grew 63% organically because CSP capex is forecast to pass $1.5T in 2027, up 60%.",
+    "Bears say optics replace copper; hybrid copper/optics racks persist at least two more generations, so APH's copper connector content holds through CY28/29 and substitution cannot dent the October numbers."
+  ],
+  "watch": [
+    "IT Datacom organic growth: near Q2's 63% confirms; a quarter leaning on the CCS acquisition breaks it.",
+    "Q4 guidance: above the 9.49B Q3 revenue bar confirms the ramp; flat-to-down guidance breaks the 27.5x multiple.",
+    "Book-to-bill: at or above Q2's 1.23:1 confirms; below 1.0:1 means orders stopped outrunning shipments.",
+    "Gross margin: IP&E [interconnect, passive and electromechanical] supply is tightening; margin expansion confirms pricing power, compression breaks it."
+  ],
+  "reason_sources": [
+    [
+      {
+        "id": "S29",
+        "kind": "ollama_search",
+        "ref": "web:8",
+        "label": "investor.amphenol.com: Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results",
+        "provider": "investor.amphenol.com",
+        "url": "https://investor.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Second-Quarter-2026-Results/default.aspx",
+        "date": "2026-07-29"
+      }
+    ],
+    [
+      {
+        "id": "S29",
+        "kind": "ollama_search",
+        "ref": "web:8",
+        "label": "investor.amphenol.com: Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results",
+        "provider": "investor.amphenol.com",
+        "url": "https://investor.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Second-Quarter-2026-Results/default.aspx",
+        "date": "2026-07-29"
+      },
+      {
+        "id": "S26",
+        "kind": "ollama_search",
+        "ref": "web:5",
+        "label": "seekingalpha.com: Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+        "provider": "seekingalpha.com",
+        "url": "https://seekingalpha.com/article/4954287-amphenol-stock-what-q3-must-show-to-justify-its-premium",
+        "date": "2026-10-14"
+      },
+      {
+        "id": "S34",
+        "kind": "research",
+        "ref": "trend:0",
+        "label": "trendforce.com: CSP capex is expected to surpass $1.5T in 2027, a further 60% YoY increase.",
+        "provider": "trendforce.com",
+        "url": "https://www.trendforce.com/presscenter/news/20261014-13269.html",
+        "date": "2026-10-14"
+      }
+    ],
+    [
+      {
+        "id": "S37",
+        "kind": "research",
+        "ref": "trend:3",
+        "label": "tti.com: Hybrid copper/optics AI rack architectures are expected to persist through at least the next two generations, limiting copper-content risk through CY28/29.",
+        "provider": "tti.com",
+        "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+        "date": null
+      }
+    ]
+  ],
+  "sources_catalogue": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for APH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/APH/key-statistics/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for APH",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/APH/analysis/",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "APH quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/aph/financials",
+      "date": "6/30/2026"
+    },
+    {
+      "id": "S4",
+      "kind": "statements",
+      "ref": "deal",
+      "label": "APH balance sheet: acquisition footprint",
+      "provider": "Yahoo Finance (via yfinance) statements",
+      "url": "https://www.nasdaq.com/market-activity/stocks/aph/financials",
+      "date": "2025-12-31"
+    },
+    {
+      "id": "S5",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "APH earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: Why Amphenol (APH) is a Top Momentum Stock for the Long-Term",
+      "provider": null,
+      "url": "/articles/why-amphenol-aph-top-momentum-stock-long-term",
+      "date": "Oct 16, 20"
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: Is Amphenol (APH) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+      "provider": null,
+      "url": "/articles/amphenol-aph-solid-growth-stock-3-reasons-think-yes",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "BNK Invest: IWY, TXN, MRVL, APH: Large Outflows Detected at ETF",
+      "provider": null,
+      "url": "/articles/iwy-txn-mrvl-aph-large-outflows-detected-etf",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Here's Why Amphenol (APH) is a Strong Growth Stock",
+      "provider": null,
+      "url": "/articles/heres-why-amphenol-aph-strong-growth-stock",
+      "date": "Oct 22, 20"
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Gear Up for Amphenol (APH) Q3 Earnings: Wall Street Estimates for Key Metrics",
+      "provider": null,
+      "url": "/articles/gear-amphenol-aph-q3-earnings-wall-street-estimates-key-metrics",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Vertiv vs. Amphenol: Which AI Infrastructure Stock Has an Edge Now?",
+      "provider": null,
+      "url": "/articles/vertiv-vs-amphenol-which-ai-infrastructure-stock-has-edge-now",
+      "date": "Oct 14, 20"
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: How to Find Strong Computer and Technology Stocks Slated for Positive Earnings Surprises",
+      "provider": null,
+      "url": "/articles/how-find-strong-computer-and-technology-stocks-slated-positive-earnings-surprises-3",
+      "date": "Oct 14, 20"
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Here's How Much a $1000 Investment in Amphenol Made 10 Years Ago Would Be Worth Today",
+      "provider": null,
+      "url": "/articles/heres-how-much-1000-investment-amphenol-made-10-years-ago-would-be-worth-today-0",
+      "date": "Oct 15, 20"
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Is Credo Technology Group (CRDO) Outperforming Other Computer and Technology Stocks This Year?",
+      "provider": null,
+      "url": "/articles/credo-technology-group-crdo-outperforming-other-computer-and-technology-stocks-year",
+      "date": "Oct 20, 20"
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Zacks: CoStar Group to Report Q3 Earnings: What's in Store for the Stock?",
+      "provider": null,
+      "url": "/articles/costar-group-report-q3-earnings-whats-store-stock",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Zacks: Is Corning Stock a Smart Investment Option Before Q3 Earnings Release?",
+      "provider": null,
+      "url": "/articles/corning-stock-smart-investment-option-q3-earnings-release",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Zacks: F5 to Report Q4 Earnings: What's in the Cards for the Stock?",
+      "provider": null,
+      "url": "/articles/f5-report-q4-earnings-whats-cards-stock",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Zacks: NXPI Gears Up to Report Q3 Earnings: What's in Store for the Stock?",
+      "provider": null,
+      "url": "/articles/nxpi-gears-report-q3-earnings-whats-store-stock",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S19",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Zacks: ADP Gears Up to Report Q1 Earnings: What's Next for Investors?",
+      "provider": null,
+      "url": "/articles/adp-gears-report-q1-earnings-whats-next-investors",
+      "date": "Oct 23, 20"
+    },
+    {
+      "id": "S20",
+      "kind": "nasdaq",
+      "ref": "news:14",
+      "label": "Zacks: Amphenol (APH) Reports Next Week: Wall Street Expects Earnings Growth",
+      "provider": null,
+      "url": "/articles/amphenol-aph-reports-next-week-wall-street-expects-earnings-growth",
+      "date": "Oct 21, 20"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "seekingalpha.com: Amphenol Corporation (APH) Earnings Revisions | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/symbol/APH/earnings/revisions",
+      "date": null
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "app.marginofinsight.com: Amphenol Corporation (APH) \u2014 Equity Research | Margin of Insight",
+      "provider": "app.marginofinsight.com",
+      "url": "https://app.marginofinsight.com/stocks/aph",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "trefis.com: Amphenol (APH) | Trefis",
+      "provider": "trefis.com",
+      "url": "https://www.trefis.com/data/companies/APH?from=APH_guidance_momentum_2026-06-18",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "seekingalpha.com: Amphenol Stock: Priced At A Premium For A Reason (NYSE:APH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4944334-amphenol-priced-at-a-premium-for-a-reason",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "wsj.com: APH.AT | Amphenol Corp. Cl A Analyst Estimates & Ratings \u2013 WSJ",
+      "provider": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/AT/XWBO/APH/research-ratings",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "seekingalpha.com: Amphenol: What Q3 Must Show To Justify Its Premium (NYSE:APH) | Seeking Alpha",
+      "provider": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4954287-amphenol-stock-what-q3-must-show-to-justify-its-premium",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "finance.yahoo.com: Amphenol Corporation (APH) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/APH/analysis/",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "walnutinvest.com: Is APH a Buy or a Sell? The Bull and Bear Case (2026) - Walnut AI Investing App",
+      "provider": "walnutinvest.com",
+      "url": "https://walnutinvest.com/stocks/aph/is-it-a-buy-or-sell",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "investor.amphenol.com: Amphenol Corporation - Amphenol Reports Record Second Quarter 2026 Results",
+      "provider": "investor.amphenol.com",
+      "url": "https://investor.amphenol.com/news-and-events/news-details/2026/Amphenol-Reports-Record-Second-Quarter-2026-Results/default.aspx",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investing.com: Amphenol beats Q2 estimates, raises Q3 outlook on AI-driven demand By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/earnings/amphenol-beats-q2-estimates-raises-q3-outlook-on-aidriven-demand-4820127",
+      "date": "2026-07-29"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "investing.com: Amphenol at Citi\u2019s 2026 Global TMT Conference: AI demand drives growth By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/transcripts/amphenol-at-citis-2026-global-tmt-conference-ai-demand-drives-growth-93CH-4894245",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "finance.yahoo.com: Amphenol Gains 12% in Three Months: Buy, Sell, or Hold the Stock?",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amphenol-gains-12-three-months-150600387.html?.tsrc=rss",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "S33",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "itiger.com: Amphenol Poised for Strong Q3 on AI Infrastructure Demand, BofA Says - Tiger Brokers",
+      "provider": "itiger.com",
+      "url": "https://www.itiger.com/news/2675363983",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "trendforce.com: CSP capex is expected to surpass $1.5T in 2027, a further 60% YoY increase.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20261014-13269.html",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "trendforce.com: AI networking market is forecast to reach $269.5B by 2027, with accelerator interconnects growing fastest.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/research/download/RP261015UU",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "trendforce.com: AI server revenue is projected to grow over 90% YoY in 2027 on higher shipments and prices.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/presscenter/news/20261014-13269.html",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "tti.com: Hybrid copper/optics AI rack architectures are expected to persist through at least the next two generations, limiting copper-content risk through CY28/29.",
+      "provider": "tti.com",
+      "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+      "date": null
+    },
+    {
+      "id": "S38",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "tti.com: IP&E supply is tightening as of mid-2026, even as AI-driven demand remains elevated.",
+      "provider": "tti.com",
+      "url": "https://www.tti.com/content/ttiinc/en/resources/marketeye/categories/supply-chain/me-reed-20260602.html",
+      "date": null
+    },
+    {
+      "id": "S39",
+      "kind": "options",
+      "ref": "options",
+      "label": "APH listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/APH/options/",
+      "date": "2026-10-24"
+    }
+  ],
+  "quants": {
+    "price": 74.09,
+    "market_cap": "182.7B",
+    "fwd_pe": 27.6,
+    "fwd_pe_basis": "current FY consensus",
+    "ps": 6.3,
+    "eps_trend": "flat over the last 7 days",
+    "eps_revisions": "tilted higher, with 7 up and 1 down over last 30 days",
+    "extra": [
+      "Last quarter net income increasing 90% quarter over quarter (6/30/2026)",
+      "Last quarter earnings before interest and tax increasing 40% quarter over quarter (6/30/2026)",
+      "EPS increased year over year, 0.41 -> 0.68"
+    ]
+  },
+  "evidence_hints": {
+    "yoy": [],
+    "annual": [
+      {
+        "label": "Total Revenue",
+        "change_pct": 51.7,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income",
+        "change_pct": 76.2,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBIT",
+        "change_pct": 84.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Operating Income",
+        "change_pct": 81.8,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "EBITDA",
+        "change_pct": 81.3,
+        "period": "2025-12-31"
+      },
+      {
+        "label": "Net Income Common Stockholders",
+        "change_pct": 76.2,
+        "period": "2025-12-31"
+      }
+    ],
+    "deal": [
+      {
+        "label": "Goodwill",
+        "basis": "fiscal year",
+        "period": "2025-12-31",
+        "prior_period": "2024-12-31",
+        "current": 10575400000.0,
+        "prior": 8236200000.0,
+        "change_pct": 28.4,
+        "confirmed": true,
+        "also": [
+          {
+            "label": "Other Intangible Assets",
+            "basis": "fiscal year",
+            "period": "2025-12-31",
+            "prior_period": "2024-12-31",
+            "current": 2241400000.0,
+            "prior": 1225100000.0,
+            "change_pct": 83.0,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "label": "Goodwill",
+        "basis": "quarter",
+        "period": "2026-03-31",
+        "prior_period": "2025-12-31",
+        "current": 17542900000.0,
+        "prior": 10575400000.0,
+        "change_pct": 65.9,
+        "confirmed": true,
+        "also": [
+          {
+            "label": "Other Intangible Assets",
+            "basis": "quarter",
+            "period": "2026-03-31",
+            "prior_period": "2025-12-31",
+            "current": 5401100000.0,
+            "prior": 2241400000.0,
+            "change_pct": 141.0,
+            "confirmed": false
+          }
+        ]
+      }
+    ],
+    "catalyst_days": 4,
+    "bar": {
+      "date": "2026-10-28",
+      "eps_avg": 0.73089,
+      "eps_low": 0.705,
+      "eps_high": 0.78,
+      "revenue_avg": 9493890760
+    }
+  },
+  "structuring": {
+    "rows": [
+      {
+        "side": "Long",
+        "type": "CALL",
+        "expiry": "19-Mar-27",
+        "strike": 77.5,
+        "qty": 6,
+        "underlying": 74.09,
+        "multiplier": 100,
+        "price": 6.95,
+        "total": 4170.0,
+        "open_interest": 153.0
+      },
+      {
+        "side": "Short",
+        "type": "CALL",
+        "expiry": "20-Nov-26",
+        "strike": 77.5,
+        "qty": 2,
+        "underlying": 74.09,
+        "multiplier": 100,
+        "price": 2.8,
+        "total": -560.0,
+        "open_interest": 626.0
+      }
+    ],
+    "thesis_target": "Targets the 2027-01-27 report, with the long leg expiring 2027-03-19, which gives the thesis time to show up.",
+    "reflection": "The short 77.5s expire three weeks after the print, so the credit only works if the reaction carries the stock 4.6% above spot almost immediately. At 11% conservative the cushion is thin; the sold leg is a bet on the reaction, not on the quarter."
+  },
+  "generation": {
+    "model": "deepseek-v4.1-flash",
+    "search_used": true,
+    "rounds": [
+      {
+        "round": 0,
+        "score": 80,
+        "errors": 0,
+        "warnings": 5,
+        "unsupported_figures": [
+          "\"1.1\""
+        ]
+      },
+      {
+        "round": 0,
+        "score": 67,
+        "errors": 1,
+        "warnings": 3,
+        "unsupported_figures": []
+      },
+      {
+        "round": 1,
+        "score": 90,
+        "errors": 0,
+        "warnings": 2,
+        "unsupported_figures": []
+      },
+      {
+        "round": 0,
+        "score": 85,
+        "errors": 0,
+        "warnings": 4,
+        "unsupported_figures": []
+      }
+    ],
+    "grounding": {
+      "checked": 16,
+      "unsupported": [],
+      "grounded": true,
+      "ratio": 1.0
+    },
+    "source_grounding": {
+      "checked": 10,
+      "mismatches": [],
+      "superseded": [],
+      "ok": true,
+      "ratio": 1.0
+    },
+    "verdict": {
+      "samples": 3,
+      "verdicts": [
+        "confirms",
+        "confirms",
+        "confirms"
+      ],
+      "confirmed": 3,
+      "contradicted": 0,
+      "mixed": 0,
+      "majority": "confirms",
+      "agreement": 1.0
+    },
+    "samples": [
+      {
+        "sample": 0,
+        "score": 80,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "capex",
+          "datacom",
+          "forecast",
+          "orders"
+        ]
+      },
+      {
+        "sample": 1,
+        "score": 90,
+        "verdict": "confirms",
+        "supportive": 4,
+        "adverse": 1,
+        "trends_available": 5,
+        "trends_used": [
+          "capex",
+          "connector",
+          "content",
+          "copper",
+          "datacom",
+          "forecast",
+          "generations",
+          "hybrid",
+          "least",
+          "optics",
+          "orders",
+          "persist",
+          "racks",
+          "through"
+        ]
+      },
+      {
+        "sample": 2,
+        "score": 85,
+        "verdict": "confirms",
+        "supportive": 3,
+        "adverse": 2,
+        "trends_available": 5,
+        "trends_used": [
+          "already",
+          "content",
+          "copper",
+          "gains",
+          "optical"
+        ]
+      }
+    ]
+  }
+}

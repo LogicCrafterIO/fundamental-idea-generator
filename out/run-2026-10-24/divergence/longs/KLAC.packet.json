@@ -1,0 +1,1969 @@
+{
+  "symbol": "KLAC",
+  "as_of": "2026-10-24",
+  "generated_at": "2026-10-24T13:59:53",
+  "profile": {
+    "symbol": "KLAC",
+    "name": "KLA Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "summary": "KLA Corporation, together with its subsidiaries, provides process control and process-enabling solutions for manufacturing wafers, reticles/masks, chemicals/materials, integrated circuits (ICs), packaged ICs, and printed circuit boards. It operates through three segments: Semiconductor Process Control; Specialty Semiconductor Process; and PCB and Component Inspection. The company offers inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers; chemical process control equipment; wired and wireless sensor wafers and reticles; wafer defect inspection, review, and metrology systems; reticle inspection and metrology systems; wafer inspection and metrology systems; semiconductor software solutions; KLA Pro systems; and specialty semiconductor manufacturing, benchtop metrology, surface characterization, material strength characterization, and electrical property measurement products. It also provides etch, plasma dicing, deposition and other wafer processing technologies and solutions; direct imaging, inspection, optical shaping, inkjet, and additive printing, as well as computer-aided manufacturing and engineering solutions; and components. In addition, the company offers service programs. It serves semiconductor, and semiconductor-related and electronic device manufacturers. The company operates in China, Taiwan, Korea, North America, Japan, Europe, Israel, and rest of Asia. The company was formerly known as KLA-Tencor Corporation and changed its name to KLA Corporation in July 2019. KLA Corporation was incorporated in 1975 and is headquartered in Milpitas, California.",
+    "employees": 17000,
+    "country": "United States",
+    "website": "https://www.kla.com"
+  },
+  "quants": {
+    "symbol": "KLAC",
+    "name": "KLA Corporation",
+    "price": 145.61,
+    "market_cap": 190021992448,
+    "market_cap_human": "190.02B",
+    "fwd_pe": 26.78,
+    "fwd_pe_1y": 21.6,
+    "fwd_pe_yahoo": 21.602608,
+    "trailing_pe": 39.784153,
+    "ps": 13.993323,
+    "ev_ebitda": 31.627,
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "eps_fy_current": 5.43753,
+    "eps_fy_next": 6.74039,
+    "eps_trend": {
+      "change_7d_pct": 0.0,
+      "change_30d_pct": 0.17,
+      "current": 5.43753,
+      "7d_ago": 5.43753,
+      "30d_ago": 5.42833,
+      "text": "flat over the last 7 days"
+    },
+    "eps_revisions": {
+      "up_7d": 1,
+      "down_7d": 0,
+      "up_30d": 2,
+      "down_30d": 0,
+      "net_30d": 2,
+      "text": "all up, with 2 up and 0 down over last 30 days"
+    },
+    "next_earnings": {
+      "dates": [
+        "2026-10-29"
+      ],
+      "next_date": "2026-10-29",
+      "eps_avg": 1.17822,
+      "eps_low": 1.15,
+      "eps_high": 1.25,
+      "revenue_avg": 4038223450
+    },
+    "as_of": "2026-10-24"
+  },
+  "quants_lines": [
+    "Price: 145.61 USD",
+    "Market Cap: 190.02B",
+    "Fwd PE: 26.78",
+    "P/S: 14.0",
+    "EPS trends: flat over the last 7 days",
+    "EPS revisions: all up, with 2 up and 0 down over last 30 days"
+  ],
+  "fundamental_deltas": [
+    {
+      "label": "Net Receivables",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 2889208.0,
+      "prior": 2304454.0,
+      "change_pct": 25.4,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Net Income",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1363059.0,
+      "prior": 1200990.0,
+      "change_pct": 13.5,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Earnings Before Interest and Tax",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1622659.0,
+      "prior": 1487184.0,
+      "change_pct": 9.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Cash and Cash Equivalents",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 1649842.0,
+      "prior": 1787010.0,
+      "change_pct": -7.7,
+      "direction": "decreasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Revenue",
+      "table": "incomeStatement",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 3657556.0,
+      "prior": 3415078.0,
+      "change_pct": 7.1,
+      "direction": "increasing",
+      "is_credit": false
+    },
+    {
+      "label": "Total Liabilities",
+      "table": "balanceSheet",
+      "period": "6/30/2026",
+      "prior_period": "3/31/2026",
+      "current": 11601715.0,
+      "prior": 11043020.0,
+      "change_pct": 5.1,
+      "direction": "increasing",
+      "is_credit": false
+    }
+  ],
+  "eps_yoy": {
+    "period": "2026-07-28T16:00:00-04:00",
+    "current": 1.05,
+    "year_ago": 0.94,
+    "year_ago_period": "2025-07-31T16:00:00-04:00",
+    "change": 0.11,
+    "direction": "increased"
+  },
+  "yoy_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 3657556000.0,
+      "prior": 3415078000.0,
+      "qoq_pct": 7.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 3174741000.0,
+      "yoy_pct": 15.2,
+      "conflict": false
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1363059000.0,
+      "prior": 1200990000.0,
+      "qoq_pct": 13.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1202849000.0,
+      "yoy_pct": 13.3,
+      "conflict": false
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1622659000.0,
+      "prior": 1487184000.0,
+      "qoq_pct": 9.1,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1401924000.0,
+      "yoy_pct": 15.7,
+      "conflict": false
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1721265000.0,
+      "prior": 1586272000.0,
+      "qoq_pct": 8.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1498176000.0,
+      "yoy_pct": 14.9,
+      "conflict": false
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 1553948000.0,
+      "prior": 1407509000.0,
+      "qoq_pct": 10.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1351760000.0,
+      "yoy_pct": 15.0,
+      "conflict": false
+    },
+    {
+      "label": "Gross Profit",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 2244448000.0,
+      "prior": 2087406000.0,
+      "qoq_pct": 7.5,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 1967455000.0,
+      "yoy_pct": 14.1,
+      "conflict": false
+    },
+    {
+      "label": "Interest Expense",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 73274000.0,
+      "prior": 70423000.0,
+      "qoq_pct": 4.0,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 73125000.0,
+      "yoy_pct": 0.2,
+      "conflict": false
+    },
+    {
+      "label": "Net Interest Income",
+      "period": "2026-06-30",
+      "prior_period": "2026-03-31",
+      "current": 103781000.0,
+      "prior": -70423000.0,
+      "qoq_pct": 247.4,
+      "year_ago_period": "2025-06-30",
+      "year_ago": 107151000.0,
+      "yoy_pct": -3.1,
+      "conflict": true
+    }
+  ],
+  "annual_deltas": [
+    {
+      "label": "Total Revenue",
+      "period": "2026-06-30",
+      "prior_period": "2025-06-30",
+      "current": 13579476000.0,
+      "prior": 12156162000.0,
+      "change_pct": 11.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income",
+      "period": "2026-06-30",
+      "prior_period": "2025-06-30",
+      "current": 4830771000.0,
+      "prior": 4061643000.0,
+      "change_pct": 18.9,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBIT",
+      "period": "2026-06-30",
+      "prior_period": "2025-06-30",
+      "current": 5890365000.0,
+      "prior": 4946614000.0,
+      "change_pct": 19.1,
+      "direction": "increasing"
+    },
+    {
+      "label": "Net Income Common Stockholders",
+      "period": "2026-06-30",
+      "prior_period": "2025-06-30",
+      "current": 4830771000.0,
+      "prior": 4061643000.0,
+      "change_pct": 18.9,
+      "direction": "increasing"
+    },
+    {
+      "label": "EBITDA",
+      "period": "2026-06-30",
+      "prior_period": "2025-06-30",
+      "current": 6284343000.0,
+      "prior": 5340702000.0,
+      "change_pct": 17.7,
+      "direction": "increasing"
+    },
+    {
+      "label": "Operating Income",
+      "period": "2026-06-30",
+      "prior_period": "2025-06-30",
+      "current": 5660780000.0,
+      "prior": 5014227000.0,
+      "change_pct": 12.9,
+      "direction": "increasing"
+    }
+  ],
+  "deal_activity": [],
+  "consensus_bar": {
+    "date": "2026-10-29",
+    "eps_avg": 1.17822,
+    "eps_low": 1.15,
+    "eps_high": 1.25,
+    "revenue_avg": 4038223450
+  },
+  "news": [
+    {
+      "title": "KLAC \u2014 KLA Corporation \u2014 sectally",
+      "publisher": "sectally.com",
+      "url": "https://sectally.com/reports/klac/",
+      "summary": "KLAC \u2014 KLA Corporation \u2014 sectally\n\n# KLAC\n\n Research Note \u2014 This is editorial analysis based on public data. It does not constitute investment advice, a recommendation to buy or sell any security, or an offer to transact. sectally has no positions in KLAC. See full disclaimer. \n\n# KLAC \u00b7 KLA Corporation \u2014 The Toll Booth of Semiconductor Manufacturing\n\nResearch Date: May 12, 2026 Current Price: $1,869.19 (2026-05-09 close) Market Cap: ~$244B Research Type: Phase 2 Formal \u2014 Based on public IR filings + third-party cross-verification\n\n## Data Credibility & Verification Layer\n\nThis report has not ",
+      "published": "2026-05-09",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS :: KLA Corporation (KLAC)",
+      "publisher": "ir.kla.com",
+      "url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+      "summary": "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS :: KLA Corporation (KLAC)\n\n# KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS\n\n Download as PDF July 28, 2026 4:05pm EDT \n\nEarnings Slide Presentation\n\nEarnings Infographic\n\n10-K Filing\n\nXBRL\n\n- For the quarter, total revenues were $3.66 billion, above the midpoint of the guidance range;\n- GAAP diluted EPS was $1.04, at the upper end of the guidance range, and non-GAAP diluted EPS was $1.05, at the upper end of the guidance range;\n- Cash flow from operating activities for the quarter and fiscal yea",
+      "published": "2026-07-28",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "What KLA (KLAC)'s Revenue Outlook Means For Shareholders - Simply Wall St News",
+      "publisher": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-klac/kla/news/what-kla-klacs-revenue-outlook-means-for-shareholders",
+      "summary": "What KLA (KLAC)'s Revenue Outlook Means For Shareholders - Simply Wall St News\n\n# What KLA (KLAC)'s Revenue Outlook Means For Shareholders\n\n October 01, 2026\n\nSimply Wall St Reviewed by Sasha Jovanovic\n\n- KLA reported June quarter revenue of US$3.658b and GAAP net income of US$1.363b, then guided fiscal Q1 2027 revenue to about US$4.0b, plus or minus US$200m.\n- The guidance lift and management\u2019s comments about accelerating momentum into late 2026 and 2027 describe rising demand for KLA\u2019s process control and inspection tools.\n- We will now look at how KLA\u2019s raised near term revenue outlook and ",
+      "published": "2026-10-01",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) stock news earnings guidance",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "DYOR HQ - KLA Corp (KLAC) | 2026-10-04",
+      "publisher": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/klacorp",
+      "summary": "DYOR HQ - KLA Corp (KLAC) | 2026-10-04\n\n# KLAC - KLA Corp\n\n59 Conviction out of 100\n\n## Executive Summary\n\nKLA Corporation (NASDAQ: KLAC) is a leading supplier of process control and yield management solutions for the semiconductor industry, headquartered in Milpitas, California. The company designs, manufactures, and services equipment and software that chipmakers use to detect defects and monitor critical process parameters during wafer fabrication, addressing a market position that places it among the principal process-control vendors globally. KLA's products are deployed across logic, foun",
+      "published": "2026-10-04",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) bull bear case risks",
+      "relevance": 3,
+      "themes": [
+        "rates"
+      ]
+    },
+    {
+      "title": "The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-kla-klac-could-201313827.html",
+      "summary": "The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks\n\n# The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks\n\n Sasha Jovanovic Wed, October 7, 2026 at 3:13 PM CDT 4 min read\n\n- In recent days, KLA Corporation has attracted renewed attention as analysts highlighted its essential process-control role in easing the chip shortage and supporting AI-focused semiconductor manufacturing, while also pointing to ongoing risks from U.S. export restrictions and cyclical wafer equipment spending. \n- At the same time",
+      "published": "2026-10-07",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) bull bear case risks",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "KLA Corporation (KLAC) Analyst Ratings",
+      "publisher": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/klac/ratings/",
+      "summary": "KLA Corporation (KLAC) Analyst Ratings\n\n145.61 -2.22 (-1.50%) At close: Oct 23, 2026, 4:00 PM EDT\n\n146.20 +0.59 (0.41%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n## Ratings History\n\n| Analyst | Firm | Rating | Rating | Action | Price Target | Upside | Date |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Timothy Arcuri UBS | UBS | Hold Maintains $200 \u2192 $190 | Hold | Maintains | $200 \u2192 $190 | +30.49% | Oct 20, 2026 |\n| Shane Brett CFA Morgan Stanley | Morgan Stanley | Buy Maintains $253 \u2192 $227 | Buy | Maintains | $253 \u2192 $227 | +55.90% | Oct 6, 2026 |\n| David Dai CFA Bernstein | Bernstein | B",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets",
+      "publisher": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/KLAC/",
+      "summary": "KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets\n\n# KLA Corporation (KLAC)\n\nTECHNOLOGY \u2022 SEMICONDUCTOR EQUIPMENT & MATERIALS \u2022 NASDAQ\n\n$147.83\n\n-15.60 (-9.55%)\n\nMarket Cap: $213.28B\n\nLast updated: Oct 23, 2026 at 5:00 PM ET\n\n### Earnings\n\nQuarterly Annual\n\n1Y 3Y 5Y 10Y All\n\n#### Performance (10Y)\n\nBeat Rate\n\n100%(39/39)\n\nAvg Surprise\n\n+6.34%\n\nStreak\n\n48 Q\n\n#### Upcoming Estimates\n\nPeriod ending Sep 30, 2026\n\nEPS Consensus$1.18 Range$1.15 - $1.25 22 analysts\n\nEPS Revisions\n\n1\n\n0\n\n7d\n\n1\n\n30d\n\nEPS Estimate Drift Change to current\n\n90d ago$1.13+4.0% 60d ago$1.18-0.0% 30d ago$1.18-0.0% 7d ago",
+      "published": "2026-10-23",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) analyst estimates revision outlook",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "KLA (KLAC) Stock Sinks As Market Gains: Here's Why",
+      "publisher": "Zacks",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/kla-klac-stock-sinks-market-gains-heres-why-0",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KLAC"
+      ],
+      "summary": "The latest trading day saw KLA (KLAC) settling at $161.74, representing a -2.8% change from its previous close.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "KLA (KLAC) Earnings Expected to Grow: Should You Buy?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/kla-klac-earnings-expected-grow-should-you-buy",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KLAC"
+      ],
+      "summary": "KLA (KLAC) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "AEIS Rides on Strong Semiconductor Growth: Can It Beat KLAC and MKSI?",
+      "publisher": "Zacks",
+      "created": "Oct 21, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/aeis-rides-strong-semiconductor-growth-can-it-beat-klac-and-mksi",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AEIS",
+        "KLAC",
+        "MKSI"
+      ],
+      "summary": "Advanced Energy's semiconductor growth, innovative power solutions, and expanding capacity strengthen its position against KLAC and MKSI.\n",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": []
+    },
+    {
+      "title": "Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "16 hours ago",
+      "url": "/articles/should-klac-stock-be-your-portfolio-pre-q1-earnings-results",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KLAC",
+        "AMAT",
+        "TER",
+        "ACLS"
+      ],
+      "summary": "KLA's fiscal Q1 earnings outlook is fueled by AI investments, HBM demand and advanced packaging growth, but premium valuation and margin pressures warrant attention.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "valuation_dispersion",
+        "guidance"
+      ]
+    },
+    {
+      "title": "Down 21.0% in 4 Weeks, Here's Why KLA (KLAC) Looks Ripe for a Turnaround",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "17 hours ago",
+      "url": "/articles/down-210-4-weeks-heres-why-kla-klac-looks-ripe-turnaround",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KLAC"
+      ],
+      "summary": "KLA (KLAC) is technically in oversold territory now, so the heavy selling pressure might have exhausted. This along with strong agreement among Wall Street analysts in raising earnings estimates could lead to a trend reversal for the stock.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Insights Into KLA (KLAC) Q1: Wall Street Projections for Key Metrics",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "17 hours ago",
+      "url": "/articles/insights-kla-klac-q1-wall-street-projections-key-metrics",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KLAC"
+      ],
+      "summary": "Get a deeper insight into the potential performance of KLA (KLAC) for the quarter ended September 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics.",
+      "source": "nasdaq",
+      "relevance": 3,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Can Semiconductor Systems Drive AMAT's Next Growth Phase?",
+      "publisher": "Zacks",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/can-semiconductor-systems-drive-amats-next-growth-phase",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "KLAC",
+        "LRCX"
+      ],
+      "summary": "Applied Materials is capitalizing on AI chip demand as advanced logic, DRAM and packaging investments fuel Semiconductor Systems growth and margin expansion.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": []
+    },
+    {
+      "title": "Should You Buy, Sell, or Hold TER Stock Before Q3 Earnings Release?",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "13 hours ago",
+      "url": "/articles/should-you-buy-sell-or-hold-ter-stock-q3-earnings-release",
+      "primary_symbol": null,
+      "related_symbols": [
+        "TER",
+        "CSCO",
+        "KLAC",
+        "VRT"
+      ],
+      "summary": "Teradyne's strong AI-driven demand, expanding semiconductor testing opportunities, and upbeat Q3 earnings outlook make the stock an attractive investment choice.\n",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Analysts Estimate Alps Alpine Co Ltd. - Unsponsored ADR (APELY) to Report a Decline in Earnings: What to Look Out for",
+      "publisher": "Zacks",
+      "created": "Oct 23, 2026",
+      "ago": "16 hours ago",
+      "url": "/articles/analysts-estimate-alps-alpine-co-ltd-unsponsored-adr-apely-report-decline-earnings-what",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KLAC"
+      ],
+      "summary": "Alps Alpine Co Ltd. - Unsponsored ADR (APELY) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "source": "nasdaq",
+      "relevance": 2,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Strength in Chipmakers and AI-Infrastructure Stocks Lead the Broader Market Higher",
+      "publisher": "Barchart",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/strength-chipmakers-and-ai-infrastructure-stocks-lead-broader-market-higher",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "GOOGL",
+        "AAPL",
+        "ANET",
+        "NRG",
+        "AVGO",
+        "SNDK",
+        "DHI",
+        "ADI",
+        "BLDR",
+        "DDOG",
+        "LITE",
+        "MSFT",
+        "KBH",
+        "CRWV",
+        "TSLA",
+        "PHM",
+        "QCOM",
+        "STX",
+        "LRCX",
+        "AMD",
+        "SPY",
+        "DIA",
+        "KLAC",
+        "NVDA",
+        "META",
+        "AMP",
+        "MU",
+        "ORCL",
+        "IRON",
+        "QQQ",
+        "TOL",
+        "LEN",
+        "INTC",
+        "APLD",
+        "SOXX",
+        "NBIS",
+        "CLF",
+        "AMZN",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is up by +0.57% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.11%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.52%.  December E-mini S&P futures (ESZ26 ) are up +0.58%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks Supported by a Rebound in Chipmakers and AI-Infrastructure Companies",
+      "publisher": "Barchart",
+      "created": "Oct 19, 2026",
+      "ago": "4 days ago",
+      "url": "/articles/stocks-supported-rebound-chipmakers-and-ai-infrastructure-companies",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "GOOGL",
+        "AAPL",
+        "ANET",
+        "AVGO",
+        "SNDK",
+        "ADI",
+        "DDOG",
+        "TXN",
+        "LITE",
+        "MSFT",
+        "CRWV",
+        "TSLA",
+        "STX",
+        "LRCX",
+        "AMD",
+        "SPY",
+        "DIA",
+        "KLAC",
+        "NVDA",
+        "META",
+        "AMP",
+        "NXPI",
+        "MU",
+        "ORCL",
+        "IRON",
+        "QQQ",
+        "INTC",
+        "APLD",
+        "SOXX",
+        "MCHP",
+        "NBIS",
+        "ARM",
+        "CLF",
+        "AMZN",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is up by +0.51% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.17%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.20%.  December E-mini S&P futures (ESZ26 ) are up +0.48%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks Pressured by Tech Stock Weakness and Higher Crude Oil Prices",
+      "publisher": "Barchart",
+      "created": "Oct 20, 2026",
+      "ago": "3 days ago",
+      "url": "/articles/stocks-pressured-tech-stock-weakness-and-higher-crude-oil-prices",
+      "primary_symbol": null,
+      "related_symbols": [
+        "AMAT",
+        "ANET",
+        "SNDK",
+        "RARE",
+        "MRK",
+        "LITE",
+        "AMGN",
+        "PFE",
+        "CRWV",
+        "JAZZ",
+        "STX",
+        "EFX",
+        "LRCX",
+        "AMD",
+        "LLY",
+        "SPY",
+        "DIA",
+        "KLAC",
+        "NVDA",
+        "GM",
+        "MU",
+        "ALNY",
+        "VRTX",
+        "MSCI",
+        "CCK",
+        "MMM",
+        "QQQ",
+        "INTC",
+        "APLD",
+        "SOXX",
+        "NBIS",
+        "GILD",
+        "ARM",
+        "REGN",
+        "MRVL",
+        "BIIB",
+        "STLD"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.15% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.57%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.82%.  December E-mini S&P futures (ESZ26 ) are down -0.10%, and December E-mini...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Tech Stocks Lead Broad Market Lower as Meta Slides -6%",
+      "publisher": "Barchart",
+      "created": "Oct 22, 2026",
+      "ago": "1 day ago",
+      "url": "/articles/tech-stocks-lead-broad-market-lower-meta-slides-6",
+      "primary_symbol": null,
+      "related_symbols": [
+        "KLAC",
+        "META",
+        "NVDA",
+        "GOOGL",
+        "AMAT",
+        "AAPL",
+        "SPOT",
+        "LVS",
+        "QQQ",
+        "TSLA",
+        "IBM",
+        "INTC",
+        "PG",
+        "LRCX",
+        "SPY",
+        "DIA",
+        "AMZN"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) is down -0.78%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -1.50%.  December E-mini S&P futures (ESZ26 ) are down -0.81%, and December E-mini Nasdaq futures (NQZ26...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "Stocks Fall Sharply on Risk-Off as Meta Slides -7%",
+      "publisher": "Barchart",
+      "created": "Oct 23, 2026",
+      "ago": "11 hours ago",
+      "url": "/articles/stocks-fall-sharply-risk-meta-slides-7",
+      "primary_symbol": null,
+      "related_symbols": [
+        "GOOGL",
+        "AAPL",
+        "GLXY",
+        "LVS",
+        "MSFT",
+        "TSLA",
+        "GFS",
+        "IBM",
+        "LRCX",
+        "AMD",
+        "SPY",
+        "DIA",
+        "KLAC",
+        "META",
+        "NVDA",
+        "SPOT",
+        "QQQ",
+        "IREN",
+        "INTC",
+        "PG",
+        "RIOT",
+        "AMZN",
+        "MRVL"
+      ],
+      "summary": "The S&P 500 Index ($SPX ) (SPY ) fell -1.21%, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.02%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) fell -2.90%.  December E-mini S&P futures (ESZ26 ) fell -1.18%, and December E-mini Nasdaq futures (NQZ26 ) fell -2.79%. A...",
+      "source": "nasdaq",
+      "relevance": 1,
+      "themes": []
+    },
+    {
+      "title": "KLA forecasts upbeat second-quarter revenue, but China weakness persists | Reuters",
+      "publisher": "reuters.com",
+      "url": "https://www.reuters.com/world/asia-pacific/kla-forecasts-upbeat-second-quarter-revenue-china-weakness-persists-2025-10-29/",
+      "summary": "KLA forecasts upbeat second-quarter revenue, but China weakness persists | Reuters\n\n# KLA forecasts upbeat second-quarter revenue, but China weakness persists\n\nBy Reuters\n\nOctober 29, 2025 9:03 PM UTC Updated October 29, 2025\n\nOct 29 (Reuters) - KLA Corp (KLAC.O), opens new tab forecast second-quarter revenue above Wall Street estimates on Wednesday, banking on strong AI-linked demand for its chipmaking tools, while flagging significant risks to its China business amid Sino-U.S. trade tensions.\n\nDemand for advanced chips that power generative AI applications has grown unabated, benefiting comp",
+      "published": "2025-10-29",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) bull bear case risks",
+      "relevance": 0,
+      "themes": [
+        "guidance"
+      ]
+    },
+    {
+      "title": "Combined PDF",
+      "publisher": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2026-04/KLAC-S26.pdf",
+      "summary": "The Henry Fund Henry B. Tippie College of Business Josh Smiley jmsmiley@uiowa.edu\n\n## KLA Corportaiton (KLAC) April 22nd, 2026\n\nInformation Technology - Semiconductors and Semiconductor Equipment Stock Rating NO ACTION\n\n| | | Investment Thesis | | | | Target Price $1,150-1,200 |\n| --- | --- | --- | --- | --- | --- | --- |\n| We recommend NO ACTION of $1,172.29, representing 36% downside from the current price of $1,812. KLA is an exceptional business with a near-monopoly position in semiconductor process control, 52 consecutive quarters of services revenue growth, and ROIC consistently above 80",
+      "published": "2026-01-29",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) bull bear case risks",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-kla-stock-price-target-on-valuation-concerns-93CH-4934052",
+      "summary": "Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com\n\n# Morgan Stanley cuts KLA stock price target on valuation concerns\n\nPublished Oct 06, 2026, 07:06 AM\n\nInvesting.com - Morgan Stanley lowered its price target on KLA Corporation (NASDAQ:KLAC) shares to $227 from $253 while maintaining an Overweight rating on the stock.\n\nThe firm raised its calendar year 2027 revenue forecast for KLA to $21.4 billion from $20.4 billion and increased its earnings per share estimate to $6.77 from $6.23. The analyst cited improved leading logic forecasts and slightly higher gross mar",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion",
+        "guidance",
+        "positioning"
+      ]
+    },
+    {
+      "title": "KLA Corporation",
+      "publisher": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/871432/stock/bmv/klac/analysis",
+      "summary": "Now Live: Cboe Europe real-time data for all major European stocks.\n\nData add-ons\n\nUnited States\n\nclosing in 1h 31m\n\n- 0700 386.80 \u00a01.15%\n- EUR/USD 1.12 -0.20%\n- AAPL 346.33 -0.54%\n- TSLA 371.58 -0.80%\n- NESN 83.49 -1.04%\n- 7203 3,096.00 \u00a00.39%\n- USD/JPY 156.87 0.00%\n- XPT/USD 1,003.20 \u00a00.33%\n- ETH/USD 2,405.88 \u00a00.70%\n- 2330 2,395.00 -1.03%\n- 005930 215,500.00 \u00a00.47%\n- MC 383.00 -1.24%\n- AZN 12,824.00 -1.20%\n- ASML 1,407.20 -0.87%\n\n##### Main market\n\nSTOCKS is currently active.\nClosing in 1 hour 31 minutes\n\n14:28\n\n00:00\n\n09:30\n\n16:00\n\n23:59\n\nTrading Hours (Monday - Friday):\n\nPre-market\n\n04:00 ",
+      "published": "2026-10-06",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) analyst estimates revision outlook",
+      "relevance": 0,
+      "themes": []
+    },
+    {
+      "title": "KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent",
+      "publisher": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/kla-scheduled-october-28-results-as-kla-corporation-stock-gains-2-30-percent/70323493",
+      "summary": "KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent\n\n# KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent\n\n Published on 10/14/2026 at 12:18 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nFiscal 2026 revenue rose 11.70 percent to USD 13.58 billion. KLA Corporation stock costs EUR 164.67 on October 14, 2026 versus EUR 160.96.\n\n## Earnings calendar and valuation\n\n- KLA scheduled its first quarter fiscal 2027 results for October 28, 2026.\n- Fiscal 2026 revenue rose 11.70 percent to USD 13.58 billion.\n- KLA Corporation st",
+      "published": "2026-10-14",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "valuation_dispersion"
+      ]
+    },
+    {
+      "title": "KLA Corp. stock may move 5.7% on earnings next week By Investing.com",
+      "publisher": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/kla-corp-stock-may-move-57-on-earnings-next-week-93CH-4963473",
+      "summary": "KLA Corp. stock may move 5.7% on earnings next week By Investing.com\n\n# KLA Corp. stock may move 5.7% on earnings next week\n\nEditor Louis Juricic Stock Markets\n\nEditor Louis Juricic\n\nPublished Oct 21, 2026, 10:20 AM\n\nIn this article:\n\nInvesting.com -- KLA Corp. shares could move 5.7% when the company reports earnings on October 28 after the market close, based on options data compiled by Bloomberg.\n\nThe semiconductor equipment maker has exceeded the implied move in four of its past eight earnings announcements. On July 28, the stock dropped 18.0% against an implied move of 5.6%. The April 29 r",
+      "published": "2026-10-21",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) stock news earnings guidance",
+      "relevance": 0,
+      "themes": [
+        "positioning"
+      ]
+    },
+    {
+      "title": "KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case",
+      "publisher": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-stock-near-earnings-chip-011417381.html",
+      "summary": "KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case\n\n# KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case\n\n Sasha Jovanovic Thu, October 22, 2026 at 9:14 PM EDT 7 min read\n\n## Trading disclosure \n\n- KLA is preparing to report September 2026 quarter results on 28 October, with analysts expecting higher earnings supported by increased revenue. \n- The key tension for KLA is whether expected operational progress can offset recent semiconductor sector pressure following Lam Research's earnings update. \n- We will look at how KLA's investment narrative intersects with",
+      "published": "2026-10-22",
+      "source": "ollama_search",
+      "query": "KLA Corporation (KLAC) stock news earnings guidance",
+      "relevance": 0,
+      "themes": []
+    }
+  ],
+  "news_failures": [],
+  "story": {
+    "themes": [
+      {
+        "key": "guidance",
+        "label": "Guidance and estimate revisions",
+        "description": "Changes to what the company and analysts expect next.",
+        "count": 10,
+        "share": 0.556,
+        "evidence": [
+          {
+            "title": "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS :: KLA Corporation (KLAC)",
+            "publisher": "ir.kla.com",
+            "published": "2026-07-28",
+            "matched": [
+              "guidance"
+            ]
+          },
+          {
+            "title": "What KLA (KLAC)'s Revenue Outlook Means For Shareholders - Simply Wall St News",
+            "publisher": "simplywall.st",
+            "published": "2026-10-01",
+            "matched": [
+              "guidance",
+              "outlook"
+            ]
+          },
+          {
+            "title": "KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets",
+            "publisher": "gngresearch.com",
+            "published": "2026-10-23",
+            "matched": [
+              "revis",
+              "estimate",
+              "consensus"
+            ]
+          },
+          {
+            "title": "Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?",
+            "publisher": "Zacks",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "outlook"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "valuation_dispersion",
+        "label": "Valuation dispersion",
+        "description": "Similar businesses priced very differently.",
+        "count": 4,
+        "share": 0.222,
+        "evidence": [
+          {
+            "title": "KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets",
+            "publisher": "gngresearch.com",
+            "published": "2026-10-23",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?",
+            "publisher": "Zacks",
+            "published": "Oct 23, 2026",
+            "matched": [
+              "valuation",
+              "premium"
+            ]
+          },
+          {
+            "title": "Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-06",
+            "matched": [
+              "valuation"
+            ]
+          },
+          {
+            "title": "KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent",
+            "publisher": "ad-hoc-news.de",
+            "published": "2026-10-14",
+            "matched": [
+              "valuation"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "positioning",
+        "label": "Positioning and flows",
+        "description": "Who owns it and how it is being traded.",
+        "count": 3,
+        "share": 0.167,
+        "evidence": [
+          {
+            "title": "KLA Corporation (KLAC) Analyst Ratings",
+            "publisher": "stockanalysis.com",
+            "published": "2026-10-23",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-06",
+            "matched": [
+              "price target"
+            ]
+          },
+          {
+            "title": "KLA Corp. stock may move 5.7% on earnings next week By Investing.com",
+            "publisher": "investing.com",
+            "published": "2026-10-21",
+            "matched": [
+              "options"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rates",
+        "label": "Rates and funding costs",
+        "description": "The cost of money, and who pays more for it.",
+        "count": 1,
+        "share": 0.056,
+        "evidence": [
+          {
+            "title": "DYOR HQ - KLA Corp (KLAC) | 2026-10-04",
+            "publisher": "dyorhq.ai",
+            "published": "2026-10-04",
+            "matched": [
+              "yield"
+            ]
+          }
+        ]
+      }
+    ],
+    "top": "guidance"
+  },
+  "peer_pairings": [],
+  "next_earnings": {
+    "dates": [
+      "2026-10-29"
+    ],
+    "next_date": "2026-10-29",
+    "eps_avg": 1.17822,
+    "eps_low": 1.15,
+    "eps_high": 1.25,
+    "revenue_avg": 4038223450
+  },
+  "catalyst": {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "days_out": 4,
+    "basis": "scheduled",
+    "session": "after the close",
+    "consensus": {
+      "eps_avg": 1.18
+    },
+    "recent_reports": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 1.0,
+        "eps_actual": 1.05,
+        "surprise_pct": 5.14,
+        "beat": true
+      },
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 0.92,
+        "eps_actual": 0.94,
+        "surprise_pct": 2.5,
+        "beat": true
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 0.88,
+        "eps_actual": 0.89,
+        "surprise_pct": 0.59,
+        "beat": true
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 0.86,
+        "eps_actual": 0.88,
+        "surprise_pct": 2.24,
+        "beat": true
+      }
+    ],
+    "beat_streak": 4,
+    "beat_rate": 1.0,
+    "median_gap_days": 91,
+    "same_slot_last_year": true,
+    "facts_line": "2026-10-28 (Wednesday, after the close), 4 days out -- from the earnings calendar, consensus EPS 1.18."
+  },
+  "forward_trends": {
+    "queries": [
+      "KLA Corporation KLAC 2026 process control demand advanced packaging PCB inspection",
+      "semiconductor wafer fab equipment capex outlook 2026 2027 foundry memory spending",
+      "wafer defect inspection metrology technology roadmap 2026 e-beam optical AI competition",
+      "China semiconductor equipment export controls 2026 mature node overcapacity fab utilization"
+    ],
+    "results_count": 20,
+    "results_dated": 18,
+    "trends": [
+      {
+        "claim": "As of October 2026, SEMI expects 300mm fab equipment investment to grow at double-digit rates through 2029.",
+        "stance": "support",
+        "why": "Multi-year fab buildout supports KLA's process-control demand beyond 2026.",
+        "quote": "Investment is expected to continue growing at double-digit rates through 2029, reaching $227 billion.",
+        "url": "https://www.semi.org/en/semi-press-release/global-300mm-fab-equipment-spending-to-reach-227-billion-in-2029-as-buildout-accelerates-semi-projects",
+        "publisher": "semi.org",
+        "as_of": "2026-10-13",
+        "age_days": 11,
+        "undated": false
+      },
+      {
+        "claim": "As of June 2026, SEMI projects memory 300mm equipment investment to surpass $50 billion in 2026, up 29%.",
+        "stance": "support",
+        "why": "Memory capex growth drives demand for KLA's inspection and metrology tools.",
+        "quote": "memory sector is projected to surpass $50 billion for the first time in 2026, rising 29% to $52 billion",
+        "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+        "publisher": "semi.org",
+        "as_of": "2026-06-29",
+        "age_days": 117,
+        "undated": false
+      },
+      {
+        "claim": "As of October 2026, Gartner forecasts wafer fab equipment revenue up 29.4% in 2026.",
+        "stance": "support",
+        "why": "AI-driven WFE growth supports KLA's process-control demand into 2027.",
+        "quote": "Wafer fab equipment revenue will increase by 29.4% in 2026, driven by increased spending in response to soaring demand for AI semiconductors.",
+        "url": "https://www.gartner.com/en/documents/8499577",
+        "publisher": "gartner.com",
+        "as_of": "2026-10-13",
+        "age_days": 11,
+        "undated": false
+      },
+      {
+        "claim": "As of October 2026, AI and advanced nodes are driving a structural process-control demand shift.",
+        "stance": "support",
+        "why": "It extends metrology and inspection demand from front-end to back-end, expanding KLA's addressable market.",
+        "quote": "AI and advanced nodes are driving a paradigm shift in process control.",
+        "url": "https://www.trendforce.com/research/download/RP261013WG3",
+        "publisher": "trendforce.com",
+        "as_of": "2026-10-13",
+        "age_days": 11,
+        "undated": false
+      },
+      {
+        "claim": "As of June 2026, industry investment and wafer equipment demand are set for robust growth through 2027.",
+        "stance": "support",
+        "why": "Advanced packaging, HPC, and memory intensity drive KLA's process-control demand.",
+        "quote": "Industry investment and wafer equipment demand are set for robust growth through 2027, with advanced packaging, High-Performance Compute, and memory intensity as key drivers.",
+        "url": "https://stockanalysis.com/stocks/klac/transcripts/678927-bank-of-america-2026-global-technology-conference/",
+        "publisher": "stockanalysis.com",
+        "as_of": "2026-06-03",
+        "age_days": 143,
+        "undated": false
+      }
+    ],
+    "dropped": [],
+    "stale_dropped": 0,
+    "max_age_days": 180
+  },
+  "provenance": [
+    "yfinance Ticker.info (price, market cap, multiples, business summary)",
+    "yfinance Ticker.eps_trend / eps_revisions (consensus drift, 7d & 30d buckets)",
+    "yfinance Ticker.option_chain (leg premiums, open interest)",
+    "yfinance Ticker.news + api.nasdaq.com news/topic/articlebysymbol (headlines)",
+    "api.nasdaq.com company financials frequency=2 (quarterly statements)",
+    "yfinance quarterly and annual statements (same-quarter-last-year and fiscal-year comparisons, goodwill and intangibles steps)",
+    "api.nasdaq.com calendar/earnings + analyst/earnings-forecast (catalyst, consensus)",
+    "ollama.com api/web_search (current reporting, when a key is configured)",
+    "ollama.com api/web_search + v1/chat/completions (forward end-market trends, each kept only if its supporting quote is found in the retrieved text)"
+  ],
+  "structures": {
+    "long": {
+      "symbol": "KLAC",
+      "direction": "long",
+      "option_type": "CALL",
+      "price": 145.61,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 152.0,
+        "premium": 36.6,
+        "bid": null,
+        "ask": null,
+        "mid": null,
+        "last": 36.6,
+        "open_interest": null,
+        "volume": null,
+        "implied_vol": 0.0,
+        "qty": 1
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 152.0,
+        "premium": 7.5,
+        "bid": 6.3,
+        "ask": 8.7,
+        "mid": 7.5,
+        "last": 8.6,
+        "open_interest": 42,
+        "volume": 6.0,
+        "implied_vol": 0.6324499645996093,
+        "qty": 1
+      },
+      "long_total": 3660.0,
+      "short_total": 750.0,
+      "net_debit": 2910.0,
+      "credit_ratio_mid": 0.2049,
+      "credit_ratio_conservative": 0.1721,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "CALL",
+          "expiry": "19-Mar-27",
+          "strike": 152.0,
+          "qty": 1,
+          "underlying": 145.61,
+          "multiplier": 100,
+          "price": 36.6,
+          "total": 3660.0,
+          "open_interest": null
+        },
+        {
+          "side": "Short",
+          "type": "CALL",
+          "expiry": "20-Nov-26",
+          "strike": 152.0,
+          "qty": 1,
+          "underlying": 145.61,
+          "multiplier": 100,
+          "price": 7.5,
+          "total": -750.0,
+          "open_interest": 42
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Mar-27, after it",
+        "targets report #3 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 152, 150, 154, 148"
+      ],
+      "advice": "Credit ratio 17.2% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.2049,
+          "credit_ratio_conservative": 0.1721,
+          "passes_floor": true,
+          "cash_collected": 750.0
+        }
+      ]
+    },
+    "short": {
+      "symbol": "KLAC",
+      "direction": "short",
+      "option_type": "PUT",
+      "price": 145.61,
+      "catalyst": "2027-01-28",
+      "long_leg": {
+        "expiry": "2027-03-19",
+        "strike": 140.0,
+        "premium": 16.8,
+        "bid": 15.2,
+        "ask": 18.4,
+        "mid": 16.8,
+        "last": 15.9,
+        "open_interest": 2136,
+        "volume": 3.0,
+        "implied_vol": 0.5415084912109377,
+        "qty": 2
+      },
+      "short_leg": {
+        "expiry": "2026-11-20",
+        "strike": 140.0,
+        "premium": 7.6,
+        "bid": 6.3,
+        "ask": 8.9,
+        "mid": 7.6,
+        "last": 7.4,
+        "open_interest": 716,
+        "volume": 8.0,
+        "implied_vol": 0.6447789428710937,
+        "qty": 1
+      },
+      "long_total": 3360.0,
+      "short_total": 760.0,
+      "net_debit": 2600.0,
+      "credit_ratio_mid": 0.2262,
+      "credit_ratio_conservative": 0.1712,
+      "passes_floor": true,
+      "rows": [
+        {
+          "side": "Long",
+          "type": "PUT",
+          "expiry": "19-Mar-27",
+          "strike": 140.0,
+          "qty": 2,
+          "underlying": 145.61,
+          "multiplier": 100,
+          "price": 16.8,
+          "total": 3360.0,
+          "open_interest": 2136
+        },
+        {
+          "side": "Short",
+          "type": "PUT",
+          "expiry": "20-Nov-26",
+          "strike": 140.0,
+          "qty": 1,
+          "underlying": 145.61,
+          "multiplier": 100,
+          "price": 7.6,
+          "total": -760.0,
+          "open_interest": 716
+        }
+      ],
+      "notes": [
+        "short expires 20-Nov-26, before the 2027-01-28 catalyst; long expires 19-Mar-27, after it",
+        "targets report #3 (2027-01-28); earlier reports fall before the next monthly expiry",
+        "alternative strikes: 140, 138, 142, 136"
+      ],
+      "advice": "Credit ratio 17.1% clears the 10% floor.",
+      "credit_ladder": [
+        {
+          "short_qty": 0,
+          "credit_ratio_mid": 0.0,
+          "credit_ratio_conservative": 0.0,
+          "passes_floor": false,
+          "cash_collected": 0.0
+        },
+        {
+          "short_qty": 1,
+          "credit_ratio_mid": 0.2262,
+          "credit_ratio_conservative": 0.1712,
+          "passes_floor": true,
+          "cash_collected": 760.0
+        },
+        {
+          "short_qty": 2,
+          "credit_ratio_mid": 0.4524,
+          "credit_ratio_conservative": 0.3424,
+          "passes_floor": true,
+          "cash_collected": 1520.0
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "fundamentals",
+      "ref": "fundamentals",
+      "label": "Yahoo Finance quote and key statistics for KLAC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KLAC/key-statistics/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "Price: 145.61 USD Market Cap: 190.02B Fwd PE: 26.78 P/S: 14.0 EPS trends: flat over the last 7 days EPS revisions: all up, with 2 up and 0 down over last 30 days price 145.61 market cap 190.02B forward PE 26.78 forward PE next FY 21.6 trailing PE 39.784153 P/S 13.993323 EV/EBITDA 31.627"
+    },
+    {
+      "id": "S2",
+      "kind": "consensus",
+      "ref": "consensus",
+      "label": "Analyst EPS estimates and revision counts for KLAC",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KLAC/analysis/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "FY consensus 5.43753 now, 5.43753 7 days ago, 5.42833 30 days ago, change over 30 days 0.17%; EPS revisions 2 up and 0 down over 30 days, 1 up and 0 down over 7 days"
+    },
+    {
+      "id": "S3",
+      "kind": "statements",
+      "ref": "statements",
+      "label": "KLAC quarterly income statement and EPS history",
+      "provider": "Nasdaq company financials",
+      "url": "https://www.nasdaq.com/market-activity/stocks/klac/financials",
+      "date": "6/30/2026",
+      "weight": null,
+      "text": "Net Receivables increasing 25.4% (3/31/2026 to 6/30/2026) Net Income increasing 13.5% (3/31/2026 to 6/30/2026) Earnings Before Interest and Tax increasing 9.1% (3/31/2026 to 6/30/2026) Cash and Cash Equivalents decreasing 7.7% (3/31/2026 to 6/30/2026) Total Revenue increasing 7.1% (3/31/2026 to 6/30/2026) Total Liabilities increasing 5.1% (3/31/2026 to 6/30/2026) EPS increased year over year 0.94 to 1.05 Total Revenue 7.1% quarter over quarter and 15.2% year over year to 2026-06-30 Net Income 13.5% quarter over quarter and 13.3% year over year to 2026-06-30 EBIT 9.1% quarter over quarter and 15.7% year over year to 2026-06-30 EBITDA 8.5% quarter over quarter and 14.9% year over year to 2026-06-30 Operating Income 10.4% quarter over quarter and 15.0% year over year to 2026-06-30 Gross Profit 7.5% quarter over quarter and 14.1% year over year to 2026-06-30 Interest Expense 4.0% quarter over quarter and 0.2% year over year to 2026-06-30 Net Interest Income 247.4% quarter over quarter and -3.1% year over year to 2026-06-30 Total Revenue increasing 11.7% in fiscal 2026-06-30 vs 2025-06-30 Net Income increasing 18.9% in fiscal 2026-06-30 vs 2025-06-30 EBIT increasing 19.1% in fiscal 2026-06-30 vs 2025-06-30 Net Income Common Stockholders increasing 18.9% in fiscal 2026-06-30 vs 2025-06-30 EBITDA increasing 17.7% in fiscal 2026-06-30 vs 2025-06-30 Operating Income increasing 12.9% in fiscal 2026-06-30 vs 2025-06-30"
+    },
+    {
+      "id": "S4",
+      "kind": "catalyst",
+      "ref": "catalyst",
+      "label": "KLAC earnings calendar and reported results",
+      "provider": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings",
+      "date": "2026-10-28",
+      "weight": null,
+      "text": "2026-10-28 (Wednesday, after the close), 4 days out -- from the earnings calendar, consensus EPS 1.18. beat streak 4 median gap 91 days 2026-07-28 estimate 1.0 actual 1.05 surprise 5.14% 2026-04-29 estimate 0.92 actual 0.94 surprise 2.5% 2026-01-29 estimate 0.88 actual 0.89 surprise 0.59% 2025-10-29 estimate 0.86 actual 0.88 surprise 2.24%"
+    },
+    {
+      "id": "S5",
+      "kind": "nasdaq",
+      "ref": "news:0",
+      "label": "Zacks: KLA (KLAC) Stock Sinks As Market Gains: Here's Why",
+      "provider": null,
+      "url": "/articles/kla-klac-stock-sinks-market-gains-heres-why-0",
+      "date": "Oct 20, 20",
+      "weight": 3,
+      "text": "KLA (KLAC) Stock Sinks As Market Gains: Here's Why The latest trading day saw KLA (KLAC) settling at $161.74, representing a -2.8% change from its previous close."
+    },
+    {
+      "id": "S6",
+      "kind": "nasdaq",
+      "ref": "news:1",
+      "label": "Zacks: KLA (KLAC) Earnings Expected to Grow: Should You Buy?",
+      "provider": null,
+      "url": "/articles/kla-klac-earnings-expected-grow-should-you-buy",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "KLA (KLAC) Earnings Expected to Grow: Should You Buy? KLA (KLAC) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S7",
+      "kind": "nasdaq",
+      "ref": "news:2",
+      "label": "Zacks: AEIS Rides on Strong Semiconductor Growth: Can It Beat KLAC and MKSI?",
+      "provider": null,
+      "url": "/articles/aeis-rides-strong-semiconductor-growth-can-it-beat-klac-and-mksi",
+      "date": "Oct 21, 20",
+      "weight": 3,
+      "text": "AEIS Rides on Strong Semiconductor Growth: Can It Beat KLAC and MKSI? Advanced Energy's semiconductor growth, innovative power solutions, and expanding capacity strengthen its position against KLAC and MKSI."
+    },
+    {
+      "id": "S8",
+      "kind": "nasdaq",
+      "ref": "news:3",
+      "label": "Zacks: Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results?",
+      "provider": null,
+      "url": "/articles/should-klac-stock-be-your-portfolio-pre-q1-earnings-results",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Should KLAC Stock Be in Your Portfolio Pre-Q1 Earnings Results? KLA's fiscal Q1 earnings outlook is fueled by AI investments, HBM demand and advanced packaging growth, but premium valuation and margin pressures warrant attention."
+    },
+    {
+      "id": "S9",
+      "kind": "nasdaq",
+      "ref": "news:4",
+      "label": "Zacks: Down 21.0% in 4 Weeks, Here's Why KLA (KLAC) Looks Ripe for a Turnaround",
+      "provider": null,
+      "url": "/articles/down-210-4-weeks-heres-why-kla-klac-looks-ripe-turnaround",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Down 21.0% in 4 Weeks, Here's Why KLA (KLAC) Looks Ripe for a Turnaround KLA (KLAC) is technically in oversold territory now, so the heavy selling pressure might have exhausted. This along with strong agreement among Wall Street analysts in raising earnings estimates could lead to a trend reversal for the stock."
+    },
+    {
+      "id": "S10",
+      "kind": "nasdaq",
+      "ref": "news:5",
+      "label": "Zacks: Insights Into KLA (KLAC) Q1: Wall Street Projections for Key Metrics",
+      "provider": null,
+      "url": "/articles/insights-kla-klac-q1-wall-street-projections-key-metrics",
+      "date": "Oct 23, 20",
+      "weight": 3,
+      "text": "Insights Into KLA (KLAC) Q1: Wall Street Projections for Key Metrics Get a deeper insight into the potential performance of KLA (KLAC) for the quarter ended September 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics."
+    },
+    {
+      "id": "S11",
+      "kind": "nasdaq",
+      "ref": "news:6",
+      "label": "Zacks: Can Semiconductor Systems Drive AMAT's Next Growth Phase?",
+      "provider": null,
+      "url": "/articles/can-semiconductor-systems-drive-amats-next-growth-phase",
+      "date": "Oct 22, 20",
+      "weight": 2,
+      "text": "Can Semiconductor Systems Drive AMAT's Next Growth Phase? Applied Materials is capitalizing on AI chip demand as advanced logic, DRAM and packaging investments fuel Semiconductor Systems growth and margin expansion."
+    },
+    {
+      "id": "S12",
+      "kind": "nasdaq",
+      "ref": "news:7",
+      "label": "Zacks: Should You Buy, Sell, or Hold TER Stock Before Q3 Earnings Release?",
+      "provider": null,
+      "url": "/articles/should-you-buy-sell-or-hold-ter-stock-q3-earnings-release",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "Should You Buy, Sell, or Hold TER Stock Before Q3 Earnings Release? Teradyne's strong AI-driven demand, expanding semiconductor testing opportunities, and upbeat Q3 earnings outlook make the stock an attractive investment choice."
+    },
+    {
+      "id": "S13",
+      "kind": "nasdaq",
+      "ref": "news:8",
+      "label": "Zacks: Analysts Estimate Alps Alpine Co Ltd. - Unsponsored ADR (APELY) to Report a Decline in Earnings: What to Look Out for",
+      "provider": null,
+      "url": "/articles/analysts-estimate-alps-alpine-co-ltd-unsponsored-adr-apely-report-decline-earnings-what",
+      "date": "Oct 23, 20",
+      "weight": 2,
+      "text": "Analysts Estimate Alps Alpine Co Ltd. - Unsponsored ADR (APELY) to Report a Decline in Earnings: What to Look Out for Alps Alpine Co Ltd. - Unsponsored ADR (APELY) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations."
+    },
+    {
+      "id": "S14",
+      "kind": "nasdaq",
+      "ref": "news:9",
+      "label": "Barchart: Strength in Chipmakers and AI-Infrastructure Stocks Lead the Broader Market Higher",
+      "provider": null,
+      "url": "/articles/strength-chipmakers-and-ai-infrastructure-stocks-lead-broader-market-higher",
+      "date": "Oct 19, 20",
+      "weight": 1,
+      "text": "Strength in Chipmakers and AI-Infrastructure Stocks Lead the Broader Market Higher The S&P 500 Index ($SPX ) (SPY ) is up by +0.57% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.11%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.52%.  December E-mini S&P futures (ESZ26 ) are up +0.58%, and December E-mini..."
+    },
+    {
+      "id": "S15",
+      "kind": "nasdaq",
+      "ref": "news:10",
+      "label": "Barchart: Stocks Supported by a Rebound in Chipmakers and AI-Infrastructure Companies",
+      "provider": null,
+      "url": "/articles/stocks-supported-rebound-chipmakers-and-ai-infrastructure-companies",
+      "date": "Oct 19, 20",
+      "weight": 1,
+      "text": "Stocks Supported by a Rebound in Chipmakers and AI-Infrastructure Companies The S&P 500 Index ($SPX ) (SPY ) is up by +0.51% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.17%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.20%.  December E-mini S&P futures (ESZ26 ) are up +0.48%, and December E-mini..."
+    },
+    {
+      "id": "S16",
+      "kind": "nasdaq",
+      "ref": "news:11",
+      "label": "Barchart: Stocks Pressured by Tech Stock Weakness and Higher Crude Oil Prices",
+      "provider": null,
+      "url": "/articles/stocks-pressured-tech-stock-weakness-and-higher-crude-oil-prices",
+      "date": "Oct 20, 20",
+      "weight": 1,
+      "text": "Stocks Pressured by Tech Stock Weakness and Higher Crude Oil Prices The S&P 500 Index ($SPX ) (SPY ) is down by -0.15% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.57%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.82%.  December E-mini S&P futures (ESZ26 ) are down -0.10%, and December E-mini..."
+    },
+    {
+      "id": "S17",
+      "kind": "nasdaq",
+      "ref": "news:12",
+      "label": "Barchart: Tech Stocks Lead Broad Market Lower as Meta Slides -6%",
+      "provider": null,
+      "url": "/articles/tech-stocks-lead-broad-market-lower-meta-slides-6",
+      "date": "Oct 22, 20",
+      "weight": 1,
+      "text": "Tech Stocks Lead Broad Market Lower as Meta Slides -6% The S&P 500 Index ($SPX ) (SPY ) is down -0.78%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.29%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -1.50%.  December E-mini S&P futures (ESZ26 ) are down -0.81%, and December E-mini Nasdaq futures (NQZ26..."
+    },
+    {
+      "id": "S18",
+      "kind": "nasdaq",
+      "ref": "news:13",
+      "label": "Barchart: Stocks Fall Sharply on Risk-Off as Meta Slides -7%",
+      "provider": null,
+      "url": "/articles/stocks-fall-sharply-risk-meta-slides-7",
+      "date": "Oct 23, 20",
+      "weight": 1,
+      "text": "Stocks Fall Sharply on Risk-Off as Meta Slides -7% The S&P 500 Index ($SPX ) (SPY ) fell -1.21%, the Dow Jones Industrial Average ($DOWI ) (DIA ) rose +0.02%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) fell -2.90%.  December E-mini S&P futures (ESZ26 ) fell -1.18%, and December E-mini Nasdaq futures (NQZ26 ) fell -2.79%. A..."
+    },
+    {
+      "id": "S19",
+      "kind": "ollama_search",
+      "ref": "web:0",
+      "label": "sectally.com: KLAC \u2014 KLA Corporation \u2014 sectally",
+      "provider": "sectally.com",
+      "url": "https://sectally.com/reports/klac/",
+      "date": "2026-05-09",
+      "weight": 3,
+      "text": "KLAC \u2014 KLA Corporation \u2014 sectally KLAC \u2014 KLA Corporation \u2014 sectally\n\n# KLAC\n\n Research Note \u2014 This is editorial analysis based on public data. It does not constitute investment advice, a recommendation to buy or sell any security, or an offer to transact. sectally has no positions in KLAC. See full disclaimer. \n\n# KLAC \u00b7 KLA Corporation \u2014 The Toll Booth of Semiconductor Manufacturing\n\nResearch Date: May 12, 2026 Current Price: $1,869.19 (2026-05-09 close) Market Cap: ~$244B Research Type: Phase 2 Formal \u2014 Based on public IR filings + third-party cross-verification\n\n## Data Credibility & Verification Layer\n\nThis report has not"
+    },
+    {
+      "id": "S20",
+      "kind": "ollama_search",
+      "ref": "web:1",
+      "label": "ir.kla.com: KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS :: KLA Corporation (KLAC)",
+      "provider": "ir.kla.com",
+      "url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+      "date": "2026-07-28",
+      "weight": 3,
+      "text": "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS :: KLA Corporation (KLAC) KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS :: KLA Corporation (KLAC)\n\n# KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS\n\n Download as PDF July 28, 2026 4:05pm EDT \n\nEarnings Slide Presentation\n\nEarnings Infographic\n\n10-K Filing\n\nXBRL\n\n- For the quarter, total revenues were $3.66 billion, above the midpoint of the guidance range;\n- GAAP diluted EPS was $1.04, at the upper end of the guidance range, and non-GAAP diluted EPS was $1.05, at the upper end of the guidance range;\n- Cash flow from operating activities for the quarter and fiscal yea"
+    },
+    {
+      "id": "S21",
+      "kind": "ollama_search",
+      "ref": "web:2",
+      "label": "simplywall.st: What KLA (KLAC)'s Revenue Outlook Means For Shareholders - Simply Wall St News",
+      "provider": "simplywall.st",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-klac/kla/news/what-kla-klacs-revenue-outlook-means-for-shareholders",
+      "date": "2026-10-01",
+      "weight": 3,
+      "text": "What KLA (KLAC)'s Revenue Outlook Means For Shareholders - Simply Wall St News What KLA (KLAC)'s Revenue Outlook Means For Shareholders - Simply Wall St News\n\n# What KLA (KLAC)'s Revenue Outlook Means For Shareholders\n\n October 01, 2026\n\nSimply Wall St Reviewed by Sasha Jovanovic\n\n- KLA reported June quarter revenue of US$3.658b and GAAP net income of US$1.363b, then guided fiscal Q1 2027 revenue to about US$4.0b, plus or minus US$200m.\n- The guidance lift and management\u2019s comments about accelerating momentum into late 2026 and 2027 describe rising demand for KLA\u2019s process control and inspection tools.\n- We will now look at how KLA\u2019s raised near term revenue outlook and"
+    },
+    {
+      "id": "S22",
+      "kind": "ollama_search",
+      "ref": "web:3",
+      "label": "dyorhq.ai: DYOR HQ - KLA Corp (KLAC) | 2026-10-04",
+      "provider": "dyorhq.ai",
+      "url": "https://dyorhq.ai/reports/klacorp",
+      "date": "2026-10-04",
+      "weight": 3,
+      "text": "DYOR HQ - KLA Corp (KLAC) | 2026-10-04 DYOR HQ - KLA Corp (KLAC) | 2026-10-04\n\n# KLAC - KLA Corp\n\n59 Conviction out of 100\n\n## Executive Summary\n\nKLA Corporation (NASDAQ: KLAC) is a leading supplier of process control and yield management solutions for the semiconductor industry, headquartered in Milpitas, California. The company designs, manufactures, and services equipment and software that chipmakers use to detect defects and monitor critical process parameters during wafer fabrication, addressing a market position that places it among the principal process-control vendors globally. KLA's products are deployed across logic, foun"
+    },
+    {
+      "id": "S23",
+      "kind": "ollama_search",
+      "ref": "web:4",
+      "label": "finance.yahoo.com: The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-kla-klac-could-201313827.html",
+      "date": "2026-10-07",
+      "weight": 3,
+      "text": "The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks\n\n# The Bull Case For KLA (KLAC) Could Change Following Rising AI Focus Amid Export And Cyclical Risks\n\n Sasha Jovanovic Wed, October 7, 2026 at 3:13 PM CDT 4 min read\n\n- In recent days, KLA Corporation has attracted renewed attention as analysts highlighted its essential process-control role in easing the chip shortage and supporting AI-focused semiconductor manufacturing, while also pointing to ongoing risks from U.S. export restrictions and cyclical wafer equipment spending. \n- At the same time"
+    },
+    {
+      "id": "S24",
+      "kind": "ollama_search",
+      "ref": "web:5",
+      "label": "stockanalysis.com: KLA Corporation (KLAC) Analyst Ratings",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/klac/ratings/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "KLA Corporation (KLAC) Analyst Ratings KLA Corporation (KLAC) Analyst Ratings\n\n145.61 -2.22 (-1.50%) At close: Oct 23, 2026, 4:00 PM EDT\n\n146.20 +0.59 (0.41%) After-hours: Oct 23, 2026, 7:59 PM EDT\n\n## Ratings History\n\n| Analyst | Firm | Rating | Rating | Action | Price Target | Upside | Date |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Timothy Arcuri UBS | UBS | Hold Maintains $200 \u2192 $190 | Hold | Maintains | $200 \u2192 $190 | +30.49% | Oct 20, 2026 |\n| Shane Brett CFA Morgan Stanley | Morgan Stanley | Buy Maintains $253 \u2192 $227 | Buy | Maintains | $253 \u2192 $227 | +55.90% | Oct 6, 2026 |\n| David Dai CFA Bernstein | Bernstein | B"
+    },
+    {
+      "id": "S25",
+      "kind": "ollama_search",
+      "ref": "web:6",
+      "label": "gngresearch.com: KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets",
+      "provider": "gngresearch.com",
+      "url": "https://www.gngresearch.com/stock/KLAC/",
+      "date": "2026-10-23",
+      "weight": 3,
+      "text": "KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets KLA (KLAC): Valuation, Margins, ROIC & Analyst Targets\n\n# KLA Corporation (KLAC)\n\nTECHNOLOGY \u2022 SEMICONDUCTOR EQUIPMENT & MATERIALS \u2022 NASDAQ\n\n$147.83\n\n-15.60 (-9.55%)\n\nMarket Cap: $213.28B\n\nLast updated: Oct 23, 2026 at 5:00 PM ET\n\n### Earnings\n\nQuarterly Annual\n\n1Y 3Y 5Y 10Y All\n\n#### Performance (10Y)\n\nBeat Rate\n\n100%(39/39)\n\nAvg Surprise\n\n+6.34%\n\nStreak\n\n48 Q\n\n#### Upcoming Estimates\n\nPeriod ending Sep 30, 2026\n\nEPS Consensus$1.18 Range$1.15 - $1.25 22 analysts\n\nEPS Revisions\n\n1\n\n0\n\n7d\n\n1\n\n30d\n\nEPS Estimate Drift Change to current\n\n90d ago$1.13+4.0% 60d ago$1.18-0.0% 30d ago$1.18-0.0% 7d ago"
+    },
+    {
+      "id": "S26",
+      "kind": "ollama_search",
+      "ref": "web:7",
+      "label": "reuters.com: KLA forecasts upbeat second-quarter revenue, but China weakness persists | Reuters",
+      "provider": "reuters.com",
+      "url": "https://www.reuters.com/world/asia-pacific/kla-forecasts-upbeat-second-quarter-revenue-china-weakness-persists-2025-10-29/",
+      "date": "2025-10-29",
+      "weight": 0,
+      "text": "KLA forecasts upbeat second-quarter revenue, but China weakness persists | Reuters KLA forecasts upbeat second-quarter revenue, but China weakness persists | Reuters\n\n# KLA forecasts upbeat second-quarter revenue, but China weakness persists\n\nBy Reuters\n\nOctober 29, 2025 9:03 PM UTC Updated October 29, 2025\n\nOct 29 (Reuters) - KLA Corp (KLAC.O), opens new tab forecast second-quarter revenue above Wall Street estimates on Wednesday, banking on strong AI-linked demand for its chipmaking tools, while flagging significant risks to its China business amid Sino-U.S. trade tensions.\n\nDemand for advanced chips that power generative AI applications has grown unabated, benefiting comp"
+    },
+    {
+      "id": "S27",
+      "kind": "ollama_search",
+      "ref": "web:8",
+      "label": "henryfund.tippie.uiowa.edu: Combined PDF",
+      "provider": "henryfund.tippie.uiowa.edu",
+      "url": "https://henryfund.tippie.uiowa.edu/sites/henryfund.tippie.uiowa.edu/files/2026-04/KLAC-S26.pdf",
+      "date": "2026-01-29",
+      "weight": 0,
+      "text": "Combined PDF The Henry Fund Henry B. Tippie College of Business Josh Smiley jmsmiley@uiowa.edu\n\n## KLA Corportaiton (KLAC) April 22nd, 2026\n\nInformation Technology - Semiconductors and Semiconductor Equipment Stock Rating NO ACTION\n\n| | | Investment Thesis | | | | Target Price $1,150-1,200 |\n| --- | --- | --- | --- | --- | --- | --- |\n| We recommend NO ACTION of $1,172.29, representing 36% downside from the current price of $1,812. KLA is an exceptional business with a near-monopoly position in semiconductor process control, 52 consecutive quarters of services revenue growth, and ROIC consistently above 80"
+    },
+    {
+      "id": "S28",
+      "kind": "ollama_search",
+      "ref": "web:9",
+      "label": "investing.com: Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-kla-stock-price-target-on-valuation-concerns-93CH-4934052",
+      "date": "2026-10-06",
+      "weight": 0,
+      "text": "Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com Morgan Stanley cuts KLA stock price target on valuation concerns By Investing.com\n\n# Morgan Stanley cuts KLA stock price target on valuation concerns\n\nPublished Oct 06, 2026, 07:06 AM\n\nInvesting.com - Morgan Stanley lowered its price target on KLA Corporation (NASDAQ:KLAC) shares to $227 from $253 while maintaining an Overweight rating on the stock.\n\nThe firm raised its calendar year 2027 revenue forecast for KLA to $21.4 billion from $20.4 billion and increased its earnings per share estimate to $6.77 from $6.23. The analyst cited improved leading logic forecasts and slightly higher gross mar"
+    },
+    {
+      "id": "S29",
+      "kind": "ollama_search",
+      "ref": "web:10",
+      "label": "twelvedata.com: KLA Corporation",
+      "provider": "twelvedata.com",
+      "url": "https://twelvedata.com/markets/871432/stock/bmv/klac/analysis",
+      "date": "2026-10-06",
+      "weight": 0,
+      "text": "KLA Corporation Now Live: Cboe Europe real-time data for all major European stocks.\n\nData add-ons\n\nUnited States\n\nclosing in 1h 31m\n\n- 0700 386.80 \u00a01.15%\n- EUR/USD 1.12 -0.20%\n- AAPL 346.33 -0.54%\n- TSLA 371.58 -0.80%\n- NESN 83.49 -1.04%\n- 7203 3,096.00 \u00a00.39%\n- USD/JPY 156.87 0.00%\n- XPT/USD 1,003.20 \u00a00.33%\n- ETH/USD 2,405.88 \u00a00.70%\n- 2330 2,395.00 -1.03%\n- 005930 215,500.00 \u00a00.47%\n- MC 383.00 -1.24%\n- AZN 12,824.00 -1.20%\n- ASML 1,407.20 -0.87%\n\n##### Main market\n\nSTOCKS is currently active.\nClosing in 1 hour 31 minutes\n\n14:28\n\n00:00\n\n09:30\n\n16:00\n\n23:59\n\nTrading Hours (Monday - Friday):\n\nPre-market\n\n04:00"
+    },
+    {
+      "id": "S30",
+      "kind": "ollama_search",
+      "ref": "web:11",
+      "label": "ad-hoc-news.de: KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent",
+      "provider": "ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/kla-scheduled-october-28-results-as-kla-corporation-stock-gains-2-30-percent/70323493",
+      "date": "2026-10-14",
+      "weight": 0,
+      "text": "KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent\n\n# KLA scheduled October 28 results as KLA Corporation stock gains 2.30 percent\n\n Published on 10/14/2026 at 12:18 | Editorial responsibility: Rafael M\u00fcller, Editor-in-Chief AD HOC NEWS \n\nFiscal 2026 revenue rose 11.70 percent to USD 13.58 billion. KLA Corporation stock costs EUR 164.67 on October 14, 2026 versus EUR 160.96.\n\n## Earnings calendar and valuation\n\n- KLA scheduled its first quarter fiscal 2027 results for October 28, 2026.\n- Fiscal 2026 revenue rose 11.70 percent to USD 13.58 billion.\n- KLA Corporation st"
+    },
+    {
+      "id": "S31",
+      "kind": "ollama_search",
+      "ref": "web:12",
+      "label": "investing.com: KLA Corp. stock may move 5.7% on earnings next week By Investing.com",
+      "provider": "investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/kla-corp-stock-may-move-57-on-earnings-next-week-93CH-4963473",
+      "date": "2026-10-21",
+      "weight": 0,
+      "text": "KLA Corp. stock may move 5.7% on earnings next week By Investing.com KLA Corp. stock may move 5.7% on earnings next week By Investing.com\n\n# KLA Corp. stock may move 5.7% on earnings next week\n\nEditor Louis Juricic Stock Markets\n\nEditor Louis Juricic\n\nPublished Oct 21, 2026, 10:20 AM\n\nIn this article:\n\nInvesting.com -- KLA Corp. shares could move 5.7% when the company reports earnings on October 28 after the market close, based on options data compiled by Bloomberg.\n\nThe semiconductor equipment maker has exceeded the implied move in four of its past eight earnings announcements. On July 28, the stock dropped 18.0% against an implied move of 5.6%. The April 29 r"
+    },
+    {
+      "id": "S32",
+      "kind": "ollama_search",
+      "ref": "web:13",
+      "label": "finance.yahoo.com: KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case",
+      "provider": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-stock-near-earnings-chip-011417381.html",
+      "date": "2026-10-22",
+      "weight": 0,
+      "text": "KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case\n\n# KLA Stock Near Earnings As Chip Sector Pressure Tests The Bull Case\n\n Sasha Jovanovic Thu, October 22, 2026 at 9:14 PM EDT 7 min read\n\n## Trading disclosure \n\n- KLA is preparing to report September 2026 quarter results on 28 October, with analysts expecting higher earnings supported by increased revenue. \n- The key tension for KLA is whether expected operational progress can offset recent semiconductor sector pressure following Lam Research's earnings update. \n- We will look at how KLA's investment narrative intersects with"
+    },
+    {
+      "id": "S33",
+      "kind": "research",
+      "ref": "trend:0",
+      "label": "semi.org: As of October 2026, SEMI expects 300mm fab equipment investment to grow at double-digit rates through 2029.",
+      "provider": "semi.org",
+      "url": "https://www.semi.org/en/semi-press-release/global-300mm-fab-equipment-spending-to-reach-227-billion-in-2029-as-buildout-accelerates-semi-projects",
+      "date": "2026-10-13",
+      "weight": null,
+      "text": "As of October 2026, SEMI expects 300mm fab equipment investment to grow at double-digit rates through 2029. Multi-year fab buildout supports KLA's process-control demand beyond 2026. \"Investment is expected to continue growing at double-digit rates through 2029, reaching $227 billion.\""
+    },
+    {
+      "id": "S34",
+      "kind": "research",
+      "ref": "trend:1",
+      "label": "semi.org: As of June 2026, SEMI projects memory 300mm equipment investment to surpass $50 billion in 2026, up 29%.",
+      "provider": "semi.org",
+      "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+      "date": "2026-06-29",
+      "weight": null,
+      "text": "As of June 2026, SEMI projects memory 300mm equipment investment to surpass $50 billion in 2026, up 29%. Memory capex growth drives demand for KLA's inspection and metrology tools. \"memory sector is projected to surpass $50 billion for the first time in 2026, rising 29% to $52 billion\""
+    },
+    {
+      "id": "S35",
+      "kind": "research",
+      "ref": "trend:2",
+      "label": "gartner.com: As of October 2026, Gartner forecasts wafer fab equipment revenue up 29.4% in 2026.",
+      "provider": "gartner.com",
+      "url": "https://www.gartner.com/en/documents/8499577",
+      "date": "2026-10-13",
+      "weight": null,
+      "text": "As of October 2026, Gartner forecasts wafer fab equipment revenue up 29.4% in 2026. AI-driven WFE growth supports KLA's process-control demand into 2027. \"Wafer fab equipment revenue will increase by 29.4% in 2026, driven by increased spending in response to soaring demand for AI semiconductors.\""
+    },
+    {
+      "id": "S36",
+      "kind": "research",
+      "ref": "trend:3",
+      "label": "trendforce.com: As of October 2026, AI and advanced nodes are driving a structural process-control demand shift.",
+      "provider": "trendforce.com",
+      "url": "https://www.trendforce.com/research/download/RP261013WG3",
+      "date": "2026-10-13",
+      "weight": null,
+      "text": "As of October 2026, AI and advanced nodes are driving a structural process-control demand shift. It extends metrology and inspection demand from front-end to back-end, expanding KLA's addressable market. \"AI and advanced nodes are driving a paradigm shift in process control.\""
+    },
+    {
+      "id": "S37",
+      "kind": "research",
+      "ref": "trend:4",
+      "label": "stockanalysis.com: As of June 2026, industry investment and wafer equipment demand are set for robust growth through 2027.",
+      "provider": "stockanalysis.com",
+      "url": "https://stockanalysis.com/stocks/klac/transcripts/678927-bank-of-america-2026-global-technology-conference/",
+      "date": "2026-06-03",
+      "weight": null,
+      "text": "As of June 2026, industry investment and wafer equipment demand are set for robust growth through 2027. Advanced packaging, HPC, and memory intensity drive KLA's process-control demand. \"Industry investment and wafer equipment demand are set for robust growth through 2027, with advanced packaging, High-Performance Compute, and memory intensity as key drivers.\""
+    },
+    {
+      "id": "S38",
+      "kind": "options",
+      "ref": "options",
+      "label": "KLAC listed option chain",
+      "provider": "Yahoo Finance (via yfinance)",
+      "url": "https://finance.yahoo.com/quote/KLAC/options/",
+      "date": "2026-10-24",
+      "weight": null,
+      "text": "long CALL strike 152.0 expiry 2027-03-19 premium 36.6 short PUT strike 140.0 expiry 2027-03-19 premium 16.8"
+    }
+  ],
+  "trailing_vs_consensus": null,
+  "forward_trends_samples": [
+    {
+      "queries": [
+        "semiconductor wafer fab equipment spending forecast 2026 2027 foundry memory advanced packaging",
+        "AI data center chip demand 2026 HBM advanced packaging capacity expansion equipment spending",
+        "China semiconductor equipment export controls 2026 mature node wafer fab capex oversupply",
+        "KLA Corporation KLAC process control inspection metrology demand 2026 2027 advanced node advanced packaging"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "Memory 300mm equipment investment is projected to surpass $50 billion in 2026, rising 29% to $52 billion.",
+          "stance": "support",
+          "why": "Memory capacity additions for HBM and DDR5 raise demand for KLA inspection and metrology.",
+          "quote": "memory sector is projected to surpass $50 billion for the first time in 2026, rising 29% to $52 billion",
+          "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+          "publisher": "semi.org",
+          "as_of": "2026-06-29",
+          "age_days": 117,
+          "undated": false
+        },
+        {
+          "claim": "Wafer fab equipment revenue is forecast to rise 29.4% in 2026 and 16.5% in 2027.",
+          "stance": "support",
+          "why": "KLA sells process control into WFE, so higher WFE revenue lifts its addressable market.",
+          "quote": "Wafer fab equipment revenue will increase by 29.4% in 2026, driven by increased spending in response to soaring demand for AI semiconductors.",
+          "url": "https://www.gartner.com/en/documents/8499577",
+          "publisher": "gartner.com",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "AI chip and server growth is expected to accelerate in 2027 while HBM and CoWoS supply stays tight.",
+          "stance": "support",
+          "why": "Tight HBM and advanced packaging capacity raise inspection and metrology needs for KLA.",
+          "quote": "AI chip and server growth accelerates in 2027 on rack-scale systems and ASICs, while HBM and CoWoS supply stays tight.",
+          "url": "https://www.trendforce.com/research/download/RP261002JV3",
+          "publisher": "trendforce.com",
+          "as_of": "2026-10-02",
+          "age_days": 22,
+          "undated": false
+        },
+        {
+          "claim": "As of September 2026, advanced packaging and logic nodes are driving higher process control intensity.",
+          "stance": "support",
+          "why": "Higher process control intensity raises KLA's content per fab and supports revenue growth.",
+          "quote": "Advanced packaging and logic nodes are driving higher process control intensity",
+          "url": "https://stockanalysis.com/stocks/klac/transcripts/738257-citi-s-2026-global-tmt-conference/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-09-09",
+          "age_days": 45,
+          "undated": false
+        },
+        {
+          "claim": "As of early 2026, China requires new fabs to source at least 50% of wafer fab equipment domestically.",
+          "stance": "pressure",
+          "why": "This policy could limit KLA's China equipment sales as domestic toolmakers gain share.",
+          "quote": "requiring local chipmakers to source no less than 50% of their wafer fabrication equipment (WFE) from domestic vendors",
+          "url": "https://www.eetimes.com/how-china-struggles-to-reach-wfe-self-sufficiency/",
+          "publisher": "eetimes.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        }
+      ],
+      "dropped": [
+        {
+          "claim": "300mm fab equipment spending is forecast to grow 18% in 2026 and 14% in 2027.",
+          "stance": "support",
+          "why": "Higher fab tool spending expands the market for KLA's process control systems.",
+          "quote": "Worldwide 300mm fab equipment spending is expected to increase 18% to $133 billion in 2026 and 14% to $151 billion in 2027",
+          "url": "https://www.semi.org/en/semi-press-release/semi-projects-double-digit-growth-in-global-300mm-fab-equipment-spending-for-2026-and-2027",
+          "publisher": "semi.org",
+          "as_of": "2026-04-01",
+          "age_days": 206,
+          "undated": false,
+          "drop_reason": "stale (206 days old)"
+        }
+      ],
+      "stale_dropped": 1,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "2026 2027 wafer fab equipment capex outlook memory logic foundry spending",
+        "advanced packaging HBM hybrid bonding inspection metrology demand 2026 2027",
+        "China semiconductor equipment localization inspection metrology competition 2026",
+        "KLA KLAC 2026 process control demand advanced node customer capital budgets"
+      ],
+      "results_count": 20,
+      "results_dated": 15,
+      "trends": [
+        {
+          "claim": "Wafer fab equipment revenue is forecast to grow 29.4% in 2026 and 16.5% in 2027 on AI demand.",
+          "stance": "support",
+          "why": "Higher wafer fab equipment spending expands the market for KLA's process-control tools.",
+          "quote": "Wafer fab equipment revenue will increase by 29.4% in 2026, driven by increased spending in response to soaring demand for AI semiconductors.",
+          "url": "https://www.gartner.com/en/documents/8499577",
+          "publisher": "gartner.com",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "Global 300mm front-end equipment spending is projected at $149 billion in 2026, up 31% year-over-year.",
+          "stance": "support",
+          "why": "Sustained fab buildout increases process-control tool demand and KLA's served market.",
+          "quote": "Global 300mm front-end fab equipment spending is projected to reach $149 billion in 2026, up 31% year-over-year",
+          "url": "https://www.semi.org/en/semi-press-release/global-300mm-fab-equipment-spending-to-reach-227-billion-in-2029-as-buildout-accelerates-semi-projects",
+          "publisher": "semi.org",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "Memory 300mm equipment investment is projected to surpass $50 billion in 2026, rising 29%.",
+          "stance": "support",
+          "why": "Memory and HBM capacity spending adds process-control demand for KLA.",
+          "quote": "memory sector is projected to surpass $50 billion for the first time in 2026, rising 29% to $52 billion",
+          "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+          "publisher": "semi.org",
+          "as_of": "2026-06-29",
+          "age_days": 117,
+          "undated": false
+        },
+        {
+          "claim": "Advanced-packaging inspection and metrology market is forecast to grow at 9.0% CAGR from 2026 to 2032.",
+          "stance": "support",
+          "why": "A larger advanced-packaging inspection market adds a growth vector for KLA.",
+          "quote": "market size is predicted to grow from US$ 905 million in 2025 to US$ 1633 million in 2032",
+          "url": "https://www.lpinformationdata.com/reports/1787631/advanced-packaging-inspection-and-metrology-equipment",
+          "publisher": "lpinformationdata.com",
+          "as_of": null,
+          "age_days": null,
+          "undated": true
+        },
+        {
+          "claim": "Process-control demand is extending from front-end to back-end as AI and advanced nodes raise testing needs.",
+          "stance": "support",
+          "why": "Back-end advanced-packaging inspection expands KLA's addressable process-control market.",
+          "quote": "This extends metrology and inspection demand from front-end to back-end.",
+          "url": "https://www.trendforce.com/research/download/RP261013WG3",
+          "publisher": "trendforce.com",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    },
+    {
+      "queries": [
+        "KLA Corporation KLAC 2026 process control demand advanced packaging PCB inspection",
+        "semiconductor wafer fab equipment capex outlook 2026 2027 foundry memory spending",
+        "wafer defect inspection metrology technology roadmap 2026 e-beam optical AI competition",
+        "China semiconductor equipment export controls 2026 mature node overcapacity fab utilization"
+      ],
+      "results_count": 20,
+      "results_dated": 18,
+      "trends": [
+        {
+          "claim": "As of October 2026, SEMI expects 300mm fab equipment investment to grow at double-digit rates through 2029.",
+          "stance": "support",
+          "why": "Multi-year fab buildout supports KLA's process-control demand beyond 2026.",
+          "quote": "Investment is expected to continue growing at double-digit rates through 2029, reaching $227 billion.",
+          "url": "https://www.semi.org/en/semi-press-release/global-300mm-fab-equipment-spending-to-reach-227-billion-in-2029-as-buildout-accelerates-semi-projects",
+          "publisher": "semi.org",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, SEMI projects memory 300mm equipment investment to surpass $50 billion in 2026, up 29%.",
+          "stance": "support",
+          "why": "Memory capex growth drives demand for KLA's inspection and metrology tools.",
+          "quote": "memory sector is projected to surpass $50 billion for the first time in 2026, rising 29% to $52 billion",
+          "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+          "publisher": "semi.org",
+          "as_of": "2026-06-29",
+          "age_days": 117,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, Gartner forecasts wafer fab equipment revenue up 29.4% in 2026.",
+          "stance": "support",
+          "why": "AI-driven WFE growth supports KLA's process-control demand into 2027.",
+          "quote": "Wafer fab equipment revenue will increase by 29.4% in 2026, driven by increased spending in response to soaring demand for AI semiconductors.",
+          "url": "https://www.gartner.com/en/documents/8499577",
+          "publisher": "gartner.com",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "As of October 2026, AI and advanced nodes are driving a structural process-control demand shift.",
+          "stance": "support",
+          "why": "It extends metrology and inspection demand from front-end to back-end, expanding KLA's addressable market.",
+          "quote": "AI and advanced nodes are driving a paradigm shift in process control.",
+          "url": "https://www.trendforce.com/research/download/RP261013WG3",
+          "publisher": "trendforce.com",
+          "as_of": "2026-10-13",
+          "age_days": 11,
+          "undated": false
+        },
+        {
+          "claim": "As of June 2026, industry investment and wafer equipment demand are set for robust growth through 2027.",
+          "stance": "support",
+          "why": "Advanced packaging, HPC, and memory intensity drive KLA's process-control demand.",
+          "quote": "Industry investment and wafer equipment demand are set for robust growth through 2027, with advanced packaging, High-Performance Compute, and memory intensity as key drivers.",
+          "url": "https://stockanalysis.com/stocks/klac/transcripts/678927-bank-of-america-2026-global-technology-conference/",
+          "publisher": "stockanalysis.com",
+          "as_of": "2026-06-03",
+          "age_days": 143,
+          "undated": false
+        }
+      ],
+      "dropped": [],
+      "stale_dropped": 0,
+      "max_age_days": 180
+    }
+  ]
+}
